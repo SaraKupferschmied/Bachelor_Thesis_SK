@@ -1,0 +1,41 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ba_thesis_db_dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    container_name: ba_thesis_adminer_dev
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  api:
+    image: node:20
+    container_name: ba_thesis_api_dev
+    working_dir: /app
+    volumes:
+      - ./DB_service:/app
+    #security fallback in case node_modules dont work
+    command: sh -lc "npm ci && npm run schema"
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    depends_on:
+      - db
+volumes:
+  pgdata:
