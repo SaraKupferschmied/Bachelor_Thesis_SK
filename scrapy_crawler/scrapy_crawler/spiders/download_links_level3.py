@@ -175,7 +175,7 @@ class DownloadLinksLevel3Spider(scrapy.Spider):
 
         yield {
             "curriculum_page_url": curriculum_url,
-            "programmes": refs,          # ← ALL programmes pointing to this page
+            "programmes": refs,          # ALL programmes pointing to this page (e.g. for scimed there are faculty curriculum pages)
             "documents": doc_bucket,
        
         }

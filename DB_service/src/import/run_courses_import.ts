@@ -99,21 +99,57 @@ function parseFirstWeeklySlot(vorlesungszeiten: string): {
 }
 
 // -----------------------------
-// DB upserts (IMPORTANT: use db.query, not pool.query)
+// Faculty lookup (NO INSERTS)
 // -----------------------------
-async function upsertFaculty(db: DB, name: string | null | undefined): Promise<number | null> {
+
+// Timetable "Fakultät" strings sometimes differ from your canonical Faculty.name_de
+const FACULTY_NAME_ALIASES: Record<string, string> = {
+  // timetable -> canonical Faculty.name_de from your faculties.json
+  "Math.-Nat. und Med. Fakultät":
+    "Mathematisch-Naturwissenschaftliche und Medizinische Fakultät",
+  "Interfakultär": "Interfakultär",
+  "Philosophische Fakultät": "Philosophische Fakultät",
+  "Rechtswissenschaftliche Fakultät": "Rechtswissenschaftliche Fakultät",
+  "Theologische Fakultät": "Theologische Fakultät",
+  "Wirtschafts- und Sozialwissenschaftliche Fakultät":
+    "Wirtschafts- und Sozialwissenschaftliche Fakultät",
+  "Fakultät für Erziehungs- und Bildungswissenschaften":
+    "Fakultät für Erziehungs- und Bildungswissenschaften",
+};
+
+function canonicalizeFacultyName(raw: any): string | null {
+  if (!raw) return null;
+  const s = String(raw).trim();
+  if (!s) return null;
+  return FACULTY_NAME_ALIASES[s] ?? s;
+}
+
+async function getFacultyIdByName(db: DB, rawFacultyName: any): Promise<number | null> {
+  const name = canonicalizeFacultyName(rawFacultyName);
   if (!name) return null;
-  const q = `
-    INSERT INTO Faculty (name)
-    VALUES ($1)
-    ON CONFLICT (name) DO UPDATE SET name = EXCLUDED.name
-    RETURNING faculty_id;
-  `;
-  const r = await db.query(q, [name.trim()]);
+
+  // exact match in any language column
+  const r = await db.query(
+    `
+    SELECT faculty_id
+    FROM Faculty
+    WHERE name_de = $1 OR name_fr = $1 OR name_en = $1
+    LIMIT 1;
+    `,
+    [name]
+  );
+
   return r.rows[0]?.faculty_id ?? null;
 }
 
-async function upsertDomain(db: DB, name: string | null | undefined, facultyId: number | null): Promise<number | null> {
+// -----------------------------
+// DB upserts (IMPORTANT: use db.query, not pool.query)
+// -----------------------------
+async function upsertDomain(
+  db: DB,
+  name: string | null | undefined,
+  facultyId: number | null
+): Promise<number | null> {
   if (!name || !facultyId) return null;
   const q = `
     INSERT INTO Domain (name, faculty_id)
@@ -152,11 +188,9 @@ async function upsertProfessor(db: DB, fullName: string): Promise<number> {
   const last_name = parts.length >= 2 ? parts[parts.length - 1] : name;
   const first_name = parts.length >= 2 ? parts.slice(0, -1).join(" ") : null;
 
-  // Prevent race conditions / duplicates even in parallel runs:
   const lockKey = `${(first_name ?? "").toLowerCase()}||${last_name.toLowerCase()}`;
   await db.query(`SELECT pg_advisory_xact_lock(hashtext($1));`, [lockKey]);
 
-  // 1) try find existing
   const found = await db.query(
     `
     SELECT prof_id
@@ -168,15 +202,12 @@ async function upsertProfessor(db: DB, fullName: string): Promise<number> {
     [first_name, last_name]
   );
 
-  if (found.rows.length > 0) {
-    return found.rows[0].prof_id;
-  }
+  if (found.rows.length > 0) return found.rows[0].prof_id;
 
-  // 2) otherwise insert new
   const inserted = await db.query(
     `
-    INSERT INTO Professor (title, first_name, last_name, email, office)
-    VALUES (NULL, $1, $2, NULL, NULL)
+    INSERT INTO Professor (first_name, last_name)
+    VALUES ($1, $2)
     RETURNING prof_id;
     `,
     [first_name, last_name]
@@ -185,9 +216,10 @@ async function upsertProfessor(db: DB, fullName: string): Promise<number> {
   return inserted.rows[0].prof_id;
 }
 
-
-
-async function upsertSemester(db: DB, sem: { sem_id: string; year: number; type: "Spring" | "Autumn" }): Promise<void> {
+async function upsertSemester(
+  db: DB,
+  sem: { sem_id: string; year: number; type: "Spring" | "Autumn" }
+): Promise<void> {
   const q = `
     INSERT INTO Semester (sem_id, year, type)
     VALUES ($1, $2, $3)
@@ -207,6 +239,7 @@ async function upsertCourse(
     remarks?: string | null;
     soft_skills?: boolean | null;
     outside_domain?: boolean | null;
+    benefri?: boolean | null;
     mobility?: boolean | null;
     unipop?: boolean | null;
     faculty_id?: number | null;
@@ -217,14 +250,14 @@ async function upsertCourse(
     INSERT INTO Course (
       code, alternative_code, name, ects,
       description, learning_goals, admission_conditions, remarks,
-      soft_skills, outside_domain, mobility, unipop,
+      soft_skills, outside_domain, benefri, mobility, unipop,
       faculty_id, domain_id
     )
     VALUES (
       $1, NULL, $2, $3,
       $4, $5, NULL, $6,
-      $7, $8, $9, $10,
-      $11, $12
+      $7, $8, $9, $10, $11,
+      $12, $13
     )
     ON CONFLICT (code) DO UPDATE SET
       name = EXCLUDED.name,
@@ -234,6 +267,7 @@ async function upsertCourse(
       remarks = EXCLUDED.remarks,
       soft_skills = EXCLUDED.soft_skills,
       outside_domain = EXCLUDED.outside_domain,
+      benefri = EXCLUDED.benefri,
       mobility = EXCLUDED.mobility,
       unipop = EXCLUDED.unipop,
       faculty_id = EXCLUDED.faculty_id,
@@ -249,6 +283,7 @@ async function upsertCourse(
     args.remarks ?? null,
     args.soft_skills ?? null,
     args.outside_domain ?? null,
+    args.benefri ?? null,
     args.mobility ?? null,
     args.unipop ?? null,
     args.faculty_id ?? null,
@@ -266,7 +301,8 @@ async function upsertCourseOffering(
   const q = `
     INSERT INTO CourseOffering (code, sem_id, offering_type, link_course_catalogue)
     VALUES ($1, $2, $3, $4)
-    ON CONFLICT (code, sem_id, offering_type) DO UPDATE SET link_course_catalogue = EXCLUDED.link_course_catalogue
+    ON CONFLICT (code, sem_id, offering_type)
+    DO UPDATE SET link_course_catalogue = EXCLUDED.link_course_catalogue
     RETURNING offering_id;
   `;
   const r = await db.query(q, [code, sem_id, offering_type, link]);
@@ -355,35 +391,17 @@ async function linkCourseProfessors(db: DB, code: string, profNames: string[]): 
 // Main runner (resilient import)
 // -----------------------------
 async function run() {
-  const inputPath = process.argv[2] || path.resolve(process.cwd(), "../out.json");
-  if (!fs.existsSync(inputPath)) {
-    throw new Error(`Input file not found: ${inputPath}`);
-  }
+  // adjust default to your output file if needed
+  const inputPath = process.argv[2] || path.resolve(process.cwd(), "scrapy_crawler/scrapy_crawler/spider_outputs/courses.json");
+  if (!fs.existsSync(inputPath)) throw new Error(`Input file not found: ${inputPath}`);
 
   const raw = fs.readFileSync(inputPath, "utf-8");
   const items: AnyObj[] = JSON.parse(raw);
 
   console.log(`Importing ${items.length} items from ${inputPath} ...`);
 
-  const who = await DataAccessController.pool.query(`
-    SELECT
-      current_database() as db,
-      inet_server_addr()::text as server_ip,
-      inet_server_port() as server_port,
-      current_schema() as schema,
-      current_setting('search_path') as search_path
-  `);
-  console.log("DB connection info:", who.rows[0]);
-
-  const exists = await DataAccessController.pool.query(`
-    SELECT to_regclass('public.faculty') as faculty_table
-  `);
-  console.log("public.faculty:", exists.rows[0]);
-
-
   const failures: any[] = [];
 
-  // ✅ CRITICAL: use ONE connection from the pool, otherwise BEGIN/SAVEPOINT breaks
   const client = await DataAccessController.pool.connect();
   const db: DB = client;
 
@@ -392,7 +410,6 @@ async function run() {
 
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
-
       await db.query("SAVEPOINT sp_item");
 
       try {
@@ -409,14 +426,21 @@ async function run() {
           continue;
         }
 
+        // ✅ faculty lookup (NO INSERTS)
         const facultyName = details["Fakultät"] ?? null;
-        const domainName = details["Bereich"] ?? details["Domaine"] ?? null;
+        const faculty_id = await getFacultyIdByName(db, facultyName);
+        if (!faculty_id) {
+          throw new Error(
+            `Unknown faculty "${facultyName}" (canonical="${canonicalizeFacultyName(facultyName)}")`
+          );
+        }
 
-        const faculty_id = await upsertFaculty(db, facultyName);
+        const domainName = details["Bereich"] ?? details["Domaine"] ?? null;
         const domain_id = await upsertDomain(db, domainName, faculty_id);
 
         const soft_skills = parseBoolJaNein(teaching["Soft Skills"]);
         const outside_domain = parseBoolJaNein(teaching["ausserhalb des Bereichs"]);
+        const benefri = parseBoolJaNein(teaching["BeNeFri"]);
         const mobility = parseBoolJaNein(teaching["Mobilität"]);
         const unipop = parseBoolJaNein(teaching["UniPop"]);
 
@@ -429,6 +453,7 @@ async function run() {
           remarks: teaching["Bemerkungen"] ?? null,
           soft_skills,
           outside_domain,
+          benefri,
           mobility,
           unipop,
           faculty_id,
@@ -443,7 +468,13 @@ async function run() {
         await upsertSemester(db, sem);
 
         const offering_type = guessOfferingType(schedule, singleDates);
-        const offering_id = await upsertCourseOffering(db, code, sem.sem_id, offering_type, item.source?.detail_page_url ?? null);
+        const offering_id = await upsertCourseOffering(
+          db,
+          code,
+          sem.sem_id,
+          offering_type,
+          item.source?.detail_page_url ?? null
+        );
 
         const langs = splitLanguages(details["Sprachen"]);
         await linkOfferingLanguages(db, offering_id, langs);

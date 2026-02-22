@@ -74,7 +74,8 @@ class UnifrSciMedStudyPlansSpider(scrapy.Spider):
     def _load_faculties(self):
         candidates = [
             Path("faculties.json"),
-            Path("scrapy_crawler") / "faculties.json",
+            Path("spider_outputs") / "faculties.json",
+            Path("scrapy_crawler") / "spider_outputs" / "faculties.json"
         ]
         faculties_path = next((p for p in candidates if p.exists()), None)
         if not faculties_path:
@@ -99,11 +100,11 @@ class UnifrSciMedStudyPlansSpider(scrapy.Spider):
             None,
         ) or next((x for x in data if x.get("key") == "scimed"), None)
 
-        if not scimed or not scimed.get("url"):
+        if not scimed or not scimed.get("url_en"):
             raise ValueError("No scimed entry with a valid url found in faculties.json")
 
         # Go directly to Studienpläne hub (skip clicking “Ausbildung”)
-        start_url = scimed["url"].rstrip("/") + f"/{self.lang}/plans"
+        start_url = scimed["url_en"].rstrip("/") + f"/{self.lang}/plans"
         self.logger.info("Starting SCIMED crawl at: %s", start_url)
         yield scrapy.Request(start_url, callback=self.parse_plans_hub)
 

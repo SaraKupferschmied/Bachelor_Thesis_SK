@@ -8,10 +8,10 @@ async function run() {
     // 1) base tables (no FKs)
     `CREATE TABLE IF NOT EXISTS Faculty (
       faculty_id SERIAL PRIMARY KEY,
-      name_de VARCHAR(255) NOT NULL UNIQUE,
+      name_de VARCHAR(255),
       name_fr	VARCHAR(255),
       name_en	VARCHAR(255),
-      url	VARCHAR(255),
+      url	VARCHAR(255) NOT NULL UNIQUE,
       faculty_key	VARCHAR(50) 
     );`,
 
@@ -104,6 +104,7 @@ async function run() {
       program_id INT REFERENCES StudyProgram(program_id),
       code VARCHAR REFERENCES Course(code),
       course_type VARCHAR(20) CHECK (course_type IN ('Mandatory','Elective')),
+      description TEXT,
       PRIMARY KEY (program_id, code)
     );`,
 

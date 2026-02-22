@@ -1,4 +1,6 @@
+import json
 import re
+from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, quote
 import scrapy
 
@@ -72,8 +74,7 @@ def extract_ects_from_page(response) -> int | None:
 # -----------------------------
 class UnifrSesStudyPlansSpider(scrapy.Spider):
     name = "unifr_ses_studyplans"
-    start_urls = ["https://www.unifr.ch/ses/de/"]
-
+    
     custom_settings = {
         "LOG_LEVEL": "INFO",
         "ROBOTSTXT_OBEY": True,
@@ -81,6 +82,58 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
         "DOWNLOAD_DELAY": 1,
         "FEED_EXPORT_ENCODING": "utf-8",
     }
+
+    def __init__(self, lang="de", *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.lang = (lang or "de").strip().lower()
+
+    # Scrapy 2.13+ compatibility (matches your other spiders)
+    async def start(self):
+        for req in self.start_requests():
+            yield req
+
+    def _load_faculties(self):
+        candidates = [
+            Path("faculties.json"),
+            Path("spider_outputs") / "faculties.json",
+            Path("scrapy_crawler") / "spider_outputs" / "faculties.json",
+        ]
+        faculties_path = next((p for p in candidates if p.exists()), None)
+        if not faculties_path:
+            tried = ", ".join(str(p.resolve()) for p in candidates)
+            raise FileNotFoundError(f"Could not find faculties.json. Tried: {tried}")
+
+        self.logger.info("Reading faculties from: %s", faculties_path.resolve())
+        raw = faculties_path.read_bytes()
+        if not raw.strip():
+            raise ValueError(f"{faculties_path.resolve()} is empty.")
+
+        text = raw.decode("utf-8-sig")
+        data = json.loads(text)
+        if not isinstance(data, list):
+            raise ValueError("faculties.json must be a JSON list (top-level array).")
+        return data
+
+    def start_requests(self):
+        data = self._load_faculties()
+
+        ses = next(
+            (x for x in data if x.get("key") == "ses" and x.get("lang") == self.lang),
+            None,
+        ) or next((x for x in data if x.get("key") == "ses"), None)
+
+        if not ses:
+            raise ValueError("No ses entry found in faculties.json")
+
+        lang_key = f"url_{self.lang}"
+        base = (ses.get(lang_key) or ses.get("url_en") or "").strip()
+        if not base:
+            raise ValueError("SES entry has no usable url_* field in faculties.json")
+
+        # ✅ language-scoped faculty home like /ses/de/
+        start_url = safe_url(base.rstrip("/") + f"/{self.lang}/")
+        self.logger.info("Starting SES crawl at: %s", start_url)
+        yield scrapy.Request(start_url, callback=self.parse)
 
     def parse(self, response):
         # Find top-menu Studium

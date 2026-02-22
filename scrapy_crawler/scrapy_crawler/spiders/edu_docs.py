@@ -77,14 +77,23 @@ class UnifrEduStudyPlansSpider(scrapy.Spider):
     def start_requests(self):
         try:
             data = self._load_faculties()
-            edu = next((x for x in data if x.get("key") == "eduform" and x.get("lang") == self.lang), None) \
-                or next((x for x in data if x.get("key") == "eduform"), None)
-            if not edu or not edu.get("url"):
-                raise ValueError("No eduform entry with a valid url found in faculties.json")
 
-            start_url = edu["url"].rstrip("/") + f"/{self.lang}/studium/angebot/"
+            edu = next((x for x in data if x.get("key") == "eduform"), None)
+            if not edu:
+                raise ValueError("No eduform entry found in faculties.json")
+
+            faculty_name = edu.get(f"name_{self.lang}") or edu.get("name_en") or "EDUFORM"
+
+            base_url = edu.get(f"url_{self.lang}") or edu.get("url_en") or edu.get("url_de") or edu.get("url_fr")
+            if not base_url:
+                raise ValueError(f"No url_{self.lang} (or fallback url) found for eduform")
+
+            start_url = base_url.rstrip("/") + f"/{self.lang}/studium/angebot/"
+
         except Exception as e:
-            self.logger.warning("faculties.json unusable (%s). Falling back to hardcoded eduform URL.", e)
+            self.logger.warning(
+                "faculties.json unusable (%s). Falling back to hardcoded eduform URL.", e
+            )
             start_url = f"https://www.unifr.ch/eduform/{self.lang}/studium/angebot/"
 
         self.logger.info("Starting EDUFORM crawl at: %s", start_url)
@@ -92,6 +101,7 @@ class UnifrEduStudyPlansSpider(scrapy.Spider):
 
 
     def parse_studienangebot_und_plaene(self, response):
+        faculty_name = response.meta.get("faculty_name", "EDUFORM")
         boxes = response.css("div.col-sm-6.inner-10")
         self.logger.info("Found %d boxes on %s", len(boxes), response.url)
 

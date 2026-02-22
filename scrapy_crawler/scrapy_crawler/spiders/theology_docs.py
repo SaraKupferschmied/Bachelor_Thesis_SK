@@ -1,5 +1,7 @@
+import json
 import re
 import scrapy
+from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, quote
 
 def safe_url(url: str) -> str:
@@ -52,14 +54,63 @@ class UnifrTheoStudyPlansSpider(scrapy.Spider):
     """
     name = "unifr_theo_studyplans"
 
-    start_urls = ["https://www.unifr.ch/theo/de/ausbildung/"]
-
     custom_settings = {
         "LOG_LEVEL": "INFO",
-        # helps avoid being blocked/served odd variants
         "USER_AGENT": "Mozilla/5.0 (compatible; UnifrTheoStudyPlansSpider/1.0; +https://www.unifr.ch/)",
         "ROBOTSTXT_OBEY": True,
     }
+
+    def __init__(self, lang="de", *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.lang = (lang or "de").strip().lower()
+
+    # Scrapy 2.13+ compatibility (same pattern as your other spiders)
+    async def start(self):
+        for req in self.start_requests():
+            yield req
+
+    def _load_faculties(self):
+        candidates = [
+            Path("faculties.json"),
+            Path("spider_outputs") / "faculties.json",
+            Path("scrapy_crawler") / "spider_outputs" / "faculties.json",
+        ]
+        faculties_path = next((p for p in candidates if p.exists()), None)
+        if not faculties_path:
+            tried = ", ".join(str(p.resolve()) for p in candidates)
+            raise FileNotFoundError(f"Could not find faculties.json. Tried: {tried}")
+
+        self.logger.info("Reading faculties from: %s", faculties_path.resolve())
+        raw = faculties_path.read_bytes()
+        if not raw.strip():
+            raise ValueError(f"{faculties_path.resolve()} is empty.")
+
+        text = raw.decode("utf-8-sig")
+        data = json.loads(text)
+        if not isinstance(data, list):
+            raise ValueError("faculties.json must be a JSON list (top-level array).")
+        return data
+
+    def start_requests(self):
+        data = self._load_faculties()
+
+        theo = next(
+            (x for x in data if x.get("key") == "theo" and x.get("lang") == self.lang),
+            None,
+        ) or next((x for x in data if x.get("key") == "theo"), None)
+
+        if not theo:
+            raise ValueError("No theo entry found in faculties.json")
+
+        lang_key = f"url_{self.lang}"
+        base = (theo.get(lang_key) or theo.get("url_en") or "").strip()
+        if not base:
+            raise ValueError("THEO entry has no usable url_* field in faculties.json")
+
+        # Theology spider expects to start at /theo/<lang>/ausbildung/
+        start_url = safe_url(base.rstrip("/") + f"/{self.lang}/ausbildung/")
+        self.logger.info("Starting THEO crawl at: %s", start_url)
+        yield scrapy.Request(start_url, callback=self.parse)
 
     def parse(self, response):
         # Prefer left menu entry

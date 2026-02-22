@@ -1,6 +1,8 @@
 import re
 from urllib.parse import urlsplit, urlunsplit, quote
 import scrapy
+from pathlib import Path
+import json
 
 
 # -----------------------------
@@ -63,23 +65,73 @@ def extract_ects_from_page(response) -> int | None:
 class UnifrIusStudyPlansSpider(scrapy.Spider):
     name = "unifr_ius_studyplans"
 
-    start_urls = ["https://www.unifr.ch/ius/de/"]
-
     custom_settings = {
         "LOG_LEVEL": "INFO",
         "ROBOTSTXT_OBEY": True,
         "CONCURRENT_REQUESTS_PER_DOMAIN": 1,
         "DOWNLOAD_DELAY": 1,
         "FEED_EXPORT_ENCODING": "utf-8",
-        # If you want to see 404s etc.:
-        # "HTTPERROR_ALLOW_ALL": True,
     }
 
     HUBS = {
         "bachelor": "https://www.unifr.ch/ius/de/studium/ba/",
         "master": "https://www.unifr.ch/ius/de/studium/ma/",
-        # ⚠️ do NOT hardcode nebenfach here (it 404s as you saw)
     }
+
+    def __init__(self, lang="de", *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.lang = (lang or "de").strip().lower()
+
+    # Scrapy 2.13+ compatibility (optional but nice to match your SCIMED pattern)
+    async def start(self):
+        for req in self.start_requests():
+            yield req
+
+    def _load_faculties(self):
+        candidates = [
+            Path("faculties.json"),
+            Path("spider_outputs") / "faculties.json",
+            Path("scrapy_crawler") / "spider_outputs" / "faculties.json",
+        ]
+        faculties_path = next((p for p in candidates if p.exists()), None)
+        if not faculties_path:
+            tried = ", ".join(str(p.resolve()) for p in candidates)
+            raise FileNotFoundError(f"Could not find faculties.json. Tried: {tried}")
+
+        self.logger.info("Reading faculties from: %s", faculties_path.resolve())
+        raw = faculties_path.read_bytes()
+        if not raw.strip():
+            raise ValueError(f"{faculties_path.resolve()} is empty.")
+
+        text = raw.decode("utf-8-sig")
+        data = json.loads(text)
+        if not isinstance(data, list):
+            raise ValueError("faculties.json must be a JSON list (top-level array).")
+        return data
+
+    def start_requests(self):
+        data = self._load_faculties()
+
+        ius = next(
+            (x for x in data if x.get("key") == "ius" and x.get("lang") == self.lang),
+            None,
+        ) or next((x for x in data if x.get("key") == "ius"), None)
+
+        if not ius:
+            raise ValueError("No ius entry found in faculties.json")
+
+        # pick the url field matching lang; fall back to url_en
+        lang_key = f"url_{self.lang}"
+        base = (ius.get(lang_key) or ius.get("url_en") or "").strip()
+        if not base:
+            raise ValueError("IUS entry has no usable url_* field in faculties.json")
+
+        # ✅ LAW pages are language-scoped like /ius/de/
+        start_url = base.rstrip("/") + f"/{self.lang}/"
+        start_url = safe_url(start_url)
+
+        self.logger.info("Starting IUS crawl at: %s", start_url)
+        yield scrapy.Request(start_url, callback=self.parse)
 
     def parse(self, response):
         studium_href = response.css('nav.push-menu a.deeper[href*="/ius/de/studium/"]::attr(href)').get()
