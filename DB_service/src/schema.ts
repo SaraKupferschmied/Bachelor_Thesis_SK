@@ -15,6 +15,23 @@ async function run() {
       faculty_key	VARCHAR(50) 
     );`,
 
+    `INSERT INTO Faculty (
+      faculty_id,
+      name_de,
+      name_fr,
+      name_en,
+      url,
+      faculty_key
+  )
+  VALUES (
+      100,
+      'Default Fakultät',
+      'Faculté par défaut',
+      'Default Faculty',
+      NULL,
+      'default'
+  );`,
+
     `CREATE TABLE IF NOT EXISTS Room (
       room_id VARCHAR PRIMARY KEY
     );`,
@@ -56,6 +73,9 @@ async function run() {
       source_hints	jsonb,
       source_faculty_key	VARCHAR(32),	
       source_last_page_url	text 
+      name_en TEXT,
+      name_de TEXT,
+      name_fr TEXT
     );`,
 
     `CREATE UNIQUE INDEX IF NOT EXISTS uq_studyprogram_natural
