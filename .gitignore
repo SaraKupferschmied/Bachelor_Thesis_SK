@@ -15,7 +15,7 @@ __pycache__/
 *.jl
 *.sqlite
 *.db
-scrapy_crawler/doc_loader
+scrapy_crawler/outputs
 scrapy_crawler/scrapy_crawler/spider_outputs
 
 # OS

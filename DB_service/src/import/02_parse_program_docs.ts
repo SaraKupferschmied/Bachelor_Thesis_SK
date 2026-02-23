@@ -91,8 +91,14 @@ async function pdfToPagesText(filePath: string): Promise<string[]> {
 }
 
 async function run() {
-  // from DB_service/src/import -> repo root is ../../.. (import -> src -> DB_service -> repo root)
-  const root = path.resolve(__dirname, "../../..", "scrapy_crawler/outputs/faculty_downloads");
+  
+  // from DB_service/src/import -> repo root is ../../..
+  // manifest lives in: scrapy_crawler/scrapy_crawler/spider_outputs/program_docs_v2
+  const root = path.resolve(
+    __dirname,
+    "../../..",
+    "scrapy_crawler/scrapy_crawler/spider_outputs/program_docs_v2"
+  );
 
   const manifestPath = path.join(root, "_program_docs_manifest.json");
   if (!fs.existsSync(manifestPath)) throw new Error(`Missing manifest: ${manifestPath}`);
