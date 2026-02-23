@@ -11,35 +11,19 @@ Adds (without deleting existing fields):
   - lang
 
 Also adds/normalizes for better matching:
-  - program_clean: canonical programme name for matching (e.g. "Biologie", "Law", "Theology")
-  - program_base_clean: same as program_clean but WITHOUT track prefixes like "Hauptfach"/"Zusatzfächer"
-  - faculty_canonical: stable faculty bucket (e.g. "Law", "Theology", "Science and Medicine")
+  - program_clean
+  - program_base_clean
+  - program_short_clean (SCIMED only)
+  - faculty_canonical
   - level: 'B'/'M'/'D' if we can infer it
   - ects: numeric ects when possible
-  - ects_candidates: optional list for bucket pages (e.g. "Nebenfächer" pages)
-  - track: optional ("nebenfach", "plus30", etc.) for debugging/matching
+  - ects_candidates: optional list for bucket pages
+  - track: optional ("nebenfach", "plus30", etc.)
 
-Faculty-specific logic:
-  - SCIMED:
-      * "+30" pages are ignored (left as-is; no forced ects/prefix logic)
-      * "Zusatzfächer " is ADDED for programmes with ects below thresholds:
-          - Bachelor: ects < 120  => "Zusatzfächer <name>"
-          - Master:   ects < 90   => "Zusatzfächer <name>"
-      * "Hauptfach " is ADDED ONLY to the biggest ECTS variant per (level, base name),
-        if that biggest ects meets thresholds:
-          - Bachelor: ects >= 120
-          - Master:   ects >= 90
-        (This is done in a second pass across all SCIMED items.)
-
-  - Theology: map to
-      "Theology", "Theology (canonical License)", "Interreligious studies"
-  - Law: normalize "Recht / Droit / Law / Jus" to "Law" (unless special programmes like MALS)
-
-Generic logic:
-  - If the item looks like a "Nebenfach" bucket page (any faculty):
-      * If a single ects is explicit => keep ects
-      * If ects is NOT explicit or multiple values appear in docs => set ects=None and
-        set ects_candidates based on what is found, or defaults (B/M => [30,60])
+EDUFORM patch:
+  - Avoid adding generic doc labels into name_variants for bucket-ish EDUFORM items
+  - Add extra name_variants derived from PDF filenames (e.g. BSc_Erzw, MSc_PädPsy)
+  - Keep mixed-level bucket handling (level=None, ects=None, ects_candidates from docs)
 
 Output: one big JSON list containing all normalized entries.
 """
@@ -106,20 +90,48 @@ def first_int(v: Any) -> Optional[int]:
 
 
 # ----------------------------
-# ECTS parsing
+# ECTS parsing (supports 90+30)
 # ----------------------------
-ECTS_RE = re.compile(r"\b(\d{1,3})\s*(ects|kreditpunkte|credits?)\b", re.IGNORECASE)
+ECTS_ANY_RE = re.compile(
+    r"\b(\d{1,3})(?:\s*\+\s*(\d{1,3}))?\s*(ects|kreditpunkte|credits?)\b",
+    re.IGNORECASE,
+)
 
 def parse_ects_from_text(s: str) -> Optional[int]:
     if not s:
         return None
-    m = ECTS_RE.search(s)
+    m = ECTS_ANY_RE.search(s)
     if not m:
         return None
     try:
         return int(m.group(1))
     except Exception:
         return None
+
+
+def parse_ects_list_from_text(s: str) -> List[int]:
+    if not s:
+        return []
+    m = ECTS_ANY_RE.search(s)
+    if not m:
+        return []
+    out: List[int] = []
+    try:
+        out.append(int(m.group(1)))
+    except Exception:
+        pass
+    if m.group(2):
+        try:
+            out.append(int(m.group(2)))
+        except Exception:
+            pass
+    seen = set()
+    res = []
+    for v in out:
+        if v not in seen:
+            seen.add(v)
+            res.append(v)
+    return res
 
 
 # ----------------------------
@@ -173,6 +185,123 @@ def infer_level_generic(item: Dict[str, Any]) -> Optional[str]:
     return None
 
 
+_RE_LEVEL_HINTS = [
+    ("D", re.compile(r"\b(doctorat|doktorat|doctorate|phd)\b", re.IGNORECASE)),
+    ("M", re.compile(r"\b(master|msc|ma|spmsc)\b", re.IGNORECASE)),
+    ("B", re.compile(r"\b(bachelor|bsc|ba)\b", re.IGNORECASE)),
+]
+
+_RE_STRIP_DEGREE_PREFIX = re.compile(
+    r"^\s*(?:(?:bachelor|master|doctorat|doktorat|doctorate|phd)\b"
+    r"(?:\s+of\b(?:\s+(?:arts|science|sciences))?)?"
+    r"(?:\s+in\b|\s+en\b|\s+de\b|\s+der\b|\s+des\b|\s+du\b|\s+d')?\s+)",
+    re.IGNORECASE,
+)
+
+
+def infer_level_from_text(s: Optional[str]) -> Optional[str]:
+    if not s:
+        return None
+    for lvl, rx in _RE_LEVEL_HINTS:
+        if rx.search(s):
+            return lvl
+    return None
+
+
+def strip_degree_prefix(s: Optional[str]) -> Optional[str]:
+    s = clean_text(s)
+    if not s:
+        return s
+    out = _RE_STRIP_DEGREE_PREFIX.sub("", s).strip()
+    return out or s
+
+
+# ----------------------------
+# EDUFORM helpers
+# ----------------------------
+def infer_level_from_doc_text(s: str) -> Optional[str]:
+    t = (s or "").lower()
+    if "phd" in t or "doktorat" in t or "doctorat" in t or "doctorate" in t:
+        return "D"
+    if "master" in t or "msc" in t or "ma " in t:
+        return "M"
+    if "bachelor" in t or "bsc" in t or "ba " in t:
+        return "B"
+    return None
+
+
+def doc_levels_and_ects(docs: List[Dict[str, Any]]) -> Tuple[Set[str], Set[int]]:
+    levels: Set[str] = set()
+    ects: Set[int] = set()
+    for d in docs:
+        if not isinstance(d, dict):
+            continue
+        label = d.get("label") or ""
+        url = d.get("url") or ""
+        blob = f"{label} {url}"
+
+        lvl = infer_level_from_doc_text(blob)
+        if lvl:
+            levels.add(lvl)
+
+        for ev in parse_ects_list_from_text(blob):
+            ects.add(ev)
+
+    return levels, ects
+
+
+def eduform_is_bucketish(page_url: Optional[str], docs: List[Dict[str, Any]]) -> bool:
+    u = (page_url or "").lower()
+    if "eduform" in u and "angebot" in u:
+        return True
+    # heuristic: lots of docs often means multiple programmes share one page
+    if docs and len(docs) >= 6:
+        lvls, _ = doc_levels_and_ects(docs)
+        if len(lvls.intersection({"B", "M"})) >= 2:
+            return True
+    return False
+
+
+def eduform_filename_variants(docs: List[Dict[str, Any]]) -> List[str]:
+    """
+    Extract short tokens from file names that are helpful for matching:
+      - "BSc_Erzw_120 ..." -> "erzw", "bsc erzw"
+      - "MSc_PädPsy_90 ..." -> "padpsy", "msc padpsy"
+    """
+    out: List[str] = []
+    for d in docs:
+        if not isinstance(d, dict):
+            continue
+        url = str(d.get("url") or "")
+        if not url:
+            continue
+        fn = url.split("/")[-1]
+        fn = re.sub(r"\.pdf$|\.(docx?|xlsx?|pptx?|zip)$", "", fn, flags=re.IGNORECASE)
+        fn = fn.replace("%20", " ")
+        # normalize separators
+        fn2 = re.sub(r"[_\-\(\)]+", " ", fn)
+        fn2 = re.sub(r"\s+", " ", fn2).strip()
+        if not fn2:
+            continue
+
+        # capture typical EDU patterns
+        # e.g. "BSc Erzw 120 1462 05 06 2025"
+        m = re.search(r"\b(bsc|msc)\b\s+([A-Za-zÄÖÜäöüÉéÀàÈèÊêÂâÎîÔôÛûÇç]+)\b", fn2, re.IGNORECASE)
+        if m:
+            out.append(f"{m.group(1)} {m.group(2)}")
+            out.append(m.group(2))
+
+    # small cleanup: lower + strip accents-ish by dropping diacritics in a simple way
+    cleaned: List[str] = []
+    for v in out:
+        v = v.strip()
+        v = v.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue")
+        v = v.replace("Ä", "Ae").replace("Ö", "Oe").replace("Ü", "Ue")
+        cleaned.append(v)
+
+    return uniq(cleaned)
+
+
 # ----------------------------
 # Faculty canonicalization
 # ----------------------------
@@ -193,7 +322,7 @@ def faculty_canonical_from(item: Dict[str, Any], source_name: str) -> Optional[s
     s = (source_name or "").lower()
     if "scimed" in s:
         return "Science and Medicine"
-    if "eduform" in s:
+    if "eduform" in s or s.startswith("edu"):
         return "EDUFORM"
     if "theo" in s:
         return "Theology"
@@ -203,7 +332,7 @@ def faculty_canonical_from(item: Dict[str, Any], source_name: str) -> Optional[s
 
 
 # ----------------------------
-# Documents & name variants extraction (generic)
+# Documents & name variants extraction
 # ----------------------------
 def extract_documents(item: Dict[str, Any]) -> List[Dict[str, Any]]:
     docs: List[Dict[str, Any]] = []
@@ -217,7 +346,7 @@ def extract_documents(item: Dict[str, Any]) -> List[Dict[str, Any]]:
     return docs
 
 
-def extract_name_variants(item: Dict[str, Any]) -> List[str]:
+def extract_name_variants(item: Dict[str, Any], *, include_doc_labels: bool = True) -> List[str]:
     variants: List[str] = []
 
     if isinstance(item.get("title"), str):
@@ -232,15 +361,16 @@ def extract_name_variants(item: Dict[str, Any]) -> List[str]:
     if isinstance(item.get("program"), str):
         variants.append(item["program"])
 
-    for k in ["programme", "program_name", "name", "program_clean", "program_base_clean"]:
+    for k in ["programme", "program_name", "name", "program_clean", "program_base_clean", "program_short_clean"]:
         if isinstance(item.get(k), str):
             variants.append(item[k])
 
-    docs = item.get("documents")
-    if isinstance(docs, list):
-        for d in docs:
-            if isinstance(d, dict) and isinstance(d.get("label"), str):
-                variants.append(d["label"])
+    if include_doc_labels:
+        docs = item.get("documents")
+        if isinstance(docs, list):
+            for d in docs:
+                if isinstance(d, dict) and isinstance(d.get("label"), str):
+                    variants.append(d["label"])
 
     return uniq([clean_text(v) for v in variants if clean_text(v)])
 
@@ -249,15 +379,14 @@ def choose_best_title(name_variants: List[str], track: Optional[str] = None) -> 
     if not name_variants:
         return None
 
-    # If this is a bucket page, prefer the bucket label if present.
     if track in {"nebenfach", "plus30"}:
         for v in name_variants:
             if v and len(v) <= 40:
-                # often the bucket itself is short and early in variants
                 return v
 
     bad_patterns = [
         r"^studienplan\b",
+        r"^studienplan\b$",
         r"^plan d['’]études\b",
         r"^study plan\b",
         r"^nebenfächer\b",
@@ -266,6 +395,7 @@ def choose_best_title(name_variants: List[str], track: Optional[str] = None) -> 
         r"^kompetenzrahmen\b",
         r"^sprachen öffnen\b",
         r"^sprachen offnen\b",
+        r"^brosch(ü|u)re\b",
     ]
 
     def is_bad(s: str) -> bool:
@@ -300,6 +430,7 @@ def choose_page_url(item: Dict[str, Any]) -> Optional[str]:
 # ----------------------------
 _RE_NEBENFACH = re.compile(r"\b(nebenfach|nebenfächer|branche\s*secondaire|minors?)\b", re.IGNORECASE)
 
+
 def is_nebenfach_bucket(item: Dict[str, Any], page_url: Optional[str], title: Optional[str], program: Any) -> bool:
     blobs: List[str] = []
     for k in ("category", "program_group"):
@@ -323,11 +454,10 @@ def is_nebenfach_bucket(item: Dict[str, Any], page_url: Optional[str], title: Op
 
 
 def nebenfach_default_ects_candidates(level: Optional[str]) -> List[int]:
-    # practical defaults; you can extend if you see more
     if level == "M":
-        return [30, 60]  # < 90
+        return [30, 60]
     if level == "B":
-        return [30, 60]  # < 120
+        return [30, 60]
     return [30, 60]
 
 
@@ -337,10 +467,30 @@ def nebenfach_default_ects_candidates(level: Optional[str]) -> List[int]:
 PLUS30_CAT = {"plus30", "plus 30", "bcp30", "bc p30", "bc+30", "bc+ 30"}
 
 _RE_PLUS30 = re.compile(r"\+\s*30\b", re.IGNORECASE)
-_RE_ZUSATZ_ANY = re.compile(r"\bzusatzf(ae|ä)cher\b|\bzusatzfach\b", re.IGNORECASE)
-_RE_HAUPTFACH_ANY = re.compile(r"\bhauptfach\b", re.IGNORECASE)
-
 _RE_STRIP_PREFIXES = re.compile(r"^\s*(hauptfach|zusatzf(ae|ä)cher|zusatzfach)\b[:\-\s]*", re.IGNORECASE)
+
+_RE_SCIMED_SPLIT = re.compile(
+    r"\s*/\s*|\s+\border\b\s+|\s+\boder\b\s+|\s+\bund\b\s+|\s+\band\b\s+",
+    re.IGNORECASE,
+)
+_RE_SCIMED_AND = re.compile(r"\s+\bund\b\s+|\s+\bet\b\s+|\s+&\s+", re.IGNORECASE)
+
+
+def scimed_short_base_extended(name: str) -> Optional[str]:
+    s = clean_text(name)
+    if not s:
+        return None
+
+    parts = [p.strip() for p in _RE_SCIMED_SPLIT.split(s) if p.strip()]
+    parts2: List[str] = []
+    for p in parts:
+        parts2.extend([q.strip() for q in _RE_SCIMED_AND.split(p) if q.strip()])
+
+    if not parts2:
+        return None
+    parts2 = sorted(parts2, key=len)
+    return parts2[0] if parts2[0] else None
+
 
 def scimed_is_plus30(item: Dict[str, Any], name: str) -> bool:
     cat = norm(str(item.get("category") or ""))
@@ -368,11 +518,6 @@ def scimed_strip_track_prefixes(name: str) -> str:
 
 
 def scimed_thresholds(level: Optional[str]) -> Tuple[int, int]:
-    """
-    Returns (hauptfach_min, zusatzfaecher_max_exclusive) as thresholds.
-      - Master: hauptfach_min=90,  zusatzfaecher if ects < 90
-      - Bachelor: hauptfach_min=120, zusatzfaecher if ects < 120
-    """
     if level == "M":
         return 90, 90
     return 120, 120
@@ -393,6 +538,7 @@ _RE_THEO_JUNK_WORDS = re.compile(
     r"hauptprogramm|vollprogramm|spezialisierung|mit|programme|programm|ects)\b",
     re.IGNORECASE,
 )
+
 
 def theo_program_clean(name: str, page_urls: List[str]) -> str:
     t = (name or "").strip()
@@ -415,6 +561,7 @@ def theo_program_clean(name: str, page_urls: List[str]) -> str:
 # ----------------------------
 _RE_LAW_CORE = re.compile(r"\b(recht|droit|law|jus)\b", re.IGNORECASE)
 _RE_LAW_MALS = re.compile(r"\bmals\b", re.IGNORECASE)
+
 
 def law_program_clean(name: str) -> str:
     t = (name or "").strip()
@@ -459,13 +606,32 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
 
     out["level"] = out.get("level") or infer_level_from_urls(page_url, *prog_urls) or infer_level_generic(out)
 
+    # If level is still missing, try infer from program/title-ish text
+    if not out.get("level"):
+        txt_cands = []
+        if isinstance(out.get("program"), str):
+            txt_cands.append(out["program"])
+        if isinstance(prog, dict):
+            for k in ["name_de", "name_fr", "name_en", "name_it", "name"]:
+                if isinstance(prog.get(k), str):
+                    txt_cands.append(prog[k])
+        if isinstance(out.get("program_group"), str):
+            txt_cands.append(out["program_group"])
+        if docs:
+            for d in docs[:3]:
+                if isinstance(d, dict) and isinstance(d.get("label"), str):
+                    txt_cands.append(d["label"])
+
+        inferred = infer_level_from_text(" ".join(txt_cands))
+        if inferred:
+            out["level"] = inferred
+
     # ECTS: prefer explicit program dict ects, then item ects, then parse from strings
     ects: Optional[int] = None
     if isinstance(prog, dict):
         ects = first_int(prog.get("ects"))
     ects = ects if ects is not None else first_int(out.get("ects"))
 
-    # Parse from program names and doc labels if still unknown
     if ects is None:
         if isinstance(prog, dict):
             for k in ["name_de", "name_fr", "name_en", "name_it", "name"]:
@@ -481,45 +647,48 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
                         break
 
     # ----------------------------
-    # Generic Nebenfach bucket handling (ANY faculty)
+    # EDUFORM bucket patch
+    # ----------------------------
+    if out.get("faculty_canonical") == "EDUFORM" and docs:
+        lvls, ects_set = doc_levels_and_ects(docs)
+
+        if len(lvls.intersection({"B", "M"})) >= 2:
+            out["level"] = None
+            ects = None
+            out["ects_candidates"] = sorted(ects_set) if ects_set else out.get("ects_candidates")
+
+    # ----------------------------
+    # Generic Nebenfach bucket handling
     # ----------------------------
     title0 = clean_text(out.get("title")) or ""
     program0 = out.get("program")
 
     if is_nebenfach_bucket(out, page_url, title0, program0):
         out["track"] = out.get("track") or "nebenfach"
-
         found: Set[int] = set()
 
-        # program dict explicit ects is authoritative if set
         prog_ects = first_int(prog.get("ects")) if isinstance(prog, dict) else None
         if prog_ects is not None:
             ects = prog_ects
         else:
-            # parse ects from program names
             if isinstance(prog, dict):
                 for k in ["name_de", "name_fr", "name_en", "name_it", "name"]:
                     if isinstance(prog.get(k), str):
-                        ev = parse_ects_from_text(prog[k])
-                        if isinstance(ev, int):
+                        for ev in parse_ects_list_from_text(prog[k]):
                             found.add(ev)
             elif isinstance(prog, str):
-                ev = parse_ects_from_text(prog)
-                if isinstance(ev, int):
+                for ev in parse_ects_list_from_text(prog):
                     found.add(ev)
 
-            # parse ects from docs
             for d in docs:
                 if not isinstance(d, dict):
                     continue
                 for field in ("label", "url"):
                     v = d.get(field)
                     if isinstance(v, str) and v:
-                        ev = parse_ects_from_text(v)
-                        if isinstance(ev, int):
+                        for ev in parse_ects_list_from_text(v):
                             found.add(ev)
 
-            # If multiple or none -> keep ects None and store candidates
             if len(found) == 1:
                 ects = next(iter(found))
             else:
@@ -531,7 +700,7 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
     # ----------------------------
     fac = out.get("faculty_canonical") or ""
 
-    # SCIMED: use first doc label as program name when available
+    # SCIMED
     if (source_name or "").lower() == "scimed.json" or out.get("faculty") == "SCIMED" or fac == "Science and Medicine":
         first_label = None
         if docs and isinstance(docs[0], dict):
@@ -545,15 +714,16 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
         raw_program = clean_text(out.get("program")) or ""
 
         if scimed_is_plus30(out, raw_program):
-            # ignore +30: leave as is; no forced ects/prefix logic
             out["track"] = out.get("track") or "plus30"
             out["program_base_clean"] = raw_program
             out["program_clean"] = raw_program
+            out["program_short_clean"] = None
         else:
             base_clean = scimed_strip_track_prefixes(raw_program)
             out["program_base_clean"] = base_clean
-            # program_clean will be set in second pass (prefix rules) but keep a sane default now
             out["program_clean"] = base_clean
+            short = scimed_short_base_extended(base_clean)
+            out["program_short_clean"] = short if short and short != base_clean else None
 
     # Theology
     elif fac == "Theology":
@@ -592,7 +762,6 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
             out["track"] = out.get("track") or "minor"
 
     else:
-        # generic fallback
         if isinstance(out.get("program_clean"), str) and out["program_clean"].strip():
             out["program_base_clean"] = out.get("program_base_clean") or out["program_clean"].strip()
         elif isinstance(out.get("program"), str) and out["program"].strip():
@@ -605,22 +774,38 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
                     out["program_base_clean"] = out["program_clean"]
                     break
 
-    # normalize ects field if we found it (and we didn't intentionally clear it)
+    # normalize ects field
     if ects is not None:
         out["ects"] = ects
     else:
-        # leave as None if unknown / bucket
         out["ects"] = out.get("ects") if first_int(out.get("ects")) is not None else None
 
-    # Build name variants AFTER program_clean is set
-    name_variants = extract_name_variants(out)
+    # ----------------------------
+    # Build name variants (EDUFORM patch: bucketish -> exclude doc labels)
+    # ----------------------------
+    include_doc_labels = True
+    if out.get("faculty_canonical") == "EDUFORM":
+        if eduform_is_bucketish(page_url, docs):
+            include_doc_labels = False
+
+    name_variants = extract_name_variants(out, include_doc_labels=include_doc_labels)
+
+    # Add filename-derived variants to help match EDU PDFs
+    if out.get("faculty_canonical") == "EDUFORM" and docs:
+        name_variants = uniq(name_variants + eduform_filename_variants(docs))
+
     if isinstance(out.get("program_clean"), str) and out["program_clean"].strip():
         name_variants = uniq([out["program_clean"]] + name_variants)
     if isinstance(out.get("program_base_clean"), str) and out["program_base_clean"].strip():
         name_variants = uniq([out["program_base_clean"]] + name_variants)
+    if isinstance(out.get("program_short_clean"), str) and out["program_short_clean"].strip():
+        name_variants = uniq([out["program_short_clean"]] + name_variants)
 
     out["name_variants"] = name_variants
-    out["title"] = choose_best_title(name_variants, out.get("track"))
+
+    # Strip "Bachelor/Master/Doctorate ..." ONLY for title selection
+    title_variants = [strip_degree_prefix(v) for v in name_variants]
+    out["title"] = choose_best_title(title_variants, out.get("track"))
 
     return out
 
@@ -629,12 +814,6 @@ def normalize_item(item: Dict[str, Any], source_name: str) -> Dict[str, Any]:
 # Second pass: apply SCIMED prefix rules across variants
 # ----------------------------
 def apply_scimed_prefix_rules(all_items: List[Dict[str, Any]]) -> None:
-    """
-    For SCIMED items (not plus30):
-      - Add "Zusatzfächer " to programmes whose ects is below threshold (B<120, M<90)
-      - Add "Hauptfach " ONLY to the biggest ects per (level, program_base_clean) if meets threshold
-    """
-    # group scimed items by (level, base_clean)
     groups: Dict[Tuple[Optional[str], str], List[Dict[str, Any]]] = {}
 
     for it in all_items:
@@ -649,7 +828,6 @@ def apply_scimed_prefix_rules(all_items: List[Dict[str, Any]]) -> None:
         groups.setdefault((level, base_clean.strip()), []).append(it)
 
     for (level, base_clean), items in groups.items():
-        # find max ects among items that have ects
         max_ects = None
         for it in items:
             ev = first_int(it.get("ects"))
@@ -660,41 +838,40 @@ def apply_scimed_prefix_rules(all_items: List[Dict[str, Any]]) -> None:
 
         hauptfach_min, zusatz_cutoff = scimed_thresholds(level)
 
-        # decide which item(s) get Hauptfach
         for it in items:
             ev = first_int(it.get("ects"))
             if ev is None:
-                # if ects missing, leave plain base name
                 it["program_clean"] = base_clean
                 continue
 
-            # Hauptfach only for max ects variant (and if meets threshold)
             if max_ects is not None and ev == max_ects and ev >= hauptfach_min:
                 it["program_clean"] = f"Hauptfach {base_clean}"
                 it["track"] = it.get("track") or "hauptfach"
             else:
-                # Zusatzfächer if below cutoff
                 if ev < zusatz_cutoff:
                     it["program_clean"] = f"Zusatzfächer {base_clean}"
                     it["track"] = it.get("track") or "minor"
                 else:
                     it["program_clean"] = base_clean
 
-    # After changing program_clean, refresh name_variants + title for affected items
     for it in all_items:
         if it.get("faculty_canonical") != "Science and Medicine":
             continue
         if it.get("track") == "plus30":
             continue
 
-        # rebuild variants with updated program_clean
-        nv = extract_name_variants(it)
+        nv = extract_name_variants(it, include_doc_labels=True)
         if isinstance(it.get("program_clean"), str) and it["program_clean"].strip():
             nv = uniq([it["program_clean"]] + nv)
         if isinstance(it.get("program_base_clean"), str) and it["program_base_clean"].strip():
             nv = uniq([it["program_base_clean"]] + nv)
+        if isinstance(it.get("program_short_clean"), str) and it["program_short_clean"].strip():
+            nv = uniq([it["program_short_clean"]] + nv)
+
         it["name_variants"] = nv
-        it["title"] = choose_best_title(nv, it.get("track"))
+
+        title_variants = [strip_degree_prefix(v) for v in nv]
+        it["title"] = choose_best_title(title_variants, it.get("track"))
 
 
 # ----------------------------
@@ -718,7 +895,6 @@ def main() -> int:
             if isinstance(item, dict):
                 all_items.append(normalize_item(item, fp.name))
 
-    # second pass rules for SCIMED variants
     apply_scimed_prefix_rules(all_items)
 
     save_json(Path(args.out), all_items)
@@ -727,15 +903,16 @@ def main() -> int:
     print(f"Combined normalized file written to: {args.out}")
     print(f"Total normalized entries: {len(all_items)}")
 
-    # small sanity counts
     theo = sum(1 for x in all_items if x.get("faculty_canonical") == "Theology")
     law = sum(1 for x in all_items if x.get("faculty_canonical") == "Law")
     scimed = sum(1 for x in all_items if x.get("faculty_canonical") == "Science and Medicine")
+    edu = sum(1 for x in all_items if x.get("faculty_canonical") == "EDUFORM")
     neben = sum(1 for x in all_items if x.get("track") == "nebenfach")
     plus30 = sum(1 for x in all_items if x.get("track") == "plus30")
     print(f"Theology normalized entries: {theo}")
     print(f"Law normalized entries: {law}")
     print(f"SCIMED normalized entries: {scimed}")
+    print(f"EDUFORM normalized entries: {edu}")
     print(f"Nebenfach bucket entries: {neben}")
     print(f"SCIMED +30 ignored entries: {plus30}")
 
