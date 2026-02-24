@@ -36,6 +36,9 @@ type ParsedTxt = {
   pages: string[]; // 0-indexed
 };
 
+type CourseType = "Mandatory" | "Elective";
+type CodeHit = { code: string; idx: number; len: number };
+
 const LEVEL_MAP: Record<string, "Bachelor" | "Master" | "Doctorate"> = {
   B: "Bachelor",
   M: "Master",
@@ -190,28 +193,98 @@ const COURSE_CODE_LOOSE_RX =
 
 function normalizeExtractedCode(raw: string): string {
   let s = (raw ?? "").toUpperCase();
-  s = s.replace(/\bUE\s*-\s*/g, "UE-");   // UE - => UE-
-  s = s.replace(/\s*\.\s*/g, ".");        // spaces around dot
-  s = s.replace(/\s+/g, "");              // remove all remaining spaces
+  s = s.replace(/\bUE\s*-\s*/g, "UE-"); // UE - => UE-
+  s = s.replace(/\s*\.\s*/g, "."); // spaces around dot
+  s = s.replace(/\s+/g, ""); // remove all remaining spaces
   return s;
 }
 
-function extractAllCourseCodes(text: string): string[] {
+function extractCourseCodeHits(text: string): CodeHit[] {
   if (!text) return [];
-  const matches = text.match(COURSE_CODE_LOOSE_RX) ?? [];
-
-  const out: string[] = [];
+  const out: CodeHit[] = [];
   const seen = new Set<string>();
 
-  for (const m of matches) {
-    const normalized = normalizeExtractedCode(m);
+  const rx = new RegExp(COURSE_CODE_LOOSE_RX.source, COURSE_CODE_LOOSE_RX.flags);
+  let m: RegExpExecArray | null;
+
+  while ((m = rx.exec(text)) !== null) {
+    const raw = m[0];
+    const normalized = normalizeExtractedCode(raw);
     if (!COURSE_CODE_STRICT_RX.test(normalized)) continue;
     if (seen.has(normalized)) continue;
+
     seen.add(normalized);
-    out.push(normalized);
+    out.push({ code: normalized, idx: m.index, len: raw.length });
   }
 
   return out;
+}
+
+/**
+ * Course title is usually directly after the code.
+ * We take same-line + possibly next line (wrap) and cut before typical meta fields.
+ */
+function extractCourseTitleAfterCode(fullChunk: string, hit: CodeHit): string | null {
+  const after = (fullChunk ?? "").slice(hit.idx + hit.len);
+  const lines = after
+    .replace(/\r/g, "")
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  if (!lines.length) return null;
+
+  // allow title wrap
+  let s = `${lines[0]} ${lines[1] ?? ""}`.trim();
+
+  // remove separators at start
+  s = s.replace(/^[:\-\–\—•·\|]+\s*/, "");
+
+  // cut at typical meta fields (multi-language)
+  const stopRx =
+    /\b(ects|credits?|kp|cr|sws|semester|sem\.?|language|sprache|langue|niveau|level|typ|type|responsible|verantwortlich|dozent|lecturer|professor|assessment|prüf|prüfung|pruef|learning outcomes|inhalt|content|ziele|objectifs)\b/i;
+
+  const stopIdx = s.search(stopRx);
+  if (stopIdx >= 0) s = s.slice(0, stopIdx);
+
+  // also cut on common separators
+  s = s.split(/\s{2,}|\s\|\s| \u00b7 | \u2022 | \s\/\s/)[0];
+
+  s = s.replace(/^[\s:–—-]+/, "").replace(/[\s:–—-]+$/, "").trim();
+
+  if (s.length < 4) return null;
+  if (!/[A-Za-zÄÖÜäöüÀ-ÿ]/.test(s)) return null;
+
+  if (s.length > 140) s = s.slice(0, 140).trim();
+
+  return s || null;
+}
+
+function inferCourseType(text: string): CourseType | null {
+  const t = (text ?? "").toLowerCase();
+
+  // Elective signals (DE/FR/EN)
+  // - "Wahlkurse" appears in your example study plan
+  const electiveRx =
+    /\b(wahlkurs(?:e|en)?|wahlfach|wahlbereich|wahlmodul|wahlpflicht|elective|optional|optionnel|cours?\s+à\s+choix|à\s*choix|module\s+à\s+choix|frei\s*wählbar)\b/i;
+
+  // Mandatory/core signals (DE/FR/EN)
+  const mandatoryRx =
+    /\b(pflicht(?:modul)?|obligatorisch|obligatoire|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i;
+
+  const isElective = electiveRx.test(t);
+  const isMandatory = mandatoryRx.test(t);
+
+  if (isElective && !isMandatory) return "Elective";
+  if (isMandatory && !isElective) return "Mandatory";
+
+  if (isElective && isMandatory) {
+    // If "wahlpflicht" is present, treat as elective (selectable vs fixed).
+    if (/\bwahlpflicht\b/i.test(t)) return "Elective";
+    return "Mandatory";
+  }
+
+  return null;
 }
 
 function makeStagingChunks(pages: unknown): {
@@ -220,6 +293,7 @@ function makeStagingChunks(pages: unknown): {
   section: string | null;
   extracted_title: string | null;
   extracted_code: string | null;
+  inferred_type: CourseType | null;
 }[] {
   const out: {
     raw_text: string;
@@ -227,6 +301,7 @@ function makeStagingChunks(pages: unknown): {
     section: string | null;
     extracted_title: string | null;
     extracted_code: string | null;
+    inferred_type: CourseType | null;
   }[] = [];
 
   const safePages: string[] = Array.isArray(pages)
@@ -236,6 +311,11 @@ function makeStagingChunks(pages: unknown): {
   // no capturing groups inside split regex
   const splitRx = /\n+|(?=\bModule\s+\d+\b)|(?=\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b)/g;
   const sectionRx = /\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b/;
+
+  // Smaller staging payloads
+  const MAX_RAW = 900;
+  const LEFT_CTX = 220;
+  const RIGHT_CTX = 520;
 
   for (let i = 0; i < safePages.length; i++) {
     const pageNo = i + 1;
@@ -254,30 +334,28 @@ function makeStagingChunks(pages: unknown): {
         part.match(sectionRx)?.[0] ??
         null;
 
-      // ✅ extract ALL codes from this chunk (handles table blocks)
-      const codes = extractAllCourseCodes(part);
+      // One row per detected code
+      const hits = extractCourseCodeHits(part);
+      if (!hits.length) continue;
 
-      // If no code in this chunk => SKIP (prevents thousands of null rows)
-      if (!codes.length) continue;
-
-      // Create one staging row per code, with a small context window around it
-      for (const code of codes) {
-        const idx = part.indexOf(code);
-        const start = Math.max(0, idx - 250);
-        const end = Math.min(part.length, idx + 600);
+      for (const hit of hits) {
+        const start = Math.max(0, hit.idx - LEFT_CTX);
+        const end = Math.min(part.length, hit.idx + hit.len + RIGHT_CTX);
         const snippet = part.slice(start, end).trim();
 
-        // Optional: if OCR spaces mean `code` isn't literally in `part` after normalization,
-        // just fall back to storing the whole chunk (still no null rows).
-        const raw_text = snippet.length >= 80 ? snippet : part.slice(0, 2000);
+        const raw_text = (snippet.length >= 80 ? snippet : part.slice(0, 2000))
+          .slice(0, MAX_RAW);
+
+        const extracted_title = extractCourseTitleAfterCode(part, hit) ?? section;
+        const inferred_type = inferCourseType(raw_text);
 
         out.push({
-          raw_text: raw_text.length > 2000 ? raw_text.slice(0, 2000) : raw_text,
+          raw_text,
           page_no: pageNo,
           section,
-          extracted_code: code,
-          // ✅ only set title if a code exists (your requirement)
-          extracted_title: section,
+          extracted_code: hit.code,
+          extracted_title,
+          inferred_type,
         });
       }
     }
@@ -505,7 +583,7 @@ async function run() {
       if (!docId) continue;
       docsUpserted++;
 
-      // ✅ Insert staging rows ONLY for chunks with a UE-code
+      // ✅ Insert staging rows ONLY for chunks with a course code
       const chunks = makeStagingChunks(parsed.pages);
 
       // local dedupe (avoid tons of conflict attempts)
@@ -519,6 +597,7 @@ async function run() {
         const rawTextClean = stripNullBytes(ch.raw_text);
         const titleClean = ch.extracted_title ? stripNullBytes(ch.extracted_title) : null;
         const sectionClean = ch.section ? stripNullBytes(ch.section) : null;
+        const inferredType: CourseType | null = ch.inferred_type;
 
         stagingAttempted++;
 
@@ -531,7 +610,7 @@ async function run() {
           ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
           DO NOTHING;
           `,
-          [programId, rawTextClean, ch.extracted_code, titleClean, null, docId, ch.page_no, sectionClean]
+          [programId, rawTextClean, ch.extracted_code, titleClean, inferredType, docId, ch.page_no, sectionClean]
         );
 
         stagingInserted += res.rowCount ?? 0;

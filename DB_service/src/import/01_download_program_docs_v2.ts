@@ -4,6 +4,8 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import axios from "axios";
+import { CookieJar } from "tough-cookie";
+import { wrapper } from "axios-cookiejar-support";
 
 /**
  * Input: consolidated program JSON (program_links_with_ects_and_docs_enriched.json)
@@ -41,26 +43,21 @@ type ProgramEntry = {
 };
 
 type ProgramDocManifestItem = {
-  // stable identifiers for review & later import
-  program_key: string; // derived from faculty|degree|ects|name
-  doc_key: string;     // derived from url
+  program_key: string;
+  doc_key: string;
 
-  // program info (for convenience during review)
   faculty: string | null;
   degree_level: "Bachelor" | "Master" | "Doctorate" | null;
   total_ects: number | null;
   program_name: string | null;
 
-  // source hints
   programme_url: string | null;
   curriculum_url: string | null;
 
-  // doc info
   doc_label: string | null;
   source_url: string;
   source_type: "pdf" | "calameo" | "unknown";
 
-  // download result
   local_path: string | null;
   sha256: string | null;
   fetched_at: string | null;
@@ -72,6 +69,10 @@ type ProgramDocManifestItem = {
     | "failed";
   notes?: string | null;
 };
+
+const UA =
+  process.env.USER_AGENT ??
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121 Safari/537.36";
 
 function ensureDir(p: string) {
   fs.mkdirSync(p, { recursive: true });
@@ -128,37 +129,183 @@ function pickCurriculumUrl(e: ProgramEntry): string | null {
   );
 }
 
+function isCalameoUrl(u: string): boolean {
+  try {
+    const h = new URL(u).hostname.toLowerCase();
+    return h.endsWith("calameo.com");
+  } catch {
+    return false;
+  }
+}
+
 function detectSourceType(url: string): "pdf" | "calameo" | "unknown" {
   const u = url.toLowerCase();
-  if (u.includes("calameo.com/read/")) return "calameo";
+  if (isCalameoUrl(u) && (u.includes("/read/") || u.includes("/books/") || u.includes("/download/"))) return "calameo";
   if (u.endsWith(".pdf") || u.includes(".pdf?")) return "pdf";
   return "unknown";
 }
 
-/**
- * Best-effort: try to find a direct PDF URL from a Calaméo read page.
- * If Calaméo download is disabled, there may be no direct PDF.
- */
-async function tryGetCalameoDirectPdfUrl(readUrl: string): Promise<string | null> {
-  const html = (await axios.get(readUrl, { responseType: "text" })).data as string;
-
-  const pdfMatch =
-    html.match(/https?:\/\/[^"' ]+\.pdf(\?[^"' ]*)?/i) ??
-    html.match(/"downloadUrl"\s*:\s*"([^"]+)"/i);
-
-  if (!pdfMatch) return null;
-
-  const candidate = (pdfMatch[1] ?? pdfMatch[0])
-    .replace(/\\u002F/g, "/")
-    .replace(/\\\//g, "/");
-
-  if (!candidate.toLowerCase().includes(".pdf")) return null;
-  return candidate;
+function toCalameoReadUrl(anyCalameoUrl: string): string {
+  try {
+    const u = new URL(anyCalameoUrl);
+    if (u.hostname.includes("calameo.com")) {
+      // Convert /books/<id> -> /read/<id>
+      u.pathname = u.pathname.replace(/^\/books\//i, "/read/");
+      return u.toString();
+    }
+  } catch {
+    // ignore
+  }
+  return anyCalameoUrl;
 }
 
-async function downloadToFile(url: string, outPath: string): Promise<void> {
-  const resp = await axios.get(url, { responseType: "arraybuffer", maxRedirects: 5, timeout: 60_000 });
-  fs.writeFileSync(outPath, Buffer.from(resp.data));
+function looksLikePdf(buf: Buffer) {
+  // "%PDF"
+  return buf.length >= 4 && buf[0] === 0x25 && buf[1] === 0x50 && buf[2] === 0x44 && buf[3] === 0x46;
+}
+
+/**
+ * Cookie-jar axios client (same as the working file).
+ * Important: Calaméo downloads often require having visited the viewer page first.
+ */
+const jar = new CookieJar();
+const client = wrapper(
+  axios.create({
+    jar,
+    withCredentials: true,
+    maxRedirects: 10,
+    timeout: 60_000,
+    headers: {
+      "User-Agent": UA,
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+    },
+    validateStatus: (s) => s >= 200 && s < 400,
+  })
+);
+
+/**
+ * Extract Calaméo ID from:
+ * - /read/<id>
+ * - /download/<id>
+ * - query bkcode=<id>
+ */
+function extractCalameoIdLoose(u: string): string | null {
+  try {
+    const url = new URL(u);
+    const parts = url.pathname.split("/").filter(Boolean);
+
+    const readIdx = parts.indexOf("read");
+    if (readIdx !== -1 && parts[readIdx + 1]) return parts[readIdx + 1];
+
+    const dlIdx = parts.indexOf("download");
+    if (dlIdx !== -1 && parts[dlIdx + 1]) return parts[dlIdx + 1];
+
+    const bk = url.searchParams.get("bkcode");
+    if (bk) return bk;
+
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * HTML fallback extraction (from the working file).
+ */
+function extractCalameoBkcodeFromHtml(html: string): string | null {
+  const patterns = [
+    /bkcode["']?\s*[:=]\s*["']([0-9a-f]{10,})["']/i,
+    /"bkcode"\s*:\s*"([0-9a-f]{10,})"/i,
+    /\/download\/([0-9a-f]{10,})\?/i,
+    /"document"\s*:\s*\{\s*"id"\s*:\s*"([0-9a-f]{10,})"/i,
+    /"bookKey"\s*:\s*"([0-9a-f]{10,})"/i,
+  ];
+
+  for (const re of patterns) {
+    const m = html.match(re);
+    if (m?.[1]) return m[1];
+  }
+  return null;
+}
+
+function calameoDownloadUrlFromBkcode(id: string) {
+  return `https://www.calameo.com/download/${id}?bkcode=${id}`;
+}
+
+/**
+ * Download with redirects and validate PDF bytes.
+ */
+async function downloadFileFollowRedirects(
+  url: string,
+  outFile: string,
+  referer?: string
+): Promise<{ finalUrl: string; contentType: string; isPdf: boolean }> {
+  const r = await client.get(url, {
+    responseType: "arraybuffer",
+    headers: {
+      "User-Agent": UA,
+      Accept: "application/pdf,application/octet-stream,*/*",
+      ...(referer ? { Referer: referer } : {}),
+    },
+    validateStatus: (s) => s >= 200 && s < 400,
+  });
+
+  const ct = String((r.headers as any)["content-type"] ?? "");
+  const finalUrl = (r.request?.res?.responseUrl as string | undefined) ?? url;
+
+  const dataBuf = Buffer.from(r.data);
+  const isPdf = ct.toLowerCase().includes("pdf") || looksLikePdf(dataBuf);
+
+  if (isPdf) {
+    fs.mkdirSync(path.dirname(outFile), { recursive: true });
+    fs.writeFileSync(outFile, dataBuf);
+  }
+
+  return { finalUrl, contentType: ct, isPdf };
+}
+
+/**
+ * Core Calaméo logic from the working file:
+ * - derive id from URL if possible
+ * - fetch viewer HTML once (for cookies + fallback id extraction)
+ * - build https://www.calameo.com/download/<id>?bkcode=<id>
+ * - download using referer=viewerUrl
+ */
+async function downloadCalameoToFile(sourceUrl: string, outPath: string): Promise<{ finalUrl: string; contentType: string; id: string }> {
+  // normalize viewer url
+  const viewerUrl = toCalameoReadUrl(sourceUrl);
+
+  // 1) try id from URL
+  let id = extractCalameoIdLoose(sourceUrl) ?? extractCalameoIdLoose(viewerUrl);
+
+  // 2) fetch viewer HTML at least once (cookies/session + possible bkcode in HTML)
+  let html = "";
+  try {
+    const r = await client.get(viewerUrl, { responseType: "text", validateStatus: (s) => s >= 200 && s < 400 });
+    html = String(r.data ?? "");
+  } catch {
+    // ignore (some links may fail; we can still try if we already have id)
+  }
+
+  if ((!id || id.length < 10) && html) {
+    const fromHtml = extractCalameoBkcodeFromHtml(html);
+    if (fromHtml) id = fromHtml;
+  }
+
+  if (!id) {
+    throw new Error("Calaméo URL detected but no bkcode/id could be extracted");
+  }
+
+  const dlUrl = calameoDownloadUrlFromBkcode(id);
+
+  const { finalUrl, contentType, isPdf } = await downloadFileFollowRedirects(dlUrl, outPath, viewerUrl);
+  if (!isPdf) {
+    try { fs.unlinkSync(outPath); } catch {}
+    throw new Error(`Calaméo download did not return a PDF (content-type=${contentType || "unknown"}, final=${finalUrl})`);
+  }
+
+  return { finalUrl, contentType, id };
 }
 
 function getArg(flag: string): string | null {
@@ -174,10 +321,6 @@ function getArgInt(flag: string, def: number): number {
   if (!v) return def;
   const n = Number(v);
   return Number.isFinite(n) ? n : def;
-}
-
-function hasFlag(flag: string): boolean {
-  return process.argv.includes(flag);
 }
 
 function pLimit(concurrency: number) {
@@ -212,7 +355,6 @@ async function run() {
     );
   }
 
-  // Keep same relative root convention as your old scripts.
   const defaultOut = path.resolve(process.cwd(), "./scrapy_crawler/outputs/program_docs_v2");
   const outRoot = path.resolve(process.cwd(), getArg("--out") ?? defaultOut);
   const outPdfs = path.join(outRoot, "pdfs");
@@ -226,8 +368,7 @@ async function run() {
 
   const manifest: ProgramDocManifestItem[] = [];
 
-  // Prepare a flat list of download jobs so we can run with concurrency
-  type Job = { manifestItem: ProgramDocManifestItem; outPath: string; resolvedUrl: string | null };
+  type Job = { manifestItem: ProgramDocManifestItem; outPath: string };
   const jobs: Job[] = [];
 
   for (const e of entries) {
@@ -278,7 +419,6 @@ async function run() {
         notes: null,
       };
 
-      // Output file name is stable by doc_key + a bit of context
       const baseName = safeFileName(
         `${faculty ?? "UNK"}_${degree_level ?? "UNK"}_${total_ects ?? "UNK"}_${program_name ?? "UNK"}_${doc_label ?? "doc"}_${doc_key}.pdf`
       );
@@ -294,16 +434,15 @@ async function run() {
         continue;
       }
 
-      // resolve if calaméo
       if (source_type === "unknown") {
         item.status = "skipped_non_pdf";
         item.fetched_at = new Date().toISOString();
-        item.notes = "not a pdf and not a calameo read link";
+        item.notes = "not a pdf and not a calameo link";
         manifest.push(item);
         continue;
       }
 
-      jobs.push({ manifestItem: item, outPath, resolvedUrl: null });
+      jobs.push({ manifestItem: item, outPath });
     }
   }
 
@@ -314,38 +453,52 @@ async function run() {
       limit(async () => {
         const m = job.manifestItem;
         try {
-          let urlToFetch: string | null = m.source_url;
+          if (m.source_type === "pdf") {
+            // Use the same session client too; safer for sites requiring cookies
+            const { finalUrl, contentType, isPdf } = await downloadFileFollowRedirects(m.source_url, job.outPath);
+            if (!isPdf) {
+              try { fs.unlinkSync(job.outPath); } catch {}
+              throw new Error(`Not a PDF (content-type=${contentType || "unknown"}, final=${finalUrl})`);
+            }
+
+            m.local_path = job.outPath;
+            m.sha256 = sha256File(job.outPath);
+            m.fetched_at = new Date().toISOString();
+            m.status = "downloaded";
+            m.notes = `downloaded pdf (final=${finalUrl}, ct=${contentType || "unknown"})`;
+            manifest.push(m);
+            process.stdout.write(".");
+            return;
+          }
+
           if (m.source_type === "calameo") {
-            const direct = await tryGetCalameoDirectPdfUrl(m.source_url);
-            if (!direct) {
+            try {
+              const dl = await downloadCalameoToFile(m.source_url, job.outPath);
+              m.local_path = job.outPath;
+              m.sha256 = sha256File(job.outPath);
+              m.fetched_at = new Date().toISOString();
+              m.status = "downloaded";
+              m.notes = `calameo downloaded (id=${dl.id}, final=${dl.finalUrl}, ct=${dl.contentType || "unknown"})`;
+              manifest.push(m);
+              process.stdout.write(".");
+              return;
+            } catch (e: any) {
               m.local_path = null;
               m.sha256 = null;
               m.fetched_at = new Date().toISOString();
               m.status = "calameo_no_direct_pdf";
-              m.notes = "No direct PDF found; publisher likely disabled download";
+              m.notes = e?.message ?? String(e);
               manifest.push(m);
+              process.stdout.write("c");
               return;
             }
-            urlToFetch = direct;
-            m.notes = `downloaded via discovered direct pdf: ${direct}`;
           }
 
-          if (!urlToFetch) {
-            m.fetched_at = new Date().toISOString();
-            m.status = "failed";
-            m.notes = "no url to fetch";
-            manifest.push(m);
-            return;
-          }
-
-          await downloadToFile(urlToFetch, job.outPath);
-          m.local_path = job.outPath;
-          m.sha256 = sha256File(job.outPath);
           m.fetched_at = new Date().toISOString();
-          m.status = "downloaded";
+          m.status = "skipped_non_pdf";
+          m.notes = "unexpected source_type";
           manifest.push(m);
-
-          process.stdout.write(".");
+          process.stdout.write("s");
         } catch (e: any) {
           m.local_path = null;
           m.sha256 = null;
@@ -368,7 +521,9 @@ async function run() {
 
   console.log(`✅ Wrote manifest: ${manifestPath}`);
   console.log(
-    `Stats: downloaded=${stats("downloaded")} already_present=${stats("already_present")} skipped_non_pdf=${stats("skipped_non_pdf")} calameo_no_direct_pdf=${stats("calameo_no_direct_pdf")} failed=${stats("failed")}`
+    `Stats: downloaded=${stats("downloaded")} already_present=${stats("already_present")} skipped_non_pdf=${stats(
+      "skipped_non_pdf"
+    )} calameo_no_direct_pdf=${stats("calameo_no_direct_pdf")} failed=${stats("failed")}`
   );
 }
 

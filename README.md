@@ -31,13 +31,14 @@ Merge crawled docs
 3. python DB_service\src\import\unmatched_patch.py ^  --in "scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json" ^  --out "scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json"
 
 Download and parse
-1. npx ts-node DB_service\src\import\01_download_program_docs_v2.ts --input scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json --out scrapy_crawler/outputs
-2. npx ts-node DB_service/src/import/parse_docs_full.ts --root scrapy_crawler/outputs
+1. npm i axios tough-cookie axios-cookiejar-support
+2. npx ts-node DB_service\src\import\01_download_program_docs_v2.ts --input scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json --out scrapy_crawler/outputs
+3. npx ts-node DB_service/src/import/parse_docs_full.ts --root scrapy_crawler/outputs
 
 
-Do the imports (from DB_service)
+Do the imports (from   DB_service)
 1. npx ts-node DB_sercive/src/import/run_faculty_import.ts
 2. npx ts-node DB_service/src/import/run_courses_import.ts
 3. npx ts-node DB_service/src/import/program_name_imports.ts
 4. npx ts-node DB_service/src/import/new_program_import.ts
-
+5. npx ts-node DB_service/src/import/import_consist_of.ts

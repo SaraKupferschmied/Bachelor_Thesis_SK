@@ -1,18 +1,41 @@
+# -*- coding: utf-8 -*-
+"""
+Spider: University of Fribourg – Faculty of Humanities/Letters (lettres) – Philosophy faculty programmes
+
+Fixes:
+- Prevent accidentally following events.unifr.ch/masterdays instead of the actual master study page
+- Prefer master URLs under https://www.unifr.ch/lettres/<lang>/studium/
+- Add deterministic fallbacks: .../studium/master.html and .../studium/master/
+
+Also:
+- Accordion "Studienangebot" extraction uses the THIRD <p> inside accordion content:
+  .//div[@data-accordion-content]//p[3]//a[@href]
+"""
+
 import json
 import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, quote
-import scrapy
 
+import scrapy
 
 DOC_EXT_RE = re.compile(r"\.(pdf|doc|docx|xls|xlsx|ppt|pptx)\b", re.IGNORECASE)
 
 PLAN_TEXT_KEYS = [
     "studienplan",
+    "studienpläne",
+    "plans d'études",
     "plan d'études",
     "plan d’etudes",
     "plan detudes",
     "study plan",
+    "study plans",
+    "reglement",
+    "règlement",
+    "reglements",
+    "règlements",
+    "downloads",
+    "download",
 ]
 
 
@@ -32,7 +55,7 @@ def safe_url(url: str) -> str:
     path = quote(parts.path, safe="/%:@")
     query = quote(parts.query, safe="=&%:@/?")
     fragment = quote(parts.fragment, safe="")
-    return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
+    return urlunsplit((parts.scheme, parts.netloc, path, parts.query, fragment))
 
 
 def abs_href(response, href: str) -> str:
@@ -41,6 +64,7 @@ def abs_href(response, href: str) -> str:
 
 def is_doc_href(url: str) -> bool:
     return bool(DOC_EXT_RE.search(url or ""))
+
 
 def classify_doc_level(label: str | None, url: str) -> str | None:
     t = lower_norm(f"{label or ''} {url}")
@@ -54,6 +78,7 @@ def classify_doc_level(label: str | None, url: str) -> str | None:
         return "bachelor"
 
     return None
+
 
 def find_alt_lang_urls(response) -> dict:
     out = {}
@@ -82,8 +107,9 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
     def __init__(self, lang="de", *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.lang = (lang or "de").strip().lower()
+        self._seen_program_urls: set[str] = set()
 
-    # Scrapy 2.13+ compatibility (matches your SCIMED/Law pattern)
+    # Scrapy 2.13+ compatibility
     async def start(self):
         for req in self.start_requests():
             yield req
@@ -113,7 +139,6 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
     def start_requests(self):
         data = self._load_faculties()
 
-        # ✅ Faculty of Humanities = "lettres" in your faculties.json
         lettres = next(
             (x for x in data if x.get("key") == "lettres" and x.get("lang") == self.lang),
             None,
@@ -127,13 +152,11 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
         if not base:
             raise ValueError("LETTRES entry has no usable url_* field in faculties.json")
 
-        # ✅ language-scoped faculty home like /lettres/de/
         start_url = safe_url(base.rstrip("/") + f"/{self.lang}/")
         self.logger.info("Starting PHIL crawl at: %s", start_url)
         yield scrapy.Request(start_url, callback=self.parse)
 
     def parse(self, response):
-        # Find Studium link
         studium_href = (
             response.css('nav.push-menu a.deeper:contains("Studium")::attr(href)').get()
             or response.css('a:contains("Studium")::attr(href)').get()
@@ -147,19 +170,46 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
 
     def parse_studium(self, response):
         """
-        From Studium page: find Bachelor link in left menu and crawl that.
-        Then we’ll discover Master from the Bachelor page menu.
+        From Studium page: find Bachelor page and crawl that.
+        Master is discovered from Bachelor page menu, but MUST be under /lettres/<lang>/studium/
         """
         ba_url = self._find_level_link(response, want="bachelor")
         if not ba_url:
             self.logger.warning("Could not find Bachelor link on %s", response.url)
             return
 
-        yield scrapy.Request(ba_url, callback=self.parse_level_page, meta={"level": "bachelor", "crawl_master": True})
+        yield scrapy.Request(
+            ba_url,
+            callback=self.parse_level_page,
+            meta={"level": "bachelor", "crawl_master": True},
+        )
+
+    # ---------------------------
+    # Level link finding (FIXED)
+    # ---------------------------
+
+    def _is_valid_studium_level_url(self, url: str) -> bool:
+        """
+        Only allow level pages under:
+        https://www.unifr.ch/lettres/<lang>/studium/...
+        This prevents selecting events.unifr.ch/masterdays, etc.
+        """
+        try:
+            parts = urlsplit(url)
+        except Exception:
+            return False
+        if parts.scheme not in ("http", "https"):
+            return False
+        if parts.netloc.lower() != "www.unifr.ch":
+            return False
+        p = parts.path.lower()
+        # must be in lettres/<lang>/studium subtree
+        return f"/lettres/{self.lang}/studium/" in p
 
     def _find_level_link(self, response, want: str) -> str | None:
         """
-        Robustly find 'Bachelor' or 'Master' page from the left sub-menu.
+        Robustly find 'Bachelor' or 'Master' page from sub-menu.
+        FIX: reject off-domain / off-subtree links (e.g. masterdays event site).
         """
         want = want.lower()
         anchors = response.css("div.sub-menu a, main#main a, a")
@@ -180,147 +230,178 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
             if want == "bachelor":
                 if "bachelor" in t:
                     score += 100
-                if "/ba" in p or "/bachelor" in p:
-                    score += 30
+                if "/bachelor" in p:
+                    score += 40
+                if p.endswith("/studium/bachelor/") or p.endswith("/studium/bachelor.html"):
+                    score += 50
+
             if want == "master":
                 if "master" in t:
                     score += 100
-                if "/ma" in p or "/master" in p:
-                    score += 30
+                if "/master" in p:
+                    score += 40
+                if p.endswith("/studium/master/") or p.endswith("/studium/master.html"):
+                    score += 80
 
-            # keep only studium-ish subtree if possible
-            if "studium" not in p and score < 100:
+            if score == 0:
+                continue
+
+            # Critical fix: only accept real lettres studium pages on www.unifr.ch
+            if not self._is_valid_studium_level_url(u):
                 continue
 
             if score > best_score:
                 best_score = score
                 best = u
 
+        # If we didn't find the master page in the menu, try known fallbacks
+        if not best and want == "master":
+            candidates = [
+                f"https://www.unifr.ch/lettres/{self.lang}/studium/master.html",
+                f"https://www.unifr.ch/lettres/{self.lang}/studium/master/",
+            ]
+            best = candidates[0]  # try master.html first
+        if not best and want == "bachelor":
+            candidates = [
+                f"https://www.unifr.ch/lettres/{self.lang}/studium/bachelor/",
+                f"https://www.unifr.ch/lettres/{self.lang}/studium/bachelor.html",
+            ]
+            best = candidates[0]
+
         return best
 
+    # ---------------------------
+    # Studienangebot extraction
+    # ---------------------------
+
     def parse_level_page(self, response):
-        """
-        Bachelor/Master page:
-        Parse Studienangebot accordion and follow the *Studienplan* link per entry.
-        Also discover & schedule Master (once) from the Bachelor page menu.
-        """
         level = response.meta.get("level")
 
-        # ✅ From Bachelor page, schedule Master by reading the same left menu
+        # From Bachelor page, schedule Master once (and ensure it's the real /studium/master...)
         if response.meta.get("crawl_master"):
             ma_url = self._find_level_link(response, want="master")
             if ma_url:
-                yield scrapy.Request(ma_url, callback=self.parse_level_page, meta={"level": "master", "crawl_master": False})
+                yield scrapy.Request(
+                    ma_url,
+                    callback=self.parse_level_page,
+                    meta={"level": "master", "crawl_master": False},
+                )
             else:
                 self.logger.warning("Master link not found from Bachelor page menu: %s", response.url)
 
-        # Accordion entries
-        lis = response.css("main#main ul.accordion li")
-        if not lis:
-            lis = response.css("ul.accordion li")
-
-        if not lis:
-            self.logger.warning("No accordion items found on %s", response.url)
+        items = self._extract_program_items_from_studienangebot(response)
+        if not items:
+            self.logger.warning("No programme items found on %s", response.url)
             return
 
-        for li in lis:
-            # Programme title (accordion header)
-            prog_title = clean_text(" ".join(li.css('a[data-accordion-toggler]::text').getall()))
-            if not prog_title:
-                prog_title = clean_text(" ".join(li.css("a::text").getall()[:6]))
+        self.logger.info("Found %s programme items on %s (%s)", len(items), response.url, level)
 
-            # ✅ CRITICAL FIX: pick the link whose visible text is “Studienplan”
-            plan_href = None
-            for a in li.css("a[href]"):
-                href = a.attrib.get("href")
-                if not href:
-                    continue
-                at = clean_text(" ".join(a.css("::text").getall())) or ""
-                if any(k in lower_norm(at) for k in PLAN_TEXT_KEYS):
-                    plan_href = href
-                    break
+        for it in items:
+            program_name = it["program_name"]
+            program_url = it["program_url"]
 
-            # fallback: if no explicit Studienplan link, try a studies.go link
-            if not plan_href:
-                plan_href = li.css('a[href*="studies.unifr.ch/go/"]::attr(href)').get()
-
-            if not plan_href:
+            if program_url in self._seen_program_urls:
                 continue
-
-            plan_url = abs_href(response, plan_href)
+            self._seen_program_urls.add(program_url)
 
             yield scrapy.Request(
-                plan_url,
+                program_url,
                 callback=self.parse_plan_or_program_page,
                 meta={
                     "faculty": "Philosophy",
                     "level": level,
-                    "program_name_de": prog_title,
-                    "plan_entry_url": plan_url,
+                    "program_name_de": program_name,
+                    "plan_entry_url": program_url,
                 },
             )
 
+    def _extract_program_items_from_studienangebot(self, response) -> list[dict]:
+        heading = response.xpath(
+            '//main[@id="main"]//*[self::h2 or self::h3 or self::h4]'
+            '[contains(normalize-space(.), "Studienangebot")]'
+        )
+        if not heading:
+            heading = response.xpath(
+                '//*[self::h2 or self::h3 or self::h4][contains(normalize-space(.), "Studienangebot")]'
+            )
+        if not heading:
+            return []
+
+        # Accordion layout
+        accordion_lis = heading[0].xpath("following::ul[contains(@class,'accordion')][1]/li")
+        if accordion_lis:
+            out = []
+            for li in accordion_lis:
+                name = clean_text(" ".join(li.css("a[data-accordion-toggler]::text").getall()))
+                if not name:
+                    continue
+
+                # Primary: 3rd paragraph link inside accordion content
+                href = li.xpath(".//div[@data-accordion-content]//p[3]//a[@href][1]/@href").get()
+
+                # Fallback: any studies.unifr.ch/go/ link in accordion content
+                if not href:
+                    candidates = li.xpath(".//div[@data-accordion-content]//a[@href]/@href").getall()
+                    href = next((h for h in candidates if "studies.unifr.ch/go/" in (h or "")), None)
+
+                # Another fallback: any Studienplan/Download-ish anchor in this li
+                if not href:
+                    href = self._find_studienplan_href_in_li_selector(li)
+
+                if not href:
+                    continue
+
+                out.append({"program_name": name, "program_url": abs_href(response, href)})
+            return out
+
+        # Plain list fallback
+        plain_lis = heading[0].xpath("following::ul[1]/li")
+        out = []
+        for li in plain_lis:
+            name = self._extract_program_title_from_li_selector(li)
+            if not name:
+                continue
+            href = self._find_studienplan_href_in_li_selector(li)
+            if not href:
+                continue
+            out.append({"program_name": name, "program_url": abs_href(response, href)})
+        return out
+
+    def _extract_program_title_from_li_selector(self, li_sel) -> str | None:
+        title = clean_text(" ".join(li_sel.css("a::text").getall()[:3]))
+        return title
+
+    def _find_studienplan_href_in_li_selector(self, li_sel) -> str | None:
+        for a in li_sel.css("a[href]"):
+            href = a.attrib.get("href")
+            if not href:
+                continue
+            at = clean_text(" ".join(a.css("::text").getall())) or ""
+            if any(k in lower_norm(at) for k in PLAN_TEXT_KEYS):
+                return href
+
+        href = li_sel.css('a[href*="studies.unifr.ch/go/"]::attr(href)').get()
+        return href
+
+    # ---------------------------
+    # Programme page -> docs
+    # ---------------------------
+
     def parse_plan_or_program_page(self, response):
-        """
-        The “Studienplan” link often lands on a faculty/subject page,
-        sometimes you need one more click to reach the downloads page.
-        So:
-        - if page already has downloadable docs -> collect
-        - else find another “Studienplan” link on the page and follow it once
-        - else output empty documents but keep the URLs for debugging
-        """
         data = dict(response.meta)
 
-        # Improve name if we have a page title
         h = clean_text(response.css("h1::text, h2::text").get())
         if h and (not data.get("program_name_de") or len(data["program_name_de"]) < 4):
             data["program_name_de"] = h
 
-        # If already contains docs, collect and yield
         docs = self._collect_docs(response)
         if docs:
-            ba_docs, ma_docs, unknown = [], [], []
-
-            for d in docs:
-                lvl = classify_doc_level(d.get("label"), d["url"])
-                if lvl == "bachelor":
-                    ba_docs.append(d)
-                elif lvl == "master":
-                    ma_docs.append(d)
-                else:
-                    unknown.append(d)
-
-            # yield to the entry's own level
-            if data.get("level") == "bachelor":
-                yield self._build_item(data, response, studienplan_url=response.url, docs=ba_docs or docs)
-                # optionally also emit master if we discovered it
-                if ma_docs:
-                    data2 = dict(data)
-                    data2["level"] = "master"
-                    yield self._build_item(data2, response, studienplan_url=response.url, docs=ma_docs)
-            else:
-                yield self._build_item(data, response, studienplan_url=response.url, docs=ma_docs or docs)
-                if ba_docs:
-                    data2 = dict(data)
-                    data2["level"] = "bachelor"
-                    yield self._build_item(data2, response, studienplan_url=response.url, docs=ba_docs)
-
+            yield from self._yield_split_levels_if_needed(data, response, docs, response.url)
             return
 
-        # Otherwise: search a “Studienplan” link in-page and follow once
-        next_plan_href = None
-        for a in response.css("a[href]"):
-            href = a.attrib.get("href")
-            if not href:
-                continue
-            txt = clean_text(" ".join(a.css("::text").getall())) or ""
-            if any(k in lower_norm(txt) for k in PLAN_TEXT_KEYS):
-                next_plan_href = href
-                break
-
+        next_plan_href = self._find_next_plan_like_link(response)
         if next_plan_href:
             next_url = abs_href(response, next_plan_href)
-            # prevent loops
             if safe_url(next_url).rstrip("/") != safe_url(response.url).rstrip("/"):
                 yield scrapy.Request(
                     next_url,
@@ -329,13 +410,78 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
                 )
                 return
 
-        # Nothing else found
         yield self._build_item(data, response, studienplan_url=None, docs=[])
+
+    def _find_next_plan_like_link(self, response) -> str | None:
+        best_href = None
+        best_score = 0
+
+        for a in response.css("a[href]"):
+            href = a.attrib.get("href")
+            if not href:
+                continue
+
+            txt = clean_text(" ".join(a.css("::text").getall())) or ""
+            t = lower_norm(txt)
+            u = abs_href(response, href)
+            p = urlsplit(u).path.lower()
+
+            score = 0
+            if any(k in t for k in PLAN_TEXT_KEYS):
+                score += 100
+            if "studium" in p or "studies" in p:
+                score += 10
+            if "download" in p or "downloads" in p:
+                score += 10
+            if "reglement" in p or "reglemente" in p:
+                score += 10
+            if "plans" in p or "plaene" in p or "pläne" in t:
+                score += 10
+
+            if score > best_score:
+                best_score = score
+                best_href = href
+
+        return best_href
 
     def parse_final_documents_page(self, response):
         data = dict(response.meta)
         docs = self._collect_docs(response)
-        yield self._build_item(data, response, studienplan_url=data.get("studienplan_url"), docs=docs)
+        studienplan_url = data.get("studienplan_url") or response.url
+        yield from self._yield_split_levels_if_needed(data, response, docs, studienplan_url)
+
+    def _yield_split_levels_if_needed(self, data, response, docs, studienplan_url: str):
+        ba_docs, ma_docs, unknown = [], [], []
+        for d in docs:
+            lvl = classify_doc_level(d.get("label"), d["url"])
+            if lvl == "bachelor":
+                ba_docs.append(d)
+            elif lvl == "master":
+                ma_docs.append(d)
+            else:
+                unknown.append(d)
+
+        if not ba_docs and not ma_docs:
+            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=docs)
+            return
+
+        requested = data.get("level")
+        if requested == "bachelor":
+            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=ba_docs or unknown or docs)
+            if ma_docs:
+                data2 = dict(data)
+                data2["level"] = "master"
+                yield self._build_item(data2, response, studienplan_url=studienplan_url, docs=ma_docs)
+        else:
+            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=ma_docs or unknown or docs)
+            if ba_docs:
+                data2 = dict(data)
+                data2["level"] = "bachelor"
+                yield self._build_item(data2, response, studienplan_url=studienplan_url, docs=ba_docs)
+
+    # ---------------------------
+    # Doc collection + output
+    # ---------------------------
 
     def _collect_docs(self, response):
         hrefs = response.css("a[href]::attr(href)").getall()
@@ -372,8 +518,8 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
             "level": data.get("level"),
             "program": {
                 "name_de": data.get("program_name_de"),
-                "page_url": data.get("plan_entry_url"),     # the link from the accordion ("Studienplan")
-                "studienplan_url": studienplan_url,         # where we ended up collecting docs (if any)
+                "page_url": data.get("plan_entry_url"),
+                "studienplan_url": studienplan_url,
                 "page_url_fr": alts.get("fr"),
                 "page_url_en": alts.get("en"),
             },

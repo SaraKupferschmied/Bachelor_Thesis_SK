@@ -5,29 +5,10 @@ import path from "path";
 import { DataAccessController } from "../control/data_access_controller";
 
 /**
- * Input (default):
- *  - <out>/parsed/_program_docs_parsed.json   (preferred)
- *  - <out>/parsed/_program_docs_review.json   (preferred)
- *
- * Fallback:
- *  - <out>/_program_docs_parsed.json
- *  - <out>/_program_docs_review.json
- *
- * Override (strongly recommended if your filenames differ):
- *  - --parsed <path-to-parsed-json>
- *  - --review <path-to-review-json>
- *
- * Output:
- *  - Upserts StudyProgram
- *  - Upserts programDocument
- *  - Inserts programCourseStaging
- *  - Writes <out>/_program_docs_import_match_report.json (what was skipped & why)
- *
- * Usage:
- *   npx ts-node DB_service\src\import\03_import_program_docs_v2.ts --out scrapy_crawler\scrapy_crawler\spider_outputs\program_docs_v2
- *
- * If your file names/paths differ:
- *   npx ts-node ... --out <out> --parsed <fullpath.json> --review <fullpath.json>
+ * Adapted goals:
+ * - Insert compact raw_text (snippet around course code/title, not full page text).
+ * - Infer course type (Mandatory/Elective) from parsed row text + section (DE/FR/EN).
+ * - Ensure programCourseStaging has inferred_type column (adds it if missing).
  */
 
 type ParsedDoc = {
@@ -112,6 +93,18 @@ async function tableHasColumn(db: DB, table: string, column: string): Promise<bo
   return r.rows.length > 0;
 }
 
+async function ensureStagingHasInferredType(db: DB) {
+  const has = await tableHasColumn(db, "programcoursestaging", "inferred_type");
+  if (has) return;
+
+  console.log("🛠️  Adding missing column programCourseStaging.inferred_type ...");
+  await db.query(`
+    ALTER TABLE programCourseStaging
+    ADD COLUMN IF NOT EXISTS inferred_type VARCHAR(20) NULL
+    CHECK (inferred_type IN ('Mandatory','Elective'));
+  `);
+}
+
 async function resolveFacultyId(db: DB, facultyKeyOrName: string): Promise<number | null> {
   if (!facultyKeyOrName) return null;
 
@@ -182,7 +175,7 @@ const STOPWORDS = new Set([
   "university","universite","universität","fribourg","freiburg","unifr",
   "science","sciences",
   "master","bachelor","doctorate","phd","msc","bsc","ma","ba","dr",
-  "credits","credit","ects","cr","cp","kreditpunkte","kreditpunkt","punkte","punkte",
+  "credits","credit","ects","cr","cp","kreditpunkte","kreditpunkt","punkte","points","point",
 ]);
 
 function tokens(s: string): string[] {
@@ -234,10 +227,8 @@ function detectDegreeInText(t: string): "Bachelor" | "Master" | "Doctorate" | nu
   const s = normalizeText(t);
 
   if (/\b(phd|doctorate|doctoral|doktorat|doctorat)\b/.test(s)) return "Doctorate";
-
   if (/\b(master|msc|m sc|m\.sc|ma|m a|m\.a)\b/.test(s)) return "Master";
   if (/\b(masters)\b/.test(s)) return "Master";
-
   if (/\b(bachelor|bsc|b sc|b\.sc|ba|b a|b\.a)\b/.test(s)) return "Bachelor";
 
   return null;
@@ -246,12 +237,11 @@ function detectDegreeInText(t: string): "Bachelor" | "Master" | "Doctorate" | nu
 function extractEctsInText(t: string): number | null {
   const s = normalizeText(t);
 
-  const m = s.match(/\b(\d{1,3})\s*(ects|credits|credit|cr|cp|kreditpunkte|kreditpunkt|points|point|crdits|credits)\b/);
+  const m = s.match(/\b(\d{1,3})\s*(ects|credits|credit|cr|cp|kreditpunkte|kreditpunkt|points|point)\b/);
   if (m?.[1]) {
     const n = Number(m[1]);
     if (Number.isFinite(n)) return n;
   }
-
   return null;
 }
 
@@ -344,6 +334,134 @@ function checkDocMatchesProgram(
   };
 }
 
+/** ---------------- NEW: course-title + type inference helpers ---------------- */
+
+// You can tweak this if your codes have a known format.
+// This catches many formats like: "INF101", "CS-101", "IIG-123", "Droit I" won't match (no code).
+const COURSE_CODE_RE = /\b([A-Z]{2,10}[- ]?\d{1,4}[A-Z]?)\b/;
+
+function cleanSpaces(s: string): string {
+  return s.replace(/\s+/g, " ").trim();
+}
+
+function extractTitleNearCode(raw: string, code: string): string | null {
+  // Try: "<code> <title> ... (ECTS/credits/number)" on the same line
+  // We accept up to ~120 chars after code until we hit obvious separators.
+  const esc = code.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`${esc}\\s*[:\\-–—]?\\s*([^\\n\\r]{3,160})`, "i");
+  const m = raw.match(re);
+  if (!m?.[1]) return null;
+
+  let t = m[1];
+
+  // Stop at common "end markers" (ECTS numbers, language marker, etc.)
+  t = t.split(/\b(\d{1,3}(\.\d+)?)\s*(ects|cr|cp|credits?)\b/i)[0] ?? t;
+  t = t.split(/\b(ects|cr|cp|credits?)\b/i)[0] ?? t;
+
+  // Stop at long sequences that look like table columns
+  t = t.split(/\s{2,}|\t|\|/)[0] ?? t;
+
+  // Remove trailing noise symbols
+  t = t.replace(/[•·●]+/g, " ");
+  t = cleanSpaces(t);
+
+  // Avoid returning something that is basically empty or just the code again
+  if (!t || t.length < 3) return null;
+  if (normalizeText(t) === normalizeText(code)) return null;
+
+  return t;
+}
+
+function extractTitleFallback(raw: string): string | null {
+  // If no code, try to take a "reasonable looking" title from the start of the row
+  // e.g. "Introduction à la programmation Einführung in die Programmierung"
+  const firstLine = cleanSpaces(raw.split(/\r?\n/)[0] ?? "");
+  if (!firstLine) return null;
+
+  // If it looks like pure heading or totals, ignore
+  const s = normalizeText(firstLine);
+  if (
+    /\b(summe|total|min|maximum|jahr|studienjahr|semester|ects)\b/.test(s) &&
+    firstLine.length > 40
+  ) {
+    // keep going but be conservative
+  }
+
+  // Cap length so we don't store full paragraphs
+  return firstLine.length > 140 ? firstLine.slice(0, 140).trim() : firstLine;
+}
+
+function inferCourseTypeFromText(text: string): "Mandatory" | "Elective" | null {
+  const s = normalizeText(text);
+
+  // Elective indicators (DE/FR/EN)
+  const elective = [
+    /\bwahl\b/,
+    /\bwahlkurs\b/,
+    /\bwahlkurse\b/,
+    /\bwahlpflicht\b/,
+    /\boption\b/,
+    /\boptional\b/,
+    /\belective\b/,
+    /\boptions?\b/,
+    /\bau choix\b/,
+    /\bchoix\b/,
+    /\boptionnels?\b/,
+    /\bfacultatif\b/,
+  ];
+
+  // Mandatory indicators (DE/FR/EN)
+  const mandatory = [
+    /\bpflicht\b/,
+    /\bpflichtkurs\b/,
+    /\bpflichtkurse\b/,
+    /\bobligatorisch\b/,
+    /\bverpflichtend\b/,
+    /\bmandatory\b/,
+    /\bcompulsory\b/,
+    /\bobligatoire\b/,
+    /\btronc commun\b/,
+  ];
+
+  let eScore = 0;
+  let mScore = 0;
+
+  for (const re of elective) if (re.test(s)) eScore++;
+  for (const re of mandatory) if (re.test(s)) mScore++;
+
+  if (eScore === 0 && mScore === 0) return null;
+  if (eScore > mScore) return "Elective";
+  if (mScore > eScore) return "Mandatory";
+
+  // tie -> unknown
+  return null;
+}
+
+function buildCompactRawText(args: {
+  raw: string;
+  code: string | null;
+  title: string | null;
+  type: "Mandatory" | "Elective" | null;
+}): string {
+  const parts: string[] = [];
+  if (args.code) parts.push(args.code);
+  if (args.title) parts.push(args.title);
+
+  let base = cleanSpaces(parts.join(" — "));
+
+  // If we couldn't build a nice "code — title", create a short snippet from raw
+  if (!base) {
+    const snip = cleanSpaces(args.raw);
+    base = snip.length > 220 ? snip.slice(0, 220).trim() : snip;
+  }
+
+  // Optionally append type marker (helps debugging in DB)
+  // Comment out if you want raw_text to be purely content.
+  if (args.type) base = `${base} [${args.type}]`;
+
+  return base;
+}
+
 /** --- DB ops --- */
 
 async function upsertStudyProgram(db: DB, doc: ParsedDoc, programKeyToUse: string, defaultFacultyId: number): Promise<number> {
@@ -423,6 +541,53 @@ async function upsertProgramDocument(db: DB, program_id: number, doc: ParsedDoc)
 
 async function insertStagingRows(db: DB, program_id: number, source_doc_id: number, doc: ParsedDoc) {
   for (const row of doc.rows) {
+    const raw = row.raw_text ?? "";
+    const section = row.section ?? "";
+
+    // 1) Determine course code (prefer parsed extraction; fallback to regex)
+    const code =
+      (row.extracted_code ?? "").trim() ||
+      (raw.match(COURSE_CODE_RE)?.[1] ?? "").trim() ||
+      null;
+
+    // 2) Determine course title
+    let title =
+      (row.extracted_title ?? "").trim() || null;
+
+    if (!title && code) {
+      title = extractTitleNearCode(raw, code);
+    }
+    if (!title) {
+      title = extractTitleFallback(raw);
+    }
+
+    // 3) Infer type (prefer parsed; else infer from section + raw)
+    let inferred: "Mandatory" | "Elective" | null = row.inferred_type ?? null;
+
+    if (!inferred) {
+      // section context is often very informative (e.g. "Wahlkurse")
+      inferred =
+        inferCourseTypeFromText(section) ??
+        inferCourseTypeFromText(raw) ??
+        null;
+    }
+
+    // If you want: if still null, default to Mandatory (risky!) -> keep null instead
+    // if (!inferred) inferred = "Mandatory";
+
+    // 4) Store compact raw_text so DB doesn't fill with huge chunks
+    const compactRaw = buildCompactRawText({
+      raw,
+      code,
+      title,
+      type: inferred,
+    });
+
+    // Optional: Skip rows that don't look like course rows at all
+    // This reduces noise. Tune as needed.
+    const looksLikeCourse = Boolean(code) || (title && title.length >= 6);
+    if (!looksLikeCourse) continue;
+
     await db.query(
       `
       INSERT INTO programCourseStaging
@@ -430,14 +595,18 @@ async function insertStagingRows(db: DB, program_id: number, source_doc_id: numb
       VALUES
         ($1,$2,$3,$4,$5,$6,$7,$8)
       ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
-      DO NOTHING;
+      DO UPDATE SET
+        raw_text = EXCLUDED.raw_text,
+        extracted_title = COALESCE(EXCLUDED.extracted_title, programCourseStaging.extracted_title),
+        inferred_type = COALESCE(EXCLUDED.inferred_type, programCourseStaging.inferred_type),
+        section = COALESCE(EXCLUDED.section, programCourseStaging.section);
       `,
       [
         program_id,
-        row.raw_text,
-        row.extracted_code,
-        row.extracted_title,
-        row.inferred_type,
+        compactRaw,
+        code,
+        title,
+        inferred,
         source_doc_id,
         row.page_no,
         row.section,
@@ -457,7 +626,6 @@ function resolveInputPaths(outRoot: string): {
   const parsedFileArg = getArg("--parsed");
   const reviewFileArg = getArg("--review");
 
-  // Determine where we expect inputs by default: <out>/parsed, else <out>
   const parsedDirCandidate = path.join(outRoot, "parsed");
   const inputRoot = fs.existsSync(parsedDirCandidate) ? parsedDirCandidate : outRoot;
 
@@ -474,26 +642,17 @@ async function run() {
 
   const { inputRoot, parsedPath, reviewPath, reportPath } = resolveInputPaths(outRoot);
 
-  // Debug prints (helps you immediately see what it tried)
   console.log("outRoot   =", outRoot);
   console.log("inputRoot =", inputRoot);
   console.log("parsedPath=", parsedPath);
   console.log("reviewPath=", reviewPath);
 
   if (!fs.existsSync(parsedPath)) {
-    try {
-      console.log("Files in inputRoot:", fs.readdirSync(inputRoot));
-    } catch (e) {
-      console.log("Could not list inputRoot:", e);
-    }
+    try { console.log("Files in inputRoot:", fs.readdirSync(inputRoot)); } catch {}
     throw new Error(`Missing parsed file: ${parsedPath}`);
   }
   if (!fs.existsSync(reviewPath)) {
-    try {
-      console.log("Files in inputRoot:", fs.readdirSync(inputRoot));
-    } catch (e) {
-      console.log("Could not list inputRoot:", e);
-    }
+    try { console.log("Files in inputRoot:", fs.readdirSync(inputRoot)); } catch {}
     throw new Error(`Missing review file: ${reviewPath} (create it by running the parse step)`);
   }
 
@@ -511,6 +670,9 @@ async function run() {
 
   const defaultFacultyId = Number(getArg("--defaultFacultyId") ?? "1");
   const db = DataAccessController.pool as unknown as DB;
+
+  // Ensure column exists before any inserts
+  await ensureStagingHasInferredType(db);
 
   // Matching config
   const requireDegreeMatch = !hasFlag("--noRequireDegreeMatch");

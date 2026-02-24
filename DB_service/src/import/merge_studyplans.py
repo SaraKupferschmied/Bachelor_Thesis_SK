@@ -38,7 +38,7 @@ SYNONYM_MAP = {
     "médecinehumaine": "médecine",
     "medecinehumaine": "medecine",
     "humanmedicine": "medicine",
-    # Optional (uncomment if it helps your dataset)
+    # Optional:
     # "bewegungswissenschaften": "sportwissenschaften",
 }
 
@@ -94,7 +94,6 @@ def infer_level_from_label(text: str) -> Optional[str]:
         return None
     if any(x in t for x in ["doctorat", "doktorat", "doctorate", "phd"]):
         return "D"
-    # edu labels: "Master Major", "MSc ..."
     if any(x in t for x in ["master", "msc", "spmsc", "commsc", "premsc"]):
         return "M"
     if any(x in t for x in ["bachelor", "bsc"]):
@@ -132,27 +131,62 @@ NAME_PREFIXES = {
     "in",
 }
 
-# tokens that appear in programme names but often not in doc titles (teacher education, etc.)
 SOFT_STOP_TOKENS = {
     # DE
-    "ausbildung", "fur", "fuer", "für",
-    "den", "die", "das",
+    "ausbildung",
+    "fur",
+    "fuer",
+    "für",
+    "den",
+    "die",
+    "das",
     "unterricht",
-    "an", "auf",
-    "maturitatsschulen", "maturitätsschulen",
+    "an",
+    "auf",
+    "maturitatsschulen",
+    "maturitätsschulen",
     "sekundarstufe",
     "primarstufe",
     # FR
-    "formation", "a", "à", "lenseignement", "enseignement",
-    "pour", "les", "ecoles", "écoles", "de", "du", "des",
-    "maturite", "maturité",
-    "degre", "degré",
-    "secondaire", "primaire",
+    "formation",
+    "a",
+    "à",
+    "lenseignement",
+    "enseignement",
+    "pour",
+    "les",
+    "ecoles",
+    "écoles",
+    "de",
+    "du",
+    "des",
+    "maturite",
+    "maturité",
+    "degre",
+    "degré",
+    "secondaire",
+    "primaire",
     # EN
-    "teacher", "education", "for", "schools", "secondary", "primary", "level", "baccalaureate",
+    "teacher",
+    "education",
+    "for",
+    "schools",
+    "secondary",
+    "primary",
+    "level",
+    "baccalaureate",
     # generic
-    "sciences", "science", "arts", "and",
+    "sciences",
+    "science",
+    "arts",
+    "and",
 }
+
+DOC_LABEL_PREFIX_RE = re.compile(
+    r"^(studienplan|study plan|plan d['’]etudes|plan d’etudes|plan d'etudes|"
+    r"brosch(ü|u)re|brochure|reglement|règlement|ordnung|regulations?)\b",
+    re.IGNORECASE,
+)
 
 
 def split_variants_on_separators(s: str) -> list[str]:
@@ -178,14 +212,6 @@ def reduce_soft_tokens(key: str) -> str:
 
 
 def canonical_name_keys(name: str) -> List[str]:
-    """
-    Generate multiple keys:
-      - full
-      - prefix-stripped
-      - soft-token-reduced versions
-      - first token / first 2 tokens
-      - separator-split variants
-    """
     full0 = norm_text(name)
     if not full0:
         return []
@@ -217,7 +243,6 @@ def canonical_name_keys(name: str) -> List[str]:
             if rs and rs != stripped:
                 keys.append(rs)
 
-        # very short heads help SCIMED long slash names + Medizin/Humanmedizin
         if len(toks) >= 2:
             keys.append(" ".join(toks[:2]))
         keys.append(toks[0])
@@ -235,15 +260,13 @@ def canonical_name_keys(name: str) -> List[str]:
 # ----------------------------
 # ECTS helpers
 # ----------------------------
-# more permissive: capture "90+30 ECTS" too
-ECTS_ANY_RE = re.compile(r"\b(\d{2,3})(?:\s*\+\s*(\d{2,3}))?\s*(ects|kreditpunkte|credits?)\b", re.IGNORECASE)
+ECTS_ANY_RE = re.compile(
+    r"\b(\d{2,3})(?:\s*\+\s*(\d{2,3}))?\s*(ects|kreditpunkte|credits?)\b",
+    re.IGNORECASE,
+)
+
 
 def extract_ects_list_from_text(text: str) -> List[int]:
-    """
-    Returns list of ects values found in e.g.
-      "Master Major + Minor (90+30 ECTS-Kreditpunkte)" -> [90, 30]
-      "Bachelor Minor (60 ECTS-Kreditpunkte)" -> [60]
-    """
     if not text:
         return []
     m = ECTS_ANY_RE.search(text)
@@ -259,7 +282,6 @@ def extract_ects_list_from_text(text: str) -> List[int]:
             out.append(int(m.group(2)))
         except Exception:
             pass
-    # de-dup preserve
     seen = set()
     uniq_out = []
     for v in out:
@@ -286,6 +308,7 @@ def get_rec_ects(rec: Dict[str, Any]) -> Optional[int]:
 
 def programme_name_variants(rec: Dict[str, Any]) -> List[str]:
     keys = [
+        "title",
         "programme_name_de",
         "programme_name_fr",
         "programme_name_en",
@@ -310,13 +333,6 @@ def programme_name_variants(rec: Dict[str, Any]) -> List[str]:
 
 
 def ects_bucket_for_name(name: str, *, level: Optional[str], ects_value: Optional[int]) -> Optional[int]:
-    """
-    Fix your earlier bug:
-      - do NOT force 120 always for 'Hauptfach'
-      - For Bachelor: 'Hauptfach' implies >=120 (prefer record ects if >=120 else 120)
-      - For Master:   'Hauptfach' implies >=90  (prefer record ects if >=90  else 90)
-    If name doesn't contain hauptfach, return ects_value as-is.
-    """
     if "hauptfach" not in norm_text(name):
         return ects_value
 
@@ -330,12 +346,11 @@ def ects_bucket_for_name(name: str, *, level: Optional[str], ects_value: Optiona
             return ects_value
         return 120
 
-    # unknown level: don't force hard, but prefer existing ects, else None
     return ects_value
 
 
 # ----------------------------
-# Fuzzy helper (unchanged conceptually)
+# Fuzzy helper
 # ----------------------------
 def best_fuzzy_key(target_key: str, all_keys: List[str], *, limit: int = 8000) -> Tuple[Optional[str], float]:
     toks = set(target_key.split())
@@ -375,17 +390,40 @@ def iter_input_files(inputs: List[str], input_dir: Optional[str]) -> List[Path]:
 
 
 # ----------------------------
-# Doc filtering (kept, but now less critical because docs are split by ects+level)
+# Doc filtering (used AFTER matching)
 # ----------------------------
 STOPWORDS = {
-    "hauptfach", "minor", "major", "master", "bachelor", "mono",
-    "studienplan", "plan", "d'etudes", "etudes", "études", "study",
-    "reglement", "regulations", "ordnung",
-    "ects", "kreditpunkte", "kreditpunkten",
-    "fach", "zusatzfach", "zusatzfächer",
-    "einleitung", "introduction", "intro",
-    "uebergang", "übergang", "uebergangsregelung", "übergangsregelung",
+    "hauptfach",
+    "minor",
+    "major",
+    "master",
+    "bachelor",
+    "mono",
+    "studienplan",
+    "plan",
+    "detudes",
+    "d etudes",
+    "etudes",
+    "études",
+    "study",
+    "reglement",
+    "regulations",
+    "ordnung",
+    "ects",
+    "kreditpunkte",
+    "kreditpunkten",
+    "fach",
+    "zusatzfach",
+    "zusatzfächer",
+    "einleitung",
+    "introduction",
+    "intro",
+    "uebergang",
+    "übergang",
+    "uebergangsregelung",
+    "übergangsregelung",
 }
+
 
 def tokens_for_match(s: str) -> set[str]:
     s = norm_text(s)
@@ -428,18 +466,71 @@ def filter_docs_for_programme(
     return kept if kept else docs
 
 
+_MINOR_HINT_RE = re.compile(
+    r"\b(minor|nebenfach|branche\s*secondaire|extension|zusatz|plus\s*30|\+\s*30)\b",
+    re.IGNORECASE,
+)
+_MAJOR_HINT_RE = re.compile(r"\b(major|hauptfach)\b", re.IGNORECASE)
+
+
+def _doc_text(doc: Dict[str, Any]) -> str:
+    return f"{doc.get('label','')} {doc.get('url','')}"
+
+
+def doc_seems_minor(doc: Dict[str, Any]) -> bool:
+    text = _doc_text(doc)
+    if _MINOR_HINT_RE.search(text):
+        return True
+    # Calameo "read" pages are often minors in SES; label may not contain "Nebenfach"
+    if "calameo.com/read/" in (text or "").lower():
+        return True
+    return False
+
+
+def doc_seems_major(doc: Dict[str, Any]) -> bool:
+    text = _doc_text(doc)
+    return bool(_MAJOR_HINT_RE.search(text))
+
+
+def candidate_is_minor_context(c: Dict[str, Any]) -> bool:
+    """
+    Decide if a matched candidate entry represents a minor bucket even if doc labels are generic.
+    We rely on explicit 'track' or category-like fields we carry over from the normalized sources.
+    """
+    blob = " ".join(
+        [
+            str(c.get("track") or ""),
+            str(c.get("category") or ""),
+            str(c.get("program_group") or ""),
+        ]
+    ).lower()
+    return any(x in blob for x in ["nebenfach", "minor", "branche secondaire", "zusatz", "plus30", "+30", "plus 30"])
+
+
 # ----------------------------
-# Parsing sources (IMPORTANT: split entries by doc-level+ects)
+# Parsing sources (IDENTITY names separate from doc labels)
 # ----------------------------
+def _dedup_strs(xs: List[str]) -> List[str]:
+    seen = set()
+    out = []
+    for x in xs:
+        if not isinstance(x, str):
+            continue
+        x = x.strip()
+        if x and x not in seen:
+            seen.add(x)
+            out.append(x)
+    return out
+
+
 def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
     """
-    Standardize faculty input into entries:
-      { source, faculty, level, names[], ects_candidates[], documents[] }
+    Standardize input into entries:
+      { source, faculty, level, names[], doc_label_names[], ects_candidates[], documents[], track?, category? }
 
-    NEW:
-      - If an item contains multiple docs with different ECTS/levels, we split into per-doc entries:
-          level inferred from label, ects inferred from label (supports 90+30)
-      - This is crucial for EDUFORM buckets (Erziehungswissenschaften, Pädagogik/Psychologie, LDS/LDM, etc.)
+    Key safety change:
+      - "names" are IDENTITY only (title + programme names + cleaned programme variants)
+      - doc labels NEVER go into "names" (they go into doc_label_names and are only used as fallback)
     """
     out: List[Dict[str, Any]] = []
     if not isinstance(data, list):
@@ -452,44 +543,63 @@ def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
         faculty = item.get("faculty") or item.get("faculty_canonical")
         base_level = norm_level(item.get("level") or item.get("category") or item.get("programme_level"))
 
-        # Collect base name variants (programme identity)
-        names: List[str] = []
-        if isinstance(item.get("title"), str) and item["title"]:
-            names.append(item["title"])
+        # carry minor context through
+        track = item.get("track")
+        category = item.get("category")
+        program_group = item.get("program_group")
 
-        if isinstance(item.get("name_variants"), list):
-            for v in item["name_variants"]:
-                if isinstance(v, str) and v:
-                    names.append(v)
+        # ---- identity names ----
+        id_names: List[str] = []
 
-        if isinstance(item.get("program"), str) and item["program"]:
-            names.append(item["program"])
+        if isinstance(item.get("title"), str) and item["title"].strip():
+            id_names.append(item["title"].strip())
+
+        for k in (
+            "programme",
+            "programme_name_de",
+            "programme_name_fr",
+            "programme_name_en",
+            "program_clean",
+            "program_base_clean",
+            "program_short_clean",
+        ):
+            v = item.get(k)
+            if isinstance(v, str) and v.strip():
+                id_names.append(v.strip())
 
         prog = item.get("program")
         if isinstance(prog, dict):
             for k in ("name_de", "name_fr", "name_en", "name_it", "name"):
-                if isinstance(prog.get(k), str) and prog.get(k):
-                    names.append(prog[k])
+                v = prog.get(k)
+                if isinstance(v, str) and v.strip():
+                    id_names.append(v.strip())
             base_level = base_level or norm_level(prog.get("level") or prog.get("category"))
 
-        # Collect docs
+        if isinstance(item.get("name_variants"), list):
+            for v in item["name_variants"]:
+                if not (isinstance(v, str) and v.strip()):
+                    continue
+                vv = v.strip()
+                if DOC_LABEL_PREFIX_RE.search(vv):
+                    continue
+                id_names.append(vv)
+
+        id_names = _dedup_strs(id_names)
+
+        # ---- documents + doc label names ----
         docs: List[Dict[str, Any]] = []
+        doc_label_names: List[str] = []
         if isinstance(item.get("documents"), list):
-            docs.extend([d for d in item["documents"] if isinstance(d, dict) and (d.get("url") or d.get("label"))])
+            for d in item["documents"]:
+                if isinstance(d, dict) and (d.get("url") or d.get("label")):
+                    docs.append(d)
+                    if isinstance(d.get("label"), str) and d["label"].strip():
+                        doc_label_names.append(d["label"].strip())
 
-        # De-dup names (raw)
-        seen = set()
-        deduped = []
-        for n in names:
-            n = n.strip()
-            if n and n not in seen:
-                seen.add(n)
-                deduped.append(n)
-        names = deduped
+        doc_label_names = _dedup_strs(doc_label_names)
 
-        # --- NEW: split into per-doc entries when doc label provides ects/level ---
+        # ---- Split into per-doc entries when doc provides ects/level ----
         doc_based_entries: List[Dict[str, Any]] = []
-
         for d in docs:
             label = d.get("label") or ""
             url = d.get("url") or ""
@@ -497,7 +607,6 @@ def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
             d_level = infer_level_from_label(label) or infer_level_from_label(url) or base_level
             ects_list = extract_ects_list_from_text(label) or extract_ects_list_from_text(url)
 
-            # If we got at least one ects, create entries keyed by each ects (important for 90+30)
             if ects_list:
                 for ev in ects_list:
                     doc_based_entries.append(
@@ -505,50 +614,53 @@ def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
                             "source": source_name,
                             "faculty": faculty,
                             "level": d_level,
-                            "names": names,
+                            "names": id_names,
+                            "doc_label_names": doc_label_names,
                             "ects_candidates": [ev],
                             "documents": [d],
+                            "track": track,
+                            "category": category,
+                            "program_group": program_group,
                         }
                     )
 
-        # If we created doc-based entries, use them and ALSO add a fallback bucket entry
-        # (bucket entry keeps all docs; helpful when base programme has no ects)
         if doc_based_entries:
             out.extend(doc_based_entries)
 
-            # fallback bucket entry (ects_candidates aggregated)
             ects_set = set()
             for e in doc_based_entries:
-                for ev in e["ects_candidates"]:
+                for ev in e.get("ects_candidates", []) or []:
                     ects_set.add(ev)
+
             out.append(
                 {
                     "source": source_name,
                     "faculty": faculty,
                     "level": base_level,
-                    "names": names,
+                    "names": id_names,
+                    "doc_label_names": doc_label_names,
                     "ects_candidates": sorted(ects_set),
                     "documents": docs,
+                    "track": track,
+                    "category": category,
+                    "program_group": program_group,
                 }
             )
             continue
 
-        # --- OLD behavior for non-splittable items ---
+        # ---- Non-splittable ----
         ects_set = set()
 
-        # from names
-        for n in names:
+        for n in id_names:
             for ev in extract_ects_list_from_text(n):
                 ects_set.add(ev)
 
-        # from item ects
         src_ects = item.get("ects")
         if isinstance(src_ects, int):
             ects_set.add(src_ects)
         elif isinstance(src_ects, str) and src_ects.strip().isdigit():
             ects_set.add(int(src_ects.strip()))
 
-        # from ects_candidates
         if isinstance(item.get("ects_candidates"), list):
             for ev in item["ects_candidates"]:
                 if isinstance(ev, int):
@@ -561,9 +673,13 @@ def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
                 "source": source_name,
                 "faculty": faculty,
                 "level": base_level,
-                "names": names,
+                "names": id_names,
+                "doc_label_names": doc_label_names,
                 "ects_candidates": sorted(ects_set),
                 "documents": docs,
+                "track": track,
+                "category": category,
+                "program_group": program_group,
             }
         )
 
@@ -571,17 +687,20 @@ def extract_source_entries(source_name: str, data: Any) -> List[Dict[str, Any]]:
 
 
 # ----------------------------
-# Build indices (LEVEL + NAME + ECTS)
+# Build indices
 # ----------------------------
 IndexKey = Tuple[Optional[str], str, Optional[int]]  # (level, name_key, ects)
 
-def build_indices(source_entries: List[Dict[str, Any]]) -> Dict[IndexKey, List[Dict[str, Any]]]:
-    idx: Dict[IndexKey, List[Dict[str, Any]]] = {}
 
-    for e in source_entries:
-        level = e.get("level")  # 'B'/'M'/'D'/None
+def build_indices(
+    source_entries: List[Dict[str, Any]],
+) -> Tuple[Dict[IndexKey, List[Dict[str, Any]]], Dict[IndexKey, List[Dict[str, Any]]]]:
+    idx_id: Dict[IndexKey, List[Dict[str, Any]]] = {}
+    idx_doc: Dict[IndexKey, List[Dict[str, Any]]] = {}
+
+    def add_to_index(idx: Dict[IndexKey, List[Dict[str, Any]]], e: Dict[str, Any], names: List[str]) -> None:
+        level = e.get("level")
         ects_cands: List[int] = e.get("ects_candidates", []) or []
-        names: List[str] = e.get("names", []) or []
 
         for n in names:
             for nk in canonical_name_keys(n):
@@ -596,7 +715,103 @@ def build_indices(source_entries: List[Dict[str, Any]]) -> Dict[IndexKey, List[D
                     idx.setdefault((level, nk, None), []).append(e)
                     idx.setdefault((None, nk, None), []).append(e)
 
-    return idx
+    for e in source_entries:
+        add_to_index(idx_id, e, e.get("names", []) or [])
+        add_to_index(idx_doc, e, e.get("doc_label_names", []) or [])
+
+    return idx_id, idx_doc
+
+
+# ----------------------------
+# Matching helper
+# ----------------------------
+def find_candidates_for_record(
+    rec_name_keys: List[str],
+    *,
+    level: Optional[str],
+    bucket: Optional[int],
+    index: Dict[IndexKey, List[Dict[str, Any]]],
+    all_name_keys: List[str],
+    fuzzy_threshold: float,
+) -> Tuple[List[Dict[str, Any]], Optional[str], Optional[str]]:
+    candidates: List[Dict[str, Any]] = []
+    match_type: Optional[str] = None
+    chosen_name_for_docs: Optional[str] = rec_name_keys[0] if rec_name_keys else None
+
+    # -------- EXACT MATCHES --------
+    if bucket is not None:
+        for nk in rec_name_keys:
+            key = (level, nk, bucket)
+            if key in index:
+                candidates = index[key]
+                match_type = "exact_level_name_ects"
+                chosen_name_for_docs = nk
+                return candidates, match_type, chosen_name_for_docs
+
+    for nk in rec_name_keys:
+        key = (level, nk, None)
+        if key in index:
+            candidates = index[key]
+            match_type = "exact_level_name"
+            chosen_name_for_docs = nk
+            return candidates, match_type, chosen_name_for_docs
+
+    if bucket is not None:
+        for nk in rec_name_keys:
+            key = (None, nk, bucket)
+            if key in index:
+                candidates = index[key]
+                match_type = "exact_name_ects"
+                chosen_name_for_docs = nk
+                return candidates, match_type, chosen_name_for_docs
+
+    for nk in rec_name_keys:
+        key = (None, nk, None)
+        if key in index:
+            candidates = index[key]
+            match_type = "exact_name"
+            chosen_name_for_docs = nk
+            return candidates, match_type, chosen_name_for_docs
+
+    # -------- FUZZY MATCHES --------
+    best_bk: Optional[str] = None
+    best_score: float = 0.0
+    best_rec_key: Optional[str] = None
+
+    for nk in rec_name_keys:
+        bk, score = best_fuzzy_key(nk, all_name_keys)
+        if bk and score > best_score:
+            best_bk, best_score, best_rec_key = bk, score, nk
+
+    if best_bk and best_score >= fuzzy_threshold:
+        if bucket is not None and (level, best_bk, bucket) in index:
+            candidates = index[(level, best_bk, bucket)]
+            match_type = "fuzzy_level_name_ects"
+        elif (level, best_bk, None) in index:
+            candidates = index[(level, best_bk, None)]
+            match_type = "fuzzy_level_name"
+        elif bucket is not None and (None, best_bk, bucket) in index:
+            candidates = index[(None, best_bk, bucket)]
+            match_type = "fuzzy_name_ects"
+        elif (None, best_bk, None) in index:
+            candidates = index[(None, best_bk, None)]
+            match_type = "fuzzy_name"
+
+        if best_rec_key:
+            chosen_name_for_docs = best_rec_key
+
+    return candidates, match_type, chosen_name_for_docs
+
+
+def token_overlap_ok(base_variants: List[str], candidate_entry: Dict[str, Any], *, min_overlap: int = 1) -> bool:
+    base_text = " ".join([v for v in base_variants if isinstance(v, str)])
+    btoks = tokens_for_match(base_text)
+
+    cand_names = candidate_entry.get("names", []) or []
+    cand_text = " ".join([v for v in cand_names if isinstance(v, str)])
+    ctoks = tokens_for_match(cand_text)
+
+    return len(btoks.intersection(ctoks)) >= min_overlap
 
 
 # ----------------------------
@@ -604,29 +819,48 @@ def build_indices(source_entries: List[Dict[str, Any]]) -> Dict[IndexKey, List[D
 # ----------------------------
 def merge(
     base: List[Dict[str, Any]],
-    index: Dict[IndexKey, List[Dict[str, Any]]],
+    idx_id: Dict[IndexKey, List[Dict[str, Any]]],
+    idx_doc: Dict[IndexKey, List[Dict[str, Any]]],
     *,
     fuzzy_threshold: float = 0.84,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
     stats = {
         "ignored_doctorates": 0,
-        "matched_exact_level_name_ects": 0,
-        "matched_exact_level_name": 0,
-        "matched_exact_name_ects": 0,
-        "matched_exact_name": 0,
-        "matched_fuzzy_level_name_ects": 0,
-        "matched_fuzzy_level_name": 0,
-        "matched_fuzzy_name_ects": 0,
-        "matched_fuzzy_name": 0,
+        # identity matches
+        "matched_id_exact_level_name_ects": 0,
+        "matched_id_exact_level_name": 0,
+        "matched_id_exact_name_ects": 0,
+        "matched_id_exact_name": 0,
+        "matched_id_fuzzy_level_name_ects": 0,
+        "matched_id_fuzzy_level_name": 0,
+        "matched_id_fuzzy_name_ects": 0,
+        "matched_id_fuzzy_name": 0,
+        # doc fallback matches
+        "matched_doc_exact_level_name_ects": 0,
+        "matched_doc_exact_level_name": 0,
+        "matched_doc_exact_name_ects": 0,
+        "matched_doc_exact_name": 0,
+        "matched_doc_fuzzy_level_name_ects": 0,
+        "matched_doc_fuzzy_level_name": 0,
+        "matched_doc_fuzzy_name_ects": 0,
+        "matched_doc_fuzzy_name": 0,
+        # other
         "unmatched": 0,
         "docs_filtered": 0,
+        "doc_candidates_rejected_by_gate": 0,
     }
 
-    all_name_keys = sorted({k[1] for k in index.keys()})
+    all_name_keys_id = sorted({k[1] for k in idx_id.keys()})
+    all_name_keys_doc = sorted({k[1] for k in idx_doc.keys()})
+
     merged: List[Dict[str, Any]] = []
 
+    def bump(match_type: str, prefix: str) -> None:
+        key = f"matched_{prefix}_{match_type}"
+        if key in stats:
+            stats[key] += 1
+
     for rec in base:
-        # keep your behavior: ignore D records
         if norm_level(rec.get("level")) == "D" or rec.get("level") == "D":
             stats["ignored_doctorates"] += 1
             merged.append(rec)
@@ -641,7 +875,6 @@ def merge(
 
         base_ects_raw = get_rec_ects(rec)
 
-        # bucket: respect level thresholds for 'Hauptfach'
         bucket: Optional[int] = None
         for v in variants:
             b = ects_bucket_for_name(v, level=level, ects_value=base_ects_raw)
@@ -649,15 +882,10 @@ def merge(
                 bucket = b
                 break
 
-        candidates: List[Dict[str, Any]] = []
-        match_type: Optional[str] = None
-
-        # Candidate name keys for base record
         rec_name_keys: List[str] = []
         for v in variants:
             rec_name_keys.extend(canonical_name_keys(v))
 
-        # de-dup
         seen = set()
         deduped = []
         for k in rec_name_keys:
@@ -666,78 +894,40 @@ def merge(
                 deduped.append(k)
         rec_name_keys = deduped
 
-        # -------- EXACT MATCHES --------
-        if bucket is not None:
-            for nk in rec_name_keys:
-                key = (level, nk, bucket)
-                if key in index:
-                    candidates = index[key]
-                    match_type = "exact_level_name_ects"
-                    stats["matched_exact_level_name_ects"] += 1
-                    chosen_name_for_docs = nk
-                    break
+        candidates: List[Dict[str, Any]] = []
+        match_type: Optional[str] = None
 
-        if not candidates:
-            for nk in rec_name_keys:
-                key = (level, nk, None)
-                if key in index:
-                    candidates = index[key]
-                    match_type = "exact_level_name"
-                    stats["matched_exact_level_name"] += 1
-                    chosen_name_for_docs = nk
-                    break
-
-        if not candidates and bucket is not None:
-            for nk in rec_name_keys:
-                key = (None, nk, bucket)
-                if key in index:
-                    candidates = index[key]
-                    match_type = "exact_name_ects"
-                    stats["matched_exact_name_ects"] += 1
-                    chosen_name_for_docs = nk
-                    break
-
-        if not candidates:
-            for nk in rec_name_keys:
-                key = (None, nk, None)
-                if key in index:
-                    candidates = index[key]
-                    match_type = "exact_name"
-                    stats["matched_exact_name"] += 1
-                    chosen_name_for_docs = nk
-                    break
-
-        # -------- FUZZY MATCHES --------
-        if not candidates:
-            best_bk: Optional[str] = None
-            best_score: float = 0.0
-            best_rec_key: Optional[str] = None
-
-            for nk in rec_name_keys:
-                bk, score = best_fuzzy_key(nk, all_name_keys)
-                if bk and score > best_score:
-                    best_bk, best_score, best_rec_key = bk, score, nk
-
-            if best_bk and best_score >= fuzzy_threshold:
-                if bucket is not None and (level, best_bk, bucket) in index:
-                    candidates = index[(level, best_bk, bucket)]
-                    match_type = "fuzzy_level_name_ects"
-                    stats["matched_fuzzy_level_name_ects"] += 1
-                elif (level, best_bk, None) in index:
-                    candidates = index[(level, best_bk, None)]
-                    match_type = "fuzzy_level_name"
-                    stats["matched_fuzzy_level_name"] += 1
-                elif bucket is not None and (None, best_bk, bucket) in index:
-                    candidates = index[(None, best_bk, bucket)]
-                    match_type = "fuzzy_name_ects"
-                    stats["matched_fuzzy_name_ects"] += 1
-                elif (None, best_bk, None) in index:
-                    candidates = index[(None, best_bk, None)]
-                    match_type = "fuzzy_name"
-                    stats["matched_fuzzy_name"] += 1
-
-                if best_rec_key:
-                    chosen_name_for_docs = best_rec_key
+        # -------- 1) IDENTITY-FIRST matching --------
+        cand1, mt1, chosen1 = find_candidates_for_record(
+            rec_name_keys,
+            level=level,
+            bucket=bucket,
+            index=idx_id,
+            all_name_keys=all_name_keys_id,
+            fuzzy_threshold=fuzzy_threshold,
+        )
+        if cand1:
+            candidates, match_type, chosen_name_for_docs = cand1, mt1, (chosen1 or chosen_name_for_docs)
+            if match_type:
+                bump(match_type, "id")
+        else:
+            # -------- 2) DOC-LABEL fallback matching + confirmation gate --------
+            cand2, mt2, chosen2 = find_candidates_for_record(
+                rec_name_keys,
+                level=level,
+                bucket=bucket,
+                index=idx_doc,
+                all_name_keys=all_name_keys_doc,
+                fuzzy_threshold=fuzzy_threshold,
+            )
+            if cand2:
+                gated = [c for c in cand2 if token_overlap_ok(variants, c, min_overlap=1)]
+                if not gated:
+                    stats["doc_candidates_rejected_by_gate"] += 1
+                else:
+                    candidates, match_type, chosen_name_for_docs = gated, mt2, (chosen2 or chosen_name_for_docs)
+                    if match_type:
+                        bump(match_type, "doc")
 
         if candidates:
             faculties = sorted({c.get("faculty") for c in candidates if c.get("faculty")})
@@ -764,11 +954,24 @@ def merge(
                     seen.add(ident)
                     docs_dedup.append(d)
 
+            # ---- Master 30/60 safeguard (refined) ----
+            # Previous behavior dropped everything unless doc label explicitly said "minor/nebenfach".
+            # For SES minors and Calameo HTML pages, labels are often just the programme name.
+            base_ects = get_rec_ects(rec)
+            if level == "M" and base_ects in {30, 60}:
+                # If candidates are minor context, keep docs unless they look like MAJOR docs
+                if any(candidate_is_minor_context(c) for c in candidates):
+                    docs_dedup = [d for d in docs_dedup if not doc_seems_major(d)]
+                else:
+                    # Legacy behavior: keep only clearly minor-marked docs
+                    minor_docs = [d for d in docs_dedup if doc_seems_minor(d)]
+                    docs_dedup = minor_docs if minor_docs else []
+
             new_rec["faculty"] = faculties[0] if faculties else None
             new_rec["faculties"] = faculties
             new_rec["documents"] = docs_dedup
             new_rec["matched_sources"] = sources
-            new_rec["match_type"] = match_type
+            new_rec["match_type"] = match_type or "matched"
         else:
             stats["unmatched"] += 1
             new_rec["faculty"] = None
@@ -782,6 +985,9 @@ def merge(
     return merged, stats
 
 
+# ----------------------------
+# Main
+# ----------------------------
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", required=True)
@@ -804,11 +1010,12 @@ def main() -> int:
         data = load_json(fp)
         source_entries.extend(extract_source_entries(fp.stem, data))
 
-    index = build_indices(source_entries)
+    idx_id, idx_doc = build_indices(source_entries)
 
     merged, stats = merge(
         base,
-        index,
+        idx_id,
+        idx_doc,
         fuzzy_threshold=args.fuzzy_threshold,
     )
 

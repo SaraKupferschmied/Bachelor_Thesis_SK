@@ -1,15 +1,20 @@
+# scrapy_crawler/scrapy_crawler/spiders/ses_docs.py
 import json
 import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, quote
-import scrapy
 
+import scrapy
 
 # -----------------------------
 # Helpers
 # -----------------------------
 DOC_EXT_RE = re.compile(r"\.(pdf|doc|docx|xls|xlsx|ppt|pptx)\b", re.IGNORECASE)
 ECTS_RE = re.compile(r"(\d{2,3})\s*ECTS", re.IGNORECASE)
+
+# Nebenfach section parsing (e.g. "Nebenfächer BA 30 ECTS", "Nebenfächer MA 30 ECTS", "Lehrfach ... 50 ECTS")
+_SECTION_META_RE = re.compile(r"\b(BA|MA)\b.*?\b(\d{2,3})\b", re.IGNORECASE)
+_ECTS_ONLY_RE = re.compile(r"\b(\d{2,3})\b")
 
 
 def clean_text(s: str | None) -> str | None:
@@ -69,12 +74,56 @@ def extract_ects_from_page(response) -> int | None:
     return max(nums) if nums else None
 
 
+def parse_nebenfach_section_meta(h: str) -> tuple[str | None, int | None, str]:
+    """
+    Returns (level, ects, section_title)
+      - level: 'B' for BA, 'M' for MA, else None
+      - ects: int|None
+      - section_title: cleaned heading text
+    """
+    h_clean = clean_text(h) or ""
+    m = _SECTION_META_RE.search(h_clean)
+    level = None
+    ects = None
+    if m:
+        level = "B" if m.group(1).upper() == "BA" else "M"
+        ects = int(m.group(2))
+    else:
+        # fallback: some headings may not contain BA/MA but still have an ECTS (e.g. Lehrfach ... 50 ECTS)
+        m2 = _ECTS_ONLY_RE.search(h_clean)
+        if m2:
+            try:
+                ects = int(m2.group(1))
+            except Exception:
+                ects = None
+    return level, ects, h_clean
+
+
+def minor_name_from_label(label: str) -> str | None:
+    """
+    Turn 'Studienplan Betriebswirtschaftslehre' -> 'Betriebswirtschaftslehre'
+    Turn 'Flyers Bachelor 30 ECTS' -> None (too generic)
+    Keep other titles as-is (e.g. 'Data Analytics').
+    """
+    t = clean_text(label)
+    if not t:
+        return None
+
+    # Drop very generic flyer labels (they aren't programme names)
+    if re.search(r"^\s*flyers?\b", t, flags=re.IGNORECASE):
+        return None
+
+    t2 = re.sub(r"^\s*studienplan\s+", "", t, flags=re.IGNORECASE)
+    t2 = clean_text(t2) or t
+    return t2
+
+
 # -----------------------------
 # Spider: SES
 # -----------------------------
 class UnifrSesStudyPlansSpider(scrapy.Spider):
     name = "unifr_ses_studyplans"
-    
+
     custom_settings = {
         "LOG_LEVEL": "INFO",
         "ROBOTSTXT_OBEY": True,
@@ -155,9 +204,14 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
         Studium page:
         - schedule bachelor hub
         - schedule master hub
-        - robustly find Nebenfach/Nebenfächer page by ANCHOR TEXT and crawl it as a single page
+        - robustly find Nebenfach/Nebenfächer page by ANCHOR TEXT and crawl it
+          (but we split it into multiple emitted items, not one bucket).
         """
-        menu_urls = [abs_href(response, h) for h in response.css("div.sub-menu a::attr(href), a[href]::attr(href)").getall() if h]
+        menu_urls = [
+            abs_href(response, h)
+            for h in response.css("div.sub-menu a::attr(href), a[href]::attr(href)").getall()
+            if h
+        ]
 
         bachelor_hub = self._pick_hub(menu_urls, want="bachelor") or "https://www.unifr.ch/ses/de/studium/bachelor/"
         master_hub = self._pick_hub(menu_urls, want="master") or "https://www.unifr.ch/ses/de/studium/master/"
@@ -165,7 +219,7 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
         yield scrapy.Request(bachelor_hub, callback=self.parse_hub, meta={"category": "bachelor"})
         yield scrapy.Request(master_hub, callback=self.parse_hub, meta={"category": "master"})
 
-        # --- Robust Nebenfach discovery (like your Law code) ---
+        # --- Robust Nebenfach discovery ---
         nebenfach_url = self._find_nebenfach_page(response)
         if nebenfach_url:
             yield scrapy.Request(
@@ -212,8 +266,6 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
             url = abs_href(response, href)
             path = urlsplit(url).path.lower()
 
-            # Keep it in SES studium subtree if possible (but don't be overly strict)
-            # because some sites link to shared unifr pages.
             text = clean_text(" ".join(a.css("::text").getall())) or ""
             t = lower_norm(text)
 
@@ -227,9 +279,17 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
             if "/ses/de/studium" in path:
                 score += 5
 
-            # Exclude obvious BA/MA program subpages (we already crawl those)
-            if any(x in path for x in ["/ses/de/studium/bachelor", "/ses/de/studium/ba/", "/ses/de/studium/master", "/ses/de/studium/ma/"]):
-                # but don't exclude if link text explicitly says nebenfach
+            # Exclude obvious BA/MA program subpages (we already crawl those),
+            # unless explicitly nebenfach by text.
+            if any(
+                x in path
+                for x in [
+                    "/ses/de/studium/bachelor",
+                    "/ses/de/studium/ba/",
+                    "/ses/de/studium/master",
+                    "/ses/de/studium/ma/",
+                ]
+            ):
                 if score < 100:
                     continue
 
@@ -319,32 +379,106 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
 
     def parse_nebenfach_page(self, response):
         """
-        Nebenfächer page is usually "final": just take ALL doc links on the page (no depth).
+        Split Nebenfächer into separate emitted items instead of one big bucket.
+
+        Strategy:
+          - Walk DOM in order; each H4 starts a "section" (BA 30, BA 60, MA 30, Lehrfach 50, ...)
+          - Collect doc links under that section
+          - Emit one item per doc-link with:
+              program.name_de = <minor name> (Nebenfach <B/M> <ects> ECTS)
+              program.ects = section ects (so it won't stay null)
         """
         data = dict(response.meta)
 
-        title = clean_text(response.css("h1::text, h2::text").get()) or "Nebenfächer"
+        page_title = clean_text(response.css("h1::text, h2::text").get()) or "Nebenfächer"
         alts = find_alt_lang_urls(response)
         page_url_fr = alts.get("fr")
         page_url_en = alts.get("en")
 
-        hrefs = response.css("a[href]::attr(href)").getall()
-        docs = self.normalize_docs_with_labels(response, hrefs)
+        sections: list[dict] = []
+        current: dict | None = None
 
-        yield {
-            "faculty": data["faculty"],
-            "category": "nebenfach",
-            "program": {
-                "name_de": title,
-                "name_fr": None,
-                "name_en": None,
-                "ects": None,
-                "page_url_de": data.get("page_url_de") or response.url,
-                "page_url_fr": page_url_fr,
-                "page_url_en": page_url_en,
-            },
-            "documents": docs,
-        }
+        # Iterate over all elements inside main to keep document order
+        for el in response.css("main#main *"):
+            tag = getattr(el.root, "tag", None)
+
+            if tag == "h4":
+                htxt = clean_text(" ".join(el.css("::text").getall())) or ""
+                lvl, ects, heading = parse_nebenfach_section_meta(htxt)
+                current = {"heading": heading, "level": lvl, "ects": ects, "links": []}
+                sections.append(current)
+                continue
+
+            if tag == "a" and current is not None:
+                href = el.attrib.get("href")
+                if not href:
+                    continue
+                url = abs_href(response, href)
+                if not is_doc_href(url):
+                    continue
+                label = clean_text(" ".join(el.css("::text").getall()))
+                current["links"].append((href, label))
+
+        # Fallback: if no h4 sections were discovered, behave like old version (still better than failing)
+        if not sections:
+            hrefs = response.css("a[href]::attr(href)").getall()
+            docs = self.normalize_docs_with_labels(response, hrefs)
+            yield {
+                "faculty": data["faculty"],
+                "category": "nebenfach",
+                "program": {
+                    "name_de": page_title,
+                    "name_fr": None,
+                    "name_en": None,
+                    "ects": None,
+                    "page_url_de": data.get("page_url_de") or response.url,
+                    "page_url_fr": page_url_fr,
+                    "page_url_en": page_url_en,
+                },
+                "documents": docs,
+            }
+            return
+
+        # Emit one item per doc under each section
+        for sec in sections:
+            sec_level = sec.get("level")  # 'B'/'M'/None
+            sec_ects = sec.get("ects")    # int|None
+
+            for (href, label) in sec.get("links", []):
+                url = abs_href(response, href)
+                if not is_doc_href(url):
+                    continue
+
+                doc_label = clean_text(label) or url.split("/")[-1]
+                minor = minor_name_from_label(doc_label) or page_title
+
+                # Build a program name that is not just "Nebenfächer"
+                if sec_level in {"B", "M"} and sec_ects:
+                    prog_name = f"{minor} (Nebenfach {sec_level} {sec_ects} ECTS)"
+                elif sec_ects:
+                    prog_name = f"{minor} (Nebenfach {sec_ects} ECTS)"
+                else:
+                    prog_name = f"{minor} (Nebenfach)"
+
+                doc_item = {"url": url, "label": doc_label}
+                if "calameo.com/read/" in url.lower():
+                    doc_item["source_type"] = "calameo"
+
+                yield {
+                    "faculty": data["faculty"],
+                    "category": "nebenfach",
+                    "level": sec_level,
+                    "program": {
+                        "name_de": prog_name,
+                        "name_fr": None,
+                        "name_en": None,
+                        "ects": sec_ects,  # key: not null for most sections
+                        "page_url_de": data.get("page_url_de") or response.url,
+                        "page_url_fr": page_url_fr,
+                        "page_url_en": page_url_en,
+                    },
+                    "documents": [doc_item],
+                }
 
     def extract_docs_prefer_studyplan(self, response):
         """
@@ -360,7 +494,9 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
 
         docs = []
 
-        containers = response.css("main#main div.box, main#main article.box, main#main div.content, main#main section, main#main div")
+        containers = response.css(
+            "main#main div.box, main#main article.box, main#main div.content, main#main section, main#main div"
+        )
 
         doc_container = None
         for c in containers:
