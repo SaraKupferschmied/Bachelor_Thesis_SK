@@ -107,7 +107,11 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
     def __init__(self, lang="de", *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.lang = (lang or "de").strip().lower()
-        self._seen_program_urls: set[str] = set()
+        # url -> list of "program contexts" waiting for a single fetch
+        self._pending_program_ctx: dict[str, list[dict]] = {}
+
+        # url -> cached parse result from that page (so duplicates can emit without refetch)
+        self._program_page_cache: dict[str, dict] = {}
 
     # Scrapy 2.13+ compatibility
     async def start(self):
@@ -298,21 +302,38 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
 
         for it in items:
             program_name = it["program_name"]
-            program_url = it["program_url"]
+            program_url = safe_url(it["program_url"]).rstrip("/")
 
-            if program_url in self._seen_program_urls:
+            ctx = {
+                "faculty": "Philosophy",
+                "level": level,
+                "program_name_de": program_name,
+                "plan_entry_url": program_url,
+            }
+
+            # If we already parsed this URL once, emit immediately for THIS program too
+            cached = self._program_page_cache.get(program_url)
+            if cached:
+                yield self._build_item(
+                    ctx,
+                    response=None,  # we'll use cached alts
+                    studienplan_url=cached.get("studienplan_url"),
+                    docs=cached.get("docs", []),
+                    alts=cached.get("alts", {}),
+                )
                 continue
-            self._seen_program_urls.add(program_url)
 
+            # If it's already pending, just enqueue this program and don't refetch
+            if program_url in self._pending_program_ctx:
+                self._pending_program_ctx[program_url].append(ctx)
+                continue
+
+            # First time we see this URL: create pending list and fetch once
+            self._pending_program_ctx[program_url] = [ctx]
             yield scrapy.Request(
                 program_url,
                 callback=self.parse_plan_or_program_page,
-                meta={
-                    "faculty": "Philosophy",
-                    "level": level,
-                    "program_name_de": program_name,
-                    "plan_entry_url": program_url,
-                },
+                meta={"program_url_key": program_url},
             )
 
     def _extract_program_items_from_studienangebot(self, response) -> list[dict]:
@@ -388,29 +409,43 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
     # ---------------------------
 
     def parse_plan_or_program_page(self, response):
-        data = dict(response.meta)
+        program_url_key = response.meta.get("program_url_key") or safe_url(response.url).rstrip("/")
+        ctx_list = self._pending_program_ctx.get(program_url_key, [])
 
-        h = clean_text(response.css("h1::text, h2::text").get())
-        if h and (not data.get("program_name_de") or len(data["program_name_de"]) < 4):
-            data["program_name_de"] = h
+        # If somehow called without pending context, fall back to a single context
+        if not ctx_list:
+            ctx_list = [{
+                "faculty": response.meta.get("faculty"),
+                "level": response.meta.get("level"),
+                "program_name_de": response.meta.get("program_name_de"),
+                "plan_entry_url": response.meta.get("plan_entry_url") or response.url,
+            }]
 
+        # Try docs on this page
         docs = self._collect_docs(response)
         if docs:
-            yield from self._yield_split_levels_if_needed(data, response, docs, response.url)
+            studienplan_url = response.url
+            yield from self._finalize_and_emit(program_url_key, response, ctx_list, docs, studienplan_url)
             return
 
+        # Try next plan-like link
         next_plan_href = self._find_next_plan_like_link(response)
         if next_plan_href:
-            next_url = abs_href(response, next_plan_href)
-            if safe_url(next_url).rstrip("/") != safe_url(response.url).rstrip("/"):
+            next_url = safe_url(abs_href(response, next_plan_href)).rstrip("/")
+            cur_url = safe_url(response.url).rstrip("/")
+            if next_url != cur_url:
                 yield scrapy.Request(
                     next_url,
                     callback=self.parse_final_documents_page,
-                    meta={**data, "studienplan_url": next_url},
+                    meta={
+                        "program_url_key": program_url_key,
+                        "studienplan_url": next_url,
+                    },
                 )
                 return
 
-        yield self._build_item(data, response, studienplan_url=None, docs=[])
+        # No docs found anywhere -> emit empty docs for all contexts
+        yield from self._finalize_and_emit(program_url_key, response, ctx_list, [], studienplan_url=None)
 
     def _find_next_plan_like_link(self, response) -> str | None:
         best_href = None
@@ -445,10 +480,34 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
         return best_href
 
     def parse_final_documents_page(self, response):
-        data = dict(response.meta)
+        program_url_key = response.meta.get("program_url_key") or safe_url(response.url).rstrip("/")
+        ctx_list = self._pending_program_ctx.get(program_url_key, [])
         docs = self._collect_docs(response)
-        studienplan_url = data.get("studienplan_url") or response.url
-        yield from self._yield_split_levels_if_needed(data, response, docs, studienplan_url)
+        studienplan_url = response.meta.get("studienplan_url") or response.url
+        yield from self._finalize_and_emit(program_url_key, response, ctx_list, docs, studienplan_url)
+
+    def _finalize_and_emit(self, program_url_key: str, response, ctx_list: list[dict], docs: list[dict], studienplan_url: str | None):
+        # compute alt-lang urls once
+        alts = find_alt_lang_urls(response) if response is not None else {}
+
+        # cache the raw docs result for duplicates arriving later
+        self._program_page_cache[program_url_key] = {
+            "docs": docs,
+            "studienplan_url": studienplan_url,
+            "alts": alts,
+        }
+
+        # clear pending
+        self._pending_program_ctx.pop(program_url_key, None)
+
+        # emit for each program context (and keep your level-splitting behavior)
+        for ctx in ctx_list:
+            # ctx has the requested "level" for that program listing (bachelor/master)
+            if docs:
+                # reuse your existing split-by-level logic
+                yield from self._yield_split_levels_if_needed(ctx, response, docs, studienplan_url or response.url)
+            else:
+                yield self._build_item(ctx, response, studienplan_url=studienplan_url, docs=[], alts=alts)
 
     def _yield_split_levels_if_needed(self, data, response, docs, studienplan_url: str):
         ba_docs, ma_docs, unknown = [], [], []
@@ -511,8 +570,10 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
 
         return out
 
-    def _build_item(self, data, response, studienplan_url, docs):
-        alts = find_alt_lang_urls(response)
+    def _build_item(self, data, response, studienplan_url, docs, alts=None):
+        if alts is None:
+            alts = find_alt_lang_urls(response) if response is not None else {}
+
         return {
             "faculty": data.get("faculty"),
             "level": data.get("level"),

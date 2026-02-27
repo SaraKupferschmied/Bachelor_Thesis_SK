@@ -30,8 +30,11 @@ async function run() {
 
     `CREATE TABLE IF NOT EXISTS Professor (
       prof_id SERIAL PRIMARY KEY,
+      title VARCHAR(20),
       first_name VARCHAR(100),
-      last_name VARCHAR(100)
+      last_name VARCHAR(100),
+      email VARCHAR(255) UNIQUE,
+      office VARCHAR NULL REFERENCES Room(room_id)
     );`,
 
     `CREATE UNIQUE INDEX IF NOT EXISTS professor_name_unique
@@ -110,6 +113,7 @@ async function run() {
     `CREATE TABLE IF NOT EXISTS consist_of (
       program_id INT REFERENCES StudyProgram(program_id),
       code VARCHAR REFERENCES Course(code),
+      course_name TEXT,
       course_type VARCHAR(20) CHECK (course_type IN ('Mandatory','Elective')),
       description TEXT,
       PRIMARY KEY (program_id, code)

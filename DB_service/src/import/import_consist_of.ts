@@ -70,8 +70,14 @@ function normalizeText(s: string): string {
  *  - obligatoire
  *  - mandatory / required / core
  */
-function inferCourseType(raw: { raw_text?: string | null; extracted_title?: string | null; section?: string | null }): CourseType {
-  const t = normalizeText(`${raw.section ?? ""}\n${raw.extracted_title ?? ""}\n${raw.raw_text ?? ""}`);
+function inferCourseType(raw: {
+  raw_text?: string | null;
+  extracted_title?: string | null;
+  section?: string | null;
+}): CourseType {
+  const t = normalizeText(
+    `${raw.section ?? ""}\n${raw.extracted_title ?? ""}\n${raw.raw_text ?? ""}`
+  );
 
   // Strong elective signals first
   const electiveRx: RegExp[] = [
@@ -80,7 +86,7 @@ function inferCourseType(raw: { raw_text?: string | null; extracted_title?: stri
     /\bwahlmodul\b/, // DE
     /\bwahlf[aä]cher\b/, // DE
     /\bfrei(?:e|)\s*wahl\b/, // DE
-    /\bwahl\b/, // DE (weak, but in curricula sections it's informative)
+    /\bwahl\b/, // DE (weak)
 
     /\b(optionnel|optionnelle|options?)\b/, // FR
     /\b(au|a)\s+choix\b/, // FR
@@ -102,7 +108,6 @@ function inferCourseType(raw: { raw_text?: string | null; extracted_title?: stri
     /\bcore\b/, // EN
   ];
 
-  // If we see both, prefer explicit over broad.
   const hasElective = electiveRx.some((rx) => rx.test(t));
   const hasMandatory = mandatoryRx.some((rx) => rx.test(t));
 
@@ -110,12 +115,14 @@ function inferCourseType(raw: { raw_text?: string | null; extracted_title?: stri
   if (hasMandatory && !hasElective) return "Mandatory";
 
   // Tie-breakers:
-  // If the text contains explicit negation like "nicht obligatorisch" -> elective.
-  if (/\bnicht\s+obligatorisch\b/.test(t) || /\bpas\s+obligatoire\b/.test(t) || /\bnot\s+mandatory\b/.test(t)) {
+  if (
+    /\bnicht\s+obligatorisch\b/.test(t) ||
+    /\bpas\s+obligatoire\b/.test(t) ||
+    /\bnot\s+mandatory\b/.test(t)
+  ) {
     return "Elective";
   }
 
-  // Default
   return "Mandatory";
 }
 
@@ -124,7 +131,15 @@ async function run() {
   const dryRun = Boolean(args.dryRun);
   const limit = asInt(args.limit) ?? 50_000;
   const programId = asInt(args["program-id"] ?? args.program_id) ?? null;
-  const upsertMissingCourses = String(args["upsert-missing-courses"] ?? "true").toLowerCase() !== "false";
+
+  // Optional behavior switches:
+  // - If true, staging codes may match Course.alternative_code; we then insert the canonical Course.code into consist_of.
+  const matchAlternativeCode =
+    String(args["match-alternative-code"] ?? "false").toLowerCase() === "true";
+
+  // - If true AND programId is provided, only refresh that program's consist_of rows; else TRUNCATE all.
+  const refreshOnlyProgram =
+    String(args["refresh-only-program"] ?? "true").toLowerCase() !== "false";
 
   const client = await DataAccessController.pool.connect();
 
@@ -136,7 +151,7 @@ async function run() {
     where.push(`s.program_id = $${params.length}`);
   }
 
-  // Only rows with a code
+  // Only rows with a non-empty code
   where.push(`s.extracted_code IS NOT NULL AND btrim(s.extracted_code) <> ''`);
 
   const whereSql = where.length ? `WHERE ${where.join(" AND ")}` : "";
@@ -144,32 +159,70 @@ async function run() {
   try {
     await client.query("BEGIN;");
 
-    // 1) Fetch distinct (program_id, extracted_code) not yet in consist_of
-    //    - Prefer newest staging row (by created_at if available); else highest staging_id.
-    //    NOTE: If your staging table has different column names, adjust ORDER BY.
+    // Clear consist_of:
+    // - if program-id supplied and refreshOnlyProgram=true: delete only that program
+    // - else: truncate all
+    if (programId != null && refreshOnlyProgram) {
+      if (dryRun) {
+        console.log(
+          `🧪 Dry-run: would DELETE FROM consist_of WHERE program_id = ${programId}`
+        );
+      } else {
+        await client.query(`DELETE FROM consist_of WHERE program_id = $1;`, [
+          programId,
+        ]);
+      }
+    } else {
+      if (dryRun) {
+        console.log(`🧪 Dry-run: would TRUNCATE consist_of RESTART IDENTITY CASCADE`);
+      } else {
+        await client.query(`TRUNCATE TABLE consist_of RESTART IDENTITY CASCADE;`);
+      }
+    }
+
+    // 1) Fetch newest distinct (program_id, code) from staging, but ONLY if code exists in Course.
+    //    We normalize code using btrim(s.extracted_code).
+    //    If matchAlternativeCode=true, allow match on Course.alternative_code and select canonical Course.code.
+    const joinSql = matchAlternativeCode
+      ? `JOIN Course c ON (c.code = r.code OR c.alternative_code = r.code)`
+      : `JOIN Course c ON (c.code = r.code)`;
+
+    const selectCodeSql = `c.code AS code`;
+
     const q = `
       WITH ranked AS (
         SELECT
           s.program_id,
-          s.extracted_code AS code,
+          btrim(s.extracted_code) AS code,
           s.raw_text,
           s.extracted_title,
           s.section,
           s.inferred_type,
           ROW_NUMBER() OVER (
-            PARTITION BY s.program_id, s.extracted_code
+            PARTITION BY s.program_id, btrim(s.extracted_code)
             ORDER BY
-              s.source_doc_id DESC,
-              s.page_no DESC
+              s.source_doc_id DESC NULLS LAST,
+              s.page_no DESC NULLS LAST,
+              s.created_at DESC NULLS LAST,
+              s.staging_id DESC
           ) AS rn
         FROM programCourseStaging s
         ${whereSql}
       )
-      SELECT r.program_id, r.code, r.raw_text, r.extracted_title, r.section, r.inferred_type
+      SELECT
+        r.program_id,
+        c.code AS code,
+        c.name AS course_name,   
+        r.raw_text,
+        r.extracted_title,
+        r.section,
+        r.inferred_type
       FROM ranked r
-      LEFT JOIN consist_of c
-        ON c.program_id = r.program_id AND c.code = r.code
-      WHERE r.rn = 1 AND c.program_id IS NULL
+      JOIN Course c
+        ON ${matchAlternativeCode
+          ? `(c.code = r.code OR c.alternative_code = r.code)`
+          : `c.code = r.code`}
+      WHERE r.rn = 1
       LIMIT $${params.length + 1};
     `;
 
@@ -177,7 +230,8 @@ async function run() {
 
     const rows = res.rows as Array<{
       program_id: number;
-      code: string;
+      code: string; // canonical if matchAlternativeCode=true
+      course_name: string | null;
       raw_text: string | null;
       extracted_title: string | null;
       section: string | null;
@@ -185,44 +239,14 @@ async function run() {
     }>;
 
     if (!rows.length) {
-      console.log("ℹ️ Nothing to import (no new staging rows for consist_of).");
+      console.log(
+        "ℹ️ Nothing to import (no staging rows with codes that exist in Course)."
+      );
       await client.query(dryRun ? "ROLLBACK;" : "COMMIT;");
       return;
     }
 
-    // 2) Ensure Course rows exist (FK). Optionally insert minimal rows.
-    //    We'll bulk-check then bulk-insert missing.
-    const distinctCodes = Array.from(new Set(rows.map((r) => String(r.code).trim()))).filter(Boolean);
-
-    const existing = await client.query(
-      `SELECT code FROM Course WHERE code = ANY($1::varchar[]);`,
-      [distinctCodes]
-    );
-
-    const existingSet = new Set<string>((existing.rows ?? []).map((r: any) => String(r.code)));
-    const missing = distinctCodes.filter((c) => !existingSet.has(c));
-
-    if (missing.length) {
-      if (!upsertMissingCourses) {
-        console.warn(`⚠️ ${missing.length} course codes missing in Course; they will be skipped (FK).`);
-      } else {
-        console.log(`🧩 Inserting ${missing.length} missing Course rows (minimal stub: code only).`);
-
-        // Insert in chunks to avoid huge parameter lists.
-        const chunkSize = 500;
-        for (let i = 0; i < missing.length; i += chunkSize) {
-          const chunk = missing.slice(i, i + chunkSize);
-          // Build VALUES list: ($1), ($2), ...
-          const valuesSql = chunk.map((_, j) => `($${j + 1})`).join(",");
-          await client.query(
-            `INSERT INTO Course (code) VALUES ${valuesSql} ON CONFLICT (code) DO NOTHING;`,
-            chunk
-          );
-        }
-      }
-    }
-
-    // 3) Build insert payload for consist_of
+    // 2) Build payload for consist_of
     const toInsert = rows
       .map((r) => {
         const code = String(r.code).trim();
@@ -245,64 +269,61 @@ async function run() {
           code,
           course_type,
           description: null as string | null,
+          course_name: r.course_name ?? null,
         };
       })
       .filter((x) => x.code);
 
-    // If we didn't upsert missing courses, drop entries that would violate FK.
-    let finalInsert = toInsert;
-    if (missing.length && !upsertMissingCourses) {
-      const missingSet = new Set(missing);
-      finalInsert = toInsert.filter((x) => !missingSet.has(x.code));
-    }
-
-    if (!finalInsert.length) {
-      console.log("ℹ️ No rows to insert into consist_of after FK checks.");
+    if (!toInsert.length) {
+      console.log("ℹ️ No rows to insert into consist_of after filtering.");
       await client.query(dryRun ? "ROLLBACK;" : "COMMIT;");
       return;
     }
 
-    // 4) Insert into consist_of in chunks
+    // 3) Upsert consist_of in chunks
     const chunkSize = 500;
-    let inserted = 0;
+    let upserted = 0;
 
-    for (let i = 0; i < finalInsert.length; i += chunkSize) {
-      const chunk = finalInsert.slice(i, i + chunkSize);
+    for (let i = 0; i < toInsert.length; i += chunkSize) {
+      const chunk = toInsert.slice(i, i + chunkSize);
 
-      // program_id, code, course_type, description
       const valuesSql = chunk
         .map((_, j) => {
-          const base = j * 4;
-          return `($${base + 1}, $${base + 2}, $${base + 3}, $${base + 4})`;
+          const base = j * 5; // changed from 4
+          return `($${base + 1}, $${base + 2}, $${base + 3}, $${base + 4}, $${base + 5})`;
         })
         .join(",");
 
       const flatParams: any[] = [];
       for (const r of chunk) {
-        flatParams.push(r.program_id, r.code, r.course_type, r.description);
+        flatParams.push(r.program_id, r.code, r.course_type, r.description, r.course_name);
       }
 
       if (dryRun) {
-        inserted += chunk.length;
+        upserted += chunk.length;
         continue;
       }
 
       const ins = await client.query(
         `
-          INSERT INTO consist_of (program_id, code, course_type, description)
+          INSERT INTO consist_of (program_id, code, course_type, description, course_name)
           VALUES ${valuesSql}
           ON CONFLICT (program_id, code)
           DO UPDATE SET
-            course_type = EXCLUDED.course_type;
+            course_type = EXCLUDED.course_type,
+            description = EXCLUDED.description,
+            course_name = EXCLUDED.course_name;
         `,
         flatParams
       );
 
-      inserted += ins.rowCount ?? 0;
+      upserted += ins.rowCount ?? 0;
     }
 
-    console.log(`✅ Prepared ${finalInsert.length} rows for consist_of.`);
-    console.log(dryRun ? `🧪 Dry-run: would upsert ~${inserted} rows.` : `✅ Upserted ${inserted} rows.`);
+    console.log(`✅ Prepared ${toInsert.length} rows for consist_of.`);
+    console.log(
+      dryRun ? `🧪 Dry-run: would upsert ~${upserted} rows.` : `✅ Upserted ${upserted} rows.`
+    );
 
     await client.query(dryRun ? "ROLLBACK;" : "COMMIT;");
   } catch (e) {

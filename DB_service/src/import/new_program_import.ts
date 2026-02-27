@@ -175,21 +175,23 @@ function stripNullBytes(s: string): string {
  *  - UE-XXX.00000
  *  - XXX.00000
  * Requires at least one LETTER in the prefix => blocks dates like 08.2025
+ * Enforces EXACTLY 5 DIGITS after the dot.
  */
 const COURSE_CODE_STRICT_RX =
-  /^(?:UE-)?(?=[A-Z0-9]{2,4}\.[0-9A-Z]{4,6}$)[A-Z0-9]*[A-Z][A-Z0-9]*\.[0-9A-Z]{4,6}$/;
+  /^(?:UE-)?(?=[A-Z0-9]{2,4}\.[0-9]{5}$)[A-Z0-9]*[A-Z][A-Z0-9]*\.[0-9]{5}$/;
 
 /**
  * LOOSE matcher allowing OCR/PDF spacing issues.
+ * Matches EXACTLY 5 digits after the dot (with optional spaces between digits).
+ *
  * Examples matched:
- *  - SIN.0 102 3
- *  - SIN.0 1021
- *  - SMA.0 7 003
- *  - UE - DDR . 00174
- *  - EIG.00 132
+ *  - ESE.00051
+ *  - ESE.00 0 51
+ *  - UE-ESE.000512   -> match will be UE-ESE.00051 (extra digit ignored)
+ *  - UE - DDR . 0 0 1 7 4  -> UE-DDR.00174
  */
 const COURSE_CODE_LOOSE_RX =
-  /\b(?:UE\s*-\s*)?(?=[A-Z0-9]{2,4}\s*\.)[A-Z0-9]*[A-Z][A-Z0-9]*\s*\.\s*(?:[0-9A-Z]\s*){4,6}\b/g;
+  /\b(?:UE\s*-\s*)?(?=[A-Z0-9]{2,4}\s*\.)[A-Z0-9]*[A-Z][A-Z0-9]*\s*\.\s*(?:[0-9]\s*){5}/g;
 
 function normalizeExtractedCode(raw: string): string {
   let s = (raw ?? "").toUpperCase();
@@ -260,17 +262,26 @@ function extractCourseTitleAfterCode(fullChunk: string, hit: CodeHit): string | 
   return s || null;
 }
 
+function extractContextAroundHit(fullChunk: string, hit: CodeHit, before = 160, after = 80): string {
+  const start = Math.max(0, hit.idx - before);
+  const end = Math.min(fullChunk.length, hit.idx + hit.len + after);
+  return fullChunk
+    .slice(start, end)
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function inferCourseType(text: string): CourseType | null {
   const t = (text ?? "").toLowerCase();
 
   // Elective signals (DE/FR/EN)
   // - "Wahlkurse" appears in your example study plan
   const electiveRx =
-    /\b(wahlkurs(?:e|en)?|wahlfach|wahlbereich|wahlmodul|wahlpflicht|elective|optional|optionnel|cours?\s+à\s+choix|à\s*choix|module\s+à\s+choix|frei\s*wählbar)\b/i;
+    /\b(wahlkurs(?:e|en)?|wahlfach|wahlbereich|wahlmodul|wahlpflicht|wahlpflichtbereich|elective|electives|optional|optionnel|optionnels|cours?\s+(?:à|a)\s+choix|module\s+(?:à|a)\s+choix|frei\s*wählbar|à\s*choix)\b/i;
 
   // Mandatory/core signals (DE/FR/EN)
   const mandatoryRx =
-    /\b(pflicht(?:modul)?|obligatorisch|obligatoire|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i;
+    /\b(pflicht(?:modul)?|pflichtkurse?|pflichtveranstaltungen?|obligatorisch|obligatoire|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?|compulsory\s+courses)\b/i;
 
   const isElective = electiveRx.test(t);
   const isMandatory = mandatoryRx.test(t);
@@ -279,7 +290,6 @@ function inferCourseType(text: string): CourseType | null {
   if (isMandatory && !isElective) return "Mandatory";
 
   if (isElective && isMandatory) {
-    // If "wahlpflicht" is present, treat as elective (selectable vs fixed).
     if (/\bwahlpflicht\b/i.test(t)) return "Elective";
     return "Mandatory";
   }
@@ -308,25 +318,25 @@ function makeStagingChunks(pages: unknown): {
     ? pages.map((p: unknown) => (typeof p === "string" ? p : String(p ?? "")))
     : [];
 
-  // no capturing groups inside split regex
   const splitRx = /\n+|(?=\bModule\s+\d+\b)|(?=\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b)/g;
   const sectionRx = /\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b/;
 
-  // Smaller staging payloads
-  const MAX_RAW = 900;
-  const LEFT_CTX = 220;
-  const RIGHT_CTX = 520;
+  // snippet for storage (your original)
+  const AFTER_CHARS = 50;
 
   for (let i = 0; i < safePages.length; i++) {
     const pageNo = i + 1;
     const pageTrimmed = safePages[i].trim();
     if (!pageTrimmed) continue;
 
+    // Carry type within this page (tables are usually contained per page, but this already helps a lot)
+    let carryType: CourseType | null = null;
+
     const parts = pageTrimmed
       .split(splitRx)
       .filter((x): x is string => typeof x === "string")
       .map((x) => x.trim())
-      .filter((x) => x.length >= 80);
+      .filter((x) => x.length >= 20);
 
     for (const part of parts) {
       const section =
@@ -334,28 +344,42 @@ function makeStagingChunks(pages: unknown): {
         part.match(sectionRx)?.[0] ??
         null;
 
-      // One row per detected code
+      // 1) Update carryType if this part looks like a header/label chunk
+      // This catches “Elective courses” / “Compulsory courses” lines that come before codes.
+      const headerType = inferCourseType(part);
+      if (headerType) carryType = headerType;
+
       const hits = extractCourseCodeHits(part);
       if (!hits.length) continue;
 
       for (const hit of hits) {
-        const start = Math.max(0, hit.idx - LEFT_CTX);
-        const end = Math.min(part.length, hit.idx + hit.len + RIGHT_CTX);
-        const snippet = part.slice(start, end).trim();
+        const code = hit.code.startsWith("UE-") ? hit.code : `UE-${hit.code}`;
 
-        const raw_text = (snippet.length >= 80 ? snippet : part.slice(0, 2000))
-          .slice(0, MAX_RAW);
+        // Store snippet (same as you do)
+        const start = Math.max(0, hit.idx);
+        const end = Math.min(part.length, hit.idx + hit.len + AFTER_CHARS);
+        const rawSnippet = part
+          .slice(start, end)
+          .replace(/\s+/g, " ")
+          .trim();
 
         const extracted_title = extractCourseTitleAfterCode(part, hit) ?? section;
-        const inferred_type = inferCourseType(raw_text);
 
+        // 2) First try: infer from a bigger *around-hit* context (includes text before the code)
+        const around = extractContextAroundHit(part, hit, 200, 120);
+        let inferred_type = inferCourseType(around);
+
+        // 3) Fallback: use carryType from the last seen header in this page/table
+        if (!inferred_type && carryType) inferred_type = carryType;
+
+        // 4) Keep “Mandatory as default”: if we still don’t know, store null (treat downstream as mandatory)
         out.push({
-          raw_text,
+          raw_text: rawSnippet,
           page_no: pageNo,
           section,
-          extracted_code: hit.code,
+          extracted_code: code,
           extracted_title,
-          inferred_type,
+          inferred_type: inferred_type ?? null,
         });
       }
     }
