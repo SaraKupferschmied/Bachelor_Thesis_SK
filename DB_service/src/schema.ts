@@ -30,11 +30,11 @@ async function run() {
 
     `CREATE TABLE IF NOT EXISTS Professor (
       prof_id SERIAL PRIMARY KEY,
-      title VARCHAR(20),
+      title VARCHAR(255),
       first_name VARCHAR(100),
       last_name VARCHAR(100),
       email VARCHAR(255) UNIQUE,
-      office VARCHAR NULL REFERENCES Room(room_id)
+      office VARCHAR(50)
     );`,
 
     `CREATE UNIQUE INDEX IF NOT EXISTS professor_name_unique
@@ -131,23 +131,9 @@ async function run() {
       code VARCHAR NOT NULL REFERENCES Course(code),
       sem_id VARCHAR NOT NULL REFERENCES Semester(sem_id),
       offering_type VARCHAR(10) NOT NULL CHECK (offering_type IN ('Weekly','Block')),
+      day_time_info TEXT,
       link_course_catalogue VARCHAR NULL,
       UNIQUE (code, sem_id, offering_type)
-    );`,
-
-    // SemesterCourse specialization (Weekly)
-    `CREATE TABLE IF NOT EXISTS SemesterCourse (
-      offering_id INT PRIMARY KEY REFERENCES CourseOffering(offering_id) ON DELETE CASCADE,
-      weekday VARCHAR(10) CHECK (weekday IN ('Monday','Tuesday','Wednesday','Thursday','Friday')),
-      start_time TIME,
-      end_time TIME,
-      course_format VARCHAR(20) CHECK (course_format IN ('Lecture','Exercise')),
-      room_id VARCHAR NULL REFERENCES Room(room_id)
-    );`,
-
-    // BlocCourse specialization (Block)
-    `CREATE TABLE IF NOT EXISTS BlocCourse (
-      offering_id INT PRIMARY KEY REFERENCES CourseOffering(offering_id) ON DELETE CASCADE
     );`,
 
     // Session (term-specific meeting dates for block courses))
@@ -157,8 +143,12 @@ async function run() {
       date DATE NOT NULL,
       start_time TIME NULL,
       end_time TIME NULL,
-      room_id VARCHAR NULL REFERENCES Room(room_id)
+      room_id VARCHAR NULL REFERENCES Room(room_id),
+      unit_type TEXT
     );`,
+
+    `CREATE UNIQUE INDEX IF NOT EXISTS uq_session_natural
+      ON Session(offering_id, date, start_time, end_time, room_id, unit_type);`,
 
     `CREATE TABLE IF NOT EXISTS is_taught_in (
       offering_id INT REFERENCES CourseOffering(offering_id) ON DELETE CASCADE,

@@ -64,38 +64,61 @@ function guessOfferingType(schedule: AnyObj, singleDates: AnyObj[]): "Weekly" | 
   return "Weekly";
 }
 
-function parseFirstWeeklySlot(vorlesungszeiten: string): {
-  weekday: string | null;
-  start: string | null;
-  end: string | null;
-  room: string | null;
-} {
-  const s = (vorlesungszeiten || "").replace(/\s+/g, " ").trim();
+function buildDayTimeInfo(
+  offering_type: "Weekly" | "Block",
+  schedule: AnyObj
+): string | null {
+  const vt = String(schedule?.["Vorlesungszeiten"] ?? "").trim();
+  const struktur = String(schedule?.["Strukturpläne"] ?? "").trim();
+  const kontakt = String(schedule?.["Kontaktstunden"] ?? "").trim();
 
-  const weekdayMap: Record<string, string> = {
-    montag: "Monday",
-    dienstag: "Tuesday",
-    mittwoch: "Wednesday",
-    donnerstag: "Thursday",
-    freitag: "Friday",
-  };
+  if (offering_type === "Weekly") {
+    if (!vt) return null;
 
-  const w = Object.keys(weekdayMap).find((k) => s.toLowerCase().startsWith(k));
-  const weekday = w ? weekdayMap[w] : null;
+    // Extract first weekday + time range
+    const weekdayMap: Record<string, string> = {
+      Montag: "Monday",
+      Dienstag: "Tuesday",
+      Mittwoch: "Wednesday",
+      Donnerstag: "Thursday",
+      Freitag: "Friday",
+    };
 
-  const { start, end } = parseTimeRange(s);
+    const weekdayMatch = Object.keys(weekdayMap).find((d) =>
+      vt.startsWith(d)
+    );
 
-  const parts = s.split(",");
-  let room: string | null = null;
-  if (parts.length >= 3) {
-    room = parts
-      .slice(2)
-      .join(",")
-      .replace(/\(.*?\)/g, "")
-      .trim();
-    if (!room) room = null;
+    const timeMatch = vt.match(/(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/);
+
+    if (weekdayMatch && timeMatch) {
+      return `${weekdayMap[weekdayMatch]} ${timeMatch[1]} - ${timeMatch[2]}`;
+    }
+
+    return vt; // fallback to raw text
   }
-  return { weekday, start, end, room };
+
+  // ---- BLOCK COURSES ----
+  if (struktur || kontakt) {
+    const parts = [];
+    if (struktur) parts.push(struktur);
+
+    if (kontakt) {
+      const hours = kontakt.match(/\d+/)?.[0];
+      if (hours) parts.push(`${hours} hours total`);
+    }
+
+    return parts.join(", ");
+  }
+
+  if (vt) {
+    // fallback if only Vorlesungszeiten exists
+    if (vt.toLowerCase().includes("unregelmässig") || vt.toLowerCase().includes("irrégulier")) {
+      return "Irregular schedule";
+    }
+    return "Block course";
+  }
+
+  return null;
 }
 
 // -----------------------------
@@ -185,8 +208,8 @@ async function upsertProfessor(db: DB, fullName: string): Promise<number> {
   const name = fullName.trim().replace(/\s+/g, " ");
   const parts = name.split(" ");
 
-  const last_name = parts.length >= 2 ? parts[parts.length - 1] : name;
-  const first_name = parts.length >= 2 ? parts.slice(0, -1).join(" ") : null;
+  const first_name = parts.length >= 2 ? parts[parts.length - 1] : null;
+  const last_name = parts.length >= 2 ? parts.slice(0, -1).join(" ") : name;
 
   const lockKey = `${(first_name ?? "").toLowerCase()}||${last_name.toLowerCase()}`;
   await db.query(`SELECT pg_advisory_xact_lock(hashtext($1));`, [lockKey]);
@@ -296,40 +319,20 @@ async function upsertCourseOffering(
   code: string,
   sem_id: string,
   offering_type: "Weekly" | "Block",
-  link: string | null
+  link: string | null,
+  day_time_info: string | null
 ): Promise<number> {
   const q = `
-    INSERT INTO CourseOffering (code, sem_id, offering_type, link_course_catalogue)
-    VALUES ($1, $2, $3, $4)
+    INSERT INTO CourseOffering (code, sem_id, offering_type, link_course_catalogue, day_time_info)
+    VALUES ($1, $2, $3, $4, $5)
     ON CONFLICT (code, sem_id, offering_type)
-    DO UPDATE SET link_course_catalogue = EXCLUDED.link_course_catalogue
+    DO UPDATE SET
+      link_course_catalogue = EXCLUDED.link_course_catalogue,
+      day_time_info = EXCLUDED.day_time_info
     RETURNING offering_id;
   `;
-  const r = await db.query(q, [code, sem_id, offering_type, link]);
+  const r = await db.query(q, [code, sem_id, offering_type, link, day_time_info]);
   return r.rows[0].offering_id;
-}
-
-async function upsertWeeklySlot(
-  db: DB,
-  offering_id: number,
-  slot: { weekday: string | null; start: string | null; end: string | null; room: string | null }
-): Promise<void> {
-  const room_id = await upsertRoom(db, slot.room);
-  const q = `
-    INSERT INTO SemesterCourse (offering_id, weekday, start_time, end_time, course_format, room_id)
-    VALUES ($1, $2, $3, $4, $5, $6)
-    ON CONFLICT (offering_id) DO UPDATE SET
-      weekday = EXCLUDED.weekday,
-      start_time = EXCLUDED.start_time,
-      end_time = EXCLUDED.end_time,
-      room_id = EXCLUDED.room_id;
-  `;
-  await db.query(q, [offering_id, slot.weekday, slot.start, slot.end, "Lecture", room_id]);
-}
-
-async function ensureBlocCourse(db: DB, offering_id: number): Promise<void> {
-  const q = `INSERT INTO BlocCourse (offering_id) VALUES ($1) ON CONFLICT (offering_id) DO NOTHING;`;
-  await db.query(q, [offering_id]);
 }
 
 async function insertSessions(db: DB, offering_id: number, sessions: AnyObj[]): Promise<void> {
@@ -341,11 +344,11 @@ async function insertSessions(db: DB, offering_id: number, sessions: AnyObj[]): 
     const room_id = await upsertRoom(db, s.location);
 
     const q = `
-      INSERT INTO Session (offering_id, date, start_time, end_time, room_id)
-      VALUES ($1, $2, $3, $4, $5)
+      INSERT INTO Session (offering_id, date, start_time, end_time, room_id, unit_type)
+      VALUES ($1, $2, $3, $4, $5, $6)
       ON CONFLICT DO NOTHING;
     `;
-    await db.query(q, [offering_id, iso, start, end, room_id]);
+    await db.query(q, [offering_id, iso, start, end, room_id, s.unit_type ?? null]);
   }
 }
 
@@ -408,6 +411,23 @@ async function run() {
   try {
     await db.query("BEGIN");
 
+    await db.query(`
+      TRUNCATE TABLE
+        examined_in,
+        evaluation,
+        session,
+        is_taught_in,
+        teaches,
+        courseoffering,
+        course,
+        domain,
+        semester,
+        professor,
+        language,
+        room
+      RESTART IDENTITY CASCADE;
+    `);
+
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
       await db.query("SAVEPOINT sp_item");
@@ -468,13 +488,16 @@ async function run() {
         await upsertSemester(db, sem);
 
         const offering_type = guessOfferingType(schedule, singleDates);
-        const offering_id = await upsertCourseOffering(
-          db,
-          code,
-          sem.sem_id,
-          offering_type,
-          item.source?.detail_page_url ?? null
-        );
+          const dayTimeInfo = buildDayTimeInfo(offering_type, schedule);
+
+          const offering_id = await upsertCourseOffering(
+            db,
+            code,
+            sem.sem_id,
+            offering_type,
+            item.source?.detail_page_url ?? null,
+            dayTimeInfo
+          );
 
         const langs = splitLanguages(details["Sprachen"]);
         await linkOfferingLanguages(db, offering_id, langs);
@@ -490,16 +513,8 @@ async function run() {
         const profs = Array.from(new Set(profsRaw));
         await linkCourseProfessors(db, code, profs);
 
-        if (offering_type === "Block") {
-          await ensureBlocCourse(db, offering_id);
-          await insertSessions(db, offering_id, singleDates);
-        } else {
-          const vt = String(schedule?.["Vorlesungszeiten"] ?? "");
-          if (vt) {
-            const slot = parseFirstWeeklySlot(vt);
-            await upsertWeeklySlot(db, offering_id, slot);
-          }
-        }
+        // store all occurrences, for Weekly *and* Block
+        await insertSessions(db, offering_id, singleDates);
 
         await insertEvaluations(db, offering_id, evals);
 

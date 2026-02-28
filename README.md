@@ -22,6 +22,8 @@ Run the Spiders to create json data
 10. scrapy crawl unifr_ses_studyplans -O spider_outputs\faculty_programs\ses.json
 11. scrapy crawl unifr_theo_studyplans -O spider_outputs\faculty_programs\theo.json
 12. scrapy crawl timetable_courses -O spider_outputs\courses.json
+13. scrapy crawl unifr_directory -a courses_file=spider_outputs\courses.json -O spider_outputs\unifr_people.jsonl
+14. scrapy crawl reglementation -O spider_outputs\reglementation_docs.json
 
 Merge crawled docs
 1. python DB_service\src\import\normalize_faculty_jsons.py ^  --input-dir scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs_normalized.json
@@ -34,11 +36,15 @@ Download and parse
 1. npm i axios tough-cookie axios-cookiejar-support
 2. npx ts-node DB_service\src\import\01_download_program_docs_v2.ts --input scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json --out scrapy_crawler/outputs
 3. npx ts-node DB_service/src/import/parse_docs_full.ts --root scrapy_crawler/outputs
+4. npx ts-node DB_service/src/import/reglementation_download_docs.ts   --input scrapy_crawler/scrapy_crawler/spider_outputs/reglementation_docs.json \  --out scrapy_crawler/outputs/reglementation_docs
+5. npx ts-node DB_service/src/import/parse_reglementation_docs_full.ts --root scrapy_crawler/outputs/reglementation_docs
 
 
 Do the imports (from   DB_service)
 1. npx ts-node DB_sercive/src/import/run_faculty_import.ts
 2. npx ts-node DB_service/src/import/run_courses_import.ts
-3. npx ts-node DB_service/src/import/program_name_imports.ts
-4. npx ts-node DB_service/src/import/new_program_import.ts
-5. npx ts-node DB_service/src/import/import_consist_of.ts
+3. npx ts-node DB_service/src/import/update_professors_from_people.ts
+4. npx ts-node DB_service/src/import/program_name_imports.ts
+5. npx ts-node DB_service/src/import/new_program_import.ts
+6. npx ts-node DB_service/src/import/import_consist_of.ts
+7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
