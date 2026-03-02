@@ -1,6 +1,8 @@
 # BA_Thesis_Dev
 This Repo is the development environment for the web crawling and DB population for my bachelor thesis. 
 
+--------------Web crawling and DB creation------------------------------------------------------------------------------------
+
 Start Docker and initiate the schema
 1. .venv\Scripts\activate
 2. cd DB_Service
@@ -48,3 +50,9 @@ Do the imports (from   DB_service)
 5. npx ts-node DB_service/src/import/new_program_import.ts
 6. npx ts-node DB_service/src/import/import_consist_of.ts
 7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
+
+--------------BACKEND API------------------------------------------------------------------------------------
+Start the server
+- cd backend_api
+- npm run dev
+- (see swagger at http://localhost:3000/docs)

@@ -11,6 +11,11 @@ services:
       - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
 
   adminer:
     image: adminer
@@ -21,7 +26,7 @@ services:
     depends_on:
       - db
 
-  api:
+  db_init:
     image: node:20
     container_name: ba_thesis_api_dev
     working_dir: /app
@@ -37,5 +42,52 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     depends_on:
       - db
+
+  import_data:
+    image: node:20
+    container_name: ba_thesis_import_data_dev
+    working_dir: /app
+    volumes:
+      - ./DB_service:/app
+      - ./scrapy_crawler:/scrapy_crawler
+      - ./scrapy_crawler:/app/scrapy_crawler
+    command: sh -lc "npm ci && npm run import:all"
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      CRAWLER_ROOT: /scrapy_crawler
+    depends_on:
+      db:
+        condition: service_healthy
+      db_init:
+        condition: service_completed_successfully
+
+  backend:
+    build:
+      context: ./backend_api
+    container_name: ba_thesis_backend_dev
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./backend_api:/app
+      - backend_node_modules:/app/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+      db_init:
+        condition: service_completed_successfully
+
 volumes:
   pgdata:
+  backend_node_modules:

@@ -421,18 +421,38 @@ function scoreProgramVsDoc(p: EnrichedProgram, parsed: ParsedTxt, verifyText: st
 }
 
 async function run() {
-  const cwd = process.cwd();
+  // In Docker, mount your crawler folder to /scrapy_crawler and set CRAWLER_ROOT=/scrapy_crawler
+  const CRAWLER_ROOT = process.env.CRAWLER_ROOT ?? "/scrapy_crawler";
 
-  const programsJsonPath = path.resolve(
-    cwd,
-    "scrapy_crawler",
+  function resolveParsedTxtPath(outputPath: string): string {
+    const p = (outputPath ?? "").trim().replace(/\\/g, "/"); // Windows -> Linux separators
+
+    // Already an absolute container path
+    if (p.startsWith("/")) return p;
+
+    // index often stores: scrapy_crawler/outputs/parsed_fulltext/...
+    if (p.startsWith("scrapy_crawler/")) {
+      return path.posix.join(CRAWLER_ROOT, p.replace(/^scrapy_crawler\//, ""));
+    }
+
+    // index sometimes stores: outputs/parsed_fulltext/...
+    if (p.startsWith("outputs/")) {
+      return path.posix.join(CRAWLER_ROOT, p);
+    }
+
+    // fallback: treat as relative to crawler root
+    return path.posix.join(CRAWLER_ROOT, p);
+  }
+
+  // Inputs (always anchored to crawler root)
+  const programsJsonPath = path.posix.join(
+    CRAWLER_ROOT,
     "scrapy_crawler",
     "spider_outputs",
     "program_links_with_ects_and_docs_enriched.json"
   );
 
-  const parsedDir = path.resolve(cwd, "scrapy_crawler", "outputs", "parsed_fulltext");
-  const indexPath = path.join(parsedDir, "_index.jsonl");
+  const indexPath = path.posix.join(CRAWLER_ROOT, "outputs", "parsed_fulltext", "_index.jsonl");
 
   if (!fs.existsSync(programsJsonPath)) throw new Error(`Missing programs JSON: ${programsJsonPath}`);
   if (!fs.existsSync(indexPath)) throw new Error(`Missing parsed index: ${indexPath}`);
@@ -490,8 +510,14 @@ async function run() {
         continue;
       }
 
-      const txtPath = path.isAbsolute(row.output_path) ? row.output_path : path.resolve(cwd, row.output_path);
+      const txtPath = resolveParsedTxtPath(row.output_path);
+
       if (!fs.existsSync(txtPath)) {
+        // print only for missing to avoid huge logs
+        // console.log("MISSING parsed txt:");
+        // console.log("row.output_path =", row.output_path);
+        // console.log("resolved txtPath =", txtPath);
+
         skippedMissingTxt.push({ source_url: row.source_url, output_path: txtPath, reason: "parsed txt missing" });
         continue;
       }
@@ -657,11 +683,12 @@ async function run() {
 
     await client.query("COMMIT;");
 
-    const outDir = path.resolve(cwd, "scrapy_crawler", "outputs");
-    fs.writeFileSync(path.join(outDir, "_docs_skipped_not_eligible.json"), JSON.stringify(skippedNotEligible, null, 2), "utf-8");
-    fs.writeFileSync(path.join(outDir, "_docs_skipped_missing_txt.json"), JSON.stringify(skippedMissingTxt, null, 2), "utf-8");
-    fs.writeFileSync(path.join(outDir, "_docs_skipped_low_score.json"), JSON.stringify(skippedLowScore, null, 2), "utf-8");
-    fs.writeFileSync(path.join(outDir, "_docs_matched.json"), JSON.stringify(matched, null, 2), "utf-8");
+    // Outputs written next to crawler outputs (stable in Docker)
+    const outDir = path.posix.join(CRAWLER_ROOT, "outputs");
+    fs.writeFileSync(path.posix.join(outDir, "_docs_skipped_not_eligible.json"), JSON.stringify(skippedNotEligible, null, 2), "utf-8");
+    fs.writeFileSync(path.posix.join(outDir, "_docs_skipped_missing_txt.json"), JSON.stringify(skippedMissingTxt, null, 2), "utf-8");
+    fs.writeFileSync(path.posix.join(outDir, "_docs_skipped_low_score.json"), JSON.stringify(skippedLowScore, null, 2), "utf-8");
+    fs.writeFileSync(path.posix.join(outDir, "_docs_matched.json"), JSON.stringify(matched, null, 2), "utf-8");
 
     console.log(`✅ programDocument upserts: ${docsUpserted}`);
     console.log(`✅ programCourseStaging attempted: ${stagingAttempted}`);
@@ -670,7 +697,7 @@ async function run() {
     console.log(`⚠️ skipped (not eligible): ${skippedNotEligible.length}`);
     console.log(`⚠️ skipped (parsed txt missing): ${skippedMissingTxt.length}`);
     console.log(`⚠️ skipped (low score / mismatch): ${skippedLowScore.length}`);
-    console.log(`📝 logs written to scrapy_crawler/outputs/_docs_*.json`);
+    console.log(`📝 logs written to ${outDir}/_docs_*.json`);
   } catch (e) {
     await client.query("ROLLBACK;");
     throw e;

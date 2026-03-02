@@ -141,15 +141,45 @@ function resolveFacultyIdForTree(tree: string, faculties: FacultyRow[], defaultF
 }
 
 async function run() {
-  const root = getArg("root") ?? path.resolve(process.cwd(), "scrapy_crawler/outputs/reglementation_docs");
+  const CRAWLER_ROOT = process.env.CRAWLER_ROOT ?? "/scrapy_crawler";
+
+  // root can be passed as --root; normalize Windows backslashes early
+  const rootArg = getArg("root");
+  const root =
+    (rootArg
+      ? rootArg
+      : path.posix.join(CRAWLER_ROOT, "outputs", "reglementation_docs")
+    ).replace(/\\/g, "/");
+
   const defaultFacultyId = parseIntArg("defaultFacultyId", 100);
 
-  const manifestPath = path.join(root, "_reglementation_docs_manifest.json");
+  function resolveCrawlerPath(p: string): string {
+    const s = (p ?? "").trim().replace(/\\/g, "/");
+    if (!s) return s;
+
+    // already absolute in container
+    if (s.startsWith("/")) return s;
+
+    // manifest/index might store paths like "scrapy_crawler/outputs/..."
+    if (s.startsWith("scrapy_crawler/")) {
+      return path.posix.join(CRAWLER_ROOT, s.replace(/^scrapy_crawler\//, ""));
+    }
+
+    // if it's relative to crawler root (e.g. "outputs/reglementation_docs/pdfs/..")
+    if (s.startsWith("outputs/")) {
+      return path.posix.join(CRAWLER_ROOT, s);
+    }
+
+    // relative to the --root folder
+    return path.posix.join(root, s);
+  }
+
+  const manifestPath = path.posix.join(root, "_reglementation_docs_manifest.json");
   if (!fs.existsSync(manifestPath)) throw new Error(`Missing manifest: ${manifestPath}`);
 
   const manifest: ReglementationDocManifestItem[] = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
 
-  const parsedDir = path.join(root, "parsed_fulltext");
+  const parsedDir = path.posix.join(root, "parsed_fulltext");
   const parsedMap = buildParsedMap(parsedDir);
 
   const okStatuses = new Set<ReglementationDocManifestItem["status"]>(["downloaded", "already_present"]);
@@ -175,7 +205,9 @@ async function run() {
     let facultyLinked = 0;
 
     for (const d of docs) {
-      const pdfPath = path.join(root, "pdfs", path.basename(d.local_path!));
+      // ✅ PDF path comes from manifest local_path
+      const pdfPath = resolveCrawlerPath(d.local_path!);
+
       if (!fs.existsSync(pdfPath)) {
         missingPdf++;
         console.warn(`⚠️ Missing PDF on disk: ${pdfPath} (skipping)`);
@@ -184,7 +216,9 @@ async function run() {
 
       const pdfBytes = fs.readFileSync(pdfPath);
 
+      // parsed text file is located by reg_doc_key
       const parsedPath = parsedMap.get(d.reg_doc_key.toLowerCase()) ?? null;
+
       let parsedText: string | null = null;
       if (parsedPath && fs.existsSync(parsedPath)) {
         parsedText = fs.readFileSync(parsedPath, "utf-8");
@@ -238,7 +272,6 @@ async function run() {
     console.log(`Faculty linked (tree contains "400 Fakultäten"): ${facultyLinked}`);
     if (missingPdf) console.log(`⚠️ Missing PDFs on disk: ${missingPdf} (skipped)`);
     if (missingParsed) console.log(`⚠️ Missing parsed text: ${missingParsed} (PDFs still imported)`);
-
   } catch (e) {
     await db.query("ROLLBACK;");
     throw e;
