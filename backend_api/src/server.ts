@@ -32,37 +32,6 @@ async function main() {
 
   // Routes
   app.get("/health", async () => ({ ok: true }));
-
-  //debug route to check DB connection and info
-  app.get("/debug/db", async () => {
-    const r = await pool.query(`
-      SELECT
-        current_database() AS db,
-        current_user AS user,
-        current_schema() AS schema
-    `);
-    return r.rows[0];
-  });
-
-  app.get(
-    "/debug/programs-sample",
-    {
-      schema: {
-        tags: ["Debug"],
-        summary: "Return 5 programs from DB (raw)",
-        response: { 200: { type: "array", items: { type: "object" } } },
-      },
-    },
-    async () => {
-      const r = await pool.query(`
-        SELECT sp.program_id, sp.name, sp.degree_level, sp.total_ects, sp.faculty_id
-        FROM studyprogram sp
-        ORDER BY sp.program_id
-        LIMIT 5
-      `);
-      return r.rows;
-    }
-  );
   
   app.register(programsRoutes, { prefix: "/programs" });
   app.register(coursesRoutes, { prefix: "/courses" });

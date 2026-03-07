@@ -1,3 +1,5 @@
+//500 error
+
 import type { FastifyInstance } from "fastify";
 import { z } from "zod";
 import { query } from "../db.js";
@@ -59,7 +61,8 @@ type SessionRow = {
   date: string;
   start_time: string | null;
   end_time: string | null;
-  location: string | null;
+  room_id: string | null;
+  unit_type: string | null;
 };
 
 export async function plannerRoutes(app: FastifyInstance) {
@@ -191,7 +194,8 @@ export async function plannerRoutes(app: FastifyInstance) {
                    date::text AS date,
                    start_time::text AS start_time,
                    end_time::text AS end_time,
-                   location
+                   room_id,
+                   unit_type
             FROM Session
             WHERE offering_id = ANY($1::int[])
             ORDER BY date, start_time

@@ -1,3 +1,5 @@
+//dokument sollte direkt als pdf geöffnet werden können aus der Response
+
 import type { FastifyInstance } from "fastify";
 import { query } from "../db.js";
 

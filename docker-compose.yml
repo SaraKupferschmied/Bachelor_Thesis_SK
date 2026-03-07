@@ -43,27 +43,27 @@ services:
     depends_on:
       - db
 
-  import_data:
-    image: node:20
-    container_name: ba_thesis_import_data_dev
-    working_dir: /app
-    volumes:
-      - ./DB_service:/app
-      - ./scrapy_crawler:/scrapy_crawler
-      - ./scrapy_crawler:/app/scrapy_crawler
-    command: sh -lc "npm ci && npm run import:all"
-    environment:
-      POSTGRES_HOST: db
-      POSTGRES_PORT: 5432
-      POSTGRES_DB: ${POSTGRES_DB}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      CRAWLER_ROOT: /scrapy_crawler
-    depends_on:
-      db:
-        condition: service_healthy
-      db_init:
-        condition: service_completed_successfully
+#  import_data:
+#    image: node:20
+#    container_name: ba_thesis_import_data_dev
+#    working_dir: /app
+#    volumes:
+#      - ./DB_service:/app
+#      - ./scrapy_crawler:/scrapy_crawler
+#      - ./scrapy_crawler:/app/scrapy_crawler
+#    command: sh -lc "npm ci && npm run import:all"
+#    environment:
+#      POSTGRES_HOST: db
+#      POSTGRES_PORT: 5432
+#      POSTGRES_DB: ${POSTGRES_DB}
+#      POSTGRES_USER: ${POSTGRES_USER}
+#      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+#      CRAWLER_ROOT: /scrapy_crawler
+#    depends_on:
+#      db:
+#        condition: service_healthy
+#      db_init:
+#        condition: service_completed_successfully
 
   backend:
     build:
