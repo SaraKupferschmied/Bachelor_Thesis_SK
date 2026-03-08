@@ -1,0 +1,18 @@
+<div class="plan-card" [class.active]="active">
+  <div class="plan-card__header">
+    <h3>{{ plan.title }}</h3>
+    <button class="icon-btn" type="button" aria-label="Delete plan">🗑</button>
+  </div>
+
+  <div class="plan-card__date">📅 {{ plan.createdAt }}</div>
+
+  <ul class="plan-card__courses">
+    @for (course of plan.courses.slice(0, 3); track course) {
+      <li>{{ course }}</li>
+    }
+
+    @if (plan.courses.length > 3) {
+      <li class="more">+{{ plan.courses.length - 3 }} weitere Kurse</li>
+    }
+  </ul>
+</div>

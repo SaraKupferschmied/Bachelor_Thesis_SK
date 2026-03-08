@@ -1,0 +1,19 @@
+<aside class="sidebar">
+  <div class="sidebar__top">
+    <div>
+      <h2>📖 Meine Pläne</h2>
+      <p>{{ plans.length }} Pläne gespeichert</p>
+    </div>
+
+    <button class="new-btn" type="button">＋ Neu</button>
+  </div>
+
+  <div class="sidebar__list">
+    @for (plan of plans; track plan.id) {
+      <app-plan-card
+        [plan]="plan"
+        [active]="plan.id === activePlanId">
+      </app-plan-card>
+    }
+  </div>
+</aside>

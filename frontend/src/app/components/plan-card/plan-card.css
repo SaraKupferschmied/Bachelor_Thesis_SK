@@ -1,0 +1,58 @@
+.plan-card {
+  background: #fff;
+  border: 1px solid #e7e7ef;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.03);
+  transition: 0.2s ease;
+}
+
+.plan-card.active {
+  border-color: #a855f7;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.12);
+}
+
+.plan-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #111827;
+  }
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.plan-card__date {
+  margin-top: 8px;
+  color: #7c3aed;
+  font-size: 0.95rem;
+}
+
+.plan-card__courses {
+  margin: 18px 0 0;
+  padding-left: 18px;
+  color: #334155;
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .more {
+    font-style: italic;
+    color: #64748b;
+    list-style: none;
+    margin-left: -18px;
+  }
+}

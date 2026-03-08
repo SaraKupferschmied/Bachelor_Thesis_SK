@@ -1,0 +1,10 @@
+<form class="chat-input" (ngSubmit)="send()">
+  <input
+    type="text"
+    [(ngModel)]="message"
+    name="message"
+    placeholder="Schreibe eine Nachricht..."
+  />
+
+  <button type="submit" aria-label="Senden">➤</button>
+</form>
