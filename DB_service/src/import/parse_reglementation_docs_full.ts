@@ -201,7 +201,8 @@ async function run() {
 
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8")) as ReglementationDocManifestItem[];
 
-  const parsedDir = path.join(root, "parsed_fulltext");
+  const parsedDir = path.join(root, "parsed_fulltext_shorttitles");
+  //const parsedDir = path.join(root, "parsed_fulltext");
   ensureDir(parsedDir);
 
   const indexPath = path.join(parsedDir, "_index.jsonl");
@@ -242,7 +243,10 @@ async function run() {
     try {
       const { title, pagesText } = await extractPdfTextAndTitle(pdfPath, m.document_page_url, m.title);
 
-      const base = safeFileName(`${m.tree || "UNK"}_${m.title}_${m.reg_doc_key}`) + ".txt";
+      // for full filenames
+      //const base = safeFileName(`${m.tree || "UNK"}_${m.title}_${m.reg_doc_key}`) + ".txt";
+      // for shorter filenames
+      const base = `${m.reg_doc_key}.txt`;
       const outputPath = path.join(parsedDir, base);
 
       const header = renderHeader(m, title, pagesText.length);
