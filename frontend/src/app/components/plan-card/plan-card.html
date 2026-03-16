@@ -1,7 +1,7 @@
 <div class="plan-card" [class.active]="active">
   <div class="plan-card__header">
     <h3>{{ plan.title }}</h3>
-    <button class="icon-btn" type="button" aria-label="Delete plan">🗑</button>
+    <button class="icon-btn" type="button" [attr.aria-label]="dictionary().deletePlan">🗑</button>
   </div>
 
   <div class="plan-card__date">📅 {{ plan.createdAt }}</div>
@@ -12,7 +12,7 @@
     }
 
     @if (plan.courses.length > 3) {
-      <li class="more">+{{ plan.courses.length - 3 }} weitere Kurse</li>
+      <li class="more">{{ dictionary().moreCourses(plan.courses.length - 3) }}</li>
     }
   </ul>
 </div>

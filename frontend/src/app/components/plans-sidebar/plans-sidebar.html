@@ -1,11 +1,11 @@
 <aside class="sidebar">
   <div class="sidebar__top">
     <div>
-      <h2>📖 Meine Pläne</h2>
-      <p>{{ plans.length }} Pläne gespeichert</p>
+      <h2>{{ dictionary().plansTitle }}</h2>
+      <p>{{ plansSavedText }}</p>
     </div>
 
-    <button class="new-btn" type="button">＋ Neu</button>
+    <button class="new-btn" type="button">{{ dictionary().newPlan }}</button>
   </div>
 
   <div class="sidebar__list">

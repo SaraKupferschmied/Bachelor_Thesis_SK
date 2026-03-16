@@ -56,3 +56,6 @@ Start the server
 - cd backend_api
 - npm run dev
 - (see swagger at http://localhost:3000/docs)
+
+start chatbot from folder
+- uvicorn app.main:app --reload

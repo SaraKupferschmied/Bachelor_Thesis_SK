@@ -3,8 +3,8 @@
     type="text"
     [(ngModel)]="message"
     name="message"
-    placeholder="Schreibe eine Nachricht..."
+    [placeholder]="dictionary().messagePlaceholder"
   />
 
-  <button type="submit" aria-label="Senden">➤</button>
+  <button type="submit" [attr.aria-label]="dictionary().sendLabel">➤</button>
 </form>

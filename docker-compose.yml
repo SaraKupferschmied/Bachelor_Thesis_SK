@@ -88,6 +88,33 @@ services:
       db_init:
         condition: service_completed_successfully
 
+  chatbot:
+    build:
+      context: ./chatbot
+    container_name: ba_thesis_chatbot
+    ports:
+      - "8000:8000"
+    environment:
+      BACKEND_API_BASE: http://backend:3000
+    volumes:
+      - ./chatbot:/app
+    depends_on:
+      - backend
+
+  frontend:
+    image: node:20-alpine
+    container_name: ba_thesis_frontend_dev
+    working_dir: /app
+    restart: unless-stopped
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: sh -c "npm install && npx ng serve --host 0.0.0.0 --port 4200 --poll 1000"
+    depends_on:
+      - chatbot
+
 volumes:
   pgdata:
   backend_node_modules:

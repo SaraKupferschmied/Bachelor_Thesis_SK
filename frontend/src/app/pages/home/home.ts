@@ -1,9 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlansSidebarComponent } from '../../components/plans-sidebar/plans-sidebar';
 import { OptionCardComponent } from '../../components/option-card/option-card';
 import { ChatInputComponent } from '../../components/chat-input/chat-input';
-import { PlanCardModel } from '../../components/plan-card/plan-card';
+import { ChatService, AskResponse, SourceSnippet } from '../../services/chat.service';
+import { LanguageCode, LanguageService } from '../../services/language.service';
+
+type ChatMessage = {
+  role: 'user' | 'assistant';
+  text: string;
+  sources?: SourceSnippet[];
+  usedTools?: string[];
+};
 
 @Component({
   selector: 'app-home',
@@ -18,52 +26,53 @@ import { PlanCardModel } from '../../components/plan-card/plan-card';
   styleUrl: './home.css'
 })
 export class HomeComponent {
-  plans: PlanCardModel[] = [
-    {
-      id: '1',
-      title: 'Wintersemester 2025/26',
-      createdAt: '15.9.2025',
-      courses: [
-        'Einführung in die Informatik',
-        'Mathematik für Informatiker I',
-        'Programmierung I',
-        'Diskrete Mathematik'
-      ]
-    },
-    {
-      id: '2',
-      title: 'Sommersemester 2025',
-      createdAt: '20.3.2025',
-      courses: [
-        'Datenbanken',
-        'Mathematik II',
-        'Softwareentwicklung',
-        'Algorithmen',
-        'Web-Technologien'
-      ]
-    }
-  ];
+  private readonly languageService = inject(LanguageService);
+
+  readonly availableLanguages = this.languageService.availableLanguages;
+  readonly currentLanguage = this.languageService.currentLanguage;
+  readonly dictionary = this.languageService.dictionary;
+  readonly plans = computed(() => this.dictionary().plans);
+  readonly options = computed(() => this.dictionary().options);
 
   activePlanId = '1';
+  messages: ChatMessage[] = [];
+  isloading = false;
+  errorMessage = '';
 
-  options = [
-    {
-      icon: '📅',
-      title: 'Semesterplan erstellen',
-      description: 'Plane deine Kurse für das kommende Semester',
-      borderColor: '#e9d5ff'
-    },
-    {
-      icon: '✦',
-      title: 'Gesamter Studienplan',
-      description: 'Erstelle einen Plan für dein komplettes Studium',
-      borderColor: '#bfdbfe'
-    },
-    {
-      icon: '✈',
-      title: 'Auslandsaufenthalt',
-      description: 'Plane dein Auslandssemester oder -jahr',
-      borderColor: '#99f6e4'
-    }
-  ];
+  constructor(private chatService: ChatService) {}
+
+  setLanguage(language: string): void {
+    this.languageService.setLanguage(language as LanguageCode);
+  }
+
+  onSendMessage(question: string): void {
+    this.errorMessage = '';
+    this.isloading = true;
+
+    this.messages.push({
+      role: 'user',
+      text: question
+    });
+
+    this.chatService.ask(question, this.currentLanguage()).subscribe({
+      next: (res: AskResponse) => {
+        this.messages.push({
+          role: 'assistant',
+          text: res.answer,
+          sources: res.sources,
+          usedTools: res.used_tools
+        });
+        this.isloading = false;
+      },
+      error: (err) => {
+        console.error(err);
+        this.errorMessage = 'The chatbot request failed.';
+        this.messages.push({
+          role: 'assistant',
+          text: 'Sorry, I could not generate an answer right now.'
+        });
+        this.isloading = false;
+      }
+    });
+  }
 }

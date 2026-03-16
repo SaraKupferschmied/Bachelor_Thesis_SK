@@ -1,36 +1,100 @@
 <div class="layout">
   <app-plans-sidebar
-    [plans]="plans"
+    [plans]="plans()"
     [activePlanId]="activePlanId">
   </app-plans-sidebar>
 
   <main class="main">
     <header class="page-header">
       <div>
-        <h1>Semesterplanungs-Assistent</h1>
-        <p>Lass uns dein Semester gemeinsam planen</p>
+        <h1>{{ dictionary().pageTitle }}</h1>
+        <p>{{ dictionary().pageSubtitle }}</p>
+      </div>
+
+      <div class="language-boxes" aria-label="Language selector">
+        @for (language of availableLanguages; track language.code) {
+          <button
+            type="button"
+            class="language-box"
+            [class.language-box--active]="currentLanguage() === language.code"
+            (click)="setLanguage(language.code)">
+            {{ language.code.toUpperCase() }}
+          </button>
+        }
       </div>
     </header>
 
-    <section class="hero">
-      <div class="hero__icon">✦</div>
-      <h2>Willkommen bei deinem Studienplaner!</h2>
-      <p>Wähle eine der folgenden Optionen oder stelle mir eine Frage</p>
+    @if (messages.length === 0) {
+      <section class="hero">
+        <div class="hero__icon">✦</div>
+        <h2>{{ dictionary().heroTitle }}</h2>
+        <p>{{ dictionary().heroDescription }}</p>
 
-      <div class="options">
-        @for (option of options; track option.title) {
-          <app-option-card
-            [icon]="option.icon"
-            [title]="option.title"
-            [description]="option.description"
-            [borderColor]="option.borderColor">
-          </app-option-card>
+        <div class="options">
+          @for (option of options(); track option.title) {
+            <app-option-card
+              [icon]="option.icon"
+              [title]="option.title"
+              [description]="option.description"
+              [borderColor]="option.borderColor">
+            </app-option-card>
+          }
+        </div>
+      </section>
+    }
+
+    @if (messages.length > 0) {
+      <section class="chat-thread">
+        @for (message of messages; track $index) {
+          <div class="chat-bubble" [class.chat-bubble--user]="message.role === 'user'">
+            <div class="chat-bubble__role">
+              {{ message.role === 'user' ? 'You' : 'Chatbot' }}
+            </div>
+
+            <div class="chat-bubble__text">
+              {{ message.text }}
+            </div>
+
+            @if (message.sources?.length) {
+              <div class="chat-bubble__sources">
+                <strong>Sources:</strong>
+                <ul>
+                  @for (source of message.sources!; track $index) {
+                    <li>
+                      {{ source.source_type }} · {{ source.source }}
+                      @if (source.page) {
+                        <span>(Page {{ source.page }})</span>
+                      }
+                    </li>
+                  }
+                </ul>
+              </div>
+            }
+
+            @if (message.usedTools?.length) {
+              <div class="chat-bubble__tools">
+                <strong>Tools used:</strong>
+                {{ message.usedTools?.join(', ') }}
+              </div>
+            }
+          </div>
         }
-      </div>
-    </section>
+
+        @if (loading) {
+          <div class="chat-bubble">
+            <div class="chat-bubble__role">Chatbot</div>
+            <div class="chat-bubble__text">Thinking...</div>
+          </div>
+        }
+
+        @if (errorMessage) {
+          <div class="chat-error">{{ errorMessage }}</div>
+        }
+      </section>
+    }
 
     <footer class="composer">
-      <app-chat-input></app-chat-input>
+      <app-chat-input (sendMessage)="onSendMessage($event)"></app-chat-input>
     </footer>
   </main>
 </div>
