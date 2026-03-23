@@ -26,7 +26,6 @@
 
     @if (messages.length === 0) {
       <section class="hero">
-        <div class="hero__icon">✦</div>
         <h2>{{ dictionary().heroTitle }}</h2>
         <p>{{ dictionary().heroDescription }}</p>
 
@@ -80,7 +79,7 @@
           </div>
         }
 
-        @if (loading) {
+        @if (isloading) {
           <div class="chat-bubble">
             <div class="chat-bubble__role">Chatbot</div>
             <div class="chat-bubble__text">Thinking...</div>
