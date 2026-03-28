@@ -22,6 +22,7 @@ def _post(path: str, json_body: dict[str, Any]) -> Any:
 def get_courses(
     mobility: Optional[bool] = None,
     soft_skills: Optional[bool] = None,
+    limit: Optional[int] = None,
 ) -> list[dict[str, Any]]:
     params: dict[str, str] = {}
 
@@ -29,6 +30,8 @@ def get_courses(
         params["mobility"] = str(mobility).lower()
     if soft_skills is not None:
         params["soft_skills"] = str(soft_skills).lower()
+    if limit is not None:
+        params["limit"] = str(limit)
 
     return _get("/courses", params=params)
 

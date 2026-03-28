@@ -8,9 +8,11 @@ function loadEnvIfNeeded() {
   if (process.env.POSTGRES_USER) return;
 
   const candidates = [
-    path.resolve(process.cwd(), ".env.local"),
     path.resolve(process.cwd(), ".env.docker"),
+    path.resolve(process.cwd(), ".env.local"),
+    
     // fallback to your previous relative guess (repo root)
+    path.resolve(__dirname, "../../../.env.docker"),
     path.resolve(__dirname, "../../../.env.local"),
   ];
 

@@ -1,5 +1,6 @@
-import { Component, computed, inject } from '@angular/core';
+import { Component, computed, inject, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { finalize } from 'rxjs';
 import { PlansSidebarComponent } from '../../components/plans-sidebar/plans-sidebar';
 import { OptionCardComponent } from '../../components/option-card/option-card';
 import { ChatInputComponent } from '../../components/chat-input/chat-input';
@@ -39,13 +40,19 @@ export class HomeComponent {
   isloading = false;
   errorMessage = '';
 
-  constructor(private chatService: ChatService) {}
+  constructor(
+    private chatService: ChatService,
+    private cdr: ChangeDetectorRef
+  ) {}
 
   setLanguage(language: string): void {
+    console.log('[Home] setLanguage:', language);
     this.languageService.setLanguage(language as LanguageCode);
   }
 
   onSendMessage(question: string): void {
+    console.log('[Home] onSendMessage called with:', question);
+
     this.errorMessage = '';
     this.isloading = true;
 
@@ -54,25 +61,52 @@ export class HomeComponent {
       text: question
     });
 
-    this.chatService.ask(question, this.currentLanguage()).subscribe({
-      next: (res: AskResponse) => {
-        this.messages.push({
-          role: 'assistant',
-          text: res.answer,
-          sources: res.sources,
-          usedTools: res.used_tools
-        });
-        this.isloading = false;
-      },
-      error: (err) => {
-        console.error(err);
-        this.errorMessage = 'The chatbot request failed.';
-        this.messages.push({
-          role: 'assistant',
-          text: 'Sorry, I could not generate an answer right now.'
-        });
-        this.isloading = false;
-      }
-    });
+    console.log('[Home] user message pushed', this.messages);
+
+    const lang = this.currentLanguage();
+    console.log('[Home] current language:', lang);
+
+    this.chatService.ask(question, lang)
+      .pipe(
+        finalize(() => {
+          console.log('[Home] finalize -> setting isloading=false');
+          this.isloading = false;
+          this.cdr.detectChanges();
+        })
+      )
+      .subscribe({
+        next: (res: AskResponse) => {
+          try {
+            console.log('[Home] subscribe NEXT fired', res);
+
+            this.messages.push({
+              role: 'assistant',
+              text: res.answer,
+              sources: res.sources,
+              usedTools: res.used_tools
+            });
+
+            console.log('[Home] assistant message pushed', this.messages);
+            this.cdr.detectChanges();
+          } catch (e) {
+            console.error('[Home] error inside NEXT handler', e);
+            throw e;
+          }
+        },
+        error: (err) => {
+          console.error('[Home] subscribe ERROR', err);
+
+          this.errorMessage = 'The chatbot request failed.';
+          this.messages.push({
+            role: 'assistant',
+            text: 'Sorry, I could not generate an answer right now.'
+          });
+
+          this.cdr.detectChanges();
+        },
+        complete: () => {
+          console.log('[Home] subscribe COMPLETE');
+        }
+      });
   }
 }

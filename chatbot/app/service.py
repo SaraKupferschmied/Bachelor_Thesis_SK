@@ -52,6 +52,7 @@ def run_api_path(question: str, parsed: dict[str, Any]):
         courses = get_courses(
             mobility=parsed.get("mobility"),
             soft_skills=parsed.get("soft_skills"),
+            limit=parsed.get("limit") or 100,
         )
 
         data["courses"] = courses
@@ -125,7 +126,14 @@ def build_api_answer(api_data: dict[str, Any], language: str | None = None) -> s
         if not courses:
             return no_courses
 
-        return courses_intro.format(count=len(courses)) + json.dumps(courses, indent=2, ensure_ascii=False)
+        lines = []
+        for c in courses[:10]:
+            code = c.get("code", "N/A")
+            name = c.get("name", "Unnamed course")
+            ects = c.get("ects", "?")
+            lines.append(f"- {code}: {name} ({ects} ECTS)")
+
+        return courses_intro.format(count=len(courses)) + "\n".join(lines)
 
     if api_data.get("programs") is not None:
         programs = api_data["programs"]

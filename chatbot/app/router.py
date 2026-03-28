@@ -29,6 +29,7 @@ def parse_question(question: str) -> dict[str, Any]:
         "program_id": None,
         "sem_id": None,
         "wants_programs": False,
+        "limit": None,
     }
 
     if "list programs" in q or "all programs" in q or "programs" in q:
@@ -52,4 +53,8 @@ def parse_question(question: str) -> dict[str, Any]:
     if prog_match:
         result["program_id"] = int(prog_match.group(1))
 
+    num_match = re.search(r"\b(\d+)\b", q)
+    if num_match:
+        result["limit"] = int(num_match.group(1))
+        
     return result
