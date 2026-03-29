@@ -1,26 +1,62 @@
 <div class="layout">
-  <app-plans-sidebar
-    [plans]="plans()"
-    [activePlanId]="activePlanId">
-  </app-plans-sidebar>
+  <div
+    class="sidebar-backdrop"
+    [class.sidebar-backdrop--visible]="isSidebarOpen"
+    (click)="closeSidebar()"
+    aria-hidden="true">
+  </div>
+
+  <aside class="sidebar-shell" [class.sidebar-shell--open]="isSidebarOpen">
+    <app-plans-sidebar
+      [plans]="plans()"
+      [activePlanId]="activePlanId">
+    </app-plans-sidebar>
+  </aside>
 
   <main class="main">
     <header class="page-header">
-      <div>
-        <h1>{{ dictionary().pageTitle }}</h1>
-        <p>{{ dictionary().pageSubtitle }}</p>
+      <div class="page-header__title-group">
+        <button
+          type="button"
+          class="menu-btn"
+          (click)="toggleSidebar()"
+          aria-label="Open plans menu"
+          [attr.aria-expanded]="isSidebarOpen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div>
+          <h1>{{ dictionary().pageTitle }}</h1>
+          <p>{{ dictionary().pageSubtitle }}</p>
+        </div>
       </div>
 
-      <div class="language-boxes" aria-label="Language selector">
-        @for (language of availableLanguages; track language.code) {
-          <button
-            type="button"
-            class="language-box"
-            [class.language-box--active]="currentLanguage() === language.code"
-            (click)="setLanguage(language.code)">
-            {{ language.code.toUpperCase() }}
-          </button>
-        }
+      <div class="language-area">
+        <div class="language-boxes" aria-label="Language selector">
+          @for (language of availableLanguages; track language.code) {
+            <button
+              type="button"
+              class="language-box"
+              [class.language-box--active]="currentLanguage() === language.code"
+              (click)="setLanguage(language.code)">
+              {{ language.code.toUpperCase() }}
+            </button>
+          }
+        </div>
+
+        <select
+          class="language-select"
+          [value]="currentLanguage()"
+          (change)="setLanguage(($any($event.target)).value)"
+          aria-label="Language selector">
+          @for (language of availableLanguages; track language.code) {
+            <option [value]="language.code">
+              {{ language.code.toUpperCase() }}
+            </option>
+          }
+        </select>
       </div>
     </header>
 

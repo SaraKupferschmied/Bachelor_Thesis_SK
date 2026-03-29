@@ -39,6 +39,7 @@ export class HomeComponent {
   messages: ChatMessage[] = [];
   isloading = false;
   errorMessage = '';
+  isSidebarOpen = false;
 
   constructor(
     private chatService: ChatService,
@@ -50,11 +51,20 @@ export class HomeComponent {
     this.languageService.setLanguage(language as LanguageCode);
   }
 
+  toggleSidebar(): void {
+    this.isSidebarOpen = !this.isSidebarOpen;
+  }
+
+  closeSidebar(): void {
+    this.isSidebarOpen = false;
+  }
+
   onSendMessage(question: string): void {
     console.log('[Home] onSendMessage called with:', question);
 
     this.errorMessage = '';
     this.isloading = true;
+    this.closeSidebar();
 
     this.messages.push({
       role: 'user',
