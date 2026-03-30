@@ -1,5 +1,5 @@
 import requests
-from typing import Any, Optional
+from typing import Any, Optional, Callable
 from .config import settings
 
 
@@ -16,7 +16,7 @@ def _post(path: str, json_body: dict[str, Any]) -> Any:
 
 
 # ------------------------
-# Courses
+# API wrappers
 # ------------------------
 
 def get_courses(
@@ -44,10 +44,6 @@ def get_course_by_code(code: str) -> Optional[dict[str, Any]]:
     return r.json()
 
 
-# ------------------------
-# Programs
-# ------------------------
-
 def get_programs() -> list[dict[str, Any]]:
     return _get("/programs")
 
@@ -64,27 +60,13 @@ def get_program_courses(program_id: int | str) -> list[dict[str, Any]]:
     return _get(f"/programs/{program_id}/courses")
 
 
-# ------------------------
-# Docs
-# ------------------------
-
 def get_program_docs(program_id: int | str) -> list[dict[str, Any]]:
-    # Fastify route: GET /docs/program/:id
     return _get(f"/docs/program/{program_id}")
 
 
-# ------------------------
-# Offerings
-# ------------------------
-
 def get_offerings(sem_id: str) -> list[dict[str, Any]]:
-    # Fastify route requires sem_id query param
     return _get("/offerings", params={"sem_id": sem_id})
 
-
-# ------------------------
-# Planner
-# ------------------------
 
 def get_planner_context(
     program_id: int,
@@ -101,7 +83,9 @@ def get_planner_context(
     return _post("/planner/context", body)
 
 
-TOOLS = {
+ToolFn = Callable[..., Any]
+
+TOOLS: dict[str, ToolFn] = {
     "get_courses": get_courses,
     "get_course_by_code": get_course_by_code,
     "get_programs": get_programs,
@@ -111,3 +95,143 @@ TOOLS = {
     "get_offerings": get_offerings,
     "get_planner_context": get_planner_context,
 }
+
+def execute_tool(tool_name: str, arguments: dict[str, Any]) -> Any:
+    if tool_name not in TOOLS:
+        raise ValueError(f"Unknown tool: {tool_name}")
+
+    tool_fn = TOOLS[tool_name]
+    return tool_fn(**arguments)
+
+# ------------------------
+# Tool metadata specifications for LLM tool calling
+# ------------------------
+
+TOOL_SPECS: list[dict[str, Any]] = [
+    {
+        "name": "get_course_by_code",
+        "description": (
+            "Return one exact course by course code. "
+            "Use this when the user asks about a specific course, gives a code like "
+            "'UE-F24.00824', or asks a follow-up about one previously discussed course. "
+            "Also use it for checking a single course property such as mobility, ECTS, "
+            "learning goals, description, or faculty/domain."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string",
+                    "description": "The exact course code, e.g. UE-F24.00824",
+                }
+            },
+            "required": ["code"],
+        },
+    },
+    {
+        "name": "get_courses",
+        "description": (
+            "Return a list of courses matching structured filters. "
+            "Use this when the user asks for multiple courses, such as "
+            "'name 10 mobility courses' or 'show soft skills courses'. "
+            "Do not use this for one specific course code."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "mobility": {"type": "boolean"},
+                "soft_skills": {"type": "boolean"},
+                "limit": {"type": "integer", "minimum": 1, "maximum": 100},
+            },
+            "required": [],
+        },
+    },
+    {
+        "name": "get_programs",
+        "description": (
+            "Return all programs. Use for general questions asking for available programs."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+        },
+    },
+    {
+        "name": "get_program_by_id",
+        "description": (
+            "Return a specific program by id. Use when the program id is known."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_id": {"type": ["integer", "string"]},
+            },
+            "required": ["program_id"],
+        },
+    },
+    {
+        "name": "get_program_courses",
+        "description": (
+            "Return courses belonging to a program. Use when the user asks which courses "
+            "belong to a given program."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_id": {"type": ["integer", "string"]},
+            },
+            "required": ["program_id"],
+        },
+    },
+    {
+        "name": "get_program_docs",
+        "description": (
+            "Return program-related documents. Use when the user asks for docs or official "
+            "documents related to a program."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_id": {"type": ["integer", "string"]},
+            },
+            "required": ["program_id"],
+        },
+    },
+    {
+        "name": "get_offerings",
+        "description": (
+            "Return semester offerings. Use when the user asks what is offered in a given semester."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "sem_id": {"type": "string"},
+            },
+            "required": ["sem_id"],
+        },
+    },
+    {
+        "name": "get_planner_context",
+        "description": (
+            "Return structured semester planning context for a given program and semester. "
+            "Use for planning questions that combine program, semester, flags, and course types."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_id": {"type": "integer"},
+                "sem_id": {"type": "string"},
+                "include_types": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                },
+                "include_flags": {
+                    "type": "object",
+                    "additionalProperties": {"type": "boolean"},
+                },
+            },
+            "required": ["program_id", "sem_id"],
+        },
+    },
+]

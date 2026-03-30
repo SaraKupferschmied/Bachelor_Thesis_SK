@@ -1,10 +1,12 @@
+from typing_extensions import Any
+
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 from .schemas import AskRequest, AskResponse
 from .ollama_rag import build_or_load_index_for
-from .service import answer_question
+from .old_nontool_service import answer_question
 from .config import settings
 
 
@@ -21,6 +23,7 @@ app.add_middleware(
 DB_STUDY = None
 DB_REGL = None
 
+SESSION_STORE: dict[str, Any] = {}
 
 def choose_db(question: str):
     q = question.lower()
