@@ -20,21 +20,50 @@ def _post(path: str, json_body: dict[str, Any]) -> Any:
 # ------------------------
 
 def get_courses(
+    ects: Optional[int] = None,
+    faculty_id: Optional[int | str] = None,
+    faculty_name: Optional[str] = None,
+    domain_id: Optional[int | str] = None,
+    domain_name: Optional[str] = None,
+    language: Optional[str] = None,
+    semester: Optional[str] = None,
+    name_contains: Optional[str] = None,
     mobility: Optional[bool] = None,
     soft_skills: Optional[bool] = None,
+    program_id: Optional[int | str] = None,
+    program_name: Optional[str] = None,
     limit: Optional[int] = None,
 ) -> list[dict[str, Any]]:
-    params: dict[str, str] = {}
+    params: dict[str, Any] = {}
 
+    if ects is not None:
+        params["ects"] = ects
+    if faculty_id is not None:
+        params["faculty_id"] = faculty_id
+    if faculty_name:
+        params["faculty_name"] = faculty_name
+    if domain_id is not None:
+        params["domain_id"] = domain_id
+    if domain_name:
+        params["domain_name"] = domain_name
+    if language:
+        params["language"] = language
+    if semester:
+        params["semester"] = semester
+    if name_contains:
+        params["name_contains"] = name_contains
     if mobility is not None:
         params["mobility"] = str(mobility).lower()
     if soft_skills is not None:
         params["soft_skills"] = str(soft_skills).lower()
+    if program_id is not None:
+        params["program_id"] = program_id
+    if program_name:
+        params["program_name"] = program_name
     if limit is not None:
-        params["limit"] = str(limit)
+        params["limit"] = limit
 
     return _get("/courses", params=params)
-
 
 def get_course_by_code(code: str) -> Optional[dict[str, Any]]:
     r = requests.get(f"{settings.backend_api_base}/courses/{code}", timeout=10)
@@ -56,12 +85,52 @@ def get_program_by_id(program_id: int | str) -> Optional[dict[str, Any]]:
     return r.json()
 
 
-def get_program_courses(program_id: int | str) -> list[dict[str, Any]]:
-    return _get(f"/programs/{program_id}/courses")
+def get_program_courses(
+    program_id: int | str,
+    ects: Optional[int] = None,
+    faculty_id: Optional[int | str] = None,
+    faculty_name: Optional[str] = None,
+    domain_id: Optional[int | str] = None,
+    domain_name: Optional[str] = None,
+    language: Optional[str] = None,
+    semester: Optional[str] = None,
+    name_contains: Optional[str] = None,
+    mobility: Optional[bool] = None,
+    soft_skills: Optional[bool] = None,
+    course_type: Optional[str] = None,
+    limit: Optional[int] = None,
+) -> list[dict[str, Any]]:
+    params: dict[str, Any] = {}
 
+    if ects is not None:
+        params["ects"] = ects
+    if faculty_id is not None:
+        params["faculty_id"] = faculty_id
+    if faculty_name:
+        params["faculty_name"] = faculty_name
+    if domain_id is not None:
+        params["domain_id"] = domain_id
+    if domain_name:
+        params["domain_name"] = domain_name
+    if language:
+        params["language"] = language
+    if semester:
+        params["semester"] = semester
+    if name_contains:
+        params["name_contains"] = name_contains
+    if mobility is not None:
+        params["mobility"] = str(mobility).lower()
+    if soft_skills is not None:
+        params["soft_skills"] = str(soft_skills).lower()
+    if course_type:
+        params["course_type"] = course_type
+    if limit is not None:
+        params["limit"] = limit
+
+    return _get(f"/programs/{program_id}/courses", params=params)
 
 def get_program_docs(program_id: int | str) -> list[dict[str, Any]]:
-    return _get(f"/docs/program/{program_id}")
+    return _get(f"/docs-api/program/{program_id}")
 
 
 def get_offerings(sem_id: str) -> list[dict[str, Any]]:
@@ -100,6 +169,9 @@ def execute_tool(tool_name: str, arguments: dict[str, Any]) -> Any:
     if tool_name not in TOOLS:
         raise ValueError(f"Unknown tool: {tool_name}")
 
+    if arguments is None:
+        arguments = {}
+
     tool_fn = TOOLS[tool_name]
     return tool_fn(**arguments)
 
@@ -132,16 +204,69 @@ TOOL_SPECS: list[dict[str, Any]] = [
         "name": "get_courses",
         "description": (
             "Return a list of courses matching structured filters. "
-            "Use this when the user asks for multiple courses, such as "
-            "'name 10 mobility courses' or 'show soft skills courses'. "
-            "Do not use this for one specific course code."
+            "Use this when the user asks for multiple courses or a filtered list of courses. "
+            "Examples: 'show 6 ECTS English courses', 'find mobility courses', "
+            "'show AI courses', 'courses with data in the name', "
+            "'courses in Business Informatics'. "
+            "Do not use this for one exact course code."
         ),
         "parameters": {
             "type": "object",
             "properties": {
-                "mobility": {"type": "boolean"},
-                "soft_skills": {"type": "boolean"},
-                "limit": {"type": "integer", "minimum": 1, "maximum": 100},
+                "ects": {
+                    "type": "integer",
+                    "description": "Filter by exact ECTS value, e.g. 6",
+                },
+                "faculty_id": {
+                    "type": ["integer", "string"],
+                    "description": "Faculty id if known",
+                },
+                "faculty_name": {
+                    "type": "string",
+                    "description": "Faculty name, e.g. Engineering",
+                },
+                "domain_id": {
+                    "type": ["integer", "string"],
+                    "description": "Domain id if known",
+                },
+                "domain_name": {
+                    "type": "string",
+                    "description": "Domain name, e.g. AI or Data Science",
+                },
+                "language": {
+                    "type": "string",
+                    "description": "Course language, e.g. English or German",
+                },
+                "semester": {
+                    "type": "string",
+                    "description": "Semester id or semester label, e.g. FS-2026 or Autumn",
+                },
+                "name_contains": {
+                    "type": "string",
+                    "description": "Keyword that should appear in the course name",
+                },
+                "mobility": {
+                    "type": "boolean",
+                    "description": "Whether the course is a mobility course",
+                },
+                "soft_skills": {
+                    "type": "boolean",
+                    "description": "Whether the course is a soft skills course",
+                },
+                "program_id": {
+                    "type": ["integer", "string"],
+                    "description": "Program id if known",
+                },
+                "program_name": {
+                    "type": "string",
+                    "description": "Program name, e.g. Business Informatics",
+                },
+                "limit": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 100,
+                    "description": "Maximum number of courses to return",
+                },
             },
             "required": [],
         },
@@ -171,15 +296,61 @@ TOOL_SPECS: list[dict[str, Any]] = [
         },
     },
     {
-        "name": "get_program_courses",
+    "name": "get_program_courses",
         "description": (
-            "Return courses belonging to a program. Use when the user asks which courses "
-            "belong to a given program."
+            "Return courses belonging to one specific program. "
+            "Use this when the user asks for courses within a program and the program id is known, "
+            "or after a previous step identified the program. "
+            "Supports additional filtering such as ects, language, semester, course type, "
+            "and course name keywords."
         ),
         "parameters": {
             "type": "object",
             "properties": {
-                "program_id": {"type": ["integer", "string"]},
+                "program_id": {
+                    "type": ["integer", "string"],
+                    "description": "The program id",
+                },
+                "ects": {
+                    "type": "integer",
+                    "description": "Filter by exact ECTS value",
+                },
+                "faculty_id": {
+                    "type": ["integer", "string"],
+                },
+                "faculty_name": {
+                    "type": "string",
+                },
+                "domain_id": {
+                    "type": ["integer", "string"],
+                },
+                "domain_name": {
+                    "type": "string",
+                },
+                "language": {
+                    "type": "string",
+                },
+                "semester": {
+                    "type": "string",
+                },
+                "course_type": {
+                    "type": "string",
+                    "description": "Program course type, e.g. Mandatory or Elective",
+                },
+                "name_contains": {
+                    "type": "string",
+                },
+                "mobility": {
+                    "type": "boolean",
+                },
+                "soft_skills": {
+                    "type": "boolean",
+                },
+                "limit": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 100,
+                },
             },
             "required": ["program_id"],
         },
