@@ -23,6 +23,9 @@ services:
     restart: unless-stopped
     ports:
       - "8080:8080"
+    command: >
+      sh -c "echo 'Adminer reachable via http://localhost:8080';
+      exec php -S 0.0.0.0:8080 -t /var/www/html"
     depends_on:
       - db
 
@@ -97,6 +100,7 @@ services:
       - "8000:8000"
     environment:
       BACKEND_API_BASE: http://backend:3000
+      OLLAMA_HOST: http://host.docker.internal:11434
     volumes:
       - ./chatbot:/app
     depends_on:
@@ -115,6 +119,22 @@ services:
     command: sh -c "npm install && npx ng serve --host 0.0.0.0 --port 4200 --poll 1000"
     depends_on:
       - chatbot
+
+  info:
+    image: alpine
+    container_name: ba_thesis_info
+    command: >
+      sh -c "echo '🚀 Usefull Links (may need reload):';
+      echo '📄Chatbot Swagger: http://localhost:8000/docs';
+      echo '📄Backend API: http://localhost:3000/docs';
+      echo '🗄️ Adminer: http://localhost:8080';
+      echo '🌐 Frontend: http://localhost:4200';
+      sleep infinity"
+    depends_on:
+      - chatbot
+      - backend
+      - adminer
+      - frontend
 
 volumes:
   pgdata:

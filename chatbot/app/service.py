@@ -33,16 +33,18 @@ def run_api_path(question: str, parsed: dict[str, Any]):
         used_tools.append("get_course_by_code")
         course = get_course_by_code(code)
 
-        data["course"] = course
+        print("parsed =", parsed)
 
-        sources.append(
-            make_api_source(
-                source=f"/courses/{code}",
-                snippet=f"Structured backend data for course {code}",
-                endpoint=f"/courses/{code}",
-                data=course,
+        if course is not None:
+            data["course"] = course
+            sources.append(
+                make_api_source(
+                    source=f"/courses/{code}",
+                    snippet=f"Structured backend data for course {code}",
+                    endpoint=f"/courses/{code}",
+                    data=course,
+                )
             )
-        )
 
         return data, used_tools, sources
 
@@ -182,13 +184,25 @@ def answer_question(question: str, db_study=None, db_regl=None, language: str | 
     api_data = {}
     rag_answer = None
     rag_sources = []
+    api_has_data = False
 
     if route in ("api", "hybrid"):
         api_data, api_tools, api_sources = run_api_path(question, parsed)
         used_tools.extend(api_tools)
         sources.extend(api_sources)
 
-    if route in ("rag", "hybrid"):
+        api_has_data = bool(
+            api_data.get("course")
+            or (api_data.get("courses") and len(api_data.get("courses", [])) > 0)
+            or (api_data.get("programs") and len(api_data.get("programs", [])) > 0)
+        )
+
+    should_try_rag = (
+        route in ("rag", "hybrid")
+        or (route == "api" and not api_has_data)
+    )
+
+    if should_try_rag:
         rag_db = db_regl if route == "rag" else db_study
 
         if rag_db:
@@ -199,17 +213,19 @@ def answer_question(question: str, db_study=None, db_regl=None, language: str | 
             )
             sources.extend(rag_sources)
 
-    if route == "api":
-        final_answer = build_api_answer(api_data, language=language)
-    elif route == "rag":
-        if language == "de":
-            final_answer = rag_answer or "Ich konnte in den Dokumenten keine relevanten Informationen finden."
-        elif language == "fr":
-            final_answer = rag_answer or "Je n’ai trouvé aucune information pertinente dans les documents."
-        else:
-            final_answer = rag_answer or "I could not find relevant information in the documents."
-    else:
+    if api_has_data and rag_answer:
         final_answer = merge_hybrid_answer(api_data, rag_answer, language=language)
+    elif api_has_data:
+        final_answer = build_api_answer(api_data, language=language)
+    elif rag_answer:
+        final_answer = rag_answer
+    else:
+        if language == "de":
+            final_answer = "Ich konnte weder strukturierte Backend-Daten noch relevante Dokumentinformationen finden."
+        elif language == "fr":
+            final_answer = "Je n’ai trouvé ni données structurées du backend ni informations pertinentes dans les documents."
+        else:
+            final_answer = "I could not find structured backend data or relevant information in the documents."
 
     return {
         "answer": final_answer,

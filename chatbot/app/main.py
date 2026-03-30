@@ -61,6 +61,8 @@ def startup():
     except Exception as e:
         print("[startup] reglementations failed:", repr(e))
 
+    print("🚀 Chatbot API started")
+    print("📄 Swagger UI: http://localhost:8000/docs")
 
 @app.get("/health")
 def health():

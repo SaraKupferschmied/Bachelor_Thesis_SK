@@ -59,3 +59,6 @@ Start the server
 
 start chatbot from folder
 - uvicorn app.main:app --reload
+
+docker compose --env-file .env.docker restart chatbot
+docker compose --env-file .env.docker logs -f chatbot

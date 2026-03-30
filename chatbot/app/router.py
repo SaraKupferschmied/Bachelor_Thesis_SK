@@ -35,9 +35,13 @@ def parse_question(question: str) -> dict[str, Any]:
     if "list programs" in q or "all programs" in q or "programs" in q:
         result["wants_programs"] = True
 
-    code_match = re.search(r"\b[A-Z]{2,4}\s?\d{3,4}\b", question)
+    code_match = re.search(
+        r"\b(?:UE-[A-Z0-9]+(?:-[A-Z0-9]+)*\.\d{3,6}|[A-Z]{2,4}\s?\d{3,4})\b",
+        question,
+        flags=re.IGNORECASE,
+    )
     if code_match:
-        result["course_code"] = code_match.group(0).replace(" ", "")
+        result["course_code"] = code_match.group(0).replace(" ", "").upper()
 
     if "mobility" in q:
         result["mobility"] = True
