@@ -7,8 +7,9 @@ class Settings(BaseModel):
     pdf_dir: Path = Path(os.getenv("PDF_DIR", "./data/pdfs"))
     parsed_dir: Path = Path(os.getenv("PARSED_DIR", "./data/parsed"))
     vectorstore_dir: Path = Path(os.getenv("VECTORSTORE_DIR", "./vectorstore"))
-
+    ollama_host: str = os.getenv("OLLAMA_HOST", "http://localhost:11434")
     ollama_model: str = os.getenv("OLLAMA_MODEL", "mistral")
+    
     k: int = int(os.getenv("RETRIEVAL_K", "4"))
 
     backend_api_base: str = os.getenv("BACKEND_API_BASE", "http://localhost:3000")

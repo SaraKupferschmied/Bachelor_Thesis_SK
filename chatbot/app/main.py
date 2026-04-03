@@ -1,4 +1,4 @@
-from typing_extensions import Any
+from typing import Any
 
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
@@ -6,9 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .schemas import AskRequest, AskResponse
 from .ollama_rag import build_or_load_index_for
-from .old_nontool_service import answer_question
+from .orchestrator import answer_question
 from .config import settings
-
+from .session_state import empty_session_state
 
 app = FastAPI(title="Regulations & Studyplan Chatbot (Ollama RAG)")
 
@@ -22,7 +22,6 @@ app.add_middleware(
 
 DB_STUDY = None
 DB_REGL = None
-
 SESSION_STORE: dict[str, Any] = {}
 
 def choose_db(question: str):
@@ -131,12 +130,20 @@ def rebuild():
 
 @app.post("/ask", response_model=AskResponse)
 def ask(payload: AskRequest) -> AskResponse:
+    session_id = payload.session_id or "default"
+
+    session_state = SESSION_STORE.get(session_id, empty_session_state())
+
     result = answer_question(
         question=payload.question,
         db_study=DB_STUDY,
         db_regl=DB_REGL,
         language=payload.language,
+        session_state=session_state,
     )
+
+    SESSION_STORE[session_id] = result.get("session_state", session_state)
+
     return AskResponse(**result)
 
 

@@ -1,13 +1,47 @@
 import json
 from typing import Any
+
 from langchain_ollama import ChatOllama
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 from .backend_tools import TOOL_SPECS
 from .config import settings
 
 
-def plan_tool_usage(question: str, session_state: dict[str, Any] | None = None) -> dict[str, Any]:
+def _extract_json(text: str) -> dict[str, Any]:
+    text = text.strip()
+
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    if "```" in text:
+        parts = text.split("```")
+        for part in parts:
+            candidate = part.strip()
+            if candidate.startswith("json"):
+                candidate = candidate[4:].strip()
+            try:
+                return json.loads(candidate)
+            except Exception:
+                continue
+
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        candidate = text[start:end + 1]
+        return json.loads(candidate)
+
+    raise ValueError("No valid JSON found in planner output")
+
+
+def plan_tool_usage(
+    question: str,
+    session_state: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    session_state = session_state or {}
+
     llm = ChatOllama(
         model=settings.ollama_model,
         temperature=0,
@@ -15,7 +49,7 @@ def plan_tool_usage(question: str, session_state: dict[str, Any] | None = None) 
     )
 
     prompt = ChatPromptTemplate.from_template("""
-You are a planning assistant for a university semester planning chatbot.
+You are a planning assistant for a university study chatbot.
 
 Available tools:
 {tool_specs}
@@ -25,83 +59,56 @@ Session state:
 
 User question:
 {question}
-                                              
-                                              Examples:
 
-User: "Show me 6 ECTS English courses"
-→ tool: get_courses
-→ arguments: { "ects": 6, "language": "English" }
-
-User: "AI courses in German"
-→ tool: get_courses
-→ arguments: { "domain_name": "AI", "language": "German" }
-
-User: "courses in business informatics"
-→ tool: get_courses
-→ arguments: { "program_name": "Business Informatics" }
-
-User: "6 ECTS courses in business informatics"
-→ tool: get_courses
-→ arguments: { "program_name": "Business Informatics", "ects": 6 }
-
-User: "soft skill courses in FS-2026"
-→ tool: get_courses
-→ arguments: { "soft_skills": true, "semester": "FS-2026" }
-
-Return ONLY valid JSON in this format:
+Return ONLY valid JSON in this exact format:
 {{
-  "decision": "tool" | "rag" | "hybrid",
+  "mode": "tool" | "rag" | "hybrid",
   "tool_calls": [
     {{
-      "name": "tool_name",
-      "arguments": {{}}
+      "tool": "tool_name",
+      "args": {{}}
     }}
   ],
   "reason": "short explanation"
 }}
 
 Rules:
-- Use get_course_by_code for one specific course code or follow-up questions about one course.
-
-- Use get_courses for requests asking for multiple courses or lists of courses.
-  → Extract filters when possible:
-    - ects (e.g. "6 ECTS")
-    - faculty_name (e.g. "engineering faculty")
-    - domain_name (e.g. "AI", "data science")
-    - language (e.g. "English", "German")
-    - semester (e.g. "FS-2026", "Autumn")
-    - name_contains (keywords like "data", "machine learning")
-    - mobility (true/false if mentioned)
-    - soft_skills (true/false if mentioned)
-    - program_name (if user mentions a program)
-
-- Use get_programs / get_program_by_id for general program queries.
-
-- Use get_program_courses when:
-  → The user asks for courses within a specific program
-  → Example: "courses in business informatics"
-  → Include filters like ects, semester, language if present
-
-- Use get_planner_context for semester planning questions involving a program and a semester.
-
-- Use rag when structured tools are insufficient or the question is about:
-  → regulations
-  → policies
-  → explanations
-  → documents
-
-- If the user says "this course", "this one", or "it", resolve that using session state if possible.
-
+- Use "tool" when backend tools can answer the question with structured data.
+- Use "rag" for regulations, policy, explanatory document questions, or questions about rules.
+- Use "hybrid" when both structured backend data and document context are needed.
+- Use get_course_by_code for one exact course code or a follow-up about one known course.
+- Use get_courses for filtered lists of courses.
+- Use get_programs for program searches.
+- Use get_program_by_id when the id is known.
+- Use get_program_courses when the user asks for courses of a known program id.
+- Use get_program_courses_by_metadata when the user asks for courses in a named program but no id is known.
+- Use get_program_docs when the user asks for official documents of a known program.
+- Use get_offerings when the user asks what is offered in a given semester.
+- Use get_planner_context for semester planning with known program and semester.
+- Resolve references like "this course", "that one", or "it" from session state when possible.
 - Prefer structured tools when they can answer exactly.
-
-- If multiple filters are present, include ALL of them in tool arguments.
 """)
 
     msg = prompt.format_messages(
         question=question,
         tool_specs=json.dumps(TOOL_SPECS, ensure_ascii=False, indent=2),
-        session_state=json.dumps(session_state or {}, ensure_ascii=False, indent=2),
+        session_state=json.dumps(session_state, ensure_ascii=False, indent=2),
     )
 
     resp = llm.invoke(msg)
-    return json.loads(resp.content)
+    plan = _extract_json(resp.content)
+
+    if "decision" in plan and "mode" not in plan:
+        plan["mode"] = plan.pop("decision")
+
+    for call in plan.get("tool_calls", []):
+        if "name" in call and "tool" not in call:
+            call["tool"] = call.pop("name")
+        if "arguments" in call and "args" not in call:
+            call["args"] = call.pop("arguments")
+
+    plan.setdefault("mode", "rag")
+    plan.setdefault("tool_calls", [])
+    plan.setdefault("reason", "")
+
+    return plan
