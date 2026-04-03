@@ -208,7 +208,11 @@ def answer_question(
 
     context = "\n\n".join(context_parts)
 
-    llm = ChatOllama(model=settings.ollama_model, temperature=0)
+    llm = ChatOllama(
+        model=settings.ollama_model,
+        temperature=0,
+        base_url=settings.ollama_host,
+    )
     prompt = _build_prompt(language)
     msg = prompt.format_messages(question=question, context=context)
     resp = llm.invoke(msg)
