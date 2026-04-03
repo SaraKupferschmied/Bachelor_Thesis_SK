@@ -39,3 +39,4 @@ yarn-error.log*
 
 chatbot/ollama/Lib/
 chatbot/vectorstore
+chatbot/app/__pycache__
