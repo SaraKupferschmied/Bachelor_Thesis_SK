@@ -6,6 +6,9 @@ from .backend_tools import (
     get_courses,
     get_course_by_code,
     get_programs,
+    get_program_by_id,
+    get_program_courses,
+    get_program_courses_by_metadata,
 )
 from .ollama_rag import answer_question as rag_answer_question
 
@@ -27,13 +30,12 @@ def run_api_path(question: str, parsed: dict[str, Any]):
     sources: list[dict[str, Any]] = []
     data: dict[str, Any] = {}
 
+    # 1) exact course lookup
     if parsed.get("course_code"):
         code = parsed["course_code"]
 
         used_tools.append("get_course_by_code")
         course = get_course_by_code(code)
-
-        print("parsed =", parsed)
 
         if course is not None:
             data["course"] = course
@@ -48,41 +50,133 @@ def run_api_path(question: str, parsed: dict[str, Any]):
 
         return data, used_tools, sources
 
-    if parsed.get("mobility") is not None or parsed.get("soft_skills") is not None:
-        used_tools.append("get_courses")
+    # 2) program by explicit id -> courses in that program
+    if parsed.get("program_id") is not None:
+        program_id = parsed["program_id"]
 
-        courses = get_courses(
+        used_tools.append("get_program_courses")
+        courses = get_program_courses(
+            program_id=program_id,
+            ects=parsed.get("ects"),
+            language=parsed.get("language"),
+            semester=parsed.get("sem_id"),
+            name_contains=parsed.get("name_contains"),
             mobility=parsed.get("mobility"),
             soft_skills=parsed.get("soft_skills"),
-            limit=parsed.get("limit") or 1000,
+            course_type=parsed.get("course_type"),
+            limit=parsed.get("limit") or 50,
         )
 
         data["courses"] = courses
-
         sources.append(
             make_api_source(
-                source="/courses",
-                snippet=f"Returned {len(courses)} courses",
-                endpoint="/courses",
+                source=f"/programs/{program_id}/courses",
+                snippet=f"Returned {len(courses)} courses for program {program_id}",
+                endpoint=f"/programs/{program_id}/courses",
+                data={"count": len(courses)},
+            )
+        )
+
+        # Optionally also fetch program itself for context
+        try:
+            used_tools.append("get_program_by_id")
+            program = get_program_by_id(program_id)
+            if program:
+                data["program"] = program
+        except Exception:
+            pass
+
+        return data, used_tools, sources
+
+    # 3) program name / degree filters -> metadata-based program-course route
+    if parsed.get("program_name") and (
+        parsed.get("wants_courses")
+        or parsed.get("course_type")
+        or parsed.get("ects") is not None
+        or parsed.get("language")
+        or parsed.get("mobility") is not None
+        or parsed.get("soft_skills") is not None
+    ):
+        used_tools.append("get_program_courses_by_metadata")
+        courses = get_program_courses_by_metadata(
+            program_name=parsed.get("program_name"),
+            degree_level=parsed.get("degree_level"),
+            study_start=parsed.get("study_start"),
+            course_type=parsed.get("course_type"),
+            semester_type=parsed.get("semester_type"),
+            ects=parsed.get("ects"),
+            language=parsed.get("language"),
+            semester=parsed.get("sem_id"),
+            name_contains=parsed.get("name_contains"),
+            mobility=parsed.get("mobility"),
+            soft_skills=parsed.get("soft_skills"),
+            limit=parsed.get("limit") or 50,
+        )
+
+        data["courses"] = courses
+        sources.append(
+            make_api_source(
+                source="/programs/courses",
+                snippet=f"Returned {len(courses)} courses via metadata-based program lookup",
+                endpoint="/programs/courses",
                 data={"count": len(courses)},
             )
         )
 
         return data, used_tools, sources
 
-    if parsed.get("wants_programs"):
+    # 4) generic filtered program search
+    if parsed.get("wants_programs") or parsed.get("program_name") or parsed.get("degree_level"):
         used_tools.append("get_programs")
-
-        programs = get_programs()
+        programs = get_programs(
+            name=parsed.get("program_name"),
+            degree_level=parsed.get("degree_level"),
+            study_start=parsed.get("study_start"),
+        )
 
         data["programs"] = programs
-
         sources.append(
             make_api_source(
                 source="/programs",
                 snippet=f"Returned {len(programs)} programs",
                 endpoint="/programs",
                 data={"count": len(programs)},
+            )
+        )
+
+        return data, used_tools, sources
+
+    # 5) generic structured course search
+    if any(
+        parsed.get(k) is not None
+        for k in [
+            "mobility",
+            "soft_skills",
+            "ects",
+            "language",
+            "sem_id",
+            "name_contains",
+        ]
+    ) or parsed.get("wants_courses"):
+        used_tools.append("get_courses")
+        courses = get_courses(
+            ects=parsed.get("ects"),
+            language=parsed.get("language"),
+            semester=parsed.get("sem_id"),
+            name_contains=parsed.get("name_contains"),
+            mobility=parsed.get("mobility"),
+            soft_skills=parsed.get("soft_skills"),
+            program_name=parsed.get("program_name"),
+            limit=parsed.get("limit") or 50,
+        )
+
+        data["courses"] = courses
+        sources.append(
+            make_api_source(
+                source="/courses",
+                snippet=f"Returned {len(courses)} courses",
+                endpoint="/courses",
+                data={"count": len(courses)},
             )
         )
 
@@ -95,36 +189,36 @@ def build_api_answer(api_data: dict[str, Any], language: str | None = None) -> s
     if language == "de":
         no_course = "Ich konnte diesen Kurs nicht finden."
         no_courses = "Es wurden keine passenden Kurse gefunden."
+        no_programs = "Es wurden keine passenden Studiengänge gefunden."
         no_backend = "Es wurden keine strukturierten Backend-Informationen gefunden."
         course_intro = "Hier sind die Kursinformationen aus dem Backend:\n\n"
         courses_intro = "Ich habe {count} passende Kurse gefunden:\n\n"
-        programs_intro = "Ich habe {count} Studiengänge gefunden:\n\n"
+        programs_intro = "Ich habe {count} passende Studiengänge gefunden:\n\n"
     elif language == "fr":
         no_course = "Je n’ai pas trouvé ce cours."
         no_courses = "Aucun cours correspondant n’a été trouvé."
+        no_programs = "Aucun programme correspondant n’a été trouvé."
         no_backend = "Aucune information structurée n’a été trouvée dans le backend."
         course_intro = "Voici les informations du cours provenant du backend :\n\n"
         courses_intro = "J’ai trouvé {count} cours correspondants :\n\n"
-        programs_intro = "J’ai trouvé {count} programmes :\n\n"
+        programs_intro = "J’ai trouvé {count} programmes correspondants :\n\n"
     else:
         no_course = "I could not find that course."
         no_courses = "No matching courses were found."
+        no_programs = "No matching programs were found."
         no_backend = "No structured backend information was found."
         course_intro = "Here is the course information from the backend:\n\n"
         courses_intro = "I found {count} matching courses:\n\n"
-        programs_intro = "I found {count} programs:\n\n"
+        programs_intro = "I found {count} matching programs:\n\n"
 
-    if api_data.get("course"):
+    if api_data.get("course") is not None:
         course = api_data["course"]
-
         if not course:
             return no_course
-
         return course_intro + json.dumps(course, indent=2, ensure_ascii=False)
 
     if api_data.get("courses") is not None:
         courses = api_data["courses"]
-
         if not courses:
             return no_courses
 
@@ -133,13 +227,32 @@ def build_api_answer(api_data: dict[str, Any], language: str | None = None) -> s
             code = c.get("code", "N/A")
             name = c.get("name", "Unnamed course")
             ects = c.get("ects", "?")
-            lines.append(f"- {code}: {name} ({ects} ECTS)")
+            extra = []
+
+            if c.get("program_name"):
+                extra.append(str(c["program_name"]))
+            if c.get("course_type"):
+                extra.append(str(c["course_type"]))
+
+            suffix = f" [{' | '.join(extra)}]" if extra else ""
+            lines.append(f"- {code}: {name} ({ects} ECTS){suffix}")
 
         return courses_intro.format(count=len(courses)) + "\n".join(lines)
 
     if api_data.get("programs") is not None:
         programs = api_data["programs"]
-        return programs_intro.format(count=len(programs)) + json.dumps(programs, indent=2, ensure_ascii=False)
+        if not programs:
+            return no_programs
+
+        lines = []
+        for p in programs[:10]:
+            pid = p.get("program_id", "N/A")
+            name = p.get("name", "Unnamed program")
+            degree = p.get("degree_level", "?")
+            ects = p.get("total_ects", "?")
+            lines.append(f"- {pid}: {name} ({degree}, {ects} ECTS)")
+
+        return programs_intro.format(count=len(programs)) + "\n".join(lines)
 
     return no_backend
 
@@ -162,7 +275,7 @@ def merge_hybrid_answer(api_data: dict[str, Any], rag_answer: str | None, langua
 
     if api_data:
         parts.append(structured_label)
-        parts.append(json.dumps(api_data, indent=2, ensure_ascii=False))
+        parts.append(build_api_answer(api_data, language=language))
 
     if rag_answer:
         parts.append(rag_label)

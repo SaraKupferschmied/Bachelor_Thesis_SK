@@ -73,9 +73,30 @@ def get_course_by_code(code: str) -> Optional[dict[str, Any]]:
     return r.json()
 
 
-def get_programs() -> list[dict[str, Any]]:
-    return _get("/programs")
+def get_programs(
+    name: Optional[str] = None,
+    degree_level: Optional[str] = None,
+    faculty_id: Optional[int | str] = None,
+    faculty_name: Optional[str] = None,
+    study_start: Optional[str] = None,
+    total_ects: Optional[int | float] = None,
+) -> list[dict[str, Any]]:
+    params: dict[str, Any] = {}
 
+    if name:
+        params["name"] = name
+    if degree_level:
+        params["degree_level"] = degree_level
+    if faculty_id is not None:
+        params["faculty_id"] = faculty_id
+    if faculty_name:
+        params["faculty_name"] = faculty_name
+    if study_start:
+        params["study_start"] = study_start
+    if total_ects is not None:
+        params["total_ects"] = total_ects
+
+    return _get("/programs", params=params)
 
 def get_program_by_id(program_id: int | str) -> Optional[dict[str, Any]]:
     r = requests.get(f"{settings.backend_api_base}/programs/{program_id}", timeout=10)
@@ -129,6 +150,64 @@ def get_program_courses(
 
     return _get(f"/programs/{program_id}/courses", params=params)
 
+def get_program_courses_by_metadata(
+    program_name: Optional[str] = None,
+    degree_level: Optional[str] = None,
+    faculty_id: Optional[int | str] = None,
+    faculty_name: Optional[str] = None,
+    study_start: Optional[str] = None,
+    total_ects: Optional[int | float] = None,
+    course_type: Optional[str] = None,
+    semester_type: Optional[str] = None,
+    ects: Optional[int | float] = None,
+    domain_id: Optional[int | str] = None,
+    domain_name: Optional[str] = None,
+    language: Optional[str] = None,
+    semester: Optional[str] = None,
+    name_contains: Optional[str] = None,
+    mobility: Optional[bool] = None,
+    soft_skills: Optional[bool] = None,
+    limit: Optional[int] = None,
+) -> list[dict[str, Any]]:
+    params: dict[str, Any] = {}
+
+    if program_name:
+        params["program_name"] = program_name
+    if degree_level:
+        params["degree_level"] = degree_level
+    if faculty_id is not None:
+        params["faculty_id"] = faculty_id
+    if faculty_name:
+        params["faculty_name"] = faculty_name
+    if study_start:
+        params["study_start"] = study_start
+    if total_ects is not None:
+        params["total_ects"] = total_ects
+    if course_type:
+        params["course_type"] = course_type
+    if semester_type:
+        params["semester_type"] = semester_type
+    if ects is not None:
+        params["ects"] = ects
+    if domain_id is not None:
+        params["domain_id"] = domain_id
+    if domain_name:
+        params["domain_name"] = domain_name
+    if language:
+        params["language"] = language
+    if semester:
+        params["semester"] = semester
+    if name_contains:
+        params["name_contains"] = name_contains
+    if mobility is not None:
+        params["mobility"] = str(mobility).lower()
+    if soft_skills is not None:
+        params["soft_skills"] = str(soft_skills).lower()
+    if limit is not None:
+        params["limit"] = limit
+
+    return _get("/programs/courses", params=params)
+
 def get_program_docs(program_id: int | str) -> list[dict[str, Any]]:
     return _get(f"/docs-api/program/{program_id}")
 
@@ -160,6 +239,7 @@ TOOLS: dict[str, ToolFn] = {
     "get_programs": get_programs,
     "get_program_by_id": get_program_by_id,
     "get_program_courses": get_program_courses,
+    "get_program_courses_by_metadata": get_program_courses_by_metadata,
     "get_program_docs": get_program_docs,
     "get_offerings": get_offerings,
     "get_planner_context": get_planner_context,
@@ -274,11 +354,28 @@ TOOL_SPECS: list[dict[str, Any]] = [
     {
         "name": "get_programs",
         "description": (
-            "Return all programs. Use for general questions asking for available programs."
+            "Return study programs matching optional structured filters. "
+            "Use this when the user asks for programs by name, degree level, faculty, "
+            "study start, or total ECTS. Examples: "
+            "'show bachelor programs', 'find business informatics programs', "
+            "'programs in Engineering', 'master programs starting in Autumn'."
         ),
         "parameters": {
             "type": "object",
-            "properties": {},
+            "properties": {
+                "name": {"type": "string"},
+                "degree_level": {
+                    "type": "string",
+                    "enum": ["Bachelor", "Master", "Doctorate"]
+                },
+                "faculty_id": {"type": ["integer", "string"]},
+                "faculty_name": {"type": "string"},
+                "study_start": {
+                    "type": "string",
+                    "enum": ["Autumn", "Spring", "Both"]
+                },
+                "total_ects": {"type": ["integer", "number"]},
+            },
             "required": [],
         },
     },
@@ -353,6 +450,53 @@ TOOL_SPECS: list[dict[str, Any]] = [
                 },
             },
             "required": ["program_id"],
+        },
+    },
+    {
+        "name": "get_program_courses_by_metadata",
+        "description": (
+            "Return courses belonging to one or more programs selected by program metadata "
+            "instead of program_id. Use this when the user asks for courses in a named program "
+            "but does not know the program id, or when the program name may need disambiguation "
+            "using degree level, total ECTS, faculty, or study start. "
+            "Examples: 'show mandatory courses in the Bachelor Business Informatics program', "
+            "'find English electives in the Master Data Science program'."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_name": {"type": "string"},
+                "degree_level": {
+                    "type": "string",
+                    "enum": ["Bachelor", "Master", "Doctorate"]
+                },
+                "faculty_id": {"type": ["integer", "string"]},
+                "faculty_name": {"type": "string"},
+                "study_start": {
+                    "type": "string",
+                    "enum": ["Autumn", "Spring", "Both"]
+                },
+                "total_ects": {"type": ["integer", "number"]},
+
+                "course_type": {
+                    "type": "string",
+                    "enum": ["Mandatory", "Elective"]
+                },
+                "semester_type": {
+                    "type": "string",
+                    "enum": ["Autumn", "Spring"]
+                },
+                "ects": {"type": ["integer", "number"]},
+                "domain_id": {"type": ["integer", "string"]},
+                "domain_name": {"type": "string"},
+                "language": {"type": "string"},
+                "semester": {"type": "string"},
+                "name_contains": {"type": "string"},
+                "mobility": {"type": "boolean"},
+                "soft_skills": {"type": "boolean"},
+                "limit": {"type": "integer", "minimum": 1, "maximum": 500},
+            },
+            "required": [],
         },
     },
     {
