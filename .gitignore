@@ -40,3 +40,6 @@ yarn-error.log*
 chatbot/ollama/Lib/
 chatbot/vectorstore
 chatbot/app/__pycache__
+*.faiss
+*.pkl
+*.zip
