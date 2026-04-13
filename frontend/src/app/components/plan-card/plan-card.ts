@@ -1,4 +1,4 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
 
@@ -21,6 +21,17 @@ export class PlanCardComponent {
 
   @Input({ required: true }) plan!: PlanCardModel;
   @Input() active = false;
+  @Output() select = new EventEmitter<string>();
+  @Output() delete = new EventEmitter<string>();
 
   readonly dictionary = this.languageService.dictionary;
+
+  onSelect(): void {
+    this.select.emit(this.plan.id);
+  }
+
+  onDelete(event: Event): void {
+    event.stopPropagation();
+    this.delete.emit(this.plan.id);
+  }
 }

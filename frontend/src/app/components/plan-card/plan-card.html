@@ -1,7 +1,7 @@
-<div class="plan-card" [class.active]="active">
+<div class="plan-card" [class.active]="active" (click)="onSelect()" (keydown.enter)="onSelect()" (keydown.space)="onSelect()" tabindex="0" role="button">
   <div class="plan-card__header">
     <h3>{{ plan.title }}</h3>
-    <button class="icon-btn" type="button" [attr.aria-label]="dictionary().deletePlan">🗑</button>
+    <button class="icon-btn" type="button" [attr.aria-label]="dictionary().deletePlan" (click)="onDelete($event)">🗑</button>
   </div>
 
   <div class="plan-card__date">📅 {{ plan.createdAt }}</div>

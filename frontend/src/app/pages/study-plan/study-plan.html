@@ -1,0 +1,372 @@
+<div class="layout">
+  <aside class="sidebar-shell">
+    <app-plans-sidebar
+      [plans]="studyPlanService.plans()"
+      [activePlanId]="currentPlanId()"
+      (selectPlan)="openPlan($event)"
+      (deletePlan)="deletePlan($event)"
+      (newPlan)="createNewPlan()">
+    </app-plans-sidebar>
+  </aside>
+
+  <main class="content-shell">
+    @if (isCreateMode()) {
+      <section class="detail-view">
+        <header class="detail-header">
+          <button type="button" class="back-btn" (click)="goHome()">← Zurück</button>
+          <button type="button" class="primary-btn" [disabled]="!plannerCanCreate()" (click)="createPlan()">
+            Plan erstellen
+          </button>
+        </header>
+
+        <div class="title-block">
+          <h1>Neuen Semesterplan erstellen</h1>
+          <p>Wähle Semester, Studienprogramme und Kursangebote aus</p>
+        </div>
+
+        @if (plannerError()) {
+          <div class="info-banner info-banner--error">{{ plannerError() }}</div>
+        }
+
+        <section class="form-card">
+          <label class="field-label">Plan-Titel *</label>
+          <input
+            class="text-input"
+            [ngModel]="title()"
+            (ngModelChange)="title.set($event)"
+            placeholder="z.B. Wintersemester 2026/27" />
+        </section>
+
+        <section class="form-card">
+          <label class="field-label">Semester *</label>
+          <select
+            class="text-input select-input"
+            [ngModel]="selectedSemesterId()"
+            (ngModelChange)="onSemesterChange($event)">
+            <option value="" disabled>Semester auswählen</option>
+            @for (semester of semesters(); track semester.sem_id) {
+              <option [ngValue]="semester.sem_id">{{ semester.label }} ({{ semester.sem_id }})</option>
+            }
+          </select>
+          @if (isLoadingSemesters()) {
+            <p class="hint-text">Semester werden geladen...</p>
+          }
+        </section>
+
+        <section class="form-card">
+          <div class="section-title">Studienprogramme *</div>
+          <p class="section-subtitle">Du kannst ein oder mehrere Programme auswählen</p>
+          <input
+            class="text-input"
+            [ngModel]="programSearch()"
+            (ngModelChange)="programSearch.set($event)"
+            placeholder="Programme filtern..." />
+
+          @if (selectedProgramNames().length > 0) {
+            <div class="tag-row">
+              @for (label of selectedProgramNames(); track label) {
+                <span class="tag">{{ label }}</span>
+              }
+            </div>
+          }
+
+          <select
+            class="text-input select-input multi-select"
+            multiple
+            (change)="onProgramsChange($event)">
+            @for (program of filteredPrograms(); track program.program_id) {
+              <option
+                [value]="program.program_id"
+                [selected]="isProgramSelected(program.program_id)">
+                {{ programLabel(program) }}
+              </option>
+            }
+          </select>
+
+          <p class="hint-text">Mehrfachauswahl mit Ctrl/Cmd oder Shift.</p>
+
+          @if (isLoadingPrograms()) {
+            <p class="hint-text">Studienprogramme werden geladen...</p>
+          }
+        </section>
+
+        <section class="form-card">
+          <div class="section-title">
+            Kursangebote @if (availableCourseOfferings().length > 0) { ({{ filteredCourses().length }}) }
+          </div>
+
+          <p class="section-subtitle">
+            @if (selectedProgramIds().length === 0 || !selectedSemesterId()) {
+              Wähle zuerst ein Semester und mindestens ein Studienprogramm.
+            } @else {
+              {{ selectedOfferingIds().length }} Kursangebote ausgewählt
+            }
+          </p>
+
+          <input
+            class="text-input"
+            [ngModel]="courseSearch()"
+            (ngModelChange)="courseSearch.set($event)"
+            placeholder="Nach Name, Code, Sprache oder Programm suchen..." />
+
+          @if (isLoadingCourses()) {
+            <div class="empty-state">Kursangebote werden geladen...</div>
+          } @else if (selectedProgramIds().length === 0 || !selectedSemesterId()) {
+            <div class="empty-state">Bitte zuerst Semester und Studienprogramm(e) auswählen.</div>
+          } @else if (filteredCourses().length === 0) {
+            <div class="empty-state">Für diese Auswahl wurden keine Kursangebote gefunden.</div>
+          } @else {
+            <div class="course-grid course-grid--create">
+              @for (course of filteredCourses(); track course.offering_id) {
+                <button
+                  type="button"
+                  class="course-box"
+                  [class.course-box--selected]="isCourseSelected(course.offering_id)"
+                  (click)="toggleCourse(course.offering_id)">
+                  <div>
+                    <strong>{{ course.course_name || course.code }}</strong>
+                    <div class="muted">{{ course.code }}</div>
+                  </div>
+
+                  <div class="course-meta-row">
+                    <span class="pill">{{ offeringTag(course) }}</span>
+                    @if (course.ects != null) {
+                      <span>{{ course.ects }} ECTS</span>
+                    }
+                    @if (course.offering_type) {
+                      <span>{{ course.offering_type }}</span>
+                    }
+                  </div>
+
+                  @if (course.day_time_info) {
+                    <div class="muted course-extra">{{ course.day_time_info }}</div>
+                  }
+
+                  @if (offeringLanguages(course)) {
+                    <div class="muted course-extra">Sprache: {{ offeringLanguages(course) }}</div>
+                  }
+
+                  @if (offeringPrograms(course)) {
+                    <div class="muted course-extra">Programme: {{ offeringPrograms(course) }}</div>
+                  }
+                </button>
+              }
+            </div>
+          }
+        </section>
+      </section>
+    } @else if (activePlan(); as plan) {
+      @if (!editMode()) {
+        <section class="detail-view">
+          <header class="detail-header detail-header--with-title">
+            <div>
+              <button type="button" class="back-btn" (click)="goHome()">← Zurück zum Chat</button>
+              <h1>{{ plan.title }}</h1>
+              <p>Dein Stundenplan im Überblick</p>
+            </div>
+            <button type="button" class="secondary-btn" (click)="startEditing()">Anpassen</button>
+          </header>
+
+          @if (blockEntries().length > 0) {
+            <section class="form-card">
+              <div class="section-title">Blockkurse</div>
+              <p class="section-subtitle">
+                Diese Kurse werden separat angezeigt, weil sie keine wöchentlichen Termine haben.
+              </p>
+
+              <div class="stack-list">
+                @for (entry of blockEntries(); track entry.offeringId || entry.courseCode || entry.courseName) {
+                  <article class="stack-card block-card" (click)="openCalendarEntry(entry)">
+                    <div>
+                      <div class="stack-card__row">
+                        <div class="dot"></div>
+                        <strong>{{ entry.courseName }}</strong>
+                      </div>
+                      <div class="muted">{{ entry.courseCode }} · Blockkurs</div>
+
+                      @if (entry.sessions?.length) {
+                        <div class="muted course-extra">
+                          {{ blockSessionsSummary(entry) }}
+                        </div>
+                      }
+                    </div>
+
+                    <span class="pill">Block</span>
+                  </article>
+                }
+              </div>
+            </section>
+          }
+          <section class="timetable-card">
+            <div class="timetable-head">
+              <div class="time-col">Zeit</div>
+              @for (day of weekdays; track day) {
+                <div>{{ day }}</div>
+              }
+            </div>
+
+            <div class="timetable-body">
+              <div class="time-axis">
+                @for (label of hourLabels; track label) {
+                  <div class="time-slot-label">{{ label }}</div>
+                }
+              </div>
+
+              @for (day of weekdays; track day) {
+                <div class="day-column">
+                  @for (label of hourLabels; track label) {
+                    <div class="grid-cell"></div>
+                  }
+
+                  @for (entry of weeklyEntries(day); track entry.courseName + entry.startTime + entry.courseCode + entry.layoutIndex) {
+                    <article
+                      class="event-card"
+                      [style.top.px]="topPosition(entry.startTime)"
+                      [style.height.px]="blockHeight(entry.startTime, entry.endTime)"
+                      [style.background]="entry.color"
+                      [style.width]="cardWidth(entry)"
+                      [style.left]="cardLeft(entry)"
+                      (click)="openCalendarEntry(entry)">
+                      <strong>{{ displayCardTitle(entry) }}</strong>
+                      <span>{{ displayCardCode(entry) }}</span>
+                      <span>{{ displayCardTime(entry) }}</span>
+                    </article>
+                  }
+                </div>
+              }
+            </div>
+          </section>
+          
+          @if (selectedCalendarEntry()) {
+            <div class="modal-backdrop" (click)="closeCalendarEntry()">
+              <section class="course-modal" (click)="$event.stopPropagation()">
+                <div class="detail-header">
+                  <div>
+                    <h2>{{ selectedOfferingDetail()?.course_name || selectedCalendarEntry()?.courseName }}</h2>
+                    <p>{{ selectedOfferingDetail()?.code || selectedCalendarEntry()?.courseCode }}</p>
+                  </div>
+                  <button type="button" class="secondary-btn" (click)="closeCalendarEntry()">Schliessen</button>
+                </div>
+
+                @if (isLoadingOfferingDetail()) {
+                  <div class="empty-state">Kursdetails werden geladen...</div>
+                } @else {
+                  <div class="stack-list">
+                    <article class="stack-card">
+                      <div>
+                        <strong>Typ</strong>
+                        <div class="muted">
+                          {{ selectedOfferingDetail()?.offering_type || selectedCalendarEntry()?.offeringType || '–' }}
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="stack-card">
+                      <div>
+                        <strong>Sprache</strong>
+                        <div class="muted">
+                          {{ (selectedOfferingDetail()?.teaching_languages || selectedCalendarEntry()?.languages || []).join(', ') || '–' }}
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="stack-card">
+                      <div>
+                        <strong>Professor/in</strong>
+                        <div class="muted">{{ professorNames() || '–' }}</div>
+                      </div>
+                    </article>
+
+                    <article class="stack-card sessions-card">
+                      <div>
+                        <strong>Sessions</strong>
+
+                        @if ((selectedOfferingDetail()?.sessions?.length ?? 0) > 0) {
+                          <div class="session-list">
+                            @for (session of selectedOfferingDetail()?.sessions ?? []; track session.session_id) {
+                              <div class="session-item">
+                                <div><strong>{{ session.weekday }}</strong>, {{ session.date }}</div>
+                                <div>{{ session.start_time || '–' }} - {{ session.end_time || '–' }}</div>
+                                <div>Raum: {{ session.room_id || '–' }}</div>
+                                <div>Einheit: {{ session.unit_type || '–' }}</div>
+                              </div>
+                            }
+                          </div>
+                        } @else {
+                          <div class="muted">Keine einzelnen Sessions vorhanden.</div>
+                        }
+                      </div>
+                    </article>
+                  </div>
+                }
+              </section>
+            </div>
+          }
+        </section>
+      } @else {
+        <section class="detail-view">
+          <header class="detail-header detail-header--with-title">
+            <div>
+              <button type="button" class="back-btn" (click)="editMode.set(false)">← Zurück</button>
+              <h1>{{ plan.title }} bearbeiten</h1>
+              <p>Passe deinen Semesterplan an</p>
+            </div>
+            <button type="button" class="primary-btn" (click)="saveEdit()">Änderungen speichern</button>
+          </header>
+
+          <div class="split-grid">
+            <section class="edit-column">
+              <div class="section-title">Aktuelle Kurse ({{ selectedEditOfferings().length }})</div>
+              <p class="section-subtitle">Entferne Kursangebote, die du nicht mehr belegen möchtest</p>
+
+              <div class="stack-list">
+                @for (offering of selectedEditOfferings(); track offering.id) {
+                  <article class="stack-card">
+                    <div>
+                      <div class="stack-card__row">
+                        <div class="dot"></div>
+                        <strong>{{ offering.name }}</strong>
+                      </div>
+                      <div class="muted">{{ offering.code }} · {{ offering.semesterLabel }}</div>
+                    </div>
+                    <button type="button" class="delete-btn" (click)="removeSelectedOffering(offering.id)">🗑</button>
+                  </article>
+                }
+              </div>
+            </section>
+
+            <section class="edit-column">
+              <div class="section-title">Ausgewählte Kursangebote</div>
+              <p class="section-subtitle">Dein Plan basiert auf den geladenen Course Offerings.</p>
+
+              <div class="stack-list">
+                @for (offering of selectedPlanOfferings(); track offering.id) {
+                  <article class="suggestion-card" [class.suggestion-card--added]="isCourseSelected(offering.id)">
+                    <div>
+                      <strong>{{ offering.name }}</strong>
+                      <div class="course-meta-row">
+                        <span class="pill">{{ offering.type }}</span>
+                        <span>{{ offering.code }}</span>
+                        @if (offering.languages.length > 0) {
+                          <span>{{ offering.languages.join(', ') }}</span>
+                        }
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      class="action-btn"
+                      [disabled]="isCourseSelected(offering.id)"
+                      (click)="toggleCourse(offering.id)">
+                      {{ isCourseSelected(offering.id) ? 'Hinzugefügt' : 'Hinzufügen' }}
+                    </button>
+                  </article>
+                }
+              </div>
+            </section>
+          </div>
+        </section>
+      }
+    }
+  </main>
+</div>

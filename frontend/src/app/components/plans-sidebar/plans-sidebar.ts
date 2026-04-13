@@ -1,4 +1,4 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlanCardComponent, PlanCardModel } from '../plan-card/plan-card';
 import { LanguageService } from '../../services/language.service';
@@ -15,6 +15,9 @@ export class PlansSidebarComponent {
 
   @Input({ required: true }) plans: PlanCardModel[] = [];
   @Input() activePlanId: string | null = null;
+  @Output() selectPlan = new EventEmitter<string>();
+  @Output() deletePlan = new EventEmitter<string>();
+  @Output() newPlan = new EventEmitter<void>();
 
   readonly dictionary = this.languageService.dictionary;
 

@@ -2,6 +2,7 @@ import Fastify from "fastify";
 import swagger from "@fastify/swagger";
 import swaggerUi from "@fastify/swagger-ui";
 import dotenv from "dotenv";
+import cors from "@fastify/cors";
 
 dotenv.config({ path: ".env.docker" });
 
@@ -15,7 +16,10 @@ import { pool } from "./db.js";
 async function main() {
   const app = Fastify({ logger: true });
 
-  
+  // cors
+  await app.register(cors, {
+    origin: process.env.CORS_ORIGIN ?? true,
+  });
 
   // Swagger
   await app.register(swagger, {

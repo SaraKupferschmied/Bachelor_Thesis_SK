@@ -1,11 +1,13 @@
-import { Component, computed, inject, ChangeDetectorRef } from '@angular/core';
+import { Component, inject, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { finalize } from 'rxjs';
 import { PlansSidebarComponent } from '../../components/plans-sidebar/plans-sidebar';
 import { OptionCardComponent } from '../../components/option-card/option-card';
 import { ChatInputComponent } from '../../components/chat-input/chat-input';
+import { Router } from '@angular/router';
 import { ChatService, AskResponse, SourceSnippet } from '../../services/chat.service';
 import { LanguageCode, LanguageService } from '../../services/language.service';
+import { StudyPlanService } from '../../services/study-plan.service';
 
 type ChatMessage = {
   role: 'user' | 'assistant';
@@ -28,12 +30,14 @@ type ChatMessage = {
 })
 export class HomeComponent {
   private readonly languageService = inject(LanguageService);
+  private readonly studyPlanService = inject(StudyPlanService);
+  private readonly router = inject(Router);
 
   readonly availableLanguages = this.languageService.availableLanguages;
   readonly currentLanguage = this.languageService.currentLanguage;
   readonly dictionary = this.languageService.dictionary;
-  readonly plans = computed(() => this.dictionary().plans);
-  readonly options = computed(() => this.dictionary().options);
+  readonly plans = this.studyPlanService.plans;
+
 
   activePlanId = '1';
   messages: ChatMessage[] = [];
@@ -57,6 +61,24 @@ export class HomeComponent {
 
   closeSidebar(): void {
     this.isSidebarOpen = false;
+  }
+
+  onOpenNewPlan(): void {
+    this.closeSidebar();
+    void this.router.navigate(['/plans/new']);
+  }
+
+  onOpenPlan(planId: string): void {
+    this.activePlanId = planId;
+    this.closeSidebar();
+    void this.router.navigate(['/plans', planId]);
+  }
+
+  onDeletePlan(planId: string): void {
+    this.studyPlanService.deletePlan(planId);
+    if (this.activePlanId === planId) {
+      this.activePlanId = this.studyPlanService.plans()[0]?.id ?? '';
+    }
   }
 
   onSendMessage(question: string): void {
