@@ -62,3 +62,15 @@ start chatbot from folder
 
 docker compose --env-file .env.docker restart chatbot
 docker compose --env-file .env.docker logs -f chatbot
+
+
+npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
+
+npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
+
+python -m app.build_faiss_docling --target studyplans --parser docling --force
+python -m app.build_faiss_docling --target regulations --parser docling --force
+
+when already some exist: npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py --append-index
+
+npx tsx DB_service\src\import\validate_docling_metadata.ts --dir "C:\Users\Sara\OneDrive\Uni\Bachelor thesis\BA_Thesis_Dev\scrapy_crawler\outputs\parsed_fulltext_docling" --verbose

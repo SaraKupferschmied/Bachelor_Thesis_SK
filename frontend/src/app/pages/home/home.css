@@ -256,6 +256,13 @@
   padding: 16px 28px calc(16px + env(safe-area-inset-bottom));
 }
 
+.disclaimer{
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .page-header__title-group {
     display: flex;
