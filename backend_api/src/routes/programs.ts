@@ -2,7 +2,9 @@ import type { FastifyInstance } from "fastify";
 import { query } from "../db.js";
 
 type ProgramsListQuery = {
-  name?: string;
+  name_en?: string;
+  name_de?: string;
+  name_fr?: string;
   degree_level?: "Bachelor" | "Master" | "Doctorate";
   faculty_id?: string;
   faculty_name?: string;
@@ -11,7 +13,9 @@ type ProgramsListQuery = {
 };
 
 type ProgramCoursesQuery = {
-  program_name?: string;
+  program_en?: string;
+  program_de?: string;
+  program_fr?: string;
   degree_level?: "Bachelor" | "Master" | "Doctorate";
   faculty_id?: string;
   faculty_name?: string;
@@ -66,7 +70,9 @@ export async function programsRoutes(app: FastifyInstance) {
         querystring: {
           type: "object",
           properties: {
-            name: { type: "string" },
+            name_en: { type: "string" },
+            name_de: { type: "string" },
+            name_fr: { type: "string" },
             degree_level: {
               type: "string",
               enum: ["Bachelor", "Master", "Doctorate"],
@@ -84,7 +90,9 @@ export async function programsRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
-        name,
+        name_en,
+        name_de,
+        name_fr,
         degree_level,
         faculty_id,
         faculty_name,
@@ -97,6 +105,9 @@ export async function programsRoutes(app: FastifyInstance) {
         SELECT 
           p.program_id,
           p.name,
+          p.name_en,
+          p.name_de,
+          p.name_fr,
           p.degree_level,
           p.total_ects,
           p.study_start,
@@ -105,21 +116,25 @@ export async function programsRoutes(app: FastifyInstance) {
         FROM StudyProgram p
         LEFT JOIN Faculty f
           ON f.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.degree_level = $2)
-          AND ($3::int IS NULL OR p.faculty_id = $3)
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+          AND ($4::text IS NULL OR p.degree_level = $4)
+          AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (
-            $4::text IS NULL
-            OR f.name_en ILIKE '%' || $4 || '%'
-            OR f.name_de ILIKE '%' || $4 || '%'
-            OR f.name_fr ILIKE '%' || $4 || '%'
+            $6::text IS NULL
+            OR f.name_en ILIKE '%' || $6 || '%'
+            OR f.name_de ILIKE '%' || $6 || '%'
+            OR f.name_fr ILIKE '%' || $6 || '%'
           )
-          AND ($5::text IS NULL OR p.study_start = $5)
-          AND ($6::float IS NULL OR p.total_ects = $6)
-        ORDER BY p.name, p.degree_level, p.total_ects
+          AND ($7::text IS NULL OR p.study_start = $7)
+          AND ($8::float IS NULL OR p.total_ects = $8)
+        ORDER BY COALESCE(p.name_en, p.name), p.degree_level, p.total_ects
         `,
         [
-          name ?? null,
+          name_en ?? null,
+          name_de ?? null,
+          name_fr ?? null,
           degree_level ?? null,
           toInt(faculty_id),
           faculty_name ?? null,
@@ -144,7 +159,9 @@ export async function programsRoutes(app: FastifyInstance) {
         querystring: {
           type: "object",
           properties: {
-            program_name: { type: "string" },
+            program_en: { type: "string" },
+            program_de: { type: "string" },
+            program_fr: { type: "string" },
             degree_level: {
               type: "string",
               enum: ["Bachelor", "Master", "Doctorate"],
@@ -180,7 +197,9 @@ export async function programsRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
-        program_name,
+        program_en,
+        program_de,
+        program_fr,
         degree_level,
         faculty_id,
         faculty_name,
@@ -207,7 +226,9 @@ export async function programsRoutes(app: FastifyInstance) {
           d.name AS domain_name,
           co.course_type,
           p.program_id,
-          p.name AS program_name,
+          p.name_en AS program_name_en,
+          p.name_de AS program_name_de,
+          p.name_fr AS program_name_fr,
           p.degree_level,
           p.total_ects,
           p.study_start
@@ -222,38 +243,40 @@ export async function programsRoutes(app: FastifyInstance) {
           ON d.domain_id = c.domain_id
         LEFT JOIN Faculty pf
           ON pf.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.degree_level = $2)
-          AND ($3::int IS NULL OR p.faculty_id = $3)
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+          AND ($4::text IS NULL OR p.degree_level = $4)
+          AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (
-            $4::text IS NULL
-            OR pf.name_en ILIKE '%' || $4 || '%'
-            OR pf.name_de ILIKE '%' || $4 || '%'
-            OR pf.name_fr ILIKE '%' || $4 || '%'
+            $6::text IS NULL
+            OR pf.name_en ILIKE '%' || $6 || '%'
+            OR pf.name_de ILIKE '%' || $6 || '%'
+            OR pf.name_fr ILIKE '%' || $6 || '%'
           )
-          AND ($5::text IS NULL OR p.study_start = $5)
-          AND ($6::float IS NULL OR p.total_ects = $6)
+          AND ($7::text IS NULL OR p.study_start = $7)
+          AND ($8::float IS NULL OR p.total_ects = $8)
 
-          AND ($7::text IS NULL OR co.course_type = $7)
+          AND ($9::text IS NULL OR co.course_type = $9)
           AND (
-            $8::text IS NULL
+            $10::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
               LEFT JOIN Semester s
                 ON s.sem_id = off.sem_id
               WHERE off.code = c.code
-                AND s.type = $8
+                AND s.type = $10
             )
           )
-          AND ($9::float IS NULL OR c.ects = $9)
-          AND ($10::int IS NULL OR c.domain_id = $10)
-          AND ($11::text IS NULL OR d.name ILIKE '%' || $11 || '%')
-          AND ($12::text IS NULL OR c.name ILIKE '%' || $12 || '%')
-          AND ($13::boolean IS NULL OR c.mobility = $13)
-          AND ($14::boolean IS NULL OR c.soft_skills = $14)
+          AND ($11::float IS NULL OR c.ects = $11)
+          AND ($12::int IS NULL OR c.domain_id = $12)
+          AND ($13::text IS NULL OR d.name ILIKE '%' || $13 || '%')
+          AND ($14::text IS NULL OR c.name ILIKE '%' || $14 || '%')
+          AND ($15::boolean IS NULL OR c.mobility = $15)
+          AND ($16::boolean IS NULL OR c.soft_skills = $16)
           AND (
-            $15::text IS NULL
+            $17::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
@@ -261,14 +284,14 @@ export async function programsRoutes(app: FastifyInstance) {
                 ON s.sem_id = off.sem_id
               WHERE off.code = c.code
                 AND (
-                  off.sem_id ILIKE $15
-                  OR s.sem_id ILIKE $15
-                  OR s.type ILIKE $15
+                  off.sem_id ILIKE $17
+                  OR s.sem_id ILIKE $17
+                  OR s.type ILIKE $17
                 )
             )
           )
           AND (
-            $16::text IS NULL
+            $18::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
@@ -277,14 +300,16 @@ export async function programsRoutes(app: FastifyInstance) {
               JOIN Language l
                 ON l.lang_id = iti.lang_id
               WHERE off.code = c.code
-                AND l.description ILIKE $16
+                AND l.description ILIKE $18
             )
           )
-        ORDER BY p.name, p.degree_level, p.total_ects, c.code
-        LIMIT COALESCE($17::int, 100)
+        ORDER BY COALESCE(p.name_en, p.name), p.degree_level, p.total_ects, c.code
+        LIMIT COALESCE($19::int, 100)
         `,
         [
-          program_name ?? null,
+          program_en ?? null,
+          program_de ?? null,
+          program_fr ?? null,
           degree_level ?? null,
           toInt(faculty_id),
           faculty_name ?? null,
@@ -502,7 +527,6 @@ export async function programsRoutes(app: FastifyInstance) {
 
   // ============================
   // GET /programs/:id
-  // keep this LAST
   // ============================
   app.get(
     "/:id",

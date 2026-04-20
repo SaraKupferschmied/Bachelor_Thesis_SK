@@ -297,6 +297,31 @@ function inferCourseType(text: string): CourseType | null {
   return null;
 }
 
+function parseMarkdownTableRow(line: string): string[] | null {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("|")) return null;
+
+  const cells = trimmed
+    .split("|")
+    .slice(1, -1)
+    .map((c) => c.replace(/\s+/g, " ").trim());
+
+  if (!cells.length) return null;
+
+  // skip separator rows like |-----|----|
+  const looksLikeSeparator = cells.every((c) => /^:?-{2,}:?$/.test(c) || c === "");
+  if (looksLikeSeparator) return null;
+
+  return cells;
+}
+
+function normalizeMaybeCourseCode(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  const hits = extractCourseCodeHits(raw);
+  if (!hits.length) return null;
+  return hits[0].code.startsWith("UE-") ? hits[0].code : `UE-${hits[0].code}`;
+}
+
 function makeStagingChunks(pages: unknown): {
   raw_text: string;
   page_no: number;
@@ -305,83 +330,50 @@ function makeStagingChunks(pages: unknown): {
   extracted_code: string | null;
   inferred_type: CourseType | null;
 }[] {
-  const out: {
-    raw_text: string;
-    page_no: number;
-    section: string | null;
-    extracted_title: string | null;
-    extracted_code: string | null;
-    inferred_type: CourseType | null;
-  }[] = [];
-
+  const out: any[] = [];
   const safePages: string[] = Array.isArray(pages)
-    ? pages.map((p: unknown) => (typeof p === "string" ? p : String(p ?? "")))
+    ? pages.map((p) => (typeof p === "string" ? p : String(p ?? "")))
     : [];
-
-  const splitRx = /\n+|(?=\bModule\s+\d+\b)|(?=\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b)/g;
-  const sectionRx = /\b\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\b/;
-
-  // snippet for storage (your original)
-  const AFTER_CHARS = 50;
 
   for (let i = 0; i < safePages.length; i++) {
     const pageNo = i + 1;
-    const pageTrimmed = safePages[i].trim();
-    if (!pageTrimmed) continue;
+    const lines = safePages[i].split(/\r?\n/);
 
-    // Carry type within this page (tables are usually contained per page, but this already helps a lot)
+    let currentSection: string | null = null;
     let carryType: CourseType | null = null;
 
-    const parts = pageTrimmed
-      .split(splitRx)
-      .filter((x): x is string => typeof x === "string")
-      .map((x) => x.trim())
-      .filter((x) => x.length >= 20);
+    for (const line of lines) {
+      const clean = line.trim();
+      if (!clean) continue;
 
-    for (const part of parts) {
-      const section =
-        part.match(/\bModule\s+\d+\b/i)?.[0] ??
-        part.match(sectionRx)?.[0] ??
-        null;
+      // heading / context tracking
+      if (/^##\s+/.test(clean)) currentSection = clean.replace(/^##\s+/, "").trim();
 
-      // 1) Update carryType if this part looks like a header/label chunk
-      // This catches “Elective courses” / “Compulsory courses” lines that come before codes.
-      const headerType = inferCourseType(part);
+      const headerType = inferCourseType(clean);
       if (headerType) carryType = headerType;
 
-      const hits = extractCourseCodeHits(part);
-      if (!hits.length) continue;
+      const cells = parseMarkdownTableRow(clean);
+      if (!cells) continue;
 
-      for (const hit of hits) {
-        const code = hit.code.startsWith("UE-") ? hit.code : `UE-${hit.code}`;
+      // usually first non-empty cell is the code, second is title
+      const codeCell = cells.find((c) => normalizeMaybeCourseCode(c));
+      const code = normalizeMaybeCourseCode(codeCell);
+      if (!code) continue;
 
-        // Store snippet (same as you do)
-        const start = Math.max(0, hit.idx);
-        const end = Math.min(part.length, hit.idx + hit.len + AFTER_CHARS);
-        const rawSnippet = part
-          .slice(start, end)
-          .replace(/\s+/g, " ")
-          .trim();
+      const codeIdx = cells.findIndex((c) => normalizeMaybeCourseCode(c) === code);
+      const title =
+        codeIdx >= 0 && cells[codeIdx + 1]
+          ? cells[codeIdx + 1].trim() || null
+          : null;
 
-        const extracted_title = extractCourseTitleAfterCode(part, hit) ?? section;
-
-        // 2) First try: infer from a bigger *around-hit* context (includes text before the code)
-        const around = extractContextAroundHit(part, hit, 200, 120);
-        let inferred_type = inferCourseType(around);
-
-        // 3) Fallback: use carryType from the last seen header in this page/table
-        if (!inferred_type && carryType) inferred_type = carryType;
-
-        // 4) Keep “Mandatory as default”: if we still don’t know, store null (treat downstream as mandatory)
-        out.push({
-          raw_text: rawSnippet,
-          page_no: pageNo,
-          section,
-          extracted_code: code,
-          extracted_title,
-          inferred_type: inferred_type ?? null,
-        });
-      }
+      out.push({
+        raw_text: clean,
+        page_no: pageNo,
+        section: currentSection,
+        extracted_code: code,
+        extracted_title: title,
+        inferred_type: carryType,
+      });
     }
   }
 

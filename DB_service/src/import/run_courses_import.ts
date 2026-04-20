@@ -75,7 +75,7 @@ function buildDayTimeInfo(
   if (offering_type === "Weekly") {
     if (!vt) return null;
 
-    // Extract first weekday + time range
+    // Extract all weekday + time ranges
     const weekdayMap: Record<string, string> = {
       Montag: "Monday",
       Dienstag: "Tuesday",
@@ -84,14 +84,19 @@ function buildDayTimeInfo(
       Freitag: "Friday",
     };
 
-    const weekdayMatch = Object.keys(weekdayMap).find((d) =>
-      vt.startsWith(d)
-    );
+    const slotRegex =
+      /(Montag|Dienstag|Mittwoch|Donnerstag|Freitag)\s+(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/g;
 
-    const timeMatch = vt.match(/(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/);
+    const slots: string[] = [];
+    let match: RegExpExecArray | null;
 
-    if (weekdayMatch && timeMatch) {
-      return `${weekdayMap[weekdayMatch]} ${timeMatch[1]} - ${timeMatch[2]}`;
+    while ((match = slotRegex.exec(vt)) !== null) {
+      const [, dayDe, start, end] = match;
+      slots.push(`${weekdayMap[dayDe]} ${start} - ${end}`);
+    }
+
+    if (slots.length > 0) {
+      return Array.from(new Set(slots)).join("; ");
     }
 
     return vt; // fallback to raw text

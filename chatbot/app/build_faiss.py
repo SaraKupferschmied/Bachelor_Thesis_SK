@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
@@ -14,405 +12,147 @@ from langchain_ollama import OllamaEmbeddings
 from app.config import settings
 
 
-METADATA_START = "---METADATA_JSON---"
-METADATA_END = "---/METADATA_JSON---"
-
-PAGE_PATTERN = re.compile(r"---PAGE\s+(\d+)---\s*\n", re.IGNORECASE)
-
-
-@dataclass
-class PageSpan:
-    page: int
-    text: str
-
-
-def _parsed_dir_for(target: str, parser: str) -> Path:
+def _chunk_dir_for(target: str) -> Path:
+    """
+    Adjust these paths to match your project structure.
+    """
     root = Path(__file__).resolve().parents[2] / "scrapy_crawler" / "outputs"
 
-    if parser != "docling":
-        raise ValueError(f"This builder only supports parser='docling', got: {parser}")
-
     if target == "studyplans":
-        return root / "parsed_fulltext_docling"
+        return root / "parsed_chunks"
     if target in {"regulations", "reglementations"}:
-        return root / "reglementation_docs" / "parsed_fulltext_docling"
+        return root / "parsed_chunks_regulations"
 
     raise ValueError(f"Unknown target: {target}")
 
 
-def _index_dir_for(target: str, parser: str) -> Path:
+def _index_dir_for(target: str) -> Path:
     if target == "studyplans":
-        base = settings.studyplans_index
-    elif target in {"regulations", "reglementations"}:
-        base = settings.reglementations_index
-    else:
-        raise ValueError(f"Unknown target: {target}")
+        return settings.studyplans_index
+    if target in {"regulations", "reglementations"}:
+        return settings.reglementations_index
 
-    if parser == "docling":
-        # separate folder so the old docling index stays untouched
-        return base / "docling_semantic"
-
-    raise ValueError(f"Unsupported parser: {parser}")
+    raise ValueError(f"Unknown target: {target}")
 
 
-def _iter_txt_files(parsed_dir: Path) -> Iterable[Path]:
-    if not parsed_dir.exists():
-        raise FileNotFoundError(f"Parsed directory not found: {parsed_dir}")
+def _iter_chunk_files(chunks_dir: Path) -> Iterable[Path]:
+    if not chunks_dir.exists():
+        raise FileNotFoundError(f"Chunks directory not found: {chunks_dir}")
 
-    for path in sorted(parsed_dir.glob("*.txt")):
+    for path in sorted(chunks_dir.glob("*.jsonl")):
         if path.name.startswith("_"):
             continue
         yield path
 
 
 def _normalize_text(text: str) -> str:
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
+    return " ".join((text or "").split()).strip()
 
 
-def _extract_metadata_and_body(raw: str) -> tuple[dict, str]:
-    start_idx = raw.find(METADATA_START)
-    end_idx = raw.find(METADATA_END)
-
-    if start_idx == -1 or end_idx == -1 or end_idx <= start_idx:
-        return {}, raw
-
-    json_start = start_idx + len(METADATA_START)
-    json_blob = raw[json_start:end_idx].strip()
-    body = raw[end_idx + len(METADATA_END):].strip()
-
-    try:
-        meta = json.loads(json_blob)
-    except json.JSONDecodeError:
-        meta = {}
-
-    return meta, body
-
-
-def _split_pages(body: str) -> list[PageSpan]:
-    matches = list(PAGE_PATTERN.finditer(body))
-
-    if not matches:
-        text = _normalize_text(body)
-        return [PageSpan(page=1, text=text)] if text else []
-
-    pages: list[PageSpan] = []
-    for i, match in enumerate(matches):
-        page_num = int(match.group(1))
-        start = match.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(body)
-        page_text = _normalize_text(body[start:end])
-        if page_text:
-            pages.append(PageSpan(page=page_num, text=page_text))
-
-    return pages
-
-
-def _looks_like_heading(block: str) -> bool:
-    s = block.strip()
-    if not s:
-        return False
-
-    if len(s) > 120:
-        return False
-
-    if "\n" in s:
-        return False
-
-    # numbered headings, e.g. "1", "1.2", "§ 4", "Module 3"
-    if re.match(r"^((§\s*)?\d+(\.\d+){0,4}|[A-Z]\d+)\s+.+$", s):
-        return True
-
-    # colon headings, e.g. "Admission:"
-    if s.endswith(":") and len(s) < 100:
-        return True
-
-    # title-ish lines
-    words = s.split()
-    if 1 <= len(words) <= 12:
-        upper_ratio = sum(1 for c in s if c.isupper()) / max(1, sum(1 for c in s if c.isalpha()))
-        if upper_ratio > 0.6:
-            return True
-
-    return False
-
-
-def _page_blocks(page: PageSpan) -> list[tuple[int, str]]:
-    """
-    Split a page into coarse semantic blocks using blank lines.
-    Returns tuples of (page_number, block_text).
-    """
-    blocks = [b.strip() for b in re.split(r"\n\s*\n", page.text) if b.strip()]
-    return [(page.page, b) for b in blocks]
-
-
-def _collect_sections(pages: list[PageSpan]) -> list[dict]:
-    """
-    Build document sections across pages.
-    A section starts when a heading-like block appears.
-    """
-    sections: list[dict] = []
-    current = {
-        "heading": None,
-        "blocks": [],
-        "pages": set(),
-    }
-
-    def flush_current() -> None:
-        if not current["blocks"]:
-            return
-        text = "\n\n".join(current["blocks"]).strip()
-        if text:
-            sections.append(
-                {
-                    "heading": current["heading"],
-                    "text": text,
-                    "pages": sorted(current["pages"]),
-                }
-            )
-
-    for page in pages:
-        for page_num, block in _page_blocks(page):
-            if _looks_like_heading(block):
-                flush_current()
-                current = {
-                    "heading": block.strip(),
-                    "blocks": [],
-                    "pages": {page_num},
-                }
-                continue
-
-            current["blocks"].append(block.strip())
-            current["pages"].add(page_num)
-
-    flush_current()
-
-    # fallback: if no sections were found, build one global section
-    if not sections:
-        joined = "\n\n".join(p.text for p in pages).strip()
-        if joined:
-            sections.append(
-                {
-                    "heading": None,
-                    "text": joined,
-                    "pages": [p.page for p in pages],
-                }
-            )
-
-    return sections
-
-
-def _split_into_paragraphs(text: str) -> list[str]:
-    paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    if paras:
-        return paras
-
-    # fallback if text has no blank-line paragraph structure
-    text = re.sub(r"\s+", " ", text).strip()
+def _is_useful_chunk(obj: dict) -> bool:
+    text = _truncate_text(_normalize_text(obj["text"]), max_chars=4000)
     if not text:
-        return []
+        return False
 
-    # soft split on sentence boundaries
-    parts = re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ])", text)
-    return [p.strip() for p in parts if p.strip()]
+    chunk_type = obj.get("chunk_type")
+    if chunk_type not in {"page", "section", "course_row"}:
+        return False
 
+    # Filter very tiny junk chunks
+    if len(text) < 20:
+        return False
 
-def _estimate_pages_for_chunk(chunk_text: str, section_pages: list[int]) -> list[int]:
-    # page mapping is approximate because chunking happens after pages are merged into sections.
-    # better than losing provenance entirely.
-    return section_pages[:]
+    return True
 
+def _split_large_doc(doc: Document, max_chars: int = 1200, overlap: int = 150) -> list[Document]:
+    text = (doc.page_content or "").strip()
+    if len(text) <= max_chars:
+        return [doc]
 
-def _chunk_section_text(
-    text: str,
-    heading: str | None,
-    pages: list[int],
-    *,
-    target_chars: int = 1400,
-    max_chars: int = 1800,
-    overlap_chars: int = 220,
-) -> list[dict]:
-    paragraphs = _split_into_paragraphs(text)
-    if not paragraphs:
-        return []
+    out: list[Document] = []
+    start = 0
 
-    chunks: list[dict] = []
-    current_parts: list[str] = []
-    current_len = 0
+    while start < len(text):
+        end = min(len(text), start + max_chars)
+        chunk_text = text[start:end].strip()
 
-    def flush() -> None:
-        nonlocal current_parts, current_len
-        if not current_parts:
-            return
+        meta = dict(doc.metadata)
+        meta["subchunk_start"] = start
+        meta["subchunk_end"] = end
 
-        body = "\n\n".join(current_parts).strip()
-        if heading and not body.lower().startswith(heading.lower()):
-            full_text = f"{heading}\n\n{body}"
-        else:
-            full_text = body
+        out.append(Document(page_content=chunk_text, metadata=meta))
 
-        chunks.append(
-            {
-                "text": full_text,
-                "heading": heading,
-                "pages": _estimate_pages_for_chunk(full_text, pages),
-            }
-        )
-        current_parts = []
-        current_len = 0
+        if end >= len(text):
+            break
 
-    for para in paragraphs:
-        para_len = len(para)
+        start = max(0, end - overlap)
 
-        # single oversized paragraph -> split with overlap
-        if para_len > max_chars:
-            flush()
-            start = 0
-            while start < para_len:
-                end = min(start + max_chars, para_len)
-                piece = para[start:end].strip()
+    return out
 
-                if heading:
-                    piece_text = f"{heading}\n\n{piece}"
-                else:
-                    piece_text = piece
-
-                chunks.append(
-                    {
-                        "text": piece_text,
-                        "heading": heading,
-                        "pages": _estimate_pages_for_chunk(piece_text, pages),
-                    }
-                )
-
-                if end >= para_len:
-                    break
-                start = max(0, end - overlap_chars)
-            continue
-
-        projected = current_len + (2 if current_parts else 0) + para_len
-
-        if current_parts and projected > target_chars:
-            flush()
-
-        current_parts.append(para)
-        current_len += (2 if current_len else 0) + para_len
-
-    flush()
-
-    # add lightweight overlap from previous chunk tail
-    if overlap_chars > 0 and len(chunks) > 1:
-        overlapped: list[dict] = []
-        prev_body = ""
-
-        for i, ch in enumerate(chunks):
-            text = ch["text"]
-            if i == 0:
-                overlapped.append(ch)
-            else:
-                tail = prev_body[-overlap_chars:].strip()
-                merged = f"{tail}\n\n{text}" if tail else text
-                new_chunk = dict(ch)
-                new_chunk["text"] = merged
-                overlapped.append(new_chunk)
-
-            prev_body = text
-
-        chunks = overlapped
-
-    return chunks
-
-
-def _base_metadata(header_meta: dict, file_path: Path) -> dict:
-    return {
-        "doc_key": header_meta.get("doc_key"),
-        "program_key": header_meta.get("program_key"),
-        "source_url": header_meta.get("source_url"),
-        "local_path": header_meta.get("local_path"),
-        "sha256": header_meta.get("sha256"),
-        "title": header_meta.get("title"),
-        "faculty": header_meta.get("faculty"),
-        "degree_level": header_meta.get("degree_level"),
-        "total_ects": header_meta.get("total_ects"),
-        "program_name": header_meta.get("program_name"),
-        "doc_label": header_meta.get("doc_label"),
-        "source_type": header_meta.get("source_type"),
-        "source_file": file_path.name,
-        "parser": header_meta.get("parser", "docling"),
-        "index_variant": "docling_semantic",
-    }
-
-
-def _load_documents_from_fulltext(parsed_dir: Path) -> list[Document]:
+def _load_documents_from_jsonl(chunks_dir: Path) -> list[Document]:
     docs: list[Document] = []
     seen_ids: set[str] = set()
 
-    for file_path in _iter_txt_files(parsed_dir):
-        raw = file_path.read_text(encoding="utf-8", errors="ignore")
-        header_meta, body = _extract_metadata_and_body(raw)
-
-        pages = _split_pages(body)
-        if not pages:
-            continue
-
-        sections = _collect_sections(pages)
-        base_meta = _base_metadata(header_meta, file_path)
-        doc_key = header_meta.get("doc_key", file_path.stem)
-
-        previous_chunk_id: str | None = None
-        section_counter = 0
-        chunk_counter = 0
-
-        for section in sections:
-            section_counter += 1
-            section_id = f"{doc_key}::section::{section_counter}"
-            section_heading = section.get("heading")
-            section_text = section.get("text", "")
-            section_pages = section.get("pages", [])
-
-            section_chunks = _chunk_section_text(
-                section_text,
-                section_heading,
-                section_pages,
-                target_chars=1400,
-                max_chars=1800,
-                overlap_chars=220,
-            )
-
-            for local_idx, chunk in enumerate(section_chunks, start=1):
-                chunk_counter += 1
-                chunk_id = f"{section_id}::chunk::{local_idx}"
-
-                if chunk_id in seen_ids:
+    for file_path in _iter_chunk_files(chunks_dir):
+        with file_path.open("r", encoding="utf-8") as f:
+            for line_no, line in enumerate(f, start=1):
+                line = line.strip()
+                if not line:
                     continue
-                seen_ids.add(chunk_id)
+
+                try:
+                    obj = json.loads(line)
+                except json.JSONDecodeError as e:
+                    print(f"[warn] invalid json in {file_path.name}:{line_no}: {e}")
+                    continue
+
+                if not _is_useful_chunk(obj):
+                    continue
+
+                chunk_id = str(obj.get("chunk_id") or "")
+                if chunk_id and chunk_id in seen_ids:
+                    continue
+                if chunk_id:
+                    seen_ids.add(chunk_id)
+
+                text = _truncate_text(_normalize_text(obj["text"]), max_chars=4000)
 
                 metadata = {
-                    **base_meta,
-                    "chunk_id": chunk_id,
-                    "chunk_type": "semantic_section",
-                    "section_id": section_id,
-                    "section": section_heading,
-                    "subsection": None,
-                    "page_start": min(chunk["pages"]) if chunk["pages"] else None,
-                    "page_end": max(chunk["pages"]) if chunk["pages"] else None,
-                    "pages": chunk["pages"],
-                    "prev_chunk_id": previous_chunk_id,
-                    "next_chunk_id": None,
+                    "chunk_id": obj.get("chunk_id"),
+                    "doc_key": obj.get("doc_key"),
+                    "program_key": obj.get("program_key"),
+                    "source_url": obj.get("source_url"),
+                    "local_path": obj.get("local_path"),
+                    "sha256": obj.get("sha256"),
+                    "title": obj.get("title"),
+                    "faculty": obj.get("faculty"),
+                    "degree_level": obj.get("degree_level"),
+                    "total_ects": obj.get("total_ects"),
+                    "program_name": obj.get("program_name"),
+                    "doc_label": obj.get("doc_label"),
+                    "source_type": obj.get("source_type"),
+                    "page": obj.get("page"),
+                    "chunk_type": obj.get("chunk_type"),
+                    "section": obj.get("section"),
+                    "subsection": obj.get("subsection"),
+                    "prev_chunk_id": obj.get("prev_chunk_id"),
+                    "next_chunk_id": obj.get("next_chunk_id"),
+                    "parent_section_id": obj.get("parent_section_id"),
+                    "source_file": file_path.name,
                 }
 
-                doc = Document(page_content=chunk["text"], metadata=metadata)
-                docs.append(doc)
-
-                if previous_chunk_id is not None:
-                    docs[-2].metadata["next_chunk_id"] = chunk_id
-
-                previous_chunk_id = chunk_id
+                base_doc = Document(
+                    page_content=text,
+                    metadata=metadata,
+                )
+                docs.extend(_split_large_doc(base_doc))
+                
 
     return docs
 
+def _truncate_text(text: str, max_chars: int = 4000) -> str:
+    text = " ".join((text or "").split()).strip()
+    return text[:max_chars]
 
 def _build_faiss_index(documents: list[Document], index_dir: Path, batch_size: int = 128) -> FAISS:
     if not documents:
@@ -426,8 +166,8 @@ def _build_faiss_index(documents: list[Document], index_dir: Path, batch_size: i
     )
 
     db: FAISS | None = None
-    total = len(documents)
 
+    total = len(documents)
     for start in range(0, total, batch_size):
         end = min(start + batch_size, total)
         batch = documents[start:end]
@@ -443,9 +183,9 @@ def _build_faiss_index(documents: list[Document], index_dir: Path, batch_size: i
     return db
 
 
-def build_index_for(target: str, parser: str = "docling", force_rebuild: bool = False) -> FAISS:
-    parsed_dir = _parsed_dir_for(target, parser)
-    index_dir = _index_dir_for(target, parser)
+def build_index_for(target: str, parser: str = "default", force_rebuild: bool = False) -> FAISS:
+    chunks_dir = _chunk_dir_for(target)
+    index_dir = _index_dir_for(target)
 
     if index_dir.exists() and not force_rebuild:
         print(f"[info] index already exists: {index_dir}")
@@ -460,9 +200,10 @@ def build_index_for(target: str, parser: str = "docling", force_rebuild: bool = 
             allow_dangerous_deserialization=True,
         )
 
-    documents = _load_documents_from_fulltext(parsed_dir)
-    print(f"[info] loaded {len(documents)} semantic chunks from {parsed_dir}")
+    documents = _load_documents_from_jsonl(chunks_dir)
+    print(f"[info] loaded {len(documents)} chunks from {chunks_dir}")
 
+    # Small debug stats
     type_counts: dict[str, int] = {}
     for d in documents:
         t = str(d.metadata.get("chunk_type"))
@@ -477,18 +218,12 @@ def build_index_for(target: str, parser: str = "docling", force_rebuild: bool = 
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build semantic FAISS indexes from Docling fulltext TXT files.")
+    parser = argparse.ArgumentParser(description="Build FAISS indexes from parsed JSONL chunks.")
     parser.add_argument(
         "--target",
         choices=["all", "studyplans", "regulations", "reglementations"],
         default="all",
         help="Which index to build.",
-    )
-    parser.add_argument(
-        "--parser",
-        choices=["docling"],
-        default="docling",
-        help="Parser type.",
     )
     parser.add_argument(
         "--force",
@@ -504,9 +239,9 @@ def main() -> None:
         targets.append("regulations")
 
     for target in targets:
-        print(f"\n=== Building {target} semantic index ({args.parser}) ===")
-        db = build_index_for(target, parser=args.parser, force_rebuild=args.force)
-        print(f"[done] {target} -> {_index_dir_for(target, args.parser)} ({len(db.index_to_docstore_id)} vectors)")
+        print(f"\n=== Building {target} index ===")
+        db = build_index_for(target, force_rebuild=args.force)
+        print(f"[done] {target} -> {_index_dir_for(target)} ({len(db.index_to_docstore_id)} vectors)")
 
 
 if __name__ == "__main__":

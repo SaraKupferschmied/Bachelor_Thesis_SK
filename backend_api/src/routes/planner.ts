@@ -289,7 +289,7 @@ export async function plannerRoutes(app: FastifyInstance) {
         ORDER BY display_name ASC NULLS LAST, p.degree_level, p.total_ects, p.program_id
         LIMIT COALESCE($3::int, 200)
         `,
-        [degree_level ?? null, q ?? null, toInt(limit) ?? 200]
+        [degree_level ?? null, q ?? null, toInt(limit) ?? 500]
       );
     }
   );

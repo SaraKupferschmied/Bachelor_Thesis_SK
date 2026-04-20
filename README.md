@@ -63,7 +63,6 @@ start chatbot from folder
 docker compose --env-file .env.docker restart chatbot
 docker compose --env-file .env.docker logs -f chatbot
 
-
 npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
 
 npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py

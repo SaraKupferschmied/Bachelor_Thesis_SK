@@ -40,16 +40,25 @@ def answer_question(
     db_regl=None,
     language: str | None = None,
     session_state: Dict[str, Any] | None = None,
+    run_mode: str | None = None,
 ) -> Dict[str, Any]:
     session_state = session_state or {}
     final_answer = ""
 
-    try:
-        plan = plan_tool_usage(question, session_state=session_state)
+    if run_mode and run_mode != "auto":
+        plan = {
+            "mode": run_mode,
+            "tool_calls": [],
+            "reason": f"Forced mode: {run_mode}",
+        }
         planning_errors = None
-    except Exception as e:
-        plan = {"mode": "rag", "tool_calls": [], "reason": "Planner fallback"}
-        planning_errors = str(e)
+    else:
+        try:
+            plan = plan_tool_usage(question, session_state=session_state)
+            planning_errors = None
+        except Exception as e:
+            plan = {"mode": "rag", "tool_calls": [], "reason": "Planner fallback"}
+            planning_errors = str(e)
 
     mode = plan.get("mode", "rag")
     tool_results: List[Dict[str, Any]] = []
@@ -87,10 +96,23 @@ def answer_question(
                 answer_parts.append(f"{tool_name} failed: {e}")
 
     if mode in ("rag", "hybrid"):
-        db = db_regl
         q = question.lower()
-        study_keywords = ["course", "ects", "program", "study plan", "module", "semester"]
+
+        study_keywords = [
+            "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
+            "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
+            "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
+        ]
+
+        regl_keywords = [
+            "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
+        ]
+
         if any(k in q for k in study_keywords):
+            db = db_study or db_regl
+        elif any(k in q for k in regl_keywords):
+            db = db_regl or db_study
+        else:
             db = db_study or db_regl
 
         if db is not None:

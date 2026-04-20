@@ -1,104 +1,148 @@
 from typing import Any
 
 from fastapi import FastAPI
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
-from .schemas import AskRequest, AskResponse
-from .orchestrator import answer_question
 from .config import settings
+from .orchestrator import answer_question
+from .schemas import AskRequest, AskResponse
 from .session_state import empty_session_state
-from .build_faiss import build_index_for
+
+if settings.rag_parser == "docling":
+    from .build_faiss_docling import build_index_for
+else:
+    from .build_faiss import build_index_for
+
 
 app = FastAPI(title="Regulations & Studyplan Chatbot (Ollama RAG)")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4201"],
+    allow_origins=["http://localhost:4200", "http://localhost:4201"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-DB_STUDY = None
-DB_REGL = None
 SESSION_STORE: dict[str, Any] = {}
 
-def choose_db(question: str):
+db_study = None
+db_regl = None
+
+
+def choose_db(question: str, db_study, db_regl):
     q = question.lower()
+
     study_keywords = [
-        "studienplan", "study plan", "module", "modul", "kurs", "course",
-        "ects", "pflicht", "mandatory", "bachelor", "master", "semester",
-        "wirtschaftsinformatik", "business informatics",
+        "studienplan",
+        "study plan",
+        "module",
+        "modul",
+        "kurs",
+        "course",
+        "ects",
+        "pflicht",
+        "mandatory",
+        "bachelor",
+        "master",
+        "semester",
+        "wirtschaftsinformatik",
+        "business informatics",
+        "program",
+        "curriculum",
     ]
+
+    regl_keywords = [
+        "reglement",
+        "regulation",
+        "regulations",
+        "ordnung",
+        "article",
+        "artikel",
+        "paragraph",
+        "§",
+    ]
+
     if any(k in q for k in study_keywords):
-        return DB_STUDY
-    return DB_REGL
+        return db_study or db_regl
+
+    if any(k in q for k in regl_keywords):
+        return db_regl or db_study
+
+    return db_study or db_regl
 
 
 @app.on_event("startup")
 def startup():
-    global DB_STUDY, DB_REGL
-
-    DB_STUDY = None
-    DB_REGL = None
-
-    try:
-        DB_STUDY = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=False)
-        print("[startup] studyplans loaded")
-    except Exception as e:
-        print("[startup] studyplans failed:", repr(e))
-
-    try:
-        DB_REGL = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=False)
-        print("[startup] reglementations loaded")
-    except Exception as e:
-        print("[startup] reglementations failed:", repr(e))
+    global db_study, db_regl
 
     print("🚀 Chatbot API started")
-    print("📄 Swagger UI: http://localhost:8001/docs")
+    print("📄 Swagger UI: http://localhost:8000/docs")
+    print(f"[startup] active parser: {settings.rag_parser}")
+
+    try:
+        db_study = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=False)
+        print("[startup] loaded studyplans index")
+    except Exception as e:
+        db_study = None
+        print(f"[startup] failed to load studyplans index: {e!r}")
+
+    try:
+        db_regl = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=False)
+        print("[startup] loaded reglementations index")
+    except Exception as e:
+        db_regl = None
+        print(f"[startup] failed to load reglementations index: {e!r}")
+
 
 @app.get("/health")
 def health():
-    return {"study_loaded": DB_STUDY is not None, "regl_loaded": DB_REGL is not None}
-
-
-@app.post("/rebuild/reglementations")
-def rebuild_reglementations():
-    global DB_REGL
-
-    DB_REGL = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=False)
-
-    return {"status": "reglementations rebuilt"}
+    return {
+        "parser": settings.rag_parser,
+        "study_loaded": db_study is not None,
+        "regl_loaded": db_regl is not None,
+    }
 
 
 @app.post("/rebuild/studyplans")
 def rebuild_studyplans():
-    global DB_STUDY
+    global db_study
+    db_study = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=True)
+    return {
+        "status": "studyplans rebuilt",
+        "parser": settings.rag_parser,
+    }
 
-    DB_STUDY = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=False)
 
-    return {"status": "studyplans rebuilt"}
+@app.post("/rebuild/reglementations")
+def rebuild_reglementations():
+    global db_regl
+    db_regl = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=True)
+    return {
+        "status": "reglementations rebuilt",
+        "parser": settings.rag_parser,
+    }
 
 
 @app.post("/rebuild")
 def rebuild():
-    global DB_STUDY, DB_REGL
+    global db_study, db_regl
 
-    result = {}
+    result = {"parser": settings.rag_parser}
 
     try:
-        DB_STUDY = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=False)
+        db_study = build_index_for("studyplans", parser=settings.rag_parser, force_rebuild=True)
         result["studyplans"] = "rebuilt"
     except Exception as e:
-        DB_STUDY = None
+        db_study = None
         result["studyplans"] = f"failed: {e}"
 
     try:
-        DB_REGL = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=False)
+        db_regl = build_index_for("reglementations", parser=settings.rag_parser, force_rebuild=True)
         result["reglementations"] = "rebuilt"
     except Exception as e:
-        DB_REGL = None
+        db_regl = None
         result["reglementations"] = f"failed: {e}"
 
     return result
@@ -107,13 +151,19 @@ def rebuild():
 @app.post("/ask", response_model=AskResponse)
 def ask(payload: AskRequest) -> AskResponse:
     session_id = payload.session_id or "default"
-
     session_state = SESSION_STORE.get(session_id, empty_session_state())
+
+    use_study = db_study
+    use_regl = db_regl
+
+    if payload.run_mode == "tool":
+        use_study = None
+        use_regl = None
 
     result = answer_question(
         question=payload.question,
-        db_study=DB_STUDY,
-        db_regl=DB_REGL,
+        db_study=use_study,
+        db_regl=use_regl,
         language=payload.language,
         session_state=session_state,
         run_mode=payload.run_mode,
@@ -126,11 +176,21 @@ def ask(payload: AskRequest) -> AskResponse:
 
 @app.post("/debug/retrieve")
 def debug_retrieve(payload: AskRequest):
-    db = choose_db(payload.question)
+    db = choose_db(payload.question, db_study, db_regl)
+
     if db is None:
-        return JSONResponse(status_code=400, content={"error": "Indexes not loaded. Call POST /rebuild."})
+        return JSONResponse(
+            status_code=400,
+            content={
+                "error": (
+                    f"Indexes not loaded for parser '{settings.rag_parser}'. "
+                    "Call POST /rebuild."
+                )
+            },
+        )
 
     docs = db.as_retriever(search_kwargs={"k": 10}).invoke(payload.question)
+
     return [
         {
             "source": d.metadata.get("source"),
