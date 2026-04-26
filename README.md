@@ -14,6 +14,7 @@ Start Docker and initiate the schema
 Run the Spiders to create json data
 1. cd scrapy_crawler\scrapy_crawler
 2. scrapy crawl curricula_links_level2_ects -O spider_outputs\program_links_with_ects.json
+2.1 scrapy crawl curricula_links_level2_enriched -O programmes_with_curricula_enriched.json
 3. scrapy crawl download_links_level3 -O spider_outputs\download_links.json -a input_json_path=spider_outputs\program_links_with_ects.json
 4. scrapy crawl faculty_links -O spider_outputs\faculties.json
 5. scrapy crawl unifr_edu_studyplans -O spider_outputs\faculty_programs\edu.json
@@ -42,11 +43,12 @@ Download and parse
 5. npx ts-node DB_service/src/import/parse_reglementation_docs_full.ts --root scrapy_crawler/outputs/reglementation_docs
 
 
-Do the imports (from   DB_service)
+Do the imports (from root)
 1. npx ts-node DB_sercive/src/import/run_faculty_import.ts
 2. npx ts-node DB_service/src/import/run_courses_import.ts
 3. npx ts-node DB_service/src/import/update_professors_from_people.ts
 4. npx ts-node DB_service/src/import/program_name_imports.ts
+4.1 npx ts-node DB_service/src/import/program_basedata_imports.ts
 5. npx ts-node DB_service/src/import/new_program_import.ts
 6. npx ts-node DB_service/src/import/import_consist_of.ts
 7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
@@ -65,11 +67,20 @@ docker compose --env-file .env.docker logs -f chatbot
 
 npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
 
-npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
-
 python -m app.build_faiss_docling --target studyplans --parser docling --force
 python -m app.build_faiss_docling --target regulations --parser docling --force
 
 when already some exist: npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py --append-index
 
 npx tsx DB_service\src\import\validate_docling_metadata.ts --dir "C:\Users\Sara\OneDrive\Uni\Bachelor thesis\BA_Thesis_Dev\scrapy_crawler\outputs\parsed_fulltext_docling" --verbose
+
+
+python scrapy_crawler\outputs\infer_metadata_staging.py scrapy_crawler\outputs\parsed_fulltext_docling\_index.jsonl --input-dir scrapy_crawler\outputs\parsed_fulltext_docling --staging-dir scrapy_crawler\outputs\metadata_staging
+
+npx tsx DB_service\src\import\parse_docs_full_docling_new.ts --root scrapy_crawler/outputs --manifest scrapy_crawler/outputs/_program_docs_manifest.json --parsed-dir scrapy_crawler/outputs/parsed_fulltext_docling_new --docling-helper DB_service\src\import\parse_with_docling_robust.py --python python
+
+python propose_program_metadata_corrections_manifest_scoped.py .
+
+python scrapy_crawler\outputs\apply_program_metadata_to_parsed_files.py scrapy_crawler\outputs scrapy_crawler\outputs\program_metadata_correction_proposal.json
+
+docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
