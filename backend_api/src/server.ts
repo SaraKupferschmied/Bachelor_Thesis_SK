@@ -11,6 +11,7 @@ import { coursesRoutes } from "./routes/courses.js";
 import { offeringsRoutes } from "./routes/offerings.js";
 import { docsRoutes } from "./routes/docs.js";
 import { plannerRoutes } from "./routes/planner.js";
+import { studyProgramPlannerRoutes } from "./routes/studyProgramPlanner.js";
 import { pool } from "./db.js";
 
 async function main() {
@@ -42,6 +43,7 @@ async function main() {
   app.register(offeringsRoutes, { prefix: "/offerings" });
   app.register(docsRoutes, { prefix: "/docs-api" }); // avoid conflict with swagger /docs
   app.register(plannerRoutes, { prefix: "/planner" });
+  app.register(studyProgramPlannerRoutes, { prefix: "/planner" });
 
   const port = Number(process.env.PORT ?? 3000);
   await app.listen({ port, host: "0.0.0.0" });

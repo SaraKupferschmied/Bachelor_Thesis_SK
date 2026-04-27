@@ -132,6 +132,59 @@
       </section>
     }
 
+
+    @if (isStudyProgramDialogOpen) {
+      <div class="study-program-dialog-backdrop" (click)="closeStudyProgramDialog()" aria-hidden="true"></div>
+
+      <section class="study-program-dialog" role="dialog" aria-modal="true" aria-labelledby="study-program-dialog-title">
+        <button
+          type="button"
+          class="study-program-dialog__close"
+          (click)="closeStudyProgramDialog()"
+          aria-label="Close study program planner dialog">
+          ×
+        </button>
+
+        <h2 id="study-program-dialog-title">Plan complete study program</h2>
+        <p>
+          Tell me your study program and target duration. The chatbot will use the backend planner and catalogue/RAG data to create the first draft.
+        </p>
+
+        <form class="study-program-form" (ngSubmit)="submitStudyProgramDialog()">
+          <label>
+            <span>Study program</span>
+            <input
+              type="text"
+              name="studyProgram"
+              [(ngModel)]="studyProgramForm.studyProgram"
+              placeholder="e.g. Bachelor Business Informatics"
+              autocomplete="off"
+              required>
+          </label>
+
+          <label>
+            <span>Target duration in semesters</span>
+            <input
+              type="number"
+              name="semesters"
+              [(ngModel)]="studyProgramForm.semesters"
+              min="1"
+              max="20"
+              required>
+          </label>
+
+          <div class="study-program-dialog__actions">
+            <button type="button" class="secondary-action" (click)="closeStudyProgramDialog()">
+              Cancel
+            </button>
+            <button type="submit" class="primary-action" [disabled]="isloading">
+              Create study plan
+            </button>
+          </div>
+        </form>
+      </section>
+    }
+
     <footer class="composer">
       <app-chat-input (sendMessage)="onSendMessage($event)"></app-chat-input>
       <p class="disclaimer"> Disclaimer: This is a chatbot application. It may produce incorrect results, check the information and use your own brain. </p>

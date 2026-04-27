@@ -1,6 +1,7 @@
 import { Component, inject, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { finalize } from 'rxjs';
+import { FormsModule } from '@angular/forms';
+import { finalize, switchMap } from 'rxjs';
 import { PlansSidebarComponent } from '../../components/plans-sidebar/plans-sidebar';
 import { OptionCardComponent } from '../../components/option-card/option-card';
 import { ChatInputComponent } from '../../components/chat-input/chat-input';
@@ -16,11 +17,19 @@ type ChatMessage = {
   usedTools?: string[];
 };
 
+type StudyProgramPlannerForm = {
+  studyProgram: string;
+  semesters: number | null;
+};
+
+const PLAN_STUDY_PROGRAM_HERO_MESSAGE = '__hero__:plan_study_program';
+
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
+    FormsModule,
     PlansSidebarComponent,
     OptionCardComponent,
     ChatInputComponent
@@ -44,6 +53,11 @@ export class HomeComponent {
   isloading = false;
   errorMessage = '';
   isSidebarOpen = false;
+  isStudyProgramDialogOpen = false;
+  studyProgramForm: StudyProgramPlannerForm = {
+    studyProgram: '',
+    semesters: 6
+  };
 
   constructor(
     private chatService: ChatService,
@@ -142,6 +156,91 @@ export class HomeComponent {
       });
   }
 
+
+  openStudyProgramDialog(): void {
+    this.errorMessage = '';
+    this.closeSidebar();
+    this.isStudyProgramDialogOpen = true;
+  }
+
+  closeStudyProgramDialog(): void {
+    if (this.isloading) {
+      return;
+    }
+
+    this.isStudyProgramDialogOpen = false;
+  }
+
+  submitStudyProgramDialog(): void {
+    const studyProgram = this.studyProgramForm.studyProgram.trim();
+    const semesters = Number(this.studyProgramForm.semesters);
+
+    if (!studyProgram || !Number.isInteger(semesters) || semesters < 1) {
+      this.errorMessage = 'Please enter a study program and a valid number of semesters.';
+      return;
+    }
+
+    const language = this.currentLanguage();
+    const visibleUserMessage = this.buildStudyProgramPlannerUserMessage(studyProgram, semesters);
+    const detailsMessage = `${visibleUserMessage}\n\nStudy program: ${studyProgram}\nTarget duration: ${semesters} semesters`;
+
+    this.errorMessage = '';
+    this.isloading = true;
+    this.isStudyProgramDialogOpen = false;
+    this.closeSidebar();
+
+    this.messages.push({
+      role: 'user',
+      text: visibleUserMessage
+    });
+
+    this.chatService.ask(PLAN_STUDY_PROGRAM_HERO_MESSAGE, language)
+      .pipe(
+        switchMap(() => this.chatService.ask(detailsMessage, language)),
+        finalize(() => {
+          this.isloading = false;
+          this.cdr.detectChanges();
+        })
+      )
+      .subscribe({
+        next: (res: AskResponse) => {
+          this.messages.push({
+            role: 'assistant',
+            text: res.answer,
+            sources: res.sources,
+            usedTools: res.used_tools
+          });
+
+          this.cdr.detectChanges();
+        },
+        error: (err) => {
+          console.error('[Home] study program planner ERROR', err);
+
+          this.errorMessage = 'The study program planning request failed.';
+          this.messages.push({
+            role: 'assistant',
+            text: 'Sorry, I could not create the study program plan right now.'
+          });
+
+          this.cdr.detectChanges();
+        }
+      });
+  }
+
+  private buildStudyProgramPlannerUserMessage(studyProgram: string, semesters: number): string {
+    const language = this.currentLanguage();
+
+    if (language === 'de') {
+      return `Erstelle bitte einen gesamten Studienplan für ${studyProgram} in ${semesters} Semestern.`;
+    }
+
+    if (language === 'fr') {
+      return `Crée un plan d’études complet pour ${studyProgram} en ${semesters} semestres.`;
+    }
+
+    return `Please create a complete study plan for ${studyProgram} in ${semesters} semesters.`;
+  }
+
   onHeroOptionClick(title: string): void {
     const normalizedTitle = title.toLowerCase();
 
@@ -154,6 +253,16 @@ export class HomeComponent {
       normalizedTitle.includes('plan semester')
     ) {
       this.onSendMessage('__hero__:plan_semester');
+      return;
+    }
+
+    if (
+      normalizedTitle.includes('gesamter studienplan') ||
+      normalizedTitle.includes('complete study plan') ||
+      normalizedTitle.includes('plan d’études complet') ||
+      normalizedTitle.includes('plan d’études complet')
+    ) {
+      this.openStudyProgramDialog();
       return;
     }
 

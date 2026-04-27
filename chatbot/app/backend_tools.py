@@ -258,6 +258,21 @@ def get_planner_courses(
         },
     )
 
+
+def get_study_program_plan(
+    program_id: int,
+    semesters: int,
+    locale: str = "en",
+) -> dict[str, Any]:
+    return _get(
+        "/planner/study-program-plan",
+        params={
+            "program_id": program_id,
+            "semesters": semesters,
+            "locale": locale,
+        },
+    )
+
 ToolFn = Callable[..., Any]
 
 TOOLS: dict[str, ToolFn] = {
@@ -272,6 +287,7 @@ TOOLS: dict[str, ToolFn] = {
     "get_planner_context": get_planner_context,
     "get_planner_programs": get_planner_programs,
     "get_planner_courses": get_planner_courses,
+    "get_study_program_plan": get_study_program_plan,
 }
 
 def execute_tool(tool_name: str, arguments: dict[str, Any]) -> Any:
