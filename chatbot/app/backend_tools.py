@@ -230,6 +230,33 @@ def get_planner_context(
     }
     return _post("/planner/context", body)
 
+def get_planner_programs(
+    q: str | None = None,
+    degree_level: str | None = None,
+    locale: str = "en",
+    limit: int = 20,
+) -> list[dict[str, Any]]:
+    params = {"locale": locale, "limit": limit}
+    if q:
+        params["q"] = q
+    if degree_level:
+        params["degree_level"] = degree_level
+    return _get("/planner/programs", params=params)
+
+
+def get_planner_courses(
+    sem_id: str,
+    program_ids: list[int],
+    locale: str = "en",
+) -> dict[str, Any]:
+    return _get(
+        "/planner/courses",
+        params={
+            "sem_id": sem_id,
+            "program_ids": ",".join(str(x) for x in program_ids),
+            "locale": locale,
+        },
+    )
 
 ToolFn = Callable[..., Any]
 
@@ -243,6 +270,8 @@ TOOLS: dict[str, ToolFn] = {
     "get_program_docs": get_program_docs,
     "get_offerings": get_offerings,
     "get_planner_context": get_planner_context,
+    "get_planner_programs": get_planner_programs,
+    "get_planner_courses": get_planner_courses,
 }
 
 def execute_tool(tool_name: str, arguments: dict[str, Any]) -> Any:

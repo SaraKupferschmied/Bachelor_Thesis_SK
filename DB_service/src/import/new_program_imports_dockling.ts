@@ -266,6 +266,21 @@ function normalizeNumber(n: any): number | null {
   return Number.isFinite(x) ? x : null;
 }
 
+function normalizeNumbers(value: any): number[] {
+  const rawValues = Array.isArray(value) ? value : [value];
+  const out: number[] = [];
+  const seen = new Set<number>();
+
+  for (const raw of rawValues) {
+    const n = normalizeNumber(raw);
+    if (n == null || seen.has(n)) continue;
+    seen.add(n);
+    out.push(n);
+  }
+
+  return out;
+}
+
 function mapDocType(labelOrTitle: string | null | undefined): DocType {
   const t = normalize(labelOrTitle);
   if (/study plan|studienplan|plan d['’]?études|plan d etudes/.test(t)) return "study_plan";
@@ -274,16 +289,26 @@ function mapDocType(labelOrTitle: string | null | undefined): DocType {
   return "other";
 }
 
-async function resolveProgramId(client: any, meta: any): Promise<number | null> {
+type ResolvedProgram = {
+  program_id: number;
+  total_ects: number | null;
+};
+
+async function resolveProgramIds(client: any, meta: any): Promise<ResolvedProgram[]> {
   const programName = meta.program_name ?? meta.programme_name_en ?? meta.programme ?? meta.name ?? null;
   const degree = normalizeDegree(meta.degree_level ?? meta.level);
-  const ects = normalizeNumber(meta.total_ects ?? meta.ects_points ?? meta.ects);
+  const ectsValues = normalizeNumbers(meta.total_ects ?? meta.ects_points ?? meta.ects);
 
-  if (!programName || !degree) return null;
+  if (!programName || !degree) return [];
 
-  if (ects != null) {
+  const out: ResolvedProgram[] = [];
+  const seen = new Set<number>();
+
+  // total_ects can be an array, e.g. [30, 60]. In that case the same
+  // parsed document belongs to multiple StudyProgram rows.
+  for (const ects of ectsValues) {
     const r = await client.query(
-      `SELECT program_id
+      `SELECT program_id, total_ects
        FROM StudyProgram
        WHERE lower(name) = lower($1)
          AND degree_level = $2
@@ -291,19 +316,40 @@ async function resolveProgramId(client: any, meta: any): Promise<number | null> 
        LIMIT 1;`,
       [programName, degree, ects]
     );
-    if (r.rows[0]?.program_id) return r.rows[0].program_id;
+
+    const row = r.rows[0];
+    if (!row?.program_id || seen.has(row.program_id)) continue;
+    seen.add(row.program_id);
+    out.push({
+      program_id: row.program_id,
+      total_ects: normalizeNumber(row.total_ects),
+    });
   }
 
-  const r = await client.query(
-    `SELECT program_id
-     FROM StudyProgram
-     WHERE lower(name) = lower($1)
-       AND degree_level = $2
-     ORDER BY program_id ASC
-     LIMIT 1;`,
-    [programName, degree]
-  );
-  return r.rows[0]?.program_id ?? null;
+  // Fallback for older metadata that does not contain ECTS. Do not use this
+  // fallback when ECTS were provided, otherwise a multi-ECTS document could
+  // silently be attached to only the first matching program.
+  if (out.length === 0) {
+    const r = await client.query(
+      `SELECT program_id, total_ects
+       FROM StudyProgram
+       WHERE lower(name) = lower($1)
+         AND degree_level = $2
+       ORDER BY program_id ASC
+       LIMIT 1;`,
+      [programName, degree]
+    );
+
+    const row = r.rows[0];
+    if (row?.program_id) {
+      out.push({
+        program_id: row.program_id,
+        total_ects: normalizeNumber(row.total_ects),
+      });
+    }
+  }
+
+  return out;
 }
 
 async function run() {
@@ -324,74 +370,78 @@ async function run() {
 
     for (const file of files) {
       const parsed = parseDocling(file);
-      const programId = await resolveProgramId(client, parsed.meta);
+      const programs = await resolveProgramIds(client, parsed.meta);
 
-      if (!programId) {
-        skipped.push({ file, reason: "Could not resolve StudyProgram from Docling metadata", meta: parsed.meta });
+      if (!programs.length) {
+        skipped.push({ file, reason: "Could not resolve any StudyProgram from Docling metadata", meta: parsed.meta });
         continue;
       }
 
       const docUrl = parsed.sourceUrl ?? `file://${path.basename(file)}`;
       const docLabel = parsed.meta.title ?? parsed.meta.label ?? path.basename(file);
       const docType = mapDocType(docLabel);
-
-      const docRes = await client.query(
-        `INSERT INTO programDocument (program_id, label, url, doc_type, fetched_at, parse_status, parse_notes)
-         VALUES ($1, $2, $3, $4, $5, $6, $7)
-         ON CONFLICT (program_id, url, doc_type)
-         DO UPDATE SET
-           label = EXCLUDED.label,
-           fetched_at = EXCLUDED.fetched_at,
-           parse_status = EXCLUDED.parse_status,
-           parse_notes = EXCLUDED.parse_notes
-         RETURNING doc_id;`,
-        [
-          programId,
-          stripNullBytes(docLabel),
-          docUrl,
-          docType,
-          parsed.meta.fetched_at ?? parsed.meta.parsed_at ?? null,
-          parsed.meta.parse_status ?? "ok",
-          parsed.meta.parse_notes ?? null,
-        ]
-      );
-
-      const docId = docRes.rows[0]?.doc_id;
-      if (!docId) continue;
-      docsUpserted++;
-
       const courses = extractCourses(parsed.pages);
-      const seen = new Set<string>();
 
-      for (const c of courses) {
-        const key = `${programId}|${docId}|${c.page_no}|${c.extracted_code}`;
-        if (seen.has(key)) continue;
-        seen.add(key);
+      for (const program of programs) {
+        const programId = program.program_id;
 
-        stagingAttempted++;
-        const res = await client.query(
-          `INSERT INTO programCourseStaging
-             (program_id, raw_text, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
-           VALUES
-             ($1, $2, $3, $4, $5, $6, $7, $8)
-           ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
+        const docRes = await client.query(
+          `INSERT INTO programDocument (program_id, label, url, doc_type, fetched_at, parse_status, parse_notes)
+           VALUES ($1, $2, $3, $4, $5, $6, $7)
+           ON CONFLICT (program_id, url, doc_type)
            DO UPDATE SET
-             raw_text = EXCLUDED.raw_text,
-             extracted_title = COALESCE(EXCLUDED.extracted_title, programCourseStaging.extracted_title),
-             inferred_type = COALESCE(EXCLUDED.inferred_type, programCourseStaging.inferred_type),
-             section = COALESCE(EXCLUDED.section, programCourseStaging.section);`,
+             label = EXCLUDED.label,
+             fetched_at = EXCLUDED.fetched_at,
+             parse_status = EXCLUDED.parse_status,
+             parse_notes = EXCLUDED.parse_notes
+           RETURNING doc_id;`,
           [
             programId,
-            stripNullBytes(c.raw_text),
-            c.extracted_code,
-            c.extracted_title ? stripNullBytes(c.extracted_title) : null,
-            c.inferred_type,
-            docId,
-            c.page_no,
-            c.section ? stripNullBytes(c.section) : null,
+            stripNullBytes(docLabel),
+            docUrl,
+            docType,
+            parsed.meta.fetched_at ?? parsed.meta.parsed_at ?? null,
+            parsed.meta.parse_status ?? "ok",
+            parsed.meta.parse_notes ?? null,
           ]
         );
-        stagingInserted += res.rowCount ?? 0;
+
+        const docId = docRes.rows[0]?.doc_id;
+        if (!docId) continue;
+        docsUpserted++;
+
+        const seen = new Set<string>();
+
+        for (const c of courses) {
+          const key = `${programId}|${docId}|${c.page_no}|${c.extracted_code}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+
+          stagingAttempted++;
+          const res = await client.query(
+            `INSERT INTO programCourseStaging
+               (program_id, raw_text, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
+             VALUES
+               ($1, $2, $3, $4, $5, $6, $7, $8)
+             ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
+             DO UPDATE SET
+               raw_text = EXCLUDED.raw_text,
+               extracted_title = COALESCE(EXCLUDED.extracted_title, programCourseStaging.extracted_title),
+               inferred_type = COALESCE(EXCLUDED.inferred_type, programCourseStaging.inferred_type),
+               section = COALESCE(EXCLUDED.section, programCourseStaging.section);`,
+            [
+              programId,
+              stripNullBytes(c.raw_text),
+              c.extracted_code,
+              c.extracted_title ? stripNullBytes(c.extracted_title) : null,
+              c.inferred_type,
+              docId,
+              c.page_no,
+              c.section ? stripNullBytes(c.section) : null,
+            ]
+          );
+          stagingInserted += res.rowCount ?? 0;
+        }
       }
     }
 

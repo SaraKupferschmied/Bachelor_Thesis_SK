@@ -30,14 +30,22 @@ class Settings(BaseModel):
     backend_api_base: str = os.getenv("BACKEND_API_BASE", "http://localhost:3000")
 
     @property
+    def is_docling_parser(self) -> bool:
+        return self.rag_parser in {
+            "docling",
+            "docling_table_semantic",
+            "docling_parent_child",
+        }
+
+    @property
     def studyplans_parsed(self) -> Path:
-        if self.rag_parser == "docling":
+        if self.is_docling_parser:
             return DOCLING_STUDYPLANS_PARSED
         return DEFAULT_STUDYPLANS_PARSED
 
     @property
     def reglementations_parsed(self) -> Path:
-        if self.rag_parser == "docling":
+        if self.is_docling_parser:
             return DOCLING_REGULATIONS_PARSED
         return DEFAULT_REGULATIONS_PARSED
 
@@ -45,13 +53,20 @@ class Settings(BaseModel):
     def studyplans_index(self) -> Path:
         if self.rag_parser == "docling":
             return self.vectorstore_dir / "faiss_studyplans_docling"
+        if self.rag_parser == "docling_table_semantic":
+            return self.vectorstore_dir / "faiss_studyplans_docling_table_semantic"
+        if self.rag_parser == "docling_parent_child":
+            return self.vectorstore_dir / "faiss_studyplans_docling_parent_child"
         return self.vectorstore_dir / "faiss_studyplans_default"
 
     @property
     def reglementations_index(self) -> Path:
         if self.rag_parser == "docling":
             return self.vectorstore_dir / "faiss_reglementations_docling"
+        if self.rag_parser == "docling_table_semantic":
+            return self.vectorstore_dir / "faiss_reglementations_docling_table_semantic"
+        if self.rag_parser == "docling_parent_child":
+            return self.vectorstore_dir / "faiss_reglementations_docling_parent_child"
         return self.vectorstore_dir / "faiss_reglementations_default"
-
 
 settings = Settings()

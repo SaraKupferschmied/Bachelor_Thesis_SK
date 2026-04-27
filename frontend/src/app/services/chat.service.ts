@@ -23,26 +23,49 @@ export interface AskResponse {
 })
 export class ChatService {
   private readonly baseUrl: string;
+  private readonly isBrowser: boolean;
 
   constructor(
     private http: HttpClient,
     @Inject(PLATFORM_ID) platformId: object
   ) {
-    this.baseUrl = isPlatformBrowser(platformId)
+    this.isBrowser = isPlatformBrowser(platformId);
+
+    this.baseUrl = this.isBrowser
       ? 'http://localhost:8000'
       : 'http://chatbot:8000';
 
     console.log('[ChatService] baseUrl =', this.baseUrl);
   }
 
-  ask(question: string, language: LanguageCode): Observable<AskResponse> {
-    console.log('[ChatService] sending request', { question, language });
+  private getSessionId(): string {
+    if (!this.isBrowser) {
+      return 'server-session';
+    }
 
-    return this.http.post<AskResponse>(`${this.baseUrl}/ask`, { question, language }).pipe(
-      tap({
-        next: (res) => console.log('[ChatService] response received', res),
-        error: (err) => console.error('[ChatService] response error', err),
-      })
-    );
+    let sessionId = sessionStorage.getItem('session_id');
+
+    if (!sessionId) {
+      sessionId = crypto.randomUUID();
+      sessionStorage.setItem('session_id', sessionId);
+    }
+
+    return sessionId;
+  }
+
+  ask(question: string, language: LanguageCode): Observable<AskResponse> {
+    const sessionId = this.getSessionId();
+
+    console.log('[ChatService] sending request', {
+      question,
+      language,
+      session_id: sessionId
+    });
+
+    return this.http.post<AskResponse>(`${this.baseUrl}/ask`, {
+      question,
+      language,
+      session_id: sessionId
+    });
   }
 }

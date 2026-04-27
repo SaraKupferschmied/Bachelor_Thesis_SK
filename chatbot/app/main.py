@@ -11,9 +11,12 @@ from .session_state import empty_session_state
 
 if settings.rag_parser == "docling":
     from .build_faiss_docling import build_index_for
+elif settings.rag_parser == "docling_table_semantic":
+    from .build_faiss_docling_table_semantic import build_index_for
+elif settings.rag_parser == "docling_parent_child":
+    from .build_faiss_docling_parent_child import build_index_for
 else:
     from .build_faiss import build_index_for
-
 
 app = FastAPI(title="Regulations & Studyplan Chatbot (Ollama RAG)")
 

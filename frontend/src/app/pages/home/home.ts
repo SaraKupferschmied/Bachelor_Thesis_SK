@@ -141,4 +141,23 @@ export class HomeComponent {
         }
       });
   }
+
+  onHeroOptionClick(title: string): void {
+    const normalizedTitle = title.toLowerCase();
+
+    if (
+      normalizedTitle.includes('semesterplan') ||
+      normalizedTitle.includes('semester planen') ||
+      normalizedTitle.includes('semester plan') ||
+      normalizedTitle.includes('create semester plan') ||
+      normalizedTitle.includes('upcoming semester') ||
+      normalizedTitle.includes('plan semester')
+    ) {
+      this.onSendMessage('__hero__:plan_semester');
+      return;
+    }
+
+    this.onSendMessage(title);
+  }
+
 }

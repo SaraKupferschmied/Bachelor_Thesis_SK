@@ -31,12 +31,12 @@ services:
 
   db_init:
     image: node:20
-    container_name: ba_thesis_api_dev
+    container_name: ba_thesis_db_init_dev
     working_dir: /app
     volumes:
       - ./DB_service:/app
     #security fallback in case node_modules dont work
-    command: sh -lc "npm ci && npm run schema"
+    command: sh -lc "npm ci && npm run schema:once"
     environment:
       POSTGRES_HOST: db
       POSTGRES_PORT: 5432

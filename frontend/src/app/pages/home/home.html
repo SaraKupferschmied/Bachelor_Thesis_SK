@@ -74,7 +74,8 @@
               [icon]="option.icon"
               [title]="option.title"
               [description]="option.description"
-              [borderColor]="option.borderColor">
+              [borderColor]="option.borderColor"
+              (click)="onHeroOptionClick(option.title)">
             </app-option-card>
           }
         </div>

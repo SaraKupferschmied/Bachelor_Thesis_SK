@@ -268,7 +268,7 @@ async function run() {
           program_id,
           code,
           course_type,
-          description: null as string | null,
+          description: r.section ? stripNullBytes(String(r.section)).trim() || null : null,
           course_name: r.course_name ?? null,
         };
       })

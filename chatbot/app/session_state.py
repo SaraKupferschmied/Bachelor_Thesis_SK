@@ -6,6 +6,7 @@ def empty_session_state() -> dict[str, Any]:
         "last_course_code": None,
         "last_course_name": None,
         "last_program_id": None,
+        "hero_flow": None,
     }
 
 
