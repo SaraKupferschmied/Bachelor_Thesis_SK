@@ -79,6 +79,33 @@ def _extract_total_ects(text: str) -> int | None:
         return None
     return int(match.group(1))
 
+def _extract_semester_id(text: str) -> str | None:
+    ids = _extract_semester_ids(text)
+    return ids[0] if ids else None
+
+def _extract_semester_ids(text: str) -> list[str]:
+    matches = re.findall(r"\b(FS|HS|SS|AS)[-\s]?(\d{4})\b", text, re.IGNORECASE)
+    result = []
+
+    for prefix, year in matches:
+        prefix = prefix.upper()
+        if prefix == "SS":
+            prefix = "FS"
+        if prefix == "AS":
+            prefix = "HS"
+
+        sem = f"{prefix}-{year}"
+        if sem not in result:
+            result.append(sem)
+
+    return result[:2]
+
+
+def _strip_semesters(text: str) -> str:
+    text = re.sub(r"\b(FS|HS|SS|AS)[-\s]?\d{4}\b", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip(" ,.-:")
+
 
 def is_plan_study_program_hero(question: str) -> bool:
     q = question.lower().strip()
@@ -88,6 +115,8 @@ def is_plan_study_program_hero(question: str) -> bool:
         "__hero__:complete_study_plan",
     }
 
+def is_plan_mobility_hero(question: str) -> bool:
+    return question.strip().lower() == "__hero__:plan_mobility"
 
 def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
     session_state["hero_flow"] = {
@@ -318,6 +347,34 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
 
     return "\n".join(lines)
 
+def format_mobility_plan(result: Dict[str, Any]) -> str:
+    lines = [f"Here are mobility-enabled course candidates for **{result['interest']}**."]
+
+    for sem in result["semesters"]:
+        lines.append(f"\n## {sem}")
+        courses = result["courses_by_semester"].get(sem, [])
+
+        if not courses:
+            lines.append("- No matching mobility courses found.")
+            continue
+
+        for c in courses[:12]:
+            details = [c.get("code")]
+            if c.get("ects") is not None:
+                details.append(f"{c['ects']} ECTS")
+            if c.get("domain_name"):
+                details.append(c["domain_name"])
+
+            lines.append(
+                f"- **{c.get('name') or c.get('code')}** "
+                f"({', '.join(x for x in details if x)})"
+            )
+
+            if c.get("description"):
+                lines.append(f"  - Content: {str(c['description'])[:180]}...")
+
+    return "\n".join(lines)
+
 
 def answer_question(
     question: str,
@@ -337,6 +394,25 @@ def answer_question(
         return start_plan_study_program_flow(session_state)
 
     flow = session_state.get("hero_flow")
+
+    if is_plan_mobility_hero(question):
+        session_state["hero_flow"] = {
+            "name": "plan_mobility",
+            "semesters": [],
+            "interest": None,
+        }
+
+        return {
+            "answer": (
+                "Sure — which exchange semester(s) are you here for, "
+                "and what course direction are you interested in?"
+            ),
+            "sources": [],
+            "used_tools": [],
+            "session_state": session_state,
+            "plan": {"mode": "hero", "hero": "plan_mobility"},
+            "planning_errors": None,
+        }
 
     # ---------------------------------------------------------------------
     # Whole study-program planner flow
@@ -639,6 +715,47 @@ def answer_question(
             "plan": {"mode": "hero"},
             "planning_errors": None,
         }
+    
+    if flow and flow.get("name") == "plan_mobility":
+        semesters = _extract_semester_ids(question)
+        interest = _strip_semesters(question)
+
+        if not semesters:
+            return {
+                "answer": "Which semester(s)? Please use a format like FS-2026 or HS-2026.",
+                "sources": [],
+                "used_tools": [],
+                "session_state": session_state,
+                "plan": {"mode": "hero", "hero": "plan_mobility"},
+                "planning_errors": None,
+            }
+
+        if not interest:
+            return {
+                "answer": "What course direction are you interested in?",
+                "sources": [],
+                "used_tools": [],
+                "session_state": session_state,
+                "plan": {"mode": "hero", "hero": "plan_mobility"},
+                "planning_errors": None,
+            }
+
+        result = TOOLS["get_mobility_courses"](
+            semesters=semesters,
+            interest=interest,
+            language=language or None,
+        )
+
+        session_state["hero_flow"] = None
+
+        return {
+            "answer": format_mobility_plan(result),
+            "sources": [],
+            "used_tools": ["get_mobility_courses"],
+            "session_state": session_state,
+            "plan": {"mode": "hero", "hero": "plan_mobility"},
+            "planning_errors": None,
+        }
 
     # ---------------------------------------------------------------------
     # Normal tool/RAG behavior
@@ -667,6 +784,18 @@ def answer_question(
         for call in plan.get("tool_calls", []):
             tool_name = call.get("tool")
             args = call.get("args", {}) or {}
+
+            allowed_args_by_tool = {
+                "get_courses": {"name_contains", "code", "program_id", "locale"},
+                "get_planner_programs": {"q", "degree_level", "locale"},
+                "get_planner_courses": {"sem_id", "program_ids", "locale"},
+                "get_study_program_plan": {"program_id", "semesters", "locale", "total_ects"},
+                "get_mobility_courses": {"semesters", "interest", "language"},
+            }
+
+            allowed = allowed_args_by_tool.get(tool_name)
+            if allowed is not None:
+                args = {k: v for k, v in args.items() if k in allowed}
 
             tool_fn = TOOLS.get(tool_name)
             if not tool_fn:

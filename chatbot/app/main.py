@@ -6,10 +6,14 @@ from fastapi.responses import JSONResponse
 
 from .config import settings
 from .orchestrator import answer_question
+from .ollama_rag import _retrieve_metadata_aware
 from .schemas import AskRequest, AskResponse
 from .session_state import empty_session_state
+from .ollama_rag import _retrieve_metadata_and_language_aware
 
-if settings.rag_parser == "docling":
+if settings.rag_parser == "docling_language_aware":
+    from .build_faiss_docling_language_aware import build_index_for
+elif settings.rag_parser == "docling":
     from .build_faiss_docling import build_index_for
 elif settings.rag_parser == "docling_table_semantic":
     from .build_faiss_docling_table_semantic import build_index_for
@@ -103,6 +107,9 @@ def startup():
 def health():
     return {
         "parser": settings.rag_parser,
+        "vectorstore_dir": str(settings.vectorstore_dir),
+        "study_index": str(settings.studyplans_index),
+        "regl_index": str(settings.reglementations_index),
         "study_loaded": db_study is not None,
         "regl_loaded": db_regl is not None,
     }
@@ -192,13 +199,20 @@ def debug_retrieve(payload: AskRequest):
             },
         )
 
-    docs = db.as_retriever(search_kwargs={"k": 10}).invoke(payload.question)
-
+    docs, retrieval_debug = _retrieve_metadata_and_language_aware(
+        db=db,
+        question=payload.question,
+        k=10,
+        language=payload.language,
+    )
+    
     return [
         {
             "source": d.metadata.get("source"),
-            "page": d.metadata.get("page") if isinstance(d.metadata.get("page"), int) else None,
-            "snippet": d.page_content[:300],
+            "page": d.metadata.get("page") if isinstance(d.metadata.get("page"), int) else d.metadata.get("page_start"),
+            "snippet": d.page_content[:500],
+            "metadata": d.metadata,
+            "retrieval_debug": retrieval_debug,
         }
         for d in docs
     ]

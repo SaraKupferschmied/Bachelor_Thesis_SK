@@ -67,20 +67,20 @@ class Block:
 
 def _parsed_dir_for(target: str, parser: str) -> Path:
     root = Path(__file__).resolve().parents[2] / "scrapy_crawler" / "outputs"
-    if parser != "docling":
-        raise ValueError(f"This builder only supports parser='docling', got: {parser}")
+    if parser not in {"docling", "docling_table_semantic"}:
+        raise ValueError(f"This builder only supports docling table semantic, got: {parser}")
     if target == "studyplans":
-        return root / "parsed_fulltext_docling"
+        return root / "parsed_fulltext_docling_new"
     if target in {"regulations", "reglementations"}:
-        return root / "reglementation_docs" / "parsed_fulltext_docling"
+        return root / "reglementation_docs" / "parsed_fulltext_docling_new"
     raise ValueError(f"Unknown target: {target}")
 
 
 def _index_dir_for(target: str, parser: str, suffix: str) -> Path:
     if target == "studyplans":
-        return settings.studyplans_index
+        return settings.vectorstore_dir / "faiss_studyplans_docling_table_semantic_new"
     if target in {"regulations", "reglementations"}:
-        return settings.reglementations_index
+        return settings.vectorstore_dir / "faiss_reglementations_docling_table_semantic_new"
     raise ValueError(f"Unknown target: {target}")
 
 

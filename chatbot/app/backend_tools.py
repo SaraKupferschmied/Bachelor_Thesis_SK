@@ -151,7 +151,9 @@ def get_program_courses(
     return _get(f"/programs/{program_id}/courses", params=params)
 
 def get_program_courses_by_metadata(
-    program_name: Optional[str] = None,
+    program_en: Optional[str] = None,
+    program_de: Optional[str] = None,
+    program_fr: Optional[str] = None,
     degree_level: Optional[str] = None,
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
@@ -171,8 +173,12 @@ def get_program_courses_by_metadata(
 ) -> list[dict[str, Any]]:
     params: dict[str, Any] = {}
 
-    if program_name:
-        params["program_name"] = program_name
+    if program_en:
+        params["program_en"] = program_en
+    if program_de:
+        params["program_de"] = program_de
+    if program_fr:
+        params["program_fr"] = program_fr
     if degree_level:
         params["degree_level"] = degree_level
     if faculty_id is not None:
@@ -273,10 +279,65 @@ def get_study_program_plan(
         },
     )
 
+def get_mobility_courses(
+    semesters: list[str],
+    interest: str,
+    language: Optional[str] = None,
+    limit_per_semester: int = 30,
+) -> dict[str, Any]:
+    by_semester: dict[str, list[dict[str, Any]]] = {}
+
+    for sem in semesters[:2]:
+        matches = []
+
+        for search_fn in [
+            lambda: get_program_courses_by_metadata(
+                program_name=interest,
+                degree_level="Bachelor",
+                semester=sem,
+                mobility=True,
+                language=language,
+                limit=limit_per_semester,
+            ),
+            lambda: get_courses(
+                domain_name=interest,
+                mobility=True,
+                semester=sem,
+                language=language,
+                limit=limit_per_semester,
+            ),
+            lambda: get_courses(
+                name_contains=interest,
+                mobility=True,
+                semester=sem,
+                language=language,
+                limit=limit_per_semester,
+            ),
+        ]:
+            rows = search_fn()
+
+            for row in rows:
+                row = dict(row)
+                row["requested_semester"] = sem
+                row["matched_by"] = "mobility_search"
+                matches.append(row)
+
+            if len(matches) >= 8:
+                break
+
+        by_semester[sem] = matches
+
+    return {
+        "semesters": semesters[:2],
+        "interest": interest,
+        "courses_by_semester": by_semester,
+    }
+
 ToolFn = Callable[..., Any]
 
 TOOLS: dict[str, ToolFn] = {
     "get_courses": get_courses,
+    "get_mobility_courses": get_mobility_courses,
     "get_course_by_code": get_course_by_code,
     "get_programs": get_programs,
     "get_program_by_id": get_program_by_id,
@@ -510,7 +571,9 @@ TOOL_SPECS: list[dict[str, Any]] = [
         "parameters": {
             "type": "object",
             "properties": {
-                "program_name": {"type": "string"},
+                "program_en": {"type": "string"},
+                "program_de": {"type": "string"},
+                "program_fr": {"type": "string"},
                 "degree_level": {
                     "type": "string",
                     "enum": ["Bachelor", "Master", "Doctorate"]

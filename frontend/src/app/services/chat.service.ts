@@ -65,7 +65,8 @@ export class ChatService {
     return this.http.post<AskResponse>(`${this.baseUrl}/ask`, {
       question,
       language,
-      session_id: sessionId
+      run_mode: 'auto',
+      session_id: this.getSessionId()
     });
   }
 }

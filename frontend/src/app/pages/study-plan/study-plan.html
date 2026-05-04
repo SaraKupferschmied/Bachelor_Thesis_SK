@@ -13,15 +13,15 @@
     @if (isCreateMode()) {
       <section class="detail-view">
         <header class="detail-header">
-          <button type="button" class="back-btn" (click)="goHome()">← Zurück</button>
+          <button type="button" class="back-btn" (click)="goHome()">{{ t().back }}</button>
           <button type="button" class="primary-btn" [disabled]="!plannerCanCreate()" (click)="createPlan()">
-            Plan erstellen
+            {{ t().createPlan }}
           </button>
         </header>
 
         <div class="title-block">
-          <h1>Neuen Semesterplan erstellen</h1>
-          <p>Wähle Semester, Studienprogramme und Kursangebote aus</p>
+          <h1>{{ t().createTitle }}</h1>
+          <p>{{ t().createSubtitle }}</p>
         </div>
 
         @if (plannerError()) {
@@ -29,38 +29,38 @@
         }
 
         <section class="form-card">
-          <label class="field-label">Plan-Titel *</label>
+          <label class="field-label">{{ t().planTitle }}</label>
           <input
             class="text-input"
             [ngModel]="title()"
             (ngModelChange)="title.set($event)"
-            placeholder="z.B. Wintersemester 2026/27" />
+            [placeholder]="t().planTitlePlaceholder" />
         </section>
 
         <section class="form-card">
-          <label class="field-label">Semester *</label>
+          <label class="field-label">{{ t().semester }}</label>
           <select
             class="text-input select-input"
             [ngModel]="selectedSemesterId()"
             (ngModelChange)="onSemesterChange($event)">
-            <option value="" disabled>Semester auswählen</option>
+            <option value="" disabled>{{ t().selectSemester }}</option>
             @for (semester of semesters(); track semester.sem_id) {
               <option [ngValue]="semester.sem_id">{{ semester.label }} ({{ semester.sem_id }})</option>
             }
           </select>
           @if (isLoadingSemesters()) {
-            <p class="hint-text">Semester werden geladen...</p>
+            <p class="hint-text">{{ t().loadingSemesters }}</p>
           }
         </section>
 
         <section class="form-card">
-          <div class="section-title">Studienprogramme *</div>
-          <p class="section-subtitle">Du kannst ein oder mehrere Programme auswählen</p>
+          <div class="section-title">{{ t().studyPrograms }}</div>
+          <p class="section-subtitle">{{ t().studyProgramsHint }}</p>
           <input
             class="text-input"
             [ngModel]="programSearch()"
             (ngModelChange)="programSearch.set($event)"
-            placeholder="Programme filtern..." />
+            [placeholder]="t().programFilterPlaceholder" />
 
           @if (selectedProgramNames().length > 0) {
             <div class="tag-row">
@@ -83,23 +83,23 @@
             }
           </select>
 
-          <p class="hint-text">Mehrfachauswahl mit Ctrl/Cmd oder Shift.</p>
+          <p class="hint-text">{{ t().multiSelectHint }}</p>
 
           @if (isLoadingPrograms()) {
-            <p class="hint-text">Studienprogramme werden geladen...</p>
+            <p class="hint-text">{{ t().loadingPrograms }}</p>
           }
         </section>
 
         <section class="form-card">
           <div class="section-title">
-            Kursangebote @if (availableCourseOfferings().length > 0) { ({{ filteredCourses().length }}) }
+            {{ t().courseOfferings }} @if (availableCourseOfferings().length > 0) { ({{ filteredCourses().length }}) }
           </div>
 
           <p class="section-subtitle">
             @if (selectedProgramIds().length === 0 || !selectedSemesterId()) {
-              Wähle zuerst ein Semester und mindestens ein Studienprogramm.
+              {{ t().chooseSemesterAndProgram }}
             } @else {
-              {{ selectedOfferingIds().length }} Kursangebote ausgewählt
+              {{ t().selectedCourseOfferings(selectedOfferingIds().length) }}
             }
           </p>
 
@@ -107,14 +107,14 @@
             class="text-input"
             [ngModel]="courseSearch()"
             (ngModelChange)="courseSearch.set($event)"
-            placeholder="Nach Name, Code, Sprache oder Programm suchen..." />
+            [placeholder]="t().courseSearchPlaceholder" />
 
           @if (isLoadingCourses()) {
-            <div class="empty-state">Kursangebote werden geladen...</div>
+            <div class="empty-state">{{ t().loadingCourses }}</div>
           } @else if (selectedProgramIds().length === 0 || !selectedSemesterId()) {
-            <div class="empty-state">Bitte zuerst Semester und Studienprogramm(e) auswählen.</div>
+            <div class="empty-state">{{ t().chooseFirstEmpty }}</div>
           } @else if (filteredCourses().length === 0) {
-            <div class="empty-state">Für diese Auswahl wurden keine Kursangebote gefunden.</div>
+            <div class="empty-state">{{ t().noCoursesFound }}</div>
           } @else {
             <div class="course-grid course-grid--create">
               @for (course of filteredCourses(); track course.offering_id) {
@@ -134,7 +134,7 @@
                       <span>{{ course.ects }} ECTS</span>
                     }
                     @if (course.offering_type) {
-                      <span>{{ course.offering_type }}</span>
+                      <span>{{ offeringTypeLabel(course.offering_type) }}</span>
                     }
                   </div>
 
@@ -143,11 +143,11 @@
                   }
 
                   @if (offeringLanguages(course)) {
-                    <div class="muted course-extra">Sprache: {{ offeringLanguages(course) }}</div>
+                    <div class="muted course-extra">{{ t().language }}: {{ offeringLanguages(course) }}</div>
                   }
 
                   @if (offeringPrograms(course)) {
-                    <div class="muted course-extra">Programme: {{ offeringPrograms(course) }}</div>
+                    <div class="muted course-extra">{{ t().programs }}: {{ offeringPrograms(course) }}</div>
                   }
                 </button>
               }
@@ -160,18 +160,18 @@
         <section class="detail-view">
           <header class="detail-header detail-header--with-title">
             <div>
-              <button type="button" class="back-btn" (click)="goHome()">← Zurück zum Chat</button>
+              <button type="button" class="back-btn" (click)="goHome()">{{ t().backToChat }}</button>
               <h1>{{ plan.title }}</h1>
-              <p>Dein Stundenplan im Überblick</p>
+              <p>{{ t().overviewSubtitle }}</p>
             </div>
-            <button type="button" class="secondary-btn" (click)="startEditing()">Anpassen</button>
+            <button type="button" class="secondary-btn" (click)="startEditing()">{{ t().customize }}</button>
           </header>
 
           @if (blockEntries().length > 0) {
             <section class="form-card">
-              <div class="section-title">Blockkurse</div>
+              <div class="section-title">{{ t().blockCourses }}</div>
               <p class="section-subtitle">
-                Diese Kurse werden separat angezeigt, weil sie keine wöchentlichen Termine haben.
+                {{ t().blockCoursesHint }}
               </p>
 
               <div class="stack-list">
@@ -182,7 +182,7 @@
                         <div class="dot"></div>
                         <strong>{{ entry.courseName }}</strong>
                       </div>
-                      <div class="muted">{{ entry.courseCode }} · Blockkurs</div>
+                      <div class="muted">{{ entry.courseCode }} · {{ t().blockCourse }}</div>
 
                       @if (entry.sessions?.length) {
                         <div class="muted course-extra">
@@ -191,7 +191,7 @@
                       }
                     </div>
 
-                    <span class="pill">Block</span>
+                    <span class="pill">{{ t().block }}</span>
                   </article>
                 }
               </div>
@@ -199,9 +199,9 @@
           }
           <section class="timetable-card">
             <div class="timetable-head">
-              <div class="time-col">Zeit</div>
+              <div class="time-col">{{ t().time }}</div>
               @for (day of weekdays; track day) {
-                <div>{{ day }}</div>
+                <div>{{ weekdayLabel(day) }}</div>
               }
             </div>
 
@@ -245,25 +245,25 @@
                     <h2>{{ selectedOfferingDetail()?.course_name || selectedCalendarEntry()?.courseName }}</h2>
                     <p>{{ selectedOfferingDetail()?.code || selectedCalendarEntry()?.courseCode }}</p>
                   </div>
-                  <button type="button" class="secondary-btn" (click)="closeCalendarEntry()">Schliessen</button>
+                  <button type="button" class="secondary-btn" (click)="closeCalendarEntry()">{{ t().close }}</button>
                 </div>
 
                 @if (isLoadingOfferingDetail()) {
-                  <div class="empty-state">Kursdetails werden geladen...</div>
+                  <div class="empty-state">{{ t().loadingCourseDetails }}</div>
                 } @else {
                   <div class="stack-list">
                     <article class="stack-card">
                       <div>
-                        <strong>Typ</strong>
+                        <strong>{{ t().type }}</strong>
                         <div class="muted">
-                          {{ selectedOfferingDetail()?.offering_type || selectedCalendarEntry()?.offeringType || '–' }}
+                          {{ offeringTypeLabel(selectedOfferingDetail()?.offering_type || selectedCalendarEntry()?.offeringType) }}
                         </div>
                       </div>
                     </article>
 
                     <article class="stack-card">
                       <div>
-                        <strong>Sprache</strong>
+                        <strong>{{ t().language }}</strong>
                         <div class="muted">
                           {{ (selectedOfferingDetail()?.teaching_languages || selectedCalendarEntry()?.languages || []).join(', ') || '–' }}
                         </div>
@@ -272,14 +272,14 @@
 
                     <article class="stack-card">
                       <div>
-                        <strong>Professor/in</strong>
+                        <strong>{{ t().professor }}</strong>
                         <div class="muted">{{ professorNames() || '–' }}</div>
                       </div>
                     </article>
 
                     <article class="stack-card sessions-card">
                       <div>
-                        <strong>Sessions</strong>
+                        <strong>{{ t().sessions }}</strong>
 
                         @if ((selectedOfferingDetail()?.sessions?.length ?? 0) > 0) {
                           <div class="session-list">
@@ -287,13 +287,13 @@
                               <div class="session-item">
                                 <div><strong>{{ session.weekday }}</strong>, {{ session.date }}</div>
                                 <div>{{ session.start_time || '–' }} - {{ session.end_time || '–' }}</div>
-                                <div>Raum: {{ session.room_id || '–' }}</div>
-                                <div>Einheit: {{ session.unit_type || '–' }}</div>
+                                <div>{{ t().room }}: {{ session.room_id || '–' }}</div>
+                                <div>{{ t().unit }}: {{ session.unit_type || '–' }}</div>
                               </div>
                             }
                           </div>
                         } @else {
-                          <div class="muted">Keine einzelnen Sessions vorhanden.</div>
+                          <div class="muted">{{ t().noSessions }}</div>
                         }
                       </div>
                     </article>
@@ -307,62 +307,80 @@
         <section class="detail-view">
           <header class="detail-header detail-header--with-title">
             <div>
-              <button type="button" class="back-btn" (click)="editMode.set(false)">← Zurück</button>
-              <h1>{{ plan.title }} bearbeiten</h1>
-              <p>Passe deinen Semesterplan an</p>
+              <button type="button" class="back-btn" (click)="editMode.set(false)">{{ t().back }}</button>
+              <h1>{{ t().editTitle(plan.title) }}</h1>
+              <p>{{ t().editSubtitle }}</p>
             </div>
-            <button type="button" class="primary-btn" (click)="saveEdit()">Änderungen speichern</button>
+            <button type="button" class="primary-btn" (click)="saveEdit()">{{ t().saveChanges }}</button>
           </header>
 
           <div class="split-grid">
             <section class="edit-column">
-              <div class="section-title">Aktuelle Kurse ({{ selectedEditOfferings().length }})</div>
-              <p class="section-subtitle">Entferne Kursangebote, die du nicht mehr belegen möchtest</p>
+              <div class="section-title">{{ t().currentCourses(selectedEditCourses().length) }}</div>
+              <p class="section-subtitle">{{ t().removeCoursesHint }}</p>
 
               <div class="stack-list">
-                @for (offering of selectedEditOfferings(); track offering.id) {
+                @for (course of selectedEditCourses(); track course.offering_id) {
                   <article class="stack-card">
                     <div>
                       <div class="stack-card__row">
                         <div class="dot"></div>
-                        <strong>{{ offering.name }}</strong>
+                        <strong>{{ course.course_name || course.code }}</strong>
                       </div>
-                      <div class="muted">{{ offering.code }} · {{ offering.semesterLabel }}</div>
+                      <div class="muted">{{ course.code }} · {{ course.sem_id }}</div>
                     </div>
-                    <button type="button" class="delete-btn" (click)="removeSelectedOffering(offering.id)">🗑</button>
+                    <button type="button" class="delete-btn" (click)="removeSelectedOffering(course.offering_id)">🗑</button>
                   </article>
                 }
               </div>
             </section>
 
             <section class="edit-column">
-              <div class="section-title">Ausgewählte Kursangebote</div>
-              <p class="section-subtitle">Dein Plan basiert auf den geladenen Course Offerings.</p>
+              <div class="section-title">{{ t().courseOfferings }}</div>
+              <p class="section-subtitle">{{ t().selectedOfferingsHint }}</p>
 
-              <div class="stack-list">
-                @for (offering of selectedPlanOfferings(); track offering.id) {
-                  <article class="suggestion-card" [class.suggestion-card--added]="isCourseSelected(offering.id)">
-                    <div>
-                      <strong>{{ offering.name }}</strong>
-                      <div class="course-meta-row">
-                        <span class="pill">{{ offering.type }}</span>
-                        <span>{{ offering.code }}</span>
-                        @if (offering.languages.length > 0) {
-                          <span>{{ offering.languages.join(', ') }}</span>
+              <input
+                class="text-input"
+                [ngModel]="courseSearch()"
+                (ngModelChange)="courseSearch.set($event)"
+                [placeholder]="t().courseSearchPlaceholder" />
+
+              @if (isLoadingCourses()) {
+                <div class="empty-state">{{ t().loadingCourses }}</div>
+              } @else if (filteredCourses().length === 0) {
+                <div class="empty-state">{{ t().noCoursesFound }}</div>
+              } @else {
+                <div class="stack-list">
+                  @for (course of filteredCourses(); track course.offering_id) {
+                    <article class="suggestion-card" [class.suggestion-card--added]="isCourseSelected(course.offering_id)">
+                      <div>
+                        <strong>{{ course.course_name || course.code }}</strong>
+                        <div class="course-meta-row">
+                          <span class="pill">{{ offeringTag(course) }}</span>
+                          <span>{{ course.code }}</span>
+                          @if (course.ects != null) {
+                            <span>{{ course.ects }} ECTS</span>
+                          }
+                          @if (course.teaching_languages.length > 0) {
+                            <span>{{ course.teaching_languages.join(', ') }}</span>
+                          }
+                        </div>
+                        @if (course.day_time_info) {
+                          <div class="muted course-extra">{{ course.day_time_info }}</div>
                         }
                       </div>
-                    </div>
 
-                    <button
-                      type="button"
-                      class="action-btn"
-                      [disabled]="isCourseSelected(offering.id)"
-                      (click)="toggleCourse(offering.id)">
-                      {{ isCourseSelected(offering.id) ? 'Hinzugefügt' : 'Hinzufügen' }}
-                    </button>
-                  </article>
-                }
-              </div>
+                      <button
+                        type="button"
+                        class="action-btn"
+                        [disabled]="isCourseSelected(course.offering_id)"
+                        (click)="toggleCourse(course.offering_id)">
+                        {{ isCourseSelected(course.offering_id) ? t().added : t().add }}
+                      </button>
+                    </article>
+                  }
+                </div>
+              }
             </section>
           </div>
         </section>

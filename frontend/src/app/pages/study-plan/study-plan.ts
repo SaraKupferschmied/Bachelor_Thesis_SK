@@ -11,6 +11,7 @@ import {
   PlannerSemester,
   PlannerOfferingDetail
 } from '../../services/planner-api.service';
+import { STUDY_PLAN_TRANSLATIONS } from '../../translations';
 import {
   StudyPlanCourseSelection,
   StudyPlanService
@@ -55,6 +56,9 @@ export class StudyPlanPageComponent {
   readonly isLoadingPrograms = signal(false);
   readonly isLoadingCourses = signal(false);
   readonly plannerError = signal('');
+  readonly t = computed(() =>
+    STUDY_PLAN_TRANSLATIONS[this.languageService.currentLanguage()] ?? STUDY_PLAN_TRANSLATIONS.de
+  );
 
   readonly selectedCalendarEntry = signal<any | null>(null);
   readonly selectedOfferingDetail = signal<PlannerOfferingDetail | null>(null);
@@ -73,6 +77,12 @@ export class StudyPlanPageComponent {
   readonly selectedEditOfferings = computed<StudyPlanCourseSelection[]>(() =>
     this.selectedPlanOfferings().filter((offering) =>
       this.selectedOfferingIds().includes(offering.id)
+    )
+  );
+
+  readonly selectedEditCourses = computed(() =>
+    this.availableCourseOfferings().filter((course) =>
+      this.selectedOfferingIds().includes(course.offering_id)
     )
   );
 
@@ -152,8 +162,24 @@ export class StudyPlanPageComponent {
       return;
     }
 
+    this.selectedSemesterId.set(plan.semesterId ?? '');
+    this.selectedProgramIds.set(plan.selectedPrograms?.map((program) => program.id) ?? []);
     this.selectedOfferingIds.set(plan.selectedOfferings?.map((offering) => offering.id) ?? []);
+    this.courseSearch.set('');
+    this.programSearch.set('');
     this.editMode.set(true);
+
+    if (this.semesters().length === 0) {
+      this.loadSemesters();
+    }
+
+    if (this.programs().length === 0) {
+      this.loadPrograms();
+    }
+
+    if (this.selectedSemesterId() && this.selectedProgramIds().length > 0) {
+      this.loadCourses();
+    }
   }
 
   saveEdit(): void {
@@ -167,11 +193,21 @@ export class StudyPlanPageComponent {
       return;
     }
 
-    const selectedNames = (plan.selectedOfferings ?? [])
-      .filter((offering) => this.selectedOfferingIds().includes(offering.id))
-      .map((offering) => offering.name);
+    const selectedOfferings = this.availableCourseOfferings().filter((offering) =>
+      this.selectedOfferingIds().includes(offering.offering_id)
+    );
 
-    this.studyPlanService.updatePlanCourses(planId, selectedNames);
+    if (selectedOfferings.length === 0) {
+      return;
+    }
+
+    this.studyPlanService.updatePlanFromOfferings(planId, {
+      semesterId: this.selectedSemesterId() || plan.semesterId || '',
+      programs: this.programs().filter((program) =>
+        this.selectedProgramIds().includes(program.program_id)
+      ),
+      offerings: selectedOfferings
+    });
     this.editMode.set(false);
   }
 
@@ -258,7 +294,7 @@ export class StudyPlanPageComponent {
       program.name_de ??
       program.name_en ??
       program.name_fr ??
-      `Programm ${program.program_id}`;
+      `${this.t().fallbackProgram} ${program.program_id}`;
 
     const ectsPart = program.total_ects ? ` · ${program.total_ects} ECTS` : '';
     const degreePart = program.degree_level ? ` · ${program.degree_level}` : '';
@@ -267,7 +303,29 @@ export class StudyPlanPageComponent {
   }
 
   offeringTag(course: PlannerCourseOffering): string {
-    return (course.mandatory_for?.length ?? 0) > 0 ? 'Pflicht' : 'Wahl';
+    return (course.mandatory_for?.length ?? 0) > 0 ? this.t().mandatory : this.t().elective;
+  }
+
+  offeringTypeLabel(value?: string | null): string {
+    const normalized = (value ?? '').toLowerCase();
+
+    if (normalized.includes('pflicht') || normalized.includes('mandatory') || normalized.includes('obligatoire')) {
+      return this.t().mandatory;
+    }
+
+    if (normalized.includes('wahl') || normalized.includes('elective') || normalized.includes('optionnel')) {
+      return this.t().elective;
+    }
+
+    if (normalized.includes('block') || normalized.includes('bloc')) {
+      return this.t().block;
+    }
+
+    return value || '–';
+  }
+
+  weekdayLabel(day: typeof this.weekdays[number]): string {
+    return this.t().weekdays[day];
   }
 
   offeringPrograms(course: PlannerCourseOffering): string {
@@ -417,7 +475,7 @@ export class StudyPlanPageComponent {
           }
         },
         error: () => {
-          this.plannerError.set('Semester konnten nicht geladen werden.');
+          this.plannerError.set(this.t().errorSemesters);
         }
       });
   }
@@ -433,7 +491,7 @@ export class StudyPlanPageComponent {
           this.programs.set(programs);
         },
         error: () => {
-          this.plannerError.set('Studienprogramme konnten nicht geladen werden.');
+          this.plannerError.set(this.t().errorPrograms);
         }
       });
   }
@@ -461,7 +519,7 @@ export class StudyPlanPageComponent {
           this.availableCourseOfferings.set(response.courses ?? []);
         },
         error: () => {
-          this.plannerError.set('Kursangebote konnten nicht geladen werden.');
+          this.plannerError.set(this.t().errorCourses);
         }
       });
   }
@@ -471,7 +529,7 @@ export class StudyPlanPageComponent {
       (entry) => entry.sem_id === this.selectedSemesterId()
     );
 
-    return semester ? semester.label : `Semesterplan ${new Date().getFullYear()}`;
+    return semester ? semester.label : `${this.t().fallbackPlanTitle} ${new Date().getFullYear()}`;
   }
 
     private timeToMinutes(value: string): number {
@@ -594,17 +652,18 @@ export class StudyPlanPageComponent {
 
   blockSessionsSummary(entry: any): string {
     const sessions = entry.sessions ?? [];
+
     if (!sessions.length) {
-      return 'Einzelsessions im Detail anzeigen';
+      return this.t().showSingleSessions;
     }
 
     const first = sessions[0];
     const last = sessions[sessions.length - 1];
 
     if (first?.date && last?.date) {
-      return `${sessions.length} Sessions · ${first.date} bis ${last.date}`;
+      return this.t().sessionsFromTo(sessions.length, first.date, last.date);
     }
 
-    return `${sessions.length} Sessions`;
+    return this.t().sessionsCount(sessions.length);
   }
 }

@@ -185,6 +185,58 @@
       </section>
     }
 
+    @if (isMobilityDialogOpen) {
+      <div class="study-program-dialog-backdrop" (click)="closeMobilityDialog()" aria-hidden="true"></div>
+
+      <section class="study-program-dialog" role="dialog" aria-modal="true">
+        <button
+          type="button"
+          class="study-program-dialog__close"
+          (click)="closeMobilityDialog()"
+          aria-label="Close mobility planner dialog">
+          ×
+        </button>
+
+        <h2>Plan exchange semester</h2>
+        <p>
+          Tell me when you are here and what kind of courses you are looking for.
+        </p>
+
+        <form class="study-program-form" (ngSubmit)="submitMobilityDialog()">
+          <label>
+            <span>Exchange semester(s)</span>
+            <input
+              type="text"
+              name="mobilitySemesters"
+              [(ngModel)]="mobilityForm.semesters"
+              placeholder="e.g. HS-2026 or HS-2026 and FS-2027"
+              autocomplete="off"
+              required>
+          </label>
+
+          <label>
+            <span>Course interest / study direction</span>
+            <input
+              type="text"
+              name="mobilityInterest"
+              [(ngModel)]="mobilityForm.interest"
+              placeholder="e.g. Data Science, Business Informatics, Sustainability"
+              autocomplete="off"
+              required>
+          </label>
+
+          <div class="study-program-dialog__actions">
+            <button type="button" class="secondary-action" (click)="closeMobilityDialog()">
+              Cancel
+            </button>
+            <button type="submit" class="primary-action" [disabled]="isloading">
+              Find mobility courses
+            </button>
+          </div>
+        </form>
+      </section>
+    }
+
     <footer class="composer">
       <app-chat-input (sendMessage)="onSendMessage($event)"></app-chat-input>
       <p class="disclaimer"> Disclaimer: This is a chatbot application. It may produce incorrect results, check the information and use your own brain. </p>

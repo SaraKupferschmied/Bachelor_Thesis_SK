@@ -163,6 +163,45 @@ export class StudyPlanService {
     return createdPlan;
   }
 
+  updatePlanFromOfferings(id: string, payload: {
+    semesterId: string;
+    programs: PlannerProgram[];
+    offerings: PlannerCourseOffering[];
+  }): void {
+    const selectedOfferings = payload.offerings.map((offering) =>
+      this.mapOfferingToSelection(offering, payload.semesterId)
+    );
+
+    this.planState.update((plans) =>
+      plans.map((plan) => {
+        if (plan.id !== id) {
+          return plan;
+        }
+
+        return {
+          ...plan,
+          semesterId: payload.semesterId,
+          selectedPrograms: payload.programs.map((program) => ({
+            id: program.program_id,
+            name:
+              program.display_name ??
+              program.name_de ??
+              program.name_en ??
+              program.name_fr ??
+              `Programm ${program.program_id}`,
+            degreeLevel: program.degree_level,
+            totalEcts: program.total_ects
+          })),
+          selectedOfferings,
+          courses: selectedOfferings.map((offering) => offering.name),
+          timetable: this.buildTimetableFromOfferings(selectedOfferings)
+        };
+      })
+    );
+
+    this.persistPlans();
+  }
+
   clearAllPlans(): void {
     this.planState.set([]);
     this.persistPlans();
@@ -268,7 +307,31 @@ export class StudyPlanService {
 
     offerings.forEach((offering, index) => {
       const isBlock = (offering.offeringType ?? '').toLowerCase() === 'block';
-      const parsed = this.parseDayTimeInfo(offering.dayTimeInfo ?? '');
+      const parsedSlots = this.parseDayTimeInfos(offering.dayTimeInfo ?? '');
+
+      if (parsedSlots.length > 0) {
+        parsedSlots.forEach((slot) => {
+          const entry: TimetableEntry = {
+            courseName: offering.name,
+            startTime: slot.startTime,
+            endTime: slot.endTime,
+            location: slot.unitType ?? this.extractLocation(offering.dayTimeInfo) ?? '',
+            color: colors[index % colors.length],
+            offeringId: offering.id,
+            courseCode: offering.code,
+            offeringType: offering.offeringType,
+            languages: offering.languages,
+            professors: offering.professors ?? [],
+            sessions: offering.sessions ?? []
+          };
+
+          timetable[slot.day] = [...(timetable[slot.day] ?? []), entry].sort((a, b) =>
+            a.startTime.localeCompare(b.startTime)
+          );
+        });
+
+        return;
+      }
 
       if (isBlock) {
         const blockEntry: TimetableEntry = {
@@ -290,13 +353,10 @@ export class StudyPlanService {
         return;
       }
 
-      const day = parsed?.day ?? this.fallbackDay(index);
-      const startTime = parsed?.startTime ?? this.fallbackStartTime(index);
-      const endTime = parsed?.endTime ?? this.addTwoHours(startTime);
-      const location =
-        parsed?.location ??
-        this.extractLocation(offering.dayTimeInfo) ??
-        `Raum ${100 + index}`;
+      const day = this.fallbackDay(index);
+      const startTime = this.fallbackStartTime(index);
+      const endTime = this.addTwoHours(startTime);
+      const location = this.extractLocation(offering.dayTimeInfo) ?? `Raum ${100 + index}`;
 
       const entry: TimetableEntry = {
         courseName: offering.name,
@@ -346,12 +406,10 @@ export class StudyPlanService {
     return timetable;
   }
 
-  private parseDayTimeInfo(
+  private parseDayTimeInfos(
     dayTimeInfo: string
-  ): { day: Weekday; startTime: string; endTime: string; location?: string } | null {
-    if (!dayTimeInfo) {
-      return null;
-    }
+  ): Array<{ day: Weekday; startTime: string; endTime: string; unitType?: string }> {
+    if (!dayTimeInfo) return [];
 
     const normalized = dayTimeInfo
       .replace(/–|—/g, '-')
@@ -366,21 +424,24 @@ export class StudyPlanService {
       { pattern: /\b(frei(tag)?|fri(day)?)\b/i, day: 'Freitag' }
     ];
 
-    const day = dayMap.find((entry) => entry.pattern.test(normalized))?.day;
-    const timeMatch = normalized.match(/(\d{1,2})[:.](\d{2})\s*-\s*(\d{1,2})[:.](\d{2})/);
+    const regex =
+      /(Monday|Tuesday|Wednesday|Thursday|Friday|Montag|Dienstag|Mittwoch|Donnerstag|Freitag)\s+(\d{1,2})[:.](\d{2})\s*-\s*(\d{1,2})[:.](\d{2})(?:\s*\(([^)]+)\))?/gi;
 
-    if (!day || !timeMatch) {
-      return null;
-    }
+    return Array.from(normalized.matchAll(regex))
+      .map((match) => {
+        const dayText = match[1];
+        const day = dayMap.find((entry) => entry.pattern.test(dayText))?.day;
 
-    const [, sh, sm, eh, em] = timeMatch;
+        if (!day) return null;
 
-    return {
-      day,
-      startTime: `${sh.padStart(2, '0')}:${sm}`,
-      endTime: `${eh.padStart(2, '0')}:${em}`,
-      location: this.extractLocation(normalized)
-    };
+        return {
+          day,
+          startTime: `${match[2].padStart(2, '0')}:${match[3]}`,
+          endTime: `${match[4].padStart(2, '0')}:${match[5]}`,
+          unitType: match[6]
+        };
+      })
+      .filter(Boolean) as Array<{ day: Weekday; startTime: string; endTime: string; unitType?: string }>;
   }
 
   private extractLocation(dayTimeInfo: string | null | undefined): string | undefined {

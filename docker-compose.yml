@@ -101,7 +101,9 @@ services:
     environment:
       BACKEND_API_BASE: http://backend:3000
       OLLAMA_HOST: http://host.docker.internal:11434
-      RAG_PARSER: docling
+      OLLAMA_MODEL: llama3.1
+      RAG_PARSER: docling_table_semantic
+      VECTORSTORE_DIR: /app/vectorstore
     volumes:
       - ./chatbot:/app
       - ./scrapy_crawler:/scrapy_crawler

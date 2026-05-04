@@ -50,6 +50,7 @@ Do the imports (from root)
 4. npx ts-node DB_service/src/import/program_name_imports.ts
 4.1 npx ts-node DB_service/src/import/program_basedata_imports.ts
 5. npx ts-node DB_service/src/import/new_program_import.ts
+5.1 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
 5.1 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/prune_staging_to_current_program_documents.ts"
 6. npx ts-node DB_service/src/import/import_consist_of.ts
 7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
@@ -95,3 +96,8 @@ python -m chatbot.app.build_faiss_docling_table_semantic --target studyplans --f
 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/prune_staging_to_current_program_documents.ts"
 
 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/import_consist_of.ts"
+
+python scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\cleanup_historical_unifr_docs.py ^  --index scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\_index.jsonl ^  --parsed-dir scrapy_crawler\outputs\parsed_fulltext_docling_new_clean ^  --apply
+
+export RAG_PARSER=docling_language_aware
+python -m app.build_faiss_docling_language_aware --target studyplans --force

@@ -231,7 +231,8 @@ export async function programsRoutes(app: FastifyInstance) {
           p.name_fr AS program_name_fr,
           p.degree_level,
           p.total_ects,
-          p.study_start
+          p.study_start,
+          COALESCE(p.name_en, p.name) AS program_sort_name
         FROM StudyProgram p
         JOIN consist_of co
           ON co.program_id = p.program_id
@@ -303,7 +304,7 @@ export async function programsRoutes(app: FastifyInstance) {
                 AND l.description ILIKE $18
             )
           )
-        ORDER BY COALESCE(p.name_en, p.name), p.degree_level, p.total_ects, c.code
+        ORDER BY program_sort_name, p.degree_level, p.total_ects, c.code
         LIMIT COALESCE($19::int, 100)
         `,
         [

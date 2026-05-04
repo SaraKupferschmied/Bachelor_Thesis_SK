@@ -66,16 +66,49 @@ function guessOfferingType(schedule: AnyObj, singleDates: AnyObj[]): "Weekly" | 
 
 function buildDayTimeInfo(
   offering_type: "Weekly" | "Block",
-  schedule: AnyObj
+  schedule: AnyObj,
+  singleDates: AnyObj[] = []
 ): string | null {
   const vt = String(schedule?.["Vorlesungszeiten"] ?? "").trim();
   const struktur = String(schedule?.["Strukturpläne"] ?? "").trim();
   const kontakt = String(schedule?.["Kontaktstunden"] ?? "").trim();
 
+  const weekdayNames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+
+  // Prefer the normalized occurrence list because it contains every session.
+  // This fixes courses with multiple weekly slots, e.g. Tuesday morning lecture
+  // plus Tuesday evening exercise. The old text parsing path can miss or
+  // collapse such slots depending on the format of Vorlesungszeiten.
+  if (offering_type === "Weekly" && Array.isArray(singleDates) && singleDates.length > 0) {
+    const slots: string[] = [];
+
+    for (const entry of singleDates) {
+      const iso = ddmmyyyyToIso(entry.date);
+      const { start, end } = parseTimeRange(entry.time ?? "");
+      if (!iso || !start || !end) continue;
+
+      // Use UTC noon to avoid local timezone edge cases around midnight/DST.
+      const weekday = weekdayNames[new Date(`${iso}T12:00:00Z`).getUTCDay()];
+      const unitType = String(entry.unit_type ?? "").trim();
+      const suffix = unitType ? ` (${unitType})` : "";
+      slots.push(`${weekday} ${start} - ${end}${suffix}`);
+    }
+
+    const uniqueSlots = Array.from(new Set(slots));
+    if (uniqueSlots.length > 0) return uniqueSlots.join("; ");
+  }
+
   if (offering_type === "Weekly") {
     if (!vt) return null;
 
-    // Extract all weekday + time ranges
     const weekdayMap: Record<string, string> = {
       Montag: "Monday",
       Dienstag: "Tuesday",
@@ -493,7 +526,7 @@ async function run() {
         await upsertSemester(db, sem);
 
         const offering_type = guessOfferingType(schedule, singleDates);
-          const dayTimeInfo = buildDayTimeInfo(offering_type, schedule);
+          const dayTimeInfo = buildDayTimeInfo(offering_type, schedule, singleDates);
 
           const offering_id = await upsertCourseOffering(
             db,
