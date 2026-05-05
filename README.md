@@ -112,3 +112,9 @@ cd scrapy_crawler\validation
 - python validate_courses.py ^  --courses ../spider_outputs/courses.json ^  --output-prefix courses
 - python validate_programs.py ^  --programs-file ../spider_outputs/programmes_with_curricula_enriched.json ^  --output-dir ./metrics/validate_programs_curricula
 - python validate_programs.py ^  --programs-file ../spider_outputs/program_links_with_ects_and_docs.json ^  --output-dir ./metrics/validate_programs_docs
+- python validation\validate_doc_downloads.py ^  --spider-outputs spider_outputs ^  --manifest ..\outputs\_program_docs_manifest.json ^  --out validation\metrics\documents_downloads\document_download_quality.json
+- python validation\integrity_score.py ^  --metrics-dir validation\metrics ^  --out validation\metrics\scores\json_integrity_score.json
+- python validation\validate_doc_parsing.py ^  --outputs-root ..\outputs ^  --manifest ..\outputs\_program_docs_manifest.json ^  --out validation\metrics\documents_parsing\document_parsing_quality.json
+
+- npx ts-node DB_service\src\import\validate_database_quality.ts ^
+  --out scrapy_crawler\scrapy_crawler\validation\metrics\database\database_quality.json
