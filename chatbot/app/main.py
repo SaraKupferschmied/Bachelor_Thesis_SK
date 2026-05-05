@@ -3,6 +3,9 @@ from typing import Any
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from starlette.requests import Request
+
+from .performance import get_timer, log_timing, reset_request_timer, start_request_timer, timed_step
 
 from .config import settings
 from .orchestrator import answer_question
@@ -33,6 +36,25 @@ app.add_middleware(
 )
 
 SESSION_STORE: dict[str, Any] = {}
+
+@app.middleware("http")
+async def timing_middleware(request: Request, call_next):
+    timer, token = start_request_timer(f"{request.method} {request.url.path}")
+    status = "ok"
+
+    try:
+        with timed_step("request.handler"):
+            response = await call_next(request)
+        status = "error" if response.status_code >= 500 else "ok"
+        response.headers["X-Process-Time-ms"] = str(timer.elapsed_ms())
+        return response
+    except Exception:
+        status = "error"
+        raise
+    finally:
+        log_timing(timer.snapshot(status=status))
+        reset_request_timer(token)
+
 
 db_study = None
 db_regl = None
@@ -170,14 +192,19 @@ def ask(payload: AskRequest) -> AskResponse:
         use_study = None
         use_regl = None
 
-    result = answer_question(
-        question=payload.question,
-        db_study=use_study,
-        db_regl=use_regl,
-        language=payload.language,
-        session_state=session_state,
-        run_mode=payload.run_mode,
-    )
+    with timed_step("ask.answer_question"):
+        result = answer_question(
+            question=payload.question,
+            db_study=use_study,
+            db_regl=use_regl,
+            language=payload.language,
+            session_state=session_state,
+            run_mode=payload.run_mode,
+        )
+
+    timer = get_timer()
+    if timer is not None:
+        result["timing"] = timer.snapshot()
 
     SESSION_STORE[session_id] = result.get("session_state", session_state)
 
@@ -199,12 +226,13 @@ def debug_retrieve(payload: AskRequest):
             },
         )
 
-    docs, retrieval_debug = _retrieve_metadata_and_language_aware(
-        db=db,
-        question=payload.question,
-        k=10,
-        language=payload.language,
-    )
+    with timed_step("debug_retrieve.rag_retrieval"):
+        docs, retrieval_debug = _retrieve_metadata_and_language_aware(
+            db=db,
+            question=payload.question,
+            k=10,
+            language=payload.language,
+        )
     
     return [
         {

@@ -12,7 +12,7 @@ from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 from langchain_ollama import OllamaEmbeddings
 
-from app.config import settings
+from .config import settings
 
 
 METADATA_START = "---METADATA_JSON---"

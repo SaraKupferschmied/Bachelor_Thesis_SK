@@ -27,6 +27,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 
 from .config import settings
+from .performance import timed_step
 
 
 _SPLITTER = RecursiveCharacterTextSplitter(
@@ -135,8 +136,8 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
                 "The retrieved documents may be in German, French, English, Italian, or Spanish; use them all if relevant. "
                 "Even if the documents are written in another language, the final answer must be in the requested language. "
                 "For study-plan questions, treat metadata as authoritative. "
-                "Use only context chunks whose metadata matches the requested programme, degree level, ECTS amount, year, "
-                "semester, or section. Ignore chunks from other programmes or degree levels, even if their wording is similar. "
+                "Use only context chunks whose metadata matches the requested programme, degree level, semester or if applicable ECTS or headings like year or section"
+                "Ignore chunks from other programmes or degree levels, even if their wording is similar. But please note that context in other languages is still relevant, only metadata are english, headers can be german, french or italian. "
                 "When course rows are present, extract the course code, course title, semester, language, assessment, ECTS, "
                 "and teacher if available. Do not invent missing course data. "
                 "Always cite sources as [filename p.X].",
@@ -751,12 +752,13 @@ def answer_question(
 ) -> Tuple[str, List[dict]]:
     final_k = k or settings.k
 
-    docs, retrieval_debug = _retrieve_metadata_and_language_aware(
-        db=db,
-        question=question,
-        k=final_k,
-        language=language,
-    )
+    with timed_step("rag.retrieve", k=final_k):
+        docs, retrieval_debug = _retrieve_metadata_and_language_aware(
+            db=db,
+            question=question,
+            k=final_k,
+            language=language,
+        )
 
     if not docs:
         fallback_by_language = {
@@ -803,7 +805,8 @@ def answer_question(
 
     prompt = _build_prompt(language)
     msg = prompt.format_messages(question=question, context=context)
-    resp = llm.invoke(msg)
+    with timed_step("rag.llm_answer"):
+        resp = llm.invoke(msg)
 
     sources = []
 

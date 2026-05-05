@@ -1,11 +1,26 @@
 import re
 from typing import Any, Dict, List
+import logging
 
 from .planner import plan_tool_usage
 from .backend_tools import TOOLS
 from .ollama_rag import answer_question as rag_answer
 from .session_state import update_session_state
 from .hero_semester import is_plan_semester_hero, start_plan_semester_flow
+from .performance import timed_step
+
+logger = logging.getLogger(__name__)
+
+def _has_tool_result(result: Any) -> bool:
+    if result is None:
+        return False
+    if isinstance(result, list):
+        return len(result) > 0
+    if isinstance(result, dict):
+        return len(result) > 0
+    if isinstance(result, str):
+        return bool(result.strip())
+    return True
 
 
 def _format_tool_result(tool_name: str, result: Any) -> str:
@@ -36,28 +51,24 @@ def _format_tool_result(tool_name: str, result: Any) -> str:
     return str(result)
 
 
-def _extract_semester_count(text: str) -> int | None:
-    match = re.search(
-        r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)\b",
-        text.lower()
-    )
+def _select_rag_db(question: str, db_study=None, db_regl=None):
+    q = question.lower()
 
-    if not match:
-        return None
+    study_keywords = [
+        "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
+        "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
+        "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
+    ]
 
-    value = int(match.group(1))
+    regl_keywords = [
+        "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
+    ]
 
-    if 1 <= value <= 12:
-        return value
-
-    return None
-
-
-def _extract_program_id(text: str) -> int | None:
-    match = re.search(r"\b(?:id\s*)?(\d+)\b", text.lower())
-    if not match:
-        return None
-    return int(match.group(1))
+    if any(k in q for k in study_keywords):
+        return db_study or db_regl
+    if any(k in q for k in regl_keywords):
+        return db_regl or db_study
+    return db_study or db_regl
 
 
 def _extract_semester_count(text: str) -> int | None:
@@ -73,15 +84,24 @@ def _extract_semester_count(text: str) -> int | None:
     return None
 
 
+def _extract_program_id(text: str) -> int | None:
+    match = re.search(r"\b(?:id\s*)?(\d+)\b", text.lower())
+    if not match:
+        return None
+    return int(match.group(1))
+
+
 def _extract_total_ects(text: str) -> int | None:
     match = re.search(r"\b(\d{2,3})\s*ects\b", text.lower())
     if not match:
         return None
     return int(match.group(1))
 
+
 def _extract_semester_id(text: str) -> str | None:
     ids = _extract_semester_ids(text)
     return ids[0] if ids else None
+
 
 def _extract_semester_ids(text: str) -> list[str]:
     matches = re.findall(r"\b(FS|HS|SS|AS)[-\s]?(\d{4})\b", text, re.IGNORECASE)
@@ -115,8 +135,10 @@ def is_plan_study_program_hero(question: str) -> bool:
         "__hero__:complete_study_plan",
     }
 
+
 def is_plan_mobility_hero(question: str) -> bool:
     return question.strip().lower() == "__hero__:plan_mobility"
+
 
 def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
     session_state["hero_flow"] = {
@@ -154,30 +176,22 @@ def format_semester_plan(result: Dict[str, Any]) -> str:
         return "I did not find course offerings for this program in the selected semester."
 
     lines = ["Here are the available courses for this semester:\n"]
-
     time_map = {}
 
     for c in courses:
         name = c.get("course_name") or c.get("code")
         time_info = c.get("day_time_info")
-
         if time_info:
             time_map.setdefault(time_info, []).append(name)
 
-    conflicts = {
-        t: names for t, names in time_map.items() if len(names) > 1
-    }
+    conflicts = {t: names for t, names in time_map.items() if len(names) > 1}
 
     for c in courses:
         mandatory = bool(c.get("mandatory_for"))
         tag = "mandatory" if mandatory else "elective"
-
         name = c.get("course_name") or c.get("code")
 
-        lines.append(
-            f"- **{name}** "
-            f"({c.get('code')}, {c.get('ects')} ECTS, {tag})"
-        )
+        lines.append(f"- **{name}** ({c.get('code')}, {c.get('ects')} ECTS, {tag})")
 
         if c.get("day_time_info"):
             lines.append(f"  - Time: {c['day_time_info']}")
@@ -220,7 +234,6 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
     mandatory_ects = result.get("mandatory_ects")
 
     lines = []
-
     lines.append(f"Here is a complete study plan draft for **{program_name}**.")
 
     if total_ects:
@@ -346,6 +359,7 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
         )
 
     return "\n".join(lines)
+
 
 def format_mobility_plan(result: Dict[str, Any]) -> str:
     lines = [f"Here are mobility-enabled course candidates for **{result['interest']}**."]
@@ -495,11 +509,12 @@ def answer_question(
                     "planning_errors": None,
                 }
 
-            programs = TOOLS["get_planner_programs"](
-                q=cleaned_question,
-                degree_level="Bachelor" if "bachelor" in question.lower() else None,
-                locale=language or "en",
-            )
+            with timed_step("tool.get_planner_programs", flow="study_program"):
+                programs = TOOLS["get_planner_programs"](
+                    q=cleaned_question,
+                    degree_level="Bachelor" if "bachelor" in question.lower() else None,
+                    locale=language or "en",
+                )
 
             if not programs:
                 return {
@@ -569,11 +584,13 @@ def answer_question(
         if total_ects:
             planner_args["total_ects"] = total_ects
 
-        planner_result = TOOLS["get_study_program_plan"](**planner_args)
+        with timed_step("tool.get_study_program_plan"):
+            planner_result = TOOLS["get_study_program_plan"](**planner_args)
 
         print("DEBUG study_program_plan result:", planner_result)
 
-        answer = format_study_program_plan(planner_result)
+        with timed_step("answer.format_study_program_plan"):
+            answer = format_study_program_plan(planner_result)
 
         session_state["hero_flow"] = None
 
@@ -587,7 +604,7 @@ def answer_question(
         }
 
     # ---------------------------------------------------------------------
-    # Existing semester planner flow — kept from your old working version
+    # Existing semester planner flow
     # ---------------------------------------------------------------------
     if flow and flow.get("name") == "plan_semester":
         sem_id = flow.get("sem_id")
@@ -649,11 +666,12 @@ def answer_question(
                     "planning_errors": None,
                 }
 
-            programs = TOOLS["get_planner_programs"](
-                q=cleaned_question,
-                degree_level="Bachelor" if "bachelor" in question.lower() else None,
-                locale=language or "en",
-            )
+            with timed_step("tool.get_planner_programs", flow="study_program"):
+                programs = TOOLS["get_planner_programs"](
+                    q=cleaned_question,
+                    degree_level="Bachelor" if "bachelor" in question.lower() else None,
+                    locale=language or "en",
+                )
 
             if not programs:
                 return {
@@ -715,7 +733,7 @@ def answer_question(
             "plan": {"mode": "hero"},
             "planning_errors": None,
         }
-    
+
     if flow and flow.get("name") == "plan_mobility":
         semesters = _extract_semester_ids(question)
         interest = _strip_semesters(question)
@@ -761,15 +779,27 @@ def answer_question(
     # Normal tool/RAG behavior
     # ---------------------------------------------------------------------
     if run_mode and run_mode != "auto":
-        plan = {
-            "mode": run_mode,
-            "tool_calls": [],
-            "reason": f"Forced mode: {run_mode}",
-        }
-        planning_errors = None
+        if run_mode == "tool":
+            try:
+                with timed_step("planner.total"):
+                    plan = plan_tool_usage(question, session_state=session_state)
+                plan["mode"] = "tool"
+                plan["reason"] = "Forced mode: tool, planner used for tool calls"
+                planning_errors = None
+            except Exception as e:
+                plan = {"mode": "tool", "tool_calls": [], "reason": "Forced tool mode, planner failed"}
+                planning_errors = str(e)
+        else:
+            plan = {
+                "mode": run_mode,
+                "tool_calls": [],
+                "reason": f"Forced mode: {run_mode}",
+            }
+            planning_errors = None
     else:
         try:
-            plan = plan_tool_usage(question, session_state=session_state)
+            with timed_step("planner.total"):
+                plan = plan_tool_usage(question, session_state=session_state)
             planning_errors = None
         except Exception as e:
             plan = {"mode": "rag", "tool_calls": [], "reason": "Planner fallback"}
@@ -779,14 +809,24 @@ def answer_question(
     tool_results: List[Dict[str, Any]] = []
     sources = []
     answer_parts: List[str] = []
+    debug_tool_calls = []
 
     if mode in ("tool", "hybrid"):
         for call in plan.get("tool_calls", []):
             tool_name = call.get("tool")
-            args = call.get("args", {}) or {}
+            raw_args = call.get("args", {}) or {}
+            args = dict(raw_args)
 
             allowed_args_by_tool = {
-                "get_courses": {"name_contains", "code", "program_id", "locale"},
+                "get_courses": {
+                    "ects", "faculty_id", "faculty_name", "domain_id", "domain_name",
+                    "language", "semester", "name_contains", "mobility", "soft_skills",
+                    "program_id", "program_name", "limit", "locale",
+                },
+                "get_program_courses_by_metadata": {
+                    "program_en", "program_de", "program_fr", "program_id", "degree_level", "faculty_id",
+                    "faculty_name", "semester", "language", "locale", "limit",
+                },
                 "get_planner_programs": {"q", "degree_level", "locale"},
                 "get_planner_courses": {"sem_id", "program_ids", "locale"},
                 "get_study_program_plan": {"program_id", "semesters", "locale", "total_ects"},
@@ -804,70 +844,121 @@ def answer_question(
                     "result": None,
                     "error": f"Unknown tool: {tool_name}",
                 })
-                answer_parts.append(f"{tool_name} failed: unknown tool")
+                continue
+
+            debug_entry = {
+                "tool": tool_name,
+                "raw_args": raw_args,
+                "filtered_args": args,
+                "result_type": None,
+                "result_count": None,
+                "sample_codes": [],
+                "error": None,
+            }
+
+            if tool_name == "get_courses" and not args and any(
+                x.get("tool") == "get_program_courses_by_metadata"
+                for x in tool_results
+            ):
+                debug_entry["error"] = "Skipped broad get_courses after program-specific tool call"
+                debug_tool_calls.append(debug_entry)
+                logger.warning(
+                    "Skipped broad get_courses after program-specific tool call: raw_args=%s filtered_args=%s",
+                    raw_args,
+                    args,
+                )
                 continue
 
             try:
-                result = tool_fn(**args)
+                with timed_step(f"tool.{tool_name}"):
+                    result = tool_fn(**args)
+
                 tool_results.append({
                     "tool": tool_name,
                     "result": result,
                 })
-                answer_parts.append(_format_tool_result(tool_name, result))
+
+                # Important: only add non-empty tool results to the visible answer.
+                # Empty results are still kept in tool_results for debugging and session state.
+                if _has_tool_result(result):
+                    answer_parts.append(_format_tool_result(tool_name, result))
+
+                debug_entry["result_type"] = type(result).__name__
+
+                if isinstance(result, list):
+                    debug_entry["result_count"] = len(result)
+                    debug_entry["sample_codes"] = [
+                        x.get("code")
+                        for x in result[:5]
+                        if isinstance(x, dict) and x.get("code")
+                    ]
+                elif isinstance(result, dict):
+                    debug_entry["result_count"] = len(result)
+
+                debug_tool_calls.append(debug_entry)
+
+                logger.info(
+                    "Tool call: tool=%s raw_args=%s filtered_args=%s result_type=%s result_count=%s sample_codes=%s",
+                    tool_name,
+                    raw_args,
+                    args,
+                    debug_entry["result_type"],
+                    debug_entry["result_count"],
+                    debug_entry["sample_codes"],
+                )
+
             except Exception as e:
                 tool_results.append({
                     "tool": tool_name,
                     "result": None,
                     "error": str(e),
                 })
+                # Tool errors are useful to keep visible, but empty results are not.
                 answer_parts.append(f"{tool_name} failed: {e}")
 
-    if mode in ("rag", "hybrid"):
-        q = question.lower()
+                debug_entry["error"] = str(e)
+                debug_tool_calls.append(debug_entry)
+                logger.exception("Tool call failed: tool=%s raw_args=%s filtered_args=%s", tool_name, raw_args, args)
 
-        study_keywords = [
-            "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
-            "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
-            "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
-        ]
+    tool_mode_found_anything = any(
+        _has_tool_result(x.get("result"))
+        for x in tool_results
+        if not x.get("error")
+    )
 
-        regl_keywords = [
-            "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
-        ]
+    should_run_rag = mode in ("rag", "hybrid") or (mode == "tool" and not tool_mode_found_anything)
 
-        if any(k in q for k in study_keywords):
-            db = db_study or db_regl
-        elif any(k in q for k in regl_keywords):
-            db = db_regl or db_study
-        else:
-            db = db_study or db_regl
+    if should_run_rag:
+        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl)
 
         if db is not None:
-            rag_text, rag_sources = rag_answer(
-                db=db,
-                question=question,
-                language=language,
-            )
+            with timed_step("rag.total"):
+                rag_text, rag_sources = rag_answer(
+                    db=db,
+                    question=question,
+                    language=language,
+                )
             sources.extend(rag_sources)
 
-            if mode == "rag":
+            if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
                 final_answer = rag_text
             else:
                 answer_parts.append("Document answer:\n" + rag_text)
         else:
-            if mode == "rag":
+            if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
                 final_answer = "The document index is not loaded."
             else:
                 answer_parts.append("The document index is not loaded.")
 
-    if mode == "tool":
-        final_answer = "\n".join(answer_parts) if answer_parts else "No tool result available."
+    if mode == "tool" and not final_answer:
+        final_answer = "\n".join(answer_parts) if answer_parts else "No matching result found."
     elif mode == "hybrid":
         final_answer = "\n\n".join(part for part in answer_parts if part) or "No answer available."
     elif mode == "rag" and not final_answer:
         final_answer = "No answer available."
 
-    new_session_state = update_session_state(session_state, tool_results)
+    with timed_step("session.update_state"):
+        new_session_state = update_session_state(session_state, tool_results)
 
     return {
         "answer": final_answer,
@@ -876,4 +967,11 @@ def answer_question(
         "session_state": new_session_state,
         "plan": plan,
         "planning_errors": planning_errors,
+
+        "debug": {
+            "mode": mode,
+            "planned_tool_calls": plan.get("tool_calls", []),
+            "executed_tool_calls": debug_tool_calls,
+            "tool_mode_found_anything": tool_mode_found_anything,
+        },
     }

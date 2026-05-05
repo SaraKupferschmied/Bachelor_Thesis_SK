@@ -99,5 +99,16 @@ docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc
 
 python scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\cleanup_historical_unifr_docs.py ^  --index scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\_index.jsonl ^  --parsed-dir scrapy_crawler\outputs\parsed_fulltext_docling_new_clean ^  --apply
 
-export RAG_PARSER=docling_language_aware
-python -m app.build_faiss_docling_language_aware --target studyplans --force
+set RAG_PARSER=docling_language_aware
+python -m chatbot.app.build_faiss_docling_language_aware --target studyplans --force
+
+validation 
+1. programs
+cd scrapy_crawler
+scrapy crawl expected_programs -O scrapy_crawler/validation/metrics/compare_programs/programs.json
+
+cd scrapy_crawler\validation
+- python compare_programs.py
+- python validate_courses.py ^  --courses ../spider_outputs/courses.json ^  --output-prefix courses
+- python validate_programs.py ^  --programs-file ../spider_outputs/programmes_with_curricula_enriched.json ^  --output-dir ./metrics/validate_programs_curricula
+- python validate_programs.py ^  --programs-file ../spider_outputs/program_links_with_ects_and_docs.json ^  --output-dir ./metrics/validate_programs_docs

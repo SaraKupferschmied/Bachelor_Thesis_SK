@@ -1,0 +1,432 @@
+program,url,title,similarity,reason
+Computer Science | Informatik | Informatique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.15,low_name_similarity_multilingual_heuristic
+Computer Science | Informatik | Informatique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.15,low_name_similarity_multilingual_heuristic
+Computer Science | Informatik | Informatique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.15,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/CEsEp,go CEsEp,0.1548,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/snCHT,go snCHT,0.1655,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/CEsEp,go CEsEp,0.1548,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/snCHT,go snCHT,0.1655,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/i5uLu,go i5uLu,0.0857,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,https://studies.unifr.ch/go/i,go i,0.1,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/i5uLu,go i5uLu,0.0857,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,https://studies.unifr.ch/go/i,go i,0.1,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,http://studies.unifr.ch/go/i5uLu,go i5uLu,0.0857,low_name_similarity_multilingual_heuristic
+Business Informatics | Wirtschaftsinformatik | Informatique de gestion,https://studies.unifr.ch/go/i,go i,0.1,low_name_similarity_multilingual_heuristic
+Experimental Biomedical Research | Experimentelle biomedizinische Forschung | Recherche biomédicale expérimentale,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1116,low_name_similarity_multilingual_heuristic
+Sport Sciences | Sportwissenschaften | Sciences du sport,http://studies.unifr.ch/go/z3FE1,go z3FE1,0.1636,low_name_similarity_multilingual_heuristic
+Sport Sciences | Sportwissenschaften | Sciences du sport,http://studies.unifr.ch/go/xZPll,go xZPll,0.096,low_name_similarity_multilingual_heuristic
+Sport Sciences | Sportwissenschaften | Sciences du sport,http://studies.unifr.ch/go/z3FE1,go z3FE1,0.1636,low_name_similarity_multilingual_heuristic
+Sport Sciences | Sportwissenschaften | Sciences du sport,http://studies.unifr.ch/go/xZPll,go xZPll,0.096,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1429,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.09,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1429,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.09,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1429,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.09,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1429,low_name_similarity_multilingual_heuristic
+Sport Sciences and Motor Control | Sport- und Bewegungswissenschaften | Sciences du sport et de la motricité,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.09,low_name_similarity_multilingual_heuristic
+Biomedical Sciences | Biomedizinische Wissenschaften | Sciences biomédicales,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1579,low_name_similarity_multilingual_heuristic
+Biomedical Sciences | Biomedizinische Wissenschaften | Sciences biomédicales,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0889,low_name_similarity_multilingual_heuristic
+Biomedical Sciences | Biomedizinische Wissenschaften | Sciences biomédicales,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1579,low_name_similarity_multilingual_heuristic
+Biomedical Sciences | Biomedizinische Wissenschaften | Sciences biomédicales,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0889,low_name_similarity_multilingual_heuristic
+Human Medicine | Humanmedizin | Médecine humaine,http://studies.unifr.ch/go/xZPll,go xZPll,0.06,low_name_similarity_multilingual_heuristic
+Human Medicine | Humanmedizin | Médecine humaine,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.06,low_name_similarity_multilingual_heuristic
+Human Medicine | Humanmedizin | Médecine humaine,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1091,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0,low_name_similarity_multilingual_heuristic
+Islam and Society | Islam und Gesellschaft | Islam et société,https://studies.unifr.ch/go/1e,go 1e,0.1143,low_name_similarity_multilingual_heuristic
+Islam and Society | Islam und Gesellschaft | Islam et société,https://studies.unifr.ch/go/1d,go 1d,0.1091,low_name_similarity_multilingual_heuristic
+Islam and Society | Islam und Gesellschaft | Islam et société,https://studies.unifr.ch/go/1e,go 1e,0.1143,low_name_similarity_multilingual_heuristic
+Islam and Society | Islam und Gesellschaft | Islam et société,https://studies.unifr.ch/go/1d,go 1d,0.1091,low_name_similarity_multilingual_heuristic
+"Family, Children and Youth Studies | Familien-, Kinder- und Jugendstudien | Études sur la famille, l'enfance et la jeunesse",https://studies.unifr.ch/go/1c,go 1c,0.0615,low_name_similarity_multilingual_heuristic
+"Family, Children and Youth Studies | Familien-, Kinder- und Jugendstudien | Études sur la famille, l'enfance et la jeunesse",https://studies.unifr.ch/go/1c,go 1c,0.0615,low_name_similarity_multilingual_heuristic
+Environmental Humanities and Sustainability Studies | Umweltgeisteswissenschaften und Nachhaltigkeitsforschung | Humanités environnementales et durabilité,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.061,low_name_similarity_multilingual_heuristic
+Environmental Humanities and Sustainability Studies | Umweltgeisteswissenschaften und Nachhaltigkeitsforschung | Humanités environnementales et durabilité,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.061,low_name_similarity_multilingual_heuristic
+Digital Society | Digital Society | Digital Society,https://studies.unifr.ch/go/1x,go 1x,0.12,low_name_similarity_multilingual_heuristic
+Digital Society | Digital Society | Digital Society,https://studies.unifr.ch/go/1x,go 1x,0.12,low_name_similarity_multilingual_heuristic
+Teacher Education for Baccalaureate Schools | Ausbildung für den Unterricht an Maturitätsschulen | Formation à l'enseignement pour les écoles de maturité,https://studies.unifr.ch/go/1J,go 1J,0.0436,low_name_similarity_multilingual_heuristic
+Teacher Education for Baccalaureate Schools | Ausbildung für den Unterricht an Maturitätsschulen | Formation à l'enseignement pour les écoles de maturité,https://studies.unifr.ch/go/1I,go 1I,0.05,low_name_similarity_multilingual_heuristic
+Teacher Education for Secondary Level I | Ausbildung für den Unterricht auf der Sekundarstufe I | Formation à l'enseignement pour le degré secondaire I,https://studies.unifr.ch/go/1J,go 1J,0.0414,low_name_similarity_multilingual_heuristic
+Teacher Education for Secondary Level I | Ausbildung für den Unterricht auf der Sekundarstufe I | Formation à l'enseignement pour le degré secondaire I,https://studies.unifr.ch/go/1I,go 1I,0.0545,low_name_similarity_multilingual_heuristic
+Teacher Education for Primary Level | Ausbildung für den Unterricht auf der Primarstufe | Formation à l'enseignement pour le degré primaire,https://studies.unifr.ch/go/1J,go 1J,0.0444,low_name_similarity_multilingual_heuristic
+Teacher Education for Primary Level | Ausbildung für den Unterricht auf der Primarstufe | Formation à l'enseignement pour le degré primaire,https://studies.unifr.ch/go/1I,go 1I,0.06,low_name_similarity_multilingual_heuristic
+Digital Neuroscience | Digitale Neurowissenschaft | Neurosciences digitales,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1161,low_name_similarity_multilingual_heuristic
+Bioinformatics and Computational Biology | Bioinformatik und computationale Biologie | Bioinformatique et biologie computationnelle,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.075,low_name_similarity_multilingual_heuristic
+Data Analytics & Economics | Data Analytics & Economics | Data Analytics & Economics,http://studies.unifr.ch/go/8knyG,go 8knyG,0.1059,low_name_similarity_multilingual_heuristic
+Data Analytics & Economics | Data Analytics & Economics | Data Analytics & Economics,http://studies.unifr.ch/go/8knyG,go 8knyG,0.1059,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0857,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0857,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0,low_name_similarity_multilingual_heuristic
+Physics | Physik | Physique,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0857,low_name_similarity_multilingual_heuristic
+"Nature, Society and Politics | Natur, Gesellschaft und Politik | Nature, société et politique",http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0333,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1333,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1333,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0667,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1333,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0667,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1333,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0667,low_name_similarity_multilingual_heuristic
+Mathematics | Mathematik | Mathématiques,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1333,low_name_similarity_multilingual_heuristic
+Geography | Geographie | Géographie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1412,low_name_similarity_multilingual_heuristic
+Geography | Geographie | Géographie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1412,low_name_similarity_multilingual_heuristic
+Geography | Geographie | Géographie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.1412,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.08,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.08,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/DVvZG,go DVvZG,0.0727,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/NW1tn,go NW1tn,0.06,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/DVvZG,go DVvZG,0.0727,low_name_similarity_multilingual_heuristic
+Environmental Sciences and Humanities | Umweltwissenschaften und Umweltgeisteswissenschaften | Sciences de l'environnement et humanités environnementales,http://studies.unifr.ch/go/NW1tn,go NW1tn,0.06,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0857,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.144,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0545,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.144,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0545,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.144,low_name_similarity_multilingual_heuristic
+Earth Sciences | Erdwissenschaften | Sciences de la Terre,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.0545,low_name_similarity_multilingual_heuristic
+Dynamics in Glaciology and Geomorphology | Dynamische Systeme in Glaziologie und Geomorphologie | Glaciologie et géomorphologie dynamiques,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.05,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0857,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0857,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.0857,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0706,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1412,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0706,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1412,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0706,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1412,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.0706,low_name_similarity_multilingual_heuristic
+Chemistry | Chemie | Chimie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.1412,low_name_similarity_multilingual_heuristic
+Environmental Biology | Umweltbiologie | Biologie de l'environnement,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1241,low_name_similarity_multilingual_heuristic
+Environmental Biology | Umweltbiologie | Biologie de l'environnement,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1241,low_name_similarity_multilingual_heuristic
+Environmental Biology | Umweltbiologie | Biologie de l'environnement,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1241,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.08,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.16,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.08,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.16,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.08,low_name_similarity_multilingual_heuristic
+Biology | Biologie | Biologie,http://studies.unifr.ch/go/mjkY5,go mjkY5,0.16,low_name_similarity_multilingual_heuristic
+Molecular Life and Health Sciences | Molekulare Lebens- und Gesundheitswissenschaften | Sciences moléculaires du vivant et de la santé,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1111,low_name_similarity_multilingual_heuristic
+Molecular Life and Health Sciences | Molekulare Lebens- und Gesundheitswissenschaften | Sciences moléculaires du vivant et de la santé,http://studies.unifr.ch/go/vBvMa,go vBvMa,0.1111,low_name_similarity_multilingual_heuristic
+Biochemistry | Biochemie | Biochimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.12,low_name_similarity_multilingual_heuristic
+Biochemistry | Biochemie | Biochimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.12,low_name_similarity_multilingual_heuristic
+Biochemistry | Biochemie | Biochimie,http://studies.unifr.ch/go/0fTFn,go 0fTFn,0.12,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/N7sl2,go N7sl2,0.1333,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/NhZN1,go NhZN1,0.0667,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/N7sl2,go N7sl2,0.1333,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/NhZN1,go NhZN1,0.0667,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/N7sl2,go N7sl2,0.1333,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/NhZN1,go NhZN1,0.0667,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/N7sl2,go N7sl2,0.1333,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/NhZN1,go NhZN1,0.0667,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/N7sl2,go N7sl2,0.1333,low_name_similarity_multilingual_heuristic
+Psychology | Psychologie | Psychologie,http://studies.unifr.ch/go/NhZN1,go NhZN1,0.0667,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1I,go 1I,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1I,go 1I,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1I,go 1I,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Pedagogy / Psychology | Pädagogik / Psychologie | Pédagogie / Psychologie,https://studies.unifr.ch/go/1I,go 1I,0.1385,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1J,go 1J,0.1043,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1I,go 1I,0.0522,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1J,go 1J,0.1043,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1I,go 1I,0.0522,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1J,go 1J,0.1043,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1I,go 1I,0.0522,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1J,go 1J,0.1043,low_name_similarity_multilingual_heuristic
+Education Sciences | Erziehungswissenschaften | Sciences de l'éducation,https://studies.unifr.ch/go/1I,go 1I,0.0522,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Remedial Education at School (DE) | Schulische Heilpädagogik | Enseignement spécialisé (DE),https://studies.unifr.ch/go/1J,go 1J,0.0828,low_name_similarity_multilingual_heuristic
+Remedial Education at School (DE) | Schulische Heilpädagogik | Enseignement spécialisé (DE),https://studies.unifr.ch/go/1J,go 1J,0.0828,low_name_similarity_multilingual_heuristic
+Remedial Education at School (FR) | Schulische Heilpädagogik (FR) | Enseignement spécialisé,https://studies.unifr.ch/go/1I,go 1I,0.1059,low_name_similarity_multilingual_heuristic
+Remedial Education at School (FR) | Schulische Heilpädagogik (FR) | Enseignement spécialisé,https://studies.unifr.ch/go/1I,go 1I,0.1059,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Speech-Language Therapy | Logopädie | Logopédie,https://studies.unifr.ch/go/1J,go 1J,0.1714,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik | Pédagogie spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.1385,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik und Sozialpädagogik | Éducation spécialisée,https://studies.unifr.ch/go/1J,go 1J,0.0923,low_name_similarity_multilingual_heuristic
+Special Education | Sonderpädagogik und Sozialpädagogik | Éducation spécialisée,https://studies.unifr.ch/go/1I,go 1I,0.09,low_name_similarity_multilingual_heuristic
+Sociology of Social Problems | Soziologie sozialer Probleme | Sociologie des problèmes sociaux,http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0667,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/jHFob,go jHFob,0.1778,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/NXJf7,go NXJf7,0.1333,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/jHFob,go jHFob,0.1778,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/NXJf7,go NXJf7,0.1333,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/jHFob,go jHFob,0.1778,low_name_similarity_multilingual_heuristic
+Social Anthropology | Sozialanthropologie | Anthropologie sociale,http://studies.unifr.ch/go/NXJf7,go NXJf7,0.1333,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.144,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/qN68x,go qN68x,0.144,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.144,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/qN68x,go qN68x,0.144,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.144,low_name_similarity_multilingual_heuristic
+Religious studies | Religionswissenschaft | Science des religions,http://studies.unifr.ch/go/qN68x,go qN68x,0.144,low_name_similarity_multilingual_heuristic
+Political Science | Politikwissenschaft | Science politique,https://studies.unifr.ch/go/c,go c,0.1143,low_name_similarity_multilingual_heuristic
+Political Science | Politikwissenschaft | Science politique,https://studies.unifr.ch/go/c,go c,0.1143,low_name_similarity_multilingual_heuristic
+International and Comparative Social Policy | International and Comparative Social Policy | International and Comparative Social Policy,http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0941,low_name_similarity_multilingual_heuristic
+"Gender, Society, Social Policy | Gender, Gesellschaft, Sozialpolitik | Genre, sociétés, politiques sociales",http://studies.unifr.ch/go/qsdGc,go qsdGc,0.1116,low_name_similarity_multilingual_heuristic
+European Studies | Europastudien | Études européennes,https://studies.unifr.ch/go/15,go 15,0.1143,low_name_similarity_multilingual_heuristic
+European Studies | Europastudien | Études européennes,https://studies.unifr.ch/go/14,go 14,0.1143,low_name_similarity_multilingual_heuristic
+European Studies | Europastudien | Études européennes,https://studies.unifr.ch/go/15,go 15,0.1143,low_name_similarity_multilingual_heuristic
+European Studies | Europastudien | Études européennes,https://studies.unifr.ch/go/14,go 14,0.1143,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/OKTj8,go OKTj8,0.1333,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/qdtqv,go qdtqv,0.096,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/OKTj8,go OKTj8,0.1333,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/qdtqv,go qdtqv,0.096,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/OKTj8,go OKTj8,0.1333,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/qdtqv,go qdtqv,0.096,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/OKTj8,go OKTj8,0.1333,low_name_similarity_multilingual_heuristic
+Eastern European Studies | Osteuropa-Studien | Études de l'Europe orientale,http://studies.unifr.ch/go/qdtqv,go qdtqv,0.096,low_name_similarity_multilingual_heuristic
+"Sociology, Social Policy, Social Work | Soziologie, Sozialpolitik, Sozialarbeit | Sociologie, politiques sociales, travail social",http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0533,low_name_similarity_multilingual_heuristic
+"Sociology, Social Policy, Social Work | Soziologie, Sozialpolitik, Sozialarbeit | Sociologie, politiques sociales, travail social",http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0533,low_name_similarity_multilingual_heuristic
+Social Work and Social Policy (DE) | Sozialarbeit und Sozialpolitik | Travail social et politiques sociales (DE),http://studies.unifr.ch/go/qsdGc,go qsdGc,0.072,low_name_similarity_multilingual_heuristic
+Social Work and Social Policy (DE) | Sozialarbeit und Sozialpolitik | Travail social et politiques sociales (DE),http://studies.unifr.ch/go/qsdGc,go qsdGc,0.072,low_name_similarity_multilingual_heuristic
+"Social Problems, Social Policy and Risk Prevention | Soziale Probleme, Sozialpolitik und Risikoprävention | Problèmes sociaux, politiques sociales et préventions des risques",http://studies.unifr.ch/go/pXlgA,go pXlgA,0.1034,low_name_similarity_multilingual_heuristic
+"Social Problems, Social Policy and Risk Prevention | Soziale Probleme, Sozialpolitik und Risikoprävention | Problèmes sociaux, politiques sociales et préventions des risques",http://studies.unifr.ch/go/pXlgA,go pXlgA,0.1034,low_name_similarity_multilingual_heuristic
+Social Work and Social Policy (FR) | Sozialarbeit und Sozialpolitik (FR) | Travail social et politiques sociales,http://studies.unifr.ch/go/3v29r,go 3v29r,0.0857,low_name_similarity_multilingual_heuristic
+Social Work and Social Policy (FR) | Sozialarbeit und Sozialpolitik (FR) | Travail social et politiques sociales,http://studies.unifr.ch/go/3v29r,go 3v29r,0.0857,low_name_similarity_multilingual_heuristic
+Social Work and Social Policy (FR) | Sozialarbeit und Sozialpolitik (FR) | Travail social et politiques sociales,http://studies.unifr.ch/go/3v29r,go 3v29r,0.0857,low_name_similarity_multilingual_heuristic
+"Sociology, Social Policy, Social Work | Soziologie, Sozialpolitik, Sozialarbeit | Sociologie, politiques sociales, travail social",http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0533,low_name_similarity_multilingual_heuristic
+"Sociology, Social Policy, Social Work | Soziologie, Sozialpolitik, Sozialarbeit | Sociologie, politiques sociales, travail social",http://studies.unifr.ch/go/qsdGc,go qsdGc,0.0533,low_name_similarity_multilingual_heuristic
+Sociology (DE) | Soziologie | Sociologie (DE),http://studies.unifr.ch/go/qsdGc,go qsdGc,0.1333,low_name_similarity_multilingual_heuristic
+Sociology (DE) | Soziologie | Sociologie (DE),http://studies.unifr.ch/go/qsdGc,go qsdGc,0.1333,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/A0cJ8,go A0cJ8,0.0787,low_name_similarity_multilingual_heuristic
+"Culture, Politics and Religion in Pluralist Societies | Kultur, Politik und Religion in der pluralistischen Gesellschaft | Sociétés plurielles: cultures, politique et religions",https://studies.unifr.ch/go/qN68x,go qN68x,0.0787,low_name_similarity_multilingual_heuristic
+Sociology (FR) | Soziologie (FR) | Sociologie,http://studies.unifr.ch/go/sQ1my,go sQ1my,0.1091,low_name_similarity_multilingual_heuristic
+Sociology (FR) | Soziologie (FR) | Sociologie,http://studies.unifr.ch/go/sQ1my,go sQ1my,0.1091,low_name_similarity_multilingual_heuristic
+Sociology (FR) | Soziologie (FR) | Sociologie,http://studies.unifr.ch/go/sQ1my,go sQ1my,0.1091,low_name_similarity_multilingual_heuristic
+Archaeology | Archäologie | Archéologie,http://studies.unifr.ch/go/nJ3Zw,go nJ3Zw,0.0632,low_name_similarity_multilingual_heuristic
+Archaeology | Archäologie | Archéologie,http://studies.unifr.ch/go/7oYad,go 7oYad,0.0632,low_name_similarity_multilingual_heuristic
+Archaeology | Archäologie | Archéologie,http://studies.unifr.ch/go/nJ3Zw,go nJ3Zw,0.0632,low_name_similarity_multilingual_heuristic
+Archaeology | Archäologie | Archéologie,http://studies.unifr.ch/go/7oYad,go 7oYad,0.0632,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/q,go q,0.0686,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/p,go p,0.1029,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/q,go q,0.0686,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/p,go p,0.1029,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/q,go q,0.0686,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/p,go p,0.1029,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/q,go q,0.0686,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/p,go p,0.1029,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/q,go q,0.0686,low_name_similarity_multilingual_heuristic
+Musicology and History of Opera | Musikwissenschaft und Geschichte des Musiktheaters | Musicologie et histoire du théâtre musical,https://studies.unifr.ch/go/p,go p,0.1029,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/nJ3Zw,go nJ3Zw,0.096,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/7oYad,go 7oYad,0.144,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/nJ3Zw,go nJ3Zw,0.096,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/7oYad,go 7oYad,0.144,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/6TFjB,go 6TFjB,0.0632,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/JpcAi,go JpcAi,0.1565,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/6TFjB,go 6TFjB,0.0632,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/JpcAi,go JpcAi,0.1565,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/6TFjB,go 6TFjB,0.0632,low_name_similarity_multilingual_heuristic
+Art History | Kunstgeschichte | Histoire de l'art,http://studies.unifr.ch/go/JpcAi,go JpcAi,0.1565,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/iaDtL,go iaDtL,0.1091,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/WSTjs,go WSTjs,0.1714,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/iaDtL,go iaDtL,0.1091,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/WSTjs,go WSTjs,0.1714,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/iaDtL,go iaDtL,0.1091,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/WSTjs,go WSTjs,0.1714,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/iaDtL,go iaDtL,0.1091,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/WSTjs,go WSTjs,0.1714,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/iaDtL,go iaDtL,0.1091,low_name_similarity_multilingual_heuristic
+Contemporary History | Zeitgeschichte | Histoire contemporaine,http://studies.unifr.ch/go/WSTjs,go WSTjs,0.1714,low_name_similarity_multilingual_heuristic
+General and Swiss History of Modern Times | Allgemeine und Schweizergeschichte der Neuzeit | Histoire générale et suisse de l'époque moderne,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.1091,low_name_similarity_multilingual_heuristic
+General and Swiss History of Modern Times | Allgemeine und Schweizergeschichte der Neuzeit | Histoire générale et suisse de l'époque moderne,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.0889,low_name_similarity_multilingual_heuristic
+General and Swiss History of Modern Times | Allgemeine und Schweizergeschichte der Neuzeit | Histoire générale et suisse de l'époque moderne,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.1091,low_name_similarity_multilingual_heuristic
+General and Swiss History of Modern Times | Allgemeine und Schweizergeschichte der Neuzeit | Histoire générale et suisse de l'époque moderne,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.0889,low_name_similarity_multilingual_heuristic
+History of Modern Times | Geschichte der Moderne | Histoire de la modernité,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.15,low_name_similarity_multilingual_heuristic
+History of Modern Times | Geschichte der Moderne | Histoire de la modernité,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.08,low_name_similarity_multilingual_heuristic
+History of Modern Times | Geschichte der Moderne | Histoire de la modernité,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.15,low_name_similarity_multilingual_heuristic
+History of Modern Times | Geschichte der Moderne | Histoire de la modernité,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.08,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.16,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.1333,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.16,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.1333,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.16,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.1333,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.16,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.1333,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/l7ufr,go l7ufr,0.16,low_name_similarity_multilingual_heuristic
+History | Geschichte | Histoire,http://studies.unifr.ch/go/QgyUs,go QgyUs,0.1333,low_name_similarity_multilingual_heuristic
+Multilingualism Studies | Mehrsprachigkeitsforschung | Sciences du plurilinguisme,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1161,low_name_similarity_multilingual_heuristic
+Multilingualism Studies | Mehrsprachigkeitsforschung | Sciences du plurilinguisme,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.0387,low_name_similarity_multilingual_heuristic
+Multilingualism Studies | Mehrsprachigkeitsforschung | Sciences du plurilinguisme,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1161,low_name_similarity_multilingual_heuristic
+Multilingualism Studies | Mehrsprachigkeitsforschung | Sciences du plurilinguisme,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.0387,low_name_similarity_multilingual_heuristic
+Foreign Language Didactics | Fremdsprachendidaktik | Didactique des langues étrangères,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.0828,low_name_similarity_multilingual_heuristic
+Foreign Language Didactics | Fremdsprachendidaktik | Didactique des langues étrangères,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.1059,low_name_similarity_multilingual_heuristic
+Foreign Language Didactics | Fremdsprachendidaktik | Didactique des langues étrangères,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.0828,low_name_similarity_multilingual_heuristic
+Foreign Language Didactics | Fremdsprachendidaktik | Didactique des langues étrangères,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.1059,low_name_similarity_multilingual_heuristic
+French as a Foreign Language / French as a Second Language | Französisch als Fremdsprache / Französisch als Zweitsprache | Français langue étrangère / Français langue seconde,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.0407,low_name_similarity_multilingual_heuristic
+French as a Foreign Language / French as a Second Language | Französisch als Fremdsprache / Französisch als Zweitsprache | Français langue étrangère / Français langue seconde,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.0407,low_name_similarity_multilingual_heuristic
+French as a Foreign Language | Französisch als Fremdsprache | Français langue étrangère,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.0667,low_name_similarity_multilingual_heuristic
+German as a Foreign Language / German as a Second Language | Deutsch als Fremdsprache / Deutsch als Zweitsprache | Allemand langue étrangère / Allemand langue seconde,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.0727,low_name_similarity_multilingual_heuristic
+German as a Foreign Language / German as a Second Language | Deutsch als Fremdsprache / Deutsch als Zweitsprache | Allemand langue étrangère / Allemand langue seconde,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.0727,low_name_similarity_multilingual_heuristic
+German as a Foreign Language | Deutsch als Fremdsprache | Allemand langue étrangère,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1,low_name_similarity_multilingual_heuristic
+Spanish | Spanisch | Espagnol,http://studies.unifr.ch/go/h2ehx,go h2ehx,0.08,low_name_similarity_multilingual_heuristic
+Spanish | Spanisch | Espagnol,http://studies.unifr.ch/go/h2ehx,go h2ehx,0.08,low_name_similarity_multilingual_heuristic
+Spanish | Spanisch | Espagnol,http://studies.unifr.ch/go/ghIdR,go ghIdR,0.15,low_name_similarity_multilingual_heuristic
+Spanish | Spanisch | Espagnol,http://studies.unifr.ch/go/ghIdR,go ghIdR,0.15,low_name_similarity_multilingual_heuristic
+Spanish | Spanisch | Espagnol,http://studies.unifr.ch/go/ghIdR,go ghIdR,0.15,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/IZ758,go IZ758,0.0706,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/OlVB1,go OlVB1,0.1412,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/IZ758,go IZ758,0.0706,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/OlVB1,go OlVB1,0.1412,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/8S-ys,go 8S ys,0.1636,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/cvx5I,go cvx5I,0.1412,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/8S-ys,go 8S ys,0.1636,low_name_similarity_multilingual_heuristic
+Slavic Studies | Slavistik | Slavistique,http://studies.unifr.ch/go/cvx5I,go cvx5I,0.1412,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1263,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.1714,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1263,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.1714,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/IaFd2,go IaFd2,0.1263,low_name_similarity_multilingual_heuristic
+Rhaeto-Romance | Rätoromanisch | Rhéto-roman,http://studies.unifr.ch/go/ikZzC,go ikZzC,0.1714,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/jXVrf,go jXVrf,0.1091,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/9E-Ps,go 9E Ps,0.1455,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.0571,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.0727,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.0571,low_name_similarity_multilingual_heuristic
+Latin Studies | Lateinische Sprache und Kultur | Langue et culture latines,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.0727,low_name_similarity_multilingual_heuristic
+Italian [Double Degree] | Italienisch [Double Degree] | Italien [Double Degree],http://studies.unifr.ch/go/nNLOQ,go nNLOQ,0.0774,low_name_similarity_multilingual_heuristic
+Italian [Double Degree] | Italienisch [Double Degree] | Italien [Double Degree],http://studies.unifr.ch/go/nNLOQ,go nNLOQ,0.0774,low_name_similarity_multilingual_heuristic
+Italian | Italienisch | Italien,http://studies.unifr.ch/go/yxwhB,go yxwhB,0.0632,low_name_similarity_multilingual_heuristic
+Italian | Italienisch | Italien,http://studies.unifr.ch/go/yxwhB,go yxwhB,0.0632,low_name_similarity_multilingual_heuristic
+Italian | Italienisch | Italien,http://studies.unifr.ch/go/aVOzt,go aVOzt,0.08,low_name_similarity_multilingual_heuristic
+Italian | Italienisch | Italien,http://studies.unifr.ch/go/aVOzt,go aVOzt,0.08,low_name_similarity_multilingual_heuristic
+Italian | Italienisch | Italien,http://studies.unifr.ch/go/aVOzt,go aVOzt,0.08,low_name_similarity_multilingual_heuristic
+Greek Studies | Griechische Sprache und Kultur | Langue et culture grecques,http://studies.unifr.ch/go/jXVrf,go jXVrf,0.1143,low_name_similarity_multilingual_heuristic
+Greek Studies | Griechische Sprache und Kultur | Langue et culture grecques,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.1714,low_name_similarity_multilingual_heuristic
+Greek Studies | Griechische Sprache und Kultur | Langue et culture grecques,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.1714,low_name_similarity_multilingual_heuristic
+Greek Studies | Griechische Sprache und Kultur | Langue et culture grecques,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.1714,low_name_similarity_multilingual_heuristic
+Greek Studies | Griechische Sprache und Kultur | Langue et culture grecques,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.1714,low_name_similarity_multilingual_heuristic
+German | Germanistik | Germanistique,http://studies.unifr.ch/go/rC-uD,go rC uD,0.1714,low_name_similarity_multilingual_heuristic
+German | Germanistik | Germanistique,http://studies.unifr.ch/go/rC-uD,go rC uD,0.1714,low_name_similarity_multilingual_heuristic
+German | Germanistik | Germanistique,http://studies.unifr.ch/go/rC-uD,go rC uD,0.1714,low_name_similarity_multilingual_heuristic
+German | Germanistik | Germanistique,http://studies.unifr.ch/go/rC-uD,go rC uD,0.1714,low_name_similarity_multilingual_heuristic
+German | Germanistik | Germanistique,http://studies.unifr.ch/go/rC-uD,go rC uD,0.1714,low_name_similarity_multilingual_heuristic
+French and German: Bilingualism and Cultural Exchange | Deutsch und Französisch: Zweisprachigkeit und Kulturkontakt | Français et Allemand: Bilinguisme et échange culturel,https://studies.unifr.ch/go/rC-uD,go rC uD,0.0787,low_name_similarity_multilingual_heuristic
+French and German: Bilingualism and Cultural Exchange | Deutsch und Französisch: Zweisprachigkeit und Kulturkontakt | Français et Allemand: Bilinguisme et échange culturel,http://studies.unifr.ch/go/QQ8bi,go QQ8bi,0.059,low_name_similarity_multilingual_heuristic
+French | Französisch | Français,http://studies.unifr.ch/go/a3eVa,go a3eVa,0.15,low_name_similarity_multilingual_heuristic
+French | Französisch | Français,http://studies.unifr.ch/go/a3eVa,go a3eVa,0.15,low_name_similarity_multilingual_heuristic
+French | Französisch | Français,http://studies.unifr.ch/go/a3eVa,go a3eVa,0.15,low_name_similarity_multilingual_heuristic
+French | Französisch | Français,http://studies.unifr.ch/go/a3eVa,go a3eVa,0.15,low_name_similarity_multilingual_heuristic
+English Language and Literature | Englische Sprache und Literatur | Langue et littérature anglaises,http://studies.unifr.ch/go/TaufR,go TaufR,0.1538,low_name_similarity_multilingual_heuristic
+English Language and Literature | Englische Sprache und Literatur | Langue et littérature anglaises,http://studies.unifr.ch/go/TaufR,go TaufR,0.1538,low_name_similarity_multilingual_heuristic
+English Language and Literature | Englische Sprache und Literatur | Langue et littérature anglaises,http://studies.unifr.ch/go/TaufR,go TaufR,0.1538,low_name_similarity_multilingual_heuristic
+English Language and Literature | Englische Sprache und Literatur | Langue et littérature anglaises,http://studies.unifr.ch/go/TaufR,go TaufR,0.1538,low_name_similarity_multilingual_heuristic
+Comparative Literature | Allgemeine und vergleichende Literaturwissenschaft | Littérature générale et comparée,http://studies.unifr.ch/go/Gu8KZ,go Gu8KZ,0.12,low_name_similarity_multilingual_heuristic
+Comparative Literature | Allgemeine und vergleichende Literaturwissenschaft | Littérature générale et comparée,http://studies.unifr.ch/go/tjsxc,go tjsxc,0.0621,low_name_similarity_multilingual_heuristic
+Comparative Literature | Allgemeine und vergleichende Literaturwissenschaft | Littérature générale et comparée,http://studies.unifr.ch/go/Gu8KZ,go Gu8KZ,0.12,low_name_similarity_multilingual_heuristic
+Comparative Literature | Allgemeine und vergleichende Literaturwissenschaft | Littérature générale et comparée,http://studies.unifr.ch/go/tjsxc,go tjsxc,0.0621,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/jXVrf,go jXVrf,0.0857,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/9E-Ps,go 9E Ps,0.1714,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/jXVrf,go jXVrf,0.0857,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/9E-Ps,go 9E Ps,0.1714,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.0857,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.1714,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/gpUA1,go gpUA1,0.0857,low_name_similarity_multilingual_heuristic
+Classics | Klassische Philologie | Philologie classique,http://studies.unifr.ch/go/KRNiq,go KRNiq,0.1714,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/w99Kh,go w99Kh,0.0667,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/Rvrsm,go Rvrsm,0.1333,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/w99Kh,go w99Kh,0.0667,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/Rvrsm,go Rvrsm,0.1333,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/w99Kh,go w99Kh,0.0667,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/Rvrsm,go Rvrsm,0.1333,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/w99Kh,go w99Kh,0.0667,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/Rvrsm,go Rvrsm,0.1333,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/w99Kh,go w99Kh,0.0667,low_name_similarity_multilingual_heuristic
+Philosophy | Philosophie | Philosophie,http://studies.unifr.ch/go/Rvrsm,go Rvrsm,0.1333,low_name_similarity_multilingual_heuristic
+Digital Communication and Creative Media Production | Digital Communication and Creative Media Production | Digital Communication and Creative Media Production,https://studies.unifr.ch/go/1N,go 1N,0.0643,low_name_similarity_multilingual_heuristic
+Digital Communication and Creative Media Production | Digital Communication and Creative Media Production | Digital Communication and Creative Media Production,https://studies.unifr.ch/go/1N,go 1N,0.0643,low_name_similarity_multilingual_heuristic
+Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact,http://studies.unifr.ch/go/hxTyS,go hxTyS,0.0655,low_name_similarity_multilingual_heuristic
+Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact,http://studies.unifr.ch/go/hxTyS,go hxTyS,0.0655,low_name_similarity_multilingual_heuristic
+Communication Studies | Kommunikationswissenschaft | Sciences de la communication,http://studies.unifr.ch/go/Pc4M3,go Pc4M3,0.0828,low_name_similarity_multilingual_heuristic
+Communication Studies | Kommunikationswissenschaft | Sciences de la communication,http://studies.unifr.ch/go/Pc4M3,go Pc4M3,0.0828,low_name_similarity_multilingual_heuristic
+Communication Studies | Kommunikationswissenschaft | Sciences de la communication,http://studies.unifr.ch/go/Pc4M3,go Pc4M3,0.0828,low_name_similarity_multilingual_heuristic
+Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact,http://studies.unifr.ch/go/hxTyS,go hxTyS,0.0655,low_name_similarity_multilingual_heuristic
+Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact | Digital Media & Communication for Social Impact,http://studies.unifr.ch/go/hxTyS,go hxTyS,0.0655,low_name_similarity_multilingual_heuristic
+Communication and Media Research | Kommunikationswissenschaft und Medienforschung | Sciences de la communication et des médias,https://studies.unifr.ch/go/1P,go 1P,0.0649,low_name_similarity_multilingual_heuristic
+Communication and Media Research | Kommunikationswissenschaft und Medienforschung | Sciences de la communication et des médias,https://studies.unifr.ch/go/1P,go 1P,0.0649,low_name_similarity_multilingual_heuristic
+Communication and Media Research | Kommunikationswissenschaft und Medienforschung | Sciences de la communication et des médias,https://studies.unifr.ch/go/1P,go 1P,0.0649,low_name_similarity_multilingual_heuristic
+Business Communication | Business Communication | Business Communication,https://studies.unifr.ch/go/2b,go 2b,0.0444,low_name_similarity_multilingual_heuristic
+Business Communication | Business Communication | Business Communication,https://studies.unifr.ch/go/2b,go 2b,0.0444,low_name_similarity_multilingual_heuristic
+Business Communication | Business Communication | Business Communication,https://studies.unifr.ch/go/11,go 11,0.0444,low_name_similarity_multilingual_heuristic
+Ethics and Economics | Ethik und Volkswirtschaftslehre | Éthique et économie politique,http://studies.unifr.ch/go/Q4-BC,go Q4 BC,0.0973,low_name_similarity_multilingual_heuristic
+Marketing | Marketing | Marketing,http://studies.unifr.ch/go/tO-8z,go tO 8z,0.0706,low_name_similarity_multilingual_heuristic
+International and European Business | International and European Business | International and European Business,http://studies.unifr.ch/go/2ihyy,go 2ihyy,0.0279,low_name_similarity_multilingual_heuristic
+International and European Business | International and European Business | International and European Business,http://studies.unifr.ch/go/2ihyy,go 2ihyy,0.0279,low_name_similarity_multilingual_heuristic
+Accounting and Finance | Accounting and Finance | Accounting and Finance,http://studies.unifr.ch/go/dSl9g,go dSl9g,0.08,low_name_similarity_multilingual_heuristic
+Accounting and Finance | Accounting and Finance | Accounting and Finance,http://studies.unifr.ch/go/aKZVz,go aKZVz,0.12,low_name_similarity_multilingual_heuristic
+Accounting and Finance | Accounting and Finance | Accounting and Finance,http://studies.unifr.ch/go/dSl9g,go dSl9g,0.08,low_name_similarity_multilingual_heuristic
+Accounting and Finance | Accounting and Finance | Accounting and Finance,http://studies.unifr.ch/go/aKZVz,go aKZVz,0.12,low_name_similarity_multilingual_heuristic
+Economic and Legal Studies | Wirtschafts- und Rechtswissenschaftliche Studien | Études économiques et juridiques,http://studies.unifr.ch/go/zhkE3,go zhkE3,0.0429,low_name_similarity_multilingual_heuristic
+Economic and Legal Studies | Wirtschafts- und Rechtswissenschaftliche Studien | Études économiques et juridiques,https://studies.unifr.ch/go/1B,go 1B,0.0774,low_name_similarity_multilingual_heuristic
+Economic and Legal Studies | Wirtschafts- und Rechtswissenschaftliche Studien | Études économiques et juridiques,http://studies.unifr.ch/go/zhkE3,go zhkE3,0.0429,low_name_similarity_multilingual_heuristic
+Economic and Legal Studies | Wirtschafts- und Rechtswissenschaftliche Studien | Études économiques et juridiques,https://studies.unifr.ch/go/1B,go 1B,0.0774,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/8Snjt,go 8Snjt,0.1412,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/o4j52,go o4j52,0.1412,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/8Snjt,go 8Snjt,0.1412,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/o4j52,go o4j52,0.1412,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/kBF3p,go kBF3p,0.1385,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/kBF3p,go kBF3p,0.1385,low_name_similarity_multilingual_heuristic
+Economics | Volkswirtschaftslehre | Économie politique,http://studies.unifr.ch/go/kBF3p,go kBF3p,0.1385,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/a-W2b,go a W2b,0.0667,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/orMLz,go orMLz,0.075,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/a-W2b,go a W2b,0.0667,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/orMLz,go orMLz,0.075,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/z5BUJ,go z5BUJ,0.0667,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/z5BUJ,go z5BUJ,0.0667,low_name_similarity_multilingual_heuristic
+Management | Betriebswirtschaftslehre | Management,http://studies.unifr.ch/go/z5BUJ,go z5BUJ,0.0667,low_name_similarity_multilingual_heuristic
+Legal Studies | Rechtswissenschaftliche Studien | Études juridiques,http://studies.unifr.ch/go/heNo7,go heNo7,0.0923,low_name_similarity_multilingual_heuristic
+Legal Studies | Rechtswissenschaftliche Studien | Études juridiques,http://studies.unifr.ch/go/6bar7,go 6bar7,0.1143,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/x,go x,0.1333,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/w,go w,0.1714,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/x,go x,0.1333,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/w,go w,0.1714,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/x,go x,0.1333,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/w,go w,0.1714,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/x,go x,0.1333,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,https://studies.unifr.ch/go/w,go w,0.1714,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/jPgcg,go jPgcg,0.0923,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/cr09j,go cr09j,0.0923,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/jPgcg,go jPgcg,0.0923,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/cr09j,go cr09j,0.0923,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/jPgcg,go jPgcg,0.0923,low_name_similarity_multilingual_heuristic
+Law | Rechtswissenschaft | Droit,http://studies.unifr.ch/go/cr09j,go cr09j,0.0923,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/29,go 29,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/28,go 28,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/29,go 29,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/28,go 28,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/27,go 27,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/26,go 26,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/27,go 27,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/26,go 26,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/27,go 27,0.1333,low_name_similarity_multilingual_heuristic
+Interreligious Studies | Interreligiöse Studien | Études interreligieuses,https://studies.unifr.ch/go/26,go 26,0.1333,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/24,go 24,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/23,go 23,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/24,go 24,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/23,go 23,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/22,go 22,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/21,go 21,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/22,go 22,0.1,low_name_similarity_multilingual_heuristic
+Theological Studies | Theologische Studien | Études théologiques,https://studies.unifr.ch/go/21,go 21,0.1,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/20,go 20,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/1Z,go 1Z,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/20,go 20,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/1Z,go 1Z,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/1X,go 1X,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/1X,go 1X,0.0923,low_name_similarity_multilingual_heuristic
+Theology | Theologie | Théologie,https://studies.unifr.ch/go/1X,go 1X,0.0923,low_name_similarity_multilingual_heuristic

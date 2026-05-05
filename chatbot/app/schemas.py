@@ -24,3 +24,4 @@ class AskResponse(BaseModel):
     session_state: Optional[dict] = None
     plan: Optional[dict] = None
     planning_errors: Optional[str] = None
+    timing: Optional[Dict[str, Any]] = None

@@ -6,6 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 from .backend_tools import TOOL_SPECS
 from .config import settings
+from .performance import timed_step
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -95,8 +96,11 @@ Rules:
         session_state=json.dumps(session_state, ensure_ascii=False, indent=2),
     )
 
-    resp = llm.invoke(msg)
-    plan = _extract_json(resp.content)
+    with timed_step("planner.llm_decision"):
+        resp = llm.invoke(msg)
+
+    with timed_step("planner.parse_json"):
+        plan = _extract_json(resp.content)
 
     if "decision" in plan and "mode" not in plan:
         plan["mode"] = plan.pop("decision")

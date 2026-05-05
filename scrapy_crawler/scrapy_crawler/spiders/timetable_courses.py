@@ -1,5 +1,6 @@
 import re
 import scrapy
+from datetime import datetime, timezone
 
 def norm(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
@@ -10,6 +11,29 @@ def parse_float(s: str):
     s = s.replace(",", ".")
     m = re.search(r"(\d+(?:\.\d+)?)", s)
     return float(m.group(1)) if m else None
+
+def split_multi_value(s: str):
+    """
+    Splits values like:
+      'Master, Bachelor für den Unterricht auf der Sekundarstufe I, Bachelor'
+      'HS-2025 , FS-2026'
+    into clean list values.
+    """
+    if not s:
+        return []
+
+    parts = re.split(r"\s*,\s*|\s*/\s*|\s*;\s*", s)
+    return [norm(p) for p in parts if norm(p)]
+
+
+def parse_semesters(s: str):
+    """
+    Extracts all semester codes like HS-2025, FS-2026 from any string.
+    """
+    if not s:
+        return []
+
+    return re.findall(r"\b(?:HS|FS)-\d{4}\b", s)
 
 def text_list(sel):
     return [norm(x) for x in sel.getall() if norm(x)]
@@ -204,6 +228,7 @@ class TimetableCoursesSpider(scrapy.Spider):
         self.start_page = int(start_page)
         self.max_pages = int(max_pages)
         self.semestres = (semestres or "").strip()
+        self.scrape_started_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     # ---------------------------
     # LIST (XHR) REQUESTS
@@ -340,23 +365,11 @@ class TimetableCoursesSpider(scrapy.Spider):
         sidebar_ps = [norm(x) for x in response.xpath("//aside[contains(@class,'inner-30')]//p//text()").getall()]
         sidebar_ps = [x for x in sidebar_ps if x]
 
-        degree_level = None
-        semester = None
         ects = None
 
         for p in sidebar_ps:
-            pl = p.lower()
-            if pl in {"bachelor", "master", "doctorat", "doktorat", "doctorate"}:
-                if pl.startswith("bach"):
-                    degree_level = "Bachelor"
-                elif pl.startswith("mast"):
-                    degree_level = "Master"
-                else:
-                    degree_level = "Doctorate"
-            if "ects" in pl:
+            if "ects" in p.lower():
                 ects = parse_float(p)
-            if re.match(r"^(FS|HS)-\d{4}$", p):
-                semester = p
 
         # --- Tabs ---
         tab1 = parse_tab1_unterricht(response)
@@ -368,6 +381,31 @@ class TimetableCoursesSpider(scrapy.Spider):
         details = tab1.get("details", {}) or {}
         faculty = details.get("Fakultät") or details.get("Faculté")
         domain = details.get("Bereich") or details.get("Domaine")
+
+        course_code_from_details = (
+            details.get("Code")
+            or details.get("Code interne")
+        )
+
+        course_type = (
+            details.get("Art der Unterrichtseinheit")
+            or details.get("Type d'unité d'enseignement")
+        )
+
+        course_level_raw = (
+            details.get("Kursus")
+            or details.get("Cours")
+            or details.get("Niveau")
+        )
+
+        course_levels = split_multi_value(course_level_raw)
+
+        semester_raw = (
+            details.get("Semester")
+            or details.get("Semestre")
+        )
+
+        semesters = parse_semesters(semester_raw)
 
         # languages: Details row "Sprachen" might contain multiple languages in text
         lang_raw = details.get("Sprachen") or details.get("Langues")
@@ -388,6 +426,12 @@ class TimetableCoursesSpider(scrapy.Spider):
         lecturers = teaching.get("Dozenten-innen") or teaching.get("Dozentinnen und Dozenten")  # site variants
 
         item = {
+            "crawl_metadata": {
+                "scrape_started_at": self.scrape_started_at,
+                "scraped_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "catalogue_snapshot_note": "Dynamic catalogue; coverage is valid only for this crawl snapshot.",
+                "semestres_filter": self.semestres,
+            },
             "source": {
                 "type": "timetable",
                 "list_page_url": response.meta.get("list_page_url"),
@@ -395,11 +439,25 @@ class TimetableCoursesSpider(scrapy.Spider):
                 "detail_page_url": response.url,
             },
             "course": {
-                "code": code or None,
+                "code": course_code_from_details or code or None,
                 "name": title or None,
                 "ects": ects,
-                "degree_level": degree_level,
-                "semester": semester,
+
+                # Preserve raw catalogue value
+                "degree_level_raw": course_level_raw,
+
+                # Parsed list, no filtering yet
+                "degree_level": course_levels[0] if course_levels else None,
+
+                # Preserve raw catalogue value
+                "semester_raw": semester_raw,
+
+                # Parsed list of all semesters
+                "semester": semesters[0] if semesters else None,
+
+                "faculty": faculty,
+                "domain": domain,
+                "course_type": course_type,
             },
             
             # canonical tables
