@@ -23,33 +23,174 @@ def _has_tool_result(result: Any) -> bool:
     return True
 
 
-def _format_tool_result(tool_name: str, result: Any) -> str:
+def _program_type(item: dict[str, Any]) -> str | None:
+    value = item.get("program_type")
+    if value:
+        return str(value)
+    total = item.get("total_ects")
+    degree = item.get("degree_level")
+    try:
+        total_f = float(total)
+    except Exception:
+        return None
+    if total_f < 90:
+        return "minor"
+    if degree == "Master" and total_f == 90:
+        return "major"
+    if degree == "Bachelor" and 90 <= total_f < 180:
+        return "major"
+    if degree == "Master" and total_f == 120:
+        return "mono"
+    if degree == "Bachelor" and total_f == 180:
+        return "mono"
+    return None
+
+
+def _question_asks_first_year(question: str) -> bool:
+    q = question.lower()
+    return any(x in q for x in ["first study year", "first year", "1st year", "1. year", "1st study year", "erstes studienjahr", "1. studienjahr"])
+
+
+def _looks_like_first_year_description(text: str | None) -> bool:
+    if not text:
+        return False
+    t = text.lower()
+    return any(x in t for x in ["first year", "first study year", "1st year", "1st study year", "1. year", "1. studienjahr", "erstes studienjahr", "1ère année", "première année"])
+
+
+def _format_dict_result(tool_name: str, item: dict[str, Any]) -> str:
+    if tool_name == "get_course_by_code":
+        name = item.get("name") or item.get("course_name") or item.get("code") or "Course"
+        lines = [f"**{name}**"]
+        for label, key in [
+            ("Code", "code"), ("ECTS", "ects"), ("Faculty", "faculty_name"),
+            ("Domain", "domain_name"), ("Mobility", "mobility"), ("Soft skills", "soft_skills"),
+            ("Description", "description"),
+        ]:
+            if item.get(key) is not None:
+                lines.append(f"- {label}: {item.get(key)}")
+        return "\n".join(lines)
+    return "\n".join(f"- {k}: {v}" for k, v in item.items() if v is not None)
+
+
+def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
     if result is None:
         return f"{tool_name}: no result found."
+
+    if isinstance(result, dict):
+        if not result:
+            return f"{tool_name}: no result found."
+        return _format_dict_result(tool_name, result)
 
     if isinstance(result, list):
         if not result:
             return f"{tool_name}: no matching results found."
 
-        lines = []
-        for item in result[:10]:
+        filtered_for_first_year = False
+        if tool_name == "get_program_courses_by_metadata" and _question_asks_first_year(question):
+            first_year = [
+                item for item in result
+                if isinstance(item, dict) and _looks_like_first_year_description(str(item.get("program_course_description") or item.get("section_heading") or ""))
+            ]
+            if first_year:
+                result = first_year
+                filtered_for_first_year = True
+
+        max_items = 300
+        shown = result[:max_items]
+        lines = [f"Found {len(result)} result(s):"]
+        if filtered_for_first_year:
+            lines.append("Filtered to rows whose imported program-course description looks like first-year metadata.")
+
+        for item in shown:
             if isinstance(item, dict):
+                if tool_name == "get_programs":
+                    name = item.get("name") or item.get("name_en") or "Program"
+                    bits = []
+                    if item.get("degree_level"):
+                        bits.append(str(item.get("degree_level")))
+                    if item.get("total_ects") is not None:
+                        bits.append(f"{item.get('total_ects')} ECTS")
+                    ptype = _program_type(item)
+                    if ptype:
+                        bits.append(ptype)
+                    if item.get("program_id") is not None:
+                        bits.append(f"id {item.get('program_id')}")
+                    if item.get("faculty_name"):
+                        bits.append(str(item.get("faculty_name")))
+                    lines.append(f"- **{name}**" + (f" — {', '.join(bits)}" if bits else ""))
+                    continue
+
+                if tool_name in {"get_program_courses", "get_program_courses_by_metadata"}:
+                    code = item.get("code")
+                    name = item.get("name") or item.get("course_name") or code or "Course"
+                    bits = []
+                    if code:
+                        bits.append(str(code))
+                    if item.get("ects") is not None:
+                        bits.append(f"{item.get('ects')} ECTS")
+                    if item.get("course_type"):
+                        bits.append(str(item.get("course_type")))
+                    program_name = item.get("program_name_en") or item.get("program_name")
+                    if program_name:
+                        bits.append(str(program_name))
+                    if item.get("total_ects") is not None:
+                        bits.append(f"program {item.get('total_ects')} ECTS")
+                    section = item.get("program_course_description") or item.get("section_heading")
+                    lines.append(f"- **{name}**" + (f" — {', '.join(bits)}" if bits else ""))
+                    if section:
+                        lines.append(f"  - Section/description hint: {section}")
+                    continue
+
+                if tool_name == "get_program_course_sections":
+                    name = item.get("course_name") or item.get("canonical_course_name") or item.get("code") or "Course"
+                    bits = []
+                    if item.get("code"):
+                        bits.append(str(item.get("code")))
+                    if item.get("course_type"):
+                        bits.append(str(item.get("course_type")))
+                    if item.get("ects") is not None:
+                        bits.append(f"{item.get('ects')} ECTS")
+                    lines.append(f"- **{name}**" + (f" — {', '.join(bits)}" if bits else ""))
+                    if item.get("section_heading"):
+                        lines.append(f"  - Description/section hint: {item.get('section_heading')}")
+                    continue
+
                 name = item.get("name") or item.get("title") or item.get("code") or "item"
                 code = item.get("code")
                 ects = item.get("ects")
+                total_ects = item.get("total_ects")
+                degree_level = item.get("degree_level")
+                faculty_name = item.get("faculty_name")
+                program_id = item.get("program_id")
+                section_heading = item.get("section_heading") or item.get("program_course_description")
+
                 extra = []
                 if code:
-                    extra.append(code)
+                    extra.append(str(code))
+                if program_id is not None:
+                    extra.append(f"program_id {program_id}")
+                if degree_level:
+                    extra.append(str(degree_level))
                 if ects is not None:
                     extra.append(f"{ects} ECTS")
+                if total_ects is not None:
+                    extra.append(f"{total_ects} total ECTS")
+                if faculty_name:
+                    extra.append(str(faculty_name))
+                if section_heading:
+                    extra.append(f"section: {section_heading}")
+
                 suffix = f" ({', '.join(extra)})" if extra else ""
                 lines.append(f"- {name}{suffix}")
             else:
                 lines.append(f"- {item}")
+
+        if len(result) > max_items:
+            lines.append(f"... {len(result) - max_items} more result(s) not shown. Add filters to narrow the list.")
         return "\n".join(lines)
 
     return str(result)
-
 
 def _select_rag_db(question: str, db_study=None, db_regl=None):
     q = question.lower()
@@ -823,11 +964,25 @@ def answer_question(
                     "language", "semester", "name_contains", "mobility", "soft_skills",
                     "program_id", "program_name", "limit", "locale",
                 },
-                "get_program_courses_by_metadata": {
-                    "program_en", "program_de", "program_fr", "program_id", "degree_level", "faculty_id",
-                    "faculty_name", "semester", "language", "locale", "limit",
+                "get_programs": {
+                    "name", "degree_level", "faculty_id", "faculty_name",
+                    "study_start", "total_ects", "program_type",
                 },
-                "get_planner_programs": {"q", "degree_level", "locale"},
+                "get_program_courses": {
+                    "program_id", "ects", "faculty_id", "faculty_name", "domain_id", "domain_name",
+                    "language", "semester", "name_contains", "mobility", "soft_skills",
+                    "course_type", "limit",
+                },
+                "get_program_courses_by_metadata": {
+                    "program_en", "program_de", "program_fr", "degree_level", "faculty_id",
+                    "faculty_name", "study_start", "total_ects", "course_type", "semester_type",
+                    "ects", "domain_id", "domain_name", "language", "semester", "name_contains",
+                    "mobility", "soft_skills", "section_contains", "limit",
+                },
+                "get_program_course_sections": {
+                    "program_id", "course_code", "section_heading", "non_empty_only", "limit",
+                },
+                "get_planner_programs": {"q", "degree_level", "locale", "limit"},
                 "get_planner_courses": {"sem_id", "program_ids", "locale"},
                 "get_study_program_plan": {"program_id", "semesters", "locale", "total_ects"},
                 "get_mobility_courses": {"semesters", "interest", "language"},
@@ -881,7 +1036,7 @@ def answer_question(
                 # Important: only add non-empty tool results to the visible answer.
                 # Empty results are still kept in tool_results for debugging and session state.
                 if _has_tool_result(result):
-                    answer_parts.append(_format_tool_result(tool_name, result))
+                    answer_parts.append(_format_tool_result(tool_name, result, question=question))
 
                 debug_entry["result_type"] = type(result).__name__
 

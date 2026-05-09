@@ -328,6 +328,40 @@ export class StudyPlanPageComponent {
     return this.t().weekdays[day];
   }
 
+  sessionWeekdayLabel(day?: string | null): string {
+    if (!day) {
+      return '–';
+    }
+
+    const normalized = day.trim();
+
+    const weekdayMap: Record<string, 'Montag' | 'Dienstag' | 'Mittwoch' | 'Donnerstag' | 'Freitag'> = {
+      Montag: 'Montag',
+      Monday: 'Montag',
+      Lundi: 'Montag',
+
+      Dienstag: 'Dienstag',
+      Tuesday: 'Dienstag',
+      Mardi: 'Dienstag',
+
+      Mittwoch: 'Mittwoch',
+      Wednesday: 'Mittwoch',
+      Mercredi: 'Mittwoch',
+
+      Donnerstag: 'Donnerstag',
+      Thursday: 'Donnerstag',
+      Jeudi: 'Donnerstag',
+
+      Freitag: 'Freitag',
+      Friday: 'Freitag',
+      Vendredi: 'Freitag'
+    };
+
+    const key = weekdayMap[normalized];
+
+    return key ? this.t().weekdays[key] : day;
+  }
+
   offeringPrograms(course: PlannerCourseOffering): string {
     return this.getCourseProgramRefs(course)
       .map((program) => program.program_name)

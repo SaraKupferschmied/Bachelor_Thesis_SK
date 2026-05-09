@@ -285,7 +285,7 @@
                           <div class="session-list">
                             @for (session of selectedOfferingDetail()?.sessions ?? []; track session.session_id) {
                               <div class="session-item">
-                                <div><strong>{{ session.weekday }}</strong>, {{ session.date }}</div>
+                                <div><strong>{{ sessionWeekdayLabel(session.weekday) }}</strong>, {{ session.date }}</div>
                                 <div>{{ session.start_time || '–' }} - {{ session.end_time || '–' }}</div>
                                 <div>{{ t().room }}: {{ session.room_id || '–' }}</div>
                                 <div>{{ t().unit }}: {{ session.unit_type || '–' }}</div>

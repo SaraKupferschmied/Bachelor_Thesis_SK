@@ -6,6 +6,7 @@ type CoursesQuery = {
   mobility?: string | boolean;
   soft_skills?: string | boolean;
   ects?: string | number;
+  ects_operator?: "eq" | "lt" | "lte" | "gt" | "gte";
   faculty_id?: string | number;
   faculty_name?: string;
   domain_id?: string | number;
@@ -37,6 +38,44 @@ function toFloat(value: unknown): number | null {
   if (value === undefined || value === null || value === "") return null;
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : null;
+}
+
+type NumericOperator = "eq" | "lt" | "lte" | "gt" | "gte";
+
+function parseNumericFilter(
+  value: unknown,
+  explicitOperator?: unknown
+): { value: number | null; operator: NumericOperator } {
+  const explicit = String(explicitOperator ?? "").trim().toLowerCase();
+  const operatorMap: Record<string, NumericOperator> = {
+    "=": "eq",
+    eq: "eq",
+    exact: "eq",
+    "<": "lt",
+    lt: "lt",
+    "<=": "lte",
+    lte: "lte",
+    
+    ">": "gt",
+    gt: "gt",
+    ">=": "gte",
+    gte: "gte",
+  };
+
+  let operator = operatorMap[explicit] ?? "eq";
+
+  if (value === undefined || value === null || value === "") {
+    return { value: null, operator };
+  }
+
+  const raw = String(value).trim();
+  const match = raw.match(/^(<=|>=|<|>|=)\s*(.+)$/);
+  const symbol = match?.[1];
+  const numericPart = match?.[2] ?? raw;
+  if (symbol) operator = operatorMap[symbol] ?? operator;
+
+  const parsed = Number(numericPart);
+  return { value: Number.isFinite(parsed) ? parsed : null, operator };
 }
 
 function normalizeCourseCode(value: unknown): string | null {
@@ -85,8 +124,15 @@ export async function coursesRoutes(app: FastifyInstance) {
               description: "Filter by soft skills flag",
             },
             ects: {
-              type: "number",
-              description: "Filter by exact course ECTS",
+              type: "string",
+              description:
+                "Filter by course ECTS. Supports exact values and comparisons like 6, >6, >=6, <6, <=6.",
+            },
+            ects_operator: {
+              type: "string",
+              enum: ["eq", "lt", "lte", "gt", "gte"],
+              description:
+                "Optional operator for ects when the ects value is passed without a symbol.",
             },
             faculty_id: {
               type: "integer",
@@ -147,8 +193,10 @@ export async function coursesRoutes(app: FastifyInstance) {
         program_id,
         program_name,
         limit,
+        ects_operator,
       } = (req.query as CoursesQuery) ?? {};
 
+      const ectsFilter = parseNumericFilter(ects, ects_operator);
       const normalizedCode = normalizeCourseCode(code);
       const looseCode = normalizeCourseCodeLoose(code);
 
@@ -174,7 +222,16 @@ export async function coursesRoutes(app: FastifyInstance) {
         )
           AND ($3::boolean IS NULL OR c.mobility = $3)
           AND ($4::boolean IS NULL OR c.soft_skills = $4)
-          AND ($5::float IS NULL OR c.ects = $5)
+          AND (
+            $5::float IS NULL
+            OR CASE $16::text
+              WHEN 'lt' THEN c.ects < $5
+              WHEN 'lte' THEN c.ects <= $5
+              WHEN 'gt' THEN c.ects > $5
+              WHEN 'gte' THEN c.ects >= $5
+              ELSE c.ects = $5
+            END
+          )
           AND ($6::int IS NULL OR c.faculty_id = $6)
           AND (
             $7::text IS NULL
@@ -223,7 +280,7 @@ export async function coursesRoutes(app: FastifyInstance) {
           looseCode,
           toBoolean(mobility),
           toBoolean(soft_skills),
-          toFloat(ects),
+          ectsFilter.value,
           toInt(faculty_id),
           faculty_name ?? null,
           toInt(domain_id),
@@ -234,6 +291,7 @@ export async function coursesRoutes(app: FastifyInstance) {
           semester ? `%${String(semester).trim()}%` : null,
           language ? `%${String(language).trim()}%` : null,
           toInt(limit) ?? 50,
+          ectsFilter.operator,
         ]
       );
     }

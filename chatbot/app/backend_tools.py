@@ -4,13 +4,13 @@ from .config import settings
 
 
 def _get(path: str, params: Optional[dict[str, Any]] = None) -> Any:
-    r = requests.get(f"{settings.backend_api_base}{path}", params=params, timeout=10)
+    r = requests.get(f"{settings.backend_api_base}{path}", params=params, timeout=8)
     r.raise_for_status()
     return r.json()
 
 
 def _post(path: str, json_body: dict[str, Any]) -> Any:
-    r = requests.post(f"{settings.backend_api_base}{path}", json=json_body, timeout=15)
+    r = requests.post(f"{settings.backend_api_base}{path}", json=json_body, timeout=12)
     r.raise_for_status()
     return r.json()
 
@@ -20,7 +20,7 @@ def _post(path: str, json_body: dict[str, Any]) -> Any:
 # ------------------------
 
 def get_courses(
-    ects: Optional[int] = None,
+    ects: Optional[int | float | str] = None,
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
     domain_id: Optional[int | str] = None,
@@ -79,7 +79,8 @@ def get_programs(
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
     study_start: Optional[str] = None,
-    total_ects: Optional[int | float] = None,
+    total_ects: Optional[int | float | str] = None,
+    program_type: Optional[str] = None,
 ) -> list[dict[str, Any]]:
     params: dict[str, Any] = {}
 
@@ -95,6 +96,8 @@ def get_programs(
         params["study_start"] = study_start
     if total_ects is not None:
         params["total_ects"] = total_ects
+    if program_type:
+        params["program_type"] = program_type
 
     return _get("/programs", params=params)
 
@@ -108,7 +111,7 @@ def get_program_by_id(program_id: int | str) -> Optional[dict[str, Any]]:
 
 def get_program_courses(
     program_id: int | str,
-    ects: Optional[int] = None,
+    ects: Optional[int | float | str] = None,
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
     domain_id: Optional[int | str] = None,
@@ -158,10 +161,10 @@ def get_program_courses_by_metadata(
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
     study_start: Optional[str] = None,
-    total_ects: Optional[int | float] = None,
+    total_ects: Optional[int | float | str] = None,
     course_type: Optional[str] = None,
     semester_type: Optional[str] = None,
-    ects: Optional[int | float] = None,
+    ects: Optional[int | float | str] = None,
     domain_id: Optional[int | str] = None,
     domain_name: Optional[str] = None,
     language: Optional[str] = None,
@@ -169,6 +172,7 @@ def get_program_courses_by_metadata(
     name_contains: Optional[str] = None,
     mobility: Optional[bool] = None,
     soft_skills: Optional[bool] = None,
+    section_contains: Optional[str] = None,
     limit: Optional[int] = None,
 ) -> list[dict[str, Any]]:
     params: dict[str, Any] = {}
@@ -209,10 +213,37 @@ def get_program_courses_by_metadata(
         params["mobility"] = str(mobility).lower()
     if soft_skills is not None:
         params["soft_skills"] = str(soft_skills).lower()
+    if section_contains:
+        params["section_contains"] = section_contains
     if limit is not None:
         params["limit"] = limit
 
     return _get("/programs/courses", params=params)
+
+
+def get_program_course_sections(
+    program_id: int | str,
+    course_code: Optional[str] = None,
+    section_heading: Optional[str] = None,
+    non_empty_only: Optional[bool] = True,
+    limit: Optional[int] = None,
+) -> list[dict[str, Any]]:
+    """Return section headings from the program-course "consists of" table.
+
+    These headings may contain useful curriculum placement hints, such as proposed
+    study year/semester, but they can also contain noisy import text. The chatbot
+    should treat them as auxiliary metadata, not as authoritative requirements.
+    """
+    params: dict[str, Any] = {}
+    if course_code:
+        params["code"] = course_code
+    if section_heading:
+        params["section_contains"] = section_heading
+    if non_empty_only is not None:
+        params["non_empty_only"] = str(non_empty_only).lower()
+    if limit is not None:
+        params["limit"] = limit
+    return _get(f"/programs/{program_id}/course-sections", params=params)
 
 def get_program_docs(program_id: int | str) -> list[dict[str, Any]]:
     return _get(f"/docs-api/program/{program_id}")
@@ -340,6 +371,7 @@ TOOLS: dict[str, ToolFn] = {
     "get_mobility_courses": get_mobility_courses,
     "get_course_by_code": get_course_by_code,
     "get_programs": get_programs,
+    "get_program_course_sections": get_program_course_sections,
     "get_program_by_id": get_program_by_id,
     "get_program_courses": get_program_courses,
     "get_program_courses_by_metadata": get_program_courses_by_metadata,
@@ -400,8 +432,8 @@ TOOL_SPECS: list[dict[str, Any]] = [
             "type": "object",
             "properties": {
                 "ects": {
-                    "type": "integer",
-                    "description": "Filter by exact ECTS value, e.g. 6",
+                    "type": ["integer", "number", "string"],
+                    "description": "Filter by ECTS. Supports exact values like 6 and comparisons as strings like >6, >=6, <3, <=3.",
                 },
                 "faculty_id": {
                     "type": ["integer", "string"],
@@ -460,11 +492,10 @@ TOOL_SPECS: list[dict[str, Any]] = [
     {
         "name": "get_programs",
         "description": (
-            "Return study programs matching optional structured filters. "
-            "Use this when the user asks for programs by name, degree level, faculty, "
-            "study start, or total ECTS. Examples: "
-            "'show bachelor programs', 'find business informatics programs', "
-            "'programs in Engineering', 'master programs starting in Autumn'."
+            "FAST DB TOOL: list study programs. Best for questions like 'all Bachelor programs', "
+            "'minor programs', 'mono Master programs', or programs by ECTS/faculty/start. "
+            "Use program_type for minor/major/mono and total_ects for numeric comparisons. "
+            "Returns authoritative database rows; prefer over RAG for program lists."
         ),
         "parameters": {
             "type": "object",
@@ -480,7 +511,8 @@ TOOL_SPECS: list[dict[str, Any]] = [
                     "type": "string",
                     "enum": ["Autumn", "Spring", "Both"]
                 },
-                "total_ects": {"type": ["integer", "number"]},
+                "total_ects": {"type": ["integer", "number", "string"], "description": "Filter by total ECTS. Supports exact values like 180 and comparisons as strings like >90, >=120, <90, <=60."},
+                "program_type": {"type": "string", "enum": ["minor", "major", "mono"], "description": "Derived from degree level and total ECTS: minor <90, Bachelor major 90-150, Master major 90, Bachelor mono 180, Master mono 120."},
             },
             "required": [],
         },
@@ -515,8 +547,8 @@ TOOL_SPECS: list[dict[str, Any]] = [
                     "description": "The program id",
                 },
                 "ects": {
-                    "type": "integer",
-                    "description": "Filter by exact ECTS value",
+                    "type": ["integer", "number", "string"],
+                    "description": "Filter by ECTS. Supports exact values like 6 and comparisons as strings like >6, >=6, <3, <=3.",
                 },
                 "faculty_id": {
                     "type": ["integer", "string"],
@@ -561,12 +593,10 @@ TOOL_SPECS: list[dict[str, Any]] = [
     {
         "name": "get_program_courses_by_metadata",
         "description": (
-            "Return courses belonging to one or more programs selected by program metadata "
-            "instead of program_id. Use this when the user asks for courses in a named program "
-            "but does not know the program id, or when the program name may need disambiguation "
-            "using degree level, total ECTS, faculty, or study start. "
-            "Examples: 'show mandatory courses in the Bachelor Business Informatics program', "
-            "'find English electives in the Master Data Science program'."
+            "FAST DB TOOL: courses for a named study program when no program_id is known. "
+            "Best for 'mandatory courses in Bachelor Business Informatics 180 ECTS', "
+            "'courses in Economics Bachelor', electives, ECTS/language/semester filters, and first-year/section questions. "
+            "Returns consist_of.description as program_course_description when imported; use this as study-year/section hint."
         ),
         "parameters": {
             "type": "object",
@@ -584,7 +614,7 @@ TOOL_SPECS: list[dict[str, Any]] = [
                     "type": "string",
                     "enum": ["Autumn", "Spring", "Both"]
                 },
-                "total_ects": {"type": ["integer", "number"]},
+                "total_ects": {"type": ["integer", "number", "string"], "description": "Filter by total program ECTS. Supports exact values and comparisons like >90 or <120."},
 
                 "course_type": {
                     "type": "string",
@@ -594,7 +624,7 @@ TOOL_SPECS: list[dict[str, Any]] = [
                     "type": "string",
                     "enum": ["Autumn", "Spring"]
                 },
-                "ects": {"type": ["integer", "number"]},
+                "ects": {"type": ["integer", "number", "string"], "description": "Filter by ECTS. Supports exact values and comparisons like >6 or <3."},
                 "domain_id": {"type": ["integer", "string"]},
                 "domain_name": {"type": "string"},
                 "language": {"type": "string"},
@@ -602,9 +632,31 @@ TOOL_SPECS: list[dict[str, Any]] = [
                 "name_contains": {"type": "string"},
                 "mobility": {"type": "boolean"},
                 "soft_skills": {"type": "boolean"},
+                "section_contains": {"type": "string", "description": "Filter imported program-course description/section text, e.g. first year or assessment."},
                 "limit": {"type": "integer", "minimum": 1, "maximum": 500},
             },
             "required": [],
+        },
+    },
+
+    {
+        "name": "get_program_course_sections",
+        "description": (
+            "FAST DB TOOL: return consist_of.description values for courses in a specific program. "
+            "Use this when the user asks where courses are placed in a study plan, proposed study year, "
+            "curriculum section headings, or additional program-course table metadata. "
+            "The returned field is named section_heading for compatibility, but it comes from the database description column and may be noisy."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "program_id": {"type": ["integer", "string"], "description": "The program id"},
+                "course_code": {"type": "string", "description": "Optional exact course code"},
+                "section_heading": {"type": "string", "description": "Optional substring filter on the imported description/section text"},
+                "non_empty_only": {"type": "boolean", "description": "Whether to return only rows with a non-empty heading", "default": True},
+                "limit": {"type": "integer", "minimum": 1, "maximum": 500},
+            },
+            "required": ["program_id"],
         },
     },
     {

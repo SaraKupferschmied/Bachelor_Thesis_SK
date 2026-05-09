@@ -64,7 +64,7 @@ Start the server
 start chatbot from folder
 - uvicorn app.main:app --reload
 
-docker compose --env-file .env.docker restart chatbot
+docker compose --env-file .env.docker restart frontend
 docker compose --env-file .env.docker logs -f chatbot
 
 npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
@@ -118,3 +118,35 @@ cd scrapy_crawler\validation
 
 - npx ts-node DB_service\src\import\validate_database_quality.ts ^
   --out scrapy_crawler\scrapy_crawler\validation\metrics\database\database_quality.json
+
+Timeout for too long questions
+- python eval_runner_chatbot.py ^
+  --input thesis_chatbot_evaluation_template.xlsx ^
+  --output test_results.xlsx ^
+  --timeout 2000 ^
+  --limit 2 ^
+  --systems ^
+    rag=http://localhost:8000/ask:rag ^
+    auto=http://localhost:8000/ask:auto ^
+    hybrid=http://localhost:8000/ask:hybrid ^
+    tool=http://localhost:8000/ask:tool
+
+    python eval_runner_chatbot.py ^
+  --input thesis_chatbot_evaluation_template.xlsx ^
+  --output test_results.xlsx ^
+  --timeout 2000 ^
+  --limit 2 ^
+  --systems ^
+    auto=http://localhost:8000/ask:auto ^
+    tool=http://localhost:8000/ask:tool ^
+    rag=http://localhost:8000/ask:rag
+
+    python eval_runner_chatbot.py ^
+  --input thesis_chatbot_evaluation_template.xlsx ^
+  --output test_results.xlsx ^
+  --timeout 2000 ^
+  --systems ^
+    auto=http://localhost:8000/ask:auto ^
+    tool=http://localhost:8000/ask:tool ^
+    rag=http://localhost:8000/ask:rag
+    

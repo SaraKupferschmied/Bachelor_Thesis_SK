@@ -10,6 +10,8 @@ type ProgramsListQuery = {
   faculty_name?: string;
   study_start?: "Autumn" | "Spring" | "Both";
   total_ects?: string;
+  total_ects_operator?: "eq" | "lt" | "lte" | "gt" | "gte";
+  program_type?: "minor" | "major" | "mono";
 };
 
 type ProgramCoursesQuery = {
@@ -21,10 +23,13 @@ type ProgramCoursesQuery = {
   faculty_name?: string;
   study_start?: "Autumn" | "Spring" | "Both";
   total_ects?: string;
+  total_ects_operator?: "eq" | "lt" | "lte" | "gt" | "gte";
+  program_type?: "minor" | "major" | "mono";
 
   course_type?: "Mandatory" | "Elective";
   semester_type?: "Autumn" | "Spring";
   ects?: string;
+  ects_operator?: "eq" | "lt" | "lte" | "gt" | "gte";
   domain_id?: string;
   domain_name?: string;
   language?: string;
@@ -34,6 +39,43 @@ type ProgramCoursesQuery = {
   soft_skills?: string;
   limit?: string;
 };
+
+type NumericOperator = "eq" | "lt" | "lte" | "gt" | "gte";
+
+function parseNumericFilter(
+  value: unknown,
+  explicitOperator?: unknown
+): { value: number | null; operator: NumericOperator } {
+  const explicit = String(explicitOperator ?? "").trim().toLowerCase();
+  const operatorMap: Record<string, NumericOperator> = {
+    "=": "eq",
+    eq: "eq",
+    exact: "eq",
+    "<": "lt",
+    lt: "lt",
+    "<=": "lte",
+    lte: "lte",
+    ">": "gt",
+    gt: "gt",
+    ">=": "gte",
+    gte: "gte",
+  };
+
+  let operator = operatorMap[explicit] ?? "eq";
+
+  if (value === undefined || value === null || value === "") {
+    return { value: null, operator };
+  }
+
+  const raw = String(value).trim();
+  const match = raw.match(/^(<=|>=|<|>|=)\s*(.+)$/);
+  const symbol = match?.[1];
+  const numericPart = match?.[2] ?? raw;
+  if (symbol) operator = operatorMap[symbol] ?? operator;
+
+  const parsed = Number(numericPart);
+  return { value: Number.isFinite(parsed) ? parsed : null, operator };
+}
 
 function toBoolean(value: unknown): boolean | null {
   if (value === undefined || value === null || value === "") return null;
@@ -83,7 +125,23 @@ export async function programsRoutes(app: FastifyInstance) {
               type: "string",
               enum: ["Autumn", "Spring", "Both"],
             },
-            total_ects: { type: "number" },
+            total_ects: {
+              type: "string",
+              description:
+                "Filter by total program ECTS. Supports exact values and comparisons like 60, >90, >=90, <90, <=90.",
+            },
+            total_ects_operator: {
+              type: "string",
+              enum: ["eq", "lt", "lte", "gt", "gte"],
+              description:
+                "Optional operator for total_ects when the total_ects value is passed without a symbol.",
+            },
+            program_type: {
+              type: "string",
+              enum: ["minor", "major", "mono"],
+              description:
+                "Derived classification from degree_level and total_ects: minor <90 ECTS; master major =90; bachelor major 90-150; master mono =120; bachelor mono =180.",
+            },
           },
         },
       },
@@ -98,7 +156,11 @@ export async function programsRoutes(app: FastifyInstance) {
         faculty_name,
         study_start,
         total_ects,
+        total_ects_operator,
+        program_type,
       } = (req.query as ProgramsListQuery) ?? {};
+
+      const totalEctsFilter = parseNumericFilter(total_ects, total_ects_operator);
 
       return query(
         `
@@ -110,6 +172,14 @@ export async function programsRoutes(app: FastifyInstance) {
           p.name_fr,
           p.degree_level,
           p.total_ects,
+          CASE
+            WHEN p.total_ects < 90 THEN 'minor'
+            WHEN p.degree_level = 'Master' AND p.total_ects = 90 THEN 'major'
+            WHEN p.degree_level = 'Bachelor' AND p.total_ects >= 90 AND p.total_ects < 180 THEN 'major'
+            WHEN p.degree_level = 'Master' AND p.total_ects = 120 THEN 'mono'
+            WHEN p.degree_level = 'Bachelor' AND p.total_ects = 180 THEN 'mono'
+            ELSE NULL
+          END AS program_type,
           p.study_start,
           p.faculty_id,
           f.name_en AS faculty_name
@@ -128,7 +198,27 @@ export async function programsRoutes(app: FastifyInstance) {
             OR f.name_fr ILIKE '%' || $6 || '%'
           )
           AND ($7::text IS NULL OR p.study_start = $7)
-          AND ($8::float IS NULL OR p.total_ects = $8)
+          AND (
+            $8::float IS NULL
+            OR CASE $9::text
+              WHEN 'lt' THEN p.total_ects < $8
+              WHEN 'lte' THEN p.total_ects <= $8
+              WHEN 'gt' THEN p.total_ects > $8
+              WHEN 'gte' THEN p.total_ects >= $8
+              ELSE p.total_ects = $8
+            END
+          )
+          AND (
+            $10::text IS NULL
+            OR CASE
+              WHEN p.total_ects < 90 THEN 'minor'
+              WHEN p.degree_level = 'Master' AND p.total_ects = 90 THEN 'major'
+              WHEN p.degree_level = 'Bachelor' AND p.total_ects >= 90 AND p.total_ects < 180 THEN 'major'
+              WHEN p.degree_level = 'Master' AND p.total_ects = 120 THEN 'mono'
+              WHEN p.degree_level = 'Bachelor' AND p.total_ects = 180 THEN 'mono'
+              ELSE NULL
+            END = $10
+          )
         ORDER BY COALESCE(p.name_en, p.name), p.degree_level, p.total_ects
         `,
         [
@@ -139,7 +229,9 @@ export async function programsRoutes(app: FastifyInstance) {
           toInt(faculty_id),
           faculty_name ?? null,
           study_start ?? null,
-          toFloat(total_ects),
+          totalEctsFilter.value,
+          totalEctsFilter.operator,
+          program_type ?? null,
         ]
       );
     }
@@ -172,7 +264,19 @@ export async function programsRoutes(app: FastifyInstance) {
               type: "string",
               enum: ["Autumn", "Spring", "Both"],
             },
-            total_ects: { type: "number" },
+            total_ects: {
+              type: "string",
+              description:
+                "Filter by total program ECTS. Supports exact values and comparisons like 60, >90, >=90, <90, <=90.",
+            },
+            total_ects_operator: {
+              type: "string",
+              enum: ["eq", "lt", "lte", "gt", "gte"],
+            },
+            program_type: {
+              type: "string",
+              enum: ["minor", "major", "mono"],
+            },
 
             course_type: {
               type: "string",
@@ -182,7 +286,15 @@ export async function programsRoutes(app: FastifyInstance) {
               type: "string",
               enum: ["Autumn", "Spring"],
             },
-            ects: { type: "number" },
+            ects: {
+              type: "string",
+              description:
+                "Filter by course ECTS. Supports exact values and comparisons like 6, >6, >=6, <6, <=6.",
+            },
+            ects_operator: {
+              type: "string",
+              enum: ["eq", "lt", "lte", "gt", "gte"],
+            },
             domain_id: { type: "integer" },
             domain_name: { type: "string" },
             language: { type: "string" },
@@ -190,6 +302,10 @@ export async function programsRoutes(app: FastifyInstance) {
             name_contains: { type: "string" },
             mobility: { type: "boolean" },
             soft_skills: { type: "boolean" },
+            section_contains: {
+              type: "string",
+              description: "Substring match on consist_of.description, useful for study-year or section labels such as first year.",
+            },
             limit: { type: "integer", minimum: 1, maximum: 500 },
           },
         },
@@ -205,9 +321,12 @@ export async function programsRoutes(app: FastifyInstance) {
         faculty_name,
         study_start,
         total_ects,
+        total_ects_operator,
+        program_type,
         course_type,
         semester_type,
         ects,
+        ects_operator,
         domain_id,
         domain_name,
         language,
@@ -215,8 +334,12 @@ export async function programsRoutes(app: FastifyInstance) {
         name_contains,
         mobility,
         soft_skills,
+        section_contains,
         limit,
-      } = (req.query as ProgramCoursesQuery) ?? {};
+      } = (req.query as ProgramCoursesQuery & { section_contains?: string }) ?? {};
+
+      const totalEctsFilter = parseNumericFilter(total_ects, total_ects_operator);
+      const courseEctsFilter = parseNumericFilter(ects, ects_operator);
 
       return query(
         `
@@ -225,12 +348,21 @@ export async function programsRoutes(app: FastifyInstance) {
           f.name_en AS faculty_name,
           d.name AS domain_name,
           co.course_type,
+          co.description AS program_course_description,
           p.program_id,
           p.name_en AS program_name_en,
           p.name_de AS program_name_de,
           p.name_fr AS program_name_fr,
           p.degree_level,
           p.total_ects,
+          CASE
+            WHEN p.total_ects < 90 THEN 'minor'
+            WHEN p.degree_level = 'Master' AND p.total_ects = 90 THEN 'major'
+            WHEN p.degree_level = 'Bachelor' AND p.total_ects >= 90 AND p.total_ects < 180 THEN 'major'
+            WHEN p.degree_level = 'Master' AND p.total_ects = 120 THEN 'mono'
+            WHEN p.degree_level = 'Bachelor' AND p.total_ects = 180 THEN 'mono'
+            ELSE NULL
+          END AS program_type,
           p.study_start,
           COALESCE(p.name_en, p.name) AS program_sort_name
         FROM StudyProgram p
@@ -256,28 +388,57 @@ export async function programsRoutes(app: FastifyInstance) {
             OR pf.name_fr ILIKE '%' || $6 || '%'
           )
           AND ($7::text IS NULL OR p.study_start = $7)
-          AND ($8::float IS NULL OR p.total_ects = $8)
-
-          AND ($9::text IS NULL OR co.course_type = $9)
+          AND (
+            $8::float IS NULL
+            OR CASE $9::text
+              WHEN 'lt' THEN p.total_ects < $8
+              WHEN 'lte' THEN p.total_ects <= $8
+              WHEN 'gt' THEN p.total_ects > $8
+              WHEN 'gte' THEN p.total_ects >= $8
+              ELSE p.total_ects = $8
+            END
+          )
           AND (
             $10::text IS NULL
+            OR CASE
+              WHEN p.total_ects < 90 THEN 'minor'
+              WHEN p.degree_level = 'Master' AND p.total_ects = 90 THEN 'major'
+              WHEN p.degree_level = 'Bachelor' AND p.total_ects >= 90 AND p.total_ects < 180 THEN 'major'
+              WHEN p.degree_level = 'Master' AND p.total_ects = 120 THEN 'mono'
+              WHEN p.degree_level = 'Bachelor' AND p.total_ects = 180 THEN 'mono'
+              ELSE NULL
+            END = $10
+          )
+
+          AND ($11::text IS NULL OR co.course_type = $11)
+          AND (
+            $12::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
               LEFT JOIN Semester s
                 ON s.sem_id = off.sem_id
               WHERE off.code = c.code
-                AND s.type = $10
+                AND s.type = $12
             )
           )
-          AND ($11::float IS NULL OR c.ects = $11)
-          AND ($12::int IS NULL OR c.domain_id = $12)
-          AND ($13::text IS NULL OR d.name ILIKE '%' || $13 || '%')
-          AND ($14::text IS NULL OR c.name ILIKE '%' || $14 || '%')
-          AND ($15::boolean IS NULL OR c.mobility = $15)
-          AND ($16::boolean IS NULL OR c.soft_skills = $16)
           AND (
-            $17::text IS NULL
+            $13::float IS NULL
+            OR CASE $14::text
+              WHEN 'lt' THEN c.ects < $13
+              WHEN 'lte' THEN c.ects <= $13
+              WHEN 'gt' THEN c.ects > $13
+              WHEN 'gte' THEN c.ects >= $13
+              ELSE c.ects = $13
+            END
+          )
+          AND ($15::int IS NULL OR c.domain_id = $15)
+          AND ($16::text IS NULL OR d.name ILIKE '%' || $16 || '%')
+          AND ($17::text IS NULL OR c.name ILIKE '%' || $17 || '%')
+          AND ($18::boolean IS NULL OR c.mobility = $18)
+          AND ($19::boolean IS NULL OR c.soft_skills = $19)
+          AND (
+            $20::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
@@ -285,14 +446,14 @@ export async function programsRoutes(app: FastifyInstance) {
                 ON s.sem_id = off.sem_id
               WHERE off.code = c.code
                 AND (
-                  off.sem_id ILIKE $17
-                  OR s.sem_id ILIKE $17
-                  OR s.type ILIKE $17
+                  off.sem_id ILIKE $20
+                  OR s.sem_id ILIKE $20
+                  OR s.type ILIKE $20
                 )
             )
           )
           AND (
-            $18::text IS NULL
+            $21::text IS NULL
             OR EXISTS (
               SELECT 1
               FROM CourseOffering off
@@ -301,11 +462,12 @@ export async function programsRoutes(app: FastifyInstance) {
               JOIN Language l
                 ON l.lang_id = iti.lang_id
               WHERE off.code = c.code
-                AND l.description ILIKE $18
+                AND l.description ILIKE $21
             )
           )
-        ORDER BY program_sort_name, p.degree_level, p.total_ects, c.code
-        LIMIT COALESCE($19::int, 100)
+          AND ($22::text IS NULL OR co.description ILIKE $22)
+        ORDER BY program_sort_name, p.degree_level, p.total_ects, co.description NULLS LAST, c.code
+        LIMIT COALESCE($23::int, 100)
         `,
         [
           program_en ?? null,
@@ -315,11 +477,14 @@ export async function programsRoutes(app: FastifyInstance) {
           toInt(faculty_id),
           faculty_name ?? null,
           study_start ?? null,
-          toFloat(total_ects),
+          totalEctsFilter.value,
+          totalEctsFilter.operator,
+          program_type ?? null,
 
           course_type ?? null,
           semester_type ?? null,
-          toFloat(ects),
+          courseEctsFilter.value,
+          courseEctsFilter.operator,
           toInt(domain_id),
           domain_name ?? null,
           name_contains ?? null,
@@ -327,6 +492,7 @@ export async function programsRoutes(app: FastifyInstance) {
           toBoolean(soft_skills),
           semester ? `%${String(semester).trim()}%` : null,
           language ? `%${String(language).trim()}%` : null,
+          section_contains ? `%${String(section_contains).trim()}%` : null,
           toInt(limit) ?? 100,
         ]
       );
@@ -359,7 +525,15 @@ export async function programsRoutes(app: FastifyInstance) {
               type: "string",
               enum: ["Autumn", "Spring"],
             },
-            ects: { type: "number" },
+            ects: {
+              type: "string",
+              description:
+                "Filter by course ECTS. Supports exact values and comparisons like 6, >6, >=6, <6, <=6.",
+            },
+            ects_operator: {
+              type: "string",
+              enum: ["eq", "lt", "lte", "gt", "gte"],
+            },
             faculty_id: { type: "integer" },
             faculty_name: { type: "string" },
             domain_id: { type: "integer" },
@@ -380,6 +554,7 @@ export async function programsRoutes(app: FastifyInstance) {
         course_type,
         semester_type,
         ects,
+        ects_operator,
         faculty_id,
         faculty_name,
         domain_id,
@@ -389,8 +564,11 @@ export async function programsRoutes(app: FastifyInstance) {
         name_contains,
         mobility,
         soft_skills,
+        section_contains,
         limit,
-      } = (req.query as ProgramCoursesQuery) ?? {};
+      } = (req.query as ProgramCoursesQuery & { section_contains?: string }) ?? {};
+
+      const courseEctsFilter = parseNumericFilter(ects, ects_operator);
 
       return query(
         `
@@ -419,7 +597,16 @@ export async function programsRoutes(app: FastifyInstance) {
                 AND s.type = $3
             )
           )
-          AND ($4::float IS NULL OR c.ects = $4)
+          AND (
+            $4::float IS NULL
+            OR CASE $15::text
+              WHEN 'lt' THEN c.ects < $4
+              WHEN 'lte' THEN c.ects <= $4
+              WHEN 'gt' THEN c.ects > $4
+              WHEN 'gte' THEN c.ects >= $4
+              ELSE c.ects = $4
+            END
+          )
           AND ($5::int IS NULL OR c.faculty_id = $5)
           AND (
             $6::text IS NULL
@@ -467,7 +654,7 @@ export async function programsRoutes(app: FastifyInstance) {
           toInt(id),
           course_type ?? null,
           semester_type ?? null,
-          toFloat(ects),
+          courseEctsFilter.value,
           toInt(faculty_id),
           faculty_name ?? null,
           toInt(domain_id),
@@ -477,6 +664,116 @@ export async function programsRoutes(app: FastifyInstance) {
           toBoolean(soft_skills),
           semester ? `%${String(semester).trim()}%` : null,
           language ? `%${String(language).trim()}%` : null,
+          section_contains ? `%${String(section_contains).trim()}%` : null,
+          toInt(limit) ?? 100,
+          courseEctsFilter.operator,
+        ]
+      );
+    }
+  );
+
+
+  // ============================
+  // GET /programs/:id/course-sections
+  // ============================
+  app.get(
+    "/:id/course-sections",
+    {
+      schema: {
+        summary: "Get course-section descriptions for courses in a program",
+        description:
+          "Returns consist_of.description for each program-course row, exposed as section_heading for chatbot compatibility. This metadata can contain useful study-year hints, but may also contain noisy source headings.",
+        params: {
+          type: "object",
+          required: ["id"],
+          properties: {
+            id: { type: "integer" },
+          },
+        },
+        querystring: {
+          type: "object",
+          properties: {
+            code: { type: "string" },
+            course_type: {
+              type: "string",
+              enum: ["Mandatory", "Elective"],
+            },
+            section_contains: {
+              type: "string",
+              description: "Substring match on consist_of.description / returned section_heading.",
+            },
+            non_empty_only: {
+              type: "boolean",
+              description: "When true, only rows with a non-empty consist_of.description value are returned.",
+            },
+            limit: { type: "integer", minimum: 1, maximum: 500 },
+          },
+        },
+      },
+    },
+    async (req) => {
+      const { id } = req.params as { id: string };
+      const { code, course_type, section_contains, non_empty_only, limit } =
+        (req.query as {
+          code?: string;
+          course_type?: "Mandatory" | "Elective";
+          section_contains?: string;
+          non_empty_only?: string | boolean;
+          limit?: string;
+        }) ?? {};
+
+      const columnRows = await query<{ column_name: string }>(
+        `
+        SELECT column_name
+        FROM information_schema.columns
+        WHERE table_schema = current_schema()
+          AND table_name = 'consist_of'
+          AND column_name = ANY($1::text[])
+        `,
+        [["description"]]
+      );
+
+      const sectionColumn = ["description"].find((candidate) =>
+        columnRows.some((row) => row.column_name === candidate)
+      );
+
+      if (!sectionColumn) {
+        return [];
+      }
+
+      const sectionExpression = `co.${sectionColumn}`;
+
+      return query(
+        `
+        SELECT
+          co.program_id,
+          co.code,
+          COALESCE(co.course_name, c.name) AS course_name,
+          co.course_type,
+          ${sectionExpression} AS section_heading,
+          c.ects,
+          c.name AS canonical_course_name
+        FROM consist_of co
+        LEFT JOIN Course c
+          ON c.code = co.code
+        WHERE co.program_id = $1
+          AND ($2::text IS NULL OR co.code = $2)
+          AND ($3::text IS NULL OR co.course_type = $3)
+          AND (
+            $4::boolean IS NULL
+            OR $4 = false
+            OR NULLIF(BTRIM(${sectionExpression}), '') IS NOT NULL
+          )
+          AND ($5::text IS NULL OR ${sectionExpression} ILIKE $5)
+        ORDER BY ${sectionExpression} NULLS LAST, co.course_type, co.code
+        LIMIT COALESCE($6::int, 100)
+        `,
+        [
+          toInt(id),
+          code ?? null,
+          course_type ?? null,
+          toBoolean(non_empty_only),
+          section_contains ? `%${String(section_contains).trim()}%` : null,
           toInt(limit) ?? 100,
         ]
       );
