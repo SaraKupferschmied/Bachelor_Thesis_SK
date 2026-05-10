@@ -1,0 +1,19 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:20.084Z",
+  "title": "(angenommen durch den Fakultätsrat am – approuvé par le Conseil de Faculté le 6.10.2015) Vollprogramm Progr.",
+  "pages": 1,
+  "reg_doc_key": "fe771d581de0fb4444767dd29d4a9df25c73d8ad",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.410 Theologie > 400.410.413 Prüfungen, Gebühren, Bestätigungen, Zulassung ohne Matura",
+  "spider_title": "Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277401",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277401",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Diplom-_und_Pr_fungsgeb_hren_der_Theologischen_Fakult_t_f_r_Studieng_nge_im_Voll-_Haupt-_und_Nebenprogramm_FR_DE__fe771d581d.pdf",
+  "sha256": "95d6f2f64a8972abefa0873c4056e745d710b56918d7c5ad0dd9b88f425ee14c",
+  "fetched_at": "2026-04-03T12:11:54.214Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 413.211 Systematische Sammlung FACULTÉ DE THÉOLOGIE DÉCANAT T +41 26 300 73 70 decanat-theol@unifr.ch THEOLOGISCHE FAKULTÄT DEKANAT Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm Frais d’examen et de diplôme de la Faculté de Théologie pour les voies d’études uniques, principales et secondaires. (angenommen durch den Fakultätsrat am – approuvé par le Conseil de Faculté le 6.10.2015) Vollprogramm Progr. unique Hauptprogramm Progr. principal Nebenprogramm Progr. secondaire Bachelor 180 120 30 / 60 Master 240 180 60 Kirchliches Diplom Diplôme ecclésiastique 200 0 0 Kanonisches Lizentiat Licence Canonique 200 0 0 Doktorat - Doctorat 400 0 0 Habilitation 600 0 0 Les frais d’examens et de diplôme sont perçus au moment du dépôt du travail final. Les frais d’examens pour un programme secondaire sont perçus au moment de l’établissement de l’attestation finale. Die Prüfungs- und Diplomgebühren werden fällig bei der Abgabe der Abschlussarbeit. Die Prüfungsgebühren für ein Nebenprogramm werden bei der Ausstellung der Schlussbestätigung fällig. Freiburg/Fribourg, 6.10.2015

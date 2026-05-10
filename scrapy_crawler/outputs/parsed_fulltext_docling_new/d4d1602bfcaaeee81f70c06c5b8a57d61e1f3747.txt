@@ -1,0 +1,186 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T03:28:58.680Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Zusatzfach_LDSM_d4d1602bfcaaeee81f70c06c5b8a57d61e1f3747",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d4d1602bfcaaeee81f70c06c5b8a57d61e1f3747",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 60,
+  "program_name": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+  "doc_label": "Zusatzfach LDSM",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDSM_20%20%280000%29%2005%2005%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Zusatzfach_LDSM_d4d1602bfcaaeee81f70c06c5b8a57d61e1f3747.pdf",
+  "sha256": "aab44f1b18ffe5383847c1513c8b8def81cf7345706ddfb6b47ba2737ef9c813",
+  "fetched_at": "2026-04-03T11:26:50.642Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDSM_20%20%280000%29%2005%2005%202025.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR LEHRPERSONENBILDUNG
+
+## STUDIENPLAN
+
+## Lehrdiplom für die Sekundarstufe I und für Maturitätsschulen
+
+Erweiterungsdiplom - Lehrbefähigung 20 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium an der Fakultät für Erziehungs- und Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die bereits über ein Lehrdiplom für den Unterricht an Schulen der Sekundarstufe I und an Maturitätsschulen verfügen und die Lehrbefähigung für ein zusätzliches Unterrichtsfach (Zusatzfach) erwerben wollen.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm im Umfang von 20 ECTS-Kreditpunkten kann nur auf Deutsch absolviert werden. Es gelten  die  Bestimmungen  gemäss  dem  Reglement  vom  19. September  2024  über  die  zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften. Es ist nicht möglich, das Erweiterungsdiplom zum Lehrdiplom für die Sekundarstufe I und für Maturitätsschulen (LDSM) mit dem Vermerk «zweisprachiges Studium, Deutsch/Französisch» zu erlangen.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Voraussetzung  für  die  Zulassung  zum  Studium  ist  ein  von  der  EDK  anerkanntes  Lehrdiplom  für  die Sekundarstufe I und für Maturitätsschulen.
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Für dieses Studienprogramm können bis zum 30. April Zulassungsgesuche eingereicht werden.
+
+Das Erweiterungsdiplom kann nur für Unterrichtsfächer erlangt werden, die sowohl auf der Sekundarstufe I als auch an Maturitätsschulen unterrichtet werden.
+
+Das Erweiterungsdiplom kann für die Unterrichtsfächer in der Tabelle (nächste Seite) die, mit Ausnahme des Unterrichtsfachs Bildnerisches Gestalten, alle an der Universität Freiburg studiert werden können, erworben werden.
+
+Die Anforderungen an die fachwissenschaftliche Ausbildung im Zusatzfach entsprechen den Anforderungen für das Unterrichtsfach 2 gemäss dem Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+
+| Unterrichtsfach Sekundarstufe I                                                                                                                                                     | Unterrichtsfach Maturitätsschulen                                                                                                                                                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Faculté des sciences de l'éducation et de la formation (EduForm)                                                                                                                    | Faculté des sciences de l'éducation et de la formation (EduForm)                                                                                                                                                                                                |
+| Bildnerisches Gestalten                                                                                                                                                             | Bildnerisches Gestalten (Fachhochschule)                                                                                                                                                                                                                        |
+| Philosophische Fakultät (Lettres)                                                                                                                                                   | Philosophische Fakultät (Lettres)                                                                                                                                                                                                                               |
+| Deutsch Englisch Ethik, Religionen, Gemeinschaft Französisch Geschichte Italienisch Latein Musik Romanisch Spanisch Theologische Ethik, Religionen, Gemeinschaft Bewegung und Sport | Deutsch Englisch Religionslehre Französisch Geschichte Italienisch Latein Musik Rätoromanisch Spanisch Fakultät (Theol) Religionslehre und Medizinische Fakultät (SciMed) Sport Geographie Mathematik Informatik ° In den jeweils anderen beiden Fächern müssen |
+| Geographie Mathematik Medien und Informatik Natur und Technik                                                                                                                       | °Physik je mind. 10 bis 15 ECTS-Kreditpunkte erworben werden, damit auf der Sekundarstufe I das Unterrichtsfach Natur und Technik unterrichtet werden kann.                                                                                                     |
+| Mathematisch-Naturwissenschaftliche                                                                                                                                                 | Mathematisch-Naturwissenschaftliche                                                                                                                                                                                                                             |
+|                                                                                                                                                                                     | °Biologie °Chemie                                                                                                                                                                                                                                               |
+
+## 2.4 Verliehener Titel
+
+Der verliehene Titel lautet: Erweiterungsdiplom, Lehrbefähigung
+
+## 3 Studienprogramm
+
+Das Studienprogramm zum Erwerb des Lehrdiploms für ein zusätzliches Unterrichtsfach für den Unterricht auf der Sekundarstufe I und an Maturitätsschulen umfasst 20 ECTS-Kreditpunkte und ist in zwei Module aufgeteilt.
+
+## 3.1 Ziele der Ausbildung
+
+Studierende dieses Studienprogramms haben bereits fundierte allgemeine Kenntnisse der Erziehungswissenschaften aus dem Studium zum Lehrdiplom für Sekundarstufe I und Maturitätsstufe sowie fundierte Kenntnisse der Fachwissenschaften im Zusatzfach. Diese Kenntnisse werden  mit diesem Studienprogramm ergänzt durch fachdidaktische Kenntnisse und Handlungskompetenzen für den Unterricht auf der Sekundarstufen I und an Maturitätsschulen. Die Zielsetzung wird in Übereinstimmung mit den von der EDK erlassenen Anforderungen für die Anerkennung dieses Lehrdiploms festgelegt.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Die Ausbildung besteht aus zwei Modulen: Modul 1 Fachdidaktik und Modul 2 Berufspraktische Ausbildung . Da die Studierenden bereits ein Lehrdiplom beider Stufen besitzen, konzentriert sich die vorliegende Ausbildung auf das Zusatzfach sowohl in der Fachdidaktik wie auch in den Praktika.
+
+## 3.3 Struktur der Module
+
+## Fachdidaktik (M1)
+
+11 ECTS
+
+Die Studierenden lernen im Modul 1, die fachwissenschaftlichen Inhalte logisch sinnvoll anzuordnen, die Inhalte  und  fachspezifischen  Methoden  angemessen  mit  den  wichtigsten  Zielen  und  Kompetenzen  zu verknüpfen und fachdidaktisch aufbereitete Medien und Materialien so zu verwenden, dass die Schülerinnen und Schüler möglichst viel lernen. Insbesondere sollen die Studierenden fachspezifische Herangehensweisen, Handlungsweisen und Denktraditionen stufengerecht auf der Sekundarstufe I (SI) und Sekundarstufe II (SII) anwenden können.
+
+| Unterrichteinheiten   | Unterrichteinheiten   |         |        |
+|-----------------------|-----------------------|---------|--------|
+| F24.00000             | Fachdidaktik SI*      | Seminar | 5 ECTS |
+| F24.00000             | Fachdidaktik SII*     | Seminar | 6 ECTS |
+
+## Leistungsnachweise
+
+In den Fachdidaktiken müssen alle Leistungsnachweise bestanden werden. Am Ende jedes Kurses wird eine Note erteilt.  Die  Leistungsnachweise  der  Fachdidaktiken  SI  werden  zum Teil  in  den  Praktika  umgesetzt. Deshalb ist der Evaluationszeitpunkt der Fachdidaktiken SI nicht an die offiziellen Examenszeitpunkte der Universität Freiburg gebunden. Der Evaluationszeitpunkt der Fachdidaktiken SII ist hingegen an die offiziellen Examenssessionen der Universität Freiburg gebunden.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  während  der  ganzen Ausbildung  zum Erweiterungsdiplom einen dritten Versuch zu erhalten. Es gelten die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Berufspraktische Ausbildung (M2)
+
+9 ECTS
+
+Die  Studierenden  vertiefen  und  erweitern  einerseits  die  allgemeindidaktischen,  vor  allem  aber  die fachdidaktischen Kenntnisse, Fertigkeiten und Kompetenzen bezüglich vorbereiten, durchführen, beobachten und analysieren des Unterrichts im Zusatzfach.
+
+## Unterrichteinheiten
+
+| F24.00000   | Praktikum SI und Prüfungslektion SI   | Praktikum + Prüfungslektion   | 4 ECTS   |
+|-------------|---------------------------------------|-------------------------------|----------|
+| F24.00000   | Praktikum SII                         | Praktikum                     | 4 ECTS   |
+| F24.00000   | Prüfungslektion SII                   | 1 Prüfungslektion             | 1 ECTS   |
+
+## Leistungsnachweise
+
+Die  berufspraktische Ausbildung  wird  am  Ende  mit  «bestanden»  /  «nicht  bestanden»  evaluiert.  Für  die berufspraktische Ausbildung gelten die Bestimmungen gemäss Art. 106 Studienreglement. Die berufspraktische  Abschlussprüfung  umfasst  eine  Prüfungslektion  auf  der  Sekundarstufe  I  und  eine Prüfungslektion für die Maturitätsschulen. Für die Sekundarstufe I findet die Prüfungslektion mit anschliessendem  Prüfungskolloquium  innerhalb  des  Praktikums  statt.  Das  Praktikum  SI  sowie  die Prüfungslektion SI müssen einzeln bestanden werden und können je einmal wiederholt werden. Für die Maturitätsschulen ist ebenfalls eine Prüfungslektion mit anschliessendem Prüfungskolloquium zu absolvieren. Bei Nichtbestehen kann die Prüfungslektion einmal wiederholt werden. Voraussetzung für die Zulassung zu den Prüfungslektionen ist der erfolgreiche Abschluss des Moduls 1.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Dieses  berufsqualifizierende  Ausbildungsprogramm  erfordert  eine  Anwesenheit  von  100%  sowohl  in  den Kursen als auch bei den Praktika. Eine Abwesenheit von maximal 20% kann aus triftigen Gründen (militärische
+
+Verpflichtungen,  Mutterschaftsurlaub,  Krankheit  oder  Unfall)  toleriert  werden.  Für  jede  andere Abwesenheit muss ein begründeter Antrag schriftlich bei der Geschäftsführenden Direktion des Zentrums eingereicht werden.
+
+Leistungsnachweise  erfolgen  in  Form  einer  mündlichen  oder  schriftlichen  Prüfung  oder  einer  Arbeit.  Die verspätete Abgabe einer Arbeit gilt als «nicht bestanden».
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich abgeschlossen wurden.
+
+## 4.2 Anerkennung
+
+In diesem Studienprogramm können keine Unterrichtseinheiten anerkannt werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Die Anmeldung zu einem Praktikum ist definitiv  und  kann  nicht  annulliert  werden.  Nicht  eingeschriebene  Studierenden  haben  keinen Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Praktika des Moduls 2 werden ausserhalb der Prüfungssessionen evaluiert.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden. In den Studienplänen wird angegeben, in welchen Unterrichtseinheiten ein dritter Versuch zulässig ist.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel  3.3  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die Unterrichtseinheit wurde nach zwei Versuchen (mit Ausnahme eines möglichen dritten Versuchs) nicht validiert (Art. 24 Studienreglement);
+- die Unterrichtseinheit wurde nach vier Prüfungssessionen nicht für gültig erklärt (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit, Art. 27 und 28 Studienreglement);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Es wird keine Abschlussnote berechnet (Art. 93 des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester 2025 in Kraft. Er gilt für alle Studierenden, die für das Studienprogramm Erweiterungsdiplom - Lehrbefähigung eingeschrieben sind, unabhängig vom Studienbeginn. Für  Studierende,  die  vor  dem  Herbstsemester  2025  bereits  im  Studienprogramm  Erweiterungsdiplom Lehrbefähigung eingeschrieben waren, wird die Anzahl der bereits absolvieren Semester gemäss Art. 112 Abs. 2  des  Reglements  vom  19.  September  2024  über  das  Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften nicht in die Berechnung der maximalen Studiendauer miteinbezogen.

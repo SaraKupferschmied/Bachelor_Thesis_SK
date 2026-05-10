@@ -1,0 +1,40 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:09.482Z",
+  "title": "Recueil systématique 510.830 Systematische Sammlung",
+  "pages": 8,
+  "reg_doc_key": "830905c8466f2722453be06a3e1172761ed4ed4c",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Partnerschafts-Vereinbarung zu Bekanntmachung der angewandten Mathematik und Statistik zwischen der Universität Freiburg und der Fachhochschule Westschweiz//Freiburg (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277135",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277135",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Partnerschafts-Vereinbarung_zu_Bekanntmachung_der_angewandten_Mathematik_und_Statistik_zwischen_der_Universit_t_Freiburg_und_der_Fachhochschule_Westschweiz_Frei",
+  "sha256": "8faa869e1da88163287d365fc046242e21cc3553d9f7276d1c836a770d4c61f0",
+  "fetched_at": "2026-04-03T12:10:54.739Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 2---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 3---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 4---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 5---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 6---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 7---
+Recueil systématique 510.830 Systematische Sammlung
+
+---PAGE 8---
+Recueil systématique 510.830 Systematische Sammlung

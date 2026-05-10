@@ -1,0 +1,37 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.616Z",
+  "title": "Recueil systématique 511.130 Systematische Sammlung 1",
+  "pages": 7,
+  "reg_doc_key": "ae19384d2d5c30c0a8b901d77bd9d299cc5f964a",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Agreement of cooperation between University of Pavia (Italy) and University of Fribourg (Switzerland) for the creation of a double degree program between the Faculty of Economics of Pavia and the Faculty of Economics and Social Sciences of the University of Fribourg (EN)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277160",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277160",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Agreement_of_cooperation_between_University_of_Pavia_Italy_and_University_of_Fribourg_Switzerland_for_the_creation_of_a_double_degree_program_between_the_Facult",
+  "sha256": "34fb69ad577df4ce401d48b6e6468cdba37cd16154a225499edb1f6761d7447d",
+  "fetched_at": "2026-04-03T12:10:57.611Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.130 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.130 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.130 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 511.130 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 511.130 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 511.130 Systematische Sammlung 6
+
+---PAGE 7---
+Recueil systématique 511.130 Systematische Sammlung 7

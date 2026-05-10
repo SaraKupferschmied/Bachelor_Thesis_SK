@@ -1,0 +1,65 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T03:24:33.594Z",
+  "title": "Philosophy_Bachelor_30_Religious_studies_Schema_BA_60_ECTS_d2f10c59ad7a10acb707a850b9c656e58d78a012",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d2f10c59ad7a10acb707a850b9c656e58d78a012",
+  "program_key": "philosophy|bachelor|30|religious studies",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Religious Studies",
+  "doc_label": "Schema BA 60 ECTS",
+  "source_url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/religiousstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/A0cJ8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Religious_studies_Schema_BA_60_ECTS_d2f10c59ad7a10acb707a850b9c656e58d78a012.pdf",
+  "sha256": "0f1ee368d4140c2e11580b43960d2b878324a1ad2caf9f3fd2af52f5c475f4d7",
+  "fetched_at": "2026-04-03T11:30:44.485Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Bachelor Religionswissenschaft
+
+## Studienprogramm zu 60 Kreditpunkten
+
+## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)*
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+2 VL: Einführung in zentrale
+
+Themen der RW (6 ECTS)
+
+- *Ggf. VL Einführung in zentrale
+
+Themen der RW (3 ECTS)
+
+Religiöse Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)

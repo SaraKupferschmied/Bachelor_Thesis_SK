@@ -1,0 +1,217 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:56:28.859Z",
+  "title": "UNK_Bachelor_60_Economic_and_Legal_Studies_Plan_d_tude_nbsp__f039774cf01f6535dadd30f88bb460641bfeaccc",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f039774cf01f6535dadd30f88bb460641bfeaccc",
+  "program_key": "|bachelor|60|economic and legal studies",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Economic and Legal Studies",
+  "doc_label": "Plan d'étude&nbsp;",
+  "source_url": "https://www.calameo.com/read/00365911551478084039f",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/ecoius",
+  "curriculum_url": "http://studies.unifr.ch/go/zhkE3",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_60_Economic_and_Legal_Studies_Plan_d_tude_nbsp__f039774cf01f6535dadd30f88bb460641bfeaccc.pdf",
+  "sha256": "d802c29fdbacefdac00bf354c75f3aa6b57953ffd0dd5ed86063a98d8cbfc5ff",
+  "fetched_at": "2026-04-03T11:31:41.029Z",
+  "notes": "calameo downloaded (id=00365911551478084039f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250909081849-2da0c2d656aca620c802689bf554283e/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T113140Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=e998ce419f136907bd39c295231e4906eec4e957de78c3e1ca5a6d920f142598, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Synthèse du plan d'études
+
+Faculté des sciences économiques et sociales et du management
+
+Faculté
+
+265 : Bachelor of Arts en études économiques et juridiques
+
+Voie d'études
+
+923 : Management et Économie 120
+
+Programme
+
+2018-SA\_V02
+
+Version
+
+SA-2025/SP-2026
+
+Période de validité
+
+## REMARQUE IMPORTANTE
+
+Le Règlement de Bachelor s'applique pleinement et fait foi en toutes circonstances. Les informations présentées ci-dessous (tirées des articles 10 à 14) sont fournies à titre indicatif pour faciliter la compréhension, mais ne remplacent pas le règlement et n'ont pas de valeur normative. En cas de doute, le texte du règlement prévaut ( Règlement du 28 mai 2018 (état au 27 septembre 2021) sur l'octroi des Bachelor à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg, disponible sur le site unifr.ch/ses/fr/etudes/reglements.html).
+
+## Durée des études
+
+Afin d'assurer une progression régulière dans le cursus du Bachelor en Management et économie , les étudiant·e·s doivent respecter les délais suivants pour la validation des années d'études :
+
+- -Première année : doit être entièrement validée au plus tard à la fin du 4ᵉ semestre.
+- -Deuxième - troisième année : doit être entièrement validée au plus tard à la fin du 12ᵉ semestre.
+
+Le non-respect de ces délais entraîne l'exclusion du programme .
+
+## Principe de compensation
+
+La Faculté applique un principe de compensation dans l'évaluation des résultats selon le règlement du 28 mai 2018 (état au 27 septembre 2021) sur l'octroi des Bachelor à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg ().
+
+Les travaux de séminaire et le travail de Bachelor doivent impérativement être réussis : ils ne peuvent pas être compensés.
+
+## Etat de l'offre de cours
+
+Ce document présente l'offre de cours telle qu'elle est publiée pour la période indiquée. Les enseignements peuvent varier d'une année académique à l'autre. Pour obtenir les informations les plus récentes, veuillez consulter le site officiel de l'Université de Fribourg ou votre portail étudiant.
+
+Les données incluses dans ce document sont celles disponibles au moment de l'impression.
+
+La plupart des cours Bachelor sont dédoublés en Français/Allemand et sont équivalents.
+
+En cas d'équivalence, un seul des cours peut être sélectionné.
+
+| Code   | Unité d'enseignement   | Enseignant·e(s)   | Semestre   | Langue Niveau   | Evaluation   | ECTS   |
+|--------|------------------------|-------------------|------------|-----------------|--------------|--------|
+
+## 1ère année - 42 ECTS
+
+La première année du programme est consacrée à l'acquisition des bases en gestion et en économie politique. Elle permet aux étudiant·e·s de se familiariser avec les concepts fondamentaux de ces deux disciplines.
+
+La première année ne comprend que 42 crédits ECTS. Il est donc possible, et même recommandé, de suivre certains cours de deuxième ou troisième année dès la première année, dans la mesure où l'horaire le permet. Cela facilite la planification des études et permet de consacrer deux semestres consécutifs à la validation complète de la branche complémentaire en droit (60 ECTS) durant la deuxième année.
+
+Possibilité de compenser maximum 8,4 ECTS
+
+<!-- image -->
+
+| Code      | Unité d'enseignement                       | Enseignant·e(s)           | Semestre   | Niveau   | Langue   | Evaluation   |   ECTS |
+|-----------|--------------------------------------------|---------------------------|------------|----------|----------|--------------|--------|
+| EIG.00122 | Introduction à la statistique I            | Donzé                     | SA-2025    | BA       | fr       | Examen écrit |    4.5 |
+| EIG.00123 | Einführung in die Statistik I              | Leuenberger               | SA-2025    | BA       | de       | Examen écrit |    4.5 |
+| ESE.00028 | Einführung in die Statistik II             | Huber                     | SP-2026    | BA       | de       | Examen écrit |    4.5 |
+| ESE.00027 | Introduction à la statistique II           | Kauth, Kauth              | SP-2026    | BA       | fr       | Examen écrit |    4.5 |
+| ESE.00040 | Microéconomie I                            | Gugler                    | SA-2025    | BA       | fr       | Examen écrit |    6   |
+| ESE.00041 | Mikroökonomie I                            | Büchel                    | SA-2025    | BA       | de       | Examen écrit |    6   |
+| EEP.00160 | Microéconomie II                           | Gugler                    | SP-2026    | BA       | fr       | Examen écrit |    6   |
+| EEP.00161 | Mikroökonomie II                           | Herz, Staubli             | SP-2026    | BA       | de       | Examen écrit |    6   |
+| ESE.00048 | Mathematik I                               | Leuenberger               | SA-2025    | BA       | de       | Examen écrit |    4.5 |
+| ESE.00047 | Mathématiques I                            | Schindl                   | SA-2025    | BA       | fr       | Examen écrit |    4.5 |
+| ESE.00052 | Mathematik II                              | Leuenberger               | SP-2026    | BA       | de       | Examen écrit |    4.5 |
+| ESE.00051 | Mathématiques II                           |                           | SP-2026    | BA       | fr       | Examen écrit |    4.5 |
+| EGE.00136 | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | SA-2025    | BA       | de       | Examen écrit |    6   |
+| EGE.00135 | Introduction à la gestion d'entreprise     | Davoine                   | SA-2025    | BA       | fr       | Examen écrit |    6   |
+| EGE.00137 | Introduction à la comptabilité             | Missonier-Piera           | SA-2025    | BA       | fr       | Examen écrit |    6   |
+| EGE.00138 | Unternehmensrechnung                       | Burkert                   | SA-2025    | BA       | de       | Examen écrit |    6   |
+
+## Compétences documentaires
+
+Les compétences documentaires en économie visent à initier les étudiant·e·s à la recherche, à l'analyse critique et à l'utilisation pertinente de sources économiques. L'accent est mis sur la compréhension des publications académiques, des rapports d'organisations économiques et des documents de politique publique. Ces compétences sont obligatoires et doivent être validées avant la rédaction du travail de Bachelor , dont elles constituent un préalable méthodologique essentiel.
+
+| EDK.00951   | Compétences documentaires en économie 1 - Groupe A                  | Brodard, Lüscher   | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+|-------------|---------------------------------------------------------------------|--------------------|-----------|------|------|-----------------------|-----|
+| EDK.00954   | Compétences documentaires en économie 1 - Groupe B                  | Brodard, Lüscher   | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00955   | Compétences documentaires en économie 1 - Groupe C                  | Brodard, Lüscher   | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00956   | Compétences documentaires en économie 1 - Groupe D                  | Brodard, Lüscher   | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00957   | Compétences documentaires en économie 1 - Groupe E                  | Brodard, Lüscher   | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00958   | Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A | Lüscher            | SA-2025   | BA   | de   | Evaluation continue   |   0 |
+| EDK.00960   | Compétences documentaires en économie 2 - Groupe A                  | Lüscher            | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00961   | Compétences documentaires en économie 2 - Groupe B                  | Lüscher            | SA-2025   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00963   | Compétences documentaires en économie 2 - Groupe D                  | Brodard, Lüscher   | SP-2026   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00964   | Compétences documentaires en économie 2 - Groupe E                  | Brodard, Lüscher   | SP-2026   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00965   | Compétences documentaires en informatique de Gestion 2 - Groupe G   | Brodard, Lüscher   | SP-2026   | BA   | fr   | Evaluation continue   |   0 |
+| EDK.00966   | Informationskompetenz in den                                        | Lüscher            | SA-2025   | BA   | de   | Evaluation continue   |   0 |
+
+Wirtschaftswissenschaften 2 - Gruppe A
+
+<!-- image -->
+
+| Code      | Unité d'enseignement                                                | Enseignant·e(s)   | Semestre   | Niveau   | Langue   | Evaluation          |   ECTS |
+|-----------|---------------------------------------------------------------------|-------------------|------------|----------|----------|---------------------|--------|
+| EDK.00968 | Informationskompetenz in den Wirtschaftswissenschaften 2 - Gruppe C | Lüscher           | SP-2026    | BA       | de       | Evaluation continue |      0 |
+
+## 2ème + 3ème année - 78 ECTS
+
+Après une deuxième année consacrée à la validation de la branche complémentaire en droit (60 ECTS), la troisième année permet aux étudiant·e·s de se recentrer sur la branche principale en management et économie politique, et de finaliser leur parcours de Bachelor.
+
+La troisième année est consacrée à l'approfondissement des connaissances en management et en économie politique, ainsi qu'à la réalisation du travail de
+
+## Bachelor.
+
+- -Cours obligatoires : 28.5 ECTS
+- -Cours à choix : minimum 34.5 ECTS
+- -Travail de Bachelor (y compris compétences documentaires) : 15 ECTS
+
+Afin d'éviter les conflits d'horaire entre les cours et les exercices, il est recommandé de suivre l'une des deux variantes proposées dans le plan d'études. Ces variantes peuvent être adaptées selon les intérêts personnels. En cas de doute, les étudiant·e·s sont invité·e·s à contacter le décanat.
+
+Possibilité de compenser maximum 12,6 ECTS
+
+## Cours obligatoires
+
+| EEP.00220     | Macroéconomie I                                | Massonnet         | SA-2025       | BA            | fr            | Examen oral                         | 6             |
+|---------------|------------------------------------------------|-------------------|---------------|---------------|---------------|-------------------------------------|---------------|
+| EEP.00221     | Makroökonomie I                                | Grossmann         | SA-2025       | BA            | de            | Examen écrit                        | 6             |
+| EEP.00229     | Macroéconomie II                               | Rossi-Pedruzzi    | SP-2026       | BA            | fr            | Examen oral                         | 6             |
+| EEP.00230     | Makroökonomie II                               | Grossmann         | SP-2026       | BA            | de            | Examen écrit                        | 6             |
+| EGE.00273     | MAN01F: Investissement et financement          | Isakov            | SA-2025       | BA            | fr            | Examen écrit                        | 6             |
+| EGE.00274     | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier         | SA-2025       | BA            | de            | Examen écrit                        | 6             |
+| EEP.00336     | ECO02F: Économie publique                      | Schelker          | SP-2026       | BA            | fr            | Examen écrit                        | 6             |
+| EEP.00337     | ECO02D: Wirtschafts- und Finanzpolitik         | Eichenberger      | SP-2026       | BA            | de            | Examen écrit                        | 6             |
+| EGE.00275     | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer            | SA-2025       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00276     | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse   | SA-2025       | BA            | de            | Examen écrit                        | 4.5           |
+| Cours à choix | Cours à choix                                  | Cours à choix     | Cours à choix | Cours à choix | Cours à choix | Cours à choix                       | Cours à choix |
+| EGE.00279     | MAN04F: Comptabilité financière                | Missonier-Piera   | SP-2026       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00280     | MAN04D: Bilanzierung                           | Kunz              | SP-2026       | BA            | de            | Examen écrit                        | 4.5           |
+| EGE.00277     | MAN03F: Recherche Marketing                    | Furrer            | SP-2026       | BA            | fr            | Evaluation continue et examen écrit | 6             |
+| EGE.00278     | MAN03D: Marketingforschung                     | Bambauer-Sachse   | SP-2026       | BA            | de            | Evaluation continue et examen écrit | 6             |
+| EGE.00281     | MAN05F: Gestion des ressources humaines        | Davoine           | SA-2025       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00282     | MAN05D: Human Resource Management              | Gmür              | SA-2025       | BA            | de            | Examen écrit                        | 4.5           |
+| EGE.00283     | MAN08F: Management stratégique                 | Mena              | SP-2026       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00485     | MAN08E: Strategic Management                   | Mena              | SP-2026       | BA            | en            | Examen écrit                        | 4.5           |
+| EGE.00285     | MAN09F: Comptabilité de gestion                | Oyon              | SP-2026       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00286     | MAN09D: Controlling (d)                        | Burkert           | SP-2026       | BA            | de            | Examen écrit                        | 4.5           |
+| EGE.00287     | MAN10F: Finance d'Entreprise                   | Isakov            | SP-2026       | BA            | fr            | Examen écrit                        | 4.5           |
+| EGE.00288     | MAN10D: Unternehmensfinanzierung               | Affolter, Wilding | SP-2026       | BA            | de            | Examen écrit                        | 4.5           |
+| ESE.00029     | Statistique: approfondissement                 | Donzé             | SP-2026       | BA            | fr            | Examen écrit                        | 4.5           |
+| ESE.00030     | Vertiefungskurs Statistik                      | Leuenberger       | SP-2026       | BA            | de            | Examen écrit                        | 4.5           |
+
+<!-- image -->
+
+| Code                | Unité d'enseignement                                | Enseignant·e(s)     | Semestre            | Niveau              | Langue              | Evaluation          | ECTS                |
+|---------------------|-----------------------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+| EGE.00253           | Organisation (f)                                    | Fauchart            | SP-2026             | BA                  | fr                  | Examen écrit        | 6                   |
+| EGE.00258           | Organisation (d)                                    | Gmür                | SP-2026             | BA                  | de                  | Examen écrit        | 6                   |
+| EIG.00015           | Operations Management (d)                           | Trautmann           | SP-2026             | BA                  | de                  | Examen écrit        | 6                   |
+| EEP.00355           | ECO01F: Histoire des faits économiques              | Dumas, Schrey       | SA-2025             | BA                  | fr                  | Examen écrit        | 6                   |
+| EEP.00356           | ECO01D: Wirtschaftsgeschichte                       | Herz                | SA-2025             | BA                  | de                  | Examen écrit        | 6                   |
+| EEP.00338           | ECO03F: Commerce international                      | Madiès              | SA-2025             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| EEP.00339           | ECO03D: Internationaler Handel                      | Grossmann           | SP-2026             | BA                  | de                  | Examen écrit        | 4.5                 |
+| EEP.00340           | ECO05F: Économie publique - Approfondissements      | Schelker            | SA-2025             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| EEP.00341           | ECO06D: Wirtschaftspolitik: Schwerpunktthemen       | Eichenberger        | SA-2025             | BA                  | de                  | Evaluation continue | 4.5                 |
+| EEP.00357           | ECO07F: Économie du développement                   | Dumas               | SP-2026             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| EEP.00358           | ECO08E: Applied Econometrics                        | Huber               | SA-2025             | BA                  | en                  | Examen écrit        | 4.5                 |
+| EEP.00359           | ECO09F: Économie du travail                         | Fernandes           | SP-2026             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| EEP.00360           | ECO09D: Arbeitsökonomie                             | Gerfin              | SP-2026             | BA                  | de                  | Examen écrit        | 4.5                 |
+| EEP.00343           | ECO10F: Relations Financières Internationales       | Madiès              | SP-2026             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| EEP.00361           | ECO11D: Ökonomische Analyse des Rechts              | Büchel              | SP-2026             | BA                  | de                  | Examen écrit        | 4.5                 |
+| EEP.00526           | ECO12D: Wirtschaftspolitik: Theorie und Anwendungen | Jeitziner           | SA-2025             | BA                  | de                  | Examen écrit        | 4.5                 |
+| EEP.00531           | ECO13F: Introduction à l'économie des migrations    | Gautrain            | SA-2025             | BA                  | fr                  | Examen écrit        | 4.5                 |
+| Travail de Bachelor | Travail de Bachelor                                 | Travail de Bachelor | Travail de Bachelor | Travail de Bachelor | Travail de Bachelor | Travail de Bachelor | Travail de Bachelor |
+| EDK.01669           | Travail de Bachelor                                 | Décanat             | SP-2026             | BA                  |                     | Evaluation continue | 15                  |
+| EDK.01669           | Travail de Bachelor                                 | Décanat             | SA-2025             | BA                  |                     | Evaluation continue | 15                  |
+
+## Référence base légale
+
+Règlement du 27 septembre 2021 sur l'organisation des études et des examens à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg

@@ -1,0 +1,25 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:08.378Z",
+  "title": "Convention entre les universités de Berne, Neuchâtel et Fribourg (BENEFRI) concernant la création d’un centre de détermination de routine des structures par rayons X et l’acquisition d’un diffractomètre aux rayons X (FR)",
+  "pages": 3,
+  "reg_doc_key": "736093efd1eec7cebc445155840bc74d2790ccfc",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Convention entre les universités de Berne, Neuchâtel et Fribourg (BENEFRI) concernant la création d’un centre de détermination de routine des structures par rayons X et l’acquisition d’un diffractomètre aux rayons X (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/280232",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/280232",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_entre_les_universit_s_de_Berne_Neuch_tel_et_Fribourg_BENEFRI_concernant_la_cr_ation_d_un_centre_de_d_termination_de_routine_des_structures_par_rayons",
+  "sha256": "778aea770eddc960420b91d77e470fdf4e3ffe0a5de10ea7eb923eaef36c88d4",
+  "fetched_at": "2026-04-03T12:11:14.852Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+

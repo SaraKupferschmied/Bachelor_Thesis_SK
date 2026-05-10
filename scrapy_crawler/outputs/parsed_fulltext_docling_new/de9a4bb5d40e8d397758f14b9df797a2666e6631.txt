@@ -1,0 +1,158 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:15:21.069Z",
+  "title": "Philosophy_Bachelor_30_Philosophy_Studienplan_BA_Programm_zu_30_ECTS_de9a4bb5d40e8d397758f14b9df797a2666e6631",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "de9a4bb5d40e8d397758f14b9df797a2666e6631",
+  "program_key": "philosophy|bachelor|30|philosophy",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Philosophy",
+  "doc_label": "Studienplan BA Programm zu 30 ECTS",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_30_de_2010.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Philosophy_Studienplan_BA_Programm_zu_30_ECTS_de9a4bb5d40e8d397758f14b9df797a2666e6631.pdf",
+  "sha256": "a3edce45320248848beb9fcb0c8a737ea2fb021ec019a2f0b75c05698d6652f5",
+  "fetched_at": "2026-04-03T11:31:27.960Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_30_de_2010.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA_Philosophie_30_de_2010.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## I. Unterrichtsformen
+
+Vorlesungen : Die regelmässigen Grundvorlesungen geben einen Überblick über die in IV. aufgeführten Gebiete. Spezialvorlesungen, dienen der Vertiefung spezifischer Fragestellungen. Vorlesungen von Gastprofessoren sind integraler Bestandteil des Studienprogrammes.
+
+Proseminare werden von Assistierenden geleitet und unterstützen Studienrende beim Einstieg ins Philosophiestudium.
+
+Seminare verlangen von den Studierenden eine intensive Vorbereitung, kritische Reflexion und aktive Mitarbeit.
+
+## II. Aufteilung der ECTS-Kreditpunkte (European Credit Transfer System)
+
+Die ECTS-Punkte sind als Mass des Arbeitsaufwands zu verstehen (eingeschlossen ist die Zeit der Anwesenheit in der jeweiligen Veranstaltung). 1 ECTS-Punkt entspricht 30 Arbeitsstunden.
+
+| Aufteilung der ECTS-Kreditpunkte                                |        |
+|-----------------------------------------------------------------|--------|
+| Vorlesung mit Prüfung                                           | 3 ECTS |
+| aktiveTeilnahme an einem Proseminar                             | 3 ECTS |
+| schriftliche Arbeit zu einem Proseminar (ungefähr 10 A4 Seiten) | 3 ECTS |
+| aktiveTeilnahme an einem Seminar                                | 3 ECTS |
+
+## III. Lehrangebot
+
+Der Unterricht gliedert sich in die Schwerpunkte Systematische Philosophie und Geschichte der Philosophie und ist  in 7 Gebiete unterteilt:
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+## IV. Studienprogramm
+
+| Bezeichnung des Studienprogramms                                 |   ECTS-Kreditpunkte | Unterrichtssprachen                     | VerliehenerTitel   |
+|------------------------------------------------------------------|---------------------|-----------------------------------------|--------------------|
+| Philosophie (für Studiengänge mit Programmen zu 30 ECTS-Punkten) |                  30 | Französisch, Deutsch oder zweisprachig* | ---                |
+
+## Bachelor of Arts Philosophie
+
+Programm zu 30 ECTS-Punkten
+
+Studienplan
+
+(Reglement gültig ab Herbstsemester 2010)
+
+## V. Studienplan
+
+## Programm zu 30 ECTS-Punkten
+
+(Reglement gültig ab Herbstsemester 2010)
+
+<!-- image -->
+
+| Modul                                                                                                                       | Unterrichtsformen                                                                                                                                                                                                                                                                | ECTS    | Noten 1                  |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| Kombiniertes Modul nachWahl (HPH und /oder PHS) (in den Gebieten: pan , pme oder pmc und/oder in leh , epp , pce oder eme ) |  4 Semestervorlesungen  2 Proseminare (mit aktiverTeilnahme und schriftlicher Arbeit) oder 1 Proseminar (mit aktiverTeilnahme und schriftlicher Arbeit) 1 Logikproseminar (Logik I) (mit schriftlichen Übungen und schriftlicher Prüfung)  2 Seminare (mit aktiver Teilnahme) | 30 ECTS | Durchschnitt aus 6 Noten |
+|                                                                                                                             |                                                                                                                                                                                                                                                                                  | Total   | 30 ECTS                  |
+
+1  Noten gibt es für geprüfte Semestervorlesungen, schriftliche Proseminar- oder Seminararbeiten und Logikprüfungen. Die aktive Teilnahme an Proseminaren und Seminaren werden nicht benotet. Die Schlussnote ergibt sich aus dem Durchschnitt der sechs Noten. Alle Noten müssen genügend sein (Note 4).
+
+## Zusatzregelung für das Programm zu 30 ECTS-Punkten :
+
+-  Seminare sind erst ab dem 2. Semester und nur nach erfolgreichem Abschluss von mindestens 1 Proseminar (aktive Teilnahme und schriftliche Arbeit bzw. Prüfung) zugänglich. Die Studierenden sind zu den Seminaren zugelassen, wenn die ECTS-Punkte des Proseminars vor dem Beginn des betreffenden Semesters in Gestens eingetragen sind.
+
+## V. Leistungskontrolle und Benotung
+
+## Proseminare und Seminare
+
+Der Besuch von Proseminaren und Seminaren wird angerechnet auf Grund von aktiver Teilnahme und schriftlichen Arbeiten:
+
+-  aktive Teilnahme:  sie  umschliesst  regelmässige  Anwesenheit,  Vorbereitung  auf  jede  Sitzung,  aktive Teilnahme  an  der  Diskussion  und mindestens eine mündliche Präsentation (oder eventuell eine schriftliche Bearbeitung);
+-  schriftliche Arbeiten: eine grössere oder mehrere kleinere schriftliche Arbeiten werden verlangt und benotet. Eine Überarbeitung ist höchstens zweimal möglich. Proseminararbeiten umfassen ungefähr 10 A4 Seite.
+
+Die aktive Teilnahme am Logikproseminar (Logik I) erfolgt durch schriftliche Bearbeitung von Übungsaufgaben. Eine schriftliche Prüfung ersetzt die schriftliche Proseminararbeit. Die Prüfung wird benotet und kann höchstens zweimal wiederholt werden.
+
+## Vorlesungen
+
+Der Lehrende entscheidet über die Art der Prüfung. Grundsätzlich sind zwei Arten der Prüfung möglich:
+
+-  mündliche Prüfung: 15 Minuten pro Semestervorlesung;
+-  schriftliche Prüfung: Die Lehrperson bestimmt die Modalitäten der schriftlichen Prüfung.
+
+Andere Arten der Evaluation (Referat etc.) sind mit dem Einverständnis der Lehrperson möglich.
+
+## Notenskala
+
+6
+
+Summa cum laude
+
+5.5
+
+5
+
+4.5
+
+Insigni cum laude
+
+Magna cum laude
+
+Cum laude
+
+4
+
+Rite
+
+## Schlussnote
+
+Die Schlussnote ergibt sich aus dem Durchschnitt aller Noten, welche im Studienplan vorgesehen sind (geprüfte Vorlesungen, schriftliche Arbeiten der Proseminare und Seminare). Jede einzelne Note muss genügend sein.
+
+## VII. Nichtbestandene Prüfungen: Vorlesungen und Logikprüfung
+
+Eine nicht bestandene Prüfung muss über dieselbe Veranstaltung bei der selben Lehrperson geprüft werden. Sie kann höchstens zweimal wiederholt werden . Die drei Versuche finden im Rahmen der vier Prüfungssessionen statt, die auf die Einschreibeperiode für die entsprechende Veranstaltung folgen.
+
+## Endgültiges Nichtbestehen:
+
+Eine  Prüfung  oder  eine  schriftliche  Arbeit  kann  höchstens  zweimal  wiederholt  werden. Bei  einem  endgültigen  Nichtbestehen  kann  der Studierende in seinem gewählten Studienprogramm nicht weiterstudieren.
+
+(Siehe auch Richtlinien: Über die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät , vom 23. April 2009)

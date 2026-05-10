@@ -1,0 +1,309 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T03:47:44.306Z",
+  "title": "Philosophy_Master_90_Multilingualism_Studies_Master_Mehrsprachigkeitsforschung_d935c58209c3e2a43a95d105205b7d803abbde96",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d935c58209c3e2a43a95d105205b7d803abbde96",
+  "program_key": "philosophy|master|90|multilingualism studies",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Multilingualism Studies",
+  "doc_label": "Master Mehrsprachigkeitsforschung",
+  "source_url": "https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-pluri-DE_2025-8-19.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/multilingualism",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Multilingualism_Studies_Master_Mehrsprachigkeitsforschung_d935c58209c3e2a43a95d105205b7d803abbde96.pdf",
+  "sha256": "c7753458dc014a7e4bd1f26a0c8ddfdb2471415fe69d23dff1dec8733292e796",
+  "fetched_at": "2026-04-03T11:31:06.846Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-pluri-DE_2025-8-19.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## MASTER MEHRSPRACHIGKEITSFORSCHUNG
+
+( M I T   U N D   O H N E   O P T I O N   R Ä T O R O M A N I S C H )
+
+## LEITFADEN FÜR STUDIERENDE
+
+## INHALT
+
+| Ergänzungsprogramm...........................................................................................................             | 3                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Vertiefungsprogramm: gemeinsamer Teil..............................................................................                       | 3                                                                                                                                |
+| Vertiefungsprogramm: mit oder ohne Option Rätoromanisch ................................................                                  | 3                                                                                                                                |
+| Empfohlener Studienverlauf ..................................................................................................             | 4                                                                                                                                |
+| Stundenplan (ohne Gewähr)..................................................................................................               | 4                                                                                                                                |
+| Wahlpflichtkurse....................................................................................................................      | 5                                                                                                                                |
+| Jährliche Informationsveranstaltung ......................................................................................                | 6                                                                                                                                |
+| Unifr-Konto............................................................................................................................   | 6                                                                                                                                |
+| Studienverwaltung: MyUnifr...................................................................................................             | 6                                                                                                                                |
+| Online-Informationsplattform: Moodle....................................................................................                  | 6                                                                                                                                |
+| Seminararbeiten....................................................................................................................       | 6                                                                                                                                |
+| Praktikum ..............................................................................................................................  | 8                                                                                                                                |
+| Masterarbeit ..........................................................................................................................   | 8                                                                                                                                |
+| Vermerk « Zweisprachig ».....................................................................................................             | 9                                                                                                                                |
+| Team..................................................................................................................................... | 9                                                                                                                                |
+| Bibliothek für Fremdsprachen und Mehrsprachigkeit (BLE)...................................................                                | 9                                                                                                                                |
+| Institut für Mehrsprachigkeit..................................................................................................10         |                                                                                                                                  |
+| Lageplan                                                                                                                                  | ..............................................................................................................................11 |
+
+## ERGÄNZUNGSPROGRAMM
+
+Je  nach  Ausbildungsprofil  haben  Sie  im  Zulassungsentscheid  der  Fakultät  die  Information erhalten, dass Sie zu Beginn des Masterstudiums ein Ergänzungsprogramm im Umfang von max.  30  ECTS  absolvieren  müssen.  Dabei  geht  es  darum,  dass  Sie  sich  die  nötigen Vorkenntnisse in Linguistik sowie Spracherwerb und Sprachvermittlung aneignen.
+
+Auf  Basis  Ihres  Zulassungsdossiers  kann  der  Studienberater  Studienleistungen  aus  Ihrer bisherigen Ausbildung anerkennen; der Umfang des Ergänzungsprogramms wird sich dadurch entsprechend verringern. Bei der ersten Beratung wird festgelegt, welche Unterrichtseinheiten Sie absolvieren müssen. Diese Abmachung wird elektronisch festgehalten  und  ist  verbindlich.  Falls  eine  vorgesehene  Lehrveranstaltung  nicht  mehr angeboten  sein  sollte,  wird  die  Vereinbarung  in  Rücksprache  mit  dem  Studienberater angepasst.
+
+Wichtig: Ist eine Unterrichtseinheit aus dem vereinbarten Ergänzungsprogramm definitiv nicht bestanden,  kann  das  Masterstudium  in  Mehrsprachigkeitsforschung  nicht  weitergeführt werden (s. Reglement der Fakultät).
+
+Das Ergänzungsprogramm hat am Anfang des Studiums Priorität. Parallel dazu kann aber bereits mit dem Vertiefungsprogramm begonnen werden. In diesem Fall werden Kurse aus dem Modul A sowie die Hauptvorlesungen empfohlen.
+
+## VERTIEFUNGSPROGRAMM: GEMEINSAMER TEIL
+
+Der gemeinsame Teil besteht aus einem Modul ('A') zu 15 ECTS-Punkten. Die Inhalte aller Module finden Sie im Studienplan. Im Studienplan sehen Sie auch, für welche Unterrichtseinheiten Sie eine Note brauchen und welche nur mit 'bestanden/nicht bestanden' validiert werden.
+
+## VERTIEFUNGSPROGRAMM: MIT ODER OHNE OPTION RÄTOROMANISCH
+
+In  der  Option  Rätoromanisch  sind  die  Module  B  und  D  spezifisch  auf  Themen  und Problematiken der rätoromanischen Sprache und deren Sprachraum ausgerichtet. Das Modul C setzt sich aus Unterrichtseinheiten aus den Module B, C und D der Option 'ohne Rätoromanisch' zusammen.
+
+Die Details finden Sie im Studienplan von 2023 unter der jeweiligen Option (Studienplan 2014 für Studierende mit früherem Studienbeginn).
+
+## EMPFOHLENER STUDIENVERLAUF
+
+Folgende Zeitachse gibt Ihnen einen Überblick über den Ablauf Ihres Studiums bei minimaler Studiendauer.  Es  ist  sehr  empfohlen,  dieser  Ordnung  zu  folgen,  insbesondere  für  das Verfassen der Seminararbeiten und für das Praktikum.
+
+<!-- image -->
+
+|                     | 1 - HS                                | Zwischen- semester 1   | 2 - FS           | Zwischen- semester 2   | 3 - HS                                | Zwischen- semester 3                  | 4 - FS                                | Zwischen- semester 4                  |
+|---------------------|---------------------------------------|------------------------|------------------|------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+| Module              | Modul A und quantitative Methodologie |                        | Module B und C   | Module B und C         | Module B und C                        | Module B und C                        | Modul D                               |                                       |
+| Module              |                                       |                        |                  |                        | Forschungskolloquium und Masterarbeit | Forschungskolloquium und Masterarbeit | Forschungskolloquium und Masterarbeit | Forschungskolloquium und Masterarbeit |
+| Abgabe von Arbeiten |                                       |                        |                  | Seminararbeit 1        |                                       | Seminararbeit 2 Praktikums- bericht   |                                       | Masterarbeit                          |
+| Semesterun-         |                                       | Praktikum              | Praktikum        | Praktikum              | Praktikum                             | Praktikum                             |                                       |                                       |
+| abhängige UE        | Wahlpflichtkurse                      | Wahlpflichtkurse       | Wahlpflichtkurse | Wahlpflichtkurse       | Wahlpflichtkurse                      | Wahlpflichtkurse                      | Wahlpflichtkurse                      |                                       |
+
+Dieser Studienverlauf passt für Studierende, die sich zu 100% ihrem Studium widmen können. Andere müssen für das Studium etwas mehr Zeit einrechnen und entsprechend planen.
+
+Da viele  unserer Studierenden  berufstätig sind, haben wir die Präsenzveranstaltungen  auf Montag  und  Dienstag  konzentriert.  Die maximale  Studiendauer ist  im  Reglement  der Philosophischen Fakultät festgelegt. Wir raten dringend, berufliche Arbeitspensen während des Studiums auf max. 50% zu begrenzen. Für jede Unterrichtsstunde muss für die Vor- und Nachbereitung ca. das Doppelte an Arbeitszeit eingeplant werden.
+
+## STUNDENPLAN (OHNE GEWÄHR)
+
+Unterrichtseinheiten mit einem [*] wechseln jedes Jahr in der Sprache ab . Normalerweise bleiben  die  Unterrichtszeiten  der  Vorlesungen  (C)  und  Seminare  (S)  jedes  Jahr  gleich. Abweichungen  können  trotzdem  vorkommen.  -  Die  Studierenden  überprüfen  selber  vor Semesterbeginn das Kursangebot und die Unterrichtszeiten sowie alle weiteren Informationen. Sie machen die Planung so, dass sie das Studium reibungslos durchlaufen können. Die Details zu  allen  Präsenzveranstaltungen  sind  i.d.R.  ab  Juni  auf  TIMETABLE  einsehbar,  oder spätestens einige Wochen vor Semesterbeginn. Die Liste der Wahlpflichtkurse finden Sie auf Moodle. Sie wird jeden Sommer aktualisiert.
+
+Kurse  des  Studienplans  2023  für  den  Master  Mehrsprachigkeitsforschung  (ohne  Option Rätoromanisch).  -  Die  Wahlveranstaltungen  für  Modul  A  entnehmen  Sie  der  Liste  für  das aktuelle akademische Jahr auf Moodle.
+
+## HERBSTSEMESTER
+
+|       | Montag                                                | Dienstag                                                                |
+|-------|-------------------------------------------------------|-------------------------------------------------------------------------|
+| 8-10  | *S: Quantitative Methoden (EN/DE)                     | *C: Die rätoromanische Minderheit in der vielsprachigen Schweiz (FR/DE) |
+| 10-12 | *S: Sprachen in Kontakt (FR/DE)                       |                                                                         |
+| 12-13 |                                                       |                                                                         |
+| 13-15 |                                                       | S: Der Altersfaktor beim Spracherwerb                                   |
+| 15-17 | *C: Mehrsprachige Kompetenz (FR/DE)                   |                                                                         |
+| 17-19 | Ringveranstaltung / Cycle de conférences (cours bloc) | C: Langage et Société                                                   |
+
+## FRÜHLINGSSEMESTER
+
+|       | Montag                                        | Dienstag                                                                                   |
+|-------|-----------------------------------------------|--------------------------------------------------------------------------------------------|
+| 8-10  | S: Second Language Acquisition                |                                                                                            |
+| 10-12 |                                               | S: Mehrsprachigkeitsdidaktik / Didactique du Plurilinguisme                                |
+| 12-13 |                                               |                                                                                            |
+| 13-15 |                                               |                                                                                            |
+| 15-17 | *C: Institutionnelle Mehrsprachigkeit (FR/DE) | S: Méthodologie qualitative                                                                |
+| 17-19 | Ringveranstaltung / Cycle de conférences      | alternierend S: Langage, pouvoir et inégalités sociales ODER S: Sociolinguistique critique |
+
+## NICHT SEMESTERGEBUNDENE AUSBILDUNGSELEMENTE
+
+-  Praktikum
+-  2 Seminararbeiten
+-  Kolloquium für die Erarbeitung und Begleitung der Masterarbeit (Blockkurse mit dem Professor/der Professorin, welche/r die Masterarbeit betreut). Detailinformationen auf Moodle
+-  Masterarbeit
+
+## WAHLPFLICHTKURSE
+
+Im  Modul  A  sind  vier  Kurse  obligatorisch.  Einen  Kurs  (3  ECTS)  können  Sie  nach  Ihrem persönlichen Interesse aus einer separaten Liste auswählen. Die aktualisierte Auswahl finden Sie ein paar Wochen vor Semesterbeginn auf Moodle.
+
+Unterrichtseinheiten des Studienplans 2023 (ohne Kurse der Option Rätoromanisch).
+
+Die Liste der Wahlkurse für Modul A ist auf Moodle verfügbar.
+
+Nach  Rücksprache  mit  dem  Studienberater  und  mit  der  betreffenden  Unterrichtsperson können Sie auch einen Kurs auswählen, der auf der Liste nicht vorkommt. Das Kursthema muss einen Bezug zu Mehrsprachigkeit und/oder Linguistik haben.
+
+## JÄHRLICHE INFORMATIONSVERANSTALTUNG
+
+In der ersten Sitzung der Vorlesung 'Mehrsprachige Kompetenz' (Herbstsemester, Mo 15h15).
+
+## UNIFR-KONTO
+
+Nach  der  Immatrikulation  erhalten  Sie  Ihre  Kontoinformationen  (Benutzername/Passwort). Diese brauchen Sie u.a. für den Zugang zu Ihrem E-Mail-Konto ,  zum Studierendenportal MyUnifr (Einschreibung  zu  den  Lehrveranstaltungen  u.v.m.)  und  zur Arbeitsplattform Moodle . Die E-Mail-Korrespondenz zu Ihrem Studium wird ausschliesslich über die Adresse @unifr.ch geführt. Wichtige Informationen der universitären Dienststellen und automatische Benachrichtigungen gehen ebenfalls an Ihre unifr-Mail.
+
+## STUDIENVERWALTUNG: MYUNIFR
+
+Die Studierenden verwalten ihr Studium über das Portal MyUnifr. Die Fakultät bietet zu Beginn jedes Herbstsemesters eine Einführung an. Und Sie finden in Ihrem Portal Handouts zu den verschiedenen Nutzungsmöglichkeiten und Abläufen.
+
+Einschreibung zu Kursen und anderen Unterrichtseinheiten: In den Kursen des Departements hat  es  immer  genügend  Platz.  Wir  empfehlen  aber,  die  Anmeldung  zu  den  Präsenzveranstaltungen noch vor Semesterbeginn zu machen, da manche Dozierende vor Kursbeginn noch  eine  E-Mail  mit  wichtigen  Informationen  verschicken.  -  Schreiben  Sie  sich  nur  für Unterrichtseinheiten ein, die Sie innerhalb der Fristen tatsächlich absolvieren können.
+
+Einschreibung zu Examen (Evaluation): Sie müssen sich für jede Unterrichtseinheit auch zum Examen einschreiben, und zwar auch für Unterrichtseinheiten ohne Bewertung durch eine Note oder für solche ohne «Schlussexamen» im eigentlichen Sinn. Ohne diesen zweiten Einschreibeschritt können die Resultate und ECTS-Punkte technisch nicht erfasst werden.
+
+Bitte lesen Sie die Informationen zur Studienverwaltung, die Sie von der Fakultät oder von der Sekretärin des Departements erhalten, aufmerksam durch, insbesondere bezüglich der Fristen und Richtlinien zu den Einschreibungen in Kurse und Examen.
+
+## ONLINE-INFORMATIONSPLATTFORM: MOODLE
+
+Wir nutzen Moodle als Informations- und Austauschplattform während des Masterstudiums, für die Organisation der Lehrveranstaltungen sowie für die Abgabe des Praktikumsberichts. Zugangspasswörter  erhalten  Sie  in  der  Informationsveranstaltung  oder  zu  Beginn  der jeweiligen Lehrveranstaltung.
+
+## SEMINARARBEITEN
+
+Im  Laufe  Ihres  Studiums  schreiben  Sie  zwei  Seminararbeiten,  die  thematisch  den  zwei Vertiefungsmodulen zugeordnet sind (Module B und C in beiden Optionen). Sie bearbeiten
+
+dabei empirisch Forschungsfragen, die sich aus den Vorlesungen, Seminaren oder auch aus dem Praktikum ergeben.
+
+Die Seminararbeiten werden nach den Regeln einer wissenschaftlichen Arbeit verfasst, mit denen Sie sich in den Kursen vertraut gemacht haben. Auf Moodle finden Sie dazu einen praktischen Leitfaden der ehemaligen Fachschaft Pluriling .  In  der  Bibliothek  gibt  es  zudem verschiedene einführende Schriften, an denen Sie sich orientieren können. -Die wissenschaftlichen Herangehensweisen hängen einerseits von den einzelnen Disziplinen ab, andererseits auch von den Sprachen. Und  sie entwickeln sich laufend weiter. Die Studierenden müssen daher mit den DozentInnen, welche ihre Arbeiten betreuen, vorgängig immer auch die wissenschaftliche Basis klären, auf die sich ihre Forschungsarbeit abstützen soll.
+
+## Wahl des Betreuers / der Betreuerin
+
+-  Für eine Seminararbeit können Sie jede Dozentin / jeden Dozenten aus dem Studienbereich Mehrsprachigkeitsforschung und Fremdsprachendidaktik anfragen, bei der/dem sie mindestens eine Lehrveranstaltung besucht haben.
+-  Die andere Seminararbeit schreiben Sie bei dem Professor, der Ihre Masterarbeit betreuen wird (vgl. weiter unten Liste der Professoren).
+
+## Time line
+
+-  Es werden keine Seminararbeiten zur Korrektur angenommen, solange nicht mindestens das entsprechende Seminar zur Methodologie erfolgreich absolviert wurde.
+-  Bevor Sie sich zum Forschungsseminar/Masterkolloquium einschreiben, muss eine Seminararbeit ganz abgeschlossen und die zweite zumindest in Arbeit sein.
+-  Beide Seminararbeiten müssen validiert sein, bevor die Masterarbeit beim Dekanat abgegeben wird.
+-  Bedenken Sie, dass die Korrektur und allfällige Überarbeitungen einer Seminararbeit in der Regel ungefähr 5 Wochen in Anspruch nehmen.
+
+## Einschreibung
+
+Schreiben  Sie  sich  auf MyUnifr zur  Unterrichtseinheit  'Seminararbeit'  ein,  wenn  Sie  das Thema mit der Betreuungsperson abgesprochen haben. Schreiben Sie sich für die Evaluation aber erst ein, wenn Sie sicher sind, dass Sie noch in der aktuellen Session abgeben können.
+
+## Abgabe
+
+Bitte reichen Sie Ihre Seminararbeit über die beiden folgenden Wege ein:
+
+-  elektronisch per E-Mail an die Dozentin/den Dozenten und Cc an barbara.ruf@unifr.ch
+-  auf Wunsch des betreuenden Dozenten / der betreuenden Dozentin auch eine ausgedruckte Version (per Post schicken oder im Sekretariat vorbeibringen).
+
+## Eidesstattliche Erklärung
+
+Wie bei allen zu bewertenden Arbeiten muss am Ende der Seminararbeit obligatorisch eine eidesstattliche  Erklärung  eingefügt  werden.  Jegliche  externe  Hilfe  muss  deklariert  werden, einschliesslich der Instrumente, die auf künstlicher Intelligenz basieren. (Die entsprechenden Textstellen müssen gekennzeichnet werden.) Die Inanspruchnahme von Hilfe Dritter für das Korrekturlesen  und  für  sprachliche  Korrekturen  wird  in  einem  Zusatz  zur  eidesstattlichen Erklärung ebenfalls festgehalten, gemäss der auf moodle verfügbaren Vorlage.
+
+## PRAKTIKUM
+
+Das  Praktikum  dient  dazu,  konkrete  Bezüge  zwischen  den  erworbenen  theoretischen  und methodologischen Grundlagenkenntnissen und der Realität zu schaffen. Als Praktikumsinstitutionen kommen privatwirtschaftliche oder öffentliche Institutionen in Frage, die mit Sprachenvielfalt oder Mehrsprachigkeit zu tun haben.
+
+Lesen  Sie  die  Dokumente  zum  Master  in  Mehrsprachigkeitsforschung  in  der  Sektion "Stage/Praktika"  auf  Moodle  und  den  Studienplan.  Sie  finden  dort  alle  Informationen  zum Praktikum (Dauer, Ziele, Bericht, Evaluation etc.)
+
+Sobald Sie mit dem Studium anfangen, überlegen Sie, in welchem Semester und in welcher Institution Ihr Praktikum stattfinden sollte.
+
+Möchten Sie Ihr Praktikum bei der EDK, EKSD oder am IfM absolvieren, kontaktieren Sie diese Institution, um zu erfahren, ob sie Praktikumstellen anbieten. Sollten Sie sich für eine andere Institution  interessieren,  besprechen  Sie  dies  vorab  mit  Prof.  Berthele  oder  mit  dem Studienberater.
+
+## MASTERARBEIT
+
+## Betreuer der Masterarbeit
+
+Die  Masterarbeit  wird  von  Prof.  Raphael  Berthele,  Prof.  Alexandre  Duchêne  oder  Prof. Matthias Grünert (Option Rätoromanisch) betreut.
+
+## Masterarbeit
+
+Die Masterarbeit wird im Rahmen eines Forschungskolloquiums begleitet und betreut. Diese Veranstaltungen finden i.d.R. in drei Blöcken pro Semester statt.
+
+Auf Moodle finden Sie die detaillierten Informationen zum Forschungskolloquium, in welchem Sie die verschiedenen Entwicklungsphasen Ihrer Masterarbeit präsentieren - von der ersten Idee bis zur Datenanalyse.
+
+Wir  empfehlen  den  Studierenden  sehr,  an  mehr  als  den  6  obligatorischen  Blöcken teilzunehmen,  um  Ideen  und  Kommentare  zu  teilen  und  sich  sowohl  mit  dem  eigenen Forschungsprozess als auch mit den Arbeiten der KommilitonInnen auseinanderzusetzen.
+
+Daten und Zeiten der Blöcke werden auf Moodle publiziert. Bitte befolgen Sie die Instruktionen im Moodle-Kurs zum Forschungskolloquium.
+
+## Einreichen der Masterarbeit
+
+Für die Masterarbeit ist keine Einschreibung auf MyUnifr vorgesehen. Der administrative Prozess wird durch die Abgabe der Masterarbeit im Dekanat ausgelöst.
+
+Bitte lesen Sie das Reglement und das Merkblatt des Dekanats, bevor Sie uns Fragen stellen. Sie finden hier alle wichtigen Informationen  wie Abgabefristen, Verteidigungstermine, Abgabeort, Dokumente, welche der Arbeit bei der Abgabe hinzuzufügen sind, usw.
+
+In  unserem  Departement  bereiten  Sie  in  der  Regel  3  ausgedruckte  Exemplare  der Masterarbeit sowie eine elektronische pdf-Version vor:
+
+-  1 Ex. für die Abgabe im Dekanat
+
+-  1 pdf für den Betreuer/die Betreuerin der Masterarbeit
+-  2 Ex. für die Jury (Abgabe im Sekretariatsbüro des Departements MIS10 2.12 auf Anmeldung: barbara.ruf@unifr.ch)
+
+Bitte  beachten  Sie,  dass  wir  keine  extra  Abgabetermine  für  Ihre  Masterarbeit  einrichten können.
+
+## VERMERK « ZWEISPRACHIG »
+
+Im Programm ohne Option Rätoromanisch kann der Vermerk «Zweisprachig» (DE-FR) erlangt werden. Bitte  lesen  Sie  im  Reglement  der  Philosophischen  Fakultät  sowie  im  Studienplan (Seite 5) nach, wie viele ECTS dafür in jeder Sprache erworben werden müssen.
+
+## TEAM
+
+## Professoren
+
+Prof. Raphael Berthele, Mehrsprachigkeitsforschung
+
+Prof. Alexandre Duchêne, Soziolinguistik
+
+Prof. Matthias Grünert, Rätoromanisch
+
+## Studienberatende und Unterrichtende
+
+Giulia Berchio (Institut für Mehrsprachigkeit), Koordinatorin der Ringveranstaltung
+
+Renzo Caduff, Lektor für rätoromanische Literatur
+
+Nicolas  Félix,  Studienberater  für  den  Master  Mehrsprachigkeitsforschung  und  für  den spezialisierten Master Fremdsprachendidaktik
+
+Philippe Humbert, Lehrbeauftragter
+
+Lisa Singh, Lehrbeauftragte
+
+Zornana Sokolovska, Lehrbeauftragte
+
+Jan Vanhove, Lehr- und Forschungsrat
+
+## Administration
+
+Barbara Ruf
+
+## BIBLIOTHEK FÜR FREMDSPRACHEN UND MEHRSPRACHIGKEIT (BLE)
+
+Die 'Bibliothèque des langues étrangères et du plurilinguisme' BLE  ist gleichzeitig Dokumentationsstelle des Kompetenzzentrums für Mehrsprachigkeit und verfügt über einen reichhaltigen Bestand an elektronischen und gedruckten Medien zur Fremdsprachendidaktik und  zur  Mehrsprachigkeitsforschung.  Ein  besonderer  Fokus  liegt  dabei  auf den  vier schweizerischen Nationalsprachen. Sie finden in der Bibliothek:
+
+-  Bücher
+-  Zeitschriften
+-  Audiovisuelle Medien
+-  Datenbanken
+-  Pressemitteilungen, Radio- und Fernsehproduktionen
+
+-  Forschungsberichte des Kompetenzzentrums
+
+Die  BLE  gehört  als  dezentrales  Mitglied  zum  Bibliotheksnetzwerk  der  Kantons-  und Universitätsbibliothek (KUB). Das Ausleihreglement ist das der KUB.
+
+In den Räumlichkeiten der BLE befindet sich auch das Selbstlernzentrum Sprachen und es gibt hier mehrere Arbeitsplätze (bis voraussichtlich 2027).
+
+Zahlreiche Quellen können auch in anderen schweizerischen Bibliotheken gefunden werden. Verwenden Sie z.B. die Suchwerkzeuge der BLE oder das Webportal zur Mehrsprachigkeit.
+
+Um von zu Hause aus Zugang zu elektronischen Zeitschriften zu erhalten, installieren Sie das VPN der Universität.
+
+## INSTITUT FÜR MEHRSPRACHIGKEIT
+
+Besondere Beachtung verdienen die Veranstaltungen des Instituts für Mehrsprachigkeit: Bei den Vorträgen von  international  bekannten  Forschern  und  Forscherinnen  ergibt  sich  die Möglichkeit, das im Master erworbene Wissen zu vertiefen oder auch mal in Frage zu stellen.
+
+Das Institut für Mehrsprachigkeit widmet sich der Forschung auf dem  Gebiet der Mehrsprachigkeit in ihren sprachwissenschaftlichen, sozialen, politischen, wirtschaftlichen und pädagogischen  Facetten.  Forschungsschwerpunkte  des  Instituts  sind  insbesondere  die Bereiche Schule und Unterricht, Migration, Arbeitswelt sowie Evaluierung von Sprachkompetenzen.
+
+Interessieren  sich  Studierende  für  ein  Projekt  des  Instituts,  kann  sich  manchmal  die Möglichkeit ergeben, dort ein Praktikum zu absolvieren. Bitte kontaktieren Sie die ProjektleiterInnen, falls Sie sich für ein solches Praktikum interessieren.
+
+## LAGEPLAN
+
+<!-- image -->

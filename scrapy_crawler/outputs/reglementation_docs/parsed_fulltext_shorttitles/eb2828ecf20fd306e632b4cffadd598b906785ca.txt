@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.417Z",
+  "title": "Recueil systématique 510.714 Systematische Sammlung 1",
+  "pages": 4,
+  "reg_doc_key": "eb2828ecf20fd306e632b4cffadd598b906785ca",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung zwischen der Pädagogischen Hochschule Luzern und der Universität Freiburg zur Ermöglichung von Mobilitätssemestern von Studierenden in der Lehrgängen der Sekundarstufe I (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277113",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277113",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_zwischen_der_P_dagogischen_Hochschule_Luzern_und_der_Universit_t_Freiburg_zur_Erm_glichung_von_Mobilit_tssemestern_von_Studierenden_in_der_Lehrg_ng",
+  "sha256": "f67c10396838456ba49d56346320e93fc40aa758af75421251ca49fc0e72fa09",
+  "fetched_at": "2026-04-03T12:11:10.446Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.714 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.714 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.714 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.714 Systematische Sammlung 4

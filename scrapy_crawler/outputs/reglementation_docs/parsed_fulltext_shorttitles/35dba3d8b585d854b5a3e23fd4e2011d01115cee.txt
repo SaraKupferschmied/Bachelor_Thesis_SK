@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:20.136Z",
+  "title": "verbunden mit der Suche im Archiv (bei älteren Abschlüssen) impliquant une recherche dans les archives 40.-/Best./att.",
+  "pages": 2,
+  "reg_doc_key": "35dba3d8b585d854b5a3e23fd4e2011d01115cee",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.410 Theologie > 400.410.413 Prüfungen, Gebühren, Bestätigungen, Zulassung ohne Matura",
+  "spider_title": "Gebührenordnung des Dekanats der Theologischen Fakultät (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277393",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277393",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Geb_hrenordnung_des_Dekanats_der_Theologischen_Fakult_t_FR_DE__35dba3d8b5.pdf",
+  "sha256": "65501a58302245e1dd6780749f3d15dfe0afe35ed9d0c0a29ed867369b52f110",
+  "fetched_at": "2026-04-03T12:11:54.323Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 413.210 Systematische Sammlung FACULTÉ DE THÉOLOGIE DÉCANAT T +41 26 300 73 70 decanat-theol@unifr.ch THEOLOGISCHE FAKULTÄT DEKANAT Gebührenordnung des Dekanats der Theologischen Fakultät – Emoluments de chancellerie du Décanat de la Faculté de Théologie Zwischenbestätigungen (Etat des études) in D oder F Attestations spéciales (Etat des études) en f ou a 5.- Bestätigungen von Resultaten in D oder F - Attestations de résultats en f ou a 5.- Bestätigungen von Resultaten in E - Attestations de résultats en anglais 20.- in versiegeltem Umschlag - en enveloppe „scellée“ 10.- Versand von Bestätigungen per e-mail an Institution Envoi d’attestations par e-mail à une institution 10.-/mail Ausdruck von GESTENS oder Kopie der Karteikarte, mit Stempel Extraits GESTENS ou copie de la fiche d‘étudiant, avec sceau 2.-/Seite/page Beglaubigungen - Copies conformes 5.-/Seite/page Transcript of Grade in Englisch auf der Basis eines Orig.-Dipl Transcript of Grade en anglais sur la base du diplôme original 20.-/Best./att. verbunden mit der Suche im Archiv (bei älteren Abschlüssen) impliquant une recherche dans les archives 40.-/Best./att. Bestätigungen von Resultaten in D oder F, verbunden mit Suche im Archiv Attestations de résultats en f ou a, impliquant une recherche dans les archives 40.-/Best./att Bestätigungen über besuche LV aufgrund der Tabella in D oder F Attestations sur les heures de cours suivis, établies en f ou a 30.-/akadm. Jahr/ sur la base de la tabella année acad. Einreichung eines Rekurses - Dépôt d’un recours 50.- Dringende Anfragen (innert 24 Std zu erledigen) Demandes urgentes (à exécuter en moins de 24h) 20.- Effektive Portokosten für eingeschriebene Sendungen oder von Privatfirmen werden beim Versand berechnet Frais de port effectifs pour un envoi recommandé ou par entreprises privées sont facturés au prix effectif. (ausgenommen sind Studienabschlussbestätigungen in D oder F / les attestations des fin d’études en f ou a sont exclues)
+
+---PAGE 2---
+2/2 Freiburg/Fribourg, 6.10.2015

@@ -1,0 +1,13 @@
+{
+  "manifest_path": "scrapy_crawler/outputs/_program_docs_manifest.json",
+  "out_root": "scrapy_crawler/outputs",
+  "parsed_dir": "scrapy_crawler/outputs/parsed_fulltext_docling_new",
+  "helper_path": "DB_service\\src\\import\\parse_with_docling_robust.py",
+  "python": "python",
+  "generated_at": "2026-04-21T05:35:17.026Z",
+  "total_manifest_rows": 2390,
+  "unique_doc_keys": 695,
+  "ok": 682,
+  "skipped_existing": 0,
+  "failed": 13
+}

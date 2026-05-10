@@ -1,0 +1,335 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T01:22:45.714Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_Chemie_ae1137f18ec3e09245a7f2770ecb88315db67fc3",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ae1137f18ec3e09245a7f2770ecb88315db67fc3",
+  "program_key": "|bachelor|150|chemistry",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 150,
+  "program_name": "Chemistry",
+  "doc_label": "Hauptfach Chemie",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2018/Plan_BSc_CH_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/chemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_Chemie_ae1137f18ec3e09245a7f2770ecb88315db67fc3.pdf",
+  "sha256": "e3641cff7a845d71b5b3a0cc21e5410c8b71a7a9ab491d71a4a2fc4ade608b7f",
+  "fetched_at": "2026-04-03T11:27:44.108Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2018/Plan_BSc_CH_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_CH_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+|   INHALTSVERZEICHNIS..............................................................................................................2 | INHALTSVERZEICHNIS..............................................................................................................2                                                      | INHALTSVERZEICHNIS..............................................................................................................2                                                 |
+|-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                 1   | ALLGEMEINES ....................................................................................................................3                                                      | ALLGEMEINES ....................................................................................................................3                                                 |
+|                                                                                                                                 1.1 | Universitäre Titel und Studiengänge................................................................................................ 3                                                  | Universitäre Titel und Studiengänge................................................................................................ 3                                             |
+|                                                                                                                                 1.2 | Aufbau des Bachelor-Studiums........................................................................................................ 3                                                 | Aufbau des Bachelor-Studiums........................................................................................................ 3                                            |
+|                                                                                                                                     | 1.2.1                                                                                                                                                                                  | Struktur.....................................................................................................................................................3                    |
+|                                                                                                                                     | 1.2.2                                                                                                                                                                                  | Die Unterrichtseinheiten (UE).................................................................................................................3                                   |
+|                                                                                                                                 1.3 | Erlangte Kompetenzen....................................................................................................................... 4                                          | Erlangte Kompetenzen....................................................................................................................... 4                                     |
+|                                                                                                                                 1.4 | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Kreditpunkten ...................... 4                                                                                     | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Kreditpunkten ...................... 4                                                                                |
+|                                                                                                                                 1.5 | Unterrichtssprachen........................................................................................................................... 5                                       | Unterrichtssprachen........................................................................................................................... 5                                  |
+|                                                                                                                                 1.6 | Wissenschaftsethik ............................................................................................................................ 5                                      | Wissenschaftsethik ............................................................................................................................ 5                                 |
+|                                                                                                                                 1.7 | Reglemente und ergänzende Informationsquellen......................................................................... 5                                                               | Reglemente und ergänzende Informationsquellen......................................................................... 5                                                          |
+|                                                                                                                                 2   | BACHELOR OF SCIENCE IN CHEMIE (BSC) .................................................................... 6                                                                             | BACHELOR OF SCIENCE IN CHEMIE (BSC) .................................................................... 6                                                                        |
+|                                                                                                                                 2.1 | Das erste Studienjahr......................................................................................................................... 6                                       | Das erste Studienjahr......................................................................................................................... 6                                  |
+|                                                                                                                                     | 2.1.1                                                                                                                                                                                  | Unterrichtseinheiten des ersten Studienjahres ....................................................................................6                                               |
+|                                                                                                                                     | 2.1.2                                                                                                                                                                                  | Inhalt der UE des ersten Jahres .............................................................................................................7                                    |
+|                                                                                                                                     |                                                                                                                                                                                        | Vorlesungen.....................................................................................................................................................................7 |
+|                                                                                                                                     | Praktika ............................................................................................................................................................................7 |                                                                                                                                                                                   |
+|                                                                                                                                     | Propädeutische Nebenfächer...........................................................................................................................................7                 |                                                                                                                                                                                   |
+|                                                                                                                                 2.2 | Das zweite und dritte Studienjahr..................................................................................................... 7                                               | Das zweite und dritte Studienjahr..................................................................................................... 7                                          |
+|                                                                                                                                     | 2.2.1                                                                                                                                                                                  | Unterrichtseinheiten des zweiten Studienjahres ..................................................................................7                                                |
+|                                                                                                                                     | 2.2.2                                                                                                                                                                                  | Unterrichtseinheiten des dritten Studienjahres ....................................................................................8                                              |
+|                                                                                                                                     | 2.2.3                                                                                                                                                                                  | Inhalt der UE des zweiten und dritten Jahres .......................................................................................8                                             |
+|                                                                                                                                     |                                                                                                                                                                                        | Vorlesungen.....................................................................................................................................................................8 |
+|                                                                                                                                     | Praktika                                                                                                                                                                               | ............................................................................................................................................................................9     |
+|                                                                                                                                 2.3 | Die Prüfungen ..................................................................................................................................... 9                                  | Die Prüfungen ..................................................................................................................................... 9                             |
+
+## 1 Allgemeines
+
+Dieser  Studienplan  enthält  alle  notwendigen  Bestimmungen,  welche  das  Chemiestudium  an  der Universität Freiburg regeln. Der Studienplan stützt sich auf die Bestimmungen der MathematischNaturwissenschaftlichen  und  Medizinischen  Fakultät,  die  im Reglement  vom  2.2.2004  für  die Erlangung der Bachelor of Science und der Master of Science der Math.-Nat. und Med. Fakultät (im folgenden 'Reglement' genannt) festgelegt sind.
+
+## 1.1 Universitäre Titel und Studiengänge
+
+Die Math.-Nat. und Med. Fakultät der Universität Freiburg verleiht Studierenden, welche ihre Studien mit Erfolg abgeschlossen haben, die folgenden offiziellen Titel:
+
+- Bachelor of Science in Chemie, Universität Freiburg , im folgenden BSc genannt.
+- Master of Science in Chemistry, University of Fribourg , im folgenden MSc genannt.
+
+Der Studiengang des BSc in Chemie ist ein universitäres Studium, das durch seine Methoden- und Problemorientierung eine wissenschaftliche Grundausbildung in Chemie vermittelt. Er ermöglicht den Einstieg in ein breites Feld von Berufen im Umfeld der molekularen Techniken. Zugleich bildet es eine Grundlage  für  lebenslanges  Lernen,  was  eine  unerlässliche  Voraussetzung  für  eine  erfolgreiche Berufstätigkeit  ist.  Der  BSc  vermittelt  aber  auch  die  notwendige  Ausbildung  für  weiterführende Studien welche zum MSc in Chemistry oder in einem anderen naturwissenschaftlichen Fach führen. Zum BSc-Studium werden alle Inhaber von eidgenössisch anerkannten Maturitätszeugnissen oder als äquivalent  anerkannten  Ausweisen  zugelassen  (vgl.  Art.  6  des  Reglements). Der BSc in  Chemie, komplettiert mit dem MSc in Chemistry, erlaubt ein weiteres Studium mit dem Ziel, ein Lehrdiplom für Maturitätsschulen (LDM) mit Chemie als Monofach zu erlangen.
+
+Der Studiengang  des  MSc in  Chemistry ist ein  wissenschaftliches  Studium,  das  eine Spezialisierung  in  einem  bestimmten  Fachgebiet  erlaubt.  Der  MSc  eröffnet  den  Zugang  zu verschiedenen beruflichen Tätigkeiten in Forschung, Lehre, Industrie, Wirtschaft oder Verwaltung. Der MSc ist ferner die Grundlage für die wissenschaftliche Arbeit und die vertiefte wissenschaftliche Ausbildung im Rahmen eines Doktorats.
+
+## 1.2 Aufbau des Bachelor-Studiums
+
+## 1.2.1 Struktur
+
+Das BSc-Studium setzt sich aus dem Hauptfach (150 ECTS) und einem wählbaren Zusatzfach (30 ECTS) zusammen. Das Hauptfach umfasst nebst den obligatorischen Lehrveranstaltungen in Chemie auch drei propädeutische Fächer (Biologie, Mathematik und Physik). Das Zusatzfach muss  ausserhalb  des  Lehrangebots  im  Hauptfach  gewählt  werden.  Unter  den  wählbaren Zusatzfächern  bilden  Biochemie,  Biologie,  chemische  Verfahrenstechnik  oder  Physik  eine natürliche Ergänzung. Wertvoll kann auch eine Kombination mit Informatik, Erdwissenschaften oder  Mathematik  sein.  Für  die  Wahl  eines  anderen  Zusatzfachs  wird  den  Studierenden empfohlen, sich an den Studienberater der Chemie zu wenden.
+
+## 1.2.2 Die Unterrichtseinheiten (UE)
+
+Das zum BSc führende Studium gliedert sich in Unterrichtseinheiten (UE) wie Vorlesungen, Übungen, Praktika, Seminararbeiten, Projektarbeiten usw. Jeder UE sind eine bestimmte Anzahl ECTS 1 -Punkte zugeordnet, die durch Evaluation (z.B. in Form von Prüfungen) und Validierung in ECTS-Kredite umgewandelt werden (vgl. Kap. 1.3). Das BSc-Studium erfordert 180 ECTS-
+
+1 ECTS steht für European Credit Transfer System . Ein ECTS-Punkt entspricht etwa 30 Std. Arbeitsaufwand
+
+Kredite (entsprechend einer Studiendauer von 6 Semestern).
+
+Nachstehend werden Sinn und Zweck der verschiedenen Formen von UE erläutert:
+
+- Die Vorlesungen führen  in  die  wissenschaftliche  Methodik  und  das  wissenschaftliche Denken ein. Sie tragen dazu bei, die notwendigen Kenntnisse zu erwerben und die fundamentalen Konzepte zu verstehen. Sie führen ausserdem in die chemischen Modellvorstellungen ein und erläutern deren Anwendungen und Grenzen.
+- Die Übungen ergänzen  die  Vorlesungen  und  tragen  wesentlich  zum  Verständnis  und  zur Verarbeitung von Vorlesungsinhalten bei. Sie bieten  Gelegenheit,  die  erlernten  Prinzipien, chemischen Techniken und Modellvorstellungen einzuüben und anzuwenden.
+- Praktika in  experimentellen,  aber  auch  theoretischen  Gebieten  bilden  die  Grundlage  der wissenschaftlichen chemischen Arbeit. Sie geben Gelegenheit, die präparativen und analytischen Techniken der Chemie an realen Beispielen auszuführen uns so die Isolations-, Reinigungs- und Charakterisierungs-, Mess- und Simulationsmethoden zu erlernen.
+- Seminararbeiten dienen der Verarbeitung und der mündlichen Präsentation von zuvor bearbeiteten wissenschaftlichen Resultaten.
+- Projektarbeiten bilden  den  ersten  Schritt  zur  experimentellen  oder  theoretischen  Lösung eines konkreten Problems.
+
+## 1.3 Erlangte Kompetenzen
+
+Mit  dem  Abschluss  eines BSc  in  Chemie hat  sich  der/die  StudentIn  die  wissenschaftlichen Grundlagen, allgemeinen Kenntnisse sowie einen Überblick über das Fach Chemie angeeignet. Er/Sie  hat  die  Kompetenz  erlangt,  fachliche  Zusammenhänge  zu  erkennen  und  ein  kritisches Denken entwickelt, welches es ihm/ihr erlaubt, ein vertiefendes Studium zu beginnen und sich für ein Spezialgebiet des Bereiches zu entscheiden.
+
+Mit jedem propädeutischen Fach erwirbt der/die StudentIn Grundkenntnisse in einem Gebiet, das nicht direkt zum Hauptfach gehört, aber für dessen besseres Verständnis wichtig ist. Zudem erweitern die propädeutischen Fächer den wissenschaftlichen Horizont des/der StudentIn.
+
+Mit einem Zusatzfach im Rahmen des BSc entwickelt der/die StudentIn einen Zugang zur Interdisziplinarität, der es ihm/ihr erleichtert, mit Fachleuten anderer Disziplinen zu kommunizieren und zusammen zu arbeiten.
+
+Dank der zweisprachigen Ausbildung kennt der/die StudentIn die Fachbegriffe in beiden Sprachen und ist fähig, einen Dialog mit Fachleuten deutscher und französischer Sprache zu führen.
+
+## 1.4 Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTSKreditpunkten
+
+Die Zuteilung von ECTS-Kreditpunkten  geschieht in drei Schritten: Bewertung  der  UE, Gruppierung  von  UE's in  Anrechnungseinheiten,  sowie  Anrechnung  der  zugehörigen  ECTSPunkte.
+
+Die Bewertung von  Übungen  und  Praktika  erfolgt  nach Kriterien,  welche  zu  Beginn  der Veranstaltung  festgelegt  werden  (Anzahl  abgegebener  und  korrekt  gelöster  Übungsaufgaben, erfolgreich ausgeführte Praktikumsaufgaben usw.). Die Zulassung zur Prüfung einer Vorlesung kann an die Bedingung geknüpft werden, dass die Anforderungen der zugehörigen Übungen erfüllt sind. Die Bewertung von Vorlesungen erfolgt durch mündliche und/oder schriftliche Prüfungen, deren Art und Dauer im Annex zum vorliegenden Studienplan festgelegt sind.
+
+Die Prüfungen finden während der regulären Examensperioden (Sessionen) im Frühjahr, im Sommer und  im  Herbst  statt.  Für  jede  Prüfung  schreiben  sich  die  Studierenden  im  Studierendenportal MyUniFR (https://my.unifr.ch/) innerhalb der vorgesehenen Frist ein, über den persönlichen Zugang mit  dem  von  der  Universität  gegebenen  Passwort.  Die  Prüfung  bezieht  sich  auf  die  Materie  der
+
+zuletzt  unterrichteten  UE.  Ausnahmen  werden  vom  betreffenden  Departement  und/oder  des/der verantwortlichen  Dozenten/Dozentin  mitgeteilt.  Die  Notenskala  reicht  von  6  (beste  Note)  bis  1 (schlechteste Note). Eine Prüfung, deren Note unter 4 liegt, kann frühestens in der darauffolgenden Session einmal wiederholt werden.
+
+Die Anrechnungseinheiten fassen mehrere, separat evaluierte UE zusammen. Art. 18 des Reglements bestimmt die Anzahl der Einheiten, während deren Inhalt durch den vorliegenden Studienplan festgelegt ist.
+
+Die ECTS-Punkte werden gemäss Art. 19 des Reglements angerechnet, sofern:
+
+- das gewichtete Mittel der Prüfungsnoten in der Anrechnungseinheit mindestens 4 beträgt. Die Gewichtung wird durch die der UE zugeordneten Anzahl ECTS-Punkte bestimmt;
+- die Bewertungskriterien der nicht geprüften UE (Praktika, Übungen usw.) erfüllt sind;
+- es keine Note 1 gibt.
+
+Unter  dieser  Voraussetzung  werden  die  Anrechnungseinheiten  validiert  und  die  ECTS-Punkte  in ECTS-Kredite umgewandelt. Auf Verlangen stellt das Dekanat eine Bestätigung aus, in welcher die Prüfungsresultate und die Anzahl erworbener Kredite bestätigt werden (Art. 22 des Reglements).
+
+## 1.5 Unterrichtssprachen
+
+Die  Lehrveranstaltungen  des  BSc  erfolgen  in  deutscher  oder  französischer  Sprache.  Die Entscheidung  der  gewählten  Sprache  liegt  beim/bei  der  Dozenten/Dozentin.  Die  Studierenden haben  dabei  die  Wahl,  sich  in  der  einen  oder  der  anderen  Sprache  auszudrücken.  Für  den Unterricht im 3. Jahr kann gelegentlich auch Englisch verwendet werden. Prüfungen, Präsentationen  und  schriftliche  Arbeiten  können  wahlweise  in  deutscher  oder  französischer Sprache abgelegt bzw. durchgeführt werden.
+
+## 1.6 Wissenschaftsethik
+
+Ethische Prinzipien gehören auch in die wissenschaftliche Ausbildung. Die Grundsätze der Ethik verlangen, dass auch in der wissenschaftlichen Ausbildung die international anerkannten Regeln beachtet werden. Insbesondere sind bei der Anfertigung einer wissenschaftlichen Arbeit (Projekt, Seminar,  Bachelor- oder  Masterarbeit,  Bericht  usw.)  alle  Quellen  (Zeitschriftenartikel,  mündliche Mitteilungen, Internetseiten usw.) korrekt zu zitieren.
+
+## 1.7 Reglemente und ergänzende Informationsquellen
+
+Weiterführende und ausführlichere Informationen betreffend das Chemiestudium finden sich in den Dokumenten, die auf der Webseite http://www3.unifr.ch/scimed/plans aufgeführt sind. Sie können  diese  auch im  Sekretariat  des  Chemie-Departements,  chemin  du  Musée  9,  CH-1700 Freiburg, beziehen:
+
+## 2 Bachelor of Science in Chemie (BSc)
+
+[Version 2018, Anrechnungseinheiten: PV-SCH.0000002, -SCH.0000005]
+
+Das Programm des BSc erstreckt sich über 3 Jahre Vollzeitstudium und entspricht 180 ECTSKreditpunkten. Es besteht aus dem Hauptfach Chemie (150 ECTS) und einem Zusatzfach von 30 ECTS. Die Chemie-Lehrveranstaltungen der ersten beiden Semester vermitteln die klassischen Grundlagen  der  Chemie,  während  in  den  folgenden  Semestern  in  systematischer  Weise  die verschiedenen Gebiete der Chemie vertieft werden.
+
+## 2.1 Das erste Studienjahr
+
+Im ersten Studienjahr in Chemie gilt es einerseits einen möglichst reibungslosen Übergang zwischen Gymnasium und Universität zu gewährleisten und gleichzeitig tragfähige Grundlagen für das  weitere  Studium  zu  legen.  Die  Unterrichtseinheiten  des  ersten  Jahres  sind  zu  einer  ersten Anrechnungseinheit  zusammengefasst  um  den  Studierenden  schon  früh  die  Möglichkeit  zu bieten, ihr Interesse für das Fach Chemie und ihre Fähigkeiten unter Beweis zu stellen.
+
+## 2.1.1 Unterrichtseinheiten des ersten Studienjahres
+
+## Erstes Semester (Herbst)
+
+Code
+
+Unterrichtseinheit
+
+Chemie
+
+Allgemeine Chemie (Vorlesung mit Übungen)
+
+Allgemeine und anorganische Chemie (Praktikum)
+
+Propädeutische Biologie
+
+Propädeutische Mathematik
+
+Propädeutische Physik
+
+## Zweites Semester (Frühling)
+
+ECTS
+
+6
+
+5
+
+6
+
+6
+
+6
+
+29
+
+| Code                      | Unterrichtseinheit                                        | Std.                      | ECTS                    |
+|---------------------------|-----------------------------------------------------------|---------------------------|-------------------------|
+|                           | Chemie                                                    |                           |                         |
+| CH.1054                   | Analytische Chemie (Vorlesung mit Übungen)                | 42                        | 3                       |
+| CH.1067                   | Chemie der Elemente (Vorlesung mit Übungen)               | 42                        | 3                       |
+| CH.1072                   | Grundlagen der organischen Chemie (Vorlesung mit Übungen) | 42                        | 3                       |
+| CH.1084                   | Analytische Chemie (Praktikum)                            | 112 3                     | 4                       |
+|                           | Propädeutische Biologie (Variante I oder Variante II)     |                           | 6                       |
+| Propädeutische Mathematik | Propädeutische Mathematik                                 | Propädeutische Mathematik | Propädeutische Physik 6 |
+|                           |                                                           |                           | 31                      |
+
+CH.1014
+
+CH.1035
+
+Std.
+
+84
+
+140
+
+2
+
+## 2.1.2 Inhalt der UE des ersten Jahres
+
+## Vorlesungen
+
+Die  Vorlesung Allgemeine  Chemie  (mit  Übungen) vermittelt  die  Grundlagen  der  Chemie  und ergänzt die gymnasialen Chemiekenntnisse auf universitäres Niveau. Drei gleichwertige, parallel geführte  Vorlesungen  im  zweiten  Semester  bereiten  die  Studierenden  auf  die  spezifischen Lehrinhalte  der  Vorlesungen  des  zweiten  und  dritten  Jahres  vor:  während  die Analytische Chemie die theoretischen Grundlagen des gleichnamigen Praktikums erarbeitet, gibt die Vorlesung Grundlagen der organischen Chemie einen vertieften Einblick in die biologisch relevanten Stoffklassen und deren Reaktionen, und die Vorlesung Chemie der Elemente eine Einführung in die eher material-orientierten chemischen Verbindungen, deren Eigenschaften und Reaktivitäten.
+
+## Praktika
+
+Die Chemiepraktika des ersten Jahres gliedern sich in zwei Teile: das Praktikum in allgemeiner und  anorganischer  Chemie illustriert  wesentliche  Konzepte  der  Grundvorlesung Allgemeine Chemie anhand von konkreten Experimenten und bildet eine wichtige Vorbereitung im Hinblick auf die Praktika der folgenden Jahre. Das Praktikum in analytischer Chemie vermittelt die wichtigsten klassischen Analysetechniken.
+
+## Propädeutische Nebenfächer
+
+Die  Chemie  ist  auf  mathematische  Methoden  und  Kenntnisse  in  Physik  angewiesen,  welche durch diese propädeutischen Fächer vermittelt werden. Chemie spielt aber auch eine entscheidende Rolle in der belebten Natur, weshalb propädeutische Kenntnisse in Biologie und/oder Biochemie eine wertvolle Ergänzung darstellen. Entsprechend der späteren Wahl des Zusatzfachs können die Studierenden in diesem Bereich zwischen zwei Varianten wählen.
+
+## 2.2 Das zweite und dritte Studienjahr
+
+Im zweiten und dritten Studienjahr werden parallel zum Studium im Hauptfach Chemie die UE des gewählten Zusatzfachs belegt. Die Prüfungen aller UE im Hauptfach Chemie des zweiten und dritten Studienjahres können in beliebigen Prüfungssessionen abgelegt werden. Es obliegt den Studierenden, ihre Prüfungen so zu legen, dass das BSc-Studium in den vorgesehenen drei Jahren abgeschlossen werden kann.
+
+## 2.2.1 Unterrichtseinheiten des zweiten Studienjahres
+
+## Drittes Semester (Herbst)
+
+* Voraussetzung: Aus Sicherheitsgründen müssen CH.1035 und CH.1072 validiert sein bevor  CH.2235 gewählt werden kann
+
+| Code    | Unterrichtseinheit                                        | Std.   | ECTS     |
+|---------|-----------------------------------------------------------|--------|----------|
+|         | Chemie                                                    |        |          |
+| CH.2112 | Einführung in die Komplexchemie (Vorlesung mit Übungen)   | 42     | 4.5      |
+| CH.2212 | Präparative Methoden (Vorlesung)                          | 42     | 3        |
+| CH.2222 | Präparative Methoden (Übungen)                            | 14     | 2        |
+| CH.2235 | Präparative Methoden (Praktikum für ChemikerInnen) *      | 224 4  | 8        |
+| CH.2312 | Klassische Thermodynamik (Vorlesung mit Übungen)          | 28     | 3        |
+| CH.2342 | Einführung in die Quantenmechanik (Vorlesung mit Übungen) | 28     | 3        |
+| -       | Zusatzfach                                                |        |          |
+|         | (gemäss Liste der UE des entsprechenden Departements)     |        | x        |
+|         |                                                           |        | 23.5 + x |
+
+| Viertes Semester   | Viertes Semester                                       |       |        |
+|--------------------|--------------------------------------------------------|-------|--------|
+| Code               | Unterrichtseinheit                                     | Std.  | ECTS   |
+| CH.2152            | Symmetrie der Moleküle (Vorlesung mit Übungen)         | 28    | 3      |
+| CH.2252            | Organische Instrumentalanalyse (Vorlesung mit Übungen) | 56    | 5      |
+| CH.2274            | Instrumentalanalyse (Praktikum)                        | 224 5 | 8      |
+| CH.2322            | Statistische Thermodynamik (Vorlesung mit Übungen)     | 28    | 3      |
+| CH.2332            | Kinetik (Vorlesung mit Übungen)                        | 28    | 3      |
+| -                  | (gemäss Liste der UE des entsprechenden Departements)  |       |        |
+|                    |                                                        |       | 22 + x |
+
+Im zweiten Studienjahr können die Studierenden damit beginnen, UE im gewählten Zusatzfach (30  ECTS)  zu  belegen.  Diese  von  den  betreffenden  Departementen  bezeichneten  UE  sind  im Studienplan  der  Zusatzfächer  der  Math.-Nat.  und  Med.  Fakultät  der  Universität  Freiburg aufgeführt. Die Studierenden sind verpflichtet, sich frühzeitig über dieses Fach zu informieren, um möglichen Stundenplankonflikten besser ausweichen zu können.
+
+## 2.2.2 Unterrichtseinheiten des dritten Studienjahres
+
+## Fünftes Semester (Herbst)
+
+| Code    | Unterrichtseinheit                                                     | Std.   |   ECTS |
+|---------|------------------------------------------------------------------------|--------|--------|
+|         | Chemie                                                                 |        |        |
+| CH.3125 | Rechnungsmethoden der Chemie (Vorlesung mit Praktikum)                 | 56     |    3   |
+| CH.3212 | Organische Stereochemie (Vorlesung mit Übungen)                        | 28     |    3   |
+| CH.3215 | Photophysikalische Charakteristika von Materie (Vorlesung mit Übungen) | 14     |    1.5 |
+| CH.3335 | Spektroskopie (Vorlesung mit Übungen)                                  | 42     |    4.5 |
+| CH.3394 | Physikalische Chemie (Praktikum)                                       | 224 6  |    8   |
+|         | Zusatzfach                                                             |        |        |
+| -       | (gemäss Liste der UE des entsprechenden Departements)                  |        |        |
+
+## Sechstes Semester (Frühling)
+
+20 +
+
+x
+
+| Code    | Unterrichtseinheit                                    |   Std. | ECTS     |
+|---------|-------------------------------------------------------|--------|----------|
+|         | Chemie                                                |        |          |
+| CH.3142 | d- und f-Metalle (Vorlesung mit Übungen)              |     28 | 3        |
+| CH.3184 | Komplexe Synthesen (Praktikum)                        |    280 | 10       |
+| CH.3222 | Reaktionsmechanismen (Vorlesung mit Übungen)          |      2 | 2.5      |
+| CH.3355 | Modellierung in der Chemie (Vorlesung)                |     28 | 2        |
+| CH.3375 | Modellierung in der Chemie (Praktikum)                |     56 | 3        |
+| CH.3385 | Aktuelle Themen in der Chemie                         |     28 | 3        |
+|         | Zusatzfach                                            |        |          |
+| -       | (gemäss Liste der UE des entsprechenden Departements) |        |          |
+|         |                                                       |        | 24.5 + x |
+
+## 2.2.3 Inhalt der UE des zweiten und dritten Jahres
+
+## Vorlesungen
+
+- Die  Vorlesung Einführung  in  die  Komplexchemie  (mit  Übungen) (CH.2115)  vertieft  die Ausbildung in anorganischer Chemie.
+
+5 Vier halbe Tage zu 4 Stunden pro Woche
+
+6 Drei halbe Tage zu 5 Stunden pro Woche
+
+- Die Vorlesungen Präparative Methoden (CH.2212) mit dazugehörigen Übungen (CH.2222) und Organische Instrumentalanalyse (mit Übungen) (CH.2252) vermitteln die theoretischen Kenntnisse für die Praktika des zweiten Jahres.
+- Die  Vorlesungen Klassische  Thermodynamik (CH.2312)  und Statistische  Thermodynamik (mit  Übungen) (CH.2322), Kinetik  (mit  Übungen) (CH.2332)  und Einführung  in  die Quantenmechanik  (mit  Übungen) (CH.2342)  bilden  den  ersten  und  die  Vorlesungen Spektroskopie  (mit  Übungen) (CH.3335), Photophysikalische  Charakteristika  von  Materie (mit  Übungen) (CH.3215)  und Modellierung  in  der  Chemie (Vorlesung  CH.3355  und Praktikum CH.3375) den zweiten Zyklus der physikalischen Chemie.
+- Die Vorlesungen Rechnungsmethoden für Chemie (CH.3125) und Modellierung in der Chemie (CH.3355)  und Symmetrie  der  Moleküle  (mit  Übungen) (CH.2152)  vermitteln  gruppentheoretische Grundlagen und die notwendigen Kenntnisse für computergestützte Praktika.
+- Die Vorlesung d- und f-Metalle (mit Übungen) (CH.3142) gibt einen Einblick in die Chemie der Übergangsmetalle.
+- Die  Vorlesungen Organische  Stereochemie  (mit  Übungen) (CH.3212)  ist  dem  wichtigen Thema der Chiralität  gewidmet und findet  zusammen  mit der  Vorlesung Reaktionsmechanismen (mit Übungen) (CH.3222) ihre praktische Entsprechung im abschliessenden Praktikum Komplexe Synthesen (CH.3184) des 6. Semesters.
+- Die Aktuellen Themen in der Chemie (CH.3385) ermöglicht den Studierenden einen ersten Kontakt mit der Forschung im Rahmen eines Vortrages. Die Vorlesung ist eine Synthese der Themen aller vorausgegangenen Vorlesungen.
+
+## Praktika
+
+Das Praktikum des dritten Semesters (CH.2235) ist der Synthese, Trennung und Reinigung von chemischen Verbindungen gewidmet, während das Praktikum des vierten Semesters (CH.2274) alle gebräuchlichen instrumentalanalytischen Methoden einübt. Das Praktikum zu Rechnungsmethoden der Chemie (CH.3125) sowie das Praktikum Modellierung in er Chemie (CH.3375)  illustrieren  nicht  nur  die  theoretischen  Methoden  der  Chemie,  sondern  auch  die spezifische  Verwendung  von  Computern  in  der  Chemie.  Im  fünften  Semester  illustriert  ein Praktikum  in  physikalischer  Chemie  (CH.3394)  anhand  von  fortgeschrittenen  Experimenten wesentliche physiko-chemische Aspekte, und im sechsten Semester rundet ein erneut der Synthese  gewidmetes  Praktikum  (CH.3184)  unter  Einbezug  sämtlicher  erlernter  Techniken  die praktische Ausbildung zum BSc in Chemie ab.
+
+## 2.3 Die Prüfungen
+
+Die  Evaluierungsbedingungen  der  UE  sind  in  Anhängen  zusammengefasst .  Für  den  BSc Chemie sind die Anhänge der Chemie, Biologie, Mathematik und Physik zu konsultieren.
+
+Die Anrechnungseinheit BSc1 vereint die Gesamtheit der UE des ersten Jahres und ergibt 60 ECTS-Kredite. Diese Anrechnungseinheit muss bis spätestens Ende des vierten Semesters 7 vollständig angerechnet sein. Falls das nicht der Fall ist, kann das Chemiestudium nicht fortgeführt werden und gilt als endgültig nicht bestanden.
+
+Die Anrechnungseinheit BSc2 gruppiert die UE des 2. und 3. Jahres, welche nicht zum Zusatzfach gehören und ergeben 90 ECTS-Kredite.
+
+Die Anrechnungseinheit BSc3 umfasst die UE des Zusatzfachs, das gemäss dem Studienplan dieses Fachs evaluiert wird. Es gibt Anrecht auf 30 ECTS-Kredite. Ein nicht bestandenes Nebenfach kann durch ein anderes ersetzt werden.
+
+Die Anrechnung der Pakete BSc1, BSc2 und BSc3 berechtigt zum Titel Bachelor of Science in Chemie, Universität Freiburg (BSc) .
+
+7 Die Prüfungssession von September gehört zum Frühlingsemester.

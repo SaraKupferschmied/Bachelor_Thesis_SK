@@ -1,0 +1,34 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:12.622Z",
+  "title": "Recueil systématique 512.300 Systematische Sammlung 1",
+  "pages": 6,
+  "reg_doc_key": "9f05d0da6d17699cb522c3f519194bf7d533ba9e",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.512 Vereinbarungen betreffend die Universität",
+  "spider_title": "Vereinbarung der Universität Bern und Universität Freiburg sowie Stiftung “Forschungsinstitut zur Geschichte des Alpenraums (FGA)” (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/280244",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/280244",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_der_Universit_t_Bern_und_Universit_t_Freiburg_sowie_Stiftung_Forschungsinstitut_zur_Geschichte_des_Alpenraums_FGA_DE__9f05d0da6d.pdf",
+  "sha256": "45610127526d5d2a91f8d6146cd65a6386c26e68c7f85d44c10d1f36a6eb94ae",
+  "fetched_at": "2026-04-03T12:10:28.464Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 512.300 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 512.300 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 512.300 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 512.300 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 512.300 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 512.300 Systematische Sammlung 6

@@ -1,0 +1,459 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T02:54:32.560Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_LDP_180_ECTS-Kreditpunkte__c7a13f622073355d8b55cc3a64ec3d734f92aded",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c7a13f622073355d8b55cc3a64ec3d734f92aded",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Teacher Education for Primary Level",
+  "doc_label": "Bachelor LDP (180 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BA_LDP_180_%281539%29%2023%2010%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_LDP_180_ECTS-Kreditpunkte__c7a13f622073355d8b55cc3a64ec3d734f92aded.pdf",
+  "sha256": "2597d95adc2e52309fecee74fb9dffe90c8ed65fca973c54bbc660d577c8fa43",
+  "fetched_at": "2026-04-03T11:26:50.381Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BA_LDP_180_%281539%29%2023%2010%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA_LDP_180_(1539) 23 10 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR LEHRPERSONENBILDUNG
+
+## STUDIENPLAN
+
+## Lehrpersonenbildung für die Primarstufe (LDP)
+
+Bachelor-Studienprogramm Major 180 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften
+- Reglement  vom  19. September  2024  über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die  Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses  Studienprogramm  richtet  sich  an  Studierende,  die  eine  Lehrtätigkeit  an  Schulen  der  Primarstufe anstreben. Das Studienprogramm bietet eine praxisorientierte und wissenschaftliche Ausbildung. Neben dem Bachelortitel  wird  den  Studierenden  nach  erfolgreichem  Abschluss  des  Studiengangs  ein  von  der  EDK anerkanntes Lehrdiplom für die Primarstufe (LDP) verliehen, das zur Ausübung Ausübung des Lehrberufs auf der Primarstufe (1-8 Harmos) unmittelbar nach Abschluss des Bachelorstudiums berechtigt.
+
+Der Studiengang umfasst insgesamt 180 ECTS-Kreditpunkte. Die gemeinsame Ausbildung im Umfang von 160 ECTS-Kreditpunkten wird nach dem ersten Ausbildungsjahr durch eine Vertiefung im Umfang von 20 ECTSKreditpunkten ergänzt, die sich entweder auf den Zyklus I (1H-4H) oder den Zyklus II (5H-8H) konzentriert. Die Wahl der Vertiefung muss spätestens bis zum Ende der Prüfungssession im Juni getroffen werden.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm kann auf Deutsch, auf Französisch oder zweisprachig (Deutsch-Französisch) absolviert werden.
+
+Im Studienprogramm auf Deutsch wird ein Teil der Kurse (10 bis 15 %) in der Partnersprache oder zweisprachig unterrichtet (ein/e Ausbilder/in spricht Deutsch, der/die andere Französisch oder ein/e Ausbilder/in spricht beide Sprachen).
+
+Zweisprachiges Studienprogramm: Die Wahl eines zweisprachigen Studiengangs muss bei der Einschreibung getroffen werden. Am Ende jeden Semesters ist es möglich, den zweisprachigen Studiengang aufzugeben, indem ein formeller Antrag bei der Geschäftsführenden Direktion des ZELP gestellt wird.
+
+Abgesehen von den Zulassungsvoraussetzungen für die Universität, gibt es keine Mindestanforderungen für den  Studieneinstieg, jedoch wird das Niveau  B2  in Französisch (mündlich und  schriftlich)  gemäss Europäischem Referenzrahmen für Sprachen empfohlen. Eine obligatorische interne Sprachüberprüfung der Kenntnisse in Französisch findet am Ende des 2. Studienjahres statt (Ziel: C1, beruflich ausgerichtet) und muss für  den  Erwerb  des  Bachelors  bestanden  werden.  Inhaberinnen  und  Inhaber  eines  aktuellen  C1-Zertifikats (Goethe,  TELC) oder einer bilingualen Maturität Plus (Durchschnitt ≥ 5 in L2) können von der Sprachüberprüfung befreit werden.
+
+Für Studierende, die ein zweisprachiges Studium anstreben, werden sehr gute Kenntnisse der Partnersprache dringend empfohlen. Die Einschreibung erfolgt in dem Studiengang, der der dominanten Sprache entspricht.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist nicht möglich. Eine Verordnung über die Zulassungsbeschränkung des Staatsrats legt die Aufnahmekapazität für die Ausbildung sowie die Modalitäten für die Zuteilung der Ausbildungsplätze fest.
+
+## 2.4 Mobilität
+
+Ein Mobilitätssemester ist ab dem 3. Semester möglich. Interessierte Studierende wenden sich an die Mobilitätsberatung des Zentrums für Lehrpersonenbildung für die Primarstufe (ZELP), um Informationen über
+
+das genaue Verfahren zu erhalten. Weitere Informationen (insbesondere zu den Fristen) erhalten Sie beim Mobilitätsdienst der Universität Freiburg https://www.unifr.ch/studies/fr/mobilite/.
+
+## 3 Studienprogramm
+
+## 3.1 Ziele der Ausbildung
+
+Das Studienprogramm verfolgt das Ziel, die Studierenden auf ihre Tätigkeit als Lehrperson vorzubereiten und die im Kompetenzprofil der Ausbildung beschriebenen Fähigkeiten zu entwickeln.
+
+Parallel  zur  Zertifizierung  dieser  Kompetenzen  arbeitet  das  Zentrum  für  Lehrpersonenbildung  für  die Primarstufe  mit  den Anstellungsbehörden  zusammen,  um  die  bestmögliche  berufliche  Integration  und  die kontinuierliche  Weiterentwicklung  der Akteurinnen  und Akteure  im Bildungswesen des Kantons Freiburg  zu fördern.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Die 180 ECTS-Kreditpunkte sind in Module gegliedert, um die wesentlichen Kompetenzen für den Erwerb des Lehrdiploms für die Primarstufe zu entwickeln. Sie tragen zur Entfaltung der notwendigen Kompetenzen bei und decken die vier Kompetenzbereiche der EDK ab: Erziehungswissenschaft, berufspraktische Ausbildung, wissenschaftliche Fachstudien sowie Fachdidaktiken.
+
+Die Ausbildung umfasst folgende Lehrangebote:
+
+- Theoretische  Ausbildung:  Vorlesungen  und  Übungen  in  Erziehungs-  und  Sozialwissenschaften,  in allgemeiner und fachspezifischer Didaktik
+- Berufspraxis: Praktika, Ateliers und Integrationsveranstaltungen
+- Spezialwochen: Interdisziplinäre Tage und Wochen oder Vertiefungen (Musik, Bewegung und Sport, Gestalten sowie Englisch) sowie in der Partnersprache
+
+| Gemeinsame Ausbildung                                                           | ECTS   |
+|---------------------------------------------------------------------------------|--------|
+| Allgemeine Didaktik-Pädagogik-Psychologie                                       | 20     |
+| Gesellschaft und Schulsystem und Pädagogik der Vielfalt                         | 14     |
+| Berufliche Entwicklung                                                          | 12     |
+| Forschung und ICT                                                               | 10     |
+| Fachdidaktik Mathematik und Naturwissenschaften                                 | 22     |
+| Sprachdidaktiken                                                                | 22     |
+| Interdisziplinarität und Fachdidaktiken Bewegung und Sport, Musik und Gestalten | 12     |
+| Berufsbezogene Begleitung und Praktika                                          | 33     |
+| Zertifikative Schlussprüfung                                                    | 15     |
+| Vertiefung Zyklus I (1-4H)                                                      | ECTS   |
+| Schuleingangsdidaktik für die 4-8 jährigen Kinder                               | 4      |
+| Fachdidaktiken 1-4                                                              | 16     |
+| Vertiefung Zyklus II (5-8H): zwei Module zur Auswahl                            | ECTS   |
+| Fachdidaktik Englisch und Mehrsprachendidaktik 5-8                              | 10     |
+| Fachdidaktik Gestalten (BG / TTG) 5-8                                           | 10     |
+| Fachdidaktik Musik 5-8                                                          | 10     |
+| Fachdidaktik BSE 5-8                                                            | 10     |
+
+## 3.3 Zweisprachiges Diplom
+
+Dieses Programm stellt eine Variante des deutschsprachigen Studienprogramms dar. Es handelt sich nicht um einen eigenständigen Studiengang, sondern um ein Programm, das die Studienjahre in beiden Sprachsektionen abwechselt. Die Studierenden  des  DiBi-Programms  besuchen  alle  Lehrveranstaltungen  und  Praktika gemeinsam mit den übrigen Studierenden. Das erste und dritte Studienjahr finden in der Erstsprache statt, während  das  zweite  Jahr  -  einschliesslich  der  beiden  Praktika  -  in  der  Partnersprache  absolviert  wird (Immersionsjahr) (vgl. den Leitfaden und Orientierung für das Lehrdiplom für die Primarstufe mit bilingualer Ausrichtung (DIBI).
+
+Studierende, die die bilinguale Ausbildung absolvieren, müssen zusätzlich zum deutschsprachigen Studienprogramm ein Modul im Umfang von 5 ECTS-Punkten absolvieren. Dieses umfasst:
+
+- eine Einführungseinheit zum Bilingualismus im Winterzwischensemester des ersten Studienjahres;
+- zwei Einheiten zum bilingualen und immersiven Unterricht sowie zu den berufssprachlichen Kompetenzen, inkl.  Realisierung  eines  Projekts  im  Bereich  des  bilingualen  oder  immersiven  Unterrichts  während  des Winterzwischensemesters des zweiten Studienjahres;
+- eine zertifizierende Prüfung Prüfung Französisch L1 , welche die berufssprachlichen Kompetenzen in der Partnersprache am Ende des 4. Semesters evaluiert;
+- eine didaktische Auffrischungseinheit im Sommerzwischensemester vor dem dritten Studienjahr.
+
+## 3.4 Struktur der Module
+
+Die Formen der Leistungsbewertung sind:
+
+- FB: fortlaufende Bewertung
+- PB: praktische Bewertung
+- EXA: Prüfung
+- T: Teilnahme
+- KA: komplexe Aufgabe (schriftliche Arbeit oder schriftliche Arbeit mit Verteidigung)
+- BA: Bachelorarbeit (schriftliche Arbeit und mündliche Verteidigung)
+
+Mit Ausnahme der als benotet gekennzeichneten Bewertungen werden alle anderen Leistungsnachweise mit «bestanden» oder «nicht bestanden» bewertet.
+
+## Allgemeine Ausbildung
+
+| Module und Unterrichtseinheiten                                                                        | Form   | Note   |   Semester |   ECTS |
+|--------------------------------------------------------------------------------------------------------|--------|--------|------------|--------|
+| Allgemeine Didaktik-Pädagogik-Psychologie                                                              |        |        |            |     20 |
+| Einstieg ins Studium (EiS)                                                                             | T      |        |          1 |        |
+| Allgemeine Didaktik 1: Unterrichtsplanung                                                              | FB     |        |          1 |      2 |
+| Allgemeine Didaktik 2: Lektionsplanung                                                                 | EXA    | ×      |          2 |      2 |
+| Atelier: Fragen im Unterricht und Lehrgespräch                                                         | T      |        |            |        |
+| Allgemeine Didaktik 3: Planung                                                                         | FB     |        |          5 |      2 |
+| Atelier: Hausaufgaben                                                                                  | T      |        |            |        |
+| Pädagogik 1: Einführung                                                                                | KA     |        |          1 |      2 |
+| Pädagogik 2: Klassiker der Pädagogik und Grundlagen der Beurteilung                                    | FB     |        |          4 |      2 |
+| Atelier: Formen der Beurteilung                                                                        | T      |        |            |        |
+| Pädagogik 3: beurteilen                                                                                | FB     |        |          5 |      2 |
+| Atelier: beurteilen                                                                                    | T      |        |            |        |
+| Psychologie: Einführung in die Paradigmen                                                              | EXA    | ×      |          1 |      2 |
+| Entwicklungspsychologie                                                                                | EXA    | ×      |          2 |      2 |
+| Lernpsychologie                                                                                        | FB     |        |          3 |      2 |
+| Atelier: Umgang mit Disziplin                                                                          | T      |        |            |        |
+| Entwicklungs- und Lernpsychologie: Vertiefung                                                          | FB     |        |          4 |      2 |
+| Atelier: Metakognition                                                                                 | T      |        |            |        |
+| Gesellschaft und Schulsystem und Pädagogik der Vielfalt                                                |        |        |            |     14 |
+| Schulsysteme                                                                                           | KA     |        |          2 |      2 |
+| Atelier: Klassenführung                                                                                | T      |        |            |        |
+| Soziologie der Erziehung                                                                               | KA     |        |          2 |      2 |
+| Sozialpsychologie und Zusammenarbeit                                                                   | FB     |        |            |        |
+| Atelier: Zusammenarbeit                                                                                | T      |        |          6 |      2 |
+|                                                                                                        | FB     |        |          4 |      2 |
+| Schulische Ungleichheiten und Unterschiede                                                             |        | ×      |          5 |        |
+| Atelier: Übergänge und schulischer Misserfolg                                                          | T      |        |            |      2 |
+| Pädagogisches Handeln und kritische Pädagogik der Vielfalt Schüler:innen mit besonderem Bildungsbedarf | EXA FB |        |          4 |      2 |
+| Atelier: Schüler:innen mit besonderem Bildungsbedarf 1                                                 | T      |        |            |        |
+| Inklusive Bildung                                                                                      | EXA    | ×      |          5 |      2 |
+| Atelier: Schüler:innen mit besonderem Bildungsbedarf 2                                                 | T      |        |            |        |
+
+| Module und Unterrichtseinheiten                                                                                                              | Form   | Note   | Semester   | ECTS   |
+|----------------------------------------------------------------------------------------------------------------------------------------------|--------|--------|------------|--------|
+| Berufliche Entwicklung                                                                                                                       |        |        |            | 12     |
+| Lehrer:in sein1& Reflexives Schreiben                                                                                                        | KA     | ×      | 1          | 1      |
+| Berufsethik                                                                                                                                  | KA     | ×      | 1          | 2      |
+| Lehrer:in sein 2                                                                                                                             | KA     | ×      | 2          | 1      |
+| Lehrer:in sein 3: Arbeit, Ressourcen, Zusammenarbeit                                                                                         | FB     |        | 6          | 2      |
+| Berufliche Entwicklung: Portraits                                                                                                            | T      |        |            |        |
+| Kommunikation 1: Grundlagen &Techniken                                                                                                       | FB     |        | 1          | 2      |
+| Kommunikation 2: Haltung-Person-Setting                                                                                                      | KA     |        | 3          | 2      |
+| Kommunikation 3: komplexe Situationen, Strategien                                                                                            | FB     |        | 4          | 2      |
+| Module und Unterrichtseinheiten                                                                                                              | Form   | Note   | Semester   | ECTS   |
+| Forschung und ICT                                                                                                                            |        |        |            | 10     |
+| Medienpädagogik und ICT                                                                                                                      | FB     |        | 2          | 2      |
+| Unterrichten mit Medien und ICT                                                                                                              | FB     |        | 5          | 2      |
+| Atelier: Innovation über die Medien                                                                                                          | T      |        | 1          |        |
+| Schule &Unterricht erforschen 1                                                                                                              | FB     |        |            | 2      |
+| Schule erforschen 2: Methoden                                                                                                                | FB T   |        | 4          | 2      |
+| Atelier: Schulqualität, Schulentwicklung und externe Evaluation                                                                              | FB     |        |            | 2      |
+| Schule erforschen 3a: Begleitkolloquium zur Bachelorarbeit (BA)                                                                              |        |        | 5          |        |
+| Schule erforschen 3b: Begleitkolloquium zur Bachelorarbeit (BA)                                                                              | T      |        | 6          |        |
+| Fachdidaktik Mathematik und Fachdidaktik Natur-Mensch-Gesellschaft                                                                           |        |        |            | 22     |
+| Epistemologische Grundlagen für die Erkenntnisgewinnung in Natur- und Kulturwissenschaften und für eine Bildung zur nachhaltigen Entwicklung | FB     |        | 1          | 2      |
+| Didaktik der Ethik und Religionskunde (NMG) 1                                                                                                | FB     |        | 2          | 2      |
+| Fachdidaktik Natur-Mensch-Gesellschaft 1: Programm und Ziele                                                                                 | FB     |        | 3          | 2      |
+| Atelier: Lehrausgang                                                                                                                         | T      |        |            |        |
+| Fachdidaktik Natur-Mensch-Gesellschaft 2: didaktische Sequenzen                                                                              | KA T   |        | 4          | 2      |
+| Atelier: Experimentieren Didaktik der Ethik und Religionskunde (NMG) 2                                                                       | FB     |        | 5          | 2      |
+| Atelier: Historischer Zugang zur Religionskunde                                                                                              | T      |        |            |        |
+| Fachdidaktik Natur-Mensch-Gesellschaft 3: Planung und Beurteilung Atelier: GeografischerAnsatz                                               | FB T   |        | 6          | 2      |
+| Kompetenzen in Mathematik und Fachdidaktik der Mathematik 1                                                                                  | EXA    | ×      | 1          | 2      |
+| Kompetenzen in Mathematik und Fachdidaktik der Mathematik 2                                                                                  | FB     |        | 2          | 2      |
+| Fachdidaktik Mathematik 3                                                                                                                    | FB     |        | 3          | 2      |
+| Atelier: Fehlerkultur                                                                                                                        | T      |        |            |        |
+| Integrative Fachdidaktik Naturwissenschaften und Mathematik                                                                                  | KA     | ×      | 4          | 2      |
+| Atelier: Orientierung in Raum und Zeit Fachdidaktik Mathematik 4                                                                             | T FB   |        | 6          | 2      |
+| Atelier: Problemlösen                                                                                                                        | T      |        |            |        |
+
+| Module und Unterrichtseinheiten                                                                  | Form   | Note   |   Semester |   ECTS |
+|--------------------------------------------------------------------------------------------------|--------|--------|------------|--------|
+| Sprachdidaktiken                                                                                 |        |        |            |     22 |
+| Sprache: linguistische Grundlagen                                                                | FB     |        |          1 |      2 |
+| Unterricht mit anderssprachigen Schüler:innen Atelier: EOLE/ELBE-Fla/DaZ                         | FB T   |        |          3 |      1 |
+| Kinder mit spezifischen Bedürfnissen (Logopädie) Atelier: Schwierigkeiten im Schriftspracherwerb | FB T   |        |          3 |      1 |
+| Umsetzung der integrierten Didaktik (L1-L2) Atelier: Der Sprachgrenze entlang                    | FB T   |        |          6 |      2 |
+| Mehrsprachendidaktik und Fachdidaktik der Zweitsprache 1                                         | FB     |        |          2 |      2 |
+| Mehrsprachendidaktik und Fachdidaktik der Zweitsprache 2                                         | FB     |        |          5 |      2 |
+| Sprechen, Lesen und Schreiben 1                                                                  | FB     |        |          1 |      1 |
+| Kinder- und Jugendliteratur 1                                                                    | FB     |        |          1 |      1 |
+| Sprechen, lesen und schreiben 2                                                                  | FB     |        |          2 |      1 |
+| Kinder- und Jugendliteratur 2 Atelier: Erzählen                                                  | FB T   |        |          2 |      1 |
+| Sprachbewusstsein Atelier: Grammatik und Orthografie                                             | EXA T  | ×      |          2 |      2 |
+| Schriftspracherwerb und Textrezeption Atelier: Leseanimation- und -förderung                     | EXA T  | ×      |          3 |      2 |
+| Mündliche und schriftliche Kommunikation Atelier: Projektpädagogik                               | KA T   |        |          4 |      2 |
+| Kompetenzübergreifender Sprachunterricht Atelier: Texte beurteilen                               | FB T   |        |          5 |      2 |
+| Überprüfung der Grundkenntnisse: L2 (Stufe C1)                                                   | EXA    | ×      |          2 |      0 |
+| Interdisziplinarität und Fachdidaktik Sport, Musik und Gestalten                                 |        |        |            |     12 |
+| Spezialwoche Bewegung und Sport: Bewegung und Sport-Sicherheit-Gesundheit- Ökologie-Ernährung    | FB     |        |          2 |      1 |
+| Tagesveranstaltung: Ernährungslehre                                                              | T      |        |          2 |      1 |
+| Sonderwoche: Interdisziplinarität 1                                                              | FB     |        |          3 |      2 |
+| Sonderwoche: Interdisziplinarität 2                                                              | FB     |        |          4 |      2 |
+| Singen, begleiten, leiten                                                                        | FB     |        |          1 |      2 |
+| Grundlagen Gestalten 1 (BG/TTG)                                                                  | FB     |        |          1 |      2 |
+| Grundlagen Gestalten 2 (BG/TTG)                                                                  | FB     |        |          2 |      2 |
+| Fachdidaktik Sport, Bewegung und Sicherheit                                                      | FB     |        |          2 |        |
+| Atelier: Bewegter Unterricht                                                                     | T      |        |            |      1 |
+
+Module und Unterrichtseinheiten
+
+Form
+
+Note
+
+Semester
+
+ECTS
+
+| Berufspraktische Ausbildung                                                             |      |    |   33 |
+|-----------------------------------------------------------------------------------------|------|----|------|
+| Professionsorientierte Begleitung 1 (LD)                                                | FB   |  1 |    1 |
+| Professionsorientierte Begleitung 2 (LD)                                                | FB   |  2 |    1 |
+| Professionsorientierte Begleitung 3 (LD)                                                | FB   |  3 |    1 |
+| Professionsorientierte Begleitung 4 (LD)                                                | FB   |  4 |    1 |
+| Professionsorientierte Begleitung 5 (LD)                                                | FB   |  5 |    1 |
+| Professionsorientierte Begleitung 6 (LD)                                                | FB   |  6 |    1 |
+| Unterrichtspraktikum 1 (P1) Integrationstag BU1 und Berufliche Entwicklung              | PB T |  1 |    4 |
+| Unterrichtspraktikum 2 (P2) Integrationstag U2 und Berufliche Entwicklung               | PB T |  2 |    4 |
+| Unterrichtspraktikum 3 (P3) Integrationstag U3 und Berufliche Entwicklung               | PB T |  3 |    4 |
+| Unterrichtspraktikum auf Französisch (L2) Integrationstag L2 und Berufliche Entwicklung | PB T |  3 |    3 |
+| Unterrichtspraktikum 4 (P4) Integrationstag U4 und Berufliche Entwicklung               | PB T |  4 |    5 |
+| Unterrichtspraktikum 5 (P5)                                                             | PB   |  5 |    7 |
+| Integrationstag U5 und Berufliche Entwicklung                                           | T    |  5 |    7 |
+
+| Zertifikative Schlussprüfungen           |     |    |    |   15 |
+|------------------------------------------|-----|----|----|------|
+| Komplexe Arbeit Erziehungswissenschaften | KA  | ×  |  5 |    1 |
+| Schlusspraktikum (S6)                    | EXA | ×  |    |      |
+| Praktische Prüfung                       | EXA | ×  |  6 |    6 |
+| Komplexe Arbeit Didaktik                 | KA  | ×  |    |      |
+| Bachelorarbeit                           | BA  | ×  |  6 |    8 |
+
+## Zusatz für das zweisprachige Diplom
+
+| Module und Unterrichtseinheiten     | Form   | Note   |   Semester | ECTS   |
+|-------------------------------------|--------|--------|------------|--------|
+| Zweisprachiges Diplom               |        |        |            | 5      |
+| Spezifische Module Cursus DiBi 1    | FB     |        |          1 | 1      |
+| Spezifische Module Cursus DiBi 2    | FB     |        |          3 | 3      |
+| Spezifische Module Cursus DiBi 3    | EXA    |        |          4 | 3      |
+| Validierung spezifische Module DiBi | FB     |        |          5 | 1      |
+| Sprachkompetenzerwerb C2 (S3)       | T      |        |          3 | -      |
+| Sprachkompetenzerwerb C2 (S4)       | T      |        |          4 | -      |
+
+## Profil 1H-4H
+
+| Module und Unterrichtseinheiten                                                                      | Form   | Note   |   Semester |   ECTS |
+|------------------------------------------------------------------------------------------------------|--------|--------|------------|--------|
+| Profil 1H-4H                                                                                         |        |        |            |     20 |
+| Lehren und lernen in der Eingangsstufe 1 Atelier: Mit allen Sinnen lernen                            | FB T   |        |          3 |      2 |
+| Lehren und lernen in der Eingangsstufe 2 Atelier: Spiel als Lernform (1-4H)                          | KA T   |        |          5 |      2 |
+| Fachdidaktiken 1-4                                                                                   |        |        |            |     16 |
+| Fachdidaktik Bewegungs- und Sporterziehung 1-4H 1 Atelier: Grob- und Feinmotorik 1-4H (Grafomotorik) | FB T   |        |          3 |      2 |
+| Fachdidaktik Gestalten 1-4H 1 (BG/TTG) Atelier: Prozessorientiertes Arbeiten (1-4H)                  | FB T   |        |          3 |      2 |
+| Fachdidaktik Musik 1-4H 1                                                                            | FB     |        |          3 |      2 |
+| Vertiefungswoche 1-4H: Bewegung, Musik, Gestalten, Spiel                                             | FB     |        |          4 |      2 |
+| Fachdidaktik Rhythmik 1-4H Atelier: Schule im Wald 1-4H                                              | FB T   |        |          4 |      2 |
+| Fachdidaktik Musik 1-4H 2 Atelier: Die Stimme (1-4H)                                                 | KA T   |        |          5 |      2 |
+| Fachdidaktik Bewegungs- und Sporterziehung 1-4H 2                                                    | FB     |        |          6 |      2 |
+| Fachdidaktik Gestalten 1-4H 2 (BG/TTG)                                                               | FB     |        |          6 |      2 |
+
+## Profil 5H-8H
+
+| Module und Unterrichtseinheiten                      | Form   | Note   |   Semester |    |
+|------------------------------------------------------|--------|--------|------------|----|
+| Profil 5H-8H - Englisch und Mehrsprachigkeit         |        |        |            | 10 |
+| Intensivwoche Englisch (L3)                          | FB     |        |          3 |  2 |
+| English didactics and methodology 1                  | FB     |        |          3 |  2 |
+| English didactics and methodology 2                  | FB     |        |          4 |  2 |
+| Mehrsprachendidaktik und Didaktik der Drittsprache 1 | KA     | ×      |          5 |  2 |
+| Mehrsprachendidaktik und Didaktik der Drittsprache 2 | FB     |        |          6 |  1 |
+| Mehrsprachendidaktik und Didaktik der DrittspracheCC | FB     |        |          6 |  1 |
+
+ECTS
+
+| Profil 5H-8H - Gestalten                                                             |      |    |    |   10 |
+|--------------------------------------------------------------------------------------|------|----|----|------|
+| Fachdidaktik Gestalten 5-8H 1 (BG/TTG) Atelier: Prozessorientiertes Arbeiten (5-8H)  | FB T |    |  3 |    2 |
+| Intensivwoche Gestalten 5-8H                                                         | FB   |    |  3 |    2 |
+| Fachdidaktik Gestalten 5-8H 2 (BG/TTG)                                               | FB   |    |  4 |    2 |
+| Fachdidaktik Gestalten 5-8H 3 (BG/TTG)                                               | KA   | ×  |  5 |    2 |
+| Fachdidaktik Gestalten 5-8H 4 (BG/TTG)                                               | FB T |    |  6 |    1 |
+| Atelier: Gestalten ausserhalb der Klasse 5-8H Fachdidaktik Gestalten 5-8H (BG/TTG)CC | FB   |    |  6 |    1 |
+
+| Module und Unterrichtseinheiten                                                                                            | Form   | Note   |   Semester |   ECTS |
+|----------------------------------------------------------------------------------------------------------------------------|--------|--------|------------|--------|
+| Profil 5H-8H - Musik                                                                                                       |        |        |            |     10 |
+| Fachdidaktik Musik 5-8H 1 Atelier: Die Stimme (5-8H)                                                                       | FB T   |        |          3 |      2 |
+| Intensivwoche Musik 5-8H: Gestaltungsprozesse                                                                              | FB     |        |          3 |      2 |
+| Fachdidaktik Musik 5-8H 2 Atelier: Musik und Fremdspracherwerb 5-8H                                                        | FB T   |        |          4 |      2 |
+| Fachdidaktik Musik 5-8H 3                                                                                                  | KA     | ×      |          5 |      2 |
+| Fachdidaktik Musik 5-8H 4                                                                                                  | FB     |        |          6 |      1 |
+| Fachdidaktik Musik 5-8HCC                                                                                                  | FB     |        |          6 |      1 |
+| Profil 5H-8H - Bewegungs- und Sporterziehung                                                                               |        |        |            |     10 |
+| Fachdidaktik Bewegungs- und Sporterziehung 1: Grundlagen der Sportdidaktik und Spiele                                      | FB     |        |          3 |      2 |
+| Intensivwoche Schneesport                                                                                                  | FB     |        |          3 |      2 |
+| Fachdidaktik Bewegungs- und Sporterziehung 2: Laufen - Springen - Werfen / seine Körper erleben - sich ausdrücken - tanzen | FB     |        |          4 |      2 |
+| Fachdidaktik Bewegungs- und Sporterziehung 3: Turnen und Wassersport                                                       | KA     | ×      |          5 |      2 |
+| Atelier: Das Spiel als Form des Lernens (5-8H)                                                                             | T      |        |            |        |
+| Fachdidaktik Bewegungs- und Sporterziehung 5-8H 4: Vertiefungen                                                            | FB     |        |          6 |      1 |
+| Fachdidaktik Bewegungs- und Sporterziehung 5-8H CC                                                                         | FB     |        |          6 |      1 |
+
+## Cours facultatifs
+
+| Module und Unterrichtseinheiten                    | Form   | Note   |   Semester | ECTS   |
+|----------------------------------------------------|--------|--------|------------|--------|
+| Fakultative Fachbereichskurse                      |        |        |            |        |
+| Grundkompetenzen Mathematik                        |        |        |          1 |        |
+| Grundkompetenzen in der L1 : Schreibatelier (S1)   |        |        |          1 |        |
+| Grundkompetenzen in ICT                            |        |        |          1 |        |
+| A) Grundkompetenzen in der L2 : Kurs (Deutsch)     |        |        |          1 |        |
+| A) Grundkompetenzen in der L2 : Kurs (Französisch) |        |        |          1 |        |
+| Grundkompetenzen in der L1 : Schreibatelier (S2)   |        |        |          2 |        |
+| Grundkompetenzen in der L2 : Kurs (Französisch)    |        |        |          2 |        |
+| Grundkompetenzen in der L2 : Kurs (Deutsch)        |        |        |          2 |        |
+| Grundkompetenzen Englisch (L3)                     |        |        |          2 |        |
+| Grundkompetenzen Musik                             |        |        |          2 |        |
+| Grundkompetenzen Bewegung und Sport                |        |        |          2 |        |
+| Grundkompetenzen Gestalten (BG&TTG)                |        |        |          2 |        |
+| Grundkompetenzen in der L2: Kurs (Französisch)     |        |        |          3 |        |
+| Grundkompetenzen in der L2: Kurs (Französisch)     |        |        |          4 |        |
+| Sprachkompetenzprüfung : L1 DiBi                   |        |        |          4 |        |
+| Kompetenzbilanz : Englisch (L3)                    |        |        |          1 |        |
+| Standortbestimmung: Musik                          |        |        |          1 |        |
+
+## 3.4.1 Praktika
+
+Die berufspraktische Ausbildung besteht aus Praktika und anderen Ausbildungsformaten, die die Studierenden in  einem  integrativen  Wechsel  zwischen  Beruf  und  Studium  unterstützen  (Begleitung,  Integrationstage, Praxisanalyse  und  berufliche  Entwicklung),  die  im  Laufe  der  Ausbildung  schrittweise  entsprechend  den erwarteten und bewerteten beruflichen Kompetenzen gestaltet werden.
+
+Diese Formate, insbesondere die Praktika, ermöglichen es den Studierenden, sich mit ihrem zukünftigen Beruf vertraut zu machen und ihre Kompetenzen, Handlungen und ihre berufliche Identität aufzubauen, während sie gleichzeitig  ihre  Kenntnisse  und  Kompetenzen  in  Allgemeiner  Didaktik  und  Fachdidaktik  (Vorbereitung, Umsetzung, Beobachtung, Bewertung, Differenzierung und Analyse des Unterrichts) vertiefen und erweitern.
+
+Pro Ausbildungssemester wird ein Praktikum (Tagespraktikum oder Blockpraktikum) organisiert und von der Koordinationsstelle «Ausbildung und Begleitung der beruflichen Praxis (BPA)» verwaltet. Jedes Praktikum wird in einem «Leitfaden und Orientierungshilfen für das Praktikum» beschrieben, der sich an alle Akteurinnen und Akteure  der  Ausbildung  (Studierende,  Praxislehrpersonen;  Mentorin/Mentor)  richtet.  Vor  Ort  werden  die Studierenden  von  Praxislehrpersonen  begleitet,  deren  Aufgabe  es  ist,  ihnen  bei  der  Entwicklung  ihrer beruflichen  Kompetenzen  zu  helfen  und  ihre  Fortschritte  zu  bewerten.  Die  Bewertung  wird  von  der Praktikumskommission bestätigt (Art. 45 Studienreglement).
+
+Eine  Mentorin  oder  ein  Mentor  begleitet  die  oder  den  Studierenden  während  ihrer  oder  seiner  gesamten Ausbildung.
+
+## 3.4.2 Bachelorarbeit
+
+Die Bachelorarbeit (schriftlicher Teil) und ihre Verteidigung (mündlicher Teil) entsprechen einem Arbeitsaufwand von 8 ECTS-Punkten. Ein Leitfaden zur Bachelorarbeit legt die Modalitäten für die Begleitung und Bewertung dieser Arbeit fest.
+
+Die  Wahl  des  Themas  hängt  von  den  Interessen  der  Studierenden  ab  und  liegt  grundsätzlich  in  ihrer Verantwortung. Wenn möglich, sollte das gewählte Thema aus einem Kurs stammen. Um die Themenwahl zu erleichtern,  können  die  Dozierenden  eine  Themenliste  zur  Verfügung  stellen.  Es  ist  auch  möglich,  die Bachelorarbeit im Rahmen eines laufenden Forschungsprojekts am ZELP zu verfassen.
+
+Für  die  Bewertung  des  schriftlichen  Teils  sowie  für  die  Verteidigung  wird  eine  Expertin  oder  ein  Experte hinzugezogen, welche oder welcher von der oder dem Verantwortlichen für die Bachelorarbeit benannt wird.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art.  3 Ziff. 7 und 14.Studienreglement).
+
+Die auf dem Internetportal der Universität und im «Leitfaden und Orientierung» zu den Kursen (verfügbar auf der Website des Departements, unter ZELP) verfügbaren Informationen geben  Auskunft über die Bewertungsformen für jede Unterrichtseinheit.
+
+Dieses berufsorientierte Ausbildungsprogramm erfordert eine Anwesenheit von 100% sowohl in den Kursen als auch  in  den  Praktika;  eine  Abwesenheit  in  den  Kursen  von  maximal  20%  kann  aus  triftigen  Gründen (Wehrdienst, Mutterschaftsurlaub, Krankheit oder Unfall) toleriert werden. Für jede andere Abwesenheit muss ein begründeter Antrag schriftlich bei der Geschäftsführenden Direktion des Zentrums eingereicht werden. Bei Überschreitung dieser Grenze kann der/die Studierende nicht zum Leistungsnachweis antreten und muss die Unterrichtseinheit erneut belegen.
+
+Wird  in  einer  durch Teilnahme  bewerteten  Unterrichtseinheit  die  minimale Teilnahme  nicht erreicht,  ist  eine Ausgleichsaufgabe erforderlich.
+
+Studienprogramm auf Deutsch: Um sich für das Modul Zertifikative Schlussprüfungen anzumelden, müssen folgende Voraussetzungen erfüllt sein:
+
+- -Für die Komplexe Arbeit Erziehungswissenschaften , die am Ende des 5. Semesters stattfindet, müssen die 120 ECTS-Kreditpunkte der Semester 1 bis 4 erworben und das Praktikum P5 erfolgreich absolviert worden sein.
+- -Für das Abschlusspraktikum , die praktische Prüfung , die Komplexe  Aufgabe Didaktik und die Bachelorarbeit ,  die  am  Ende  des  6.  Semesters  stattfinden,  müssen  die  150  ECTS-Kreditpunkte  der Semester 1 bis 5 erworben und das Praktikum P5 erfolgreich absolviert worden sein.
+
+Zweisprachiges Studienprogramm: Um sich für das Modul Zertifikative Schlussprüfungen anzumelden, müssen folgende Voraussetzungen erfüllt sein:
+
+- -Für die Komplexe Arbeit Erziehungswissenschaften anzumelden, die am Ende des 5. Semesters stattfindet, müssen die 122 ECTS-Kreditpunkte (vgl. Modul zweisprachige Ausbildung) der Semester 1 bis 4 erworben und das Praktikum P5 erfolgreich absolviert worden sein.
+- -Für das A bschlusspraktikum , die praktische Prüfung , die Komplexe Aufgabe Didaktik und die Bachelorarbeit müssen die 154 ECTS-Kreditpunkte (vgl. Modul zweisprachige Ausbildung) der Semester 1 bis 5 erworben und das Praktikum P5 erfolgreich absolviert worden sein.
+
+## 4.2 Anerkennung
+
+Ausser  der  Unterrichtseinheit Sprachbewusstsein  I sowie  den Zertifikativen  Schlussprüfungen können  alle Unterrichtseinheiten  potenziell  Gegenstand  einer  formellen Anerkennung  nach  den Anerkennungsrichtlinien (Art. 3 Abs. 5 Anerkennungsrichtlinien) sein.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Die Anmeldung zu einem Praktikum ist definitiv  und  kann  nicht  annulliert  werden.  Nicht  eingeschriebene  Studierenden  haben  keinen Anspruch auf eine Bewertung.
+
+## 4.4 Leistungsnachweise ausserhalb der Prüfungssessionen
+
+Bestimmte Unterrichtseinheiten (Praktika, Sonderwochen und Wochen im Zusammenhang  mit den Wahlprofilen) finden vor oder nach bzw. zwischen den Semestern statt. Die Informationen zu Terminen sind im jährlichen Ausbildungskalender auf der Website des ZELP zu finden.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+Alle Unterrichtseinheiten dieses Studienprogramms werden einzeln bewertet. Jede Bewertung muss genügend sein. Die auf der Website des ZELP und in den Kursbeschreibungen verfügbaren Informationen geben Auskunft über die Bewertungsmodalitäten für jede Unterrichtseinheit.
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt.
+
+Besteht  die oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel 3.2  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Es wird keine Abschlussnote berechnet.
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester 2025 in Kraft. Er gilt für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum Zeitpunkt des Inkrafttretens dieses Studienplans bereits im Bachelor-Studienprogramm der Pädagogischen Hochschule Freiburg eingeschrieben waren, unterliegen ab Herbstsemester 2025 ebenfalls diesem Studienplan. Die vollständige Anerkennung der erworbenen Kreditpunkte ist gewährleistet und es gelten die Übergangsbestimmungen des Studienreglements (Art. 110 bis 114 Studienreglement).

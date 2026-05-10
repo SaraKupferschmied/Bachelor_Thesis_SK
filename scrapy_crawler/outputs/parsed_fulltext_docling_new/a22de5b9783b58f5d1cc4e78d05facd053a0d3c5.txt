@@ -1,0 +1,228 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T00:34:42.946Z",
+  "title": "SCIMED_Bachelor_30_Earth_Sciences_Zusatzf_cher_Erdwissenschaften_a22de5b9783b58f5d1cc4e78d05facd053a0d3c5",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a22de5b9783b58f5d1cc4e78d05facd053a0d3c5",
+  "program_key": "scimed|bachelor|30|earth sciences",
+  "faculty": "SCIMED",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Earth Sciences",
+  "doc_label": "Zusatzfächer Erdwissenschaften",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ST_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/earthsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SCIMED_Bachelor_30_Earth_Sciences_Zusatzf_cher_Erdwissenschaften_a22de5b9783b58f5d1cc4e78d05facd053a0d3c5.pdf",
+  "sha256": "f66f39409f3b405f8a452af9933010be46fe122c60e3cfc00fefdc31a5e11d12",
+  "fetched_at": "2026-04-03T11:28:41.216Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ST_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BCo_ST_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_BCo",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.5  Erdwissenschaften
+
+Die Erdwissenschaften bieten zwei Zusatzfächer an, eins zu 30 ECTS und eins zu 60 ECTSCredits.
+
+## 3.5.1 Unterrichtseinheiten
+
+## 3.5.1.1 Unterrichtseinheiten des Zusatzfachs zu 30 ECTS
+
+[Version 2023, Anrechnungseinheit: PV-SST.0000061]
+
+Das Zusatzfach Erdwissenschaften im Umfang von 30 ECTS-Credits besteht aus zwei Teilen. Die  Unterrichtseinheiten  (UEs)  des  ersten  Teils  (13  ECTS)  sind  obligatorisch  und  müssen zwingend vor dem Besuch den UE des zweiten Teils absolviert werden, d. h. in der Regel im ersten  Studienjahr.  Der zweite  Teil  umfasst  empfohlene  UE  und  UE  nach  Wahl.  Studierende müssen mindestens 2 der empfohlenen UE wählen. Für den Rest trifft sie/er ihre/seine Wahl aus der untenstehenden Liste.
+
+Bei der Wahl der UE  müssen  die folgenden Voraussetzungen berücksichtigt werden (http://www.unifr.ch/timetable):
+
+- Die  Studierenden  müssen  die  Vorlesung  besuchen  (oder  besucht  haben),  um  an  den entsprechenden praktischen Übungen teilnehmen zu können.
+- Der erste Teil eines Kurses muss vor dem zweiten Teil besucht werden.
+- Die Teilnahme an bestimmten Exkursionen und Blockkursen ist ebenfalls an die vorherige Teilnahme an den entsprechenden Kursen gebunden.
+
+Wenn Pflicht-UEs bereits im Rahmen eines anderen Studienprogramms absolviert wurden, was insbesondere im Bachelorprogramm Geographie der Fall ist, müssen sie durch Wahl-UEs ersetzt werden.
+
+## Erster Teil: Pflicht-UEs, die im ersten Jahr (Semester 1 und 2) unbedingt belegt werden müssen.
+
+## 1. Semester (Herbst)
+
+| Code      | Unterrichtseinheit                                              | Semeste r   | tot. h   |   ECTS |
+|-----------|-----------------------------------------------------------------|-------------|----------|--------|
+| SGS.01003 | Einführung in die Geowissenschaften 3 - Allgemeine Geologie     | HS          | 28       |    3   |
+| SGS.01004 | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien | HS          | 28       |    3   |
+| SGS.01006 | Einführung in die Geowissenschaften 3 + 4 - Praktikum           | HS          | 28       |    2   |
+| SST.01831 | Geologische Exkursion IB                                        | HS          | 1 Tag    |    0.5 |
+
+## 2. Semester (Frühling)
+
+| Code      | Unterrichtseinheit                                      | Semester   |   tot. h |   ECTS |
+|-----------|---------------------------------------------------------|------------|----------|--------|
+| SGS.00106 | Erdgeschichte (Vorlesung)                               | FS         |       28 |    3   |
+| SGS.01301 | Geologie und Gesellschaft: Praktische Herausforderungen | FS         |       14 |    1.5 |
+
+Zweiter Teil: UE, die im zweiten Jahr (Semester 3 und 4) zu belegen sind. Empfohlene UE (Mindestens zwei dieser UE müssen gewählt werden)
+
+| Code      | Unterrichtseinheit                                                        | Semester   | tot. H   | ECTS   |
+|-----------|---------------------------------------------------------------------------|------------|----------|--------|
+| SST.00203 | Paläontologie (Vorlesung)                                                 | HS         | 28       | 3      |
+| SST.00205 | Sedimentologie (Vorlesung)                                                | HS         | 28       | 3      |
+| SST.00206 | Tektonik (Vorlesung)                                                      | HS         | 28       | 3      |
+| SST.02208 | Petrologie der Magmatite                                                  | HS         | 28       | 2.5    |
+| SST.00201 | Regionale Geologie (Vorlesung)                                            | FS         | 28       | 3      |
+| Wahl UE   |                                                                           |            |          |        |
+| Code      | Unterrichtseinheit                                                        | Semester   | tot. H   | ECTS   |
+| SST.00218 | Paläontologie (Praktikum) *                                               | HS         | 28       | 2      |
+| SST.00224 | Karten und Profile I (Praktikum)                                          | HS         | 28       | 2      |
+| SST.02207 | Mineralogie-Kristallographie I                                            | HS         | 28       | 2.5    |
+| SST.00303 | Allgemeine Mikropaläontologie (Vorlesung)                                 | HS         | 28       | 3      |
+| SST.00304 | Allgemeine Mikropaläontologie (Praktikum) *                               | HS         | 28       | 2      |
+| SST.03305 | Angewandte Geologie I: Hanginstabilitäten                                 | HS         | 28       | 3      |
+| SST.03308 | Hydrogeologie 2                                                           | HS         | 28       | 3      |
+| SST.01832 | Geologische Exkursion IC                                                  | HS         | 1 Tag    | 0.5    |
+| SGS.01001 | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft             | HS         | 28       | 3      |
+| SGS.01002 | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima | HS         | 28       | 3      |
+| SGS.01005 | Einführung in die Geowissenschaften 1+2 - Praktikum*                      | HS         | 28       | 2      |
+| SST.02213 | Optische Mikroskopie I: Mineralien                                        | FS         | 14       | 1      |
+| SST.02214 | Optische Mikroskopie II: Magmatite *                                      | FS         | 14       | 1      |
+| SST.02210 | Sedimentologie (Vorlesung und Praktikum) *                                | FS         | 28       | 2.5    |
+| SST.02212 | Mineralogie-Kristallographie II *                                         | FS         | 28       | 2.5    |
+| SST.03307 | Angewandte Geologie II: Ingenieurgeologie                                 | FS         | 28       | 3      |
+| SGS.00105 | Erkenntnistheorie der Geowissenschaften (Vorlesung)                       | FS         | 28       | 3      |
+| SGS.00156 | Kartographie und Einführung in GIS (Vorlesung)                            | FS         | 28       | 3      |
+| SGS.00157 | Kartographie und Einführung in GIS (Praktikum)*                           | FS         | 28       | 3      |
+| SGS.01101 | Geostatistik                                                              | FS         | 28       | 3      |
+| SST.01816 | Feldkurs I *                                                              | FS         | 3 Tage   | 1.5    |
+| SST.01833 | Geologische Exkursion ID                                                  | FS         | 1 Tag    | 0.5    |
+| SST.02801 | Geologische Exkursion IIA *                                               | FS         | 5 Tage   | 2.5    |
+| SST.02802 | Geologische Exkursion IIB *                                               | FS         | 3 Tage   | 1.5    |
+| SST.02803 | Feldkurs II *                                                             | FS         | 5 Tage   | 2.5    |
+| SST.03801 | Geologische Exkursion IIIA *                                              | FS         | 5 Tage   | 2.5    |
+| SST.03805 | Geologische Exkursion IIID *                                              | FS         | 1 Tag    | 0.5    |
+| SST.03807 | Geologische Exkursion IIIE *                                              | FS         | 1 Tag    | 0.5    |
+
+## 3.5.1.2 Unterrichtseinheiten des Zusatzfachs zu 60 ECTS
+
+[Version 2023, Anrechnungseinheit: PV-SST.0000062]
+
+Das Zusatzfach Erdwissenschaften im Umfang von 60 ECTS-Credits besteht aus zwei Teilen. Die UE des ersten Teils (32.5 ECTS) sind obligatorisch und müssen zwingend vor dem Besuch der UE des zweiten Teils absolviert werden, d. h. in der Regel im ersten Studienjahr. Der zweite Teil umfasst obligatorische UE (14.5 ECTS) und UE nach Wahl. Die Studierenden treffen ihre Wahl aus der untenstehenden Liste.
+
+Bei der Wahl der UE  müssen  die folgenden Voraussetzungen berücksichtigt werden (http://www.unifr.ch/timetable):
+
+- Die  Studierenden  müssen  die  Vorlesung  besuchen  (oder  besucht  haben),  um  an  den entsprechenden praktischen Arbeiten teilnehmen zu können.
+- Der erste Teil eines Kurses muss vor dem zweiten Teil besucht werden.
+- Die Teilnahme an bestimmten Exkursionen und Blockkursen ist ebenfalls an die vorherige Teilnahme an den entsprechenden Kursen gebunden.
+
+Wenn Pflicht-UEs bereits im Rahmen eines anderen Studienprogramms absolviert wurden, was insbesondere im Bachelorprogramm Geographie der Fall ist, müssen sie durch Wahl-UEs ersetzt werden.
+
+## Erster Teil: Pflicht-UEs, die im ersten Jahr (Semester 1 und 2) unbedingt belegt werden müssen.
+
+## 1. Semester (Herbst)
+
+| Code      | Unterrichtseinheit                                                        | Semester   | tot. h   |   ECTS |
+|-----------|---------------------------------------------------------------------------|------------|----------|--------|
+| SGS.01001 | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft             | HS         | 28       |    3   |
+| SGS.01002 | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima | HS         | 28       |    3   |
+| SGS.01003 | Einführung in die Geowissenschaften 3 - Allgemeine Geologie               | HS         | 28       |    3   |
+| SGS.01004 | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien           | HS         | 28       |    3   |
+| SGS.01005 | Einführung in die Geowissenschaften 1+2 - Praktikum *                     | HS         | 28       |    2   |
+| SGS.01006 | Einführung in die Geowissenschaften 3+4 - Praktikum *                     | HS         | 28       |    2   |
+| SST.01815 | Geologische Exkursion I 1                                                 | HS/FS      | 3 Tage   |    1.5 |
+
+## 2. Semester (Frühling)
+
+| Code      | Unterrichtseinheit                                      | Semester   | tot. h   | ECTS   |
+|-----------|---------------------------------------------------------|------------|----------|--------|
+| SGS.00105 | Erkenntnistheorie der Geowissenschaften (Vorlesung)     | FS         | 28       | 3      |
+| SGS.00106 | Erdgeschichte (Vorlesung)                               | FS         | 28       | 3      |
+| SGS.00156 | Kartographie und Einführung in GIS (Vorlesung)          | FS         | 28       | 3      |
+| SGS.00157 | Kartographie und Einführung in GIS (Praktikum)*         | FS         | 28       | 3      |
+| SGS.01301 | Geologie und Gesellschaft: Praktische Herausforderungen | FS         | 14       | 1,5    |
+| SST.01816 | Feldkurs I 1                                            | FS         | 3 Tage   | 1.5    |
+
+Zweiter Teil: UE, die im zweiten Jahr (Semester 3 und 4) zu belegen sind.
+
+## Obligatorische UE
+
+| Code                    | Unterrichtseinheit                                           | Semester   | tot. h   | ECTS    |
+|-------------------------|--------------------------------------------------------------|------------|----------|---------|
+| SST.00203               | Paläontologie (Vorlesung)                                    | HS         | 28       | 3       |
+| SST.00205               | Sedimentologie (Vorlesung)                                   | HS         | 28       | 3       |
+| SST.00206               | Tektonik (Vorlesung)                                         | HS         | 28       | 3       |
+| SST.02208               | Petrologie der Magmatite                                     | HS         | 28       | 2.5     |
+| SST.00201               | Regionale Geologie (Vorlesung)                               | FS         | 28       | 3       |
+| Wahl UE                 | Wahl UE                                                      | Wahl UE    | Wahl UE  | Wahl UE |
+| Code Unterrichtseinheit | Code Unterrichtseinheit                                      | Semester   | tot. h   | ECTS    |
+| SST.00218               | Paläontologie (Praktikum) *                                  | HS         | 28       | 2       |
+| SST.00224               | Karten und Profile I (Praktikum)                             | HS         | 28       | 2       |
+| SST.02207               | Mineralogie-Kristallographie I                               | HS         | 28       | 2.5     |
+| SST.02213               | Optische Mikroskopie I: Mineralien                           | FS         | 14       | 1       |
+| SST.02214               | Optische Mikroskopie II: Magmatite *                         | FS         | 14       | 1       |
+| SST.03302               | Optische Mikroskopie III: sedimentäre Gesteine (Praktikum) * | HS         | 14       | 1       |
+| SST.00303               | Allgemeine Mikropaläontologie (Vorlesung)                    | HS         | 28       | 3       |
+| SST.00304               | Allgemeine Mikropaläontologie (Praktikum) *                  | HS         | 28       | 2       |
+| SST.03305               | Angewandte Geologie I: Hanginstabilitäten                    | HS         | 28       | 3       |
+| SST.03312               | Metamorphe Petrologie                                        | HS         | 28       | 2.5     |
+| SST.03313               | Optische Mikroskopie IV: Metamorphite *                      | HS         | 14       | 1       |
+| ----                    | Geochemie I 2                                                | HS         | 28       | 2.5     |
+| SST.02210               | Sedimentologie (Vorlesung und Praktikum) *                   | FS         | 28       | 2.5     |
+| SST.02211               | Tektonik (Vorlesung und Praktikum)                           | FS         | 28       | 2.5     |
+| SST.02212               | Mineralogie-Kristallographie II *                            | FS         | 28       | 2.5     |
+| SST.00225               | Karten und Profile II (Praktikum) *                          | FS         | 28       | 2       |
+| SST.03307               | Angewandte Geologie II: Ingenieurgeologie                    | FS         | 28       | 3       |
+| SST.00311               | Methoden der Sedimentologie (Blockkurs) *                    | FS         | 5 Tage   | 2.5     |
+| ----                    | Geochemie II * 2                                             | FS         | 28       | 2.5     |
+| SST.03308               | Hydrogeologie 3                                              | FS         | 28       | 3       |
+| SGG.02351               | Geophysik (Vorlesung)                                        | FS         | 28       | 3       |
+| SGG.02352               | Geophysik (Praktikum)*                                       | FS         | 28       | 2       |
+| SGS.01101               | Geostatistik                                                 | FS         | 28       | 3       |
+| SST.02801               | Geologische Exkursion IIA *                                  | FS         | 5 Tage   | 2.5     |
+| SST.02802               | Geologische Exkursion IIB *                                  | FS         | 3 Tage   | 1.5     |
+| SST.02803               | Feldkurs II *                                                | FS         | 5 Tage   | 2.5     |
+| SST.03801               | Geologische Exkursion IIIA *                                 | FS         | 5 Tage   | 2.5     |
+| SST.03802               | Geologische Exkursion IIIB *                                 | FS         | 5 Tage   | 2.5     |
+| SST.03803               | Geologische Exkursion IIIC *                                 | FS         | 2 Tage   | 1       |
+| SST.03805               | Geologische Exkursion IIID *                                 | FS         | 1 Tag    | 0.5     |
+| SST.03807               | Geologische Exkursion IIIE *                                 | FS         | 1 Tag    | 0.5     |
+| SST.03808               | Feldkurs III *                                               | FS         | 5 Tage   | 2.5     |
+
+## 3.5.2 Inhalt der Unterrichtseinheiten der Zusatzfächer
+
+## SGS-Lehrveranstaltungen: Geowissenschaften
+
+- Die einführenden Vorlesungen in die  Geowissenschaften  (SGS.01001,  SGS.01002, SGS.01003 und SGS.01004) und die dazugehörigen Praktika (SGS.01005 und SGS.01006) sollen einen allgemeinen Überblick über das Fachgebiet geben, indem sie vier komplementäre Ansätze zum Verständnis des Systems Erde und der Interaktionen zwischen der Menschheit und der natürlichen Umwelt vorstellen. Der Schwerpunkt liegt dabei auf den Wechselwirkungen zwischen den verschiedenen Disziplinen der Geowissenschaften. Dieses Grundwissen muss erworben werden, bevor man sich mit spezifischeren Lehrveranstaltungen befasst.
+- Die Vorlesung Erdgeschichte (SGS.00106) umfasst die Entwicklung unseres Planeten im Laufe der geologischen Zeit.
+- Die Vorlesung Geologie und Gesellschaft: Praktische Herausforderungen (SGS.01301) zeigt Beispiele für Herausforderungen oder konkrete Umsetzungen im Bereich der Geologie auf.
+- Die anderen SGS-Kurse stellen grundlegende Werkzeuge (Kartierungsmethoden, Geostatistik) sowie die Geschichte des Wissens in diesem Bereich vor.
+
+Die detaillierten Beschreibungen der SGS-Kurse sind im Studienplan für den Bachelor of Science in Geographie und im Vorlesungsverzeichnis (http://www.unifr.ch/timetable) zu finden.
+
+## SST-Lehrveranstaltungen: Erdwissenschaften / Geologie
+
+Die wichtigsten Disziplinen werden in Grundkursen vorgestellt:
+
+- Die  Vorlesung Paläontologie (SST.00203)  führt  in  die  Systematik  der  Fossilien  und  ihre Bedeutung für die Umwelt sowie in die Evolution des Lebens ein.
+- Die Sedimentologie (SST.00205)  beschäftigt  sich  mit  den  Prozessen  der  Erosion,  des Transports und der Ablagerung von Sedimenten heute und in der Vergangenheit.
+- Die  Vorlesung Tektonik (SST.00206)  beschreibt  die  Deformation  der  Erdkruste  und  die Methoden der Strukturanalyse.
+- Die Vorlesung Petrologie der Magmatite (SST.02208) untersucht vulkanische und plutonische Gesteine, die durch die Erstarrung von Magma entstehen.
+
+In jeder dieser Hauptdisziplinen werden neben dem Grundkurs zusätzliche Lehrveranstaltungen angeboten:  Fachkurse,  praktische  Arbeiten,  Exkursionen  und  Feldkurse.  In  diesen  Kursen werden  die  in  den  jeweiligen  Kursen  vermittelten  theoretischen  Kenntnisse  durch  andere Lernmethoden vertieft oder durch die Behandlung speziellerer Themen erweitert.
+
+Der  Feldansatz  ist  eine  wichtige  Dimension  der  Geowissenschaften,  da  er  es  ermöglicht, geologische  Phänomene  und  Prozesse  auf  der  Ebene  der  Landschaft  oder  der  Region  zu verstehen. Der Lehrplan für die Nebenfächer schreibt nur eine Mindestteilnahme an Exkursionen vor (BCo30: SST.01831 und BCo60: SST.01815 und SST.01816). Studierende, die an weiteren Feldlehrveranstaltungen teilnehmen möchten, müssen ihr Programm so zusammenstellen, dass sie die Anforderungen erfüllen.
+
+Die detaillierten Beschreibungen der SST-Kurse sind im Studienplan für den Bachelor of Science in Erdwissenschaften und im Vorlesungsverzeichnis (http://www.unifr.ch/timetable) zu finden.

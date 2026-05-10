@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:09.364Z",
+  "title": "Recueil systématique 510.730 Systematische Sammlung 1",
+  "pages": 4,
+  "reg_doc_key": "2eb0e23013b6ac30f35c93076b10ae3ef14f6b89",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Master of Advanced Studies en Conservation du patrimoine et Muséologie des beaux-arts. Convention (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277116",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277116",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Master_of_Advanced_Studies_en_Conservation_du_patrimoine_et_Mus_ologie_des_beaux-arts._Convention_FR__2eb0e23013.pdf",
+  "sha256": "ac40b4b4ebf1fd2131557d6463e5690b11ff6e3bd649832ee7173d181049bb02",
+  "fetched_at": "2026-04-03T12:11:08.421Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.730 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.730 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.730 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.730 Systematische Sammlung 4

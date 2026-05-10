@@ -1,0 +1,25 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:12.429Z",
+  "title": "Recueil systématique 512.400 Systematische Sammlung 1",
+  "pages": 3,
+  "reg_doc_key": "e0a64cd33505ff6f2cf40bc733f78b99e560d283",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.512 Vereinbarungen betreffend die Universität",
+  "spider_title": "Convention entre l’Université de Fribourg et la Fondation Jules Thurmann portant sur la mise sur pied d’une coopération de recherché de de formation dans le domaine des géosciences, en particulier de la paléontologie (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/280246",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/280246",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_entre_l_Universit_de_Fribourg_et_la_Fondation_Jules_Thurmann_portant_sur_la_mise_sur_pied_d_une_coop_ration_de_recherch_de_de_formation_dans_le_domai",
+  "sha256": "10e5423926ec07f8daf55dc78d1ae1d9ce440c3b5fb982d43870d0de8f36bb3d",
+  "fetched_at": "2026-04-03T12:10:28.167Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 512.400 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 512.400 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 512.400 Systematische Sammlung 3

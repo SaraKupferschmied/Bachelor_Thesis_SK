@@ -1,0 +1,31 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.657Z",
+  "title": "Vereinbarung zwischen der Universität Freiburg und der Fondation de la Haute Ecole de Musique Vaud Valais Fribourg et Conservatoire de Lausanne (FR/DE)",
+  "pages": 5,
+  "reg_doc_key": "d4d8a7cc99752c0c694c5136fff3671d12229c6d",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung zwischen der Universität Freiburg und der Fondation de la Haute Ecole de Musique Vaud Valais Fribourg et Conservatoire de Lausanne (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/5714063",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/5714063",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_zwischen_der_Universit_t_Freiburg_und_der_Fondation_de_la_Haute_Ecole_de_Musique_Vaud_Valais_Fribourg_et_Conservatoire_de_Lausanne_FR_DE__d4d8a7cc9",
+  "sha256": "67851ac246c75ff5b8e5aca28778439a5868434608bb57a239e3a720492540c1",
+  "fetched_at": "2026-04-03T12:11:12.285Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+
+
+---PAGE 5---
+

@@ -1,0 +1,52 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.337Z",
+  "title": "Recueil systématique 511.140 Systematische Sammlung 1",
+  "pages": 12,
+  "reg_doc_key": "20d579f5ee15244b82cedfb1da88ec984535b859",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Accord de Coopération Internationale entre l’Université de Strasbourg d’une part et l’Université de Fribourg d’autre part (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277165",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277165",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Accord_de_Coop_ration_Internationale_entre_l_Universit_de_Strasbourg_d_une_part_et_l_Universit_de_Fribourg_d_autre_part_FR__20d579f5ee.pdf",
+  "sha256": "fa84b6a97f90c74d496524af31fb3caeb7abfd187797a9213b7cf3990cfbf6bd",
+  "fetched_at": "2026-04-03T12:10:59.131Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.140 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.140 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.140 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 511.140 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 511.140 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 511.140 Systematische Sammlung 6
+
+---PAGE 7---
+Recueil systématique 511.140 Systematische Sammlung 7
+
+---PAGE 8---
+Recueil systématique 511.140 Systematische Sammlung 8
+
+---PAGE 9---
+Recueil systématique 511.140 Systematische Sammlung 9
+
+---PAGE 10---
+Recueil systématique 511.140 Systematische Sammlung 10
+
+---PAGE 11---
+Recueil systématique 511.140 Systematische Sammlung 11
+
+---PAGE 12---
+Recueil systématique 511.140 Systematische Sammlung 12

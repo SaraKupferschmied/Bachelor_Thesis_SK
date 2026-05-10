@@ -1,0 +1,25 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:08.887Z",
+  "title": "Recueil systématique 510.410 Systematische Sammlung 1",
+  "pages": 3,
+  "reg_doc_key": "cc87058cba4b8805f93ff424ed94a80306583719",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Konvention zur Zusammenarbeit zwischen der Universität Freiburg und dem Orthodoxen Zentrum des Ökumenischen Patriarchats von Konstantinopel bezüglich des Instituts für höhere Studien in orthodoxer Theologie in Chambésy (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277075",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277075",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Konvention_zur_Zusammenarbeit_zwischen_der_Universit_t_Freiburg_und_dem_Orthodoxen_Zentrum_des_kumenischen_Patriarchats_von_Konstantinopel_bez_glich_des_Institu",
+  "sha256": "1cce4fd696a80be5ca7020c5df2d6820897a0298e0f14d7a5d7128aba8a97cc7",
+  "fetched_at": "2026-04-03T12:11:13.329Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.410 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.410 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.410 Systematische Sammlung 3

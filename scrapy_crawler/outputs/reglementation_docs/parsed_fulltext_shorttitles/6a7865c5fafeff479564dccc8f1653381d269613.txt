@@ -1,0 +1,40 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:19.369Z",
+  "title": "Reglement vom 14. Dezember 1993 zur Erlangung der Spezialisierungszeugnisse an der Theologischen Fakultät (FR/DE)",
+  "pages": 8,
+  "reg_doc_key": "6a7865c5fafeff479564dccc8f1653381d269613",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.410 Theologie > 400.410.412 Weiterbildung",
+  "spider_title": "Reglement vom 14. Dezember 1993 zur Erlangung der Spezialisierungszeugnisse an der Theologischen Fakultät (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/280154",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/280154",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Reglement_vom_14._Dezember_1993_zur_Erlangung_der_Spezialisierungszeugnisse_an_der_Theologischen_Fakult_t_FR_DE__6a7865c5fa.pdf",
+  "sha256": "2a15047334caeecaf10e332fa4f6f0b779906ecc0fb70100a10e4a74ecdd95c3",
+  "fetched_at": "2026-04-03T12:11:57.804Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+
+
+---PAGE 5---
+
+
+---PAGE 6---
+
+
+---PAGE 7---
+
+
+---PAGE 8---
+

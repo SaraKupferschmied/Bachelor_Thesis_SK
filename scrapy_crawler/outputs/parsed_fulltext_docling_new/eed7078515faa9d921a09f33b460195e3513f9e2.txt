@@ -1,0 +1,96 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:51:13.299Z",
+  "title": "SES_Master_30_Data_Analytics_Economics_Data_Analytics_eed7078515faa9d921a09f33b460195e3513f9e2",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "eed7078515faa9d921a09f33b460195e3513f9e2",
+  "program_key": "ses|master|30|data analytics & economics",
+  "faculty": "SES",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Data Analytics & Economics",
+  "doc_label": "Data Analytics",
+  "source_url": "https://de.calameo.com/read/0036591152df8ba61444a",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/dataeco",
+  "curriculum_url": "http://studies.unifr.ch/go/8knyG",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SES_Master_30_Data_Analytics_Economics_Data_Analytics_eed7078515faa9d921a09f33b460195e3513f9e2.pdf",
+  "sha256": "46d6f5e7e2b9a733e8367538f83c11d1fa8741200217d5d8f3d17833a3f8c4de",
+  "fetched_at": "2026-04-03T11:27:27.207Z",
+  "notes": "calameo downloaded (id=0036591152df8ba61444a, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260312112944-896d752ece8f33933cafa6abfa6c3113/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T112726Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=2d7dd5d6fbc5098b6afb91dd916f758219d59dbf9cbcee21ce17f6d7b6be9a69, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+septembre 2024
+
+## Masternebenfach 30 ECTS
+
+## Data Analytics
+
+## Kurse
+
+## 27 ECTS an folgenden Semesterwahlkursen:
+
+-  Mindestens 18 ECTS aus dem folgendem Kursangebot:
+- Databases
+- Inférence, évaluation et sélection de modèles
+- Méthodes de classification
+- Thèmes choisis de statistique multivariée
+- Statistique bayésienne
+- Applied Econometrics
+- Econometric Methods and Applications
+- Big Data Methods
+- Machine Learning
+-  Maximum 9 ECTS im Kursangebot der Liste A und/oder im Kursangebot des Moduls T6 (Data Science) des Masters in Informatik und/oder im Kursangebot der Module «Data Analytics and Decision Support» (DADS) und «Technologies and Modelling for Digitaliza-
+
+## Seminarbeit
+
+Die Seminararbeit muss im Rahmen eines Semesterkurses der Gruppe A verfasst werden.
+
+Total
+
+## ZULASSUNGSBEDINGUNGEN
+
+Inhaber/Innen eines Bachelors müssen folgende Kurse der Universität Freiburg oder gleichwertige Kurse absolviert haben:
+
+-  Mathematik I (4.5 ECTS)
+-  Mathematik II (4.5 ECTS)
+-  Statistik I (4.5 ECTS)
+-  Statistik II (4.5 ECTS)
+-  Statistik III (4.5 ECTS)
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Wirtschaftsinformatik II (6 ECTS)
+
+## KURSANGEBOT
+
+Informationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.
+
+## WEITERE INFO
+
+Wenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.
+
+ECTS
+
+27
+
+18 - 27
+
+0 - 9
+
+3
+
+30

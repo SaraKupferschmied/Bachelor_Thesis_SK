@@ -1,0 +1,345 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T01:07:36.228Z",
+  "title": "SCIMED_Master_30_Mathematics_Zusatzf_cher_Mathematik_a99649766160432be806c6d05a42f19e975a792c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a99649766160432be806c6d05a42f19e975a792c",
+  "program_key": "scimed|bachelor|30|mathematics",
+  "faculty": "SCIMED",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Mathematics",
+  "doc_label": "Zusatzfächer Mathematik",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_MA_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/mathematics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SCIMED_Master_30_Mathematics_Zusatzf_cher_Mathematik_a99649766160432be806c6d05a42f19e975a792c.pdf",
+  "sha256": "319a78d51259d2a02ff37d1be9ac9ce39622db371a369139b618c68310f16e62",
+  "fetched_at": "2026-04-03T11:28:24.389Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_MA_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BCo_MA_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_BCo",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.1  Mathematik
+
+Die Mathematik wird als Zusatzfach im Umfang von 30 oder 60 ECTS-Credits angeboten. Für das Zusatzfach im Umfang von 30 Credits gibt es mehrere Varianten; welche dieser Varianten gewählt werden können, hängt vom Hauptfach ab. Das Zusatzfach im Umfang von 60 ECTSCredits,  ergänzt  um  das  Zusatzfach  Mathematik  +30,  bildet  die  fachliche  Grundlage  für  den Erwerb des Lehrdiploms für Maturitätsschulen LDM mit Mathematik als zweitem Unterrichtsfach.
+
+## 3.1.1 Zusatzfach MATH 30A
+
+[Version 2023, Anrechnungseinheit: PV-SMA.0000058/OP-SMA.0000016]
+
+Der folgende Studienplan setzt den Abschluss des propädeutischen Fachs Mathematik voraus und gilt für Studierende, die die propädeutische Mathematik bereits im Rahmen des Hauptfachs oder eines anderen Zusatzfachs studiert haben.
+
+## 3.1.1.1 Unterrichtseinheiten
+
+| Code                 | Unterrichtseinheit                                                                     | Semester             | tot. Std.            | ECTS   |
+|----------------------|----------------------------------------------------------------------------------------|----------------------|----------------------|--------|
+|                      | Optionale UE (30 ECTS)                                                                 |                      |                      |        |
+| SMA.02331            | Einführung in die numerische Analysis I (Vorlesung mit Übungen)                        | HS                   | 56                   | 5      |
+| SMA.02332            | Einführung in die numerische Analysis II (Vorlesung mit Übungen)                       | FS                   | 56                   | 5      |
+| SMA.02705            | Mathematik I für BSc_SI (Vorlesung mit Übungen)                                        | HS                   | 84                   | 8      |
+| SMA.02706            | Mathematik II für BSc_SI (Vorlesung mit Übungen)                                       | FS                   | 84                   | 7      |
+| SMA.02431            | Einführung in die Wahrscheinlichkeitsrechnung und Statistik I (Vorlesung mit Übungen)  | HS                   | 56                   | 5      |
+| SMA.02432            | Einführung in die Wahrscheinlichkeitsrechnung und Statistik II (Vorlesung mit Übungen) | FS                   | 56                   | 5      |
+| SMA.0xxxx            | Weitere Vorlesungen *                                                                  |                      |                      | *      |
+| Total (zu erreichen) | Total (zu erreichen)                                                                   | Total (zu erreichen) | Total (zu erreichen) | 30     |
+
+*
+
+In Absprache mit der Studienberatung; empfohlen werden zum Beispiel die folgenden Vorlesungen:
+
+-Diskrete Mathematik (SMA.03519/20)
+
+## 3.1.1.2 Inhalt der Unterrichtseinheiten
+
+In den Kursen Einführung in die numerische Analysis I - II (SMA.02331, SMA.02332) und Einführung  in  die  Wahrscheinlichkeitsrechnung  und  Statistik  I  -  II (SMA.02431,  SMA.02432) erwerben  die  Studierenden  Grundkenntnisse  in  zwei  wichtigen  Gebieten  der  Angewandten Mathematik.
+
+Die Vorlesungen Mathematik I und II für BSc\_SI (SMA.02705, SMA.02706) vermitteln Kenntnisse in wichtigen Gebieten der Schulmathematik.
+
+Die obligatorischen Übungen zu diesen Vorlesungen bilden einen wesentlichen Bestandteil, da man sich nur durch eigene Arbeit den Stoff wirklich aneignen kann.
+
+## 3.1.1.3 Evaluation der Unterrichtseinheiten
+
+Die Evaluationsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben. Man konsultiere dazu den Anhang für die Mathematik.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.
+
+## 3.1.2 Zusatzfach MATH 30B
+
+[Version 2023, Anrechnungseinheit: PV-SMA.0000058/OP-SMA.0000017]
+
+Ist  die  Mathematik  weder  als  propädeutisches  Fach  noch  anderweitig  (wie  zum  Beispiel  im Physikstudium) im Studienplan des Hauptfachs vorgesehen, so gilt folgender Studienplan:
+
+## 3.1.2.1 Unterrichtseinheiten
+
+## Erstes Semester
+
+Code
+
+SMA.00103
+
+SMA.00202
+
+Unterrichtseinheit
+
+Propädeutische Analysis I
+
+(Vorlesung mit Übungen)
+
+Propädeutische Lineare Algebra
+
+(Vorlesung mit Übungen)
+
+Total
+
+## Zweites Semester
+
+Code
+
+SMA.00104
+
+SMA.00402
+
+Unterrichtseinheit
+
+Propädeutische Analysis II
+
+(Vorlesung mit Übungen)
+
+Propädeutische Statistik
+
+(Vorlesung mit Übungen)
+
+Total
+
+## Zweites und drittes Jahr
+
+Semester  tot. Std.  ECTS
+
+HS
+
+42
+
+HS
+
+42
+
+3
+
+3
+
+6
+
+Semester  tot. Std.  ECTS
+
+FS
+
+42
+
+FS
+
+42
+
+3
+
+3
+
+6
+
+| Code                 | Unterrichtseinheit                                                                    | Semester             | tot. Std.            | ECTS   |
+|----------------------|---------------------------------------------------------------------------------------|----------------------|----------------------|--------|
+|                      | Optionale UE (18 ECTS)                                                                |                      |                      |        |
+| SMA.02331            | Einführung in die numerische Analysis I (Vorlesung mit Übungen)                       | HS                   | 56                   | 5      |
+| SMA.02332            | Einführung in die numerische Analysis II (Vorlesung mit Übungen)                      | FS                   | 56                   | 5      |
+| SMA.02431            | Einführung in die Wahrscheinlichkeitsrechnung und Statistik I (Vorlesung mit Übungen) | HS                   | 56                   | 5      |
+| SMA.02705            | Mathematik I für BSc_SI (Vorlesung mit Übungen)                                       | HS                   | 84                   | 8      |
+| SMA.0xxxx            | Weitere Vorlesungen*                                                                  |                      |                      | *      |
+| Total (zu erreichen) | Total (zu erreichen)                                                                  | Total (zu erreichen) | Total (zu erreichen) | 18     |
+
+* In Absprache mit der Studienberatung; empfohlen werden zum Beispiel die folgenden Vorlesungen:
+
+-Diskrete Mathematik (SMA.03519/20)
+
+-Einführung in die Wahrscheinlichkeitsrechnung und Statistik II (Vorlesung mit Übungen, SMA.02432)
+
+## 3.1.2.2 Inhalt der Unterrichtseinheiten
+
+Die  Vorlesungen Propädeutische  Analysis  I und II (SMA.00103,  SMA.00104)  frischen  die  im Gymnasium erworbenen Kenntnisse über reelle Funktionen (Differential- und Integralrechnung) auf und erweitern sie, vor allem auf dem Gebiet der Differentialgleichungen, für deren Behandlung auch die komplexen Zahlen eingeführt werden. Die Propädeutische Lineare Algebra (SMA.00202) führt, ausgehend von der Behandlung linearer Gleichungssysteme, in ein Gebiet ein, das für jede mathematische Disziplin von grundlegender Bedeutung ist.
+
+Die Propädeutische Statistik (SMA.00402) bringt eine Einführung in die für jeden Naturwissenschaftler unerlässlichen statistischen Methoden.
+
+In den Kursen Einführung in die numerische Analysis I - II (SMA.02331, SMA.02332) und Einführung  in  die  Wahrscheinlichkeitsrechnung  und  Statistik  I-II (SMA.02431,) erwerben  die Studierenden Grundkenntnisse in zwei wichtigen Gebieten der Angewandten Mathematik.
+
+Die Vorlesung Mathematik I für BSc\_SI (SMA.02705) vermittelt Kenntnisse in wichtigen Gebieten der Schulmathematik.
+
+Die obligatorischen Übungen zu diesen Vorlesungen bilden einen wesentlichen Bestandteil, da man sich nur durch eigene Arbeit den Stoff wirklich aneignen kann.
+
+## 3.1.2.3 Evaluation der Unterrichtseinheiten
+
+Die Evaluationsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben. Man konsultiere dazu den Anhang für die Mathematik.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.
+
+## 3.1.3 Zusatzfach MATH 30C
+
+[Version 2023, Anrechnungseinheit: PV-SMA.0000058/OP-SMA.0000018]
+
+Studierende, deren Hauptfach 150 ECTS-Credits oder mehr umfasst (wie etwa in der Chemie), können  anstelle  des  Zusatzfaches  MATH  30A  oder  MATH  30B  die  Unterrichtseinheiten  des ersten und zweiten Semesters von MATH 60 im Umfang von 30 ECTS-Credits absolvieren und als ein Zusatzfach MATH 30C im Rahmen ihres Bachelorstudiums anrechnen lassen.
+
+Diese  Variante  eignet  sich  für  Studierende,  die  anschliessend  weiterführende  Kenntnisse  in Mathematik erwerben möchten, aber aufgrund Ihres umfangreichen Hauptfaches MATH 60 nicht als Zusatzfach im Bachelorstudium wählen können.
+
+## 3.1.3.1 Unterrichtseinheiten
+
+## Erstes Semester
+
+| Code      | Unterrichtseinheit                              | Semester   |   Std. |   ECTS |
+|-----------|-------------------------------------------------|------------|--------|--------|
+| SMA.01103 | Analysis I (Vorlesung mit Übungen)              | HS         |     84 |      7 |
+| SMA.01203 | Lineare Algebra I (Vorlesung mit Übungen)       | HS         |     84 |      7 |
+| SMA.01903 | Ergänzungen I zur Analysis und linearen Algebra | HS         |     14 |      1 |
+|           | Total                                           |            |        |     15 |
+
+## Zweites Semester
+
+| Code      | Unterrichtseinheit                               | Semester   | Std.   |   ECTS |
+|-----------|--------------------------------------------------|------------|--------|--------|
+| SMA.01104 | Analysis II (Vorlesung mit Übungen)              | FS         | 84     |      7 |
+| SMA.01204 | Lineare Algebra II (Vorlesung mit Übungen)       | FS         | 84     |      7 |
+| SMA.01904 | Ergänzungen II zur Analysis und linearen Algebra | FS         | 14     |      1 |
+| Total     | Total                                            | Total      | Total  |     15 |
+
+## 3.1.4 Zusatzfach MATH 30PH
+
+[Version 2022, Anrechnungseinheit: PV-SMA.0000049]
+
+Der folgende Studienplan gilt für Studierende mit Hauptfach Physik, die ja bereits im Rahmen des Hauptfachstudiums Mathematikkenntnisse erwerben. Hier sind nur die weiteren Unterrichtseinheiten des zweiten und dritten Jahres aufgeführt. Obwohl dieses Zusatzfach nur einen  Umfang  von  30  ECTS-Credits  hat,  haben  die  Studierenden,  welche  im  Rahmen  ihrer Ausbildung in Physik (BSc und MSc) dieses Zusatzfach in Kombination mit MATH +30 gewählt haben, Zugang zum Erwerb des Lehrdiploms für Maturitätsschulen (LDM) mit den Unterrichtsfächern Physik und Mathematik.
+
+## 3.1.4.1 Unterrichtseinheiten
+
+| Code      | Unterrichtseinheit                                                                     | Semester   | tot. Std.   |   ECTS |
+|-----------|----------------------------------------------------------------------------------------|------------|-------------|--------|
+|           | Obligatorische UE (20 ECTS)                                                            |            |             |        |
+| SMA.02331 | Einführung in die numerische Analysis I (Vorlesung mit Übungen)                        | HS         | 56          |      5 |
+| SMA.02431 | Einführung in die Wahrscheinlichkeitsrechnung und Statistik I (Vorlesung mit Übungen)  | HS         | 56          |      5 |
+| SMA.02332 | Einführung in die numerische Analysis II (Vorlesung mit Übungen)                       | FS         | 56          |      5 |
+| SMA.02432 | Einführung in die Wahrscheinlichkeitsrechnung und Statistik II (Vorlesung mit Übungen) | FS         | 56          |      5 |
+|           | Optionale UE (≥10 ECTS)                                                                |            |             |        |
+| SMA.02132 | Analysis IV (Vorlesung mit Übungen)                                                    | FS         | 84          |      7 |
+| SMA.03xxx | Eine weitere Vorlesung                                                                 |            | **          |      6 |
+| SMA.03xxx | Eine weitere Vorlesung                                                                 |            | **          |      6 |
+| SIN.01023 | Einführung in die Programmierung                                                       | HS         | 56          |      6 |
+| SIN.02020 | Systemnahe Programmierung                                                              | FS         | 56          |      5 |
+| SIN.01022 | Computerarchitektur                                                                    | HS         | 56          |      5 |
+| SIN.03023 | Algorithmik                                                                            | FS         | 56          |      6 |
+| Total     | Total                                                                                  | Total      | Total       |     30 |
+
+** Es kann eine 2-stündige Jahresvorlesung oder eine 4-stündige Semestervorlesung gewählt werden. Daneben bestehen weitere Möglichkeiten, z.B. Algebra und Geometrie I (SMA.02231, 7 ECTS) oder Algebra und Geometrie II (SMA.02232, 7 ECTS).
+
+## 3.1.4.2 Inhalt der Unterrichtseinheiten
+
+In  den  Kursen Einführung in die numerische Analysis I und II (SMA.02331, SMA.02332) und Einführung in die Wahrscheinlichkeitsrechnung und Statistik I und II (SMA.02431, SMA.02432) erwerben  die  Studierenden  Grundkenntnisse  in  zwei  wichtigen  Gebieten  der  Angewandten Mathematik.  Die  obligatorischen Übungen zu  diesen  Vorlesungen  bilden  einen  wesentlichen Bestandteil,  da  man  sich  nur  durch  eigene  Arbeit  den  Stoff  wirklich  aneignen  kann.  Sie  sind besonders wichtig in der Angewandten Mathematik.
+
+Der Kurs Einführung in die Programmierung (SIN.01020) führt in die objektorientierte Programmierung ein. Der Kurs Computerarchitektur (SIN.01022) führt in die Computerarchitektur ein. Der Kurs Systemnahe Programmierung (SIN.02020) führt in die systemnahe Programmierung ein. Der Kurs Algorithmik (SIN.02021) behandelt die Struktur, Anwendung und Implementierung von Algorithmen.
+
+## 3.1.4.3 Bewertung der Unterrichtseinheiten
+
+Die Bewertungsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben.  Man  konsultiere  dazu  die  Anhänge  für  die  Mathematik,  die  Informatik  und  die Physik.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.
+
+## 3.1.5 Zusatzfach MATH 30MA
+
+[Version 2022, Anrechnungseinheit: PV-SMA.0000050]
+
+Auch Bachelorstudierende mit Hauptfach Mathematik können Mathematik als Zusatzfach mit 30 ECTS-Credits studieren.
+
+## 3.1.5.1 Unterrichtseinheiten
+
+Im zweiten und dritten Studienjahr sind weitere Vorlesungen oder Seminare im Umfang von 30 ECTS-Credits zu belegen.
+
+## 3.1.5.2 Inhalt der Unterrichtseinheiten
+
+Es sind Vorlesungen oder Seminare aus dem dritten Jahr des Bachelorprogramms oder aus dem Masterprogramm in Mathematik im Umfang von 30 ECTS-Credits zu wählen, in Absprache mit dem  Studienberater.  Die  Wahl  unterliegt  keinen  weiteren  Einschränkungen  und  kann  zum Beispiel im Hinblick auf eine Spezialisierung in einer mathematischen Disziplin erfolgen.
+
+## 3.1.5.3 Evaluation
+
+Die Evaluationsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben. Man konsultiere dazu den Anhang für die Mathematik.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.
+
+## 3.1.6 Zusatzfach MATH 60
+
+[Version 2022, Anrechnungseinheit: PV-SMA.0000051]
+
+Dieses Zusatzfach bildet in Kombination mit MATH +30 die fachliche Grundlage für den Erwerb des LDM mit Mathematik als zweitem Unterrichtsfach.
+
+## 3.1.5.1 Unterrichtseinheiten
+
+## Erstes Semester
+
+| Code      | Unterrichtseinheit                              | Semester   | Std.   |   ECTS |
+|-----------|-------------------------------------------------|------------|--------|--------|
+| SMA.01103 | Analysis I (Vorlesung mit Übungen)              | HS         | 84     |      7 |
+| SMA.01203 | Lineare Algebra I (Vorlesung mit Übungen)       | HS         | 84     |      7 |
+| SMA.01903 | Ergänzungen I zur Analysis und linearen Algebra | HS         | 14     |      1 |
+| Total     | Total                                           | Total      | Total  |     15 |
+
+## Zweites Semester
+
+| Code      | Unterrichtseinheit                               | Semester   | Std.   |   ECTS |
+|-----------|--------------------------------------------------|------------|--------|--------|
+| SMA.01104 | Analysis II (Vorlesung mit Übungen)              | FS         | 84     |      7 |
+| SMA.01204 | Lineare Algebra II (Vorlesung mit Übungen)       | FS         | 84     |      7 |
+| SMA.01904 | Ergänzungen II zur Analysis und linearen Algebra | FS         | 14     |      1 |
+| Total     | Total                                            | Total      | Total  |     15 |
+
+## Zweites und drittes Jahr
+
+| Code      | Unterrichtseinheit                                                                     | Semester   | tot. Std.   |   ECTS |
+|-----------|----------------------------------------------------------------------------------------|------------|-------------|--------|
+| SMA.02331 | Einführung in die numerische Analysis I (Vorlesung mit Übungen)                        | HS         | 56          |      5 |
+| SMA.02431 | Einführung in die Wahrscheinlichkeitsrechnung und Statistik I (Vorlesung mit Übungen)  | HS         | 56          |      5 |
+| SMA.02332 | Einführung in die numerische Analysis II (Vorlesung mit Übungen)                       | FS         | 56          |      5 |
+| SMA.02432 | Einführung in die Wahrscheinlichkeitsrechnung und Statistik II (Vorlesung mit Übungen) | FS         | 56          |      5 |
+| SMA.03xxx | Eine weitere Vorlesung                                                                 |            | **          |      6 |
+| SMA.038xx | Ein Seminar (oder Proseminar) mit Vortrag                                              |            | 28          |      3 |
+| SMA.03810 | Schriftliche Arbeit ***                                                                |            | -           |      1 |
+| Total     | Total                                                                                  | Total      | Total       |     30 |
+
+** Es  kann  eine  2-stündige  Jahresvorlesung,  eine  4-stündige  Semestervorlesung oder  zwei  2-stündige  Semestervorlesungen  gewählt  werden.  Es  bestehen  andere Möglichkeiten wie Analysis III mit Übungen (SMA.02131, 7 ECTS) oder Algebra und Geometrie I mit Übungen (SMA.02231, 7 ECTS).
+
+***   Zusatz zum Seminar (oder Proseminar) SMA.038xx
+
+## 3.1.6.2 Inhalt der Unterrichtseinheiten
+
+Die Mathematikvorlesungen des ersten Jahres werden auch von den Mathematikern im Hauptfach  belegt  und  vermitteln  Grundkenntnisse,  die  über  die  der  propädeutischen  Mathematik hinausgehen  und  zum  Beispiel  für  zukünftige  Gymnasiallehrer  unerlässlich  sind.  Bis  auf  die Vorlesung Ergänzungen zur Analysis und linearen Algebra (SMA.01903, SMA.01904) werden sie von obligatorischen Übungen begleitet. Diese bilden ein wesentliches Element des Studiums, da man sich nur durch eigene Arbeit den Stoff wirklich aneignen kann.
+
+Die  Vorlesungen Analysis  I und II (SMA.01103,  SMA.01104)  behandeln  die  Differential-  und Integralrechnung reeller Funktionen einer oder mehrerer Variablen und führen damit in ein Gebiet der Mathematik ein, das in den meisten Anwendungen in den Natur- und in zahlreichen anderen Wissenschaften  eine  entscheidende  Rolle  spielt.  Die  Vorlesungen Lineare  Algebra  I und II (SMA.01203, SMA.01204) behandeln nicht nur das Lösen linearer Gleichungssysteme, sondern sie bilden eine unentbehrliche Grundlage für fast jede mathematische Disziplin. Die Vorlesung Ergänzungen zur Analysis und linearen Algebra I und II (SMA.01903, SMA.01904) vervollständigt die anderen Vorlesungen.
+
+In  den  Kursen Einführung in die numerische Analysis I und II (SMA.02331, SMA.02332) und Einführung in die Wahrscheinlichkeitsrechnung und Statistik I und II (SMA.02431, SMA.02432) erwerben  die  Studierenden  Grundkenntnisse  in  zwei  wichtigen  Gebieten  der  Angewandten Mathematik. Die Übungen zu diesen Vorlesungen sind obligatorisch.
+
+Das  (Pro-) Seminar  mit  Vortrag (SMA.038xx) und schriftlicher  Arbeit (SMA.03810)  bietet  die Gelegenheit, sich mit einem ausgewählten Thema der Mathematik intensiver zu befassen und darüber vorzutragen.
+
+## 3.1.6.3 Evaluation der Unterrichtseinheiten
+
+Die Evaluationsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben. Man konsultiere dazu den Anhang für die Mathematik.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.

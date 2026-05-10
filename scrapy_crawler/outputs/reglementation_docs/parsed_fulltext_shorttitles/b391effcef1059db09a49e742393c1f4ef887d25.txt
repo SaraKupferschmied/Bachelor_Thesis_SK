@@ -1,0 +1,19 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:08.203Z",
+  "title": "Recueil systématique 510.600 Systematische Sammlung 1",
+  "pages": 1,
+  "reg_doc_key": "b391effcef1059db09a49e742393c1f4ef887d25",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Convention académique entre l’Université et sa faculté SES et l’Institut de Hautes Etudes en administration publique (idheap) (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277078",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277078",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_acad_mique_entre_l_Universit_et_sa_facult_SES_et_l_Institut_de_Hautes_Etudes_en_administration_publique_idheap_FR__b391effcef.pdf",
+  "sha256": "167e80951bad4f7f605685fe7bff2bebb4f9e9e91f75dba28898ca05e9fce33d",
+  "fetched_at": "2026-04-03T12:11:12.072Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.600 Systematische Sammlung 1

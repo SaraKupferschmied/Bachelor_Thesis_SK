@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:08.281Z",
+  "title": "Recueil systématique 510.820 Systematische Sammlung 1",
+  "pages": 2,
+  "reg_doc_key": "84ffcff9f8816867251d8d53d13514e432b0aaa8",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Convention Cadre entre l’Université de Fribourg et la Haute école de santé Fribourg (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277130",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277130",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_Cadre_entre_l_Universit_de_Fribourg_et_la_Haute_cole_de_sant_Fribourg_FR__84ffcff9f8.pdf",
+  "sha256": "71a8383d26dfed7383c0fe27e3f6cc91bce1086c47089e66d2adf8c1aad3c088",
+  "fetched_at": "2026-04-03T12:10:58.887Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.820 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.820 Systematische Sammlung 2

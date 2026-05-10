@@ -1,0 +1,194 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T01:13:50.267Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Zusatzfach_LDM_ab92d87512bd64cf00ccb26047d21acdc9deb931",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ab92d87512bd64cf00ccb26047d21acdc9deb931",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 60,
+  "program_name": "Teacher Education for Baccalaureate Schools",
+  "doc_label": "Zusatzfach LDM",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDM_14%20%281467%29%2005%2005%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Zusatzfach_LDM_ab92d87512bd64cf00ccb26047d21acdc9deb931.pdf",
+  "sha256": "d734b227ea00df64c5b5ab8c64d83f4d158c990cc66b3bd0b3087d20e29bbc8a",
+  "fetched_at": "2026-04-03T11:26:50.731Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDM_14%20%281467%29%2005%2005%202025.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR LEHRPERSONENBILDUNG
+
+## STUDIENPLAN
+
+## Lehrdiplom für Maturitätsschulen
+
+## Erweiterungsdiplom - Lehrbefähigung 14 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die  zusätzlichen  Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die bereits über ein Lehrdiplom für den Unterricht an Maturitätsschulen verfügen und die Lehrbefähigung für ein zusätzliches Unterrichtsfach (Zusatzfach) erwerben wollen.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Erweiterungsdiplom - Lehrbefähigung im Umfang von 14 ECTS-Kreditpunkten kann auf Deutsch oder Französisch absolviert werden. Nachfolgend wird der deutschsprachige Studienplan vorgestellt.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Voraussetzung für die Zulassung zum  Studium ist ein von der EDK  anerkanntes Lehrdiplom für Maturitätsschulen.
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+Das Erweiterungsdiplom kann für folgende Unterrichtsfächer erworben werden. Mit  Ausnahme  von Bildnerischem  Gestalten  kann  das  Fachstudium  für  all  diese  Unterrichtsfächer  an  der  Universität  Freiburg absolviert werden.
+
+- Bildnerisches Gestalten
+- Biologie
+- Chemie
+- Deutsch
+- Englisch
+- Französisch
+- Geografie
+- Geschichte
+- Griechisch
+- Informatik
+- Italienisch
+- Kunstgeschichte
+- Das  Lehrdiplom  für  das  Unterrichtsfach  Kunstgeschichte kann lediglich als kantonale Unterrichtsbefähigung erworben werden.
+- Latein
+- Mathematik
+- Musik
+- Pädagogik/Psychologie
+- Philosophie
+- Physik
+- Rätoromanisch
+- Religionslehre
+- Russisch
+- Spanisch
+- Sport
+- Wirtschaft und Recht (Wirtschaft und Recht gilt als Einzelfach und kann nur in Kombination studiert werden.)
+
+Die Anforderungen an die fachwissenschaftliche Ausbildung im Zusatzfach entsprechen den Anforderungen für das Unterrichtsfach 2 gemäss dem Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+
+## 2.4 Verliehener Titel
+
+Der verliehene Titel lautet Erweiterungsdiplom, Lehrbefähigung .
+
+## 3 Studienprogramm
+
+Das Studienprogramm zum Erwerb des Lehrdiploms für ein zusätzliches Unterrichtsfach für den Unterricht an Maturitätsschulen umfasst 14 ECTS-Kreditpunkte und ist in zwei Module aufgeteilt.
+
+## 3.1 Ziele der Ausbildung
+
+Studierende dieses Studienprogramms haben bereits fundierte allgemeine und Kenntnisse der Erziehungswissenschaften und didaktische Kompetenzen aus dem Studium zum Lehrdiplom für Maturitätsschulen  sowie  fundierte  Kenntnisse  der  Fachwissenschaften  im  Zusatzfach.  Diese  Kenntnisse werden mit diesem Studienprogramm ergänzt durch fachdidaktische Kenntnisse und Handlungskompetenzen für  den  Unterricht  an  Maturitätsschulen. Die  Zielsetzung  wird  in  Übereinstimmung  mit  den  von  der  EDK erlassenen Anforderungen für die Anerkennung dieses Lehrdiploms festgelegt.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Die Ausbildung besteht aus zwei Modulen: Modul 1 Fachdidaktik und Modul 2 Berufspraktische Ausbildung . Da die  Studierenden  bereits  ein  Lehrdiplom  für  Maturitätsschulen  besitzen,  konzentriert  sich  die  vorliegende Ausbildung auf das Zusatzfach sowohl in der Fachdidaktik wie auch in der berufspraktischen Ausbildung.
+
+## 3.3 Struktur der Module
+
+| M1 Fachdidaktik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | M1 Fachdidaktik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | M1 Fachdidaktik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 10 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Die Studierenden lernen im Modul 1 die fachwissenschaftlichen Inhalte logisch sinnvoll anzuordnen, die Inhalte und fachspezifischen Methoden angemessen mit den wichtigsten Zielen und Kompetenzen zu verknüpfen und fachdidaktisch aufbereitete Medien und Materialien so zu verwenden, dass die Schülerinnen und Schüler möglichst viel lernen. Insbesondere sollen die Studierenden fachspezifische Herangehensweisen, Handlungsweisen und Denktraditionen stufengerecht an Maturitätsschulen anwenden können. | Die Studierenden lernen im Modul 1 die fachwissenschaftlichen Inhalte logisch sinnvoll anzuordnen, die Inhalte und fachspezifischen Methoden angemessen mit den wichtigsten Zielen und Kompetenzen zu verknüpfen und fachdidaktisch aufbereitete Medien und Materialien so zu verwenden, dass die Schülerinnen und Schüler möglichst viel lernen. Insbesondere sollen die Studierenden fachspezifische Herangehensweisen, Handlungsweisen und Denktraditionen stufengerecht an Maturitätsschulen anwenden können. | Die Studierenden lernen im Modul 1 die fachwissenschaftlichen Inhalte logisch sinnvoll anzuordnen, die Inhalte und fachspezifischen Methoden angemessen mit den wichtigsten Zielen und Kompetenzen zu verknüpfen und fachdidaktisch aufbereitete Medien und Materialien so zu verwenden, dass die Schülerinnen und Schüler möglichst viel lernen. Insbesondere sollen die Studierenden fachspezifische Herangehensweisen, Handlungsweisen und Denktraditionen stufengerecht an Maturitätsschulen anwenden können. | Die Studierenden lernen im Modul 1 die fachwissenschaftlichen Inhalte logisch sinnvoll anzuordnen, die Inhalte und fachspezifischen Methoden angemessen mit den wichtigsten Zielen und Kompetenzen zu verknüpfen und fachdidaktisch aufbereitete Medien und Materialien so zu verwenden, dass die Schülerinnen und Schüler möglichst viel lernen. Insbesondere sollen die Studierenden fachspezifische Herangehensweisen, Handlungsweisen und Denktraditionen stufengerecht an Maturitätsschulen anwenden können. |
+| Unterrichteinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Unterrichteinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Unterrichteinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Unterrichteinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| F24.00000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Fachdidaktik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Seminar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 8 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F24.01040                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Übungslektionen Zusatzfach / Zusatzqualifikation                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 2 Übungslektionen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 1 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F24.00818                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Prüfungslektion Zusatzfach / Zusatzqualifikation                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 1 Prüfungslektion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 1 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Leistungsnachweise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Leistungsnachweise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Leistungsnachweise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Leistungsnachweise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+Die  Fachdidaktik  wird  am  Ende  des  Studienjahres  mit  einer  Note  abgeschlossen.  Die  Form  des Leistungsnachweises  liegt  im  Ermessen  der  entsprechenden  Fachdidaktikerin  oder  des  entsprechenden Fachdidaktikers.  Die  erste  Übungslektion  wird  formativ  beurteilt.  Es  kann  eine  schriftliche  Überarbeitung eingefordert werden. Die zweite Übungslektion wird summativ mit «bestanden» / «nicht bestanden» beurteilt. Die berufspraktische Abschlussprüfung umfasst eine Prüfungslektion. An der jeweiligen Prüfungslektion ist in der Regel eine Vertreterin oder ein Vertreter des Zentrums für Lehrpersonenbildung für Maturitätsschulen sowie die jeweilige Fachdidaktikerin oder der jeweilige Fachdidaktiker anwesend. Die Prüfungslektion kann erst nach Abschluss aller Ausbildungselemente absolviert werden. Die Prüfungslektion wird mit einer Note abgeschlossen.
+
+Hinweis: Ein dritter Versuch (gemäss Art. 24 Abs. 4 Studienreglement) ist für keine Unterrichtseinheit möglich.
+
+## M2 Berufspraktische Ausbildung
+
+4 ECTS
+
+Die  Studierenden  vertiefen  und  erweitern  einerseits  die  allgemeindidaktischen,  vor  allem  aber  die fachdidaktischen Kenntnisse, Fertigkeiten und Kompetenzen bezüglich vorbereiten, durchführen, beobachten und analysieren des Unterrichts im Zusatzfach.
+
+| Unterrichteinheiten   | Unterrichteinheiten                              | Unterrichteinheiten   | Unterrichteinheiten   |
+|-----------------------|--------------------------------------------------|-----------------------|-----------------------|
+| F24.01039             | Berufspraktikum Zusatzfach / Zusatzqualifikation | Praktikum             | 4 ECTS                |
+| Leistungsnachweise    | Leistungsnachweise                               | Leistungsnachweise    | Leistungsnachweise    |
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Dieses  berufsqualifizierende  Ausbildungsprogramm  erfordert  eine  Anwesenheit  von  100%  sowohl  in  den Kursen als auch bei den Praktika. Eine Abwesenheit von maximal 20% kann aus triftigen Gründen (militärische Verpflichtungen,  Mutterschaftsurlaub,  Krankheit  oder  Unfall)  toleriert  werden.  Für  jede  andere Abwesenheit muss ein begründeter Antrag schriftlich bei der Geschäftsführenden Direktion des Zentrums eingereicht werden.
+
+Leistungsnachweise  erfolgen  in  Form  einer  mündlichen  oder  schriftlichen  Prüfung  oder  einer  Arbeit.  Die verspätete Abgabe einer Arbeit gilt als «nicht bestanden».
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich abgeschlossen wurden.
+
+## 4.2 Anerkennung
+
+In diesem Studienprogramm können keine Unterrichtseinheiten anerkannt werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Die Anmeldung zu einem Praktikum ist definitiv  und  kann  nicht  annulliert  werden.  Nicht  eingeschriebene  Studierenden  haben  keinen Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Alle Unterrichtseinheiten mit Ausnahme der Fachdidaktik werden ausserhalb der Prüfungssessionen evaluiert.
+
+## 4.5 Semestergebühren
+
+Studierende, die alle Anforderungen des Studiengangs (mit Ausnahme der Prüfungslektion) vor Beginn des nächsten Semesters erfüllt haben, müssen für dieses keine neue Semestergebühr bezahlen.
+
+## 4.6 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+## 4.7 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel 3.3  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.8 Abschlussnote
+
+Es wird keine Abschlussnote berechnet (Art. 93 des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester 2025 in Kraft. Er gilt für alle Studierenden, die für das Studienprogramm Erweiterungsdiplom - Lehrbefähigung eingeschrieben sind, unabhängig vom Studienbeginn.
+
+Für  Studierende,  die  vor  dem  Herbstsemester  2025  bereits  im  Studienprogramm Erweiterungsdiplom Lehrbefähigung eingeschrieben  waren,  wird  die Anzahl  der  bereits  absolvieren  Semester  gemäss Art. 112 Abs. 2  des  Reglements  vom  19. September  2024  über  das  Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften nicht in die Berechnung der maximalen Studiendauer miteinbezogen.

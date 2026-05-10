@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:14.203Z",
+  "title": "règlements Die Organisatoren oder Oganisatorinnen haben sich an die kantonalen Vorschriften",
+  "pages": 2,
+  "reg_doc_key": "8235f1ebb242233a9dcaf140cd094c13411bbb86",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 300 Dienstleistungen und Verwaltung > 300.350 Infrastrukturen (Gebäude und Parkplätze)",
+  "spider_title": "Richtlinien des Rektorats vom 3 März 2003 betreffend die Sicherheit in der Aula der Universität (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/275433",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/275433",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Richtlinien_des_Rektorats_vom_3_M_rz_2003_betreffend_die_Sicherheit_in_der_Aula_der_Universit_t_FR_DE__8235f1ebb2.pdf",
+  "sha256": "89fe81f7e2d88b5550b2d897a419f00c45d5e6f934fa68409d4f3152b6fb9f9e",
+  "fetched_at": "2026-04-03T12:12:00.137Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 350.110 Systematische Sammlung 1 Directives du Rectorat Richtlinien des Rektorats du 3 mars 2003 vom 3. März 2003 concernant la sécurité lors de la location de l'Aula de l'Université betreffend die Sicherheit in der Aula der Universität Le Rectorat de l'Université de Fribourg Der Rektorat der Universität Freiburg Vu l'art. 35 al. 2 lit. i et j de la loi du 19 novembre 1997 sur l'Université; gestützt auf den Art. 35 abs. 2 lit. i und j des Gesetzes vom 19. November 1997 über die Universität; Décide : beschliesst : Article premier Artikel 1 1 Pour tout spectacle, le nombre des billets vendus ne peut dépasser celui des places fixes (591) augmentées de deux rangées de chaises disposées dans le couloir semi- circulaire supérieur (154) et de 60 chaises installées dans la partie arrière de la fosse, soit au total 805. 1 Für Jede Veranstaltung dürfen nicht mehr Billette verkauft werden als es Sitzplätze gibt, nämlich 591 feste Plätze, zusätzlich zwei Stuhlreihen im oberen halbrunden Gang, 154 Plätze, und 60 Stühle im hinteren Teil des Grabens, das heisst im Total 805. 2 En aucun cas, les escaliers ne peuvent être utilisés par des spectateurs ou spectatrices assis - e - s. 2 In keinem Fall dürfen die Stufen als Sitzplätze benützt werden. 3 Les organisateurs ou organisatrices des spectacles ont l'obligation d'assurer la police de la salle. 3 Die Organisatoren oder Organisatorinnen der Veranstaltungen sind verantwortlich für die Beachtung dieser Verfügung. Art. 2 Art. 2 Les organisateurs ou organisatrices de manifestations comportant l'utilisation de la scène (théâtres, concerts, etc.) doivent faire appel à deux pompiers ou pompières de service devant rester sur les lieux depuis l'arrivée du public et jusqu'à complète évacuation. Bei Veranstaltungen, welche die Bühne mit einbeziehen (Theater, Konzerte, usw.), sind die Veranstalter oder Veranstalterinnen verpflichtet, zwei Berufsfeuerwehrleute anzustellen, welche von der Ankunft des Publikums bis zur völligen Leerung des Hauses nach der Veranstaltung anwesend sein müssen. Art. 3 Art. 3 Pour le reste, notamment lors de l'emploi de décors, les dispositions des règlements Die Organisatoren oder Oganisatorinnen haben sich an die kantonalen Vorschriften
+
+---PAGE 2---
+Recueil systématique 350.110 Systematische Sammlung 2 cantonaux en matière de salles de spec- tacles doivent être respectées strictement. betreffend die öffentlichen Veranstaltungen zu halten, besonders bei Verwendung von Bü h nenbilder und Dekor a tionen. Art. 4 Art. 4 Les directives du 31 octobre 1975 concernant la sécurité lors de la location de l'Aula de l'Université sont abrogées. Die Richtlinien vom 31. Oktober 1975 betreffend die Sicherheit in der Aula der Universität sind aufgehoben. Approuvé par le Rectorat le 3 mars 2003. Angenommen durch das Rektorat am 3. März 2003.

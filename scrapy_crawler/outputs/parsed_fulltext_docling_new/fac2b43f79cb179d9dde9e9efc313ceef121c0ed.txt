@@ -1,0 +1,122 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T05:25:36.895Z",
+  "title": "Philosophy_Bachelor_60_German_as_a_Foreign_Language__bersicht_Kursangebot_BA_DaF_60_ECTS__fac2b43f79cb179d9dde9e9efc313ceef121c0ed",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "fac2b43f79cb179d9dde9e9efc313ceef121c0ed",
+  "program_key": "philosophy|bachelor|60|german as a foreign language",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "German as a Foreign Language",
+  "doc_label": "Übersicht Kursangebot BA DaF (60 ECTS)",
+  "source_url": "https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/DaF60_Lehrangebot-Module-HS2025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/multi/germanforeignlanguage",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_German_as_a_Foreign_Language__bersicht_Kursangebot_BA_DaF_60_ECTS__fac2b43f79cb179d9dde9e9efc313ceef121c0ed.pdf",
+  "sha256": "97bda1158abd8e25a7c9a200a4dc03673afc4c4d8bb68c9dbf0c7426ab159d4a",
+  "fetched_at": "2026-04-03T11:31:07.558Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/DaF60_Lehrangebot-Module-HS2025.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## ÜBERSICHTEN BA DaF [60] ab HS 2025
+
+## Was ist wann bei wem im Angebot? Eine praktische Hilfe zur inhaltlichen und zeitlichen Planung des DaF-Studiums
+
+|                                                                                                       | Typ   |   KP | Dozent/in   | Sem.       | Turnus     | Zeit                | Eval.     |
+|-------------------------------------------------------------------------------------------------------|-------|------|-------------|------------|------------|---------------------|-----------|
+| Modul 1: Fremdsprachliche Sprachlern- und - lehrpraxis (15 KP)                                        |       |      |             |            |            |                     |           |
+| Studierende nicht-deutscher Muttersprache                                                             |       |      |             |            |            |                     |           |
+| Sprachkurs I: DaF für Lehrpersonen                                                                    | L     |    3 | Möckli      | HS         | jährlich   | Di, 10-12           | Note      |
+| Sprachkurs II: DaF für Lehrpersonen                                                                   | L     |    3 | Möckli      | FS         | jährlich   | Di, 10-12           | Note      |
+| Sprachkurs III: DaF für Lehrpersonen                                                                  | L     |    3 | Rütti-Joy   | HS         | jährlich   | Mi, 15-17           | Note      |
+| Individuelles Lernprojekt I (Erweiterung rezeptiver Sprachkompetenzen in DaF Niveau C2)               | A     |    3 | Möckli      | HS         | jährlich   | variabel            | bestanden |
+| Individuelles Lernprojekt II (Erweiterung produktiver Sprachkompetenzen in DaF C2)                    | A     |    3 | Möckli      | FS         | jährlich   | variabel            | bestanden |
+| Deutschsprachige Studierende                                                                          |       |      |             |            |            |                     |           |
+| Einführungsseminar 'Deutsche Sprache I': Laut -, Wort- und Formenlehre                                | S     |    3 | Schmidlin   | HS         | jährlich   | Fr, 08-10           | Note      |
+| Einführungsseminar 'Deutsche Sprache II': Syntax des Gegenwartsdeutschen aus schulgrammatischer Sicht | S     |    3 | Schmidlin   | FS         | jährlich   | Fr, 08-10           | Note      |
+| Erlernen einer neuen Sprache bis Niveau A1 oder A2 (plus Sprachlernreflexion (Block))                 | L     |    3 | div.        | HS         | jährlich   | diverse variabel &  | Note      |
+| Individuelles Lern- / Lehrprojekt I (Sprachliche Sicherheit Deutsch und Sprachlernreflexion) I        | A     |    3 | Möckli      | HS         | jährlich   | 4x Block, Di, 15-17 | bestanden |
+| Individuelles Lern- / Lehrprojekt (Unterstützung von DaF-Lernenden, ggf. im Tandem) II                | A     |    3 | Rütti-Joy   | FS         | jährlich   | variabel            | bestanden |
+| Modul 2: Fachwissenschaftliche Grundlagen (15 KP)                                                     |       |      |             |            |            |                     |           |
+| Vorlesung Grundlagen des DaF Unterrichts I: Spracherwerb und Erwerb kultureller Kompetenzen           | C     |    3 | Studer      | HS25/ HS27 | 2-jährlich | Mi, 13-15           | bestanden |
+| Seminar Linguistische Grundlagen Deutsch als Fremdsprache I                                           | S     |    3 | Barras      | HS         | jährlich   | Mi, 10-12           | Note      |
+| Seminar Linguistische Grundlagen Deutsch als Fremdsprache II                                          | S     |    3 | Barras      | FS         | jährlich   | Mi, 10-12           | Note      |
+| Seminar Kulturwissenschaftliche Ansätze                                                               | S     |    3 | Keller N.   | HS         | jährlich   | Di, 13-15           | Note      |
+| Seminar Deutsch als Zweitsprache (DaZ)                                                                | S     |    3 | Barras      | FS         | jährlich   | Mo, 15-17           | Note      |
+
+<!-- image -->
+
+| Modul 3: Methodisch-didaktische Grundlagen des DaF-Unterrichts (15 KP)                                                                                                 |    |    |             |            |                                     |             |           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|----|-------------|------------|-------------------------------------|-------------|-----------|
+| Vorlesung Grundlagen DaF II: Ziele und Methoden des Fremdsprachenunterrichts (im HS25 nicht im Angebot)                                                                | C  |  3 | Studer      | HS26/ HS28 | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Kompetenzen und Kompetenzerfassung 1                                                                                                                                   | S  |  3 | Barras      | FS         | jährlich                            | Mi, 15-17   | Note      |
+| Methoden DaF, Rezeptive Kompetenzen                                                                                                                                    | S  |  3 | Wasmer      | HS         | jährlich                            | Mo, 17-19   | Note      |
+| Methoden DaF, Produktive Kompetenzen                                                                                                                                   | S  |  3 | Wasmer      | FS         | jährlich                            | Mo, 17-19   | Note      |
+| Vermittlung landeskundlicher und kultureller Inhalte                                                                                                                   | S  |  3 | Keller N.   | FS         | jährlich                            | Di, 13-15   | Note      |
+| Modul 4 : Vertiefungen und Erweiterung spezifischer Aspekte (15 KP)                                                                                                    |    |    |             |            |                                     |             |           |
+| Seminararbeit zu einem Seminar aus Modul 3, 4; zu ausgewählten Seminaren aus Modul 2                                                                                   | E  |  6 | div.        | HS/FS      | Abgabe : a.16.01. b.15.05. c.14.08. | individuell | Note      |
+| 3 Unterrichtseinheiten (C, S) zur Wahl, je nach Angebot und angestrebtem Profil:                                                                                       |    |    |             |            |                                     |             |           |
+| Textkompetenz - Fachtexte verarbeiten und nutzen (nur für Studierende nicht-deutscher Muttersprache)                                                                   | S  |  3 | Keller N.   | HS25       | jährlich                            | Do, 10-12   | Note      |
+| Fremdsprachenlernen digital                                                                                                                                            | S  |  3 | Lowin-Kropf | FS26       | jährlich                            | Mi, 08-10   | Note      |
+| Sprachliche Ähnlichkeiten im Sprachenlernen                                                                                                                            | S  |  3 | Vanhove.    | FS26       | jährlich                            | Mo,10-12    | Note      |
+| Vorlesung DaF zu einem Spezialthema: Leistungsbeurteilung im Fremdsprachenunterricht                                                                                   | C  |  3 | Studer      | FS26       | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Vorlesung DaF zu einem Spezialthema: Korpuslinguistik: Chancen und Grenzen für die Spracherwerbs- forschung und den Fremdsprachenunterricht (im FS26 nicht im Angebot) | C  |  3 | Studer      | FS27       | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Germanistik: Vorlesung Jugendliteratur                                                                                                                                 | S  |  3 | Müller (HD) | HS25       | einmalig                            | Mi, 10-12   | Note      |
+| BA Seminar: Literaturwissenschaftliches Seminar im BA DaF                                                                                                              | S  |  3 | Müller (HD) | HS25       | jährlich                            | Mo, 15-17   | Note      |
+
+Hinweis: Bei Bedarf und nach Absprache mit der Studienberaterin kann in Modul 4 auch eine UE (Sprachkurs Deutsch oder Schweizerdeutsch) am SPZ der Uni Freiburg oder die UE «Cuors pratic da romontsch sursilvan 2 ' im Frühlingssemester besucht werden.
+
+HD=Hors domaine (z.B. Germanistik)
+
+1 Das Seminar Kompetenzen und Kompetenzerfassung findet ab FS27 am Montagvormittag statt.
+
+<!-- image -->
+
+## Was ist wann? Wochenplanung Seminare und Vorlesungen DaF im Studienjahr 25/26
+
+## Herbstsemester
+
+| Montag   | Dienstag                           | Mittwoch                      | Donnerstag        | Freitag               |
+|----------|------------------------------------|-------------------------------|-------------------|-----------------------|
+| 08-10    |                                    |                               |                   | M1 Deutsche Sprache I |
+| 10-12    | M1 Sprachkurs DaF I                | M2 Linguistische Grundlagen I | M4: Textkompetenz |                       |
+| 13-15    | M2 Kulturwissenschaftliche Ansätze | M2 oder M3 Vorlesung Studer   |                   |                       |
+| 15-17    | M1 Beratung Lernprojekte (Blöcke)  | M1 Sprachkurs DaF III         |                   |                       |
+
+17-19
+
+M3 Methoden DaF: Rezeptive
+
+Kompetenzen
+
+## Frühjahrssemester
+
+| Montag   | Montag                              | Dienstag                          | Mittwoch                                             | Donnerstag   | Freitag                |
+|----------|-------------------------------------|-----------------------------------|------------------------------------------------------|--------------|------------------------|
+| 08-10    |                                     |                                   | M4 Fremdsprachenlernen digital                       |              | M1 Deutsche Sprache II |
+| 10-12    | M4 Sprachliche Ähnlichkeiten        | M1 Sprachkurs DaF II              | M2 Linguistische Grundlagen II                       |              |                        |
+| 13-15    |                                     | M3 Seminar Landeskunde            | M4 Spezialvorlesung Studer                           |              |                        |
+| 15-17    | M2 Seminar Deutsch als Zweitsprache | M1 Beratung Lernprojekte (Blöcke) | M3: Kompetenzen & Kompetenzerfassung (ab FS27 am Mo) |              |                        |
+
+17-19
+
+M3 Methoden DaF: Produktive
+
+Kompetenzen
+
+Hinweis: Weitere Unterrichtseinheiten wie die Kontrastsprachkurse, Wahlpflicht-UEs aus Modul 4 etc. variieren im Termin und sind deshalb nicht aufgeführt.

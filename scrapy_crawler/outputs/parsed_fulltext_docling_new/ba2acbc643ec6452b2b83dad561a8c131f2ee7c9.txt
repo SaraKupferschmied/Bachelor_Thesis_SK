@@ -1,0 +1,148 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T02:08:31.514Z",
+  "title": "SCIMED_Master_30_Chemistry_Zusatzf_cher_Chemie_ba2acbc643ec6452b2b83dad561a8c131f2ee7c9",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ba2acbc643ec6452b2b83dad561a8c131f2ee7c9",
+  "program_key": "scimed|bachelor|30|chemistry",
+  "faculty": "SCIMED",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Chemistry",
+  "doc_label": "Zusatzfächer Chemie",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_CH_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/chemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SCIMED_Master_30_Chemistry_Zusatzf_cher_Chemie_ba2acbc643ec6452b2b83dad561a8c131f2ee7c9.pdf",
+  "sha256": "b882944e248a3bac1bea1a9743e443bc0e1a20345eac77eda95f99a7d11cc85a",
+  "fetched_at": "2026-04-03T11:29:26.808Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_CH_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BCo_CH_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_BCo",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.4  Chemie
+
+Die Chemie bietet 4 Zusatzfächer an.
+
+- CHB-30: Zusatzfach 30 ECTS Chimie für BiochemikerInnen . Dieses Zusatzfach richtet sich an Bachelor Studierende der Biochemie, die ihr Chemieprogramm des Hauptfaches vertiefen möchten 1 .
+
+[Version 2022, Anrechnungseinheit: PV-SCH.0000042]
+
+- CH-30: Zusatzfach  30  ECTS  (für  NichtchemikerInnen  oder  Nicht-BiochemikerInnen). Studierende, deren Hauptfach die propädeutische Chemie beinhaltet, ersetzen die dort bereits absolvierten obligatorischen UE mit anderen Wahl-UE.
+
+[Version 2022, Anrechnungseinheit: PV-SCH.0000043]
+
+- CH-60: Zusatzfach  60  ECTS .  Studierende,  deren  Hauptfach  die  propädeutische  Chemie beinhaltet,  ersetzen  die  dort  bereits  absolvierten  obligatorischen  UE  mit  anderen Wahl-UE.
+
+[Version 2025, Anrechnungseinheit: PV-SCH.0000070]
+
+- CHD-60: Dieses Zusatzfach richtet sich in erster Linie an Studierende, die Chemie als zweites Unterrichtsfach  im  Rahmen  der  Ausbildung  zum  Lehrdiplom  für  Maturitätsschulen (LDM) gewählt haben 1 . Studierende, deren Hauptfach die propädeutische Chemie beinhaltet,  ersetzen  die  dort  bereits  absolvierten  obligatorischen  UE  mit  anderen Wahl-UE.
+
+[Version 2022, Anrechnungseinheit: PV-SCH.0000045]
+
+Für jedes Zusatzfach sind gewisse Unterrichtseinheiten Pflicht während andere gewählt werden können um insgesamt die notwendige Anzahl Credits zu erzielen. Die obligatorischen (o) und wählbaren (w) UE sind in den Tabellen des Kapitels 3.4.1 aufgeführt.
+
+1 Studierende, welche Chemie im Rahmen des LDM gewählt haben, müssen das ihre Ausbildung mit dem Programm Chemie +30 ergänzen (CHD+30) gemäss Studienplan: Studienplan der Zusatzfächer der Math.-Nat. und Med. Fakultät +30 ECTS in Mathematik, Informatik, Physik, Chemie, Geographie, Biologie, Sport- und Bewegungswissenschaften.
+
+## 3.4.1 Unterrichtseinheiten
+
+## Herbstsemester
+
+| Code      | Unterrichtseinheit                                        |   Stunden |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |
+|-----------|-----------------------------------------------------------|-----------|--------|----------|----------|---------|----------|
+| SCH.00234 | Organische Chemie (Praktikum für Zusatzfach) 1            |       140 |    5   | o        | o        | w       | o        |
+| SCH.00236 | Organische Chemie (Ergänzungspraktikum für Zusatzfach) 1  |        84 |    3   | w        | -        | -       | w        |
+| SCH.01014 | Allgemeine Chemie (Vorlesung mit Übungen)                 |        84 |    6   | -        | o*       | o*      | o*       |
+| SCH.01031 | Allgemeine und anorganische Chemie (Praktikum) 2          |       112 |    3   | -        | o*       | o*      | o*       |
+| SCH.01033 | Problem solving in der Allgemeinen Chemie                 |        28 |    2   | -        | o*       | o*      | o*       |
+| SCH.02120 | Einführung in die Komplexchemie (Vorlesung mit Übungen)   |        28 |    3   | w        | w        | o       | o        |
+| SCH.02212 | Präparative Methoden (Vorlesung)                          |        42 |    3   | o        | o        | o       | o        |
+| SCH.02222 | Präparative Methoden (Übungen)                            |        14 |    2   | o        | o        | o       | o        |
+| SCH.02235 | Präparative Methoden für Chemiestudierende (Praktikum) 1  |       224 |    8   | -        | -        | w       | -        |
+| SCH.02312 | Klassische Thermodynamik (Vorlesung mit Übungen)          |        28 |    3   | -        | w*       | o*      | o*       |
+| SCH.02342 | Einführung in die Quantenmechanik (Vorlesung mit Übungen) |        28 |    3   | -        | w        | w       | w        |
+| SCH.03125 | Rechnungsmethoden für Chemie (Vorlesung mit Praktikum)    |        56 |    3   | w        | w        | w       | w        |
+| SCH.03212 | Organische Stereochemie (Vorlesung mit Übungen)           |        28 |    3   | o        | w        | w       | w        |
+| SCH.03339 | Spektroskopie 2 (Vorlesung mit Übungen)                   |        28 |    3   | -        | w        | w       | w        |
+| SCH.03320 | Einführung in die Polymerchemie                           |        14 |    1.5 | w        | w        | w       | w        |
+| SCH.03394 | Physikalische Chemie (Praktikum)                          |       224 |    8   | -        | -        | w       | -        |
+
+## Frühlingsemester
+
+| Code      | Unterrichtseinheit                                                      |   Stunde |   n ECTS | CHB-30   | CH- 30§   | CH-60   | CHD-60   |
+|-----------|-------------------------------------------------------------------------|----------|----------|----------|-----------|---------|----------|
+| SCH.00244 | Instrumentalanalyse (Praktikum für Zusatzfach)                          |      140 |      5   | -        | w*        | w*      | o*       |
+| SCH.00246 | Instrumentalanalyse (Ergänzungspraktikum für Zusatzfach)                |       84 |      3   | o        | -         | -       | w        |
+| SCH.01054 | Analytische Chemie (Vorlesung mit Übungen)                              |       42 |      3   | -        | w         | o*      | o*       |
+| SCH.01084 | Analytische Chemie (Praktikum)                                          |      112 |      4   | o        | w         | o       | o        |
+| SCH.01067 | Chemie der Elemente (Vorlesung mit Übungen)                             |       42 |      3   | -        | o*        | o*      | o*       |
+| SCH.01072 | Grundlagen der organischen Chemie (Vorlesung mit Übungen)               |       42 |      3   | -        | o*        | o*      | o*       |
+|           | Spektroskopie 1 (Vorlesung mit Übungen)                                 |       42 |      4   | -        | w         | w       | w        |
+| SCH.02151 |                                                                         |          |          |          |           |         |          |
+| SCH.02252 | Organische Instrumentalanalyse                                          |       56 |      5   | -        | w*        | w*      | o*       |
+| SCH.02274 | Instrumentalanalyse (Praktikum)                                         |      224 |      8   | -        | -         | w       | -        |
+| SCH.02329 | Kinetik und Statistische Thermodynamik (Vorlesung mit Übungen)          |       42 |      4.5 | -        | w*        | w*      | w*       |
+| SCH.02350 | Statistische Thermodynamik (für FHS)                                    |       21 |      2.5 | w°       | -         | w°      | w°       |
+| SCH.03142 | d- und f-Elemente (Vorlesung mit Übungen)                               |       28 |      3   | o        | w         | w       | w        |
+| SCH.03219 | Photophysikalischen Eigenschaften des Materials (Vorlesung mit Übungen) |       28 |      3   | w        | w         | w       | w        |
+| SCH.03229 | Reaktionsmechanismen (Vorlesung mit Übungen)                            |       28 |      3   | w        | w         | w       | w        |
+| SCH.03355 | Modellierung in der Chemie (Vorlesung mit Übungen)                      |       28 |      3   | o        | w         | w       | w        |
+
+§ Für eine optimale Auswahl nehmen Sie bitte mit dem Studienberater Kontakt auf.
+
+1     Voraussetzung: Aus Sicherheitsgründen muss SCH.01031 (oder SCH.01024), SCH.01033 und SCH.01072 abgeschlossen werden, bevor Sie SCH.02235 belegen können.
+
+2       SCH.01031 und SCH.01024 schließen sich gegenseitig aus: Wenn einer der Kurse bereits validiert wurde, kann der andere nicht gewählt werden und muss durch eine UE nach Wahl ersetzt werden.
+
+* Kann als propädeutisches Fach schon gewählt worden sein und sollte in diesem Fall mit einer anderen Wahl-UE ersetzt werden.
+- °   Der Kurs SCH.02350 kann nur gewählt werden, wenn der propädeutische Kurs SCH.02339 Kinetik (für Biochemiker) bereits belegt wurde.
+
+## 3.4.2 Inhalt der Unterrichtseinheiten des Zusatzfachs
+
+## Vorlesungen
+
+- Die Vorlesung Allgemeine Chemie (SCH.01014) vermittelt die Grundlagen der Chemie und ergänzt die gymnasialen Chemiekenntnisse auf universitäres Niveau.
+- Die Vorlesung Problem Solving in der Allgemeinen Chemie (SCH.01033) ergänzt die Themen der Vorlesung Allgemeine Chemie (SCH.01014), indem sie die Bedeutung des Problemlösungsprozesses hervorhebt.
+- Die Vorlesung Analytische Chemie (SCH.01054) vermittelt eine Einführung in das Studium komplexer Systeme (multiple Gleichgewichte) und in die klassischen analytischen Methoden (Gravimetrie, Volumetrie, ...).
+- Die Vorlesung Chemie der Elemente (SCH.01067) ist eine Einführung in die eher materialorientierten chemischen Verbindungen sowie deren Eigenschaften und Reaktivitäten.
+- Die Vorlesung Grundlagen der organischen Chemie (SCH.01072) vermittelt eine Einführung in die organischen Reaktionen und deren Reaktionsmechanismen.
+- Die Vorlesung Einführung in die Komplexchemie (SCH.02120) bildet die vertiefte Ausbildung in anorganischer Chemie.
+- Die Vorlesung mit Übungen  Präparative Methoden  (SCH.02212)  und  die  Vorlesung Organische Instrumentalanalyse (SCH.02252) vermitteln die theoretischen Kenntnisse für die Praktika des zweiten Jahres.
+- Die Vorlesungen Klassische Thermodynamik (SCH.02312), Kinetik und Statistische Thermodynamik  (SCH.02329),  Statistische  Thermodynamik  (für  FHS)  (SCH.02350)  und Einführung in die Quantenmechanik (mit Übungen) (SCH.02342) bilden den ersten Zyklus der physikalischen  Chemie,  die  Vorlesungen  Spektroskopie  1  (SCH.02151),  Spektroskopie  2 (SCH.03339) und Photophysikalische Charakteristika von Materie (mit Übungen) (SCH.03219) bilden den zweiten Zyklus.
+- Die  Vorlesungen  Rechnungsmethoden  für  Chemie  (SCH.03125)  und  Modellierung  in  der Chemie  (SCH.03355)  vermitteln  gruppentheoretische  Grundlagen  und  die  notwendigen Kenntnisse für computergestützte Praktika.
+- Die Vorlesung d- und f-Metalle (mit Übungen) (SCH.03142) gibt einen Einblick in die Chemie der Übergangsmetalle, sowie deren Anwendung und Funktion in der Biologie.
+- Die Vorlesung Organische Stereochemie (SCH.03212) ist dem Thema der Chiralität gewidmet.
+- In der Vorlesung Reaktionsmechanismen (Vorlesung mit Übungen) (SCH.03229) werden die chemischen Reaktionen von organischen Verbindungen nach Reaktionstypen klassiert und die mechanistischen Aufklärungsmethoden behandelt.
+- Der  Kurs  Einführung  in  die  Polymerchemie  (SCH.03220)  vermittelt  die  Grundlagen  der Polymerchemie.
+
+## Praktika
+
+- Das Praktikum Organische Chemie (SCH.00234, SCH.00236 [für Zusatzfachstudierende; verkürzte Version des Praktikums Organische Synthese], SCH.02235) führt in die organische Synthese ein.
+- Das  Einführungspraktikum  Instrumentalanalyse  (SCH.00244,  SCH.00246  [für  Zusatzfachstudierende; verkürzte Version des Praktikums Instrumentalanalyse], SCH.02274) führt in die wichtigsten spektroskopischen Methoden der Chemie ein.
+- Das Praktikum in allgemeiner und anorganischer Chemie (SCH.01031) illustriert wesentliche Konzepte der gleichnamigen Grundvorlesung anhand von konkreten Experimenten und wird von nahezu allen Hörern dieser Vorlesung besucht.
+- Das Praktikum in analytischer Chemie (SCH.01084) vermittelt die wichtigsten Analysetechniken.
+- Das  Praktikum  zu  Rechnungsmethoden  der  Chemie  (SCH.03125)  illustriert  nicht  nur  die theoretischen  Methoden  der  Chemie,  sondern  auch  die  spezifische  Verwendung  von Computern in der Chemie.
+
+- Das Praktikum in Physikalischer Chemie (SCH.03394) illustriert anhand von fortgeschrittenen Experimenten wesentliche physiko-chemische Aspekte.
+
+## 3.4.3 Evaluation der Unterrichtseinheiten
+
+Die  Bewertungsmodalitäten  des  UEs  erfolgt  gemäss  den  Anhängen  zu  den  Fächern.  Die Angaben für die Chemie sind im entsprechenden Anhang zu finden.

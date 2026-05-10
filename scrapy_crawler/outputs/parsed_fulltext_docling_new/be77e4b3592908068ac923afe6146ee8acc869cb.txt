@@ -1,0 +1,336 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T02:15:11.403Z",
+  "title": "EDUFORM_Bachelor_120_Education_Sciences_Bachelor_Major_120_ECTS-Kreditpunkte__be77e4b3592908068ac923afe6146ee8acc869cb",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "be77e4b3592908068ac923afe6146ee8acc869cb",
+  "program_key": "eduform|bachelor|120|education sciences",
+  "faculty": "EDUFORM",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Education Sciences",
+  "doc_label": "Bachelor Major (120 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_120%20(1462)%2005%2006%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/educationalsciences",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\EDUFORM_Bachelor_120_Education_Sciences_Bachelor_Major_120_ECTS-Kreditpunkte__be77e4b3592908068ac923afe6146ee8acc869cb.pdf",
+  "sha256": "fe3a4c0809b6f71f736a60a4a46a4600e5aa352e1d0bba38af0e3d3a5049946f",
+  "fetched_at": "2026-04-03T11:30:14.853Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_120%20(1462)%2005%2006%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BSc_Erzw_120 (1462) 05 06 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR ERZIEHUNGSWISSENSCHAFTEN
+
+## STUDIENPLAN
+
+## Bachelor of Science in Erziehungswissenschaften
+
+Studienprogramm Bachelor Major 120 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom  19. September 2024 über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die ihren Bachelorstudiengang in Erziehungswissenschaften Major absolvieren möchten.
+
+Den  Studierenden  wird  ermöglicht,  grundlegende  Kenntnisse  auf  dem  breiten  Gebiet  der  Erziehungswissenschaften, in den Bereichen Bildung, Erziehung und Lernen zu erwerben, und dabei auf Erziehungs- und Bildungsverhältnisse in verschiedenen Institutionen (Familie, frühkindlichen Bildungsräumen, Schule usw.) und soziokulturellen Kontexten zu fokussieren. Sie lernen vielfältige Methoden kennen, mit denen sie Forschungen nachvollziehen und auch selbst durchführen, und Theorieperspektiven, mit denen sie Daten analysieren und Forschungsergebnisse  deuten  können.  In  Praktika  im  Bereich  der  pädagogischen  Handlungsfelder  und Forschung können Studierende aus ihren erworbenen Kenntnissen reflexiv Gebrauch machen. In Zusammenarbeit mit der Sonderpädagogik und der Lehrpersonenbildung erwerben Studierende zudem Kenntnisse in der Sonder- und Schulpädagogik.
+
+Der Abschluss dieses Studienprogramms ermöglicht den Studierenden einen bedingungslosen Zugang zu den Masterprogrammen in Erziehungswissenschaften.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Erziehungswissenschaften (120  ECTS-Kreditpunkte) kann auf Deutsch, Französisch oder zweisprachig (Deutsch-Französisch) absolviert werden. Nachfolgend wird der deutschsprachige Studienplan vorgestellt.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität Freiburg (Reglement vom 26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen der Fakultät (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+## 2.4 Mobilität
+
+Ein Mobilitätsaufenthalt kann während des ganzen Studiums absolviert werden. Die enge Abstimmung mit der Studienberatung wird vorausgesetzt.
+
+## 2.5 Verliehener Titel
+
+Der verliehene Titel lautet Bachelor of Science in Erziehungswissenschaften, Major : Erziehungswissenschaften.
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 120 ECTS-Kreditpunkte, die in 9 Module aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Im  Rahmen  dieses  Studienprogramms  lernen  die  Studierenden  Grundbegriffe,  Theorien  und  Forschungsmethoden der Erziehungswissenschaften kennen. Das Studienprogramm ermöglicht es ihnen, Erziehungs- und Bildungsverhältnisse  auch  aus  der  Sicht  weiterer  sozial-  und  geisteswissenschaftlicher  Disziplinen  zu betrachten. Im Rahmen von Praktika in einem pädagogischen Handlungsfeld und in der Forschung sowie im entsprechenden  Begleitseminar  lernen  sie,  Phänomene,  die  ihnen  in  der  Praxis  und  in  der  Forschung begegnen,  mittels  theoretischer  Kenntnisse  zu  interpretieren.  Zudem  erwerben  sie  Kompetenzen  in  der selbstständigen  Durchführung  erziehungswissenschaftlicher  Forschungen.  Die  Ergebnisse  der  Analysen werden in schriftlichen Arbeiten (Seminararbeiten und Bachelorarbeit) festgehalten und reflektiert.
+
+In  Bezugnahme  auf  den  von  swissuniversities  herausgegebenen  Qualifikationsrahmen  für  die  Schweizer Hochschulen (2021) sind die Absolvierenden dieses Studienprogramms in der Lage,
+
+- grundlegendes Wissen und Verständnis aus ihrem Studienbereich zu mobilisieren, um die Herausforderungen, Prozesse, Kontexte und Akteurinnen und Akteure im Bereich der Erziehung und Bildung in ihrer Vielfalt zu erfassen;
+- begründete und angemessene Einschätzungen, Antworten und Interventionen für verschiedene Problemlagen im Bereich der Erziehung und Bildung zu entwickeln;
+- relevante Daten aus wissenschaftlichen und praxisbezogenen Quellen zu erfassen und interpretieren, um qualitativ  hochwertige  Reflexionen  über  im  Bereich  der  Erziehung  und  Bildung  situierten  Problematiken anstellen zu können;
+- einem  Fach-  und  Laienpublikum  relevante  und  fundierte  Informationen  und Argumente  zu Themen  und Herausforderungen im Bereich der Erziehung und Bildung zu vermitteln;
+- angemessene Lernstrategien anzuwenden, um ihr Studium mit einem hohen Mass an Selbstständigkeit fortzusetzen.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+| Modul 1   | Theoretische Grundlagen der Erziehungswissenschaften    | 15 ECTS   |
+|-----------|---------------------------------------------------------|-----------|
+| Modul 2   | Einführung in das wissenschaftliche Arbeiten            | 12 ECTS   |
+| Modul 3   | Forschungsmethoden                                      | 12 ECTS   |
+| Modul 4   | Themen und Handlungsfelder der Erziehungswissenschaften | 12 ECTS   |
+| Modul 5   | Forschungsperspektiven in den Erziehungswissenschaften  | 12 ECTS   |
+| Modul 6   | Lehren und Lernen                                       | 12 ECTS   |
+| Modul 7   | Praktika in Erziehungswissenschaften                    | 15 ECTS   |
+| Modul 8   | Wahlkurse                                               | 15 ECTS   |
+| Modul 9   | Bachelorarbeit                                          | 15 ECTS   |
+
+Die grau markierten Module müssen in den jeweiligen Studienjahren absolviert werden. Die Darstellung der anderen Module ist beispielhaft:
+
+| Jahr 1 (insg. 39 ECTS)   | Modul 1 (15 ECTS)   | Modul 2 (12 ECTS)   | Modul 4 (Anteil: 6 ECTS)   | Modul 5 (Anteil: 3 ECTS)   | Modul 8 (Anteil: 3 ECTS)   |
+|--------------------------|---------------------|---------------------|----------------------------|----------------------------|----------------------------|
+| Jahr 2 (insg. 42 ECTS)   | Module 3 (12 ECTS)  | Modul 6 (12 ECTS)   | Modul 4 (Anteil: 6 ECTS)   | Modul 5 (Anteil: 3 ECTS)   | Modul 8 (Anteil: 9 ECTS)   |
+| Jahr 3 (insg. 39 ECTS)   | Modul 9 (15 ECTS)   | Modul 7 (15 ECTS)   |                            | Modul 5 (Anteil: 6 ECTS)   | Modul 8 (Anteil: 3 ECTS)   |
+
+Folgende grundlegende Regelungen gilt es zu beachten:
+
+- 1)  Das Studium muss mit den Modulen 1 und 2 begonnen werden. Diese Module müssen im ersten Studienjahr absolviert werden.
+- 2)  Die Unterrichtseinheiten (UE) in den Modulen 4 und 5 können auf die drei Studienjahre verteilt werden.
+- 3)  Die Seminararbeiten in den Modulen 4 und 5 können frühestens im zweiten Jahr verfasst werden, wenn die Module 1 und 2 sowie mindestens jeweils eine UE aus den Modulen 4 und 5 besucht und erfolgreich abgeschlossen worden sind.
+- 4)  Modul 6 (Lehren und Lernen) umfasst eine Zwischenprüfung. Diese setzt die Validierung von 42 ECTSKreditpunkten aus den Modulen 1-5 voraus.
+- 5)  Die UE des Moduls 8 (Wahlkurse) sind frei wählbar und können auf die drei Studienjahre verteilt werden.
+- 6)  Die Bachelorarbeit muss im letzten Studienjahr verfasst werden.
+
+## 3.3 Struktur der Module
+
+## MODUL 1: THEORETISCHE GRUNDLAGEN DER ERZIEHUNGSWISSENSCHAFTEN
+
+## 15 ECTS
+
+In  diesem  Modul  werden  die  theoretischen  Grundlagen  der  Erziehungswissenschaften  vermittelt.  Zentrale pädagogische Begriffe, Konzepte und Phänomene von der frühen Kindheit bis ins Erwachsenenalter werden aus  erziehungswissenschaftlicher,  aber  auch  aus  soziologischer,  anthropologischer,  psychologischer  und philosophischer  Perspektive  beleuchtet,  um  ein  differenziertes  und  theoriegeleitetes  Verständnis  von Erziehungs-, Bildungs-, Sozialisations- und Lernprozessen sowie ihrer strukturellen Bedingungen zu erhalten. Die Unterrichtseinheiten (UE) Pädagogische Psychologie I und II bauen dabei aufeinander auf, Teil I muss demnach vor Teil II besucht werden.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)           |        |
+|-----------------------------|-------------------------------------|--------|
+| F23.00044                   | Allgemeine Erziehungswissenschaft*  | 3 ECTS |
+| F23.00050                   | Erziehungs- und Bildungssoziologie* | 3 ECTS |
+| F23.00049                   | International Education Policy*     | 3 ECTS |
+| F24.00855                   | Pädagogische Psychologie I*         | 3 ECTS |
+| F24.00856                   | Pädagogische Psychologie II*        | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 5 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 2: EINFÜHRUNG IN DAS WISSENSCHAFTLICHE ARBEITEN
+
+## 12 ECTS
+
+In  diesem  Modul  werden  die  Grundlagen  des  wissenschaftlichen  Arbeitens  vermittelt.  Dazu  gehören Techniken des wissenschaftlichen Arbeitens, mit denen bestehendes wissenschaftliches Wissen erschlossen (z. B.  Literaturrecherche)  und  eigene  wissenschaftliche  Arbeiten  durchgeführt  werden.  In  der  Unterrichtseinheit (UE) Techniken des wissenschaftlichen Arbeitens werden in Kooperation mit den Verantwortlichen der Bibliotheken  Informationskompetenzen  entwickelt.  Grundfragen  qualitativer  und  quantitativer  Methoden werden anhand von theoretischen Inputs und Beispielen aus der erziehungswissenschaftlichen Forschung bearbeitet.  Die  beiden  UE Einführung  in  die  empirische  Sozialforschung  I  und  II sind  dabei  aufeinander aufbauend,  Teil  I  muss  demnach  vor  Teil  II  besucht  werden.  Im  Modul  soll  erschlossen  werden,  wie wissenschaftlich fundiertes Wissen über Erziehung und Bildung gewonnen wird.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                          |        |
+|-----------------------------|----------------------------------------------------|--------|
+| F23.00043                   | Techniken des wissenschaftlichen Arbeitens*        | 3 ECTS |
+| F23.00003                   | Einführung in die empirische Sozialforschung I*    | 3 ECTS |
+| F23.00015                   | Einführung in die empirische Sozialforschung II*   | 3 ECTS |
+| F23.00063                   | Wissenschaftstheorie der Erziehungswissenschaften* | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 4 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 3: FORSCHUNGSMETHODEN
+
+## 12 ECTS
+
+Aufbauend auf dem im Modul 2 erworbenen Grundwissen über empirische Sozialforschung werden in diesem Modul vertiefte methodische Kompetenzen im Bereich qualitativer und quantitativer Sozialforschung vermittelt. Studierende  werden  befähigt,  eigenständig  erste  empirische  Studien  durchzuführen  und  die  Ergebnisse theoriebezogen und gegenstandsangemessen zu interpretieren. Dabei muss bei beiden Unterrichtseinheiten (UE) Quantitative Methoden der Sozialforschung sowie Qualitative Methoden der Sozialforschung Teil I vor Teil II besucht werden, da diese jeweils aufeinander aufbauen.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                     |        |
+|-----------------------------|-----------------------------------------------|--------|
+| F23.00002                   | Quantitative Methoden der Sozialforschung I*  | 3 ECTS |
+| F23.00016                   | Quantitative Methoden der Sozialforschung II* | 3 ECTS |
+| F23.00013                   | Qualitative Methoden der Sozialforschung I*   | 3 ECTS |
+| F23.00017                   | Qualitative Methoden der Sozialforschung II*  | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 4 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 4: THEMEN UND HANDLUNGSFELDER DER ERZIEHUNGSWISSENSCHAFTEN
+
+## 12 ECTS
+
+In diesem Modul setzen sich die Studierenden mit verschiedenen Fragen, Themen und Handlungsfeldern der Erziehungswissenschaften auseinander: Wie werden Kinder zu Subjekten der Erziehung und Bildung? Welche Bedeutung  haben  das  soziale  Umfeld,  pädagogische  Institutionen  sowie  gesellschaftliche  und  politische Bedingungen  für  Bildungsprozesse?  Welche  Bildungsmöglichkeiten  werden  in  Familie,  peer  group  und professionalisierten Kontexten eröffnet? Im Rahmen der UE in diesem Modul vertiefen die Studierenden ihr im  Modul  1  erworbenes  Wissen  in  grundlegenden  Problemstellungen  und  Bereichen  der  Erziehungswissenschaft.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                                             |        |
+|-----------------------------|-----------------------------------------------------------------------|--------|
+| F23.00115                   | Subjekt, Individuum, Selbst                                           | 3 ECTS |
+| F23.00122                   | Soziale Institutionen                                                 | 3 ECTS |
+| F23.00140                   | Professionalisierung                                                  | 3 ECTS |
+| F23.00141                   | Gesellschaft und Politik                                              | 3 ECTS |
+| F23.00052                   | Seminararbeit (Themen und Handlungsfelder der Erziehungswissenschaft) | 6 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses Modul besteht aus 4 inhaltlich verschiedenen Unterrichtseinheiten (UE) à 3 ECTS-Kreditpunkten, die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden, sowie einer Seminararbeit mit 6 ECTS-Kreditpunkten, die ebenfalls mit einer Note evaluiert wird. Obligatorisch müssen 2 von den 4 UE belegt sowie eine Seminararbeit, die den Inhalt einer besuchten UE aus diesem Modul vertiefen soll, verfasst werden. Die  Wahl  der  UE  ist  den  Studierenden  überlassen.  Damit  das  Modul  validiert  wird,  müssen  sowohl  die  2 gewählten UE als auch die Seminararbeit mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere UE  aus  den  restlichen  zur  Auswahl  stehenden  UE  in  diesem  Modul  ersetzt  werden.  Das  Schreiben  der Seminararbeit setzt den positiven Abschluss der Module 1 und 2 voraus. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## MODUL 5: FORSCHUNGSPERSPEKTIVEN IN DEN ERZIEHUNGSWISSENSCHAFTEN
+
+## 12 ECTS
+
+In  diesem  Modul  stehen  historisch  und  zeitgenössisch  relevante  Forschungsperspektiven  der  Erziehungswissenschaft in ihrer jeweiligen Genese im Fokus. Die Studierenden haben die Möglichkeit, sich mit Fragen der Kindheits-, Jugend- und Altersforschung zu befassen, sich in Bereiche der Migrations- und Ungleichheitsforschung  einzuarbeiten  oder  sich  in  international  vergleichender  Perspektive  mit  der  Policy  Forschung auseinanderzusetzen. Dadurch vertiefen sie ihre in den Modulen 1 und 2 erworbenen Kenntnisse im Hinblick auf erziehungswissenschaftliche Forschung.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                                            |        |
+|-----------------------------|----------------------------------------------------------------------|--------|
+| F23.00116                   | Kindheits-, Jugend- und Altersforschung                              | 3 ECTS |
+| F23.00123                   | Migrationsforschung                                                  | 3 ECTS |
+| F23.00142                   | Policy Forschung                                                     | 3 ECTS |
+| F23.00143                   | Ungleichheitsforschung                                               | 3 ECTS |
+| F23.00059                   | Seminararbeit (Forschungsperspektiven in der Erziehungswissenschaft) | 6 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses Modul besteht aus 4 inhaltlich verschiedenen Unterrichtseinheiten (UE) à 3 ECTS-Kreditpunkten, die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden, sowie einer Seminararbeit mit 6 ECTS-Kreditpunkten, die ebenfalls mit einer Note evaluiert wird. Obligatorisch müssen 2 von den 4 UE belegt sowie eine Seminararbeit, die den Inhalt einer besuchten UE aus diesem Modul vertiefen soll, verfasst werden. Die  Wahl der  UE  ist  den  Studierenden  überlassen.  Damit  das  Modul  validiert  wird,  müssen  sowohl  die  2 gewählten UE als auch die Seminararbeit mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere aus  den  restlichen  zur  Auswahl  stehenden  UE  in  diesem  Modul  ersetzt  werden.  Das  Schreiben  der Seminararbeit setzt den positiven Abschluss der Module 1 und 2 voraus. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## MODUL 6: LEHREN UND LERNEN
+
+## 12 ECTS
+
+In diesem Modul wird zum einen das Themengebiet der Allgemeinen Didaktik bearbeitet. Zum anderen wird eine Zwischenprüfung über erziehungswissenschaftliche Grundlagen absolviert, die aus einem schriftlichen und  mündlichen  Teil  besteht.  In  dieser  soll  die  Fähigkeit  unter  Beweis  gestellt  werden,  pädagogisches Grundwissen  strukturiert  und  zusammenhängend  darzustellen  und  kritisch  zu  reflektieren.  Sie  dient  als Vorbereitung für die Bachelorarbeit. Die Bestimmungen für die Zwischenprüfung sind in Richtlinien festgelegt, welche auf der Homepage des Departements für Erziehungswissenschaften zu finden sind.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                                    |        |
+|-----------------------------|--------------------------------------------------------------|--------|
+| F24.00300                   | Allgemeine Didaktik I, Grundformen des Lehrens und Lernens*  | 3 ECTS |
+| F24.00301                   | Allgemeine Didaktik II, Grundformen des Lehrens und Lernens* | 3 ECTS |
+| F23.00139                   | Zwischenprüfung "Grundlagen der Erziehungswissenschaften"*   | 6 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle  Unterrichtseinheiten  (UE)  sind  obligatorisch  und  werden  mit  einer  mündlichen  und/oder  schriftlichen Prüfung evaluiert und benotet. Die Absolvierung der Zwischenprüfung setzt die Validierung von 42 ECTSKreditpunkten aus den Modulen 1 bis 5 voraus. Damit das Modul validiert wird, müssen beide UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note  des  Moduls  ergibt  sich  aus  dem  ungerundeten  und  nicht  gewichteten  Durchschnitt  der  Noten  der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 7: PRAKTIKA IN ERZIEHUNGSWISSENSCHAFTEN
+
+## 15 ECTS
+
+Dieses  Modul  umfasst  ein  Praktikum  sowohl  in  einem  pädagogischen  Handlungsfeld  als  auch  in  einem erziehungswissenschaftlichen  Forschungsprojekt  im  Umfang  von  jeweils  180  Stunden.  Zudem  muss  ein Begleitseminar  zu  den  Praktika  absolviert  werden.  Die  Praktika  dienen  dazu,  eigene  Erfahrungen  mit professionellem  Handeln  in  pädagogischen  Institutionen  und  Handlungsfeldern  sowie  in  der  Forschungspraxis  zu  sammeln.  Im  Zentrum  des  Begleitseminars  steht  die  theoretisch  fundierte  und  fallbezogene Auseinandersetzung mit Fragen pädagogischer Professionalität sowie der Methodologie erziehungswissenschaftlicher Forschung. Die Bestimmungen für das Praktikum sind in Richtlinien festgelegt, welche auf der Homepage des Departements für Erziehungswissenschaften zu finden sind.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                      |        |
+|-----------------------------|------------------------------------------------|--------|
+| F23.00114                   | Forschungspraktikum                            | 6 ECTS |
+| F23.00051                   | Praktikum in einem pädagogischen Handlungsfeld | 6 ECTS |
+| F23.00042                   | Begleitseminar zum Praktikum                   | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden nach den Modalitäten «bestanden» oder «nicht bestanden» bewertet. Die Praktika gelten als bestanden, wenn die jeweils 180 Stunden vom Praktikumsgeber sowie von der Verantwortlichen des Forschungsprojektes bestätigt werden. Im Falle eines Nichtbestehens muss  ein  neuer  Praktikumsplatz  mit  180  Stunden  gesucht  und  absolviert  werden.  Beim  wiederholten Nichtbestehen gilt das Praktikum als «definitiv nicht bestanden». Damit das Modul validiert wird, müssen alle 3 UE bestanden werden. Die Kompensation einer nicht bestandenen Bewertung ist nicht möglich. Das Modul wird ebenfalls nach den Modalitäten «bestanden» oder «nicht bestanden» bewertet.
+
+## MODUL 8: WAHLKURSE
+
+## 15 ECTS
+
+Dieses  Modul  soll  es  den  Studierenden  ermöglichen,  sich  für  andere  Studienbereiche  zu  öffnen.  Die Studierenden wählen ihre Unterrichtseinheiten (UE) frei aus den UE, die von den anderen Departementen der Universität als «soft skills» geöffnet werden. Die Studierenden achten darauf, dieses Modul im Laufe des Studiums zu absolvieren. Empfohlen werden Lehrangebote, die das Hauptstudium sinnvoll ergänzen.
+
+|   Unterrichtseinheiten (UE) | Unterrichtseinheiten (UE)                            |         |
+|-----------------------------|------------------------------------------------------|---------|
+|                           0 | Kurse aus den offenen Angeboten anderer Departemente | 15 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Die Evaluation und Validierung der Unterrichtseinheiten (UE) wird von den jeweiligen Studienbereichen, die die UE verantworten, festgelegt und übernommen. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. Wird eine UE nicht bestanden, kann diese durch eine andere UE ersetzt werden.
+
+## MODUL 9: BACHELORARBEIT
+
+## 15 ECTS
+
+Die Bachelorarbeit wird zu einem Themengebiet der Erziehungswissenschaften selbstständig verfasst. Diese Arbeit bildet den Abschluss des Bachelorstudiums und hat zum Ziel, die Fähigkeit zu einer eigenständigen wissenschaftlichen  Auseinandersetzung  mit  einer  erziehungswissenschaftlichen  Fragestellung  darzulegen: eine wissenschaftliche Problemstellung zu identifizieren und diese auf der Basis relevanter Fachliteratur und unter Berücksichtigung wissenschaftlicher Gepflogenheiten zu bearbeiten. Die Studierenden werden von einer Mitarbeiterin bzw. einem Mitarbeiter des Departementes für Erziehungswissenschaften individuell betreut. Das Verfassen  der  Bachelorarbeit  wird  zudem  durch  eine  Begleitveranstaltung  unterstützt,  welche  integraler Bestandteil der Bachelorarbeit ist. Die  Bestimmungen für die  Bachelorarbeit sind  in Richtlinien festgelegt, welche auf der Homepage des Departements für Erziehungswissenschaften zu finden sind.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)           |                                     |
+|-------------------------------------|-------------------------------------|-------------------------------------|
+| F23.00053                           | Bachelorarbeit                      | 12 ECTS                             |
+| F23.00078                           | Begleitveranstaltung Bachelorarbeit | 3ECTS                               |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten |
+
+Das Schreiben der Bachelorarbeit setzt das erfolgreiche Absolvieren mindestens einer der Seminararbeiten aus  den  Modulen  4  oder  5  sowie  der  Zwischenprüfung  aus  dem  Modul  6  voraus.  Das  Verfassen  der Bachelorarbeit  sowie  die  Absolvierung  der  Begleitveranstaltung  sind  obligatorisch.  Ausschliesslich  die Bachelorarbeit wird mit einer Note bewertet. Die Note der Bachelorarbeit ist gleichzeitig die Note des Moduls. Im Falle eines Nichtbestehens muss die Bachelorarbeit überarbeitet und erneut eingereicht werden. Beim wiederholten Nichtbestehen gilt die Bachelorarbeit als «definitiv nicht bestanden».
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Jeder absolvierte Leistungsnachweis muss für den erfolgreichen Studienabschluss positiv benotet sein. Die oder der Dozierende informiert zu Beginn der Unterrichtseinheit über die genauen Modalitäten der Evaluation der Unterrichtseinheit.
+
+Die Modalitäten für die Erstellung und Abgabe von schriftlichen Arbeiten sind dem Schreibleitfaden für das Verfassen  von  schriftlichen  Arbeiten  zu  entnehmen,  welcher  auf  der  Homepage  des  Departements  für Erziehungswissenschaften zu finden ist.
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich absolviert wurden.
+
+## 4.2 Anerkennung
+
+Mit  Ausnahme  der  Bachelorarbeit,  der  Seminararbeiten  und  der  UE Zwischenprüfung  "Grundlagen  der Erziehungswissenschaften" können  alle  Unterrichtseinheiten  dieses  Studienprogramms  durch  eine  formale Anerkennung (im Sinne von Art. 3 Abs. 5 Anerkennungsrichtlinien) und im Rahmen der maximal vorgesehenen Anzahl von ECTS-Kreditpunkten (Art. 3 Abs. 1) angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Nicht eingeschriebene Studierende haben keinen Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Seminararbeiten in den Modulen 4 und 5 sowie alle UE im Modul 7 Praktika in Erziehungswissenschaften stellen UE dar, die ausserhalb der Sessionen evaluiert werden.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel 3.3  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht  bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Die Abschlussnote, die als Grundlage für die Vergabe des Prädikats dient, ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der validierten Module dieses Studienprogramms; die Note eines Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt (Art. 41 des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester 2025 in Kraft. Er gilt für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende,  die  zum  Zeitpunkt  des  Inkrafttretens  dieses  Studienplans  bereits  im  Bachelorprogramm Erziehungswissenschaften Bereich I, 120 ECTS-Punkte der Philosophischen Fakultät eingeschrieben waren, unterliegen  diesem  Studienplan.  Die  vollständige  Anerkennung  der  erworbenen  ECTS-Kreditpunkte  ist gewährleistet. Während der Übergangszeit entscheidet die Studienprogrammverantwortliche, welche Unterrichtseinheiten  gemäss  diesem  Studienplan  diejenigen  ersetzen,  die  eventuell  nicht  mehr  angeboten werden.

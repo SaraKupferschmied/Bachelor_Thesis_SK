@@ -1,0 +1,19 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:12.047Z",
+  "title": "Recueil systématique 511.300 Systematische Sammlung 1",
+  "pages": 1,
+  "reg_doc_key": "99d7ef2af7fb9391783c0ae365cbf6c68f3b8cbf",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Memorandum of Understanding between the University of Fribourg, Switzerland and the University Ilia State University, Georgia (EN)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277221",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277221",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Memorandum_of_Understanding_between_the_University_of_Fribourg_Switzerland_and_the_University_Ilia_State_University_Georgia_EN__99d7ef2af7.pdf",
+  "sha256": "d9c54f2902a409c90ddb7187515ce44bf10563458861e334139847c0b483cb21",
+  "fetched_at": "2026-04-03T12:10:31.923Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.300 Systematische Sammlung 1

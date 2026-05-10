@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.622Z",
+  "title": "Recueil systématique 510.805 Systematische Sammlung 1",
+  "pages": 4,
+  "reg_doc_key": "8c968eef2368e23fb65113020f3a17ae7453eede",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung zwischen der Universität Bern und ihrer Medizinischen Fakultät und der Universität Freiburg und ihrer Mathematisch-Naturwissenschaftlichen Fakultät (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277128",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277128",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_zwischen_der_Universit_t_Bern_und_ihrer_Medizinischen_Fakult_t_und_der_Universit_t_Freiburg_und_ihrer_Mathematisch-Naturwissenschaftlichen_Fakult_t",
+  "sha256": "4e4e6e675cf7355772b557d8a8ecdc15241e9f06b793bf0be517dc290c0b87c5",
+  "fetched_at": "2026-04-03T12:11:09.919Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.805 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.805 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.805 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.805 Systematische Sammlung 4

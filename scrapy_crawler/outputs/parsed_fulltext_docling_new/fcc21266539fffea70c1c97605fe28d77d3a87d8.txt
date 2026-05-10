@@ -1,0 +1,358 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T05:30:58.994Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_Physik_fcc21266539fffea70c1c97605fe28d77d3a87d8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "fcc21266539fffea70c1c97605fe28d77d3a87d8",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 150,
+  "program_name": "Physics",
+  "doc_label": "Hauptfach Physik",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2020/Plan_BSc_PH_de.pdf?time=100",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_Physik_fcc21266539fffea70c1c97605fe28d77d3a87d8.pdf",
+  "sha256": "5175a2f4c1ae99fdcdaf80d52921b14673862e5d08a73b622a4d6b81fed96de0",
+  "fetched_at": "2026-04-03T11:27:41.651Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2020/Plan_BSc_PH_de.pdf?time=100, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_PH_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+| ...................................................................................................................................................1   | ...................................................................................................................................................1                            | ...................................................................................................................................................1                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Inhaltsverzeichnis ....................................................................................................................2               | Inhaltsverzeichnis ....................................................................................................................2                                        | Inhaltsverzeichnis ....................................................................................................................2                                                               |
+| 1                                                                                                                                                      | Allgemeines .......................................................................................................................3                                            | Allgemeines .......................................................................................................................3                                                                   |
+| 1.1                                                                                                                                                    | Universitäre Titel und Studiengänge................................................................................................ 3                                           | Universitäre Titel und Studiengänge................................................................................................ 3                                                                  |
+| 1.2                                                                                                                                                    | Aufbau des Bachelor-Studiums........................................................................................................ 3                                          | Aufbau des Bachelor-Studiums........................................................................................................ 3                                                                 |
+| 1.3                                                                                                                                                    | Erlangte Kompetenzen....................................................................................................................... 4                                   | Erlangte Kompetenzen....................................................................................................................... 4                                                          |
+| 1.4                                                                                                                                                    | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Kreditpunkten ...................... 4                                                                              | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Kreditpunkten ...................... 4                                                                                                     |
+| 1.5                                                                                                                                                    | Unterrichtssprachen........................................................................................................................... 5                                | Unterrichtssprachen........................................................................................................................... 5                                                       |
+| 1.6                                                                                                                                                    | Wissenschaftsethik ............................................................................................................................ 5                               | Wissenschaftsethik ............................................................................................................................ 5                                                      |
+| 1.7                                                                                                                                                    | Reglemente und ergänzende Informationsquellen ......................................................................... 5                                                       | Reglemente und ergänzende Informationsquellen ......................................................................... 5                                                                              |
+| 2                                                                                                                                                      | Bachelor of Science (BSc)................................................................................................6                                                      | Bachelor of Science (BSc)................................................................................................6                                                                             |
+| 2.1                                                                                                                                                    | Das erste Studienjahr......................................................................................................................... 6                                | Das erste Studienjahr......................................................................................................................... 6                                                       |
+|                                                                                                                                                        | 2.1.1                                                                                                                                                                           | Unterrichtseinheiten des ersten Studienjahres ....................................................................................6                                                                    |
+|                                                                                                                                                        | 2.1.2                                                                                                                                                                           | Inhalt der UE des ersten Jahres .............................................................................................................7                                                         |
+|                                                                                                                                                        |                                                                                                                                                                                 | Vorlesungen................................................................................................................................................................ 7                          |
+|                                                                                                                                                        |                                                                                                                                                                                 | Propädeutische Nebenfächer ...................................................................................................................................... 7                                    |
+|                                                                                                                                                        |                                                                                                                                                                                 | Praktika....................................................................................................................................................................... 7                      |
+| 2.2                                                                                                                                                    | Das zweite Studienjahr....................................................................................................................... 8                                 | Das zweite Studienjahr....................................................................................................................... 8                                                        |
+|                                                                                                                                                        | 2.2.1                                                                                                                                                                           | Unterrichtseinheiten des zweiten Studienjahres ..................................................................................8                                                                     |
+|                                                                                                                                                        | 2.2.2                                                                                                                                                                           | Unterrichtseinheiten des zweiten Studienjahres ..................................................................................8                                                                     |
+|                                                                                                                                                        |                                                                                                                                                                                 | Vorlesungen................................................................................................................................................................ 8                          |
+|                                                                                                                                                        | Praktika....................................................................................................................................................................... | 9                                                                                                                                                                                                      |
+| 2.3                                                                                                                                                    | Das dritte Studienjahr ........................................................................................................................ 9                               | Das dritte Studienjahr ........................................................................................................................ 9                                                      |
+|                                                                                                                                                        | 2.3.1                                                                                                                                                                           | Unterrichtseinheiten des dritten Studienjahres....................................................................................9                                                                    |
+|                                                                                                                                                        |                                                                                                                                                                                 | Programm der ungeraden Jahre.................................................................................................................................. 9                                       |
+|                                                                                                                                                        | Programm der                                                                                                                                                                    | geraden Jahre.................................................................................................................................... 10                                                   |
+|                                                                                                                                                        | 2.3.2                                                                                                                                                                           | Jahres...........................................................................................................10                                                                                    |
+|                                                                                                                                                        |                                                                                                                                                                                 | Inhalt der UE des dritten Vorlesungen.............................................................................................................................................................. 10 |
+|                                                                                                                                                        |                                                                                                                                                                                 | Proseminar ........................................................................................................................................................ 10                                 |
+|                                                                                                                                                        |                                                                                                                                                                                 | Das Praktika..................................................................................................................................................................... 10                   |
+|                                                                                                                                                        | 2.4 Examina............................................................................................................................................. 11                     | 2.4 Examina............................................................................................................................................. 11                                            |
+
+## 1 Allgemeines
+
+Dieser Studienplan enthält alle notwendigen Bestimmungen, welche das Physikstudium an der Universität  Freiburg  regeln.  Der  Studienplan  stützt  sich  auf  die  Bestimmungen  der  Mathematisch-Naturwissenschaftlichen  und  Medizinischen  Fakultät,  die  im Reglement vom 6. April 2020 für die Erlangung der Bachelor of Science und der Master of Science der Math.-Nat. und Med. Fakultät (im folgenden 'Reglement' genannt) festgelegt sind.
+
+Das Reglement vom 6. April 2020 für die Erlangung der Bachelor of Science und der Master of Science,  schreibt  für  das  Bachelor-  und  Masterstudium,  sowie  für  die  Zusatzfächer  eine Beschränkung der Studiendauer vor (siehe Artikel 10, 11a, 12a, 13 und 31) (https://www3.unifr.ch/scimed/de/rules/regulations).
+
+## 1.1  Universitäre Titel und Studiengänge
+
+Die Math.-Nat. und Med. Fakultät der Universität Freiburg verleiht Studierenden, welche ihre Studien mit Erfolg abgeschlossen haben, die folgenden offiziellen Titel:
+
+-  Bachelor of Science in Physik, Universität Freiburg , im folgenden BSc genannt.
+-  Master of Science in Physics, Universität Freiburg , im Folgenden MSc genannt.
+
+Der Studiengang des BSc in Physik ist  ein  universitäres  Studium, das  durch seine Methoden und  Problemorientierung  eine  wissenschaftliche  Grundausbildung  in  Physik  vermittelt.  Es ermöglicht den Einstieg in ein breites Feld von Berufen. Zugleich bildet es eine Grundlage für lebenslanges Lernen, was eine unerlässliche Voraussetzung für eine erfolgreiche Berufstätigkeit ist.  Der  BSc  in  Physik  vermittelt  aber  auch  die  notwendige  Ausbildung  für  weiterführende Studien, welche zum MSc in Physik oder in einem anderen naturwissenschaftlichen Fach führen. Zum  BSc-Studium  werden  alle  Inhaber  von  eidgenössisch  anerkannten  Maturitätszeugnissen oder als äquivalent anerkannten Ausweisen zugelassen (vgl. Art. 6 des Reglements).
+
+Der Studiengang  des  MSc  in  Physics ist  ein  wissenschaftliches  Studium,  das  eine  Spezialisierung in einem bestimmten Teilgebiet erlaubt. Der MSc in Physik eröffnet den Zugang zu verschiedenen beruflichen Tätigkeiten in Forschung, Lehre, Industrie, Wirtschaft oder Verwaltung. Der  MSc  ist  ferner  die  Grundlage  für  die  wissenschaftliche  Arbeit  und  eine  vertiefte  wissenschaftliche Ausbildung im Rahmen eines Doktorats. Ergänzt durch das Zusatzfach Mathematik erlaubt der MSc auch den Zugang zur ergänzenden didaktischen Ausbildung für das Lehrdiplom für Maturitätsschulen (LDM).
+
+## 1.2  Aufbau des Bachelor-Studiums
+
+Das zum BSc führende Studium gliedert sich in Unterrichtseinheiten (UE) wie Vorlesungen, Übungen, Praktika, Seminararbeiten, Projektarbeiten usw. Jeder UE sind eine bestimmte Anzahl ECTS 1 -Punkte zugeordnet, die durch Bewertung (z.B. in Form von Prüfungen) und Validierung in ECTS-Kredite umgewandelt werden (vgl. Kap. 1.3). Das BSc-Studium erfordert 180 ECTSKredite (entsprechend einem Vollzeitstudium von 6 Semestern).
+
+Das BSc-Studium setzt sich aus dem Hauptfach im Umfang von 150 ECTS und einem wählbaren Zusatzfach von 30 ECTS zusammen. Das Hauptfach umfasst neben den obligatorischen Lehrveranstaltungen  in  Physik  und  Mathematik  auch ein  propädeutisches  Fach wählbar zwischen  Chemie,  Informatik  und  Biologie  (Variante  I).  Das  Zusatzfach  muss  ausserhalb  des Lehrangebots  im  Hauptfach  gewählt  werden.  Unter  den  wählbaren  Zusatzfächern  bildet  die
+
+1 ECTS steht für European Credit Transfer System. Ein ECTS-Punkt entspricht etwa 30 Std. Arbeitsaufwand
+
+Mathematik eine natürliche Ergänzung für den Physiker. Wertvoll für das Physikstudium kann auch eine Kombination mit Informatik, Chemie und Biologie sein. Für die Wahl eines anderen Zusatzfachs  wird  den  Studierenden  empfohlen,  sich  an  den  Studienberater  der  Physik  zu wenden.
+
+Nachstehend werden Sinn und Zweck der verschiedenen Formen von UE erläutert:
+
+-  Die Vorlesungen führen  in  die  wissenschaftliche  Methodik  und  das  wissenschaftliche Denken  ein.  Sie  tragen  dazu  bei,  die  notwendigen  Kenntnisse  zu  erwerben  und  die fundamentalen Konzepte zu verstehen.
+-  Die Übungen ergänzen  die  Vorlesungen  und  tragen  wesentlich  zum  Verständnis  und  zur Verarbeitung von Vorlesungsinhalten bei. Sie bieten Gelegenheit, die erlernten Prinzipien und die mathematischen Techniken anzuwenden.
+-  Die Praktika in  experimentellen, aber auch in theoretischen Gebieten bilden die Grundlage der wissenschaftlichen Arbeit. Sie bieten Gelegenheit, spezifische Techniken der Physik an realen  Beispielen auszuführen sowie sich über experimentelle und systematische Fehler der gemessenen Grössen Rechenschaft zu geben.
+-  Die Seminararbeiten dienen der Verarbeitung und der mündlichen Präsentation von zuvor bearbeiteten wissenschaftlichen Resultaten.
+-  Die Projektarbeiten bilden den ersten Schritt zur experimentellen oder theoretischen Lösung eines konkreten Problems.
+
+## 1.3  Erlangte Kompetenzen
+
+Mit  dem  Abschluss  eines  BSc  in  Physik  haben  sich  die  Studierenden  die  wissenschaftlichen Grundlagen, allgemeinen Kenntnisse sowie einen Überblick über das Fach Physik angeeignet. Sie  haben  die  Kompetenz  erlangt,  fachliche  Zusammenhänge  zu  erkennen  und  ein  kritisches Denken entwickelt, welches es ihnen erlauben wird ein vertiefendes Studium zu beginnen und sich für ein Spezialgebiet des Bereiches zu entscheiden.
+
+Mit jedem propädeutischen Fach erwirben die Studierenden Grundkenntnisse in einem Gebiet, das nicht direkt zum Hauptfach gehört, aber für dessen besseres Verständnis wichtig ist. Zudem erweitern die propädeutischen Fächer den wissenschaftlichen Horizont der Studierenden.
+
+Mit einem Zusatzfach im Rahmen des BSc entwickeln die Studierenden einen Zugang zur Interdisziplinarität,  der  es  ihnen  erleichtern  wird  mit  Fachleuten  anderer  Disziplinen  zu  kommunizieren und zusammen zu arbeiten.
+
+Dank  der zweisprachigen  Ausbildung kennen  die  Studierenden  die  Fachbegriffe  in  beiden Sprachen und sind fähig, einen Dialog mit Fachleuten deutscher und französischer Sprache zu führen.
+
+## 1.4  Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTSKreditpunkten
+
+Die Zuteilung von ECTS-Kreditpunkten erfolgt in drei Schritten: Bewertung der UE, Gruppierung von UEs in Anrechnungseinheiten, sowie Anrechnung der zugehörigen ECTS-Punkte.
+
+Die Bewertung der Übungen, Praktika und Seminararbeiten erfolgt nach Kriterien, welche zu  Beginn  der  Veranstaltung  festgelegt  werden  (Anzahl  abgegebener  und  korrekt  gelöster Übungsaufgaben, erfolgreich ausgeführte Praktikumsaufgaben usw.). Die Zulassung zur Prüfung einer  Vorlesung  kann  an  die  Bedingung  geknüpft  werden,  dass  die  Anforderungen  der zugehörigen Übungen erfüllt sind. Die Bewertung von Vorlesungen erfolgt  durch  mündliche und/oder schriftliche Prüfungen, deren Art und Dauer in den Anhängen zu den Studienplänen, z.B. der Bewertung der UE in Physik, festgelegt sind und während der regulären
+
+Examensperioden  (Sessionen)  im  Frühjahr,  im Sommer  und  im  Herbst  stattfinden. Die Studierenden schreiben sich für jede Prüfung elektronisch über das Studierendenportal MyUniFR  (https://my.unifr.ch/)  ein.  Die  Prüfung  bezieht  sich  auf  die  Materie  der  zuletzt unterrichteten UE. Ausnahmen werden vom betreffenden Departement und/oder verantwortlichen Dozenten mitgeteilt. Die vorgeschriebenen Fristen sind dabei einzuhalten. Die Notenskala reicht von 6 (beste Note) bis 1 (schlechteste Note). Eine Prüfung, deren Note unter 4 liegt, kann einmal wiederholt werden und zwar frühestens in der darauf folgenden Session.
+
+Die Anrechnungseinheiten fassen  mehrere,  separat  evaluierte  UE  zusammen.  Art.  22  und  24 des Reglements bestimmt die Anzahl der Anrechnungseinheiten, während deren Inhalt durch den vorliegenden Studienplan festgelegt ist.
+
+Die ECTS-Punkte werden gemäss Art. 23 des Reglements angerechnet, sofern
+
+-  das gewichtete Mittel der Prüfungsnoten in der Anrechnungseinheit mindestens 4 beträgt. Die Gewichtung wird durch die der UE zugeordneten Anzahl ECTS-Punkte bestimmt.
+-  die Bewertungskriterien der nicht geprüften UE (Praktika, Übungen usw.) erfüllt sind.
+-  keine Note gleich 1.0 ist.
+
+Unter diesen Voraussetzungen werden die Anrechnungseinheiten validiert und die ECTS-Punkte in  ECTS-Kredite umgewandelt. Auf Verlangen und nach Bezahlung der Prüfungsgebühren stellt das  Dekanat  einen  Leistungsnachweis  aus,  in  welchem  die  Prüfungsresultate  und  die  Anzahl erworbener Kredite bestätigt werden (Art. 26 und 27 des Reglements)..
+
+## 1.5  Unterrichtssprachen
+
+Die  Lehrveranstaltungen  des  BSc  erfolgen  in  deutscher  oder  französischer  Sprache.  Die Studierenden  haben  die  Wahl,  sich  in  der  einen  oder  der  anderen  Sprache  auszudrücken.  Die gemeinsamen  Lehrveranstaltungen  des  Bachelor  und  Master  im  dritten  Studienjahr  werden  in Englisch  gehalten.  Prüfungen,  Präsentationen  und  schriftliche  Arbeiten  können  wahlweise  in deutscher oder französischer Sprache abgelegt bzw. durchgeführt werden.
+
+## 1.6  Wissenschaftsethik
+
+Ethische Prinzipien gehören auch in die wissenschaftliche Ausbildung. Die Grundsätze der Ethik verlangen, dass auch in der wissenschaftlichen Ausbildung die international anerkannten Regeln beachtet werden. Insbesondere sind bei der Anfertigung einer wissenschaftlichen Arbeit (Projekt, Seminar, Bacheloroder Masterarbeit, Bericht usw.) alle Quellen (Zeitschriftenartikel, mündliche Mitteilungen, Internetseiten usw.) korrekt zu zitieren.
+
+## 1.7  Reglemente und ergänzende Informationsquellen
+
+Weiterführende und ausführlichere  Informationen betreffend das Physikstudium finden sich in den Dokumenten, die auf der Webseite http://www3.unifr.ch/scimed/plans aufgeführt sind. Sie können  diese  auch  im  Sekretariat  des  Physikdepartements,  Chemin  du  Musée  3,  CH-1700 Freiburg, beziehen.
+
+## 2 Bachelor of Science (BSc)
+
+[Version 2020 Anrechnungseinheiten: PV-SPH.0000027, PV-SPH.0000028]
+
+Das Programm des BSc erstreckt sich über 3 Jahre Vollzeitstudium und entspricht 180 ECTSKreditpunkten. Es besteht aus dem Hauptfach (150 ECTS) und einem Zusatzfach von 30 ECTS. Die Physiklehrveranstaltungen der ersten drei Semester vermitteln die Grundlagen der klassischen  Physik  und  der  modernen  Physik,  während  in  den  folgenden  Semestern  in systematischer Weise die verschiedenen Gebiete der Physik vertieft werden.
+
+## 2.1  Das erste Studienjahr
+
+Im  ersten  Studienjahr  in  Physik  gilt  es  einerseits,  einen  möglichst  reibungslosen  Übergang zwischen Gymnasium und Universität zu gewährleisten und gleichzeitig tragfähige Grundlagen für das weitere Studium zu legen. Die Unterrichtseinheiten des ersten Jahres sind zu einer ersten Anrechnungseinheit  zusammengefasst,  um  den  Studierenden  schon  früh  die  Möglichkeit  zu bieten, ihr Interesse für das Fach Physik und ihre Fähigkeiten unter Beweis zu stellen.
+
+## 2.1.1  Unterrichtseinheiten des ersten Studienjahres
+
+## Semester 1 (Herbst)
+
+| Code      | Unterrichtseinheit                                                    |   tot. Std. |   ECTS |
+|-----------|-----------------------------------------------------------------------|-------------|--------|
+|           | Physik                                                                |             |        |
+| SPH.01102 | Physik I (Vorlesung und Übungen)                                      |          84 |      7 |
+| SPH.01300 | Einführung in die theoretische Physik I                               |          28 |      2 |
+| SPH.01001 | Physik I (Anfängerpraktikum)                                          |          36 |      3 |
+|           | Mathematik                                                            |             |        |
+| SMA.01103 | Analysis I (Vorlesung und Übungen)                                    |          84 |      7 |
+| SMA.01203 | Lineare Algebra I (Vorlesung und Übungen)                             |          84 |      7 |
+|           | Propädeutisches Fach                                                  |             |        |
+| -         | Chemie (Variante A oder B) oder Informatik oder Biologie (Variante I) |             |      6 |
+|           |                                                                       |             |     32 |
+
+## Semester 2 (Frühling)
+
+| Code      | Unterrichtseinheit                                                    |   tot. Std. |   ECTS |
+|-----------|-----------------------------------------------------------------------|-------------|--------|
+|           | Physik                                                                |             |        |
+| SPH.01202 | Physik II (Vorlesung und Übungen)                                     |          84 |      7 |
+| SPH.01400 | Einführung in die theoretische Physik II                              |          28 |      2 |
+| SPH.01002 | Physik II (Anfängerpraktikum)                                         |          36 |      3 |
+|           | Mathematik                                                            |             |        |
+| SMA.01104 | Analysis II (Vorlesung und Übungen)                                   |          84 |      7 |
+| SMA.01204 | Lineare Algebra II (Vorlesung und Übungen)                            |          84 |      7 |
+|           | Propädeutisches Fach                                                  |           8 |        |
+| -         | Chemie (Variante A oder B) oder Informatik oder Biologie (Variante I) |             |      6 |
+|           |                                                                       |             |     32 |
+
+## 2.1.2 Inhalt der UE des ersten Jahres
+
+Eine ausführliche Beschreibung jeder UE mit Inhalt und Lernzielen steht im Vorlesungsverzeichnis zur Verfügung (https://www.unifr.ch/timetable).
+
+## Vorlesungen
+
+Die Vorlesungen Physik I und II sind Grundvorlesungen, in denen Konzepte vermittelt und anhand von Experimenten illustriert werden. Die Gebiete der Physik I (Mechanik, Wellen, Akustik, Thermodynamik) und  die  Gebiete  der Physik  II (Elektrizität,  Magnetismus,  Optik  und  Atomphysik)  ergänzen  die  gymnasialen  Kenntnisse  und  dienen  als  Vorbereitung  auf  die  moderne Physik. Die Vorlesungen Einführung in die theoretische Physik I und II geben einen vertieften Einblick in ausgewählte Gebiete der Physik I und II und stellen spezielle mathematische Hilfsmittel  für  die  Gebiete  der  Mechanik,  der  Elektrizität  und  des  Magnetismus  bereit.  Sie  dienen auch  als  Vorbereitung  für  die  Vorlesungen  der  theoretischen  Physik.  In  den  Vorlesungen Analysis I und II und Lineare Algebra I und II erwerben die Studierenden das notwenige Grundwissen in Mathematik, um das Physikstudium erfolgreich weiterzuführen.
+
+## Propädeutische Nebenfächer
+
+Mit dem propädeutischen Nebenfach erwerben die Physikstudierenden die Grundausbildung in einem anderen Fach, wählbar unter den Fächern Chemie, Informatik oder Biologie (Variante I). Die entsprechenden  UE  von  total  12  ECTS-Kreditpunkten  werden  von  den  betreffenden  Departementen festgelegt.
+
+## Praktika
+
+Das Anfängerpraktikum (AP) erstreckt sich über zwei Semester. Es bietet die Gelegenheit, mit Hilfe einfacher Versuche ein Gefühl für die Messung physikalischer Grössen und deren Fehler zu  entwickeln.  Die  Studierenden  lernen,  die  experimentellen  Resultate  zu  analysieren  und  zu interpretieren.
+
+## 2.2  Das zweite Studienjahr
+
+Im zweiten Studienjahr können die Studierenden damit beginnen, UE im gewählten Zusatzfach (30  ECTS)  zu  belegen.  Diese  von  den  betreffenden  Departementen  bezeichneten  UE  sind  im Studienplan  der  propädeutischen  Fächer  und  der  Zusatzfächer  der  Math.-Nat.  und  Med. Fakultät der Universität Freiburg aufgeführt. Die Studierenden sind verpflichtet, sich frühzeitig über  dieses  Fach  zu  informieren,  um  möglichen  Stundenplankonflikten  besser  ausweichen  zu können.
+
+## 2.2.1 Unterrichtseinheiten des zweiten Studienjahres
+
+## Semester 3 (Herbst)
+
+| Code      | Unterrichtseinheit                                    |   tot. Std. | ECTS   |
+|-----------|-------------------------------------------------------|-------------|--------|
+|           | Physik                                                |             |        |
+| SPH.02101 | Moderne Physik (Vorlesung und Übungen)                |          84 | 7      |
+| SPH.02501 | Elektrodynamik (Vorlesung und Übungen)                |          42 | 3.5    |
+| SPH.02701 | Klassische Mechanik (Vorlesung und Übungen)           |          42 | 3.5    |
+| SPH.02001 | Physik A (Fortgeschrittenenpraktikum)                 |          56 | 4      |
+|           | Mathematik                                            |             |        |
+| SMA.02131 | Analysis III (Vorlesung mit Übungen)                  |          84 | 7      |
+|           | Zusatzfach                                            |             |        |
+| -         | (gemäss Liste der UE des entsprechenden Fachbereiche) |             | x      |
+|           |                                                       |             | 25+x   |
+
+## Semester 4 (Frühling)
+
+| Code      | Unterrichtseinheit                                                 | tot. Std.   | ECTS   |
+|-----------|--------------------------------------------------------------------|-------------|--------|
+|           | Physik                                                             |             |        |
+| SPH.02203 | Einführung in die Teilchen- und Kernphysik (Vorlesung und Übungen) | 42          | 3.5    |
+| SPH.02402 | Thermodynamik (Vorlesung und Übungen)                              | 42          | 3.5    |
+| SPH.02002 | Physik P (Fortgeschrittenenpraktikum)                              | 56          | 4      |
+| SPH.02601 | Quantenmechanik (Vorlesung und Übungen)                            | 84          | 7      |
+| SPH.02801 | Mathematische Methoden der Physik (Vorlesung und Übungen)          | 84          | 7      |
+|           | Zusatzfach                                                         |             |        |
+| -         | (gemäss Liste der UE des entsprechenden Fachbereiche)              | x           |        |
+|           |                                                                    |             | 25+x   |
+
+## 2.2.2 Unterrichtseinheiten des zweiten Studienjahres
+
+## Vorlesungen
+
+-  Die Vorlesung Einführung in die moderne Physik behandelt den Übergang von der klassischen Physik zur modernen Physik des 20. Jahrhunderts. Klassische Mechanik , Elektrodynamik sowie Quantenmechanik bilden die Grundvorlesungen der theoretischen Physik.
+-  Im  zweiten  Jahr  führt  die  Vorlesung Einführung  in  die  Teilchen-  und  Kernphysik die Studierenden  in  die  Physik  des  Kosmos  und  der  Beschleuniger  ein.  Die Thermodynamik vermittelt wichtige Kenntnisse des thermischen Gleichgewichts und der Entropie.
+-  Die Vorlesungen Analysis III und mathematische Methoden der Physik vermitteln nützliche Mathematikkenntnisse für die Quantenmechanik, Thermodynamik und statistische Mechanik.
+
+## Praktika
+
+Im  dritten  Semester  beginnt  das  Fortgeschrittenenpraktikum  (FP).  Die  Experimente  im  FP fördern  die  Geschicklichkeit  bei  der  Anwendung  von  experimentellen  Techniken  und  bei  der Analyse der gemessenen Daten.
+
+## 2.3  Das dritte Studienjahr
+
+Das Zusatzfach bildet einen wichtigen Bestandteil der Vorlesungen des dritten Jahres. Die meisten Physikvorlesungen werden aus einem Angebot im 2-Jahres Zyklus ausgewählt. Diese Kurse werden gemeinsam für das dritte Jahr im Bachelor- und das erste Jahr im Master-Studium angeboten. Inhaltlich entsprechen diese Vorlesungen dem Master-Niveau. Die Anforderungskriterien in den Übungen und Examina werden den Kenntnissen der Bachelor-Studierenden angepasst.
+
+## 2.3.1  Unterrichtseinheiten des dritten Studienjahres
+
+Das  nachstehende,  alternierende  Programm  des  2-Jahres  Zyklus  ermöglicht  einen  besseren Überblick über das gesamte Vorlesungsprogramm.
+
+## Programm der ungeraden Jahre 2
+
+## Fünftes Semester (Herbst)
+
+| Code       | Unterrichtseinheit                                       |   tot. Std. | ECTS   |
+|------------|----------------------------------------------------------|-------------|--------|
+|            | Physik                                                   |             |        |
+| SPH.03104  | Atomphysik (Vorlesung und Übungen)                       |          42 | 3.5    |
+| SPH.03303  | Magnetismus und Quantenfluide (Vorlesung und Übungen)    |          42 | 3.5    |
+| SPH.03007  | Physik A (Fortgeschrittenenpraktikum)                    |          56 | 4      |
+| SPH.03003  | Physik-Proseminar                                        |          14 | 1      |
+| SPH.03503  | Klassische statistische Mechanik (Vorlesung und Übungen) |          42 | 3.5    |
+| SPH.03700  | Physik im Alltag                                         |          28 | 3      |
+| Zusatzfach | Zusatzfach                                               |             |        |
+| -          | (gemäss Liste der UE des entsprechenden Fachbereiche)    |             | X      |
+|            |                                                          |             | 18.5+x |
+
+## Sechstes Semester (Frühling)
+
+| Code      | Unterrichtseinheit                                            |   tot. Std. | ECTS   |
+|-----------|---------------------------------------------------------------|-------------|--------|
+|           | Physik                                                        |             |        |
+| SPH.03203 | Atomare Spektroskopie (Vorlesung und Übungen)                 |          42 | 3.5    |
+| SPH.03404 | Struktur und Dynamik der Materie (Vorlesung und Übungen)      |          42 | 3.5    |
+| SPH.03008 | Einführung in die Forschung                                   |          84 | 6      |
+| SPH.03004 | Physik-Proseminar                                             |          14 | 1      |
+| SPH.03606 | Einführung in die Vielteilchentheorie (Vorlesung und Übungen) |          42 | 3.5    |
+|           | Zusatzfach                                                    |             |        |
+| -         | (gemäss Liste der UE des entsprechenden Fachbereiche)         |             | x      |
+|           |                                                               |             | 17.5+x |
+
+[Option : OP-SPH.0000015]
+
+## Programm der geraden Jahre 3
+
+## Fünftes Semester (Herbst)
+
+| Code       | Unterrichtseinheit                                    |   tot. Std. | ECTS   |
+|------------|-------------------------------------------------------|-------------|--------|
+|            | Physik                                                |             |        |
+| SPH.03105  | Teilchenphysik (Vorlesung und Übungen)                |          42 | 3.5    |
+| SPH.03304  | Elektronen in Festkörpern (Vorlesung und Übungen)     |          42 | 3.5    |
+| SPH.03007  | Physik A (Fortgeschrittenenpraktikum)                 |          56 | 4      |
+| SPH.03003  | Physik-Proseminar                                     |          14 | 1      |
+| SPH.03504  | Statistische Quantenmechanik (Vorlesung und Übungen)  |          42 | 3.5    |
+| SPH.03700  | Physik im Alltag                                      |          28 | 3      |
+| Zusatzfach | Zusatzfach                                            |             |        |
+| -          | (gemäss Liste der UE des entsprechenden Fachbereiche) |             | X      |
+|            |                                                       |             | 18.5+x |
+
+## Sechstes Semester (Frühling)
+
+| Code      | Unterrichtseinheit                                    |   tot. Std. | ECTS   |
+|-----------|-------------------------------------------------------|-------------|--------|
+|           | Physik                                                |             |        |
+| SPH.03204 | Moderne Optik (Vorlesung und Übungen)                 |          42 | 3.5    |
+| SPH.03405 | Weiche Materie (Vorlesung und Übungen)                |          42 | 3.5    |
+| SPH.03008 | Einführung in die Forschung                           |          84 | 6      |
+| SPH.03004 | Physik-Proseminar                                     |          14 | 1      |
+| SPH.03607 | Einführung in die Feldtheorie (Vorlesung und          |          42 | 3.5    |
+|           | Zusatzfach                                            |             |        |
+| -         | (gemäss Liste der UE des entsprechenden Fachbereiche) |             | x      |
+|           |                                                       |             | 17.5+x |
+
+## 2.3.2  Inhalt der UE des dritten Jahres
+
+## Vorlesungen
+
+Die Physikvorlesungen des dritten Jahres decken die verschiedenen Gebiete der Experimentalund der Theoretischen Physik ab. Sie basieren auf den Kenntnissen der ersten zwei Jahre und sind den Bachelor und Master Studierenden zugänglich. Die Vorlesung Physik im Alltag fördert das Verständnis für Phänomene denen der Physiker im Alltag begegnet.
+
+## Das Proseminar
+
+Das Proseminar behandelt aktuelle Themen. Während des dritten Jahres, muss jede Studierende ein Proseminar präsentieren. Die Studierenden lernen dabei anhand von Büchern und Artikeln in wissenschaftlichen  Zeitschriften  die  wichtigsten  Aspekte  eines  Problems  zu  erfassen  und  in einem strukturierten Vortrag darzustellen. Sie können gleichzeitig ihre Ausdrucksweise perfektionieren und didaktische Hilfsmittel anwenden.
+
+## Praktika
+
+Im  ersten  Semester  des  dritten  Jahres  verlaufen  die  Fortgeschrittenenpraktika  nach  denselben Modalitäten  wie  im  2.  Jahr.  Im  2.  Semester  wird  in  einer  der  Forschungsgruppen  des Departements, eine benotete Arbeit zur Einführung in die Forschung verfasst, unter der Leitung eines Assistenten oder einer Assistentin. Ziel ist es, den Studierenden oder die Studierende zu befähigen,  Bibliographie-Recherchen  durchzuführen,  Messungen  und  Rechnungen  in  einer
+
+3 z.B. 2018/19
+
+[Option : OP-SPH.0000016]
+
+Forschungsgruppe zu erstellen, einen Bericht zu verfassen und diesen am Ende des Semesters mündlich  vorzutragen.  Die  Themen  werden  zu  Semesterbeginn  von  den  Forschungsgruppen vorgeschlagen.
+
+## 2.4  Examina
+
+Die Bedingungen für die Bewertung der UE nach Studienbereich sind im Anhang beschrieben. Siehe Anhang der Physik und der Mathematik.
+
+Die Anrechnungseinheit BSc1 umfasst die UE des ersten Jahres.
+
+Die Anrechnungseinheit BSc2 umfasst die UE des Hauptfachs Physik des zweiten und dritten Studienjahres und zählt 86 ECTS-Kreditpunkte. Die Vorlesungen des zweiten und dritten Jahres werden in verschiedenen Examenssessionen bewertet.
+
+Die Anrechnungseinheit BSc3 umfasst die UE des Zusatzfachs, das gemäss dem Studienplan dieses Fachs evaluiert wird. Es gibt Anrecht auf 30 ECTS-Kreditpunkte. Ein nicht bestandenes Nebenfach kann durch ein anderes ersetzt werden.
+
+Nach  Anrechnung  der  Pakete  BSc1,  BSc2  und  BSc3  wird  der  Titel Bachelor  of  Science  in Physik, Universität Freiburg (BSc) verliehen.

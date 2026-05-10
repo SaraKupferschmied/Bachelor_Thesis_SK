@@ -1,0 +1,446 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T03:18:22.272Z",
+  "title": "Philosophy_Bachelor_120_Sociology_DE__BA_Soziologie_zu_120_ECTS_ce65cee0aee41a40b013c863bd58c4bce942d86b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ce65cee0aee41a40b013c863bd58c4bce942d86b",
+  "program_key": "philosophy|bachelor|120|sociology (de)",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Sociology (DE)",
+  "doc_label": "BA Soziologie zu 120 ECTS",
+  "source_url": "https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_120_de_bil_4112020_HS24.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/sociologygerman",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_120_Sociology_DE__BA_Soziologie_zu_120_ECTS_ce65cee0aee41a40b013c863bd58c4bce942d86b.pdf",
+  "sha256": "28fa25255c670464fc6ba5816cf50dc2073534ad02361f9ea67ef3ece1ee3e24",
+  "fetched_at": "2026-04-03T11:30:48.073Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_120_de_bil_4112020_HS24.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA_Soziologie_120_de_bil_4112020_HS24.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung
+
+## Studienplan
+
+Bachelor-Programm «Soziologie» Bereich I zu 120 ECTS
+
+Dieser «Studienplan 2021» ist ab Herbstsemester 2021 gültig (Stand HS 2024).
+
+|   1. | Gesetzliche Grundlagen.........................................................................................................        | 2                                                                                                                                      |
+|------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|    2 | Beschreibung des Programms................................................................................................ 2           | Beschreibung des Programms................................................................................................ 2           |
+|      | 2.1 Allgemeine Beschreibung des Programms                                                                                              | ...............................................................................2                                                       |
+|      | Berufliche Aussichten ...............................................................................................................2 |                                                                                                                                        |
+|      | 2.2 Allgemeine Struktur des                                                                                                            | Programms........................................................................................2                                     |
+|      | 2.3 Zulassungsbedingungen............................................................................................................3 |                                                                                                                                        |
+|    3 | Ausbildungsziele ................................................................................................................... 3 | Ausbildungsziele ................................................................................................................... 3 |
+|    4 | Studienbeginn und -dauer ..................................................................................................... 3       | Studienbeginn und -dauer ..................................................................................................... 3       |
+|    5 | Studiensprache ..................................................................................................................... 3 | Studiensprache ..................................................................................................................... 3 |
+|    6 | Allgemeine Organisation ....................................................................................................... 4      | Allgemeine Organisation ....................................................................................................... 4      |
+|      | Tabelle 1: Modulstruktur des Programms «Soziologie» zu 120 ECTS ..............................................4                        |                                                                                                                                        |
+|    7 | Beschreibung der Module...................................................................................................... 5        | Beschreibung der Module...................................................................................................... 5        |
+|      | BAsoz01: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik (15 ECTS)......................................5                        |                                                                                                                                        |
+|      | BAsoz02: Vertiefung Soziologie (15 ECTS)........................................................................................5      |                                                                                                                                        |
+|      | BAsoz03: Gesellschaftsanalyse (15 ECTS).........................................................................................6      |                                                                                                                                        |
+|      | BAsoz04: Felder der Soziologie (15 ECTS).........................................................................................6     |                                                                                                                                        |
+|      | BAsoz05: Theorien und Debatten (15 ECTS).....................................................................................7         |                                                                                                                                        |
+|      | BAsoz06: Grundlagen Sozialforschung (15 ECTS).............................................................................7            |                                                                                                                                        |
+|      | BAsoz07: Vertiefung Sozialforschung (15 ECTS)...............................................................................8          |                                                                                                                                        |
+|    8 | Zweisprachiges Studium........................................................................................................ 9       | Zweisprachiges Studium........................................................................................................ 9       |
+|      | 8.1 Allgemeine Organisation des zweisprachigen                                                                                         | Studiums ..........................................................9                                                                   |
+|      | Tabelle 2: Übersicht über die Module des zweisprachigen Programms ...............................                                      | 10                                                                                                                                     |
+|      | 8.2 Beschreibung der französischsprachigen Module.................................................................                     | 10                                                                                                                                     |
+|    9 |                                                                                                                                        |                                                                                                                                        |
+|      | Allgemeine Prüfungsmodalitäten ..........................................................................................              | 11                                                                                                                                     |
+|      |                                                                                                                                        | 12                                                                                                                                     |
+|      | 9.2 Prüfung am Ende des ersten Jahres.......................................................................................           |                                                                                                                                        |
+|      | Prüfungsmodalitäten............................................................................................................11      | Prüfungsmodalitäten............................................................................................................11      |
+|      | 9.1                                                                                                                                    |                                                                                                                                        |
+|      | Endgültiger Misserfolg...........................................................................................................      | 12                                                                                                                                     |
+|      | 9.3 9.4 Modulnoten und                                                                                                                 | Gesamtnote............................................................................................... 13                           |
+|   10 | Inkrafttreten und Übergangsbestimmungen .........................................................................13                    | Inkrafttreten und Übergangsbestimmungen .........................................................................13                    |
+|   11 | Anhang: Übersicht aller Module und Kurse des Programms...................................................14                            | Anhang: Übersicht aller Module und Kurse des Programms...................................................14                            |
+|      | Tabelle 3: Kurse und Module des deutschsprachigen Programms «Soziologie» zu 120 ECTS...... 14                                          | Tabelle 3: Kurse und Module des deutschsprachigen Programms «Soziologie» zu 120 ECTS...... 14                                          |
+
+## 1. Gesetzliche Grundlagen
+
+Das Bachelor-Studienprogramm «Soziologie» zu 120 ECTS ist der Philosophischen Fakultät der Universität Fribourg angegliedert. Der Studienplan stützt sich auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät.
+
+## 2. Beschreibung des Programms
+
+## 2.1  Allgemeine Beschreibung des Programms
+
+Das Bachelor-Studium «Soziologie» bietet einen Überblick über soziologische Theorien, Methoden und Analysen  und  vermittelt  entsprechende  Analyse-,  Forschungs-  und  Entscheidungskompetenzen.  Es fusst auf drei Säulen: allgemeine Soziologie, spezielle Soziologien und Sozialforschung. Das Studium in Fribourg zeichnet sich aus durch die Vermittlung von theoretischen und methodologischen Grundkenntnissen (Begriffe, Theorien, Klassiker, wissenschaftstheoretische Positionen) und empirischen Befunden mit Bezug auf aktuelle soziale Herausforderungen oder Themen entwickelter Marktgesellschaften und die dadurch ausgelösten Debatten. Von Interesse ist unter anderem die Entwicklung von Gesellschaften unter den Bedingungen der zunehmenden Internationalisierung von Wirtschaft, Politik und Kultur, der Verschärfung ökologischer Probleme, Migration, der zunehmende Einfluss sogenannter Nicht-Regierungsorganisationen und sozialer Bewegungen. Das Studium zeichnet sich durch eine breite Ausbildung in quantitativen und qualitativen Methoden aus. Mit der empirisch ausgerichteten Bachelorarbeit im Verlauf des zweiten und dritten Jahres lernen und üben Studierende in «Soziologie», wie Themen theoriegeleitet und empirisch untersucht werden. Gerade die methodischen Kenntnisse werden im Verbund mit fundierter theoretischer Expertise von vielen Arbeitgeberinnen und Arbeitgebern sehr geschätzt und sind Voraussetzung für den Zugang zu vielen verschiedenen Berufen und Tätigkeitsfeldern.
+
+## Berufliche Aussichten
+
+Bachelor- und Master-Studium in «Soziologie» vermitteln das theoretische und konzeptionelle Rüstzeug für (Kader-)Positionen in öffentlichen oder privaten Organisationen, aber auch für Forschung und Lehre an Universitäten und Fachhochschulen. Das vielfältige Studium in «Soziologie» an der Universität Fribourg eröffnet ein breites Spektrum an Arbeitsmöglichkeiten. Die Absolventinnen und Absolventen des Bachelorstudiums «Soziologie» arbeiten in der Lehre und Forschung (zum Beispiel an Universitäten oder Fachhochschulen), in der öffentlichen Verwaltung oder in einer Non-Profit-Organisation. In der Privatwirtschaft sind Soziologinnen und Soziologen häufig bei Markt- und Meinungsforschungsinstituten und im journalistischen Bereich (Print, Online, Radio und Fernsehen) tätig. Zudem arbeiten sie in öffentlichen Ämtern auf Bundes-, Kantons- und Gemeindeebene wie in Bereichen der Planung und Durchführung sozialer Projekte.
+
+## 2.2  Allgemeine Struktur des Programms
+
+Das Bachelor-Studium dauert im Falle eines Vollzeitstudiums drei Jahre und umfasst 120 ECTS im Bereich I (Major). Das Bachelorprogramm setzt sich zusammen aus Pflichtmodulen (P) und Wahlpflichtmodulen (WP). Alle Studierende besuchen die Pflichtmodule und wählen aus dem Angebot der Wahlpflichtmodule die für das Studienprogramm entsprechende Anzahl aus.
+
+In jedem Modul werden 15 ECTS-Punkte erworben, mit Ausnahme der Module «Bachelor: Forschungsarbeit» (18 ECTS) und «Softskills» (12 ECTS). Für die Erlangung des Bachelorabschlusses in «Soziologie» müssen alle erforderlichen Leistungen gemäss Studienplan erbracht werden.
+
+## 2.3  Zulassungsbedingungen
+
+Die allgemeinen Zulassungsbedingungen für die Immatrikulation an die Universität Fribourg müssen erfüllt sein.
+
+## 3. Ausbildungsziele
+
+1.  Das Studium vermittelt vertiefte Kenntnisse allgemeiner wie spezieller soziologischer Theorien. Damit erwerben Studierende Kenntnisse über zentrale soziologische Themenfelder. Zudem werden aktuelle Debatten zu soziologischen Fragen analysiert und reflektiert. Es wird ein fundiertes Verständnis über schweizerische und internationale politische, ökonomische und kulturelle Institutionen vermittelt.
+2.  Das Studium in Soziologie vermittelt die Kompetenz, soziologische Theorien, Methoden und Analysen zu verstehen und selbständig soziologische Fragestellungen zu bearbeiten. Damit befähigt, es gesellschaftliche Prozesse und Ereignisse aus einer soziologischen Perspektive heraus zu erfassen.
+3.  Im Studium werden disziplinäre theoretische Perspektiven und interdisziplinäre Denk- und Bearbeitungsansätze für soziologische Fragestellungen vermittelt, Techniken des wissenschaftlichen Arbeitens erworben und Methoden der empirischen Sozialforschung theoriegeleitet und anwendungsorientiert vorgestellt und geübt.
+4.  Die Studierenden werden durch das Studium in Soziologie befähigt, wissenschaftliche Literatur kritisch zu resümieren und zu kommentieren, gezielte Literaturrecherchen zu wissenschaftlichen Fragestellungen durchzuführen sowie Themen theoriegeleitet und empirisch zu untersuchen.  Damit  erwerben  sie  berufsqualifizierende  Kompetenzen  für  unterschiedliche  Anwendungsfelder in Wissenschaft und Praxis.
+
+## 4. Studienbeginn und -dauer
+
+Studienbeginn ist jeweils im Herbstsemester. Das Studium dauert mindestens sechs Semester.
+
+Das Studium muss spätestens achtzehn Semester nach Studienbeginn abgeschlossen werden (Art. 34 des Reglements vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät).
+
+## 5. Studiensprache
+
+Das Studienprogramm «Soziologie» kann auf Deutsch oder zweisprachig studiert werden. Einzelne Veranstaltungen können in englischer Sprache angeboten werden.
+
+Gemäss Art. 36 des Reglements vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät wird der Vermerk «zweisprachiges/bilingue Studium» vergeben, wenn mindestens 40% der Studienleistungen in jeder Sprache (Deutsch/Französisch) erfolgreich absolviert werden. Die genauen Modalitäten zur Absolvierung des zweisprachigen Bachelorstudiums «Soziologie» mit Hauptsprache Deutsch sind im Abschnitt 8 dieses Studienplans aufgeführt.
+
+## 6. Allgemeine Organisation
+
+Das Bachelorprogramm setzt sich zusammen aus Pflichtmodulen (P) und Wahlpflichtmodulen (WP). Die Module werden jährlich oder im Zweijahresrhythmus angeboten. Tabelle 1 gibt die Übersicht über die Module des Bachelorprogramms zu 120 ECTS. Studierende absolvieren alle Pflichtmodule und wählen ein Wahlpflichtmodul.
+
+Im ersten Jahr wird ein Grundstudium (30 ECTS) absolviert, das sich aus zwei Grundlagenmodulen zusammensetzt (BAsoz01 und BAsoz06). Neben dem Grundstudium sollte im ersten Studienjahr auch das inhaltliche Vertiefungsmodul Soziologie (BAsoz02) belegt werden.
+
+Tabelle 1: Modulstruktur des Programms «Soziologie» zu 120 ECTS
+
+| Soziologie Bachelor-Programm zu 120 ECTS   | Soziologie Bachelor-Programm zu 120 ECTS                                                 |   ECTS | * jährlich / ungerade / gerade   |
+|--------------------------------------------|------------------------------------------------------------------------------------------|--------|----------------------------------|
+|                                            | 7 Pflichtmodule (P), inkl. Softskills-Modul 1 Wahlpflichtmodul (WP), aus 2 WPzur Auswahl |        |                                  |
+| BAsoz01                                    | P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik                                 |     15 | j                                |
+| BAsoz02                                    | P: Vertiefung Soziologie                                                                 |     15 | j                                |
+| BAsoz03                                    | P: Gesellschaftsanalyse                                                                  |     15 | u                                |
+| BAsoz04                                    | WP: Felder der Soziologie                                                                |     15 | g                                |
+| BAsoz05                                    | WP: Theorien und Debatten                                                                |     15 | u                                |
+| BAsoz06                                    | P: Grundlagen Sozialforschung                                                            |     15 | j                                |
+| BAsoz07                                    | P: Vertiefung Sozialforschung                                                            |     15 | j                                |
+| BAsoz08                                    | P: Bachelor: Forschungsarbeit                                                            |     18 | j                                |
+| BAsoz09                                    | P: Softskills                                                                            |     12 | j                                |
+
+Einige Kurse im Studienprogramm sind aufbauend. Die Zulassung zu den mit «II» bezeichneten Kursen ist erst nach Besuch des Kurses «I» möglich (vgl. Tabelle 3 im Anhang mit der Übersicht aller Module und Kurse). Darüber hinaus gelten für das Modul «Bachelor: Forschungsarbeit» spezifische Zulassungsbedingungen (vgl. nachfolgende Beschreibung des Moduls).
+
+Die aktuell angebotenen Unterrichtseinheiten werden auf der Website des Departements und im universitären Vorlesungsverzeichnis bekannt gegeben.
+
+Im Folgenden werden die Module des Studienprogramms beschrieben. Die Lehrveranstaltungen und Leistungen, die innerhalb der einzelnen Module zu erbringen sind, werden tabellarisch zusammen mit den entsprechenden JWS (= Jahreswochenstunden), den ECTS-Kreditpunkten und dem Jahresrhythmus, in welchem die Veranstaltungen angeboten werden, dargestellt. Ein Kurs à zwei Lektionen Präsenzunterricht in einem Semester entspricht 1 JWS; ein Jahreskurs à zwei Lektionen entspricht 2 JWS. Für die Studierenden entspricht 1 ECTS einem zeitlichen Arbeitsaufwand von durchschnittlich ca. 30 Arbeitsstunden. Für Präsenzkurse mit 1 JWS entsteht in der Regel einen Aufwand von 3 ECTS. Einige Veranstaltungen erfordern eine zusätzliche individuelle Leistung (z.B. Essay, schriftliche Arbeit, Interview) im Laufe des Semesters, wofür insgesamt 6 ECTS vergeben werden. Proseminare beinhalten neben dem Präsenzkurs eine Proseminararbeit, wofür insgesamt 9 ECTS angerechnet werden.
+
+## 7. Beschreibung der Module
+
+## BAsoz01: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik (15 ECTS)
+
+Das Modul führt in die wichtigsten theoretischen Perspektiven, zentralen Konzepte und Arbeiten der Soziologie, Sozialarbeit und Sozialpolitik ein. «Soziologie I» präsentiert ausgewählte theoretische Ansätze und zentrale Konzepte und gibt einen Überblick über einige klassische Werke der Fachgeschichte. Die Lehrveranstaltung «Soziale Probleme» vermittelt zentrale theoretische Perspektiven der sozialwissenschaftlichen Analyse latenter und manifester sozialer Probleme, deren Bearbeitung unter anderem mittels Massnahmen in der Sozialarbeit und der Sozialpolitik erfolgt. Ausgewählte Felder der Sozialpolitik  stehen im Mittelpunkt des Kurses «Sozialpolitik I», der auch in die Sozialpolitikanalyse und die Geschichte der Sozialpolitik einführt. Der Kurs «Sozialstaat und Wohlfahrtsregime I» befasst sich mit den Sicherungssystemen des schweizerischen Sozialstaates, die historisch und theoretisch eingebettet werden, und mit weiteren prominenten Wohlfahrtsstaatstypologien und Theorien zur Erklärung der Unterschiede in den sozialstaatlichen Profilen. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+Studierende kennen nach dem Besuch dieses Moduls die wichtigsten theoretischen Perspektiven auf soziale Probleme, aus der Soziologie und der Sozialpolitik, über den Sozialstaat und das Wohlfahrtsregime und können diese auf konkrete Beispiele anwenden.
+
+Das Modul ist Teil des Grundstudiums und sollte im ersten Studienjahr absolviert werden.
+
+| BAsoz01   | P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik   |   JWS |   ECTS | * jährlich   |
+|-----------|------------------------------------------------------------|-------|--------|--------------|
+| BAsoz01a  | Soziologie I                                               |     1 |      3 | j            |
+| BAsoz01b  | Soziale Probleme                                           |     1 |      3 | j            |
+| BAsoz01c  | Sozialpolitik I                                            |     1 |      3 | j            |
+| BAsoz01d  | Sozialstaat und Wohlfahrtsregime I                         |     1 |      3 | j            |
+| BAsoz01e  | Vortragsreihe                                              |     1 |      3 | j            |
+
+## BAsoz02: Vertiefung Soziologie (15 ECTS)
+
+In diesem Modul vertiefen die Studierenden ihre soziologischen Kenntnisse. Dies erfolgt zum einen mit der Beschäftigung mit klassischen und modernen Autorinnen und Autoren der Soziologie; zum anderen sind die Inhalte darauf ausgerichtet, die Studierenden mit Schulen oder theoretischen Ansätzen und der damit verbundenen empirischen Praxis in der Soziologie vertraut zu machen. Zudem führt das Modul in die theoretischen Konzepte und methodischen Grundlagen der Sozialstrukturanalyse ein. Kernthemen sind hier die Beschreibung und die Analyse von demografischen Entwicklungen, von Haushalts- und Familienstrukturen sowie der Verteilung gesellschaftlich wertvoller Ressourcen. Es wird angenommen, dass die Position eines Menschen im Sozialgefüge und die Zugehörigkeit zu bestimmten sozialen Gruppen für deren Handlungsmöglichkeiten und die Lebenschancen zentral sind. Die «Hausarbeit: Soziologie» ist eine kleine schriftliche Vertiefungsarbeit, die wahlweise zu einem der zwei Kurse «Soziologie II» oder «Sozialstrukturanalyse» geschrieben wird. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten aus unterschiedlichen Perspektiven ein spezifisches, jährlich wechselndes Thema der Soziologie, Sozialpolitik oder Sozialarbeit.
+
+Ziel dieses Moduls ist es, dass die Studierenden die vielfältigen konzeptionellen Grundlagen der Soziologie kennenlernen, verstehen und in Bezug auf verschiedene Themen anwenden können.
+
+Das Modul vertieft die Grundlagenkenntnisse und sollte bereits im ersten Studienjahr gewählt werden. Die Vortragsreihe im Vertiefungsmodul wird im zweiten oder dritten Studienjahr absolviert.
+
+| BAsoz02   | P: Vertiefung Soziologie   |   JWS |   ECTS | * jährlich   |
+|-----------|----------------------------|-------|--------|--------------|
+| BAsoz02a  | Soziologie II              |     1 |      6 | j            |
+| BAsoz02b  | Sozialstrukturanalyse      |     1 |      3 | j            |
+| BAsoz02c  | Hausarbeit: Soziologie     |       |      3 | j            |
+| BAsoz02d  | Vortragsreihe              |     1 |      3 | j            |
+
+## BAsoz03: Gesellschaftsanalyse (15 ECTS)
+
+Thema des Moduls sind die prägenden Strukturen und Entwicklungen von Gesellschaften. Der Kurs «Wirtschaft und Gesellschaft» thematisiert die Analyse der sozialen und regulativen Einbettung sowie der Entwicklungsdynamiken kapitalistischer Gesellschaften, insbesondere Strukturen und Funktionsweisen  von  Profit-  und  Nonprofitunternehmen,  Märkte,  Wettbewerbspolitik  sowie  Interessenverbände. Das Verhältnis zwischen Politik und Gesellschaft und die gesellschaftliche Grundlage politischer Macht in sozietalen Einheiten (wie Stamm, Staat, Allianzen, Welt) wird im Kurs «politische Soziologie» thematisiert. Nebst dem Fokus auf Institutionen wird auf weitere einflussreiche Akteure, wie Eliten, Parteien, soziale Bewegungen oder Organisationen mit wirtschaftlichen Interessen wie Gewerkschaften, Wirtschaftsverbände, Grossunternehmen fokussiert. Das Engagement von Akteuren in Organisationen, die zwischen Gesellschaft und Politik vermitteln, wird im Kurs «Zivilgesellschaft, Demokratie, Rechte» behandelt und fokussiert auf Fragen zur Selbstorganisation, zu freiwilligen Organisationen sowie ihrer Strukturen und Funktionen. Demokratie, Menschenrechte sowie die Rechte auf freie Meinungsäusserung  und  Versammlungsfreiheit  sind  dafür  zentrale  Voraussetzungen.  Im  Kurs  «Gesellschaftsdiagnosen» setzen sich die Studierenden kritisch mit klassischen und aktuellen Diagnosen der gesellschaftlichen Situation auseinander. Dabei wird insbesondere die Innovativität, das empirische Fundament und das politische Potenzial der Diagnosen hinterfragt. Im Kurs «Gesellschaftsdiagnosen» vertiefen die Studierenden im Rahmen einer kleinen schriftlichen Arbeit eine spezifische Perspektive der Gesellschaftsanalyse und setzen sich mit der Thematik auseinander. Sie führen Analysen oder Interviews durch und präsentieren ihre Ergebnisse.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsoz03   | P: Gesellschaftsanalyse               |   JWS |   ECTS | * ungerade   |
+|-----------|---------------------------------------|-------|--------|--------------|
+| BAsoz03a  | Wirtschaft und Gesellschaft           |     1 |      3 | u            |
+| BAsoz03b  | Politische Soziologie                 |     1 |      3 | u            |
+| BAsoz03c  | Zivilgesellschaft, Demokratie, Rechte |     1 |      3 | u            |
+| BAsoz03d  | Gesellschaftsdiagnosen                |     1 |      6 | u            |
+
+## BAsoz04: Felder der Soziologie (15 ECTS)
+
+Das Modul dient der Darstellung der Breite des Faches und der Vielfalt an Speziellen Soziologien. In zwei Kursen «Felder der Soziologie 1» und «Felder der Soziologie 2» wird je ein Feld behandelt: Es werden Probleme, Fragen und Ergebnisse der soziologischen Beschäftigung mit unterschiedlichen Gegenstandsbereichen, wie etwa Kriminalität, Gesundheit, Bildung, Wirtschaft, Alter, Generationen, Familie, Arbeit, Digitalisierung oder Politik präsentiert. Das begleitende «Proseminar: Felder der Soziologie», das mit einer schriftlichen Proseminararbeit abgeschlossen wird, bietet den Studierenden die Gelegenheit, sich mit einem dritten Feld intensiver auseinander zu setzen.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsoz04   | WP: Felder der Soziologie         |   JWS |   ECTS | * gerade   |
+|-----------|-----------------------------------|-------|--------|------------|
+| BAsoz04a  | Felder der Soziologie 1           |     1 |      3 | g          |
+| BAsoz04b  | Felder der Soziologie 2           |     1 |      3 | g          |
+| BAsoz04c  | Proseminar: Felder der Soziologie |     1 |      9 | g          |
+
+## BAsoz05: Theorien und Debatten (15 ECTS)
+
+Im Modul «Theorien und Debatten» werden Entwicklungen soziologischer Theoriebildung und Forschung thematisiert. Im Kurs «Theorien» setzen sich die Studierenden mit jeweils unterschiedlichen Theorien und ihrer Begriffe auseinander. Zu nennen sind beispielsweise Begriffe wie Solidarität, Risiko, Gemeinschaft, Inklusion oder Exklusion, Macht und Herrschaft, Globalisierung, Individualisierung, Soziologie im Alltag oder in der Praxis. Im Kurs «Debatten» kommen aktuelle soziologische Themen, Konzepte, theoretische Ansätze und Forschungsergebnisse zur Sprache, wie beispielsweise Transkulturalität, soziale Ungleichheit ( the death of classes ), Armut, Prekarität, Digitalisierung ( the digital divide ). Im «Proseminar: Theorien und Debatte» mit Proseminararbeit vertiefen die Studierenden jeweils eine der vielfältigen wissenschaftlichen Debatten oder Theorien.
+
+Ziel des Moduls ist es, spezifische Theorien und Debatten der Soziologie vertieft kennenzulernen und analytisch erfassen zu können.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsoz05   | WP: Theorien und Debatten         |   JWS |   ECTS | * ungerade   |
+|-----------|-----------------------------------|-------|--------|--------------|
+| BAsoz05a  | Theorien                          |     1 |      3 | u            |
+| BAsoz05b  | Debatten                          |     1 |      3 | u            |
+| BAsoz05c  | Proseminar: Theorien und Debatten |     1 |      9 | u            |
+
+## BAsoz06: Grundlagen Sozialforschung (15 ECTS)
+
+Das Modul «Grundlagen Sozialforschung» befasst sich mit den Prinzipien der empirischen Sozialforschung, wobei drei Veranstaltungen der Grundlagenvermittlung dienen. Der Kurs «Wissenschaftstheorie» erläutert unterschiedliche Positionen und Ziele von Wissenschaft und stellt die Unterschiede zwischen den Positionen dar. Daran anknüpfend führt der Kurs «Sozialforschung: Grundlagen I» in unterschiedliche  sozialwissenschaftliche  Denk-  und  empirische  Arbeitsweisen  ein.  Die  Veranstaltungen «Statistik I» und «Qualitative Datenerhebung und -analyse I» fokussieren auf die konkrete Ausführung sozialwissenschaftlicher Forschung: «Statistik I» führt in die quantitative Datenanalyse ein, während «Qualitative Datenerhebung und -analyse I» dies für die qualitativen Methoden tut.
+
+Ziel dieses Moduls ist es, sowohl theoretisches als auch methodisches Grundlagenwissen zu vermitteln, das den Studierenden erlaubt, eine eigene sozialwissenschaftliche Forschung mit qualitativen und quantitativen Methoden durchzuführen, kritisch mit Forschungsergebnissen umzugehen und den Anforderungen der Wissenschaft zu entsprechen. Die Studierenden lernen die Voraussetzungen für eine reflektierte eigene sozialwissenschaftliche Lern- und Forschungspraxis, die sie in der Bachelorarbeit konkret umsetzen werden.
+
+Das Modul ist Teil des Grundstudiums und sollte im ersten Studienjahr absolviert werden.
+
+| BAsoz06   | P: Grundlagen Sozialforschung            |   JWS |   ECTS | * jährlich   |
+|-----------|------------------------------------------|-------|--------|--------------|
+| BAsoz06a  | Wissenschaftstheorie                     |     1 |      3 | j            |
+| BAsoz06b  | Sozialforschung: Grundlagen I            |     1 |      3 | j            |
+| BAsoz06c  | Qualitative Datenerhebung und -analyse I |     1 |      3 | j            |
+| BAsoz06d  | Statistik I                              |     2 |      6 | j            |
+
+## BAsoz07: Vertiefung Sozialforschung (15 ECTS)
+
+Das Modul «Vertiefung Sozialforschung» schliesst die Methodenausbildung auf Bachelorstufe ab. Der Kurs «Sozialforschung: Grundlagen II» führt in verschiedene Forschungsdesigns ein und thematisiert deren Stärken und Schwächen. Die Methoden und Techniken der qualitativen (Kurs «Qualitative Datenerhebung und -analyse II») und quantitativen (Kurs «Statistik II») Sozialforschung werden vertieft: Neben der Vermittlung unterschiedlicher Erhebungs- und Auswertungsverfahren wie die Durchführung von Interviews, Beobachtungen, Analyse von Dokumenten oder Datenauswertung anhand statistischer Verfahren werden die theoretischen Kenntnisse vertieft und die methodischen Fertigkeiten mit geeigneten Übungen verfestigt. Die Studierenden sind damit auf die Durchführung einer eigenen empirischen Forschung vorbereitet und können ihr Wissen exemplarisch in Übungen zur Anwendung bringen.
+
+Das Modul wird im zweiten Studienjahr als Fortführung des Moduls «Grundlagen Sozialforschung» absolviert.
+
+| BAsoz07   | P: Vertiefung Sozialforschung             |   JWS |   ECTS | * jährlich   |
+|-----------|-------------------------------------------|-------|--------|--------------|
+| BAsoz07a  | Sozialforschung: Grundlagen II            |     1 |      3 | j            |
+| BAsoz07b  | Qualitative Datenerhebung und -analyse II |     2 |      6 | j            |
+| BAsoz07c  | Statistik II                              |     2 |      6 | j            |
+
+## BAsoz08: Bachelor: Forschungsarbeit (18 ECTS)
+
+Im Modul «Bachelor: Forschungsarbeit» arbeiten die Studierenden in einer Gruppe von mindestens drei und höchstens fünf Mitgliedern nach der Literaturübersicht zu ihrem Forschungsthema einen Untersuchungs- und Auswertungsplan aus. Das entwickelte Projekt wird im Rahmen des «Forschungsworkshops» umgesetzt und begleitet. Studierende wählen für ihr Projekt eine angemessene Methode, erstellen ein Erhebungsinstrument und erheben Material, das ausgewertet sowie im Auswertungsbericht dargestellt und interpretiert wird. Der Auswertungsbericht wird als Bachelorarbeit gewertet. Methodisch kann die Arbeit qualitativ oder quantitativ ausgerichtet sein oder ein Mixed-Methods-Design haben. Im «Forschungsworkshop», der sich über zwei Semester erstreckt (Teil I und Teil II), haben die Studierenden die Gelegenheit, ihr Auswertungskonzept und Erhebungsinstrument zu präsentieren und zu diskutieren. Bei Bedarf werden Studierende im Rahmen eines begleitenden Methodenworkshops bei der konkreten Ausarbeitung des empirischen Forschungsdesigns unterstützt.
+
+Das Modul ermöglicht den Studierenden, konkrete Erfahrungen in Erhebung und Auswertung zu machen (Operationalisierung, Auswertung, Interpretation der Ergebnisse, Verfassen des Berichts). Sie erwerben im Rahmen des Moduls die notwendigen Basiskenntnisse für eigenständige Forschung.
+
+Das Modul beginnt im zweiten Studienjahr und wird mit dem Auswertungsbericht abgeschlossen. Zugelassen sind nur Studierende, die den Kurs «Sozialforschung: Grundlagen II» erfolgreich absolviert haben.
+
+| BAsoz08   | P: Bachelor: Forschungsarbeit      |   JWS |   ECTS | * jährlich   |
+|-----------|------------------------------------|-------|--------|--------------|
+| BAsoz08a  | Forschungsworkshop I               |     1 |      3 | j            |
+| BAsoz08b  | Forschungsworkshop II              |     1 |      3 | j            |
+| BAsoz08c  | Bachelorarbeit: Auswertungsbericht |       |     12 | j            |
+
+## BAsoz09: Softskills (12 ECTS)
+
+Gemäss Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät werden 12 ECTS für den Erwerb frei wählbarer Veranstaltungen (bereichsübergreifende Kompetenzen) zur  Verfügung  gestellt.  Das  Softskills-Modul  bietet  die  Möglichkeit,  eigene  Schwerpunkte im Studium zu setzen und dafür Unterrichtseinheiten ausserhalb des gewählten Studienprogramms frei zu wählen. Dieses Modul kann für den Erwerb von allgemeinen akademischen und sprachlichen Fähigkeiten genutzt werden. Neben dem breiten Angebot der Universität stehen den Studierenden des Programms «Soziologie» Kurse anderer Programme des Departements als Softskills zur Auswahl. Diese Angebote werden jährlich auf der Website des Departements publiziert.
+
+Softskills können während der gesamten Studienzeit erworben werden. Evaluation und Validierung der Unterrichtseinheiten wird von den jeweiligen Departementen, die die Unterrichtseinheiten verantworten, festgelegt und übernommen.
+
+<!-- image -->
+
+| BAsoz09   | P: Softskills   | 12 ECTS   |
+|-----------|-----------------|-----------|
+
+## 8. Zweisprachiges Studium
+
+## 8.1  Allgemeine Organisation des zweisprachigen Studiums
+
+Im zweisprachigen Studium werden drei Module in französischer Sprache absolviert. Diese Module sind Teil des französischsprachigen Programms «Sociologie» am Departement für Sozialwissenschaften. Damit die erforderlichen ECTS von 40% des zweisprachigen Studienprogramms erlangt werden, sind mindestens weitere 3 ECTS innerhalb des Softskills-Moduls auf Französisch zu absolvieren.
+
+Nachfolgende Tabelle gibt die Übersicht über die zu belegenden Module bei einem zweisprachigen Studium mit Hauptsprache Deutsch. Studierende absolvieren alle acht Pflichtmodule (P).
+
+Im ersten Jahr wird ein Grundstudium (30 ECTS) absolviert, das sich aus zwei Grundlagenmodulen zusammensetzt (BAsoz01 und BAsoz06). Neben dem Grundstudium wird Studierenden für das zweisprachige Studium empfohlen, das französischsprachige Modul «Structures et dynamiques sociales» im ersten Studienjahr zu wählen. Im Modul «Sociétés, cultures et religions» können die Kurse im ersten, zweiten und/oder dritten Studienjahr besucht werden. Es sind nur Veranstaltungen in französischer Sprache wählbar.
+
+Tabelle 2: Übersicht über die Module des zweisprachigen Programms «Soziologie» mit Hauptsprache Deutsch
+
+| Soziologie Bachelor-Programm zu 120 ECTS   | (bilingue/zweisprachig)                                  |   ECTS |
+|--------------------------------------------|----------------------------------------------------------|--------|
+|                                            | 8 Pflichtmodule (P), inkl. Softskills-Modul              |        |
+| BAsoz01                                    | P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik |     15 |
+| SOCIO 1                                    | P: Module «Structures et dynamiques sociales»            |     15 |
+| SOCIO 2                                    | P: Module «Thèmes spécialisés»                           |     15 |
+| SCR/GKR                                    | P: Module «Sociétés, cultures et religions» 1            |     15 |
+| BAsoz06                                    | P: Grundlagen Sozialforschung                            |     15 |
+| BAsoz07                                    | P: Vertiefung Sozialforschung                            |     15 |
+| BAsoz08                                    | P: Bachelor: Forschungsarbeit                            |     18 |
+| BAsoz09                                    | P: Softskills 2                                          |     12 |
+
+## 8.2  Beschreibung der französischsprachigen Module
+
+## SOCIO 1: Module «Structures et dynamiques sociales» (15 ECTS)
+
+Descriptif : Le module propose des cours qui permettent de saisir les transformations du contexte économique, les modifications de la sphère de l'emploi et des professions ainsi que les changements de la structure sociale. Il met l'accent sur les rapports d'altérité, les relations de pouvoir et les interactions communicationnelles qui sont au fondement des sociétés modernes.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+Unités d'enseignement :
+
+- Cours « Stratification » (3 ECTS)
+- Cours « Travail » (3 ECTS)
+- Cours « Interactions » (3 ECTS)
+- Cours « Altérité » (3 ECTS)
+- Travail écrit (3 ECTS) : Le travail écrit doit être rédigé dans le cadre d'un cours. Il est dirigé et corrigé par l ' enseignant-e. Les modalités et délais de remise du travail écrit sont fixés par l'Unité « Sociologie ».
+
+Toutes les évaluations doivent être réussies (pas de compensation possible). Une évaluation non-réussite équivaut à un échec. Une évaluation non réussie peut être répétée 1 fois. La note d'un module résulte de la moyenne des unités d'enseignements qui la composent .
+
+## SOCIO 2: Module «Thèmes spécialisés» (15 ECTS)
+
+Descriptif : Ce module vise à approfondir les différents champs de la sociologie ou disciplines proches. Les thèmes sont liés à des problématiques actuelles et discutent de l'émergence de nouveaux phénomènes sociaux, tout en les situant dans les débats théoriques contemporains. Les thématiques suivantes sont concernées : politique, communication et médias, migration et relations interethniques, famille, genre, jeunesse, nouvelles technologies, santé et corps, etc.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant -e-s.
+
+Unités d'enseignement :
+
+- Cours ou séminaire I (3 ECTS)
+- Cours ou séminaire II (3 ECTS)
+- Cours ou séminaire III (3 ECTS)
+
+- Travail de séminaire (6 ECTS) : Le travail de séminaire doit être rédigé dans le cadre d'un cours. Il est dirigé et corrigé par l'enseignant -e (les modalités et délais de remise du travail de séminaire sont fixés par l'Unité « Sociologie »).
+
+Une évaluation non-réussite équivaut à un échec. Une évaluation non réussie peut être répétée 1 fois. Si les étudiant-es obtiennent un échec définitif à une unité d'enseignement ils ou elles peuvent la remplacer par une autre unité d'enseignement afin d'o btenir les crédits nécessaires à la poursuite de leurs études. La note d'un module résulte de la moyenne des unités d'enseignements qui la composent.
+
+## SCR/GKR: Module «Sociétés, cultures et religions» (15 ECTS)
+
+Descriptif : Les objectifs visés par ce module permettent aux étudiant-e-s d'acquérir des connaissances au sein de différentes disciplines des sciences sociales. Le module est composé d'unités d'enseignements en Sociologie, en Anthropologie sociale, en Science des religions ou autres disciplines. Un cycle de conférences interdisciplinaire est organisé régulièrement. Les étudiant-e-s choisissent les cours selon la liste proposée. Dans le cadre des études bilingue uniquement des cours en langue français sont reconnus.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant -e-s.
+
+Unités d'enseignement :
+
+- Cours, séminaires et cycle de conférences : à choix dans la liste proposée (15 ECTS)
+
+Une évaluation non-réussite équivaut à un échec. Une évaluation non réussie peut être répétée 1 fois. Si les étudiant-es obtiennent un échec définitif à une unité d'enseignement ils ou elles peuvent la remplacer par une autre unité d'enseignement afin d'o btenir les crédits nécessaires à la poursuite de leurs études. La note d'un module résulte de la moyenne des unités d'enseignements qui la composent.
+
+## 8.3 Modalitäten des Wechsels vom zweisprachigen Studium (Deutsch/Französisch) zum einsprachigen Studium (Deutsch)
+
+Zweisprachige Studierende haben die Möglichkeit, vor einem definitiven Misserfolg in einer obligatorischen Unterrichtseinheit -aus sprachlichen Gründen -zu einem einsprachigen Programm zurückzukehren. Hierfür wenden sie sich an die Studienberatung des Programms und beantragen die Löschung der bereits erfolgten Kursanmeldungen.
+
+## 9. Prüfungsmodalitäten
+
+## 9.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Jede Unterrichtseinheit wird evaluiert. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer Unterrichtseinheit erbracht werden. Es gibt unterschiedliche Evaluationsmodalitäten:  schriftliche/mündliche  Prüfung,  das  Verfassen einer Proseminar- oder  schriftlichen  Arbeit,  der Nachweis erbrachter Leistungen während des Semesters oder laufende Lernkontrollen. Sie werden in
+
+den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt dies als endgültiger Misserfolg und damit die Unterrichtseinheit als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder andere schriftliche Arbeit) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Proseminararbeiten werden an vier verbindlich vorgeschriebenen, dem Kurs nachfolgenden Terminen eingereicht. Wird die Proseminararbeit als ungenügend beurteilt, wird ein Misserfolg erfasst. Eine Proseminararbeit, die nach der ersten Abgabe als ungenügend bewertet wird, kann einmal überarbeitet werden , sofern dies innerhalb der ersten drei Abgabetermine erfolgt. Wird die Proseminararbeit beim vierten Termin nicht fristgerecht eingereicht oder als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Laufende Lernkontrollen (z.B. Übungsaufgaben, Essays, Protokolle, Vorträge, etc.), die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind, finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der Unterrichtseinheit und werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Die genauen Inhalte und die Validierungsmodalitäten der französischsprachigen Kurse und Module im bilingue-Studium  richten  sich  nach  den  Bestimmungen  des  entsprechenden  Bachelor-Studienplans «Sociologie» am Departement für Sozialwissenschaften.
+
+Sämtliche Plagiatsverdachte (beispielsweise in Übungen, Leistungsanforderungen, schriftliche Arbeiten oder Proseminararbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die Unterrichtseinheit muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 9.2 Prüfung am Ende des ersten Jahres
+
+Das Grundstudium (30 ECTS), das im ersten Studienjahr absolviert wird, setzt sich aus zwei Grundlagenmodulen zusammen und muss spätestens vor dem Beginn des fünften Studiensemesters vollständig abgeschlossen sein (Prüfung am Ende des ersten Jahres). Bei Nichteinhaltung dieser Frist oder bei einem definitiven Misserfolg in der Prüfung am Ende des ersten Jahres ist es nicht mehr möglich, das Studium in «Soziologie» fortzuführen. Ein Wechsel in das Bachelorprogramm «Sozialarbeit und Sozialpolitik» im Bereich I am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist nicht möglich.
+
+Ein Wechsel in das Studium «Soziologie» oder «Sozialarbeit und Sozialpolitik» im Bereich II ist nicht möglich, wenn eine Unterrichtseinheit des Moduls BAsoz01 «Soziologie, Sozialarbeit und Sozialpolitik» definitiv nicht bestanden ist.
+
+## 9.3 Endgültiger Misserfolg
+
+Alle Unterrichtseinheiten sind einem Modul angeschlossen. Es gibt Pflichtmodule (mit «P» bezeichnet) und Wahlpflichtmodule (mit «WP» bezeichnet). Alle Unterrichtseinheiten der Pflichtmodule  (ohne Modul «Softskills») und der gewählten Wahlpflichtmodule müssen erfolgreich absolviert werden. Im Modul  «Softskills»  können  definitive  Misserfolge  in  einer  Unterrichtseinheit  durch  andere  ersetzt
+
+werden. Wird in einer Unterrichtseinheit eines Wahlpflichtmoduls ein definitiver Misserfolg erzielt, ist ein einmaliger Wechsel in ein anderes Wahlpflichtmodul möglich. Die bereits absolvierten Leistungen des ursprünglichen Wahlpflichtmoduls können dabei weder im neuen Wahlpflichtmodul noch in einem anderen Modul des Programms angerechnet werden.
+
+Wird ein Pflichtmodul definitiv nicht bestanden, führt dies zum definitiven Misserfolg im Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium in «Soziologie» an der Universität Fribourg fortzusetzen.
+
+Werden die erforderlichen Module innerhalb der maximalen Studiendauer (achtzehn Semester nach Studienbeginn) nicht erfolgreich abgeschlossen, führt dies ebenfalls zum Ausschluss vom Studium in «Soziologie» an der Universität Fribourg.
+
+Ein Wechsel in das Bachelorprogramm «Sozialarbeit und Sozialpolitik» am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist nur unter der Voraussetzung möglich, dass keine obligatorische Unterrichtseinheit des Studienprogramms «Sozialarbeit und Sozialpolitik» im Rahmen des bisherigen Studiums in Soziologie definitiv nicht bestanden ist.
+
+## 9.4  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten Unterrichtseinheiten. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die Abschlussnote des Programms ist der ungewichtete Mittelwert aller Modulnoten. Die Gesamtnote wird auf zwei Nachkommastellen gerundet.
+
+## 10.  Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Bachelorstudium «Soziologie» im Bereich I zu 120 ECTS aufnehmen.
+
+Studierende nach Studienplan 2017 (d.h. mit Studienbeginn vor dem Herbstsemester 2021) können beim Departement einen Wechsel des Studienplans beantragen. Die bereits erbrachten Leistungen im Studienprogramm nach Studienplan 2017 werden ins neue Studienprogramm (nach Studienplan 2021) übertragen.
+
+Ab Herbstsemester 2025 ersetzt dieser Studienplan (2021) der frühere Bachelorstudienplan «Soziologie» (2017) im Bereich I.
+
+## 11.  Anhang: Übersicht aller Module und Kurse des Programms
+
+Die beiden Grundlagenmodule sind im ersten Studienjahr zu absolvieren («Prüfung am Ende des ersten Jahres»). Im ersten Studienjahr ist auch das Modul «Vertiefung Soziologie» (ohne zweite Vortragsreihe) vorgesehen. Bei Tabelle 3 ist zu beachten, dass die Zulassung zu den mit «II» bezeichneten Kursen  erst  nach  Besuch  des  Kurses  «I»  möglich  ist  (aufbauende  Kurse).  Zum  Modul  «Bachelor:  Forschungsarbeit» sind nur Studierende zugelassen, die den Kurs «Sozialforschung: Grundlagen II» erfolgreich absolviert haben.
+
+Tabelle 3: Kurse und Module des deutschsprachigen Programms «Soziologie» zu 120 ECTS
+
+| Soziologie Bachelor-Programm zu 120 ECTS   | Soziologie Bachelor-Programm zu 120 ECTS                 |   JWS |   ECTS | * jährlich / ungerade / gerade   |
+|--------------------------------------------|----------------------------------------------------------|-------|--------|----------------------------------|
+| BAsoz01                                    | P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik |       |     15 |                                  |
+| BAsoz01a                                   | Soziologie I                                             |     1 |      3 | j                                |
+| BAsoz01b                                   | Soziale Probleme                                         |     1 |      3 | j                                |
+| BAsoz01c                                   | Sozialpolitik I                                          |     1 |      3 | j                                |
+| BAsoz01d                                   | Sozialstaat und Wohlfahrtsregime I                       |     1 |      3 | j                                |
+| BAsoz01e                                   | Vortragsreihe                                            |     1 |      3 | j                                |
+| BAsoz02                                    | P: Vertiefung Soziologie                                 |       |     15 |                                  |
+| BAsoz02a                                   | Soziologie II                                            |     1 |      6 | j                                |
+| BAsoz02b                                   | Sozialstrukturanalyse                                    |     1 |      3 | j                                |
+| BAsoz02c                                   | Hausarbeit: Soziologie                                   |       |      3 | j                                |
+| BAsoz02d                                   | Vortragsreihe                                            |     1 |      3 | j                                |
+| BAsoz03                                    | P: Gesellschaftsanalyse                                  |       |     15 |                                  |
+| BAsoz03a                                   | Wirtschaft und Gesellschaft                              |     1 |      3 | u                                |
+| BAsoz03b                                   | Politische Soziologie                                    |     1 |      3 | u                                |
+| BAsoz03c                                   | Zivilgesellschaft, Demokratie, Rechte                    |     1 |      3 | u                                |
+| BAsoz03d                                   | Gesellschaftsdiagnosen                                   |     1 |      6 | u                                |
+| BAsoz04                                    | WP: Felder der Soziologie                                |       |     15 |                                  |
+| BAsoz04a                                   | Felder der Soziologie 1                                  |     1 |      3 | g                                |
+| BAsoz04b                                   | Felder der Soziologie 2                                  |     1 |      3 | g                                |
+| BAsoz04c                                   | Proseminar: Felder der Soziologie                        |     1 |      9 | g                                |
+| BAsoz05                                    | WP: Theorien und Debatten                                |       |     15 |                                  |
+| BAsoz05a                                   | Theorien                                                 |     1 |      3 | u                                |
+| BAsoz05b                                   | Debatten                                                 |     1 |      3 | u                                |
+| BAsoz05c                                   | Proseminar: Theorien und Debatten                        |     1 |      9 | u                                |
+| BAsoz06                                    | P: Grundlagen Sozialforschung                            |       |     15 |                                  |
+| BAsoz06a                                   | Wissenschaftstheorie                                     |     1 |      3 | j                                |
+| BAsoz06b                                   | Sozialforschung: Grundlagen I                            |     1 |      3 | j                                |
+| BAsoz06c                                   | Qualitative Datenerhebung und -analyse I                 |     1 |      3 | j                                |
+| BAsoz06d                                   | Statistik I                                              |     2 |      6 | j                                |
+| BAsoz07                                    | P: Vertiefung Sozialforschung                            |       |     15 |                                  |
+| BAsoz07a                                   | Sozialforschung: Grundlagen II                           |     1 |      3 | j                                |
+| BAsoz07b                                   | Qualitative Datenerhebung und -analyse II                |     2 |      6 | j                                |
+| BAsoz07c                                   | Statistik II                                             |     2 |      6 | j                                |
+| BAsoz08                                    | P: Bachelor: Forschungsarbeit                            |       |     18 |                                  |
+| BAsoz08a                                   | Forschungsworkshop I                                     |     1 |      3 | j                                |
+| BAsoz08b                                   | Forschungsworkshop II                                    |     1 |      3 | j                                |
+| BAsoz08c                                   | Bachelorarbeit: Auswertungsbericht                       |       |     12 | j                                |
+| BAsoz09                                    | P: Softskills                                            |       |     12 |                                  |

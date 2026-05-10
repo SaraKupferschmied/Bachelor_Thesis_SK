@@ -1,0 +1,327 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T03:38:54.005Z",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Environmental_sciences_and_humanities_d7075ddfd2962c363d5abcd2e46b85599f27d4d8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d7075ddfd2962c363d5abcd2e46b85599f27d4d8",
+  "program_key": "|master|120|environmental sciences and humanities",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Environmental Sciences and Humanities",
+  "doc_label": "Master of Science in Environmental sciences and humanities",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2023/Plan_MSc_SE_en.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/environmentalsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Environmental_sciences_and_humanities_d7075ddfd2962c363d5abcd2e46b85599f27d4d8.pdf",
+  "sha256": "90a7c3905bf52fb31d4920607bc23ad73da46d8f6a75dcb93bc3ad6ed28485df",
+  "fetched_at": "2026-04-03T11:26:38.625Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2023/Plan_MSc_SE_en.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_MSc_SE_en.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## CONTENTS
+
+|   1 | INTRODUCTION.................................................................................................................3                         |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2   | GENERAL REMARKS........................................................................................................4                               |
+| 2.1 | Academic Titles and Programme of Study ...................................................................................... 4                        |
+| 2.2 | Course Structure ................................................................................................................................ 4    |
+| 2.3 | Acquired Skills.................................................................................................................................... 5  |
+| 2.4 | Assessment of Courses and Acquisition of ECTS Credits............................................................ 5                                    |
+| 2.5 | Ethics and Science............................................................................................................................. 5      |
+| 2.6 | Regulations and Additional Information .......................................................................................... 5                    |
+| 3   | MASTER OF SCIENCE (MSC) ...........................................................................................6                                   |
+| 3.1 | Course Units........................................................................................................................................ 6 |
+| 3.2 | Examinations of the MSc and Validation ....................................................................................... 10                      |
+| 3.3 | Admission Procedure to the Master Programme.......................................................................... 10                               |
+
+## 1 Introduction
+
+The Master  of  Science  in  Environmental  Sciences  and  Humanities educates  generalists  in environmental sciences with a special competence in environmental humanities and ethics. All modules consist of course units providing a general overview or introduction to the fields of studies and  allow  for  specialization  in  specific  fields  of  environmental  sciences  and  humanities.  The program is based on an interfaculty and a humanistic approach. Within this highly interdisciplinary setting, students achieve key competences in all fields of environmental sciences ranging from biology, geosciences to environmental economics and law while achieving a key focus on the environmental humanities with a special emphasis on ethical decision-making in environmental practice.
+
+All course units of this program make true interdisciplinarity possible as they are followed in their faculties and departments of origin together with students from the respective fields. The program is divided into six modules and the master thesis:
+
+1. The environmental humanities module consists of courses in the fields of the environmental humanities and in ethics. Examples are courses in environmental ethics, methods of ethical decision-making and courses in environmental history and political ecology.
+2. The geosciences module deepens knowledge in methods and theory of earth sciences, as well as human and physical geography.
+3. The environmental biology module extends knowledge in ecology and biological evolution.
+4. The sustainable economy module provides the necessary background in economic thinking in the context of sustainability.
+5. The environmental law module focuses on public law at national, European and international levels.
+6. The humanities and theology module extends humanist background to environmental challenges.
+
+Finally, the master thesis is interdisciplinary, focusing on ethical or humanist aspects of environmental governance and practice.
+
+In  conjunction  with  the  courses  from  the  humanities  and  theology  module  the  environmental humanities module aims at building in-depth competences in humanist approaches to environmental challenges while a special focus lies on ethics and ethical decision-making. The other four modules provide the necessary generalist background to understand the basic scientific, economic and legal aspects of environmental issues to be governed today. Depending on their prerequisites, students follow more advanced or more basic courses. The master thesis allows a specialization on the humanist or ethical aspects of the chosen field of research.
+
+This curriculum introduces the course structure of the MSc study programme in Environmental Sciences and Humanities. It is based on the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force on 30 May 2022 (hereafter called Regulation).
+
+The Regulation of 30 May 2022 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study programmes (see articles 11, 13 and 14) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 2 General Remarks
+
+## 2.1  Academic Titles and Programme of Study
+
+The Faculty of Science and Medicine of the University of Fribourg awards the official academic title  of Master  of  Science  in  Environmental  Sciences  and  Humanities ,  subsequently  called MSc , to students who have successfully completed this study programme.
+
+The  MSc  in  Environmental  Sciences  and  Humanities  provides  access  to  various  professional activities in research, environmental consulting and protection, spatial planning, documentation, and administration. Besides, the MSc is the entry requirement for scientific work and deepened scientific education leading to a doctorate.
+
+Candidates in possession of a BSc in Biology, Geography, or Earth Sciences of the University of Fribourg or any other Swiss university including a BSc in Environmental Sciences or related fields from any Swiss university are admitted to the MSc course of studies (Art. 8 of the Regulation). The same holds for candidates in possession of a Bachelor in Anthropology, Economics, Law, Political Sciences, International Affairs, Theology or Philosophy accompanied by a minor in Environmental Sciences,  Biology,  Geography  or  Geology  of  the  University  of  Fribourg  or  any  other  Swiss university. Candidates in possession of a Bachelor degree from abroad, in a different subject or without one of the necessary accompanying minors or of equivalent degrees (e.g. after graduating from an engineering school) can also be admitted to the MSc study programme by a decision of the Faculty of Science and Medicine to be made in each individual case. Provisional admission can be granted and depends on the fulfilment of additional requirements set by the Faculty.
+
+## 2.2  Course Structure
+
+The MSc study programme in Environmental Sciences and Humanities spans over two years (four semesters), corresponding to a minimum of 120 ECTS credits.
+
+It  integrates  courses  in  natural  and  human  sciences,  in  law,  economics,  the  humanities  and theology. The course programme consists of the following teaching modules:
+
+- An Environmental Humanities module totalling 18 ECTS credits.
+- A Geosciences  module comprising  courses  from  physical  Geography  and  Earth  Sciences totalling 18 ECTS credits.
+- An Environmental Biology  module comprising  courses  from  Biology  totalling  18  ECTS credits.
+- A Sustainable Economics module comprising courses from the economics option sustainable development and social responsibility totalling 10,5 ECTS credits.
+- An Environmental Law module totalling 10 ECTS credits.
+- A Humanities and Theology module totalling 6 ECTS credits.
+- A Supporting  courses  module ,  comprising  elective  modules  from  the  modules  above  to achieve the necessary competences not acquired during Bachelor studies. The selection of the courses must be approved by the director of the programme. It comprises the necessary ECTS credits to reach the minimum total of 120 ECTS credits.
+- A Master thesis  module ,  comprising  the  Master  thesis  and  two  environmental  humanities colloquia to reach a total of 30 ECTS credits.
+
+The course language will be mainly English, with French and German depending on faculty and occasions. For exams and written work (project reports, MSc thesis, etc.) students can choose between German, French, and English. Most common language for exams will be English.
+
+## 2.3  Acquired Skills
+
+The aim of the studies leading to the award of a MSc in Environmental Sciences and Humanities is  to  deepen  knowledge  and  to  perfect  competence  in  the  chosen  field.  At  the  end  of  the programme,  a  student  will  have  shown  that  they  can  apply  their  knowledge  to  accomplish  a research project and will have learned how to work independently or how to integrate into an interdisciplinary research team. The award of the degree requires creative and self-critical talents as well as the ability to communicate ideas and work both in English and one's native language.
+
+## 2.4  Assessment of Courses and Acquisition of ECTS Credits
+
+Acquisition of ECTS credits occurs in three steps: assessment of the courses, grouping of courses into validation packages, and awarding the respective credits.
+
+Exercises are assessed following the criteria given at the beginning of each course. Admission to an  exam  corresponding  to  a  lecture  course  can  be  subject  to  meeting  the  requirements  of  the corresponding exercise  class. Assessment of  lectures  is  done  by  an  oral  and/or  written  exam, whose type and duration are regulated in the appendix to this curriculum. Exams take place during the  official  exam  periods  (sessions)  in  winter,  summer,  and  autumn.  Students  register  via  the students' web portal MyUniFR (https://my.unifr.ch), within the stipulated delays for each exam according to the online procedure. Marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated once at the next exam session at the earliest.
+
+Validation  packages comprise  multiple,  separately  assessed  courses.  Art.  24  and  27  of  the Regulation  determines  the  number  of  these  package  whereas  this  curriculum  determines  their content. There are three validation packages:
+
+- The first package (48 ECTS credits) consists of the compulsory courses of the Environmental Humanities Module, and all the courses of the Geosciences Module and the Environmental Biology Module;
+- The second package (42 ECTS credits) consists of the elective courses of the Environmental Humanities Module, and all the courses of the Environmental Economy Module, the Environmental Law Module, the Humanities and Theology Module and the Supporting Courses Module;
+- The third package (30 ECTS credits) consists of the Master Thesis Module.
+
+The conditions for validation of ECTS credits are described in Art. 25 of the Regulation. After the validation, upon request, the Dean's office issues transcripts of records in which exam results and credits awarded are acknowledged (Art. 28 and 30 of the Regulation), provided the exam fee has been paid.
+
+## 2.5  Ethics and Science
+
+Ethical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and upon the writing of any scientific work whether it is a project, a lecture, a thesis or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be correctly cited.
+
+## 2.6  Regulations and Additional Information
+
+Detailed information about studying Environmental Sciences and Humanities can be found in the documents referenced on the web page http://www.unifr.ch/scimed/en/plans which can also be obtained from the Office of the University of Fribourg Environmental Sciences and Humanities Institute, Chemin du Musée 4, CH-1700 Fribourg.
+
+## 3. Master of Science (MSc)
+
+[Version 2023, validation packages : PV-SSE.0000043, PV-SSE.0000044, PV-SSE.0000045]
+
+## 3.1  Course Units
+
+Most course units are units not tailored for students from the MSc in Environmental Sciences and Humanities but for students of the specific fields of study. Be prepared to invest some time to acquire additional basic knowledge if needed. If foreign to a field of study, it is recommended to follow more basic course units before attending more advanced course units (most probably units at master level). If foreign to a field of study, it is recommended to follow more basic course units (most  probably  units  at  bachelor  level)  before  attending  more  advanced  course  units  (most probably units at master level).
+
+## Environmental Humanities Module
+
+| Code      | Course                                                                                                                         | Semester   |   tot. h. |   ECTS |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------|------------|-----------|--------|
+|           | Compulsory courses                                                                                                             |            |           |        |
+| SSE.00432 | Principles of environmental ethics (advanced), in- cluding reading seminar One of the following courses. The other course can- | AS         |        56 |      6 |
+| SSE.00445 | Issues of sustainable development (advanced), in- cluding case studies                                                         | SS         |        56 |      6 |
+| SSE.00451 | Responsibilities for sustainability, including case studies 2                                                                  | SS         |        56 |      6 |
+|           | Elective courses                                                                                                               |            |           |        |
+| SSE.00420 | Justice in managing environmental challenges 1                                                                                 | AS / SS    |        28 |      3 |
+| SSE.00433 | Principles of environmental ethics (advanced)                                                                                  | AS         |        28 |      3 |
+| SSE.00444 | Issues of sustainable development (advanced)                                                                                   | SS         |        28 |      3 |
+| SSE.00450 | Responsibilities for sustainability 2                                                                                          | AS / SS    |        28 |      3 |
+| SSE.00455 | Environmental Ethics for the Anthropocene 2                                                                                    | AS / SS    |        28 |      3 |
+| SGG.00485 | Environmental history                                                                                                          | SS         |        28 |      3 |
+| SGG.00487 | Issues in environmental ethics 2                                                                                               | AS / SS    |        28 |      3 |
+| SGG.00477 | Political ecology                                                                                                              | SS         |        28 |      3 |
+| Total     | Total                                                                                                                          |            |           |     18 |
+
+| Code      | Course                                                                                                                                             | Semester   | tot. h.   |   ECTS |
+|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------|--------|
+|           | Compulsory courses                                                                                                                                 |            |           |        |
+| SGG.00424 | Hazards, risks and vulnerability                                                                                                                   | AS         | 28        |    3   |
+| SGG.00426 | Climate change: state of the art and debates                                                                                                       | AS         | 28        |    3   |
+| SGG.00512 | Geocolloquium 1                                                                                                                                    | AS/SS      | 28        |    3   |
+|           | Elective courses Bachelor level 2                                                                                                                  |            |           |        |
+| SGS.01001 | Introduction aux géosciences 1 - Espace et Société / Einführung in die Geowissenschaften 1 - Raum und Gesellschaft                                 | AS         | 28        |    3   |
+| SGS.01002 | Introduction aux géosciences 2 - Atmosphère, Hyd- rosphère et Climat / Einführung in die Geowissen- schaften 2 - Atmosphäre, Hydrosphäre und Klima | SS         | 28        |    3   |
+| SGS.00106 | Histoire de la Terre / Erdgeschichte                                                                                                               | SS         | 28        |    3   |
+| SGG.00205 | Géographie urbaine / Stadtgeographie                                                                                                               | SS         | 28        |    3   |
+| SGS.01201 | Ecologie politique de l'eau                                                                                                                        | SS         | 14        |    1.5 |
+| SGS.01301 | Géologie et société: défis appliquées                                                                                                              | SS         | 14        |    1.5 |
+|           | Master level 3                                                                                                                                     |            |           |        |
+| SGG.00486 | Advanced social research methods                                                                                                                   | AS         | 28        |    3   |
+| SGG.00409 | Models, modelling and representations                                                                                                              | AS         | 28        |    3   |
+| SGG.00425 | Data and methods for environmental analysis                                                                                                        | AS         | 28        |    3   |
+| SST.00538 | Palaeoclimatology and palaeoecology                                                                                                                | AS         | 28        |    3   |
+| Total     | Total                                                                                                                                              | Total      | Total     |   18   |
+
+1 25 Geocolloqium sessions can be attended over 4 semesters.
+
+2 Can only be followed if no studies in geosciences during Bachelor level.
+
+3 Please consider potential pre-requisites! Consult the information provided in the course cata-
+
+log (https://www3.unifr.ch/timetable) or in the study portal MyUniFR (https://my.unifr.ch).
+
+## Environmental Biology Module
+
+| Code      | Course                                                                                                     | Semester   |   tot. h. |   ECTS |
+|-----------|------------------------------------------------------------------------------------------------------------|------------|-----------|--------|
+|           | Compulsory courses                                                                                         |            |           |        |
+|           | Any two of the following courses. Additional courses are accredited as elective courses. 1                 |            |           |        |
+| SBL.06002 | Classical models in Biology (lecture)                                                                      | SS         |        28 |      3 |
+| SBL.20031 | Community Ecology 2                                                                                        | SS         |        28 |      3 |
+| SBL.20036 | Global Change 2                                                                                            | AS         |        28 |      3 |
+| SBL.20037 | Invasion Biology 2                                                                                         | AS         |        28 |      3 |
+|           | Elective courses Bachelor level 3                                                                          |            |           |        |
+| SBL.00013 | Ecologie / Ökologie                                                                                        | AS         |        42 |      4 |
+| SBL.00014 | Biologie moléculaire / Molekularbiologie                                                                   | AS         |        28 |      3 |
+| SBL.00018 | Biologie moléculaire des plantes / Molekularbiolo- gie der Pflanzen                                        | AS         |        28 |      3 |
+| SBL.00021 | Biologie de l'évolution / Evolutionsbiologie                                                               | AS         |        28 |      3 |
+| SBL.00068 | Phytopathologie et interactions plantes-pathogènes / Phytopathologie und Pflanzen-Pathogen Interaktio- nen | AS         |        18 |      3 |
+| SBL.00045 | Hormones et développement des plantes / Hormone und Entwicklung der Pflanzen                               | SS         |        28 |      3 |
+
+| SBL.00049   | Génétique des populations / Populationsgenetik                                            | AS       | 28    |    3 |
+|-------------|-------------------------------------------------------------------------------------------|----------|-------|------|
+| SBL.00061   | Diversité fonctionnelle des microorganisms / Funk- tionale Diversität der Mikroorganismen | AS       | 14    |  1.5 |
+| SBL.00063   | Bases de bactériologie / Grundlagen der Bakteriolo- gie                                   | AS       | 14    |  1.5 |
+|             | Master level                                                                              |          |       |      |
+| SBL.00205   | Ecological field course                                                                   | Block SS | 80    |  5   |
+| SBL.00323   | Plant Biotechnology 2                                                                     | SS       | 28    |  3   |
+| SBL.00421   | Oceanography and marine ecosystems 1                                                      | SS       | 8     |  1   |
+| SBL.06003   | Classical models in Biology (practicals) 4                                                | SS       | 14    |  1   |
+| SBL.10004   | Ethics in stem cell research                                                              | SS       | 8     |  1   |
+| SBL.10007   | Polar Biology 2                                                                           | SS       | 8     |  1   |
+| SBL.20034   | Evolutionary Genomics                                                                     | SS       | 28    |  3   |
+| Total       | Total                                                                                     | Total    | Total | 18   |
+
+- 1  Presupposes good knowledge in analysis as tought in UE-SMA.01103 and UE-SMA.01104
+
+2 Given every second year
+
+3 Can only be followed if no studies in biology during Bachelor level.
+
+4 Can only be followed if SBL.06002 is followed in parallel.
+
+Master courses presuppose basic knowledge in biology (as taught in SBL.00001-SBL.00004 / SBL.00040, SBL00041 and SBL.00074) and have strict pre-requisites. These pre-requisites should ideally be taken before the specific MSc-level course. Depending on the course you plan to attend pre-requisites are defined as follows:
+
+| Course to attend   | Pre-requisite         |
+|--------------------|-----------------------|
+| SBL.00205          | SBL.00013             |
+| SBL.00323          | SBL.00014, SBL.00018, |
+| SBL.00421          | SBL.00013             |
+| SBL.10007          | SBL.00013             |
+| SBL.20031          | SBL.00013             |
+| SBL.20034          | SBL.00021, SBL.00049  |
+| SBL.20036          | SBL.00013             |
+| SBL.20037          | SBL.00013             |
+
+## Sustainable Economy Module
+
+| Code      | Course                                                                                            | Semester   |   tot. h. | ECTS   |
+|-----------|---------------------------------------------------------------------------------------------------|------------|-----------|--------|
+| EEP.00336 | Compulsory courses One of the following two courses at Bachelor level 1 ECO02F: Économie publique | SS         |        56 | 6      |
+| EEP.00337 | ECO02D: Wirtschafts- und Finanzpolitik                                                            | SS         |        56 | 6      |
+| EGE.00017 | Elective courses Master level Esprit et création d'entreprises &entrepreuneuriat                  | AS         |        42 | 4,5    |
+| EGE.00024 | Ethique en affaires et en finance (EAF) 2                                                         | AS         |        42 | 4,5    |
+| EGE.00073 | Markt und Strategie von Nonprofit-Organisationen                                                  | SS         |        42 | 4,5    |
+| EGE.00076 | Performance Measurement in Nonprofit Organisa- tions                                              | SS         |        42 | 4,5    |
+| EGE.00108 | Marketing durable                                                                                 | SS         |        42 | 4,5    |
+| EEP.00063 | Evaluation des dommages et politiques environne- mentales                                         | SS         |        42 | 4,5    |
+| EEP.00125 | Sustainable Globalization                                                                         | AS         |        42 | 4,5    |
+
+| EEP.00127         | Business and Human Rights                                        | AS    |   28 | 3    |
+|-------------------|------------------------------------------------------------------|-------|------|------|
+| EEP.00131         | Demography, Immigration and Labor Markets                        | SS    |   24 | 4,5  |
+| EEP.00147         | Microéconomie du développement 2                                 | SS    |   42 | 4,5  |
+| EEP.00153         | Politiques de développement 3                                    | AS    |   42 | 4,5  |
+| EEP.00321         | Aide, microcrédit et autres instruments de dévelop- pement 1     | AS    |   42 | 4,5  |
+| EEP.00325         | Ethics, Politics and Economics 2                                 | SS    |      | 4,5  |
+| EEP.00331         | The Ethics of Economics as a Profession 1                        | SS    |   42 | 4.5  |
+| EEP.00334         | Global Economic Justice 2                                        | SS    |   42 | 4.5  |
+| EEP.00340         | ECO05F: Économie publique - Approfondissements                   | AS    |   42 | 4,5  |
+| EEP.00351         | History of Economic Thought                                      | AS    |      | 4,5  |
+| EEP.00353         | Unternehmens- und Wirtschaftsethik 2                             | SS    |      | 4,5  |
+| EEP.00357         | ECO07F: Économie du développement                                | SS    |   42 | 4,5  |
+| EEP.00365         | Femmes et familles dans le monde en développe- ment 3            | AS/SS |   42 | 4,5  |
+| Changes each time | Topics in Philosophy and Economics: sub. title changes each time | AS    |      | 4,5  |
+|                   | Total                                                            |       |      | 10,5 |
+
+## Environmental Law Module
+
+| Code      | Course                                                                                    | Semester   | tot. h.   |   ECTS |
+|-----------|-------------------------------------------------------------------------------------------|------------|-----------|--------|
+|           | Elective courses                                                                          |            |           |        |
+| DDR.00456 | Introduction to Swiss Law                                                                 | AS         |           |      5 |
+| DDR.00791 | Raumplanungs- und Baurecht / Droit de l'aménage- ment du territoire et de la construction | AS         |           |      5 |
+| DDR.02418 | Umweltrecht / Droit de l'environnement                                                    |            |           |      5 |
+| DDR.02419 | Natur- und Heimatschutzrecht / Protection de la na- ture et du patrimoine                 |            |           |      5 |
+| DDR.02452 | Economy, Governance, Climate                                                              |            |           |      5 |
+| DDR.02438 | Europäisches Umweltrecht                                                                  |            |           |      5 |
+| DDR.02248 | Global Justice and the Law                                                                |            |           |      5 |
+| DDR.00596 | International and European Responsibility Law                                             | SS         |           |      5 |
+| DDR.02455 | International and European Human Rights Law                                               |            |           |      5 |
+| DDR.02453 | International and European Refugee Law                                                    |            |           |      5 |
+|           | Total                                                                                     |            |           |     10 |
+
+## Humanities and Theology Module
+
+| Code   | Course                                                                                                              | Semester   |   tot. h. |   ECTS |
+|--------|---------------------------------------------------------------------------------------------------------------------|------------|-----------|--------|
+|        | Elective courses                                                                                                    |            |           |        |
+|        | Two master courses from a list of courses at the of Humanities and the Faculty of by the director of the program. 5 |            |        56 |      6 |
+|        | Faculty Theology decided Total                                                                                      |            |           |      6 |
+
+## Supporting Courses Module
+
+| Code   | Course Semester tot. h. ECTS                                                                                                                                                                                                             |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Courses to be chosen inaway to achieve the necessary competences not acquired dur- ing bachelor studies with the consent of the director of the program. Courses already assessed in another programme cannot be chosen again. Total 9,5 |
+
+## Master Thesis Module
+
+| Code      | Course                  | Semester   | tot. h.   | ECTS   |
+|-----------|-------------------------|------------|-----------|--------|
+| SSE.00460 | Master thesis colloquia | AS/SS      | 56        | 6      |
+| SSE.00461 | Master thesis Total     |            | -         | 24 30  |
+
+## 3.2  Examinations of the MSc and Validation
+
+The teaching units of the Environmental Humanities Module and the Master Thesis Module are evaluated according to the modes described in the document 'Modalités d'évaluation des UE des Environmental  Sciences  and  Humanities'.  The  assessments  of all  other modules take  place according to the information provided by the study plans of the concerned programs.
+
+The first two validation packages comprise all the teaching of the Environmental Humanities Module,  the  Geosciences  Module,  the  Environmental  Biology  Module,  the  Environmental Economics Module, the Environmental Law Module, the Humanities and Theology Module and the Supporting Courses Module. The teaching units of the Master thesis module (SSE.00460 and SSE.00461), including the master thesis, constitute the third validation package .
+
+The  title  of Master  of  Science  in  Environmental  Sciences  and  Humanities,  University  of Fribourg (MSc) is conferred upon the validation of all three packages. A failed master thesis must be repeated on a different subject.
+
+## 3.3  Admission Procedure to the Master Programme
+
+Acceptance to the Master programme in Environmental Sciences and Humanities may be granted provided the following two conditions have been met by the applicant:
+
+- Satisfying the University admission requirements as defined in the Règlement concernant l'admission à l'Université de Fribourg (https://www.unifr.ch/apps/legal/fr/document/274904),
+- The  student  possesses  a Bachelor of Science from the University of Fribourg in Biology, in Geography, or in Earth Sciences. The same holds for students in possession of a Bachelor from the  University  of  Fribourg  in  Anthropology,  Economics,  Law,  Theology,  or  Philosophy accompanied by a minor in Environmental Sciences and Humanities, Biology, Geography or Geology or an academic degree judged equivalent by the Faculty of Science and Medicine.
+
+For candidates with degrees that are not judged equivalent by the Faculty of Science and Medicine, the Commission for Students' Requests will decide on eligibility ( Commission des requêtes des étudiant-e-s , Dean's Office, Faculty of Science and Medicine, ch. du Musée 8, CH-1700 Fribourg, Switzerland).
+
+Based  on  the  candidate's  academic  qualification,  the  Commission  for  Students'  Requests  can accept the application on the condition that additional requirements are fulfilled, provided they are of a minor scope and can be completed simultaneously with the Master studies. Otherwise, access is denied or applicants can be admitted to a 'pre-master programme' and can begin the Master programme  only  after  having  fulfilled  the  requirements  initially  set  for  the  pre-master.  Final acceptance to the Master programme for a qualifying student depends on the successful completion of the additional requirements.
+
+Students not holding one of the relevant titles of Bachelor, a Bachelor accompanied by a relevant minor or a title judged equivalent by the Faculty must follow and successfully complete at least a complementary programme in all relevant fields to the Master in order to be awarded the title MSc in Environmental  Sciences  and  Humanities.  Relevant  courses  followed  and  successfully completed  during  former  Bachelor  studies  can  be  admitted  if  they  are  judged  equivalent.  If complementary  courses  are  of  minor  scope,  they  can  be  completed  in  parallel  to  the  Master programme. Otherwise, applicants are admitted to a 'pre-master programme' and can start with the master degree programme only after fulfilling the requirements initially laid down for the premaster.

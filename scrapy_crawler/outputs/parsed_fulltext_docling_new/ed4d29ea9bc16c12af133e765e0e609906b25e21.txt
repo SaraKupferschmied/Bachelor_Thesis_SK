@@ -1,0 +1,415 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:49:23.622Z",
+  "title": "UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Plans_d_tudes_nbsp_MA_30_ECTS_ed4d29ea9bc16c12af133e765e0e609906b25e21",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ed4d29ea9bc16c12af133e765e0e609906b25e21",
+  "program_key": "|master|30|culture, politics and religion in pluralist societies",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Culture, Politics and Religion in Pluralist Societies",
+  "doc_label": "Plans d'études&nbsp;MA 30 ECTS",
+  "source_url": "https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/MA_Ste%CC%81s%20pluri_PS_P2_30_Fr_180130_Modif220915.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialanthropology",
+  "curriculum_url": "https://studies.unifr.ch/go/A0cJ8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Plans_d_tudes_nbsp_MA_30_ECTS_ed4d29ea9bc16c12af133e765e0e609906b25e21.pdf",
+  "sha256": "64986edc6eb0ffc8b9b101531e73c59cd59df1084f79fd22465b34aa710877d7",
+  "fetched_at": "2026-04-03T11:30:28.967Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/MA_Ste%CC%81s%20pluri_PS_P2_30_Fr_180130_Modif220915.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MA_Stés pluri_PS_P2_30_Fr_180130_Modif220915.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Faculté des lettres et des sciences humaines
+
+## Université de Fribourg Département des Sciences sociales
+
+## Plan d'études
+
+## Programme d'études secondaire à 30 crédits ECTS/
+
+## Programme de spécialisation à 30 crédits ECTS
+
+Sociétés plurielles : cultures, politique et religions (F, D, Bil)
+
+## Master
+
+du 30 janvier 2018 (actualisé le 01 avril 2020)
+
+<!-- image -->
+
+## Table des Matières
+
+| 1. Description générale du programme .......................................... Domaine d'études Bases légales Conditions d'admission               | 3                                                              |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Début des études Objectifs d'apprentissage et compétences acquises Perspectives professionnelles 2. Structure du programme                          | ............................................................ 5 |
+| 3. Crédits et évaluation des apprentissages Octroi des crédits Evaluation des apprentissages Echec définitif dans le programme d'études Note finale | ............................. 6                                |
+| 4. Langues ........................................................................................ Langues d'enseignement                          | 7                                                              |
+| 5. Mesures transitoires ...................................................................                                                         | 7                                                              |
+| 6. Profil Dynamiques sociales et culturelles ..................................                                                                     | 9                                                              |
+| 7. Profil (Dés)ordres politiques et normatifs ..................................                                                                    | 12                                                             |
+| 8. Profil Religion et société ............................................................                                                          | 15                                                             |
+
+12
+
+<!-- image -->
+
+## 1. Description générale du programme
+
+## Domaine d'études
+
+Le programme d'études secondaire à 30 ECTS/ programme de spécialisation à 30 crédits  ECTS Sociétés  plurielles :  cultures,  politique  et  religions se  situe  dans  le prolongement  des  programmes  d'études  de  Bachelor Anthropologie  sociale à  120 ECTS et 60 ECTS, Science des religions à 120 ECTS et 60 ECTS et Sociologie à 120 et 60 ECTS. Il fait partie du domaine des Sciences sociales.
+
+Il est interdisciplinaire et propose trois profils (un à choix) :
+
+Profil : Dynamiques sociales et culturelles
+
+Profil : (Dés)ordres politiques et normatifs
+
+Profil : Religion et société
+
+Il peut compléter un programme d'études approfondies à 90 crédits ECTS au sein du Département des Sciences sociales ou au sein de l'Université de Fribourg.
+
+## Bases légales
+
+Le présent plan d'études s'appuie sur le Règlement pour l'obtention du bachelor et du  master  à  la  Faculté  des  Lettres  et  des  sciences  humaines  de  l'Université  de Fribourg (REG).
+
+## Conditions d'admission
+
+Les  informations  concernant  les  conditions  d'admission  au  programme  d'études secondaire  /  programme  de  spécialisation  à  30  crédits  ECTS  (abrégé  ci-après  30 ECTS) Sociétés plurielles : cultures, politique et religions (ci-après programme) figurent sur le portail informatique lié à ce programme.
+
+## Début des études
+
+L'entrée dans le programme peut se faire au début du semestre d'automne ou du semestre de printemps.
+
+## Objectifs d'apprentissage et compétences acquises
+
+Les objectifs d'apprentissage de ce programme interdisciplinaire sont de former les étudiant-e-s à la compréhension et à l'analyse des phénomènes sociaux, culturels, politiques et religieux. Grâce aux apports des différentes disciplines (anthropologie sociale, science des religions, sociologie), il offre les outils adéquats pour saisir la complexité des sociétés contemporaines dans leur diversité et leur spécificité.
+
+Le  programme  met  l'accent  sur  l'acquisition  des  connaissances  et  des  méthodes d'enquêtes en sciences sociales, tout en développant des compétences pratiques de recherche scientifique, de gestion de projets, d'analyse et d'intervention. A l'issue du programme les étudiant-e-s bénéficient d'un portefeuille de compétences à faire valoir dans  la  suite  de  leur  cursus  universitaire  (niveau  doctoral)  ou  à  valoriser  sur  le marché du travail dans les domaines suivants :
+
+<!-- image -->
+
+- Gestion de la diversité sociale et culturelle ;
+- Analyse des questions économiques et sociales ;
+- Etude des processus politiques, juridiques et de la gouvernance ;
+- Etude des phénomènes religieux et de leur évolution ;
+- Connaissances des nouveaux styles de vie ;
+- Capacité à comprendre les phénomènes actuels (nouvelles technologies ; croyances émergentes, mouvements politiques, conflits, etc.) ;
+- Aptitude à étudier les interactions sociales et la communication.
+- Connaissances des institutions (étatiques, juridiques, sanitaires, etc.) ;
+- Connaissances sur des populations spécifiques (jeunes, migrants, femmes, professionnels, mouvements religieux, etc.) ;
+- Analyse  des  relations  de  genre  intergénérationnelles,  interethniques  et interculturelles.
+
+Du point de vue de l'acquisition des compétences pratiques, le programme couvre les domaines suivants :
+
+- Capacité d'analyse de problématiques complexes;
+- Maîtrise des techniques  d'enquête  quantitatives  et qualitatives (par entretien, observation, ethnographie, analyse des médias, vidéo, etc.) ;
+- Habiletés communicationnelles (orales et écrites) ;
+- Gestion de projets et activités scientifiques.
+
+## Perspectives professionnelles
+
+Le programme ouvre la voie à des études de doctorat ou peut déboucher sur des emplois dans des secteurs professionnels divers, tels que :
+
+- Monde académique, recherche scientifique ;
+- Organismes publics et administratifs ;
+- Secteur privé, de l'emploi et des ressources humaines ;
+- Secteur des médias et de la communication ;
+- Milieux politiques et associations (ONG, syndicats, fondations) ;
+- Aide humanitaire et organisations non-gouvernementales ;
+- Musée et projets artistiques ;
+- Secteur des migrations et des relations interculturelles ;
+- Secteur de la jeunesse et de la famille ;
+- Secteur de la culture et de l'animation ;
+- Secteur de la santé ;
+- Intervention sociale.
+
+<!-- image -->
+
+## 2. Structure du programme
+
+## Organisation générale
+
+Le programme propose trois profils :
+
+- Profil : Dynamiques sociales et culturelles
+- Profil : (Dés)ordres politiques et normatifs
+- Profil : Religion et société
+
+L'étudiant-e s'inscrit au programme et choisit un des profils au début de ses études. Le changement de profils en cours d'études est possible mais doit faire l'objet d'une demande formelle au responsable du programme.
+
+Si l'étudiant-e suit le programme d'études approfondies Sociétés plurielles : cultures, politique et religions dans une option, il ou elle ne peut pas choisir le même profil pour le programme de spécialisation.
+
+Le programme (quel que soit le profil choisi) se compose de deux modules à 15 crédits ECTS.
+
+Les modules sont structurés sur la base d'objectifs d'apprentissage. Les descriptifs des unités enseignements (cours, séminaires, travaux écrits, travaux de séminaires, etc.)  précisent  les  thématiques  traitées  et  les  objectifs  pédagogiques  visés.  Les évaluations  des  apprentissages  sont  diversifiées  et  adaptées  à  chaque  unité d'enseignement : examen écrit, examen oral, travail écrit, présentations en classe, rapports,  etc.).  Le  programme  garantit  un  équilibre  entre  les  différentes  formes d'évaluation.
+
+## Tableau synoptique des 3 profils
+
+| Profil Dynamiques sociales et culturelles                       | Profil (Dés)ordres politiques et normatifs                   | Profil Religion et société              |
+|-----------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------|
+| SOCIO 1 Changements socio- économiques et styles de vie 15 ECTS | ANTHRO 1 Conflits, pouvoir et politique                      | REL 1 Religion, politique et société    |
+|                                                                 | 15 ECTS                                                      | 15 ECTS                                 |
+| Cours, séminaires, travail de séminaire ou év. travail écrit    | Cours, séminaires, travail de séminaire ou év. travail écrit | Cours, séminaires, travail de séminaire |
+| SOCIO 2 Relations sociales et interculturelles                  | ANTHRO 2 (Dés)ordres normatifs en mouvement                  | REL 2 Religion et culture               |
+| 15 ECTS                                                         | 15 ECTS                                                      | 15 ECTS                                 |
+| Cours, séminaires, travail de séminaire ou év. travail écrit    | Cours, séminaires, travail de séminaire ou év. travail écrit | Cours, séminaires, travail de séminaire |
+
+<!-- image -->
+
+## 3. Crédits et évaluation des apprentissages
+
+## Octroi des crédits
+
+L'octroi  de  crédits  ECTS  se  base  sur  les  prestations  d'études  accomplies  par  les étudiant-e-s dans le cadre des unités d'enseignement. Un crédit ECTS correspond à une  charge  de  travail  d'environ  30  heures.  Les  crédits  ECTS  sont  octroyés exclusivement lorsque les unités d'enseignement sont jugées réussies.
+
+## Crédits des unités d'enseignement :
+
+- Les cours de 2 heures par semaine et par semestre correspondent à une charge de travail de 3 crédits ECTS. Ils visent à transmettre des connaissances générales. Le type d'enseignement est principalement magistral.
+- Les séminaires de  2  heures  par  semaine  et  par  semestre  correspondent  à  une charge  de  travail  de  3  crédits  ECTS.  Ils  permettent  d'approfondir  des  thèmes spécifiques et d'acquérir des compétences pratiques. Le type d'enseignement est interactif.
+- Les cours  ou  séminaires  bloc (une  ou  plusieurs  journées  pour  un  total  de  28h d'enseignement) correspondent à une charge de travail de 3 crédits ECTS.
+- Les cycles  de  conférences (exposés  réguliers, colloques, journées  d'études, événements scientifiques au sein ou à l'extérieur de l'Université, enseignements spécifiques, etc.) correspondent à une charge de travail de 3 crédits ECTS.
+- Les activités formatives correspondent à une charge de travail variable. Il s'agit de voyages  d'études,  stages,  terrains, projets scientifiques  ou  autres  activités formatives.
+- Les travaux de séminaire correspondent à une charge de travail de 6 crédits ECTS. Ils sont en principe rédigés dans le cadre d'un séminaire.
+- Les travaux écrits correspondent à une charge de travail de 3 ou 6 crédits ECTS. Ils sont liés à une unité d'enseignement.
+
+## Evaluation des apprentissages
+
+Les  étudiant-e-s  s'inscrivent  sur  le  système  informatique  pour  toutes  les  unités d'enseignement.
+
+Chaque unité d'enseignement est évaluée séparément. Elle est notée ou fait l'objet d'une  décision  « réussi »  ou  « échoué ».  Les  modes  d'évaluation  sont  différenciés (examen écrit, examen oral, travail écrit, présentation orale, travail de groupe, etc.). Ils sont en adéquation avec l'enseignement fourni. Les modalités d'évaluation sont communiquées par les enseignant-e-s.
+
+L'échelle de notation ordinale pour les épreuves notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations non réussies.
+
+<!-- image -->
+
+Toutes  les  évaluations  doivent  être  réussies  (pas  de  compensation  possible).  Une évaluation non-réussie équivaut à un échec. Une évaluation non réussie peut être répétée 1 fois.
+
+L'étudiant-e doit se soumettre à l'évaluation de l'unité d'enseignement dans laquelle il  ou  elle  est  inscrit-e-  au  plus  tard  à  la  quatrième  session  qui  suit  la  période d'inscription à cette unité. En cas de non-respect de cette règle, ou d'échec à cette session, un échec définitif à cette unité d'enseignement est prononcé.
+
+Les modalités et délais de remise des Travaux écrits , des Travaux de séminaire ainsi que toute autre forme d'évaluation sont fixés par les enseignant-e-s.
+
+L'examen de master est considéré comme réussi si la note du travail de master et la note de la soutenance sont égales ou supérieures à 4.
+
+## Echec définitif dans le programme d'études
+
+Les étudiant-e-s qui obtiennent de manière cumulative un échec définitif à 3 unités d'enseignement du programme ne peuvent pas poursuivre leurs études dans le même profil du programme.
+
+Le changement de profil est autorisé. Les étudian-t-e-s ne peuvent pas suivre l'option correspondante du programme de Master à 90 ECTS Sociétés  plurielles :  cultures, politique et religions .
+
+## Note finale
+
+La  note  finale  du  programme  d'études Sociétés  plurielles :  cultures,  politique  et religions se compose de la moyenne des notes des modules validés (30 ECTS).
+
+## 4. Langues
+
+## Langues d'enseignement
+
+Selon les profils, le programme peut être suivi tout en français, tout en allemand et/ou de manière bilingue. L'anglais peut constituer une langue d'enseignement. Les langues d'enseignement sont précisées pour chaque profil.
+
+## Mention bilingue
+
+Il n'est pas possible d'obtenir la mention bilingue pour ce programme.
+
+## 5. Mesures transitoires
+
+Ce plan d'études est valable pour tous les étudiant-e-s qui commencent au semestre d'automne 2018.
+
+Les  étudiant-e-s  qui  ont  commencé  avant  le  semestre  d'automne  2018  ont  la possibilité d'opter pour le présent plan d'études. Cela doit faire l'objet d'une demande formelle au responsable du programme.
+
+Les étudiant-e-s qui, au moment de l'entrée en vigueur de ce plan d'études, sont déjà inscrits dans un programme d'études du Département, pourront rester inscrits dans
+
+<!-- image -->
+
+leur programme jusqu'à la fin du semestre d'automne 2019 au plus tard et suivre le plan d'études valable au début de leur formation. Au-delà du semestre d'automne 2019, le présent plan d'études (2018) remplacera tous les plans d'études antérieurs à ce programme d'études
+
+<!-- image -->
+
+## 6. Profil Dynamiques sociales et culturelles
+
+## Description du profil Dynamiques sociales et culturelles
+
+Ce profil offre les outils théoriques et méthodologiques pour approfondir un enjeu central auquel sont confrontées les sociétés contemporaines : la pluralité sociale et culturelle. Grâce à une approche sociologique qui articule enquêtes empiriques et réflexions critiques, il explore les modalités et enjeux du « vivre ensemble » et de la diversité  dans  toutes  ses  dimensions.  Il  étudie  les  effets  des  processus  globaux économiques  et  politiques  sur  les  manières  quotidiennes  d'agir  et  de  penser  des individus.  Les  enseignements  portent  une  attention  particulière  aux  rapports sociaux,  aux  usages  communicationnels  et  linguistiques  liées  aux  évolutions technologiques qui se jouent dans une société de plus en plus globalisée. Privilégiant des expériences formatives interactives, ce profil dote les étudiant-e-s de compétences permettant de gérer ces problématiques dans leur pratique professionnelle future.
+
+Le  module SOCIO  1  Changements  socio-économiques  et  styles  de  vie examine comment  les  évolutions  socio-économiques  et  politiques  modifient  les  pratiques culturelles, technologiques, professionnelles, alimentaires, etc. des individus et des groupes. Il initie les étudiants à l'analyse de la diversité dans les espaces de vie privés ou publics et où se forment les identités individuelles et les appartenances collectives. L'évolution  des  styles  de  vie  fait  l'objet  d'enquêtes  de  terrain  variées  auprès  de populations différentes : communautés migrantes ; professions, entreprises et monde du travail ; mouvements politiques et associations, institutions publiques, familles, réseaux sociaux, groupes de jeunes, etc.
+
+Le module SOCIO 2 Relations sociales et interculturelles s'attache à décrire comment les  individus  et  les  groupes  sociaux  interagissent,  communiquent,  coopèrent ou entrent en conflits dans des sociétés en constant changement. Il analyse les nouvelles formes  de  communication  et  d'interactions  individuelles  au  sein  des  institutions (système  judiciaire,  police,  hôpitaux,  administrations,  etc.)  ainsi  que  dans  divers secteurs professionnels. Il forme les étudiant-e-s à l'étude des relations interethniques, intergénérationnelles, interprofessionnelles ou de genre.
+
+Les modes d'enseignements diversifiés, dynamiques et interactifs dotent les étudiante-s  de  savoirs  théoriques,  techniques  et  pratiques.  Les  enquêtes  auprès  des populations directement concernées ou au sein des institutions font partie intégrante de cette formation.
+
+<!-- image -->
+
+## Description des modules du profil Dynamiques sociales et culturelles
+
+## Module SOCIO 1 Changements socio-économiques et styles de vie
+
+Descriptif :
+
+Ce  module  analyse  les  évolutions  socio-économiques  afin  d'en comprendre  les  effets  sur  les  valeurs  et  les  comportements  des individus. Les enseignements portent sur l'émergence de nouveaux styles de vie et d'organisation sociale dans un contexte marqué par les processus de globalisation. La mobilité géographique, l'homogénéisation ou la diversification culturelle, les particularismes  politiques,  la  financiarisation  ou  l'apparition  des nouvelles  technologies  sont  mises  en  lien  avec  l'émergence  de pratiques  spécifiques  (professionnelles,  linguistiques,  financières, familiales, amoureuses, sexuelles, etc.) qui sont étudiées de manière qualitative.
+
+Evaluation :  Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+## Unités d'enseignement :
+
+- Cours ou séminaires SOCIO 1 (3 ECTS)
+- Cours ou séminaires SOCIO 1 (3 ECTS)
+- Cours ou séminaires SOCIO 1 (3 ECTS)
+- Travail de séminaire SOCIO 1 (6 ECTS)
+
+Exceptionnellement, un travail écrit de 3 ou 6 crédits pourra être proposé en lieu et place d'un autre enseignement du module.
+
+## Module SOCIO 2 Relations sociales et interculturelles
+
+Descriptif :
+
+Ce module vise la compréhension des modalités relationnelles et communicationnelles  au  sein  des  sociétés  contemporaines.  Les rapports  interethniques  ou  interculturels,  les  nouvelles  formes d'organisation  professionnelle,  les  liens  intergénérationnels  ou relations entre hommes et femmes sont étudiés. Les interactions sociales, les relations interpersonnelles et les processus de communication au sein des institutions (administrations, entreprises, hôpitaux, tribunaux) font l'objet d'analyses approfondies. Du langage quotidien à la participation des citoyens dans la société civile, en passant par les mouvements politiques, ces phénomènes sont resitués dans des contextes locaux ou internationaux.
+
+Evaluation :  Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+## Unités d'enseignement :
+
+- Cours ou séminaires SOCIO 2 (3 ECTS)
+- Cours ou séminaires SOCIO 2 (3 ECTS)
+- Cours ou séminaires SOCIO 2 (3 ECTS)
+- Travail de séminaire SOCIO 2 (6 ECTS)
+
+Exceptionnellement, un travail écrit de 3 ou 6 crédits pourra être proposé en lieu et place d'un autre enseignement du module.
+
+<!-- image -->
+
+## Langue du profil Dynamiques sociales et culturelles
+
+La langue d'enseignement du profil est le français (exceptionnellement l'anglais). Les étudiant-e-s  ont  la  possibilité  de  présenter  leurs  épreuves  écrites  ou  orales  en français, en allemand, en anglais ou tout autre langue à condition qu'ils aient obtenu l'accord des enseignant-e-s de l'unité d'enseignement concernée.
+
+<!-- image -->
+
+## 7. Profil (Dés)ordres politiques et normatifs
+
+## Description du profil (Dés)ordres politiques et normatifs
+
+Dans  le  cadre  de  ce profil, les étudiant-e-s abordent  un  large  éventail de problématiques contemporaines centrées sur le politique, le normatif et le juridique. L'imbrication  de  ces  différentes  dimensions  dans  la  production  de  l'ordre  et  du désordre social y est examinée de façon comparative et critique. Les cours adoptent une démarche anthropologique.  Du point de vue méthodologique, ils se nourrissent d'une ethnographie minutieuse ainsi que d'une analyse approfondie des processus trans-locaux. Combinant études empiriques et réflexions théoriques, ils offrent un éclairage  innovant  sur  les  grandes  questions  politiques,  juridiques  et  normatives dans différents contextes.
+
+Le module ANTHRO 1 Conflits, pouvoir et politique met l'accent sur les débats centraux de  l'anthropologie  politique.  Il  se  focalise  sur  les  dynamiques  de  pouvoir,  de subordination et de résistance, de violence et de conflits. Il prend en compte différents acteurs, contextes et régimes à travers le monde et examine comment émergent et évoluent les relations, les tensions et les contestations à l'œuvre dans les rapports de pouvoir, les politiques publiques et les cadres institutionnels ou non-institutionnels.
+
+Le module ANTHRO 2 (Dés)ordres normatifs en mouvement souligne la pluralité et l'articulation des ordres normatifs; il étudie, notamment, différents cadres juridiques. Il offre une réflexion approfondie sur la nature ambiguë et indéterminée des ordres normatifs,  qu'ils  soient  en  concurrence  ou  qu'ils  se  recoupent.  Il  analyse  les distinctions entre les systèmes juridiques et ceux de la morale ou de la religion.
+
+Bien que distincts, les deux modules ont des visées et des contenus complémentaires. Les enseignements explorent l'articulation complexe et multi-dimensionnelle entre le politique,  le  juridique  et  le  normatif.  Les  enseignements  examinent  ainsi  les dynamiques engendrées par cette imbrication en prenant en compte les points de vues des différents acteurs concernés.
+
+Les modes d'enseignements diversifiés, dynamiques et interactifs dotent les étudiante-s de savoirs théoriques, techniques et pratiques. Les enquêtes de terrain font partie intégrante de cette formation.
+
+<!-- image -->
+
+## Description des modules du profil (Dés)ordres politiques et normatifs
+
+## Module ANTHRO 1 Conflits, pouvoir, politique
+
+Descriptif :
+
+Les enseignements portent sur la nature du pouvoir, le politique et l'autorité,  l'économie  politique  de  l'espace  ainsi  que  les  accès différenciés  aux  types  de  ressources  (économiques,  culturelles, symboliques, etc.) ancrées dans des contextes coloniaux et postcoloniaux. Les étudiant-e-s analyseront les mouvements sociaux,  les  dynamiques  de  politisation  et  de  dépolitisation,  de sécurité  et  de  sécurisation  ainsi  que  les  initiatives  numériques. Parmi  les  thématiques  étudiées  figurent  également  les  politiques identitaires, la mobilité, la migration, la formation, le care , la gestion des catastrophes et les politiques relatives à l'environnement. Sont également  prises  en  compte  les  stratégies  de  protestation,  de mobilisation, de résistance et de rébellion des différents acteurs.
+
+Le module aborde une réflexion critique sur le savoir anthropologique et la position de l'anthropologue tout en questionnant les conséquences de la recherche scientifique sur les réalités sociopolitiques et économiques étudiées.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+## Unités d'enseignement :
+
+- Cours ou séminaires ANTHRO 1 (3 ECTS)
+- Cours ou séminaires ANTHRO 1 (3 ECTS)
+- Cours ou séminaires ANTHRO 1 (3 ECTS)
+- Travail de séminaire ANTHRO 1 (6 ECTS)
+
+Exceptionnellement, un travail écrit de 3 ou 6 crédits pourra être proposé en lieu et place d'un autre enseignement du module.
+
+## Module ANTHRO 2 (Dés)ordres normatifs en mouvement
+
+## Descriptif :
+
+Ce  module  aborde  les  différentes  manières  d'affirmation  et  de reproduction  de  l'« ordre »  et  de  la  « normalité »  ainsi  que  les réponses des sociétés afin de venir à bout de supposés « désordres », « déviances » et « crimes », qui appellent la médiation, le rétablissement  du  pouvoir  ou  les  représailles.  Puisant  dans  des études  de  cas,  les  analyses  prennent  en  compte  divers  types d'enjeux (politiques, économiques, sociaux, etc.) auxquels renvoient les conflits et les négociations.
+
+En évoquant les marges de manœuvre à l'œuvre dans la production et  l'application  du  droit,  et  plus  généralement  des  normes,  ce module révèle l'intrication du politique et du normatif. Lorsque cela s'avère pertinent et selon les problématiques étudiées, il examine la manière dont le politique et le juridique s'articulent à l'économique.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+<!-- image -->
+
+## Unités d'enseignement:
+
+- Cours ou séminaires ANTHRO 2 (3 ECTS)
+- Cours ou séminaires ANTHRO 2 (3 ECTS)
+- Cours ou séminaires ANTHRO 2 (3 ECTS)
+- Travail de séminaire ANTHRO 2 (6 ECTS)
+
+Exceptionnellement, un travail écrit de 3 ou 6 crédits pourra être proposé en lieu et place d'un autre enseignement du module.
+
+## Langue du profil (Dés)ordres politiques et normatifs
+
+La  langue  d'enseignement  du  profil  de  ( Dés)ordres  politiques  et  normatifs est  le français  et/ou  l'allemand  (exceptionnellement  l'anglais).  Les  étudiant-e-s  ont  la possibilité de présenter leurs épreuves écrites ou orales en français, en allemand, en anglais  ou  dans  toute  autre  langue  à  condition  qu'ils  aient  obtenu  l'accord  des enseignant-e-s de l'unité concernée. Il est possible que le choix de faire l'entièreté du cursus du profil ( Dés)ordres politiques et normatifs dans une seule langue ait pour effet de prolonger la durée des études.
+
+<!-- image -->
+
+## 8. Profil Religion et société
+
+## Description du profil Religion et société
+
+Le profil Religion et Société propose des outils théoriques et méthodologiques pour comprendre les enjeux liés aux changements religieux dans les sociétés modernes et contemporaines,  plus  particulièrement  en  Europe  et  en  Suisse.  Au  moyen  des méthodes  et  des  approches  analytiques  des  sciences  sociales  -  par  exemple  la sociologie,  l'anthropologie  et  l'histoire  -  il  vise  la  compréhension  et  l'analyse  du religieux aux niveaux des individus, des groupes, des organisations, des institutions et des sociétés. Les questions relatives à la diversité religieuse, au pluralisme et à l'intégration sociale sont au centre des préoccupations traitées. Ce profil propose une perspective interdisciplinaire et transversale en investiguant les lieux où la religion croise  la  question  des  jeunes,  du  genre,  de  la  globalisation,  de  l'économique,  du politique, de l'identité, de la reconnaissance, de la santé et de l'éducation. Il aborde aussi la place de la religion dans l'espace public et dans les médias, en occident et ailleurs.
+
+Le module REL 1 Religion, politique et société étudie l'impact des processus politiques et économiques sur les dynamiques vécues, institutionnelles et sociales de la religion. Contrastant le devenir occidental par rapport à l'histoire longue ainsi qu'au monde non-occidental (le « Global South »),  ce  profil  engage  une  réflexion  poussée  sur  les dynamiques  de  la  modernité  et  de  la  mondialisation.  La  démarche  des  sciences sociales permet d'expliquer les changements au niveau macro-social tout en tenant compte du point de vue des acteurs concernés.
+
+Le module REL 2 Religion et culture étudie la complexité des intrications entre religion et culture, notamment en ce qui a trait aux productions culturelles et aux enjeux liés aux technologies de communication. Le thème  large de la culture permet d'appréhender les phénomènes dans leur globalité tout en permettant de resserrer la focale sur les médiatisations et les productions culturelles elles-mêmes.
+
+Les modes d'enseignements diversifiés, dynamiques et interactifs dotent les étudiante-s  de  savoirs  théoriques,  techniques  et  pratiques.  Les  enquêtes  auprès  des populations directement concernées et les stages en milieu professionnel ou au sein des institutions font partie des possibilités d'apprentissage de cette formation.
+
+<!-- image -->
+
+## Description des modules du profil Religion et société
+
+## Module REL 1 Religion, politique et société
+
+Descriptif :
+
+Les unités d'enseignement de ce module permettront l'acquisition de  connaissances  et  de  compétences  permettant  une  réflexion approfondie  concernant  le  rôle  du  religieux  dans  les  sociétés modernes  pluralistes. Outre les problématiques générales de sociologie des religions, les thématiques traitées peuvent s'orienter vers les thèmes de la religion dans l'espace public, les rapports entre religion et politique, l'impact des nouveaux moyens de communication ou du consumérisme sur le religieux, les dynamiques liant religion et mondialisation, ainsi que les questions relatives à la migration et à l'intégration.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+## Unités d'enseignement :
+
+- Cours ou séminaires REL 1 (3 ECTS)
+- Cours ou séminaires REL 1 (3 ECTS)
+- Cours ou séminaires REL 1 (3 ECTS)
+- Travail de séminaire REL 1 (6 ECTS)
+
+## Module REL 2 Religion et culture
+
+Descriptif :
+
+Le religieux  recoupe  presque  tous  les  domaines  de  la  société,  de l'éthique et de l'agir économique jusqu'à l'art et à la musique, en passant par la mise en scène symbolique du pouvoir politique. En même temps, les religions reprennent à leur compte des éléments empruntés à leur environnement culturel. Les unités d'enseignement de ce module proposent une analyse approfondie des échanges entre religion et culture, dans les sociétés anciennes, non-occidentales  ou  dans  les  sociétés  pluralistes  modernes.  Des thématiques épistémologiques, méthodologiques et théoriques peuvent également être abordées.
+
+Evaluation : Les modalités d'évaluation sont décidées par les enseignant-e-s.
+
+## Unités d'enseignement :
+
+- Cours ou séminaires REL 2 (3 ECTS)
+- Cours ou séminaires REL 2 (3 ECTS)
+- Cours ou séminaires REL 2 (3 ECTS)
+- Travail de séminaire REL 2 (6 ECTS)
+
+## Langue du profil Religion et société
+
+La langue d'enseignement du profil Religion et société est  le  français et l'allemand (exceptionnellement l'anglais). Les étudiant-e-s ont la possibilité de présenter leurs épreuves écrites ou orales en français, en allemand, en anglais ou tout autre langue à condition qu'ils aient obtenu l'accord des enseignant-e-s de l'unité d'enseignement concernée. Il est possible que le choix de faire l'entièreté du cursus du profil Religion et société dans une seule langue ait pour effet de prolonger la durée des études.

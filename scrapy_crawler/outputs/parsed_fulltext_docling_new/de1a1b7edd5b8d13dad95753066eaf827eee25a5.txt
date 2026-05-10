@@ -1,0 +1,299 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:13:51.155Z",
+  "title": "Theology_Bachelor_60_Theology_Konkrete_Ans_tze_f_r_Doktorierende_und_Betreuungspersonen_de1a1b7edd5b8d13dad95753066eaf827eee25a5",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "de1a1b7edd5b8d13dad95753066eaf827eee25a5",
+  "program_key": "theology|bachelor|60|theology",
+  "faculty": "Theology",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Theology",
+  "doc_label": "Konkrete Ansätze für Doktorierende und Betreuungspersonen",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Broschuere_BedingungenPhD_2020.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "http://studies.unifr.ch/go/llH5R",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Theology_Bachelor_60_Theology_Konkrete_Ans_tze_f_r_Doktorierende_und_Betreuungspersonen_de1a1b7edd5b8d13dad95753066eaf827eee25a5.pdf",
+  "sha256": "11d1b0aebbd6047e232f85023a951977789786127b7cde81badfb23fdf84f7ff",
+  "fetched_at": "2026-04-03T11:31:55.039Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Broschuere_BedingungenPhD_2020.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## BEDINGUNGEN FÜR EINE ERFOLGREICHE BETREUUNG VON DOKTORIERENDEN
+
+## Konkrete Ansätze für Doktorierende und Betreuungspersonen
+
+Publikation des Zentrums für Hochschuldidaktik der Universität Freiburg (Schweiz) mit der finanziellen Unterstützung von swissuniversities
+
+Redaktion: Dr. Marie Lambert, Dr. Colette Niclasse &amp; Prof. Dr. Bernadette Charlier
+
+Übersetzung: Madeleine Viviani
+
+Sprachliche Revision: Emilie Achermann Fawcett
+
+Grafische Gestaltung: Sandra Gellura
+
+Illustrationen: Sébastien Niclasse
+
+Freiburg, 01.12.2020 (zweite überarbeitete und vervollständigte Version)
+
+<!-- image -->
+
+## INHALTSVERZEICHNIS
+
+| VORWORT                                                          |   3 |
+|------------------------------------------------------------------|-----|
+| BEDINGUNGENUNDMASSNAHMENZURFÖRDERUNGDESDOKTORATSSTUDIUMS         |   4 |
+| INDIVIDUELLE MERKMALE UND KONTEXTFAKTOREN                        |   5 |
+| Individuelle Merkmale                                            |   5 |
+| Organisatorischer Kontext                                        |   6 |
+| Soziales Arbeitsumfeld                                           |   6 |
+| Persönliches Umfeld                                              |   7 |
+| Wechselnde Umstände                                              |   7 |
+| SITUIERT WIRKEN UND MITWIRKEN                                    |   8 |
+| Instabilität meistern                                            |   8 |
+| Über ausreichende Ressourcen verfügen                            |  10 |
+| Verantwortung teilen                                             |  11 |
+| EMPFEHLUNGEN FÜRDOKTORIERENDE                                    |  12 |
+| Bestandsaufnahme der Situation                                   |  12 |
+| Kommunizieren und vernetzen                                      |  13 |
+| Chancen ergreifen                                                |  14 |
+| Sich um sich selbst kümmern                                      |  14 |
+| EMPFEHLUNGEN FÜRBETREUUNGSPERSONEN VON DOKTORIERENDEN            |  15 |
+| Sich einsetzen und einen transparenten Rahmen setzen             |  15 |
+| Autonomie fördern                                                |  16 |
+| Kompetenzentwicklung unterstützen                                |  17 |
+| Soziale Beziehungen pflegen                                      |  18 |
+| Sich als BetreuerIn entwickeln                                   |  19 |
+| REFERENZEN UNDZUSÄTZLICHE RESSOURCEN                             |  20 |
+| HAUPTREFERENZEN                                                  |  20 |
+| ZUSÄTZLICHE RESSOURCEN FÜR DOKTORIERENDE                         |  20 |
+| Literaturhinweise                                                |  20 |
+| Vignetten                                                        |  21 |
+| Leitfäden für Doktorierende                                      |  21 |
+| Tools                                                            |  21 |
+| ZUSÄTZLICHE RESSOURCEN FÜR BETREUUNGSPERSONEN VON DOKTORIERENDEN |  22 |
+| Literaturhinweise                                                |  22 |
+| Vignetten                                                        |  23 |
+| Dokumente                                                        |  23 |
+
+Tools
+
+5
+
+6
+
+6
+
+7
+
+7
+
+8
+
+24
+
+## VORWORT
+
+Unter welchen Bedingungen ist eine Dissertation erfolgreich?
+
+Wenn Sie sich die Mühe gemacht haben, diese Broschüre in die Hand zu nehmen und diese wenigen Zeilen zu lesen, liegt das wahrscheinlich daran, dass sich für Sie diese Frage stellt.
+
+Unter welchen Bedingungen schaffen wir nützliches und relevantes Wissen, das nicht nur uns gehört, sondern auch von einer wissenschaftlichen Gemeinschaft anerkannt und integriert wird, deren Unterstützung unverzichtbar  ist,  um uns zu  ForscherInnen  zu  machen?  Unter welchen Bedingungen und durch welche Begleit- und Unterstützungsmassnahmen können wir ein solches Wissen aufbauen und gleichzeitig unser physisches und psychisches Wohlbefinden erhalten?
+
+Wenn Sie BetreuerIn sind, können Sie sich sagen: "Ich weiss es, weil ich es getan habe! ». Wenn Sie DoktorandIn sind, denken Sie sicherlich, dass Sie auf Ihren Erfahrungen auf der Master-Stufe aufbauen können. Natürlich haben Sie Recht: Ihre Erfahrung zählt sehr viel. Tatsache bleibt aber, dass jedes neue Doktorat ein einzigartiges menschliches Abenteuer ist, dessen Erfolgsbedingungen weitgehend unbekannt sind.
+
+Die  Ratschläge,  die  Sie  in  dieser  Broschüre  finden,  sind  nicht  a  priori  gegeben,  allein  vom gesunden Menschenverstand geleitet. Sie basieren auf zwei Forschungsarbeiten, zwei "Doktoraten zum Doktorat", die in Freiburg durchgeführt wurden und für ihre wissenschaftliche Qualität anerkannt sind. Die Autorinnen haben hier die Schlüsselelemente aus der Literatur und ihrer eigenen Forschung zusammengefasst und daraus Lehren gezogen, die Sie je nach Kontext und Disziplin interpretieren können.
+
+Viel Spass beim Lesen, und möge Ihr Abenteuer glücklich und bereichernd sein!
+
+Prof. Dr. Bernadette Charlier
+
+## BEDINGUNGEN UND MASSNAHMEN ZUR FÖRDERUNG DES DOKTORATSSTUDIUMS
+
+Das Doktoratsstudium ist eine anspruchsvolle Reise, vergleichbar mit einer langen Achterbahnfahrt,  bei  der  sich  Zufriedenheit,  Stress,  Angst,  Stolz,  Erleichterung,  Hoffnung, Interesse,  Frustration  und  Zweifel  abwechseln.  Diese  Instabilität  kann  die  anfängliche,  durch Aussicht auf berufliche und persönliche Bereicherung angetriebene Motivation beeinträchtigen, während erwiesene Risiken für die psychische Gesundheit zunehmen. Diese Verschlechterung ist insbesondere darauf zurückzuführen, dass die Doktorierenden  oft  ungenügend  auf  die vielfältigen und komplexen Aufgaben vorbereitet sind, die einerseits mit der Durchführung ihres
+
+<!-- image -->
+
+Forschungsprojekts, anderseits mit den ihnen übertragenen Lehrtätigkeiten verbunden sind. Gleichzeitig verfügen die Betreuungspersonen nicht unbedingt über geeignete Instrumente, um sie optimal zu begleiten, oder machen davon keinen Gebrauch.
+
+Diese Broschüre hat zum Ziel, Doktorierenden und Betreuungspersonen zu helfen, individuell und  gemeinsam  die  Bedingungen  und  Massnahmen  zu  gestalten  und  umzusetzen,  die  das Vorankommen der Doktorierenden unter Wahrung ihres physischen und psychischen Wohlbefindens erleichtern.
+
+Der Inhalt stammt aus zwei Dissertationen in Erziehungswissenschaften (Lambert, 2013; Niclasse, 2019).  Die  erste  ist  der  beruflichen  Entwicklung  von  Assistierenden  in  der  Hochschulbildung gewidmet, insbesondere der Komplexität und der Fülle ihrer Forschungs- und Lehrerfahrungen (Lambert, 2013). Sie beschreibt individuelle und organisatorische Konfigurationen, die Quellen beruflicher Entwicklung sein können, sowie die verschiedenen Arten und Weisen, in denen diese Entwicklung stattfindet, und versucht sie zu verstehen, indem sie die Produkte dieses Prozesses analysiert. Die zweite Dissertation untersucht die emotionalen Erfahrungen der Doktorierenden in  ihrem  täglichen  Leben,  um  die  Schlüsselmomente  ihres  individuellen  Veränderungs-  und Entwicklungsprozesses in Interaktion mit ihrer Umgebung hervorzuheben (Niclasse, 2019). Das Ziel ist, die Bedingungen zu erkennen und zu verstehen, unter welchen Doktorierende nicht nur lernen  und  sich  entwickeln,  sondern  auch  ihr  Wohlbefinden,  das  diesen  Prozess  unterstützt, aufrechterhalten. Beide Studien untersuchen aus einer ganzheitlichen Perspektive, aber jede auf
+
+eigenem Wege und mit spezifischen theoretischen  Grundlagen, die  von  den  Doktorierenden verfolgten  Ziele,  die  Bedeutung,  die  sie  ihrer  Ausbildung  beimessen,  die  individuellen  und situationsabhängigen Bedingungen ihrer persönlichen und beruflichen Entwicklung, die Strategien, die sie in diesen Prozessen umsetzen, und die Lernergebnisse. Die Resultate, die sich in mehrfacher Hinsicht ergänzen, wurden mit Hilfe von gemischten Designs (Kombination von Fragebögen  und  Interviews)  gewonnen,  aus  Stichproben  von  AssistentInnen  der  Universität Freiburg  und  registrierten  Doktorierenden  mit  einem  Stipendium  und/oder  mit  privater Finanzierung  (diese  verschiedenen  Kategorien  werden  im  weiteren  Text  als  "Doktorierende" bezeichnet).
+
+Das folgende Kapitel bietet eine Zusammenfassung der theoretischen Grundlagen, auf denen die im zweiten Teil der Broschüre vorgestellten Empfehlungen basieren.
+
+## INDIVIDUELLE MERKMALE UND KONTEXTFAKTOREN
+
+In  den  Prozessen  der  persönlichen  und  beruflichen  Entwicklung  von  Doktorierenden  spielen verschiedene Parameter mit.
+
+## Individuelle Merkmale
+
+Sie sind ein zentrales Element dieser Entwicklung. Dazu gehören:
+
+-  Intrinsische  existenzielle  Bestrebungen  (Erfüllung  und  Selbstverwirklichung,  authentische und harmonische Beziehungen, sozialer Beitrag), Ziele und Motivationen für das Doktorat und die  Promotion  (Neugierde,  intellektuelle  Anregung,  Lust  und  Wille  Neues  zu  lernen, Entwicklung  von  Fähigkeiten  und  Vertiefung  von  Kenntnissen  in  einem  Bereich,  der  den eigenen Interessen entspricht; wahrgenommene Nützlichkeit des Abschlusses) und gegebenenfalls für die Assistenzstelle (Interesse am Unterricht und an der Begleitung von Studierenden, Entwicklung pädagogischer Fähigkeiten).
+-  Weitere Komponenten des eudämonischen Wohlbefindens, insbesondere die psychologischen Grundbedürfnisse (Autonomie, Kompetenz, soziale Beziehungen; definiert auf S. 10).
+-  Berufsziele  und  Karrierepläne  (Forschung  und  Lehre  an  Universitäten  und  Hochschulen, Führungsposition im öffentlichen oder privaten Sektor).
+
+-  Wissenschaftliche  und  pädagogische  Kenntnisse,  bisherige  Erfahrung  und  Kompetenz  in Lehre und Forschung.
+-  Persönliche  Fähigkeiten  wie  kritisches  Denken  und  Selbststeuerung  (die  Fähigkeit,  die berufliche  Entwicklung  zu  steuern,  indem  man  sich  Ziele  setzt  und  geeignete  Strategien anwendet, um sie zu erreichen).
+
+## Organisatorischer Kontext
+
+Er entspricht dem globalen Umfeld und dem allgemeinen Klima, in denen sich Doktorierende entwickeln. Er umfasst auch die Ressourcen, welche die Institution ihnen zur Verfügung stellt oder nicht. Dazu gehören Regelungen, Einstellungsund Entlohnungsbestimmungen, Arbeitsbedingungen, vorhandene Infrastrukturen und institutionelle Richtlinien für die Betreuung von Doktorierenden. Zwei wichtige Elemente sind dabei:
+
+-  Die Möglichkeit, Ausbildungsangebote zu nutzen, welche Forschungs- und Lehrtätigkeiten unterstützen (z.B. Programme für Doktorierende, pädagogische und didaktische Ausbildung, Mentorenprogramme, Workshops und Seminare). Doktorierende schätzen diese Kurse sehr, weil sie spezifische praktische Werkzeuge vermitteln und Gelegenheit bieten, ausserhalb der Betreuungsbeziehung mit KollegInnen und ExpertInnen auszutauschen.
+-  Die  psychologischen  und  sozialen  Unterstützungsangebote  innerhalb  der  Institution.  Die Gleichstellungsabteilung,  der  Sozialdienst,  die  psychologische  Beratung,  die  Seelsorge bieten,  unter  anderen,  Kontakt  zu  Ansprechpartnern,  die  mit  der  akademischen  Welt vertraut  sind  und  selbstverständlich  dem  Berufsgeheimnis  unterliegen.  Leider  neigen bedürftige  Doktorierende  dazu,  Hilfe  ausserhalb  der  Institution  zu  suchen  (Waight  &amp; Giordano, 2018, zitiert in Niclasse, 2019), vielleicht aus Angst, stigmatisiert zu werden, oder weil sie sich dieser Angebote  nicht  bewusst sind, insbesondere am  Anfang  ihres Doktoratsstudiums.
+
+## Soziales Arbeitsumfeld
+
+Täglich  oder  gelegentlich  haben  Doktorierende  mit  Personen  zu  tun,  die  alle  aufgrund  ihrer Stellung, Aufgabe oder Aktivitäten eine wichtige Rolle spielen:
+
+-  Betreuungsperson (DissertationsleiterInnen und weitere begleitende Personen). Sie sind für Doktorierende die wichtigsten Lern- und Unterstützungsvermittler. Diese Rolle ist jedoch
+
+manchmal zweideutig oder kann als solche wahrgenommen werden (z.B. der Doppelstatus als  Betreuerin/Betreuer  für  die  Dissertation  und  als  Vorgesetzte/Vorgesetzter  für  die Assistenz).
+
+-  Studiums- und ArbeitskollegInnen (Doktorierende, AssistentInnen, erfahrene Lehrpersonen und ForscherInnen). Alle sind wertvolle Ressourcen für Forschung und Lehre, unter anderem, weil  sie  informelle  Möglichkeiten  zum  Austausch  und  zur  gegenseitigen  Unterstützung bieten. Ein Klima des Vertrauens, der Solidarität und der Zusammenarbeit im Arbeitsteam fördert  die  berufliche  und  persönliche  Entwicklung  der  Doktorierenden;  umgekehrt behindern Konkurrenz und Rivalität diese Entwicklung.
+-  Mitglieder der breiteren wissenschaftlichen Gemeinschaft. Kongresse, Konferenzen, Ausbildungen, wissenschaftliche Kooperationen bieten zahlreiche Gelegenheiten, WissenschaftlerInnen kennenzulernen. Der Austausch mit ihnen ist meistens wohlwollend und kann nützliche Bezugspunkte und Lernmöglichkeiten erbringen. Er mag Doktorierende über  Wert  und  Relevanz  ihrer  Beiträge  vergewissern  und  zu  konstruktiver  Kritik  und Verbesserungsvorschlägen führen. Durch solche Kontakte gewinnen Doktorierende allmählich das Gefühl, vollwertige Mitglieder dieser Gemeinschaft zu sein. Ferner können sie sich von  professionellen Modellen  und  Idealen  inspirieren lassen  oder sich  davon distanzieren, unabhängig von ihrer Betreuerin oder ihrem Betreuer.
+
+## Persönliches Umfeld
+
+Familie und Freunde können für Doktorierende eine grundlegende emotionale und praktische Unterstützung sein. Allerdings erweist sich das persönliche Umfeld manchmal gleichzeitig als eine Quelle  von  Verantwortlichkeiten  und  Pflichten,  die  bei  der  Aufteilung  der  persönlichen Ressourcen der Doktorierenden Konflikte erzeugen können.
+
+Öfters  haben  Doktorierende  das  Gefühl,  dass  Familie  und  Freunde  nicht  wirklich  verstehen, worum es beim Doktoratsstudium geht und was es dazu braucht, weil sie die akademische Welt, ihre Erwartungen und Herausforderungen nicht oder unzureichend kennen. Familie und Freunde werden entsprechend nicht nur als nützliche Grundlage und Hilfsquelle betrachtet.
+
+## Wechselnde Umstände
+
+Individuelle  und  kontextuelle  Gegebenheiten  sind  weder  gegeben  noch  ein  für  alle  Mal festgelegt. Sie sind auch nicht voneinander zu trennen. Während dem gesamten
+
+Doktora tsstudium Schlüsselperiode des beruflichen Werdegangs -interagieren sie dynamisch, in variierenden Konfigurationen, und beeinflussen unterstützend oder behindernd die persönliche und berufliche Entwicklung. Es ist daher wichtig, diese individuellen Merkmale und Kontextfaktoren  sowie  ihre  Interaktionen  zu  optimieren,  damit  die/der  DoktorandIn  (mit ihrer/seiner  Geschichte,  ihren/seinen  Eigenschaften,  Werten,  Bestrebungen,  Vorstellungen, Fähigkeiten, ihrem/seinem persönlichen Kontext) alle Chancen ergreifen kann, die das berufliche Umfeld bietet, und ihren/seinen Platz in der wissenschaftlichen Gemeinschaft einnehmen kann.
+
+Ausbildungsmöglichkeiten (z.B. Programme für Doktorierende, pädagogische Ausbildungen) sind wichtig für die berufliche Entwicklung. Doktorierende lernen jedoch genauso viel -wenn nicht mehr -durch  die  tägliche  Zusammenarbeit  mit  Mitgliedern  des  Arbeitsumfeldes  und  der breiteren wissenschaftlichen Gemeinschaft, durch Gespräche und die praktische Ausübung ihrer Forschungs- und Lehrtätigkeit. Die Lerngelegenheiten am Arbeitsplatz sollten ebenso anerkannt und geschätzt werden wie die Teilnahme an formalisierten Veranstaltungen.
+
+## SITUIERT WIRKEN UND MITWIRKEN
+
+Das  Doktoratsstudium  ist  ein  persönlicher  und  beruflicher  Veränderungsprozess.  Es  geht einerseits  darum,  spezifische  und  vielfältige  transversale  Kenntnisse  und  Fähigkeiten  zu gewinnen und zu meistern, anderseits eine Berufsidentität und die dazu gehörende persönliche Grundhaltung aufzubauen. Dies geschieht durch alltägliche sinnvolle Forschungsund Lehrtätigkeiten und durch Beteiligung an damit verbundenen sozialen Interaktionen. Beteiligung und Interaktion bringen jedoch nicht unbedingt Entwicklung mit sich. Bestimmte Hebel können das situierte Lernen erleichtern.
+
+## Instabilität meistern
+
+Doktorierende begegnen täglich Sachverhalten, die sie mit ihrem Wissen nicht erfassen können, Denk- und Handlungsweisen, die sie verwirren, Ideen die ihre Weltanschauung und ihr Selbstbild als  (zukünftige)  Fachperson  in  Frage  stellen.  Aus  der  Ungewissheit,  der  Instabilität  dieser Momente können Lernmöglichkeiten entspringen. Unter bestimmten Bedingungen ermöglichen sie eine Veränderung und Entwicklung, eine Umstrukturierung der Seh-, Denkund
+
+Handlungsweisen, das Überschreiten einer entscheidenden Schwelle, welche Zugang zu tieferen und komplexeren Verständnisebenen erlaubt.
+
+Lerngelegenheiten  nehmen  im  Laufe  des  Doktoratsstudiums  eine  besondere  Bedeutung  an. Diese lässt sich schematisch in drei Phasen, mit durchlässigen Grenzen, unterteilen. Am Anfang konzentriert sich das Lernen insbesondere auf den Aufbau und die Mobilisierung von Wissen, sowie auf die Aneignung von Vorgehensweisen und Normen, d.h. was Doktorierende brauchen, um ihr Forschungsprojekt auszuarbeiten und um sich in der wissenschaftlichen Gemeinschaft als NachwuchsforscherInnen  zu  positionieren.  Die  mittlere  Phase  ist  gekennzeichnet  durch  eine Distanzierung sowohl vom Wissen als auch von den gewonnenen Erfahrungen und durch die Entwicklung  einer  "Meta"-Haltung.  Diese  bringt  die  Doktorierenden  dazu,  Ideen  anders  zu betrachten  und  anzugehen  (divergentes  Denken),  insbesondere  durch  die  Konfrontation  mit neuen Daten, die während dieser Zeit gesammelt und analysiert werden. Die letzte Phase führt zum Abschluss des Doktorats, und zeichnet sich aus durch die Ausübung kritischer Reflexivität in Bezug auf die Denkmodelle und Bezugsrahmen, was zu originellen Ideen und Vorschlägen führt, die  zur  Wissenschaft  beitragen  können.  In  dieser  Zeitspanne  müssen  die  Doktorierende mündliche und schriftliche Produkte erarbeiten und dafür Verantwortung übernehmen. Dabei lernen sie, öffentlich zu ihren Gedanken und Vorschlägen zu stehen und sich als ForscherIn zu festigen (Haltung), um allmählich ihren Platz in der wissenschaftlichen Gemeinschaft einzunehmen. Diese Fähigkeiten werden schliesslich bei der Dissertationsverteidigung auf die Probe  gestellt.  Dieses  akademische  Ritual  wird  von  Doktorierenden  gleichzeitig  erhofft  und gefürchtet. Sie müssen  formale  und administrative Anforderungen  erfüllen, aber auch ungeschriebene  Regeln  und  Gepflogenheiten  beachten.  Wenn  es  darum  geht,  sich  dieser Herausforderung  zu  stellen,  ist  jede  Information,  jeder  Ratschlag  der  Betreuungsperson  von unschätzbarem Wert.
+
+Dieser  Veränderungsprozess  erfordert  eine  Menge  kognitive,  motivationale  und  emotionale Ressourcen. Menschen neigen dazu, gewisse Stabilität in ihren Denkmodellen und Glaubenssystemen  aufrechtzuerhalten.  Es  braucht  deshalb  Anstrengungen,  um  zuerst  dieser Tendenz entgegenzuwirken, dann um die daraus entstehende momentane Destabilisierung, die unbequem und verunsichernd sein kann, hinzunehmen und zu bewältigen. Es braucht ein starkes Engagement, um das vorhandene Wissen zu mobilisieren und es so umzugestalten, dass es neue
+
+Elemente  aufnehmen  kann,  d.h.  um  eine  (Neu-)Konstruktion  des  (eigenen)  Wissens  zu erschaffen,  was  möglicherweise  ambivalente  Emotionen  hervorruft  (Zufriedenheit  bei  der Entwicklung  des  eigenen  Verständnisses,  Angst  im  Zusammenhang  mit  dem  momentanen Bezugspunktverlust, usw.).
+
+## Über ausreichende Ressourcen verfügen
+
+Der Aufbau und die Aufrechterhaltung einer ausreichenden Ressourcengrundlage ist unerlässlich,  um  Projekte  durchzuführen,  die -wie  das  Doktorat  -  grosse  Anstrengungen erfordern.  Die  Festigkeit  dieser  Basis  hängt  im  Wesentlichen  von  der  Befriedigung  von  drei grundlegenden,  voneinander  abhängigen  psychologischen  Bedürfnissen  ab,  die  in  jedem Menschen vorhanden sind (Ryan &amp; Deci, 2017, zitiert in Niclasse, 2019):
+
+-  Autonomie: die Möglichkeit haben, sich auszudrücken, Entscheidungen zu treffen, Initiativen zu ergreifen und sie durchzuführen, in Übereinstimmung mit  den  eigenen  Werten,  Bestrebungen,  Zielen  und  Interessen  -  ohne jedoch isoliert zu sein.
+-  Kompetenz: Herausforderungen annehmen, die den eigenen Fähigkeiten entsprechen, und die erworbenen Fähigkeiten weiterzuentwickeln; in der Lage sein festzustellen, dass man das, was man unternimmt, meistert und dabei Fortschritte macht.
+-  Soziale  Beziehungen:  Menschen  als  empfänglich  und  einfühlsam  erleben  und  mit  der gleichen  Offenheit  und  Aufmerksamkeit  auf  sie  eingehen;  Verbundenheit  schaffen  und Zugehörigkeit  pflegen  durch  authentische,  warmherzige,  wohlwollende,  respekt-  und vertrauensvolle soziale Beziehungen; gegenseitige Unterstützung begünstigen.
+
+<!-- image -->
+
+Die gleichzeitige Befriedigung dieser drei Grundbedürfnisse fördert das Wohlbefinden, welches die  nötige  Vitalität  und  Energie  erzeugt,  um  die  täglichen  Ereignisse  aktiv  und  kreativ  statt defensiv anzugehen und zu bewältigen. Werden diese Grundbedürfnisse durch Betreuungsperson,  KollegInnen,  das  Team  und  weitere  Mitglieder  der  wissenschaftlichen Gemeinschaft  unterstützt,  werden  der  Lernprozess  und  die  berufliche  Entwicklung  erheblich erleichtert und gefördert. Doktorierende können dann:
+
+-  sich (wieder)engagieren, ihren Einsatz (erneut) durch absichtsvolles Handeln (Autonomie) steuern, sich in einer wissenschaftlichen Gemeinschaft positionieren, in welcher Umgangsformen, Wertvorstellungen und Verfahrensweise noch allzu oft implizit sind;
+
+-  sich bereits vorhandene Kenntnisse und erprobte Vorgehensweisen aneignen, Denk- und Handlungsweisen meistern und umsetzen, die der Praxis ihrer Gemeinschaft entsprechen, dadurch Zugang gewinnen zu höheren, komplexeren und kritischeren Verständnisebenen (Kompetenz), und diese dann durch ihr eigenes Wirken weiterentwickeln;
+-  sich in einem vertrauensvollen Umfeld entwickeln, welches die psychologische Sicherheit und Unterstützung bietet  (soziale  Beziehungen),  um  momentanen Destabilisierungen zu begegnen,  ohne  Furcht  vor  Verlust  oder  Vergeltungsmassnahmen.  Dies  ermöglicht, Feedback  und  Betreuung  als  positive  Zeichen  zu  empfangen,  die  intellektuelle  und emotionale Freiheit auszuüben. Es erlaubt auch, mit anderen Menschen zusammenzuarbeiten, Risiken einzugehen, kreativ und innovativ zu sein.
+-  den  Beitrag  zur  Wissenschaft  und  Gesellschaft  leisten,  der  zur  Promotion  institutionell gefordert wird.
+
+Die Menschen im beruflichen sozialen Umfeld spielen eine zentrale Rolle, indem sie nicht nur Wissen und Fähigkeiten vermitteln, sondern auch Anhaltspunkte setzen und die Entwicklung von (kognitiven) Werkzeugen zur kritischen Reflexivität unterstützen. Darüber hinaus können sie das Risiko eines Studienabbruchs verringern und einer Verschlechterung des Gesundheitszustands vorbeugen. Leider belegen mehr und mehr Forschungen, dass die Mehrheit der Doktorierenden sich  in  einem besorgniserregenden psychologischen Zustand befinden (Erschöpfung, Burnout, Depression). Sie beschreiben Isolation, intensiven und chronischen Stress, Machtlosigkeit, die weit über die normalen Hürden und Gefahren eines Forschungsprozesses hinausgehen (siehe zusätzliche Ressourcen, insbesondere Levecque et al., 2017; Schmidt &amp; Hansson, 2018).
+
+## Verantwortung teilen
+
+Doktorierende tragen in erster Linie die Verantwortung für ihr Studium, ihr Engagement, die Art und Weise, wie sie die ihnen angebotene Betreuung nutzen. Sie haben jedoch weder Macht noch Einfluss auf die Anzahl und Qualität der ihnen angebotenen Lerngelegenheiten. Diese liegen in der  pädagogischen  Verantwortung  der  Menschen  und  Institutionen,  die die zukünftige Forschergeneration betreuen. Aus diesem Grund werden im Folgenden spezifische Empfehlungen angeboten, sowohl für Doktorierenden als auch für Betreuungspersonen.
+
+## EMPFEHLUNGEN FÜR DOKTORIERENDE
+
+Es  obliegt  jedem  Doktorierenden,  regelmässig  über  die  eigene  Situation nachzudenken und gegebenenfalls aktiv nach geeigneten Lösungen zu suchen. Gewisse Massnahmen erlauben es, potenzielle Probleme vorherzusehen, andere ermöglichen es, bestehende Schwierigkeiten zu überbrücken.
+
+## Bestandsaufnahme der Situation
+
+-  Nachdenken über die eigenen Werte, Interessen, Ziele und Motivationen in Bezug auf das Doktorat und auf das Leben im Allgemeinen. Klären, was für sich selbst wichtig ist, was weiterbringt. Die eigenen Widersprüche erkennen und anerkennen, weil sie ein erhöhtes Risiko für meine psychische Gesundheit darstellen können. Es geht nicht darum, zu einer präzisen und festen Vision zu gelangen, sondern die Triebkräfte des eigenen Handelns wahrzunehmen, um falls nötig proaktiv (statt reaktiv) zu handeln.
+-  Prüfen,  unter  welchen  persönlichen  Gegebenheiten  und  in  welchem  Umfeld  das Doktoratsstudium  realisiert  werden  soll.  Den  (bevorstehenden)  Entscheid,  ein  solches Studium zu unternehmen, und die damit verbundenen Auswirkungen auf das tägliche Leben mit Angehörigen (LebenspartnerIn, Kindern, Familie) unverblümt thematisieren, weil sie unweigerlich und langfristig davon betroffen sein werden.
+-  Von Anfang an die formellen Aspekte der Forschungs-, Lehr- und Verwaltungstätigkeiten mit  der  Betreuerin  oder  dem  Betreuer  sowie  mit  Vorgesetzten  klären  (z.B.  Vertrag, detailliertes Pflichtenheft, klare Anweisungen zu den auszuführenden Aufgaben, Zuteilung von Arbeitszeit und Arbeitsraum, Periodizität und Modalitäten der Besprechungen,  Aufteilung  der  Verantwortlichkeiten,  Rechte  und  Pflichten  sämtlicher involvierter Personen).
+-  Bei jeder Schüsseletappe des Studiengangs eine Bestandsaufnahme vornehmen und eine Bilanz  ziehen (z.B.  Entscheidung über die Aufnahme des Doktoratsstudiums, Wahl des Themas und der Methoden).
+
+<!-- image -->
+
+<!-- image -->
+
+## Kommunizieren und vernetzen
+
+-  Regelmässig  mit  den  BetreuerInnen  kommunizieren,  ohne  zu  zögern  Fragen  stellen, Unsicherheiten klären und aufgetretene Schwierigkeiten besprechen.
+-  Im Umgang mit der Betreuerin oder mit dem Betreuer proaktiv sein, z.B. Feedback oder spezifischen Rat einholen, Termine vereinbaren, um gemeinsam eine Bestandsaufnahme des Arbeitsfortschritts  vorzunehmen, sich dafür gründlich vorbereiten. BetreuerInnen sind oft sehr beschäftigt und tendieren deshalb dazu anzunehmen, dass, wer nicht um Unterstützung fragt, keine Unterstützung braucht. Es liegt also in der Verantwortung der Doktorierenden,  bei  Fragen  oder  Schwierigkeiten  den  ersten  Schritt  zu  machen  oder einfach den Kontakt zu halten, indem sie über den Fortschritt der Dissertation oder der Lehrtätigkeit informieren.
+-  Bei  KollegInnen  und  bei  Fachleuten  Meinungen  und  Rat  einholen.  Sie  sind  wertvolle Partner, um Fragen zu stellen, Ansichten zu diskutieren, wenn nötig Hilfe zu suchen. Sie bieten  Ressourcen  an,  die  diejenigen  der  Betreuungsperson  ergänzen  oder  klären können. Die hierarchische Nähe erleichtert den Austausch und fördert die Zusammenarbeit.
+-  Ein Netzwerk vertrauenswürdiger Ansprechpersonen aufbauen - zusätzlich zu Peers und KollegInnen. Idealerweise befinden sich diese Personen "in guter Entfernung", d.h. nahe genug, um mit den Situationen, in der Doktorierende sich befinden, vertraut zu sein, jedoch ohne allzu direkte Beziehung dazu, insbesondere beruflicher Art. Zum Beispiel (Post-) Doktorierende derselben oder einer eng verwandten  Disziplin, die ihre Dissertation unter der Leitung einer anderen Direktorin oder eines anderen Direktors verfassen; (Post-) Doktorierende derselben Institution, aber aus einer anderen Disziplin; (Post-) Doktorierende, die sie in einem Programm für Doktorierende oder während eines Workshops  kennenlernten.  Diese  Personen  können  in  einem  Gedankenaustausch relevante  Hinweise  oder  Ratschläge  bieten,  weil  sie  die  Herausforderungen  eines Doktorats kennen, die jeweilige Situation aufgrund der eigenen Erfahrungen verstehen
+
+<!-- image -->
+
+können, die möglichen Folgen eines Entscheides abschätzen können  -  ohne  im  Wettbewerb  zu  stehen  und  ohne  negative Auswirkung  auf die täglichen beruflichen Beziehungen. Auch Gespräche  mit Personen  auf höheren  Hierarchieebenen, wie
+
+ProfessorInnen und erfahrenen ForscherInnen, können wertvolle Inputs liefen für die kritische Reflexion und die Entwicklung von Gedanken und Ideen.
+
+## Chancen ergreifen
+
+An  Aktivitäten  teilnehmen,  welche  Forschungs-  und  Lehraktivitäten  unterstützen  (zum Beispiel Programme für Doktorierende, Lehrerausbildungen, Mentoring-Programme, Workshops und Seminare, Gruppen- und Einzelcoaching). Grundsätzlich haben Doktorierende freien Zugang zu Ausbildungen, die sie für ihre Weiterbildung und berufliche Entwicklung als nützlich  erachten.  Vorzuziehen  sind  jedoch  Kurse,  die  den  spezifischen  Bedürfnissen, Erwartungen, der Verfügbarkeit und den Prioritäten jedes Doktorierenden entsprechen. Um die richtige Wahl zu treffen, ist es ratsam, Rat einzuholen, z.B. bei der Betreuungsperson, der oder dem Vorgesetzten oder bei der Stelle, die die Unterstützungsangebote koordiniert.
+
+## Sich um sich selbst kümmern
+
+Das Doktorat ist nicht nur kognitiv anspruchsvoll, es ist auch emotional intensiv. Deshalb ist es wichtig, im Alltag die eigenen Bedürfnisse wahr- und ernst zu nehmen. Die Regulierung der Emotionen, sowohl der angenehmen wir auch der unangenehmen, ist unerlässlich, um eine solide  Ressourcen-  und  Energiebasis  aufrechtzuerhalten.  Diese  Basis ermöglicht es, einerseits die mit jedem Forschungsprozess verbundenen Schwankungen (Unsicherheiten, Unvorhergesehenes, Unplanbares usw.) zu bewältigen, andererseits das Lernen und die Kreativität zu unterstützen, zwei kognitiv und emotional aufwendige Prozesse. Sich um sein eigenes Wohlbefinden kümmern (Selbstfürsorge) bedeutet bewusst Zeit  einräumen  für  Entspannung  und  Freizeit,  gesund  und  ausgewogen
+
+<!-- image -->
+
+essen, genügend schlafen. Es bedeutet auch Gefühle wahrnehmen, sie zeigen und darüber sprechen mit Menschen, denen man vertraut. Meditation (z.B. Mindfulness; siehe zusätzliche Ressourcen)  kann  hilfreich  sein;  ohne  therapeutische  Ziele  zu  verfolgen,  kann  sie  dazu beitragen, das Auftreten psychischer Störungen zu verhindern, indem sie die Regulierung und emotionale Erholung unterstützt, insbesondere in Situationen mit hohem Stress.
+
+## EMPFEHLUNGEN FÜR BETREUUNGSPERSONEN VON DOKTORIERENDEN
+
+Betreuungsperson  und  erfahrene  Mitglieder  der  wissenschaftlichen  Gemeinschaft  spielen eine Schlüsselrolle in der beruflichen Entwicklung von Doktorierenden. Sie sind entscheidend in der Gestaltung des täglichen Arbeitsumfelds, in den Lern- und Erfahrungsgelegenheiten, die sie  anbieten,  in  der  Unterstützung,  die  sie  leisten.  Es  gibt  natürlich zahlreiche Arten und Weisen dies zu tun, und es obliegt jeder Betreuerin und jedem Betreuer, ihr/sein eigenes Vorgehen zu wählen. Es gibt dennoch einige  Bedingungen  und  Massnahmen,  die  eine  qualitativ  hochwertige Betreuung begünstigen, ja sogar gewährleisten.
+
+## Sich einsetzen und einen transparenten Rahmen setzen
+
+Unabhängig  davon,  ob  Sie  auf  dem  Gebiet  der  Betreuung  von  Doktorierenden  neu  oder erfahren sind, sollten Sie darüber nachdenken, wie Sie diese Rolle wahrnehmen und umsetzen wollen. Folgende Fragen helfen, ein klares Bild zu schaffen: Zu was verpflichte ich mich? Wie will ich die Betreuung gestalten und umsetzen? Was ist meine Rolle als Betreuungsperson? Was ist die Rolle der Doktorierenden? Welches sind meine Erwartungen ihnen gegenüber? Was sollen/dürfen sie tun (oder nicht tun), wenn sie ihre Dissertation unter meiner Betreuung machen  (wollen)?  Wo  liegen  die  Grenzen?  Wer  ist  in  erster  Linie  für  die  Forschung verantwortlich? Wie können wir effektiv kommunizieren und interagieren? Wie will ich die Betreuung  praktisch  organisieren  (Termine,  Gegenlesen  von  Texten  und  Rückmeldungen usw.)?
+
+In jeder  neuen  Betreuungsbeziehung sind die ersten Gespräche von grundlegender Bedeutung,  da  sie  dazu  beitragen  sollen,  die  Grundlage  eines  Vertrauensverhältnisses  zu schaffen. Es ist daher wichtig, genügend Zeit einzuplanen und Verfügbarkeit und Offenheit zu zeigen, so dass sich die (zukünftige) Doktorandin oder der (zukünftige) Doktorand frei fühlt, Fragen  zu  stellen  und  sensible  Themen  anzugehen,  wenn  sie/er  dies  für  nötig  hält.  Diese Gespräche sollten unter anderem folgende Aspekte umfassen:
+
+<!-- image -->
+
+-  Die Person kennenlernen, insbesondere ihre Werte, Ziele, Hoffnungen, Motivationen; Was bewegt sie dazu, ein Doktoratsstudium zu unternehmen? Ist dies der richtige Weg, ihre Ziele zu erreichen?
+-  In  voller  Transparenz  die  Möglichkeiten  und  Zwänge  einer  akademischen  Laufbahn erörtern und die verschiedenen beruflichen Optionen, die den Doktorierenden offenstehen, darlegen.
+-  Ohne aufdringlich zu sein, nach der persönlichen Situation fragen, nicht aus Neugierde, sondern wegen deren möglichen Auswirkungen auf das Studium. Hat die Person diese Situation  analysiert?  Hat  sie  ein  realistisches  Bild  der  Bedingungen,  unter  denen  sie dieses langfristige Projekt durchführen will?
+-  Die  jeweilige  vertragliche  und  persönliche  Situation  berücksichtigen  (z.B.  Forschungsund Dissertationszeit respektieren, Arbeitstage einteilen).
+-  Den Betreuungsrahmen, der angesichts der obengenannten Elemente angeboten wird, transparent erklären. Klarstellen, was verhandelbar ist und was nicht, was die Person von der Betreuung erwarten kann und was in ihrer eigenen Verantwortung liegt, nämlich wie sie sich den angebotenen Rahmen aneignet und wie sie ihn benützt.
+-  Sich auf eine Charta stützen; eine Doktorats-Vereinbarung abschliessen (siehe zusätzliche Ressourcen).
+-  die Relevanz einer Co-Betreuung oder einer Co-Leitung der Dissertation, gegebenenfalls einer Begleitkommission erwägen, um die Einbindung Dritter in das Betreuungsverhältnis zu ermöglichen.
+
+<!-- image -->
+
+Autonomie, Kompetenz und soziale Beziehungen sind in einem Doktoratsstudium unerlässliche Tragpfeiler, eine wichtige Ressourcengrundlage. Betreuungspersonen sollten deshalb der Unterstützung dieser drei psychologischen Grundbedürfnisse grosse Aufmerksamkeit widmen.
+
+## Autonomie fördern
+
+Um die Doktorierenden in die Lage zu versetzen, sich bewusst den Herausforderungen ihres Studiums zu stellen, sollten die BetreuerInnen:
+
+-  Innerhalb des festgelegten Rahmens Handlungsspielraum gewähren, d.h. Wahlmöglichkeiten anbieten und Initiativen zulassen.

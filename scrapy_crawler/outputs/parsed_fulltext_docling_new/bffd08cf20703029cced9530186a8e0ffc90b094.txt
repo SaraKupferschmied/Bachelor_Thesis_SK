@@ -1,0 +1,273 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T02:22:07.855Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Ajout_de_discipline_DEEM_bffd08cf20703029cced9530186a8e0ffc90b094",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "bffd08cf20703029cced9530186a8e0ffc90b094",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 60,
+  "program_name": "Teacher Education for Baccalaureate Schools",
+  "doc_label": "Ajout de discipline DEEM",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/Ajout_DEEM_18%20%281466%201337%29%2005%2005%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Ajout_de_discipline_DEEM_bffd08cf20703029cced9530186a8e0ffc90b094.pdf",
+  "sha256": "fa78acfb9fd69b80d49062474c1cc0a2767a7c1c67224bc794cd4b5a8e5fa0d3",
+  "fetched_at": "2026-04-03T11:26:52.600Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Ajout_DEEM_18%20%281466%201337%29%2005%2005%202025.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DÉPARTEMENT DE FORMATION À L'ENSEIGNEMENT
+
+## PLAN D'ÉTUDES
+
+## Diplôme d'enseignement pour les écoles de maturité (DEEM)
+
+Diplôme additionnel - habilitation à enseigner Attestation de formation - qualification complémentaire 18 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Bases légales
+
+Ce plan d'études repose sur les bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les conditions d'admission complémentaires à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Règlement du 19 septembre 2024 de la Commission d'évaluation de la formation professionnelle pratique du Diplôme d'enseignement pour les écoles de maturité
+- Directives du 17 octobre 2024 relatives à la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'études
+
+Ce programme d'études s'adresse exclusivement à des titulaires du Diplôme d'enseignement pour les écoles de maturité (DEEM) ou d'un diplôme équivalent reconnu par la CDIP qui souhaitent ajouter une discipline d'enseignement  ou  une  qualification  complémentaire.  Il  comprend  un  ensemble  de  cours  qui  complète  la formation dans la deuxième discipline ou la qualification complémentaire.
+
+## 2.2 Langue de la formation
+
+Le programme d'études Diplôme d'enseignement pour les écoles de maturité (Diplôme additionnel DEEM ou Attestation de formation) à 18 crédits ECTS peut s'effectuer en français ou en allemand. Ce document présente le plan francophone uniquement.
+
+## 2.3 Conditions et délais d'admission
+
+L'admission aux études présuppose la possession du Diplôme d'enseignement pour les écoles de maturité (DEEM) dans une discipline reconnue par la CDIP.
+
+Le/la candidat·e doit déposer une demande d'admission auprès du décanat de la Faculté des sciences de l'éducation et de la formation (formulaire à disposition auprès du décanat).
+
+Le/la  candidat·e  doit  déposer  par  voie  électronique  une  demande  d'ajout  de  discipline  ou  de  qualification complémentaire au secrétariat du CEEM entre le 15 janvier et le 15 février précédant son entrée en formation.
+
+L'étudiant·e doit fournir une preuve du paiement de la taxe de réservation de stage.
+
+Les étudiant·e·s qui souhaitent se former en même temps pour l'enseignement dans les écoles professionnelles l'indiquent au moment de la demande d'ajout de discipline.
+
+## 2.4 Admission sous réserve
+
+L'accès à la formation n'est pas garanti. Le cas échéant, la Commission d'évaluation est chargée d'organiser la  mise  au  concours des places de stage conformément à l'ordonnance du Conseil d'Etat et de prononcer l'admissibilité à la formation.
+
+## 2.5 Début des études
+
+Le début des études n'est possible qu'au semestre d'automne. Les inscriptions tardives ne sont pas autorisées.
+
+## 2.7 Titre décerné
+
+Le  titre  décerné  est Diplôme  additionnel  -  habilitation  à  enseigner ou Attestation  de  formation  qualification complémentaire .
+
+## 3 Programme d'études
+
+## 3.1 Objectifs de la formation
+
+Le programme d'études comprend les compléments en didactique disciplinaire ainsi que les stages dans les écoles de maturité et s'appuie sur le référentiel de compétence de la formation DEEM.
+
+## 3.2 Structure générale de la formation
+
+La formation permet aux étudiant·e·s d'acquérir les compétences nécessaires dans la didactique disciplinaire concernée et dans l'enseignement de celle-ci (stages).
+
+## 3.3 Disciplines d'enseignement
+
+Les différentes disciplines d'enseignement sont :
+
+Allemand
+
+Informatique
+
+Anglais
+
+Italien
+
+Arts visuels
+
+Latin
+
+Biologie
+
+Mathématiques
+
+Chimie
+
+Musique
+
+Economie et Droit
+
+Pédagogie/Psychologie
+
+Enseignement religieux
+
+Philosophie
+
+Espagnol
+
+Physique
+
+Français
+
+Rhéto-romanche
+
+Géographie
+
+Russe
+
+Grec
+
+Sport
+
+Histoire
+
+Les qualifications complémentaires sont :
+
+Allemand langue étrangère
+
+Français langue étrangère
+
+Italien langue étrangère
+
+## 3.4 Contenu du programme ajout de discipline / qualification complémentaire
+
+Il n'existe aucun cours ou module à choix ; seuls les cours de didactique disciplinaire varient selon la discipline d'enseignement de l'étudiant·e.
+
+| Module et unités d'enseignement                                 | Semestre   |   Crédits ECTS |
+|-----------------------------------------------------------------|------------|----------------|
+| Module : Ajout de discipline                                    |            |             18 |
+| F24.00000 - Didactique de la discipline                         | SA+SP      |              8 |
+| F24.00877 - Ajout de discipline - Stage pratique, phases I-II   | SA         |              4 |
+| F24.00878 - Ajout de discipline - Stage pratique, phases III-IV | SP         |              5 |
+| F24.00994 - Ajout de discipline - Leçon d'examen                | SP         |              1 |
+
+| Module et unités d'enseignement                                          | Semestre   |   Crédits ECTS |
+|--------------------------------------------------------------------------|------------|----------------|
+| Module : Qualification complémentaire                                    |            |             18 |
+| F24.00000 - Didactique de la qualification complémentaire                | SA+SP      |              8 |
+| F24.00879 - Qualification complémentaire - Stage pratique, phases I-II   | SA         |              4 |
+| F24.00880 - Qualification complémentaire - Stage pratique, phases III-IV | SP         |              5 |
+| F24.00995 - Qualification complémentaire - Leçon d'examen                | SP         |              1 |
+
+Le détail  des  objectifs  de  chaque  unité  d'enseignement,  en  lien  avec  le  référentiel  de  compétence  pour  la formation DEEM et avec les formes de travail de l'objectif sont disponibles sur le site Internet du centre.
+
+## 3.5 Stages
+
+## Durée, organisation et accompagnement
+
+Pendant toute la durée de la formation, chaque stagiaire est accompagné·e par un praticien-formateur ou une praticienne-formatrice (PraFo) et participe à leur enseignement, dans une classe à raison d'un équivalent de 74 périodes pour la discipline.
+
+La répartition détaillée des périodes est du ressort des PraFo. Elle respecte les prescriptions réglementaires et se conforme aux proportions édictées pour chaque phase du stage. Elle fait l'objet d'un accord préalable avec le/la stagiaire et figure explicitement dans le contrat de formation.
+
+Le stage concerne l'ensemble des activités éducatives et comprend donc également une participation active à la vie de l'école.
+
+L'étudiant·e  est  accompagné·e  par  un·e  référent·e  institutionnel·le  (REFI)  attaché·e  au  CEEM  à  qui  est attribué·e le/la stagiaire d'un établissement. Le/la REFI est chargé·e de faire le lien entre les PraFo, l'étudiant·e et le CEEM. Il est une ressource de « première ligne » pour les PraFo et l'étudiant·e lorsque des problèmes surviennent durant le stage. Il/elle peut être consulté·e par la Commission d'évaluation en cas de besoin.
+
+## Contrat de formation
+
+Dans le courant du mois de juin précédant l'entrée en formation, l'étudiant·e prend contact avec son PraFo pour élaborer un contrat de formation.
+
+Ce contrat  lie,  d'une  part,  le/la  stagiaire  et,  d'autre  part,  le/la  PraFo  qui  l'accompagnera  durant  l'année  de formation.
+
+Le Centre fournit des lignes directrices servant à la rédaction du contrat personnalisé et veille à assurer les conditions optimales de collaboration entre tous/toutes les intervenant·e·s (stagiaires, PraFo, didacticien·ne·s des disciplines, enseignant·e·s universitaire·s).
+
+La version définitive du contrat de formation doit être déposée au secrétariat du Centre au plus tard durant la première semaine de la phase d'observation du stage.
+
+La Commission d'évaluation prend connaissance du contrat de formation et le valide. Au besoin, elle peut demander aux parties contractantes de préciser ou de modifier certains articles du contrat.
+
+## Phases du stage et rôle du praticien-formateur ou de la praticienne-formatrice
+
+L'autonomie du/de la stagiaire est développée au cours d'un processus qui lui confère progressivement des responsabilités.  Le/la  PraFo  accompagne  le/la  stagiaire  en  passant  du  rôle  de  « modèle »  à  celui  de superviseur/seuse.
+
+Durant la première phase (8 périodes dans la discipline), dite d'observation, le/la stagiaire observe et assiste son/sa PraFo dans son enseignement. Il/elle participe à des tâches limitées (observation et discussion, analyse de la planification, préparation de documents, interventions ponctuelles dans l'enseignement, suivi individuel d'élèves en difficulté, aide à l'évaluation du travail des élèves, etc.). Durant cette phase, le/la PraFo explicite ses pratiques, ses stratégies pédagogiques, ses méthodes …
+
+Durant la deuxième phase (28 périodes dans la discipline), dite de collaboration, PraFo et stagiaire collaborent en partenariat. L'étudiant·e prend progressivement en charge la planification, l'organisation, la réalisation et l'évaluation de séquences didactiques (parties de leçons, leçons entières, ensemble de leçons). Durant cette phase le/la PraFo cède progressivement la responsabilité de la planification et de l'enseignement à son stagiaire et  lui  permet  de  développer  prioritairement  ses  capacités  d'analyse  et  ses  compétences  réflexives.  Il/elle encourage les moments de coenseignement.
+
+Durant une troisième phase (30 périodes dans la discipline), dite d'autonomie, le/la stagiaire assume sur la durée et en responsabilité, l'ensemble des tâches de planification et d'enseignement. Le/la PraFo est dans un rôle  de  superviseur  ou  superviseuse  et  s'assure  de  la  poursuite  du  développement  professionnel  du/de  la stagiaire par des observations de ses cours et par des rencontres régulières.
+
+Dans la quatrième phase (8 périodes dans la discipline) dite d'exploration, le/la stagiaire découvre différentes facettes  du  métier  en  participant  activement  à  la  vie  de  l'école  sous  différentes  formes  ou  en  observant l'enseignement d'autres PraFo.
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un crédit  ECTS  représente  en  moyenne  trente  heures  de  travail  pour  l'étudiant·e.  Les  crédits  ECTS  sont attribués sur la base d'unités d'enseignement jugées suffisantes (art. 3 chif. 7 et 14 du Règlement des études).
+
+Ce programme de formation professionnalisante requiert une présence à 100% tant pour les cours que pour les stages ; une absence de 20% maximum peut être tolérée pour de justes motifs (obligations militaires, congé de maternité, maladie ou accident). Une requête pour toute autre absence doit être motivée par écrit au conseil de direction du Centre. En cas de dépassement, l'étudiant·e ne peut se présenter à la validation et doit suivre à nouveau le·s cours concerné·s.
+
+## 4.2 Reconnaissances
+
+Aucune  reconnaissance  formelle  (au  sens  de  l'art. 3  al.  5  des  Directives  reconnaissances)  ne  peut  être envisagée dans ce programme d'études.
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du Règlement des études). Lors de l'inscription à un stage, l'étudiant·e s'inscrit directement à son évaluation afin que le résultat puisse être entré en temps voulu (même hors session). L'inscription au stage est définitive et ne peut être annulée. Un·e étudiant·e non-inscrit·e ne peut prétendre à une évaluation.
+
+## 4.4 Unités d'enseignement hors session
+
+Les unités d'enseignement relatives aux stages et la leçon d'examen sont des unités d'enseignement hors session.
+
+## 4.5 Notation
+
+Les évaluations sont notées ou font l'objet d'une décision « réussi » ou « échoué ». L'échelle de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 22 et 23 du Règlement des études).
+
+Toutes les unités d'enseignement de ce programme d'études sont évaluées séparément. Chaque évaluation doit être suffisante. Les informations disponibles sur le portail Internet de l'Université et sur les fiches de cours disponibles sur le site Internet du Centre indiquent les modalités d'évaluation pour chaque  unité d'enseignement.
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e ne réussit pas la deuxième tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module.
+
+Les études sont considérées comme échouées définitivement et ne peuvent être poursuivies si l'un des critères suivants est rempli :
+
+- l'UE obligatoire n'a pas été validée lors des deux tentatives ;
+- l'UE obligatoire n'a pas été validée dans les quatre sessions (exception faite du report de session en raison de conflit horaire ou d'absence justifiée) ;
+- la durée maximale autorisée pour les études (selon art. 10 du Règlement des études) est dépassée.
+
+En cas d'échec définitif dans un programme d'études, l'étudiant·e ne peut plus poursuivre ses études dans ce programme d'études pendant une période de cinq ans à partir de la session d'examens concernée (art. 24 du Règlement des études).
+
+## 4.7 Stages
+
+Validation du stage : Les stages sont évalués par le biais du rapport de stage qui permet au/ à la PraFo et au/à la stagiaire de faire le point sur la partie pratique de la formation à deux moments clés du parcours à savoir au terme des phases I-II et III et IV. Le rapport de stage est un document écrit qui permet de faire un bilan de compétences et de mettre en évidence l'acquisition des capacités attendues et, le cas échéant, de signaler les problèmes ou manquements du/de la stagiaire. Le CEEM propose un canevas qui sert de guide pour prendre en compte tous les aspects à évaluer. Au besoin, des documents supplémentaires peuvent être joints au rapport d'évaluation du stage pour le compléter. Le/la PraFo et le/la stagiaire complètent chacun·e leur propre rapport (évaluation et autoévaluation) en proposant la validation ou non des phases du stage et transmettre le document au CEEM dans les délais indiqués sur la plateforme Moodle dédié·e.
+
+La validation du stage se fait conformément à l'art. 5 du Règlement du 19 septembre 2024. C'est la Commission d'évaluation de la formation professionnelle pratique du Diplôme d'enseignement pour les écoles de maturité, qui  valide  formellement  les  phases  du  stage.  Elle  se  base  sur  les  rapports  de  stage  du/de  la  PraFo  et  de l'étudiant·e, éventuellement sur des compléments apportés par le/la référent·e institutionnel·le pour déterminer sa validation. La Commission d'évaluation se prononce en deux temps, à savoir sur les deux premières phases (suite auxquelles une prolongation peut être demandée), puis sur les phases 3 et 4.
+
+Supplément de formation :  au  terme de la phase 1-2 ou de la phase 3, la Commission d'évaluation peut demander un supplément de formation (prolongation de 6 périodes d'enseignement au maximum). Les raisons de cette prolongation doivent être dûment explicitées et transmises au PraFo et au/à la stagiaire. Les motifs de la prolongation constituent les éléments sur lesquels des progrès clairs sont attendus. Au terme de la prolongation, le/la PraFo envoie un rapport complémentaire au CEEM en proposant la poursuite du stage ou un échec de la phase évaluée. Sur cette base, la Commission d'évaluation décide de la poursuite du stage ou de l'échec.
+
+Echec :  au  terme  de  la  phase  1-2  ou  3,  en  se  basant  sur  les  rapports  de  stage  (PraFo  et  étudiant·e), éventuellement sur des compléments apportés par le/la référent·e institutionnel·le, la Commission d'évaluation peut invalider la(les) phase(s) du stage. En cas d'échec, le stagiaire refait la phase concernée sans dépasser les 4 semestres autorisés pour réaliser sa formation.
+
+Un échec peut aussi être prononcé si les éléments décrits pour la phase 4 dans le contrat de formation ne sont pas remplis.
+
+Les stages sont évalués par les modalités « réussi » vs « échec ».
+
+## 4.8 Note finale
+
+Aucune note finale n'est calculée (art. 93 du Règlement des études).
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le présent plan d'études entre en vigueur au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.

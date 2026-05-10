@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.714Z",
+  "title": "Recueil systématique 511.610 Systematische Sammlung 1",
+  "pages": 4,
+  "reg_doc_key": "0d957bb1107fbfc10d1e1c3fc4277b7c041d76a6",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Convention entre l’Université de Fribourg et l’Aspirantura du Patriarcat de Moscou pour le Master et l’accès au doctorat de théologie (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277250",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277250",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_entre_l_Universit_de_Fribourg_et_l_Aspirantura_du_Patriarcat_de_Moscou_pour_le_Master_et_l_acc_s_au_doctorat_de_th_ologie_FR__0d957bb110.pdf",
+  "sha256": "f74ec97987939af3182621fd8d79ac7fe2b1393d46adf4010c128abbc37ea262",
+  "fetched_at": "2026-04-03T12:10:31.979Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.610 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.610 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.610 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 511.610 Systematische Sammlung 4

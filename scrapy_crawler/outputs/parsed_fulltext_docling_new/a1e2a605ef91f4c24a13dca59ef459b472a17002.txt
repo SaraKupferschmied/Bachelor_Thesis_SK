@@ -1,0 +1,370 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T00:32:19.264Z",
+  "title": "Philosophy_Bachelor_30_Musicology_and_History_of_Opera_Bereich_I_a1e2a605ef91f4c24a13dca59ef459b472a17002",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a1e2a605ef91f4c24a13dca59ef459b472a17002",
+  "program_key": "philosophy|bachelor|30|musicology and history of opera",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Musicology and History of Opera",
+  "doc_label": "Bereich I",
+  "source_url": "https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20%C3%A9tudes%202025/DE/MUS_BA_120_DE.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/musicology",
+  "curriculum_url": "https://studies.unifr.ch/go/q",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Musicology_and_History_of_Opera_Bereich_I_a1e2a605ef91f4c24a13dca59ef459b472a17002.pdf",
+  "sha256": "5b667cac856ef8f110a581b7f903e426a08d3867b78b76e0edd4d25ca039ab99",
+  "fetched_at": "2026-04-03T11:30:59.945Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20%C3%A9tudes%202025/DE/MUS_BA_120_DE.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MUS_BA_120_DE.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Studienplan
+
+Bachelor
+
+## Musikwissenschaft und Geschichte des Musiktheaters Bereich I - 120 ECTS-Punkte 2025
+
+## 1. Rechtsgrundlagen
+
+Der vorliegende Studienplan beruht auf dem Reglement  vom  8.  März  2018  zur  Erlangung des Bachelors und des Masters an der Philosophischen Fakultät (hier unten als Reglement vom 8. März 2018 abgekürzt).
+
+## 2. Beschreibung des Studienprogramms
+
+## 2.1 Allgemeine Beschreibung des Studienprogramms
+
+Musik  bietet  einen  aussergewöhnlichen  Zugang  zu  Kulturen  der  Vergangenheit  und  den Herausforderungen  der  Gegenwart.  In  der  westlichen  Welt  hat  sie  unter  anderem  dazu gedient, Macht zu stärken oder infrage zu stellen. Sie diente sowohl der Entspannung als auch dazu, starke Emotionen hervorzurufen. Sie stand im Dialog mit allen Kunstformen, von der  Literatur  bis  zum  Film,  und  hat  das  tägliche  Leben  sowohl  als  Praxis  als  auch  als Hörerlebnis begleitet. Das Studium der Musikwissenschaft in ihren verschiedenen Perspektiven (historisch, ästhetisch, sozial und technisch) bietet somit eine faszinierende und interdisziplinäre geisteswissenschaftliche Ausbildung.
+
+Das Studienprogramm Musikwissenschaft und Geschichte des Musiktheaters zu 120 ECTSPunkten bietet eine Ausbildung in Musikwissenschaft, die den Schwerpunkt hauptsächlich auf die westliche Musik vom Mittelalter bis zur Gegenwart legt. Der Unterricht stützt sich auf die neuesten Richtungen des Fachbereichs.
+
+Das Programm ermöglicht ein schrittweises Erlernen von Kenntnissen (historisch, methodisch,  technisch)  und  fördert  die  Entwicklung  sowohl  mündlicher  und  schriftlicher Argumentation als auch der Verbreitung von Fachwissen. Es zeichnet sich durch eine starke interdisziplinäre Perspektive aus, indem die Beziehungen der Musik zu den Ausdrucksformen anderer Künste und ihre Rolle in komplexen Systemen wie der Oper oder dem Kino vertieft werden. Darüber hinaus werden in speziellen Kursen zur musikwissenschaftlichen  Kommunikation,  zur  Geschichte  und  Kritik  der  musikalischen Aufführung,  zur  Notationskunde  und  zur  Produktion  von  Musikeditionen  Kompetenzen erworben, die für zahlreiche Berufsfelder von entscheidender Bedeutung sind.
+
+Zielgruppe sind Personen, die eine Karriere in Musikinstitutionen, in der Musikvermittlung, im Bildungsbereich oder in der akademischen Forschung anstreben. Einige der Berufsmöglichkeiten  erfordern  ein  weiterführendes  Masterstudium  zu  90  oder  30  ECTSPunkten (Berufe im Bereich Forschung und Kultur, Lehrtätigkeit).
+
+## Philosophische Fakultät Departement für Musikwissenschaft
+
+Folgende Liste gibt einen Überblick über berufliche Perspektiven:
+
+- Lehrtätigkeit (Gymnasium; Musikgeschichte an den Musikhochschulen)
+- Journalismus und Kulturvermittlung (Radio; Printmedien; Fernsehen; Internet; Musik- und Kulturinstitutionen)
+- Verwaltung und Konservierung musikalischer und audiovisueller Quellen (Musikarchive; Musikbibliotheken und Musiksammlungen in allgemeinen Bibliotheken; Musiksammlungen in historischen Museen; Fachmuseen;
+
+Tonarchive; Répertoire International des Sources Musicales RISM)
+
+- Kulturmanagement und -verwaltung (Konzertgesellschaften; Orchester; Festivals; Organisationen zur Musikförderung, z. B. SUISA oder ProHelvetia)
+- Wissenschaftliche Notenausgaben (Musikverlage; wissenschaftliche Zeitschriften in der Musikwissenschaft; Digital Humanities; Schallplattenlabels)
+- Musik- oder Bühnenlaufbahn (zusätzlich zu einem Studium an einer Musikhochschule)
+- Forschung und akademische Laufbahn (Schweizerischer Nationalfonds; Universitäten; Musikhochschulen; internationale Institutionen).
+
+## 2.2. Allgemeine Struktur des Programms
+
+Das Studienprogramm ist in acht Module gegliedert, die die Disziplin aus verschiedenen Blickwinkeln betrachten und die für eine musikwissenschaftliche Ausbildung erforderlichen Kompetenzen vermitteln. Modul 1 vermittelt die Grundlagen für das Studium des Fachs und seiner  Kommunikationsformen.  Zwei  Module  (2  und  3)  widmen  sich  der  Geschichte  der westlichen Musik vom Mittelalter bis zur Gegenwart. Sie werden ergänzt durch ein Modul (4), das  dem  Erlernen  von  Techniken  zur  Musikanalyse  der  jeweiligen  historischen  Epoche gewidmet  ist.  Modul  5  vermittelt  spezifische  technische,  kritische  und  interdisziplinäre Kompetenzen  (alte  Notationen,  Musikästhetik,  Geschichte  und  Kritik  der  musikalischen Aufführung, Instrumentenkunde, Musik und Film, Operninszenierung). Zwei weitere Module (6 und 7) bieten die Möglichkeit, mehrere verschiedene Themen zu vertiefen und sich mit verschiedenen für das Fachgebiet relevanten Forschungsmethoden und historiografischen Ansätzen vertraut zu  machen. Schliesslich bietet Modul 8 die Möglichkeit, durch Lehrangebote  anderer  Disziplinen  ergänzende  Kompetenzen  zur  Musikwissenschaft  zu erwerben.
+
+Die  Unterrichtseinheiten  werden  in  Form  von  Vorlesungen  (VO),  Seminaren  (SE)  oder Übungen (Ü) angeboten.
+
+Alle  Unterrichtseinheiten  sind  semesterweise  organisiert.  Es  werden  allerdings  nicht  alle Einheiten jedes Jahr angeboten (siehe Anhang Indikative Zuordnung der Unterrichtseinheiten ). Die Studierenden werden aufgefordert, dies bei der Planung und dem Ablauf ihres Studiums zu berücksichtigen.
+
+Ein Teil der Unterrichtseinheiten kann aufgrund der Vereinbarung zwischen den Universitäten  Bern,  Neuenburg  und  Freiburg  (BENEFRI)  an  den  Universitäten  Bern  und Neuenburg oder im Rahmen der nationalen (Swiss Mobility) oder internationalen Mobilität (SEMP, ISEP, PÉÉ Québec) an anderen Universitäten besucht werden.
+
+## 2.3. Zulassungsbedingungen
+
+Für die Zulassung zum Bachelorstudium gilt das Reglement der Universität Freiburg.
+
+## 3. Lernziele
+
+Das  Studienprogramm  vermittelt die für den Beruf des Musikwissenschaftlers/ der Musikwissenschaftlerin notwendigen Kompetenzen:
+
+a) es dient dem Erwerb sowohl genereller als auch vertiefter historischer, ästhetischer und analytischer Kenntnisse zu verschiedenen monografischen Themen;
+
+b)  es  ermöglicht  eine  argumentativ  fundierte  Reflexion  über  die  Rolle  der  Musik  in vergangenen und gegenwärtigen Kulturen;
+
+c) es entwickelt spezifische Kompetenzen im Bereich der Beziehungen zwischen Musik und visuellen Medien, die für die Lehrtätigkeit und alle Berufe im Bereich der Musikvermittlung unerlässlich sind;
+
+d) dank unterschiedlicher Bewertungsmethoden fördert das Studienprogramm sowohl das Erlernen  von  mündlicher  und  schriftlicher  wissenschaftlicher  Argumentation  als  auch  die allgemeine Vermittlung von Fachwissen.
+
+## 4. Beginn und Dauer des Studiums
+
+Das Studienprogramm kann im Herbst- oder Frühjahrssemester begonnen werden.
+
+Die Mindestdauer des Studiums beträgt 6 Semester. Die Studiendauer ist auf 18 Semester begrenzt. Falls diese Dauer überschritten wird, gilt für das Studienprogramm ein definitiver Misserfolg ( Reglement vom 8. März ; Art. 34).
+
+## 5. Unterrichtssprachen
+
+Der  Unterricht  findet  auf  Französisch  statt.  Ausnahmsweise  können  Lehrveranstaltungen auch auf Deutsch oder Englisch stattfinden. Die für die Validierung der Unterrichtseinheiten zu  lesende  Bibliografie  kann  Artikel  und  Bücher  auf  Französisch,  Deutsch  und  Englisch beinhalten.
+
+Die Studierenden dürfen ihre schriftlichen Arbeiten und Examen auf Französisch, Deutsch, Italienisch oder Englisch verfassen. Mündliche Referate müssen allerdings in der Sprache der Lehrveranstaltung gehalten werden und die Fragen in schriftlichen Prüfungen werden ebenfalls in der Unterrichtssprache gestellt.
+
+Der Erwerb des Vermerks 'zweisprachig' ist nicht möglich.
+
+## 6. Allgemeine Organisation
+
+| Musikwissenschaft und Geschichte des Musiktheaters Bereich I - 120 ECTS-Punkte   | Musikwissenschaft und Geschichte des Musiktheaters Bereich I - 120 ECTS-Punkte   | Musikwissenschaft und Geschichte des Musiktheaters Bereich I - 120 ECTS-Punkte   |
+|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Modul                                                                            | Bezeichnung                                                                      | ECTS                                                                             |
+| Modul 1                                                                          | Theorien und Methoden                                                            | 15                                                                               |
+| Modul 2                                                                          | Westliche Musik 1                                                                | 18                                                                               |
+| Modul 3                                                                          | Westliche Musik 2                                                                | 18                                                                               |
+| Modul 4                                                                          | Analyse des Repertoires                                                          | 12                                                                               |
+| Modul 5                                                                          | Spezifische Kompetenzen                                                          | 18                                                                               |
+| Modul 6                                                                          | Vertiefung 1                                                                     | 12                                                                               |
+| Modul 7                                                                          | Vertiefung 2                                                                     | 12                                                                               |
+| Modul 8                                                                          | Soft Skills                                                                      | 15                                                                               |
+
+## 7. Beschreibung der Module
+
+|    | Modul 1: Theorien und Methoden             |   15 ECTS |
+|----|--------------------------------------------|-----------|
+| Ü  | Methodik musikwissenschaftlicher Forschung |         3 |
+| Ü  | Einführung in die Tonsprache               |         3 |
+| Ü  | Musikwissenschaftliche Kommunikation       |         3 |
+| Ü  | Musikedition                               |         6 |
+
+Das Modul 1 besteht aus Unterrichtseinheiten, die grundlegende Kenntnisse für das Studium der Disziplin sowie spezifische Methoden vermitteln.
+
+Die Unterrichtseinheit Methodik musikwissenschaftlicher Forschung ist  eine  Einführung in die Hilfsmittel des Fachs; in die verschiedenen Enzyklopädien, Serien, Fachzeitschriften und Datenbanken der Musikwissenschaft. Durch wöchentliche Übungen werden die Studierenden darauf vorbereitet, selbständig zu Sekundärliteratur und geeigneten  Quellen einer  spezifischen  Problematik  zu  recherchieren.  Darüber  hinaus  wird  ein  allgemeiner Überblick über Ziele und unterschiedliche Ansätze der Musikwissenschaft gegeben, um den Studierenden zu ermöglichen, sich der Disziplin aus einer kritischen Perspektive zu nähern.
+
+Die Unterrichtseinheit Einführung in die Tonsprache gibt den Studierenden einen Überblick über die Tonalität (Tonleitern, Modulationen, Kadenzen, etc.). Sie bietet die grundlegenden Hilfsmittel, um Musikstücke dieser tonalen Sprache zu analysieren.
+
+Musikwissenschaftliche  Kommunikation führt  in  die  unterschiedlichen  Herausforderungen ein,  die  mit  verschiedenen  Arten  der  akademischen  Kommunikation,  darunter  mündliche Vorträge und schriftliche Arbeiten, und der populärwissenschaftlichen Vermittlung verbunden  sind. Ziel ist es, Schreib-, Argumentationsund Synthesefähigkeiten in unterschiedlichen musikwissenschaftlichen Kontexten zu entwickeln.
+
+Musikedition führt in die Geschichte, die Methoden und die Herausforderungen von kritischer Musikedition  ein.  Es  werden  Übungen  zur  Bearbeitung  von  Quellen  aus  verschiedenen historischen  Perioden,  zur  Transkription  eines  musikalischen  Textes  und  zum  Verfassen eines kritischen Berichts angeboten. Der Kurs bietet auch eine Einführung in die Nutzung eines von der Fakultät anerkannten Musiknotationsprogramms.
+
+Methodik musikwissenschaftlicher Forschung und Einführung in die Tonsprache müssen im ersten Studienjahr besucht werden.
+
+|    | Modul 2: Westliche Musik 1    |   18 ECTS |
+|----|-------------------------------|-----------|
+| VO | Musikgeschichte 1 (>1500)     |         3 |
+| VO | Musikgeschichte 2 (1500-1650) |         3 |
+| VO | Musikgeschichte 3 (1650-1780) |         6 |
+| VO | Musikgeschichte 4 (1780-1830) |         6 |
+
+Das Modul 2 besteht aus Unterrichtseinheiten zum Erwerb von Grundlagenkenntnissen zur Entwicklung, dem Repertoire und den kulturellen Kontexten westlicher Musik vom Mittelalter bis  zum  frühen  19.  Jahrhundert.  Neben  der  Bibliografie  verlangen  die  Kurse  à  6  ECTSPunkten das Erkennen eines Repertoires repräsentativer Werke durch Hören und das Lesen der Partitur.
+
+|    | Modul 3: Westliche Musik 2                 |   18 ECTS |
+|----|--------------------------------------------|-----------|
+| VO | Musikgeschichte 5 (1830-1890)              |         6 |
+| VO | Musikgeschichte 6 (1890-1960)              |         6 |
+| VO | Musikgeschichte 7 (1960 bis zur Gegenwart) |         6 |
+
+Das Modul 3 besteht aus Unterrichtseinheiten zum Erwerb von Grundlagenkenntnissen zur Entwicklung, dem Repertoire und den kulturellen Kontexten westlicher Musik vom frühen 19. Jahrhundert bis zur Gegenwart. Neben der Bibliografie verlangen die Kurse das Erkennen eines Repertoires repräsentativer Werke durch Hören und das Lesen der Partitur.
+
+|    | Modul 4: Analyse des Repertoires - 2 Seminare nach Wahl*   |   12 ECTS |
+|----|------------------------------------------------------------|-----------|
+| SE | Analyse 1 (>1600)                                          |         6 |
+| SE | Analyse 2 (1600-1780)                                      |         6 |
+| SE | Analyse 3 (1780-1914)                                      |         6 |
+| SE | Analyse 4 (1914 bis zur Gegenwart)                         |         6 |
+
+Die Unterrichtseinheiten des Moduls 4 bieten die Aneignung grundlegender Kenntnisse von musikwissenschaftlichen Analysetechniken und den Erwerb von Fähigkeiten zur Vermittlung musikbezogener Inhalte.
+
+* Nur zwei der vier Seminare müssen besucht werden. Alle Optionen sind möglich, ausser die Kombination Analyse 2 (1600-1780) und Analyse 3 (1780-1914).
+
+Es wird empfohlen, die Seminare parallel zu den Vorlesungen in Musikgeschichte im selben Zeitraum zu besuchen:
+
+Analyse 1 (&gt;1600) wird im selben akademischen Jahr wie Musikgeschichte 1 (&gt;1500) und Musikgeschichte 2 (1500-1650) in Modul 2 angeboten.
+
+Analyse 2 (1600-1780) wird  im  selben akademischen Jahr wie Musikgeschichte 3 (1650-
+
+1780) und Musikgeschichte 4 (1780-1830) in Modul 2 angeboten.
+
+Analyse 3 (1780-1914) wird  im  selben akademischen Jahr wie Musikgeschichte 5 (18301890) und Musikgeschichte 6 (1890-1960) in Modul 3 angeboten.
+
+Analyse 4 (1914 bis zur Gegenwart) wird im selben akademischen Jahr wie Musikgeschichte 7 (1960 bis zur Gegenwart) in Modul 3 angeboten.
+
+|    | Modul 5: Spezifische Kompetenzen                   |   18 ECTS |
+|----|----------------------------------------------------|-----------|
+| VO | Geschichte der frühen Notenschrift                 |         3 |
+| VO | Musikästhetik                                      |         3 |
+| VO | Geschichte und Kritik der musikalischen Aufführung |         3 |
+| VO | Akustik und Instrumentenkunde                      |         3 |
+| VO | Musik in Kinofilmen                                |         3 |
+| VO | Operninszenierung                                  |         3 |
+
+Das  Modul  5  besteht  aus  Unterrichtseinheiten,  in  denen  fachspezifische  Kompetenzen historischer, ästhetischer und systematischer Art vermittelt werden. Ein weiterer Schwerpunkt liegt auf dem Erwerb kritischer Kompetenzen im Bereich der musikalischen Aufführung  und  der  Analyse  der  Beziehungen  zwischen  Musik  und  visuellen  Medien, insbesondere in der Inszenierung von Opern und in der Filmmusik.
+
+Die Unterrichtseinheit Geschichte  der  frühen  Notenschrift bietet einen Überblick über die verschiedenen Notenschriften vor dem 17. Jahrhundert (Neumen- und Modalnotation, ars nova , Trecento ,  schwarze  und  weisse  Mensuralnotation,  Lauten-  und  Tastentabulaturen usw.). Die Studierenden eignen sich ein diachronisches Wissen über die Entwicklung der Notation und die Grundprinzipien des Funktionierens der verschiedenen Notationssysteme an.
+
+Musikästhetik bietet einen historischen Überblick über das philosophische Denken rund um die Musik. Der Kurs ermöglicht, sich mit den verschiedenen Auffassungen von Musik und ihrem Platz in den Künsten auseinanderzusetzen und sich der Rolle bewusst zu werden, die die Musik in verschiedenen philosophischen Ansätzen gespielt hat.
+
+Die  Unterrichtseinheit Geschichte  und  Kritik  der  musikalischen  Aufführung bietet  einen Überblick  über  die  Herausforderungen der musikalischen  Aufführungspraxis  sowie  deren Geschichte. Sie befasst sich auch mit der Musikkritik und deren Herausforderungen.
+
+Die  Unterrichtseinheit Akustik  und  Instrumentenkunde legt  auf  zusammenfassende,  aber vollständige Weise die Hauptmerkmale der wichtigsten Instrumentenfamilien der westlichen Tradition vom Mittelalter bis heute dar und stellt die Grundlagen ihrer Spieltechnik und ihrer spezifischen Notation (verwendete Schlüssel, Register, transponierende Instrumente usw.) vor.
+
+Die Unterrichtseinheit Musik in Kinofilmen führt die Studierenden in die Analyse der Rollen und Funktionen von Musik in Filmen ein. Die Studierenden erwerben geeignete Mittel für die kritische Analyse und Bewertung von Musik in Kinofilmen.
+
+Die Unterrichtseinheit Operninszenierung ist  eine  Einführung  in  die  Fragestellungen  zur Operninszenierung. Die Studierenden lernen, vergangene und gegenwärtige Operninszenierungen kritisch zu analysieren und zu bewerten. Ziel ist es, Fähigkeiten zur argumentativen Kritik von Opernaufführungen zu entwickeln.
+
+|    | Modul 6: Vertiefung 1   |   12 ECTS |
+|----|-------------------------|-----------|
+| VO | Musik in der Schweiz    |         3 |
+| VO | Thematische Vorlesung   |         3 |
+| VO | Thematische Vorlesung   |         3 |
+| VO | Thematische Vorlesung   |         3 |
+
+Ziel der Unterrichtseinheiten des Moduls 6 ist es, die Studierenden mit den verschiedenen angewendeten Praktiken, wissenschaftlichen Methoden und Arbeitstechniken für die Studie von spezifischen und verschiedenen Themen der Musikwissenschaft vertraut zu machen. Die Inhalte der thematischen Kurse befassen sich in erster Linie mit der Musik westlicher Traditionen, während die des Kurses Musik in der Schweiz genauer auf die schweizerische Musikproduktion eingehen.
+
+|    | Modul 7: Vertiefung 2                                                                                                                                                                                                                                                                    |   12 ECTS |
+|----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| VO | Thematische Vorlesung                                                                                                                                                                                                                                                                    |         3 |
+| VO | Thematische Vorlesung                                                                                                                                                                                                                                                                    |         3 |
+| VO | Thematische Vorlesung                                                                                                                                                                                                                                                                    |         3 |
+| VO | Thematischer Kurs oder äquivalenter Kurs, der von einem anderen Departement der Philosophischen Fakultät angeboten wird, zur freien Wahl (Geschichte, Philosophie, Literatur, Kunstgeschichte und Archäologie, Klassische Philologie, Europastudien und Slavistik, Sozialwissenschaften) |         3 |
+
+Ziel  der  Unterrichtseinheiten  des  Moduls  7  ist,  die  Studierenden  mit  den  verschiedenen angewendeten Praktiken, wissenschaftlichen Methoden und Arbeitstechniken für die Studie von spezifischen und verschiedenen Themen der Musikwissenschaft vertraut zu machen. Die Inhalte der thematischen Kurse befassen sich in erster Linie mit der Musik westlicher Traditionen.
+
+| Modul 8: Soft Skills   | 15 ECTS   |
+|------------------------|-----------|
+
+Ziel des Moduls 8 ist der Erwerb von übergreifenden und ergänzenden Kompetenzen (Soft Skills),  die  für  die  Ausbildung  in  Musikwissenschaft  relevant  sind,  oder  die  Vertiefung  in Kompetenzen der Musikpraxis.
+
+Höchstens 3 ECTS-Punkte können in Fremdsprachen absolviert werden.
+
+Höchstens 6 ECTS-Punkte können im Bereich der praktischen Musik an einer anerkannten Lehrinstitution  (Musikhochschule,  Konservatorium)  absolviert  werden.  Ein  gegenseitiges Abkommen zwischen der Universität Freiburg und der Stiftung der Haute École de Musique Vaud Valais Fribourg bietet den Studierenden des Departements für Musikwissenschaft ein Lehrangebot.
+
+Zu Beginn jedes Semesters stellt das Departement für Musikwissenschaft eine Liste von Unterrichtseinheiten zur Verfügung, die als Soft Skills gewählt werden können. Auf seiner
+
+Website wird zudem zu Beginn jedes akademischen Jahres eine Liste der von der Haute École de Musique Vaud Valais Fribourg angebotenen Kurse aufgeschaltet. Die Lehrveranstaltungen werden  nach den Anforderungen des Departements oder der Institution, die sie anbietet, bewertet.
+
+## 8. Prüfungsmodalitäten
+
+## 8.1 Allgemeine Prüfungsmodalitäten
+
+Pro  akademisches  Jahr  finden  drei  Prüfungssessionen  statt  (Winter-,  Sommer-  und Herbstsession).
+
+Die Studierenden müssen sich unter Beachtung der bestimmten Fristen über das InternetPortal einschreiben. Eine Anmeldung zu einer Prüfung kann bis zu sieben Tage vor Beginn der Prüfungssession annulliert werden. Nach Ablauf dieser Frist ist die Anmeldung endgültig, ausser in Fällen höherer Gewalt. Studierende, die aus Gründen höherer Gewalt nicht an einer  Prüfung  erscheinen  können,  müssen  den/die  Studienprogrammverantwortliche/n  in diesem Fall möglichst schnell schriftlich darüber informieren. Sollte dies zu diesem Zeitpunkt nicht möglich sein, so muss es spätestens sieben Tage nach dem Prüfungsdatum erfolgen ( Reglement vom 8. März 2018 ;  Art.  19,  Abs.  1).  Das  unentschuldigte Nichterscheinen zu einer Evaluation, für die der/die Studierende eingeschrieben ist, wird als Misserfolg gewertet.
+
+Im  Fall  von  erwiesenen  zeitlichen  Überschneidungen  von  zwei  Prüfungsterminen  muss die/der  Studierende  die/den  Studienprogrammverantwortliche/n  so  rasch  wie  möglich, spätestens  aber  eine  Woche  vor  der  Prüfung  informieren.  In  diesem  Fall  wird  die Prüfungseinschreibung annulliert und die/der Studierende darf eine zusätzliche Prüfungssession nur für die entsprechende Unterrichtseinheit beanspruchen. In der Regel darf die zeitliche Überschneidung nur einmal als Grund für die Annullierung einer bestimmten Prüfungseinschreibung verwendet werden. Falls die/der Studierende die/den Studienprogrammverantwortliche/n nicht rechtzeitig informiert, wird die Prüfung als Misserfolg betrachtet.
+
+Die/der  Studierende  muss  die  Prüfung  der  Unterrichtseinheit,  in  welcher  sie  oder  er eingeschrieben ist, spätestens in der vierten Session ablegen, die auf die Einschreibung in diese Unterrichtseinheit folgt. Das Nichtbefolgen dieser Regel (einschliesslich der Nichtanmeldung zu einer Evaluierung innerhalb eines Zeitraums von vier Sessionen) oder ein Nichtbestehen dieser Session bringt einen endgültigen Misserfolg in dieser Unterrichtseinheit mit sich.
+
+Alle Lehrveranstaltungen werden bewertet, benotet und im Moduldurchschnitt berücksichtigt. Ungenügende Noten können nicht ausgeglichen werden. Die für die benoteten Prüfungen berücksichtigte Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten 6 bis 4 werden für bestandene Prüfungen vergeben, die Noten unterhalb von 4 für nicht bestandene Prüfungen. Eine nicht bestandene Prüfung kann einmal wiederholt werden. Falls die/der Studierende den zweiten Versuch nicht besteht, gilt diese Unterrichtseinheit als definitiv nicht bestanden und bei gewissen Unterrichtseinheiten (siehe 8.3) bedeutet dies ein endgültiges Nichtbestehen im Studienprogramm.
+
+Die  Lehreinheiten  werden  anhand  von  Prüfungen  unterschiedlicher  Art  bewertet,  die nachfolgend aufgeführt sind:
+
+| Schriftliche Prüfung:   | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       | Einführung in die Tonsprache       |
+|-------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+|                         | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift | Geschichte der frühen Notenschrift |
+|                         | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          | Musikgeschichte 1 (>1500)          |
+|                         | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      | Musikgeschichte 2 (1500-1650)      |
+|                         | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      | Musikgeschichte 3 (1650-1780)      |
+|                         | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      | Musikgeschichte 4 (1780-1830)      |
+|                         | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      | Musikgeschichte 5 (1830-1890)      |
+|                         | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      | 6 (1890-1960)                      |
+|                         | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    | Musikgeschichte                    |
+
+Unterrichtsbeteiligung, mündliches Referat und schriftliche Arbeit:
+
+Schriftliche Arbeit:
+
+## Fortlaufende Bewertung:
+
+Musikgeschichte 7 (1960 bis zur Gegenwart)
+
+Die  Lehrperson  hat  allerdings  die  Möglichkeit,  eine mündliche  Prüfung  durchzuführen;  in  diesem  Fall informiert  sie  die  Studierenden  so  früh  wie  möglich und  sicherlich  vor  dem  Abmeldungstermin  für  die Unterrichtseinheiten.
+
+Schriftliche oder mündliche Prüfung:  Musikästhetik
+
+Akustik und Instrumentenkunde Thematische Vorlesung Musik in der Schweiz
+
+Analyse 1 (&gt;1600) Analyse 2 (1600-1780) Analyse 3 (1780-1914) Analyse 4 (1914 bis zur Gegenwart)
+
+Die  Anwesenheit  in  den  Seminaren  und  eine  aktive Beteiligung  sind  von  wesentlicher  Bedeutung.  Eine Anwesenheit von weniger als der Hälfte der Sitzungen bedeutet  ein  Nichtbestehen,  das  durch  spezifische Anforderungen  kompensiert  werden  kann,  über  die der/die Dozent/in entscheidet.
+
+Wenn  das mündliche Referat aufgrund höherer Gewalt verhindert wird, wird eine Kompensationsleistung verlangt.
+
+Bei  einer  ungenügenden  schriftlichen  Arbeit  muss der/die Studierende eine korrigierte und verbesserte Version innerhalb einer von der Lehrperson festgelegten Frist einreichen.
+
+Die Anzahl der zur Verfügung stehenden Plätze wird von der Lehrperson festgelegt und über eine Anmeldeliste verwaltet.
+
+Geschichte und Kritik der musikalischen Aufführung Musik in Kinofilmen Operninszenierung
+
+Die Arbeitsmodalitäten (Thema, Umfang, Abgabetermin  usw.)  werden  von  der  Lehrperson  zu Beginn jedes Kurses festgelegt.
+
+Bei  einer  ungenügenden  schriftlichen  Arbeit  muss der/die Studierende eine korrigierte und verbesserte Version innerhalb einer von der Lehrperson festgelegten Frist einreichen.
+
+Methodik musikwissenschaftlicher Forschung Musikwissenschaftliche Kommunikation
+
+Die Modalitäten der fortlaufenden Bewertung (Übungen, schriftliche Arbeiten, mündliche Referate, aktive Teilnahme an den Sitzungen usw.) werden von der  Lehrperson  zu  Beginn  jedes  Kurses  bekannt
+
+gegeben.
+
+Fortlaufende Bewertung und schriftliche Arbeit:
+
+Musikedition
+
+Die Bewertung der Soft Skills werden von den Departementen oder Fakultäten übernommen, die die betreffenden Unterrichtseinheiten anbieten. Ebenso werden Unterrichtseinheiten, die im Rahmen des BENEFRI-Netzwerkes an den Universitäten Bern oder Neuchâtel und an den  Musikausbildungsinstitutionen  absolviert  werden,  gemäss  den  Anforderungen  der betreffenden Institution geprüft.
+
+## 8.2 Prüfung am Ende des ersten Jahres
+
+Die  Prüfung  am  Ende  des  ersten  Jahres  besteht  im  erfolgreichen  Abschluss  der  Kurse Methodik musikwissenschaftlicher Forschung und Einführung in die Tonsprache . Sie muss vor  Beginn  des  fünften  Studiensemesters  bestanden  werden. Die Nichteinhaltung dieser Frist bedeutet einen endgültigen Misserfolg. Es ist in diesem Fall nicht mehr möglich, das Studium in diesem Programm sowie in den anderen Studienprogrammen des Departements für Musikwissenschaft fortzusetzen.
+
+## 8.3 Definitiver Misserfolg
+
+Ein  definitiver  Misserfolg  in  den  unten  aufgeführten  Unterrichtseinheiten  führt  zu  einem Ausschluss vom gesamten Studienprogramm.
+
+Methodik musikwissenschaftlicher Forschung
+
+Einführung in die Tonsprache
+
+Musikgeschichte 1 (&gt;1500)
+
+Musikgeschichte 2 (1500-1650)
+
+Musikgeschichte 3 (1650-1780)
+
+Musikgeschichte 4 (1780-1830)
+
+Musikgeschichte 5 (1830-1890)
+
+Musikgeschichte 6 (1890-1960)
+
+Musikgeschichte 7 (1960 bis zur Gegenwart)
+
+Auch die Überschreitung der maximalen Studiendauer (18 Semester) führt zum endgültigen Misserfolg im Studienprogramm.
+
+Im  Falle  eines  endgültigen  Misserfolgs  im  Studienprogramm  ist  es  nicht  mehr  möglich,  das Studium in diesem oder in anderen Studienprogrammen des Departements für Musikwissenschaft fortzusetzen.
+
+Ein  definitiver  Misserfolg  in  allen  anderen  Unterrichtseinheiten  führt  zu  einem  definitiven Misserfolg in dieser Einheit, jedoch nicht im gesamten Studienprogramm. Die Validierung erfolgt durch den Besuch einer gleichwertigen Unterrichtseinheit.
+
+## 8.4 Gesamtnote
+
+Alle Lehrveranstaltungen werden bewertet, benotet und für den Durchschnitt ihres jeweiligen Moduls berücksichtigt. Ungenügende Noten können nicht ausgeglichen werden. Die einzige Ausnahme ist die Validierung von musikalischen Kompetenzen, die in einer Institution für praktische  Musikausbildung  erworben  wurden,  die  keine  Noten  vorsieht (Modul 8). Diese Leistung wird nicht benotet und daher im Moduldurchschnitt nicht berücksichtigt.
+
+Die Note eines Moduls ergibt sich aus dem Durchschnitt der Unterrichtseinheiten, aus denen es sich zusammensetzt. Alle Module werden bei  der  Berechnung  der  Gesamtnote  gleich gewichtet.
+
+## 9. Inkrafttreten und Übergangsbestimmungen
+
+Der neue Studienplan tritt im Herbstsemester 2025 in Kraft.
+
+Es ist möglich, von einem alten Studienplan zu diesem neuen Studienplan zu wechseln. Die Studierenden, die dies wünschen, müssen sich an eine/n Studienberater/in wenden. Dieses Verfahren  erfolgt  auf  der  Grundlage  einer  Überprüfung  der  bereits  absolvierten  und validierten Resultate des/der Studierenden, wobei jeder Antrag individuell bearbeitet wird.
+
+Ab dem Herbstsemester 2027 gilt dieser Studienplan für alle Studierenden.
+
+## Anhang: Indikative Zuordnung der Unterrichtseinheiten
+
+Die folgende Liste bietet einen Überblick über die Verteilung der Unterrichtseinheiten auf die verschiedenen  Jahre,  die  bei  der  Organisation  und  dem  Ablauf  des  Studiums  zu berücksichtigen  sind.  Diese  Rotation  kann  sich  ändern  (z.  B.  aufgrund  von  Urlaub  der Dozent/innen). In diesem Fall sorgt das Departement für Musikwissenschaft für Alternativen, um den Studienverlauf der Studierenden nicht zu beeinträchtigen.
+
+| Unterrichtseinheiten, die in jedem akademischen Jahr angeboten werden                                                                                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Methodik musikwissenschaftlicher Forschung Einführung in die Tonsprache Thematische Vorlesungen                                                                                                                                                                                                            |
+| Unterrichtseinheiten in akademischen Jahren beginnend im Herbstsemester eines ungeraden Jahres                                                                                                                                                                                                             |
+| Musikwissenschaftliche Kommunikation Musikgeschichte 1 (>1500) Musikgeschichte 2 (1500-1650) Musikgeschichte 5 (1830-1890) Musikgeschichte 6 (1890-1960) Analyse 1 (>1600) Analyse 3 (1780-1914) Geschichte der frühen Notenschrift Geschichte und Kritik der musikalischen Aufführung Musik in Kinofilmen |
+| Unterrichtseinheiten in akademischen Jahren beginnend im Herbstsemester eines geraden Jahres                                                                                                                                                                                                               |
+| Musikedition Musikgeschichte 3 (1650-1780) Musikgeschichte 4 (1780-1830) Musikgeschichte 7 (1960 bis zur Gegenwart) Analyse 2 (1600-1780) Analyse 4 (1914 bis zur Gegenwart) Musikästhetik Akustik und Instrumentenkunde Operninszenierung Musik in der Schweiz                                            |

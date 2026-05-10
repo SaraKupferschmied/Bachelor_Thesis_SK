@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.662Z",
+  "title": "Recueil systématique 511.620 Systematische Sammlung 1",
+  "pages": 2,
+  "reg_doc_key": "659b5bcdc6bd19d9ae1bb717c3421ab53e1fed14",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Convention entre : l’Université de Fribourg et le Kolegium Filozoficzno-Teologiczno oo. Dominikanow (Collegium philosophicum & theologicum des Dominicains de Krakow-Pologne) (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277257",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277257",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_entre_l_Universit_de_Fribourg_et_le_Kolegium_Filozoficzno-Teologiczno_oo._Dominikanow_Collegium_philosophicum_theologicum_des_Dominicains_de_Krakow-P",
+  "sha256": "65ab8859377795bf34e6bea559bfe580256b5e53eea16f8c295870741700ab0f",
+  "fetched_at": "2026-04-03T12:10:43.888Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.620 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.620 Systematische Sammlung 2

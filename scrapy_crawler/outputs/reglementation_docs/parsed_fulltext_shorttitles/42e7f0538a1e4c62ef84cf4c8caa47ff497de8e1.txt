@@ -1,0 +1,40 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.244Z",
+  "title": "Vereinbarung vom 31.05.2021 betreffend das «Leonardo Mathematik-Programm» (FR/DE)",
+  "pages": 8,
+  "reg_doc_key": "42e7f0538a1e4c62ef84cf4c8caa47ff497de8e1",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung vom 31.05.2021 betreffend das «Leonardo Mathematik-Programm» (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/2100339",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/2100339",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_vom_31.05.2021_betreffend_das_Leonardo_Mathematik-Programm_FR_DE__42e7f0538a.pdf",
+  "sha256": "43097894ca2430d3a43046aef8a500b569fb7246047c1a3c7cc35182c87e9e96",
+  "fetched_at": "2026-04-03T12:11:09.373Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+
+
+---PAGE 5---
+
+
+---PAGE 6---
+
+
+---PAGE 7---
+
+
+---PAGE 8---
+

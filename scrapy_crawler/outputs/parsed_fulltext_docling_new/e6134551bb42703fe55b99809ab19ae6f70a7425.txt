@@ -1,0 +1,189 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:35:02.656Z",
+  "title": "UNK_Bachelor_60_Economic_and_Legal_Studies_Brochure_e6134551bb42703fe55b99809ab19ae6f70a7425",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e6134551bb42703fe55b99809ab19ae6f70a7425",
+  "program_key": "|bachelor|60|economic and legal studies",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Economic and Legal Studies",
+  "doc_label": "Brochure",
+  "source_url": "https://fr.calameo.com/read/00365911553f9e8695053",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/ecoius",
+  "curriculum_url": "http://studies.unifr.ch/go/zhkE3",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_60_Economic_and_Legal_Studies_Brochure_e6134551bb42703fe55b99809ab19ae6f70a7425.pdf",
+  "sha256": "7bee8d7b3bb295ec453898702ce19c2c0b941c0baf6ac8423d771045c102ca56",
+  "fetched_at": "2026-04-03T11:31:42.331Z",
+  "notes": "calameo downloaded (id=00365911553f9e8695053, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226093943-0a0bedbb07e19372993f8d59eda4c7d5/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T113140Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=36038f1c97bcd9fbb7f96d0b629440eb8dc9fab9766c21e2c8345c72df535ae8, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Bachelor of Arts Études économiques et juridiques
+
+## Les atouts du programme
+
+Un Bachelor unique en Suisse, alliant management, économie et droit dans une approche interdisciplinaire et bilingue (français et/ou allemand). La formation est fondée sur la recherche, interactive et orientée pratique,
+
+<!-- image -->
+
+avec encadrement personnalisé et flexibilité dans le choix des cours. Elle prépare à des carrières variées dans le privé, le public ou les organisations internationales et ouvre l'accès direct à plusieurs Master.
+
+## Mobilité
+
+Enrichissez votre parcours académique en partant un ou deux semestres à l'étranger ! Vivez une aventure unique qui élargit vos horizons, développe votre réseau international et valorise votre CV - tout en bénéficiant de la reconnaissance des crédits obtenus.
+
+Semestre conseillé : automne de la 3 e  année Mention Mobilité : dès 30 ECTS validés
+
+<!-- image -->
+
+/comment
+
+## LANGUES D'ÉTUDES
+
+La majorité des cours est dédoublée en français et en allemand. La mention «Études bilingues» est décernée si 40 % des ECTS (FR+DE) sont obtenus dans la seconde langue. L'anglais est déduit des ECTS pris en compte.
+
+## Plan d'études - Management et n Économie
+
+A compléter par la branche en Droit
+
+<!-- image -->
+
+## INFOS EN PLUS
+
+/info-circle
+
+Possibilité de valider tout cours de
+
+3 e année pour arriver
+
+à min. 60 ECTS durant la 1
+
+e
+
+année.
+
+(Par exemple les cours obligatoires marqués
+
+d'un
+
+/info-circle car ils sont
+
+compatibles avec l'horaire de 1
+
+e  année).
+
+Les cours à choix (management et/ou économie politique) peuvent être sélectionnés selon les objectifs de Master ou les orientations professionnelles visées.
+
+<!-- image -->
+
+<!-- image -->
+
+## Branche en Droit
+
+Recommandation : valider la branche en 2 e  année
+
+<!-- image -->
+
+Total pour valider la branche en Droit
+
+60
+
+<!-- image -->
+
+<!-- image -->
+
+## ACCÈS AU MASTER
+
+Ce Bachelor donne accès direct au Master en économie politique.
+
+Pour avoir accès direct aux Master en management et in International and European Business,
+
+## INFOS EN PLUS
+
+Afin que les cours choisis (cours et exercices) ne se chevauchent pas et qu'ils puissent tous être suivis au cours de la même année, il est recommandé de choisir l'une de ces deux variantes. Chaque variante peut être adaptée en fonction des intérêts personnels, en combinant d'autres cours de l'offre du programme de Bachelor of Law. En cas de question, contacter le décanat de droit.
+
+sélectionner au minimum 15 ECTS parmi les cours à choix en gestion d'entreprise. Des cours spécifiques sont à prendre pour un accès direct aux Master profilés in Accounting and Finance ou en marketing.
+
+## Information examens et conditions de réussite
+
+Ce Bachelor doit s'effectuer conformément aux règlements (RegOrg et RegBA) de la Faculté des sciences économiques et sociales et du management. La branche obligatoire en Droit à 60 ECTS est à compléter conformément au règlement en vigueur de la Faculté de droit pour les étudiantes et étudiants ayant le droit comme branche secondaire. Les informations ci-dessous ont valeur indicative. Seules les informations mentionnées dans les règlements, sites internet respectifs et e-mails font foi.
+
+## Examens à la Faculté des SES
+
+- /arrow-right Se référer au calendrier des sessions d'examens : indications des dates et délais d'inscriptions et de paiements pour chaque session, des publications des résultats, etc.
+- /arrow-right L'inscription aux cours se fait au début du semestre via MyUnifr (www.myunifr.ch) et vaut pour l'inscription aux examens du semestre.
+- /arrow-right En cas d'échec, l'examen peut être répété 1 fois (2 essais). C'est le 2 e essai qui compte.
+
+## Examens à la Faculté de droit
+
+- /arrow-right Se référer aux informations du site web de la Faculté de droit sous 'Etudes'.
+- /arrow-right Les cours de Bachelor de la Faculté de droit sont en principe des cours annuels.
+- /arrow-right L'inscription aux cours et aux examens est ouverte selon les dates d'inscription publiées sur le site web de la Faculté de droit. Elle se fait via MyUnifr (www.myunifr.ch).
+- /arrow-right En cas d'échec, l'examen peut être répété 2 fois (3 essais).
+- /arrow-right Les informations concernant les conditions d'accès à la session de rattrapage se trouvent sur le site web de la Faculté de droit. Les étudiantes et étudiants qui, une fois le délai de retrait expiré, retirent leur inscription à la 2 e session d'examens seront admis à la session de rattrapage uniquement si un motif majeur justifie ce retrait.
+- /arrow-right Pour toute question concernant l'organisation des examens en droit, veuillez écrire exclusivement à l'adresse ius-examens@unifr.ch.
+
+<!-- image -->
+
+## Témoignage
+
+<!-- image -->
+
+Diego Loretan
+
+Ce Bachelor m'a offert une solide formation économique tout en me permettant de comprendre le cadre légal et institutionnel. Ces deux perspectives m'ont beaucoup aidé, tant dans mes études que dans mes expériences professionnelles. La qualité de l'enseignement, le bilinguisme et le caractère convivial du programme favorisent son succès.
+
+## Débouchés professionnels
+
+Ce Bachelor ouvre des carrières dans des PME, multinationales, administrations et ONG, à des postes de manager, consultant ou analyste. Les bases en droit donnent les atouts pour comprendre les enjeux juridiques qui se posent au monde économique. Les associations professionnelles et syndicales sont également des choix très prisés. La formation interdisciplinaire (managementéconomie-droit) confère aux diplômées et diplômés un profil unique.
+
+<!-- image -->
+
+<!-- image -->
+
+## CONSEIL AUX ÉTUDES ET INFORMATIONS
+
+Faculté des sciences économiques et sociales et du management
+
+Bd de Pérolles 90 CH-1700 Fribourg
+
+/phone
+
+<!-- image -->
+
+<!-- image -->
+
+at
+
+<!-- image -->
+
+/paper-plane
+
++41 (0) 26 300 82 00
+
+decanat-ses@unifr.ch www.unifr.ch/ses
+
+Février 2026
+
+<!-- image -->
+
+## INSCRIPTION
+
+<!-- image -->

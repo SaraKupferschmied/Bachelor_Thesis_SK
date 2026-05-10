@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:14.437Z",
+  "title": "Statuts de l’Association des Amis de l’Université de Fribourg (FR)",
+  "pages": 4,
+  "reg_doc_key": "27d1f790a3b18091c325663b40d9b9684cf632cb",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 300 Dienstleistungen und Verwaltung > 300.360 Alumni",
+  "spider_title": "Statuts de l’Association des Amis de l’Université de Fribourg (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/279949",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/279949",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Statuts_de_l_Association_des_Amis_de_l_Universit_de_Fribourg_FR__27d1f790a3.pdf",
+  "sha256": "aa18327a873fcee944cd20766eb8aec710174f7c4a53655944825db34db82502",
+  "fetched_at": "2026-04-03T12:12:00.211Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+

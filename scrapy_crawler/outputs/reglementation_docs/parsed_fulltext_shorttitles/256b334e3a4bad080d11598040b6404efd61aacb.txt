@@ -1,0 +1,52 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:41.522Z",
+  "title": "Recueil systématique 442.540 Systematische Sammlung 1",
+  "pages": 12,
+  "reg_doc_key": "256b334e3a4bad080d11598040b6404efd61aacb",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.440 Philosophische Fakultät > 400.440.442 Weiterbildung",
+  "spider_title": "Convention de programme Maîtrise d’études avancées (MAS) en sciences de l’éducation, non daté (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/276320",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/276320",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Convention_de_programme_Ma_trise_d_tudes_avanc_es_MAS_en_sciences_de_l_ducation_non_dat_FR__256b334e3a.pdf",
+  "sha256": "1d45d95229156129a4827582b3f158c891999ed4e350f01634206d4909d0ff21",
+  "fetched_at": "2026-04-03T12:11:42.281Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 442.540 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 442.540 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 442.540 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 442.540 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 442.540 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 442.540 Systematische Sammlung 6
+
+---PAGE 7---
+Recueil systématique 442.540 Systematische Sammlung 7
+
+---PAGE 8---
+Recueil systématique 442.540 Systematische Sammlung 8
+
+---PAGE 9---
+Recueil systématique 442.540 Systematische Sammlung 9
+
+---PAGE 10---
+Recueil systématique 442.540 Systematische Sammlung 10
+
+---PAGE 11---
+Recueil systématique 442.540 Systematische Sammlung 11
+
+---PAGE 12---
+Recueil systématique 442.540 Systematische Sammlung 12

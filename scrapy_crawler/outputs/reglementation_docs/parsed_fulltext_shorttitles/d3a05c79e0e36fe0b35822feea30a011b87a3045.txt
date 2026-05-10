@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:05.103Z",
+  "title": "Directives concernant le Fonds social de l'Université de Fribourg (FR)",
+  "pages": 2,
+  "reg_doc_key": "d3a05c79e0e36fe0b35822feea30a011b87a3045",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 300 Dienstleistungen und Verwaltung > 300.311 Uni-Social",
+  "spider_title": "Directives concernant le Fonds social de l'Université de Fribourg (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/275210",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/275210",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Directives_concernant_le_Fonds_social_de_l_Universit_de_Fribourg_FR__d3a05c79e0.pdf",
+  "sha256": "41cddf56d855632eee2da956b55ff51976295093624432a1206c1c4bfa74f0e4",
+  "fetched_at": "2026-04-03T12:12:08.270Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+

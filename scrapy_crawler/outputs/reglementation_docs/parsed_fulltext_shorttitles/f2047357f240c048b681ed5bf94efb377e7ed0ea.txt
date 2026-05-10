@@ -1,0 +1,37 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:09.867Z",
+  "title": "Recueil systématique 510.100 Systematische Sammlung 1",
+  "pages": 7,
+  "reg_doc_key": "f2047357f240c048b681ed5bf94efb377e7ed0ea",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Rahmenvereinbarung vom 27. Oktober 2014 des BENEFRI-Netzwerkes (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/4153784",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/4153784",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Rahmenvereinbarung_vom_27._Oktober_2014_des_BENEFRI-Netzwerkes_FR_DE__f2047357f2.pdf",
+  "sha256": "085027861b1c234905861331206172f9376f14ab6e160a7b7a4cbd1a5af6b28e",
+  "fetched_at": "2026-04-03T12:11:15.366Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.100 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.100 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.100 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.100 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 510.100 Systematische Sammlung 5
+
+---PAGE 6---
+1 5 10 .100 Recueil systématique Systematische Sammlung ANNEXE ANHANG Mobilité BENEFRI BENEFRI-Mobilität Archéologie Archäologie Biologie : Ecology and Evolution Biologie: Ecology and Evolution Biologie : Environmental Biology Biologie: Environmental Biology Biologie : Molecular Life and Health Sciences Biologie: Molecular Life and Health Sciences Chimie Chemie Digital Society: études de Master Digital Society: Masterstudium Droit canon et ecclésiastique Kirchen - Staatskirchenrecht Droit : études de Master Recht: Masterstudium Economie Wirtschaftswissenschaften Ethnologie et anthropologie culturelle et sociale Ethnologie und kulturelle und soziale Anthropologie Etude s genres Gender Studies Français langue étrangère Französisch als Fremdsprache Géographie Geografie Histoire Geschichte Histoire de l’Art Kunstgeschichte Islam et Société Islam und Gesellschaft Langues et littératures allemandes Deutsche Sprache und Literatur Langues et littératures anglaises Englische Sprache und Literatur Langues et littératures hispaniques Hispanische Sprache und Literatur Langues et littérature italiennes Italienische Sprache und Literatur Linguistique du français moderne Linguistik des modernen Französisch Littérature française Französische Literatur Mathématiques Mathematik Musicologie Musikwissenschaften Neurosciences Neurowissenschaften Philologie c lassique Klassische Philologie Philosophie Philosophie Sciences biomédicales Biomedizinische Wissenschaften Sciences de la communication Kommunikationswissenschaften Sciences de l’éducation Erziehungswissenschaften Sciences des religions Religionswissenschaften
+
+---PAGE 7---
+2 5 10 .100 Recueil systématique Systematische Sammlung Science politique Politikwissenschaft Slavistique Slavistik Sociolinguistique Soziolinguistik Sociologie : études de Bachelor Soziologie: Bachelorstudium Systèmes naturels Natürliche Systeme Théologie Theologie Programmes d’études conjoints Gemeinsame Studienprogramme Ancient Near Eastern Cultures Relating to Pre - Islamic Palestine/Israel (branche secondaire) Ancient Near Eastern Cultures Relating to Pre - Islamic Palestine/Israel (Nebenfach) Bioinformatics and Computational Biology (BEFRI) Bioinformatics and Computational Biology (BEFRI) Etudes de l'Europe orientale (BEFRI) Osteuropa - Studien (BEFRI) Informatique (BENEFRI) Informatik (BENEFRI) Sciences de la Terre (BEFRI) Erdwissenschaften (BEFRI) Sciences de l’environnement / Développement durable (BEFRI) Umweltwissenschaften / Nachhaltige Entwicklung (BEFRI) État au / Stand am 15.12.2023

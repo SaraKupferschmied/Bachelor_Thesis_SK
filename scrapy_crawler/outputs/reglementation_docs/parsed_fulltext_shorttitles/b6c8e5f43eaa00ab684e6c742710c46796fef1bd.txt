@@ -1,0 +1,43 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:12.155Z",
+  "title": "Recueil systématique 511.600 Systematische Sammlung 1",
+  "pages": 9,
+  "reg_doc_key": "b6c8e5f43eaa00ab684e6c742710c46796fef1bd",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Vereinbarung über den Studierendenaustausch zwischen der Kazaner Staatlichen V.-I..-Uljanov-Lenin Universität (Russische Föderation) und der Universität Freiburg (Schweiz) (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277247",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277247",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_ber_den_Studierendenaustausch_zwischen_der_Kazaner_Staatlichen_V.-I..-Uljanov-Lenin_Universit_t_Russische_F_deration_und_der_Universit_t_Freiburg_S",
+  "sha256": "2649865c726cf7e84542313411ffbdbd6a25c97a76a4871b99a9027deb28205b",
+  "fetched_at": "2026-04-03T12:10:32.001Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.600 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.600 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.600 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 511.600 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 511.600 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 511.600 Systematische Sammlung 6
+
+---PAGE 7---
+Recueil systématique 511.600 Systematische Sammlung 7
+
+---PAGE 8---
+Recueil systématique 511.600 Systematische Sammlung 8
+
+---PAGE 9---
+Recueil systématique 511.600 Systematische Sammlung 9

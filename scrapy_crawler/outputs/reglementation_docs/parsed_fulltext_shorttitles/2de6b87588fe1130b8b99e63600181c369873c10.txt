@@ -1,0 +1,40 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:12.100Z",
+  "title": "Recueil systématique 511.200 Systematische Sammlung 1",
+  "pages": 8,
+  "reg_doc_key": "2de6b87588fe1130b8b99e63600181c369873c10",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Memorandum of understanding between Universiti Sains Malaysia (USM) and University of Fribourg (UNIFR) (EN)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277220",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277220",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Memorandum_of_understanding_between_Universiti_Sains_Malaysia_USM_and_University_of_Fribourg_UNIFR_EN__2de6b87588.pdf",
+  "sha256": "6bc723ee57d822b3333605bde9bb78908826cacaeb21d745d82a8405689e56f2",
+  "fetched_at": "2026-04-03T12:10:44.406Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.200 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.200 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.200 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 511.200 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 511.200 Systematische Sammlung 5
+
+---PAGE 6---
+Recueil systématique 511.200 Systematische Sammlung 6
+
+---PAGE 7---
+Recueil systématique 511.200 Systematische Sammlung 7
+
+---PAGE 8---
+Recueil systématique 511.200 Systematische Sammlung 8

@@ -1,0 +1,25 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:14.918Z",
+  "title": "Statuts du 14.5.1992 du Chœur de l'Université et des Jeunesses musicales de Fribourg (FR)",
+  "pages": 3,
+  "reg_doc_key": "97bba0e242927fa5d49daa91d8ca3957f68d55b5",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 300 Dienstleistungen und Verwaltung > 300.363 Chor und Orchester der Universität",
+  "spider_title": "Statuts du 14.5.1992 du Chœur de l'Université et des Jeunesses musicales de Fribourg (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/280073",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/280073",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Statuts_du_14.5.1992_du_Ch_ur_de_l_Universit_et_des_Jeunesses_musicales_de_Fribourg_FR__97bba0e242.pdf",
+  "sha256": "668f852b618f7617143e11d9077f8b190090dec9b0c9ecc010458d9929e6a6bf",
+  "fetched_at": "2026-04-03T12:12:00.158Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+

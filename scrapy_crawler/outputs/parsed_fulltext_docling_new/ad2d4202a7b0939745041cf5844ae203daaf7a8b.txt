@@ -1,0 +1,298 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T01:20:59.714Z",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Physics_ad2d4202a7b0939745041cf5844ae203daaf7a8b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ad2d4202a7b0939745041cf5844ae203daaf7a8b",
+  "program_key": "|master|120|experimental biomedical research",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Physics",
+  "doc_label": "Master of Science in Physics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2021/Plan_MSc_PH_en.pdf?time=100",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/biomedicalresearch",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Physics_ad2d4202a7b0939745041cf5844ae203daaf7a8b.pdf",
+  "sha256": "f1e9e28ea9ba6b5058680c9435b9b7f42281e961de7a2676a3acf0bf6ded5e47",
+  "fetched_at": "2026-04-03T11:26:44.114Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2021/Plan_MSc_PH_en.pdf?time=100, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_MSc_PH_en.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## CONTENTS
+
+|   1 | GENERAL REMARKS........................................................................................................3                                                                                                                                                                                           |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1 | Academic Titles and Study Programs.............................................................................................. 3                                                                                                                                                                                 |
+| 1.2 | Course Structure ................................................................................................................................ 3                                                                                                                                                                |
+| 1.3 | Acquired Skills.................................................................................................................................... 4                                                                                                                                                              |
+| 1.4 | Course Assessment (UE) and Accreditation of ECTS Credits....................................................... 5                                                                                                                                                                                                  |
+| 1.5 | Teaching Languages.......................................................................................................................... 5                                                                                                                                                                     |
+| 1.6 | Ethics and Science............................................................................................................................. 5                                                                                                                                                                  |
+| 1.7 | Regulations and Additional Information .......................................................................................... 6                                                                                                                                                                                |
+| 2   | BACHELOR OF SCIENCE (BSC).......................................................................................6                                                                                                                                                                                                  |
+| 3   | MASTER OF SCIENCE (MSC) ...........................................................................................6                                                                                                                                                                                               |
+| 3.1 | MSc Course Units ............................................................................................................................... 6                                                                                                                                                                 |
+| 3.2 | Content of the MSc UE....................................................................................................................... 8 3.2.1 Lectures....................................................................................................................................................8 |
+| 3.3 | Exams and Assessment............................................................................................................ 9                                                                                                                                                                                 |
+|     | MSc                                                                                                                                                                                                                                                                                                                |
+| 3.4 |                                                                                                                                                                                                                                                                                                                    |
+|     | Master's Thesis and Exam ................................................................................................................. 9                                                                                                                                                                       |
+| 3.5 | Admission Regulations for the Master Programme........................................................................ 9 3.5.1 Admission Procedure.............................................................................................................................9                                   |
+
+## 1 General Remarks
+
+This curriculum describes all regulations concerning the study of physics at the University of Fribourg. It is based on the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l ' obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force on 6 April 2020 (hereafter called the Regulation for  short).  In  case  of  discrepancies  of  translation,  the  French  version  will  be  considered authoritative.
+
+The Regulation of 6 April 2020 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study programmes (see articles 10, 11a, 12a, 13 and 31) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1  Academic Titles and Study Programs
+
+The Faculty of Science and Medicine of the University of Fribourg awards the following official academic titles to students who have successfully completed their respective course of studies:
+
+- Bachelor of Science in Physics , subsequently called BSc .
+- Master of Science in Physics , subsequently called MSc .
+
+The BSc study program in Physics at the university level provides a basic scientific education in physics including both theoretical and experimental aspects. Its completion opens possibilities in many professional domains and provides a solid basis for life-long  learning,  an  indispensable requirement for professional success. In addition, the BSc in Physics is the basis for advanced studies leading to the MSc in Physics. Anyone in possession of a federal general qualification for university entrance (maturité fédérale / eidgenössisches Maturitätszeugnis ) or a document deemed equivalent (cf. Art. 6 of the Regulation) can be admitted to the BSc Physics degree programme.
+
+The MSc study program in Physics provides the student with more advanced courses, and begins the  process  of  specialization.  Completion  of  the  degree  allows  access  to  various  professional activities in research, education, industry, commerce, and administration. Furthermore, the MSc is  the  entry  requirement for doctoral studies. When accompanied by an additional subject like mathematics,  the  MSc  allows  one  to  enter  a  complementary  education  program  leading  to  a qualification  as  a  high-school  teacher  ( Diplôme  d'enseignement  pour  les  écoles  de  maturité (DEEM) / Lehrdiplom für Maturitätsschulen (LDM) ).
+
+Candidates in possession of a Physics BSc from the University of Fribourg or any other Swiss university are admitted to the Physics MSc (Art. 7 of the Regulation). Candidates in possession of a BSc degree from abroad in a different subject or of equivalent degrees (e.g. a degree from an engineering school) can also be admitted to the MSc study program by a decision of the Faculty of Science and Medicine to be made in each individual case. Provisional admission can be granted and depends on the fulfilment of additional requirements set by the Faculty (cf. Section 3.5 of this document).
+
+## 1.2  Course Structure
+
+The course work leading to both the BSc and MSc degrees is subdivided into formal lectures, exercise classes, laboratory activities, seminars, specialized projects, and so on. These courses are measured in teaching units or ' UE ' (from 'unité d'enseignement' or 'Unterrichtseinheit'). To
+
+each UE, a number of ECTS 1  points is assigned, which, following successful completion of the course (e.g., exams) are converted into ECTS credits (see Section 1.3). The BSc degree course requires 180 ECTS credits (corresponding to six semesters of study), and the MSc degree requires an additional 90 ECTS credits (three semesters).
+
+The purpose of the different UE types is as follows:
+
+- Lectures give a formal introduction to the scientific methods in physics and advance thinking in  a  scientific  way.  They  help  in  acquiring  the  basic  knowledge  and  understanding  the fundamental physics concepts.
+- Exercise classes complement the lectures and provide essential help for the understanding and practical application of a lecture ' s content. Through them, the student will practice and apply the acquired principles and mathematical techniques.
+- Laboratory work ,  be  it  experimental  or  theoretical,  is  the  basis  of  scientific  research.  It provides a controlled environment for the hands-on realization of physical measurements. It is during this work that the student will encounter many of the instruments used in research, how such devices assist in making measurements, and the systematic and statistical limits of precision on the measurements made.
+- Seminar presentations are used to expand the student's knowledge in specialized domains often neglected in the formal courses as well as to begin the development of oral presentation skills for scientific results.
+- Student  projects are  a  first  step  towards  applying  the  skills  learned  in  the  lectures  and exercise classes to real research problems.
+- The preparation of the Master thesis , under the supervision of an experienced researcher, is the actual starting point of scientific research.
+
+The BSc degree course is composed of a major branch made up of 150 ECTS, and a selectable minor branch counting for 30 ECTS. The major branch consists of the compulsory UEs in physics and  mathematics,  and  a  supplementary  science  chosen  from  chemistry,  biology,  or  computer science (locally  known  as the  'propaedeutic branch'). The  UEs of the  minor branch may not overlap  with  those  of  the  major.  Outside  of  that  restriction,  all  other  subjects  taught  at  the University  of  Fribourg  can  potentially  be  selected  as  minors.  Among  the  selective  minors, mathematics is the obvious choice for physicists, although interdisciplinary study with another science is often attractive. If a student wishes to choose a different minor, they must consult with the student advisor in physics to establish a suitable curriculum.
+
+The MSc degree program consists of a one full year of formal lectures, exercise classes, projects, seminars, and a MSc project lasting six months and terminating with the Master's thesis. Although examinations of the UEs of the BSc can be deferred for several semesters after the course, note carefully that the examinations of the MSc UEs are only possible after all requirements for the BSc have been completed (cf. 1.3). Frequently, lectures for both the master and third  year of bachelor programs are given in common, with differences made in the associated exercises to reflect the different levels. Advanced classes for both MSc and PhD students are also sometimes offered.
+
+## 1.3  Acquired Skills
+
+The aim of the studies leading to the award of an MSc in Physics is to deepen knowledge and perfect competence in the chosen field and at the same time develop skills in scientific English. Thus,  at  the  end  of  the  study  programme,  students  will  have  shown  that  they  can  apply  their knowledge to accomplish a research project and will have learned how to work independently or how to integrate into an interdisciplinary research team. The award of the degree requires creative
+
+1   ECTS stands for European Credit Transfer System. One ECTS point corresponds to approximately 30 hours of work. See also https://ec.europa.eu/education/resources/european-credit-transfer-accumulation-system\_en.
+
+and self-critical talents as well as the ability to communicate ideas and work in both English and their native language.
+
+## 1.4  Course Assessment (UE) and Accreditation of ECTS Credits
+
+Acquisition of ECTS credits occurs via three steps: assessment of individual UEs, grouping of UEs into a validation package, and awarding the respective ECTS credits for the completed package.
+
+Exercises are assessed following written criteria given at the beginning of the course (e.g., number of submitted exercise papers, number of correctly solved exercises, etc.). Permission to sit the exam associated with a formal lecture can be subject to the successful completion of the lecture ' s corresponding exercise class.
+
+Assessment of lectures is usually made by an oral and/or written exam, whose type and duration are specified in an appendix to this curriculum. Exams occur during the official exam sessions in winter,  summer,  or  autumn,  and  are  subject  to  a  fee.  Students  register  for  each  exam  via  the students' web portal MyUniFR (https://my.unifr.ch), within the stipulated delays according to the on-line procedure and using their university provided account and password. The marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated, but only once, and at earliest during the next exam session.
+
+A Validation  package comprises  multiple,  separately  assessed,  UEs.  Art.  22  and  24  of  the Regulation determines the number of these packages whereas this curriculum determines their content.
+
+ECTS points are credited according to Art. 23 of the Regulation if:
+
+- the weighted average of the exam marks of a validation package is at least 4. The weighting is given by the number of ECTS points assigned to a UE, and
+- the assessment criteria for UE not subject to formal examinations (practical work exercises seminars, etc.) are met.
+- no mark is equal to 1.0.
+
+After satisfying those conditions, a package is considered validated and the corresponding ECTS points are converted into ECTS credits and attributed to the student. Upon request, the Dean's office will issue transcripts of records in which exam results and awarded credits are acknowledged (Art. 26 and 27 of the Regulation), provided the exam fee has been paid.
+
+## 1.5  Teaching Languages
+
+The BSc studies are bilingual in French and German. This means that some courses are taught in French and others in German, depending on the lecturer's preference . Students are free to decide in which of the two languages they wish to express themselves. Courses for third year taught in common with MSc students are in English.
+
+MSc courses are taught in English. For exams and written work (project reports, Master's thesis etc.) students can choose between German, French, or English.
+
+## 1.6  Ethics and Science
+
+Ethical principles are an integral part of a scientific education. Accepted international conventions must  be  respected  during  research  and  while  documenting  all  scientific  work  whether  it  be  a project, a lecture, a thesis, or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be correctly cited.
+
+## 1.7  Regulations and Additional Information
+
+Detailed information about studying physics at the University of Fribourg can be found in the documents referenced on the web page http://www.unifr.ch/scimed/en/plans which can also be obtained from the Office of the Physics Department, Chemin du Musée 3, CH-1700 Fribourg.
+
+## 2 Bachelor of Science (BSc)
+
+See the French or the German versions of the curriculum for the BSc degree requirements.
+
+## 3 Master of Science (MSc)
+
+[Version 2020, validation packages: PV-SPH.0000029, PV-SPH.0000030]
+
+The MSc program in Physics requires 90 ECTS credits to complete, and is expected to take 18 months. The first  year  (60  ECTS  credits)  consists  primarily  of  courses,  exercises,  the  weekly seminar, and the first part of the master's work, designed to strengthen and complete the student's existing physics knowledge. The lectures can be taken at Fribourg, or may be partially composed of courses offered under the BeNeFri agreement, or from the "Troisième Cycle Romand" courses of the Swiss-French universities. The MSc degree course is completed by a research project of 36 ECTS credits in total, which includes the writing of a Master's thesis.
+
+UEs (Course Units) of the MSc can only be assessed and accredited after successful completion of the BSc.
+
+## 3.1  MSc Course Units
+
+The first year of MSc studies has two semesters of compulsory courses counting for 24 ECTS credits. The compulsory courses vary between even and odd years as noted below.
+
+## 3.1.1   Program for Odd-Numbered Years
+
+## Semester 1 (autumn)
+
+| Code      | Title of UE                                             |   tot. h. |   ECTS |
+|-----------|---------------------------------------------------------|-----------|--------|
+|           | Compulsory Courses                                      |           |        |
+| SPH.04104 | Atomic physics (lecture and exercises)                  |        42 |    3.5 |
+| SPH.04303 | Magnetism and quantum fluids (lecture and exercises)    |        42 |    3.5 |
+| SPH.04503 | Classical statistical mechanics (lecture and exercises) |        42 |    3.5 |
+| SPH.04004 | Colloquia                                               |        14 |    0.5 |
+| SPH.04007 | Proseminars                                             |        14 |    1   |
+|           |                                                         |           |   12   |
+
+## Semester 2 (spring)
+
+| Code               | Title of UE                                                   |   tot. h. |   ECTS |
+|--------------------|---------------------------------------------------------------|-----------|--------|
+| Compulsory Courses |                                                               |           |        |
+| SPH.04203          | Atomic spectroscopy (lecture and exercises)                   |        42 |    3.5 |
+| SPH.04404          | Structure and dynamics of matter (lecture and exercises)      |        42 |    3.5 |
+| SPH.04606          | Introduction to the many-body problem (lecture and exercises) |        42 |    3.5 |
+| SPH.04008          | Colloquia                                                     |        14 |    0.5 |
+| SPH.04009          | Proseminars                                                   |        14 |    1   |
+| SPH.04009          |                                                               |           |   12   |
+
+## 3.1.1.1 Course Units distributed over three semesters:
+
+| Code      | Title of UE                                      | tot. h.   |   ECTS |
+|-----------|--------------------------------------------------|-----------|--------|
+|           | Compulsory Courses                               |           |        |
+| SPH.04003 | Project                                          | -         |      5 |
+| SPH.04010 | Project presentations 1                          |           |      1 |
+|           | Elective Courses                                 |           |        |
+| SPH.04nnn | Specialized courses in Physics                   | -         |     15 |
+|           | Other (English for Masters Students recommended) |           |      9 |
+|           |                                                  |           |     30 |
+
+1
+
+To be chosen during the last semester of study
+
+The student advisor will inform the student about the choice and distribution of the UE.
+
+## 3.1.2  Program for Even-Numbered Years
+
+## Semester 1 (autumn)
+
+1 To be chosen during the last semester of study
+
+| Code                | Title of UE                                           | tot. h.   | ECTS   |
+|---------------------|-------------------------------------------------------|-----------|--------|
+|                     | Compulsory Courses                                    |           |        |
+| SPH.04105           | Particle physics (lecture and exercises)              | 42        | 3.5    |
+| SPH.04304           | Electrons in solids (lecture and exercises)           | 42        | 3.5    |
+| SPH.04504           | Quantum statistical mechanics (lecture and exercises) | 42        | 3.5    |
+| SPH.04004           | Colloquia                                             | 14        | 0.5    |
+| SPH.04007           | Proseminars                                           | 14        | 1      |
+|                     |                                                       |           | 12     |
+| Semester 2 (spring) |                                                       |           |        |
+| Code                | Title of UE                                           | tot. h.   | ECTS   |
+|                     | Compulsory Courses                                    |           |        |
+| SPH.04204           | Modern optics (lecture and exercises)                 | 42        | 3.5    |
+| SPH.04405           | Soft condensed matter physics (lecture and exercises) | 42        | 3.5    |
+| SPH.04607           | Introduction to field theory (lecture and exercises)  | 42        | 3.5    |
+| SPH.04008           | Colloquia                                             | 14        | 0.5    |
+| SPH.04009           | Proseminars                                           | 14        | 1      |
+|                     |                                                       |           | 12     |
+| 3.1.2.1             | Course Units distributed over three semesters:        |           |        |
+| Code                | Title of UE                                           | tot. h.   | ECTS   |
+|                     | Compulsory Courses                                    |           |        |
+| SPH.04003           | Project                                               | -         | 5      |
+| SPH.04010           | Project presentations 1                               |           | 1      |
+|                     | Elective Courses                                      |           |        |
+| SPH.04nnn           | Specialized courses in Physics                        | -         | 15     |
+|                     | Other (English for Masters Students recommended)      |           | 9      |
+|                     |                                                       |           | 30     |
+
+The student advisor will inform the student about the choice and distribution of the UE.
+
+## 3.2  Content of the MSc UE
+
+## 3.2.1  Lectures
+
+The obligatory courses are given in common with courses for students in the third year of the BSc, with additional content and exercises adapted to the higher level demanded of MSc students. The exams will also reflect the more stringent requirements.
+
+In  addition  to  the  required  lectures,  the  student  will  require  at  least  15  ECTS  from  lectures specializing in either experimental or theoretical physics. The choice of available lectures varies from year to year; at the University of Fribourg we offer the following topics:
+
+- Selected chapters in Atomic Physics and Optics (e.g., Precision physics with spin polarized atoms)
+- Selected chapters in Solid State Physics (e.g., Magnetism, Solid State Spectroscopy, and Superconductivity)
+- Selected chapters in Soft Condensed Matter Physics (e.g., Light, X-ray, and neutron scattering in soft matter)
+- Advanced Statistical Mechanics
+- Many-body theory
+- Critical Phenomena
+- Electronics
+- Computational Physics
+- General Relativity
+- Biological Physics
+- Symmetries in Physics
+- Optics of strongly scattering media
+
+The specialized lectures may also be taken at other universities. The Troisième Cycle courses of the  Swiss-French  universities  are  also  eligible.  It  is  recommended  that  the  student  follows specialization courses in the same domain as the intended thesis work.
+
+Other lectures are necessary to complete the ECTS requirements; these elective courses are at the discretion of the student.
+
+## 3.2.2  Colloquia, Proseminars and Research Seminars
+
+Colloquia (SPH.04004, SPH.04008): Each student will attend the weekly departmental colloquia given by visiting researchers (attendance list) and must provide a summary of 4 of them.
+
+Proseminars (SPH.04007, SPH.04009): Each student will make a presentation based on recent research papers (one presentation either for  SPH.04007 or SPH.04009) and attend to all other seminar presentations (attendance list).
+
+Project presentations (SPH.04010): Each student must give a presentation in which the results of the Masters Project (SPH.04003) are presented.
+
+## 3.2.3  Advanced Project
+
+The advanced project, be it experimental or theoretical, consists of work performed within one of the  research  groups  present  at  Fribourg.  During  the  work,  the  student  will  become  intimately familiar with the experimental techniques and/or theoretical methods applicable to the physical problems on which the master's thesis will eventually be based. The results w ill be written in an extended, detailed report.
+
+## 3.3  MSc Exams and Assessment
+
+Assessment  criteria  for  UEs  are  specified  in  the  appendices  to  the  curriculum  in  Physics  and Mathematics  (http://www.unifr.ch/scimed/plans/eval).  The  UEs  of  the  first  year  of  study  are collectively assessed in the first validation package, and gives the student 54 ECTS, if successful.
+
+## 3.4  Master ' s Thesis and Exam
+
+The second validation package of the Master ' s program (36 ECTS) consists entirely of the UE dedicated to the Master ' s thesis (SPH.05001). This work is foreseen to last between six (6) to twelve (12) months. It will start during the 2 nd semester of MSc studies and will extend over the entire 3 rd semester. It is research work which the student will do under the supervision of an active researcher in t he field, and during which the student's aptitude for fundamental research will begin to develop. The work will be presented both as a formal written document, and as a 30 minutes oral presentation. The work will be judged on the same 1 (totally unacceptable) to 6 (excellent) scale as the exams are. This validation package will be validated only for marks of 4 and above. If a work is judged insufficient, a second master thesis may be undertaken on a different subject.
+
+Successful completion of the two validation packages results in the right to the title Master of Science in Physics, University of Fribourg (MSc) .
+
+## 3.5  Admission Regulations for the Master Programme
+
+## 3.5.1   Admission Procedure
+
+Acceptance  to  a  Master  programme  in  Physics  may  be  granted  provided  the  following  two conditions have been met by the applicant:
+
+- Satisfying the University admission requirements as defined in the Règlement concernant l'admission à l' Université de Fribourg (https://www.unifr.ch/apps/legal/fr/document/274904),
+- The student possesses a Bachelor of Science in Physics from the University of Fribourg or an academic degree judged equivalent by the Faculty of Science and Medicine.
+
+For candidates with degrees that are not judged equivalent by the Faculty of Science and Medicine, the Commission for Students' Requests will decide on eligibility ( Commission des requêtes des étudiant-e-s , Dean's Office, Faculty of Science and Medicine, ch. du Musée 8, CH -1700 Fribourg, Switzerland).
+
+Based  on  the  candidate's  academic  qualification,  the  Commission  for  Students'  Requests  can accept the application on the condition that additional requirements are fulfilled, provided they are of a minor scope and can be completed simultaneously with the Master studies. Otherwise, access is denied or applicants can be admitted to a 'pre -master programme' and can begin the Master programme  only  after  having  fulfilled  the  requirements  initially  set  for  the  pre-master.  Final acceptance to the Master programme for a qualifying student depends on the successful completion of the additional requirements.
+
+## 3.5.2   Standard Transfers
+
+Under certain conditions, access to the Master ' s programme may be granted directly. This is of particular applicability for candidates holding a title of Bachelor HES. A detailed description of these conditions is available from the Dean's Office of the Faculty of Science and Medicine, or from the Studies Advisor in the Physics department.

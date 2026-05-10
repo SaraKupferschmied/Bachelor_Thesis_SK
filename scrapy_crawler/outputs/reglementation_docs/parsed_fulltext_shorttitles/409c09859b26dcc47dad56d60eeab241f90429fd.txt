@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.465Z",
+  "title": "Recueil systématique 510.810 Systematische Sammlung 1",
+  "pages": 4,
+  "reg_doc_key": "409c09859b26dcc47dad56d60eeab241f90429fd",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung zwischen der Schweizerischen Eidgenossenschaft und der Universität Freiburg betreffend Joint-Master of Science in Sportwissenschaften (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277129",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277129",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_zwischen_der_Schweizerischen_Eidgenossenschaft_und_der_Universit_t_Freiburg_betreffend_Joint-Master_of_Science_in_Sportwissenschaften_DE__409c09859",
+  "sha256": "32002ce673ccc64983d4795cb8d9da50cb1c431c953ca033b52cee84d33741c7",
+  "fetched_at": "2026-04-03T12:10:59.179Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.810 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.810 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.810 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.810 Systematische Sammlung 4

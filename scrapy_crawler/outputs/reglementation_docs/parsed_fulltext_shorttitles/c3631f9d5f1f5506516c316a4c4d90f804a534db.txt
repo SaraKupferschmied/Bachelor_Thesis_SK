@@ -1,0 +1,37 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:10.183Z",
+  "title": "Vereinbarung vom 17.06.2022 betreffend das \"Leonardo Chemie-Programm\" zwischen der Universität Freiburg und die BKAD (FR/DE)",
+  "pages": 7,
+  "reg_doc_key": "c3631f9d5f1f5506516c316a4c4d90f804a534db",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Vereinbarung vom 17.06.2022 betreffend das \"Leonardo Chemie-Programm\" zwischen der Universität Freiburg und die BKAD (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/3047831",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/3047831",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_vom_17.06.2022_betreffend_das_Leonardo_Chemie-Programm_zwischen_der_Universit_t_Freiburg_und_die_BKAD_FR_DE__c3631f9d5f.pdf",
+  "sha256": "e0bc2157159acfbe17bdfabf993291478e18524c9af2a7428145ad2971ed66c9",
+  "fetched_at": "2026-04-03T12:11:09.278Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+
+
+---PAGE 5---
+
+
+---PAGE 6---
+
+
+---PAGE 7---
+

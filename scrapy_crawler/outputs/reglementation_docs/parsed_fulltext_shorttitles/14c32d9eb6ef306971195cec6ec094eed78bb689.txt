@@ -1,0 +1,31 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:09.546Z",
+  "title": "Recueil systématique 510.300 Systematische Sammlung 1",
+  "pages": 5,
+  "reg_doc_key": "14c32d9eb6ef306971195cec6ec094eed78bb689",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Rahmentvereinbarung über die strategische Kooperation (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277072",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277072",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Rahmentvereinbarung_ber_die_strategische_Kooperation_FR_DE__14c32d9eb6.pdf",
+  "sha256": "97cf5d674870ce53d94ca5af293a03c8705cdd14e37d47e0609075b4f65def23",
+  "fetched_at": "2026-04-03T12:11:13.899Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.300 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 510.300 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 510.300 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 510.300 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 510.300 Systematische Sammlung 5

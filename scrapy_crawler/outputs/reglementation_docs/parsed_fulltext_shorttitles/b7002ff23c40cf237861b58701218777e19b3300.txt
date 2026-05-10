@@ -1,0 +1,28 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:59.467Z",
+  "title": "Vereinbarung vom 22. Januar 2007 zwischen den fünf Fakultäten der Universität Freiburg über die Zusammenarbeit im Bereich Umweltwissenschaften (FR)",
+  "pages": 4,
+  "reg_doc_key": "b7002ff23c40cf237861b58701218777e19b3300",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.460 Interfakultär > 400.460.465 Zusammenarbeit im Bereich Umweltwissenschaften und Umweltgeisteswissenschaften",
+  "spider_title": "Vereinbarung vom 22. Januar 2007 zwischen den fünf Fakultäten der Universität Freiburg über die Zusammenarbeit im Bereich Umweltwissenschaften (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277439",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277439",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Vereinbarung_vom_22._Januar_2007_zwischen_den_f_nf_Fakult_ten_der_Universit_t_Freiburg_ber_die_Zusammenarbeit_im_Bereich_Umweltwissenschaften_FR__b7002ff23c.pdf",
+  "sha256": "8db2c84e1ea1695d420a33b6afaae1be5703d4f869cc4d3f03eee7ce9ffac210",
+  "fetched_at": "2026-04-03T12:11:19.890Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+
+
+---PAGE 2---
+
+
+---PAGE 3---
+
+
+---PAGE 4---
+

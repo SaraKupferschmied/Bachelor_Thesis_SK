@@ -1,0 +1,126 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:40:10.855Z",
+  "title": "Philosophy_Master_90_Psychology_Module_f_r_den_Master_P2_Psychologie_30_ECTS_e8e6fe8e230ee20633fac0c816fa5df31506191f",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e8e6fe8e230ee20633fac0c816fa5df31506191f",
+  "program_key": "philosophy|master|90|psychology",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Psychology",
+  "doc_label": "Module für den Master P2 Psychologie 30 ECTS",
+  "source_url": "https://www.unifr.ch/psycho/de/assets/public/master/plans/Module_MA30_P2_Psycho_2025-26.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Psychology_Module_f_r_den_Master_P2_Psychologie_30_ECTS_e8e6fe8e230ee20633fac0c816fa5df31506191f.pdf",
+  "sha256": "3c7b36de490b115513d4bd2338c6f170ea7f740ac2f96ddc801fc4c9a2dbfdc5",
+  "fetched_at": "2026-04-03T11:30:12.189Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/Module_MA30_P2_Psycho_2025-26.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Basics in Psychology
+
+## Module für den Master 30ECTS P2 Psychologie AA 2025-2026
+
+## Modules du programme de Master 30 ECTS P2 AA 2025-2026
+
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Sokhn Nayla            | L25.01477   | Statistical Methods for Master Studies (SA 2025)                 |   3 |    |
+|---------------------------------------------------------------------------------------|------------------------|-------------|------------------------------------------------------------------|-----|----|
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Wilhelm Peter          | L25.00751   | Evaluation of Psychotherapeutic Interventions (SA 2025)          |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Sata Sayaka            | L25.01670   | Research methods for Master Studies (SA 2025)                    |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Wagner Pascal          | L25.00752   | Psychology of beliefs in conspirancy theories (SA 2025)          |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Richter Marianne       | L25.01817   | Emotions in social interactions (SA 2025)                        |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Rashmi Gupta           | L25.01995   | Cognition and Emotion (SA 2025)                                  |   3 | 15 |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Rolli Salathe Cornelia | L25.01659   | Work Health Promotion (SP 2026)                                  |     |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Gemmiti Marco          | L25.01926   | Interpersonal communication: contexts and applications (SP 2026) |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Kurth Salome           | L25.02009   | Prenatal Origins of Development (SP 2026)                        |   3 |    |
+| BASICS State of the art lectures on important basic areas in psychological sciences   | Ochs Carli Maria       | L25.02008   | Digital well-being (SP 2026)                                     |   3 |    |
+
+<!-- image -->
+
+## Module für den Master 30ECTS P2 Psychologie AA 2025-2026
+
+## Modules du programme de Master 30 ECTS P2 AA 2025-2026
+
+## Work and Organisational Psychology
+
+| W&O A Occupational Health Psychology and Human Factors   | Bergholz Luisa         | L25.01996   | Introduction to Coaching: Exploring approaches (SA 2025)       |   3 |    |
+|----------------------------------------------------------|------------------------|-------------|----------------------------------------------------------------|-----|----|
+| W&O A Occupational Health Psychology and Human Factors   | Gahrmann Caroline      | L25.00865   | Personnel Selection (SA 2025)                                  |   3 |    |
+| W&O A Occupational Health Psychology and Human Factors   | Baumgartner / Sauer    | L25.00872   | Usability, User Experience and Accessibility (SA 2025)         |   3 |    |
+| W&O A Occupational Health Psychology and Human Factors   | Jacobshagen Nicola     | L25.00845   | Teamwork: Applications, Dynamics and Troubleshooting (SA 2025) |   3 | 15 |
+| W&O A Occupational Health Psychology and Human Factors   | Guardini / Sauer       | L25.00425   | Stress at work (SP 2026)                                       |   3 |    |
+| W&O A Occupational Health Psychology and Human Factors   | Rolli Salathe Cornelia | L25.01659   | Work Health Promotion (SP 2026)                                |   3 |    |
+| W&O A Occupational Health Psychology and Human Factors   | Moser Karin            | L25.02040   | Social influence and Power in Groups (SP 2026)                 |   3 |    |
+
+## Development &amp; School
+
+| DEV Developmental Psychology   | Fitamen Christophe   | L25.01059   | L'adolescence (SA 2025)                           |   3 |
+|--------------------------------|----------------------|-------------|---------------------------------------------------|-----|
+| DEV Developmental Psychology   | Fitamen Christophe   | L25.01470   | La motivation au cours du développement (SP 2026) |   3 |
+| DEV Developmental Psychology   | Abadie Marlène       | L25.00563   | Neuropsychologie (SP 2026)                        |   3 |
+| DEV Developmental Psychology   | Belletier Clément    | L25.01663   | Modulation sociale de la cognition (SP 2026)      |   3 |
+
+<!-- image -->
+
+## Clinical Psychology
+
+| CLIN A Methods and Applications in Clinical Psychology and Clinical Family Psychology   | Munsch Simone           | L25.01036   | Ätiologie und Behandlung depressiver Störungen in Abhängigkeit des Lebensalters (PP) (HS 2025)   |   3 |    |
+|-----------------------------------------------------------------------------------------|-------------------------|-------------|--------------------------------------------------------------------------------------------------|-----|----|
+| CLIN A Methods and Applications in Clinical Psychology and Clinical Family Psychology   | Cina Annette            | L26.00008   | Anhörung des Kindes in familienrechtlichen Verfahren (HS 2025)                                   |   3 |    |
+| CLIN A Methods and Applications in Clinical Psychology and Clinical Family Psychology   | Schenk Jeremiah         | L25.00453   | Réseau Fribourgeois de Santé Mentale et insertion dans la pratique (SA 2025)                     |   3 | 15 |
+| CLIN A Methods and Applications in Clinical Psychology and Clinical Family Psychology   | Auray Isabelle          | L25.01037   | Forum Modèles et pratiques en psychologie de la santé (SA 2025)                                  |   3 |    |
+| CLIN A Methods and Applications in Clinical Psychology and Clinical Family Psychology   | Fernandez Boente Monica | L25.01841   | Psychologie positive, resilience et self-care (SA 2025)                                          |   3 |    |
+
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Ledermann Katharina   | L25.00744   | Mood and anxiety disorders (SA 2025)                            |   3 |    |
+|---------------------------------------------------------------------|-----------------------|-------------|-----------------------------------------------------------------|-----|----|
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Rauen Anna Christina  | L25.00585   | Essstörungen und Adipositas (HS 2025)                           |   3 |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Gassmann Daniel       | L25.00910   | Prinzipien des gesunden Schlafs und Schlafstörungen (HS 2025)   |   3 |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Munsch Simone         | L25.00481   | Klinische Kinder- und Jugendlichenpsychologie I (SP 2026)       |   3 |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Wyssen Andrea         | L25.00586   | Sexualität und Sexuelle Störungen (SP 2026)                     |   3 | 15 |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Ledermann Katharina   | L25.00757   | Mental disorders in the elderly (SP 2026)                       |   3 |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Fahim Marie Cherine   | L25.00947   | Psychopathologie des troubles liés à la schizophrénie (SP 2026) |     |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | Recabarren Romina     | L25.00591   | Psychopathologie de l'enfant et de l'adolescent (SP 2026)       |     |    |
+| CLIN B Methods and Applications in Clinical and Health Psychology   | With Stéphane         | L25.00778   | Introduction à la santé sexuelle (SP-2026)                      |   3 |    |
+
+## Module für den Master 30ECTS P2 Psychologie AA 2025-2026
+
+## Modules du programme de Master 30 ECTS P2 AA 2025-2026
+
+<!-- image -->
+
+## Module für den Master 30ECTS P2 Psychologie AA 2025-2026
+
+## Modules du programme de Master 30 ECTS P2 AA 2025-2026
+
+## Cognitive Neurosciences
+
+| NCS A CogNeuro Topics   | Caldara Roberto   | L25.02003   | Think tank in visual and social neuroscience (SA 2025)                                        |   3 |    |
+|-------------------------|-------------------|-------------|-----------------------------------------------------------------------------------------------|-----|----|
+| NCS A CogNeuro Topics   | Eisenbarth Hedwig | L25.01291   | Neuro-physiological correlates of antisocial behaviour and psychopathic personality (SA 2025) |   3 | 15 |
+| NCS A CogNeuro Topics   | Kurth Salome      | L25.02004   | Designing research that starts before birth (SP 2026)                                         |   3 |    |
+| NCS A CogNeuro Topics   | Aue Tatjana       | L25.01658   | Affective and decision making neuroscience (SP 2026)                                          |   3 |    |
+
+| NCS B CogNeuro Methods   | Sokhn Nayla        | L25.01483   | Statistics with R (Statistics) (SA-2025)                     |   3 |    |
+|--------------------------|--------------------|-------------|--------------------------------------------------------------|-----|----|
+| NCS B CogNeuro Methods   | Sokhn Nayla        | L25.00644   | Introduction to Matlab I (SA-2025)                           |   3 |    |
+| NCS B CogNeuro Methods   | Bergmann Til Ole   | L25.00673   | Introduction to non-invasive brain stimulation (SA 2025)     |   3 |    |
+| NCS B CogNeuro Methods   | Jost Lea           | L25.01598   | Bridging neuroscience and clinical neuropsychology (SP 2026) |   3 | 15 |
+| NCS B CogNeuro Methods   | Sokhn Nayla        | L25.00777   | Multilevel Analysis with R (SP 2026)                         |   3 |    |
+| NCS B CogNeuro Methods   | Vetter Petra       | L25.01398   | Multisensory Perception and Plasticity (SP 2026)             |     |    |
+| NCS B CogNeuro Methods   | Diekelmann Susanne | L25.00715   | Neuroethics (SP-2026)                                        |   3 |    |

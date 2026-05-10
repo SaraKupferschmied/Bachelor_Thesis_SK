@@ -1,0 +1,34 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:09.147Z",
+  "title": "Recueil systématique 510.740 Systematische Sammlung",
+  "pages": 6,
+  "reg_doc_key": "a074811161638d0c19e4e68d7119314bc0795a05",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.510 Vereinbarungen betreffend die Ausbildung - Schweizerische Institutionen",
+  "spider_title": "Kooperationsvereinbarung MAS Kognitive Verhaltenstherapie mit Schwerpunkt Kinder und Jugendliche zwischen der Universität Zürich und Freiburg (DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277119",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277119",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Kooperationsvereinbarung_MAS_Kognitive_Verhaltenstherapie_mit_Schwerpunkt_Kinder_und_Jugendliche_zwischen_der_Universit_t_Z_rich_und_Freiburg_DE__a074811161.pdf",
+  "sha256": "38d5dd3f8370008a245a4fe8d8b17ebe99a1c188d55fa27bbf28104466d82ef9",
+  "fetched_at": "2026-04-03T12:11:10.137Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 510.740 Systematische Sammlung
+
+---PAGE 2---
+Recueil systématique 510.740 Systematische Sammlung
+
+---PAGE 3---
+Recueil systématique 510.740 Systematische Sammlung
+
+---PAGE 4---
+Recueil systématique 510.740 Systematische Sammlung
+
+---PAGE 5---
+Recueil systématique 510.740 Systematische Sammlung
+
+---PAGE 6---
+Recueil systématique 510.740 Systematische Sammlung

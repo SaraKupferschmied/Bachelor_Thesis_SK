@@ -1,0 +1,22 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.122Z",
+  "title": "Recueil systématique 511.",
+  "pages": 2,
+  "reg_doc_key": "f80230a88dc5da2429f330201330648efbae0dce",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Accord de coopération entre l’Université de Paris I Panthéon-Sorbonne et l’Université de Fribourg, Suisse (FR)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277168",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277168",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Accord_de_coop_ration_entre_l_Universit_de_Paris_I_Panth_on-Sorbonne_et_l_Universit_de_Fribourg_Suisse_FR__f80230a88d.pdf",
+  "sha256": "89785966557ed4550483232ce8b3d90acd107d36d0750bba848043ea71129d90",
+  "fetched_at": "2026-04-03T12:10:40.736Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511. 150 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511. 150 Systematische Sammlung 2

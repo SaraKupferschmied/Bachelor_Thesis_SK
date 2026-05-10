@@ -1,0 +1,195 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T01:34:47.196Z",
+  "title": "Philosophy_Bachelor_30_Latin_Studies_Griechische_Sprache_und_Kultur_b2a0ed789d32b1bf6d6cc8f0f009b478859fac86",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "b2a0ed789d32b1bf6d6cc8f0f009b478859fac86",
+  "program_key": "philosophy|bachelor|60|greek studies",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Greek Studies",
+  "doc_label": "Griechische Sprache und Kultur",
+  "source_url": "https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_60_Griechisch_DE_27012017_v2.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/greekstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/gpUA1",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Latin_Studies_Griechische_Sprache_und_Kultur_b2a0ed789d32b1bf6d6cc8f0f009b478859fac86.pdf",
+  "sha256": "fa746a9306aa9ee56ebe4664e7c6d1de185d377a028e8f02ce5acd4a2c1253b5",
+  "fetched_at": "2026-04-03T11:31:17.233Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_60_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA_60_Griechisch_DE_27012017_v2.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+̈
+
+## UNIVERSITÄT FREIBURG SCHWEIZ Departement für Klassische Philologie
+
+## Bachelor :
+
+## Griechische Sprache und Kultur Nebenbereich (60 ECTS Punkte)
+
+̈
+
+Dieser Studienplan stu tzt sich auf das Reglement zur Erlangung des universita ren Diploms (Niveau europa ischer Bachelor) an der Philosophischen Fakulta t. Er tritt am 1. September 2017 in Kraft. Für Studierende,  die  ihr  Bachelorstudium  zu  diesem  Zeitpunkt  aufnehmen,  gilt  dieser  Studienplan ausnahmslos.
+
+Studienbeginn im Herbstsemester (September) oder im Frühlingssemester (Februar).
+
+## Studienplan
+
+Der  Studiengang  in  Griechischer  Sprache  und  Kultur  erschliesst  die  Literatur  und  Kultur  der griechischen Antike und Teile ihres Nachlebens. Die Themen der Lehrveranstaltungen reichen von Homer bis zur byzantinischen Epoche. In Übungen sowie Lektüren griechischer Texte wird die Sprachkompetenz  in  Griechisch  vertieft,  und  in  Vorlesungen  und  Proseminaren  werden  die Methoden der literarischen Interpretation eingeübt. Die Arbeit an den Texten in der Originalsprache vermittelt die Grundlagen der Philologie und erschliesst einen wichtigen Zugang zur Kultur der griechischen Antike.
+
+Vorausgesetzt wird eine Griechischmatura oder das Graecum. Graecumskurse werden innerhalb des  Studiengangs  angeboten,  und  der  Erwerb  dieser  Sprache  kann  parallel  zu  den  ersten Studienjahren nachgeholt werden.
+
+## Unterrichtssprachen
+
+Der Unterricht wird in Deutsch und in Franzo sisch erteilt. Die Studierenden können in einer der beiden  Sprachen  ihre  schriftlichen  Arbeiten  abfassen  und  ihre  schriftlichen  wie  mündlichen Prüfungen  ablegen.  Mit  Zustimmung  der  Lehrperson  kann  auch  eine  andere  Sprache  gewa hlt werden.  Wer  das  Verhältnis  von  40%  zu  60%  im  Besuch  von  deutschsprachigen  und französischsprachigen  Veranstaltungen  einhält  und  die  Evaluationen  in  der  entsprechenden Unterrichtssprache erfolgreich absolviert, erhält ein BA Diplom in griechischer Sprache und Kultur mit dem Vermerk 'zweisprachig'.
+
+## Studienaufbau
+
+Das Studienprogramm, welches die drei Studienjahre für den Bachelor abdeckt, besteht im ersten Jahr  aus  einem  propädeutischen  Modul  (15  ECTS  Punkte),  in  dem  bestehende  Kenntnisse  in griechischer Sprache und Literatur vertieft sowie methodische Grundlagen vermittelt werden. Im zweiten und dritten Jahr folgen ein Lektüre-Modul (18 ECTS Punkte), ein Literatur-Modul (12 ECTS Punkte) und ein Modul Basiskompetenzen (15 ECTS Punkte).
+
+̈
+
+̈
+
+̈
+
+̈
+
+## DIE MODULE
+
+|                                            | PUNKTE   |
+|--------------------------------------------|----------|
+| 1. PROPÄDEUTIK GRIECHISCH                  | 15       |
+| Geschichte der griechischen Literatur      | 3        |
+| Griechische Geschichte                     | 3        |
+| Übungen Griechisch                         | 3        |
+| Griechische Sprache                        | 3        |
+| Griechische Lektüre 1. Jahr                | 3        |
+| 2. LEKTÜRE GRIECHISCH                      | 18       |
+| 2 Griechische Lektüren 2.-3. Jahr          | 2x3      |
+| 2 Proseminare Griechisch                   | 2x3      |
+| Selbständige vertiefte Lektüre Griechisch  | 6        |
+| 3. GRIECHISCHE LITERATUR                   | 12       |
+| 4 Vorlesungen in griechischer Literatur    | 4x3      |
+| 4. BASISKOMPETENZEN                        | 15       |
+| Einführung in die Klassische Philologie    | 3        |
+| Griechisch-römische Mythologie             | 3        |
+| Einführung in die Literatur der Spätantike | 3        |
+| Frühchristliche Literatur                  | 3        |
+| Geschichte der lateinischen Literatur      | 3        |
+
+| MODUL1: PROPÄDEUTIK (15 ECTS)   | MODUL1: PROPÄDEUTIK (15 ECTS)                                                                                                                                                                                                                                          |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 15 PUNKTE                       | Das propädeutische Modul (15 ECTS Punkte) vertieft die Grundkenntnisse in Sprache, Literatur und historischem Kontext und führt in die Methoden der Klassischen Philologie ein.                                                                                        |
+| 3 PUNKTE                        | Geschichte der griechischen Literatur Dieser Überblick über die Literatur von Homer bis zur Kaiserzeit ermöglicht es den Studierenden, Werke und Autoren innerhalb der literarischen Tradition und des kulturellen Kontexts zu situieren.                              |
+| 3 PUNKTE                        | Griechische Geschichte Diese Vorlesung, die vom Studienbereich Geschichte angeboten wird, gibt anhand der wichtigsten Ereignisse und Entwicklungen einen chronologischen Überblick über die Geschichte der griechischen Antike.                                        |
+| 3 PUNKTE                        | Übungen Griechisch Die Studierenden vertiefen ihre grammatikalischen Kenntnisse anhand verschiedener Übungen.                                                                                                                                                          |
+| 3 PUNKTE                        | Griechische Sprache In dieser Lehrveranstaltung lernen die Studierenden die Geschichte der griechischen Sprache kennen und erhalten einen Einblick in die griechischen Dialekte. Weitere Themen sind rhetorische Tropen und Stilfiguren und Grundkenntnisse in Metrik. |
+| 3 PUNKTE                        | Griechische Lektüre 1. Jahr Dieser für Studierende des 1. Jahres reservierte Lektürekurs ermöglicht es den Studierenden, anhand verschiedener Texte in der Originalsprache (Griechisch) ihre Sprachkompetenz zu verbessern und ihr Vokabular zu erweitern.             |
+
+## 18
+
+- PUNKTE
+
+## MODUL 2: LEKTÜRE (18 ECTS)
+
+Das Lektüre-Modul (18 ECTS Punkte) dient der Vertiefung der Sprachkompetenz und macht die Studierenden mit ausgewählten Autoren und Textsorten vertraut.
+
+2x3 2 Griechische Lektüren 2.-3. Jahr PUNKTE In  diesen  beiden  Lektürekursen,  die  jeweils  im  2.  und  im  3.  Jahr  von  den Studierenden  der  entsprechenden  Jahre  gemeinsam  befolgt  werden,  lesen  die Studierenden  Texte  in  der Originalsprache (Griechisch). Linguistische  und literarische Erläuterungen von Seiten der Lehrperson fördern und vertiefen das Verständnis.
+
+- 2x3 2 Proseminare Griechisch PUNKTE Die beiden Proseminare werden jeweils im 2. und im 3. Jahr von den Studierenden und Interpretation von griechischen Texten werden die Studierenden angeleitet, ihre eigene Reflexion über die Texte zu entwickeln und diese unter Anwendung der
+
+der entsprechenden Jahre gemeinsam befolgt. Durch die Lektüre spezifischen Hilfsmittel der Klassischen Philologie zu vertiefen.
+
+- 6 Selbständige vertiefte Lektüre Griechisch PUNKTE Ab dem Ende des zweiten Studienjahres legen die Studierenden je für sich (nach Rücksprache  mit  den  Professor(in)en)  ein  Textkorpus  fest,  das  sie  selbständig erarbeiten  (Übersetzung  und  Textverständnis)  im  Hinblick  auf  eine  mündliche
+
+Prüfung am Ende des Bachelor Studiengangs.
+
+## MODUL 3: LITERATUR (12 ECTS)
+
+- 12 PUNKTE Das  Literatur-Modul  (12  ECTS  Punkte),  bestehend  aus  je  vier  Vorlesungen, vermittelt vertiefte Kenntnisse der literarischen Tradition am Beispiel ausgewählter Autoren, Werke und Textsorten.
+
+## 4x3 4 Vorlesungen in griechischer Literatur
+
+PUNKTE Diese  Vorlesungen  ermöglichen  es  den  Studierenden,  Autoren  und  Textsorten sowie einschlägige Themen und Motive der griechischen Literatur kennenzulernen.
+
+̈
+
+## MODUL 4: BASISKOMPETENZEN (15 ECTS)
+
+| 15 PUNKTE   | Das Modul Basiskompetenzen (15 ECTS Punkte) besteht aus fünf Lehrveranstaltungen, die sich auf die drei Jahre des Bachelorstudiumsverteilen.                                                                                                                                                                                                       |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3 PUNKTE    | Einführung in die Klassische Philologie Diese Lehrveranstaltung führt die Studierenden in die Methoden der Philologie ein und macht sie mit den wichtigsten Hilfsmitteln vertraut. Sie muss während des ersten Studienjahres belegt werden.                                                                                                        |
+| 3 PUNKTE    | Griechisch-römische Mythologie Diese Vorlesung vermittelt einen Überblick über die wichtigsten antiken Mythen und ihre literarischen Repräsentationen. Sie wird normalerweise während des zweiten Studienjahres belegt.                                                                                                                            |
+| 3 PUNKTE    | Einführung in die Literatur der Spätantike Diese Vorlesung gibt anhand einer repräsentativen Textauswahl einen Überblick über die wichtigsten Entwicklungen und Eigenheiten der spätantiken Literatur. Sie wird während des dritten Studienjahres belegt.                                                                                          |
+| 3 PUNKTE    | Frühchristliche Literatur Diese Lehrveranstaltung, die von der Theologischen Fakultät (Patristik) angeboten wird, erschliesst die wichtigsten christlichen Autoren und Werke der Spätantike und situiert diese in ihrem literarischen, historischen und theologischen Umfeld. Die Lehrveranstaltung wird während des dritten Studienjahres belegt. |
+| 3 PUNKTE    | Geschichte der lateinischen Literatur Dieser Überblick über die Literatur von der Republik bis zur Kaiserzeit ermöglicht es den Studierenden, Werke und Autoren innerhalb der literarischen Tradition und des kulturellen Kontexts zu situieren.                                                                                                   |
+
+## DIE EVALUATION
+
+̈
+
+Dieser Studienplan stu tzt sich auf die Richtlinien u ber die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakulta t  der  Universita t Freiburg  (Schweiz).  In  jeder  Lehrveranstaltung  wird  die  Studienleistung  schriftlich  oder  mu ndlich entweder wa hrend des Semesters oder an dessen Ende evaluiert. Die Evaluationsart wird zu Beginn des Semesters bekannt gegeben.
+
+1. Jede Veranstaltung kann nur einmal validiert werden.
+2. Die  Gesamtnote  eines  Moduls  setzt  sich  aus  den  Teilnoten  der  Einzelveranstaltungen zusammen, welche ein Modul konstituieren. Alle Teilnoten müssen genügend sein.
+3. Der Durchschnitt der vier Modulgesamtnoten ergibt die Schlussnote.
+4. Nicht  bestandene  Prüfungen  können  höchstens  zwei  Mal  wiederholt  werden.  Die Sessionen zur Wiederholung stehen nur den Studierenden offen, welche eine ungenügende Note erhalten haben.
+5. Jede Veranstaltung wird mit einer Note bewertet.
+6. 5.1. In den Vorlesungen zur Literatur werden  die Studienleistungen durch eine
+
+̈
+
+̈
+
+̈
+
+̈
+
+̈
+
+Semesterendprüfung evaluiert und benotet.
+
+5.2. In den Lektüren des 1. Jahres werden die Studienleistungen durch eine schriftliche und eine  mündliche  Übersetzungsprüfung  evaluiert  und  benotet.  In  den  übrigen  Lektüren werden die Studienleistungen durch eine schriftliche Übersetzungsprüfung evaluiert und benotet.
+
+5.3. Die selbständige vertiefte  Lektüre  wird  durch  eine  mündliche  Prüfung  evaluiert  und benotet.
+
+5.4. In den Proseminaren werden die Studienleistungen durch einen mündlichen Vortrag und  eine  schriftliche  Proseminararbeit  (eine  literarische  Interpretation)  von  mindestens zehn Seiten evaluiert und benotet.
+
+5.5. In den Übungen und den Lehrveranstaltungen zur Sprache werden die Studienleistungen durch eine schriftliche Prüfung am Semesterende evaluiert und benotet.
+
+## ENDGÜLTIGES NICHTBESTEHEN
+
+Im Falle eines (nach drei Versuchen) Nichtbestehens einer oder mehrerer der folgenden Unterrichtseinheiten  ist  es  nicht  möglich,  das  Studium  der  Griechischen  Sprache  und  Kultur fortzusetzen:
+
+- a. Einführung in die Klassische Philologie;
+- b. Griechisch-römische Mythologie;
+- c. Einführung in die Literatur der Spätantike;
+- d. Selbständige vertiefte Lektüre in Griechisch.
+
+Im Falle des endgültigen Nichtbestehens in Griechischer Sprache und Kultur bleiben die Nebenprogramme  in  der  anderen  Sprache  (Lateinische  Sprache  und  Kultur)  als  Studienfächer zugänglich.
+
+## ÜBERGANGSBESTIMMUNGEN
+
+1. Studierende, die ihr Studium im Herbstsemester 2016 im Studienplan vom 28. April 2009 begonnen haben, ko nnen bis zum Beginn des Herbstsemesters 2017 in den vorliegenden Studienplan wechseln.
+
+̈
+
+2. Die Modalita ten des Wechsels zum vorliegenden Studienplan werden vom/von der Studienberater/in auf der Basis der bisherigen Studienleistungen festgelegt.

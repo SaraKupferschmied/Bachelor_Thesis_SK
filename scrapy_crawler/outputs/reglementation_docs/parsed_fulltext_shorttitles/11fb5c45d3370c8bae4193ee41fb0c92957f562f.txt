@@ -1,0 +1,31 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:13:18.156Z",
+  "title": "Recueil systématique 411.200 Systematische Sammlung 1",
+  "pages": 5,
+  "reg_doc_key": "11fb5c45d3370c8bae4193ee41fb0c92957f562f",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 400 Fakultäten > 400.410 Theologie > 400.410.411 Bachelor- und Masterreglemente und weitere Studienregelemente",
+  "spider_title": "Studienreglement Master of Art in Theologischen Studien (Spezialisierung Orthodoxie und interchristliche Studien) (FR/DE)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/275484",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/275484",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Studienreglement_Master_of_Art_in_Theologischen_Studien_Spezialisierung_Orthodoxie_und_interchristliche_Studien_FR_DE__11fb5c45d3.pdf",
+  "sha256": "47cc254d550ee5c8557dcc3b00fdf332d448b4c47387d61c114fc5ad83243fba",
+  "fetched_at": "2026-04-03T12:11:58.418Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 411.200 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 411.200 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 411.200 Systematische Sammlung 3
+
+---PAGE 4---
+Recueil systématique 411.200 Systematische Sammlung 4
+
+---PAGE 5---
+Recueil systématique 411.200 Systematische Sammlung 5

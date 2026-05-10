@@ -1,0 +1,376 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T05:35:17.009Z",
+  "title": "UNK_Bachelor_150_Physics_Branche_principale_en_sciences_du_sport_et_de_la_motricit_nbsp_enseignement_ffcb2a4a7f6cd3d3aa35a58a1ad5436a1b0d8b75",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ffcb2a4a7f6cd3d3aa35a58a1ad5436a1b0d8b75",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Sport Sciences and Motor Control",
+  "doc_label": "Branche principale en sciences du sport et de la motricité /&nbsp;enseignement",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2024/Plan_BSc_SP-E_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Branche_principale_en_sciences_du_sport_et_de_la_motricit_nbsp_enseignement_ffcb2a4a7f6cd3d3aa35a58a1ad5436a1b0d8b75.pdf",
+  "sha256": "b5baf2b461f64d2d930b55cfa278947e6d50be092996cf094ce9784f7e679d32",
+  "fetched_at": "2026-04-03T11:27:49.764Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2024/Plan_BSc_SP-E_fr.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_SP-E_fr.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Bachelor of Science en sciences du sport et de la motricité
+
+option enseignement
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 15.04.2024
+
+## Table des matières
+
+|   1 | GÉNÉRALITÉS...................................................................................................................3                    | GÉNÉRALITÉS...................................................................................................................3                                       |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1 | Titres universitaires et voies d'études ............................................................................................. 3            | Titres universitaires et voies d'études ............................................................................................. 3                               |
+| 1.2 | Accès aux études ............................................................................................................................... 3 | Accès aux études ............................................................................................................................... 3                    |
+|     | 1.2.1                                                                                                                                              | Test des capacités physiques et motrices ............................................................................................3                                |
+|     | 1.2.2                                                                                                                                              | État de santé ............................................................................................................................................4           |
+| 1.3 | Structure générale des études ..........................................................................................................           | 4                                                                                                                                                                     |
+| 1.4 | Compétences acquises...................................................................................................................... 4       | Compétences acquises...................................................................................................................... 4                          |
+| 1.5 | Évaluation des unités d'enseignement (UE) et acquisition des crédits ECTS............................. 5                                           | Évaluation des unités d'enseignement (UE) et acquisition des crédits ECTS............................. 5                                                              |
+| 1.6 | Langues d'enseignement................................................................................................................... 5        | Langues d'enseignement................................................................................................................... 5                           |
+| 1.7 | Ethique scientifique............................................................................................................................   | 5                                                                                                                                                                     |
+| 1.8 | Règlements et informations complémentaires................................................................................ 5                       | Règlements et informations complémentaires................................................................................ 5                                          |
+| 2   | BACHELOR OF SCIENCE (BSC-SPORT-E)......................................................................6                                           | BACHELOR OF SCIENCE (BSC-SPORT-E)......................................................................6                                                              |
+| 2.1 | La première année d'études .............................................................................................................. 6        | La première année d'études .............................................................................................................. 6                           |
+|     | 2.1.1                                                                                                                                              | Unités d'enseignement : paquet de validation « formation scientifique 1 » (BSc1a) ........................6                                                           |
+|     | 2.1.2                                                                                                                                              | Unités d'enseignement : paquet de validation « formation pratique-méthodologique 1 » (BSc1b).7                                                                        |
+|     | 2.1.3                                                                                                                                              | Contenu des UE de la première année...................................................................................................7                               |
+|     |                                                                                                                                                    | 2.1.3.1 Formation scientifique..................................................................................................................................... 7 |
+|     |                                                                                                                                                    | 2.1.3.2 Formation pratique - méthodologique............................................................................................................. 8            |
+| 2.2 | La deuxième et la troisième année d'études ................................................................................... 9                   | La deuxième et la troisième année d'études ................................................................................... 9                                      |
+|     | 2.2.1                                                                                                                                              | Unités d'enseignement : paquet de validation « formation scientifique 2 » (BSc2a) ........................9                                                           |
+|     | 2.2.2                                                                                                                                              | Unités d'enseignement : paquet de validation « formation pratique-méthodologique 2 » (BSc2b).9                                                                        |
+|     | 2.2.3                                                                                                                                              | Contenu des UE de la 2 e et de la 3 e année...........................................................................................11                              |
+|     |                                                                                                                                                    | 2.2.3.1 Formation scientifique................................................................................................................................... 11  |
+|     |                                                                                                                                                    | 2.2.3.2 Formation pratique - méthodologique........................................................................................................... 11             |
+| 2.3 | Examens et validation du BSc-Sport-E .......................................................................................... 12                 | Examens et validation du BSc-Sport-E .......................................................................................... 12                                    |
+
+## 1 Généralités
+
+Ce  plan  d'études  contient  toutes  les  informations  nécessaires  aux étudiant-e-s  qui  souhaitent entreprendre des études en sciences du sport et de la motricité à  la Faculté des sciences et de médecine de l'Université de Fribourg. Il est soumis aux conditions du Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine (appelé ci-après Règlement).
+
+Le Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science prévoit une limitation de la durée des études de Bachelor et de Master, ainsi que des branches complémentaires (voir articles 11, 13, 14).
+
+Il est à noter que les deux options du Bachelor of Science en sciences du sport et de la motricité font partie de la même voie d'études. Un changement d'option n'est donc pas considéré comme un changement de voie d'études et le nombre total de semestres après le début des études en branche principale n 'est pas remis à zéro ( Art. 11 al. 2).
+
+## 1.1  Titres universitaires et voies d'études
+
+La Faculté des sciences et de médecine décerne, aux étudiant-e-s qui ont accompli avec succès leurs études, le titre officiel suivant :
+
+- Bachelor of Science en sciences du sport et de la motricité, Université de Fribourg option : enseignement (appelé ci-après BSc-Sport-E)
+
+La voie d'études du BSc-Sport-E offre une formation de base dans les sciences du sport et de la motricité et permet l'acquisition d'une seconde branche d'enseignement au degré secondaire I ou II. Les connaissances générales et la méthodologie qu'elle apporte constituent un bagage nécessaire pour  des  orientations  professionnelles  variées  en  liens  avec  l'enseignement  de  l'éducation physique et du sport à l'école. Le BSc en sciences du sport et de la motricité permet la poursuite des études scientifiques plus approfondies conduisant à différents types de MSc en sciences du sport.
+
+## 1.2  Accès aux études
+
+Tous les titulaires d'un diplôme de maturité fédérale ou d'un titre jugé équivalent sont admis aux études de BSc-Sport-E (voir Art. 7 du règlement).
+
+L'inscription sous réserve se  fait  au  Service  d'admission  et  d'inscription  (SAI).  L'inscription devient définitive après le test des capacités physiques et motrices et avec la confirmation d'un bon état de santé.
+
+## 1.2.1  Test des capacités physiques et motrices
+
+L'étudiant -e qui choisit le BSc-Sport-E est astreint à un test de ses capacités physiques et motrices (voir  http://www.unifr.ch/go/testsport ).  La  réussite  de  ce  test  est  une  condition  à  l'admission définitive dans ce programme d'études.
+
+Cependant, la capacité d'accueil des installations sportives étant limitée, le nombre de nouvelles places d'études est fixé à 50 par année. Conformément à l'ordonnance cantonale (https://webapps.unifr.ch/legal/fr/document/4158128), si le nombre de candidat-e-s ayant réussi le test des capacités physiques et motrices est supérieur au nombre de places d'études disponibles, cellesci sont attribuées selon l'ordre des résultats obtenus au test.
+
+## 1.2.2  État de santé
+
+Lors  des  séances  d'information  avec  le  conseiller  ou  la  conseillère  d'études,  l'étudiant -e  sera orientée sur les exigences physiques de ces études. Il lui sera demandé d'attester de son état de santé et de fournir un certificat médical.
+
+## 1.3  Structure générale des études
+
+Les  études  de  BSc  sont  composées d'unités  d'enseignement  (UE) telles  que  les  cours,  les séminaires, les exercices, les workshops, les cours avec travaux pratiques, etc. À chaque UE est associé  un  nombre  de crédits  ECTS (European  Credit  Transfer  System) .  Les  études  de  BSc requièrent l'acquisition de 180 crédits ECTS (correspondant à 6 semestres d'études à plein temps ).
+
+Les études de BSc-Sport-E se composent d'une branche principale de 120 ECTS et d'une branche complémentaire de 60 ECTS. La branche principale se compose en première année des UE de la partie scientifique et pratique -méthodologique. Ces UE de la première année sont complétées dans les deux années suivantes par de nombreux cours dans le domaine des sciences du sport et de la motricité. Pour cette option enseignement, l'étudiant -e choisira une branche complémentaire inscrite au catalogue des branches enseignables au degré secondaire I ou II.
+
+Le plan d'études prévoit des UE sous diverses formes :
+
+- Les cours initient  à  la  rigueur  et  à  la  démarche  scientifique.  Ils  permettent  d'acquérir  les connaissances nécessaires et de comprendre les concepts fondamentaux.
+- Les séminaires aident  à  approfondir,  travailler  et  appliquer  la  théorie.  Les  étudiant-e-s reçoivent de la documentation sur des sujets ou des thèmes spécifiques et ils préparent des présenta tions. L'objectif est d'approfondir la théorie, mais aussi d'acquérir la méthode pour se familia riser de façon indépendante avec un thème afin d'effectu er des recherches documentaires et apprendre l'enseignement didactique de la technique de présentation.
+- Les workshops ont  pour  but  de  renforcer  l'articulation  théoriepratique  au  travers  de collaborations entre scientifiques et praticiens du sport. Sur la base des éclairages théoriques l'étudiant -e se verra confier un travail d'observation et d'analyse de comportements mo teurs dans le cadre d'activités motrices choisies.
+- Les cours avec travaux pratiques portent sur l'étude et la pratique des activités physiques et sportives (APS) appartenant aux différents domaines d'action.
+
+## 1.4  Compétences acquises
+
+Avec l'obtention d'un BSc en sciences du sport et de la motricité , l'étudiant -e aura consolidé ses  bases  scientifiques  et  acquis  une  connaissance  générale  et  une  vision  large  de  sa  branche principale. Il aura développé une faculté de synthèse et une pensée critique qui lui permettront d'aborder des études approfondies ou une spéciali sation dans son domaine.
+
+Avec l'acquisition d'une branche complémentaire dans le cadre de son BSc, l'étudiant -e aura développé une ouverture à l'interdisciplinarité, lui facilitant à l'avenir le dialogue et la collabo -ration avec des spécialistes d'autres disciplines.
+
+Grâce à une formation bilingue intégrée, l'étudiant -e aura enrichi son vocabulaire spécifique dans deux langues et acquis la capacité de dialoguer, dans ses branches d'études, avec des spé cialistes aussi bien en français qu'en allemand.
+
+## 1.5  Évaluation des unités d'enseignement (UE) et acquisition des crédits ECTS
+
+L'acquisition des crédits ECTS passe par trois étapes : l'évaluation des UE, le regroupement des UE en paquets de validation et la validation des crédits ECTS. D'une manière générale, chaque unité d'enseignement (UE) est évaluée individuellement.
+
+L'évaluation des cours, des séminaires et des cours avec travaux pratiques se fait par des épreuves orales, écrites ou pratiques. Les modalités d'examen et la durée des épreuves sont fixées dans l'annexe au plan d'études Modalités d'évaluation des UE des sciences du sport . L'évaluation des exercices, des travaux pratiques et des workshops se fait suivant des critères (nombre de rapports rendus, travail écrit, exposé, etc.) communiqués en début de semestre. Un résultat suffisant de l' évaluation des exercices, des travaux pratiques et des workshops est exigé pour être admis à l'épreuve du cours correspondant.
+
+Les épreuves se déroulent durant trois sessions d'examens ( hiver , été, automne) à l'exception des épreuves pratiques, évaluées en principe à la fin du cours. L'étudiant -e, sauf autorisation spéciale, doit s'être présenté -e à l'épreuve du cours de niveau II avant de suivre le cours de niveau III.
+
+Pour chaque épreuve, l'étudiant -e s'inscrit dans les délais prescrits au Décanat de la Faculté des sciences et médecine par l'intermédiaire du portail d' étudiant-e-s MyUniFR (https://my.unifr.ch). L'épreuve  porte  sur  la  matière  de  l'UE  telle  qu'elle  a  été  enseignée  la  dernière  fois.  En  cas d'exception, celle -ci sera communiquée par le Département et/ou par l'enseignant -e responsable. L'échelle des notes s'étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois au plus tôt lors de la session d'examens suivante.
+
+Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément. Le nombre de paquets est fixé par l'Art . 24 et 27 du Règlement et leur contenu est précisé par ce plan d'études.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du Règlement.
+
+Après validation , sur demande de l'étudiant -e et après paiement de la taxe d'examen, un relevé de prestations indiquant les résultats des évaluations et le nombre de crédits acquis sera délivré par le Décanat (Art. 28 et 30 du Règlement).
+
+## 1.6  Langues d'enseignement
+
+Les études de BSc sont bilingues français-allemand. Cela signifie que certains enseignements sont donnés  en  français  et  d'autres  en  allemand,  au  choix  de  l'enseignant -e. Toutefois,  l'étudiant -e  a toujours  la  possibilité  de  s'exprimer  dans  l'une  ou  l'autre  de  ces  langues.  Les  examens,  les présentations et les travaux écrits peuvent être effectués, au choix, en français ou en allemand.
+
+## 1.7  Ethique scientifique
+
+Les principes d'éthique font partie intégrante de la formation scientifique. Les règles internatio -nalement  admises  doivent  être  respectées  lors  de  l'élaboration  et  la  rédaction  de  tout  travail scientifique (projet, séminaire, rapport, etc.). En particulie r,  toute source externe d'information (articles, communications orales, page web, etc.) doit être correctement citée.
+
+## 1.8  Règlements et informations complémentaires
+
+De plus amples informations sur les études en sciences du mouvement et du sport se trouvent dans les documents sur la page https://www.unifr.ch/scimed/plans . Ils sont également disponibles sur le  site  web  de  la  section  Médecine  ( https://www.unifr.ch/med/fr/)  ainsi  qu ' au  Secrétariat  des sciences du mouvement et du sport, Université de Fribourg, Bd de Pérolles 90, CH-1700 Fribourg.
+
+## 2 Bachelor of Science (BSc-Sport-E)
+
+[Version 2023, paquets de validation : PV-SSP.0000074, PV-SSP.0000075, PV-SSP.0000076, PV-SSP.0000077]
+
+Le programme du BSc-SportE s'étend sur 3 ans d'études à plein temps et équivaut à 180 crédits ECTS.  Il  comprend  la  branche  principale  à  120  crédits  ECTS  en  sciences  du  sport  et  de  la motricité, répartis en quatre paquets de validation distincts, et une branche complémentaire à 60 crédits ECTS.
+
+## 2.1  La première année d'études
+
+Un des buts poursuivis en première année d'études en sciences du sport et de la motricité est d'assurer la meilleure transition possible entre le gymnase et l'Université. Afin de permettre à l'étudiant -e de pouvoir vérifier ses capacités et bien s'assurer de son intérêt pour ce tte option, les UE de cette année ont été regroupées en deux paquets de validation :
+
+- 1) Formation scientifique 1 (42 ECTS ; PV-SSP.0000074)
+- 2) Formation pratique-méthodologique 1 (19 ECTS ; PV-SSP.0000075)
+
+Ces  deux  premiers  paquets  de  validation  sont  identiques  à  ceux  du  BSc-Sport  option  santéperformance-recherche.
+
+## 2.1.1  Unités d'enseignement : paquet de validation « formation scientifique 1 » (BSc1a)
+
+| Code       | Unité d'enseignement                                               | Semestre   |   h. tot. |   ECTS |
+|------------|--------------------------------------------------------------------|------------|-----------|--------|
+|            | Formation scientifique                                             |            |           |        |
+| SMO.00630  | Anatomie descriptive                                               | SA         |        28 |      3 |
+| SPY.00110  | Physiologie et physiopathologie des grandes régulations, partie I  | SA         |        28 |      3 |
+| SPY.00111  | Physiologie et physiopathologie des grandes régulations, partie II | SP         |        28 |      3 |
+| SSP.00600  | Psychologie du sport (cours)                                       | SA         |        28 |      3 |
+| SSP.00604  | Psychologie du sport (séminaire)                                   | SA         |        28 |      3 |
+| SSP.00625  | Systèmes sensoriels et perception (cours)                          | SP         |        28 |      3 |
+| SSP.00626  | Systèmes sensoriels et perception (workshop)                       | SP         |        14 |      2 |
+| SSP.00700  | Théorie de l'apprentissage et du contrôle moteur I (cours)         | SA         |        28 |      3 |
+| SSP.00702  | Théorie de l'apprentissage et du contrôle moteur I (séminaire)     | SP         |        28 |      3 |
+| SSP.00760  | Biomécanique du mouvement I (cours)                                | SP         |        28 |      3 |
+| SSP.00765  | Biomécanique du mouvement I (workshop)                             | SP         |        14 |      2 |
+| SSP.00770  | Anatomie fonctionnelle spécifique au sport (cours)                 | SP         |        28 |      3 |
+| SSP.00772  | Anatomie fonctionnelle spécifique au sport (workshop)              | SP         |        14 |      2 |
+| SSP.00792  | Méthodes quantitatives de recherche, cours de base                 | SA         |        28 |      3 |
+| SSP.00793  | Introduction au travail scientifique (séminaire)                   | SA         |        28 |      3 |
+| Total ECTS |                                                                    |            |           |     42 |
+
+## 2.1.2  Unités d'enseignement : paquet de validation « formation pratiqueméthodologique 1 » (BSc1b)
+
+| Code       | Unité d'enseignement                       | Semestre      | h. tot.       |   ECTS |
+|------------|--------------------------------------------|---------------|---------------|--------|
+|            | Formation pratique-méthodologique          |               |               |        |
+| SSP.00780  | * Approche systémique du jeu               | SA            | 14            |      1 |
+| SSP.00789  | * Approche théorique des sports de neige § | SA            | 14            |      1 |
+| SSP.00801  | *Basketball I                              | SA            | 28            |      1 |
+| SSP.00807  | *Basketball II                             | SP            | 28            |      2 |
+| SSP.00812  | * Gymnastique aux agrès I                  | SA            | 28            |      1 |
+| SSP.00813  | *Gymnastique aux agrès II                  | SP            | 28            |      2 |
+| SSP.00825  | * Natation sportive I                      | SA            | 28            |      1 |
+| SSP.00821  | * Natation sportive II §§                  | SP            | 28            |      2 |
+| SSP.00831  | *Athlétisme I                              | SA            | 34            |      1 |
+| SSP.00832  | *Athlétisme II                             | SP            | 34            |      2 |
+| SSP.00834  | * Ski alpin §§§                            | Hors sem., 7j | Hors sem., 7j |      2 |
+| SSP.00836  | Snowboard §§§                              | Hors sem., 7j | Hors sem., 7j |      2 |
+| SSP.00851  | * Fitness en musique I                     | SA            | 28            |      1 |
+| SSP.00852  | * Fitness en musique II                    | SP            | 28            |      2 |
+| Total ECTS | Total ECTS                                 |               |               |     19 |
+
+§ La validation du cours SSP.00789 est une condition d'accès à l'examen théorique des cours SSP.00834, SSP.00836  et  SSP.00837.  Il  est  donc  vivement  conseillé  de  suivre  ce  cours  en  parallèle  des  cours SSP.00834, SSP.00836 ou SSP.00837.
+
+§§ L'obtention du Brevet I ou du « Brevet plus pool » de la société suisse de sauvetage est une condition requise pour se présenter aux épreuves d'examens de l'UE SSP.00821.
+
+§§§   Le ski alpin peut être remplacé par le snowboard comme UE obligatoire pour le DAES I ou le DEEM.
+
+Remarque :  Les  unités d'enseignement précédées d'un astérisque « * »  sont obligatoires pour ceux qui se destinent à l'enseignement dans les écoles du degré secondaire I ou II.
+
+## 2.1.3  Contenu des UE de la première année
+
+## 2.1.3.1  Formation scientifique
+
+- Le cours d' Anatomie descriptive (SMO.0 0630) aborde l'étude du squelette et des systèmes locomoteur, circulatoire, respiratoire et digestif.
+- Le cours Physiologie et physiopathologie des grandes régulations, parties I et II (SPY.00110, SPY.00111),  donné  sur  deux  semestres,  traite  des  grands  systèmes  fonctionnels  du  corps humain (généra lités, cardiovasculaire, rénal, respiratoire, digestif et endocrinien) sous l'angle des mécanismes  de  régulation physiologique, avec une introduction à des situations physiopathologiques.
+- La Psychologie du sport (SSP.00600) présente les déterminants motivationnels de la performance ainsi que les facteurs émotionnels susceptibles de l'altérer. Spécifiquement, l'objectif est de fournir des bases théoriques permettant de mieux comprendre les origines du comportement (besoins, désirs, buts, objectifs) et de savoir repérer et traiter les éventuels obstacles motivationnels et/ou émotionnels à l'apprentissage et à la performance.
+- Le cours des Systèmes sensoriels et perception (SSP.00625) présente les organes sensoriels et les  structures  nerveuses  qui  soustendent  notre  perception  de  l'espace  et  des  déplacements relatifs entre le corps et l'environnement. L'accent est mis sur l'ensemble des processus qui conduisent de la détection et 'transduction' de signaux 'physiques' à notre perception et nos représentations du monde qui nous entoure.
+- Le  cours  de Théorie de l'apprentissage et du  contrôle  moteur  I (SSP.00700)  traite principalement des différentes catégories,  courants,  stades  et  stratégies  d'apprentissage,  des
+
+conduites-types des individus face à des situations sportives nouvelles, des facteurs influençant l'apprentissage moteur.
+
+- Le cours de Biomécanique du mouvement I (SSP.00760) comprend les notions fondamentales de  la  biomécanique  relatives  à  l'étude  des  habiletés  motrices  dans  différents  sports.  Les éléments de base de physique sont introduits selon les besoins.
+- Le cours d' Anatomie fonctionnelle spécifique au sport (SSP.0 0770) aborde l'étude fonctionnelle (mobilité-stabilitécontraintes) des unités corporelles sollicitées dans l'exécution de tâches motrices.
+- Le  cours Méthodes  quantitatives  de  recherche,  cours  de  base (SSP.00792)  présente  les différents outils et méthodes permettant de résumer / synthétiser des données et d'établir des liens entre des variables. Un accent tout particulier est mis sur les relations entre les différents types de variables et d'échelles, et les représentations gra phiques, indices de tendance et indices de dispersion auxquelles elles renvoient. Le cours présente également les méthodes et indices permettant de mesurer la liaison entre deux variables.
+- Le  séminaire Introduction  au  travail  scientifique (SSP.00793)  a  pour  but  de  fournir  à l'étudiant -e les connaissances et les outils nécessaires à la rédaction d'articles scientifiques et celles des travaux.
+
+## 2.1.3.2  Formation pratique - méthodologique
+
+Les cours  avec  travaux  pratiques portent  sur  l'étude  technique  et  la  pratique  des  activités physiques et sportives (APS) appartenant aux différents domaines d'action.
+
+Les objectifs prioritaires d'apprentissage sont :
+
+- le développement de la relation à soi, aux autres et à l'environnement par la pratique des activités physiques et sportives ;
+- l'analyse des habiletés motrices par l'utilisation de concepts, de modèles d'analyse ;
+- l'acquisition de compétences technique, tactique, sociale et personnelle propre à chaque APS ;
+- la connaissance des règlements, des mesures de prévention et de sécurité régissant la pratique des sports étudiés.
+- Pour chaque UE, un descriptif détaillé, en particulier des objectifs d'apprentissage, est dispo -nible dans le programme de cours (https://www.unifr.ch/timetable).
+
+## 2.2  La deuxième et la troisième année d'études
+
+Les UE de la 2 e et 3 e année d'études de la branche principale sont regroupées en deux paquets de validation :
+
+- 1) Formation scientifique 2 (23 ECTS ; PV-SSP.0000076)
+- 2) Formation pratique-méthodologique 2 (36 ECTS ; PV-SSP.0000077)
+
+Durant la 2 e et la 3 e année d'études, à côté des UE de la branche principale, l'étudiant-e devra aussi suivre les UE de la branche complémentaire à 60 crédits ECTS qu'il ou elle a choisie.
+
+Les évaluations de toutes ces UE sont distribuées sur les 2 ans. Il appartient à chacun-e de les répartir régulièrement dans le temps afin de pouvoir terminer les études de BSc dans les 3 ans prévus.
+
+## 2.2.1  Unités d'enseignement : paquet de validation « formation scientifique 2 » (BSc2a)
+
+| Code       | Unité d'enseignement                               | Semestre   | h. tot.    |   ECTS |
+|------------|----------------------------------------------------|------------|------------|--------|
+|            | Formation scientifique                             |            |            |        |
+| SSP.00610  | Physiologie de l'exercice physique (cours)         | SA         | 28         |      3 |
+| SSP.00613  | Physiologie de l'exercice physique (workshop)      | SA         | 14         |      2 |
+| SSP.00640  | Introduction à la pédagogie du sport               | SA         | 28         |      3 |
+| SSP.00710  | Théorie des principes d'entraînement I (cours)     | SA         | 28         |      3 |
+| SSP.00712  | Théorie des principes d'entraînement I (séminaire) | SP         | 28         |      3 |
+| SSP.00740  | Sociologie du sport (cours)                        | SP         | 28         |      3 |
+| SSP.00741  | Sociologie du sport (séminaire)                    | SP         | 28         |      3 |
+| SSP.00754  | Santé, traumatologie et prévention en sport        | SA         | 28         |      3 |
+| Total ECTS | Total ECTS                                         | Total ECTS | Total ECTS |     23 |
+
+En 2 e année, l'étudiant -e peut commencer à suivre certaines UE d'une branche complémentaire de 60 crédits ECTS. Ces UE proposées par le ou les départements concernés sont spécifiées dans les Plans d'études des branches complémentaires (voir http://www.unifr.ch/scimed/fr/plans/minor). L'étudiant -e doit s'informer suffisamment tôt sur le program me afin de pouvoir établir au mieux l'horaire des UE de la branche complémentaire.
+
+## 2.2.2  Unités d'enseignement : paquet de validation « formation pratiqueméthodologique 2 » (BSc2b)
+
+L'étudiant -e choisit 36 crédits ECTS parmi les UE du tableau ci-dessous.
+
+## Remarques :
+
+- Les  UE  précédées  d'un  astérisque  sont obligatoires  pour  ceux  qui  se  destinent  à l'enseignement dans les écoles du secondaire I ou II .
+- Pour les UE à choix, si  le nombre de participants est jugé insuffisant, la direction des sciences du mouvement et du sport se réserve le droit d'annuler le cours.
+
+Plan d'études du BSc en sciences du sport et de la motricité, option enseignement
+
+| Code       | Unité d'enseignement                          | Semestre      | h. tot.       |   ECTS |
+|------------|-----------------------------------------------|---------------|---------------|--------|
+|            | Formation pratique-méthodologique             |               |               |        |
+| SSP.00788  | *Approche sécuritaire des pratiques sportives | SP            | 28            |      2 |
+|            | Domaine des sports collectifs et jeux         |               |               |        |
+| SSP.00800  | Badminton §                                   | SA            | 28            |      2 |
+| SSP.00802  | Uni-hockey §                                  | SP            | 28            |      2 |
+| SSP.00803  | Football §                                    | SP            | 28            |      2 |
+| SSP.00804  | * Volleyball I                                | SA            | 28            |      1 |
+| SSP.00805  | * Volleyball II                               | SP            | 28            |      2 |
+| SSP.00808  | Futsal                                        | SA            | 28            |      2 |
+| SSP.00809  | Handball §                                    | SP            | 28            |      2 |
+| SSP.00816  | * Patinage et initiation au hockey sur glace  | SA            | 28            |      2 |
+| SSP.00817  | Hockey sur glace                              | SA            | 28            |      2 |
+| SSP.00818  | Tennis de table §                             | SA            | 28            |      2 |
+| SSP.00838  | Jeux d'autres cultures §                      | SP            | 28            |      2 |
+|            | Domaine de l'expression corporelle            |               |               |        |
+| SSP.00819  | * Danse populaire I                           | SA/SP         | 28            |      2 |
+| SSP.00824  | Danse populaire II                            | SP            | 28            |      2 |
+| SSP.00826  | * Expression par le mouvement                 | SA/SP         | 28            |      2 |
+|            | Domaine de la gymnastique aux agrès           |               |               |        |
+| SSP.00815  | * Gymnastique aux agrès III                   | SA            | 28            |      2 |
+| SSP.00857  | Équilibre et acrosport                        | SP            | 28            |      2 |
+|            | Domaine de l'athlétisme                       |               |               |        |
+| SSP.00839  | * Athlétisme III                              | SP            | 28            |      2 |
+|            | Domaine de la natation                        |               |               |        |
+| SSP.00822  | * Natation sportive III                       | SA            | 28            |      2 |
+|            | Domaine des sports de neige                   |               |               |        |
+| SSP.00834  | * Ski alpin §§                                | Hors sem., 7j | Hors sem., 7j |      2 |
+| SSP.00836  | * Snowboard §§                                | Hors sem., 7j | Hors sem., 7j |      2 |
+| SSP.00837  | * Ski de fond §§                              | Hors sem., 7j | Hors sem., 7j |      2 |
+|            | Activités outdoor                             |               |               |        |
+| SSP.00833  | Course d'orientation                          | SP            | 28            |      2 |
+| SSP.00835  | Excursions à ski §                            | Hors sem.,    | 7j            |      2 |
+| SSP.00844  | Triathlon §                                   | Hors sem., 7j | Hors sem., 7j |      2 |
+| SSP.00846  | Trekking §                                    | Hors sem.,    | 7j            |      2 |
+| SSP.00855  | Inline-skating §                              | SP            | 28            |      2 |
+|            | Autres                                        |               |               |        |
+| SSP.00814  | Escalade sportive §                           | SP            | 28            |      2 |
+| SSP.00845  | Massage sportif §                             | SA            | 28            |      2 |
+| SSP.00854  | Judo                                          | SA            | 28            |      2 |
+| Total ECTS | Total ECTS                                    |               |               |     36 |
+
+## 2.2.3 Contenu des UE de la 2 e  et de la 3 e  année
+
+## 2.2.3.1  Formation scientifique
+
+- Le cours de Physiologie de l'exercice physique (SSP.00610) traite du système neuromusculaire et  des  principaux  facteurs  de  la  production  de  force,  du  métabolisme  énergétique  et  de  la régulation hormonale, des systèmes cardiovasculaire et respiratoire, et aborde leurs adaptations à l'exercice et à l'entraînem ent.
+- La  pédagogie  du  sport  porte  sur  les  relations  entre  les  activités  physiques  et  sportives  et l'éducation. Ce cours d' Introduction à la pédagogie du sport (SSP.00640) présente les bases théoriques d'une pratique sportive éducative. Il puise dans les sciences de l'éducation au sens large pour dégager des méthodes d'enseignement les plus pertinentes et les plus adaptées à l'éducation physique.
+- La Théorie  des  principes  d'entraînement I (SSP.00710)  aborde  les  notions  de  bases  des paramètres de la performance en vue d'une planification générale d'entraînement.
+- Le séminaire Théorie des principes d'entraînement I (SSP.00712) aborde les déterminants de la performance en relation avec la planification et le suivi d'entraînements personnels.
+- La Sociologie du sport (SSP.00740) traite  du  sport  et  ses  enjeux  identitaires,  des  pratiques sporti ves en regard avec l'évolution des classes sociales, de l'histoire des jeux en sport, des valeurs  et  des  idéologies  dans  les  JO,  de  l'idéal  sportif  au  dopage  de  l'individu,  du  sport moderne et des pratiques « fun », des pratiques interculturelles, du pro cessus d'identification au champion, du sport en regard avec nos civilisations.
+- Le cours de Santé, traumatologie et prévention en sport (SSP.00754) aborde dans une première partie la notion de santé, sa relation avec l'activité physique, et les recommandations actuelles en matière d'activité physique. Dans une deuxième part ie,  le  cours  présente  les  principales blessures inhérentes à la pratique sportive, leurs causes et les traitements approprié (y compris les interventions d'urgence), et sensibilise sur les mesures générales de prévention à mettre en œuvre.
+
+## 2.2.3.2  Formation pratique - méthodologique
+
+Les cours avec travaux pratiques portent sur l'étude et la pratique des activités physiques et sportives (APS) appartenant aux différents domaines d'action.
+
+Les objectifs prioritaires d'apprentissage sont :
+
+- le développement  de  la  relation  à  soi,  aux  autres  et  à  l'environnement  par  la  pratique  des activités physiques et sportives ;
+- l'analyse des habiletés motrices par l'utilisation de concepts, de modèles d'analyse ;
+- l'acquisition de compétences technique, tactique, sociale et personnelle propre à chaque APS ;
+- la connaissance des règlements, des mesures de prévention et de sécurité régissant la pratique des sports étudiés ;
+- Pour  chaque  UE,  un descriptif détaillé est disponible dans le  programme  de  cours (http://www.unifr.ch/timetable ) avec en particulier un descriptif des objectifs d'apprentissage.
+
+## 2.3  Examens et validation du BSc-Sport-E
+
+Le paquet de validation BSc1a (PV-SSP.0000074) regroupe l'ensemble des UE de la formation scientifique de la première année et donne droit à 42 crédits ECTS.
+
+Le paquet de validation BSc1b (PV-SSP.0000075) regroupe l'ensemble des UE de la formation pratique-méthodologique de la première année et donne droit à 19 crédits ECTS. Pour que le paquet BSc1b soit validé, il faut en outre que les cours SSP.00789, SSP.00812, SSP.00825 et SSP.00831 aient été jugés comme réussis.
+
+Le paquet de validation BSc2a (PV-SSP.0000076) regroupe les UE de 2 e et  3 e années de la formation scientifique de la branche principale et donne droit à 23 crédits ECTS.
+
+Le paquet de validation BSc2b (PV-SSP.0000077) regroupe les UE de 2 e et  3 e années de la formation pratique-méthodologique de la branche principale et donne droit à 36 crédits ECTS. Lorsque l'étudiant -e a comptabilisé trop de crédits de la formation pratique-méthodologique pour la  validation de son paquet, les crédits excédentaires seront transférés dans un autre paquet de validation selon l'ordre chronologique des dates d'examen, pour autant qu'un tel autre paquet le permette.
+
+Le paquet de validation de la branche complémentaire est évalué suivant le plan d'études de cette branche. Il donne droit à 60 crédits ECTS. Une branche complémentaire non réussie peut être remplacée par une autre branche complémentaire.
+
+## Paquets de validation
+
+|                        | Branche principale « sport » (120 ECTS)                                                                                 | Branche complémentaire (60 ECTS)                                             |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| 1 e année              | Paquet de validation BSc1a Formation scientifique 1 (42 ECTS) Paquet de validation BSc1b Formation pratique 1 (19 ECTS) |                                                                              |
+| 2 e année et 3 e année | Paquet de validation BSc2a Formation scientifique 2 (23 ECTS) Paquet de validation BSc2b Formation pratique 2 (36 ECTS) | Paquet de validation Branche complémentaire Branche complémentaire (60 ECTS) |
+
+La validation des paquets BSc1a, BSc1b, BSc2a, BSc2b et de la branche complémentaire donne droit  au  titre  de Bachelor  of  Science  en  sciences  du  sport  et  de  la  motricité,  option enseignement, Université de Fribourg (BSc) .

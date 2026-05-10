@@ -1,0 +1,126 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T02:13:21.451Z",
+  "title": "Philosophy_Master_90_English_Language_and_Literature_Studienplan_MA_Vertiefungsprogramm_60_ECTS__bd7e724e25e48337c3dc699f1226a58431b092a3",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "bd7e724e25e48337c3dc699f1226a58431b092a3",
+  "program_key": "philosophy|master|90|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "English Language and Literature",
+  "doc_label": "Studienplan MA Vertiefungsprogramm (60 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_pa_as_2010_d.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_English_Language_and_Literature_Studienplan_MA_Vertiefungsprogramm_60_ECTS__bd7e724e25e48337c3dc699f1226a58431b092a3.pdf",
+  "sha256": "519f880032c354109b16b06f7aa3f2e2c032783295c9eff42b5dc2b46bff8a10",
+  "fetched_at": "2026-04-03T11:31:25.894Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_pa_as_2010_d.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "ma_pa_as_2010_d.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Universität Freiburg
+
+## Philosophische Fakultät Departement für Sprachen und Literaturen Studienbereich Englisch
+
+Master of Arts in Sprachen und Literaturen
+
+## Vertiefungsprogramm (60 Kreditpunkte) Englische Sprache und Literatur
+
+## Studienplan
+
+Die Verleihung eines Master-Titels in Englischer Sprache und Literatur  erfordert  den  Erwerb  von  60  ECTS  Kreditpunkten  im  Rahmen des Vertiefungsprogramms. Hinzu kommt die Anfertigung und Verteidigung  einer  Abschlussarbeit  über  ein  geeignetes  Thema.  Der Arbeitsaufwand,  der  zur  Anfertigung  und  Verteidigung  der  Abschlussarbeit benötigt wird, entspricht 30 ECTS Kreditpunkten.
+
+Das vorliegende Dokument beschreibt die Organisation des Vertiefungsprogramms  in  Englischer  Sprache  und  Literatur.  Es  enthält keine  Detals  über  Ergänzungs-  oder  Nebenprogramme.  Diese  sind in separaten Dokumenten beschrieben.
+
+## I. Allgemeines
+
+## I.1 Einführung in den Studienplan
+
+Dieses Programm bietet Studierenden die Möglichkeit, ihr Wissen in allen Bereichen der Anglistik zu erweitern und vertiefen: Englischsprachige  Literatur, Englische Linguistik,  und Englische  Philologie.  Das  M.A.  Programm  legt  besonderen Wert  auf  Techniken  wissenschaftlichen  Arbeitens,  die  Geschichte der Kritik, sowie auf neue Methoden, und geht dabei ein  auf  die  spezifischen  Gegebenheiten  der  Anglistik.  Im Bereich  der  englischen  Linguistik  lernen  Studierende,  die Sprache  wissenschaftlich  zu  beschreiben  und  empirisch  zu analysieren  unter  Berücksichtigung  sowohl  intra-  als  auch interkultureller Dimensionen. In der Literaturwissenschaft setzen  Studierende  sich  auseinander  mit  den  Beziehungen zwischen  angloamerikanischen  Traditionen  und  denen  Kontinentaleuropas.  In  beiden  Fällen  wird  besonderes  Augenmerk gelegt auf eine fundierte Kenntnis des historischen Kontexts, um die Entwicklung einer  multikulturellen  Betrachtungsweise der  englischsprachigen  Zivilisation  in  ihrem  globalen  Zusammenhang und in all ihrer Vielfalt zu fördern.
+
+## I.2 Zulassungsvoraussetzungen
+
+Die Zulassung zum Vertiefungsprogramm in Englischer Sprache  und  Literatur  wird  ohne  weitere  Bedingungen  erteilt  an folgende Bewerber:
+
+- o Bewerber mit einem B.A. Abschluss in Englisch (Hauptfach/ Domaine I)
+- o Bewerber  mit  einem  B.A.  Abschluss  inklusive  eines Minimums  von  60  Kreditpunkten  in  Englischer  Sprache und Literatur (Nebenfach/ Domaine II)
+
+Bewerber, die keine dieser beiden Bedingungen erfüllen, können zugelassen werden durch die Entscheidung des Departementrats. In solchen Fällen kann von Bewerbern gegebenenfalls  erwartet  werden,  dass  sie  zusätzliche  Studienleistungen erbringen. Dieses kann entweder vor Beginn des Programms geschehen oder während des Programms.
+
+## I.3 Prüfungen und Anerkennung von Kreditpunkten
+
+ECTS  Kreditpunkte werden  ausschließlich auf  Grund  von Studienleistungen vergeben, die evaluiert und als ausreichend befunden wurden. Die Bewertung kann erfolgen für eine einzelne Lehrveranstaltung  (eine  Unterrichtseinheit  oder UE ) oder  für  eine  Gruppe  von  Lehrveranstaltungen  (Unterrichtseinheiten/ UEs ) innerhalb eines Moduls.
+
+Der  erfolgreiche  Abschluss  des  Vertiefungsprogramms  erfordert  die  Validierung  von  60  ECTS  Kreditpunkten.  Die  einem Modul zugerechneten Kreditpunkte werden an die Studierenden vergeben, sobald festgestellt ist, dass sie alle Studienziele erfüllt haben, die im Studienplan für das jeweilige Modul vorgesehen sind (siehe § II.1 unten).
+
+## I.4 Unterrichtssprache
+
+Die Unterrichtssprache ist Englisch.
+
+## II. Studienorganisation
+
+Das Programm besteht aus 5 Modulen zu je 12 ECTS Kreditpunkten. Studierende decken mit ihrer Modulwahl mindestens vier  der  folgenden  fünf  Bereiche  ab  und  wählen  das  Thema ihrer  Abschlussarbeit  (30  ECTS)  ebenfalls  aus  einem  dieser Bereiche:  Englische  Linguistik,  Englische  Philology,  Englische Literatur 1500-1780,  Englische Literatur  1780-Gegenwart, Amerikanische  Literatur.  Der  Studienplan  erlaubt  Spezialisierung durch die Doppelbelegung eines Moduls.
+
+## II.1  Module
+
+## Modul 1  - 12 ECTS Kreditpunkte Englische Linguistik
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+## Modul 2 - 12 ECTS Kreditpunkte Englische Philologie
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten
+
+## Modul 3 - 12 ECTS Kreditpunkte
+
+## Englische Literatur I (1500-1780)
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten. b/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten
+
+## Modul 4 - 12 ECTS Kreditpunkte Englische Literatur II  (1780-Gegenwart)
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten
+
+## Modul 5 - 12 ECTS Kreditpunkte Amerikanische Literatur
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten
+
+## Genauere Bestimmungen zu allen Leistungsnachweisen werden vom verantwortlichen Dozenten festgelegt und in Gestens beschrieben
+
+## III. Abschlussarbeit
+
+Die Abschlussarbeit soll zeigen, dass der Kandidat/die Kandidatin  vertraut  ist  mit  dem  Studienbereich,  für  den  er/sie  als Master-Studierende/r  immatrikuliert  ist.  Die  Kandidaten  sind dazu  verpflichtet,  eine  Bibliographie  anzufertigen,  geeignete Quellen für das Thema ihrer Arbeit zu identifizieren, diese in einer  kritischen  Zusammenschau  zu  werten  und  wesentliche Probleme herauszuarbeiten. Die Verteidigung bietet Gelegenheit,  die  gewählten  Methoden  und  Ansätze  zu  rechtfertigen und Fragen zu beantworten, die durch die Arbeit aufgeworfen werden. Darüber hinaus erlaubt die Verteidigung, das Wissen des Kandidaten/der Kandidatin in dem betreffeden Bereich zu prüfen.

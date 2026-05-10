@@ -1,0 +1,25 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-03T12:14:11.551Z",
+  "title": "Recueil systématique 511.310 Systematische Sammlung 1",
+  "pages": 3,
+  "reg_doc_key": "a275fc18407110a093c4288cf748ff119e22d7c6",
+  "tree": "Systematische Sammlung der universitären Statuten und Reglemente > 500 Vereinbarungen > 500.511 Vereinbarungen betreffend die Ausbildung - Ausländische Institutionen",
+  "spider_title": "Agreement between the Université de Fribourg – Universität Freiburg and North Georgia College and State University (USA) (EN)",
+  "document_page_url": "https://webapps.unifr.ch/legal/de/document/277242",
+  "pdf_url": "https://webapps.unifr.ch/legal/de/download/277242",
+  "local_path": "scrapy_crawler\\outputs\\reglementation_docs\\pdfs\\Agreement_between_the_Universit_de_Fribourg_Universit_t_Freiburg_and_North_Georgia_College_and_State_University_USA_EN__a275fc1840.pdf",
+  "sha256": "a529c4d93cab0f33af7848b42373fb0f5197872ba476ed862825f60b55062c56",
+  "fetched_at": "2026-04-03T12:10:45.469Z",
+  "notes": "pdf url from spider output"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+Recueil systématique 511.310 Systematische Sammlung 1
+
+---PAGE 2---
+Recueil systématique 511.310 Systematische Sammlung 2
+
+---PAGE 3---
+Recueil systématique 511.310 Systematische Sammlung 3

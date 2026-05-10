@@ -1,0 +1,190 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T05:15:14.395Z",
+  "title": "Philosophy_Master_90_Spanish_Studienplan_MA_90_ECTS_f6906b1ed40029c728a303e056aa321fcbb10015",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f6906b1ed40029c728a303e056aa321fcbb10015",
+  "program_key": "philosophy|master|90|spanish",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Spanish",
+  "doc_label": "Studienplan MA 90 ECTS",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Alem%C3%A1n/PLE_Espagnol_PA90_230301_DE.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/h2ehx",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Spanish_Studienplan_MA_90_ECTS_f6906b1ed40029c728a303e056aa321fcbb10015.pdf",
+  "sha256": "3200cfc1e3589a1cde60cb7c4362cf9fc005728c5eed2940405022092cea57ad",
+  "fetched_at": "2026-04-03T11:31:08.530Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Alem%C3%A1n/PLE_Espagnol_PA90_230301_DE.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENPLAN MASTER SPANISCH VERTIEFUNGSPROGRAMM (90 ECTS-PUNKTE) 2023
+
+## 1. Gesetzliche Grundlage
+
+Der vorliegende Studienplan basiert auf dem Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät [Bachelor/Master-Reglement vom 8. März 2018].
+
+## 2. Zulassungsbedingungen
+
+Für die Zulassung zum Masterstudium gelten die Grundsätze des Reglements über die Zulassung an die Universität Freiburg.
+
+## 2.1 Zulassung ohne zusätzliche Anforderungen
+
+Inhaber/innen  eines  universitären  Bachelorabschlusses  einer  schweizerischen  universitären Hochschule  werden  ohne  zusätzliche  Anforderungen  zum  Master-Vertiefungsprogramm  «Spanisch» zugelassen,  sofern  sie  mindestens  60  ECTS-Punkte  in  der  Studienrichtung  «Iberoromanische  SLW» erworben haben. Dasselbe Prinzip gilt für Inhaber/innen eines von der Universität Freiburg anerkannten und als gleichwertig eingestuften ausländischen universitären Bachelorabschlusses
+
+## 2.2 Zulassung mit Ergänzung
+
+Inhaber/innen eines schweizerischen oder eines ausländischen universitären Bachelorabschlusses, der von der Universität Freiburg anerkannt und als gleichwertig eingestuft wird, in einer der folgenden Studienrichtungen, können mit einer Ergänzung von höchstens 30 ECTS-Punkten (während des Masterstudiums zu absolvieren) zum Vertiefungsprogramm zugelassen werden: Deutsche SLW, Französische SLW, Italienische SLW, Rätoromanische SLW, Englische SLW, Slawische SLW, Klassische Philologie, Romanische Philologie (z. B. Portugiesisch, Katalanisch, Rumänisch, usw.).
+
+## 2.3 Zulassung mit Vorstufe
+
+Inhaber/innen eines schweizerischen oder eines ausländischen universitären Bachelorabschlusses, der von der Universität Freiburg anerkannt und als gleichwertig eingestuft wird, in einer der Studienrichtungen gemäss der offiziellen Liste der CRUS, die nicht oben erwähnt wurde, sowie Inhaber/innen eines Bachelorabschlusses einer FH oder PH, können mit einer Vorstufe von höchstens 60 ECTS-Punkten zugelassen werden.
+
+## 3. Vorgezogenes Masterstudium
+
+Studierende, welche unmittelbar vor der Beendigung der Bachelorstudien im Departement für Spanisch an der Universität Freiburg stehen, können vorzeitig höchstens 30 ECTS-Punkte erhalten, die den für die Verleihung des Masterdiploms erforderlichen Leistungen entsprechen. Massgebend sind die in Art. 46 des Bachelor/Master-Reglements vom 8. März 2018 beschriebenen Bedingungen.
+
+## 4. Beschreibung des Programms
+
+Neben dem Masterexamen (30 ECTS-Punkte) besteht dieser Studienplan aus drei obligatorischen Modulen  und  einem  vierten  Modul,  das  aus  zwei  zur  Wahl  stehenden  Modulen  ausgewählt  wird (60 ECTS-Punkte).  Als  Freiburger  Besonderheit  ist  die  interkulturelle  Ausrichtung  der  Ausbildung hervorzuheben, die den Schwerpunkt auf die transatlantischen Beziehungen zwischen der spanischen Literatur und den lateinamerikanischen Literaturen legt. Die Universität Freiburg ist zudem die einzige in der Schweiz, die sich auf eine doppelte Perspektive aus Linguistik und Philologie spezialisiert hat. Darüber hinaus befasst sich dieses Studienprogramm mit den Verbindungen zwischen Gesellschaft und Literatur, indem es eine Brücke zwischen theoretischen Überlegungen und Literaturkritik schlägt, was einen  einzigartigen  Ansatz  unter  den  Masterprogrammen  in  Spanisch  an  den  uns  umgebenden Universitäten darstellt.
+
+Der Master in Spanisch (mit attestiertem Sprachniveau C2) kann den Zugang zur Ausbildung für den  Erhalt  des  LDM  (Lehrdiplom  für  Maturitätsschulen)  ermöglichen 1 .  Hervorragende  Resultate erlauben es, ein Doktoratsstudium zu absolvieren und eine akademische Karriere anzustreben.
+
+Ausserdem eröffnet diese Ausbildung zahlreiche weitere berufliche Möglichkeiten: Lehrtätigkeit an Privatschulen oder in Unternehmen; Schreibberufe wie Journalismus, Werbung oder Übersetzungswesen (literarische und technische Übersetzung); Tätigkeiten in der Buchindustrie (Edition, Administration  und  Verkauf)  oder  dem  Bibliothekswesen.  Darüber  hinaus  ist  die  Beherrschung  der spanischen  Sprache  ein  Vorteil  für  Berufe  in  den  Bereichen  Diplomatie,  Bankenwesen,  Hotel-  und
+
+1  Die genauen Zulassungsbedingungen entnehmen Sie bitte dem Reglement vom 29. April 2021 zur Erlangung des Lehrdiploms für Maturitätsschulen (LDM) und dem Ausführungsreglement vom 4. November 2021.
+
+Tourismusgewerbe, Öffentlichkeitsarbeit,  Dolmetscherwesen,  Kulturmanagement,  Museumswesen, internationale Organisationen, öffentliche und private Verwaltung, in Unternehmen  der neuen Technologien usw.
+
+Der  erfolgreiche  Abschluss  dieses  Studienplans  setzt  die  Validierung  von  60  ECTS-Punkten sowie die erfolgreiche Abfassung und Verteidigung der Masterarbeit (30 ECTS-Punkte) voraus, deren Thematik einen Bezug zum Inhalt des Studienplans aufweist. Es besteht ausserdem die Möglichkeit, auf Wunsch ein zusätzliches Programm zu 30 ECTS-Punkten zu absolvieren, sei es im Departement für Spanisch  ( Spezialisierungsprogramm  MA zu  30  ECTS-Punkten )  oder  in  einem  anderen  Departement (Nebenprogramm).
+
+## 5. Ausbildungsziele
+
+Der Studienplan hat eine Vertiefung der Ausbildung in den vier nachfolgenden Bereichen zum Ziel, deren Grundlagen der/die Studierende im Bachelor erworben hat:
+
+- -Kenntnis der verschiedenen hispanischen Literaturen in ihrem historischen und kulturellen Wandel wie auch hinsichtlich der gegenseitigen Beziehungen.
+- -Studium der spanischen Sprache in ihrer historischen Entwicklung und ihren Varietäten (in Spanien, in Lateinamerika, in den Vereinigten Staaten und in Afrika). Die Perspektive ist dabei zweiseitig und komplementär: philologisch und linguistisch.
+- -Untersuchung der literarischen und linguistischen Moderne: Die Entstehung von zwanzig unabhängigen Ländern und ihre Eingliederung in die Moderne  stellt zahlreiche untersuchungsmethodologische Herausforderungen dar, die systematischer Überlegungen bedürfen.
+- -Fachkompetenz  in  Dokumentation  und  Forschung  mit  dem  Ziel,  die  während  des universitären Studiums erhaltene Ausbildung im Berufsleben zu erweitern.
+
+Ein besonderes Augenmerk wird auf die verschiedenen Aspekte der Forschung gelegt, die aus der Komplexität und der Vielfalt eines Studienfeldes hervorgehen, das sich über drei Kontinente hinweg erstreckt  und  sehr  unterschiedliche  sprachliche  Traditionen,  Kulturen  und  Modalitäten  miteinander verbindet.  In  dieser  Hinsicht  wird  die  Rolle  der  Seminare  der  jeweiligen  Module  sowie  auch  der Masterarbeit als elementar erachtet.
+
+## 6. Beginn und Dauer des Studiums
+
+Das Studium kann sowohl im Herbstsemester als auch im Frühlingssemester begonnen werden. Das  Studium  des  Vertiefungsprogramms Spanisch führt  zum  Erwerb  des  Titels  Master  of  Arts  in Sprachen und Literaturen - Spanisch. Die Mindestdauer des Studiums beträgt 3 oder 4 Semester, die
+
+maximale  Dauer  9  oder  12  Semester,  abhängig  davon,  ob  das  Vertiefungsprogramm  durch  ein Spezialisierungsprogramm oder ein Nebenprogramm ergänzt wird.
+
+## 7. Studiensprache
+
+Die Unterrichtssprache ist Spanisch. Es besteht keine Möglichkeit, den Vermerk «zweisprachig» zu erhalten.
+
+## 8. Struktur des Studienplans
+
+Dieser Studienplan setzt sich zusammen aus drei obligatorischen Modulen, einem vierten Modul, das  aus  zwei  zur  Wahl  stehenden  Modulen  ausgewählt  wird  (60  ECTS-Punkte),  sowie  dem Masterexamen (30-ECTS-Punkte). Drei Module sind obligatorisch: das M1 ( Literaturas hispánicas en su  contexto  global ),  das  M3  ( Historia de  la  lengua )  und  das  M5  ( Literatura,  crítica  y  cultura ).  Der/Die Studierende wählt ein Modul aus den restlichen zwei aus: M2 ( Historia de las literaturas hispánicas ) oder M4 ( Lingüística española actual ).  Die  ersten  drei  Module (M1, M2 und M3) setzen sich zusammen aus zwei Vorlesungen (je 3 ECTS-Punkte) und einem Seminar (9 ECTS-Punkte). Das vierte Modul (M4) besteht aus einem  Seminar  und  bietet  die  Wahl  zwischen  zwei  Vorlesungen  oder  einer  Übung  (6  ECTS-Punkte). Schliesslich,  im  fünften  Modul  (M5),  müssen  eine  Vorlesung,  ein  Seminar  und  ein  Masterkolloquium (3 ECTS-Punkte) besucht werden. Jedes Modul ermöglicht somit die Validierung von 15 ECTS-Punkten.
+
+Die Unterrichtseinheiten eines Moduls können in unterschiedlichen Semestern absolviert werden. Die ECTS-Punkte, die dem vorgesehenen Arbeitsaufwand entsprechen, werden validiert, sobald der/die Studierende  die  Gesamtheit  der  im  jeweiligen  Modul  verlangten  Anforderungen  erbracht  hat.  Unter Vorbehalt besonderer Ausnahmefälle dauern die Unterrichtseinheiten ein Semester.
+
+## Übersichtstabelle
+
+Abkürzungsverzeichnis :
+
+M = Modul, C = Vorlesung, S = Seminar, E = Übung, Q = Kolloquium
+
+| Titel des Moduls   | Unterrichtseinheit (UE)   | ECTS UE   | ECTS Modul   |
+|--------------------|---------------------------|-----------|--------------|
+
+| Obligatorische Module:M1,M3 und M5. Wahlplichtmodul: M2 oderM4   | Obligatorische Module:M1,M3 und M5. Wahlplichtmodul: M2 oderM4                                                                                                                    | Obligatorische Module:M1,M3 und M5. Wahlplichtmodul: M2 oderM4   | Obligatorische Module:M1,M3 und M5. Wahlplichtmodul: M2 oderM4   |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| M1: Literaturas hispánicas en su contexto global                 | C: Literaturas iberoamericanas en relación I C: Literaturas iberoamericanas en relación II S: Problemas transnacionales en las letras hispanas                                    | 3 3 9                                                            | 15 ECTS                                                          |
+| M2: Historia de las literaturas hispánicas                       | C: Literatura española/latinoamericana en su contexto histórico I C: Literatura española/latinoamericana en su contexto histórico II S: El autor en su obra: estudio de textos    | 3 3 9                                                            | 15 ECTS                                                          |
+| M3: Historia de la lengua                                        | C: La lengua española en su evolución I C: La lengua española en su evolución II S: Prácticas de crítica textual                                                                  | 3 3 9                                                            | 15 ECTS                                                          |
+| M4: Lingüística española actual                                  | S: Análisis lingüístico del discurso Wählen zwischen: C: El sistema lingüístico: teorías y praxis I C: El sistema lingüístico: teorías y praxis II oder E: Investigación aplicada | 9 3 3 6                                                          | 15 ECTS                                                          |
+| M5: Literatura, crítica y cultura                                | C: Literatura, cultura y sociedad S: Problemas de teoría y crítica o Problemas de literatura Q: Coloquio de máster                                                                | 3 9 3                                                            | 15 ECTS                                                          |
+
+## Masterexamen (30 ECTS)
+
+## 9. Beschreibung der Module
+
+## M1: Literaturas hispánicas en su contexto global (15 ECTS-Punkte)
+
+Das  Modul,  das  zusammengesetzt  ist  aus  zwei  Vorlesungen  und  einem  Seminar,  soll  zum Nachdenken über gemeinsame Probleme Spaniens (und im weiteren Sinne der Iberischen Halbinsel) und Lateinamerikas anregen. Fiktionale und faktuale Erzählungen, Essays, Denkströmungen, Metropolen und andere Kulturstätten bilden den Interessenschwerpunkt der Vorlesungen Literaturas iberoamericanas en relación  I und II .  Das  Seminar Problemas  transnacionales  en  las  letras  hispanas widmet  sich  dem Studium einer klar definierten Auswahl an Texten zu dieser äusserst reichen und komplexen Problematik, die mit Genauigkeit und Präzision verstanden werden soll.
+
+## M2: Historia de las literaturas hispánicas (15 ECTS-Punkte)
+
+Dieses  Modul  besteht  aus  zwei  Vorlesungen  und  einem  Seminar.  Das  Ziel  der  Vorlesungen Literatura española/latinoamericana en su contexto histórico I und II ist es, die im Bachelor erhaltene Ausbildung  zu  vertiefen,  damit  eine  genügend  umfassende  und  solide  Kenntnis  der  spanischen  und hispanoamerikanischen Literatur erzielt werden kann, hinsichtlich der wichtigsten literarischen Epochen, Strömungen, Gattungen, Schulen und Generationen ihrer Geschichte. Das Seminar El autor en su obra: estudio de textos vermittelt die nötigen Werkzeuge, um die tatsächliche Bedeutung des Werkes eines bestimmten Autors/einer bestimmten Autorin innerhalb dieser Geschichte zu untersuchen.
+
+## M3: Historia de la lengua (15 ECTS-Punkte)
+
+Das  Studium  der  spanischen  Sprache  wird  in  diesem  Modul  aus  einer  diachronischen  und komparatistischen  Perspektive  behandelt,  anhand  der  Beziehungen  des  Spanischen  zu  den  anderen romanischen  Sprachen  vom  Mittelalter  an  bis  zur  Gegenwart.  Der/Die  Studierende  erhält  in  den Vorlesungen La lengua española en su evolución I und II umfassende und ausführliche Informationen zu den verschiedenen Etappen, Niveaus und multiplen Kontakten, welche die Geschichte dieser Sprache geprägt  haben.  Das  Ziel  des  Seminars Prácticas  de  crítica  textual ist  es,  den  Studierenden  alle notwendigen Fähigkeiten für die Analyse mittelalterlicher Texte zu vermitteln.
+
+## M4: Lingüística española actual (15 ECTS-Punkte)
+
+Da das Untersuchungsfeld sehr umfangreich ist und es von unzähligen Perspektiven aus erforscht werden kann, muss der/die Studierende ein Seminar besuchen und wahlweise zwei Vorlesungen oder die Übung Investigación  aplicada .  Ohne  die  Entwicklung  der  spanischen  Sprache  über  die  vergangenen Jahrhunderte hinweg zu vergessen, setzt dieses Modul (und in erster Linie die Vorlesungen El sistema lingüístico: teorías y praxis I und II ) den Akzent auf die aktuellen sprachlichen Strukturen und Varietäten sämtlicher spanischsprachigen Länder. Es wird dabei besonders berücksichtigt, dass die Kenntnis des kulturellen  und  historischen  Kontexts  für  das  Verständnis  und  die  Erklärung  der  beobachteten
+
+sprachlichen Phänomene vonnöten ist.
+
+Ausgehend von aktuellen Dokumenten und unter Verwendung von methodologischen Werkzeugen, die während des Semesters erworben werden, setzt sich das Seminar Análisis lingüístico del  discurso mit  der  Untersuchung  eines  bestimmten  Sprachtypen  oder  einer  sprachlichen  Varietät auseinander.  Falls  der/die  Studierende  die  Übung  wählt,  legt  er/sie  dem/der  Verantwortlichen  der Unterrichtseinheit ein Projekt zur angewandten Forschung vor und verfasst selbstständig eine schriftliche Arbeit über seine/ihre Forschung. Diese muss in Zusammenhang mit einem sprachlichen Untersuchungsgegenstand  des  aktuellen Spanisch stehen: kontrastive Linguistik, zeitgenössische Lexikologie, Sprachen in Kontakt, Neologismen, Sprachen und Medien usw. Die Lehrperson legt einen Abgabetermin für die Arbeit fest, sobald das Forschungsprojekt genehmigt wurde.
+
+## M5: Literatura, crítica y cultura (15 ECTS-Punkte)
+
+Dieses  Modul,  das  aus  einer  Vorlesung  ( Literatura,  cultura  y  sociedad ),  einem  Seminar ( Problemas de teoría y crítica o Problemas de literatura ) und einem Masterkolloquium besteht, widmet sich  den  Beziehungen  zwischen  Gesellschaft  und  Literatur,  indem  es  eine  Verbindung  zwischen Literaturkritik  und  theoretischen  Überlegungen  herstellt.  Besondere  Aufmerksamkeit  erhält  dabei  die Beziehung zwischen Literatur- und Sozialwissenschaften. Darüber hinaus soll das Seminar, das einmal alle zwei Jahre angeboten wird, die Studierenden mit den wichtigsten kritischen Methoden und aktuellen theoretischen Diskussionen rund um die Hispanistik vertraut machen.
+
+Das Kolloquium ist dem Projekt für die Masterarbeit gewidmet und befasst sich somit mit der dokumentarischen Grundlage, den Zielen und den Etappen der wissenschaftlichen Forschung, die den hispanischen Literatur- und Sprachwissenschaften eigen sind. Das Kolloquium wird durch die aktive Teilnahme  an  den  Sitzungen  und  durch  eine  mündliche  Präsentation  zum  Thema  der  persönlichen Recherche validiert (bestanden/nicht bestanden).
+
+## Masterexamen (30 ECTS-Punkte)
+
+Das Masterexamen umfasst die Masterarbeit und ihre Verteidigung. Die Masterarbeit behandelt eine Thematik mit Bezug zum Vertiefungsprogramm und einem seiner Kurse und/oder Seminare. Der Kandidat/Die Kandidatin muss in der Lage sein, die zur Thematik gehörenden Bibliografie und Quellen zusammenzutragen, daraus eine kritische Synthese zu machen und eine wissenschaftliche Fragestellung herauszuarbeiten.
+
+Die  mündliche  Verteidigung  dient  dazu,  die  verwendete  Methodologie  und  die  befolgte Vorgehensweise zu rechtfertigen, auf Fragen, welche die Masterarbeit aufwirft, einzugehen und, ganz generell, die eigenen Kenntnisse im betreffenden Forschungsgebiet aufzuzeigen. Das Masterexamen gilt als bestanden, wenn die Note für die Masterarbeit und die Note für die Verteidigung grösser oder gleich 4 sind.
+
+Alle Module  dieses Studienprogramms  und,  gegebenenfalls, das Spezialisierungsoder Nebenprogramm müssen vor der Verteidigung validiert sein. Wurde dem Kandidaten/der Kandidatin die Zulassung zur Verteidigung verweigert, darf er/sie die Masterarbeit überarbeiten. Wenn die Zulassung ein  zweites  Mal  verweigert  wird,  bedeutet  dies  ein  definitiver  Misserfolg  der  Masterarbeit.  Dasselbe Prinzip gilt für die mündliche Verteidigung, wenn die erhaltene Note ungenügend ist. Die spezifischen Bedingungen  für  die  Abgabe  und  die  Verteidigung  der  Masterarbeit  werden  im  Bachelor/MasterReglement vom 8. März 2018, Art. 55-61 und Art. 68, beschrieben.
+
+## 10. Mobilität
+
+Ein Studierender/Eine Studierende, der/die diesem  Studienprogramm  untersteht,  hat die Möglichkeit, ein Maximum von 18 ECTS-Punkten an einer anderen Universität zu erwerben (sei es über das  BeNeFri-Programm  oder  anderweitig).  Bezüglich  der  Anerkennung  der  Unterrichtseinheiten,  die während eines Austauschaufenthaltes oder im Rahmen von BeNeFri besuchten werden sollen, ist die vorherige Genehmigung des/der Verantwortlichen für das Studienprogramm in Form eines Studienvertrags (Learning agreement) erforderlich. Auf der Basis des Studienvertrags und der erbrachten Leistungen erkennt das Departement die erworbenen ECTS-Punkte an.
+
+## 11. Prüfung der Leistungen
+
+## 11.1 Prüfungen und Validierung
+
+Alle  Prüfungen  werden  benotet  (mit  Ausnahme  des  Kolloquiums,  das  mit  dem  Resultat «bestanden»  /  «nicht  bestanden»  validiert  wird).  Die  Vorlesungen  werden  in  der  Regel  mit  einem schriftlichen Examen von etwa 2 Stunden Dauer bewertet. Jede Lehrperson hat jedoch die Möglichkeit, ein  mündliches  Examen  oder  eine  Prüfung  durch  fortlaufende  Unterrichtseinheit  zu  organisieren;  in diesem Fall informiert sie die Studierenden zu Beginn der Vorlesungszeit darüber.
+
+Je nach Unterrichtseinheit oder behandelter Thematik sind für die Seminare und die Übungen unterschiedliche Validierungsverfahren möglich (zum Beispiel: mündliche Präsentation + schriftliche Hausarbeit,  Übungsdossier).  Eine  aktive  Beteiligung  wird  während  aller  Seminare  und  Übungen vorausgesetzt. Die Prüfung erfolgt für jede Unterrichtseinheit unabhängig: Es besteht keine Möglichkeit der Kompensation.
+
+Die regelmässige Teilnahme an den Seminaren ist obligatorisch. Mehr als drei ungerechtfertigte Absenzen haben einen Misserfolg dieser Lehrveranstaltung zur Folge (der/die Studierende muss somit eine neue gleichwertige Unterrichtseinheit besuchen). Der/Die Verantwortliche für das Studienprogramm entscheidet, ob die Absenzen gerechtfertigt sind.
+
+Damit eine Unterrichtseinheit besucht werden kann, ist eine Einschreibung in ebendiese über das
+
+geltende Informatiksystem notwendig. Genauso ist die Einschreibung in die Prüfung erforderlich, um zur Prüfung zugelassen zu werden. Die vom Dekanat angegebenen Fristen müssen dabei immer eingehalten werden.  Bezüglich  der  Seminare  ist  es  ausserdem  ratsam,  vor  Semesterbeginn  mit  der  Lehrperson Kontakt  aufzunehmen,  um  ein  Werk  vorzeitig  auswählen  zu  können  und  ein  eigenes  Exemplar  des Buches zu erwerben.
+
+Eine nicht bestandene Prüfung kann ein einziges Mal wiederholt werden. Der/Die Studierende muss  sich  für  diesen  zweiten  Versuch  erneut  einschreiben.  Ein  zweiter  Misserfolg  führt  zu  einem endgültigen Misserfolg der Unterrichtseinheit. Die Prüfung muss spätestens in der vierten Session, die auf die Einschreibung in diese Unterrichtseinheit folgt, bestanden werden, da ansonsten ein endgültiger Misserfolg  eintritt.  In  beiden  Fällen  bedeutet  ein  endgültiger  Misserfolg  der  Unterrichtseinheit,  dass der/die Studierende erneut eine Vorlesung oder ein Seminar für eine gleichwertige Unterrichtseinheit absolvieren  muss.  Zudem  hat  die  Abwesenheit  an  einer  Prüfung,  für  die  sich  der/die  Studierende eingeschrieben hat, einen Misserfolg zur Folge, unter Vorbehalt von höherer Gewalt. In diesem Fall ist er/sie dazu verpflichtet, das Sekretariat des Departements bis spätestens 7 Tage nach dem Prüfungsdatum schriftlich darüber zu unterrichten. Das Departement entscheidet, ob die Abwesenheit gerechtfertigt ist (Art. 19, Abs. 1 und 2 des Bachelor/Master-Reglements vom 8. März 2018).
+
+Die Frist für die Validierung (mit bestandenem Ergebnis) einer schriftlichen Seminararbeit ist für die Seminare, die im Herbstsemester belegt wurden, der 31. Januar des nächsten akademischen Jahres; für jene, die im Frühlingssemester belegt wurden, der 30. Juni des nächsten akademischen Jahres.
+
+## 11.2 Endgültiger Misserfolg
+
+Ein endgültiger Misserfolg des Masterexamens  oder  das  Überschreiten  der  maximalen Studiendauer  führen  zu  einem  endgültigen  Misserfolg  des  Studienprogramms  (Art.  48  und  61  des Bachelor/Master-Reglements vom 8. März 2018).
+
+## 11.3 Gesamtnote
+
+Die Validierung eines Moduls setzt den erfolgreichen Abschluss jeder einzelnen dazugehörigen Unterrichtseinheit durch den Studierenden/die Studierende voraus. Die Note des Moduls ist das Resultat des  arithmetischen  Durchschnitts  der  Noten  jeder  validierten  Unterrichtseinheit  im  Modul.  Die Gesamtnote des Programms entspricht dem arithmetischen Durchschnitt der Noten jedes der vier Module (60  ECTS-Punkte).  Die  Note  für  das  Masterexamen  wird  aus  dem  Durchschnitt  der  Noten  der Masterarbeit und der Verteidigung errechnet; die Note der Masterarbeit zählt doppelt.
+
+## 12. Inkrafttreten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt ab Beginn des Herbstsemesters 2023 in Kraft. Studierende, die ihr Spanischstudium an besagtem Semester aufnehmen, unterliegen diesem Studienplan ausnahmslos. Diejenigen  Studierenden,  die  ihr  Studium  im  Herbstsemester  2022  oder  im  Frühlingssemester  2023 begonnen haben, haben die Möglichkeit, ihr Studium unter dem alten Studienplan fortzusetzen oder vor Beginn  des  Frühlingssemesters  2024  zum  neuen  überzuwechseln.  Im  Herbstsemester  2026  müssen sämtliche Studierende, die einer alten Version des Studienplanes unterliegen, obligatorisch in den hier vorliegenden Studienplan überwechseln.

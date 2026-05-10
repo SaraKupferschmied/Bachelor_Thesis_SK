@@ -1,0 +1,588 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T04:12:54.783Z",
+  "title": "Philosophy_Bachelor_60_German_as_a_Foreign_Language_Praktische_Hinweise_BA_DaF_60_ECTS__de187ddb3891357b61d0665e5a4f0f2bc5bfd0bf",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "de187ddb3891357b61d0665e5a4f0f2bc5bfd0bf",
+  "program_key": "philosophy|bachelor|60|german as a foreign language",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "German as a Foreign Language",
+  "doc_label": "Praktische Hinweise BA DaF (60 ECTS)",
+  "source_url": "https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/DaF60_PraktischeHinweise_abHS2025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/multi/germanforeignlanguage",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_German_as_a_Foreign_Language_Praktische_Hinweise_BA_DaF_60_ECTS__de187ddb3891357b61d0665e5a4f0f2bc5bfd0bf.pdf",
+  "sha256": "03db31d58f8c6d2938453676a80fc94e57ce74cbcae71ac6803d1388fcddbc72",
+  "fetched_at": "2026-04-03T11:31:07.934Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/DaF60_PraktischeHinweise_abHS2025.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Studienjahr 2025/2026
+
+<!-- image -->
+
+im Nebenbereich [60] (ergänzend zum Studienplan gültig ab HS 2014)
+
+Stand: 16.07.2025, Original von C. Gick
+
+<!-- image -->
+
+| WILLKOMMEN IM DAF-STUDIUM!                                             |   4 |
+|------------------------------------------------------------------------|-----|
+| ERSTE SCHRITTE                                                         |   5 |
+| Sich informieren                                                       |   5 |
+| Veranstaltungen vor Semesterbeginn                                     |   5 |
+| Informationsmaterial                                                   |   5 |
+| Ansprechpersonen                                                       |   5 |
+| Studium planen                                                         |   5 |
+| Vorlesungszeiten und vorlesungsfreie Tage                              |   6 |
+| Studienberatung DaF                                                    |   6 |
+| INFRASTRUKTUR                                                          |   7 |
+| Elektronisches Vorlesungsverzeichnis                                   |   7 |
+| Studienportal MyUniFR                                                  |   7 |
+| Einschreibung in die Unterrichtseinheiten                              |   7 |
+| Annullierung von Einschreibungen in Unterrichtseinheiten               |   7 |
+| Einschreibungen für Examen & Annullierungen von Examenseinschreibungen |   8 |
+| Abmeldung vom DaF-Studium                                              |   8 |
+| Moodle - Die elektronische Lern-/Kurs-Plattform                        |   8 |
+| Bibliothek                                                             |   9 |
+| Elektronischer Speicherplatz für Ihre wichtigen Studienunterlagen      |   9 |
+| Deutschlernangebote der Universität Freiburg/Fribourg                  |   9 |
+| WIR SIND IM BA DAF [60] FÜR SIE DA                                     |  10 |
+| Ansprechpartnerin Sekretariat                                          |  10 |
+| Team DaF: Unterrichtende im BA DaF im Studienjahr 2025/26              |  10 |
+| ORGANISATION IHRES STUDIUMS IM BA DaF [60]                             |  12 |
+| Empfohlener Studienaufbau über 3 Jahre bei Beginn im HS25              |  12 |
+| Empfohlener Studienaufbau bei Beginn im FS26                           |  13 |
+| Empfohlener Studienaufbau über 2 Jahre, Beginn HS25                    |  14 |
+| SCHRIFTLICHE ARBEIT (SEMINARARBEIT) IM BA DAF (60)                     |  15 |
+| Inhalte und Ziele der Seminararbeit                                    |  15 |
+| Informationen zur Seminararbeit                                        |  15 |
+
+Termine und Fristen für die Seminararbeit
+
+15
+
+<!-- image -->
+
+| ÜBERSICHTEN BA DaF [60] ab HS 2025                                                                              |   18 |
+|-----------------------------------------------------------------------------------------------------------------|------|
+| Was ist wann bei wem im Angebot? Eine praktische Hilfe zur inhaltlichen und zeitlichen Planung des DaF-Studiums |   18 |
+| Wochenplanung Herbstsemester 2025                                                                               |   20 |
+| Wochenplanung Frühjahrssemester 2026                                                                            |   20 |
+
+<!-- image -->
+
+## WILLKOMMEN IM DAF-STUDIUM!
+
+## Liebe Studierende
+
+Herzlich willkommen im Bachelor Deutsch als Fremdsprache (DaF)!
+
+Sie haben sich entschieden, ergänzend zu Ihrem Hauptbereich mit 120 ETCS, das Fach Deutsch als Fremdsprache (DaF) im Nebenbereich zu studieren und damit Ihrem Bachelor ein spezielles Profil zu geben. Das freut uns!
+
+Mit diesem Dokument möchte ich Ihnen als Studienberaterin für die Bachelor-Programme in DaF helfen, Ihren Start ins DaF-Studium zu vereinfachen und Sie auf wichtige Aspekte aufmerksam machen. Bitte beachten Sie besonders diejenigen Informationen, die rot markiert sind.
+
+Ich freue mich darauf, Sie bald persönlich kennenzulernen, und wünsche Ihnen einen guten Start ins Studium und viel Erfolg und Freude!
+
+Elisabeth Möckli
+
+Studienberaterin BA DaF
+
+<!-- image -->
+
+## ERSTE SCHRITTE
+
+Bereiten Sie sich auf den Start ins Studium vor. Informieren Sie sich über Ihre verschiedenen Studienbereiche und erstellen Sie einen Plan dazu, in welchem Studienjahr Sie welche Lehrveranstaltungen besuchen werden.
+
+Wichtig: Nur wer die Studiengebühren bezahlt hat, erhält eine E-Mail-Adresse und damit Zugang zu den elektronischen Plattformen und Tools der Universität Freiburg. Ohne diesen Zugang können Sie sich weder für Kurse einschreiben noch für Prüfungen anmelden etc.
+
+## Sich informieren
+
+## Veranstaltungen vor Semesterbeginn
+
+Besuchen Sie die Starting Days vom 8. bis 11. September 2025. Hier erfahren Sie viel Nützliches für das Studium, z.B. wie man sich für Kurse einschreibt und zu Prüfungen anmeldet, an wen man sich bei finanziellen Problemen oder bei Schwierigkeiten mit Prüfungsvorbereitungen wenden kann etc.
+
+Informieren Sie sich besonders über Ihre Fächer, das Studierendenportal MyUniFR, das Informatikangebot und die  Bibliotheksnutzung.
+
+Nehmen Sie am Empfangstag (12.9.25) an unserer Informationsveranstaltung zum Studium Deutsch als Fremdsprache (DaF) teil. Sie findet von 14 bis 14.30 Uhr an der Miséricorde 3 im Raum 3027 statt. Hier treffen Sie alle anderen, die mit dem DaF-Studium beginnen, und mich, Ihre Studienberaterin für DaF. Zudem erfahren Sie das Wichtigste zum ersten Studienjahr und können Fragen stellen.
+
+## Informationsmaterial
+
+Lesen Sie dazu die folgenden wichtigen Dokumente, wenn Sie sich vor Semesterbeginn genauer über das DaF-Studium informieren möchten:
+
+- Studienplan DaF (rechtsverbindlich)
+- Reglemente und Richtlinien der Philosophischen Fakultät (rechtsverbindlich)
+- [Praktische Hinweise](https://www.unifr.ch/pluriling/de/ausbildung/downloads.html)
+- [Übersicht Kursangebot](https://www.unifr.ch/pluriling/de/ausbildung/downloads.html)
+- [Moodle-Raum der Studienberatung für DaF](https://moodle.unifr.ch/course/view.php?id=267666)
+
+Wichtig: Manchmal ist es notwendig, dass wir Ihnen kurzfristig Informationen zukommen lassen. Konsultieren Sie Ihre universitäre Mailbox bitte regelmässig.
+
+## Ansprechpersonen
+
+Haben Sie dann noch Fragen, so wenden Sie sich an:
+
+- Uni-Info (allgemeine Fragen)
+- Studienberaterin  (inhaltliche  und  organisatorische  Fragen  zum  DaF-Studium)
+- Sekretariat (administrative und organisatorische Fragen zum DaF-Studium)
+
+## Studium planen
+
+Sie Studieren DaF als Nebenbereich (60 ECTS) und ein anderes Fach im Hauptbereich (120 ECTS). Damit Sie Ihr Studium sicher in drei Jahren abschliessen können, ist es wichtig zu planen, welche Lehrveranstaltungen Sie in welchem Semester besuchen. Die Stundenpläne zwischen Haupt- und Nebenbereich sind zwar nicht immer kompatibel, aber die Lehrveranstaltungen finden immer im selben Semester und meistens  auch  zur  gleichen  Zeit  statt.  Unter  «Organisation  Ihres  DaF-Studiums» können Sie nachlesen, welche Kurse wir für das erste, zweite und dritte Studienjahr empfehlen. Zudem erfahren Sie hier auch, welche Lehrveranstaltungen nur alle zwei Jahre stattfinden, wo Stundenplanänderungen anstehen etc. Bei Problemen mit der Planung dürfen Sie sich gerne bei der Studienberatung melden.
+
+<!-- image -->
+
+Ein kleiner Hinweis noch: Das Studium ist auf 6 Semester angelegt. Sie sollten pro Semester 9-12 ECTS in DaF erwerben. Möglicherweise erscheinen Ihnen im Durchschnitt 3 Kurse pro Bereich wenig. Bitte bedenken Sie, dass 3 ECTS einen zeitlichen Aufwand von 75-90 Arbeitsstunden bedeutet. Sie sollten ein Drittel für den Kurs, und zwei Drittel für die Vor- und Nachbereitung einplanen.
+
+## Vorlesungszeiten und vorlesungsfreie Tage
+
+## Studienbeginn
+
+Die Lehrveranstaltungen an der Universität beginnen am Montag, den 15.09.2025. Bitte schreiben Sie sich so schnell wie möglich in die (empfohlenen) Unterrichtseinheiten ein, die Sie im ersten Semester belegen wollen. So wissen wir, dass Sie existieren und können Sie, wenn nötig, elektronisch erreichen. Die Einschreibungen sind nicht definitiv - Sie können sich bis zum 7. November 2025 wieder abmelden. Mehr dazu finden Sie unter «Organisation Ihres DaF-Studiums».
+
+Ich  werde  Ihnen  in  meinen  beiden  Kursen  am  Dienstag,  den  16.09.2025  (NichtDeutschsprachige: BA Sprachkurs DaF I von 10.00 - 12.00 Uhr und Deutschsprachige: Individuelles Sprachlernprojekt I von 15.00 - 17.00 Uhr) die Möglichkeit geben, einander kennenzulernen und Fragen zum Programm zu stellen.
+
+## Vorlesungszeiten und vorlesungsfreie Tage
+
+Auf der Homepage der Universität finden Sie langfristige Übersichten der Semesterzeiten mit Hinweisen auf unterrichtsfreie Tage während des Semesters. Im Herbstsemester 2025 (15.9.2025 - 19.12.2025) finden an folgenden Tagen keine Vorlesungen statt: Dies Academicus (Datum folgt) und Maria Empfängnis (8.12.2025). Im Frühlingssemester 2026 (16.2.2026 - 29.5.2026) sind dies die Osterferien (3.4.2026 - 12.4.2026), Auffahrt (14.5.2026) und der Pfingstmontag (25.5.2026).
+
+Denken Sie daran, auch während der Examenssessionen vor Ort zu sein: Wintersession  (19.1.2026  -  13.2.2026),  Sommersession  (1.6.2026  -  26.6.2026)  und Herbstsession (17.8.2026 - 11.9.2026).
+
+## Studienberatung DaF
+
+Im Moodle-Raum der DaF-Studienberatung finden Sie viele Dokumente und aktuelle Informationen, die für Ihr Studium wichtig sind. Melden Sie sich dafür an, sobald Sie Ihre E-Mail-Adresse von der Universität erhalten haben.
+
+Haben Sie noch Fragen, so vereinbaren Sie bitte einen persönlichen Termin mit mir, Ihrer Studienberaterin für DaF : elisabeth.moeckli@unifr.ch. Bitte zögern Sie nicht, via Mail Kontakt aufzunehmen. Sehr gerne können wir einen Gesprächstermin vereinbaren, denn ein kurzes Gespräch vor Ort, am Telefon oder über Teams/Zoom ist meist sehr viel effizienter als ein langer Mailwechsel.
+
+<!-- image -->
+
+## INFRASTRUKTUR
+
+## Elektronisches Vorlesungsverzeichnis
+
+Jeweils ab Anfang Juni können Sie die meisten Unterrichtseinheiten (UEs = Vorlesungen und Seminare) für das folgende Studienjahr im elektronischen Vorlesungsverzeichnis finden.
+
+Mit Hilfe des Studienplans und der Übersichten am Dokumentende können Sie sich Ihren Stundenplan zusammenstellen und sich auf die Kurse vorbereiten.
+
+## Studienportal MyUniFR
+
+Das Studierendenportal MyUniFR ist für Sie im Studium die wichtigste Adresse! Hier werden Ihre Daten verwaltet, hier schreiben Sie sich in Kurse ein und aus, hier finden Sie wichtige Informationen und haben Zugang zu Angeboten der Universität (zum Beispiel zu den kostenlosen Sprachkursen am Sprachenzentrum und den kostenlosen Sportkursen bei Uni Sport), die für Sie offen sind.
+
+Termine und Fristen: Sie finden die aktuellen Termine und Fristen in MyUniFR.
+
+## Einschreibung in die Unterrichtseinheiten
+
+Zwei  Wochen  vor  Vorlesungsbeginn  können  Sie  sich  über  das  Studienportal MyUniFR elektronisch in die Kurse einschreiben. Auf diese Weise wissen die Dozentinnen und Dozenten, mit wie vielen Personen und mit wem sie rechnen können. Auch gibt es Unterrichtseinheiten, bei denen die Plätze limitiert sind. Daher ist es sinnvoll, sich möglichst schnell einzuschreiben und Einschreibungen zu annullieren, sobald Sie wissen, dass Sie die Unterrichtseinheit doch nicht besuchen werden. Dies betrifft Sie insbesondere auch, wenn Sie deutschsprachig sind - Sie werden im ersten Semester eine neue Sprache an einem anderen Studienbereich oder am Sprachenzentrum erlernen. Diese Sprachkurse sind sehr schnell ausgebucht.
+
+Wir gehen davon aus, dass Sie ab der ersten Vorlesungswoche regelmässig an den Lehrveranstaltungen teilnehmen. Wenn Sie nach Vorlesungsbeginn zu DaF wechseln  und  die  Informationsveranstaltung  am  12.  September verpasst haben, dann melden Sie sich schnellstmöglich bei mir, Ihrer Studienberaterin.
+
+## Annullierung von Einschreibungen in Unterrichtseinheiten
+
+Falls Sie eine Unterrichtseinheit nicht mehr besuchen können oder wollen, so annullieren Sie bitte sofort Ihre Einschreibung über MyUniFR. Die Fristen finden Sie auf der Website der Philosophischen Fakultät.
+
+Wichtig: Sie riskieren einen definitiven Misserfolg in einer Unterrichtseinheit, wenn Sie sich nicht rechtzeitig von einer Unterrichtseinheit abmelden. Das führt in den meisten Fällen zum definitiven Misserfolg im Studienfach DaF. Kontrollieren Sie regelmässig, ob Ihre Kurseinschreibungen, Kursabmeldungen und Prüfungseinschreibungen aktuell und komplett sind.
+
+<!-- image -->
+
+## Einschreibungen für Examen &amp; Annullierungen von Examenseinschreibungen
+
+Schreiben Sie sich rechtzeitig über das Studienportal MyUniFR für die Examen ein. Die Fristen dazu finden Sie auf der Webseite der Philosophischen Fakultät. Auf dem Studienportal finden Sie weitere Informationen zu den Examen. Lesen Sie diese Informationen aufmerksam. Dies sind die wichtigsten Informationen:
+
+- -Sie müssen sich für die Examen separat einschreiben (bis zur 8. Vorlesungswoche), sonst können Sie nicht daran  teilnehmen.
+- -Sie können Ihre Einschreibung für ein Examen über MyUniFR annullieren. Bitte beachten Sie die entsprechenden Termine auf der Webseite der Philosophischen Fakultät.
+- -Sie haben nur 2 Versuche, um ein Examen zu  bestehen.
+- -Ungenügende Examen können nicht kompensiert werden.
+- -Ausschluss  vom  Studienprogramm:  Wenn  Sie  eine  obligatorische  Unterrichtseinheit  zwei Mal  nicht  bestehen,  werden  Sie  vom  Studienprogramm ausgeschlossen und können DaF in der Schweiz nicht weiterstudieren.
+
+Wir empfehlen Ihnen, die Examen für Seminare und Vorlesungen zum erst möglichen Termin zu absolvieren. In der Regel finden die Examen zu Seminaren und Vorlesungen unseres Departements in der letzten Kurssitzung des Semesters Mitte Dezember und Ende Mai statt. Der Termin sollte im elektronischen Vorlesungsverzeichnis bei der Beschreibung der Unterrichtseinheit zu finden sein. Falls nicht, fragen Sie den/die Dozent/-in nach dem Termin.
+
+Examen im August/September (Herbstsession) werden in unserem Departement gebündelt, was zu Überschneidungen bei den Terminen führen kann, wenn Sie mehrere Examen am Departement Mehrsprachigkeitsforschung und Fremdsprachendidaktik beim ersten Termin nicht gemacht oder nicht bestanden haben. Melden Sie sich bei Überschneidungen von Terminen schnellstmöglich bei den entsprechenden Studienberatern und Studienberaterinnen.
+
+Während der Prüfungssessionen sollten Sie also unbedingt anwesend sein und den Einschreibetermin für die Examen nicht verpassen.
+
+Die genauen Termine entnehmen Sie bitte den Informationen im Portal MyUniFR, ebenso die rechtsverbindlichen Regeln zum BA-Studium und zu den Evaluationen: ' Richtlinien  über  die  Evaluation  der  Studienleistungen,  die  Vergabe  der  ETCSPunkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz)' .
+
+## Abmeldung vom DaF-Studium
+
+Schade, dass Sie uns verlassen! Falls Sie beschliessen, nicht mehr weiter DaF, sondern ein anderes Fach zu studieren, annullieren Sie vor der Ummeldung Ihres Programms bitte alle Einschreibungen in DaF. Ist das technisch nicht mehr möglich, wenden Sie sich bitte an unsere Sekretärin Frau Ruf (barbara.ruf@unifr.ch), damit sie die Einschreibungen  löscht.
+
+## Moodle - Die elektronische Lern-/Kurs-Plattform
+
+Alle Unterrichtseinheiten am Departement werden von einem elektronischen Klassenraum begleitet. Hier finden Sie wichtige Dokumente, Aufgaben und Anderes. Registrieren Sie sich, sobald Sie Ihr Uni-Login haben, auf http://moodle.unifr.ch
+
+<!-- image -->
+
+## Bibliothek
+
+Die Bibliothek unseres Departements (BLE) befindet sich im Criblet 13, im ersten Stock. Hier finden Sie Bücher und Fachzeitungen zum Fremdsprachenlernen und zur Mehrsprachigkeitsforschung. Die kompetente Nutzung der Bibliothek gehört zu den Grundkompetenzen im Studium. Die KBU/BCU (Bibliothèque cantonale et universitaire ) bietet Einführungen an, die Ihnen helfen, die elektronische Infrastruktur kennenzulernen und Fachliteratur zu finden. Googeln allein reicht als Recherchetechnik nicht aus!
+
+Unser Departement bietet eine Schulung in Informationskompetenz an. Der Besuch dieser Schulung ist für Studierende ab dem zweiten Studienjahr empfohlen.
+
+## Elektronischer Speicherplatz für Ihre wichtigen Studienunterlagen
+
+Elektronischer Speicherplatz: Studierenden der Universität Freiburg/Fribourg steht ein kostenloser SWITCHdrive-Speicherplatz von 100 GB zur Verfügung. Dort gespeicherte Daten sind von jedem Gerät aus zugänglich, das über eine Internetverbindung verfügt.
+
+## Deutschlernangebote der Universität Freiburg/Fribourg
+
+Das Erlernen einer Fremdsprache braucht viel Zeit. Kümmern Sie sich von Anfang an um Ihre Deutschkenntnisse, wenn Deutsch für Sie eine Fremdsprache ist, denn Sie müssen bis zum Ende des Studiums ein C2-Niveau erreichen.
+
+Im Rahmen Ihres Studiums absolvieren Nicht-Deutschsprachige im Modul 1 drei obligatorisch Sprachkurse sowie zwei Selbstlernprojekte. Die Einschreibung dafür erfolgt direkt über das Modul 1 Ihres Studienprogramms. Machen Sie zur Niveaufeststellung vor Studienbeginn den  Online-Einstufungstest des Sprachenzentrums. Klicken Sie dazu auf einen der Sprachkurse. So gelangen Sie zum Test.
+
+Wir gehen im Idealfall davon aus, dass Sie bei Studienbeginn mit der das B2-Niveau abgeschlossen haben. Wir haben aber in der Realität festgestellt, dass Studienanfänger und Studienanfängerinnen das B2-Niveau manchmal noch nicht ganz erreicht haben, gewisse Wissenslücken bestehen oder sie sich unsicher fühlen.
+
+Nutzen Sie die vielfältigen Sprachlernangebote der Universität Freiburg:
+
+- Intensivsprachkurse vor Semesterbeginn (kostengünstig)
+- Sprachkurse während des Semesters (kostenlos; Einschreibung 2 Wochen vor Semesterbeginn)
+- Mediathek zum Selbststudium (kostenlos)
+- UNI-Tandem (kostenlos)
+- Austauschprogramme (Kostenbeteiligung der Universität)
+
+Auch Movetia finanziert im Auftrag des Bundes und der Kantone verschiedene Austauschprogramme mit, die Ihnen offenstehen.
+
+<!-- image -->
+
+## WIR SIND IM BA DAF [60] FÜR SIE DA
+
+## Ansprechpartnerin Sekretariat
+
+Barbara Ruf Sekretärin Departement Mehrsprachenforschung und Fremdsprachendidaktik
+
+<!-- image -->
+
+Validierungen von Unterrichtseinheiten, Modulen und Programmen Barbara.ruf@unifr.ch
+
+## Team DaF: Unterrichtende im BA DaF im Studienjahr 2025/26
+
+Prof. Dr. Thomas Studer Ordentlicher Professor
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+Lehrveranstaltungen im Bachelor:
+
+-  Vorlesungen Grundlagen DaF I &amp; II (HS, Mi 13-15 Uhr)
+-  Spezialvorlesungen, (FS, Mi 13-15 Uhr)
+
+Dr. Elisabeth Möckli Lektorin, Studienberatung BA DaF
+
+Lehrveranstaltungen im Bachelor:
+
+-  BA-Sprachkurse I &amp; II: DaF für Lehrpersonen (HS &amp; FS, Di 10-12 Uhr)
+-  Individuelles Sprachlernprojekt für Studierende deutscher Muttersprache (HS &amp; FS, Blockseminar)
+-  Individuelles Lernprojekt für Studierende nicht-deutscher Muttersprache I &amp; II (HS &amp; FS, Blockseminar)
+
+Dr. Malgorzata Barras Lektorin, Studienberatung MA DaF
+
+Lehrveranstaltungen im Bachelor:
+
+- Seminar Linguistische Grundlagen I &amp; II (HS &amp; FS, Mi 10-12 Uhr)
+- Seminar Kompetenzen u. Kompetenzerfassung (FS, Mi 15-17 Uhr)
+- DaZ-Seminar (FS, Mo 15-17 Uhr)
+
+Dr. Bente Lowin-Kropf Lehrbeauftragte Lehrveranstaltungen im Bachelor: - Seminar Fremdsprachenlernen digital (FS, Mi 08-10 Uhr)
+
+<!-- image -->
+
+UNIVERSITEDEFRIBOURG UNIVERSITATFREIBURG
+
+Dr. Olivia Rütti-Joy Oberassistentin
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+Lehrveranstaltungen im Bachelor:
+
+- Sprachkurs III: DaF für Lehrpersonen (HS, Mi 15-17 Uhr)
+- Individuelles Lern-/Lehrprojekt für Studierende deutscher Muttersprache II (FS, Blockseminar)
+
+Nadia Keller
+
+## Diplomassistentin &amp; Lehrbeauftragte
+
+Lehrveranstaltungen im Bachelor:
+
+- Kulturwissenschaftliche Ansätze (HS, Di 13-15 Uhr)
+- BA-Seminar zur Vermittlung landeskundlicher und kultureller Inhalte (FS, Di 13-15 Uhr)
+- Seminar Textkompetenz (FS, Do 10-12 Uhr)
+
+Dr. Jan Vanhove Lehr- und Forschungsrat
+
+Lehrveranstaltungen im Bachelor:
+
+- Sprachliche Ähnlichkeiten im Sprachenlernen (FS, Mo 10-12)
+
+Romeo Wasmer Lehrbeauftragter
+
+Lehrveranstaltungen im Bachelor:
+
+- Methodenseminar DaF: Rezeptive Kompetenzen (HS, Mo 17-19 Uhr)
+- Methodenseminar DaF: Produktive Kompetenzen (FS, Mo 17-19 Uhr)
+
+## Kollegin am Dept. Germanistik mit oblig. Seminar im BA DaF
+
+Prof. Dr. Regula Schmidlin Professorin am Departement Germanistik
+
+<!-- image -->
+
+Lehrveranstaltungen im Bachelor (nur Deutschsprachige): Seminar 'Deutsche Sprache I &amp; II' (HS &amp; FS, Fr 08-10 Uhr)
+
+<!-- image -->
+
+## ORGANISATION IHRES STUDIUMS IM BA DaF [60]
+
+Basis für Ihre persönliche Planung ist der aktuelle Studienplan (ab HS 2014) . Bitte lesen Sie ihn aufmerksam und konsultieren Sie ihn bei Bedarf. Die folgenden Hinweise haben erläuternden Charakter und sollen Ihnen helfen, Ihr Studium im Rahmen dieser Vorgaben praktisch zu planen.
+
+Das Studium BA Deutsch als Fremdsprache [60] umfasst 4 Module zu je 15 ETCS:
+
+Modul 1:
+
+Fremdsprachliche Sprachlern- und -lehrpraxis
+
+Modul 2:
+
+Fachwissenschaftliche Grundlagen
+
+Modul 3:
+
+Methodisch-didaktische Grundlagen des DaF-Unterrichts
+
+Modul 4:
+
+Vertiefungen und Erweiterung spezifischer  Aspekte
+
+Mit den Modulen 1 und 2 sollte begonnen werden, das Modul 4 setzt den Besuch von Unterrichtseinheiten der Module 2 und 3 voraus. Die jeweilige Grundlagenvorlesung (VL) im Herbstsemester bei Herrn Studer, zugeordnet dem Modul 2 oder 3, sollte zum erstmöglichen Termin besucht werden. Verpassen Sie die Grundlagenvorlesung in Ihrem 3. Semester, so verlängert sich Ihr Studium um ein Semester.
+
+| 1.Sem.   | HS 25   | M1   | M2          | M3 incl. VL   |    |
+|----------|---------|------|-------------|---------------|----|
+| 2.Sem.   | FS 26   | M1   | M2          | M3            |    |
+| 3.Sem.   | HS 26   | M1   | M2 incl. VL | M3            |    |
+| 4.Sem.   | FS 27   | M1   | M2          | M3            | M4 |
+| 5.Sem.   | HS 27   |      |             | M3            | M4 |
+| 6.Sem.   | FS 28   |      |             | M3            | M4 |
+
+Im Durchschnitt 3-4 Unterrichtseinheiten pro Semester, ohne Projekt und Arbeit.
+
+Wie Sie Ihr Studium aufbauen, bleibt im Rahmen der Vorgaben Ihnen überlassen. Die Übersichten im Anhang dieses Dokuments sowie die Empfehlungen auf den folgenden Seiten sollen Ihnen bei der Planung helfen. Dabei gilt: Die fett markierten Unterrichtseinheiten sollten bei Stundenplanüberschneidungen Priorität haben, da sie nur alle 2 Jahre im Angebot sind. Im Modul 3 ist der Besuch des Seminars «Kompetenzen und Kompetenzerfassungen» vorzugsweise im 4. oder 6. Semester dringend empfohlen. In Ihrem Programm sind 3 methodisch-didaktische Seminare im Angebot. Es ist möglich, das Seminar zur Landeskunde aus dem Modul 4 nachträglich ins Modul 3 zu  verschieben.
+
+## Empfohlener Studienaufbau über 3 Jahre bei Beginn im HS25
+
+Nicht-deutschsprachige Studierende:
+
+| Herbstsemester 25                                                                                                                                     | Frühjahrssemester 26                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M2: Vorlesung Grundlagen DaF I M1: Sprachkurs DaF I M2: Linguistische Grundlagen I                                                                    | M1: Sprachkurs DaF II M2: Linguistische Grundlagen II M3: Methodenseminar                                                                             |
+| Herbstsemester 26                                                                                                                                     | Frühjahrssemester 27                                                                                                                                  |
+| M3: Vorlesung Grundlagen DaF II M1: Sprachkurs DaF III M1: Individuelles Lernprojekt I (Ausbau rezep- ti- ver Kompetenzen auf C2) M3: Methodenseminar | M3: Methodenseminar M3: Kompetenzen u. Kompetenzerfassung (evtl. 6.Sem.) M1: Individuelles Lernprojekt II (Ausbau pro- duk- tiver Kompetenzen auf C2) |
+| Herbstsemester 27                                                                                                                                     | Frühjahrssemester 28                                                                                                                                  |
+| M2: Kulturwissenschaftliche Ansätze M4: UE nach Wahl M4: Seminararbeit                                                                                | M2: Deutsch als Zweitsprache (evtl. 4.Sem.) M4: UE nach Wahl M4: UE nach Wahl                                                                         |
+
+<!-- image -->
+
+## Deutschsprachige Studierende
+
+| Herbstsemester 25                                                                                                                                                                   | Frühjahrssemester 26                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| M2: Vorlesung Grundlagen DaF I M1: Erlernen einer neuen Sprache (A1)* M1: Individuelles Lernprojekt I & Sprachlern- reflexion M1: Deutsche Sprache I M2: Linguistische Grundlagen I | M1: Individuelles Lehrprojekt II (evtl.4.Sem.) M1: Deutsche Sprache II M2: Linguistische Grundlagen II M2: Deutsch als Zweitsprache |
+| Herbstsemester 26                                                                                                                                                                   | Frühjahrssemester 27                                                                                                                |
+| M3: Vorlesung Grundlagen DaF II M3: Methodenseminar M2: Kulturwissenschaftliche Ansätze                                                                                             | M3: Methodenseminar M3: Methodenseminar M3: Kompetenzen und Kompetenzerfassung                                                      |
+| Herbstsemester 27                                                                                                                                                                   | Frühjahrssemester 28                                                                                                                |
+| M4: Seminararbeit (oder 6.Semester) M4: UE nach Wahl                                                                                                                                | M4: UE nach Wahl M4: UE nach Wahl                                                                                                   |
+
+## Empfohlener Studienaufbau bei Beginn im FS26
+
+Falls Sie Ihr Studienfach nach dem 1. Semester wechseln und neu DaF studieren, so ist folgende Verteilung empfohlen:
+
+## Nicht-deutschsprachige Studierende:
+
+| Herbstsemester 25                                                                                                                                              | Frühjahrssemester 26                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| verpasst                                                                                                                                                       | M1: Sprachkurs DaF II M2: Linguistische Grundlagen II M3: Methodenseminar                                     |
+| Herbstsemester 26                                                                                                                                              | Frühjahrssemester 27                                                                                          |
+| M3: Vorlesung Grundlagen DaF II M1: Sprachkurs DaF I M2: Linguistische Grundlagen I M2: Kulturwissenschaftliche Ansätze M3: Methodenseminar                    | M3: Methodenseminar M3: Kompetenzen u. Kompetenzerfassung M4: UE nach Wahl M2: Deutsch als Zweitsprache       |
+| Herbstsemester 27                                                                                                                                              | Frühjahrssemester 28                                                                                          |
+| M2: Vorlesung Grundlagen DaF I M1: Sprachkurs DaF III (ggf. im HS26) M1: Individuelles Lernprojekt I (Ausbau rezepti- ver Kompetenzen auf C2) M4: UE nach Wahl | M1: Individuelles Lernprojekt II (Ausbau produkti- ver Kompetenzen auf C2) M4: UE nach Wahl M4: Seminararbeit |
+
+## Deutschsprachige Studierende
+
+| Herbstsemester 25                                                                                                                                                                    | Frühjahrssemester 26                                                                                     |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| verpasst                                                                                                                                                                             | M1: Deutsche Sprache II M2: Linguistische Grundlagen II M2: Deutsch als Zweitsprache M3: Methodenseminar |
+| Herbstsemester 26                                                                                                                                                                    | Frühjahrssemester 27                                                                                     |
+| M3: Vorlesung Grundlagen DaF II M1: Erlernen einer neuen Sprache (A1)* M1: Individuelles Lernprojekt I & Sprachlern- reflexion M1: Deutsche Sprache I M2: Linguistische Grundlagen I | M3: Methodenseminar M3: Kompetenzen und Kompetenzerfassung M4: UE nach Wahl M4: UE nach Wahl             |
+| Herbstsemester 27                                                                                                                                                                    | Frühjahrssemester 28                                                                                     |
+| M2: Vorlesung Grundlagen DaF I M3: Methodenseminar M2: Kulturwissenschaftliche Ansätze                                                                                               | M4: UE nach Wahl M1: Individuelles Lehrprojekt II (evtl.4.Sem.) M4: Seminararbeit                        |
+
+<!-- image -->
+
+## Empfohlener Studienaufbau über 2 Jahre, Beginn HS25
+
+Wenn Sie bereits zum HS24 mit Ihrem BA-Studium begonnen haben, aber erst jetzt mit DaF beginnen, so ergibt sich folgende Verteilung:
+
+## Nicht-deutschsprachige Studierende:
+
+| Herbstsemester 25                                                                                                                                                              | Frühjahrssemester 26                                                                                                                                       |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M2: Vorlesung Grundlagen DaF I M1: Sprachkurs DaF I M1: Sprachkurs DaF III M2: Linguistische Grundlagen I M3: Methodenseminar                                                  | M1: Sprachkurs DaF II M2: Linguistische Grundlagen II M3: Methodenseminar M3: Methodenseminar M2: Deutsch als Zweitsprache                                 |
+| M3: Vorlesung Grundlagen DaF II M1: Individuelles Lernprojekt I (Ausbau rezepti- ver Kompetenzen auf C2) M2: Kulturwissenschaftliche Ansätze M4: UE nach Wahl M4: UE nach Wahl | M3: Kompetenzen und Kompetenzerfassung M1: Individuelles Lernprojekt II (Ausbau pro- duktiver Kompetenzen auf C2) M4: UE nach Wahl M4: Schriftliche Arbeit |
+
+## Deutschsprachige Studierende:
+
+| Herbstsemester 25                                                                                                                                                                                     | Frühjahrssemester 26                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M2: Vorlesung Grundlagen DaF I M1: Erlernen einer neuen Sprache (A1)* M1: Individuelles Lernprojekt I & Sprachlern- reflexion M1: Deutsche Sprache I M2: Linguistische Grundlagen I Herbstsemester 26 | M1: Individuelles Lernprojekt II M1: Deutsche Sprache II M2: Linguistische Grundlagen II M3: Methoden DaF: Produktive Kompetenzen M3: Vermittlung landeskundlicher und kultureller Kompetenzen Frühjahrssemester 27 |
+| M3: Vorlesung Grundlagen DaF II M3: Seminar Methoden: Rezeptive Kompetenzen M2: Kulturwissenschaftliche Ansätze M4: UE nach Wahl M4: UE nach Wahl,                                                    | M2: Deutsch als Zweitsprache M3: Kompetenzen und Kompetenzerfassung (evtl. 6.Sem.) M4: UE nach Wahl M4: Schriftliche Arbeit                                                                                         |
+
+## Studienaufbau über 2 Jahre, Beginn mit Lehrveranstaltungen DaF ab HS26
+
+Wenn Sie sich jetzt im ersten Studienjahr voll auf Ihren Bereich I konzentrieren wollen oder müssen, so beginnen Sie erst in Ihrem zweiten Studienjahr, also ab HS26, mit DaF. Studierenden, deren Muttersprache nicht Deutsch ist, empfehlen wir dringend, im September 2025 mit der Studienberaterin Kontakt aufzunehmen.
+
+Wichtig: Da Sie am Ende des Studiums das Niveau C2 erreicht haben müssen, ist es je nach Niveau ratsam, doch schon Deutschkurse aus dem Modul 1 zu besuchen .
+
+Wenn Sie erst im HS26 mit DaF beginnen werden, so orientieren Sie sich an der empfohlenen Verteilung oben. Tauschen Sie lediglich die Vorlesungen Grundlagen DaF I &amp; II aus.
+
+## Studienaufbau, wenn Sie das Fach nachstudieren oder bei einer Passerelle
+
+Wenn Sie schon einen Bachelor erworben haben, den Bereich also nachstudieren oder für die Zulassung zum Master DaF/DaZ eine Passerelle absolvieren müssen, so wählen Sie alle Unterrichtseinheiten der Module 1-3, die in diesem Studienjahr im Angebot sind und ergänzen UEs aus M4. Die zweite Vorlesung bei Herrn Studer können Sie erst im HS26 machen. Die schriftliche Arbeit sollten Sie erst gegen Ende im FS26 planen.
+
+<!-- image -->
+
+## SCHRIFTLICHE ARBEIT (SEMINARARBEIT) IM BA DAF (60)
+
+## Inhalte und Ziele der Seminararbeit
+
+In Ihrem DaF-Studienprogramm schreiben Sie nur eine Seminararbeit. In dieser Arbeit mit 6 ECTS müssen Sie zeigen, dass Sie das für Ihren späteren Beruf nötige fachliche  Wissen erworben und  die  methodisch-didaktische  Kompetenzen  aufgebaut haben, um DaF im Erwachsenenbereich zu unterrichten. Ihre Seminararbeit hat also den Charakter einer Abschlussarbeit, sowohl inhaltlich als auch sprachlich. Sie schreiben sie normalerweise im letzten Studienjahr oder nachdem Sie bereits ca. 40 ECTS erworben haben. Ihre Arbeit kann/sollte inhaltlich Elemente von verschiedenen Seminaren aufnehmen. Es ist auch möglich, dass Sie ein Thema wählen, das im Studium nicht explizit behandelt wurde, aber relevant für Ihr fachliches Handeln im Deutschunterricht ist und Sie interessiert. Ihre Arbeit ist also nicht an ein spezielles Seminar  gebunden.
+
+## Informationen zur Seminararbeit
+
+Für das Management der schriftlichen Arbeiten gibt es jedes Studienjahr einen eigenen Moodle-Raum. Sie können ihn als Gast betreten und sich darin umsehen und sich  informieren.  Alle  Personen,  die  Seminararbeiten  betreuen,  sind  im  MoodleRaum mit ihren Spezialgebieten aufgeführt. Schreiben Sie sich frühzeitig bei einer Person ein. Die Plätze pro Betreuungsperson sind beschränkt.
+
+Bitte lesen Sie das Informationsmaterial im Moodle-Raum sorgfältig und bereiten Sie sich gut auf die Beratungsgespräche vor.
+
+N icht-deutschsprachigen Studierenden empfehlen wir, das Seminar «Textkompetenz» im Modul 4 vor dem Schreiben der Seminararbeit zu besuchen.
+
+## Termine und Fristen für die Seminararbeit
+
+Schreiben Sie sich Anfang des Herbstsemesters oder des Frühjahrssemesters in die UE  ein.  Es  gibt  pro  Jahr  entsprechend  der  Prüfungssessionen  Abgabetermine. Diese sind:
+
+| Session           | Einschreibung UE     | Abgabe   |
+|-------------------|----------------------|----------|
+| Frühjahrssession: | HS                   | 16.01.   |
+| Sommersession:    | FS                   | 15.05.   |
+| Herbstsession:    | FS (nur für Prüfung) | 14.08.   |
+
+Halten Sie den Abgabetermin nicht ein, so wird ein Misserfolg verbucht. Sie haben 2 Versuche in 4 Sessionen. Generell gelten bei den Seminararbeiten die gleichen Regeln wie für Seminare und Vorlesungen.
+
+Ich hoffe, diese Informationen helfen Ihnen weiter. Wenn Sie weitere Fragen haben, können Sie mich gerne via Mail oder per Telefon kontaktieren.
+
+Viel Erfolg und Freude im Studium wünscht Ihnen Elisabeth Möckli (Studienberaterin im BA DaF)
+
+<!-- image -->
+
+## ÜBERSICHTEN BA DaF [60] ab HS 2025
+
+## Was ist wann bei wem im Angebot? Eine praktische Hilfe zur inhaltlichen und zeitlichen Planung des DaF-Studiums
+
+|                                                                                                       | Typ   |   KP | Dozent/in   | Sem.       | Turnus     | Zeit                | Eval.     |
+|-------------------------------------------------------------------------------------------------------|-------|------|-------------|------------|------------|---------------------|-----------|
+| Modul 1: Fremdsprachliche Sprachlern- und -lehrpraxis (15 KP)                                         |       |      |             |            |            |                     |           |
+| Studierende nicht-deutscher Muttersprache                                                             |       |      |             |            |            |                     |           |
+| Sprachkurs I: DaF für Lehrpersonen                                                                    | L     |    3 | Möckli      | HS         | jährlich   | Di, 10-12           | Note      |
+| Sprachkurs II: DaF für Lehrpersonen                                                                   | L     |    3 | Möckli      | FS         | jährlich   | Di, 10-12           | Note      |
+| Sprachkurs III: DaF für Lehrpersonen                                                                  | L     |    3 | Rütti-Joy   | HS         | jährlich   | Mi, 15-17           | Note      |
+| Individuelles Lernprojekt I (Erweiterung rezeptiver Sprachkompetenzen in DaF Niveau C2)               | A     |    3 | Möckli      | HS         | jährlich   | variabel            | bestanden |
+| Individuelles Lernprojekt II (Erweiterung produktiver Sprachkompetenzen in DaF C2)                    | A     |    3 | Möckli      | FS         | jährlich   | variabel            | bestanden |
+| Deutschsprachige Studierende                                                                          |       |      |             |            |            |                     |           |
+| Einführungsseminar 'Deutsche Sprache I': Laut-, Wort- und Formenlehre                                 | S     |    3 | Schmidlin   | HS         | jährlich   | Fr, 08-10           | Note      |
+| Einführungsseminar 'Deutsche Sprache II': Syntax des Gegenwartsdeutschen aus schulgrammatischer Sicht | S     |    3 | Schmidlin   | FS         | jährlich   | Fr, 08-10           | Note      |
+| Erlernen einer neuen Sprache bis Niveau A1 oder A2 (plus Sprachlernreflexion (Block))                 | L     |    3 | div.        | HS         | jährlich   | diverse variabel &  | Note      |
+| Individuelles Lern- / Lehrprojekt I (Sprachliche Sicherheit Deutsch und Sprachlernreflexion) I        | A     |    3 | Möckli      | HS         | jährlich   | 4x Block, Di, 15-17 | bestanden |
+| Individuelles Lern- / Lehrprojekt (Unterstützung von DaF-Lernenden, ggf. im Tandem) II                | A     |    3 | Rütti-Joy   | FS         | jährlich   | variabel            | bestanden |
+| Modul 2: Fachwissenschaftliche Grundlagen (15 KP)                                                     |       |      |             |            |            |                     |           |
+| Vorlesung Grundlagen des DaF Unterrichts I: Spracherwerb und Erwerb kultureller Kompetenzen           | C     |    3 | Studer      | HS25/ HS27 | 2-jährlich | Mi, 13-15           | bestanden |
+| Seminar Linguistische Grundlagen Deutsch als Fremdsprache I                                           | S     |    3 | Barras      | HS         | jährlich   | Mi, 10-12           | Note      |
+| Seminar Linguistische Grundlagen Deutsch als Fremdsprache II                                          | S     |    3 | Barras      | FS         | jährlich   | Mi, 10-12           | Note      |
+| Seminar Kulturwissenschaftliche Ansätze                                                               | S     |    3 | Keller N.   | HS         | jährlich   | Di, 13-15           | Note      |
+| Seminar Deutsch als Zweitsprache (DaZ)                                                                | S     |    3 | Barras      | FS         | jährlich   | Mo, 15-17           | Note      |
+
+<!-- image -->
+
+| Modul 3: Methodisch-didaktische Grundlagen des DaF-Unterrichts (15 KP)                                                                                                     |    |    |             |            |                                     |             |           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|----|-------------|------------|-------------------------------------|-------------|-----------|
+| Vorlesung Grundlagen DaF II: Ziele und Methoden des Fremdsprachenunterrichts (im HS25 nicht im Angebot)                                                                    | C  |  3 | Studer      | HS26/ HS28 | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Kompetenzen und Kompetenzerfassung 1                                                                                                                                       | S  |  3 | Barras      | FS         | jährlich                            | Mi, 15-17   | Note      |
+| Methoden DaF, Rezeptive Kompetenzen                                                                                                                                        | S  |  3 | Wasmer      | HS         | jährlich                            | Mo, 17-19   | Note      |
+| Methoden DaF, Produktive Kompetenzen                                                                                                                                       | S  |  3 | Wasmer      | FS         | jährlich                            | Mo, 17-19   | Note      |
+| Vermittlung landeskundlicher und kultureller Inhalte                                                                                                                       | S  |  3 | Keller N.   | FS         | jährlich                            | Di, 13-15   | Note      |
+| Modul 4 : Vertiefungen und Erweiterung spezifischer Aspekte (15 KP)                                                                                                        |    |    |             |            |                                     |             |           |
+| Seminararbeit zu einem Seminar aus Modul 3, 4; zu ausgewählten Seminaren aus Modul 2                                                                                       | E  |  6 | div.        | HS/FS      | Abgabe : a.16.01. b.15.05. c.14.08. | individuell | Note      |
+| 3 Unterrichtseinheiten zur Wahl, je nach Angebot und angestrebtem Profil:                                                                                                  |    |    |             |            |                                     |             |           |
+| Textkompetenz - Fachtexte verarbeiten und nutzen (nur für Studierende nicht-deutscher Muttersprache)                                                                       | S  |  3 | Keller N.   | HS         | jährlich                            | Do, 10-12   | Note      |
+| Fremdsprachenlernen digital                                                                                                                                                | S  |  3 | Lowin-Kropf | FS         | jährlich                            | Mi, 08-10   | Note      |
+| Sprachliche Ähnlichkeiten im Sprachenlernen                                                                                                                                | S  |  3 | Vanhove.    | FS         | jährlich                            | Mo, 10-12   | Note      |
+| Vorlesung DaF zu einem Spezialthema: Leistungsbeurteilung im Fremdsprachenunterricht                                                                                       | C  |  3 | Studer      | FS26       | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Vorlesung DaF zu einem Spezialthema: Korpuslinguistik: Chancen und Grenzen für die Spracherwerbs-for- schung und den Fremdsprachenunterricht (im SJ25/26 nicht im Angebot) | C  |  3 | Studer      | FS27       | 2-jährlich                          | Mi, 13-15   | bestanden |
+| Germanistik: Vorlesung Jugendliteratur                                                                                                                                     | S  |  3 | Müller (HD) | HS25       | einmalig                            | Mi, 10-12   | Note      |
+| BA Seminar: Literaturwissenschaftliches Seminar im BA DaF                                                                                                                  | S  |  3 | Müller (HD) | HS         | jährlich                            | Mo, 15-17   | Note      |
+
+Hinweis: Bei Bedarf und nach Absprache kann in Modul 4 auch eine UE (Sprachkurs Deutsch oder Schweizerdeutsch) am SPZ oder die UE «Cuors pratic da romontsch sursilvan 2' im Frühlingssemester besucht werden. HD=Hors domaine (z.B. Germanistik)
+
+1 Das Seminar Kompetenzen und Kompetenzerfassung findet ab FS27 am Montagvormittag statt.
+
+<!-- image -->
+
+## Was ist wann? Wochenplanung Seminare und Vorlesungen DaF im Studienjahr 25/26
+
+## Wochenplanung Herbstsemester 2025
+
+| Montag   | Dienstag                             | Mittwoch                      | Donnerstag       | Freitag               |
+|----------|--------------------------------------|-------------------------------|------------------|-----------------------|
+| 08-10    |                                      |                               |                  | M1 Deutsche Sprache I |
+| 10-12    | M1 Sprachkurs DaF I                  | M2 Linguistische Grundlagen I | M4 Textkompetenz |                       |
+| 13-15    | M2 Kulturwissenschaftliche An- sätze | M2 oder M3 Vorlesung Studer   |                  |                       |
+| 15-17    | M1 Beratung Lernprojekte (Blö- cke)  | M1 Sprachkurs DaF III (Gr1)   |                  |                       |
+
+17-19 M3 Methoden DaF: Rezeptive
+
+Kompetenzen
+
+## Wochenplanung Frühjahrssemester 2026
+
+| Montag   | Montag                                | Dienstag                            | Mittwoch                                               | Donnerstag   | Freitag                |
+|----------|---------------------------------------|-------------------------------------|--------------------------------------------------------|--------------|------------------------|
+| 08-10    |                                       |                                     | M4 Fremdsprachenlernen digital                         |              | M1 Deutsche Sprache II |
+| 10-12    | M4 Sprachliche Ähnlichkeiten          | M1 Sprachkurs DaF II                | M2 Linguistische Grundlagen II                         |              |                        |
+| 13-15    |                                       | M3 Seminar Landeskunde              | M4 Spezialvorlesung Studer                             |              |                        |
+| 15-17    | M2 Seminar Deutsch als Zweit- sprache | M1 Beratung Lernprojekte (Blö- cke) | M3: Kompetenzen & Kompe- tenzerfassung (ab FS27 am Mo) |              |                        |
+| 17-19    | M3 Methoden DaF: Produktive           |                                     |                                                        |              |                        |
+
+Kompetenzen
+
+Hinweis: Weitere Unterrichtseinheiten wie die Kontrastsprachkurse, Wahlpflicht-UEs aus Modul 4 etc. variieren im Termin und sind deshalb nicht aufgeführt.
