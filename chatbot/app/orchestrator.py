@@ -213,10 +213,7 @@ def _select_rag_db(question: str, db_study=None, db_regl=None):
 
 
 def _extract_semester_count(text: str) -> int | None:
-    # Only treat a number as a study-duration semester count when the user
-    # explicitly says "semester(s)". Otherwise a bare number like "11" is
-    # usually a program id in the study-program selection step.
-    match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)\b", text.lower())
+    match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)?\b", text.lower())
     if not match:
         return None
 
@@ -226,15 +223,6 @@ def _extract_semester_count(text: str) -> int | None:
         return value
 
     return None
-
-
-def _extract_course_codes(text: str) -> list[str]:
-    codes = []
-    for prefix, number in re.findall(r"\b(?:UE[-\s]?)?([A-Z]{3})[.\s-]?(\d{5})\b", text, flags=re.IGNORECASE):
-        code = f"UE-{prefix.upper()}.{number}"
-        if code not in codes:
-            codes.append(code)
-    return codes
 
 
 def _extract_program_id(text: str) -> int | None:
@@ -318,6 +306,41 @@ def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, An
     }
 
 
+def _normalize_course_code(value: str | None) -> str:
+    if not value:
+        return ""
+    return re.sub(r"[^A-Z0-9]", "", str(value).upper().replace("UE-", ""))
+
+
+def _extract_selected_elective_codes(question: str, elective_candidates: list[dict[str, Any]] | None = None) -> list[str]:
+    """Extract selected elective course codes from a free-text reply.
+
+    Prefer explicit UE-XXX codes. As a fallback, match candidate names that occur
+    in the answer so users can reply with course names only.
+    """
+    text = question or ""
+    found: list[str] = []
+
+    for match in re.finditer(r"\b(?:UE[-\s]?)?([A-Z]{3})[.-]?(\d{5})\b", text, flags=re.IGNORECASE):
+        code = f"UE-{match.group(1).upper()}.{match.group(2)}"
+        if code not in found:
+            found.append(code)
+
+    lowered = text.lower()
+    for course in elective_candidates or []:
+        code = str(course.get("code") or "")
+        name = str(course.get("course_name") or course.get("name") or "")
+        if not code:
+            continue
+        norm_code = _normalize_course_code(code)
+        if any(_normalize_course_code(existing) == norm_code for existing in found):
+            continue
+        if name and name.lower() in lowered:
+            found.append(code)
+
+    return found
+
+
 def overlaps(a_start, a_end, b_start, b_end) -> bool:
     return a_start < b_end and b_start < a_end
 
@@ -363,154 +386,136 @@ def format_semester_plan(result: Dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def _fmt_ects(value: Any) -> str:
+    if value is None:
+        return "unknown ECTS"
+    try:
+        num = float(value)
+        return f"{int(num)} ECTS" if num.is_integer() else f"{num:g} ECTS"
+    except Exception:
+        return f"{value} ECTS"
+
+
+def _course_label_for_plan(course: Dict[str, Any]) -> str:
+    name = course.get("course_name") or course.get("name") or course.get("code") or "Course"
+    code = course.get("code")
+    ects = course.get("ects")
+    semester_type = course.get("semester_type") or course.get("offered_in")
+    languages = course.get("teaching_languages") or []
+    details = []
+    if code:
+        details.append(str(code))
+    if ects is not None:
+        details.append(_fmt_ects(ects))
+    if semester_type:
+        details.append(str(semester_type))
+    if languages:
+        details.append("/".join(str(x) for x in languages))
+    return f"**{name}** ({', '.join(details)})" if details else f"**{name}**"
+
+
 def format_study_program_plan(result: Dict[str, Any]) -> str:
-    program = result.get("program", {})
-    semesters = result.get("semesters", [])
-    mandatory_groups = result.get("mandatory_groups", [])
-    elective_courses = result.get("elective_courses", [])
-    warnings = result.get("warnings", [])
+    """Format whole-program proposal responses.
 
-    program_name = (
-        program.get("display_name")
-        or program.get("name")
-        or result.get("program_name")
-        or "the selected program"
-    )
+    Supports both the older backend shape and the newer
+    /planner/study-program-plan-proposal shape.
+    """
+    program = result.get("program", {}) or {}
+    program_name = program.get("display_name") or program.get("name") or result.get("program_name") or "the selected program"
+    totals = result.get("totals") or {}
+    requested_semesters = result.get("requested_semesters") or result.get("semesters_requested")
+    selected_codes = result.get("selected_elective_codes") or []
 
-    total_ects = (
-        result.get("total_ects")
-        or program.get("total_ects")
-        or result.get("required_total_ects")
-    )
+    lines: list[str] = []
+    if selected_codes:
+        lines.append(f"Here is the completed study plan draft for **{program_name}**.")
+    else:
+        lines.append(f"Here is a complete study plan draft for **{program_name}**.")
 
-    required_elective_ects = result.get("required_elective_ects")
-    mandatory_ects = result.get("mandatory_ects")
-
-    lines = []
-    lines.append(f"Here is a complete study plan draft for **{program_name}**.")
+    total_ects = totals.get("total_ects") or result.get("total_ects") or program.get("total_ects") or result.get("required_total_ects")
+    mandatory_ects = totals.get("mandatory_ects_after_language_choices") or result.get("mandatory_ects")
+    required_elective_ects = totals.get("elective_ects_required") or result.get("required_elective_ects")
 
     if total_ects:
-        intro = f"\nThe program requires **{total_ects} ECTS** in total"
+        intro = f"\nThe program requires **{_fmt_ects(total_ects)}** in total"
         if mandatory_ects is not None and required_elective_ects is not None:
-            intro += (
-                f", including approximately **{mandatory_ects} ECTS** from mandatory courses "
-                f"and **{required_elective_ects} ECTS** from elective courses"
-            )
+            intro += f", including approximately **{_fmt_ects(mandatory_ects)}** from mandatory courses and **{_fmt_ects(required_elective_ects)}** from elective courses"
         intro += "."
         lines.append(intro)
 
-    lines.append(
-        "\nBecause future course offerings are not fully known yet, this plan reuses "
-        "the next available offering pattern for courses. Exact dates and times may change."
-    )
+    if requested_semesters:
+        target = totals.get("target_ects_per_semester")
+        if target is not None:
+            lines.append(f"The target load is about **{_fmt_ects(target)} per semester** over **{requested_semesters} semesters**.")
 
-    if warnings:
-        lines.append("\n⚠️ **Notes:**")
-        for warning in warnings:
-            lines.append(f"- {warning}")
+    lines.append("\nBecause future course offerings are not fully known yet, this plan reuses the next available offering pattern for courses. Exact dates and times may change.")
 
-    if mandatory_groups:
-        lines.append("\n## Mandatory courses / required choices")
-        for group in mandatory_groups:
-            title = (
-                group.get("title")
-                or group.get("course_name")
-                or group.get("name")
-                or "Mandatory course group"
-            )
-            ects = group.get("required_ects") or group.get("ects")
-            options = group.get("options") or group.get("courses") or []
+    assumptions = result.get("assumptions") or []
+    if assumptions:
+        lines.append("\n## Planning assumptions")
+        for assumption in assumptions:
+            lines.append(f"- {assumption}")
 
-            if len(options) > 1:
-                lines.append(f"- **{title}** ({ects} ECTS): choose one language/version")
-                for option in options:
-                    option_name = option.get("course_name") or option.get("name") or option.get("code")
-                    language = option.get("language")
-                    code = option.get("code")
-                    suffix = []
-                    if code:
-                        suffix.append(code)
-                    if language:
-                        suffix.append(language)
-                    suffix_text = f" — {', '.join(suffix)}" if suffix else ""
-                    lines.append(f"  - {option_name}{suffix_text}")
-            else:
-                lines.append(f"- **{title}** ({ects} ECTS)")
+    choice_groups = [g for g in (result.get("mandatory_choice_groups") or []) if g.get("requires_choice")]
+    if choice_groups:
+        lines.append("\n## Mandatory language/equivalent choices")
+        for group in choice_groups[:12]:
+            options = group.get("options") or []
+            lines.append("- Choose one of: " + "; ".join(_course_label_for_plan(o) for o in options))
 
-    if semesters:
+    plan_slots = result.get("suggested_mandatory_semester_plan") or result.get("semesters") or []
+    if plan_slots:
         lines.append("\n## Suggested semester distribution")
+        for slot in plan_slots:
+            number = slot.get("semester_number") or slot.get("index") or "?"
+            sem_type = slot.get("semester_type") or slot.get("type") or "semester"
+            planned = slot.get("planned_ects")
+            header = f"\n### Semester {number} ({sem_type})"
+            if planned is not None:
+                header += f" — {_fmt_ects(planned)}"
+            lines.append(header)
 
-        for semester in semesters:
-            label = semester.get("label") or semester.get("semester") or f"Semester {semester.get('index')}"
-            planned_ects = semester.get("planned_ects")
-            courses = semester.get("mandatory") or semester.get("courses") or []
-
-            heading = f"\n### {label}"
-            if planned_ects is not None:
-                heading += f" — {planned_ects} ECTS"
-            lines.append(heading)
-
-            if not courses:
-                lines.append("- No mandatory courses assigned yet.")
+            mandatory = slot.get("mandatory") or slot.get("courses") or []
+            electives_in_slot = slot.get("electives") or []
+            if not mandatory and not electives_in_slot:
+                lines.append("- No courses assigned yet.")
                 continue
-
-            for course in courses:
-                if isinstance(course, dict):
-                    name = (
-                        course.get("course_name")
-                        or course.get("name")
-                        or course.get("title")
-                        or course.get("code")
-                        or "Course"
-                    )
-                    ects = course.get("ects") or course.get("required_ects")
-                    offered = course.get("semester_type") or course.get("offered_in")
-                    time_info = course.get("day_time_info")
-
-                    line = f"- **{name}**"
-                    if ects is not None:
-                        line += f" ({ects} ECTS)"
-                    if offered:
-                        line += f" — offered in {offered}"
-                    lines.append(line)
-
-                    if time_info:
-                        lines.append(f"  - Time: {time_info}")
+            for group in mandatory:
+                options = group.get("options") if isinstance(group, dict) else None
+                if options:
+                    if group.get("requires_choice"):
+                        lines.append("- Mandatory: choose one language/equivalent option:")
+                        for option in options:
+                            lines.append(f"  - {_course_label_for_plan(option)}")
+                    else:
+                        lines.append(f"- Mandatory: {_course_label_for_plan(options[0])}")
+                elif isinstance(group, dict):
+                    lines.append(f"- Mandatory: {_course_label_for_plan(group)}")
                 else:
-                    lines.append(f"- {course}")
+                    lines.append(f"- Mandatory: {group}")
+            for group in electives_in_slot:
+                options = group.get("options") if isinstance(group, dict) else None
+                if options:
+                    if group.get("requires_choice"):
+                        lines.append("- Elective: choose one option:")
+                        for option in options:
+                            lines.append(f"  - {_course_label_for_plan(option)}")
+                    else:
+                        lines.append(f"- Elective: {_course_label_for_plan(options[0])}")
+                elif isinstance(group, dict):
+                    lines.append(f"- Elective: {_course_label_for_plan(group)}")
 
-    if elective_courses:
+    elective_courses = result.get("elective_courses") or []
+    if elective_courses and not selected_codes:
         lines.append("\n## Elective courses")
-        lines.append(
-            "Elective courses should be selected by the student. "
-            "The following courses are available candidates:"
-        )
+        lines.append("Elective courses should be selected by the student. The following courses are available candidates:")
+        for course in elective_courses:
+            lines.append(f"- {_course_label_for_plan(course)}")
+        lines.append("\nTo finish the plan, please choose which electives you want to take. You can answer with course codes like `UE-SIN.01022` or with the course names.")
+    elif elective_courses and selected_codes:
+        lines.append("\nIf you want to change electives, tell me the new elective course codes and I can regenerate the proposal.")
 
-        for course in elective_courses[:20]:
-            name = course.get("course_name") or course.get("name") or course.get("code")
-            code = course.get("code")
-            ects = course.get("ects")
-            semester_type = course.get("semester_type")
-            language = course.get("language")
-
-            details = []
-            if code:
-                details.append(code)
-            if ects is not None:
-                details.append(f"{ects} ECTS")
-            if semester_type:
-                details.append(str(semester_type))
-            if language:
-                details.append(str(language))
-
-            suffix = f" ({', '.join(details)})" if details else ""
-            lines.append(f"- **{name}**{suffix}")
-
-        lines.append(
-            "\nTo finish the plan, please choose which electives you want to take. "
-            "For bilingual mandatory courses, please also choose the language/version you prefer."
-        )
-
+    lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)
 
 
@@ -599,50 +604,6 @@ def answer_question(
         if found_total_ects:
             total_ects = found_total_ects
             session_state["hero_flow"]["total_ects"] = total_ects
-
-        # If the previous turn already showed the draft and asked for electives,
-        # the next user answer should continue this flow instead of falling back
-        # to the generic course-search/RAG path.
-        if selected_program_id and flow.get("awaiting_elective_selection"):
-            selected_codes = _extract_course_codes(question)
-            if not selected_codes:
-                return {
-                    "answer": (
-                        "Please answer with the elective course codes you want to include, "
-                        "for example: `UE-SIN.01022, UE-SIN.04022, UE-EEP.00160`."
-                    ),
-                    "sources": [],
-                    "used_tools": [],
-                    "session_state": session_state,
-                    "plan": {"mode": "hero"},
-                    "planning_errors": None,
-                }
-
-            planner_args = {
-                "program_id": selected_program_id,
-                "semesters": semesters or 8,
-                "locale": language or "en",
-                "selected_elective_codes": selected_codes,
-            }
-            if total_ects:
-                planner_args["total_ects"] = total_ects
-
-            with timed_step("tool.get_study_program_plan", selected_electives=True):
-                planner_result = TOOLS["get_study_program_plan"](**planner_args)
-
-            with timed_step("answer.format_study_program_plan"):
-                answer = format_study_program_plan(planner_result)
-
-            session_state["hero_flow"] = None
-
-            return {
-                "answer": answer,
-                "sources": [],
-                "used_tools": ["get_study_program_plan"],
-                "session_state": session_state,
-                "plan": {"mode": "hero"},
-                "planning_errors": None,
-            }
 
         candidate_programs = flow.get("candidate_programs", [])
 
@@ -781,6 +742,27 @@ def answer_question(
         if total_ects:
             planner_args["total_ects"] = total_ects
 
+        awaiting_electives = bool(flow.get("awaiting_electives"))
+        if awaiting_electives:
+            selected_codes = _extract_selected_elective_codes(
+                question,
+                flow.get("elective_candidates") or [],
+            )
+            if not selected_codes:
+                return {
+                    "answer": (
+                        "I am still waiting for your elective choices. "
+                        "Please answer with elective course codes such as `UE-SIN.01022`, "
+                        "or copy the elective course names from the list."
+                    ),
+                    "sources": [],
+                    "used_tools": [],
+                    "session_state": session_state,
+                    "plan": {"mode": "hero"},
+                    "planning_errors": None,
+                }
+            planner_args["selected_elective_codes"] = selected_codes
+
         with timed_step("tool.get_study_program_plan"):
             planner_result = TOOLS["get_study_program_plan"](**planner_args)
 
@@ -789,17 +771,18 @@ def answer_question(
         with timed_step("answer.format_study_program_plan"):
             answer = format_study_program_plan(planner_result)
 
-        # Keep this flow open when no electives were selected yet. The next user
-        # turn should be interpreted as elective selection, not as generic search.
-        if not planner_args.get("selected_elective_codes"):
+        if awaiting_electives or planner_result.get("selected_elective_codes"):
+            session_state["hero_flow"] = None
+        elif planner_result.get("elective_courses"):
             session_state["hero_flow"] = {
                 "name": "plan_study_program",
                 "program_id": selected_program_id,
-                "program_name": session_state.get("hero_flow", {}).get("program_name"),
+                "program_name": flow.get("program_name") or (planner_result.get("program") or {}).get("display_name"),
                 "candidate_programs": [],
                 "semesters": semesters,
                 "total_ects": total_ects,
-                "awaiting_elective_selection": True,
+                "awaiting_electives": True,
+                "elective_candidates": planner_result.get("elective_courses") or [],
             }
         else:
             session_state["hero_flow"] = None
@@ -834,50 +817,6 @@ def answer_question(
                     "plan": {"mode": "hero"},
                     "planning_errors": None,
                 }
-
-        # If the previous turn already showed the draft and asked for electives,
-        # the next user answer should continue this flow instead of falling back
-        # to the generic course-search/RAG path.
-        if selected_program_id and flow.get("awaiting_elective_selection"):
-            selected_codes = _extract_course_codes(question)
-            if not selected_codes:
-                return {
-                    "answer": (
-                        "Please answer with the elective course codes you want to include, "
-                        "for example: `UE-SIN.01022, UE-SIN.04022, UE-EEP.00160`."
-                    ),
-                    "sources": [],
-                    "used_tools": [],
-                    "session_state": session_state,
-                    "plan": {"mode": "hero"},
-                    "planning_errors": None,
-                }
-
-            planner_args = {
-                "program_id": selected_program_id,
-                "semesters": semesters or 8,
-                "locale": language or "en",
-                "selected_elective_codes": selected_codes,
-            }
-            if total_ects:
-                planner_args["total_ects"] = total_ects
-
-            with timed_step("tool.get_study_program_plan", selected_electives=True):
-                planner_result = TOOLS["get_study_program_plan"](**planner_args)
-
-            with timed_step("answer.format_study_program_plan"):
-                answer = format_study_program_plan(planner_result)
-
-            session_state["hero_flow"] = None
-
-            return {
-                "answer": answer,
-                "sources": [],
-                "used_tools": ["get_study_program_plan"],
-                "session_state": session_state,
-                "plan": {"mode": "hero"},
-                "planning_errors": None,
-            }
 
         candidate_programs = flow.get("candidate_programs", [])
 

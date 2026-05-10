@@ -298,10 +298,9 @@ def get_planner_courses(
 
 def get_study_program_plan(
     program_id: int | str,
-    semesters: int,
+    semesters: int = 8,
     locale: str = "en",
     total_ects: Optional[int | float | str] = None,
-    selected_elective_codes: Optional[list[str] | str] = None,
 ) -> dict[str, Any]:
     params: dict[str, Any] = {
         "program_id": program_id,
@@ -310,11 +309,6 @@ def get_study_program_plan(
     }
     if total_ects is not None:
         params["total_ects"] = total_ects
-    if selected_elective_codes:
-        if isinstance(selected_elective_codes, str):
-            params["selected_elective_codes"] = selected_elective_codes
-        else:
-            params["selected_elective_codes"] = ",".join(selected_elective_codes)
     return _get("/planner/study-program-plan-proposal", params=params)
 
 

@@ -149,6 +149,13 @@ function localizedProgramNameSql(locale: "de" | "en" | "fr") {
   return `COALESCE(NULLIF(p.name_de, ''), NULLIF(p.name_en, ''), NULLIF(p.name_fr, ''), p.name)`;
 }
 
+function normalizeCourseCode(value: unknown): string {
+  return String(value ?? "")
+    .toUpperCase()
+    .replace(/^UE[-\s]?/, "")
+    .replace(/[^A-Z0-9]/g, "");
+}
+
 
 
 type StudyProgramPlanQuery = {
@@ -860,13 +867,13 @@ export async function plannerRoutes(app: FastifyInstance) {
       const selectedElectiveCodeSet = new Set(
         String(selected_elective_codes ?? "")
           .split(",")
-          .map((x) => x.trim().replace(/^UE-/, ""))
+          .map((x) => normalizeCourseCode(x))
           .filter(Boolean)
       );
       const mandatoryGroups = makeGroups(courses.filter((c) => c.course_type === "Mandatory"));
       const allElectiveGroups = makeGroups(courses.filter((c) => c.course_type === "Elective"));
       const electiveGroups = selectedElectiveCodeSet.size
-        ? allElectiveGroups.filter((g) => g.options.some((o) => selectedElectiveCodeSet.has(o.code)))
+        ? allElectiveGroups.filter((g) => g.options.some((o) => selectedElectiveCodeSet.has(normalizeCourseCode(o.code))))
         : allElectiveGroups;
       const program = programRows[0]!;
       if (!program) {

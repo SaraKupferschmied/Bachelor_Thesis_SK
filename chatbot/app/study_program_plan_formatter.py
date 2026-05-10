@@ -33,19 +33,14 @@ def format_study_program_plan(result: Dict[str, Any], rag_rules: str | None = No
     name = program.get("display_name") or "this study program"
     semester_count = result.get("requested_semesters")
 
-    selected_codes = result.get("selected_elective_codes") or []
     lines: List[str] = []
-    if selected_codes:
-        lines.append(f"Here is the completed study-plan draft for **{name}** over **{semester_count} semesters**.\n")
-    else:
-        lines.append(f"Here is a study-plan draft for **{name}** over **{semester_count} semesters**.\n")
+    lines.append(f"Here is a first full-program plan for **{name}** over **{semester_count} semesters**.\n")
 
     lines.append(
         f"The program requires **{_fmt_ects(totals.get('total_ects'))}** in total. "
-        f"The target load is about **{_fmt_ects(totals.get('target_ects_per_semester'))} per semester**. "
         f"After grouping likely bilingual/equivalent mandatory courses, about "
         f"**{_fmt_ects(totals.get('mandatory_ects_after_language_choices'))}** are mandatory and "
-        f"about **{_fmt_ects(totals.get('elective_ects_required'))}** should be filled with electives."
+        f"about **{_fmt_ects(totals.get('elective_ects_required'))}** must be filled with electives."
     )
 
     if rag_rules:
@@ -65,15 +60,12 @@ def format_study_program_plan(result: Dict[str, Any], rag_rules: str | None = No
             opts = group.get("options") or []
             lines.append(f"- Choose **one** of: {', '.join((o.get('course_name') or o.get('code')) for o in opts)}")
 
-    if not selected_codes:
-        lines.append("\nElectives are **not placed yet**. Where elective credits are still needed, treat them as placeholders such as `Elective to choose: 4.5–6 ECTS`. After you send elective course codes, I will regenerate the concrete plan with only those electives. ")
-
-    lines.append("\n**Suggested semester distribution:**")
+    lines.append("\n**Suggested mandatory-course distribution:**")
     for slot in result.get("suggested_mandatory_semester_plan", []):
         header = (
             f"\nSemester {slot.get('semester_number')} "
             f"({slot.get('semester_type')}, target { _fmt_ects(slot.get('target_ects')) }, "
-            f"planned { _fmt_ects(slot.get('planned_ects')) })"
+            f"planned mandatory { _fmt_ects(slot.get('planned_ects')) })"
         )
         lines.append(header)
         mandatory = slot.get("mandatory") or []
@@ -92,32 +84,19 @@ def format_study_program_plan(result: Dict[str, Any], rag_rules: str | None = No
         for group in electives_in_slot:
             options = group.get("options") or []
             if group.get("requires_choice"):
-                lines.append("- Selected elective, choose one option:")
+                lines.append("- Elective suggestion, choose one option:")
                 for option in options:
                     lines.append(f"  - {_course_label(option)}")
             elif options:
-                lines.append(f"- Selected elective: {_course_label(options[0])}")
-
-        if not selected_codes and slot.get("semester_number", 0) >= max(1, int((semester_count or 8) * 0.6)):
-            target = slot.get("target_ects") or 0
-            planned = slot.get("planned_ects") or 0
-            try:
-                missing = max(0.0, float(target) - float(planned))
-            except Exception:
-                missing = 0.0
-            if missing >= 3:
-                lines.append(f"- Elective to choose: about {_fmt_ects(missing)}")
+                lines.append(f"- Elective suggestion: {_course_label(options[0])}")
 
     electives = result.get("elective_courses") or []
     if electives:
-        lines.append("\n**Available elective options:**")
-        for course in electives:
+        lines.append("\n**Further available elective options:**")
+        for course in electives[:12]:
             lines.append(f"- {_course_label(course)}")
-
-    if selected_codes:
-        lines.append("\nIf you want to change electives, tell me the new elective course codes and I can regenerate the proposal.")
-    else:
-        lines.append("\nTo finish the plan, please choose electives by sending course codes, for example `UE-SIN.01022, UE-SIN.04022, UE-EEP.00160`.")
+        if len(electives) > 12:
+            lines.append(f"- …and {len(electives) - 12} more electives.")
 
     lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)

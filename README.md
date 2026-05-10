@@ -64,7 +64,7 @@ Start the server
 start chatbot from folder
 - uvicorn app.main:app --reload
 
-docker compose --env-file .env.docker restart frontend
+docker compose --env-file .env.docker restart backend
 docker compose --env-file .env.docker logs -f chatbot
 
 npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
