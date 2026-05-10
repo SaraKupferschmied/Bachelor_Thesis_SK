@@ -72,7 +72,7 @@ class Settings(BaseModel):
 
     @property
     def studyplans_index(self) -> Path:
-        suffix = self._variant_suffix()
+        suffix = self._variant_suffix
         if self.rag_parser == "docling_language_aware":
             return self.vectorstore_dir / "faiss_studyplans_docling_language_aware"
         if self.rag_parser == "docling":
@@ -81,7 +81,7 @@ class Settings(BaseModel):
 
     @property
     def reglementations_index(self) -> Path:
-        suffix = self._variant_suffix()
+        suffix = self._variant_suffix
         if self.rag_parser == "docling_language_aware":
             return self.vectorstore_dir / "faiss_reglementations_docling_language_aware"
         if self.rag_parser == "docling":

@@ -213,7 +213,10 @@ def _select_rag_db(question: str, db_study=None, db_regl=None):
 
 
 def _extract_semester_count(text: str) -> int | None:
-    match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)?\b", text.lower())
+    # Only treat a number as a study-duration semester count when the user
+    # explicitly says "semester(s)". Otherwise a bare number like "11" is
+    # usually a program id in the study-program selection step.
+    match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)\b", text.lower())
     if not match:
         return None
 
@@ -223,6 +226,15 @@ def _extract_semester_count(text: str) -> int | None:
         return value
 
     return None
+
+
+def _extract_course_codes(text: str) -> list[str]:
+    codes = []
+    for prefix, number in re.findall(r"\b(?:UE[-\s]?)?([A-Z]{3})[.\s-]?(\d{5})\b", text, flags=re.IGNORECASE):
+        code = f"UE-{prefix.upper()}.{number}"
+        if code not in codes:
+            codes.append(code)
+    return codes
 
 
 def _extract_program_id(text: str) -> int | None:
@@ -588,6 +600,50 @@ def answer_question(
             total_ects = found_total_ects
             session_state["hero_flow"]["total_ects"] = total_ects
 
+        # If the previous turn already showed the draft and asked for electives,
+        # the next user answer should continue this flow instead of falling back
+        # to the generic course-search/RAG path.
+        if selected_program_id and flow.get("awaiting_elective_selection"):
+            selected_codes = _extract_course_codes(question)
+            if not selected_codes:
+                return {
+                    "answer": (
+                        "Please answer with the elective course codes you want to include, "
+                        "for example: `UE-SIN.01022, UE-SIN.04022, UE-EEP.00160`."
+                    ),
+                    "sources": [],
+                    "used_tools": [],
+                    "session_state": session_state,
+                    "plan": {"mode": "hero"},
+                    "planning_errors": None,
+                }
+
+            planner_args = {
+                "program_id": selected_program_id,
+                "semesters": semesters or 8,
+                "locale": language or "en",
+                "selected_elective_codes": selected_codes,
+            }
+            if total_ects:
+                planner_args["total_ects"] = total_ects
+
+            with timed_step("tool.get_study_program_plan", selected_electives=True):
+                planner_result = TOOLS["get_study_program_plan"](**planner_args)
+
+            with timed_step("answer.format_study_program_plan"):
+                answer = format_study_program_plan(planner_result)
+
+            session_state["hero_flow"] = None
+
+            return {
+                "answer": answer,
+                "sources": [],
+                "used_tools": ["get_study_program_plan"],
+                "session_state": session_state,
+                "plan": {"mode": "hero"},
+                "planning_errors": None,
+            }
+
         candidate_programs = flow.get("candidate_programs", [])
 
         if candidate_programs and not selected_program_id:
@@ -733,7 +789,20 @@ def answer_question(
         with timed_step("answer.format_study_program_plan"):
             answer = format_study_program_plan(planner_result)
 
-        session_state["hero_flow"] = None
+        # Keep this flow open when no electives were selected yet. The next user
+        # turn should be interpreted as elective selection, not as generic search.
+        if not planner_args.get("selected_elective_codes"):
+            session_state["hero_flow"] = {
+                "name": "plan_study_program",
+                "program_id": selected_program_id,
+                "program_name": session_state.get("hero_flow", {}).get("program_name"),
+                "candidate_programs": [],
+                "semesters": semesters,
+                "total_ects": total_ects,
+                "awaiting_elective_selection": True,
+            }
+        else:
+            session_state["hero_flow"] = None
 
         return {
             "answer": answer,
@@ -765,6 +834,50 @@ def answer_question(
                     "plan": {"mode": "hero"},
                     "planning_errors": None,
                 }
+
+        # If the previous turn already showed the draft and asked for electives,
+        # the next user answer should continue this flow instead of falling back
+        # to the generic course-search/RAG path.
+        if selected_program_id and flow.get("awaiting_elective_selection"):
+            selected_codes = _extract_course_codes(question)
+            if not selected_codes:
+                return {
+                    "answer": (
+                        "Please answer with the elective course codes you want to include, "
+                        "for example: `UE-SIN.01022, UE-SIN.04022, UE-EEP.00160`."
+                    ),
+                    "sources": [],
+                    "used_tools": [],
+                    "session_state": session_state,
+                    "plan": {"mode": "hero"},
+                    "planning_errors": None,
+                }
+
+            planner_args = {
+                "program_id": selected_program_id,
+                "semesters": semesters or 8,
+                "locale": language or "en",
+                "selected_elective_codes": selected_codes,
+            }
+            if total_ects:
+                planner_args["total_ects"] = total_ects
+
+            with timed_step("tool.get_study_program_plan", selected_electives=True):
+                planner_result = TOOLS["get_study_program_plan"](**planner_args)
+
+            with timed_step("answer.format_study_program_plan"):
+                answer = format_study_program_plan(planner_result)
+
+            session_state["hero_flow"] = None
+
+            return {
+                "answer": answer,
+                "sources": [],
+                "used_tools": ["get_study_program_plan"],
+                "session_state": session_state,
+                "plan": {"mode": "hero"},
+                "planning_errors": None,
+            }
 
         candidate_programs = flow.get("candidate_programs", [])
 

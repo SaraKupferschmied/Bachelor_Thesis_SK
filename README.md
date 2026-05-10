@@ -150,3 +150,27 @@ Timeout for too long questions
     tool=http://localhost:8000/ask:tool ^
     rag=http://localhost:8000/ask:rag
     
+
+# Run locally
+
+## Requirements
+
+- Docker Desktop
+- Git
+
+## Setup
+
+```bash
+git clone <repo>
+cd <repo>
+
+cp .env.example .env
+
+docker compose up --build
+```
+
+Frontend:
+http://localhost:3000
+
+Backend:
+http://localhost:8000
