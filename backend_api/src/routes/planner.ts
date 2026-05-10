@@ -149,6 +149,215 @@ function localizedProgramNameSql(locale: "de" | "en" | "fr") {
   return `COALESCE(NULLIF(p.name_de, ''), NULLIF(p.name_en, ''), NULLIF(p.name_fr, ''), p.name)`;
 }
 
+
+
+type StudyProgramPlanQuery = {
+  program_id?: string | number;
+  semesters?: string | number;
+  locale?: "de" | "en" | "fr";
+  total_ects?: string | number;
+  selected_elective_codes?: string;
+};
+
+type ProgramPlanCourseRow = {
+  program_id: number;
+  code: string;
+  course_name: string | null;
+  canonical_course_name: string | null;
+  course_type: "Mandatory" | "Elective";
+  program_course_description: string | null;
+  ects: number | null;
+  offered_semester_types: string[] | null;
+  latest_sem_id: string | null;
+  latest_day_time_info: string | null;
+  teaching_languages: string[] | null;
+};
+
+type PlanCourse = {
+  code: string;
+  course_name: string | null;
+  ects: number | null;
+  course_type: "Mandatory" | "Elective";
+  program_course_description: string | null;
+  suggested_year: number | null;
+  semester_types: string[];
+  semester_type: string | null;
+  sem_id: string | null;
+  day_time_info: string | null;
+  teaching_languages: string[];
+};
+
+type PlanGroup = {
+  group_key: string;
+  requires_choice: boolean;
+  planned_ects: number;
+  suggested_year: number | null;
+  semester_types: string[];
+  sequence: number;
+  options: PlanCourse[];
+};
+
+function parseStudyYear(text: string | null): number | null {
+  const t = String(text ?? "").toLowerCase();
+  if (/\b(1\.|1st|first|erstes|premi[eè]re?)\s+(study\s+)?(year|studienjahr|jahr|ann[ée]e)/i.test(t)) return 1;
+  if (/\b(2\.|2nd|second|zweites|deuxi[eè]me)\s+(study\s+)?(year|studienjahr|jahr|ann[ée]e)/i.test(t)) return 2;
+  if (/\b(3\.|3rd|third|drittes|troisi[eè]me)\s+(study\s+)?(year|studienjahr|jahr|ann[ée]e)/i.test(t)) return 3;
+  if (/\b1\.?\s*jahr\b|\b1\.?\s*studienjahr\b/.test(t)) return 1;
+  if (/\b2\.?\s*jahr\b|\b2\.?\s*studienjahr\b/.test(t)) return 2;
+  if (/\b3\.?\s*jahr\b|\b3\.?\s*studienjahr\b/.test(t)) return 3;
+  return null;
+}
+
+function normalizeText(value: string | null): string {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\b(f|d|e|fr|de|en)\b/g, " ")
+    .replace(/[^a-z0-9ivx]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function canonicalCourseKey(name: string | null, code: string, ects: number | null): string {
+  let n = normalizeText(name);
+  const man = n.match(/\bman\s*0?(\d{1,2})\b/);
+  if (man) return `man-${Number(man[1])}-${ects ?? ""}`;
+
+  const replacements: Array<[RegExp, string]> = [
+    [/\bwirtschaftsinformatik\b|\binformatique de gestion\b/g, "business informatics"],
+    [/\beinfuehrung in die statistik\b|\beinfuh rung in die statistik\b|\bintroduction a la statistique\b/g, "statistics"],
+    [/\bvertiefungskurs statistik\b|\bstatistique approfondissement\b/g, "advanced statistics"],
+    [/\bmathematik\b|\bmathematiques\b/g, "mathematics"],
+    [/\beinfuehrung in die betriebswirtschaftslehre\b|\beinf uhrung in die betriebswirtschaftslehre\b|\bintroduction a la gestion d entreprise\b/g, "management"],
+    [/\bunternehmensrechnung\b|\bintroduction a la comptabilite\b/g, "accounting"],
+    [/\brecht\b|\bdroit\b/g, "law"],
+    [/\bmikrookonomie\b|\bmicroeconomie\b/g, "microeconomics"],
+    [/\bmarketingforschung\b|\brecherche marketing\b/g, "marketing research"],
+    [/\bbilanzierung\b|\bcomptabilite financiere\b/g, "financial accounting"],
+    [/\bcontrolling\b|\bcomptabilite de gestion\b/g, "management accounting"],
+    [/\bunternehmensfinanzierung\b|\bfinance d entreprise\b/g, "corporate finance"],
+    [/\borganisation\b/g, "organisation"],
+  ];
+  for (const [rx, repl] of replacements) n = n.replace(rx, repl);
+  n = n.replace(/\s+/g, " ").trim();
+  return `${n || code}-${ects ?? ""}`;
+}
+
+function sequenceHint(name: string | null): number {
+  const n = normalizeText(name);
+  if (/\b(i|1)\b/.test(n) && !/\b(ii|2)\b/.test(n)) return 1;
+  if (/\b(ii|2)\b/.test(n)) return 2;
+  if (/\b(iii|3)\b/.test(n)) return 3;
+  return 50;
+}
+
+function uniqStrings(values: unknown): string[] {
+  if (!Array.isArray(values)) return [];
+  return [...new Set(values.map(String).filter(Boolean))];
+}
+
+function toPlanCourse(row: ProgramPlanCourseRow): PlanCourse {
+  const types = uniqStrings(row.offered_semester_types);
+  return {
+    code: row.code,
+    course_name: row.course_name ?? row.canonical_course_name ?? row.code,
+    ects: row.ects,
+    course_type: row.course_type,
+    program_course_description: row.program_course_description,
+    suggested_year: parseStudyYear(row.program_course_description),
+    semester_types: types,
+    semester_type: types.length === 1 ? (types[0] ?? null) : types.length ? types.join("/") : null,
+    sem_id: row.latest_sem_id,
+    day_time_info: row.latest_day_time_info,
+    teaching_languages: uniqStrings(row.teaching_languages),
+  };
+}
+
+function makeGroups(courses: PlanCourse[]): PlanGroup[] {
+  const byKey = new Map<string, PlanCourse[]>();
+  for (const course of courses) {
+    const key = canonicalCourseKey(course.course_name, course.code, course.ects);
+    byKey.set(key, [...(byKey.get(key) ?? []), course]);
+  }
+  return [...byKey.entries()].map(([key, options]) => {
+    const first = options[0] as PlanCourse;
+    const allTypes = [...new Set(options.flatMap((o) => o.semester_types))];
+    const years = options.map((o) => o.suggested_year).filter((y): y is number => y !== null);
+    return {
+      group_key: key,
+      requires_choice: options.length > 1,
+      planned_ects: Number(first.ects ?? 0),
+      suggested_year: years.length ? Math.min(...years) : null,
+      semester_types: allTypes,
+      sequence: Math.min(...options.map((o) => sequenceHint(o.course_name))),
+      options,
+    };
+  });
+}
+
+function semesterTypeForNumber(n: number): "Autumn" | "Spring" {
+  return n % 2 === 1 ? "Autumn" : "Spring";
+}
+
+function fitsSemester(group: PlanGroup, semesterType: "Autumn" | "Spring") {
+  return group.semester_types.length === 0 || group.semester_types.includes(semesterType);
+}
+
+function buildSuggestedPlan(mandatoryGroups: PlanGroup[], electiveGroups: PlanGroup[], semesters: number, totalEcts: number | null, onlySelectedElectives = false) {
+  const target = (totalEcts && totalEcts > 0 ? totalEcts : 180) / semesters;
+  const slots = Array.from({ length: semesters }, (_, i) => ({
+    semester_number: i + 1,
+    semester_type: semesterTypeForNumber(i + 1),
+    target_ects: target,
+    planned_ects: 0,
+    mandatory: [] as PlanGroup[],
+    electives: [] as PlanGroup[],
+  }));
+
+  const sortedMandatory = [...mandatoryGroups].sort((a, b) =>
+    (a.suggested_year ?? 99) - (b.suggested_year ?? 99) ||
+    a.sequence - b.sequence ||
+    a.group_key.localeCompare(b.group_key)
+  );
+
+  for (const group of sortedMandatory) {
+    const minSem = group.suggested_year ? Math.max(1, (group.suggested_year - 1) * 2 + 1) : 1;
+    let candidates = slots.filter((s) => s.semester_number >= minSem && fitsSemester(group, s.semester_type));
+    if (!candidates.length) candidates = slots.filter((s) => fitsSemester(group, s.semester_type));
+    if (!candidates.length) candidates = slots;
+    candidates.sort((a, b) =>
+      Math.abs((a.planned_ects + group.planned_ects) - target) - Math.abs((b.planned_ects + group.planned_ects) - target) ||
+      a.semester_number - b.semester_number
+    );
+    const selectedSlot = candidates[0];
+    if (!selectedSlot) continue;
+    selectedSlot.mandatory.push(group);
+    selectedSlot.planned_ects += group.planned_ects;
+  }
+
+  const sortedElectives = [...electiveGroups].sort((a, b) =>
+    (a.suggested_year ?? 99) - (b.suggested_year ?? 99) ||
+    a.sequence - b.sequence ||
+    a.group_key.localeCompare(b.group_key)
+  );
+  const electiveStart = Math.max(1, Math.min(semesters, Math.ceil(semesters * 0.6)));
+  for (const group of sortedElectives) {
+    const candidates = slots
+      .filter((s) => s.semester_number >= electiveStart && fitsSemester(group, s.semester_type))
+      .sort((a, b) => a.planned_ects - b.planned_ects || a.semester_number - b.semester_number);
+    const slot = candidates[0];
+    if (!slot) continue;
+    if (onlySelectedElectives || slot.planned_ects <= target - 1 || slot.electives.length < 2) {
+      slot.electives.push(group);
+      slot.planned_ects += group.planned_ects;
+    }
+  }
+
+  return slots;
+}
+
 export async function plannerRoutes(app: FastifyInstance) {
   app.get(
     "/semesters",
@@ -540,6 +749,159 @@ export async function plannerRoutes(app: FastifyInstance) {
     }
   );
 
+
+  app.get(
+    "/study-program-plan-proposal",
+    {
+      schema: {
+        tags: ["Planner"],
+        summary: "Build a whole-study-program plan proposal without changing semester-course planner routes",
+        querystring: {
+          type: "object",
+          required: ["program_id"],
+          properties: {
+            program_id: { type: "integer" },
+            semesters: { type: "integer", minimum: 1, maximum: 16, default: 8 },
+            total_ects: { type: "number" },
+            selected_elective_codes: { type: "string", description: "Comma-separated elective course codes selected by the student" },
+            locale: { type: "string", enum: ["de", "en", "fr"] },
+          },
+        },
+      },
+    },
+    async (req, rep) => {
+      const { program_id, semesters, locale, total_ects, selected_elective_codes } =
+        (req.query as StudyProgramPlanQuery) ?? {};
+      const programId = toInt(program_id);
+      const requestedSemesters = Math.max(1, Math.min(16, toInt(semesters) ?? 8));
+      const resolvedLocale = normalizeLocale(locale);
+      const nameExpr = localizedProgramNameSql(resolvedLocale);
+
+      if (!programId) {
+        return rep.code(400).send({ error: "program_id query parameter is required" });
+      }
+
+      const programRows = await query<{
+        program_id: number;
+        display_name: string | null;
+        degree_level: string | null;
+        total_ects: number | null;
+        min_elective_ects: number | null;
+        max_elective_ects: number | null;
+      }>(
+        `
+        SELECT
+          p.program_id,
+          ${nameExpr} AS display_name,
+          p.degree_level,
+          p.total_ects,
+          p.min_elective_ects,
+          p.max_elective_ects
+        FROM StudyProgram p
+        WHERE p.program_id = $1
+        `,
+        [programId]
+      );
+
+      if (!programRows.length) {
+        return rep.code(404).send({ error: `No study program found for id ${programId}` });
+      }
+
+      const rows = await query<ProgramPlanCourseRow>(
+        `
+        WITH latest_offering AS (
+          SELECT DISTINCT ON (off.code)
+            off.code,
+            off.sem_id,
+            off.day_time_info
+          FROM CourseOffering off
+          JOIN Semester s ON s.sem_id = off.sem_id
+          ORDER BY off.code, s.year DESC, CASE WHEN s.type = 'Autumn' THEN 1 ELSE 0 END DESC
+        ), offering_types AS (
+          SELECT
+            off.code,
+            ARRAY_AGG(DISTINCT s.type ORDER BY s.type) AS offered_semester_types
+          FROM CourseOffering off
+          JOIN Semester s ON s.sem_id = off.sem_id
+          GROUP BY off.code
+        ), teaching_langs AS (
+          SELECT
+            off.code,
+            ARRAY_AGG(DISTINCT l.description) FILTER (WHERE l.description IS NOT NULL) AS teaching_languages
+          FROM CourseOffering off
+          LEFT JOIN is_taught_in iti ON iti.offering_id = off.offering_id
+          LEFT JOIN Language l ON l.lang_id = iti.lang_id
+          GROUP BY off.code
+        )
+        SELECT
+          co.program_id,
+          co.code,
+          COALESCE(NULLIF(co.course_name, ''), c.name) AS course_name,
+          c.name AS canonical_course_name,
+          co.course_type,
+          co.description AS program_course_description,
+          c.ects,
+          ot.offered_semester_types,
+          lo.sem_id AS latest_sem_id,
+          lo.day_time_info AS latest_day_time_info,
+          tl.teaching_languages
+        FROM consist_of co
+        JOIN Course c ON c.code = co.code
+        LEFT JOIN offering_types ot ON ot.code = co.code
+        LEFT JOIN latest_offering lo ON lo.code = co.code
+        LEFT JOIN teaching_langs tl ON tl.code = co.code
+        WHERE co.program_id = $1
+        ORDER BY co.course_type, co.description NULLS LAST, c.name NULLS LAST, co.code
+        `,
+        [programId]
+      );
+
+      const courses = rows.map(toPlanCourse);
+      const selectedElectiveCodeSet = new Set(
+        String(selected_elective_codes ?? "")
+          .split(",")
+          .map((x) => x.trim().replace(/^UE-/, ""))
+          .filter(Boolean)
+      );
+      const mandatoryGroups = makeGroups(courses.filter((c) => c.course_type === "Mandatory"));
+      const allElectiveGroups = makeGroups(courses.filter((c) => c.course_type === "Elective"));
+      const electiveGroups = selectedElectiveCodeSet.size
+        ? allElectiveGroups.filter((g) => g.options.some((o) => selectedElectiveCodeSet.has(o.code)))
+        : allElectiveGroups;
+      const program = programRows[0]!;
+      if (!program) {
+        return rep.code(404).send({ error: `No study program found for id ${programId}` });
+      }
+      const programTotal = Number(total_ects ?? program.total_ects ?? 0) || null;
+      const plan = buildSuggestedPlan(mandatoryGroups, electiveGroups, requestedSemesters, programTotal, selectedElectiveCodeSet.size > 0);
+      const mandatoryEcts = mandatoryGroups.reduce((sum, g) => sum + g.planned_ects, 0);
+      const electiveSuggestedEcts = plan.reduce((sum, s) => sum + s.electives.reduce((x, g) => x + g.planned_ects, 0), 0);
+
+      return {
+        program: program,
+        requested_semesters: requestedSemesters,
+        totals: {
+          total_ects: programTotal ?? program.total_ects,
+          target_ects_per_semester: (programTotal ?? program.total_ects ?? 180) / requestedSemesters,
+          mandatory_ects_after_language_choices: mandatoryEcts,
+          elective_ects_required: Math.max(0, Number(program.total_ects ?? programTotal ?? 180) - mandatoryEcts),
+          suggested_elective_ects: electiveSuggestedEcts,
+        },
+        assumptions: [
+          "This is a generated proposal from structured database rows, not a legally binding study plan.",
+          "Odd planned semesters are treated as HS/Autumn; even planned semesters are treated as FS/Spring.",
+          "Likely bilingual/equivalent alternatives are grouped and count only once toward ECTS.",
+          "Courses with year hints in consist_of.description are placed before later-year or unlabelled courses where possible.",
+        ],
+        mandatory_choice_groups: mandatoryGroups.filter((g) => g.requires_choice),
+        suggested_mandatory_semester_plan: plan,
+        selected_elective_codes: [...selectedElectiveCodeSet],
+        elective_courses: allElectiveGroups.flatMap((g) => g.options),
+        raw_course_count: rows.length,
+      };
+    }
+  );
+
   app.get(
     "/offerings/:offeringId",
     {
@@ -757,7 +1119,7 @@ export async function plannerRoutes(app: FastifyInstance) {
       if (programRows.length === 0) {
         return rep.code(404).send({ error: "Program not found" });
       }
-      const program = programRows[0];
+      const program = programRows[0]!;
 
       const reqs = await query<RequirementRow>(
         `SELECT program_id, code, course_type

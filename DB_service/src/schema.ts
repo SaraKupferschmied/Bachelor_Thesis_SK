@@ -9,14 +9,24 @@ async function run() {
     `CREATE TABLE IF NOT EXISTS Faculty (
       faculty_id SERIAL PRIMARY KEY,
       name_de VARCHAR(255),
-      name_fr	VARCHAR(255),
-      name_en	VARCHAR(255),
-      url	VARCHAR(255) NOT NULL UNIQUE,
-      faculty_key	VARCHAR(50) 
+      name_fr VARCHAR(255),
+      name_en VARCHAR(255),
+      url VARCHAR(255) NOT NULL UNIQUE,
+      faculty_key VARCHAR(50) UNIQUE NOT NULL
     );`,
 
+    `CREATE UNIQUE INDEX IF NOT EXISTS faculty_faculty_key_unique
+    ON Faculty (faculty_key);`,
+
     `INSERT INTO Faculty (faculty_id, name_de, name_fr, name_en, url, faculty_key)
-    VALUES (100, 'Fakultät konnte nicht zugeordnet werden', 'Faculté na pas pu être associée', 'Faculty could not be matched', 'about:default-faculty', 'default')
+    VALUES (
+      100,
+      'Fakultät konnte nicht zugeordnet werden',
+      'Faculté na pas pu être associée',
+      'Faculty could not be matched',
+      'about:default-faculty',
+      'default'
+    )
     ON CONFLICT (faculty_id) DO NOTHING;`,
 
     `CREATE TABLE IF NOT EXISTS Room (

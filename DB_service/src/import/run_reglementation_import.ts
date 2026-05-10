@@ -100,10 +100,17 @@ function buildParsedMap(parsedDir: string): Map<string, string> {
   if (!fs.existsSync(parsedDir)) return m;
 
   const files = fs.readdirSync(parsedDir).filter((f) => f.endsWith(".txt"));
+
   for (const f of files) {
-    const mm = f.match(/_([a-f0-9]{40})\.txt$/i);
-    if (mm?.[1]) m.set(mm[1].toLowerCase(), path.join(parsedDir, f));
+    const mm =
+      f.match(/^([a-f0-9]{40})\.txt$/i) ??
+      f.match(/_([a-f0-9]{40})\.txt$/i);
+
+    if (mm?.[1]) {
+      m.set(mm[1].toLowerCase(), path.join(parsedDir, f));
+    }
   }
+
   return m;
 }
 
@@ -208,13 +215,13 @@ async function run() {
       // ✅ PDF path comes from manifest local_path
       const pdfPath = resolveCrawlerPath(d.local_path!);
 
-      if (!fs.existsSync(pdfPath)) {
-        missingPdf++;
-        console.warn(`⚠️ Missing PDF on disk: ${pdfPath} (skipping)`);
-        continue;
-      }
+      let pdfBytes: Buffer | null = null;
 
-      const pdfBytes = fs.readFileSync(pdfPath);
+      if (fs.existsSync(pdfPath)) {
+        pdfBytes = fs.readFileSync(pdfPath);
+      } else {
+        missingPdf++;
+      }
 
       // parsed text file is located by reg_doc_key
       const parsedPath = parsedMap.get(d.reg_doc_key.toLowerCase()) ?? null;

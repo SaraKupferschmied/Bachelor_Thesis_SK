@@ -9,14 +9,11 @@ __pycache__/
 .scrapy/
 
 # Data outputs
-# Ignore all JSON outputs by default
-*.json
-*.jsonl
+outputs/
 *.jl
 *.sqlite
 *.db
-scrapy_crawler/outputs
-scrapy_crawler/scrapy_crawler/spider_outputs
+
 
 # OS
 .DS_Store
@@ -26,6 +23,7 @@ Thumbs.db
 # Environment variables / secrets
 .env
 .env.*
+!.env.docker.example
 
 # Node / TypeScript
 node_modules/
@@ -38,8 +36,15 @@ yarn-error.log*
 
 
 chatbot/ollama/Lib/
-chatbot/vectorstore
 chatbot/app/__pycache__
-*.faiss
-*.pkl
 *.zip
+
+# git
+.git/
+
+# temporary
+*.faiss
+*.plk
+chatbot/vectorstore
+*.json
+*.jsonl

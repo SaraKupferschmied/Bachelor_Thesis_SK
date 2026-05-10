@@ -69,25 +69,34 @@ def format_study_program_plan(result: Dict[str, Any], rag_rules: str | None = No
         )
         lines.append(header)
         mandatory = slot.get("mandatory") or []
-        if not mandatory:
-            lines.append("- No mandatory course placed here yet.")
+        electives_in_slot = slot.get("electives") or []
+        if not mandatory and not electives_in_slot:
+            lines.append("- No course placed here yet.")
             continue
         for group in mandatory:
             options = group.get("options") or []
             if group.get("requires_choice"):
-                lines.append("- Choose one language/equivalent option:")
+                lines.append("- Choose one mandatory language/equivalent option:")
                 for option in options:
                     lines.append(f"  - {_course_label(option)}")
             elif options:
-                lines.append(f"- {_course_label(options[0])}")
+                lines.append(f"- Mandatory: {_course_label(options[0])}")
+        for group in electives_in_slot:
+            options = group.get("options") or []
+            if group.get("requires_choice"):
+                lines.append("- Elective suggestion, choose one option:")
+                for option in options:
+                    lines.append(f"  - {_course_label(option)}")
+            elif options:
+                lines.append(f"- Elective suggestion: {_course_label(options[0])}")
 
     electives = result.get("elective_courses") or []
     if electives:
-        lines.append("\n**Electives are not auto-planned yet.** The student should choose electives in the UI, then the chatbot can place them into semesters while checking timetable conflicts. Available elective examples:")
-        for course in electives[:20]:
+        lines.append("\n**Further available elective options:**")
+        for course in electives[:12]:
             lines.append(f"- {_course_label(course)}")
-        if len(electives) > 20:
-            lines.append(f"- …and {len(electives) - 20} more electives.")
+        if len(electives) > 12:
+            lines.append(f"- …and {len(electives) - 12} more electives.")
 
-    lines.append("\nNext step: choose the language option for grouped mandatory courses and select electives until the missing elective ECTS are covered.")
+    lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)
