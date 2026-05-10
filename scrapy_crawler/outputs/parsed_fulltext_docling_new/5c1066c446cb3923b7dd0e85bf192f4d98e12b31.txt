@@ -1,0 +1,135 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:36:52.917Z",
+  "title": "Philosophy_Master_90_English_Language_and_Literature_Plan_d_tudes_MA_programme_compl_mentaire_30_ECTS__5c1066c446cb3923b7dd0e85bf192f4d98e12b31",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5c1066c446cb3923b7dd0e85bf192f4d98e12b31",
+  "program_key": "philosophy|master|90|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "English Language and Literature",
+  "doc_label": "Plan d'études MA programme complémentaire (30 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_p2_as_2010_f.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_English_Language_and_Literature_Plan_d_tudes_MA_programme_compl_mentaire_30_ECTS__5c1066c446cb3923b7dd0e85bf192f4d98e12b31.pdf",
+  "sha256": "f53bec36486da696bd638936bcc40bfb9facd4b80a4fd1ec6d42f5b7203e0924",
+  "fetched_at": "2026-04-03T11:31:25.864Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_p2_as_2010_f.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "ma_p2_as_2010_f.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Université de Fribourg
+
+## Faculté des Lettres Département des langues et littératures
+
+## Domaine Anglais
+
+## Master of Arts
+
+## Programme d'études secondaires (30 crédits ECTS) Langue et littérature anglaises
+
+## Plan d'études
+
+Ce document décrit l'organisation des études dans le programme d'études secondaires  « anglais ». Les  programmes    d'études  approfondies  et d'études secondaires font l'objet de plans d'études spécifiques. Le Président / la Présidente du département est responsable du programme d'études.
+
+## I. Généralités
+
+## I.1 Présentation des études
+
+Le programme vise à fournir aux étudiant(e)s les moyens d'approfondir leurs connaissances dans deux matières faisant partie du  domaine  des  études  anglaises.  Le  programme  M.A.  mettra l'accent sur les outils de la recherche, sur l'histoire de la critique et sur  les  méthodologies  nouvelles.  Il  sera  question  d'identifier  les spécificités  du  domaine  des  études  anglaises.  Pour  la  linguistique anglaise  il  s'agit  d'amener  les  étudiant(e)s  vers  une  description scientifique et une analyse empirique de la langue anglaise dans sa dimension intra- et interculturelle ; pour la littérature de s'interroger sur  les  rapports  entre  les  traditions  anglo-américaines  et  celles  de l'Europe  continentale.  Dans  les  deux  cas  les  connaissances  du contexte historique feront l'objet d'une attention particulière afin de favoriser  chez  les  étudiant(e)s  une  vision  multiculturelle  de  la civilisation  anglophone  dans  toute  sa  dimension  globale  et  dans toute sa diversité.
+
+Pour ce programme l'étudiant(e) choisira 2 modules différents de 15 crédits  ECTS  chacun  parmi  les  matières  suivantes :  linguistique anglaise, philologie anglaise, littérature anglaise 1500-1780, littérature anglaise de 1780  jusqu'à nos jours, ou littérature américaine.
+
+## I.2 Conditions d'admission
+
+Peuvent  accéder  sans  autres  conditions  au programme d'études secondaire « anglais » :
+
+- o les  titulaires  d'un  diplôme  de  bachelor  comprenant  au minimum 60 crédits en anglais (domaine I ou II).
+
+Le  Conseil  du  département    décide,  si  les  étudiant(e)s  qui  ne remplissent pas les conditions ci-dessus sont admissibles. L'accomplissement d'un programme de rattrapage préalable ou d'un programme d'ajustement peut être exigé.
+
+## I.3 Examens et validation de crédits
+
+Les  crédits  ECTS  sont  attribués  exclusivement  sur  la  base  de prestations d'études évaluées et jugées suffisantes (cf. Art. 21 du Règlement pour l'obtention du Master de la Faculté des Lettres de l'Université de Fribourg). L'évaluation peut porter sur des prestations accomplies dans le cadre d'une seule unité d'enseignement ou sur des prestations accomplies dans le cadre de plusieurs unités d'enseignement appartenant au même module. Les modalités de ces évaluations sont précisées au début du semestre.
+
+La réussite du programme d'études secondaires suppose la validation  de  30  crédits  ECTS.  Les  crédits  prévus  pour  un  module (voir ci-dessous § II.1) sont pris en compte en faveur d'un étudiant dès lors  qu'il  est  dûment  établi  que  ce  dernier  a  accompli  dans  le module en question l'ensemble des exigences prévues par les plans d'études.
+
+## I.4 Langue d'enseignement
+
+Les enseignements sont donnés en anglais.
+
+## II Organisation des études (programme secondaire)
+
+L'étudiant(e) choisit 2 modules à 15 crédits ECTS parmi les matières suivantes :
+
+## Module 1  - 15 crédits ECTS English Linguistics
+
+Langue d'enseignement :
+
+anglais a/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+b/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+c/ Séminaire 2 heures semaine. Valeur : 9 crédits ECTS. . Examen/Evaluation à spécifier par l'enseignant(e).
+
+## Module 2 - 15 crédits ECTS English Philology
+
+Langue d'enseignement :
+
+anglais a/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+b/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+c/ Séminaire 2 heures semaine. Valeur : 9 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+## Module 3 - 15 crédits ECTS English Literature I (1500-1780)
+
+Langue d'enseignement :
+
+anglais
+
+a/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+b/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+c/ Séminaire 2 heures semaine. Valeur : 9 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+## Module 4 - 15 crédits ECTS English Literature II  (1780-present day)
+
+## Langue d'enseignement : anglais
+
+a/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+b/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+c/ Séminaire 2 heures semaine. Valeur : 9 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+## Module 5 - 15 crédits ECTS American Literature
+
+Langue d'enseignement : anglais
+
+a/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+b/ Cours 2 heures semaine/semestre. Valeur : 3 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+c/ Séminaire 2 heures semaine. Valeur : 9 crédits ECTS. Examen/Evaluation à spécifier par l'enseignant(e).
+
+2 modules à choix (2 x15 ECTS) = 30 crédits ECTS
+
+Les spécifications exactes des évaluations sont fournies par chaque enseignant et décrites dans Gestens.

@@ -1,0 +1,305 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T21:06:51.996Z",
+  "title": "Philosophy_Bachelor_60_English_Language_and_Literature_Studienplan_BA_Bereich_I_120_ECTS__682e7568afb3a88c10ecff184d94f4b978f05ce3",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "682e7568afb3a88c10ecff184d94f4b978f05ce3",
+  "program_key": "philosophy|bachelor|120|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "English Language and Literature",
+  "doc_label": "Studienplan BA Bereich I (120 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BALET%20MAJOR%20GERMAN_21072020.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_English_Language_and_Literature_Studienplan_BA_Bereich_I_120_ECTS__682e7568afb3a88c10ecff184d94f4b978f05ce3.pdf",
+  "sha256": "ae3dcb8e19f3df781e96e5fef196ecaafff86ba8c930653212ea718378277d68",
+  "fetched_at": "2026-04-03T11:31:26.348Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BALET%20MAJOR%20GERMAN_21072020.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## I. ALLGEMEINES
+
+Dieser Studienplan ist gültig in Zusammenhang mit dem 'Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät'.
+
+Das  Studienprogramm  widmet  sich  allen  wichtigen  Bereichen  der  englischsprachigen  Literatur  in England und den Vereinigten Staaten, der englischen Linguistik sowie den vergangenen und modernen Formen des Englischen  von  Beowulf  bis  hin  zur  heutigen  Sprache.  Ein  besonderer  Fokus  gilt  dem professionellen Schreiben sowie der Interdisziplinarität.
+
+Absolventen des Programms finden oft eine Anstellung im Schweizer Schulsystem. Nach Abschluss des Studiums (inklusive Master) können sie sich nach Wahl deutsch- oder französischsprachig zum Lehrer in  Freiburg  ausbilden.  Weitere  Berufsmöglichkeiten  eröffnen  sich  im  internationalen  Feld,  im Journalismus und Verlagswesen sowie in Non-Profit-Organisationen.
+
+Das Studienprogramm in Englischer Sprache und Literatur' (120 ECTS) ist modular strukturiert und besteht aus folgenden Studiengebieten:
+
+- 1) English Linguistics/Philology (=  Engl. Linguistik/Engl. Mediävistik)
+- 2) English/American Literature (= englische/amerikanische Lit.)
+
+Um  die  von  der  Studienordnung  vorgesehenen  120  ECTS  im  Bereich  I  zu  erreichen,  müssen Studierende folgende Module erfolgreich abschliessen: je drei Module in den beiden Studiengebieten Linguistics/Philology  und  English/American  Literature,  ein  Modul  in  Language  Proficiency,  ein Capstone Experience Module, und ein Modul in Soft Skills.
+
+Studierende können sich sowohl für das Herbstsemester als auch das Frühjahrssemester einschreiben. Unterrichtssprache  ist  English.  Das  Sprachkompetenzniveau  C1  in  Englisch  wird  zu  Studienbeginn dringend empfohlen. Studierende legen zu Semesterbeginn einen Eignungstest (Aptitude Test) ab, der vom Sprachenzentrum der Universität durchgeführt wird.
+
+Studierende, die muttersprachliche oder äquivalente englische Sprachkenntnisse besitzen, können von den Veranstaltungen des Moduls Language Proficiency ganz oder teilweise befreit werden, wobei sie die  entsprechenden  Kreditpunkte,  durch  den  Besuch  anderer  Veranstaltungen  ihrer  Wahl  in English/American Literature, Linguistics oder Philology erwerben müssen. Ein solcher Dispens wird durch den Präsidenten / die Präsidentin des Departements erteilt.
+
+Allen BA Studierenden wird dringend empfohlen, mehrere Monate in einem englischsprachigen Land zu verbringen.
+
+## Universität Fribourg Departement für Englisch
+
+## Studienplan BA Englische Sprache und Literatur Bereich I, 120 ECTS-Punkte
+
+## II. STRUKTURIERUNG DES STUDIUMS
+
+Modul 1:
+
+Grundlagen des Fachs: Linguistik und Philologie
+
+Foundations of the Discipline: Linguistics and Philology
+
+Studierende besuchen je eine Vorlesung in Linguistik und in Philologie. Sie besuchen ein dem Modul 1 zugeordnetes Proseminar entweder in Linguistik oder in Philologie. Diese Kurse bieten sowohl eine Einführung in die Geschichte der englischen Sprache als auch eine Einführung in die grundlegenden Begriffe der Englischen Sprachwissenschaft.
+
+## Module 1 (Ling/Phil)
+
+L LING: 3 ECTS
+
+L PHIL: 3 ECTS
+
+PS: 3 ECTS
+
+Module Exam: 6 ECTS
+
+Modul 2:
+
+Grundlagen des Fachs: Englische und Amerikanische Literatur
+
+Foundations of the Discipline: English and American Literature
+
+Dieses Modul legt die Grundlagen für das Studium englischsprachiger Literatur. Das Modul setzt sich zusammen aus einer zweisemestrigen Überblicksvorlesung in englischer oder amerikanischer Literatur von der frühen Moderne bis zur Gegenwart sowie einem Proseminar, welches grundlegende kritische und theoretische Konzepte zum Studium von Lyrik, Drama, und erzählender Prosa vermittelt.
+
+In Modul 2 erwerben Studierende eine solide Wissensbasis in den historischen Perioden der englischen und amerikanischen Literatur. Die textnahe Arbeit im Proseminar übt grundlegende Methoden der wissenschaftlichen Arbeit ein.
+
+## Module 2 (Eng/Am Lit)
+
+L: 3 ECTS
+
+L: 3 ECTS
+
+PS: 3 ECTS
+
+Module Exam: 6 ECTS
+
+## Modul 3: Sprachkompetenz
+
+Language Proficiency
+
+Das  Modul  Sprachkompetenz  vertieft  die  Fähigkeiten  der  Studierenden  im  wissenschaftlichen Gebrauch der englischen Sprache. Es enthält vier Kurse; zwei im wissenschaftlichen Schreiben und zwei in vertiefter Sprachkenntnis. Diese Veranstaltungen werden vom Sprachenzentrum durchgeführt.
+
+WAP  und  PE  Kurse  sind  konsekutiv  aufgebaut.  Studierende  müssen  PE  I  validieren,  um  an  PE  II teilnehmen zu können. Studierende müssen WAP I validieren, um an WAP II teilnehmen zu können.
+
+Das Lernziel des Modules 3 besteht darin, Studierenden die Fähigkeiten zu vermitteln, flüssig mündlich zu argumentieren sowie überzeugende, klar argumentierte Proseminararbeiten im weiteren Verlauf ihres Studiums anfertigen zu können.
+
+## Module 3
+
+Writing for Academic Purposes
+
+: 6 + 6 ECTS
+
+Total:
+
+15 ECTS
+
+Total:
+
+15 ECTS
+
+2/7
+
+Proficiency English
+
+: 3 + 3 ECTS
+
+## Modul 4:
+
+Linguistik und Philologie: Theorien und Texte
+
+Linguistics/Philology: Theory and Texts
+
+Studierende  besuchen  je  eine  Vorlesung  in  Linguistik  und  in  Philologie.  Falls  sie  in  Modul  1  ein Proseminar in Linguistik besucht haben, müssen sie ein Proseminar in Philologie belegen.  Falls sie in Modul 1 ein Proseminar in Philologie besucht haben, müssen sie ein Proseminar in Linguistik belegen. In diesem Modul lernen Studierende, theoretische Begriffe in der Analyse ihrer eigenen Daten und Texte anzuwenden. Die Teilnahme am Proseminar (ausser Proseminaren des Einführungsmoduls) ist nur Studierenden gestattet, die das 'Examen am Ende des ersten Jahres' bestanden haben.
+
+## Module 4 (Ling/Phil)
+
+L LING: 3 ECTS
+
+L PHIL: 3 ECTS
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+Total:
+
+12 ECTS
+
+## Modul 5:
+
+Literatur: Kultur und Identität
+
+Literature: Culture and Identity
+
+Im  Modul  5  lernen  Studierende  die  Auseinandersetzung  mit  Hauptwerken  der  englischen  und amerikanischen  Literatur,  insbesondere  in  Anwendung  der  Technik  des  "close  reading."  Das Hauptaugenmerk liegt auf Aspekten der Kultur und Identität in den diskutierten Texten und ihren jeweiligen historischen Kontexten. Das Modul beinhaltet zwei Vorlesungen und ein Proseminar. Die Teilnahme  am  Proseminar  (ausser  Proseminaren  des  Einführungsmoduls)  ist  nur  Studierenden gestattet, die das 'Examen am Ende des ersten Jahres' bestanden haben.
+
+## Module 5 (Eng/Am Lit)
+
+L: 3 ECTS
+
+L: 3 ECTS
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+Total:
+
+Total:
+
+12 ECTS
+
+## Modul 6:
+
+Linguistik und Philologie: Forschung und wissenschaftliches Arbeiten
+
+Linguistics/Philology: Advanced Research and Writing
+
+In diesem Modul lernen Studierende Methoden der kritischen und vergleichenden wissenschaftlichen Auseinandersetzung mit einer Vielzahl von Texten. Die Teilnahme am Proseminar (ausser Proseminaren des Einführungsmoduls) ist nur Studierenden gestattet, die das 'Examen am Ende des ersten Jahres' bestanden haben. Das Lernziel des Moduls ist es, eine grösstmögliche Unabhängigkeit und Selbstverantwortung der Studierenden in ihren wissenschaftlichen Arbeiten und ihrer kritischen Auseinandersetzung mit Texten zu erreichen.
+
+## Module 6 (Ling/Phil)
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+Total:
+
+12 ECTS
+
+18 ECTS
+
+## Modul 7:
+
+Literatur: Forschung und wissenschaftliches Arbeiten
+
+Literature: Advanced Research and Writing
+
+In diesem Modul erlernen Studierende fortgeschrittene Techniken und Methoden des wissenschaftlichen Arbeitens, insbesondere der schriftlichen Darstellung ihrer Forschungsergebnisse. Gegenstand ist eine Bandbreite von Fragestellungen in der anglistischen Literaturwissenschaft, die an Texten aus diversen Perioden der Literaturgeschichte untersucht werden.
+
+Die  Teilnahme  am Proseminar  (ausser Proseminaren  des  Einführungsmoduls)  ist  nur  Studierenden gestattet, die das 'Examen am Ende des ersten Jahres' bestanden haben.
+
+Das  Lernziel  des  Moduls  ist  es,  eine  grösstmögliche  Unabhängigkeit  und  Selbstverantwortung  der Studierenden in ihren wissenschaftlichen Arbeiten und ihrer kritischen Auseinandersetzung mit Texten zu erreichen.
+
+Module 7 (Am/Eng. Lit)
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+PS: 3 ECTS für Teilnahme und 3 ECTS für Seminararbeit
+
+## Modul 8: Capstone experience
+
+Dieses Modul offeriert drei Wahlmöglichkeiten, von denen nur eine wahrgenommen werden kann. Studierende  können  (1) entweder eine  BA-Abschlussarbeit  schreiben,  (2) oder eine  umfassende mündliche  Abschlussprüfung  ablegen,  (3) oder an  einem  Projekt  arbeiten.  Das  Projekt  kann  eine Kombination von zusätzlichen Lehrveranstaltungen und Forschungstätigkeiten, Feldforschung, oder Performanz-Komponenten beinhalten (die dritte Möglichkeit (3) gilt nur für Linguistik und Philologie). Studierende müssen diese diversen Wahlmöglichkeiten sorgfältig mit einem potentiellen Betreuer / einer  potentiellen  Betreuerin  absprechen  und  seine/ihre  Zustimmung  einholen.  Die  Teilnahme  an einem  Thesis  Workshop,  welcher  in  jedem  Semester  vom  Departement  organisiert  wird,  ist verpflichtend.
+
+Das  Lernziel  dieses  Moduls  besteht  zunächst  in  der  sorgfältigen  und  verantwortlichen  Wahl-im Einklang mit dem Betreuer/in-der Art und Weise, in welcher das Schlussmodul absolviert wird.  Im Anschluss an die Entscheidung arbeitet der/die Studierende weitgehend selbstverantwortlich an der Vorbereitung seiner/ihrer BA Arbeit oder mündlichen Abschlussprüfung bzw des Projekts in Linguistik oder Philologie.
+
+## Module 8
+
+BA-Thesis or Comprehensive oral exam or Applied project
+
+Total:
+
+Total:
+
+12 ECTS
+
+12 ECTS
+
+## Modul 9: Soft skills
+
+Studierende im Bereich I Englisch müssen 12 ECTS in komplementären Veranstaltungen in anderen Disziplinen erwerben.  Diese können nicht aus den Bereichen I oder II des/der Studierenden stammen.
+
+Total:
+
+12 ECTS
+
+## III. LEISTUNGSNACHWEIS UND BENOTUNG
+
+Alle evaluierten Leistungen im Departement für Englisch werden auf einer Skala von 1 bis 6 benotet. 6 ist  die  höchste  Note;  4  ist  eine  genügende  Note.  Studierende,  die  in  der  Validierung  einer Unterrichtseinheit einen Misserfolg erleiden, haben eine zweite Möglichkeit zur Validierung derselben. Ein  etwaiger  zweiter  Misserfolg  innerhalb  von  maximal  vier  Prüfungssessionen  gilt  als  endgültiger Misserfolg. Das Studium in einem Bachelor-Programm in Englisch darf in diesem Fall nicht fortgesetzt werden. Diese Regel gilt nicht für Unterrichtseinheiten im Modul 9 ( Soft skills ).
+
+Die Schlussnote des Programms entspricht dem Mittel der Mittel aller Module. Die Note eines Moduls entspricht dem Mittel aller darin enthaltenen Noten.
+
+Nach dem ersten Versuch, ein Examen zu einer Unterrichtseinheit oder einem Modul zu absolvieren, sind Studierende verpflichtet, die Evaluation dieser Unterrichtseinheit bzw. dieses Moduls entweder mit Erfolg oder Misserfolg zu Ende zu führen.
+
+## Modul 1 und 2:
+
+Jedes  Modul  wird  durch  ein  Modulexamen  evaluiert.  Genauere  Bestimmungen  zu  den Leistungsnachweisen  werden  vom  verantwortlichen  Dozenten  festgelegt  und  im  MyUnifr beschrieben. Es besteht Anwesenheitspflicht in allen drei Kursen. Der erfolgreiche Abschluss des Proseminars setzt aktive Mitarbeit voraus. Studierende, die mehr als zwei Mal unentschuldigt fehlen, erwerben keine Kreditpunkte für den Kurs. Ein Modul wird nur dann validiert, wenn alle darin vorgeschriebenen Unterrichtseinheiten erfolgreich abgeschlossen worden sind.
+
+## Modul 3:
+
+Alle Kurse werden einzeln evaluiert. Das jeweilige Evaluationsverfahren hängt ausschliesslich von den  Regelungen  des  Sprachenzentrums  ab,  das  für  diese  Veranstaltungen  zuständig  ist. Studierende müssen alle Evaluationen erfolgreich bestehen, um die für das Module Language Proficiency benötigten Bedingungen zu erfüllen.
+
+## Module 4, 5, 6, und 7:
+
+Proseminare werden evaluiert auf der Grundlage erfolgreicher Mitarbeit sowie einer benoteten schriftlichen  Arbeit.  3  ECTS  werden  auf  Grund  von  erfolgreicher  Teilnahme  am  Proseminar vergeben,  3  ECTS  auf  Grund  einer  schriftlichen  Arbeit,  die  mindestens  die  Note  'ausreichend' erreichen muss. Bei Vorlesungen besteht Anwesenheitspflicht. Studierende, die mehr als zwei Mal unentschuldigt fehlen, erwerben keine Kreditpunkte für den jeweiligen Kurs. Ein Modul wird nur dann validiert, wenn alle darin vorgeschriebenen Unterrichtseinheiten erfolgreich abgeschlossen worden sind. Genauere Bestimmungen zu den Leistungsnachweisen werden vom verantwortlichen Dozenten festgelegt und im MyUnifr beschrieben.
+
+## Modul 8:
+
+Studierende müssen ihren jeweiligen Betreuer konsultieren, bevor sie eines der drei Optionen wählen:  BA Abschlussarbeit, umfangreiche mündliche Abschlussprüfung, oder Projektarbeit (in Linguistik  und  Philologie).  Die  Betreuer  werden  die  Studierenden  je  nach  deren  individuellen
+
+Fähigkeiten  und  Studienzielen  beraten.  Studierende,  die  sich  dafür  entscheiden,  Modul  8  in Literatur  zu  belegen,  müssen  zuerst  alle  anderen  Kurse  in  Literatur  erfolgreich  abgeschlossen haben.  Studierende,  die  sich  dafür  entscheiden,  Modul  8  in  Linguistics/Philology  zu  belegen, müssen zuerst alle anderen Kurse in Linguistics/Philology erfolgreich abgeschlossen haben.
+
+## Modul 9:
+
+Alle 'Soft Skills' (CTC) müssen einzeln evaluiert werden, wobei das Evaluationsverfahren ganz von den  Regelungen  des  entsprechenden  Departements    abhängt,  der  für  diese  Veranstaltungen zuständig ist.
+
+## Examen am Ende des Ersten Jahres
+
+Das 'Examen am Ende des ersten Jahres' bestätigt die Fähigkeit der/des Studierenden, das Studium fortzusetzen.  Das  'Examen  am  Ende  des  ersten  Jahres'  in  English  besteht  aus  dem  erfolgreichen Absolvieren  des  Moduls  1  und  2.  Studierende  müssen  das  'Examen  am  Ende  des  ersten  Jahres' spätestens vor dem Beginn des fünften Studiensemesters erfolgreich bestanden haben.
+
+Studierende, die Modul 1 und 2 nicht erfolgreich abgeschlossen haben, dürfen Module 4, 5, 6, 7 und 7 nicht belegen.
+
+## English Majors / Bereich I (BA-LET)
+
+Linguistics/Philology
+
+English/American Literature
+
+## Year One, Modules 1 &amp; 2: 30 ECTS = 'First Year Exam'
+
+<!-- image -->
+
+|                                                               | ECTS                                                          |                                                               |                                                               | ECTS                                                          |                       |
+|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|-----------------------|
+| Module 1 : Foundations                                        |                                                               |                                                               | Module 2 : Foundations                                        |                                                               |                       |
+| L: Linguistics                                                | 3                                                             |                                                               | L: Survey I Eng/Am Lit.                                       | 3                                                             |                       |
+| L: Philology                                                  | 3                                                             |                                                               | L: Survey II Eng/Am Lit.                                      | 3                                                             |                       |
+| PS: Linguistics or Philology                                  | 3                                                             |                                                               | PS: Intro to Literary Studies                                 | 3                                                             |                       |
+| Module exam                                                   | 6                                                             | 15                                                            | Module Exam                                                   | 6                                                             | 15                    |
+| Years One and Two, Module 3, Language Proficiency             | Years One and Two, Module 3, Language Proficiency             | Years One and Two, Module 3, Language Proficiency             | Years One and Two, Module 3, Language Proficiency             | Years One and Two, Module 3, Language Proficiency             |                       |
+| Writing for Academic Purposes                                 | 6                                                             |                                                               | Writing for Academic Purposes                                 | 6                                                             |                       |
+| Proficiency English                                           | 3                                                             |                                                               | Proficiency English                                           | 3                                                             | 18                    |
+| Two and Three, Modules4&5                                     | Two and Three, Modules4&5                                     | Two and Three, Modules4&5                                     | Two and Three, Modules4&5                                     | Two and Three, Modules4&5                                     |                       |
+| Module 4 : Theory and Texts                                   |                                                               |                                                               | Module 5 : Culture &Identity                                  |                                                               |                       |
+| L: Linguistics                                                | 3                                                             |                                                               | L: English/American Lit.                                      | 3                                                             |                       |
+| L: Philology                                                  | 3                                                             |                                                               | L: English/American Lit.                                      | 3                                                             |                       |
+| PS: Philology or Linguistics                                  | 3+3                                                           | 12                                                            | PS: English/American Lit.                                     | 3+3                                                           | 12                    |
+| Years Two and Three, Modules6&7                               | Years Two and Three, Modules6&7                               | Years Two and Three, Modules6&7                               | Years Two and Three, Modules6&7                               | Years Two and Three, Modules6&7                               |                       |
+| Module 6 : Advanced Research and Writing                      |                                                               |                                                               | Module 7 : Advanced Research and Writing                      |                                                               |                       |
+| PS: Linguistics                                               | 3+3                                                           |                                                               | PS: English/American Lit.                                     | 3+3                                                           |                       |
+| PS: Philology                                                 | 3+3                                                           | 12                                                            | PS: English/American Lit.                                     | 3+3                                                           | 12                    |
+| Module 8: Capstone Experience Choose one of the three options | Module 8: Capstone Experience Choose one of the three options | Module 8: Capstone Experience Choose one of the three options | Module 8: Capstone Experience Choose one of the three options | Module 8: Capstone Experience Choose one of the three options |                       |
+| Applied project (Ling and Phil only)                          | BA Thesis                                                     | BA Thesis                                                     | Comprehensive Oral Exam                                       | Comprehensive Oral Exam                                       | 12                    |
+| Module 9: Soft Skills                                         | Module 9: Soft Skills                                         | Module 9: Soft Skills                                         | Module 9: Soft Skills                                         | Module 9: Soft Skills                                         | Module 9: Soft Skills |
+| Any, not from student's major or minor subject                | Any, not from student's major or minor subject                | Any, not from student's major or minor subject                | Any, not from student's major or minor subject                | Any, not from student's major or minor subject                | 12                    |

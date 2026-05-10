@@ -1,0 +1,314 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T18:03:01.038Z",
+  "title": "Philosophy_Bachelor_60_History_of_Modern_Times_Studienplan_2016__36c202abe944667c957e35fddfe43b4aa27b1987",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "36c202abe944667c957e35fddfe43b4aa27b1987",
+  "program_key": "philosophy|bachelor|60|history",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "History",
+  "doc_label": "Studienplan (2016)",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ba-2016/Histoire_BA_30_250216.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/history",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_History_of_Modern_Times_Studienplan_2016__36c202abe944667c957e35fddfe43b4aa27b1987.pdf",
+  "sha256": "6df0735f23c0de834e7dd64fed33390db0707d2779b3d9cbd27e51ff89770343",
+  "fetched_at": "2026-04-03T11:31:04.418Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ba-2016/Histoire_BA_30_250216.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Histoire_BA_30_250216.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Université de Fribourg (Suisse) Faculté des Lettres Département des Sciences historiques Domaine d'études Histoire
+
+Bachelor
+
+## Histoire (Programme d'études à 30 crédits ECTS)
+
+(Ratifié le 25.02.2016)
+
+Le présent plan d'études s'appuie sur:
+
+- 1) Le Règlement du 23 juin 2005 pour l'obtention du diplôme universitaire (niveau Bachelor européen) à la Faculté des lettres de l'Université de Fribourg (Suisse).
+- 2) Les Directives du 23 avril 2009 concernant l'évaluation des prestations d'études, l'attribution des crédits ECTS et la validation des modules à la Faculté des Lettres de l'Université de Fribourg (Suisse).
+
+Le présent plan d'études remplace l'ancien plan d'études pour le Bachelor dans le domaine « Histoire » du 30.11.2009. Il entre en vigueur dès sa ratification par la Commission des études et des examens de la Faculté des Lettres et sera appliqué dès le semestre d'automne 2016.
+
+Universität Freiburg (Schweiz) Philosophische Fakultät Departement für Historische Wissenschaften Studienbereich Geschichte
+
+Bachelor
+
+## Geschichte (Studienprogramm zu 30 ECTSKreditpunkten)
+
+(Ratifiziert am 25.02.2016)
+
+Dieser Studienplan stützt sich auf:
+
+- 1) Das Reglement vom 23. Juni 2005 zur Erlangung des universitären Diploms (Niveau europäischer Bachelor) an der Philosophischen Fakultät der Universität Freiburg (Schweiz).
+- 2) Die Richtlinien vom 23. April 2009 über die Evaluation der Studienleistungen, die Vergabe der ECTS-Kreditpunkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz).
+
+Dieser Studienplan ersetzt den alten Studienplan für den Studiengang Bachelor of Arts im Bereich 'Geschichte' vom 30.11.2009. Er tritt unmittelbar nach der Ratifizierung durch die Studien- und Prüfungskommission der Philosophischen Fakultät in Kraft und kommt ab Herbstsemester 2016 zur Anwendung.
+
+## I. Généralités
+
+## Article 1 : Le profil d'études
+
+- 1) Le domaine d'études Histoire offre un programme d'études portant sur les quatre branches-périodes: Antiquité (jusqu'au Ve siècle), Moyen Age (VIeXVe siècles), Epoque Moderne (XVIeXVIIIe siècles) et Epoque contemporaine (XIXe-XXIe siècles) en intégrant l'histoire globale, européenne et suisse.
+- 2) La formation en histoire vise à développer des méthodes appropriées pour maîtriser les données documentaires et acquérir des techniques d'analyse critique des sources sous de multiples angles (économique, juridique, politique, culturel, religieux, etc.). Diverses méthodes sont proposées en lien avec les apports des autres domaines d'études.
+- 3) La formation en histoire cherche à renforcer les compétences des étudiant-es dans la communication et la présentation des résultats de recherche, ainsi que leur capacité à se positionner dans un débat scientifique.
+
+## Article 2 : Qualification et débouchés professionnels
+
+- 1) Le programme d'études en Histoire à 30 crédits ECTS donne accès au Master of Arts en Sciences historiques avec programme d'études approfondies Histoire, Histoire générale et suisse de l'époque moderne ou Histoire contemporaine, sous réserve des dispositions prévues dans les règlements particuliers.
+- 2) Complété par un titre de Master of Arts en Histoire, Histoire générale et suisse de l'époque moderne ou Histoire contemporaine, le programme d'études en Histoire à 30 crédits ECTS donne accès au diplôme d'aptitude à l'enseignement pour les écoles de maturité (DEEM), sous réserve des dispositions prévues dans les règlements particuliers.
+
+<!-- image -->
+
+## I. Allgemeines
+
+## Artikel 1: Das Studienprofil
+
+- 1) Das Studium der Geschichte umfasst die vier Epochenfächer Altertum (bis zum 5. Jahrhundert), Mittelalter (6. - 15. Jahrhundert), Neuzeit (16. - 18. Jahrhundert) und Zeitgeschichte (19. - 21. Jahrhundert). Behandelt werden globale, europäische und Schweizer Geschichte.
+- 2) Das Studium der Geschichte ist einem multiperspektivischen Analyseansatz verpflichtet. Synchrone und diachrone, ökonomische und kulturhistorische, soziologische und rechtshistorische Fragestellungen werden in der Lehre berücksichtigt. Es ist durch methodische Vielfalt und vertieften Austausch mit anderen Forschungszweigen gekennzeichnet.
+- 3) Das Studium der Geschichte vermittelt den Studierenden die Kompetenz, der situationsadäquaten mündlichen und schriftlichen Darstellung und Diskussion ihrer Positionen.
+
+## Artikel 2: Qualifikations- und Berufsziele
+
+- 1) Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten ermöglicht den Zugang zum Master of Arts in Historischen Wissenschaften mit dem Vertiefungsprogramm Geschichte, Allgemeine und Schweizer Geschichte der Neuzeit oder Zeitgeschichte - unter Vorbehalt der Erfüllung der in den entsprechenden Reglementen gestellten Bedingungen.
+- 2) Ergänzt mit einem Master of Arts in Geschichte, Allgemeine und Schweizer Geschichte der Neuzeit oder Zeitgeschichte ermöglicht das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten den Zugang zum Lehrdiplom für Maturitätsschulen (LDM). Details, Einschränkungen und Zusatzanforderungen ergeben sich aus dem einschlägigen Reglement.
+
+- 3) Le programme d'études en Histoire à 30 crédits ECTS donne accès au Diplôme d'enseignement pour le degré secondaire I (DAES I) sous réserve des dispositions prévues dans les règlements particuliers.
+- 4) Le programme d'études en Histoire à 30 crédits ECTS ouvre des perspectives dans les professions des médias (journalisme écrit et audio-visuel), des relations publiques (entreprises ou diplomatie), de la documentation (muséographique, bibliothéconomique et archivistique) et dans les professions de l'enseignement (notamment cycle d'orientation et collèges).
+
+## II. Organisation des études
+
+## Article 3 : Structure des études
+
+- 1) Le programme d'études en Histoire à 30 crédits ECTS est organisé selon un cycle de 2 ans et peut débuter aussi bien au semestre d'automne qu'au semestre de printemps.
+- 2) Le programme d'études en Histoire à 30 crédits ECTS ne peut être suivi qu'en lien avec un domaine principal exigeant ou autorisant le suivi d'un programme complémentaire à 30 crédits.
+- 3) Le choix du domaine principal et du domaine secondaire sont libres, à l'exception des programmes Histoire, Histoire de la modernité et Histoire contemporaine qui ne peuvent pas être choisis conjointement au programme d'études en Histoire à 30 crédits ECTS.
+- 3) Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten ermöglicht den Zugang zum Lehrdiplom für die Sekundarstufe I (LDS I). Details, Einschränkungen und Zusatzanforderungen ergeben sich aus dem einschlägigen Reglement.
+- 4) Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten eröffnet den Absolventinnen und Absolventen den Einstieg in die Berufsfelder Medien (Printmedien, Fernsehen, Radio), private und staatliche Öffentlichkeitsarbeit (Unternehmen, Diplomatie), Dokumentationsinstitutionen (Museen, Bibliotheken und Archive) und in die Lehrberufe (insbesondere Sekundar- und Mittelschulen).
+
+## II. Organisation des Studiums
+
+## Artikel 3: Studienstruktur
+
+- 1) Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten ist auf ein Studium von zwei Jahren ausgerichtet und kann sowohl im Frühlings- als auch im Herbstsemester begonnen werden.
+- 2) Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten kann nur in Kombination mit einem Hauptbereich, welcher ein Studienprogramm zu 30 ECTSPunkten verlangt oder erlaubt, gewählt werden.
+- 3) Der Hauptbereich und der Nebenbereich sind frei wählbar. Eine Ausnahme bilden Geschichte, Geschichte der Moderne und Zeitgeschichte, die nicht zusammen mit dem Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten belegt werden können.
+
+## Article 4 : Organisation des études
+
+Le programme d'études en Histoire à 30 crédits ECTS est composé de deux éléments suivants :
+
+- un module d'introduction à 15 crédits ECTS
+- un module de base à 15 crédits ECTS
+
+## Article 5 : Le module d'introduction
+
+Le module d'introduction transmet aux étudiant-e-s une connaissance historique de base, une technique de travail historique et des connaissances historiographique et théorique. Il se compose de:
+
+- 1) Un cours d'introduction (à 3 crédits ECTS) abordant les différentes époques et les grands faits de l'Histoire selon divers cadres d'analyse. Les quatre branches-périodes participent à l'élaboration et à l'évaluation de ce cours. Cet enseignement devrait être suivi dans la première année d'études.
+- 2) Les étudiant-e-s du programme d'études en Histoire à 30 crédits ECTS accomplissent un cours (3 crédits ECTS) et un proséminaire (6 crédits ECTS) parmi l'offre de cours des branchespériodes qu'ils/elles n'ont pas choisies pour le module de base.
+- 3) Un enseignement méthodologique sur les méthodes et techniques de travail en sciences historiques (à 3 crédits ECTS) offert par la branche-période choisie pour le module de base. Il transmet aux étudiant-e-s les connaissances élémentaires nécessaires à leurs études (critique et interprétation des sources, ainsi que présentation écrite et orale des résultats du travail).
+
+## Clauses complémentaires :
+
+- a. Les compétences de recherche d'information et bibliographique peuvent faire l'objet d'une évaluation séparée.
+- b. Un enseignement méthodologique peut être lié à un proséminaire.
+
+<!-- image -->
+
+-4-
+
+## Artikel 4: Organisation des Studiums
+
+Das Studienprogramm Geschichte zu 30 ECTS-Kreditpunkten setzt sich aus folgenden Elementen zusammen:
+
+- ein Grundlagenmodul zu 15 ECTSKreditpunkten
+- ein Basismodul zu 15 ECTSKreditpunkten
+
+## Artikel 5: Das Grundlagenmodul
+
+Das Grundlagenmodul vermittelt  den Studierenden historisches Grundlagenwissen, geschichtswissenschaftliche Arbeitstechniken und historiografisch-theoretische Kenntnisse. Es enthält:
+
+- 1) Eine epochenübergreifende Überblicksveranstaltung (3 ECTS-Kreditpunkten), welche den Studierenden grundlegendes Faktenwissen sowie erste methodische Zugänge der Geschichtswissenschaft vermittelt. Sie wird von den vier Epochenfächern gemeinsam angeboten und geprüft. Diese Lehrveranstaltung soll im ersten Studienjahr absolviert werden.
+- 2) Die Studierenden des Studienprogramms Geschichte zu 30 ECTS-Kreditpunkten belegen aus dem Vorlesungsangebot der nicht gewählten Epochenfächer eine Vorlesung (3 ECTS-Kreditpunkte) sowie ein Proseminar (zu 6 ECTS-Kreditpunkten).
+- 3) Ein von dem für das Basismodul gewählte Epochenfach angebotener Grundkurs zu Arbeitstechniken und Methoden der Geschichtswissenschaft (3 ECTSKreditpunkten), welche den Studierenden grundlegende Kenntnisse betreffend der Quellenkritik und Quelleninterpretation sowie die Techniken der Präsentation von Arbeitsergebnissen vermittelt.
+
+## Zusatzbestimmungen:
+
+- a. Der Erwerb von Kompetenzen zur Informationsbeschaffung und zum Bibliographieren kann gesondert vermittelt werden.
+- b. Der Besuch eines Grundkurses kann verpflichtend mit einem Proseminar gekoppelt werden.
+
+## Article 6 : Le module de base
+
+Les étudiant-e-s du programme d'études en Histoire à 30 crédits ECTS choisissent un module de base parmi les quatre proposés. Les modules de base sont organisés par les quatre branches-périodes de l'Histoire. Ces enseignements peuvent être suivis à partir du premier semestre.
+
+Le module de base (15 crédits ECTS) se compose de :
+
+- 2 cours (à 3 crédits ECTS chacun)
+- 1 proséminaire avec travail écrit (6 crédits ECTS)
+- 1 enseignement à choix déterminé par la branche-période considérée (3 crédits ECTS)
+
+Comme enseignements déterminés par la branche-période considérée sont valables : l'offre des cours de la branche-période (entre autres voyages d'études, cours et universités d'été, etc.) et également des enseignements particuliers des sciences voisines.
+
+## Article 7 : Programme d'échange
+
+Le domaine d'études Histoire soutient le programme d'échange avec d'autres Universités et encourage les étudiant-e-s à y participer. Les étudiant-e-s qui prennent part à un programme de mobilité suivent le protocole du Service des relations internationales pour établir le contrat d'études. Ce dernier sera établi sur la base du présent règlement.
+
+## Article 8 : Langues d'enseignement et compétences linguistiques
+
+- 1) L'enseignement est donné en allemand ou en français. Il peut aussi être proposé dans une autre langue, en particulier l'italien ou l'anglais.
+- 2) Chaque étudiant-e a le droit d'accomplir ses études exclusivement en allemand ou en français ou dans les deux langues.
+- 3) Chaque étudiant-e a le droit de choisir librement les enseignements dans l'offre
+
+<!-- image -->
+
+## Artikel 6: Das Basismodul
+
+Die Studierenden des Studienprogramms Geschichte zu 30 ECTS-Kreditpunkten wählen eines der vier angebotenen Basismodule. Das Basismodul wird von jeweils einem der vier Epochenfächer gestaltet. Es kann ab dem ersten Semester besucht werden.
+
+Das Basismodul (15 ECTS-Kreditpunkte) enthält:
+
+- 2 Vorlesungen (2 x 3 ECTSKreditpunkte)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS-Kreditpunkte)
+- 1 jeweils vom Epochenfach festgelegte Veranstaltung (3 ECTS-Kreditpunkte)
+
+Als vom Epochenfach festgelegte Veranstaltung gelten sowohl Veranstaltungen aus dem eigenen Lehrangebot (u. a. Studienreisen, Summerschools, o. ä.) sowie ausgesuchte Lehrveranstaltungen der historischen Nachbardisziplinen.
+
+## Artikel 7: Mobilitätsprogramme
+
+Der Studienbereich Geschichte fördert den Studienaustausch zu anderen Universitäten und ermuntert seine Studierenden daran teilzunehmen. Studierende, die an einem Mobilitätsprogramm teilnehmen, schliessen ein Studienabkommen ab, welches sich nach den Bestimmungen der Dienststelle für Internationale Beziehungen richtet.
+
+## Artikel 8: Unterrichtssprachen und Sprachkompetenzen
+
+- 1) Der Unterricht findet auf Deutsch oder auf Französisch statt. Lehrangebote in einer anderen Sprache, namentlich Italienisch und Englisch, sind möglich.
+- 2) Die Studierenden haben das Recht, das Studium ausschliesslich auf Deutsch oder auf Französisch oder in beiden Sprachen zu absolvieren.
+- 3) Die Studierenden sind berechtigt, innerhalb eines Moduls Veranstaltungen aus dem
+
+- de cours proposés en allemand et français au sein d'un module.
+- 4) L'enseignant-e détermine s'il/elle autorise que l'examen ou le travail écrit soit rédigé dans une autre langue que la langue d'enseignement.
+- 5) La connaissance d'au moins deux langues nationales suisses, ainsi que de l'anglais, est exigée pour la lecture des sources documentaires.
+- 6) Les étudiant-e-s qui opteront pour l'Histoire de l'Antiquité comme matière principale du programme d'études approfondie de Master sont invités à profiter de l'offre de cours pour se mettre à niveau en langues anciennes (grec, latin et ancien égyptien).
+- 7) Les étudiant-e-s qui opteront pour l'Histoire médiévale comme matière principale du programme d'études approfondie de Master sont invités à profiter de l'offre de cours pour se mettre à niveau en latin.
+
+## Article 9 : Evaluations, attribution des crédits ECTS et validation
+
+- 1) Toutes les unités d'enseignement donnent lieu à au moins une prestation d'études évaluée. Les évaluations se font par unité d'enseignement ou par module.
+- 2) Les indications concernant l'évaluation des enseignements du domaine d'études Histoire ou Histoire contemporaine, de même que les modalités pour la réalisation et la reddition des travaux écrits de proséminaire et de séminaire sont données par les enseignant-e-s dans les descriptifs des enseignements.
+- 3) Les modalités d'évaluation et d'attribution des crédits ECTS des unités d'enseignement pris hors domaine d'études Histoire et Histoire contemporaine comme enseignements spécifiques sont celles prévalant dans les domaines d'études offrant ces unités d'enseignement.
+
+<!-- image -->
+
+-6-
+
+- deutsch- und französischsprachigen Lehrangebot frei zu wählen.
+- 4) Die Entscheidung, ob die Sprache des Leistungsnachweises einer Veranstaltung (Prüfung, schriftliche Arbeit) von der Unterrichtssprache abweichen kann, liegt bei der/dem Dozierenden.
+- 5) Die Fähigkeit zur Lektüre von Quellentexten oder Literatur in wenigstens zwei Landessprachen der Schweiz sowie in Englisch wird vorausgesetzt.
+- 6) Den Studierenden, die im Master eine Vertiefung im Epochenfach 'Geschichte des Altertums' planen, wird empfohlen, während des Bachelorstudiums weitere Sprachkenntnisse im Bereich der lateinischen, griechischen oder altägyptischen Sprache zu erwerben.
+- 7) Den Studierenden, die im Master eine Vertiefung im Epochenfach 'Geschichte des Mittelalters' planen, wird empfohlen, während des Bachelorstudiums weitere Sprachkenntnisse im Bereich der lateinischen Sprache zu erwerben.
+
+## Artikel 9: Evaluation, Vergabe der Kreditpunkte und Validierung
+
+- 1) Zu jeder Lehrveranstaltung muss ein Leistungsnachweis erbracht werden. Die Evaluierung erfolgt pro Unterrichtseinheit oder pro Modul.
+- 2) Die Art des Leistungsnachweises für die Lehrveranstaltungen der Studienbereiche Geschichte und Zeitgeschichte sowie die Bedingungen zur Erarbeitung und Überarbeitung der Proseminar- und Seminararbeiten gibt die / der Dozierende im Veranstaltungsbeschrieb bekannt.
+- 3) Bei Lehrveranstaltungen, die ausserhalb der Studienbereiche Geschichte sowie Zeitgeschichte als zusätzliche Lehrveranstaltungen gewählt werden, richten sich der Leistungsnachweis und die Vergabe der ECTS-Kreditpunkte nach den Bestimmungen des jeweiligen Studienbereichs.
+
+## Article 10 : Échecs et échec définitif
+
+- 1) En cas de résultat insuffisant, une évaluation peut être répétée deux fois.
+- 2) En cas d'insuffisance, un travail écrit de proséminaire ou de séminaire doit être retravaillé une fois dans le cadre de la même unité d'enseignement. Si après correction le travail est encore jugé insuffisant, un premier échec est prononcé, et un nouveau travail devra être réalisé dans le cadre d'une nouvelle unité d'enseignement (proséminaire ou séminaire) dans le même module. Si ce deuxième travail est jugé insuffisant et que la correction est également jugée insuffisante, un deuxième échec est prononcé, et un nouveau travail doit être réalisé dans une nouvelle unité d'enseignement (proséminaire ou séminaire) dans le même module. En cas d'insuffisance, ce troisième travail ne peut être corrigé et un échec définitif est prononcé. Les délais de la remise des travaux, des corrections ainsi que les conséquences d'un non-dépôt des travaux sont fixés par les branchespériodes.
+- 3) Un échec définitif à un proséminaire ou à un séminaire dans le programme d'études en Histoire à 30 crédits ECTS entraîne l'impossibilité de poursuivre des études dans tous les programmes d'études de Bachelor des domaines Histoire et Histoire contemporaine ainsi que dans tous les programmes d'études approfondies de Master des domaines Histoire et Histoire contemporaine.
+
+## Article 11 : Notes des modules et note finale
+
+- 1) La note du module d'introduction est composée pour moitié de la note de l'examen du cours d'introduction et pour moitié de la moyenne des notes du cours et du proséminaire.
+- 2) La note du module de base est composée
+
+## Artikel 10: Nichtbestehen und endgültiges Nichtbestehen
+
+- 1) Im Fall eines ungenügenden Resultats kann eine Evaluierung zweimal wiederholt werden.
+- 2) Im Fall einer ungenügenden schriftlichen Proseminar- oder Seminararbeit muss diese Arbeit im Rahmen derselben Lehrveranstaltung einmal überarbeitet werden. Wird die Arbeit auch nach dieser Überarbeitung als ungenügend bewertet, so gilt dies als erster Misserfolg und der Leistungsnachweis muss im Rahmen eines neuen Proseminars bzw. Seminars im selben Modul mit einer neuen Arbeit wiederholt werden. Wird diese Arbeit auch nach einer Überprüfung als ungenügend bewertet, so gilt dies als zweiter Misserfolg und der Leistungsnachweis muss im Rahmen eines dritten Proseminars bzw. Seminars im selben Modul mit einer neuen Arbeit wiederholt werden. Diese dritte Arbeit kann bei ungenügender Bewertung nicht überarbeitet werden und führt zu einem endgültigen Misserfolg. Die Fristen der Abgabe, Überarbeitung sowie die Handhabung bei Nichteinreichung einer Arbeit werden von den Epochenfächern festgelegt.
+- 3) Ein endgültiger Misserfolg in einem Proseminar oder Seminar im Studienprogramm Geschichte zu 30 ECTSKreditpunkten führt zu einem Ausschluss aus dem Studiengang und verhindert die Fortsetzung des Studiums in allen Studienprogrammen der Geschichte und der Zeitgeschichte im Bachelor und Master.
+
+## Artikel 11: Benotung der Module und Endnote
+
+- 1) Die Note des Grundlagenmoduls ergibt sich zur einen Hälfte aus dem Examen der Überblicksvorlesung, zur anderen Hälfte aus dem Durchschnitt der Vorlesungs- und Proseminarnote.
+- 2) Die Note des Basismoduls setzt sich jeweils
+
+- pour moitié de la note des cours et pour moitié de la note du proséminaire.
+- 3) La note finale est composée de la moyenne des notes des modules.
+
+## Article 12 : Mesures transitoires
+
+- 1)  Les étudiant-e-s ayant débuté leurs études avant le semestre d'automne 2016 et étant soumis-e-s au plan d'études du 30 novembre 2009 du programme d'études « Histoire » peuvent faire valoir leur volonté de transiter vers le présent plan d'études jusqu'au début du semestre d'automne 2017.
+- 2)  A partir du début semestre d'automne 2021, les étudiant-e-s ayant débuté sous le plan d'études du 30 novembre 2009 seront contraint-e-s de transiter dans le présent plan d'études.
+- 3)  Le/la conseiller/ère aux études décide des modalités de transition en fonction de l'avancement des études.
+4. zur einen Hälfte aus der Durchschnittsnote der Vorlesungsprüfungen und zur anderen Hälfte aus der Note des Proseminars zusammen.
+- 3) Die Gesamtnote setzt sich aus dem Durchschnitt der Modulnoten zusammen.
+
+<!-- image -->
+
+## Artikel 12: Übergangsbestimmungen
+
+- 1) Studierende, die ihr Studium vor dem Herbstsemester 2016 im Studienplan «Geschichte» vom 30. November 2009 begonnen haben, können bis zum Beginn des Herbstsemesters 2017 in den vorliegenden Studienplan wechseln.
+- 2) Ab dem Beginn des Herbstsemesters 2021 ersetzt der vorliegende Studienplan denjenigen vom 30. November 2009 für sämtliche Studierende.
+- 3) Die Modalitäten des Wechsels zum vorliegenden Studienplan werden vom/von der Studienberater/in auf der Basis der bisherigen Studienleistungen festgelegt.
+
+## Schéma du programme d'études en Histoire (30 crédits ECTS):
+
+## Module d'introduction (15 crédits ECTS)
+
+Enseignement d'introduction (3 crédits ECTS)
+
+1 enseignement méthodologique selon la choix de la branche-période du module de base (3 crédits ECTS):
+
+- 1 cours et
+
+1 proséminaire avec travail écrit des branches-périodes non choisies (3 + 6 crédits ECTS)
+
+## Schema zum Studienprogramm Geschichte (30 ECTS-Kreditpunkte)
+
+## Grundlagenmodul (15 ECTS)
+
+Überblicksveranstaltung (3 ECTS)
+
+1 Grundkurs aus dem Lehrangebot des Epochenfachs des Basismoduls (3 ECTS)
+
+- 1 Vorlesung und
+- 1 Proseminar mit schriftlicher Arbeit aus dem Lehrangebot der nicht gewählten Epochenfächer (3 + 6 ECTS)
+
+## Basismodul des gewählten Epochenfachs (15 ECTS)
+
+2 Vorlesungen (2 x 3 ECTS)
+
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+
+1 jeweils vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+
+## Module de base branchepériode choisie (15 crédits ECTS)
+
+2 cours (2 x 3 crédits ECTS)
+
+1 proséminaire avec travail écrit (6 crédits ECTS)
+
+1 enseignement à choix déterminé par la branchepériode (3 crédits ECTS)

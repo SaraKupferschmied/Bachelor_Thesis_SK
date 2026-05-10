@@ -1,0 +1,165 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:45:53.179Z",
+  "title": "Philosophy_Bachelor_60_English_Language_and_Literature_Studienplan_BA_Bereich_II_60_ECTS__5f23ae26bef7967e395b1137a5c5f71743d1e575",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5f23ae26bef7967e395b1137a5c5f71743d1e575",
+  "program_key": "philosophy|bachelor|60|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "English Language and Literature",
+  "doc_label": "Studienplan BA Bereich II (60 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/ba_minor_as_2010_d.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_English_Language_and_Literature_Studienplan_BA_Bereich_II_60_ECTS__5f23ae26bef7967e395b1137a5c5f71743d1e575.pdf",
+  "sha256": "e3208eb8f5657ce838f53a52d889b96d2b5f5ebff3da1de5df1b17689a0d14de",
+  "fetched_at": "2026-04-03T11:31:26.150Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ba_minor_as_2010_d.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "ba_minor_as_2010_d.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## I. Allgemeines
+
+1.  Dieser  Studienplan  ist  gültig  in  Zusammenhang  mit  dem  'Reglement  zur  Erlangung des  universitären  Diploms  (Niveau  europäischer Bachelor )  an  der  Philosophischen Fakultät' vom 23. Juni 2005 . Der Studiengang 'Bachelor of Arts' in Englisch (Bereich II) ist modular strukturiert und besteht aus folgenden Studiengebieten:
+- 1) English Linguistics/Philology (LP) (=  Engl. Linguistik/Engl. Mediävistik)
+- 2) English/American Literature (EAL) (= englische/amerikanische  Lit.)
+2. Um die von der Studienordnung vorgesehenen 60 ECTS Kreditpunkte im Bereich II (Nebenbereich) zu erreichen, müssen Studierende folgende Module erfolgreich abschliessen: je zwei Module in den beiden Studiengebieten LP und EAL und ein Modul in Practical English ; ferner müssen sie 6 ECTS in Soft Skills (CTS ) erwerben.
+3. Für jede erfolgreich abgeschlossene Unterrichtseinheit [UE] (Vorlesung, Proseminar, Kolloquium usw.) erhalten  Studierende  die  entsprechenden  Kreditpunkte  (in  der  Regel sind  dies  2  ECTS  pro  Vorlesung  und  6  ECTS  pro  Proseminar).  Ein  Modul  wird  dann validiert,  wenn  alle  darin  vorgeschriebenen  UE erfolgreich abgeschlossen worden sind. Ein ECTS entspricht ungefähr einem Arbeitsaufwand von 30 Stunden.
+4. Für die Kurse in Practical English 'Writing for Academic Purposes' und 'Proficiency English',  werden  je  3  ECTS  vergeben.  Sie  bilden  mit  insgesamt  6  ECTS  ein  eigenes Modul.  Weiterhin  schreibt  das  BA-Reglement komplementäre  Veranstaltungen ,  die sog. Soft Skills (6 ECTS) vor.
+5. Proseminare (PS) werden in der Form von schriftlichen Arbeiten oder Leistungsnachweisen evaluiert .  Die Notenskala geht von 1 (schlechteste Note) bis 6; 4 ist  eine  genügende  Note.  Eine  ungenügende  Arbeit  bzw.  Klausur  kann  zweimal wiederholt  werden.  Sollten  Studierende  die  dritte  Wiederholung  nicht  bestehen,  dürfen sie  das  Studium  in  Englisch  nicht  fortsetzen.  Das Schlussexamen  des  ersten  Jahres besteht  aus  der  erfolgreichen  Absolvierung  der  beiden  Module    Lingustics/Philology  1 und  English and American Literature 1.
+
+## Universität Freiburg
+
+Philosophische Fakultät Departement für Sprachen und Literaturen Bereich Englisch
+
+Bachelor of Arts
+
+## Englische Sprache und Literatur Nebenbereich (60 Kreditpunkte)
+
+## Studienplan
+
+(gültig ab September 2010)
+
+6. Allen BA  Studierenden  wird dringend empfohlen, mehrere Monate  in  einem englischsprachigen Land zu verbringen
+
+## II. Struktur des Studiums
+
+## A. English and American Literature (EAL)
+
+Das Studium der englischen und amerikanischen Literatur ist ein integraler Bestandteil des  Bereichs  Englisch  und  ist  in  2  Modulen  mit  insgesamt  24  ECTS  gegliedert.  Diese Module verfolgen komplementäre Ausbildungsziele .
+
+Im Anhang findet sich eine schematische Darstellung der hier beschriebenen Module.
+
+Das Modul des ersten Jahres English and American Literature 1 (Beginners' Module) legt die Basis des Literaturstudiums in der Form von obligatorischen Einführungsveranstaltungen  für  Studienanfänger.  Diese  bestehen  aus  einer  Vorlesung "Introduction to Literary Studies" und einem Begleitproseminar mit demselben Titel im Herbstsemester  und  einer  Überblicksvorlesung  "Survey  of  English  Literature  oder "Survey of American Literature" im darauf folgenden Frühlingssemester (insgesamt 10 ECTS).
+
+Der erfolgreiche Abschluss von English and American Literature 1 ist die Voraussetzung für den Besuch von Veranstaltungen in English and American Literature MINOR.
+
+Das Modul English  and  American  Literature  MINOR  erweitert  die  im  ersten  Jahr erworbenen  Kenntnisse  durch  eine  Vorlesung  und  zwei  Proseminare  (insgesamt  14 ECTS).
+
+Die Evaluation der  Proseminare  findet  in  Form  eines  Leistungsnachweises  oder  einer schriftlichen Seminararbeit im Umfang von ca. 3'000 Wörtern statt. Die Einführungsvorlesungen im Modul English and American Literature 1 werden schriftlich evaluiert.
+
+Da ein gutes Verständnis sowohl von englischer als auch amerikanischer Literatur für das M.A.  Studium  vorausgesetzt  ist,  wird  Studierenden  empfohlen,  eine  möglichst  breit gefächerte Themenwahl zu treffen. Dies kann z.B. bedeuten, möglichst alle Lehrenden in beispielhaften  Veranstaltungen  kennenzulernen  und  ihre  jeweiligen  Fachgebiete  zu entdecken.
+
+Genauere Bestimmungen zu den Leistungsnachweisen werden vom verantwortlichen Dozenten festgelegt und im Gestens beschrieben.
+
+## B. Linguistics/Philology (LP)
+
+Das Studium der englischen Linguistik und der englischen Mediävistik ist ein integraler Bestandteil  des  Bereichs  Englisch  und  ist  in  2  Modulen  mit  insgesamt  24  ECTS gegliedert. Diese Module verfolgen komplementäre Ausbildungsziele .
+
+Im Anhang findet sich eine schematische Darstellung der hier beschriebenen Module.
+
+Das Modul  des  ersten  Jahres Linguistics/Philology  1  (Beginners'  Module)  legt  die Basis  des  Studiums  in Linguistics und Philology in  der  Form  von  obligatorischen Einführungsveranstaltungen für Studienanfänger. Diese bestehen aus je einer Vorlesung und einem Begleitproseminar (insgesamt 16 ECTS).
+
+Das Modul Linguistics/Philology MIN erweitert  die  im  ersten  Jahr  erworbenen Kenntnisse  durch  eine  Vorlesung  und  ein  Proseminar  in Linguistics und Philology (insgesamt 8 ECTS), wobei beide Fachbereiche berücksichtigt werden müssen.
+
+Die Evaluation der  Proseminare  findet  in  Form  eines  Leistungsnachweises  oder  einer schriftlichen Seminararbeit im Umfang von ca. 3'000 Wörtern statt. Die Einführungsvorlesungen im Modul  Linguistics/Philology 1 werden schriftlich evaluiert.
+
+Genauere Bestimmungen zu den Leistungsnachweisen werden vom verantwortlichen Dozenten festgelegt und im Gestens beschrieben.
+
+## C. Komplementäre Veranstaltungen: Soft Skills
+
+10  Prozent  der  gesamten  Kreditpunktezahl  eines  Studenten/  einer  Studentin  sind  den sogenannten  Soft  Skills  (bereichsübergreifenden  bzw.  -erweiternden  Kompetenzen) zugerechnet.  Studierende  im  Nebenfach    müssen  somit  während  der  zwei  ersten  Jahre ihres  Studiums 6  Kreditpunkte in  komplementären  Veranstaltungen  erreichen.  Die komplementären Module der Faculty's list (CTC) (abrufbar auf der Webseite http://www.unifr.ch/lettres/inscription oder http://www.unifr.ch/lettres/anmeldung) werden als CTC bzw.'soft skills' unter der Bedingung akzeptiert, dass diese nicht schon als  Kreditpunkte  eines  der  Haupt-  oder  Nebenbereiche  des  Studenten/  der  Studentin gezählt werden. Diese Liste wird dauernd auf dem neuesten Stand gehalten; es wird den Studierenden daher geraten, sie periodisch zu konsultieren.
+
+## D. Praktische Englischveranstaltungen
+
+Zu  Beginn  ihres  ersten  Semesters  legen  alle  neuen  Studierenden  einen  Eignungstest (Aptitude Test) ab, der an der English Language Unit des 'Bereichs für Mehrsprachigkeitsforschung  und  Fremdsprachendidaktik'    durchgeführt  wird.  Dieser Test prüft das schriftliche und mündliche Verständnis der englischen Sprache. Teilnahme an diesem Test ist Voraussetzung zur endgültigen Einschreibung in Lehrveranstaltungen
+
+Das komplette Sprachprogramm für den Bereich II im Umfang von 6 ECTS besteht aus:
+
+- 1) einem Semester Writing for Academic Purposes (WAP)
+- 2) einem Semester Profiency English (PE)
+
+Studierende, die muttersprachliche oder fast muttersprachliche Sprachkenntnisse besitzen, können von diesen Veranstaltungen befreit werden, wobei sie die entsprechenden  ECTS  Kreditpunkte,  durch  den  Besuch  anderer  Veranstaltungen  ihrer Wahl  in English/American,  Linguistics oder Philology erwerben  müssen.  Ein  solcher Dispens  wird  durch  den  Departementspräsidenten/  der  Departementspräsidentin  auf Grund einer formellen Empfehlung des Direktors der Sektion 'Englisch' des 'Bereichs für Mehrsprachigkeitsforschung und Fremdsprachendidaktik' erteilt.
+
+## III. Leistungsnachweis und Benotung
+
+## 1. Examina
+
+Ein Examen am Ende des ersten Jahres bestätigt die Fähigkeit der/des Studierenden für diesen Studiengang. Das Examen am Ende des ersten Jahres in English Linguistics/Philology besteht aus der erfolgreichen Absolvierung des Moduls Lingustics/Philology  1.  Das  Examen  des  ersten  Jahres  in  English/American  Literature besteht aus der erfolgreichen Absolvierung des Moduls English and American Literature 1.
+
+Es  gibt  kein  Abschlussexamen  am  Ende  des  Studiums.  Hingegen  wird  die  Arbeit  des Studenten/  der  Studentin  in  jedem  Modul  benotet.  Jede  einzelne  Evaluation  trägt  zur Schlussnote bei.
+
+## 2. Evaluation
+
+Alle  Proseminare,  die  vom  Bereich  Englisch  veranstaltet  werden,  werden  einzeln evaluiert.  Im  Normalfall  geschieht  dies  durch  schriftliche  Arbeiten;  in  einigen  Fällen können auch Leistungsnachweise stattfinden.
+
+Alle 'Soft Skills' (CTC), die ausserhalb des Bereichs Englisch besucht werden, müssen einzeln evaluiert werden, wobei das Evaluationsverfahren ganz von den Regelungen des entsprechenden  Departements  abhängt,  das  für  diese  Veranstaltungen  zuständig  ist. Studierende müssen alle Evaluationen erfolgreich bestehen, um die Bedingungen für die Vergabe  der  benötigten  Kreditpunkte  in  'Soft  Skills'  ( 6  ECTS )  zu  erfüllen.  Die erreichten Noten werden aber nicht in die Abschlussnote des BA  in Englisch einberechnet.
+
+Alle  Veranstaltungen,  die  durch  das  Bereich  der  Mehrsprachigkeitsforschung  und Fremdsprachendidaktik  angeboten  werden,  werden  einzeln  evaluiert.  Das  jeweilige Evaluationsverfahren  hängt  ausschliesslich  von  den  Regelungen  des  entsprechenden Departements ab, das für diese  Veranstaltungen  zuständig  ist.  Studierende  müssen  alle Evaluationen  erfolgreich  bestehen,  um  die  für  das  Module  Academic  Language  and Writing nötigen Bedingungen zu erfüllen.
+
+Alle  evaluierten  Leistungen  im  Bereich  Englisch  werden  auf  einer  Skala  von  1  bis  6 benotet (inkl. halbe Noten). 6 ist die höchste Note; 4 ist eine genügende Note.
+
+Proseminararbeiten  können  nicht  mehr  als  zwei  Mal  überarbeitet  werden.  Alle  Tests, Arbeiten  und  Prüfungen  müssen  innerhalb  eines  Semesters,  das  auf  das  entsprechende Proseminar folgt, nachgeholt und vom Kursleiter / der Kursleiterin angenommen werden. Wenn Studierende die zweite Wiederholung nicht bestehen werden sie davon ausgeschlossen, ihr Studium in English fortzusetzen.
+
+## 3. Berechnung der Modulbenotung
+
+Nur genügende Noten fliessen in den Durchschnitt ein. Ungenügende Noten können nicht kompensiert  werden.    Für  die  Berechnung  der  Modulnoten  wird  das  Total  durch  die Anzahl von Unterrichtseinheiten, die zu der Berechnung beitragen, geteilt
+
+Die 'Soft Skills' Veranstaltungen müssen bestanden werden, zählen aber nicht zur BAGesamtnote.
+
+Alle  Änderungen  dieses  Studienplans  werden  auf  dem  Anschlagbrett  und  auf  der Homepage  des  Bereichs  für  Englisch  und  Slavistik  (www.unifr.ch/das)  mitgeteilt.  Den Studierenden wird daher empfohlen, diese regelmässig zu konsultieren!
+
+## English Minor / Domaine II
+
+| Linguistics/Philology                |                                      | English/American Literature          | English/American Literature          |                                      |
+|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| Year One                             | Year One                             | Year One                             | Year One                             | Year One                             |
+|                                      | ECTS                                 |                                      | ECTS                                 | Total                                |
+| Beginners' Module                    |                                      | Beginners' Module                    |                                      |                                      |
+| Linguistics/Philology 1              |                                      | English/American Literature          |                                      |                                      |
+| PS Intro to Linguistics              | 6                                    | L Intro to Literary Studies          | 2                                    |                                      |
+| PS Intro to Philology                | 6                                    | PS Intro to Literary Studies         | 6                                    |                                      |
+| L Intro to Linguistics               | 2                                    | L Intro Survey British or American   | 2                                    |                                      |
+| L Intro to Philology                 | 2                                    |                                      |                                      |                                      |
+|                                      | 16                                   |                                      | 10                                   | 26                                   |
+| Module Academic Language and Writing | Module Academic Language and Writing | Module Academic Language and Writing | Module Academic Language and Writing | Module Academic Language and Writing |
+| Proficiency English                  | 3                                    | Writing for Academic Purposes        | 3                                    | 6                                    |
+| Years Two and Three                  | Years Two and Three                  | Years Two and Three                  | Years Two and Three                  | Years Two and Three                  |
+| Module Linguistics/Philology MINOR   |                                      | English/American Literature MINOR    |                                      |                                      |
+| PS Linguistics                       | 6                                    | L Literature                         | 2                                    |                                      |
+| L Philology                          | 2                                    | PS Literature                        | 6                                    |                                      |
+|                                      | 8                                    | PS Literature                        | 6                                    |                                      |
+| OR                                   |                                      |                                      |                                      |                                      |
+| Module Linguistics/Philology MINOR   |                                      |                                      |                                      |                                      |
+| PS Philology                         | 6                                    |                                      |                                      |                                      |
+| L Linguistics                        | 2                                    |                                      |                                      |                                      |
+|                                      | 8                                    |                                      |                                      | 22                                   |
+| Soft Skills                          | 3                                    | Soft Skills                          | 3                                    | 6 60                                 |
+
+valid as of Fall semester, 2010

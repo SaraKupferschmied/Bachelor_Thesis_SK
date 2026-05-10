@@ -1,0 +1,136 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T18:16:14.102Z",
+  "title": "Philosophy_Bachelor_30_Latin_Studies_Lateinische_Sprache_und_Kultur_3cbdbd2d2c8e0c89355b8c6e9df0340a9f1539e9",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3cbdbd2d2c8e0c89355b8c6e9df0340a9f1539e9",
+  "program_key": "philosophy|bachelor|30|latin studies",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Latin Studies",
+  "doc_label": "Lateinische Sprache und Kultur",
+  "source_url": "https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_30_Latein_DE_27012017_v2.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/latinstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/gpUA1",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Latin_Studies_Lateinische_Sprache_und_Kultur_3cbdbd2d2c8e0c89355b8c6e9df0340a9f1539e9.pdf",
+  "sha256": "9898170ccd7948395dc3341edb2367cea2cc60f63c354e67b07a10092c1c6f96",
+  "fetched_at": "2026-04-03T11:31:17.889Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_30_Latein_DE_27012017_v2.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA_30_Latein_DE_27012017_v2.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## UNIVERSITÄT FREIBURG SCHWEIZ Departement für Klassische Philologie
+
+## Bachelor: Lateinische Sprache und Kultur Studienprogramm zu 30 ECTS Punkte
+
+Dieser Studienplan stützt sich auf das Reglement zur Erlangung des universitären Diploms (Niveau europäischer Bachelor) an der Philosophischen Fakultät. Er tritt am 1. September 2017 in Kraft. Für Studierende,  die  ihr  Bachelorstudium  zu  diesem  Zeitpunkt  aufnehmen,  gilt  dieser  Studienplan ausnahmslos.
+
+Studienbeginn im Herbstsemester (September) oder im Frühlingssemester (Februar).
+
+## Studienplan
+
+Das Studienprogramm in Lateinischer Sprache und Kultur ist für Studierende konzipiert, deren BAStudiengang ein Programm zu 30 ECTS Punkte vorsieht und die aus Interesse an der römischen Antike  ein  kleineres  Sprach-  und  Literaturstudium  absolvieren  wollen.  Das  Hauptgewicht  des Studiengangs  liegt  auf  Vorlesungen  in  Literatur-  und  Kulturgeschichte  und  in  Lektürekursen lateinischer Originaltexte.
+
+Vorausgesetzt  wird  eine  Lateinmatura  oder  das  Latinum.  Latinumskurse  werden  innerhalb  des Studiengangs angeboten, und der Erwerb dieser Sprache kann parallel zu den ersten Studienjahren nachgeholt werden.
+
+## Unterrichtssprachen
+
+Der Unterricht wird in Deutsch und in Französisch erteilt. Die Studierenden können in einer der beiden  Sprachen  ihre  schriftlichen  Arbeiten  abfassen  und  ihre  schriftlichen  wie  mündlichen Prüfungen  ablegen.  Mit  Zustimmung  der  Lehrperson  kann  auch  eine  andere  Sprache  gewählt werden. Wer das Verhältnis von 40%  zu 60%  im Besuch von deutschsprachigen und französischsprachigen  Veranstaltungen  einhält  und  die  Evaluationen  in  der  entsprechenden Unterrichtssprache erfolgreich absolviert, erhält ein BA Diplom in lateinischer Sprache und Kultur mit dem Vermerk 'zweisprachig'.
+
+## Studienaufbau
+
+Das  Studienprogramm  besteht  aus  einem  propädeutischen  Modul  (15  ECTS  Punkte),  in  dem bestehende Kenntnisse in lateinischer Sprache und Literatur vertieft sowie methodische Grundlagen vermittelt werden. Folgt ein Lektüre- und Literaturmodul (15 ECTS Punkte).
+
+| 1. PROPÄDEUTIK LATEIN                   | 15   |
+|-----------------------------------------|------|
+| Einführung in die Klassische Philologie | 3    |
+| Geschichte der lateinischen Literatur   | 3    |
+| Übungen Latein                          | 3    |
+| Lateinische Sprache                     | 3    |
+| Lateinische Lektüre 1. Jahr             | 3    |
+| 2. LATEINISCHE LEKTÜRE UND LITERATUR    | 15   |
+| 1 Lateinische Lektüre 2.-3. Jahr        | 3    |
+| 1 Proseminar Latein                     | 3    |
+| 3 Vorlesungen in lateinischer Literatur | 3x3  |
+
+| MODUL1: PROPÄDEUTIK (15 ECTS)   | MODUL1: PROPÄDEUTIK (15 ECTS)                                                                                                                                                                                                                          |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 15 PUNKTE                       | Das propädeutische Modul (15 ECTS Punkte) vertieft die Grundkenntnisse in Sprache, Literatur und historischem Kontext und führt in die Methoden der Klassischen Philologie ein.                                                                        |
+| 3 PUNKTE                        | Einführung in die Klassische Philologie Diese Lehrveranstaltung führt die Studierenden in die Methoden der Philologie ein und macht sie mit den wichtigsten Hilfsmitteln vertraut. Sie muss während des ersten Studienjahres belegt werden.            |
+| 3 PUNKTE                        | Geschichte der lateinischen Literatur Dieser Überblick über die Literatur von der Republik bis zur Kaiserzeit ermöglicht es den Studierenden, Werke und Autoren innerhalb der literarischen Tradition und des kulturellen Kontexts zu situieren.       |
+| 3 PUNKTE                        | Übungen Latein Die Studierenden vertiefen ihre grammatikalischen Kenntnisse anhand verschiedener Übungen.                                                                                                                                              |
+| 3 PUNKTE                        | Lateinische Sprache In dieser Lehrveranstaltung lernen die Studierenden die Geschichte der lateinischen Sprache kennen. Weitere Themen sind rhetorische Tropen und Stilfiguren und Grundkenntnisse in Metrik.                                          |
+| 3 PUNKTE                        | Lateinische Lektüre 1. Jahr Dieser für Studierende des 1. Jahres reservierte Lektürekurs ermöglicht es den Studierenden, anhand verschiedener Texte in der Originalsprache (Latein) ihre Sprachkompetenz zu verbessern und ihr Vokabular zu erweitern. |
+
+## 15
+
+- PUNKTE
+
+## MODUL 2: LEKTÜRE UND LITERATUR (15 ECTS)
+
+Das Lektüre- und Literatur-Modul (15 ECTS Punkte) dient der Vertiefung der Sprachkompetenz und macht die Studierenden mit ausgewählten Autoren und Textsorten vertraut.
+
+## 3 1 Lateinische Lektüre 2.-3. Jahr PUNKTE In  diesem  Lektürekurs,  der  im  2.  oder  im  3.  Jahr  befolgt  wird,  lesen  die Studierenden Texte in der Originalsprache (Latein). Linguistische und literarische Erläuterungen von Seiten der Lehrperson fördern und vertiefen das Verständnis.
+
+- 3 1 Proseminar Latein PUNKTE
+
+Das  Proseminar  wird  im  2.  oder  im  3.  Jahr  befolgt.  Durch  die  Lektüre  und Interpretation von lateinischen Texten werden die Studierenden angeleitet, ihre eigene Reflexion über die Texte zu entwickeln und diese unter Anwendung der spezifischen Hilfsmittel der Klassischen Philologie zu vertiefen.
+
+## 3x3 3 Vorlesungen in lateinischer Literatur PUNKTE Diese  Vorlesungen  ermöglichen  es  den  Studierenden,  Autoren  und  Textsorten sowie einschlägige Themen und Motive der lateinischen Literatur kennenzulernen.
+
+## DIE EVALUATION
+
+̈
+
+Dieser Studienplan stu tzt sich auf die Richtlinien u ber die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakulta t  der  Universita t Freiburg  (Schweiz).  In  jeder  Lehrveranstaltung  wird  die  Studienleistung  schriftlich  oder  mu ndlich entweder wa hrend des Semesters oder an dessen Ende evaluiert. Die Evaluationsart wird zu Beginn des Semesters bekannt gegeben.
+
+̈
+
+1. Jede Veranstaltung kann nur einmal validiert werden.
+2. Die Gesamtnote eines Moduls setzt sich aus den Teilnoten der Einzelveranstaltungen zusammen, welche ein Modul konstituieren. Alle Teilnoten müssen genügend sein.
+3. Der Durchschnitt der vier Modulgesamtnoten ergibt die Schlussnote.
+4. Nicht  bestandene  Prüfungen  können  höchstens  zwei  Mal  wiederholt  werden.  Die Sessionen zur Wiederholung stehen nur den Studierenden offen, welche eine ungenügende Note erhalten haben.
+5. Jede Veranstaltung wird mit einer Note bewertet.
+
+5.1. In den Vorlesungen zur Literatur werden  die Studienleistungen durch eine Semesterendprüfung evaluiert und benotet.
+
+5.2. In der Lektüre des 1. Moduls werden die Studienleistungen durch eine schriftliche und eine mündliche Übersetzungsprüfung evaluiert und benotet. In der Lektüre des 2. Moduls werden die Studienleistungen durch eine schriftliche Übersetzungsprüfung evaluiert und benotet.
+
+5.3. In den Proseminaren werden die Studienleistungen durch einen mündlichen Vortrag und eine  schriftliche  Proseminararbeit  (eine  literarische  Interpretation)  von  mind.  zehn Seiten evaluiert und benotet.
+
+- 5.4. In den Übungen und den Lehrveranstaltungen zur Sprache werden die Studienleistungen durch eine schriftliche Prüfung am Semesterende evaluiert und benotet.
+
+̈
+
+̈
+
+̈
+
+̈
+
+̈
+
+## ÜBERGANGSBESTIMMUNGEN
+
+1. Studierende, die ihr Studium im Herbstsemester 2016 im Studienplan vom 28. April 2009 begonnen haben, ko nnen bis zum Beginn des Herbstsemesters 2017 in den vorliegenden Studienplan wechseln.
+
+̈
+
+2. Die Modalita ten des Wechsels zum vorliegenden Studienplan werden vom/von der Studienberater/in auf der Basis der bisherigen Studienleistungen festgelegt.

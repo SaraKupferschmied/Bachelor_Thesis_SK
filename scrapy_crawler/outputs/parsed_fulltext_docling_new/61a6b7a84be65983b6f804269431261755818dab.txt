@@ -1,0 +1,476 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:58:09.932Z",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_Master_of_Medicine_in_Medicine_FR__61a6b7a84be65983b6f804269431261755818dab",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "61a6b7a84be65983b6f804269431261755818dab",
+  "program_key": "|master|120|experimental biomedical research",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Medicine",
+  "doc_label": "Master of Medicine in Medicine (FR)",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2020/Plan_MMed_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/biomedicalresearch",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Experimental_Biomedical_Research_Master_of_Medicine_in_Medicine_FR__61a6b7a84be65983b6f804269431261755818dab.pdf",
+  "sha256": "e29163ace50611b9a753d4561359a51f4e5b6ebcb30e2b4a68242a888645594e",
+  "fetched_at": "2026-04-03T11:26:47.951Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2020/Plan_MMed_fr.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_MMed_fr.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Master of Medicine
+
+Accepté par la Faculté des sciences et de médecine le 25.05.2020
+
+<!-- image -->
+
+## TABLE DES MATIERES
+
+|   1 | GÉNÉRALITÉS...................................................................................................................3                                                                                                                                                                                                                        | GÉNÉRALITÉS...................................................................................................................3                                                                                                                                                                                                                        |                                                                            |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| 1.1 | Titre universitaire et voie d'études ...................................................................................................                                                                                                                                                                                                               | Titre universitaire et voie d'études ...................................................................................................                                                                                                                                                                                                               | 3                                                                          |
+| 1.2 | Structure générale des études ..........................................................................................................                                                                                                                                                                                                               | Structure générale des études ..........................................................................................................                                                                                                                                                                                                               | 3                                                                          |
+|     | Contexte général .......................................................................................................................................................... Structure des études ..................................................................................................................................................... | Contexte général .......................................................................................................................................................... Structure des études ..................................................................................................................................................... | 3 4                                                                        |
+| 1.3 | Compétences acquises......................................................................................................................                                                                                                                                                                                                             | Compétences acquises......................................................................................................................                                                                                                                                                                                                             | 5                                                                          |
+|     | Les sept rôles du médecin (= General Objectives, GOs) ..................................................................................................                                                                                                                                                                                               | Les sept rôles du médecin (= General Objectives, GOs) ..................................................................................................                                                                                                                                                                                               | 5                                                                          |
+|     | Entrustable professional activities (= EPAs) ..................................................................................................................                                                                                                                                                                                        | Situations cliniques comme point de départ (= Situations as Starting Points, SSPs)                                                                                                                                                                                                                                                                     | 6 ......................................................... 6              |
+| 1.4 | Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS...........................                                                                                                                                                                                                                                                  | Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS...........................                                                                                                                                                                                                                                                  | 6                                                                          |
+| 1.5 | Langues d'enseignement...................................................................................................................                                                                                                                                                                                                              | Langues d'enseignement...................................................................................................................                                                                                                                                                                                                              | 6                                                                          |
+| 1.6 | Ethique scientifique............................................................................................................................                                                                                                                                                                                                       | Ethique scientifique............................................................................................................................                                                                                                                                                                                                       | 7                                                                          |
+| 1.7 | Règlements et informations complémentaires................................................................................                                                                                                                                                                                                                             | Règlements et informations complémentaires................................................................................                                                                                                                                                                                                                             | 7                                                                          |
+| 2   | MASTER                                                                                                                                                                                                                                                                                                                                                 | MASTER                                                                                                                                                                                                                                                                                                                                                 |                                                                            |
+| 2.1 | La première                                                                                                                                                                                                                                                                                                                                            | année d'études (1 er paquet de validation)                                                                                                                                                                                                                                                                                                             | .................................................................. 8       |
+|     | OF MEDICINE (MMED) - CURRICULUM............................................................8 2.1.1                                                                                                                                                                                                                                                     | Programme d'études et évaluation de la première                                                                                                                                                                                                                                                                                                        | année....................................................................8 |
+|     | 2.1.2                                                                                                                                                                                                                                                                                                                                                  | Contenu des UE de la première année...................................................................................................9                                                                                                                                                                                                                |                                                                            |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Phase 1 du MMed ..........................................................................................................................................................                                                                                                                                                                             | 9                                                                          |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Transition 1 - Introduction aux études de Master ............................................................................................................... e                                                                                                                                                                                     | 9 9                                                                        |
+|     |                                                                                                                                                                                                                                                                                                                                                        | 1 module : « De la pathophysiologie à la maladie » ........................................................................................................... 2 e module : « Du symptôme au diagnostic » ......................................................................................................................                       | 9                                                                          |
+|     |                                                                                                                                                                                                                                                                                                                                                        | 3 e module : « Cycles de vie » ...........................................................................................................................................                                                                                                                                                                             | 9                                                                          |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Phase 2 du MMed ..........................................................................................................................................................                                                                                                                                                                             | 9                                                                          |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Transition 2 - Introduction aux rotations cliniques .............................................................................................................                                                                                                                                                                                      | 9                                                                          |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Rotations cliniques .........................................................................................................................................................                                                                                                                                                                          | 9 10                                                                       |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Stage longitudinal en médecine de famille 1 .................................................................................................................... Journées et semaines thématique ....................................................................................................................................                  | 10                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Santé communautaire 1 .................................................................................................................................................                                                                                                                                                                                | 10                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Ophtalmologie - Dermatologie - ORL 1 .........................................................................................................................                                                                                                                                                                                         | 10                                                                         |
+| 2.2 | La deuxième année d'études (2 e paquet de validation)................................................................                                                                                                                                                                                                                                  | La deuxième année d'études (2 e paquet de validation)................................................................                                                                                                                                                                                                                                  | 10                                                                         |
+|     | 2.2.1                                                                                                                                                                                                                                                                                                                                                  | Programme d'études et évaluation de la 2 e année..............................................................................11                                                                                                                                                                                                                       |                                                                            |
+|     | 2.2.2                                                                                                                                                                                                                                                                                                                                                  | Contenu des UE de la 2 e année ............................................................................................................11 ........................................................................................................................................................                                                 | 11                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Phase 2 du MMed Rotations cliniques .......................................................................................................................................................                                                                                                                                                            | 11                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Stage longitudinal en médecine de famille 2 ....................................................................................................................                                                                                                                                                                                       | 11                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Journées et semaines thématique .................................................................................................................................... .................................................................................................................................................                                 | 11                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Santé communautaire 2                                                                                                                                                                                                                                                                                                                                  | 11                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Ophtalmologie - Dermatologie - ORL 2 ......................................................................................................................... Enseignements transversaux 2 .......................................................................................................................................                    | 11 11                                                                      |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Project of Excellence ....................................................................................................................................................                                                                                                                                                                             | 11                                                                         |
+| 2.3 | La troisième année d'études (3 e paquet de validation).................................................................                                                                                                                                                                                                                                | La troisième année d'études (3 e paquet de validation).................................................................                                                                                                                                                                                                                                | 11                                                                         |
+|     | 2.3.1                                                                                                                                                                                                                                                                                                                                                  | Programme d'études et évaluation de la 3 e année..............................................................................12                                                                                                                                                                                                                       |                                                                            |
+|     | 2.3.2                                                                                                                                                                                                                                                                                                                                                  | Contenu de la 3 e année .........................................................................................................................12                                                                                                                                                                                                    |                                                                            |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Phase 3 du MMed ........................................................................................................................................................                                                                                                                                                                               | 12                                                                         |
+|     |                                                                                                                                                                                                                                                                                                                                                        | Synthèse et transition 3 - Introduction à l'année élective ...................................................................................................                                                                                                                                                                                         | 12                                                                         |
+| 2.4 | Le travail de master (4 e paquet de validation) ...............................................................................                                                                                                                                                                                                                        | Le travail de master (4 e paquet de validation) ...............................................................................                                                                                                                                                                                                                        | 13                                                                         |
+|     | 2.5                                                                                                                                                                                                                                                                                                                                                    | 2.5                                                                                                                                                                                                                                                                                                                                                    |                                                                            |
+|     | Flexibilité: Project of Excellence.....................................................................................................                                                                                                                                                                                                                | Flexibilité: Project of Excellence.....................................................................................................                                                                                                                                                                                                                | 13                                                                         |
+| 3   | MASTER OF MEDICINE (MMED) - ASSESSMENT .........................................................14                                                                                                                                                                                                                                                     | MASTER OF MEDICINE (MMED) - ASSESSMENT .........................................................14                                                                                                                                                                                                                                                     |                                                                            |
+| 3.1 | Principes............................................................................................................................................                                                                                                                                                                                                  | Principes............................................................................................................................................                                                                                                                                                                                                  | 14                                                                         |
+| 3.2 | Formats d'examens..........................................................................................................................                                                                                                                                                                                                            | Formats d'examens..........................................................................................................................                                                                                                                                                                                                            | 15                                                                         |
+
+## 1 Généralités
+
+Ce  plan  d'études  définit  l'organisation  des  études  du  Master  of  Medicine  (appelé  ci-après MMed),  conformément  aux  exigences  du Règlement  du  24.09.2018  pour  l'obtention  du Master of Medicine (appelé ci-après Règlement). Dans tous les cas, le plan d'études de l'année académique en cours est appliqué.
+
+## 1.1  Titre universitaire et voie d'études
+
+La Faculté des sciences et de médecine de l'Université de Fribourg décerne aux étudiant-e-s qui ont accompli avec succès leurs études le titre officiel de Master of Medicine .
+
+La  voie  d'études  du  MMed  offre  une  formation  clinique  pré-graduée  qui  prépare  à  l'examen fédéral en médecine humaine de l'Office Fédéral de la Santé Publique (OFSP). C'est la réussite de cet examen qui donne accès à l'exercice d'une activité clinique en tant que médecin-assistant ou  médecin-assistante.  Le  nombre  de  places  disponibles  pour  la  voie  d'études  du  MMed  est limité à 40.
+
+## 1.2  Structure générale des études
+
+## Contexte général
+
+Le Master of Medicine se construit autour de cinq axes thématiques :
+
+1. Médecine de famille : une place centrale est donnée à cet aspect. Le point de vue de la médecine interne générale est présent tout au long du Master, en abordant les problèmes de santé sous l'angle de la médecine de famille, en explorant le système de santé au-delà du monde hospitalier (parcours du patient dans le système de santé, ce tout au long de son  existence)  et  en  immergeant  les  étudiant-e-s  dans  le  quotidien  d'un  cabinet  de médecin de famille.
+2. Imputabilité  sociale  et  santé  publique  : le  programme  de  MMed  aborde  différents sujets  tels  que  la  santé  publique  (dimensions  politiques,  administratives  et  légales), l'organisation  et  le  financement  du  système  de  santé,  la  santé  communautaire,  les populations  vulnérables,  la  «  health  literacy  »,  afin  de  prendre  en  considération  les besoins de la population dans la formation médicale, de tenir compte des déterminants socio-économiques de la santé et des maladies, et de mettre en exergue le rôle d'acteur politique du médecin.
+3. PROFILES ( P rincipal R elevant O bjectives  and F ramework  for I ntegrative L earning and E ducation in S witzerland ,  www.profilesmed.ch) : ce référentiel de compétences de la  formation  médicale  en  Suisse,  entré  en  vigueur  en  2018,  décrit  les  compétences cliniques attendues au premier jour d'assistanat ; il met l'accent sur la formation pratique professionnelle, particulièrement en présentant sept rôles du médecin, neuf « Entrustable Professional Activities (EPAs) » et diverses situations cliniques comme point de départ des  apprentissages  («  Situations  as  Starting  Points  (SSPs) »).  Le  référentiel  guide l'étudiant-e dans l'acquisition intégrée des connaissances, des habiletés et des attitudes à mettre en œuvre dans divers contextes de soins. Tout en préparant à l'examen fédéral de l'OFSP,  il  permet  d'amener  le  ou  la  futur-e  médecin  à  être  opérationnel-le  dès  sa première  semaine  d'assistanat,  en  favorisant  une  formation  scientifique  médicale  et fondamentale de haut niveau.
+4. Pratique réflexive : pour  permettre  aux  futur-e-s  médecins  de  fonctionner  de  manière autonome,  une  pratique  réflexive  solide  autour  du  raisonnement  clinique,  dans  une perspective systémique intégrant la santé publique, de la compréhension, de la prévention
+
+et de la gestion des erreurs médicales est nécessaire. De même, une démarche réflexive sur  la  progression  de  son  apprentissage  (métacognition)  représente  une  compétence importante pour favoriser une attitude « lifelong learning ».
+
+5. Le métier du médecin ou « physicianship » : le master développe une épistémologie de la pratique médicale, pour favoriser une relation médecin-malade authentique et robuste, et développer une compréhension de la relation d'aide (« caring ») et de soin (« curing »). Pour  préparer  le  ou  la  futur-e  médecin  à  faire  face  à  un  métier  exigeant  au  niveau personnel, des stratégies de  « self-awareness » et de  « self-care » sont intégrées dans la formation.
+
+Tout en mettant l'accent sur la médecine de famille, le MMed de l'Université de Fribourg offre une préparation comparable aux autres filières de médecine en Suisse. En se basant sur le même référentiel de compétences PROFILES, il permet de se préparer à l'examen fédéral de médecine donnant accès à toutes  les  formations  post-graduées.  Il  permet  donc  de  former  aussi  bien  des futur-e-s internistes-généralistes que des futur-e-s spécialistes.
+
+## Structure des études
+
+Le Master en Médecine (MMed1 à MMed3) est centré sur l'enseignement clinique-pratique et l'expérience en milieu hospitalier et dans des cabinets de médecine de famille. Il dure trois ans. Ces trois années ont été structurées en trois phases.
+
+<!-- image -->
+
+##  Phase 1
+
+Il  s'agit  d'une  phase  d'enseignement  de  13  semaines  qui,  en  trois  modules  avec  un enseignement orienté vers l'application basé sur des cas cliniques, constitue la transition entre les connaissances de base acquises dans le cadre du Bachelor et la pratique clinique.
+
+##  Phase 2
+
+Elle  s'étend  sur  le  deuxième  semestre  de  la  première  année  et  le  premier  semestre  de  la deuxième année. Elle dure ainsi 13 mois.
+
+Elle comprend cinq rotations cliniques de six semaines chacune. Durant ces trente semaines, les étudiant-e-s passent quatre jours par semaine en petits groupes dans les différents services cliniques de l'Hôpital cantonal de Fribourg ou du Réseau fribourgeois de santé mentale. Le cinquième jour de chaque semaine est dédié soit à l'enseignement théorique de thématiques
+
+transversales (= journée thématique), soit, environ toutes les trois semaines, à la journée en cabinet de médecine de famille dans le cadre d'un stage longitudinal.
+
+Plusieurs semaines d'enseignement structuré pour tou-te-s les étudiant-e-s sont insérées entre les rotations. Répartis sur l'ensemble de la phase 2, il y a cinq semaines thématiques au total se concentrant sur divers contenus complémentaires  (=  semaines  thématiques), trois semaines avec des leçons dans les domaines ORL, dermatologie et ophtalmologie, et quatre semaines au total centrées sur le thème de la santé communautaire.
+
+##  Phase 3
+
+Pendant 11 des 13 mois, les étudiant-e-s sont en année élective. Pendant cette période, les étudiant-e-s effectuent des stages de plusieurs semaines dans différentes institutions cliniques en  Suisse  ou  à  l'étranger.  Dans  les  semaines  suivantes,  les  étudiant-e-s  se  préparent spécifiquement à l'examen fédéral à l'aide de cours de révision.
+
+-  Le travail  de  master constitue  le  4 e élément  du  programme  d'études ;  il  est  en  principe effectué au cours des deux premières années d'études.
+
+## 1.3  Compétences acquises
+
+Les titulaires du MMed  auront  acquis  les  compétences  décrites dans le référentiel de compétences PROFILES. Ce référentiel est structuré autour de 3 chapitres : les rôles du médecin, les activités professionnelles et les situations cliniques.
+
+## Les sept rôles du médecin (= General Objectives, GOs)
+
+Actuellement, les compétences attendues du médecin sont réparties en sept rôles, qui s'appuient sur le référentiel de compétences CanMEDS (http://canmeds.royalcollege.ca/) :
+
+1. Expert  médical :  En  tant  qu'experts  médicaux,  les  médecins  assument  tous  les  rôles CanMEDS  et  s'appuient  sur  leur  savoir  médical,  leurs  compétences  cliniques  et  leurs attitudes professionnelles pour dispenser des soins sécuritaires et de grande qualité, centrés sur les besoins du patient. Pivot du référentiel CanMEDS, le rôle d'expert médical définit le champ de pratique clinique des médecins.
+2. Communicateur :  En  tant  que  communicateurs,  les  médecins  développent  des  relations professionnelles avec le patient, sa famille et ses proches aidants, ce qui permet l'échange d'informations essentielles à la prestation de soins de qualité.
+3. Collaborateur :  En  tant  que  collaborateurs,  les  médecins  travaillent  efficacement  avec d'autres  professionnel-le-s  de  la  santé  pour  prodiguer  des  soins  sécuritaires  et  de  grande qualité, centrés sur les besoins du patient.
+4. Leader /  Manager :  En  tant  que  leaders,  les  médecins  veillent  à  assurer  l'excellence  des soins, à titre de cliniciens, d'administrateurs, d'érudits ou d'enseignants et contribuent ainsi, avec d'autres intervenants, à l'évolution d'un système de santé de grande qualité.
+5. Promoteur de la santé :  En tant que promoteurs de la santé, les médecins mettent à profit leur  expertise  et  leur  influence  en  œuvrant  avec  des  collectivités  ou  des  populations  de patient-e-s  en  vue  d'améliorer  la  santé.  Ils  et  elles  collaborent  avec  ceux  et  celles  qu'ils aident afin d'établir et de comprendre leurs besoins, d'être si nécessaire leur porte-parole, et de soutenir l'allocation des ressources leur permettant de procéder à un changement de vie approprié.
+6. Erudit :  En  tant  qu'érudits,  les  médecins  font  preuve  d'un  engagement  constant  envers l'excellence dans la pratique médicale par un processus de formation continue, en enseignant à des tiers, en évaluant les données probantes et en contribuant à l'avancement de la science.
+
+7. Professionnel : En tant que professionnel-le-s, les médecins ont le devoir de promouvoir et de  protéger  la  santé  et  le  bien-être  d'autrui,  tant  sur  le  plan  individuel  que  collectif.  Ils doivent exercer leur profession selon les normes médicales actuelles, en respectant les codes de  conduite  quant  aux  comportements  qui  sont  exigés  d'eux,  tout  en  étant  responsables envers la profession et la société. De plus, les médecins contribuent à l'autoréglementation de la profession et veillent au maintien de leur santé.
+
+Ces  compétences  sont  mises  en  œuvre  dans  le  cadre  des  neuf  « Entrustable  professional activities » (= EPAs, activités professionnelles confiables) décrites dans le PROFILES.
+
+## Entrustable professional activities (= EPAs)
+
+L'étudiant-e en fin de formation doit être capable d'exercer ces 9 EPAs sans supervision directe dans le cadre de son activité de médecin-assistant ou médecin-assistante :
+
+1. Réaliser une anamnèse médicale
+2. Effectuer un examen physique et un statut mental
+3. Prioriser un diagnostic différentiel à la suite d'une consultation clinique
+4. Proposer et interpréter les tests de diagnostic et de dépistage dans des situations courantes
+5. Effectuer des procédures diagnostiques et thérapeutiques courantes
+6. Reconnaître un patient nécessitant des soins urgents, entreprendre l'évaluation et la prise en charge
+7. Élaborer un plan de prise en charge, discuter des ordres médicaux et des prescriptions dans les situations courantes
+8. Documenter et présenter la prise en charge du patient ; effectuer le transfert du patient
+9. Contribuer à une culture de sécurité et de l'amélioration de la qualité
+
+## Situations cliniques comme point de départ (= Situations as Starting Points, SSPs)
+
+Ce chapitre présente un ensemble de situations génériques qui couvrent les situations courantes, les symptômes, les plaintes et les constatations que le ou la médecin devrait être en mesure de gérer au premier jour de son assistanat. En d'autres termes, le ou la médecin doit être en mesure d'évaluer un patient se présentant dans l'une de ces situations de manière structurée, d'établir un diagnostic  différentiel  et  de  proposer  des  mesures  diagnostiques,  thérapeutiques,  sociales  et préventives/conseils.
+
+## 1.4  Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS
+
+Les études de MMed sont composées d'unités d'enseignement (UE), regroupées en paquets de validation. Chaque paquet de validation est associé à une procédure d'évaluation qui transforme la somme des points acquis pour chaque UE en crédits ECTS. Les études de MMed requièrent l'acquisition de 180 crédits ECTS au minimum (6 semestres d'études à plein temps).
+
+Le  dispositif  global  de  suivi  et  d'évaluation  (  Chapitre  3.  Master  of  Medicine  (MMed)  Assessment) est conçu pour accompagner l'approche par compétences (PROFILES) et favoriser la  pratique  réflexive  en  stimulant  l'autonomie,  ceci  permettant  une  préparation  adaptée  aux conditions rencontrées durant la formation clinique post-graduée.
+
+## 1.5  Langues d'enseignement
+
+Le  programme  du  MMed  est  une  formation  bilingue  intégrant  le  français  et  l'allemand. L'étudiant-e aura ainsi enrichi ses compétences dans les deux langues et acquis la capacité de communiquer avec les patient-e-s et d'autres professionnel-le-s de la santé aussi bien en français qu'en allemand. Les enseignements structurés sont donnés en français ou en allemand, selon le
+
+choix  de  l'enseignant-e.  Les  évaluations  certificatives  peuvent  être  effectuées,  au  choix  de l'étudiant-e, en français ou en allemand.
+
+## 1.6  Ethique scientifique
+
+Les principes d'éthique font partie intégrante de la formation médicale. Les règles internationalement admises doivent être respectées lors de l'élaboration et de la rédaction de tout travail scientifique (projet, séminaire, rapport, etc.). En  particulier, toute  source externe d'information  (articles,  communications  orales,  pages  web,  etc.)  doit  être  correctement  citée. Veuillez aussi consulter les directives données par l'Académie Suisse des Sciences Médicales (https://www.samw.ch/fr/Ethique/Directives/actualite.html).
+
+La  déontologie  clinique,  ensemble  des  règles  de  conduite  destinées  à  organiser  la  pratique clinique  selon  des  normes,  pour  le  bénéfice  des  patient-e-s  et  de  la  profession  médicale  ellemême, fait également partie intégrante de la formation médicale.
+
+## 1.7  Règlements et informations complémentaires
+
+De plus amples informations concernant le MMed sont disponibles sur le site web de la section Médecine de la Faculté des sciences et de médecine (https://www3.unifr.ch/med/fr/studies/master/med/).
+
+## 2 Master of Medicine (MMed) - Curriculum
+
+[Version 2020 : paquet de validation de la 1 re  année : PV-SMH.007001E ; paquet de validation de la 2 e  année : PV-SMH.008001E ; paquet de validation de la 3 e  année : PV-SMH.009001E ; paquet de validation TM : PV-SMH.0107500
+
+Le programme du MMed s'étend sur trois ans d'études et équivaut à 180 crédits ECTS. Du point de  vue  de  l'apprentissage,  ces  trois  années  sont  structurées  en  trois  phases  (  Chapitre  1.2 Structure  des  études) ;  du  point  de  vue  de  l'obtention  des  crédits  d'études,  chaque  année  du programme correspond à un paquet de validation.
+
+Le Master en médecine comprend quatre paquets de validation :
+
+- -Le premier paquet de validation correspond à la 1 e année d'études du Master
+- -Le deuxième paquet de validation correspond à la 2 e année d'études du Master
+- -Le troisième paquet de validation correspond à la 3 e année d'études du Master
+- -Le quatrième paquet de validation correspond au travail de Master.
+
+## 2.1  La première année d'études (1 er  paquet de validation)
+
+La  première  année  d'études  (septembre  -  juillet)  comprend  la  phase  1  du  Master  au  premier semestre,  ainsi  que  la  première  partie  de  la  phase  2  au  deuxième  semestre  (  Chapitre  1.2 Structure des études).
+
+Les UE de cette première année sont  regroupées en  un seul  paquet  de  validation.  Les  crédits ECTS sont acquis après réussite de l'évaluation sommative SMH.7001E. Celle-ci a lieu une fois par année, à la fin de la période d'enseignement.
+
+## 2.1.1  Programme d'études et évaluation de la première année
+
+| Code      |                                                     |   ECTS par épreuve |   ECTS par UE |
+|-----------|-----------------------------------------------------|--------------------|---------------|
+| SMH.7001E | Paquet de validation 1 (épreuve)                    |                 60 |               |
+| SMH.07002 | Transition 1 - Introduction aux études de Master    |                    |           1   |
+| SMH.07003 | De la pathophysiologie à la maladie                 |                    |           6   |
+| SMH.07004 | Du symptôme au diagnostique                         |                    |           8   |
+| SMH.07005 | Cycles de la vie                                    |                    |           4.5 |
+| SMH.07112 | Transition 2 - Introduction aux rotations cliniques |                    |           4.5 |
+| SMH.07101 | Rotation clinique I                                 |                    |           8   |
+| SMH.07102 | Rotation clinique II                                |                    |           8   |
+| SMH.07103 | Rotation clinique III                               |                    |           8   |
+| SMH.07201 | Stage longitudinal en médecine de famille 1         |                    |           3   |
+| SMH.07301 | Santé communautaire 1                               |                    |           1.5 |
+| SMH.07302 | Ophtalmologie - Dermatologie - ORL 1                |                    |           1.5 |
+| SMH.07401 | Journées et semaines thématiques 1                  |                    |           6   |
+|           |                                                     |                    |          60   |
+
+## 2.1.2  Contenu des UE de la première année
+
+## Phase 1 du MMed
+
+## Transition 1 - Introduction aux études de Master
+
+## 1 e module : « De la pathophysiologie à la maladie »
+
+(Maladies infectieuses, néoplasiques, immunologiques, métaboliques, cardiovasculaires et traumatismes)
+
+1. Physiopathologie et sémiologie des différentes familles nosologiques
+2. Raisonnement par analogie - du général au particulier
+3. Préparation au diagnostic différentiel
+4. Communication intra-professionnelle (synthèse d'une situation clinique)
+5. Principes d'investigation et de prise en charge
+
+## 2 e module : « Du symptôme au diagnostic »
+
+(Céphalée, dyspnée, douleur abdominale, douleur articulaire, fièvres)
+
+1. Processus diagnostique : raisonnement clinique à partir d'une plainte, diagnostic différentiel, notions de probabilité, biais, erreurs de diagnostic
+2. Recueil des informations pertinentes (anamnèse, status, examens complémentaires)
+3. Prise en charge : principes des red-flags et exemple  d'application (urgent, aigu, chronique ; mono-, pluridisciplinaire)
+4. Évolution : suivi, transition, évolution (pronostic, complication, maladies silencieuses)
+5. La gestion est traitée conjointement du point de vue de la médecine familiale et des autres spécialités.
+
+## 3 e module : « Cycles de vie »
+
+(Grossesse, enfance, âge adulte, grand âge, conditions de vie)
+
+1. Raisonnement  à  partir  du  contexte  bio-psycho-socio-culturel  (génétique,  âge,  famille, métier, statut socio-économique)
+2. Pathologies propres aux différents âges
+3. Développement normal et étapes de la vie
+4. Populations à risque, populations vulnérables, populations discriminées
+
+## Phase 2 du MMed
+
+## Transition 2 - Introduction aux rotations cliniques
+
+Cette unité d'enseignement, d'une durée de trois semaines, vise les objectifs suivants :
+
+1. Consolider les connaissances et les compétences des étudiant-e-s à partir de l'étude de cas cliniques.  Le  lien  entre  l'anamnèse  ciblée,  l'examen  physique  et  la  formulation  d'un diagnostic de présomption est au centre de cette démarche
+2. Approfondir  les  compétences  communicatives  telles  que  le  résumé  structuré  d'un  cas clinique et les techniques de la communication centrée sur le patient
+3. Être sensibilisé-e au traitement des données des patients
+4. Se préparer aux structures organisationnelles et du personnel d'un hôpital
+5. Acquérir une formation pratique de base en ultrasons et autres techniques d'imagerie
+
+## Rotations cliniques
+
+Au 2 e semestre de la 1 e année, les étudiant-e-s effectuent, selon un système de rotations, trois des cinq  rotations  cliniques  de  la  phase  2,  d'une  durée  de  six  semaines  chacune.  Ces  immersions cliniques s'effectuent en principe dans les structures de l'HFR, respectivement du RFSM, dans les domaines suivants :
+
+-  Médecine interne générale et spécialités / sous-spécialités
+
+-  Chirurgie générale / Chirurgie orthopédique et Rhumatologie
+-  Pédiatrie / Gynécologie et Obstétrique
+-  Gériatrie / Médecine d'urgence
+-  Psychiatrie
+
+## Stage longitudinal en médecine de famille 1
+
+Durant les rotations cliniques, les étudiant-e-s  sont  dans  des  services  cliniques  pendant  quatre jours par semaine. Toutes les trois semaines, le cinquième jour est dédié à la journée en cabinet de médecine de famille dans le cadre d'un stage longitudinal. Ce stage longitudinal des « quatre saisons du médecin de famille » représente au total une quinzaine de journées réparties sur les semestres 2 et 3 du programme (environ 8 jours durant la 1 e année d'étude).
+
+## Journées et semaines thématique
+
+Pendant  les  cinquièmes  jours  restants  des  rotations  (15  jours  au  total),  ainsi  que  pendant  les semaines intercalées entre les différentes rotations, les étudiant-e-s participent à des séquences d'enseignement structurées sur des sujets complémentaires.  Ces  cours couvrent diverses spécialités,  telles  que  la  médecine  de  famille,  la  médecine  légale,  les  humanités  médicales,  la médecine d'urgence, etc. ainsi que divers cours à choix. Les sujets sont abordés ensemble sous l'angle de la médecine de famille et d'autres domaines spécialisés.
+
+## Santé communautaire 1
+
+Dans  ce  cours  de  4  semaines  (une  semaine  en  première  année),  les  dimensions  sociales, sociétales, économiques, juridiques et politiques de la santé et de la maladie sont intégrées dans la  formation  médicale.  De  plus,  les  étudiant-e-s  sont  sensibilisés  aux  défis  de  la  relation médecin-patient. Les étudiant-e-s acquièrent des connaissances et une compréhension de la santé publique (public health) et de l'épidémiologie des maladies en relation avec leur environnement local et les déterminants socio-économiques de la santé, de la prévention et de la promotion de la santé.  L'organisation  et  le  financement  du  système  de  soins  de  santé  est  un  sujet  ainsi  que l'éducation à la santé (health literacy) de la population suisse. Le cours répond ainsi à la demande de responsabilité sociale (social accountability), qui est l'un des thèmes centraux du MMed de l'Université de Fribourg
+
+## Ophtalmologie - Dermatologie - ORL 1
+
+Durant trois semaines (dont une dans le courant de la première année), les bases théoriques et pratiques nécessaires à la compréhension des pathologies les plus importantes en ophtalmologie, oto-rhino-laryngologie et dermatologie seront enseignées. À travers différents tableaux cliniques, les étudiant-e-s apprennent  à reconnaître la physiopathologie  sous-jacente, à établir des diagnostics différentiels à partir de leurs observations et à proposer des traitements possibles.
+
+## 2.2  La deuxième année d'études (2 e  paquet de validation)
+
+La  deuxième année d'études  (août  -  mars)  correspond  à  la  deuxième  partie  de  la  phase  2  du Master (  Chapitre 1.2 Structure des études).
+
+Les UE de cette deuxième année sont regroupées en un seul paquet de validation. Les crédits ECTS sont acquis après réussite de l'évaluation sommative SMH.8001E. Celle-ci a lieu une fois par année, à la fin de la période d'enseignement.
+
+## 2.2.1  Programme d'études et évaluation de la 2 e  année
+
+| Code      |                                             |   ECTS par épreuve | ECTS par UE   |
+|-----------|---------------------------------------------|--------------------|---------------|
+| SMH.8001E | Paquet de validation 2 (épreuve)            |                 35 |               |
+| SMH.08104 | Rotation clinique IV                        |                    | 8.0           |
+| SMH.08105 | Rotation clinique V                         |                    | 8.0           |
+| SMH.08202 | Stage longitudinal en médecine de famille 2 |                    | 3.0           |
+| SMH.08304 | Santé communautaire 2                       |                    | 5.0           |
+| SMH.08303 | Ophtalmologie - Dermatologie - ORL 2        |                    | 4.0           |
+| SMH.08402 | Journées et semaines thématiques 2          |                    | 7.0           |
+| SMH.0850x | Project of Excellence (facultatif)          |                    | Selon portée  |
+|           |                                             |                    | 35            |
+
+## 2.2.2  Contenu des UE de la 2 e  année
+
+## Phase 2 du MMed
+
+## Rotations cliniques
+
+Au  3 e semestre,  les  étudiant-e-s  effectuent,  selon  un  système  de  rotations,  les  deux  rotations cliniques restantes de la phase 2, d'une durée de six semaines chacune (  Chapitre 2.1.2).
+
+## Stage longitudinal en médecine de famille 2
+
+cf. Chapitre 2.1.2. - 7-8 jours en 2 e année.
+
+## Journées et semaines thématique
+
+cf Chapitre 2.1.2 - 3 semaines + 6 jours libres dans la 2 e année
+
+## Santé communautaire 2
+
+cf. Chapitre 2.1.2. - 3 semaines en 2 e année.
+
+## Ophtalmologie - Dermatologie - ORL 2
+
+cf. Chapitre 2.1.2. - 3 semaines en 2 e année.
+
+## Enseignements transversaux 2
+
+Cf. chapitre 2.1.2. - 3 semaines + 8 vendredis en 1 e année.
+
+## Project of Excellence
+
+Une unité d'enseignement facultative supplémentaires (  Chapitre 2.5).
+
+## 2.3  La troisième année d'études (3 e  paquet de validation)
+
+La troisième année d'études (avril - avril) correspond à la phase 3 du Master (  chapitre 1.2 Structure des études). Elle comprend 11 mois de stages, que l'étudiant-e organise sur une période de 13 mois (inclut 2 mois de vacances).
+
+Les stages de troisième année sont regroupés en un seul paquet de validation. Les crédits ECTS sont acquis après réussite de l'évaluation sommative SMH.9001E. Celle-ci a lieu une fois par année, à la fin de la période d'enseignement.
+
+## 2.3.1  Programme d'études et évaluation de la 3 e  année
+
+| Code      | ECTS par épreuve                                           |   ECTS par UE |
+|-----------|------------------------------------------------------------|---------------|
+| SMH.9001E | Paquet de validation 3 (épreuve) 70                        |               |
+| SMH.09002 | Synthèse et transition 3 - Introduction à l'année élective |             6 |
+| SMH.09003 | Stages électifs                                            |            64 |
+|           |                                                            |            70 |
+
+## 2.3.2  Contenu de la 3 e  année
+
+## Phase 3 du MMed
+
+## Synthèse et transition 3 - Introduction à l'année élective
+
+Dans la synthèse, les sujets de la phase 2 se terminent par l'analyse des résultats de l'examen et des  éventuelles  offres  de  compensation  (y  compris  les  disciplines  transversales  telles  que  la pharmacologie clinique et la pathologie).
+
+La  transition  3  est  utilisée  pour  la  préparation  spécifique  des  étudiant-e-s  à  l'année  élective. L'accent est mis sur les points suivants :
+
+1. Le traitement du patient sur la base des informations obtenues par l'anamnèse, l'examen physique  et  les  tests  de  diagnostic,  en  tenant  compte  des  besoins  et  des  souhaits spécifiques du patient
+2. La planification d'une approche thérapeutique appropriée, comprenant la médication, la prévention, la situation familiale, etc.
+3. La définition du rôle du stagiaire et du médecin, sur la base des connaissances tirées de la pratique clinique, et un examen critique des modèles de rôle perçus.
+
+## Stages électifs
+
+L'étudiant-e  est  responsable  de  l'élaboration  de  son  programme  de  stages,  en  respectant  les conditions suivantes :
+
+- -au minimum deux mois de stage en médecine de premier recours en Suisse (y. c. pédiatrie)
+- -au minimum deux disciplines FMH, en plus de la médecine de premier recours
+- -au minimum un stage long de trois mois
+- -au minimum deux mois de stages en région francophone
+- -au minimum deux mois de stages en région germanophone
+- -au maximum cinq mois à l'étranger
+- -au maximum deux mois non-cliniques (p. ex. pour un projet de recherche)
+
+Seuls  les  stages  acceptés  ex-ante  sont  reconnus  pour  l'obtention  de  crédits  ECTS.  Pour  faire accepter  ses  stages,  l'étudiant-e  soumet  au  ou  à  la  responsable  de  l'année  de  stages,  dans  les délais  annoncés,  la  liste  de  stages  planifiés  en  motivant  le  choix  de  chacun  d'eux.  Le  ou  la responsable des stages confirme le programme tel quel ou propose des ajustements.
+
+## Remarques :
+
+-  L'organisation des stages cliniques dans les établissements hospitaliers de Suisse romande est coordonnée entre les universités de Genève, Lausanne et Fribourg grace au catalogue de stages de l'Ecole de médecine. Les étudiant-e-s fribourgeois-es doivent annoncer les stages planifiés  dans les délais dans le portail en ligne https://ed.unil.ch/pubauth
+-  Les  stages  dans  les  établissements  de  Suisse  allemande  et  à  l'étranger  sont  attribués directement par l'établissement. Les étudiant-e-s doivent démarcher auprès de ces établissements.
+
+## 2.4  Le travail de master (4 e  paquet de validation)
+
+Le travail de master correspond à l'UE SMH.7501 (Master's thesis) et constitue le quatrième paquet de validation, d'une valeur de 15 ECTS. Il consiste en un travail personnel de recherche ou d'étude (400 heures de travail) que l'étudiant-e entreprend au cours des 1 e et  2 e années du master, sous la supervision d'un-e professeur-e de l'Université de Fribourg ou professeur d'une autre faculté affilié au HFR ou RFSM.
+
+Le travail de Master est rendu sous forme 1) d'un rapport écrit (mémoire de maximum 5'000 mots, sans  compter  la  table  des  matières,  les  références,  les  annexes  et  les  indications  de  sources ;  en français,  allemand  ou  anglais)  ou  d'un  manuscrit  soumis  à  publication  ou  publié  dans  un  journal révisé par des pairs et 2) d'une présentation orale brève ou par poster. Le travail de Master est évalué par le ou la professeur-e qui a supervisé ce travail et par un-e expert-e n'ayant pas participé au travail. L'expert-e est proposé-e par le ou la professeur-e qui supervise le travail et est confirmé-e par le/la responsable  du  programme  du  travail  de  master.  Les  critères  d'évaluation  sont  publiés  dans  le « Guide du travail de master ». Le travail est noté de 6 (meilleure note) à 1 (plus mauvaise note). Selon le Règlement, le résultat est validé avec la mention "atteint" si au moins la note 4 a été atteinte La note 1 est donnée en cas de plagiat ou de fraude. Le rapport écrit compte pour 2/3 de l'évaluation et la présentation orale ou par poster pour 1/3 de la note globale. Un travail de Master jugé insuffisant peut être revu par l'étudiant-e et soumis une seconde fois pour évaluation. Si le travail est considéré comme toujours insuffisant, un nouveau travail portant sur un autre sujet doit être réalisé et évalué.
+
+## 2.5  Flexibilité: Project of Excellence
+
+Le « Project of Excellence » propose un programme de mobilité spécial adressé à des étudiant-e-s de haut niveau, désirant réaliser un projet personnel de leur choix, important pour leur carrière, pendant au maximum trois mois de la première ou de la deuxième année du Master.
+
+De leur propre initiative, les étudiant-e-s qui souhaitent accomplir ce projet doivent déposer auprès du Président ou de la Présidente de la Commission d'études du Master un dossier présentant : (1) les objectifs  de  leur  projet,  (2)  un  descriptif  précis  du  projet  et  (3)  une  proposition  de  stratégie  leur permettant  de  rattraper  les  connaissances  et  compétences  devant  être  acquises  dans  la  partie  du programme qu'ils/elles n'auront pas pu suivre. Les demandes sont évaluées par la Commission, qui apprécie  la  pertinence  du  projet  pour  le  développement  personnel  de  l'étudiant-e  et  estime  sa faisabilité, basée sur les performances académiques de l'étudiant-e.
+
+Des  crédits  d'études  supplémentaires  sont  attribués  au  deuxième  paquet  de  validation  pour  ce programme spécial, en fonction de la portée.
+
+## 3 Master of Medicine (MMed) - Assessment
+
+## 3.1  Principes
+
+Le  dispositif  d'évaluation  des  paquets  de  validation  1  à  3  prévoit  deux  phases  distinctes.  La première phase, formative , est constituée de nombreuses épreuves formatives en cours d'année, répertoriées dans un portfolio électronique personnel. La deuxième  phase, certificative (sommative) ,  a  lieu en fin d'année ; elle permet de valider le paquet de validation et d'obtenir les crédits d'études correspondants.
+
+## 3.1.1 La phase formative
+
+Deux types d'évaluations formatives se complètent. Les épreuves formatives formelles sont des éléments structurés du programme ; la participation est obligatoire. Les scores de ces épreuves sont  communiqués  aux  étudiant-e-s  conjointement  avec  des  informations  complémentaires favorisant  l'apprentissage.  Les examens  formatifs  informels de  leur  côté  consistent  en  des observations ad-hoc que l'étudiant-e est invité-e à récolter ou des observations spontanées que les  enseignant-e-s,  les  formateurs  et  formatrices  et  les  étudiant-e-s  peuvent  saisir  dans  le portfolio. Ce portfolio électronique est un espace personnel accessible uniquement par l'étudiante et son/sa conseiller-ère d'apprentissage.
+
+L'étudiant-e  dispose  trois  fois  l'an  d'une  semaine  de  réflexion  pour  faire  le  bilan  de  ses évaluations  formatives,  les  analyser  et  ajuster  son  travail.  En  fin  de  semaine,  un  entretien  est prévu  avec un  conseiller ou une  conseillère d'apprentissage pour discuter de ce bilan intermédiaire et préparer le rapport d'apprentissage de fin d'année.
+
+## 3.1.2 La phase certificative (sommative)
+
+Cette phase consiste en une épreuve sommative sous forme d'un rapport d ' apprentissage rédigé par l'étudiant-e sur la base de ses évaluations formatives et de ses réflexions en cours d'année. Ce  travail  écrit  structuré  de  plusieurs  pages  comporte  des  éléments  descriptifs,  réflexifs  et évaluatifs de l'année d'apprentissage écoulée. Il doit faire référence au portfolio. Si le conseiller ou la conseillère  juge  le  contenu  du  rapport  conforme  à  son  observation  en  cours  d'année  (le conseiller  ou  la  conseillère  ne  juge  pas  le  travail  de  son  étudiant-e),  il  ou  elle  y  apposera  sa signature et confirmera ainsi l'exactitude et l'exhaustivité des informations qui y sont contenues. L'étudiant-e peut décider de soumettre le rapport d'apprentissage sommatif sans la signature du conseiller ou de la conseillère.
+
+Le rapport d'apprentissage est soumis à la Commission délibérative dans le délai imparti.
+
+La Commission délibérative juge l'avancement de l'étudiant-e sur la base du rapport soumis, en évaluant  de  manière  rigoureuse  la  démarche  d'apprentissage  (participation),  la  qualité  de  la réflexion  présentée  et  la  pertinence  des  conclusions.  Les  évidences  avancées  dans  le  rapport d'apprentissage seront évaluées par rapport à leur qualité, leur quantité et leur adéquation. Les conclusions de la commission peuvent aboutir à trois jugements :
+
+- a. Mention « atteint »
+
+Lorsque l'avancement d'un-e étudiant-e est jugé suffisant, les crédits ECTS du paquet de validation sont octroyés.
+
+- b. Mention « atteint avec réserve»
+
+Lorsqu'un  avancement  est  jugé  partiellement  insuffisant,  la Commission  délibérative invitera l'étudiant-e à présenter un plan de remédiation détaillé. La Commission jugera si le  plan  soumis  est  suffisant  ou  non.  En  cas  d'acceptation,  l'avancement  de l'étudiant-e sera à nouveau évalué au terme de la période de remédiation. Dans l'intervalle le paquet de validation n'est pas validé, mais l'étudiant-e peut poursuivre ses études.
+
+## c. Mention « non-atteint »
+
+Lorsque  l'avancement  de  l'étudiant-e  est  jugé  insuffisant,  aucun  crédit  ECTS  ne  sera attribué. Avant de se représenter à l'évaluation sommative, l'étudiant-e doit préalablement répéter le programme correspondant, selon des modalités adéquates pour son cas.
+
+Dans la situation particulière où la Commission juge que le rapport ne fournit pas suffisamment d'évidences  pour  étayer  les  propos,  celle-ci  donnera  à  l'étudiant-e  un  délai  pour  fournir  les évidences manquantes. L'étudiant-e n'est pas autorisé-e à poursuivre ses études dans l'intervalle.
+
+## 3.2  Formats d'examens
+
+Le dispositif d'évaluation met en œuvre une grande variété de formats d'examens :
+
+- -Différents formats de réponses écrites (papier ou électronique) : réponses choisies (QCM, test  de  concordance  de  script),  réponses  construites  (QROC,  réponses  à  compléter), réponses produites avec un travail long (mémoire, rapport, …) ou synthétique (Poster).
+- -Des  formats d'observation d'activités ciblées (ECOS  -  examen  clinique  objectif structuré,  évaluations  en  milieu  clinique)  ou  sur  une  longue  période  (rapport  de  stage clinique).
+- -Des examens oraux sous forme de discussion de cas cliniques, présentation courtes.

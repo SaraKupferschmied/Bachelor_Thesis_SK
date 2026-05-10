@@ -1,0 +1,197 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T16:27:16.154Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Master_Minor_30_cr_dits_ECTS__167a4afe2fe7ecebd114976efdb45ecd76f3018f",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "167a4afe2fe7ecebd114976efdb45ecd76f3018f",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Pedagogy / Psychology",
+  "doc_label": "Master Minor (30 crédits ECTS)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/MSc_P%C3%A9dPsy_30%20%281491%29%2021%2002%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Master_Minor_30_cr_dits_ECTS__167a4afe2fe7ecebd114976efdb45ecd76f3018f.pdf",
+  "sha256": "6456862092339de9720146e7229695db1a4fa992164cfc40782d1fa879b3ebc0",
+  "fetched_at": "2026-04-03T11:26:54.420Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_P%C3%A9dPsy_30%20%281491%29%2021%2002%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MSc_PédPsy_30 (1491) 21 02 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+DÉPARTEMENT DES SCIENCES DE L'ÉDUCATION
+
+## PLAN D'ÉTUDES
+
+## Pédagogie/Psychologie
+
+Programme d'études Master Minor 30 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Bases légales
+
+Ce plan d'études repose sur les bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les conditions d'admission complémentaires à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Directives du 17 octobre 2024 relatives à la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'étude
+
+Le programme d'études de Master Minor en Pédagogie/Psychologie vise à approfondir les concepts, notions et théories scientifiques de la psychologie et des sciences de l'éducation afin d'en comprendre les fondements épistémologiques et les principales démarches expérimentales. Ce programme est destiné à celles et ceux qui souhaitent enseigner l'option Pédagogie/Psychologie dans les écoles de maturité.
+
+A titre facultatif, il est possible de suivre en parallèle à ce programme un programme d'études minor à 30 ECTS 1 .
+
+## 2.2 Langue de la formation
+
+Le programme d'études Pédagogie/Psychologie (30 crédits ECTS) peut s'effectuer en français ou en allemand.
+
+## 2.3 Conditions et délais d'admission
+
+Les conditions d'admission à l'Université de Fribourg (Règlement du 26 mars 2020 concernant l'admission et l'immatriculation  des  étudiant-e-s  et  des  auditeurs  et  auditrices  à  l'Université  de  Fribourg),  ainsi  que  les conditions d'admission à la Faculté (Règlement concernant les conditions d'admission complémentaires) font foi.
+
+Peuvent accéder sans autres conditions au programme d'études Minor en Pédagogie/Psychologie du Master en Sciences de l'éducation minor les titulaires d'un :
+
+- Bachelor ou diplôme universitaire avec ≥ 60 crédits ECTS en Pédagogie/Psychologie
+- Bachelor ou diplôme universitaire avec ≥ 30 crédits ECTS en Sciences de l'éducation et ≥ 30 ECTS en Psychologie
+
+Le début des études est possible au semestre d'automne et au semestre de printemps. Les inscriptions tardives sont autorisées.
+
+## 3 Programme d'études
+
+Le programme d'études comprend 30 crédits ECTS répartis en deux modules obligatoires.
+
+## 3.1 Objectifs de la formation
+
+Les disciplines de la pédagogie et de la psychologie constituent des branches enseignables dans les écoles de maturité. Le programme d'études Master Minor en Pédagogie/Psychologie vise à développer les connaissances et les compétences disciplinaires préalables à l'entrée dans une formation à l'enseignement de ces disciplines en école de maturité.
+
+1 En raison de sa construction même, ce programme ne peut être combiné ni avec un programme secondaire en psychologie ni avec le programme en sciences de l'éducation.
+
+En référence au cadre de qualification pour les hautes écoles suisses édité par swissuniversities (2021) 2 , le/la diplômé·e de ce programme d'études est en mesure de :
+
+- Intégrer  des  connaissances  variées  et  interdisciplinaires  afin  d'appréhender  la  complexité  des problématiques éducatives, formatives et psychologiques ;
+- Communiquer clairement le produit de ses réflexions et travaux, à un public spécialisé comme nonspécialisé ;
+- Identifier ses propres besoins de formation et développer ses connaissances et compétences de façon autonome et proactive.
+
+## 3.2 Structure générale de la formation
+
+Le programme comprend 30 crédits ECTS, répartis en deux modules. Ces modules proposent des UE à choix, dont certaines ne sont données qu'une année sur deux. Les descriptifs ainsi que l'information détaillée sur les unités  d 'enseignement  de  l'année  académique  en  cours  se  trouvent  dans  le  programme  des  cours  de l'Université de Fribourg.
+
+En cas d'échec à la deuxième tentative de validation d'une UE, l'étudiant · e peut, sur demande auprès du secrétariat  du  Département  des  sciences  de  l'éducation,  obtenir  l'accès  à  une  troisième  tentative .  Cette demande ne peut concerner qu'une seule évaluation sur l'ensemble du plan d'études et uniquement pour les UE dispensées par le Département des sciences de l'éducation (les UE dont le code débute par la lettre « F »).
+
+| Master of Science en Sciences de l'éducation Minor : « Pédagogie/Psychologie » - 30 ECTS   | Master of Science en Sciences de l'éducation Minor : « Pédagogie/Psychologie » - 30 ECTS   |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Module 1 (15 ECTS) Thématiques en sciences de l'éducation                                  | Module 2 (15 ECTS) Thématiques en psychologie                                              |
+
+## 3.3 Structure des modules
+
+## Module 1 : Thématiques en sciences de l'éducation
+
+15 crédits ECTS
+
+Ce module permet d'approfondir des contenus en sciences de l'éducation. Il est constitué de cours des  modules Acteurs-actrices  et  contextes  de  l ' éducation  et  de  la  formation et Processus  et dispositifs d'enseignement -apprentissage du programme d'études Major en Sciences de l'éducation. En fonction de ses choix, l'étudiant·e peut s'orienter plus spécifiquement vers certains aspects des sciences de l'éducation afin de donner une teinte particulière à son cursus.
+
+Dans l'offre du module 1, un total de 15 crédits doit être accompli avec succès.
+
+## Unités d'enseignement :
+
+| F23.00034   | Pratique et formation des professionnel-le-s en contexte d'interculturalité   | 3 crédits ECTS   |
+|-------------|-------------------------------------------------------------------------------|------------------|
+| F23.00021   | Communication interculturelle en formation                                    | 3 crédits ECTS   |
+| F23.00023   | Enjeux économiques et politiques de l'éducation et de la formation            | 3 crédits ECTS   |
+| F23.00127   | Pedagogical knowledge, institutions, and individual ability to act            | 3 crédits ECTS   |
+| F23.00144   | Comparative and International Education                                       | 3 crédits ECTS   |
+| F23.00137   | Enjeux contemporains autour de la petite enfance                              | 3 crédits ECTS   |
+| F23.00075   | Apprendre à apprendre                                                         | 3 crédits ECTS   |
+| F23.00031   | Travail, emploi et compétences                                                | 3 crédits ECTS   |
+| F23.00064   | Déconstruire les mythes sur l'apprentissage                                   | 3 crédits ECTS   |
+| F23.00136   | Ingénierie pédagogique et de formation                                        | 3 crédits ECTS   |
+| F24.01002   | École et pédagogie inclusives                                                 | 3 crédits ECTS   |
+
+## Modalités d'évaluation :
+
+Pour que le module soit validé, l ' évaluation de chacune des cinq UE choisies doit être réussie. En cas d'échec à une UE du module, l'étudiant·e peut la remplacer par une autre UE proposée dans le module. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent .
+
+Pour les UE données en anglais, la prestation de l'étudiant·e pour l'évaluation de l'UE peut être réalisée en anglais, en français ou en allemand.
+
+## Module 2 : Thématiques en psychologie
+
+15 crédits ECTS
+
+L 'objectif  du module est de fournir à l'étudiant·e des connaissances fondamentales et actuelles ainsi qu'une compréhension des principaux domaines de la psychologie et des thèmes centraux des équipes de recherche du département. Ce module comprend des enseignements portant sur les avancées les plus récentes dans les domaines fondamentaux des sciences psychologiques. Les enseignements incluent des thématiques qui vont des processus ou fonctions psychologiques basiques jusqu'aux grands domaines de la psychologi e appliquée et des domaines connexes. Certaines UE sont offertes en anglais.
+
+## Unités d'enseignement :
+
+Les offres spécifiques de ce module sont publiées avant le début de chaque semestre sur la page internet du Département de psychologie.
+
+## Modalités d'évaluation :
+
+Pour que le module soit validé, l'étudiant·e doit réussir des UE correspondant à 15 crédits ECTS. En cas d'échec à une UE du module, l'étudiant·e peut la remplacer par une autre UE proposée dans le module. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent .
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un crédit  ECTS  représente  en  moyenne  trente  heures  de  travail  pour  l'étudiant·e.  Les  crédits  ECTS  sont attribués sur la base d'unités d'enseignement jugées suffisantes (art. 3 chif. 7 et 14 du Règlement des études).
+
+L'évaluation d'une unité d'enseignement peut s'effectuer en une ou plusieurs parties qui peuvent être réalisées pendant le semestre et/ou pendant une session d'examen. Les évaluations peuvent prendre la forme d'un examen oral ou écrit, d'un travail écrit, d'un exposé, d'un rapport, d'un portfolio, d'une tâche complexe, d'une activité  de  validation  etc.  Dans  le  cas  d'une  évaluation  constituée  de  plusieurs  parties,  l'étudiant·e  qui  ne participe pas à toutes les parties obtient un échec à l'évaluation. Les indications concernant l'évaluation des enseignements de même que les modalités pour la réalisation et la remise des travaux écrits sont données dans les descriptifs des enseignements dans le programme des cours de l'Université de Fribourg ainsi que dans le Guide de rédaction des travaux écrits disponible sur le site internet du Département des sciences de l'éducation.
+
+Les unités d'enseignement sont regroupées en modules. Un module est validé une fois que toutes les unités d'enseignement nécessaires à l'acquisition des crédits ont été validées.
+
+## 4.2 Reconnaissances
+
+Toutes  les  UE  de  ce  programme  d'études  peuvent  potentiellement  être  validées  par  le  biais  d'une reconnaissance formelle (au sens de l'art. 3 al. 5 des Directives reconnaissances), dans la limite du nombre de crédits ECTS maximal prévu (art. 3 al. 1).
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du Règlement des études). Un·e étudiant·e non-inscrit·e ne peut pas prétendre à une évaluation.
+
+## 4.4 Unités d'enseignement hors session
+
+Aucune unité d'enseignement n'est définie comme hors session.
+
+## 4.5 Notation
+
+Les évaluations sont notées ou font l'objet d'une décision « réussi » ou « échoué ». L'échelle de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 23 du Règlement des études).
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e ne réussit pas la deuxième tentative, il ou elle est en échec définitif à l'unité d'enseignement ou au module. Sur demande auprès du secrétariat du Département, l'étudiant·e peut obtenir l'accès à une troisième tentative, pour une seule évaluation et une seule fois dans chaque programme d'études de la Faculté. Si nécessaire, une session d'examens supplémentaire est accordée pour cette troisième tentative. S'il ou elle ne réussit pas cette unique troisième tentative, il ou elle est en échec définitif à l'unité d'enseignement ou au module.
+
+Les  unités  d'enseignement  pour  lesquelles  une  troisième  tentative  est  autorisée  sont  précis ées  dans  le chapitre 3.2. En cas d'échec définitif dans un programme d'études, l'étudiant·e ne peut plus poursuivre ses études  dans  ce  programme  d'études  pendant  une  période  de  cinq  ans  à  partir  de  la  session  d'examens concernée (art. 24 du Règlement des études).
+
+Les études sont considérées comme échouées définitivement et ne peuvent être poursuivies si l'un des critères suivants est rempli :
+
+- l'UE obligatoire n'a pas été validée lors des deux tentatives (exception faite de l'éventuelle troisième tentative) ;
+- l'UE obligatoire n'a pas été validée dans les quatre sessions (exception faite du report de session en raison de conflit horaire ou d'absence justifiée) ;
+- la durée maximale autorisée pour les études (selon art. 10 du Règlement des études) est dépassée.
+
+## 4.7 Note finale
+
+La note finale résulte de la moyenne non arrondie et non pondérée des notes des modules validés de ce programme d'études ; la note d'un module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le présent plan d'études entre en vigueur au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.
+
+L'étudiant·e  qui,  au  moment  de  l'entrée  en  vigueur  du  présent  plan  d'études,  était  déjà  inscrit·e  dans  le programme d'études Master of Science en Sciences de l'éducation de la Faculté des lettres et des sciences humaines  est  soumis·e  au  présent  plan  d'études.  Une  reconnaissance  complète  des  crédits  acquis  est garantie. Durant la période transitoire, le ou la responsable de programme d'études décide quelles unités d'enseignement selon le présent plan d'étud es remplacent les unités qui ne seraient  éventuellement plus proposées.

@@ -1,0 +1,74 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T14:55:59.636Z",
+  "title": "Law_Bachelor_120_Economic_and_Legal_Studies_Studienplan_06d6553f691fb6d6a9d03464875aa23bed0bd934",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "06d6553f691fb6d6a9d03464875aa23bed0bd934",
+  "program_key": "law|bachelor|120|economic and legal studies",
+  "faculty": "Law",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Economic and Legal Studies",
+  "doc_label": "Studienplan",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_Studienplan.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/ecoius",
+  "curriculum_url": "http://studies.unifr.ch/go/zhkE3",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Law_Bachelor_120_Economic_and_Legal_Studies_Studienplan_06d6553f691fb6d6a9d03464875aa23bed0bd934.pdf",
+  "sha256": "ce80774d844f12abeed8a5b8edfa5f6ee56a223db3409ef87a696d9b1e3f2c86",
+  "fetched_at": "2026-04-03T11:31:40.972Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_Studienplan.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Bachelor of Arts in Wirtschafts- und Rechtswissenschaftlichen Studien Studienplan Teil «Recht»
+
+Studierende des Bachelor of Arts in Wirtschafts- und Rechtswissenschaftlichen Studien wählen Fächer aus dem Angebot im Bachelorprogramm.
+
+Der Teil «Recht» (60 ECTS) kann grundsätzlich in einem Jahr absolviert werden.
+
+Der Kurs «Einführung in das Recht» ist für Studierende des Bachelor of Arts in Wirtschafts- und Rechtswissenschaftlichen Studien obligatorisch . Dieser Kurs findet jeweils nur im Herbstsemester statt.
+
+Die Rechtswissenschaftliche Fakultät empfiehlt eine der folgenden Varianten zu wählen:
+
+| Variante 1:                                                                                                                                                                             |         |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Einführung in das Recht (obligatorisch)                                                                                                                                                 | 6 ECTS  |
+| - Strafrecht I (12 ECTS) - Zivilrecht I (6 ECTS) - Öffentliches Recht I (12 ECTS) - Obligationenrecht I (9 ECTS) - Handels- und Wirtschaftsrecht (9 ECTS) - Rechtsdurchsetzung (6 ECTS) | 54 ECTS |
+| TOTAL                                                                                                                                                                                   | 60 ECTS |
+
+| Variante 2:                                                                                                                                                                               |         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Einführung in das Recht (obligatorisch)                                                                                                                                                   | 6 ECTS  |
+| - Steuerrecht (6 ECTS) - Zivilrecht I (6 ECTS) - Öffentliches Recht I (12 ECTS) - Öffentliches Recht II (12 ECTS) - Obligationenrecht I (9 ECTS) - Handels- und Wirtschaftsrecht (9 ECTS) | 54 ECTS |
+| TOTAL                                                                                                                                                                                     | 60 ECTS |
+
+<!-- image -->
+
+dir Recht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+Damit die gewählten Kurse (Vorlesungen und Übungen) sich nicht überschneiden und alle in einem Jahr besucht werden können, empfiehlt es sich, eine dieser zwei Varianten zu wählen. Beide Varianten können nach eigenen Interessen angepasst werden, indem andere Kurse aus dem  Angebot  im  Bachelorprogramm  zusammengestellt  werden.  Es  ist  zudem  zulässig,  die verlangten 60 ECTS zu übertreffen. Überschneidungen im Stundenplan sind bei individuellen Anpassungen nicht ganz auszuschliessen.
+
+Das  Dekanat  und  die  Studienberatung  der  Rechtswissenschaftlichen  Fakultät  stehen  für persönliche Beratungen zur Verfügung.
+
+<!-- image -->
+
+dir Recht.

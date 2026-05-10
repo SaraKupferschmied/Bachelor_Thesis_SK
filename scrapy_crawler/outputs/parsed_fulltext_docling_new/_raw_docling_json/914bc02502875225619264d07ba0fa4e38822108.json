@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Schema_LDS_I_nbsp_50_ECTS_914bc02502875225619264d07ba0fa4e38822108",
+  "markdown": "## Studienplan Bachelor für das Unterrichtsfach Religionslehre der Sekundarstufe I\n\n## LDS I zu 50 Kreditpunkten\n\nEinführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n2 VL: Einführung in zentrale\n\nThemen der RW (6 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 12 ECTS\n\n- 4 Lehrveranstaltungen (12 ECTS)\n\nReligionsgeschichte D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nFachwissenschaftliche Fachdidaktik D &amp; F - 9 ECTS\n\n- 1 Seminar (3 ECTS)\n- 1 Ref. mit didakt. Reflexion (3 ECTS)\n- 1 Berufsprakt. Fachdidaktik (3 ECTS)",
+  "pages": [
+    "## Studienplan Bachelor für das Unterrichtsfach Religionslehre der Sekundarstufe I\n\n## LDS I zu 50 Kreditpunkten\n\nEinführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n2 VL: Einführung in zentrale\n\nThemen der RW (6 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 12 ECTS\n\n- 4 Lehrveranstaltungen (12 ECTS)\n\nReligionsgeschichte D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nFachwissenschaftliche Fachdidaktik D &amp; F - 9 ECTS\n\n- 1 Seminar (3 ECTS)\n- 1 Ref. mit didakt. Reflexion (3 ECTS)\n- 1 Berufsprakt. Fachdidaktik (3 ECTS)"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Studienplan Bachelor für das Unterrichtsfach Religionslehre der Sekundarstufe I",
+      "line_index": 0,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "LDS I zu 50 Kreditpunkten",
+      "line_index": 2,
+      "source": "markdown_regex"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T18:00:16.502Z",
+  "title": "UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Schemata_BA_DE_FR__35942a620b827d77792eac5d2bdbb134489cd2f4",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "35942a620b827d77792eac5d2bdbb134489cd2f4",
+  "program_key": "|master|30|culture, politics and religion in pluralist societies",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Religious Studies",
+  "doc_label": "Schemata BA (DE/FR)",
+  "source_url": "https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/BA%20RW%202017%20Schemata.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialanthropology",
+  "curriculum_url": "https://studies.unifr.ch/go/A0cJ8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Schemata_BA_DE_FR__35942a620b827d77792eac5d2bdbb134489cd2f4.pdf",
+  "sha256": "9ba88fb5b19c00af7a929286acbc3abc5407c5c9aeddd5705b1d952115cca581",
+  "fetched_at": "2026-04-03T11:30:28.742Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/BA%20RW%202017%20Schemata.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BA RW 2017 Schemata.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Bachelor Religionswissenschaft
+
+## Studienprogramm zu 120 Kreditpunkten
+
+## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+- 2 VL: Grundlagen Sozialwissenschaften (Sozialanthropologie und Soziologie (6 ECTS)
+
+Religiöse Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Theorie und Fachgeschichte der RW
+
+D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Modul Bachelorarbeit (18 ECTS): Bachelor-Arbeit (15 ECTS), Kolloquium (3 ECTS)
+
+Modul Bereichsübergreifende und komplementäre Kompetenzen (CTC) 12 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Gesellschaft, Kultur und Religion D &amp; F - 15 ECTS
+
+- 5 Lehrveranstaltungen (15 ECTS)
+
+## Bachelor Religionswissenschaft
+
+## Studienprogramm zu 60 Kreditpunkten
+
+## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)*
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+2 VL: Einführung in zentrale
+
+Themen der RW (6 ECTS)
+
+- *Ggf. VL Einführung in zentrale
+
+Themen der RW (3 ECTS)
+
+Religiöse Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Bachelor  Religionswissenschaft
+
+## Studienprogramm zu 30 Kreditpunkten
+
+Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)* 2 VL + 2 S: Einführung in zentrale Themen der RW (12 ECTS) *Ggf. VL Einführung in zentrale Themen der RW (3 ECTS)
+
+Religionsgeschichte und religiöse Gegenwartskult. D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Bachelor Science des Religions
+
+## Programme d'études à 120 crédits ECTS
+
+## Introduction à la science des religions A &amp; F - 15 ECTS
+
+- 1 Cours: Introduction SdR (3 ECTS)
+
+## Histoire des religions A &amp; F - 15 ECTS
+
+- 1 PS: Introd. à la SdR (3 ECTS)
+- 1 Travail PS (3 ECTS)
+- 2 Cours: Connaissances de base en Sciences sociales (Sociologie et Anthropologie sociale (6 ECTS)
+
+Religions contemporaines A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+Théories &amp; Histoire de la science des religions A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+Méthodes empiriques A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+Module Travail de Bachelor (18 ECTS): Travail de bachelor (15 ECTS), Colloque (3 ECTS)
+
+Module CTC (compétences transversales ou complémentaires) 12 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+Sociétés, cultures et religions A &amp; F - 15 ECTS
+
+- 5 Unités d'enseignement (15 ECTS)
+
+## Bachelor Science des Religions
+
+## Programme d'études à 60 crédits ECTS
+
+## Introduction à la science des religions A &amp; F - 15 ECTS
+
+- 1 C: Introduction à la SdR (3 ECTS)*
+- 1 PS: Intro. à la SdR (3 ECTS)
+- 1 Travail PS (3 ECTS)
+- 2 C: Introduction aux principales thématiques de la SdR (6 ECTS)
+- *Evtl. 1 C: Introduction aux princ. thématiques de la SdR (6 ECTS)
+
+## Religions contemporaines A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+## Histoire des religions A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+## Méthodes empiriques A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)
+
+## Bachelor Science des Religions
+
+## Programme d'études à 30 crédits ECTS
+
+## Introduction à la science des religions A &amp; F - 15 ECTS
+
+- 1 C: Introduction à la sr (3 ECTS)* 2 C + 2 S: Introduction aux principales thématiques de la SdR (12 ECTS)
+- *Evtl. 1 C: Introduction aux princ. thématiques de la SdR (6 ECTS)
+
+Histoire des religions et religions contemporaines A &amp; F - 15 ECTS
+
+- 3 Unités d'enseignement, au min. 1 séminaire (9 ECTS)
+- 1 Travail de séminaire (6 ECTS)

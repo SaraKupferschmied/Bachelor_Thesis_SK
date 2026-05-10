@@ -1,0 +1,312 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T22:54:10.259Z",
+  "title": "UNK_Master_120_Accounting_and_Finance_Plan_d_tudes_898f222dc3059c921ba54d06798ef39285bfe3f6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "898f222dc3059c921ba54d06798ef39285bfe3f6",
+  "program_key": "|master|120|accounting and finance",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Accounting and Finance",
+  "doc_label": "Plan d'études",
+  "source_url": "https://www.calameo.com/read/0036591151acb07b1a2bb",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/accountingfinance",
+  "curriculum_url": "http://studies.unifr.ch/go/dSl9g",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Accounting_and_Finance_Plan_d_tudes_898f222dc3059c921ba54d06798ef39285bfe3f6.pdf",
+  "sha256": "ea365c07c2dcd76bf6c1d02a8e2806914a56cf3461e2918f039fe510d95eba2b",
+  "fetched_at": "2026-04-03T11:31:40.585Z",
+  "notes": "calameo downloaded (id=0036591151acb07b1a2bb, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250911144341-d671b2f2a645a1c21ff21d088f60c5c2/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T113139Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=e6daafcbea0ce5c2a3c0cbd0cdc31906ae5aed949bc0f312a2afd392cf770a81, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Synthèse du plan d'études
+
+Faculté des sciences économiques et sociales et du management
+
+Faculté
+
+196 : Master of Arts in Accounting and Finance
+
+Voie d'études
+
+926 : Accounting and Finance 90 [MA]
+
+Programme
+
+2021-SA\_V03 - Dès SA-2025
+
+Version
+
+SA-2025/SP-2026
+
+Période de validité
+
+Les étudiant·e·s qui valident au moins 30 crédits ECTS dans le domaine de la comptabilité (par exemple : comptabilité, consolidation, audit, analyse financière, gestion financière) peuvent prétendre au statut de « master qualifié » dans le cadre de la formation d' EXPERTsuisse pour devenir expert·e-comptable diplômé·e. Ce statut permet de suivre la formation EXPERTsuisse en trois ans au lieu des quatre ans habituels.
+
+## REMARQUE IMPORTANTE
+
+Le Règlement de Master s'applique pleinement et fait foi en toutes circonstances. Les informations présentées ci-dessous (tirées des articles 6 et 7) sont fournies à titre indicatif pour faciliter la compréhension, mais ne remplacent pas le règlement et n'ont pas de valeur normative. En cas de doute, le texte du règlement prévaut ( Règlement du 27 septembre 2021 sur l'octroi des Master à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg, disponible sur le site unifr.ch/ses/fr/etudes/reglements.html).
+
+## Durée des études
+
+La durée maximale des études est de 8 semestres . Le programme peut être complété en 3 à 4 semestres , selon le rythme de l'étudiant·e.
+
+## Principe de compensation
+
+La Faculté applique un principe de compensation dans l'évaluation des résultats selon l'article 6 du Règlement du 27 septembre 2021 sur l'octroi des Master à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg ,
+
+(https://webapps.unifr.ch/legal/fr/document/2870310).
+
+Les travaux de séminaire et le travail de Master doivent impérativement être réussis : ils ne peuvent pas être compensés.
+
+Un maximum de 9 ECTS de niveau Bachelor peuvent être suivis au niveau Master. L'inscription doit être faite par le délégué aux examens.
+
+## Etat de l'offre de cours
+
+Ce document présente l'offre de cours telle qu'elle est publiée pour la période indiquée. Les enseignements peuvent varier d'une année académique à l'autre. Pour obtenir les informations les plus récentes, veuillez consulter le site officiel de l'Université de Fribourg ou votre portail étudiant. Les données incluses dans ce document sont celles disponibles au moment de l'impression.
+
+Code
+
+Unité d'enseignement
+
+## Cours - 72 ECTS
+
+Au moins 18 ECTS doivent être effectués dans les modules « Finance » et « Accounting and Control ». Ensemble, les deux modules doivent totaliser au moins 54 ECTS. De plus, 13.5 ECTS doivent être obtenus dans le module « Data Analytics » ou dans les cours du domaine « Audit et Fiscalité ».
+
+Possibilité de compenser maximum 14 ECTS
+
+## Module Finance: au moins 3 des cours principaux doivent être validés
+
+Pour valider ce module, les étudiant·e·s doivent acquérir au minimum 18 crédits ECTS, dont au moins trois cours obligatoires à choix.
+
+Voir site du département https://www.unifr.ch/bwl/fr/studies/master/master-in-accounting-and-finance.html
+
+## Cours principaux
+
+Enseignant·e(s)
+
+Semestre
+
+Niveau
+
+Langue
+
+Evaluation
+
+<!-- image -->
+
+<!-- image -->
+
+| Code          | Unité d'enseignement    | Enseignant·e(s)   | Semestre      | Niveau        | Langue        | Evaluation                          | ECTS          |
+|---------------|-------------------------|-------------------|---------------|---------------|---------------|-------------------------------------|---------------|
+| EGE.00267     | Asset Management        | Wallmeier         | SA-2025       | MA            | en            | Evaluation continue et examen écrit | 4.5           |
+| EGE.00016     | Corporate governance    | Isakov            | SP-2026       | MA            | en            | Examen écrit                        | 4.5           |
+| EGE.00020     | Gestion de portefeuille | Isakov            | SA-2025       | MA            | fr            | Examen écrit                        | 4.5           |
+| Cours à choix | Cours à choix           | Cours à choix     | Cours à choix | Cours à choix | Cours à choix | Cours à choix                       | Cours à choix |
+| EGE.00484     | CFA Research Challenge  | Wallmeier         | SA-2025       | MA            | en            | Evaluation continue et examen oral  | 6             |
+| EGE.00090     | Mergers & Acquisitions  | Masset            | SA-2025       | MA            | en            | Evaluation continue et examen écrit | 4.5           |
+
+## Module comptabilité et contrôle: les deux cours obligatoires et au minimum un des 3 autres cours principaux doivent être validés.
+
+Pour valider ce module, les étudiant·e·s doivent acquérir au minimum 18 crédits ECTS, incluant les deux cours obligatoires et au moins un cours obligatoire à choix.
+
+Référez vous aussi ici : https://www.unifr.ch/bwl/fr/studies/master/master-in-accounting-and-finance.html
+
+## Cours obligatoires
+
+| EGE.00119        | International Accounting Standards                    | Missonier-Piera   | SA-2025          | MA               | en               | Examen écrit                        | 4.5              |
+|------------------|-------------------------------------------------------|-------------------|------------------|------------------|------------------|-------------------------------------|------------------|
+| EGE.00068        | Advanced Group Accounting                             | Kunz              | SA-2025          | MA               | en               | Examen écrit                        | 4.5              |
+| Cours principaux | Cours principaux                                      | Cours principaux  | Cours principaux | Cours principaux | Cours principaux | Cours principaux                    | Cours principaux |
+| EGE.00113        | Management control systems                            | Burkert           | SP-2026          | MA               | en               | Examen écrit                        | 4.5              |
+| Cours à choix    | Cours à choix                                         | Cours à choix     | Cours à choix    | Cours à choix    | Cours à choix    | Cours à choix                       | Cours à choix    |
+| EGE.00016        | Corporate governance                                  | Isakov            | SP-2026          | MA               | en               | Examen écrit                        | 4.5              |
+| EGE.00112        | Seminar in advanced management accounting and control | Burkert           | SA-2025          | MA               | de               | Evaluation continue                 | 4.5              |
+| EGE.00027        | The audit profession and the public interest          | Nösberger         | SP-2026          | MA               | en               | Examen oral                         | 4.5              |
+| EGE.00114        | Théorie de l'information comptable                    | Missonier-Piera   | SP-2026          | MA               | fr               | Evaluation continue et examen écrit | 4.5              |
+
+## Modules "Data Analytics" et "Audit et Fiscalité": min. 3 cours
+
+Pour valider ce module, les étudiant·e·s doivent acquérir au minimum 13.5 crédits ECTS, librement répartis entre les cours offerts dans les deux domaines.
+
+## DAT: Data Analytics
+
+## Cours principaux
+
+| SIN.08022   | Apprentissage automatique            | Grossenbacher   | SP-2026   | MA   | en   | Examen écrit   |   5 |
+|-------------|--------------------------------------|-----------------|-----------|------|------|----------------|-----|
+| EEP.00496   | Econometric Methods and Applications | Huber           | SA-2025   | MA   | en   | Examen écrit   | 6   |
+| SIN.03024   | Bases de données                     | Fill            | SA-2025   | BA   | en   | Examen écrit   | 6   |
+| EEP.00143   | Policy and Impact Evaluation         | Huber           | SP-2026   | MA   | en   | Examen écrit   | 4.5 |
+
+## Cours à choix
+
+<!-- image -->
+
+| Code                       | Unité d'enseignement                                        | Enseignant·e(s)            | Semestre                   | Niveau                     | Langue                     | Evaluation                 | ECTS                       |
+|----------------------------|-------------------------------------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+| EEP.00358                  | ECO08E: Applied Econometrics                                | Huber                      | SA-2025                    | BA                         | en                         | Examen écrit               | 4.5                        |
+| SME.07700                  | Data analysis and statistics with the Rprogramming language | Bresciani                  | SA-2025                    | MA                         | en                         | Examen écrit               | 3                          |
+| SBL.30002                  | Machine learning                                            | Wegmann                    | SP-2026                    | MA                         | en                         | Examen écrit               | 5                          |
+| SIN.00120                  | Programmation scientifique                                  | Hennebert                  | SA-2025                    | BA                         | fr                         | Examen écrit               | 6                          |
+| SIN.08609                  | Social media analytics                                      | Cudré-Mauroux, Khayati     | SP-2026                    | MA                         | en                         | Examen écrit               | 5                          |
+| EIG.00027                  | Statistique bayésienne                                      | Donzé                      | SP-2026                    | MA                         | fr                         | Examen écrit               | 4.5                        |
+| EIG.00029                  | Thèmes choisis de statistique multivariée                   | Donzé                      | SA-2025                    | MA                         | fr                         | Examen écrit               | 4.5                        |
+| Domaine Audit et Fiscalité | Domaine Audit et Fiscalité                                  | Domaine Audit et Fiscalité | Domaine Audit et Fiscalité | Domaine Audit et Fiscalité | Domaine Audit et Fiscalité | Domaine Audit et Fiscalité | Domaine Audit et Fiscalité |
+| EGE.00027                  | The audit profession and the public interest                | Nösberger                  | SP-2026                    | MA                         | en                         | Examen oral                | 4.5                        |
+| DDR.00539                  | Unternehmenssteuerrecht                                     | Hinny                      | SA-2025                    | MA                         | de                         | Séminaire                  | 5                          |
+| DDR.00531                  | Droit fiscal de l'entreprise                                | de Vries Reilingh          | SA-2025                    | MA                         | fr                         | Examen oral                | 5                          |
+
+## Cours à choix de tous les cours de Master de l'université
+
+En complément des modules principaux, les étudiant·e·s ont la possibilité d'acquérir jusqu'à 4.5 crédits ECTS dans des cours à choix hors module.
+
+## Cours à choix SES de niveau master en Economie politique
+
+| EEP.00052   | Monetary theory and policy IV: Recent developments in monetary analysis   | Rossi-Pedruzzi   | SP-2026   | MA   | en   | Examen oral                         |   4.5 |
+|-------------|---------------------------------------------------------------------------|------------------|-----------|------|------|-------------------------------------|-------|
+| EEP.00063   | Evaluation des dommages et Politiques environnementales                   | Maradan          | SP-2026   | MA   | fr   | Evaluation continue et examen écrit |   4.5 |
+| EEP.00068   | Régionalisme commercial et nouvelle économie géographique                 | Madiès           | SA-2025   | MA   | fr   | Examen oral                         |   4.5 |
+| EEP.00095   | Microeconomics of Competitiveness (MOC)                                   | Gugler           | SP-2026   | MA   | en   | Evaluation continue                 |   4.5 |
+| EEP.00098   | Politiques des marchés et de la concurrence                               | Gugler           | SA-2025   | MA   | fr   | Examen écrit                        |   4.5 |
+| EEP.00099   | Steuerpolitik - Theorie und Anwendung auf die Schweiz                     | Jeitziner        | SP-2026   | MA   | de   | Examen écrit                        |   4.5 |
+| EEP.00101   | Ökonomische Reformen der wirtschaftlichen und politischen Institutionen   | Eichenberger     | SA-2025   | MA   | de   | Travail et exposé                   |   4.5 |
+| EEP.00125   | Sustainable Globalization                                                 | Grossmann        | SA-2025   | MA   | en   | Evaluation continue                 |   4.5 |
+| EEP.00127   | Business and Human Rights                                                 | Umlas            | SA-2025   | MA   | en   | Evaluation continue                 |   3   |
+| EEP.00131   | Demography, Immigration and Labor Markets                                 | Fernandes        | SA-2025   | MA   | en   | Evaluation continue et examen écrit |   4.5 |
+| EEP.00135   | The Economics of Politics                                                 | Schelker         | SP-2026   | MA   | en   | Examen écrit                        |   4.5 |
+| EEP.00321   | Aide, microcrédit et autres instruments de développement                  | Dumas            | SP-2026   | MA   | fr   | Evaluation continue                 |   4.5 |
+| EEP.00328   | Network Science & Economics                                               | Büchel           | SP-2026   | MA   | en   | Examen écrit                        |   4.5 |
+| EEP.00331   | The Ethics of Economics as a Profession                                   | Gläser           | SP-2026   | MA   | en   | Evaluation continue et examen écrit |   4.5 |
+| EEP.00334   | Global Economic Justice                                                   | Roser            | SP-2026   | MA   | en   | Evaluation continue et examen écrit |   4.5 |
+| EEP.00143   | Policy and Impact Evaluation                                              | Huber            | SP-2026   | MA   | en   | Examen écrit                        |   4.5 |
+| EEP.00154   | Politiques publiques suisses                                              | Schelker         | SA-2025   | MA   | fr   | Travail et exposé                   |   4.5 |
+| EEP.00175   | Intégration européenne                                                    | Madiès           | SP-2026   | MA   | fr   | Examen écrit                        |   4.5 |
+| EEP.00351   | History of Economic Thought                                               | Fritz            | SA-2025   | MA   | en   | Evaluation continue                 |   4.5 |
+
+<!-- image -->
+
+| Code                                                          | Unité d'enseignement                                                                     | Enseignant·e(s)                                               | Semestre                                                      | Niveau                                                        | Langue                                                        | Evaluation                                                    | ECTS                                                          |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| EEP.00495                                                     | Advanced Microeconomics                                                                  | Büchel, Valvassori Bolgè                                      | SA-2025                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 6                                                             |
+| EEP.00496                                                     | Econometric Methods and Applications                                                     | Huber                                                         | SA-2025                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 6                                                             |
+| EEP.00532                                                     | Changement climatique dans les pays en développement                                     | Gautrain                                                      | SP-2026                                                       | MA                                                            | fr                                                            | Evaluation continue et examen oral                            | 4.5                                                           |
+| EEP.00517                                                     | Advanced Topics in Data Analytics and Machine Learning                                   | Kauth                                                         | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 1.5                                                           |
+| EEP.00518                                                     | Organisational Economics                                                                 | Herz                                                          | SP-2026                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 4.5                                                           |
+| EEP.00554                                                     | Aktuelle Probleme der Finanz- und Wirtschaftspolitik (FS 26)                             | Eichenberger                                                  | SP-2026                                                       | MA                                                            | de                                                            | Evaluation continue                                           | 4.5                                                           |
+| EEP.00555                                                     | Topics in Philosophy and Economics (AS-2025) - Externalities: Concept, Economics, Ethics | Gläser                                                        | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| EEP.00557                                                     | Economic Growth: For and Against                                                         | Roser                                                         | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion                            | Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion | Cours à choix SES de niveau master en Informatique de gestion |
+| EIG.00020                                                     | Travail de séminaire                                                                     | Décanat                                                       | SA-2025                                                       | MA                                                            | fr                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00020                                                     | Travail de séminaire                                                                     | Décanat                                                       | SP-2026                                                       | MA                                                            | fr                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00021                                                     | Seminararbeit                                                                            | Décanat                                                       | SA-2025                                                       | MA                                                            | de                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00021                                                     | Seminararbeit                                                                            | Décanat                                                       | SP-2026                                                       | MA                                                            | de                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00022                                                     | Seminar Paper                                                                            | Décanat                                                       | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00022                                                     | Seminar Paper                                                                            | Décanat                                                       | SP-2026                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 3                                                             |
+| EIG.00027                                                     | Statistique bayésienne                                                                   | Donzé                                                         | SP-2026                                                       | MA                                                            | fr                                                            | Examen écrit                                                  | 4.5                                                           |
+| EIG.00029                                                     | Thèmes choisis de statistique multivariée                                                | Donzé                                                         | SA-2025                                                       | MA                                                            | fr                                                            | Examen écrit                                                  | 4.5                                                           |
+| EIG.00031                                                     | Advanced Topics in Decision Support                                                      | Ries                                                          | SP-2026                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 4.5                                                           |
+| EIG.00125                                                     | Metamodeling                                                                             | Curty                                                         | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| EIG.00131                                                     | Digitalization and Information Systems                                                   | Fill                                                          | SP-2026                                                       | MA                                                            | en                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| EIG.00169                                                     | Emerging Technologies in Digitalisation                                                  | Fill                                                          | SP-2026                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 5                                                             |
+| EIG.00244                                                     | Choice-based optimization and its application to revenue management                      | Pacheco Paneque                                               | SP-2026                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 4.5                                                           |
+| Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management                                         | Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management              | Cours à choix SES de niveau master en Management              |
+| EGE.00016                                                     | Corporate governance                                                                     | Isakov                                                        | SP-2026                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 4.5                                                           |
+| EGE.00020                                                     | Gestion de portefeuille                                                                  | Isakov                                                        | SA-2025                                                       | MA                                                            | fr                                                            | Examen écrit                                                  | 4.5                                                           |
+| EGE.00027                                                     | The audit profession and the public interest                                             | Nösberger                                                     | SP-2026                                                       | MA                                                            | en                                                            | Examen oral                                                   | 4.5                                                           |
+| EGE.00030                                                     | Strategic Value Creation                                                                 | Hilb                                                          | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 3                                                             |
+| EGE.00045                                                     | Organization Behavior                                                                    | von Wittich                                                   | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 4.5                                                           |
+| EGE.00048                                                     | Fundamentals of International Management                                                 | Flankova                                                      | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| EGE.00049                                                     | International Marketing                                                                  | Morschett                                                     | SA-2025                                                       | MA                                                            | en                                                            | Examen écrit                                                  | 4.5                                                           |
+| EGE.00055                                                     | Das Freiburger Management-Modell                                                         | Lichtsteiner                                                  | SA-2025                                                       | MA                                                            | de                                                            | Examen écrit                                                  | 3                                                             |
+| EGE.00060                                                     | Compétences managériales                                                                 | Davoine                                                       | SP-2026                                                       | MA                                                            | fr                                                            | Evaluation continue et examen écrit                           | 4.5                                                           |
+| EGE.00083                                                     | Customer orientation and complaint management                                            | Bambauer-Sachse                                               | SA-2025                                                       | MA                                                            | en                                                            | Evaluation continue                                           | 4.5                                                           |
+
+et examen écrit
+
+<!-- image -->
+
+| Code      | Unité d'enseignement                                                                        | Enseignant·e(s)    | Semestre   | Niveau   | Langue   | Evaluation                          |   ECTS |
+|-----------|---------------------------------------------------------------------------------------------|--------------------|------------|----------|----------|-------------------------------------|--------|
+| EGE.00068 | Advanced Group Accounting                                                                   | Kunz               | SA-2025    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00072 | Ressourcenmanagement in Nonprofit-Organisationen                                            | Gmür               | SA-2025    | MA       | de       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00090 | Mergers & Acquisitions                                                                      | Masset             | SA-2025    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00098 | Strategische Neuausrichtung einer NPO                                                       | Lichtsteiner       | SP-2026    | MA       | de       | Travail et exposé                   |    4.5 |
+| EGE.00101 | Case studies in international strategy                                                      | Jenisch, Morschett | SA-2025    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00107 | Marketing Strategy                                                                          | Furrer             | SA-2025    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00108 | Marketing Durable                                                                           | Furrer             | SP-2026    | MA       | fr       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00194 | Intercultural Management                                                                    | Davoine            | SA-2025    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00112 | Seminar in advanced management accounting and control                                       | Burkert            | SA-2025    | MA       | de       | Evaluation continue                 |    4.5 |
+| EGE.00113 | Management control systems                                                                  | Burkert            | SP-2026    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00114 | Théorie de l'information comptable                                                          | Missonier-Piera    | SP-2026    | MA       | fr       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00119 | International Accounting Standards                                                          | Missonier-Piera    | SA-2025    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00250 | Intercultural Business Projects                                                             | Furrer, Morschett  | SP-2026    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00251 | Organisational Change and Crisis Management in Nonprofit Organisations                      | Gmür               | SP-2026    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00257 | Winning Consulting Projects                                                                 | Thom               | SP-2026    | MA       | en       | Evaluation continue                 |    3   |
+| EGE.00262 | International Services Marketing                                                            | Bambauer-Sachse    | SP-2026    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00267 | Asset Management                                                                            | Wallmeier          | SA-2025    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00269 | Digital Commerce in B2C and B2B Markets                                                     | Schu               | SP-2026    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00254 | Advanced Entrepreneurship                                                                   | Fauchart, Tang     | SA-2025    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00255 | Nouveaux trends de l'innovation                                                             | Fauchart           | SP-2026    | MA       | fr       | Evaluation continue                 |    4.5 |
+| EGE.00306 | Seminar in Social Entrepreneurship                                                          | Erpf               | SA-2025    | MA       | en       | Evaluation continue                 |    3   |
+| EGE.00453 | Collaborative Value Creation in Ecosystems                                                  | Hilb               | SP-2026    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00470 | International Negotiations - Success stories from an intercultural background               | Audebert           | SA-2025    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00471 | Leadership styles, contexts and success factors                                             | Erpf, Lang         | SP-2026    | MA       | en       | Examen écrit                        |    4.5 |
+| EGE.00472 | Customer-Centric Innovation                                                                 | Nüesch             | SP-2026    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00473 | Developing an Innovation Strategy                                                           | Nüesch             | SA-2025    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00475 | Management des ressources humaines et matérielles dans les organisations à but non lucratif | Gmür               | SA-2025    | MA       | fr       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00480 | Business Ethics                                                                             | Roser              | SA-2025    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00483 | Ethical Leadership and Organizational Culture                                               | Gonin              | SP-2026    | MA       | en       | Evaluation continue                 |    4.5 |
+| EGE.00484 | CFA Research Challenge                                                                      | Wallmeier          | SA-2025    | MA       | en       | Evaluation continue                 |    6   |
+| EGE.00486 | Advanced Seminar in Strategic International Management                                      | Morschett          | SP-2026    | MA       | en       | Travail et exposé                   |    4.5 |
+| EGE.00489 | Business & Sustainable Development                                                          | Mena               | SA-2025    | MA       | en       | Evaluation continue et examen écrit |    4.5 |
+| EGE.00490 | La stratégie au-delà du marché                                                              | Mena               | SA-2025    | MA       | fr       | Evaluation continue                 |    4.5 |
+
+et examen écrit
+
+<!-- image -->
+
+| Code                                                                             | Unité d'enseignement                                                                                                      | Enseignant·e(s)                                                                  | Semestre                                                                         | Niveau                                                                           | Langue                                                                           | Evaluation                                                                       | ECTS                                                                             |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| EGE.00476                                                                        | Management des organisations à but non lucratif - l'approche fribourgeoise                                                | Lichtsteiner                                                                     | SA-2025                                                                          | MA                                                                               | fr                                                                               | Examen écrit                                                                     | 3                                                                                |
+| EGE.00477                                                                        | Renouvellement stratégique d'une organisation à but non lucratif                                                          | Lichtsteiner                                                                     | SP-2026                                                                          | MA                                                                               | fr                                                                               | Travail et exposé                                                                | 4.5                                                                              |
+| EGE.00491                                                                        | Strategic Management of privately-owned Family Businesses                                                                 | Prof. Dr. Bertschi-Michel                                                        | SP-2026                                                                          | MA                                                                               | en                                                                               | Examen écrit                                                                     | 4.5                                                                              |
+| Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias                                          | Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias | Cours à choix SES de niveau master en Sciences de la communication et des médias |
+| EKM.00064                                                                        | Communication, organisation et transformation digitale (I)                                                                | Asdourian                                                                        | SP-2026                                                                          | MA                                                                               | fr                                                                               | Examen écrit                                                                     | 3                                                                                |
+| EKM.00402                                                                        | Communications spécialisées                                                                                               | Illia Manzan                                                                     | SA-2025                                                                          | MA                                                                               | fr                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.00655                                                                        | Übung «Quantitative und qualitative Datenanalyse»                                                                         | Raemy                                                                            | SA-2025                                                                          | MA                                                                               | de                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.00696                                                                        | Séminaire Master : Digitalisation et communication                                                                        | Asdourian                                                                        | SP-2026                                                                          | MA                                                                               | fr                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.00715                                                                        | Lecture Business Communication and Strategic Communication Management                                                     | Chariatte                                                                        | SP-2026                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.00596                                                                        | Master lecture Media Use and Effects                                                                                      | Fahr                                                                             | SA-2025                                                                          | MA                                                                               | en                                                                               | Examen écrit                                                                     | 3                                                                                |
+| EKM.00957                                                                        | Democracy, media, and technology                                                                                          | Hänggli Fricker                                                                  | SA-2025                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01025                                                                        | Séminaire Master : Communication en contexte politique                                                                    | Feddersen                                                                        | SA-2025                                                                          | MA                                                                               | fr                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.00989                                                                        | Corporate Social Responsibility and Social Impact                                                                         | Illia Manzan                                                                     | SP-2026                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01066                                                                        | Mobilisation digitale et persuasion                                                                                       | Feddersen                                                                        | SA-2025                                                                          | MA                                                                               | fr                                                                               | Evaluation continue et examen écrit                                              | 3                                                                                |
+| EKM.01068                                                                        | Communication et Business                                                                                                 | Illia Manzan                                                                     | SA-2025                                                                          | MA                                                                               | fr                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01249                                                                        | Klassiker revisited: Mythen, Pionierstudien, Schlüsselwerke                                                               | Fürst                                                                            | SP-2026                                                                          | MA                                                                               | de                                                                               | Examen oral                                                                      | 3                                                                                |
+| EKM.01250                                                                        | Comparing Media Structures                                                                                                | Puppis                                                                           | SP-2026                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01306                                                                        | Nouveaux médias, médias et usagers                                                                                        | von Pape                                                                         | SP-2026                                                                          | MA                                                                               | fr                                                                               | Evaluation continue et examen écrit                                              | 3                                                                                |
+| EKM.01472                                                                        | Master seminar: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts | Fahr                                                                             | SP-2026                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01478                                                                        | Masterseminar: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien                     | Hänggli Fricker                                                                  | SP-2026                                                                          | MA                                                                               | de                                                                               | Evaluation continue                                                              | 3                                                                                |
+| EKM.01486                                                                        | Designs, Data Access, Data Collection and Data Analysis                                                                   | Rohrbach                                                                         | SA-2025                                                                          | MA                                                                               | en                                                                               | Evaluation continue                                                              | 3                                                                                |
+| Travail de Master                                                                | Travail de Master                                                                                                         | Travail de Master                                                                | Travail de Master                                                                | Travail de Master                                                                | Travail de Master                                                                | Travail de Master                                                                | Travail de Master                                                                |
+| EDK.01667                                                                        | Travail de Master                                                                                                         | Décanat                                                                          | SA-2025                                                                          | MA                                                                               |                                                                                  | Evaluation continue                                                              | 18                                                                               |
+| EDK.01667                                                                        | Travail de Master                                                                                                         | Décanat                                                                          | SP-2026                                                                          | MA                                                                               |                                                                                  | Evaluation continue                                                              | 18                                                                               |
+
+## Référence base légale
+
+Règlement du 27 septembre 2021 sur l'organisation des études et des examens à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg

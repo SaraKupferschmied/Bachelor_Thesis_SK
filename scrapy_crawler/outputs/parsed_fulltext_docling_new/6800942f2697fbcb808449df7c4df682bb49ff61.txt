@@ -1,0 +1,466 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T21:06:16.793Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_Mono_180_cr_dits_ECTS__6800942f2697fbcb808449df7c4df682bb49ff61",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6800942f2697fbcb808449df7c4df682bb49ff61",
+  "program_key": "|master|30|special education",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Special Education",
+  "doc_label": "Bachelor Mono (180 crédits ECTS)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_EDS_180%20%281494%29%2005%2006%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/specialeduminor",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_Mono_180_cr_dits_ECTS__6800942f2697fbcb808449df7c4df682bb49ff61.pdf",
+  "sha256": "49042c9b220a410e0423be32aa53a938b83fe4cf3174e6c5d8df48cfdc5922cf",
+  "fetched_at": "2026-04-03T11:26:53.273Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_EDS_180%20%281494%29%2005%2006%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BSc_EDS_180 (1494) 05 06 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DÉPARTEMENT DE PÉDAGOGIE SPÉCIALISÉE
+
+## PLAN D'ÉTUDES
+
+## Éducation spécialisée
+
+## Programme d'études Bachelor Mono 180 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Bases légales
+
+Le plan d'études suivant repose sur les bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les conditions d'admission complémentaires à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Directives du 17 octobre 2024 relatives à la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'études
+
+Ce programme d'études Mono à  180  crédits  ECTS en éducation spécialisée s'insère dans le Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) (180 crédits ECTS).
+
+Ce programme d'études est un cursus universitaire permettant d'acquérir des connaissances approfondies dans le champ de la pédagogie spécialisée. Ce programme d'études a la particularité d'être reconnu comme diplôme professionnalisant par le canton de Fribourg. À ce titre, le diplôme est signé par le Conseiller d'État ou la Conseillère d'État en charge de la formation.
+
+Cette formation propose une réflexion scientifique et critique sur les défis actuels de la pédagogie spécialisée, les différents courants théoriques, les handicaps et leurs étiologies, les troubles de développement et leurs origines, les structures éducatives, les méthodes d'intervention et les contextes de vie. Elle vise à développer de multiples compétences pour l'éducation, le conseil et le soutien des milieux de vie sociaux et familiaux, pour l'analyse des situations éducatives et la mise en place de projets pédagogiques et pour le travail en réseau.
+
+## 2.2 Langue de la formation
+
+Le programme d'études Éducation spécialisée (180 crédits ECTS) peut s'effectuer en français ou en allemand. Ce document présente le plan d'études francophone.
+
+## 2.3 Conditions et délais d'admission
+
+Les conditions d'admission à l'Université de Fribourg (Règlement du 26 mars 2020 concernant l'admission et l'immatriculation  des  étudiant-e-s  et  des  auditeurs  et  auditrices  à  l'Université  de  Fribourg),  ainsi  que  les conditions d'admission à la Faculté (Règlement concernant les conditions d'admission complémentaires) font foi.
+
+Le début des études n'est possible qu'au semestre d'automne. Les inscriptions tardives ne sont pas autorisées.
+
+## 2.4 Mobilité
+
+La  mobilité  peut  être  envisagée  idéalement  durant  le  3 ème   et/ou  le  4 ème   semestre  d'étude.  Les  étudiant · e · s intéressé · e · s doivent s'adresser le plus tôt possible au conseiller ou à la conseillère aux études. En outre, les étudiant-e-s ont la possibilité d'effectuer leur stage final de 3 ème  année à l'étranger.
+
+## 2.5 Titre décerné
+
+Le titre décerné est Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) .
+
+## 3 Programme d'études
+
+Le programme d'études comprend 180 crédits ECTS répartis en 12 modules obligatoires.
+
+## 3.1 Objectifs de la formation
+
+Ce programme s'adresse aux étudiant·e·s souhaitant devenir éducateurs/trices spécialisé·e·s ou souhaitant amorcer  un  cursus  scientifique  dans  le  champ  de  la  pédagogie  spécialisée.  La  finalité  générale  de  ce programme est que les étudiant·e·s deviennent des  praticien·ne·s  réflexifs/ves,  capables  de  répondre  aux besoins complexes et multiples des personnes qu'ils/elles accompagneront, et capables de mettre en place des interventions efficaces, basées sur des pratiques validées par la recherche (« evidence-based practices »).
+
+Le cursus est articulé autour de trois axes principaux :
+
+- acquisition de connaissances théoriques et épistémologiques concernant :
+- o les  caractéristiques  et  besoins  de  publics  spécifiques  dans  le  domaine  de  la  pédagogie spécialisée ;
+- o l'évolution des caractéristiques et besoins de ces publics spécifiques tout au long de la vie ;
+- o les  principaux  domaines  du  développement  et  de  l'apprentissage  dans  le  champ  de  la pédagogie spécialisée ;
+- o les cadres et courants disciplinaires voisins de la pédagogie spécialisée.
+- acquisition de compétences scientifiques ;
+- acquisition de compétences professionnelles dans les domaines suivants :
+- o savoir-faire ;
+- o savoir-être ;
+- o posture éthique.
+
+## 3.1.1 Connaissances théoriques et épistémologiques
+
+À la fin de sa formation, l'étudiant·e aura acquis des connaissances approfondies sur les caractéristiques et besoins  des  différents  publics  nécessitant  des  soutiens  complexes  :  personnes  présentant  une  déficience intellectuelle, un polyhandicap, un trouble du spectre de l'autisme, des troubles du comportement, des troubles d'apprentissage,  personnes  en  situation  de  vulnérabilité  sociale  et/ou  psychique.  L'étudiant·e  connaîtra l'évolution des besoins de ces personnes et de leur système familial durant toutes les périodes de la vie, de la petite enfance, adolescence, âge adulte, à la vieillesse et à la fin de vie. Il/elle aura également acquis des connaissances médicales, psychopathologiques, neuropsychologiques, développementales et socio-affectives couvrant les principaux domaines de la pédagogie spécialisée. Enfin, il/elle aura acquis des connaissances historiques, sociologiques,  anthropologiques, socio-politiques, éthiques et philosophiques sur les principaux courants et approches ainsi que leurs enjeux dans le champ de la pédagogie spécialisée. La thématique de l'inclusion des personnes avec besoins particuliers sera traitée de manière transversale tout au long du cursus de formation.
+
+## 3.1.2 Compétences scientifiques
+
+Au terme de sa formation, l'étudiant·e sera capable de poser une question de recherche, de mener de manière rigoureuse des recherches de littérature scientifique et de gérer des sources scientifiques. Il/elle sera capable d'extraire,  d'analyser  et  de  critiquer  des  résultats  de  recherche.  L'étudiant·e  sera  conscient·e  des  enjeux éthiques de la recherche dans le champ de la pédagogie spécialisée et en tiendra compte dans ses lectures et futures pratiques de recherche. Il/elle sera capable de rédiger des travaux de manière conforme aux normes scientifiques en vigueur. Il/elle aura acquis des connaissances au sujet des méthodes de recherche empiriques (quantitatives et qualitatives), ainsi que des connaissances théoriques et pratiques en statistiques descriptives et inférentielles.
+
+## 3.1.3 Compétences professionnelles
+
+En matière de savoir-faire, l'étudiant·e sera capable de concevoir, de mettre en place et d'évaluer des projets pédagogiques  pertinents,  en  transférant  les  connaissances  acquises  en  méthodologie  de  l'intervention éducative. Il/elle sera capable de mener des observations systématiques et de pratiquer des évaluations à l'aide d'outils standardisés. Il/elle pourra choisir et utiliser diverses technologies d'intervention en fonction des besoins identifiés. L'étudiant·e sera également capable de soutenir et renforcer l'auto-détermination des usagers et de les mettre au centre du processus réflexif sur les priorités de leur accompagnement. Il/elle sera capable de donner des soins (notion de « care ») qui répondent aux besoins physiques, psychiques et affectifs des usagers,
+
+ceci de manière ajustée sur le plan relationnel. Il/elle aura acquis des compétences en gestion de crise, en gestion de groupe et en gestion de projets. Il/elle sera capable de travailler en équipe et en réseau transdisciplinaire, de mener des entretiens individuels et aura de bonnes compétences en communication écrite et orale.
+
+En matière de savoir-être, l'étudiant·e sera capable de mener une réflexion autocritique sur son action éducative et aura acquis des compétences de gestion du stress. Il/elle saura instaurer une relation partenariale avec les parents et familles des apprenant·e·s, et renforcer leur sentiment d'auto-efficacité. Il/elle sera à même d'analyser le rôle et le fonctionnement des différents acteurs du système dans lequel il/elle évolue. Enfin, il/elle sera capable de respecter les règles du « vivre-ensemble » et nourrira sa pratique par une curiosité scientifique durable.
+
+En matière d'éthique, l'étudiant·e sera capable d'adopter une posture éthique adéquate, dans l'accompagnement des apprenant·e·s et dans les relations avec leurs familles, ainsi que dans la collaboration avec les collègues. Il/elle sera capable d'identifier les enjeux éthiques actuels dans le champ de la pédagogie spécialisée et de mener une réflexion éthique approfondie sur ces derniers.
+
+## 3.2 Structure générale de la formation
+
+Les 12 modules se répartissent sur les trois ans d'études et doivent tous être validés. En principe, les modules 1 à 5 sont à réaliser en première année, les modules 6 à 10 sont à réaliser en deuxième année et les modules 11 et 12 en troisième année.
+
+Toutes les unités d'enseignement sont proposées chaque année. Les descriptifs et informations détaillées sur les unités d'enseignement de l'année académique en cours se trouvent dans le programme des cours de l'Université de Fribourg.
+
+Sur demande auprès du secrétariat du Département de pédagogie spécialisée, l'étudiant ou l'étudiante peut obtenir l'accès à une troisième tentative à une évaluation. Cette demande ne peut concerner qu'une seule évaluation sur l'ensemble du plan d'études à l'exception des unités d'enseignement suivantes :
+
+- Travail de Bachelor
+- Stage intermédiaire
+- Stage final
+- Auto-observation en milieu clinique
+- Pratique du projet pédagogique et examen final
+
+| Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) Mono : « Éducation spécialisée » 180 ECTS   | Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) Mono : « Éducation spécialisée » 180 ECTS   | Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) Mono : « Éducation spécialisée » 180 ECTS   | Bachelor of Science en pédagogie spécialisée (Diplôme en éducation spécialisée) Mono : « Éducation spécialisée » 180 ECTS   |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 1 re année                                                                                                                  | Module 1 (12 ECTS) Fondements : Pédagogie spécialisée 1                                                                     | Module 2 (12 ECTS) Fondements : Sciences voisines 1A                                                                        | Module 3 (12 ECTS) Fondements : Sciences voisines 1B                                                                        |
+| 1 re année                                                                                                                  | Module 4 (15 ECTS) Méthodologie de recherche                                                                                | Module 5 (12 ECTS) Interventions 1                                                                                          |                                                                                                                             |
+| 2 e année                                                                                                                   | Module 6 (15 ECTS) Fondements : Pédagogie spécialisée 2                                                                     | Module 7 (12 ECTS) Fondements : Sciences voisines 2                                                                         | Module 8 (21 ECTS) Interventions 2A                                                                                         |
+| 2 e année                                                                                                                   | Module 9 (15 ECTS) Interventions 2B                                                                                         | Module 10 (15 ECTS) Travail de Bachelor                                                                                     |                                                                                                                             |
+| 3 e année                                                                                                                   | Module 11 (21 ECTS) Pratique A                                                                                              | Module 12 (18 ECTS) Pratique B                                                                                              |                                                                                                                             |
+
+## 3.3 Structure des modules
+
+## Module 1 - Fondements : Pédagogie spécialisée 1
+
+12 crédits ECTS
+
+Ce  module  permet  d'acquérir  les  compétences  fondamentales  dans  le  champ  de  la  pédagogie spécialisée. Il vise l'acquisition :
+
+- de  connaissances  de  base  sur  la  définition  du  handicap  et  sur  l'évolution  historique  des politiques de soutien du handicap ;
+- de  connaissances  et  des  capacités  à  évaluer  les  théories  d'apprentissage  ainsi  que  les différents types de handicap ;
+- de connaissances et des capacités à analyser le système scolaire suisse et la thématique de l'intégration.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                  | Unités d'enseignement :                                                  |
+|---------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| F22.00001                 | Pédagogie spécialisée I                                                  | 6 crédits ECTS                                                           |
+| F22.00194                 | Pédagogie spécialisée différentielle                                     | 3 crédits ECTS                                                           |
+| F22.00193                 | Inclusion et participation                                               | 3 crédits ECTS                                                           |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                | Modalités d'évaluations :                                                |
+| F22.00001                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00194                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+| F22.00193                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+
+## Module 2 - Fondements : Sciences voisines 1A
+
+12 crédits ECTS
+
+Ce module permet d'acquérir des compétences dans des champs voisins de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de  connaissances  et  des  capacités  réflexives  concernant  le  champ  de  la  sociologie  et  les enjeux sociétaux de la différence ;
+- de connaissances sur le  développement psychologique et social de l'enfant et de l'adolescent·e ;
+- de  capacités  d'observation  et  d'évaluation  systématique  du  comportement,  ainsi  que  des capacités à utiliser les outils existants ;
+- de connaissances et des capacités réflexives sur la relation partenariale avec les familles.
+
+| Unités d'enseignement :   | Unités d'enseignement :                      | Unités d'enseignement :                      |
+|---------------------------|----------------------------------------------|----------------------------------------------|
+| F22.00063                 | Sociétés et différences                      | 6 crédits ECTS                               |
+| F22.00004                 | Développement                                | 6 crédits ECTS                               |
+| Modalités d'évaluations : | Modalités d'évaluations :                    | Modalités d'évaluations :                    |
+| F22.00063                 | Évaluation intégrée au cours, avec note (IN) | Évaluation intégrée au cours, avec note (IN) |
+| F22.00004                 | Évaluation intégrée au cours, avec note (IN) | Évaluation intégrée au cours, avec note (IN) |
+
+## Module 3 - Fondements : Sciences voisines 1B
+
+12 crédits ECTS
+
+Ce module permet d'acquérir des compétences dans des champs voisins de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de connaissances sur les principaux tableaux cliniques de la psychopathologie de l'enfant et de l'adolescent·e, ainsi que les outils utilisés en pédopsychiatrie ;
+- de connaissances et des capacités réflexives sur la philosophie de l'éducation ;
+- de connaissances sur le développement du langage chez l'enfant et sur les principaux troubles du langage oral et écrit.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                  | Unités d'enseignement :                                                  |
+|---------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| F22.00012                 | Psychopathologie                                                         | 6 crédits ECTS                                                           |
+| F22.00168                 | Philosophie de l'éducation                                               | 3 crédits ECTS                                                           |
+| F22.00101                 | Langage et communication                                                 | 3 crédits ECTS                                                           |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                | Modalités d'évaluations :                                                |
+| F22.00012                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00168                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+| F22.00101                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+
+## Module 4 - Méthodologie de recherche
+
+## 15 crédits ECTS
+
+Ce  module  permet  d'acquérir  des  compétences  essentielles  concernant  les  méthodologies  de recherche utilisées en pédagogie spécialisée. Il vise l'acquisition :
+
+- de connaissances sur les processus de recherche scientifique et des capacités à évaluer de manière critique les recherches existantes ;
+- de connaissances sur la démarche d'écriture de travaux scientifiques et des capacités à les mettre en œuvre ;
+- de  connaissances  et  des  capacités  de  mise  en  œuvre  des  démarches  de  recherche  et d'intervention ;
+- de connaissances sur les procédures statistiques descriptives et inférentielles, ainsi que des capacités à les utiliser.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                  | Unités d'enseignement :                                                  |
+|---------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| F22.00171                 | Introduction au travail scientifique                                     | 3 crédits ECTS                                                           |
+| F22.00011                 | Observation et évaluation                                                | 6 crédits ECTS                                                           |
+| F22.00067                 | Statistiques I et II                                                     | 6 crédits ECTS                                                           |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                | Modalités d'évaluations :                                                |
+| F22.00171                 | Évaluation intégrée au cours, sans note (I)                              | Évaluation intégrée au cours, sans note (I)                              |
+| F22.00011                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00067                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+
+## Module 5 - Interventions 1
+
+12 crédits ECTS
+
+Ce module permet d'acquérir des compétences concernant l'intervention dans différents champs de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de capacités d'analyse de pratique professionnelle ;
+- de  connaissances  sur  les  questions  liées  à  la  sexualité  des  personnes  en  situation  de handicap, en lien avec les différents cadres institutionnels ;
+- de connaissances sur les concepts et les enjeux du travail en équipe ;
+- de compétences pédagogiques pratiques à travers la réalisation d'un stage court sur le terrain (90 heures) et d'un projet d'observation.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                                                                                                                                                                                                                                                                | Unités d'enseignement :                      |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| F22.00020                 | Expériences professionnelles                                                                                                                                                                                                                                                                                           | 3 crédits ECTS                               |
+| F22.00176                 | Sexualité et institutions                                                                                                                                                                                                                                                                                              | 3 crédits ECTS                               |
+| F22.00111                 | Entretiens et travail en équipe                                                                                                                                                                                                                                                                                        | 3 crédits ECTS                               |
+| F22.00112                 | Stage intermédiaire                                                                                                                                                                                                                                                                                                    | 3 crédits ECTS                               |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                                                                                                                                                                                                                                                              | Modalités d'évaluations :                    |
+| F22.00020                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                                                                           | Évaluation intégrée au cours, avec note (IN) |
+| F22.00176                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                                                                           | Évaluation intégrée au cours, avec note (IN) |
+| F22.00111                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                                                                           | Évaluation intégrée au cours, avec note (IN) |
+| F22.00112                 | Le Stage intermédiaire est évalué comme « réussi » ou « échoué » (I). Les informations détaillées concernant la réalisation du Stage intermédiaire sont exposées dans le document Guide et prescriptions de la section Éducation spécialisée disponibles sur le site internet du Département de pédagogie spécialisée. |                                              |
+
+## Module 6 - Fondements : Pédagogie spécialisée 2
+
+## 15 crédits ECTS
+
+Ce  module  permet  d'acquérir  des  compétences  fondamentales  dans  le  champ  de  la  pédagogie spécialisée. Il vise l'acquisition :
+
+- de connaissances approfondies concernant la déficience intellectuelle et les composantes du comportement adaptatif ;
+- de connaissances sur les concepts et modèles théoriques de l'éducation précoce spécialisée pour les enfants d'âge préscolaire ;
+- de connaissances sur les principaux syndromes neuropsychologiques et sur la prise en charge des adultes cérébrolésés ;
+- de capacités d'analyse des variables pertinentes pour l'accompagnement des processus de transition et l'autodétermination dans le domaine de la déficience intellectuelle.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                  | Unités d'enseignement :                                                  |
+|---------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| F22.00002                 | Pédagogie spécialisée II                                                 | 3 crédits ECTS                                                           |
+| F22.00167                 | Éducation précoce spécialisée                                            | 3 crédits ECTS                                                           |
+| F22.00165                 | Neuropsychologie appliquée de l'adulte                                   | 3 crédits ECTS                                                           |
+| F22.00080                 | Adultes                                                                  | 6 crédits ECTS                                                           |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                | Modalités d'évaluations :                                                |
+| F22.00002                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00167                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00165                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+| F22.00080                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+
+| Module 7 - Fondements : Sciences voisines 2   | 12 crédits ECTS   |
+|-----------------------------------------------|-------------------|
+
+Ce module permet d'acquérir des compétences dans des champs voisins de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de connaissances sur la physiologie du système nerveux, sur les principaux types de troubles moteurs et cognitifs chez l'enfant, ainsi que sur la prise en charge des enfants cérébrolésés ;
+- de connaissances sur les procédures de protection de l'enfant et des capacités à analyser des situations d'enfants victimes de maltraitances ;
+- de notions essentielles sur le droit suisse en matière de protection de l'adulte et de l'enfant ;
+- de connaissances de base sur les grandes catégories de médicaments psychotropes, leurs indications et leurs potentiels effets indésirables.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                                                                                                                                                                                                               | Unités d'enseignement :                                                                                                                                                                                                                                               |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| F22.00166                 | Neuropsychologie appliquée de l'enfant                                                                                                                                                                                                                                | 3 crédits ECTS                                                                                                                                                                                                                                                        |
+| F22.00125                 | Neurologie et handicaps                                                                                                                                                                                                                                               | 3 crédits ECTS                                                                                                                                                                                                                                                        |
+| F22.00124                 | Protection de l'enfance et de la jeunesse                                                                                                                                                                                                                             | 3 crédits ECTS                                                                                                                                                                                                                                                        |
+| F22.00123                 | Notions de droit et de psychopharmacologie                                                                                                                                                                                                                            | 3 crédits ECTS                                                                                                                                                                                                                                                        |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                                                                                                                                                                                                             | Modalités d'évaluations :                                                                                                                                                                                                                                             |
+| F22.00166                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          |
+| F22.00125                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          |
+| F22.00124                 | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          | Évaluation intégrée au cours, avec note (IN)                                                                                                                                                                                                                          |
+| F22.00123                 | 2 évaluations (devant chacune être réussie) durant les sessions officielles de la Faculté, avec note (EN). En cas d'échec à l'une des 2 évaluations, seule l'évaluation échouée doit être répétée. En cas d'échec aux 2 évaluations, les 2 évaluations sont répétées. | 2 évaluations (devant chacune être réussie) durant les sessions officielles de la Faculté, avec note (EN). En cas d'échec à l'une des 2 évaluations, seule l'évaluation échouée doit être répétée. En cas d'échec aux 2 évaluations, les 2 évaluations sont répétées. |
+
+## Module 8 - Interventions 2A
+
+## 21 crédits ECTS
+
+Ce module permet d'acquérir des compétences concernant l'intervention dans différents champs de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de capacités à planifier et réaliser un projet pédagogique en respectant les étapes-clés de la méthodologie d'intervention ;
+- de  connaissances  sur  les  troubles  du  spectre  de  l'autisme,  ainsi  que  des  habiletés d'observation et d'intervention adaptées aux spécificités de ce public ;
+- de connaissances sur les spécificités du polyhandicap et des capacités à élaborer des projets pédagogiques adaptés ;
+- de connaissances sur les différents modèles du fonctionnement cognitif et sur leur évaluation.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                  | Unités d'enseignement :                                                  |
+|---------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| F22.00120                 | Spectre de l'autisme                                                     | 3 crédits ECTS                                                           |
+| F22.00003                 | Polyhandicap                                                             | 6 crédits ECTS                                                           |
+| F22.00086                 | Interventions cognitives                                                 | 6 crédits ECTS                                                           |
+| F22.00178                 | Méthodologie de l'intervention en pédagogie spécialisée                  | 6 crédits ECTS                                                           |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                | Modalités d'évaluations :                                                |
+| F22.00120                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00003                 | Évaluation durant les sessions officielles de la Faculté, avec note (EN) | Évaluation durant les sessions officielles de la Faculté, avec note (EN) |
+| F22.00086                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+| F22.00178                 | Évaluation intégrée au cours, avec note (IN)                             | Évaluation intégrée au cours, avec note (IN)                             |
+
+## Module 9 - Interventions 2B
+
+15 crédits ECTS
+
+Ce module permet d'acquérir des compétences concernant l'intervention dans différents champs de la pédagogie spécialisée. Il vise l'acquisition :
+
+- de connaissances sur les différentes formes de violences et d'agressivité dans le contexte de la pédagogie spécialisée et des méthodes de prévention et d'intervention ;
+- de  capacités  à  savoir  identifier  les  contextes  de  pauvreté  et  à  développer  des  stratégies d'intervention adéquates ;
+- de  connaissances  sur  les  principales  théories  et  méthodes  d'intervention  concernant  les enfants en situation de rue ;
+- de connaissances sur les différents systèmes d'assurances sociales et leur utilisation dans le domaine de la pédagogie spécialisée ;
+- de capacités d'analyse des situations issues de la clinique familiale selon une  perspective écosystémique,  à  l'interface  de  la  famille  et  de  l'institution  socio-éducative,  à  travers  des travaux pratiques en petits groupes ;
+- de connaissances approfondies sur une thématique spécifique à travers le séminaire à option Approfondissements (choix de deux thématiques proposées).
+
+## Unités d'enseignement :
+
+| F22.00122   | Agressivité et violence         | 3 crédits ECTS   |
+|-------------|---------------------------------|------------------|
+| F22.00018   | Milieux défavorisés I           | 3 crédits ECTS   |
+| F22.00121   | Milieux défavorisés II          | 3 crédits ECTS   |
+| F22.00031   | Situations cliniques familiales | 3 crédits ECTS   |
+| F22.00127   | Approfondissements*             | 3 crédits ECTS   |
+
+## Modalités d'évaluations :
+
+F22.00122
+
+F22.00018
+
+F22.00121
+
+F22.00031
+
+F22.00127
+
+Évaluation intégrée au cours, avec note (IN)
+
+Évaluation durant les sessions officielles de la Faculté, avec note (EN)
+
+Évaluation intégrée au cours, sans note (I)
+
+Évaluation intégrée au cours, sans note (I)
+
+Évaluation intégrée au cours, sans note (I)
+
+## Module 10 - Travail de Bachelor
+
+15 crédits ECTS
+
+Ce  module  permet  de  développer  des  capacités  à  identifier  une  problématique  de  recherche scientifique dans le domaine de la pédagogie spécialisée et de planifier, mettre en œuvre et rédiger un projet de recherche dans le cadre du travail de Bachelor. Le travail de Bachelor est un travail individuel permettant plus particulièrement de développer les compétences méthodologiques suivantes :
+
+- définir une problématique de manière rigoureuse ;
+- rechercher des informations dans la littérature scientifique ;
+- élaborer un plan de travail cohérent et logique ;
+- choisir  et  exploiter  les  informations  théoriques  et/ou  empiriques  de  manière  pertinente  et synthétique ;
+- discuter les résultats en gardant une distance critique ;
+- écrire un texte en appliquant les normes de rédaction scientifiques ;
+- communiquer et présenter les résultats de façon scientifique.
+
+| Unités d'enseignement :   | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                                                                                                                       | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| F22.00148                 | Travail de Bachelor                                                                                                                                                                                                                                                                                                                                                                                                                                           | 12 crédits ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| F22.00216                 | Séminaire de recherche                                                                                                                                                                                                                                                                                                                                                                                                                                        | 3 crédits ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Modalités d'évaluations : | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                                                                                                                                     | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| F22.00148                 | Le Travail de Bachelor est un travail écrit individuel et son évaluation se base sur un protocole d'évaluation. Le Travail de Bachelor est noté (EN). Les informations détaillées concernant la réalisation et le dépôt du Travail de Bachelor sont exposées dans les documents Guide et prescriptions de la section Éducation spécialisée et Guide de rédaction des travaux écrits disponibles sur le site internet du Département de pédagogie spécialisée. | Le Travail de Bachelor est un travail écrit individuel et son évaluation se base sur un protocole d'évaluation. Le Travail de Bachelor est noté (EN). Les informations détaillées concernant la réalisation et le dépôt du Travail de Bachelor sont exposées dans les documents Guide et prescriptions de la section Éducation spécialisée et Guide de rédaction des travaux écrits disponibles sur le site internet du Département de pédagogie spécialisée. |
+| F22.00216                 | Évaluation intégrée au cours, sans note (I)                                                                                                                                                                                                                                                                                                                                                                                                                   | Évaluation intégrée au cours, sans note (I)                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+| Module 11 - Pratique A                                                                                                                                                                                                                                                                                                                                                            | Module 11 - Pratique A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 21 crédits ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Durant la dernière année de la formation, l'étudiant(e) effectue un stage final supervisé (durée de 30 semaines/900 heures au minimum) afin d'acquérir des compétences pédagogiques pratiques dans le champ de la pédagogie spécialisée ; un travail d'analyse de pratique basé sur des entretiens professionnels menés durant le stage est réalisé à l'aide de séquences vidéos. | Durant la dernière année de la formation, l'étudiant(e) effectue un stage final supervisé (durée de 30 semaines/900 heures au minimum) afin d'acquérir des compétences pédagogiques pratiques dans le champ de la pédagogie spécialisée ; un travail d'analyse de pratique basé sur des entretiens professionnels menés durant le stage est réalisé à l'aide de séquences vidéos.                                                                                                                                       | Durant la dernière année de la formation, l'étudiant(e) effectue un stage final supervisé (durée de 30 semaines/900 heures au minimum) afin d'acquérir des compétences pédagogiques pratiques dans le champ de la pédagogie spécialisée ; un travail d'analyse de pratique basé sur des entretiens professionnels menés durant le stage est réalisé à l'aide de séquences vidéos.                                                                                                                                       |
+| Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                                           | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| F22.00145                                                                                                                                                                                                                                                                                                                                                                         | Stage final                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 18 crédits ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| F22.00185                                                                                                                                                                                                                                                                                                                                                                         | Auto-observation en milieu clinique                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 3 crédits ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                                                         | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| F22.00145                                                                                                                                                                                                                                                                                                                                                                         | Le stage est placé sous la direction d'un·e superviseur/se de stage au sein du Département de pédagogie spécialisée. Le Stage final est validé par le/la praticien·ne-formateur/trice et le/la directeur/trice de la structure éducative. Le Stage final est évalué comme « réussi » ou « échoué » (I). Les informations détaillées concernant la réalisation du Stage final sont exposées dans le document Guide et prescriptions de la section Éducation spécialisée disponibles sur le site internet du              | Le stage est placé sous la direction d'un·e superviseur/se de stage au sein du Département de pédagogie spécialisée. Le Stage final est validé par le/la praticien·ne-formateur/trice et le/la directeur/trice de la structure éducative. Le Stage final est évalué comme « réussi » ou « échoué » (I). Les informations détaillées concernant la réalisation du Stage final sont exposées dans le document Guide et prescriptions de la section Éducation spécialisée disponibles sur le site internet du              |
+| F22.00185                                                                                                                                                                                                                                                                                                                                                                         | L'unité d'enseignement consiste en l'organisation, la participation et la gestion des entretiens centrés sur les situations éducatives. Pour valider l'unité d'enseignement, les étudiant·e·s doivent déposer un travail écrit qui est évalué comme « réussi » ou « échoué » (I). Les informations détaillées concernant la réalisation des entretiens cliniques sont exposées dans le document Guide et prescriptions de la section Éducation spécialisée disponibles sur le site internet du Département de pédagogie | L'unité d'enseignement consiste en l'organisation, la participation et la gestion des entretiens centrés sur les situations éducatives. Pour valider l'unité d'enseignement, les étudiant·e·s doivent déposer un travail écrit qui est évalué comme « réussi » ou « échoué » (I). Les informations détaillées concernant la réalisation des entretiens cliniques sont exposées dans le document Guide et prescriptions de la section Éducation spécialisée disponibles sur le site internet du Département de pédagogie |
+
+| Module 12 - Pratique B                                                                                                                                                                                                                                                                                                                                  | Module 12 - Pratique B                                                                                                                                                                                                                                                                                                                                  | 18 crédits ECTS                                                                                                                                                                                                                                                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dans le contexte du stage final, l'étudiant(e) approfondit la méthodologie d'intervention en pédagogie spécialisée en planifiant et en réalisant un projet pédagogique auprès d'un individu ou d'un groupe de personnes ; lors de l'examen final, l'étudiant(e) présente oralement ce projet pédagogique en référence à la méthodologie d'intervention. | Dans le contexte du stage final, l'étudiant(e) approfondit la méthodologie d'intervention en pédagogie spécialisée en planifiant et en réalisant un projet pédagogique auprès d'un individu ou d'un groupe de personnes ; lors de l'examen final, l'étudiant(e) présente oralement ce projet pédagogique en référence à la méthodologie d'intervention. | Dans le contexte du stage final, l'étudiant(e) approfondit la méthodologie d'intervention en pédagogie spécialisée en planifiant et en réalisant un projet pédagogique auprès d'un individu ou d'un groupe de personnes ; lors de l'examen final, l'étudiant(e) présente oralement ce projet pédagogique en référence à la méthodologie d'intervention. |
+| Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                 | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                 | Unités d'enseignement :                                                                                                                                                                                                                                                                                                                                 |
+| F22.00179                                                                                                                                                                                                                                                                                                                                               | Pratique du projet pédagogique et examen final                                                                                                                                                                                                                                                                                                          | 18 crédits ECTS                                                                                                                                                                                                                                                                                                                                         |
+| Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                               | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                               | Modalités d'évaluations :                                                                                                                                                                                                                                                                                                                               |
+| F22.00179                                                                                                                                                                                                                                                                                                                                               | L'examen final est un examen oral de 60 minutes. Il consiste en la présentation et la défense orale du projet pédagogique réalisé pendant le stage final. Il se compose de deux parties :  une présentation concise et complète de toutes les étapes du projet                                                                                         | L'examen final est un examen oral de 60 minutes. Il consiste en la présentation et la défense orale du projet pédagogique réalisé pendant le stage final. Il se compose de deux parties :  une présentation concise et complète de toutes les étapes du projet                                                                                         |
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un crédit  ECTS  représente  en  moyenne  trente  heures  de  travail  pour  l'étudiant·e.  Les  crédits  ECTS  sont attribués sur la base d'unités d'enseignement jugées suffisantes (art. 3 chif. 7 et 14 du Règlement des études).
+
+L'évaluation  d'une  unité  d'enseignement  peut  être  réalisée  pendant  le  semestre  ou  pendant  une  session d'examen. La prestation demandée peut être notée ou faire l'objet d'une décision « réussi » ou « échoué ». Les évaluations peuvent prendre la forme d'un examen oral ou écrit, d'un travail écrit, d'un exposé, d'un rapport, d'un portfolio, d'une tâche complexe, d'une activité de validation, etc. Dans le cadre du présent programme, les modalités d'évaluation suivantes sont possibles :
+
+- évaluation intégrée au cours, avec note (IN)
+- évaluation intégrée au cours, sans note (I)
+- évaluation durant les sessions officielles de la Faculté, avec note (EN)
+
+L'évaluation d'une unité d'enseignement peut s'effectuer en une ou plusieurs parties qui peuvent être réalisées pendant le semestre ou pendant une session d'examen. Dans le cas d'une évaluation constituée de plusieurs parties, l'étudiant·e qui ne participe pas à toutes les parties obtient un échec à l'évaluation.
+
+Les  modalités  pour  la  réalisation  et  la  remise  des  travaux  écrits  ainsi  que  les  modalités  de  réalisation  et d'évaluation  des  stages  sont  données  dans  les  documents Guide et  prescriptions  de  la  section  Éducation spécialisée et Guide  de  rédaction  des  travaux  écrits disponibles  sur  le  site  internet  du  Département  de pédagogie spécialisée.
+
+Les unités d'enseignement sont regroupées en modules. Un module est validé une fois que toutes les unités d'enseignement qui le composent ont été réussies. La compensation d'une évaluation insuffisante au sein du module n'est pas possible.
+
+## 4.2 Reconnaissances
+
+Hormis les unités d'enseignement Travail de Bachelor , Stage intermédiaire , Stage final , Auto-observation en milieu  clinique et Pratique  du  projet  pédagogique  et  examen  final ,  toutes  les  unités  d'enseignement  de  ce programme d'études peuvent potentiellement être validées par le biais d'une reconnaissance formelle (au sens de l'art. 3 al. 5 des Directives reconnaissances), dans la limite du nombre de crédits ECTS maximal prévu (art. 3 al. 1).
+
+Les acquis réalisés plus de 10 ans avant le dépôt de la demande de reconnaissance ne peuvent pas être reconnus.
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du Règlement des études). Un·e étudiant·e non inscrit·e ne peut pas prétendre à une évaluation.
+
+L'étudiant·e  est  admis·e  à  l'unité  d'enseignement Stage  final s'il/elle  remplit  les  conditions  cumulatives suivantes :
+
+- a) il/elle a réussi toutes les évaluations de la première année d'études ;
+- b) il/elle s'est inscrit·e à tous les enseignements de la deuxième année d'études avant le début de son stage.
+
+## 4.4 Unités d'enseignement hors session
+
+Les unités d'enseignement Stage intermédiaire , Stage final , Auto-observation en milieu clinique , Pratique du projet pédagogique et examen final et Travail de Bachelor sont définies comme hors session.
+
+Les délais pour le dépôt du travail de Bachelor sont : 28 février / 31 mai / 15 septembre / 15 décembre
+
+## 4.5 Notation
+
+Les évaluations sont notées ou font l'objet d'une décision « réussi » ou « échoué ». L'échelle de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 22 et 23 du Règlement des études).
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e ne réussit pas la deuxième tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module. Sur demande auprès du secrétariat du Département, l'étudiant·e peut obtenir l'accès à une troisième tentative, pour une seule évaluation et une seule fois dans chaque programme d'études de la Faculté. Si nécessaire, une session d'examens supplémentaire est accordée pour cette troisième tentative. S'il/elle ne réussit pas cette unique troisième tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module.
+
+Les  unités  d'enseignement  pour  lesquelles  une  troisième  tentative  est  autorisée  sont  précisées  dans  le chapitre 3.2. En cas d'échec définitif dans un programme d'études, l'étudiant·e ne peut plus poursuivre ses études  dans  ce  programme  d'études  pendant  une  période  de  cinq  ans  à  partir  de  la  session  d'examens concernée (art. 24 du Règlement des études).
+
+Les études sont considérées comme échouées définitivement et ne peuvent être poursuivies si l'un des critères suivants est rempli :
+
+- l'UE obligatoire n'a pas été validée lors des deux tentatives (exception faite de l'éventuelle troisième tentative) ;
+- l'UE obligatoire n'a pas été validée dans les quatre sessions (exception faite du report de session en raison de conflit horaire ou d'absence justifiée) ;
+- la durée maximale autorisée pour les études (selon art. 10 du Règlement des études) est dépassée.
+
+## 4.7 Note finale
+
+La  note  finale  servant  de  base  à  l'attribution  de  la  distinction  résulte  de  la  moyenne  non  arrondie  et  non pondérée  des  notes  des  modules  validés  de  ce  programme  d'études  ;  la  note  d'un  module  résulte  de  la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent (art. 41 du Règlement des études).
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le présent plan d'études entre en vigueur au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.
+
+L'étudiant·e  qui,  au  moment  de  l'entrée  en  vigueur  du  présent  plan  d'études,  était  déjà  inscrit·e  dans  le programme d'études Bachelor of Arts en pédagogie curative clinique et éducation spécialisée de la Faculté des lettres et des sciences humaines est soumis·e au présent plan d'études. Une reconnaissance complète des crédits acquis est garantie. Durant la période transitoire, le ou la responsable de programme d'études décide quelles unités d'enseignement selon le présent plan d'études remplacent les unités qui ne seraient éventuellement plus proposées.

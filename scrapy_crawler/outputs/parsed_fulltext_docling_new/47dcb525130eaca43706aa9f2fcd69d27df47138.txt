@@ -1,0 +1,418 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T19:16:56.108Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Master_Major_90_ECTS-Kreditpunkte__47dcb525130eaca43706aa9f2fcd69d27df47138",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "47dcb525130eaca43706aa9f2fcd69d27df47138",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Education Sciences",
+  "doc_label": "Master Major (90 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/MSc_Erzw_SdE_90%20%281524%29%2013%2002%202026.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Master_Major_90_ECTS-Kreditpunkte__47dcb525130eaca43706aa9f2fcd69d27df47138.pdf",
+  "sha256": "6e09f7e525b52bb66644c9ceceb44cf3e95439bd70f31304cc060d8707ff6ccb",
+  "fetched_at": "2026-04-03T11:26:51.823Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_Erzw_SdE_90%20%281524%29%2013%2002%202026.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MSc_Erzw_SdE_90 (1524) 13 02 2026.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR ERZIEHUNGSWISSENSCHAFTEN
+
+## STUDIENPLAN
+
+## Erziehungswissenschaften
+
+Studienprogramm Master Major 90 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+DEPARTEMENT DES SCIENCES DE L'EDUCATION
+
+## PLAN D'ÉTUDES
+
+## Sciences de l'éducation
+
+Programme d'études Master Major 90 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen  Zulassungsbedingungen  an  der Fakultät für Erziehungsund Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften (Studienreglement)
+- Richtlinien  vom  17. Oktober  2024  über  die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die den Masterstudiengang Erziehungswissenschaften Major teilweise auf Deutsch und teilweise auf Französisch absolvieren und  so  den  Vermerk  «zweisprachiges  Studium, Deutsch/Französisch» erlangen möchten.
+
+Es richtet sich an Studierende, die sich für die Rolle und  Funktion  von  Erziehung  und  Bildung  sowie Institutionalisierungen  in  einer  sich  verändernden Gesellschaft  interessieren.  Ziel  des  Studiums  ist der Aufbau von Theorieund Forschungskompetenz, auf deren Grundlage die Studierenden in der Lage sind, die wissenschaftlichen, kulturellen und sprachlichen Perspektiven sowohl des französischen als auch des deutschen Sprachraums zu beherrschen und damit auf aktuelle Herausforderungen zu reagieren.
+
+Parallel zu diesem Studiengang kann ein Studienprogramm Minor zu  30  ECTS  absolviert werden.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Erziehungswissenschaften (90 ECTS-Kreditpunkte) kann auf Deutsch, Französisch oder zweisprachig (DeutschFranzösisch) absolviert werden. Nachfolgend wird der  Studienplan  für  den  Erwerb  des  Vermerks «zweisprachiges  Studium,  Deutsch/Französisch» vorgestellt.
+
+## 1 Bases légales
+
+Ce  plan  d'études  suivant  repose  sur  les  bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les  conditions  d'admission  complémentaires  à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Directives  du  17  octobre  2024  relatives  à  la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'études
+
+Ce programme d'étude se destine aux étudiant∙e∙s qui  désirent  accomplir  leur  cursus  de  Master  en Sciences de l'éducation Major en partie en allemand et en partie en français, et ainsi obtenir la mention  « études  bilingues,  français/allemand » sur leur diplôme.
+
+Fondé  sur  une  solide  formation  aux  pratiques  et usages de la recherche, le cursus a pour objectif de former  des  spécialistes  capables  d'identifier  et d'appréhender les enjeux actuels de l'éducation et de la formation, maîtrisant les perspectives scientifiques, culturelles  et  linguistiques  francophones  comme germanophones.
+
+A  titre facultatif, il  est  possible  de  suivre,  en parallèle à ce programme, un programme d'études Minor à 30 ECTS.
+
+## 2.2 Langue de la formation
+
+Le  programme  d'études Sciences  de  l'éducation (90 crédits ECTS) peut s'effectuer en français, en allemand ou de manière bilingue (françaisallemand). Ce document présente le plan d'études permettant d'obtenir la mention « études bilingues, français/allemand ».
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität  Freiburg  (Reglement  vom  26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen  der  Fakultät  (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+## 2.4 Vorgezogenes Masterstudium
+
+Es ist möglich, ein Gesuch auf ein vorgezogenes Masterstudium  einzureichen.  Das  Gesuch  kann eingebracht werden, wenn mindestens 150 ECTSKreditpunkte des Bachelor-Studienprogramms validiert wurden. Die Einschreibung für ein vorgezogenes Masterstudium ist nur ein Semester lang  gültig.  Um  für  ein  weiteres  Semester  in  ein vorgezogenes  Masterstudium  eingeschrieben  zu werden, muss  erneut ein Gesuch  eingereicht werden. Es dürfen höchstens 30 ECTSKreditpunkte im vorgezogenen Masterstudium erworben werden.
+
+## 2.5 Mobilität
+
+Ein Mobilitätsaufenthalt kann während des 3. Studiensemesters absolviert werden. Interessierte Studierende wenden sich so früh wie möglich an die Studienberatung.
+
+## 2.6 Verliehener Titel
+
+Der  verliehene Titel  lautet Master  of  Science  in Erziehungswissenschaften .
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 90 ECTSKreditpunkte, die in 5 Module aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Die gesellschaftlichen Erwartungen an Bildung und Erziehung sind hoch und fordern Professionelle in sehr unterschiedlichen Bereichen. Das Studienprogramm  zielt  darauf  ab,  grundlegende und vielseitige Theorieund Forschungskompetenzen  zu  vermitteln,  die  der Analyse  und Reflexion  sowie  dem  Verstehen  der  Verhältnisse und  Herausforderungen  in  Handlungsfeldern  der Bildung  und  Erziehung  dienen  und  die  sowohl
+
+## 2.3 Conditions et délais d'admission
+
+Les conditions d'admission à l'Université de Fribourg (Règlement du 26 mars 2020 concernant l'admission et l'immatriculation des étudiant-e-s et des auditeurs et auditrices à l'Université de Fribourg), ainsi que les conditions d'admission à la Faculté (Règlement concernant les conditions d'admission complémentaires) font foi.
+
+Le début des études n'est possible qu'au semestre d'automne. Les inscriptions tardives sont autorisées.
+
+## 2.4 Conditions d'accès aux études de Master anticipées
+
+L'étudiant∙e en Bachelor à l'Université de Fribourg, qui a validé au moins 150 crédits ECTS dans son (ses)  programme(s)  de  Bachelor  et  qui  pourra accéder  sans  conditions  au  programme  d'études Major Sciences de l'éducation après l'obtention de son diplôme de Bachelor, peut obtenir de manière anticipée  un  maximum  de  30 crédits  ECTS  du programme de Master correspondant à des prestations qui y sont requises.
+
+## 2.5 Mobilité
+
+La mobilité peut être envisagée dès le 3 ème semestre  d'étude.  Les  étudiant · e · s  intéressé · e · s doivent s'adresser le plus tôt possible au conseiller aux études.
+
+## 2.6 Titre décerné
+
+Le titre décerné est Master of Science en sciences de l'éducation .
+
+## 3 Programme d'études
+
+Le programme d'études comprend 90 crédits ECTS répartis en 5 modules obligatoires.
+
+## 3.1 Objectifs de la formation
+
+Les  attentes  sociétales  envers  l'éducation  et  la formation sont importantes et les spécialistes sont amené·e·s  à  intervenir  dans  des  champs  très variés. Ce programme vise à former des professionnel·le·s de l'éducation et de la formation polyvalents et réflexifs, qui maîtrisent les perspectives scientifiques,  culturelles  et  linguistiques  francophones comme germanophones, et disposent des connaissances  et  compétences  nécessaires  leur
+
+frankophone als auch deutschsprachige wissenschaftliche, kulturelle und sprachliche Perspektiven umfassen.
+
+In  Bezugnahme  auf  den  von  swissuniversities herausgegebenen Qualifikationsrahmen für die Schweizer Hochschulen (2021) sind die Absolvierenden  dieses  Studienprogramms  in  der Lage,
+
+- erziehungsund sozialwissenschaftliches Wissen  und  Verstehen  zu  vertiefen,  das  eine Möglichkeit für weitere spezifische Entwicklungen und/oder  Anwendungen von Ideen (in einem Forschungskontext) bietet;
+- das erworbene Wissen und darauf aufbauende Problemlösungsfähigkeiten in einem neuen oder  unvertrauten  Umfeld  innerhalb  breiterer (oder multidisziplinärer) Kontexte in ihrem Studienbereich anzuwenden;
+- in komplexen Situationen begründete Einschätzungen zu formulieren und Urteile auf der  Basis  ihres  Wissens  sowie  verfügbarer Informationen zu fällen und die damit verbundenen sozialen und ethischen Verantwortungen zu berücksichtigen;
+- ihre  Schlussfolgerungen,  das  Wissen  und  die Prinzipien, die ihnen zugrunde liegen, klar und eindeutig sowohl an Expert*innen als auch an Laien zu kommunizieren.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+permettant d'analyser et appréhender une diversité d'enjeux et de champs d'intervention en éducation et en formation.
+
+En  référence  au  cadre  de  qualification  pour  les hautes  écoles  suisses  édité  par  swissuniversities (2021) , le/la diplômé·e de ce programme d'études est en mesure de :
+
+- intégrer des connaissances variées et interdisciplinaires afin d'appréhender la complexité  des  problématiques  d'éducation  et de formation ;
+- développer  une  pensée  critique  vis-à-vis  des informations  et  connaissances  du  champ  des sciences de l'éducation ;
+- concevoir et réaliser une démarche de recherche pertinente afin de soutenir la résolution des problèmes rencontrés, notamment  dans  des  situations  nouvelles  ou inconnues, et de contribuer à l'avancement des connaissances scientifiques ;
+- accompagner son activité de spécialiste par un questionnement  réflexif  constant,  en  portant une  attention  particulière  aux  enjeux  éthiques liés à la responsabilité sociale de la recherche comme de l'intervention en éducation et formation.
+
+## 3.2 Structure générale de la formation
+
+| Modul                                                       |   ECTS | Module                                                      |
+|-------------------------------------------------------------|--------|-------------------------------------------------------------|
+| Modul 1: Theoretische und methodische Grundlagen            |     15 | Modul 1: Theoretische und methodische Grundlagen            |
+| Module 2 : Approches de la recherche en éducation           |     15 | Module 2 : Approches de la recherche en éducation           |
+| Modul 3: Themen der Erziehungswissenschaften                |     15 | Modul 3: Themen der Erziehungswissenschaften                |
+| Module 4 : Objets et thématiques en sciences de l'éducation |     15 | Module 4 : Objets et thématiques en sciences de l'éducation |
+| Modul 5: Masterarbeit                                       |     30 | Module 5 : Mémoire de Master                                |
+
+## 3.3 Struktur der Module
+
+## 3.3 Structure des modules
+
+## Modul 1: Theoretische und methodische Grundlagen
+
+Die Unterrichtseinheiten vermitteln historische, philosophische und wissenschaftstheoretische Entwicklungen  von  Theorien  und  Epistemologien  in  den  Erziehungswissenschaften  sowie  Forschungsmethoden  der  Erziehungswissenschaften.  Die  Studierenden  wissen,  wie  erziehungswissenschaftliche Forschung durchgeführt wird und können das Wissen in einer eigenen kleinen Studie anwenden. Darüber hinaus verstehen sie, wie Episteme und Theorien Forschungen, Forschungsdaten und wissenschaftliches Wissen mit strukturieren.
+
+Alle UE des Moduls sind obligatorisch mit Ausnahme der Forschungskolloquia. Es ist das Kolloquium zu wählen, in dessen Sprache die Masterarbeit verfasst wird.
+
+| Unités d ' enseignement   | Unités d ' enseignement                                                          | 15 ECTS   |
+|---------------------------|----------------------------------------------------------------------------------|-----------|
+| F23.00041                 | Einführung in "Theoriebildung und Theoriegeschichte der Erziehungswissenschaft"* | 3ECTS     |
+| F23.00047                 | Erziehungs- und Bildungstheorien*                                                | 3ECTS     |
+| F23.00000                 | Angewandte empirische Sozialforschung für Fortgeschrittene*                      | 3ECTS     |
+| F23.00000                 | Angewandte empirische Sozialforschung für Fortgeschrittene*                      | 3ECTS     |
+| F23.00113                 | Forschungskolloquium*                                                            | 3ECTS     |
+| F23.00027                 | Colloque de recherche en sciences de l'éducation*                                | 3ECTS     |
+
+## Modalités d ' évaluation
+
+Um das Modul zu validieren, muss jede der 5 UE bestanden werden. Die Kompensation einer ungenügenden Bewertung  innerhalb  des  Moduls  ist  nicht  möglich.  Die  Kurse  werden  grundsätzlich  benotet,  wobei  das Forschungskolloquium als «bestanden» oder «nicht bestanden» bewertet wird. Die Note des Moduls ergibt sich  aus  dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Module 2 : Approches de la recherche en éducation
+
+Ce module vise à développer les connaissances et compétences en matière de conception, de planification et de conduite de recherches en éducation, ainsi qu'à en comprendre les produits. Les enseignements permettent d'acquérir les compétences suivantes : porter un regard informé et critique sur la diversité des démarches de recherche ; interroger les enjeux éthiques posés par une démarche de recherche et identifier les mesures possibles pour y répondre au mieux ; savoir décider de l'approche la plus adaptée à une problématique ; maîtriser les principaux outils de collecte et d'analyse de données de nature qualitative comme quantitative.
+
+| Unités d ' enseignement   | Unités d ' enseignement                      | 15 ECTS   |
+|---------------------------|----------------------------------------------|-----------|
+| F23.00132                 | Epistémologies de la recherche en éducation* | 3ECTS     |
+| F23.00131                 | Méthodes de production de données*           | 6ECTS     |
+| F23.00134                 | Méthodes d'analyse de données*               | 6ECTS     |
+
+## Modalités d ' évaluation
+
+Pour que le module soit validé, l'évaluation de chacune des 3 UE doit être réussie. La compensation d'une évaluation insuffisante au sein du module n'est pas possible. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+* Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 al. 4 du Règlement des études s'appliquent.
+
+## Modul 3: Themen der Erziehungswissenschaften
+
+Dieses  Modul  bietet  inhaltliche  Auseinandersetzungen  und  Vertiefungsmöglichkeiten  in  verschiedenen Forschungsfeldern der Erziehungswissenschaft. Dazu gehören Fragen der Globalisierung und Gestaltung von Bildungsprozessen unter Bedingungen gesellschaftlichen Wandels; dazu gehören aber auch aktuelle Debatten der Kindheits- und Jugendforschung. Innerhalb des Moduls sind Schwerpunktsetzungen in den Bereichen Bildung,  Globalisierung  und  gesellschaftlicher  Wandel und Kindheits-  und  Jugendforschung möglich. Das Modul bietet 10 Unterrichtseinheiten an, von denen die Studierenden 5 Unterrichtseinheiten auswählen, um die 15 ECTS-Kreditpunkte zu erhalten, die für die Validierung des Moduls erforderlich sind.
+
+| Unités d ' enseignement   | Unités d ' enseignement                                         | 15 ECTS   |
+|---------------------------|-----------------------------------------------------------------|-----------|
+| F23.00062                 | Einführung in Transformationen des Politischen und der Bildung* | 3ECTS     |
+| F23.00125                 | Gesellschaftlicher Wandel und Bildung*                          | 3ECTS     |
+| F23.00126                 | Bildung und politische Transformation*                          | 3ECTS     |
+| F23.00040                 | Einführung in Globalisierung und Bildung*                       | 3ECTS     |
+| F23.00127                 | Institutionen und Individuelle Handlungsfähigkeit*              | 3ECTS     |
+| F23.00039                 | Einführung in die Kindheitsforschung und in Forschungsethik*    | 3ECTS     |
+| F23.00128                 | Aktuelle Themen der Kindheitsforschung*                         | 3ECTS     |
+| F23.00120                 | Ungleiche Kindheiten: Kinder in vulnerablen Kontexten*          | 3ECTS     |
+| F23.00038                 | Einführung in die Jugendforschung*                              | 3ECTS     |
+| F23.00121                 | Jugend, Familie und Gesellschaft*                               | 3ECTS     |
+
+## Modalités d ' évaluation
+
+Die UE werden grundsätzlich benotet. Damit das Modul validiert werden kann, muss die Bewertung aller 5 gewählten  UE  bestanden  werden  (Mindestnote  4.0).  Bei  Nichtbestehen  einer  UE  kann  der  oder  die Studierende diese durch eine andere im Modul angebotene UE ersetzen. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Module 4 : Objets et thématiques en sciences de l'éducation
+
+Ce module est constitué d'une liste de cours à choix, qui visent 1) à développer des connaissances et des compétences liées aux enjeux pédagogiques et andragogiques à diverses étapes de formation telles que la scolarité obligatoire et post-obligatoire, la formation professionnelle ou plus généralement la formation des adultes ; 2) à permettre aux étudiant·e·s de comprendre les défis contemporains de l'éducation et de la formation liés à la diversité des actrices et acteurs ainsi qu'aux opportunités et contr aintes des contextes (culturels,  politiques,  économiques,  institutionnels,  sociaux)  dans  lesquels  s'ancrent  l'éducation  et  la formation.
+
+Le module propose 10 UE, parmi lesquelles l'étudiant·e choisit 5 UE afin d'obtenir les 15 crédits ECTS nécessaires à la validation du module.
+
+| Unités d ' enseignement   | Unités d ' enseignement                                              | 15 ECTS   |
+|---------------------------|----------------------------------------------------------------------|-----------|
+| F23.00034                 | Pratique et formation en contexte d'interculturalité *               | 3ECTS     |
+| F23.00021                 | Communication interculturelle en formation*                          | 3ECTS     |
+| F23.00023                 | Enjeux économiques et politiques de l'éducation et de la formation * | 3ECTS     |
+| F23.00137                 | Enjeux contemporains autour de la petite enfance*                    | 3ECTS     |
+| F23.00075                 | Apprendre à apprendre*                                               | 3ECTS     |
+| F23.00031                 | Travail, emploi et compétences*                                      | 3ECTS     |
+| F23.00064                 | Déconstruire les mythes sur l'apprentissage*                         | 3ECTS     |
+| F23.00136                 | Ingénierie pédagogique et de formation*                              | 3ECTS     |
+| F24.01002                 | École et pédagogie inclusives*                                       | 3ECTS     |
+| F24.01051                 | Didactique générale*                                                 | 3ECTS     |
+
+## Modalités d ' évaluation
+
+Pour que le module soit validé, l'évaluation de chacune des 5 UE choisies doit être réussie. La compensation d'une évaluation insuffisante au sein du module n'est pas possible. En cas d'échec à une UE, l'étudiant·e peut la remplacer par une autre UE proposée dans le module. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+* Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 al. 4 du Règlement des études s'appliquent.
+
+## Modul 5: Masterarbeit
+
+Die  Masterarbeit  besteht  aus  einem  schriftlichen Teil  (Masterarbeit)  und  einem  mündlichen  Teil (Verteidigung).  Sie  kann  entweder  auf  Deutsch oder Französisch verfasst werden.
+
+Zum Verfassen der Masterarbeit gehört der obligatorische Besuch des Forschungskolloquiums.
+
+## Evaluation der Unterrichtseinheiten
+
+Die  Masterarbeit  wird  individuell,  das  heisst  von einer Person, im Anschluss an die Seminarthemen oder im Bereich der Theoriekompetenz geschrieben. Das Thema der Masterarbeit ist mit der oder dem verantwortlichen Betreuenden abzusprechen. Für das Verfassen und die Einreichung  der  Masterarbeit  gelten  die  aktuell gültigen  Bestimmungen des Departements sowie des  Dekanats,  die  auf  den  jeweiligen  Webseiten verfügbar sind. Die Zusammensetzung der Jury für die  Verteidigung  der  Masterarbeit  wird  von  der Studienprogrammleitung bestätigt.
+
+Wird die Masterarbeit in deutscher Sprache verfasst, wird keine Expertin bzw. kein Experte für die  Beurteilung  der  Masterarbeit  herangezogen. Die Beisitzerin bzw. der Beisitzer für die Verteidigung der Masterarbeit wird durch die Verantwortliche oder den Verantwortlichen für das deutschsprachige Studienprogramm bestimmt.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich dreissig Arbeitsstunden für die Studierenden. ECTS-Kreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Jeder  absolvierte  Leistungsnachweis  muss  mit bestanden  bewertet  werden,  damit  das  Studium validiert  werden  kann.  Die  oder  der  Dozierende informiert  zu  Beginn  der  Unterrichtseinheit  (UE) über die genauen Modalitäten der Evaluation der Unterrichtseinheit. Die Bewertung einer UE kann in einem  Teil  oder  in  mehreren  Teilen  erfolgen,  die während des Semesters und/oder während  einer Prüfungssession durchgeführt werden können. Die Bewertungen  können  in  Form  einer  mündlichen oder schriftlichen Prüfung, einer schriftlichen Arbeit, eines Vortrags, eines Berichts, eines Portfolios, einer komplexen Aufgabe, einer Validierungsaktivität usw. erfolgen. Bei einer mehrteiligen Bewertung erhalten die Studierenden, die nicht an allen Teilen teilnehmen, eine ungenügende Bewertung.
+
+Die Angaben zur Bewertung der Lehrveranstaltungen sowie die Modalitäten für die Erstellung  und  Abgabe  der  schriftlichen  Arbeiten
+
+## Module 5 : Mémoire de Master
+
+Le mémoire de Master représente une charge de travail de 30 crédits ECTS. Il comprend le travail écrit et la soutenance orale. Elle peut être écrit en français ou en allemand.
+
+Le  mémoire de Master comprend la participation obligatoire au colloque de recherche.
+
+## Modalités d ' évaluation
+
+La forme et les exigences du mémoire de Master sont précisées dans le Règlement des études de la Faculté  des  sciences  de  l'éducation  et de  la formation. Les consignes et informations détaillées concernant la réalisation du mémoire de Master en français au Département des sciences de l'éducation  sont  exposées  dans  les  documents disponibles sur le site internet du Département des sciences  de  l'éducation.  Pour  un  mémoire  de Master rédigé en français, un ou deux expert∙e∙s (dont au moins un·e ayant droit de superviser des mémoires)  évalue∙nt  avec  le  superviseur  ou  la superviseuse le mémoire de Master (partie écrite) et sa soutenance (partie orale). Ce∙tte expert∙e ou ces  expert∙e∙s  est  ou  sont  proposé∙e∙s  par  le superviseur ou la superviseuse du mémoire et la composition  du  jury  est validée par le ou  la responsable de programme d'études.
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un  crédit  ECTS  représente  en  moyenne  trente heures  de  travail  pour  l'étudiant·e.  Les  crédits ECTS sont attribués sur la base d'unités d'enseignement  jugées  suffisantes  (art. 3  chif. 7 et 14 du Règlement des études).
+
+Chaque  attestation  de  performance  obtenue  doit être évaluée comme réussie pour que les études puissent être validées. Le ou la chargé∙e de cours informe les étudiant∙e∙s au début de l'unité d'enseignement (UE) des modalités précises d'évaluation de celle-ci. L'évaluation d'une UE peut s'effectuer en une ou plusieurs parties qui peuvent être réalisées pendant le semestre et/ou pendant une  session  d'examen.  Les  évaluations  peuvent prendre  la  forme  d'un  examen  oral  ou  écrit,  d'un travail écrit, d'un exposé, d'un rapport, d'un portfolio,  d'une  tâche complexe, d'une activité de validation, etc. Dans  le cas d'une évaluation constituée de plusieurs parties, l'étudiant·e qui ne participe pas à toutes les parties obtient un échec à l'évaluation.
+
+Les indications concernant l'évaluation des UE de même que les modalités  pour  la  réalisation  et  la remise des travaux écrits  sont  données  dans  les
+
+finden sich in den Lehrveranstaltungsbeschreibungen im Vorlesungsverzeichnis der Universität  Freiburg.  Bezüglich  der  französischsprachigen Lehrveranstaltungen lassen sich weitere  Informationen  dem  «Guide  de  rédaction des  travaux  écrits»  entnehmen,  hinsichtlich  der deutschsprachigen Lehrveranstaltungen dem «Schreibleitfaden» sowie den Merkblättern für Seminar-  und  Masterarbeit.  Die  entsprechenden Dokumente sind auf der Homepage des Departements für Erziehungswissenschaften ersichtlich.
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich absolviert wurden.
+
+## 4.2 Anerkennung
+
+Mit  Ausnahme der Masterarbeit können alle Unterrichtseinheiten dieses Studienprogramms durch  eine  formale  Anerkennung  (im  Sinne  von Art. 3 Abs. 5 Anerkennungsrichtlinien) und im Rahmen  der  maximal  vorgesehenen Anzahl  von ECTS-Kreditpunkten  (Art. 3  Abs. 1)  angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die Studierenden müssen sich für jede Unterrichtseinheit  und  jede  Evaluation  über  den virtuellen Schalter gemäss  dem  Kalender  der Fakultät einschreiben (Art. 33 und 34 Studienreglement).
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Das Forschungskolloquium und  das Colloque  de recherche in Modul 1 stellen UE dar, die ausserhalb der Sessionen evaluiert werden.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder  «nicht  bestanden».  Die  für  die  benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben,  die  Noten  unterhalb  von  4  für  nicht bestandene  Leistungsnachweise  (Art. 22  und  23 Studienreglement).
+
+descriptifs des UE dans le programme des cours de l'Université de Fribourg. Pour les UE en français, des informations supplémentaires sont disponibles dans le « Guide de rédaction des travaux écrits », pour les UE en allemand dans le « Schreibleitfaden » ainsi que dans les directives relatives aux travaux de  séminaire  et au  Travail  de  Bachelor.  Ces documents correspondants sont disponibles sur le site  internet  du  Département  des  sciences  de l'éducation.
+
+Les  unités  d'enseignement  sont  regroupées  en modules. Un module est validé une fois que toutes les unités d'enseignement qui le composent ont été réussies.
+
+## 4.2 Reconnaissances
+
+Hormis le Mémoire de Master , toutes les UE de ce programme d'études peuvent potentiellement être validées par le biais d'une reconnaissance formelle (au sens de l'art. 3 al. 5 des Directives reconnaissances),  dans  la  limite  du  nombre  de crédits ECTS maximal prévu (art. 3 al. 1).
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du Règlement des études).
+
+## 4.4 Unités d'enseignement hors session
+
+Le Forschungskolloquium et le Colloque de recherche du module 1 constituent des UE qui sont évaluées hors session.
+
+## 4.5 Notation
+
+Les évaluations  sont  notées  ou  font  l'objet  d'une décision  « réussi »  ou  « échoué ».  L'échelle  de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 22 et 23 du Règlement des études).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden.  Gegebenenfalls  muss  sich  die  oder  der Studierende für den zweiten Versuch wieder einschreiben. Falls sie oder er den zweiten Versuch nicht  besteht,  gilt  diese  Unterrichtseinheit  oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für das betreffende Studienprogramm zuständigen Departementssekretariat  können  Studierende  in jedem  Studienprogramm  der  Fakultät  für  einen einzigen  Leistungsnachweis  und  nur  ein  einziges Mal einen dritten Versuch erhalten. Falls notwendig wird  für  diesen  dritten  Versuch  eine  zusätzliche Prüfungssession  gewährt.  Besteht  die  oder  der Studierende  diesen  einmaligen  dritten  Versuch nicht, so hat sie oder er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die Unterrichtseinheiten, für die ein dritter Versuch erlaubt ist, sind in Kapitel 3.3 aufgeführt.
+
+Wird ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann  nicht  fortgesetzt  werden,  wenn  eines  der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE wurde innerhalb von vier Prüfungssessionen nicht bestanden (Ausnahme: Verschiebung einer Prüfungssession aufgrund  von  Terminüberschneidungen  oder gerechtfertigter Abwesenheit);
+- die  maximal zulässige Studiendauer  gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Masterarbeit
+
+Die Note des Moduls Masterarbeit berechnet sich aus dem Durchschnitt der Note für den schriftlichen Teil  der  Masterarbeit  (mit  doppelter  Gewichtung) und der Note für die Verteidigung. Die Masterarbeit gilt als bestanden, wenn die Note für den schriftlichen Teil und die Note für die Verteidigung höher oder gleich 4 sind (Art. 75 Studienreglement). Eine abgegebene Masterarbeit darf  in  der  Regel  weder  zurückgezogen  noch abgeändert werden; falls doch, wird ein Misserfolg festgestellt (Art. 69 Abs. 2 Studienreglement).
+
+Wurde einer oder einem Studierenden die Zulassung  zur  Verteidigung  verweigert,  darf  sie oder er die Masterarbeit überarbeiten. Die
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e  ne  réussit  pas  la  deuxième  tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module. Sur demande auprès du secrétariat du Département, l'étudiant·e peut obtenir l'accès à une troisième tentative, pour une seule évaluation et une seule fois dans chaque programme d'études de la Faculté. Si nécessaire, une session d'examens supplémentaire est accordée pour cette troisième  tentative.  S'il/elle  ne  réussit  pas  cette unique  troisième  tentative,  il/elle  est  en  échec définitif à l'unité d'enseignement ou au module.
+
+Les  unités  d'enseignement  pour  lesquelles  une troisième  tentative  est  autorisée  sont  précisées dans le chapitre 3.3.
+
+En cas d'échec définitif  dans  un  programme d'études, l'étudiant·e ne peut plus poursuivre ses études dans ce programme d'études pendant une période de cinq ans à partir de la session d'examens concernée (art. 24  du  Règlement  des études).
+
+Les  études  sont  considérées  comme  échouées définitivement et ne peuvent être poursuivies si l ' un des critères suivants est rempli :
+
+- l ' UE obligatoire n ' a pas été validée lors des deux tentatives (exception faite de l ' éventuelle troisième tentative) ;
+- l ' UE  obligatoire  n ' a  pas  été  validée  dans  les quatre  sessions  (exception  faite  du  report  de session en raison de conflit horaire ou d ' absence justifiée) ;
+- la  durée  maximale  autorisée  pour  les  études (selon  art. 10  du  Règlement  des  études)  est dépassée.
+
+## 4.7 Mémoire de Master
+
+La note du module Mémoire de Master résulte de la  moyenne des notes attribuées  au mémoire de Master, partie écrite (avec pondération double) et à la soutenance. Le mémoire de Master est considéré comme réussi si la note du mémoire et la note de la soutenance sont égales ou supérieures à 4 (art. 75 du Règlement des études). En principe, un mémoire de Master déposé ne peut plus  être  retiré  ou  changé  sous  peine  d'échec (art. 69 al. 2 du Règlement des études).
+
+Un·e étudiant·e dont l'admission à la soutenance a été refusée est autorisé·e à remanier son mémoire de Master. Une décision motivée lui est communiquée sous forme écrite le superviseur ou
+
+Betreuerin oder der Betreuer teilt ihr oder ihm den begründeten Entscheid schriftlich mit und setzt ihr oder ihm eine angemessene Frist, um die Masterarbeit zu überarbeiten. Eine Kopie des Entscheids  wird  dem  Dekanat  zugestellt.  Eine Masterarbeit darf nur einmal überarbeitet werden. Wenn die Zulassung zur Verteidigung ein zweites Mal verweigert wird, bedeutet dies den endgültigen Misserfolg. Ist die Note für die Verteidigung ungenügend,  wird  ein  Misserfolg  festgestellt.  Die Betreuerin  oder  der  Betreuer  teilt  der  oder  dem Studierenden den begründeten Entscheid schriftlich mit und beruft innerhalb von drei Monaten eine neue Verteidigung ein. Eine Masterarbeit kann nicht mehr als zweimal verteidigt werden.
+
+## 4.8 Abschlussnote
+
+Die  Abschlussnote, die als Grundlage  für die Vergabe des Prädikats dient, entspricht dem Durchschnitt der nicht gerundeten und nicht gewichteten Noten der Module des Studienprogramms Major ;  Die  Note eines Moduls ergibt sich aus  dem  ungerundeten  und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt, ausser für das Modul Masterarbeit (Art. 77 des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester  2025  in  Kraft.  Er  gilt  für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum Zeitpunkt des Inkrafttretens dieses  Studienplans  bereits  im  Masterprogramm Erziehungswissenschaftent , Vertiefungsprogramm, 90 ECTS-Kreditpunkte der Philosophischen Fakultät eingeschrieben waren, unterliegen diesem Studienplan.  Die  vollständige  Anerkennung  der erworbenen  ECTS-Kreditpunkte  ist  gewährleistet. Während der Übergangszeit entscheidet die Studienprogrammverantwortliche, welche Unterrichtseinheiten  gemäss  diesem  Studienplan diejenigen ersetzen, die eventuell nicht mehr angeboten werden.
+
+la  superviseuse  et  un  délai  raisonnable  lui  est imparti pour remanier son mémoire de Master. Une copie de la décision doit être adressée au Décanat. Un mémoire de Master peut être remanié une seule fois. Un deuxième refus d'admission à la soutenance équivaut à un échec définitif. Lorsque la note attribuée à la soutenance est insuffisante, un  échec  est  constaté. Le  superviseur ou  la superviseuse  adresse  à  l'étudiant·e  une  décision écrite motivée et convoque une nouvelle soutenance dans un délai de trois mois. Un mémoire de Master ne peut être présenté plus de  deux  fois en soutenance.  En  cas  d'échec  définitif,  l'étudiant·e n'est pas autorisé·e à poursuivre ses études dans le programme d'études Major concerné.
+
+## 4.7 Note finale
+
+La note finale servant de base à l'attribution de la distinction correspond à la moyenne des notes non arrondies  et  non  pondérées  des  modules  du programme d'études Major ;  la  note  d'un  module résulte de la moyenne  non  arrondie et non pondérée des notes des unités d'enseignement qui le composent, hormis pour le module Mémoire de Master (art. 77 du Règlement des études).
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le  présent  plan  d'études  entre  en  vigueur  au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.
+
+L'étudiant·e qui, au moment de l'entrée en vigueur du présent plan d'études, était déjà inscrit·e dans le programme  Master  en Sciences  de  l'éducation , programme d'études approfondies, 90 crédits ECTS de  la  Faculté  des  lettres  et  des  Sciences humaines est soumis·e au présent plan d'études. Une reconnaissance complète des crédits acquis est garantie. Durant la période transitoire, le ou la responsable de programme d'études décide quelles  unités  d'enseignement  selon  le  présent plan d'études remplacent les unités qui ne seraient éventuellement plus proposées.

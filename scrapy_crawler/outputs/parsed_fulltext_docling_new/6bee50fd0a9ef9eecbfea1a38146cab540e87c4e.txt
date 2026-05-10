@@ -1,0 +1,294 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T21:20:07.721Z",
+  "title": "Philosophy_Master_90_Slavic_Studies_Studienplan_6bee50fd0a9ef9eecbfea1a38146cab540e87c4e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6bee50fd0a9ef9eecbfea1a38146cab540e87c4e",
+  "program_key": "philosophy|master|90|slavic studies",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Slavic Studies",
+  "doc_label": "Studienplan",
+  "source_url": "https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_MA30_2025_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/IZ758",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Slavic_Studies_Studienplan_6bee50fd0a9ef9eecbfea1a38146cab540e87c4e.pdf",
+  "sha256": "3e3fc070ecc2971e5464fc6709d22d4b7a84afc79d8449f52fbc885fdc6b7a18",
+  "fetched_at": "2026-04-03T11:31:15.713Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_MA30_2025_de.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Philosophische Fakultät Departement für Europastudien und Slavistik Studienbereich Slavistik
+
+## Slavistik Master (30 ECTS-Kreditpunkte, Nebenprogramm) Studienplan
+
+## 5. November 2024 [gültig ab Studienbeginn HS 2025]
+
+## Inhaltsverzeichnis
+
+|   1. | Gesetzliche Grundlagen ......................................................................................................... 1        |
+|------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|    2 | Beschreibung des Programms ............................................................................................... 1              |
+|    3 | Ausbildungsziele ..................................................................................................................... 2  |
+|    4 | Studienbeginn ......................................................................................................................... 2 |
+|    5 | Studiensprache ....................................................................................................................... 3  |
+|    6 | Allgemeine Organisation ......................................................................................................... 3       |
+|    7 | Beschreibung der Module ....................................................................................................... 3         |
+|    8 | Studienreisen und Exkursionen .............................................................................................. 4            |
+|    9 | Prüfungsmodalitäten ............................................................................................................... 5     |
+|   10 | Inkrafttreten und Übergangsmassnahmen ............................................................................. 5                     |
+
+## 1. Gesetzliche Grundlagen
+
+Der vorliegende Studienplan basiert auf dem Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät und auf der Fachkonvention BEFRI vom 15. November 2011 in Slavistik.
+
+## 2. Beschreibung des Programms
+
+## 2.1. Allgemeine Beschreibung des Programms
+
+Gemeinsam  mit  der  Universität  Bern  bieten  wir  ein  reichhaltiges  Angebot,  das  es  den Studierenden erlaubt, ihre zuvor erworbenen slavistischen Kompetenzen auf der Master-Stufe auszubauen und zu vertiefen. Die Lehrveranstaltungen umfassen Literaturund Kulturwissenschaften,  Sprachwissenschaften  sowie  Sprachkurse.  In  unseren  Kursen  stehen Fragen des interkulturellen Austauschs sowie der gesellschaftlichen Präsenz und Relevanz von
+
+'European
+
+Credit
+
+Transfer
+
+and
+
+Accumulation
+
+System'.
+
+FR
+
+:
+
+Freiburg.
+
+Selbstlernkurs.
+
+Semesterwochenstunde.
+
+VL:
+
+Vorlesung.
+
+Sprache und Literatur im Vordergrund.
+
+## 2.2. Allgemeine Struktur des Programms
+
+Das Studium im Nebenprogramm ist in 3 Module aufgeteilt. In den Modulen 1 und 2 (jeweils 12 ECTS-Kreditpunkte, im Weiteren: ECTS) erweitern die Studierenden ihre Kenntnisse der slavistischen Literatur- und Sprachwissenschaft sowie der Methoden des wissenschaftlichen Arbeitens  in  den  beiden  Bereichen  im  Rahmen  einer  Vorlesung  und  eines  Seminars,  und vertiefen eine eigene Fragestellung im Rahmen eines Selbstlernkurses (einer Übung, eines Essays  oder  einer  Exkursion).  Im  Modul  3  (6  ECTS)  erweitern  die  Studierenden  ihre Sprachkenntnisse.
+
+## 2.3. Zulassungsbedingungen
+
+Masterstudiengänge bauen auf die im Bachelorstudium erworbenen Kenntnisse und Fähigkeiten auf.
+
+Inhaber:innen eines universitären Bachelorabschlusses einer Schweizer Universitären Hochschule werden ohne Bedingungen zum Masterstudium zugelassen, wenn sie mindestens 30 ECTS-Kreditpunkte in derselben Studienrichtung (Slawische Sprachund Literaturwissenschaften) erworben haben und über Kenntnisse mindestens einer slavischen Sprache auf dem Niveau A2 nach dem Europäischen Referenzrahmen verfügen. Dasselbe Prinzip gilt für Inhaber:innen eines ausländischen universitären Bachelorabschlusses, der von der Universität Freiburg anerkannt wird.
+
+Darüber  hinaus  können  die  Inhaber:innen  eines  universitären  Bachelorabschlusses  in folgenden  Studienrichtungen  zugelassen  werden,  sofern  sie  über  Kenntnisse  mindestens einer  slavischen  Sprache  auf  dem  Niveau  A2  nach  dem  Europäischen  Referenzrahmen verfügen:  Ägyptologie,  Deutsche  SLW,  Englische  SLW,  Französische  SLW,  Geschichte, Global  Studies,  Iberoromanische  SLW,  Indologie,  Internationale  Beziehungen,  Islam-  und Nahoststudien,  Italienische  SLW,  Judaistik,  Klassische  Philologie,  Kommunikations-  und Medienwissenschaften,  Kunstgeschichte,  Linguistik,  Moderne  griechische  SLW,  Nordische SLW, Ostasienwissenschaft, Osteuropa-Studien 1 , Philosophie, Politikwissenschaft, Rätoromanische SLW, Religionswissenschaft, Sozial- und Kulturanthropologie / Ethnologie, Soziologie, Theater-, Tanzund Filmwissenschaft, Theologie, Vergleichende Literaturwissenschaft, Zentralasiatische Kulturwissenschaft.
+
+## 3. Ausbildungsziele
+
+Unseren  Absolvent:innen  stehen  vielfältige  Berufsperspektiven  offen.  Die  Länder  Ost-, Ostmittel-  und  Südosteuropas  haben  in  den  letzten  Jahren  immer  mehr  an  Bedeutung gewonnen.  Das  gilt  für  verschiedene  Bereiche  von  Wirtschaft  und  Politik  bis  Kultur  und Forschung. Die erworbenen Sprachund Kulturkenntnisse sowie wissenschaftliche Arbeitsweisen  befähigen  unsere  Absolvent:innen  beispielsweise  in  einen  der  folgenden Bereiche  einzusteigen:  Forschung  und  Wissenschaft,  Medien,  kulturelle  Zusammenarbeit, diplomatischer Dienst, Bundesverwaltung, internationale Behörden und Unternehmen, internationale Organisationen und NGOs.
+
+## 4. Studienbeginn und Studiendauer
+
+Das Studium kann im Herbst- oder Frühlingssemester aufgenommen werden. Wir empfehlen
+
+1 Universitäten Freiburg und Bern, nicht auf der 'Liste der Studienrichtungen' von Swissuniversities
+
+Verwendete Abkürzungen:
+
+BE: Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester.
+
+HS: Herbstsemester. SE: Seminar. SLK: Selbstlernkurs. SWS: Semesterwochenstunde. VL: Vorlesung.
+
+Ratifiziert durch die Studienkommission am 5. November 2024 [gültig ab Studienbeginn HS 2025].
+
+den Beginn im Herbstsemester. Die Studiendauer beträgt in der Regel 4 Semester.
+
+## 5. Studiensprache
+
+Das  Studium  der  Slavistik  ist  zweisprachig  integriert,  das  heisst  die  wissenschaftlichen Veranstaltungen werden in der Regel zweisprachig deutsch/französisch angeboten. In den Sprachkursen  wird  möglichst  früh  schon  in  der  Zielsprache  unterrichtet.  Die  Studierenden können ihre Prüfungen in deutscher, französischer, englischer oder - nach Absprache mit den Dozierenden - in einer slavischen Sprache nach Wahl ablegen. Ein 'Vermerk zweisprachig' wird nicht angeboten.
+
+## 6. Allgemeine Organisation
+
+Das Studium umfasst 3 Module:
+
+1. Literaturwissenschaft (12 ECTS)
+2. Sprachwissenschaft (12 ECTS)
+3. Sprachmodul (6 ECTS)
+
+## 7. Beschreibung der Module
+
+## Modul 1: Literaturwissenschaft
+
+|     |                                                         | Ort   | SWS   |   ECTS |
+|-----|---------------------------------------------------------|-------|-------|--------|
+| SE  | Seminar                                                 | FR    | 2     |      6 |
+| VL  | Vorlesung                                               | FR    | 2     |      3 |
+| SLK | Selbstlernkurs (Übung/Essay/Exkursion, gekoppelt an VL) | FR    | -/2   |      3 |
+|     |                                                         |       |       |     12 |
+
+Inhalt und Lernziele : Das Modul besteht aus einer Vorlesung, einem Seminar und einem Selbstlernkurs  (Übung/Essay/Exkursion)  mit  thematischem  Bezug  zur  Vorlesung.  Die Studierenden  befassen  sich  mit  ausgewählten  forschungsrelevanten  Themen  aus  dem Bereich  der  russischen,  polnischen,  ukrainischen  oder  bosnisch/kroatisch/serbisch/mon -tenegrinischen  Literatur-  und  Kulturgeschichte  (19.-21.  Jh.).  Im  Vordergrund  stehen Wechselbeziehungen  zwischen  der  Literatur  und  dem  sozial-  und  kulturgeschichtlichen Kontext (Philosophie, Kunst, Religion), Transferbeziehungen slavischer Kulturen/Literaturen untereinander sowie solche zwischen West und Ost. Die Studierenden lernen, wissenschaftliche Fragestellungen zu entwickeln und zu bearbeiten. Ausserdem vermittelt das  Modul  Kompetenzen  in  der  mündlichen  und  schriftlichen  Präsentation  literatur -wissenschaftlicher Forschungsergebnisse. Im Rahmen der Übung bzw. des Selbstlernkurses befassen sich die Studierenden unter Anleitung der/des Dozierenden der Vorlesung mit einem Thema, das in inhaltlichem Zusammenhang zur Vorlesung steht. Die Übung  kann  auch  die  Form  einer  regelmässig  stattfindenden  Präsenzveranstaltung annehmen.
+
+Evaluation: Seminar: aktive Teilnahme, Vortrag, schriftliche Leistung. Vorlesung: schriftliche  Prüfung.  Übung/Essay/Exkursion:  Selbstlernkurs  mit  mündlicher  Prüfung  / schriftlicher Essay zur Thematik der Vorlesung / Exkursion im fachlichen Zusammenhang mit der Vorlesung (Kurzpräsentation im Rahmen der Exkursion oder schriftlicher Bericht) ('bestanden/nicht bestanden').
+
+Verwendete Abkürzungen:
+
+Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester.
+
+Herbstsemester.
+
+SE:
+
+Seminar.
+
+Semesterwochenstunde.
+
+VL:
+
+Vorlesung.
+
+Modul 2: Sprachwissenschaft
+
+|     |                                                         | Ort   | SWS   |   ECTS |
+|-----|---------------------------------------------------------|-------|-------|--------|
+| SE  | Seminar                                                 | BE    | 2     |      6 |
+| VL  | Vorlesung                                               | BE    | 2     |      3 |
+| SLK | Selbstlernkurs (Übung/Essay/Exkursion, gekoppelt an VL) | BE    | -/2   |      3 |
+|     |                                                         |       |       |     12 |
+
+Inhalt und Lernziele: Das Modul besteht aus einer Vorlesung, einem Seminar und einem Selbstlernkurs  (Übung/Essay/Exkursion)  mit  thematischem  Bezug  zur  Vorlesung.  Die Studierenden befassen sich mit ausgewählten aktuellen forschungsrelevanten Themen aus dem  Bereich der russischen, polnischen, ukrainischen oder bosnisch/kroatisch/ser -bisch/montenegrinischen Sprachwissenschaft. Sie setzen sich mit Theorien, Methoden und Desiderata auseinander und lernen, diese wissenschaftlich einzuordnen, zu reflektieren und darauf aufbauend eigene Forschungsinteressen und -fragen zu entwickeln. Diese können sowohl im Bereich systemlinguistischer, soziolinguistischer als auch empirischer Fragestellungen  und  Analysen  liegen  und  z.B.  die  Mehrsprachigkeitsforschung,  den Sprachwandel, die Sprachgeschichte oder auch die Korpuslinguistik umfassen.
+
+Ausserdem  vermittelt  das  Modul  Kompetenzen  in  der  mündlichen  und  schriftlichen Präsentation sprachwissenschaftlicher Forschungsergebnisse. Im Rahmen der Übung bzw. des Selbstlernkurses befassen sich die Studierenden unter Anleitung der/des Dozierenden der  Vorlesung  mit  einem  Thema,  das  in  inhaltlichem  Zusammenhang  zu  der  in  der Vorlesung behandelten Problematik steht. Die Übung kann auch die Form einer regelmässig stattfindenden Präsenzveranstaltung annehmen.
+
+Evaluation: Seminar: aktive Teilnahme, Vortrag, schriftliche Leistung. Vorlesung: schriftliche oder mündliche Prüfung. Übung/Essay/Exkursion: Selbstlernkurs mit mündlicher Prüfung  /  schriftlicher  Leistung  zur  Thematik  der  Vorlesung  /  Exkursion  im  fachlichen Zusammenhang  mit  der  Vorlesung  (Kurzpräsentation  im  Rahmen  der  Exkursion  oder schriftlicher Bericht) ('bestanden/nicht bestanden').
+
+## Modul 3: Sprachmodul
+
+Die  Studierenden  erlernen  slavische  Sprachen  und/oder  erweitern  ihre  Kenntnisse  in  diesen Sprachen im Umfang von insgesamt 6 ECTS.
+
+Bei  sprachlichen  Vorkenntnissen,  die  den  Lernzielen  des  Moduls  entsprechen,  können  in Absprache mit der/dem Dozierenden Kompensationsleistungen (Übung, Tandem, Mitgestaltung des Sprachunterrichts) festgelegt werden.
+
+Je nach Angebot und nach Absprache mit der/dem Dozierenden kann ein Semesterkurs durch eine Studienreise/Exkursion ersetzt werden (3 ECTS).
+
+## 8. Studienreisen und Exkursionen
+
+Je nach Angebot und in Absprache mit den Dozierenden können Seminare oder Sprachkurse (3 ECTS) durch Studienreisen (FR) oder Exkursionen (BE) ersetzt werden. Wir unterscheiden zwischen  Studienreisen/Exkursionen  im  Rahmen  von  wissenschaftlichen  Modulen  und solchen,  die im Rahmen von Sprachmodulen  angerechnet werden. Studierende können in ihrem Studium mehrere Studienreisen/Exkursionen absolvieren.
+
+- 8.1. Bedingungen  für  Studienreisen/Exkursionen  im  Rahmen  von  wissenschaftlichen Modulen
+
+Verwendete Abkürzungen:
+
+Bern.
+
+ECTS:
+
+'European
+
+HS:
+
+Herbstsemester.
+
+Credit
+
+SE:
+
+Seminar.
+
+Transfer
+
+SLK:
+
+and
+
+Accumulation
+
+Selbstlernkurs.
+
+System'.
+
+FR
+
+:
+
+Freiburg.
+
+SWS:
+
+Semesterwochenstunde.
+
+FS:
+
+Frühjahrssemester.
+
+VL:
+
+Vorlesung.
+
+Eine Studienreise/Exkursion dauert in der Regel zwischen 3 und 14 Tagen. Sie umfasst eine thematische Vor- und Nachbereitung sowie aktive Mitarbeit vor Ort, etwa in Form von Referat plus Handout. Im Falle eines Misserfolgs kann die Leistung durch eine schriftliche  Arbeit  nach  Abschluss  der  Studienreise  erbracht  werden  (Umfang  und Abgabefrist  werden  von  den  verantwortlichen  Dozierenden  im  Vorfeld  der  Reise bekanntgegeben).
+
+- 8.2. Bedingungen für Studienreisen/Exkursionen im Rahmen von Sprachmodulen
+
+Die Studienreise/Exkursion dauert in der Regel zwischen 7 und 21 Tagen. Sie umfasst eine thematische Vorbereitung sowie aktive Mitarbeit vor Ort, das heisst regelmässige und aktive Teilnahme am angebotenen Sprachunterricht (incl.  schriftliche Übungen) sowie am kulturellen Rahmenprogramm (in Form von Projektarbeit, Kurzpräsentationen).  Im  Falle  eines  Misserfolgs  kann die  Leistung  durch  eine schriftliche  Arbeit  nach  Abschluss  der  Studienreise  erbracht  werden  (Umfang  und Abgabefrist  werden  von  den  verantwortlichen  Dozierenden  im  Vorfeld  der  Reise bekanntgegeben).
+
+## 9. Prüfungsmodalitäten
+
+## 9.1. Allgemeine Prüfungsmodalitäten
+
+Wenn nicht anders angegeben, werden die Lehrveranstaltungen mit Noten evaluiert. Es gilt die Notenskala  der  Universität,  welche  den  Unterricht  anbietet.  Die  Evaluationen  der  einzelnen Unterrichtseinheiten erfolgen in verschiedenen Formen: semesterbegleitende Überprüfung der Studienleistung, mündliche oder schriftliche Prüfung am Ende des Semesters oder schriftlicher oder mündlicher Nachweis über die im Selbststudium erbrachten Leistungen. Die Evaluationsform einer Unterrichtseinheit wird den Studierenden jeweils zu Beginn des Semesters von den Dozierenden mitgeteilt. Termine (Prüfungen, Abgaben) legen die jeweiligen Dozierenden fest  und  teilen  sie  den  Studierenden  rechtzeitig  mit.  Eine  nicht  bestandene  Evaluation  kann innerhalb der im Reglement vom 8. März 2018 vorgesehenen Frist von vier Prüfungssessionen einmal wiederholt werden. Falls auch der zweite Versuch ungenügend  ist, gilt diese Unterrichtseinheit als definitiv nicht bestanden (Reglement vom 8. März 2018, Art. 15 Abs. 4), s. unten Punkt 9.3.
+
+## 9.2. Endgültiger Misserfolg
+
+Die  maximale  Studiendauer beträgt 12 Semester. Eine Überschreitung der  maximalen Studiendauer  führt  zum  endgültigen  Ausschluss  aus  den  Studienprogrammen  der  Slavistik (Reglement vom 8, März 2018, Art. 34, Abs. 1 u. 2). Eine Verlängerung kann beim Dekanatsrat beantragt werden (vgl. Reglement vom 8. März 2018, Art. 49).
+
+## 9.3. Modulnote und Gesamtnote
+
+Die Note eines Moduls ergibt sich aus dem Durchschnitt aller in dem Modul erlangten Noten. Die Modulnoten fliessen nach Umfang (ECTS) der Module gewichtet in die Gesamtnote ein.
+
+## 10. Inkrafttreten und Übergangsmassnahmen
+
+Der Studienplan wurde ratifiziert durch die Studienkommission am 5. November 2024. Er tritt mit dem Herbstsemester 2025 in Kraft. Studierende, die zuvor ihr Studium im Bereich Slavistik aufgenommen haben, können es nach den Regelungen des neuen Studienplans fortsetzen. Es genügt ein schriftlicher Antrag, der an den/die Verantwortliche:n des Studienbereichs zu
+
+Verwendete Abkürzungen:
+
+BE: Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester.
+
+HS: Herbstsemester. SE: Seminar. SLK: Selbstlernkurs. SWS: Semesterwochenstunde. VL: Vorlesung.
+
+Ratifiziert durch die Studienkommission am 5. November 2024 [gültig ab Studienbeginn HS 2025].
+
+richten ist . Studierende,  die ihr Studium  der  Slavistik  vor  dem Herbstsemester  2025 aufgenommen haben, dürfen bis im Frühlingssemester 2027 zu den Bedingungen des vorher gültigen Studienplans studieren. Danach sind sie verpflichtet, ihr Studium zu den Bedingungen des hier vorliegenden Studienplans fortzusetzen.
+
+Seminar.
+
+SLK:
+
+Selbstlernkurs.
+
+SWS:
+
+Semesterwochenstunde.
+
+VL:
+
+Vorlesung.
+
+6

@@ -1,0 +1,343 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T16:02:37.569Z",
+  "title": "UNK_Bachelor_150_Physics_Branche_principale_en_sciences_de_la_Terre_10a99154aa77cb1baa2489ca196a64d5316b9d17",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "10a99154aa77cb1baa2489ca196a64d5316b9d17",
+  "program_key": "|bachelor|150|earth sciences",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 150,
+  "program_name": "Earth Sciences",
+  "doc_label": "Branche principale en sciences de la Terre",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2019/Plan_BSc_ST_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/earthsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Branche_principale_en_sciences_de_la_Terre_10a99154aa77cb1baa2489ca196a64d5316b9d17.pdf",
+  "sha256": "0dfde2e46ea66082487371c6f097bd574b57509b9a9ba48fb0727560e663fd64",
+  "fetched_at": "2026-04-03T11:27:58.269Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2019/Plan_BSc_ST_fr.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_ST_fr.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Bachelor of Science en sciences de la Terre
+
+Accepté par la Faculté des sciences et de médecine le 22.03.2004 Version révisée du 27.05.2019
+
+## Table des matières
+
+|   TABLE DES MATIERES ............................................................................................................. 2 | TABLE DES MATIERES ............................................................................................................. 2                 | TABLE DES MATIERES ............................................................................................................. 2                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                  1   | GENERALITES..................................................................................................................... 3                 | GENERALITES..................................................................................................................... 3                                                   |
+|                                                                                                                                  1.1 | Titres universitaires et voies d'études ............................................................................................. 3            | Titres universitaires et voies d'études ............................................................................................. 3                                              |
+|                                                                                                                                  1.2 | Structure générale des études de bachelor..................................................................................... 3                   | Structure générale des études de bachelor..................................................................................... 3                                                     |
+|                                                                                                                                  1.3 | Compétences acquises...................................................................................................................... 4       | Compétences acquises...................................................................................................................... 4                                         |
+|                                                                                                                                  1.4 | Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS........................... 4                                            | Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS........................... 4                                                                              |
+|                                                                                                                                  1.5 | Langues d'enseignement................................................................................................................... 5        | Langues d'enseignement................................................................................................................... 5                                          |
+|                                                                                                                                  1.6 | Ethique scientifique............................................................................................................................ 5 | Ethique scientifique............................................................................................................................ 5                                   |
+|                                                                                                                                  1.7 | Règlements et informations complémentaires................................................................................ 5                       | Règlements et informations complémentaires................................................................................ 5                                                         |
+|                                                                                                                                  2   | BACHELOR OF SCIENCE (BSC) EN SCIENCES DE LA TERRE...................................... 6                                                          | BACHELOR OF SCIENCE (BSC) EN SCIENCES DE LA TERRE...................................... 6                                                                                            |
+|                                                                                                                                  2.1 | La première année d'études .............................................................................................................. 6        | La première année d'études .............................................................................................................. 6                                          |
+|                                                                                                                                      | 2.1.1                                                                                                                                              | Unités d'enseignement de la première année.......................................................................................6                                                   |
+|                                                                                                                                      | 2.1.2                                                                                                                                              | Contenu des UE de la première année...................................................................................................7                                              |
+|                                                                                                                                      |                                                                                                                                                    | Les cours..........................................................................................................................................................................7 |
+|                                                                                                                                      |                                                                                                                                                    | Travaux pratiques, excursions et stage de terrain ...........................................................................................................7                       |
+|                                                                                                                                      |                                                                                                                                                    | Les branches propédeutiques..........................................................................................................................................7               |
+|                                                                                                                                  2.2 | La deuxième et la troisième année d'études ................................................................................... 8                   | La deuxième et la troisième année d'études ................................................................................... 8                                                     |
+|                                                                                                                                      | 2.2.1                                                                                                                                              | Unités d'enseignement de la 2 e année...................................................................................................8                                            |
+|                                                                                                                                      | 2.2.2                                                                                                                                              | Unités d'enseignement de la 3 e année...................................................................................................9                                            |
+|                                                                                                                                      | 2.2.3                                                                                                                                              | Contenu des UE de la 2 e et de la 3 e année...........................................................................................10                                             |
+|                                                                                                                                      |                                                                                                                                                    | cours........................................................................................................................................................................10      |
+|                                                                                                                                      |                                                                                                                                                    | Les Les travaux pratiques, excursions et stages de terrain..................................................................................................10                       |
+|                                                                                                                                      |                                                                                                                                                    | Les colloques et séminaires...........................................................................................................................................10             |
+|                                                                                                                                      |                                                                                                                                                    | Le Travail de recherche dirigé (travail de Bachelor) ......................................................................................................10                        |
+|                                                                                                                                  2.3 | Evaluations et validations................................................................................................................ 11      | Evaluations et validations................................................................................................................ 11                                        |
+
+## 1 Généralités
+
+Ce  plan  d'études  contient  toutes  les  informations  nécessaires  aux  étudiant-e-s  qui  souhaitent entreprendre  des  études  en  Sciences  de  la  Terre  à  la  Faculté  des  sciences  et  de  médecine  de l'Université  de  Fribourg.  Il  est  soumis  aux  conditions  du Règlement  du  2  février  2004  pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine (appelé ci-après Règlement).
+
+Dans le cas de versions successives d'un plan d'études, l'étudiant-e est soumis-e à la dernière version en vigueur.
+
+## 1.1  Titres universitaires et voies d'études
+
+La Faculté des sciences et de médecine décerne, aux étudiant-e-s qui ont accompli avec succès leurs études, les titres officiels suivants:
+
+-  Bachelor of Science en sciences de la Terre , ci-après BSc
+-  Joint Master of Science in Earth Sciences (BeFri) , ci-après MSc
+
+La voie d'études du BSc en sciences de la Terre offre une bonne formation scientifique de base en Géologie et une ouverture sur les autres domaines des géosciences. Le BSc en sciences de la Terre  permet  l'accès  à  une  formation  approfondie  dans  le  cadre  d'un  MSc  in  Earth  Sciences. Tous les titulaires d'un diplôme de maturité fédérale ou d'un titre jugé équivalent sont admis aux études de BSc en sciences de la Terre (voir Art. 6 du Règlement).
+
+La voie d'études du MSc in Earth Sciences est coordonnée entre les Universités de Berne, et de Fribourg  (BeFri).  Ce  MSc  répond  aux  exigences  de  l'Association  suisse  des  géologues CHGEOL. Il garantit ainsi la qualité requise pour la vie professionnelle.
+
+Les titulaires d'un titre de BSc en sciences de la Terre de l'Université de Fribourg ou d'une autre Haute École suisse sont admis aux études de MSc in Earth Sciences (Art. 7 du Règlement). Les détenteurs d'un BSc acquis dans une autre discipline ou d'un diplôme équivalent (par exemple diplôme  d'une  HES)  peuvent  être  admis  aux  études  de  MSc  sur  décision  de  la  Faculté  des sciences et de médecine. Des prestations complémentaires ou préalables peuvent être exigées.
+
+Le MSc est le capital de base d'une activité orientée vers la recherche et la formation scientifique spécialisée dans le cadre d'un doctorat (PhD).
+
+## 1.2  Structure générale des études de bachelor
+
+Les  études  de  BSc  sont  composées d'unités  d'enseignement  (UE) telles  que  les  cours,  les travaux pratiques, les excursions ou les stages de terrain. À chaque UE est associé un nombre de points ECTS 1 ,  transformables en crédits ECTS par une procédure d'évaluation. Les études de BSc requièrent l'acquisition de 180 crédits ECTS (6 semestres).
+
+Les études de BSc en sciences de la Terre se composent de la branche principale de 150 ECTS et d'une branche complémentaire au choix de 30 ECTS. La branche principale comprend les UE obligatoires de Géosciences et de Sciences de la Terre ainsi que les UE de deux branches propédeutiques à choisir entre Mathématiques, Informatique, Physique, Chimie et Biologie. La branche  principale  Sciences  de  la  Terre  représente  126  crédits  ECTS,  les  branches  propédeutiques  12  crédits  ECTS  chacune.  La  branche  complémentaire  doit  être  choisie  dans  une  autre discipline que la branche principale. Il y a le choix entre Géographie, Sciences de l'environne-
+
+1 ECTS est l'abréviation de European Credit Transfer System. 1 crédit ECTS correspond à environ 30 heures de travail effectif.
+
+ment,  Biologie,  Informatique,  Physique,  Chimie,  Chimie  technique  (en  collaboration  avec l'Ecole  d'Ingénieurs  et  d'Architectes  de  Fribourg),  Biochimie  et  Mathématiques.  L'étudiant-e qui  souhaite  choisir  une  autre  branche  complémentaire  s'adresse  au  conseiller  aux  études  en Sciences de la Terre.
+
+La durée normale des études en vue de l'obtention du MSc in Earth Sciences est de 4 semestres. Ces études doivent réunir un ensemble de 120 crédits ECTS. Certains cours sont obligatoires, d'autres  seront  choisis  dans  une  liste  de  cours  et  travaux  pratiques  recommandés  selon  la spécialisation. Un certain nombre de cours sont à choix libre et peuvent être pris en dehors de l'offre  BeFri.  Le  choix  des  UE  doit  être  discuté  avec  l'enseignant-e  qui  encadre  le  travail  de Master. Le travail de Master correspond à 60 crédits ECTS. Les UE suivies dans la voie d'études du MSc ne peuvent être évaluées et validées (voir 1.3) qu'après la réussite du BSc.
+
+Pour mener l'étudiant-e au BSc, le plan d'études prévoit des UE sous diverses formes :
+
+-  Les cours initient à la rigueur et à la démarche scientifique. Ils aident à acquérir les connaissances essentielles et à comprendre les concepts fondamentaux.
+-  Les cours-bloc concentrent l'enseignement en quelques jours.
+-  Les travaux pratiques accompagnent les cours et sont essentiels pour l'apprentissage de l'observation et de l'interprétation d'objets géologiques.
+-  Les excursions servent à visualiser sur le terrain les sujets traités dans les cours.
+-  Les stages de terrain permettent à l'étudiant-e de s'exercer entre autres en cartographie géologique et en analyses stratigraphiques.
+-  Le travail de Bachelor est un travail de recherche dirigé sur le terrain et/ou en laboratoire.
+
+## 1.3  Compétences acquises
+
+Avec  l'obtention  d'un BSc  en  sciences  de  la  Terre ,  l'étudiant-e  aura  consolidé  ses  bases scientifiques et acquis une connaissance générale en sciences de la Terre et une vision large du domaine des géosciences. Il aura développé une faculté de synthèse et une pensée critique qui lui permettront d'aborder des études approfondies ou une spécialisation dans son domaine.
+
+Avec chaque branche propédeutique, l'étudiant-e aura acquis des connaissances de base dans une discipline autre que sa branche principale, facilitant la compréhension de celle-ci. Elle lui offrira de plus une culture scientifique élargie.
+
+Avec l'acquisition d'une branche complémentaire dans le cadre de son BSc, l'étudiant-e aura développé  une  ouverture  à  l'interdisciplinarité,  lui  facilitant  à  l'avenir  le  dialogue  et  la collaboration avec des spécialistes d'autres disciplines.
+
+Grâce à une formation bilingue intégrée,  l'étudiant-e  aura  enrichi  son  vocabulaire  spécifique dans deux langues et acquis la capacité de dialoguer, dans ses branches d'études, avec des spécialistes aussi bien en français qu'en allemand.
+
+## 1.4  Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS
+
+L'acquisition des crédits ECTS passe par trois étapes : l'évaluation des UE, le regroupement des UE en paquets de validation et la validation des crédits ECTS.
+
+L'évaluation des travaux pratiques, des cours-bloc, des excursions et des stages de terrain se fait suivant des critères énoncés en début de semestre. Ces UE sont validées immédiatement à leur fin.  Les  modalités  d'examen  et  la  durée  des  épreuves  sont  fixées  dans  des  annexes  aux  plans d'études, par exemple dans les Modalités d'évaluation des UE des sciences de la Terre ainsi que les Modalités  d'évaluation  des  UE  de  la  géographie  et  des  géosciences .  Les  épreuves  se déroulent, en général, durant trois sessions d'examens (printemps, été, automne). Pour chaque
+
+épreuve, l'étudiant-e s'inscrit dans les délais prescrits par la Faculté des sciences et de médecine par le portail d'étudiant-e-s MyUniFR (https://my.unifr.ch), accessible avec le compte personnel et le mot de passe fournis par l'Université. L'épreuve porte sur la matière de l'UE telle qu'elle a été enseignée la dernière fois. En cas d'exception, celle-ci sera communiquée par le Département et/ou par l'enseignant responsable. L'échelle des notes s'étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois au plus tôt lors de la session d'examens suivante.
+
+Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément. Le nombre  de  paquets  est  fixé  par  l'Art.  18  du  Règlement  et  le  contenu  est  précisé  par  ce  plan d'études.
+
+La validation des crédits ECTS (Art. 19 du règlement) consiste à transformer les points ECTS attribués à chaque UE en crédits ECTS pour autant que :
+
+-  La moyenne pondérée des notes des épreuves du paquet de validation soit d'au moins 4.0. La pondération est fournie par le nombre de points ECTS attribué aux UE d'une épreuve.
+-  Les critères d'évaluation des UE non examinés (travaux pratiques, cours-bloc, excursions, stages de terrain) aient été remplis.
+-  Il n'y ait aucune note égale à 1.0.
+
+On dira dans ce cas que le paquet a été validé et que les points ECTS sont transformés en crédits. À  ce  stade,  sur  demande  de  l'étudiant-e  et  après  acquittement  de  la  taxe  d'examen,  une attestation indiquant les résultats des évaluations et le nombre de crédits acquis sera délivrée par le Décanat (Art. 22 du Règlement).
+
+## 1.5  Langues d'enseignement
+
+Les enseignements des études de BSc sont donnés en français ou en allemand. Toutefois, l'étudiant-e a toujours la possibilité de s'exprimer dans l'une ou l'autre de ces langues. Les enseignements en 3 e année peuvent parfois être donnés en anglais. Les examens, les présentations et les travaux écrits peuvent être effectués, au choix, en français ou en allemand.
+
+## 1.6  Éthique scientifique
+
+Les principes d'éthique font partie intégrante de la formation scientifique. Les règles internationalement  admises  doivent  être  respectées  lors  de  l'élaboration  et  la  rédaction  de  tout  travail scientifique  (projet,  séminaire,  travail  de  Bachelor  et  de  Master,  rapport,  etc.).  En  particulier, toute  source  externe  d'information  (articles,  communications  orales,  page  web,  etc.)  doit  être correctement citée.
+
+## 1.7  Règlements et informations complémentaires
+
+De plus amples informations concernant les études en sciences de la Terre sont contenues dans les  documents  cités  sur  la  page  web  à  l'adresse  http://www3.unifr.ch/scimed/fr/plans.  Ils  sont disponibles  au  Secrétariat  de  l'Unité  des  Sciences  de  la  Terre,  Département  de  Géosciences, Université de Fribourg, Ch. du Musée 6, CH-1700 Fribourg.
+
+## 2 Bachelor of Science (BSc) en sciences de la Terre
+
+[Version 2018, paquets de validation : PV-SST.0000001, PV-SST.0000004]
+
+Le programme du BSc s'étend sur 3 ans d'études et équivaut à 180 crédits ECTS. Il comprend la branche  principale  à  150  ECTS  (126  ECTS  en  sciences  de  la  Terre  et  2x12  ECTS  dans  des branches propédeutiques) et une branche complémentaire à 30 ECTS.
+
+## 2.1  La première année d'études
+
+La  première  année  d'études  en  sciences  de  la  Terre  a  pour  objectif  d'assurer  la  meilleure transition  possible  entre  le  gymnase  et  l'université.  Elle  propose  des  cours  d'introduction  aux géosciences, à la géologie et à la minéralogie. Afin de permettre à l'étudiant-e de pouvoir assez tôt mesurer ses capacités, les UE de la première année ont été regroupées en un premier paquet de validation.
+
+## 2.1.1  Unités d'enseignement de la première année
+
+## Semestre 1 (automne)
+
+| Code      | Unité d'enseignement                                                                                            | h. tot.   |   ECTS |
+|-----------|-----------------------------------------------------------------------------------------------------------------|-----------|--------|
+|           | Géosciences                                                                                                     |           |        |
+| SGS.00101 | Introduction aux géosciences, partie 1 (cours)                                                                  | 28        |      3 |
+| SGS.00103 | Introduction aux géosciences, partie 1 (travaux pratiques)                                                      | 42        |      3 |
+| SGS.00105 | Epistémologie des géosciences (cours)                                                                           | 28        |      3 |
+|           | Sciences de la Terre                                                                                            |           |        |
+| SST.00105 | Minéraux et roches (cours)                                                                                      | 28        |      3 |
+| SST.00106 | Minéraux et roches (travaux pratiques) 1                                                                        | 28        |      2 |
+| SST.00115 | Excursions de géologie I                                                                                        | 3 jours   |      1 |
+|           |                                                                                                                 |           |     15 |
+|           | Branches propédeutiques                                                                                         |           |        |
+|           | Deux branches à choix parmi Mathématiques, Informatique, Physique, Chimie (variante A) et Biologie (variante I) |           |     12 |
+
+1 Ces excursions peuvent également se prolonger durant le semestre de printemps
+
+## Semestre 2 (printemps)
+
+| Code      | Unité d'enseignement                                                                                            | h. tot.   |   ECTS |
+|-----------|-----------------------------------------------------------------------------------------------------------------|-----------|--------|
+|           | Géosciences                                                                                                     |           |        |
+| SGS.00102 | Introduction aux géosciences, partie 2 (cours)                                                                  | 28        |      3 |
+| SGS.00104 | Introduction aux géosciences, partie 2 (travaux pratiques)                                                      | 42        |      3 |
+| SGS.00106 | Histoire de la Terre (cours)                                                                                    | 28        |      3 |
+| SGS.00107 | Histoire de la Terre (travaux pratiques)                                                                        | 14        |      1 |
+| SGS.00156 | Cartographie et introduction aux SIG (cours)                                                                    | 28        |      3 |
+| SGS.00157 | Cartographie et introduction aux SIG (travaux pratiques)                                                        | 28        |      2 |
+|           | Sciences de la Terre                                                                                            |           |        |
+| SST.00113 | Géologie générale (cours)                                                                                       | 28        |      3 |
+| SST.00114 | Géologie générale (travaux pratiques)                                                                           | 28        |      2 |
+| SST.00116 | Stage de terrain I                                                                                              | 3 jours   |      1 |
+| SST.00116 |                                                                                                                 |           |     21 |
+|           | Branches propédeutiques                                                                                         |           |        |
+|           | Deux branches à choix parmi Mathématiques, Informatique, Physique, Chimie (variante A) et Biologie (variante I) |           |     12 |
+
+## 2.1.2  Contenu des UE de la première année
+
+Pour chaque UE, un descriptif détaillé est disponible dans le programme de cours (http://www.unifr.ch/timetable)  avec  en  particulier  un  descriptif  du  contenu  et  des  objectifs d'apprentissage.
+
+## Les cours
+
+Les  cours  de  base  d' Introduction  aux  géosciences ( SGS.00101,  SGS.00102,  SGS.00103 et SGS.00104 )  sont  destinés  à  donner  un  aperçu  général  du  domaine  (l'Homme  et  son  milieu, espace,  territoire,  environnement  physique,  structure  de  la  Terre,  lithosphère,  hydrosphère, atmosphère).  L'accent  est  mis  sur  les  interactions  entre  les  deux  disciplines  des  géosciences : géographie et sciences de la Terre. Le cours d' Histoire de la Terre ( SGS.00106 et SGS.00107 ) retrace l'évolution de la planète à travers les temps géologiques. Le cours de Géologie générale ( SST.00113 et SST.00114 )  et  le  cours  sur  les Minéraux et roches ( SST.00105 et SST.00106 ) permettent d'approfondir les notions de base en sciences de la Terre et de se familiariser avec les matériaux constitutifs de la lithosphère. Le cours de Cartographie et introduction aux SIG ( SGG.00156 et SGG.00157 )  vise  à  établir  les  bases  de  l'interprétation  et  de  la  réalisation  de cartes  thématiques  et  des  plans  produits  manuellement  ou  à  l'aide  d'outils  informatiques appropriés. Le cours d' Epistémologie des géosciences ( SGS.00105 ) retrace l'histoire des idées et des méthodes mises en œuvre dans le domaine.
+
+## Travaux pratiques, excursions et stage de terrain
+
+Les  cours  sont  accompagnés  de  travaux  pratiques  qui  permettent  à  l'étudiant-e  d'avoir  une approche pratique par le biais d'exercices et la manipulation d'échantillons (minéraux, roches et fossiles). Le premier contact avec le terrain se fait lors des Excursions ( SST.00115 ) qui illustrent une partie des sujets traités dans les cours. Lors du Stage de terrain ( SST.00116 ),  l'étudiant-e exécute un travail personnel de cartographie et de lever de coupes stratigraphiques.
+
+## Les branches propédeutiques
+
+Les branches propédeutiques offrent une formation élémentaire dans des disciplines autres que les  sciences  de  la  Terre.  Selon  les  préférences  de  l'étudiant-e  et  l'orientation  souhaitée,  deux branches  propédeutiques  sont  à  choisir  entre  Mathématiques,  Informatique,  Physique,  Chimie
+
+(variante A) ou Biologie (variante I). Pour chacune de ces branches, les UE d'une valeur totale de 12 ECTS sont fixées par le département concerné. Pour plus de détails, se référer au Plan d'études  des  branches  propédeutiques  et  complémentaires  de  la  Faculté  des  sciences  et  de médecine de l'Université de Fribourg.
+
+## 2.2  La deuxième et la troisième année d'études
+
+Durant la 2 e et  la  3 e année d'études, en complément aux unités d'enseignement de la branche principale,  l'étudiant-e  devra  aussi  suivre  les  UE  de  la  branche  complémentaire  qu'il/elle  a choisie. Les évaluations de toutes ces UE sont distribuées sur les 2 ans. Il appartient à chacun-e de les répartir régulièrement dans le temps afin de pouvoir terminer les études de BSc dans les 3 ans  prévus.  En  2 e année,  l'étudiant-e  commence  à  suivre  certaines  UE  de  la branche complémentaire (30  ECTS).  Ces  UE  proposées  par  le  département  concerné  sont  spécifiées dans  les Plans  d'études  des  branches  propédeutiques  et  complémentaires de  la  Faculté  des sciences et de médecine. L'étudiant-e doit s'informer suffisamment tôt sur le programme afin de pouvoir établir au mieux l'horaire des UE de la branche complémentaire.
+
+## 2.2.1  Unités d'enseignement de la 2 e année
+
+## Semestre 3 (automne)
+
+| Code      | Unité d'enseignement                          |   h. tot. |   ECTS |
+|-----------|-----------------------------------------------|-----------|--------|
+|           | Sciences de la Terre                          |           |        |
+| SST.00203 | Paléontologie (cours)                         |        28 |      3 |
+| SST.00218 | Paléontologie (travaux pratiques)             |        28 |      2 |
+| SST.00205 | Sédimentologie (cours)                        |        28 |      3 |
+| SST.00206 | Tectonique (cours)                            |        28 |      3 |
+| SST.00207 | Minéralogie-Cristallographie (cours)          |        28 |      3 |
+| SST.00208 | Pétrologie des magmatites (cours)             |        28 |      3 |
+| SST.00219 | Pétrologie des magmatites (travaux pratiques) |        28 |      2 |
+| SST.00224 | Cartes et profils I (travaux pratiques)       |        28 |      2 |
+|           | Branche complémentaire                        |           |     21 |
+
+## Semestre 4 (printemps)
+
+| Code      | Unité d'enseignement                             | h. tot.   |   ECTS |
+|-----------|--------------------------------------------------|-----------|--------|
+|           | Sciences de la Terre                             |           |        |
+| SST.00201 | Géologie régionale (cours)                       | 28        |    3   |
+| SST.00210 | Sédimentologie (cours et travaux pratiques)      | 28        |    2   |
+| SST.00211 | Tectonique (cours et travaux pratiques)          | 28        |    2   |
+| SST.00212 | Minéralogie-Cristallographie (travaux pratiques) | 28        |    2   |
+| SST.00213 | Microscopie des magmatites (travaux pratiques)   | 28        |    2   |
+| SST.00214 | Microscopie optique (travaux pratiques)          | 28        |    2   |
+| SST.00221 | Excursions de géologie IIA                       | 5 jours   |    2   |
+| SST.00222 | Excursion de géologie IIB                        | 5 jours   |    2   |
+| SST.00223 | Stage de terrain II                              | 5 jours   |    2   |
+| SST.00225 | Cartes et profils II (travaux pratiques)         | 28        |    2   |
+| SST.00226 | Excursion de géologie IIC                        | 3 jours   |    1.5 |
+| SST.00227 | Méthodes de minéralogie (travaux pratiques)      | 28        |    2   |
+| SGG.00316 | Introduction à la géophysique (cours)            | 14        |    2   |
+|           |                                                  |           |   26.5 |
+
+## 2.2.2  Unités d'enseignement de la 3 e année
+
+## Semestre 5 (automne)
+
+| Code      | Unité d'enseignement                                                       |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------------------------------|-----------|--------|
+|           | Sciences de la Terre                                                       |           |        |
+| SST.00302 | Microscopie sédimentaire (travaux pratiques)                               |        28 |    2   |
+| SST.00303 | Micropaléontologie générale (cours)                                        |        28 |    3   |
+| SST.00304 | Micropaléontologie générale (travaux pratiques)                            |        28 |    2   |
+| SST.00305 | Terrains instables (cours)                                                 |        28 |    3   |
+| SST.00308 | Géochimie (cours)                                                          |        28 |    3   |
+| SST.00324 | Colloques de géosciences                                                   |        14 |    0.5 |
+| SGG.00262 | Géomorphologie et quaternaire, partie 1 (cours)                            |        28 |    3   |
+| SGG.00317 | Introduction à la géophysique (travaux pratiques)                          |        28 |    2   |
+|           |                                                                            |           |   18.5 |
+|           | Branche complémentaire (voir les UE proposées par le département concerné) |           |        |
+
+## Semestre 6 (printemps)
+
+(voir les UE proposées par le département concerné)
+
+| Code      | Unité d'enseignement                                      | h. tot.   |   ECTS |
+|-----------|-----------------------------------------------------------|-----------|--------|
+|           | Sciences de la Terre                                      |           |        |
+| SST.00307 | Géologie technique (cours)                                | 28        |    3   |
+| SST.00311 | Méthodes de sédimentologie (cours-bloc)                   | 5 jours   |    2.5 |
+| SST.00312 | Pétrologie des métamorphites (cours et travaux pratiques) | 28        |    2   |
+| SST.00313 | Microscopie des métamorphites (travaux pratiques)         | 28        |    2   |
+| SST.00318 | Excursions de géologie IIIA                               | 3 jours   |    1.5 |
+| SST.00322 | Excursions de géologie IIIB                               | 8 jours   |    4   |
+| SST.00323 | Séminaire de sciences de la Terre                         | -         |    1   |
+| SST.00325 | Stage de terrain III                                      | 6 jours   |    3   |
+| SST.00317 | Travail de recherche dirigé (travail de Bachelor)         | -         |    5   |
+|           |                                                           |           |   24   |
+|           | Branche complémentaire                                    |           |        |
+
+## 2.2.3  Contenu des UE de la 2 e et de la 3 e année
+
+## Les cours
+
+-  Le cours Géologie régionale ( SST.00201 ) décrit la structure géologique de la Suisse.
+-  Le cours Paléontologie ( SST.00203 ) présente la systématique des fossiles et leur signification environnementale, ainsi que l'évolution de la vie.
+-  La Sédimentologie ( SST.00205 et SST.00210 ) s'occupe des processus d'érosion, de transport et de dépôt de sédiments aujourd'hui et dans le passé.
+-  Le cours Tectonique ( SST.00206 ) décrit la déformation de la croûte terrestre et les méthodes d'analyse structurale.
+-  Le cours Minéralogie-Cristallographie ( SST.00207 ) analyse la composition, la structure et le comportement physique et chimique des composantes des roches.
+-  Dans les cours de Pétrologie des magmatites ( SST.00208 )  et Pétrologie des métamorphites ( SST.00312 ),  les  approches  expérimentales  pour  comprendre  les  processus  magmatiques  et métamorphiques sont présentées.
+-  Le  cours Micropaléontologie  générale ( SST.00303 )  classifie  et  interprète  les  microfossiles qui sont aussi utilisés pour dater les roches.
+-  Dans le cours Géomorphologie et quaternaire, partie 1 ( SGG.00262 ), les dépôts glaciaires et interglaciaires sont décrits et interprétés.
+-  Les cours Terrains instables ( SST.00305 )  et Géologie technique ( SST.00307 )  montrent  les aspects pratiques de la Géologie.
+-  Le cours Géochimie ( SST.00308 )  explore  les  processus  chimiques qui se déroulent dans la géosphère. Ce cours est donné à Berne, dans le cadre de BeFri.
+-  Le  cours Introduction  à  la  géophysique ( SGG.00316 )  illustre  les  méthodes  physiques d'auscultation de la croûte terrestre.
+
+## Les travaux pratiques, excursions et stages de terrain
+
+Les cours de Paléontologie , Micropaléontologie , Sédimentologie , Tectonique , Introduction à la géophysique , Minéralogie-Cristallographie et Pétrologie des magmatites et des  métamorphites sont  accompagnés  de  travaux  pratiques  ( SST.00218,  SST.00304,  SST.00210,  SST.00211, SGG.00317, SST.00212 , SST.00219 et SST.00312 ).  Ceci  permet  à  l'étudiant-e  d'approfondir les sujets traités dans les cours par des observations et des interprétations personnelles. Dans les UE Cartes et profils I et II ( SST.00224 et SST.00225 ), les cartes géologiques sont analysées. En plus, il y a des travaux de microscopie ( SST.00214 ) où les roches sédimentaires ( SST.00302 ), magmatiques ( SST.00213 )  et  métamorphiques ( SST.00313 )  sont  observées en détail. Dans les Méthodes  de  sédimentologie ( SST.00311 )  et  les Méthodes  de  minéralogie ( SST.00227 ), les étudiant-e-s préparent les roches pour les diverses analyses, effectuent les mesures et interprètent les résultats. Les Excursions permettent d'appréhender la complexité des phénomènes géologiques  traités  dans  les  cours  et  les  travaux  pratiques,  tandis  que  les Stages  de  terrain demandent un travail personnel de description, d'analyse et d'interprétation.
+
+## Les colloques et séminaires
+
+Les colloques de géosciences ( SST.00324 )  doivent  être  suivis.  Chaque  étudiant-e doit en plus faire  un travail  de  séminaire ( SST.00323 )  basé  sur  une  recherche  bibliographique  et  une présentation orale lors de la 3 e année.
+
+## Le Travail de recherche dirigé (travail de Bachelor)
+
+Vers  la  fin  de  la  3 e année,  l'étudiant-e  doit  accomplir  un  travail  personnel  de  recherche ( SST.00317 ). Ceci consiste en une étude sur le terrain et/ou en un travail en laboratoire. Dans les deux cas, une recherche bibliographique sur le sujet est indispensable. Ce travail sera proposé et accompagné par un-e enseignant-e.
+
+## 2.3  Evaluations et validations
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des sciences de la Terre et celle de géographie, ainsi que celles des branches propédeutiques et complémentaires choisies.
+
+Le paquet de validation BSc1 regroupe l'ensemble des UE de première année et donne droit à 60 crédits ECTS. Il est impératif que les UE de la première année soient validées la fin du 4 e semestre 2 .  Si  tel  n'est  pas  le  cas,  les  études  en  sciences  de  la  Terre  ne  peuvent  définitivement plus être poursuivies.
+
+Le paquet de validation BSc2 regroupe les UE de 2 e et  3 e année de la branche principale et donne droit à 90 crédits ECTS. Les travaux pratiques, excursions, cours-bloc et stages de terrain sont évalués par des critères fixés en début de semestre. Les évaluations des cours de la 2 e et de la  3 e année  sont  réparties  sur  les  différentes  sessions  d'examens  et  comprennent  plusieurs épreuves.
+
+Le séminaire (travail de recherche bibliographique et présentation orale) et le travail de Bachelor sont évalués par une note. Ils sont validés si la note de 4 au moins a été obtenue dans les deux cas. Un séminaire ou un travail de Bachelor jugé insuffisant doit être amélioré jusqu'à ce qu'une note suffisante soit atteinte, ou un nouveau travail doit être réalisé.
+
+Le paquet de validation BSc3 regroupe les UE de la branche complémentaire qui sont évaluées suivant le plan d'études de cette branche. Il donne droit à 30 crédits ECTS. Une branche complémentaire non réussie peut être remplacée par une autre branche complémentaire.
+
+La validation des paquets BSc1, BSc2 et BSc3 donne droit au titre de Bachelor of Science en Sciences de la Terre, Université de Fribourg (BSc) .
+
+2 La session d'examens de septembre qui précède la rentrée académique fait partie du semestre de printemps.

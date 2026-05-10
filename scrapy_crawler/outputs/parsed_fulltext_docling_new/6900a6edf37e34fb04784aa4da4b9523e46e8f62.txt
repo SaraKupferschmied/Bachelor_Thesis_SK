@@ -1,0 +1,322 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T21:09:25.604Z",
+  "title": "Philosophy_Bachelor_30_Art_History_Kunstgeschichte_im_Bereich_I_mit_Option_Arch_ologie__6900a6edf37e34fb04784aa4da4b9523e46e8f62",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6900a6edf37e34fb04784aa4da4b9523e46e8f62",
+  "program_key": "philosophy|bachelor|30|art history",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Art History",
+  "doc_label": "Kunstgeschichte im Bereich I mit Option \"Archäologie\"",
+  "source_url": "https://www.unifr.ch/art/de/assets/public/PE%20BA%20ARCH%20120.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/6TFjB",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Art_History_Kunstgeschichte_im_Bereich_I_mit_Option_Arch_ologie__6900a6edf37e34fb04784aa4da4b9523e46e8f62.pdf",
+  "sha256": "d615ddcf9b8251194f21d190dbcdc0a3d3eaa8899a831ea71a8ac665c10ca923",
+  "fetched_at": "2026-04-03T11:31:01.446Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/PE%20BA%20ARCH%20120.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "PE BA ARCH 120.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Histoire de l'Art Kunstgeschichte Art History Bachelor - 120 crédits ECTS
+
+Le programme BA Histoire de l'Art à 120 crédits est régi par le présent plan d'études. Ce dernier se fonde sur le règlement du 23 juin 2005 pour l'obtention du diplôme universitaire, ainsi que sur les directives du 23 avril 2009 concernant l'évaluation des prestations d'études, l'attribution des crédits ECTS et la validation des modules à la Faculté des lettres de l'Université de Fribourg.
+
+## 1. Description générale du programme
+
+Le programme de Bachelor en Histoire de l'Art offre aux étudiant-e-s la possibilité d'acquérir des connaissances en Histoire de l'Art sur une large période chronologique: Histoire de l'Art contemporain (XX e  et XXI e  siècles), Histoire de l'Art moderne, Histoire de l'Art médiéval (occidental et byzantin) et Histoire de l'Art et Archéologie classique. En fonction de leurs intérêts, les étudiant-e-s ont la possibilité d'approfondir les périodes de leur choix.
+
+Cette formation a pour but de transmettre des connaissances de base pour toutes les périodes de l'Histoire de l'Art et de sensibiliser à l'usage critique de diverses sources, interprétations, méthodes et théories. Ces connaissances ouvrent aux étudiant-e-s un accès aux emplois (dans le domaine des musées, du marché de l'art, de la culture et de l'édition, à la conservation des monuments historiques, au réseau des musées, des galeries et du marché de l'art, services archéologiques etc.) ou à un approfondissement des études dans le cadre d'un Master.
+
+Les études en Histoire de l'Art peuvent débuter indifféremment au semestre d'automne ou au semestre de printemps.
+
+## 2. Structure des études 1
+
+La structure du programme consiste en un tronc commun et un approfondissement. Dans le cadre du tronc commun, il s'agit d'acquérir des connaissances de base dans toutes les périodes de l'Histoire de l'Art. L'approfondissement permet à l'étudiant-e de choisir d'étendre son apprentissage dans trois des quatre périodes de l'Histoire de l'Art ou de faire un profil "Archéologie" avec un ensemble de cours et stages spécifiques qui lui ouvrent, s'il le souhaite, la possibilité de faire un Master en Archéologie.
+
+Ratifié  par  la  Commission  des  études  et  examens  le  17.06.2014 Modifications ratifiées par la Commission des études le 21.02.2022 1  Une description détaillée du contenu des études figure dans les annexes A et B.
+
+## a) Tronc commun
+
+Le tronc commun permet d'accomplir quatre modules obligatoires. Chacun de ces modules à caractère introductif correspond à l'une des quatre périodes de l'Histoire de l'Art. L'étudiant-e acquiert ici des connaissances de base nécessaires à la compréhension et à l'interprétation des œuvres d'art par rapport à la matérialité, au contexte historique et aux fonctions de celles-ci. L'objectif de la formation sera de maîtriser les grands courants stylistiques et la classification des œuvres d'art depuis l'Antiquité jusqu'à nos jours. Les méthodes d'analyse formelle et de contenu, ainsi que l'approche scientifique des œuvres seront l'un des principaux piliers de l'enseignement.
+
+| Module   | Description                                                                |   Crédits |
+|----------|----------------------------------------------------------------------------|-----------|
+| Module 1 | Introduction à l'Histoire de l'Art contemporain (XX e -XXI e siècle)       |        18 |
+| Module 2 | Introduction à l'Histoire de l'Art moderne                                 |        18 |
+| Module 3 | Introduction à l'Histoire de l'Art médiéval                                |        18 |
+| Module 4 | Introduction à l'Histoire de l'Art et archéologie de l'antiquité classique |        18 |
+| Module 5 | Soft skills                                                                |        12 |
+
+## b) Option Histoire de l'Art
+
+L'étudiant-e choisit de faire ici trois des quatre modules à disposition. Chaque module permet d'approfondir les connaissances et méthodes d'analyse dans le cadre de thématiques spécifiques aux périodes respectives. Différentes méthodologies et processus d'interprétation sont mis à l'épreuve. L'approche scientifique de la description, de l'analyse et de l'interprétation est encouragée dans le cadre d'études de cas.
+
+| Module   | Description                               |   Crédits |
+|----------|-------------------------------------------|-----------|
+| Module 6 | Approfondissement à l'Histoire de l'Art 1 |        12 |
+| Module 7 | Approfondissement à l'Histoire de l'Art 2 |        12 |
+| Module 8 | Approfondissement à l'Histoire de l'Art 3 |        12 |
+
+## c) Option archéologie
+
+Le profil en Archéologie est ancré dans les modules 3 et 4 du tronc commun complétés par trois modules à 12 crédits pour un total de 72 crédits ECTS. Il est tourné d'une part vers l'apprentissage des techniques et des méthodes de l'archéologie, y compris une initiation à l'archéométrie, d'autre part vers la connaissance des monuments, des objets, de la culture matérielle et artistique de l'Antiquité classique (grecque et romaine) en développant une approche anthropologique. La plupart des cours sont donnés en français, avec la possibilité de suivre certains enseignements en allemand.
+
+| Module   | Description                                 |   Crédits |
+|----------|---------------------------------------------|-----------|
+| Module 6 | Archéométrie et matériaux                   |        12 |
+| Module 7 | Méthodologie et techniques de l'archéologie |        12 |
+| Module 8 | Archéologie thématique                      |        12 |
+
+## 3. Dispositions spécifiques
+
+## 3.1 Recommandations au sujet de l'organisation des études
+
+Il est recommandé de débuter par les quatre modules d'introduction du tronc commun et en particulier par les cours d'introduction destinés spécialement aux débutants.
+
+Les quatre modules d'introduction peuvent être débutés simultanément.
+
+Il n'est pas nécessaire que les modules d'introduction soient terminés pour débuter les modules d'approfondissement en Histoire de l'Art ou du profil « Archéologie ». Cependant, il est recommandé d'accomplir le proséminaire d'une époque dans le tronc commun, avant celui de la même époque dans le domaine d'approfondissement.
+
+Les cours propédeutiques du tronc commun sont en principe donnés dans le cadre d'un cycle de deux ans, à raison d'un cours par semestre. Les cours propédeutiques visent à mettre en exergue des questionnements et différentes méthodologies de l'Histoire de l'Art à l'aide d'exemples issus de la période concernée. Ces approches sont accompagnées par des lectures (trois livres par période) qui recouvrent les principaux enjeux stylistiques et théoriques de la période en question. Les étudiant-e-s sont vivement encouragé-e-s à débuter suffisamment tôt ces lectures. Les quatre cours propédeutiques font l'objet d'une épreuve écrite et orale. Il est recommandé de commencer ce cycle dès le troisième semestre d'études.
+
+Pour le profil « Archéologie », il est possible de suivre des cours à NE et BE dans le cadre de la mobilité BeNeFri. La liste des cours offerts chaque année est disponible sur la page web d'archéologie Unifr.
+
+## 3.2 Types d'enseignement et modalités d'évaluation
+
+Cours d'introduction (3 crédits ECTS) : validation par un examen écrit. Les modalités d'évaluation sont fixées par l'enseignant. Proséminaire (6 crédits ECTS) : participation active, présentation d'un exposé et validation par un travail scientifique d'environ 30'000 signes (espaces et notes de bas de page compris) hors page de titre, légendes, illustrations, bibliographie et annexes éventuelles. Les places disponibles et autres exigences peuvent être fixées par l'enseignant. Cours propédeutique (6 crédits ECTS) : validation par un examen écrit et une évaluation orale portant sur trois livres. La date, la matière et les modalités de l'évaluation écrite sont fixées par l'enseignant. L'évaluation orale porte sur trois livres. Les références bibliographiques sont mises à disposition sur le site internet du domaine. Cours thématique (3 crédits ECTS) : validation par un examen écrit. Les dates, matière et modalités d'évaluation sont fixées par l'enseignant. Voyage d'études (3 crédits ECTS) : participation active et présentation d'un exposé. Les places disponibles et autres exigences comme la préparation d'un paper ou la rédaction d'un rapport peuvent être fixées par l'enseignant. Cours-blocs d'archéométrie (9 ECTS) : pour le profil « Archéologie ». Une initiation à l'archéométrie - c'est-à-dire aux méthodes de la physique, de la chimie et de la géologie appliquées à l'archéologie - est dispensée par la Faculté des sciences sous la forme de cours-blocs obligatoires. Trois coursblocs doivent être validés par un examen écrit. Cours-bloc spécialisés (3 ECTS) : pour le profil « Archéologie ». Des coursblocs portant sur l'étude d'objets, de matériaux et de techniques complètent le cours d'archéométrie. Validation par un rapport à rédiger. Stage de fouille (6 ECTS) : pour le profil « Archéologie ». Un stage de fouilles est organisé tous les étés à l'intention des étudiants par le Service archéologique cantonal. Ce stage est obligatoire. Validation par attestation du responsable de stage.
+
+Pour  les  enseignements  suivis  dans  le  cadre  de  BeNeFri,  les  modalités d'évaluation sont déterminées par l'institution qui offre l'enseignement.
+
+## 3.3 Calcul des notes
+
+Les unités d'enseignement qui reçoivent une note (cours, proséminaires) sont évaluées séparément sur une échelle de 1 à 6 sous forme de nombres entier ou demi, la note minimale de 4 étant requise pour validation. A l'exception des cours propédeutiques (voir : point 3.5 « Règles concernant l'échec définitif »), une unité d'enseignement non réussie peut être compensée par une unité d'enseignement équivalente au sein du même module.
+
+Chaque note de module correspond à la moyenne des notes des unités d'enseignement acquises au sein de ce module de manière non-arrondie. La note finale du programme d'études correspond à la moyenne de l'ensemble des notes de module.
+
+Ratifié  par  la  Commission  des  études  et  examens  le  17.06.2014 Modifications ratifiées par la Commission des études le 21.02.2022
+
+Forma*ed: Not Highlight
+
+## 3.4 Examen de première année
+
+L'obtention, avant le début du cinquième semestre d'études, de 30 crédits ECTS dans le présent programme d'études (tous modules confondus) équivaut à la réussite de l'examen de première année. Si les 30 crédits ECTS ne sont pas acquis dans les délais impartis, l'étudiant-e ne pourra pas poursuivre en domaine I Histoire de l'Art à l'Université de Fribourg. L'étudiant-e aura toutefois la possibilité de poursuivre les études en domaine II Histoire de l'Art à 60 crédits ECTS.
+
+## 3.5 Règles concernant l'échec définitif
+
+L'échec définitif au sens de l'art. 3 des Directives concernant l'évaluation des prestations d'études du 23 avril 2009 (Etat au 26 septembre 2013) à un cours propédeutique de l'une des quatre périodes enseignées entraîne l'impossibilité de poursuivre les études en Histoire de l'Art à l'Université de Fribourg. Une poursuite des études dans le domaine II Histoire de l'Art à 60 crédits serait alors exclue, dans la mesure où les quatre cours propédeutiques y sont également obligatoires.
+
+## 3.6 Langues d'enseignement
+
+Ce programme d'études est enseigné en partie en français et en partie en allemand. Les étudiant-e-s suivent obligatoirement des cours dans les deux langues, la répartition étant fixée en fonction des enseignements, mais il est toujours possible de choisir sa langue d'exposé, de travail écrit et d'examen (français ou allemand).
+
+Les étudiant-e-s visant un diplôme bilingue sont priés de s'adresser aux conseillers aux études au début de leurs études. Pour un diplôme bilingue, les enseignements doivent être accomplis activement, oralement et par écrit, dans les deux langues (français et allemand). Au moins 40% des crédits ECTS doivent être évalués dans la seconde langue. Voir aussi les directives du règlement de Bachelor de la Faculté des Lettres.
+
+## 3.7 Reconnaissance d'études, Erasmus, Swiss-Mobility
+
+Pour obtenir un diplôme en Histoire de l'Art de l'Université de Fribourg, l'étudiant-e doit obtenir au moins 50% des crédits dans le domaine concerné à Fribourg et y suivre obligatoirement les quatre cours propédeutiques.
+
+Pour ceux qui font le Profil « Archéologie », l'étudiant-e doit également obtenir au moins 50% des crédits dans le domaine concerné à Fribourg et y suivre obligatoirement les quatre cours propédeutiques auquel s'ajoute un cours d'introduction choisi en histoire de l'art médiéval ou en histoire de l'art et archéologie classique.
+
+Les enseignements issus d'une autre Université peuvent être reconnus dans la mesure où ils peuvent s'intégrer, formellement et thématiquement, dans le présent plan d'études. Tous les enseignements soumis au domaine pour reconnaissance doivent être évalués avec note.
+
+Ratifié  par  la  Commission  des  études  et  examens  le  17.06.2014 Modifications ratifiées par la Commission des études le 21.02.2022
+
+## Histoire de l'art Kunstgeschichte Art History
+
+Bachelor
+
+-
+
+120 crédits
+
+Option : Histoire de l'art
+
+## Structure du programme d'études :
+
+Module
+
+Titre - contenu
+
+Annexe A
+
+Crédits
+
+## Module 1 : Introduction à l'histoire de l'art contemporain (XXe-XXIe siècle)
+
+18
+
+Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art contemporain (XXe-XXIe siècle).
+
+Ici l'étudiant-e acquiert ces compétences en  suivant  deux  cours  d'introduction  avec  évaluations  écrites  (2  x  3  crédits
+
+ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS)
+
+et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).
+
+## Module 2 : Introduction à l'histoire de l'art moderne
+
+Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art moderne.
+
+Ici l'étudiant-e acquiert ces compétences en  suivant  deux  cours  d'introduction  avec  évaluations  écrites  (2  x  3  crédits
+
+ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS)
+
+et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).
+
+## Module 3 : Introduction à l'histoire de l'art médiéval
+
+Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art médiéval. Ici l'étudiant-e acquiert ces compétences en suivant un cours d'introduction portant sur l'art médiéval oriental avec évaluation écrite (3 crédits ECTS),
+
+en suivant un cours d'introduction portant sur l'art médiéval occidental avec évaluation écrite (3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et
+
+en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).
+
+18
+
+18
+
+## Module 4 : Introduction à l'histoire de l'art et archéologie de l'antiquité classique
+
+18
+
+Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art de l'antiquité classique. Ici l'étudiant-e acquiert ces compétences
+
+en  suivant  deux  cours  d'introduction  avec  évaluations  écrites  (2  x  3  crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS)
+
+et
+
+en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).
+
+## Histoire  de  l'art Kunstgeschichte Art History
+
+## Module 5 :  Soft skills
+
+Ce module a pour objectif l'acquisition de connaissances transversales et/ou complémentaires. Ici l'étudiant-e a la possibilité de choisir de  suivre  un  ou  plusieurs  enseignements  en  dehors  du  domaine  (selon  une  liste  mise  à  jour annuellement sur GESTENS),
+
+de  participer  activement  à  des  voyages  d'études  (3  crédits  ECTS)  en  fonction  des  places disponibles et/ou de faire reconnaître des stages d'études après concertation et feu vert préalable des professeurs du domaine (pour un total de 6 crédits ECTS au maximum).
+
+## Module 6 : Approfondissement à l'histoire de l'art 1
+
+Ce  module  a  pour  objectif  l'approfondissement  des  compétences  en  méthodes  d'analyse  et d'interprétation dans l'une des quatre périodes de l'histoire de l'art.
+
+Ici l'étudiant-e acquiert ces connaissances avancées en  suivant  un  cours  thématique  avec  évaluation  écrite  (3  crédits
+
+ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits
+
+ECTS) et en suivant un second cours thématique avec évaluation écrite ou en participant activement à un voyage d'études (3 crédits ECTS).
+
+## Module 7 : Approfondissement à l'histoire de l'art 2
+
+Ce  module  a  pour  objectif  l'approfondissement  des  compétences  en  méthodes  d'analyse  et d'interprétation dans une seconde des quatre périodes de l'histoire de l'art.
+
+Ici l'étudiant-e acquiert ces connaissances avancées en  suivant  un  cours  thématique  avec  évaluation  écrite  (3  crédits
+
+ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits
+
+ECTS) et en suivant un second cours thématique avec évaluation écrite ou en participant activement à un voyage d'études (3 crédits ECTS).
+
+## Module 8 : Approfondissement à l'histoire de l'art 3
+
+Ce  module  a  pour  objectif  l'approfondissement  des  compétences  en  méthodes  d'analyse  et d'interprétation dans une troisième des quatre périodes de l'histoire de l'art.
+
+Ici l'étudiant-e acquiert ces connaissances avancées en  suivant  un  cours  thématique  avec  évaluation  écrite  (3  crédits
+
+ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits
+
+ECTS) et en suivant un second cours thématique avec évaluation écrite ou en participant activement à un voyage d'études (3 crédits ECTS).
+
+3
+
+12
+
+12
+
+12
+
+12
+
+| Histoire de l'art                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Histoire de l'art                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Annexe B   | Annexe B   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|
+| Kunstgeschichte Art History                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Kunstgeschichte Art History                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |            |            |
+| Bachelor - 120 crédits Option : Archéologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Bachelor - 120 crédits Option : Archéologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |            |            |
+| Structure du programme d'études :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Structure du programme d'études :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |            |
+| Module                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Titre - contenu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Crédits    | Crédits    |
+| Module 1 : Introduction à l'histoire de l'art contemporain (XXe-XXIe siècle) Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi la maîtrise de compétences en méthodes d'analyse en histoire de l'art contemporain (XXe-XXIe siècle). Ici l'étudiant-e acquiert ces compétences en suivant deux cours d'introduction avec évaluations écrites (2 x 3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant                                                | Module 1 : Introduction à l'histoire de l'art contemporain (XXe-XXIe siècle) Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi la maîtrise de compétences en méthodes d'analyse en histoire de l'art contemporain (XXe-XXIe siècle). Ici l'étudiant-e acquiert ces compétences en suivant deux cours d'introduction avec évaluations écrites (2 x 3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant                                                |            | 18         |
+| Module 2 : Introduction à l'histoire de l'art moderne                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Module 2 : Introduction à l'histoire de l'art moderne                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |            |            |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |            | 18         |
+| Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art moderne. Ici l'étudiant-e acquiert ces compétences en suivant deux cours d'introduction avec évaluations écrites (2 x 3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).                                                                                                             | Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art moderne. Ici l'étudiant-e acquiert ces compétences en suivant deux cours d'introduction avec évaluations écrites (2 x 3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).                                                                                                             |            |            |
+| Module 3 : Introduction à l'histoire de l'art médiéval                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Module 3 : Introduction à l'histoire de l'art médiéval                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |            | 18         |
+| Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art médiéval. Ici l'étudiant-e acquiert ces compétences en suivant un cours d'introduction portant sur l'art médiéval oriental avec évaluation écrite (3 crédits ECTS), en suivant un cours d'introduction portant sur l'art médiéval occidental avec évaluation écrite (3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant | Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art médiéval. Ici l'étudiant-e acquiert ces compétences en suivant un cours d'introduction portant sur l'art médiéval oriental avec évaluation écrite (3 crédits ECTS), en suivant un cours d'introduction portant sur l'art médiéval occidental avec évaluation écrite (3 crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS) et en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant |            |            |
+
+## Module 4 : Introduction à l'histoire de l'art et archéologie de l'antiquité classique
+
+18
+
+Ce module d'introduction a pour objectif l'acquisition de solides connaissances de base ainsi que la maîtrise de compétences en méthodes d'analyse en histoire de l'art de l'antiquité classique. Ici l'étudiant-e acquiert ces compétences
+
+en  suivant  deux  cours  d'introduction  avec  évaluations  écrites  (2  x  3  crédits ECTS), en accomplissant un proséminaire avec travail écrit (6 crédits ECTS)
+
+et
+
+en suivant un cours propédeutique validé par une épreuve écrite et une évaluation orale portant sur trois livres (6 crédits ECTS).
+
+## Histoire  de  l'art Kunstgeschichte Art History
+
+## Module 5 :  Soft skills
+
+12
+
+Ce module a pour objectif l'acquisition de connaissances transversales et/ou complémentaires. Ici l'étudiant-e a la possibilité de choisir de suivre un ou plusieurs enseignements en dehors du domaine (selon une liste mise à jour annuellement sur GESTENS), de  participer  activement  à  des  voyages  d'études  (3  crédits  ECTS)  en  fonction  des  places disponibles et/ou de faire reconnaître des stages d'études après concertation et feu vert préalable des professeurs du domaine (pour un total de 6 crédits ECTS au maximum).
+
+## Module 9 : Archéometrie et matériaux
+
+Une initiation à l'archéométrie - c'est-à-dire aux méthodes de la physique, de la chimie et de la géologie appliquées à l'archéologie - est dispensée par la Faculté des sciences sous la forme de trois cours-blocs obligatoires (9 crédits ECTS). Elle est complétée par deux cours-blocs spécialisés sur le matériel (3 crédits ECTS).
+
+Ces cours permettent aux étudiants d'acquérir des connaissances liées aux nouvelles technologies aujourd'hui nécessaires en archéologie tant pour l'établissement de datation ou pour l'étude de la composition, la provenance et de l'utilisation des matériaux.
+
+## Module 10 : Méthodologie et techniques de l'archéologie
+
+La  méthodologie  et  les  techniques  de  l'archéologie  sont  abordées  sous  la  forme  d'un  cours thématique  en  archéologie  classique  (3  crédits  ECTS),  complétés  par  un  stage  obligatoire  de fouilles (6 crédits ECTS) et par un voyage d'étude (3 crédits ECTS). Par le stage et le cours, les étudiants se familiariseront avec les techniques et méthodes d'analyse propres à l'archéologie, tout en acquérant l'expérience de terrain nécessaire aux métiers liés à cette discipline.
+
+Le  cours  thématique  en  archéologie  classique  (3  crédits  ECTS)  peut  être  substitué  par  des enseignements dans le cadre de la mobilité BeNeFri à Neuchâtel 2 .
+
+## Module 11 : Archéologie thématique
+
+Ce module se compose d'un proséminaire en archéologie classique (6 crédits ECTS) de deux cours blocs thématiques (3 crédits ECTS) et d'un cours thématique en archéologie classique (3 crédits ECTS). Il permet d'approfondir des sujets spécifiques en archéologie dans des domaines chrono-culturels et géographiques variés.
+
+Le proséminaire en archéologie classique (6 crédits ECTS) et le cours thématique en archéologie classique  (3  crédits  ECTS)  peuvent  être  substitués  par  des  enseignements  dans  le  cadre  de  la mobilité BeNeFri à Neuchâtel 2 .
+
+Ratifié par la Commission des études et examens le 17.06.2014 2 La liste des cours offerts chaque année sera disponible sur la page web d'archéologie unifr.
+
+12
+
+12
+
+12
+
+6
+
+Forma*ed: Not Highlight
+
+Forma*ed: Not Highlight
+
+Forma*ed: Not Highlight
+
+Forma*ed: Not Highlight

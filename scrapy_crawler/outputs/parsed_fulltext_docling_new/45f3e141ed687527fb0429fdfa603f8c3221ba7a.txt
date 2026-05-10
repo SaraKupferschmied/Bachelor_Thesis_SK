@@ -1,0 +1,473 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T19:08:23.067Z",
+  "title": "Law_Bachelor_180_Law_Brosch_re_Recht_studieren__45f3e141ed687527fb0429fdfa603f8c3221ba7a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "45f3e141ed687527fb0429fdfa603f8c3221ba7a",
+  "program_key": "law|bachelor|180|law",
+  "faculty": "Law",
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Law",
+  "doc_label": "Broschüre «Recht studieren»",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/faculte/brochure_droit_D.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/ius/law",
+  "curriculum_url": "http://studies.unifr.ch/go/jPgcg",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Law_Bachelor_180_Law_Brosch_re_Recht_studieren__45f3e141ed687527fb0429fdfa603f8c3221ba7a.pdf",
+  "sha256": "a16570e725026c53c523619634af6985e9dd71851293993c1efffb58d4dafd4f",
+  "fetched_at": "2026-04-03T11:31:54.711Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/faculte/brochure_droit_D.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Vos études en Droit
+
+à l'Université de Fribourg
+
+## Recht /thinspacestudieren
+
+1
+
+## In Freiburg Recht studieren
+
+## Unicef oder eher UBS? UVEK, Uni oder Unia?
+
+Wer Jus studiert, hat unzählige Berufsmöglich­ keiten: Als Staatsanwältin führen Sie die Anklage und ordnen Ermittlungen an. Als Strafverteidiger vertreten Sie Mandanten vor Gericht. Als Jurist arbeiten Sie in der Verwaltung und in internatio­ nalen Organisationen. Sie übernehmen zentrale Positionen in Handel und Wirtschaft, werden Bundesrat, Banker oder Botschafterin. Oder Sie geben Ihr Wissen in Lehre und Forschung weiter.
+
+## Geschult in Theorie und Praxis
+
+Freiburger Jusstudierende erproben das Gelernte laufend an praktischen Beispielen - so sind sie ideal auf die Arbeitswelt vorbereitet. Wer in Frei­ burg studiert hat, beherrscht die wissenschaft­ lichen Grundlagen genauso wie das Handwerk der Jurisprudenz: Freiburger Absolventinnen und Absolventen sind bei Arbeitgebern im In­ und Ausland gefragt, denn sie wissen, wie man argu­ mentiert, debattiert, verhandelt oder präsentiert.
+
+## Mehrsprachigkeit à la carte
+
+Als einzige Schweizer Universität bieten wir das Studium der Rechtswissenschaften auf Deutsch und auf Französisch an. Die Zweisprachigkeit gibt es bei uns «à la carte»: Die Studierenden entscheiden selbst, welche Veranstaltung sie in welcher Sprache besuchen möchten und ob sie sich die Sprachkenntnisse mit zusätzlichen Zertifikaten wie dem «bilingue plus - Recht» at­ testieren lassen wollen. Zudem sind bei uns auch zahlreiche englischsprachige Kurse Teil des Standardprogramms. Ob in der Vorlesung, im Seminar oder beim Feierabendbier - in der Stu­ dentenstadt Freiburg wird die Zweisprachigkeit gelebt!
+
+## Studienprogramme
+
+<!-- image -->
+
+Das Studium der Rechtswissenschaften an der Universität Freiburg ist in zwei Teile gegliedert: Im Bachelor eignen Sie sich breites Wissen in allen wichtigen Rechtsbereichen an, im Master vertiefen Sie die einzelnen Fachgebiete je nach persönlichem Interesse.
+
+## Bachelor of Law: fit für die Arbeitswelt
+
+Bereits mit dem Bachelor of Law können Sie den Berufseinstieg wagen. Der Abschluss ist inter­ national anerkannt und ebnet den Weg zu einer Tätigkeit als Rechtsberater in der Wirtschaft, zum Beispiel bei Banken, Versicherungen oder anderen Dienstleistungsunternehmen.
+
+Studienprogramm mit 180 ECTSKreditpunkten, in drei (Vollzeitstudium) bzw. vier (Teilzeitstudium) Blöcke gegliedert
+
+## Master of Law: mit spezialisiertem Wissen die Karriere vorbereiten
+
+Im Masterstudium vertiefen Sie Ihre Kenntnisse und setzen persönliche Schwerpunkte im Hinblick auf Ihre späteren Berufsziele.
+
+Studienprogramm mit 90 ECTS­Kreditpunkten
+
+## Master of Arts in Legal Studies: Jusstudium für Nicht-Juristen
+
+Der Master of Arts in Legal Studies (MALS) vermit­ telt Nicht­Juristen und Juristen mit einem auslän­ dischen Diplom solides Grundwissen des Schweizer Rechts. Einzigartig in der Schweiz.
+
+Studienprogramm mit 90 ECTS­Kreditpunkten
+
+## Anwaltspatent
+
+Das Anwaltspatent, das Zugang zu allen juristischen Tätigkeitsfeldern eröffnet, kann erst nach dem Masterabschluss erworben werden.
+
+## Doktorat
+
+Persönliche Forschungsarbeit mit Verfassen einer Dissertation. Zulassung erfolgt auf Bewerbungs­ dossier, gemäss den spezifischen Zulassungsbe­ dingungen jeder Fakultät.
+
+## LL.M.
+
+Die Rechtswissenschaftliche Fakultät der Universität Freiburg bietet mehrere LL.M. Programme an: z.B. «International Business Law», «International Contracts &amp; Arbitration» und «Compliance».
+
+## ECTS
+
+Ein Jahr Studium umfasst in der Regel 60 ECTS­ Kreditpunkte. Ein ECTS­Kreditpunkt entspricht einer Arbeitsleistung von 25 bis 30 Stunden.
+
+## Inhalt
+
+| In Freiburg Recht studieren                |   2 |
+|--------------------------------------------|-----|
+| Studienprogramme                           |   3 |
+| Studienangebote der                        |     |
+| Rechtswissenschaftlichen Fakultät          |   5 |
+| Der Bachelor of Law (BLaw)                 |   7 |
+| Bachelor of Law im Vollzeitstudium         |   8 |
+| Bachelor of Law im Teilzeitstudium         |  10 |
+| Der Master of Law (MLaw)                   |  19 |
+| Der Master of Arts in Legal Studies (MALS) |  31 |
+| Mobilität                                  |  34 |
+| Unsere Dienste                             |  36 |
+| Nützliche Adressen                         |  39 |
+
+## Studienangebote der Rechtswissenschaftlichen Fakultät
+
+STUDIENANGEBOT RECHTSWISSENSCHAFTLICHE FAKULTÄT
+
+<!-- image -->
+
+<!-- image -->
+
+## Der Bachelor of Law
+
+Der Freiburger Bachelor of Law steht in der Schweiz für eine solide juristische Basisausbildung. In sechs Semestern eignen Sie sich fundiertes Grundwissen in sämtlichen Disziplinen des schweiz  erischen Rechts, des internationalen und des Europarechts an und lernen, wissenschaftlich zu arbeiten.
+
+Sie schulen Ihr analytisches und logisches Denken und entwickeln Ihre sprachlichen und rhetorischen Fähigkeiten weiter. In kleinen Unterrichtsgruppen werden grundlegende philosophische und ethische Rechtsfragen diskutiert und mit dem aktuellen sozial­ politischen Hintergrund verknüpft. Unsere Professoren  ­ schaft geht gerne auf individuelle Interessen der Studierenden ein. In Freiburg werden Sie gefördert und gefordert - von Professorinnen und Professoren, die zu den Besten ihres Fachs gehören.
+
+Seit ihren Anfängen setzt unsere Fakultät auf die natio  nale und internationale Vernetzung. Wir sind durch zahlreiche Austauschabkommen mit Rechts­ fakultäten im In­ und Ausland verbunden und bieten viele gemeinsame Angebote mit Partneruniversitäten an. Ab dem dritten Bachelorjahr ist ein Auslandsauf­ enthalt an einer europäischen Rechts  fakultät möglich.
+
+## Berufsperspektiven
+
+Freiburger Juristinnen und Juristen sind gefragte Fachleute. Nicht nur in der Schweiz, sondern auch im Ausland. Wer bei uns studiert hat, ist sattelfest in allen Rechtsgebieten.
+
+Der Abschluss ebnet den Weg zu einer Tätigkeit als Rechtsberaterin oder Rechtsberater der Wirtschaft, zum Beispiel bei Banken, Versicherungen oder anderen Dienstleistungs­ unternehmen.
+
+- Weitere Informationen: www.unifr.ch/go/ius/blaw
+
+<!-- image -->
+
+## Studienprogramm
+
+Dank des klar strukturierten Stundenplans der obligatorischen Fächer erlangen Sie den Bachelor of Law im Vollzeitstudium in Freiburg in drei Jahren. Sie werden durch das breite Lehrangebot geführt und persönlich betreut.
+
+Im ersten Studienjahr ( IUR I ) gewinnen Sie einen Überblick über die einzelnen Rechts­ gebiete und lernen, wie diese zusammenwirken. Sie erlernen zentrale Begriffe und Methoden der Rechtswissenschaften und lernen die Wesensmerkmale und Funktionen des Rechts als soziales System kennen. Sie erwerben Grundkenntnisse im Bereich der Rechtsetzung, Rechtsfindung und Rechtsdurchsetzung. Sie belegen in diesem Jahr Öffentliches Recht, Römisches Recht, Strafrecht, Europa­ und Völkerrecht und Zivilrecht.
+
+Im zweiten Jahr ( IUR II ) vertiefen Sie Ihre Kenntnisse des öffentlichen Rechts, Zivilrechts und Strafrechts. Sie arbeiten sich in die Rechtsgeschichte, in die Grundlagen des Obligati­ onenrechts und des Steuerrechts ein. Die rechtshistorische Entwicklung können Sie in den politischen, ökonomischen und sozialen Kontext einbetten, um jene mit dem geltenden Recht vergleichen zu können. Am Ende des Jahres sind Sie gewandt im selbstständigen Lösen kleiner juristischer Probleme, das sie in den zahlreichen Übungsveranstaltungen trainiert haben.
+
+Im dritten und letzten Jahr ( IUR III ) Ihres Bachelorstudiums schliessen Sie das öffentliche Recht, das Zivilrecht und das Obligationenrecht ab. Neu kommen das Handels­ und Wirt­ schaftsrecht hinzu, das Sozialrecht und die Rechtsphilosophie. Am Ende der Ausbildung verfügen Sie über ein solides Grundwissen in allen wichtigen Rechtsgebieten. Die Vorle­ sungen werden stets von Übungen begleitet. Mit dem Erwerb des Bachelortitels belegen Sie, dass Sie die Gesetze und Gerichtsentscheide zu interpretieren und Lösungen für alle grundlegenden Rechtsprobleme zu finden wissen. Sie haben gelernt, eine kritische Meinung zu aktuellen rechtswissenschaftlichen Diskussionen zu entwickeln und erkennen die Bedeutung solcher Fragen für den juristischen Alltag.
+
+## Studienstruktur
+
+## Bachelor of Law im Vollzeitstudium (180 ECTS-Kreditpunkte)
+
+| IUR I                                                   | 1. Jahr   |
+|---------------------------------------------------------|-----------|
+| ▪Einführung in das Recht/thinspace / Rechtsdurchsetzung | 12 ECTS   |
+| ▪Öffentliches Recht I                                   | 12 ECTS   |
+| ▪Römisches Recht                                        | 9 ECTS    |
+| ▪Strafrecht I                                           | 12 ECTS   |
+| ▪Europa­ und Völkerrecht                                | 9 ECTS    |
+| ▪Zivilrecht I                                           | 6 ECTS    |
+| ▪Propädeutische Arbeit                                  | 3 ECTS    |
+| Prüfung IUR I                                           | 63 ECTS   |
+
+| IUR II                   | 2. Jahr   |
+|--------------------------|-----------|
+| ▪Öffentliches Recht II   | 12 ECTS   |
+| ▪Zivilrecht II           | 9 ECTS    |
+| ▪Obligationenrecht I     | 9 ECTS    |
+| ▪Strafrecht II/thinspace | 9 ECTS    |
+| ▪Steuerrecht             | 6 ECTS    |
+| ▪Rechtsgeschichte        | 9 ECTS    |
+| ▪Proseminar I            | 3 ECTS    |
+| Prüfung IUR II           | 57 ECTS   |
+
+| IUR III                        | 3. Jahr   |
+|--------------------------------|-----------|
+| ▪Öffentliches Recht III        | 12 ECTS   |
+| ▪Zivilrecht III                | 9 ECTS    |
+| ▪Obligationenrecht II          | 12 ECTS   |
+| ▪Handels­ und Wirtschaftsrecht | 9 ECTS    |
+| ▪Sozialrecht                   | 9 ECTS    |
+| ▪Rechtsphilosophie             | 6 ECTS    |
+| ▪Proseminar II                 | 3 ECTS    |
+| Prüfung IUR III                | 60 ECTS   |
+
+- Weitere Informationen: www.unifr.ch/go/ius/lehrveranstaltungen
+
+<!-- image -->
+
+## Studienprogramm im Teilzeitstudium
+
+Sie möchten Rechtswissenschaft studieren, können sich aber ein Vollzeitstudium zeitlich nicht einrichten? Dann sollten Sie das Freiburger Teilzeitstudium wählen, das aufgrund seiner durchdachten Struktur parallel zu einer beruflichen Tätigkeit absolviert werden kann.
+
+Wer sich für ein Bachelorstudium der Rechtswissenschaft im Teilzeitmodus entscheidet, erwirbt das juristische Basiswissen in allen wichtigen Rechtsgebieten Unterschiede zum Studium im Vollzeitmodus bestehen in dieser Hinsicht keine.
+
+Den Bachelor of Law erlangen Sie im Teilzeitstudium nach vier Jahren. Dabei sind die Lehrveranstaltungen jeweils auf zwei Wochentage konzentriert, was Ihnen erlaubt, die übrigen Tage für eine andere Tätigkeit einzusetzen. Jedes Studienjahr wird mit Prüfungen abgeschlossen, damit Sie sich periodisch Aufschluss über Ihren Studienerfolg verschaffen können. Mit dem Bachelor of Law steht Ihnen der Weg ins Masterprogramm offen.
+
+In Freiburg werden fast alle Lehrveranstaltungen i n deutscher und in französischer Sprache angeboten. Sie haben die Wahl: Sie können sämtliche Veranstaltungen in deutscher Sprache belegen, haben aber auch die Möglichkeit, Ihren Abschluss durch den Zusatz «Zweisprachiges Studium, Deutsch/Französisch» anzureichern.
+
+Wir wollen, dass Sie das Teilzeitstudium mit Erfolg absolvieren können. Deshalb haben wir die Zulassung zum Teilzeitstudium an besondere Voraussetzungen geknüpft. Diese Voraussetzungen erfüllen Sie ohne weiteres, wenn Sie bereits über (1) einen Bachelor­ Abschluss in einem anderen Fach oder (2) eine mindestens dreijährige Berufserfahrung (zu 100% gerechnet) verfügen (automatische Zulassung). Möglich ist die Zulassung aber auch, wenn Ihnen (3) aufgrund besonderer Umstände das Studium im Vollzeitmodus nicht zumutbar ist, ein Teilzeitstudium aber als erfolgsversprechender Weg erscheint. Solche Umstände können wirtschaftlicher oder medizinischer Natur sein, aber beispiels­ weise auch dann vorliegen, wenn Sie Familienarbeit leisten oder einer anspruchsvollen Tätigkeit im Bereich Kunst, Sport oder Politik nachgehen. In diesem dritten Fall legen Sie in Ihrem Zulassungsgesuch die besonderen Umstände, aus denen Sie zum Teilzeitstudi­ um zugelassen werden möchten, so dar, damit wir Ihr Gesuch sorgfältig prüfen können (Zulassung im Einzelfall).
+
+<!-- image -->
+
+## Studienstruktur im Teilzeitstudium
+
+## Studienplan Bachelor of Law im Teilzeitstudium (180 ECTS)
+
+| IUR TP I                                                        | /thinspace1. Jahr   |
+|-----------------------------------------------------------------|---------------------|
+| ▪Einführung in das Recht/thinspace//thinspaceRechtsdurchsetzung | 12 ECTS             |
+| ▪Öffentliches Recht I/thinspace                                 | 12 ECTS             |
+| ▪Öffentliches Recht II/thinspace                                | 12 ECTS             |
+| ▪Öffentliches Recht III/thinspace                               | 12 ECTS             |
+| ▪Europa­ und Völkerrecht                                        | 9 ECTS              |
+| ▪Propädeutische Arbeit                                          | 3 ECTS              |
+| TOTAL                                                           | 60 ECTS             |
+| IUR TP II                                                       | 2. Jahr             |
+| ▪Strafrecht I                                                   | 12 ECTS             |
+| ▪Strafrecht II/thinspace                                        | 9 ECTS              |
+| ▪Rechtsgeschichte                                               | 9 ECTS              |
+| ▪Rechtsphilosophie                                              | 6 ECTS              |
+| ▪Proseminar I                                                   | 3 ECTS              |
+| TOTAL                                                           | 39 ECTS             |
+| IUR TP III                                                      | 3. Jahr             |
+| ▪Römisches Recht                                                | 9 ECTS              |
+| ▪Zivilrecht I                                                   | 6 ECTS              |
+| ▪Zivilrecht II                                                  | 9 ECTS              |
+| ▪Zivilrecht III                                                 | 9 ECTS              |
+| ▪Obligationenrecht I/thinspace//thinspaceOR AT                  | 9 ECTS              |
+| ▪Obligationenrecht II                                           | 12 ECTS             |
+| ▪Proseminar II                                                  | 3 ECTS              |
+| TOTAL                                                           | 57 ECTS             |
+| IUR TP IV                                                       | 4. Jahr             |
+| ▪Handels­ und Wirtschaftsrecht                                  | 9 ECTS              |
+| ▪Steuerrecht                                                    | 6 ECTS              |
+| ▪Sozialrecht                                                    | 9 ECTS              |
+| TOTAL                                                           | 24 ECTS             |
+
+- Weitere Informationen: www.unifr.ch/go/ius/lehrveranstaltungen
+
+<!-- image -->
+
+## Fachliche Vertiefung durch Zusätze
+
+Sie können einzelne Fächer und juristische Fragen während dem Bachelor noch weiter vertiefen.
+
+## Zusatz «Zweisprachig»
+
+Juristinnen und Juristen, die in der Schweiz oder auf europäischer Ebene arbeiten, benötigen gute Deutsch­ und Französischkenntnisse. Freiburg ist die einzige rechtswissenschaftliche Fakultät der Schweiz, die fast alle Veranstaltungen in beiden Sprachen anbietet und somit einen zweisprachigen Bachelor­ und Master­ abschluss ermöglicht.
+
+Ihre in Freiburg erworbenen Sprachkenntnisse können Sie sich mit dem Zusatz «Zweisprachig» im Diplom ausweisen lassen.
+
+## Zusatz «Europarecht»
+
+Das Europarecht, insbesondere das Recht der EU und der EMRK, gewinnt für die Rechtspraxis in der Schweiz an Bedeutung und ist auf dem Arbeitsmarkt zuneh­ mend gefragt. Mit dem Zusatz «Europarecht» erwerben Studierende ausgewiesene Fähigkeiten auf diesem Gebiet.
+
+Er beinhaltet die Fächer Binnenmarktrecht und Ein­ führung in das europäische Privatrecht sowie eine Proseminararbeit zu einem europarechtlichen Thema.
+
+## Zertifikat «Bilingue plus - Recht»
+
+Neben einer intensiven studien­ und berufsbezoge­ nen Sprachausbildung in der zweiten Studiensprache werden die Teilnehmenden für Fragen des Multikultu­ ralismus und der Mehrsprachigkeit sensibilisiert. Die in der Schweiz einmalige Ausbildung «Bilingue plus -Recht» wird in Zusammenarbeit mit dem Sprachen­ zentrum der Universität Freiburg angeboten.
+
+Die Sprachausbildung erfolgt in kleinen Gruppen, damit ein optimaler Lernerfolg garantiert ist. Hinzu kommt eine individuelle Beratung und Betreuung der Studierenden während der ganzen Ausbildung.
+
+## Zusatz «Religionsrecht» («Utriusque Iuris»)
+
+Religionsrechtliche Fragen stehen im Zentrum gesellschaftspolitischer Diskussionen. Die Schweiz kennt unterschiedliche und komplexe Regelungen zum Verhältnis von Religionsgemeinschaften und Staat. Der Zusatz «Religionsrecht» («Utriusque Iuris») vertieft grundlegende Fragen an der Schnitt­ stelle von Recht und Religion sowie Staat und Gesellschaft.
+
+Zur Erlangung des Zusatzes auf Bachelorstufe ist der Jahreskurs «Einführung in das Religionsrecht» mit Prüfung abzulegen und eine Proseminararbeit zu verfassen.
+
+<!-- image -->
+
+<!-- image -->
+
+## Bestätigung «Studienleistungen in englischer Sprache»
+
+Mit dem Bachelor of Law kann eine Bestätigung «Studienleistungen in englischer Sprache» erhalten werden. Wer diese Bestätigung erwerben möchte, muss 18 zusätzliche ECTS­Kreditpunkte in englischer Sprache erbringen und schliesst den Bachelor of Law mit 198 ECTS­Kreditpunkten ab. Der Einführungskurs in die englische juristische Fachsprache und eine schriftliche Arbeit in Englisch sind obligatorisch.
+
+<!-- image -->
+
+## Spezialveranstaltungen und Seminare
+
+Wer in Freiburg Jus studiert, kann an zahlreichen besonderen Lehrveranstaltungen teilnehmen. Im direkten Austausch mit Professorinnen und Fachleuten vertiefen Sie das Gelernte und erleben unvergessliche Momente.
+
+## Lernunterstützung
+
+Mit verschiedenen Angeboten erleichtern wir Ihnen das Lernen. Diese Veranstaltungen sind freiwillig und geben keine zusätzlichen ECTS­Kreditpunkte. Weitere Informationen dazu finden Sie auf den Websites der entsprechenden Lehrstühle.
+
+## Intensivwoche
+
+Während einer Woche erarbeiten Sie anhand eines konkreten Falles, wie verschiedene Rechtsgebiete in der Praxis zusammenspielen - Strafrecht, Versicherungsrecht, öffent­ liches Recht, Zivilrecht. Sie erleben, wie die Fachleute im Berufsalltag mit Rechtsfragen umgehen. Die Arbeit in den Kleingruppen wird von Tutoren angeleitet.
+
+## Tutorat
+
+In den Tutoraten vertiefen Sie in Gruppenarbeit den Stoff aus Vorlesungen und Übungen. Betreut werden die Gruppen von fortgeschrittenen Studierenden.
+
+## Spezialveranstaltungen und Seminare
+
+Freiburg ist insbesondere für seine Spezialveranstaltungen beliebt und bekannt - seit Gene­ rationen prägen sie die Freiburger Rechtsstudierenden. Einige dieser Veranstaltungen sind mit Reisen im In­ und Ausland verbunden und finden in enger Zusammenarbeit mit Fach­ leuten aus der Praxis statt.
+
+Gewisse Spezialveranstaltungen und Seminare stehen schon den Bachelorstudierenden offen.
+
+<!-- image -->
+
+<!-- image -->
+
+## Informationen zu den Prüfungen
+
+Die Fakultät organisiert zwei Examenssessionen pro akademisches Jahr.
+
+Die Studierenden können sich für die ordentlichen Prüfungssessionen einschreiben. Detaillierte Informationen und den aktuellsten Plan mit den Prüfungs­ und Einschrei­ befristen finden Sie auf den Fakultätswebseiten.
+
+- Weitere Informationen: www.unifr.ch/go/ius/pruefungen
+
+## Bachelor of Law mit Zusatzfach
+
+Parallel zum Bachelor of Law kann je nach Interessensgebiet ein Zusatzfach an einer der anderen Fakultäten der Universität Freiburg absolviert werden. Das Zusatzfach besteht entweder in einem grossen (60 ECTS­Kreditpunkte) oder einem kleinen (30 ECTS­Kreditpunkte) Zusatz­ bzw. Nebenfach. Es ist auch möglich, zwei kleine Zusatz­ bzw. Nebenfächer zu 30 ECTS­Kreditpunkten zu wählen.
+
+Wählbar sind fast alle Zusatzfächer, die an der Universität Freiburg angeboten werden, wie z.B. Betriebswirtschaft, Geschichte oder Psychologie.
+
+- Weitere Informationen: www.unifr.ch/go/ius/blawplus
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## Der Master of Law
+
+<!-- image -->
+
+Der Freiburger Master of Law steht für Qualität: Mit ihrem fundierten Fachwissen und ihren exzellenten analytischen, sprachlichen und rhetorischen Fähigkeiten sind unsere Absolventinnen und Absolventen bei Arbeitgebern im In- und Ausland gefragt. Die Karrieren vieler Persönlichkeiten aus Justiz, Wirtschaft und Politik begannen mit einem Studium der Rechtswissenschaften in Freiburg.
+
+Unsere Lernkultur zeichnet sich durch kleine Unterrichtsgruppen und viel Raum für Debatten und Diskussionen aus. Das Masterstudium in Freiburg ist keine Massenveranstaltung mit überfüllten Hörsälen und Bibliotheken. Dadurch ergeben sich unmittelbare und direkte Kontakte zwischen Masterstudierenden und Dozierenden. In Freiburg kennt man Sie persönlich und geht auf Ihre Anliegen ein.
+
+Ihre Fächer können Sie nach persönlichen Gesichtspunkten frei zusam­ menstellen und individuelle Schwerpunkte setzen. Dank verschiedener Zusätze richten Sie das Studium bestens auf Ihre späteren Berufsziele aus. Unsere Themenschwerpunkte: Verfahrensrecht, Wirtschaftsrecht, Staats­ und Verwaltungsrecht, internationales Recht mit Fokus Europa, Familienrecht, Strafrecht und Kriminologie.
+
+Das Studium in Freiburg ist international ausgerichtet. Dank über 100 Abkommen stehen Freiburger Studierenden Rechtsfakultäten in aller Welt für ein oder zwei Semester offen. Das Studium verlängert sich wegen des Auslandsaufenthaltes nicht, die Studienleistungen können angerechnet werden. Freiburg ist zwar eine kleine Stadt, doch von überallher bestens erreichbar und hervorragend vernetzt. Auch in Frei­ burg selbst ergeben sich spannende Möglichkeiten der internationalen Zusammenarbeit: in gemeinsamen Forschungsprojekten mit universi­ tären Institutionen aus dem Ausland oder in internationalen Seminaren während des Semesters.
+
+## Berufsperspektiven
+
+Als Freiburger Jurist oder Juristin stehen Ihnen die Türen zu spannenden Berufen offen.
+
+Sei es als Fachjuristin, als Anwalt, Richterin oder Gerichtsschreiber, als Diplomatin, Politiker oder Geschäftsleiterin, als wissenschaftliche Mitarbeiterin, Mittelschullehrer oder in der Forschung.
+
+- Weitere Informationen: www.unifr.ch/go/ius/mlaw2023
+
+<!-- image -->
+
+## Master of Law
+
+## Studienprogramm
+
+In Freiburg ist der Master of Law vielseitig und flexibel gestaltbar. Bei entsprechend guter Planung schliessen Sie den Master of Law bei uns in zwei Semestern ab.
+
+Bei uns stellen Sie Ihr persönliches Programm aus verschiedenen Blockkursen, Semesterkursen, Seminaren sowie Spezialveranstaltungen frei zu  ­ sammen und setzen individuelle Schwerpunkte. Diese helfen, je nach beruflichen Zielen die richtige Fächerwahl zu treffen, und erleichtern Ihnen den Berufs  einstieg.
+
+Das Gelernte wenden Sie laufend an: In den interak­ tiven Übungen verfassen Sie Rechtsschriften, Urteile und Verfügen oder plädieren für eine Partei. Den Berufseinstieg können Sie so gezielt vorbereiten. Von Nutzen sind auch das Coachingprogramm oder die Moot Courts - nationale und internationale Wettbewerbe.
+
+<!-- image -->
+
+Viel Spannendes läuft auch rund um das reguläre Programm. Die Vorträge und Konferenzen zu aktuel­ len Themen, die von den Lehrstühlen über das gan­ ze Jahr hinweg angeboten werden, bringen Fachleu­ te aus aller Welt nach Freiburg. Dazu kommen viele weitere Gelegenheiten, mit anderen Studierenden, Assistierenden, Professorinnen und Professoren gemeinsam etwas zu erleben - sei dies an den Seminaren im Ausland, an den Rechtsdebatten oder am Filmzyklus «Recht im Film» der sich mit der Rolle des Rechts auseinandersetzt.
+
+## Studienstruktur
+
+Für den Titel Master of Law benötigen Sie 90 ECTS­Kreditpunkte. Davon erwerben Sie 75 ECTS­Kreditpunkte in den Semester­ oder Blockkursen und durch den Besuch von mindestens zwei Seminaren.
+
+5 ECTS­Kreditpunkte entfallen auf die Masterarbeit. Die Abschlussnote wird aus dem Notendurchschnitt der Semester­ oder Blockkurse wie auch der Seminare und der Masterarbeit berechnet.
+
+10 ECTS­Spezialkredite können Sie durch die Teilnahme an Spezialver­ anstaltungen, durch das Verfassen von schriftlichen Arbeiten, durch Praktika oder durch die Teilnahme an weiteren Block­ oder Semester­ kursen erwerben.
+
+## Master of Law (90 ECTS-Kreditpunkte)
+
+90   ECTS/emspace
+
+| ▪ IUR IV (Prozessfächer)                                                   | 25 ECTS   |
+|----------------------------------------------------------------------------|-----------|
+| ▪ Frei wählbare Semesterkurse und / oder Blockkurse                        | 40 ECTS   |
+| ▪ Seminare                                                                 | 10 ECTS   |
+| ▪ Masterarbeit                                                             | 5 ECTS    |
+| ▪ Spezialveranstaltungen / Semesterkurse und / oder zusätzlicher Blockkurs | 10 ECTS   |
+| (Spezialkredite) Total                                                     | 90        |
+
+- Weitere Informationen: www.unifr.ch/go/ius/lehrveranstaltungen
+
+<!-- image -->
+
+## Fachliche Vertiefung durch Zusätze
+
+## Zusatz «Zweisprachig»
+
+Juristinnen und Juristen, die in der Schweiz oder auf europäischer Ebene arbeiten, benötigen gute Deutsch­ und Französischkenntnisse. Freiburg ist die einzige rechtswissenschaftliche Fakultät der Schweiz, die fast alle Veranstaltungen in beiden Sprachen anbietet und somit einen zweisprachigen Bachelor­ und Masterab­ schluss ermöglicht.
+
+Ihre in Freiburg erworbenen Sprachkenntnisse können sich die Studierenden mit dem Zusatz «Zweisprachig» im Diplom ausweisen lassen.
+
+## Schwerpunkte
+
+Die Masterstudierenden können ihrem Diplom eine Färbung verleihen, indem sie bis maximal zwei Schwer­ punkte auswählen. Dies erfolgt unabhängig davon, ob sie bereits im Bachelor Zusatzqualifikationen erworben haben.
+
+Wer mit seinem Master einen oder zwei Schwerpunkte erlangen möchte, muss Semester­ oder Blockkurse im Umfang von 15 ECTS­Punkten sowie eine schriftliche Arbeit (5 ECTS­Punkte) im gewünschten Schwerpunkt validieren.
+
+## Diplom «Bilingue plus - Recht»
+
+Neben einer intensiven studien­ und berufsbezoge­ nen Sprachausbildung in der zweiten Studiensprache werden die Teilnehmenden für Fragen des Multikultu­ ralismus und der Mehrsprachigkeit sensibilisiert. Die in der Schweiz einmalige Ausbildung «Bilingue plus -Recht» wird in Zusammenarbeit mit dem Sprachen­ zentrum der Universität Freiburg angeboten.
+
+Die Sprachausbildung erfolgt in kleinen Gruppen, damit ein optimaler Lernerfolg garantiert ist. Hinzu kommt eine individuelle Beratung und Betreuung der Studierenden während der ganzen Ausbildung.
+
+Folgende Schwerpunkte stehen zur Auswahl:
+
+- Menschenrechte
+- Europa
+- Staat und Service public
+- Umwelt und Klima
+- Wirtschaft
+- Familie
+- Religion
+- Strafen
+- Streitbeilegung
+
+<!-- image -->
+
+## Zusatz «Studienleistungen in englischer Sprache»
+
+Der Master of Law kann mit einem Zusatz «Studienleistun­ gen in englischer Sprache» erworben werden.
+
+Wer einen Master mit diesem Zusatz erhalten möchte, muss insgesamt 35 ECTS­Kreditpunkte in englischer Sprache erbringen und schliesst den Master of Law mit 105 ECTS­Kreditpunkten ab. Der Einführungskurs in die englische juristische Fachsprache und eine schriftliche Arbeit in Englisch sind obligatorisch.
+
+Wer ein zweisprachiges Masterdiplom und den Zusatz «Studienleistungen in englischer Sprache» erlangen möchte, muss je 35 ECTS­Kreditpunkte in allen drei Sprachen nach den jeweiligen Vorgaben für den Erhalt des entsprechenden Zusatzes validieren.
+
+Im Rahmen der Mobilität erbrachte und für den Master of Law anerkannte Studienleistungen in englischer Sprache können für den Zusatz «Studienleistungen in englischer Sprache» berücksichtigt werden.
+
+<!-- image -->
+
+<!-- image -->
+
+## Spezialveranstaltungen und Seminare
+
+Freiburg ist insbesondere für seine Spezialveranstaltungen beliebt und bekannt - seit Generationen prägen sie die Freiburger Rechtsstudierenden. Einige dieser Veranstaltungen sind mit Reisen im Inund Ausland verbunden und finden in enger Zusammenarbeit mit Fachleuten aus der Praxis statt.
+
+Das Recht durchdringt alle Lebensbereiche. Wie lässt sich dies besser verstehen als anhand konkreter Situationen? Jedes Jahr bieten die Frei­ burger Professorinnen und Professoren, Lektorinnen und Lektoren der Fakultät wie auch externe Lehrbeauftragte zahlreiche Veranstaltungen an: aktuell, pointiert und praxisrelevant.
+
+Die Masterstudierenden können aus einer breiten Auswahl an Semester­ und Blockkursen, Seminaren und Spezialveranstaltungen auswählen. Alle Kurse werden in kleinen Gruppen durchgeführt und bieten Raum für spannende Diskussionen und die intensive Auseinandersetzung mit einem Thema.
+
+Gewisse Kurse finden nur alle zwei Jahre statt.
+
+## Einige Spezialveranstaltungen und Seminare:
+
+- Ascona­Seminar zum öffentlichen Recht
+- Seminare im Europarecht
+- Seminar Fribourg­Galatasaray
+- Juristisches Praktikum und Mitarbeit als Tutor/Tutorin
+- Moot Courts /Mediation Competition
+- Next­Coachingprogramm
+- Rhetorikkurse
+- Privatissima­Seminare
+- Skilex­Seminar
+- Strafrecht­Seminare
+
+informations supplémentaires :
+
+www.unifr.ch/ius/cours-master
+
+- Weitere Informationen: www.unifr.ch/go/ius/lehrveranstaltungen
+
+<!-- image -->
+
+<!-- image -->

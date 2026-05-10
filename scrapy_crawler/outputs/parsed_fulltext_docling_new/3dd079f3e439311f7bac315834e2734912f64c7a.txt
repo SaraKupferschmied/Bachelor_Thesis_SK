@@ -1,0 +1,349 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T18:21:17.990Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_Erdwissenschaften_3dd079f3e439311f7bac315834e2734912f64c7a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3dd079f3e439311f7bac315834e2734912f64c7a",
+  "program_key": "|bachelor|150|earth sciences",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 150,
+  "program_name": "Earth Sciences",
+  "doc_label": "Hauptfach Erdwissenschaften",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2018/Plan_BSc_ST_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/earthsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_Erdwissenschaften_3dd079f3e439311f7bac315834e2734912f64c7a.pdf",
+  "sha256": "07635558a0624ed63c420a0896494723c8958b2d90b3bdce273fd61eb8f04cac",
+  "fetched_at": "2026-04-03T11:27:43.905Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2018/Plan_BSc_ST_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_ST_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Studienplan für den Erwerb des
+
+## Bachelor of Science in Erdwissenschaften
+
+Angenommen von der Math.-Nat. und Med. Fakultät den 22.03.2004 Revidierte Version vom 28.05.2018
+
+## Inhaltsverzeichnis
+
+|   Inhaltsverzeichnis ......................................................................................................................2 | Inhaltsverzeichnis ......................................................................................................................2              | Inhaltsverzeichnis ......................................................................................................................2                                        |
+|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                          1   | Allgemeines .........................................................................................................................3                  | Allgemeines .........................................................................................................................3                                            |
+|                                                                                                                                          1.1 | Universitäre Titel und Studiengänge................................................................................................ 3                   | Universitäre Titel und Studiengänge................................................................................................ 3                                             |
+|                                                                                                                                          1.2 | Aufbau des BSc-Studiums................................................................................................................. 3              | Aufbau des BSc-Studiums................................................................................................................. 3                                        |
+|                                                                                                                                          1.3 | Erlangte Kompetenzen....................................................................................................................... 4           | Erlangte Kompetenzen....................................................................................................................... 4                                     |
+|                                                                                                                                          1.4 | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Krediten ................................ 4                                                 | Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Krediten ................................ 4                                                                           |
+|                                                                                                                                          1.5 | Unterrichtssprachen........................................................................................................................... 5        | Unterrichtssprachen........................................................................................................................... 5                                  |
+|                                                                                                                                          1.6 | Wissenschaftsethik ............................................................................................................................ 5       | Wissenschaftsethik ............................................................................................................................ 5                                 |
+|                                                                                                                                          1.7 | Reglemente und ergänzende Informationsquellen......................................................................... 5                                | Reglemente und ergänzende Informationsquellen......................................................................... 5                                                          |
+|                                                                                                                                          2   | Bachelor of Science (BSc) in Erdwissenschaften............................................................ 6                                            | Bachelor of Science (BSc) in Erdwissenschaften............................................................ 6                                                                      |
+|                                                                                                                                          2.1 | Das erste Studienjahr......................................................................................................................... 6        | Das erste Studienjahr......................................................................................................................... 6                                  |
+|                                                                                                                                              | 2.1.1                                                                                                                                                   | Unterrichtseinheiten des ersten Studienjahres ....................................................................................6                                               |
+|                                                                                                                                              | 2.1.2                                                                                                                                                   | Inhalt der UE des ersten Jahres .............................................................................................................7                                    |
+|                                                                                                                                              |                                                                                                                                                         | Vorlesungen.....................................................................................................................................................................7 |
+|                                                                                                                                              |                                                                                                                                                         | Praktika, Exkursionen und Feldkurs.................................................................................................................................7              |
+|                                                                                                                                              |                                                                                                                                                         | Propädeutische Fächer....................................................................................................................................................7        |
+|                                                                                                                                          2.2 | Das zweite und dritte Studienjahr..................................................................................................... 7                | Das zweite und dritte Studienjahr..................................................................................................... 7                                          |
+|                                                                                                                                              | 2.2.1                                                                                                                                                   | Unterrichtseinheiten des zweiten Studienjahres ..................................................................................8                                                |
+|                                                                                                                                              | 2.2.2                                                                                                                                                   | Unterrichtseinheiten des dritten Studienjahres ....................................................................................8                                              |
+|                                                                                                                                              | 2.2.3                                                                                                                                                   | Inhalt der UE des zweiten und dritten Jahres .......................................................................................9                                             |
+|                                                                                                                                              |                                                                                                                                                         | Vorlesungen.....................................................................................................................................................................9 |
+|                                                                                                                                              |                                                                                                                                                         | Praktika, Exkursionen und Feldkurse...............................................................................................................................9               |
+|                                                                                                                                              |                                                                                                                                                         | Kolloquien und Seminare...............................................................................................................................................10          |
+|                                                                                                                                              | Bachelor-Arbeit                                                                                                                                         | ..............................................................................................................................................................10                  |
+|                                                                                                                                          2.3 | Evaluation.......................................................................................................................................... 10 | Evaluation.......................................................................................................................................... 10                           |
+
+## 1 Allgemeines
+
+Dieser Studienplan enthält alle notwendigen Bestimmungen, welche das Studium in Erdwissenschaften an der Universität Freiburg regeln. Der Studienplan stützt sich auf die Bestimmungen der Mathematisch-Naturwissenschaftlichen und Medizinischen Fakultät, die im Reglement für die Erlangung der Bachelor of Science und der Master of Science (im folgenden Reglement genannt) festgelegt sind.
+
+Im Falle sukzessiver Versionen eines Studienplans wird immer die letzte Version zugrunde gelegt.
+
+## 1.1 Universitäre Titel und Studiengänge
+
+Die  Mathematisch-Naturwissenschaftliche  und  Medizinische  Fakultät  der  Universität  Freiburg verleiht  Studierenden,  welche  ihre  Studien  mit  Erfolg  abgeschlossen  haben,  die  folgenden offiziellen Titel:
+
+- Bachelor of Science in Erdwissenschaften, im folgenden BSc genannt.
+- Joint Master of Science in Earth Sciences (BeFri), im folgenden MSc genannt.
+
+Der Studiengang des BSc in Erdwissenschaften bietet eine wissenschaftliche Grundausbildung in  Geologie,  sowie  einen  Einstieg  in  die  anderen  Gebiete  der  Geowissenschaften.  Dieser  BSc erlaubt  den  Zugang  zu  einer  vertiefenden  Ausbildung  in  Rahmen  des  MSc  in  Earth  Sciences. Zum  BSc-Studium  in  Erdwissenschaften  werden  alle  Inhaber  von  eidgenössisch  anerkannten Maturitätszeugnissen  oder  als  äquivalent  anerkannten  Ausweisen  zugelassen  (vgl.  Art.  6  des Reglements).
+
+Der Studiengang des MSc in Earth Sciences ist zwischen den Universitäten Bern und Freiburg koordiniert  (BeFri).  Dieser  MSc  entspricht  den  Anforderungen  des  Schweizer  GeologenVerbandes CHGEOL. Damit garantiert er die in der Praxis verlangte Qualität.
+
+Inhaber eines BSc in Erdwissenschaften der Universität Freiburg oder einer anderen schweizerischen Hochschule sind zum Master-Studium zugelassen (Art. 7 des Reglements). Inhaber eines BSc  in  einem  anderen  Fach  oder  eines  äquivalenten  Diploms  (z.B.  ein  Abschluss  einer Ingenieurschule) können durch Beschluss der Mathematisch-Naturwissenschaftlichen und Medizinischen Fakultät ebenfalls zum Master-Studium zugelassen werden. Die Zulassung kann allerdings von Zusatzleistungen abhängig gemacht werden.
+
+Der MSc ist der Ausgangspunkt für eine Forschungsarbeit und spezialisierte Weiterbildung, die mit einem Doktorat abgeschlossen wird (PhD).
+
+## 1.2 Aufbau des BSc-Studiums
+
+Das zum BSc führende Studium gliedert sich in Unterrichtseinheiten (UE) wie Vorlesungen, Praktika,  Exkursionen  und  Feldkurse.  Jeder  UE  sind  eine  bestimmte  Anzahl ECTS 1 -Punkte zugeordnet, die durch Evaluation (z.B. in Form von Prüfungen) in ECTS-Kredite umgewandelt werden. Das BSc-Studium erfordert 180 ECTS-Kredite (entsprechend einer Studiendauer von 6 Semestern).
+
+Das BSc-Studium setzt sich aus dem Hauptfach im Umfang von 150 ECTS und einem wählbaren Zusatzfach von 30 ECTS zusammen. Das Hauptfach umfasst nebst den obligatorischen Lehrveranstaltungen in Erd- und Geowissenschaften auch zwei propädeutische Fächer , welche aus  Mathematik,  Informatik,  Physik,  Chemie  und  Biologie  gewählt  werden  können.  Das
+
+1 ECTS steht als Abkürzung für European Credit Transfer System. Ein ECTS-Punkt entspricht ungefähr 30 Stunden effektivem Arbeitsaufwand.
+
+Hauptfach Erdwissenschaften umfasst 126 ECTS Kredite, die propädeutischen Fächer je 12. Das Zusatzfach muss aus einer anderen Disziplin als der des Hauptfaches stammen. Als Zusatzfächer kommen in Frage: Geographie, Umweltwissenschaften, Biologie, Informatik, Physik, Chemie, Technische  Chemie  (in  Zusammenarbeit  mit  der  Ingenieurund  Architektenschule  Freiburg), Biochemie oder Mathematik. Für die Wahl eines anderen Zusatzfaches wird den Studierenden empfohlen, sich an den Studienberater der Erdwissenschaften zu wenden.
+
+Das Studium zum MSc in Earth Sciences dauert generell 4 Semester und umfasst 120 ECTSKreditpunkte. Gewisse Unterrichtseinheiten sind obligatorisch, andere werden je nach gewünschter  Spezialisierung  aus  einer  Liste  von  Vorlesungen  und  Praktika  ausgewählt.  Eine gewisse  Anzahl  Kurse  können  frei  gewählt  werden  und  auch  ausserhalb  von  BeFri  oder ausserhalb der Math.-Nat. und Med. Fakultät genommen werden. Die Wahl der UE muss mit dem Leiter oder der Leiterin der Master-Arbeit diskutiert werden. Die Master-Arbeit umfasst 60 ECTSKreditpunkte.  Die  UE  des  Master-Studiengangs  können  erst  nach  Abschluss  des  BSc geprüft bzw. validiert werden (vgl. 1.3).
+
+Der Studienplan für das BSc-Studium sieht verschiedene Formen von UE vor:
+
+- Die Vorlesungen führen in die wissenschaftliche Methodik und das wissenschaftliche Denken ein. Sie tragen dazu bei, die notwendigen Kenntnisse zu erwerben und die fundamentalen Konzepte zu verstehen.
+- Die Blockkurse konzentrieren den Unterricht auf einige Tage.
+- Die Praktika begleiten  die  Vorlesungen  und  sind  unabdingbar  für die  Schulung  der Beobachtungsgabe und der Interpretation geologischer Objekte.
+- Die Exkursionen zeigen die in den Vorlesungen behandelten Themen im Feld.
+- Die Feldkurse erlauben  es  den  Studenten  und  Studentinnen,  sich  unter  anderem  in geologischer Kartographie und stratigraphischer Analyse auszubilden.
+- Die Bachelor-Arbeit ist eine begleitete Forschungsarbeit im Feld und/oder im Labor.
+
+## 1.3 Erlangte Kompetenzen
+
+Mit dem Abschluss eines BSc in Erdwissenschaften haben die Studierenden sich die wissenschaftlichen  Grundlagen  und  allgemeine  Kenntnisse  im  Fach  Erdwissenschaften  angeeignet sowie  einen  Überblick  über  das  Gebiet  der  Geowissenschaften  erhalten. Sie  haben die Kompetenz  erlangt, fachliche Zusammenhänge  zu  erkennen und ein kritisches  Denken entwickelt, welches es ihnen erlauben wird, ein vertiefendes Studium zu beginnen und sich für ein Spezialgebiet des Bereiches zu entscheiden.
+
+Mit jedem propädeutischen Fach erwerben die Studierenden Grundkenntnisse in einem Gebiet, das nicht direkt zum Hauptfach gehört, aber für dessen besseres Verständnis wichtig ist. Zudem erweitern die propädeutischen Fächer ihren wissenschaftlichen Horizont.
+
+Mit einem Zusatzfach im Rahmen des BSc entwickeln die Studierenden einen Zugang zur Interdisziplinarität,  die  es  ihnen erleichtern  wird,  mit  Fachleuten  anderer  Disziplinen zu kommunizieren und zusammen zu arbeiten.
+
+Dank  der zweisprachigen  Ausbildung kennen die  Studierenden  die  Fachbegriffe  in  beiden Sprachen und sind fähig, einen Dialog mit Fachleuten deutscher und französischer Sprache zu führen.
+
+## 1.4 Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTSKrediten
+
+Die  Zuteilung  von  ECTS-Krediten  erfolgt  in drei  Schritten:  die  Bewertung  der  UE,  die Gruppierung von UE zu Anrechnungseinheiten, sowie die Validierung der ECTS-Punkte.
+
+Die Bewertung der  Praktika,  Blockkurse,  Exkursionen  und  Feldkurse  erfolgt  nach  Kriterien, welche  zu  Beginn  der  Veranstaltung  festgelegt  werden.  Diese  UE  werden  direkt  nach  ihrem Ende  bewertet.  Die  Bewertung  von  Vorlesungen  erfolgt  durch  mündliche  oder  schriftliche Prüfungen, deren Art und Dauer in einem Annex zu den Studienplänen, z.B. in Bewertung der UE in Erdwissenschaften und in Bewertung der UE in Geographie und in Geowissenschaften, festgelegt sind. Die Prüfungen finden im Allgemeinen während der regulären Examensperioden (Sessionen)  im  Frühjahr,  im  Sommer  und  im  Herbst  statt.  Die  Studierenden  schreiben  sich innerhalb der vom Dekanat festgelegten Frist für jede Prüfung on-line über das Studierendenportal MyUniFR ein (https://my.unifr.ch/). Die Prüfung bezieht sich auf die Materie der  zuletzt  unterrichteten  UE.  Ausnahmen  werden  vom  betreffenden  Departement  und/oder verantwortlichen Dozenten  mitgeteilt. Die Notenskala reicht von 6 (beste Note) bis 1 (schlechteste  Note).  Eine  Prüfung,  deren  Note  unter  4  liegt,  kann  frühestens  in  der  darauffolgenden Session und nur einmal wiederholt werden.
+
+Die Anrechnungseinheiten fassen  mehrere,  separat  evaluierte  UE  zusammen.  Art.  18  des Reglements bestimmt die Anzahl der Einheiten, während deren Inhalt durch den vorliegenden Studienplan festgelegt ist.
+
+Die ECTS-Punkte werden gemäss Art. 19 des Reglements angerechnet, sofern
+
+- das gewichtete Mittel der Prüfungsnoten in der Anrechnungseinheit mindestens 4.0 beträgt. Die Gewichtung wird durch die der UE zugeordneten Anzahl ECTS-Punkte bestimmt.
+- die Bewertungskriterien der nicht geprüften UE  (Praktika, Blockkurse, Exkursionen, Feldkurse) erfüllt sind.
+- keine der Prüfungen mit 1.0 benotet wurden.
+
+Unter  dieser  Voraussetzung  werden  die  Anrechnungseinheiten  validiert  und  die  ECTS-Punkte  in ECTS-Kredite umgewandelt. Auf Verlangen stellt das Dekanat eine Bestätigung aus, in welcher die Prüfungsresultate und die Anzahl erworbener Kredite aufgeführt sind (Art. 22 des Reglements).
+
+## 1.5 Unterrichtssprachen
+
+Die  Lehrveranstaltungen  des  BSc  erfolgen  in  deutscher  oder  französischer  Sprache.  Die Studierenden  haben  hingegen  die  Wahl,  sich  in  der  einen  oder  der  anderen  Sprache  auszudrücken. Für den Unterricht im dritten Studienjahr kann gelegentlich auch Englisch verwendet werden. Prüfungen,  Präsentationen  und  schriftliche  Arbeiten  können  wahlweise  in  deutscher oder französischer Sprache abgelegt bzw. durchgeführt werden.
+
+## 1.6 Wissenschaftsethik
+
+Ethische Prinzipien gehören auch in die wissenschaftliche Ausbildung. Die Grundsätze der Ethik verlangen, dass auch in der wissenschaftlichen Ausbildung die international anerkannten Regeln beachtet werden. Insbesondere sind bei der Anfertigung einer wissenschaftlichen Arbeit (Projekt, Seminar, Bacheloroder Masterarbeit, Bericht usw.) alle Quellen (Zeitschriftenartikel, mündliche Mitteilungen, Internetseiten usw.) korrekt zu zitieren.
+
+## 1.7 Reglemente und ergänzende Informationsquellen
+
+Weiterführende  und  ausführlichere  Informationen  zum Studium  in  Erdwissenschaften  finden sich  in  den  Dokumenten,  die  auf  der  Webseite  http://www3.unifr.ch/scimed/plans aufgeführt sind. Sie  können  diese  auch  im  Sekretariat  der  Erdwissenschaften,  Chemin  du  Musée 6, CH-1700 Freiburg, beziehen.
+
+## 2 Bachelor of Science (BSc) in Erdwissenschaften
+
+[Version 2018, Anrechnungseinheiten: PV-SST.0000001, PV-SST.0000004]
+
+Das Programm des BSc erstreckt sich über 3 Jahre Vollzeitstudium und entspricht 180 ECTSKrediten. Es besteht aus dem Hauptfach Erdwissenschaften zu 150 ECTS (126 ECTS in Erdwissenschaften und 2x12 ECTS in propädeutischen Fächern) und einem Zusatzfach zu 30 ECTS.
+
+## 2.1 Das erste Studienjahr
+
+Das  erste  Studienjahr  in  Erdwissenschaften  soll  einen  möglichst  reibungslosen  Übergang zwischen  Gymnasium  und  Universität  gewährleisten.  Es  bietet  Einführungskurse  in  die  Geowissenschaften, in die Geologie sowie in die Mineralogie an. Die Unterrichtseinheiten des ersten Jahres sind zu einer ersten Anrechnungseinheit zusammengefasst, um den Studierenden schon früh die Möglichkeit zu bieten, ihre Fähigkeiten unter Beweis zu stellen.
+
+## 2.1.1 Unterrichtseinheiten des ersten Studienjahres
+
+## Erstes Semester (Herbst)
+
+| Code    | Unterrichtseinheit                                                                                    | tot. Std.   |   ECTS |
+|---------|-------------------------------------------------------------------------------------------------------|-------------|--------|
+|         | Geowissenschaften                                                                                     |             |        |
+| GS.0101 | Einführung in die Geowissenschaften I (Vorlesung)                                                     | 28          |      3 |
+| GS.0103 | Einführung in die Geowissenschaften I (Praktikum)                                                     | 42          |      3 |
+| GS.0105 | Epistemologie der Geowissenschaften (Vorlesung)                                                       | 28          |      3 |
+|         | Erdwissenschaften                                                                                     |             |        |
+| ST.0105 | Mineralien und Gesteine (Vorlesung)                                                                   | 28          |      3 |
+| ST.0106 | Mineralien und Gesteine (Praktikum) 1                                                                 | 28          |      2 |
+| ST.0115 | Exkursionen in Geologie I                                                                             | 3 Tage      |      1 |
+|         |                                                                                                       |             |     15 |
+|         | Propädeutische Fächer                                                                                 |             |        |
+|         | Zwei zur Auswahl unter Mathematik, Informatik, Physik, Chemie (Variante A), und Biologie (Variante I) |             |     12 |
+
+1 Diese Exkursionen werden auch im folgenden Frühlingssemester angeboten
+
+## Zweites Semester (Frühling)
+
+| Code    | Unterrichtseinheit                                                                            | tot. Std.   |   ECTS |
+|---------|-----------------------------------------------------------------------------------------------|-------------|--------|
+|         | Geowissenschaften                                                                             |             |        |
+| GS.0102 | Einführung in die Geowissenschaften II (Vorlesung)                                            | 28          |      3 |
+| GS.0104 | Einführung in die Geowissenschaften II (Praktikum)                                            | 42          |      3 |
+| GS.0106 | Erdgeschichte (Vorlesung)                                                                     | 28          |      3 |
+| GS.0107 | Erdgeschichte (Praktikum)                                                                     | 14          |      1 |
+| GS.0154 | Kartographie und Kartomatik (Vorlesung)                                                       | 28          |      3 |
+| GS.0155 | Kartographie und Kartomatik (Praktikum)                                                       | 28          |      2 |
+|         | Erdwissenschaften                                                                             |             |        |
+| ST.0113 | Allgemeine Geologie (Vorlesung)                                                               | 28          |      3 |
+| ST.0114 | Allgemeine Geologie (Praktikum)                                                               | 28          |      2 |
+| ST.0116 | Feldkurs I                                                                                    | 3 Tage      |      1 |
+|         |                                                                                               |             |     21 |
+|         | Propädeutische Fächer                                                                         |             |        |
+|         | Zwei Fächer aus Mathematik, Informatik, Physik, Chemie (Variante A) und Biologie (Variante I) |             |     12 |
+
+## 2.1.2 Inhalt der UE des ersten Jahres
+
+Zu jeder Unterrichtseinheit ist eine ausführliche Beschreibung mit Inhaltsangabe und Lernzielen im Vorlesungsverzeichnis verfügbar (https://www.unifr.ch/timetable).
+
+## Vorlesungen
+
+Die  Vorlesung Einführung  in  die  Geowissenschaften (GS.0101,  GS.0102,  GS.0103,  GS.0104) vermittelt  einen  allgemeinen  Überblick  über  das  Fach  (der  Mensch  und  sein  Milieu,  Raum, Territorium, physische Umgebung, Struktur der Erde, Lithosphäre, Hydrosphäre, Atmosphäre). Der  Schwerpunk  wird  auf  die  Verwandtschaft  beider  Fächer  der  Geowissenschaften:  Erdwissenschaften und Geographie, gelegt. Der Kurs Erdgeschichte (GS.0106 und GS.0107)  zeigt die Entwicklung der Erde in Zeit und Raum auf. Die Kurse Allgemeine Geologie (ST.0113 und ST.0114) und Mineralien und Gesteine (ST.0105 und ST.0106) erlauben es, das Grundwissen zu vertiefen und mit den Bestandteilen der Lithosphäre  vertraut zu werden. Der Kurs Kartographie und  Kartomatik (GG.0154  und  GG.0155)  legt  Grundlagen  für  die  Interpretation  und  das  Erstellen  thematischer  Karten  und  Pläne,  die  sowohl  manuell  wie  mittels  spezieller  Informatikprogramme gezeichnet werden. Der Kurs Epistemologie der Geowissenschaften (GS.0105) führt durch die geschichtliche Entwicklung der Ideen und Methoden  in den Geowissenschaften.
+
+## Praktika, Exkursionen und Feldkurs
+
+Die  Vorlesungen  werden  von  Praktika  begleitet,  die  es  dem  Studenten  und  der  Studentin  erlauben, sich mit Mineralien, Gesteinen und Fossilien auseinanderzusetzen. Auf den Exkursionen (ST.0115)  wird  der  erste  Kontakt  mit  dem  Feld  hergestellt,  wobei  ein  Teil  der  in  den Vorlesungen behandelten Themen  illustriert werden.  Im Feldkurs (ST.0116) führen die Studierenden kartographische Arbeiten und stratigraphische Profilaufnahmen durch.
+
+## Propädeutische Fächer
+
+Die  propädeutischen  Fächer  bieten  eine  Grundausbildung  in  Disziplinen  ausserhalb  der  Erdwissenschaften  an.  Je  nach  der  von  den  Studierenden gewählten  Ausrichtung  werden  zwei Fächer  aus  Mathematik,  Informatik,  Physik,  Chemie  (Variante  A)  oder  Biologie  (Variante  I) ausgewählt. Für jedes der Fächer werden die UE im Wert von je 12 ECTS von den betreffenden Departementen festgelegt. Die Details finden sich im Studienplan der propädeutischen Fächer und Zusatzfächer der Math.-Nat. und Med. Fakultät der Universität Freiburg.
+
+## 2.2 Das zweite und dritte Studienjahr
+
+Im  zweiten  und  dritten  Studienjahr  werden  parallel  zum Studium  im  Hauptfach  Erdwissenschaften  die  UE  des  gewählten  Zusatzfachs  belegt.  Die  Prüfungen  aller  UE  des  zweiten  und dritten  Studienjahres  sind  auf  die  Prüfungssessionen  dieser  zwei  Jahre  verteilt.  Es  obliegt  den Studierenden,  ihre  Prüfungen  so  zu  legen,  dass  das  BSc-Studium  in  den  vorgesehenen  drei Jahren abgeschlossen werden kann. Im zweiten Studienjahr besuchen die Studierenden die ersten Unterrichtseinheiten  des  Zusatzfachs  (30  ECTS).  Diese  von  den  jeweiligen  Departementen angebotenen UE sind in den Studienplänen für die Propädeutischen Fächer und die Zusatzfächer der Math.-Nat. und Med. Fakultät aufgeführt. Die Studierenden müssen sich rechtzeitig über die betreffenden  Programme  informieren,  um  einen  geeigneten  Stundenplan  zusammenstellen  zu können.
+
+## 2.2.1 Unterrichtseinheiten des zweiten Studienjahres
+
+## Drittes Semester (Herbst)
+
+| Code    | Unterrichtseinheit                       |   tot. Std. |   ECTS |
+|---------|------------------------------------------|-------------|--------|
+|         | Erdwissenschaften                        |             |        |
+| ST.0203 | Paläontologie (Vorlesung)                |          28 |      3 |
+| ST.0218 | Paläontologie (Praktikum)                |          28 |      2 |
+| ST.0205 | Sedimentologie (Vorlesung)               |          28 |      3 |
+| ST.0206 | Tektonik (Vorlesung)                     |          28 |      3 |
+| ST.0207 | Mineralogie-Kristallographie (Vorlesung) |          28 |      3 |
+| ST.0208 | Petrologie der Magmatite (Vorlesung)     |          28 |      3 |
+| ST.0219 | Petrologie der Magmatite (Praktikum)     |          28 |      2 |
+| ST.0224 | Karten und Profile I (Praktikum)         |          28 |      2 |
+|         |                                          |             |     21 |
+
+Zusatzfach
+
+(gemäss Liste der UE des entsprechenden Departements)
+
+| Code              | Unterrichtseinheit                       | tot. Std.   |   ECTS |
+|-------------------|------------------------------------------|-------------|--------|
+| Erdwissenschaften |                                          |             |        |
+| ST.0201           | Regionale Geologie (Vorlesung)           | 28          |    3   |
+| ST.0210           | Sedimentologie (Vorlesung und Praktikum) | 28          |    2   |
+| ST.0211           | Tektonik (Vorlesung und Praktikum)       | 28          |    2   |
+| ST.0212           | Mineralogie-Kristallographie (Praktikum) | 28          |    2   |
+| ST.0213           | Mikroskopie der Magmatite (Praktikum)    | 28          |    2   |
+| ST.0214           | Optische Mikroskopie (Praktikum)         | 28          |    2   |
+| ST.0221           | Exkursionen in Geologie IIA              | 5 Tage      |    2   |
+| ST.0222           | Exkursion in Geologie IIB                | 5 Tage      |    2   |
+| ST.0223           | Feldkurs II                              | 5 Tage      |    2   |
+| ST.0225           | Karten und Profile II (Praktikum)        | 28          |    2   |
+| ST.0226           | Exkursion in Geologie IIC                | 3 Tage      |    1.5 |
+| ST.0227           | Methoden der Mineralogie (Praktikum)     | 28          |    2   |
+| GG.0316           | Einführung in die Geophysik (Vorlesung)  | 14          |    2   |
+|                   |                                          |             |   26.5 |
+
+## Zusatzfach
+
+(gemäss Liste der UE des entsprechenden Departements)
+
+## 2.2.2 Unterrichtseinheiten des dritten Studienjahres
+
+## Fünftes Semester (Herbst)
+
+| Code    | Unterrichtseinheit                             |   tot. Std. |   ECTS |
+|---------|------------------------------------------------|-------------|--------|
+|         | Erdwissenschaften                              |             |        |
+| ST.0302 | Mikroskopie der Sedimente (Praktikum)          |          28 |    2   |
+| ST.0303 | Allgemeine Mikropaläontologie (Vorlesung)      |          28 |    3   |
+| ST.0304 | Allgemeine Mikropaläontologie (Praktikum)      |          28 |    2   |
+| ST.0305 | Hanginstabilitäten (Vorlesung)                 |          28 |    3   |
+| ST.0308 | Geochemie (Vorlesung)                          |          28 |    3   |
+| ST.0324 | Kolloquium in Geowissenschaften                |          14 |    0.5 |
+| GG.0262 | Geomorphologie und Quartär 1. Teil (Vorlesung) |          28 |    3   |
+| GG.0317 | Einführung in die Geophysik (Praktikum)        |          28 |    2   |
+
+Zusatzfach
+
+(gemäss Liste der UE des entsprechenden Departements)
+
+18.5
+
+## Sechstes Semester (Frühling)
+
+| Code    | Unterrichtseinheit                                               | tot. Std.   |   ECTS |
+|---------|------------------------------------------------------------------|-------------|--------|
+|         | Erdwissenschaften                                                |             |        |
+| ST.0307 | Technische Geologie (Vorlesung)                                  | 28          |    3   |
+| ST.0311 | Sedimentologische Methoden (Blockkurs)                           | 5 Tage      |    2.5 |
+| ST.0312 | Petrologie der Metamorphite (Vorlesung und Praktikum)            | 28          |    2   |
+| ST.0313 | Mikroskopie der Metamorphite (Praktikum)                         | 28          |    2   |
+| ST.0318 | Exkursion in Geologie IIIA                                       | 3 Tage      |    1.5 |
+| ST.0322 | Exkursion in Geologie IIIB                                       | 8 Tage      |    4   |
+| ST.0323 | Seminar in Erdwissenschaften                                     | -           |    1   |
+| ST.0325 | Feldkurs III                                                     | 6 Tage      |    3   |
+| ST.0317 | Bachelor-Arbeit                                                  | -           |    5   |
+|         |                                                                  |             |   24   |
+|         | Zusatzfach (gemäss Liste der UE des entsprechenden Departements) |             |        |
+
+## 2.2.3 Inhalt der UE des zweiten und dritten Jahres
+
+## Vorlesungen
+
+- Die  Vorlesung Regionale  Geologie (ST.0201)  beschreibt  die  geologische  Struktur  der Schweiz.
+- Die Vorlesung Paläontologie (ST.0203) stellt die Systematik und die ökologische Bedeutung der Fossilien vor und behandelt die Evolution des Lebens.
+- Die  Vorlesung Sedimentologie (ST.0205  und  ST.0210)  befasst  sich  mit  Prozessen  der Erosion, des Transportes und der Ablagerung von Sedimenten, heute und in der geologischen Vergangenheit.
+- Die  Vorlesung Tektonik (ST.0206)  beschreibt  die  Deformation  der  Erdkruste  und  die Methoden der Strukturanalyse.
+- Die  Vorlesung Mineralogie-Kristallographie (ST.0207)  analysiert  die  Zusammensetzung, die Struktur und das physikalische und chemische Verhalten der von Mineralien.
+- In der Vorlesungen Petrologie der Magmatite (ST.0208) und Petrologie der Metamorphite (ST.0312) werden die physischen und chemischen Prozesse vorgestellt, die zum Verständnis der magmatischen und metamorphen Gesteinen und Prozessen nötig sind.
+- Die  Vorlesung Allgemeine  Mikropaläontologie (ST.0303)  beschreibt  und  interpretiert  die Mikrofossilien, welche auch zur Datierung von Gesteinen benützt werden.
+- In der Vorlesung Geomorphologie und Quartär 1. Teil (GG.0262) werden die eiszeitlichen und zwischeneiszeitlichen Ablagerungen beschrieben und interpretiert.
+- Die Vorlesungen Hanginstabilitäten (ST.0305) und Technische Geologie (ST.0307) zeigen die angewandten Aspekte der Geologie auf.
+- In  der  Vorlesung Geochemie (ST.0308) wird den chemischen Prozessen in der Geosphäre nachgegangen. Diese Vorlesung wird im Rahmen von BeFri in Bern gehalten.
+- Die  Vorlesung Einführung  in  die  Geophysik (GG.0316)  illustriert die  physikalischen Methoden der Untersuchung der Erdkruste.
+
+## Praktika, Exkursionen und Feldkurse
+
+Die  Vorlesungen Paläontologie,  Mikropaläontologie,  Sedimentologie,  Tektonik,  Einführung  in die Geophysik, Mineralogie-Kristallographie, Petrologie der Magmatite und der Metamorphite werden  von  Praktika  begleitet  (ST.0218,  ST.0304,  ST.0210,  ST.0211,  GG.0317,  ST.0212, ST.0219 und ST.0312). Dadurch können die Studierenden die in den Vorlesungen behandelten Themen durch persönliche Beobachtungen und Interpretationen vertiefen. In den UE Karten und Profile  I und II (ST.0224  und  ST.0225)  werden  geologische  Karten  analysiert.  Durch  die
+
+Mikroskopie (ST.0214) werden sedimentäre (ST.0302), magmatische (ST.0213) und metamorphe (ST.0313) Gesteine im Detail untersucht. In den Praktika Methoden in Sedimentologie (ST.0311) und Methoden  in Mineralogie (ST.0227)  bereiten  die  Studierenden Gesteinsproben auf und wenden an diesen verschiedene Messmethoden an und interpretieren die Resultate. Die Exkursionen erlauben es, die Komplexität der in den Vorlesungen und Praktika behandelten Phänomene in der Natur einzuschätzen. In den Feldkursen wird die Beschreibung, Analyse und Interpretation der Geologie eines Gebietes geübt.
+
+## Kolloquien und Seminare
+
+Das Kolloquium in Geowissenschaften (ST.0324) müssen besucht werden. Jede/r Studierende führt im  dritten  Jahr  eine  auf  Literaturstudium  basierende  Seminararbeit  (ST.0323)  zu  einem gegebenen Thema durch und hält darüber einen Vortrag.
+
+## Bachelor-Arbeit
+
+Gegen das Ende des dritten Jahres führen die Studierenden eine persönliche Forschungsarbeit (ST.0317)  aus.  Diese  besteht  aus  einer  Studie  im  Feld  und/oder  im  Laboratorium.  In  beiden Fällen ist ein vorangehendes Literaturstudium unabdingbar. Die Bachelor-Arbeit wird von einem Dozenten oder einer Dozentin vorgeschlagen und begleitet.
+
+## 2.3 Evaluation
+
+Die Validierungsbedingungen der einzelnen UE sind in den Annexen der entsprechenden Fachbereiche aufgeführt. Konsultieren Sie den Annex der Erdwissenschaften und diejenigen der von Ihnen gewählten propädeutischen Fächern und Zusatzfächern.
+
+Die Anrechnungseinheit BSc1 umfasst die Gesamtheit der UE des ersten Jahres und wird mit 60 ECTS angerechnet. Die UE des ersten Jahres müssen spätestens bis zum Ende des vierten Semesters validiert werden 3 . Sollte dies nicht zutreffen, kann das Studium in Erdwissenschaften definitiv nicht mehr fortgesetzt werden.
+
+Die Anrechnungseinheit BSc2 umfasst  die  UE  des  Hauptfachs  des  zweiten  und  dritten Studienjahres  und  zählt  90  ECTS-Kredite.  Die  Praktika,  Exkursionen  und  Feldkurse  werden nach zu Beginn des Jahres festgelegten Kriterien evaluiert. Die Evaluation der Vorlesungen des 2.  und  3.  Jahres  ist  auf  verschiedene  Examenssessionen  verteilt  und  besteht  aus  mehreren Prüfungen.
+
+Die  Seminararbeit  (Literaturstudium  und  Vortrag)  wird  validiert  (ohne  Note).  Die  BachelorArbeit  wird  benotet.  Sie  wird  validiert,  wenn  eine  Note  von  mindestens  4  erreicht  wird.  Eine ungenügende  Bachelor-Arbeit  muss  verbessert  werde,  bis  eine  genügende  Note  erreicht  wird, oder es muss eine neue Arbeit realisiert werden.
+
+Die Anrechnungseinheit BSc3 umfasst die UE des Zusatzfachs, das gemäss dem Studienplan dieses  Fachs  evaluiert  wird.  Sie  gibt  Anrecht  auf  30  ECTS-Kredite.  Ein  nicht  bestandenes Zusatzfach kann durch ein anderes ersetzt werden.
+
+Die Anrechnung der Pakete BSc1, BSc2 und BSc3 berechtigt zum Titel Bachelor of Science in Erdwissenschaften, Universität Freiburg (BSc) .
+
+3 Die Examenssession vor dem Anfang des Herbstsemesters im September gehört zum Frühlingssemester des vorhergehenden akademischen Jahres

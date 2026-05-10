@@ -1,0 +1,118 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:14:45.469Z",
+  "title": "Philosophy_Bachelor_30_Spanish_Studienplan_BA_30_ECTS_27e1c1cff8bb33cf5a83cfdfd433d1ca90de33f6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "27e1c1cff8bb33cf5a83cfdfd433d1ca90de33f6",
+  "program_key": "philosophy|bachelor|30|spanish",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Spanish",
+  "doc_label": "Studienplan BA 30 ECTS",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/DE_30_ba_espagnol.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Spanish_Studienplan_BA_30_ECTS_27e1c1cff8bb33cf5a83cfdfd433d1ca90de33f6.pdf",
+  "sha256": "96ccfe8e42adbd1924acd6c0c6b23dd6e8cc5d92ab8567dd7497ff57ffe8a35e",
+  "fetched_at": "2026-04-03T11:31:09.748Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/DE_30_ba_espagnol.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "DE_30_ba_espagnol.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## UNIVERSITÄT FREIBURG - SCHWEIZ
+
+## PHILOSOPHISCHE FAKULTÄT - DEPARTEMENT FÜR SPRACHEN UND LITERATUREN
+
+## Departement für Spanisch
+
+## STUDIENPLAN BACHELOR ZU 30 ECTS
+
+## 1. Allgemeine Beschreibung
+
+Der vorliegende Studienplan beruht auf dem Reglement der Philosophischen Fakultät vom 23. Juni  2005 zur  Erlangung  des  universitären  Diploms  (Niveau  europäischer Bachelor )  und  den Richtlinien  vom 23. April  2009 (Stand am 26. September 2013) über die Evaluation der Studienleistungen.
+
+D as Departement für Spanisch umfasst die verschiedenen Literaturen der spanischsprachigen  Länder  Amerikas  (die  USA  eingeschlossen)  und  der  Iberischen  Halbinsel  und legt ein besonderes Augenmerk auf die Beziehungen zwischen Literaturund Geisteswissenschaften wie auch auf den Beitrag interdisziplinärer Studien. Die hispanische Philologie befasst sich mit dem Studium der Sprache,  der  Literatur  und  der  Kultur  des mittelalterlichen  Spaniens  sowie  auch  mit  der  Überlieferung  handschriftlicher  Werke  und  deren Stellung  in  der  abendländischen  Kulturgeschichte.  Die  angebotene  Ausbildung  bietet  somit  lokales Wissen über die hispanische Kultur sowie auch Kenntnisse über den internationalen  Kontext  (oder sogar den transkontinentalen), der die Geschichte  und die aktuelle  Situation  des  hispanischen Kulturkreises mitgestaltet hat.
+
+Der Studienplan  des  Bachelor  zu  30  ECTS hat  zum  Ziel,  eine  Ausbildung  zu  bieten,  die den  Akzent  auf  die  wesentlichen  Aspekte  der  hispanischen  Literatur,  Sprache  und  Kultur  legt, unter  Berücksichtigung der verschiedenen Regionen, aus denen sich diese zusammensetzen, und  ihrer säkularen Beziehungen. Diese Ausbildung begünstigt eine historische  Annäherung mithilfe von  allgemeinen  und  spezifischen  Lehrveranstaltungen  (zu  den  grossen  Epochen  und Regionen  oder  zu  einem  spezifischeren  Thema),  bei  welchen  immer  auch  die  Erlangung  einer gewissen  Bandbreite  an  technischen  und  analytischen  Kompetenzen,  schriftlicher  und  mündlicher Kommunikationsfähigkeiten sowie  auch  die  individuelle  Forschung  und  diejenige  in  Gruppen  im Vordergrund  steht. Die  im  Rahmen  dieses  Studienplans  angebotenen  Proseminare  dienen  zur Erlangung  der  zuvor  erwähnten  fundamentalen Kompetenzvielfalt.
+
+Der  Studienbeginn  kann  sowohl  im  Herbstsemester  (September  bis  Dezember)  als  auch im Frühlingssemester (Februar bis Mai) stattfinden. Die Unterrichtssprache ist Spanisch.
+
+## 2. Aufbau des Studienplans
+
+Der Studienplan zu 30 ECTS setzt sich aus zwei Modulen zusammen: Einem kleinen Modul zu 12 ECTS, das aus zwei Pflichtveranstaltungen besteht (M1: Módulo de base )  und einem grossen Modul  zu  18  ECTS,  innerhalb  dessen  verschiedene  Wahlmöglichkeiten  angeboten  werden  (M2: Módulo combinado ).  Konkret bedeutet dies, dass sich das Modul M2 in drei Blöcke gliedert, wobei jeder  davon  einen  anderen  und  komplementären  Inhalt  zu  den  anderen  zwei  Blöcken  aufweist: Literaturvorlesungen ( Block  A ), Sprachgeschichtsund Linguistikvorlesungen ( Block  B ) und Proseminare zu Literatur und Sprache ( Block C ).
+
+Die ECTS-Kreditpunkte, die dem vorgesehenen Arbeitsaufwand für ein Modul entsprechen, werden  erst  dann  validiert,  sobald  der/die  Studierende  die  Gesamtheit  der  im  jeweiligen  Modul verlangten Anforderungen erbracht hat. Die Anzahl der Kreditpunkte ist nicht teilbar: Eine partielle Zuschreibung von Kreditpunkten innerhalb eines Moduls ist somit nicht möglich.
+
+Der/die Studierende ist dazu verpflichtet, die zwei Vorlesungen, die das Modul M1 bilden, zu besuchen.  Dies  ist  damit  zu  begründen,  dass  in  beiden  Vorlesungen  grundlegende  Kenntnisse  zur Literatur- und Kulturgeschichte der hispanischen Welt vermittelt werden. Im Gegenzug dazu verfügt der/die Studierende über eine grosse Wahlfreiheit bezüglich des Moduls M2: Er/sie wählt dabei eine der  drei  Unterrichtseinheiten,  die  in  ihrer  Gesamtheit  jeweils  einen  Block  des  Moduls  bilden.  Das vorliegende Programm bietet dadurch sowohl einen klaren Aufbau als auch eine gewisse Flexibilität, die es dem/der Studierenden erlaubt, dessen/deren Ausbildungsinteressen und -bedürfnissen gerecht zu werden.
+
+Hinzuzufügen ist, dass ein/eine Studierender/Studierende, der/die für dieses Studienprogramm eingeschrieben  ist,  die  Möglichkeit  hat,  ein  Maximum  von  9  Kreditpunkten  an  einer  anderen Universität zu erwerben, insbesondere während eines Sprachaufenthalts in einem spanischsprachigen  Land.  Dabei  ist  eine  vorherige  Absprache  mit  dem  Verantwortlichen  des Departements für Spanisch, bezüglich der Anerkennung der an einer anderen Universität besuchten Kurse, erforderlich und unabdingbar. Derselbe überträgt nach abschliessender Überprüfung  die  Noten  und  Kreditpunkte,  die  von  dem/der  Studierenden  erhalten  wurden,  auf das  Validierungssystem  (es  ist  möglich,  dass  zur  Angleichung der verschiedenen Kreditsysteme noch eine Zusatzleistung erbracht werden muss).
+
+Unter Vorbehalt von besonderen Ausnahmefällen dauern die Vorlesungen und Proseminare  ein  Semester.  Die  Vorlesungen  und  Proseminare  desselben  Moduls  können  während verschiedener Semester besucht werden.
+
+## DEPARTEMENT FÜR SPANISCH
+
+## STUDIENPLAN BACHELOR ZU 30 ECTS
+
+## Übersichtstabelle
+
+| Bezeichnung des Moduls   | Unterrichtseinheit                                                                                                                                                                                                                                                                                                                                                                                                                                        | ECTS/Einheit      | ECTS/Modul   |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------|
+| M1: Módulo de base       | C: Síntesis de historia y literatura española C: Literatura y Civilización de América Latina                                                                                                                                                                                                                                                                                                                                                              | 6 6               | 12 ECTS      |
+| M2: Módulo combinado     | Elegir una materia de cada bloque Bloque A: Cursos de Literatura - Literatura de la Edad Media - Literatura moderna y contemporánea esp. - Literatura latinoamericana Bloque B: Cursos de Lengua - Historia de la lengua: orígenes - siglo XV - Historia de la lengua: siglos XVI-XXI - Lingüística contemporánea Bloque C: Proseminarios - Textos literarios latinoamericanos - Literatura medieval - Historia de la lengua/Lingüística contem- poránea. | 6 6 6 6 6 6 6 6 6 | 18 ECTS      |
+
+## 3. Beschreibung der Module
+
+## M1 : Módulo de base (12 ECTS)
+
+Die zwei Vorlesungen, die dieses Modul bilden, bieten eine Grundausbildung hinsichtlich der Entwicklung der spanischen Literatur eingebettet in die Geschichte Spaniens einerseits, und bezüglich der Inhalte, Epochen, Problematiken, literarischen Gattungen und herausragenden Autoren Lateinamerikas andererseits.
+
+Jede der beiden Unterrichtseinheiten wird mit einem Examen abgeschlossen, das am Ende des Semesters,  an  dem  der/die  Studierende  die  Veranstaltung  besucht  hat,  stattfindet.  Die  Evaluationen werden pro Unterrichtseinheit absolviert und sind somit unabhängig. Eine Kompensation wird dabei nicht gebilligt. Jede bestandene Prüfung berechtigt zum Erhalt von 6 ECTS-Punkten.
+
+## M2 : Módulo combinado (18 ECTS)
+
+Der  erste der drei Blöcke, aus denen  sich dieses Modul  zusammensetzt,  bietet  drei verschiedene Wahlvorlesungen an, welche die Kenntnis eines grossen Kapitels der lateinamerikanischen  Literatur  oder  der  spanischen  Literatur  des  Mittelalters  oder  der  Neuzeit  zum Ziel  haben.  Der  zweite  Block,  ebenfalls  bestehend  aus  drei  Wahlpflichtvorlesungen,  ermöglicht  es dem/der  Studierenden,  einen  Zeitabschnitt  der  spanischen  Sprachgeschichte  oder  der  aktuellen Strukturen und Varianten der spanischen Sprache kennenzulernen. Das Ziel des dritten Blocks ist die Aneignung  von  technischen  und  kritischen  Kompetenzen,  die  für  die  Analyse  von  repräsentativen Dokumenten  der  hispanischen  Überlieferungstradition  oder  der  aktuellen  linguistischen  Situation erforderlich  sind.  Auch  hier  liegt  es  an  dem/der  Studierenden  selbst  zu  entscheiden,  nach  welchen Zielen sich sein Lernen und seine Reflexionen richten sollen.
+
+Die  Evaluierung  wird  für  jede  einzelne  Vorlesung  mithilfe  eines  schriftlichen  Examens  am Semesterende durchgeführt; das gewählte Proseminar wird mittels einer mündlichen Präsentation und der Abfassung einer schriftlichen Hausarbeit im Anschluss an das Semester oder, je nach behandelter Thematik,  anhand  eines  Übungsdossiers  evaluiert.  Jede  der  drei  Unterrichtseinheiten  wird  einzeln bewertet  und  ist  somit  unabhängig  von  den  anderen.  Auch  hier  ist  keine  Art  der  Kompensation möglich. Jede bestandene Unterrichtseinheit berechtigt zum Erhalt von 6 ECTS-Punkten.
+
+## 4. Evaluation der Leistungen
+
+Wie bereits erwähnt wurde, wird jede Vorlesung, unabhängig von den anderen und ohne die Möglichkeit einer Kompensation, mittels eines am Semesterende stattfindenden Examens validiert und gilt mit einer Note zwischen 4 (Mindestnote) und 6 (Höchstnote) als bestanden. Je nach Unterrichtseinheit oder behandeltem Gegenstand bietet das gewählte Proseminar zwei Validierungsmöglichkeiten: eine mündliche Präsentation während und eine schriftliche Hausarbeit im Anschluss an das Semester oder ein Übungsdossier (Kontrolle der erbrachten Leistungen im Verlauf der Lehrveranstaltung). In beiden Fällen wird eine aktive Beteiligung am Proseminar verlangt.
+
+Die  regelmässige  Teilnahme  an  den  Vorlesungen  und  den  Proseminaren  ist  obligatorisch. Bereits drei ungerechtfertigte Absenzen haben die Nicht-Validierung der Lehrveranstaltung zur Folge. Der/die Verantwortliche der Lehrveranstaltung (gegebenenfalls auch der Verantwortliche des Studienbereichs) entscheidet, ob die Rechtfertigungen der Absenzen gestattet werden.
+
+Die Validierung eines Moduls setzt den erfolgreichen Abschluss jeder einzelnen dazugehörigen Unterrichtseinheit durch den/die Studierenden/Studierende voraus. Der Notendurchschnitt  des  Moduls  wird  auf  der  Basis  der  Gesamtheit  der  darin  erzielten  numerischen Noten berechnet (zwischen 4 und 6).
+
+Die Validierung einer erbrachten Leistung in einer Lehrveranstaltung innerhalb eines Moduls kann nicht einem anderen Modul gutgeschrieben werden. Ebenso ist es nicht möglich, eine Vorlesung anstelle eines Proseminars validieren zu lassen oder umgekehrt.
+
+Damit eine Vorlesung oder ein Proseminar an unserer Fakultät besucht werden kann, ist eine Einschreibung  über  das  geltende  Informatiksystem  erforderlich.  Gleiches  gilt  für  die  Zulassung  zu einem Examen (separate Einschreibung notwendig). Die vom Dekanat angegebenen Fristen müssen dabei  immer eingehalten werden. Bezüglich der Proseminare ist es ausserdem ratsam, vor Semesterbeginn mit dem Dozenten Kontakt aufzunehmen, damit ein Platz reserviert und das Risiko einer Aufschiebung der Teilnahme an besagtem Proseminar vermieden werden kann.
+
+Ein  nicht  bestandenes  Examen  kann  noch  zwei  weitere  Male  wiederholt  werden.  Der/die Studierende muss sich für jeden weiteren Versuch jeweils neu einschreiben. Das Examen muss dabei aber  spätestens  bei  der  vierten  Session  ab  Datum  der  Kurseinschreibung  bestanden  werden,  da ansonsten ein definitiver Misserfolg eintritt. Die Abwesenheit an einem Examen, für das sich der/die Studierende eingeschrieben hat, hat einen Misserfolg zur Folge, unter Vorbehalt von höherer Gewalt. In  diesem  Fall  ist  er/sie  dazu  verpflichtet,  das  Sekretariat  des  Studienbereichs  bis  spätestens eine  Woche  nach  dem  Prüfungsdatum  schriftlich  darüber  zu  unterrichten.  D as Departement behält sich  das  Recht  vor,  über  die  Genehmigung  der  Absenzrechtfertigung  zu  entscheiden  (Art.  3  und 4  der Richtlinien über die Evaluation der Studienleistungen).
+
+Die zwei Lehrveranstaltungen des Moduls M1 finden alljährlich statt und sind obligatorisch. Der/die  Studierende,  der/die  diese  Lehrveranstaltungen  innerhalb  der  vorgesehenen  Frist  nicht besteht,  ist  zur  Fortsetzung  des  Studiums  in  keinem  der  Studienpläne  des Departements mehr zugelassen.
+
+Falls  vom  Dozenten  nichts  anderes  festgelegt  wurde,  beträgt  die  maximale  Frist  für die Einreichung von Proseminararbeiten drei Monate beginnend mit dem Ende des Semesters, an welchem  das  Proseminar  besucht  wurde.  Dieses  muss  aber  spätestens  am  1. September  bestanden  werden,  falls  es  während  des  vorangehenden  Herbstsemesters  besucht  oder am  1.  Februar,  wenn während des vorangegangenen Frühlingssemesters daran teilgenommen wurde.
+
+## 5. Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt ab Beginn des Herbstsemesters 2016 in Kraft. Studierende,  die  ihr  Studium  an  der  Universität  Freiburg  an  besagtem  Semester  aufnehmen, unterliegen diesem Studienplan ausnahmslos. Diejenigen Studierenden, die ihr Universitätsstudium zwischen dem Herbstsemester 2015 und dem Frühlingssemester 2016 begonnen haben, haben die Möglichkeit, ihr Studium unter dem alten Studienplan fortzusetzen oder vor Beginn des Frühlingssemesters 2017 zum neuen überzuwechseln.
+
+Grundsätzlich haben Studierende, die vor dem Herbstsemester 2015 bereits an der Universität  Freiburg eingeschrieben waren, nicht mehr  die Möglichkeit, den Studienplan zu wechseln.  Lediglich  ordnungsgemäss begründete Ausnahmefälle können nötigenfalls berücksichtigt werden.
+
+Genehmigt vom Studienbereich Spanisch am 6.10.2015
+
+Genehmigt vom Rat des Departements für Sprachen und Literaturen am 22.10.2015

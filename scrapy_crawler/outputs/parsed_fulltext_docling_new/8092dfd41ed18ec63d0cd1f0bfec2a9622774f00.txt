@@ -1,0 +1,388 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T22:17:56.569Z",
+  "title": "UNK_Bachelor_150_Physics_Branche_principale_en_informatique_8092dfd41ed18ec63d0cd1f0bfec2a9622774f00",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8092dfd41ed18ec63d0cd1f0bfec2a9622774f00",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Computer Science",
+  "doc_label": "Branche principale en informatique",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2017/Plan_BSc_IN_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Branche_principale_en_informatique_8092dfd41ed18ec63d0cd1f0bfec2a9622774f00.pdf",
+  "sha256": "cc8919c38932e67da9e099854d9f95a5fb66d2c9d1fd4fbe280e49c0c4e55a14",
+  "fetched_at": "2026-04-03T11:28:01.400Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2017/Plan_BSc_IN_fr.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_IN_fr.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Bachelor of Science en informatique
+
+Accepté par la Faculté des Sciences le 22 mars 2004 Version révisée du 26 mai 2015
+
+## Table des matières
+
+|   Table des matières...................................................................................................................2 | Table des matières...................................................................................................................2                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                      1   | Généralités..........................................................................................................................3                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                      1.1 | Titres universitaires et voies d'études ............................................................................................. 3                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                      1.2 | Structure générale des études .......................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                      1.3 | Compétences acquises...................................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                      1.4 | Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS........................... 5                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                      1.5 | Langues d'enseignement................................................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                      1.6 | Éthique scientifique............................................................................................................................ 5                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                      1.7 | Règlements et informations complémentaires................................................................................ 6                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                      2   | Bachelor of Science (BSc).................................................................................................7                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                      2.1 | La première année d'études de la branche principale.................................................................... 7                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                      2.2 | La deuxième et la troisième année d'études de la branche principale ......................................... 2.2.1 Unités d'enseignement de la deuxième                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                          | 9 année......................................................................................9 2.2.2 Contenu des UE de la deuxième année.................................................................................................9 2.2.3 Unités d'enseignement de la troisième année ....................................................................................10 2.2.4 Contenu des UE de la 3 ème année.........................................................................................................10 |
+|                                                                                                                                          | 2.2.5 Examens de la deuxième et troisième années, validation .................................................................11                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                          | Branche complémentaire................................................................................................................. 11                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                      2.3 | 2.3.1 Branche principale en informatique avec branche complémentaire en                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                          | mathématiques................11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                          | 12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                      2.4 | Règlement transitoire.......................................................................................................................                                                                                                                                                                                                                                                                                                                                                                                          |
+
+## 1 Généralités
+
+Ce  plan  d'études  contient  toutes  les  informations  nécessaires  aux  étudiant-es  qui  souhaitent entreprendre des études d'informatique à l'Université de Fribourg. Le Bachelor est soumis aux conditions du Règlement du 2.2.2004 pour l'obtention des Bachelor of Science et des Master of Science  de  la  Faculté  des  Sciences (appelé  ci-après  règlement).  Le  Master  dépend  du Règlement pour l'obtention du Master en Informatique des Universités de Berne, Neuchâtel, Fribourg.
+
+Des informations complémentaires concernant le programme du BSc en informatique peuvent être obtenues sous http://diuf.unifr.ch/bsc.
+
+## 1.1 Titres universitaires et voies d'études
+
+La Faculté des sciences décerne, aux étudiant-es qui ont accompli avec succès leurs études, le titre officiel suivant:
+
+- Bachelor of Science en informatique, appelé ci-après BSc.
+
+La  voie  d'études  du  BSc en  informatique  offre  une  formation  de  base  en  informatique.  Les connaissances générales et la méthodologie qu'elle apporte constituent un bagage solide pour des orientations professionnelles variées. Le BSc en informatique dispense aussi la formation essentielle et indispensable pour la poursuite des études scientifiques plus approfondies conduisant au MSc en informatique.  Tous  les  titulaires  d'un  diplôme  de  maturité  fédérale  ou  d'un  titre  jugé équivalent sont admis aux études de BSc en informatique (voir Art. 6 du règlement)
+
+La voie d'études du MSc in Computer Science offre la possibilité d'approfondir la formation en informatique  ainsi  que  de  se  spécialiser  dans  un  domaine  particulier.  Le  MSc  in  Computer Science donne une ouverture vers diverses formes d'activités professionnelles dans la recherche, l'enseignement, l'industrie, l'économie ou l'administration. Il ouvre la voie aux études doctorales. Combiné  avec  une  branche  complémentaire  (biologie,  chimie,  géographie,  mathématiques  ou physique) le MSc in Computer Science donne aussi accès au « Diplôme d'enseignement pour les écoles de maturité » (DEEM, ex-DAES II).
+
+Les titulaires d'un titre de BSc en informatique de l'Université de Fribourg, d'une autre Université  suisse  ou  d'une  École  polytechnique  fédérale  sont  admis  aux  études  de  Joint  MSc  in Computer Science (Art. 14 du règlement du Master) ou aux études de MA (Master of Arts) en informatique  de  gestion.  Les  détenteurs  d'un  BSc  acquis  dans  une  autre  discipline  ou  d'un diplôme équivalent (par exemple diplôme d'une Haute école spécialisée) peuvent être admis aux études de MSc  sur  décision  de la Faculté des sciences.  Dans  ce cas, des prestations complémentaires préalables peuvent être exigées.
+
+## 1.2 Structure générale des études
+
+Les  études de  BSc  sont  composées d'unités  d'enseignement  (UE) telles  que  les  cours,  les exercices, les séminaires, les projets, etc. À chaque UE est associé un nombre de points ECTS 1 , transformables en crédits ECTS par une procédure d'évaluation . Les études de BSc requièrent l'acquisition de 180 crédits ECTS (6 semestres).
+
+Les  études  de  BSc  en  informatique  se  composent  de  la branche principale de  120  ECTS  et d'une  ou  deux branches  complémentaires de  respectivement  60  ou  deux  fois  30  ECTS.  La branche principale comprend les UE obligatoires en informatique et en mathématiques propédeutiques . Les branches complémentaires doivent être choisies dans une autre discipline que la branche principale. Toutes les branches enseignées à l'Université de Fribourg peuvent potentiellement  être  choisies  comme  branche  complémentaire.  Pour  les  disciplines  de  la  Faculté  des sciences (mathématiques, physique, biologie, biochimie, etc.) et pour les autres choix les plus courants (économie, droit, psychologie, etc.), il existe des plans d'études établis. L'étudiant-e qui souhaite choisir une autre branche complémentaire s'adresse au conseiller aux études d'informatique pour faire établir un plan d'études.
+
+Pour mener l'étudiant-e au BSc, le plan d'études prévoit des UE sous diverses formes :
+
+- Les cours initient à l'informatique en tant que discipline scientifique. Ils aident à comprendre les concepts fondamentaux en s'appuyant sur la formalisation des traitements.
+- Les exercices accompagnent les cours en contribuant à la compréhension et à l'assimilation du contenu. Ils donnent l'occasion d'expérimenter sur machine.
+- Les mini-projets permettent à l'étudiant-e de se confronter à la résolution d'un problème concret. Il apprend à spécifier un cahier des charges, concevoir une application, l'implémenter sur machine et enfin à l'évaluer.
+- Les séminaires permettent de s'exercer à l'assimilation et à la présentation orale et écrite d'un sujet scientifique préalablement étudié.
+
+## 1.3 Compétences acquises
+
+Avec l'obtention d'un BSc en informatique , l'étudiant-e aura consolidé ses bases scientifiques et  acquis  une  connaissance  générale  et  une  vision  large  de  sa  branche  principale.  Il  aura développé une faculté de synthèse et une pensée critique qui lui permettront d'aborder des études approfondies ou une spécialisation dans son domaine.
+
+Avec chaque branche propédeutique, l'étudiant-e aura acquis des connaissances de base dans une discipline autre que sa branche principale, facilitant la compréhension de celle-ci. Elle lui offrira de plus une culture scientifique élargie.
+
+Avec l'acquisition d'une branche complémentaire dans le cadre de son BSc, l'étudiant-e aura développé  une  ouverture  à  l'interdisciplinarité,  lui  facilitant  à  l'avenir  le  dialogue  et  la collaboration avec des spécialistes d'autres disciplines.
+
+Grâce à une formation bilingue intégrée,  l'étudiant-e  aura  enrichi  son  vocabulaire  spécifique dans deux langues et acquis la capacité de dialoguer, dans ses branches d'études, avec des spécialistes aussi bien en français qu'en allemand.
+
+1 ECTS est l'abréviation de European Credit Transfer System. 1 crédit ECTS correspond à environ 30 heures de travail effectif
+
+## 1.4 Évaluations des unités d'enseignement (UE) et acquisition des crédits ECTS
+
+L'acquisition des crédits ECTS passe par trois étapes : l'évaluation des UE, le regroupement des UE en paquets de validation et la validation des crédits ECTS.
+
+L'évaluation des  exercices  se  fait  suivant  des  critères  (nombre  de  séries  d'exercices  rendues, nombre  de  séries  d'exercices  réussies,  etc.)  annoncés  pour  chaque  UE  en  début  de  semestre. L'évaluation  satisfaisante  des  exercices  est  un  pré-requis  pour  accéder  à  l'épreuve  du  cours correspondant. L'évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée  dans  une  annexe  à  ce  plan  d'études.  Les  épreuves  se  déroulent,  en  général,  durant  deux sessions d'examens (printemps ou été, séance de rattrapage en automne). Pour chaque épreuve, l'étudiant-e  s'inscrit  dans  Gestens.  L'échelle  des  notes  s'étend  de  6  (meilleure  note)  à  1  (plus mauvaise note). Seule une épreuve dont la note est inférieure à 4 peut être répétée une seule fois au plus tôt lors de la session d'examens suivante. L'épreuve porte toujours sur la matière de l'UE telle qu'elle a été donnée la dernière fois. Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément. Le nombre de paquets est fixé par l'Art. 18 du règlement et le contenu est précisé par ce plan d'études.
+
+La validation des crédits ECTS (Art. 19 du règlement) consiste à transformer les points ECTS attribués à chaque UE en crédits ECTS, pour autant que :
+
+- la moyenne pondérée des notes des épreuves du paquet de validation soit d'au moins 4. La pondération est fournie par le nombre de points ECTS attribué aux UE d'une épreuve.
+- les  critères  d'évaluation  des  UE  non  examinés  (travaux  pratiques,  exercices,  etc.)  aient  été remplis.
+- Il n'y ait aucune note égale à 1.
+
+On dira dans ce cas que le paquet a été validé et que les points ECTS sont transformés en crédits. À ce stade, sur demande de l'étudiant-e et après acquittement de la taxe d'examen, une attestation  indiquant  les  résultats  des  évaluations  et  le  nombre  de  crédits  acquis  sera  délivrée  par  le Décanat (Art. 22 du règlement).
+
+## 1.5 Langues d'enseignement
+
+Les enseignements des études de BSc en informatique sont donnés en français ou en allemand. Toutefois, l'étudiant-e a toujours la possibilité de s'exprimer dans l'une ou l'autre de ces langues. Les enseignements peuvent parfois être donnés en anglais.
+
+## 1.6 Éthique scientifique
+
+Les principes d'éthique font partie intégrante de la formation scientifique. Les règles internationalement  admises  doivent  être  respectées  lors  de  l'élaboration  et  la  rédaction  de  tout  travail scientifique  (projet,  séminaire,  travail  de  bachelor  et  de  master,  rapport,  etc.).  En  particulier, toute  source  externe  d'information  (articles,  communications  orales,  page  web,  etc.)  doit  être correctement citée.
+
+## 1.7 Règlements et informations complémentaires
+
+De plus amples informations concernant les études d'informatique sont contenues dans les documents  suivants  que  vous  pouvez  télécharger  ou  obtenir  auprès  du  Secrétariat  du  Département d'Informatique, Bd de Pérolles 90, CH-1700 Fribourg :
+
+- Règlement concernant l'admission à l'Université de Fribourg, (http://www.unifr.ch/rectorat/reglements/fr)
+- Règlement pour l'obtention du Bachelor of Science et du Master of Science, (http://www.unifr.ch/science/plans/f)
+- Plan d'études des branches propédeutiques et complémentaires de la Faculté des sciences de l'Université de Fribourg, (http://www.unifr.ch/science/plans/f)
+- Offre d'études de l'Université de Fribourg, (http://studies.unifr.ch/fr)
+- Programme des cours de l'Université de Fribourg, ((http://admin.unifr.ch/timetable)
+- Descriptifs des cours du Département d'Informatique de l'Université de Fribourg (http://www.unifr.ch/informatics)
+- Bases de données des Unités d'Enseignement (http://gestens.unifr.ch/)
+- Dates des sessions d'examens de la Faculté des Sciences et autre délais importants (http://gestens.unifr.ch/sc/pub/f/info/base.asp?page=10501)
+
+Enfin, chaque étudiant-e dispose d'un espace personnel sécurisé, accessible avec le mot de passe de la messagerie de l'Université. Cet espace est atteignable par le lien « Connexion étudiant-es » de la page http://www.unifr.ch/science/gestens. Il permet l'inscription aux unités d'enseignement, l'inscription aux examens, la visualisation des résultats enregistrés, la mise en route de la procédure d'attestation, etc.
+
+## 2 Bachelor of Science (BSc)
+
+[Version 2014/2008, paquets de validation : BP1-IN.0022, BP2-IN.0014]
+
+Le programme du BSc s'étend sur 3 ans d'études et équivaut à 180 crédits ECTS. Il comprend la branche principale à 120 ECTS (y compris les mathématiques propédeutiques) et une ou deux branches complémentaires à respectivement 60 ECTS ou deux fois 30 ECTS.
+
+Des informations complémentaires concernant le programme du BSc en informatique peuvent être obtenues sous http://diuf.unifr.ch/bsc.
+
+## 2.1 La première année d'études de la branche principale
+
+La première année d'études en informatique s'efforce d'assurer la meilleure transition possible entre le gymnase et l'université. Afin de permettre à l'étudiant-e de pouvoir assez tôt mesurer ses capacités  et  bien  discerner  son  intérêt  pour  l'informatique,  les  UE  de  cette  année  ont  été regroupées en un premier paquet de validation.
+
+## 2.1.1 Unités d'enseignement de la première année
+
+## Semestre 1 (automne)
+
+| Code    | Unité d'enseignement                                                           |   h. tot. |   ECTS |
+|---------|--------------------------------------------------------------------------------|-----------|--------|
+|         | Informatique                                                                   |           |        |
+| IN.1020 | Introduction à la programmation (cours et exercices)                           |        56 |      5 |
+| IN.1021 | Réseaux (cours et exercices)                                                   |        56 |      5 |
+| IN.1022 | Architecture d'ordinateur (cours et exercices)                                 |        56 |      5 |
+|         | Mathématiques propédeutiques                                                   |           |      6 |
+|         | Branche complémentaire                                                         |           |        |
+| -       | Cours et exercices selon le plan d'études de la branche complémentaire choisie |           |     10 |
+|         |                                                                                |           |     31 |
+
+## Semestre 2 (printemps)
+
+| Code    | Unité d'enseignement                                                           |   h. tot. |   ECTS |
+|---------|--------------------------------------------------------------------------------|-----------|--------|
+|         | Informatique                                                                   |           |        |
+| IN.2020 | Programmation proche du système (cours et exercices)                           |        56 |      5 |
+| IN.2028 | Programmation orientée objets (cours et exercices)                             |        56 |      5 |
+| IN.2022 | Robotique (cours et exercices)                                                 |        56 |      5 |
+|         | Mathématiques propédeutiques                                                   |           |      6 |
+|         | Branche complémentaire                                                         |           |        |
+| -       | Cours et exercices selon le plan d'études de la branche complémentaire choisie |           |     10 |
+|         |                                                                                |           |     31 |
+
+## 2.1.2 Contenu des UE de la première année
+
+## Les cours d'informatique
+
+Toutes les unités d'enseignement d'informatique sont semestrielles et regroupent deux heures de cours et deux heures d'exercices. Les cours ont pour objectif de transmettre les connaissances théoriques et les séances d'exercices permettent aux étudiant-es de mettre en pratique ces connaissances.  En  d'autres  termes,  les  exercices  constituent  un  excellent  moyen  pour  l'étudiant-e d'évaluer l'assimilation du cours.
+
+Les cours de première année sont organisés pour permettre à l'étudiant-e d'appréhender l'informatique selon des points de vue complémentaires.
+
+- Le cours Introduction à la programmation (IN.1020) introduit la programmation d'un ordinateur.
+- Le  cours Réseaux (IN.1021)  analyse  les  fondements  sur  lesquels  les  ordinateurs  communiquent.
+- Le cours Architecture d'ordinateur (IN.1022) permet d'étudier le fonctionnement des ordinateurs à partir de leur architecture, c'est-à-dire avec une vue matérielle.
+- Le cours Programmation proche du système (IN.2020) introduit à la programmation impérative de processus proches du système d'exploitation.
+- Le cours Robotique (IN.2022) introduit aux concepts de base de la robotique autonome et de la simulation.
+- Le cours Programmation orientée objets (IN.2028) introduit à la programmation en se basant sur les fondements de la programmation dite orientée objets.
+
+Ainsi, dès la première année, les étudiant-es sont mis au contact avec des principaux modèles de programmation et des concepts d'informatique.
+
+## Les cours de mathématiques
+
+Les cours de mathématiques de première année correspondent à une branche propédeutique. Ils comprennent  une  formation  élémentaire  dans  les  trois  domaines-clés  des  mathématiques,  à savoir l'analyse, l'algèbre linéaire et la statistique.
+
+## 2.1.3 Examens de la première année et validation
+
+Les  conditions  d'évaluation  des  unités  d'enseignement  sont  fixées  dans  les  annexes  des plans d'études des branches correspondantes . Veuillez donc consulter les annexes relatives à l'informatique et aux mathématiques.
+
+Le paquet de validation BSc1 comprend toutes les unités d'enseignement de première année de la branche principale informatique (informatique et mathématiques propédeutiques) et compte 42 crédits ECTS.
+
+Il est impératif que les UE de la première année soient validées à la fin du 4 ème semestre 2 . Si tel n'est pas le cas, les études en informatique ne peuvent plus être poursuivies.
+
+2 La session d'examens de septembre qui précède la rentrée académique fait partie du semestre de printemps.
+
+## 2.2 La deuxième et la troisième année d'études de la branche principale
+
+## 2.2.1 Unités d'enseignement de la deuxième année
+
+## Semestre 3 (automne)
+
+| Code    | Unité d'enseignement                                                           |   h. tot. |   ECTS |
+|---------|--------------------------------------------------------------------------------|-----------|--------|
+|         | Informatique                                                                   |           |        |
+| IN.3021 | Bases de données (cours et exercices)                                          |        56 |      5 |
+| IN.3028 | Algorithmique (cours et exercices)                                             |        56 |      5 |
+| IN.3029 | Données semi-structurées (cours et exercices)                                  |        56 |      5 |
+|         | Mathématiques                                                                  |           |        |
+| MA.7003 | Méthodes mathématiques de l'informatique I (cours avec exercices)              |        56 |      5 |
+|         | Branche complémentaire                                                         |           |        |
+| -       | Cours et exercices selon le plan d'études de la branche complémentaire choisie |           |     10 |
+|         |                                                                                |           |     30 |
+
+## Semestre 4 (printemps)
+
+| Code    | Unité d'enseignement                                                           |   h. tot. |   ECTS |
+|---------|--------------------------------------------------------------------------------|-----------|--------|
+|         | Informatique                                                                   |           |        |
+| IN.4020 | Génie logiciel (cours et exercices)                                            |        56 |      5 |
+| IN.4022 | Systèmes d'exploitation (cours et exercices)                                   |        56 |      5 |
+| IN.4028 | Contrôle de processus (cours et exercices)                                     |        56 |      5 |
+|         | Mathématiques                                                                  |           |        |
+| MA.7004 | Méthodes mathématiques de l'informatique II (cours avec exercices)             |        56 |      5 |
+|         | Branche complémentaire                                                         |           |        |
+| -       | Cours et exercices selon le plan d'études de la branche complémentaire choisie |           |     10 |
+|         |                                                                                |           |     30 |
+
+## 2.2.2 Contenu des UE de la deuxième année
+
+## Les cours d'informatique
+
+Les cours du 3 ème semestre complètent les connaissances de programmation acquises lors de la première année.
+
+- Le  cours Bases  de  données (IN.3021)  est  consacré  à  l'organisation  des  données  dans  les systèmes de gestion de bases de données.
+- Le  cours Algorithmique (IN.3028)  est  dédié  à  l'étude  des  algorithmes,  c'est-à-dire  des méthodes de résolution de problèmes classiques à l'aide d'ordinateurs.
+- Le  cours Données  semi-structurées (IN.3029)  est  dédié  à  la  production  de  données  semistructurées comme des données multimédias ou XML.
+- Au 4 ème semestre, le cours  G énie logiciel (IN.4020) considère le développement systématique de logiciel selon le principe de la programmation orienté objets.
+- Le cours Systèmes d'exploitation (IN.4022) traite de manière spécifique du fonctionnement des systèmes d'exploitation, une composante majeure de tout ordinateur.
+- Le cours Contrôle de processus (IN.4028) apprend à développer un logiciel de contrôle d'un système physique, y inclus son interface Homme-Machine.
+
+## Les cours de mathématiques
+
+Les cours Méthodes mathématiques de l'informatique I et II (MA.7003 et MA.7004) s'adressent spécifiquement  aux  informaticiens.  Ils  couvrent  des  chapitres  de  mathématiques  discrètes  qui constituent  les  fondements  théoriques  de  l'informatique.  L'étudiant-e  apprend surtout  à  formaliser les problèmes, puis à les résoudre de manière rigoureuse.
+
+## 2.2.3 Unités d'enseignement de la troisième année
+
+## Semestre 5 (automne)
+
+| Code    | Unité d'enseignement                                                             |   h. tot. |   ECTS |
+|---------|----------------------------------------------------------------------------------|-----------|--------|
+|         | Informatique                                                                     |           |        |
+| IN.5020 | Programmation fonctionnelle et logique (cours et exercices)                      |        56 |      5 |
+| IN.5021 | Méthodes formelles (cours et exercices)                                          |        56 |      5 |
+| IN.5022 | Systèmes concurrents et distribués (cours et exercices)                          |        56 |      5 |
+| IN.5x2x | Cours à choix I                                                                  |        56 |      5 |
+|         | Branche complémentaire                                                           |           |        |
+| -       | Cours et exercices selon le plan d'études de la branche com- plémentaire choisie |           |     10 |
+|         |                                                                                  |           |     30 |
+
+## Semestre 6 (printemps)
+
+Code
+
+Unité d'enseignement
+
+Informatique
+
+Cours à choix II
+
+Travail de Bachelor
+
+Branche complémentaire
+
+Cours et exercices selon le plan d'études de la branche com- plémentaire choisie
+
+## 2.2.4 Contenu des UE de la 3 ème année
+
+## Les cours
+
+Les cours de troisième année sont entièrement dédiés à l'informatique.
+
+- Dans le cours Programmation fonctionnelle et logique (IN.5020), on introduit les deux styles de programmation (fonctionnelle et logique).
+- Le cours Méthodes formelles (IN.5021) considère des concepts mathématiques utiles pour le développement de programmes.
+- Le  cours Systèmes  concurrents  et  distribués (IN.5022)  aborde  les modèles  classiquesde programmation concurrente et répartie.
+- Les deux Cours à choix I et Cours à choix II (IN.5x2x et IN.6x2x) couvrent des sujets actuels ou  d'autres sujets importants  en informatique, tels  que  logique,  compilateurs et languages, aide à la décision ou informatique mobile. Les deux cours à choix sont pris au 5 ème et/ou au 6 ème semestre. Si les cours à choix sont pris au 6 ème semestre, il est recommandé à commencer le travail de Bachelor au 5 ème semestre dans l'étendue de 5 ECTS. Des cours offerts  par  l'Université  de  Berne  ou  l'Université  de  Neuchâtel peuvent également être pris dans le cadre des cours à choix. Une liste actuelle des cours à choix sera créée pour chaque année académique et publié de manière appropriée (voir http://diuf.unifr.ch/bsc).
+
+IN.6x2x
+
+IN.6020
+
+-
+
+h. tot.
+
+56
+
+ECTS
+
+5
+
+15
+
+10
+
+30
+
+## Le travail de Bachelor
+
+La troisième année comprend un projet pratique d'une certaine importance, totalisant 15 ECTS. Il  s'agit  d'un  travail  personnel  réalisé  par  chaque  étudiant-e sous  la  responsabilité  d'un-e professeur-e et conduit par un-e assistant-e. L'étudiant-e doit résoudre un problème concret en mettant en pratique toutes les connaissances acquises.
+
+## 2.2.5 Examens de la deuxième et troisième années, validation
+
+Les  conditions  d'évaluation  des  unités  d'enseignement  sont  fixées  dans  les  annexes  des plans d'études des branches correspondantes . Veuillez donc consulter les annexes relatives à l'informatique et aux mathématiques.
+
+Le paquet de validation BSc2 comprend toutes les unités d'enseignement de deuxième et de troisième année de la branche principale informatique et compte 80 crédits ECTS.
+
+## 2.3 Branche complémentaire
+
+Parallèlement aux UE de la branche principale, l'étudiant-e devra suivre les UE d'une ou de deux branches  complémentaires.  Les  évaluations  de  ces  UE  sont  réparties  sur  les  trois  ans.  Il appartient  à  chacun-e  de  les  répartir  régulièrement  dans  le  temps  afin  de  pouvoir  terminer  les études de BSc dans les trois ans prévus.  Lorsque l'étudiant-e a  choisi une branche secondaire unique à 60 ECTS, celle-ci fait l'objet d'un seul paquet de validation BSc3 . Lorsque l'étudiant-e a opté pour la combinaison de deux branches complémentaires à 30 ECTS, chacune d'elles fait l'objet d'un paquet de validation séparé, soit BSc3a et BSc3b.
+
+Ces branches secondaires sont évaluées suivant les modalités fixées par le plan d'études de ces branches. Une branche complémentaire non réussie peut être remplacée par une autre branche complémentaire.
+
+La validation des paquets BSc1, BSc2 et BSc3 (resp. BSc3a et BSc3b) donne droit au titre de Bachelor of Science en informatique, Université de Fribourg (BSc) .
+
+## 2.3.1 Branche principale en informatique avec branche complémentaire en mathématiques
+
+Les étudiants qui ont choisi la branche complémentaire Mathématiques avec leur branche principale Informatique doivent suivre en 1 ère année le plan d'études suivant :
+
+## 1 er semestre (automne)
+
+| Code    | Unité d'enseignement                                   |   h. tot. | ECTS   |
+|---------|--------------------------------------------------------|-----------|--------|
+|         | Branche principale (sans mathématiques propédeutiques) |           |        |
+| IN.1020 | Introduction à la programmation (cours et exercices)   |        56 | 5      |
+| IN.1021 | Réseaux (cours et exercices)                           |        56 | 5      |
+| IN.1022 | Architecture d'ordinateur (cours et exercices)         |        56 | 5      |
+|         | Mathématiques propédeutiques et complémentaires        |           |        |
+| MA.1101 | Analyse I (cours)                                      |        56 | 4*     |
+| MA.1161 | Analyse I (exercices)                                  |        28 | 3*     |
+| MA.1201 | Algèbre linéaire I (cours)                             |        56 | 4*     |
+| MA.1261 | Algèbre linéaire I (exercices)                         |        28 | 3      |
+| MA.1903 | Compléments I à l'Analyse et l'Algèbre linéaire        |        14 | 1*     |
+|         |                                                        |           | 30     |
+
+* Ces UE seront comptabilisées dans le paquet de validation de la branche principale de 1 ère année.
+
+| Code    | Unité d'enseignement                                   |   h. tot. |   ECTS |
+|---------|--------------------------------------------------------|-----------|--------|
+|         | Branche principale (sans mathématiques propédeutiques) |           |        |
+| IN.2020 | Programmation proche du système (cours et exercices)   |        56 |      5 |
+| IN.2028 | Programmation orientée objets (cours et exercices)     |        56 |      5 |
+| IN.2022 | Robotique (cours et exercices)                         |        56 |      5 |
+|         | Mathématiques propédeutiques et complémentaires        |           |        |
+| MA.1102 | Analyse II (cours)                                     |        56 |      4 |
+| MA.1162 | Analyse II (exercices)                                 |        28 |      3 |
+| MA.1202 | Algèbre linéaire II (cours)                            |        56 |      4 |
+| MA.1262 | Algèbre linéaire II (exercices)                        |        28 |      3 |
+| MA.1904 | Compléments II à l'Analyse et l'Algèbre linéaire       |        14 |      1 |
+| MA.1904 |                                                        |           |     30 |
+
+De ce  plan  d'étude  de  1 ère année,  21 crédits  ECTS  par  semestre  seront  comptabilisés  dans  la branche principale (incluant 6 ECTS comme mathématiques propédeutiques) et 9 ECTS le seront dans  la  branche  complémentaire.  Les  42 crédits  ECTS  de  la  branche  complémentaire  de mathématiques doivent être acquis en 2 ème et 3 ème années conformément au plan d'études de la BCo-MATH 60.
+
+## 2.4 Règlement transitoire
+
+Le  cas  des  étudiant-es  ayant  commencé  les  études  en  informatique  selon  un  plan  d'études antérieur est réglé dans une annexe.

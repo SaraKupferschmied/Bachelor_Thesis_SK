@@ -1,0 +1,279 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T14:41:00.814Z",
+  "title": "UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Plans_d_tudes_nbsp_BA_120_ECTS_0370af770d17fd52984ffbc4c90e944d5c2d0cf4",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0370af770d17fd52984ffbc4c90e944d5c2d0cf4",
+  "program_key": "|master|30|culture, politics and religion in pluralist societies",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Religious Studies",
+  "doc_label": "Plans d'études&nbsp;BA 120 ECTS",
+  "source_url": "https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/BA120_Science%20des%20religions_fr_170425_Modif220915.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialanthropology",
+  "curriculum_url": "https://studies.unifr.ch/go/A0cJ8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Plans_d_tudes_nbsp_BA_120_ECTS_0370af770d17fd52984ffbc4c90e944d5c2d0cf4.pdf",
+  "sha256": "e91a5e5a858d633d1c71967ca8e611304a74eaf99242e121474979e70241dc13",
+  "fetched_at": "2026-04-03T11:30:28.282Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/fr/assets/public/FRANCAIS%20ONLY/BA120_Science%20des%20religions_fr_170425_Modif220915.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Université de Fribourg - Faculté des lettres et des sciences humaines Département des Sciences sociales
+
+## Plan d'études
+
+du programme à
+
+## 120 crédits ECTS Science des religions
+
+## (Bachelor of Arts)
+
+du 25.04.2017
+
+(version actualisée le 23.8.2019,
+
+Les « Dispositions transitoire : plan d'études Bachelor » de la Faculté des lettres et des sciences humaines sont en vigueur.)
+
+## Tables des Matières
+
+| 1. Description générale        | 1. Description générale                                            |   1 |
+|--------------------------------|--------------------------------------------------------------------|-----|
+| 1.1                            | Titre obtenu                                                       |     |
+| 1.2                            | Base légale                                                        |     |
+| 1.3                            | Début des études                                                   |     |
+| 1.4                            | Contenu des études                                                 |     |
+| 2. Structure du programme      | 2. Structure du programme                                          |   2 |
+| 3. Evaluations des prestations | 3. Evaluations des prestations                                     |   5 |
+| 3.1                            | Evaluations                                                        |     |
+| 3.2                            | Types d'enseignement                                               |     |
+| 3.3                            | Travaux écrits                                                     |     |
+| 3.4                            | Echecs                                                             |     |
+| 3.5                            | Examen de fin de première année                                    |     |
+| 3.6                            | Note finale                                                        |     |
+| 4. Langues                     | 4. Langues                                                         |   7 |
+| 4.1                            | Connaissances linguistiques dans l'enseignement et les évaluations |     |
+| 4.2                            | Mention bilingue                                                   |     |
+| 5. Mesures transitoires        | 5. Mesures transitoires                                            |   7 |
+
+## 1. Description générale
+
+## 1.1 Titre obtenu
+
+Le programme de Bachelor Science des religions à 120 ECTS doit être complété par un  programme  à  60  ECTS  (domaine  II)  à  choix,  conformément  au  Règlement  de Bachelor de la Faculté des lettres de l'Université de Fribourg
+
+Le programme de Bachelor Science des religions à 120 ECTS avec un programme à 60 ECTS débouche sur le titre Bachelor of Arts Domaine I : Science des religions.
+
+## 1.2 Base légale
+
+Le présent règlement s'appuie sur le Règlement du 8 mars 2018 pour l'obtention du Bachelor et du Master à la Faculté des lettres et des sciences humaines (ci-après : REG).
+
+## 1.3 Début des études
+
+Les études peuvent être commencées au début du semestre d'automne ou au début du semestre de printemps.
+
+## 1.4 Contenus des études
+
+Les études en Science des religions transmettent des connaissances notamment dans les domaines suivants :
+
+- l'histoire  des  religions  européennes  et  extraeuropéennnes,  ainsi  que  leurs développements contemporains,
+- l'histoire et la théorie de la Science comparée des religions,
+- les méthodes et les théories de la recherche en Science sociale sur les religions.
+
+## 2. Structure du programme
+
+Le programme est structuré en 8 modules. Au sein de chaque module, les unités d'enseignement suivantes doivent faire l'objet d'une prestation évaluée (permettant l'acquisition d'un total de 120 crédits ECTS au moins).
+
+<!-- image -->
+
+## Religions contemporaines A&amp;F-15ECTS
+
+- 3 Unites d'enseignement, au min. 1 seminaire (9 ECTS)
+- 1 Travail de seminaire (6 ECTS)
+
+## Methodes empiriques A&amp;F-15ECTS
+
+- 3 Unités d'enseignement, au min. 1 seminaire (9 ECTS)
+
+Societes, cultures et religions A&amp;F-15ECTS
+
+- 5 Unités d'enseignement(15 ECTS)
+- 1 Travail de seminaire (6 ECTS)
+
+Module Travail de Bachelor (18 ECTS): Travail de bachelor (15 ECTS), Colloque (3 ECTS)
+
+Module CTC (competences transversales ou complementaires) 12 EcTS
+
+Descriptif :  Le  cours  Introduction  à  la  Science  des  religions  transmet  une  vue d'ensemble de l'histoire de la discipline, des sous-disciplines et des thématiques les plus importantes de la Science des religions. Le proséminaire accompagnant ce cours approfondit ces connaissances par des lectures communes, des recherches et des exposés ; il transmet les bases méthodiques du travail scientifique. Les introductions en anthropologie sociale et sociologie transmettent les connaissances fondamentales sur les Sciences sociales.
+
+## Unités d'enseignement :
+
+- 1 cours Introduction à la Science des religions (3 crédits ECTS)
+- 1 proséminaire Introduction à la Science des religions (3 crédits ECTS)
+- 1 travail de proséminaire (3 crédits ECTS)
+- 2 cours Connaissances de base en Sciences sociales (Sociologie et Anthropologie sociale) (6 crédits ECTS)
+
+## (2) Module Histoire des religions
+
+15 crédits ECTS
+
+Descriptif : Les cours de ce module transmettent les connaissances fondamentales de l'histoire des traditions religieuses. Les séminaires traitent d'aspects particuliers des  cultures  religieuses  historiques.  Cours  et  séminaires  se  consacrent  à  une tradition religieuse spécifique ou adoptent une perspective systématiquecomparatiste  traitant  de  différentes  religions  en  fonction  d'une  problématique spécifique.
+
+## Unités d'enseignement :
+
+- 2 cours / séminaires (6 crédits ECTS)
+- 1 séminaire (3 crédits ECTS)
+- 1 travail de séminaire (6 crédits ECTS)
+
+## (3) Module Religions contemporaines
+
+15 crédits ECTS
+
+Descriptif : Les cours de ce module transmettent les connaissances fondamentales des développements contemporains des traditions religieuses. Les séminaires traitent d'aspects particuliers des cultures religieuses contemporaines. Cours et séminaires se  consacrent  à  une  tradition  religieuse  spécifique  ou  adoptent  une  perspective sociologique  traitant  de  différentes  religions  en  fonction  d'une  problématique spécifique.
+
+## Unités d'enseignement :
+
+- 2 cours / séminaires (6 crédits ECTS)
+- 1 séminaire (3 crédits ECTS)
+- 1 travail de séminaire (6 crédits ECTS)
+
+## (4) Module Théorie et histoire de la Science des religions
+
+15 crédits ECTS
+
+Descriptif : Les cours de ce module transmettent les connaissances fondamentales sur  la  théorie  et  l'histoire  de  la  Science  des  religions.  Dans  ce  cadre  on  prend particulièrement en compte les approches théoriques de la sociologie des religions, de la théorie des rituels, ainsi que les débats actuels de la discipline. Les séminaires
+
+servent à approfondir des approches théoriques déterminées ou discuter d'aspects choisis de l'histoire de la Science des religions.
+
+## Unités d'enseignement :
+
+- 2 cours / séminaires (6 crédits ECTS)
+- 1 séminaire (3 crédits ECTS)
+- 1 travail de séminaire (6 crédits ECTS)
+
+## (5) Module Société, culture et religion
+
+15 crédits ECTS
+
+Descriptif : Les objectifs visés par ce module permettent aux étudiant-e-s d'acquérir des connaissances au sein de différentes disciplines des sciences sociales. Le module est  composé  d'unités  d'enseignements en  Sociologie,  en  Anthropologie  sociale,  en Science des religions ou autres disciplines. Un cycle de conférences interdisciplinaire est organisé régulièrement. Les étudiant-e-s choisissent dans la liste proposée.
+
+## Unités d'enseignement :
+
+- 5 Cours, séminaires ou cycle de conférences : à choix dans la liste proposée (15 crédits ECTS)
+
+## (6) Module Méthodes empiriques
+
+15 crédits ECTS
+
+Descriptif : Les cours de ce module transmettent des connaissances fondamentales sur les méthodes empiriques quantitatives et qualitatives en Sciences sociales ; elles visent  à  permettre  une  lecture  critique  des  études  empiriques  et  la  réalisation d'études empiriques limitées. Les séminaires servent à l'approfondissement et à la spécialisation des connaissances méthodiques, ainsi qu'à la mise en pratique des méthodes dans des contextes de recherche choisis.
+
+## Unités d'enseignement :
+
+- 2 cours ou séminaires (6 crédits ECTS)
+- 1 séminaire (3 crédits ECTS)
+- 1 travail de séminaire (6 crédits ECTS)
+
+## (7) Module Travail de Bachelor
+
+18 crédits ECTS
+
+Descriptif : Le travail de Bachelor consiste dans la rédaction d'un mémoire portant sur une problématique limitée dans le champ de la Science des religions. En règle générale, ce travail comprend une étude historique, théorique ou empirique censée montrer la capacité de l'étudiant à utiliser correctement les méthodes scientifiques de la discipline. Un colloque obligatoire a lieu durant la dernière année d'études. Il sert à la planification, à l'accompagnement et à l'évaluation du travail de Bachelor et tend à assurer que le travail de Bachelor soit terminé dans les délais réglementaires. La  défense  du  travail  de  Bachelor,  devant  un  jury  comprenant  au  moins  deux personnes, dure 30 minutes.
+
+## Unités d'enseignement :
+
+- Travail de Bachelor (15 crédits ECTS)
+- Colloque (y compris la défense) (3 crédits ECTS)
+
+Conformément  au  REG  en  vigueur,  un  module  de  Compétences  transversales  et complémentaires (CTC) de 12 crédits ECTS doit être acquis durant les études.
+
+Unités d'enseignement :
+
+- 4 Cours ou séminaires (12 crédits ECTS)
+
+## 3. Evaluation des prestations
+
+## 3.1 Evaluations
+
+L'attribution  de  crédits  se  fait  selon  le  système  européen  de  transfert  des  crédits (ECTS) sur la base d'évaluations portant sur les prestations d'études accomplies par l'étudiant-e dans le cadre des unités d'enseignement. Un crédit correspond à une charge de travail d'environ 30 heures.
+
+L'évaluation des prestations est faite par l'enseignant-e concerné-e. Toutes les unités d'enseignement  donnent  lieu  à  des  prestations  évaluées.  Les  évaluations  sont organisées par unité d'enseignement.
+
+## 3.2 Types d'enseignement
+
+Au cours des études, les types d'enseignement suivants sont notamment offerts :
+
+- (1)  Les cours (3  crédits  ECTS) transmettent des connaissances générales ; le style d'enseignement est principalement magistral. L'évaluation d'un cours par un examen écrit est organisée lors de la dernière séance d'enseignement en fin de semestre.
+- (2) Le proséminaire (3 crédits ECTS) transmet des connaissances de base ; le style d'enseignement exige une participation active de l'étudiant-e sous forme d'exercices et des présentations, aussi bien par oral, que par écrit.
+- (3) Les séminaires (3 crédits ECTS) permettent d'approfondir des thèmes spécifiques. Le style d'enseignement exige une participation active de l'étudiant-e. L'évaluation de certains  enseignements  (en  principe,  séminaires,  cours  bloc),  ont  lieu  en  continu durant le semestre et/ou à la fin du semestre (p.ex. sous la forme d'exposé, de travaux écrits ou résumés, etc.). Des travaux de séminaire peuvent être rédigés en lien avec le séminaire fréquenté.
+- (4) Le colloque (3 crédits ECTS) a pour but la préparation, l'accompagnement et la présentation  du  travail  final  (travail  de  Bachelor).  Le  colloque  prend  fin  avec  la défense du travail de Bachelor.
+- (5) Des excursions (3 ou 6 ECTS) sont proposées à intervalles irréguliers, qui - selon le cas - peuvent remplacer une ou deux unités d'enseignement dans les modules (2), (3), (5) ou (6). Les modalités d'évaluation seront fixées par l'enseignant-e. Un travail de séminaire ne peut pas être remplacé par une excursion.
+
+## 3.3 Travaux écrits
+
+Les travaux de proséminaire (3 crédits ECTS) et de séminaire (6 crédits ECTS) sont des  travaux  écrits  qui  doivent  être  rédigés  respectivement  dans  le  cadre  du proséminaire ou d'un séminaire. Ils sont dirigés et corrigés par l'enseignant-e.
+
+Les études se concluent avec un travail de Bachelor (15 crédits ECTS). Le travail de Bachelor  peut  être  refusé  pour  des  raisons  de  forme  s'il  ne  correspond  pas  aux exigences ou s'il n'est pas remis au plus tard 12 mois après que le thème en a été convenu.
+
+Les conditions et délais sont réglés dans le Guide pour les études en Science des religions .
+
+## 3.4 Echecs
+
+En  cas  d'échec  de  la  première  évaluation  dans  l'une  des  unités  d'enseignement suivantes, l'évaluation peut être répétée une fois. Si l'évaluation n'est pas réussie, un échec définitif est prononcé ; ce qui signifie l'impossibilité de continuer les études en Science des religions (échec définitif dans le programme).
+
+- Cours Introduction en Science des religions
+- Proséminaire Introduction en Science des religions
+- Travail de proséminaire Introduction en Science des religions
+- Cours : Connaissances de base en Sociologie
+- Cours : Connaissances de base en Anthropologie sociale
+- Travail de Bachelor
+- Colloque de Bachelor
+
+En cas d'échec à une autre unité d'enseignement, l'évaluation pourra être répété une fois.  Si  l'évaluation  est  à  nouveau  échouée,  l'échec  est  définitif.  Il  faudra  donc remplacer l'unité d'enseignement par une nouvelle unité d'enseignement équivalente (par ex., un autre cours, un autre séminaire, un autre travail de séminaire).
+
+## 3.5 Examens de fin de première année
+
+L'examen  de  fin  de  première  année  (REG  art.  29-32)  est  organisé  sous  forme d'évaluation continue. Il est réussi si toutes les unités d'enseignements prévues et le travail de proséminaire dans le module Introduction à la Science des religions (15 crédits ECTS) sont réussis.
+
+Les crédits doivent avoir été attribués sur la base des évaluations prises en compte dans l'examen de fin de première année avant le début du 5ème semestre d'études (REG).  Le  non-respect  de  ce  délai  entraîne  un  échec  définitif  et  l'impossibilité  de continuer les études en Science des religions. Les dispositions du REG art. 30 sont réservées.
+
+## 3.6 Note finale
+
+La note de chaque module résulte du calcul de la moyenne des prestations notées.
+
+La note du module Travail de Bachelor se calcule en faisant la moyenne de la note du travail de Bachelor et de la note du colloque. Dans le calcul de la moyenne, la note du travail de Bachelor compte double.
+
+La note finale résulte du calcul de la moyenne des notes de chaque module. Le module Travail  de  Bachelor compte  double.  Le  module Compétences  transversales  ou complémentaires compte aussi.
+
+## 4. Langues
+
+## 4.1 Connaissances linguistiques dans l'enseignement et les évaluations
+
+Les études de la Science des religions peuvent être faites entièrement en français ou en allemand ; elles peuvent également être accomplies de façon bilingue. La maîtrise active  de  l'une  des  langues  est  présupposée ;  des  connaissances  passives  en allemand, français et anglais sont nécessaires pour la lecture des textes scientifiques. L'approfondissement des connaissances en langues étrangères pendant les études est vivement recommandé.
+
+En  règle  générale,  l'étudiant-e  a  la  possibilité,  en  accord  avec  l'enseignant-e,  de présenter  ses  épreuves  écrites  ou  orales  en  français  ou  en  allemand,  voire exceptionnellement en anglais ; la même règle s'applique à la rédaction des travaux de séminaire et de proséminaire.
+
+## 4.2 Mention bilingue selon REG art. 36
+
+A  condition  que,  durant  les  études,  au  minimum  48  crédits  aient  été  acquis  en français et en allemand (épreuves et travaux écrits), le diplôme portera la mention que  les  études  ont  été  accomplies  dans  les  deux  langues.  Dans  le  calcul  de  la proportion, les prestations comptent dans la langue dans laquelle l'évaluation a été faite.
+
+## 5. Mesures transitoires
+
+Ce plan d'études est valable pour tous-toutes les étudiant-e-s ayant entrepris leurs études dès le semestre d'automne 2017.
+
+Les étudiant-e-s ayant commencé leurs études avant le semestre d'automne 2017 ont la possibilité de changer leur programme avec ce plan d'études (plan d'étude 2017). Ce choix doit être fait avant le début du semestre d'automne 2017. Les prestations déjà effectuées seront transférées.
+
+Les  étudiant-e-s  déjà  inscrit-e-s  à  un  programme  d'études  du  Département,  au moment de l'entrée en vigueur du présent plan d'études, restent soumis, jusqu'à la fin  du  semestre  d'automne  2019 au plus tard, aux plans d'études en vigueur au moment de commencer leurs études. Après le semestre d'automne 2019, le présent plan d'études (2017) remplacera tous les précédents plans d'études du programme d'études équivalents.

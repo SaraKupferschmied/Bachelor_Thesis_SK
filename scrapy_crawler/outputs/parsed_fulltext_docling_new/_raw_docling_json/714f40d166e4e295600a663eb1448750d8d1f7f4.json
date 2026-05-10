@@ -1,0 +1,724 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "SCIMED_Bachelor_30_Geography_Zusatzf_cher_Geographie_714f40d166e4e295600a663eb1448750d8d1f7f4",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## 3.6  Geographie\n\nDas Departement Geowissenschaften bietet zwei Möglichkeiten für ein Zusatzfach in Geographie an: ein Fach zu 30 ECTS-Credits (GEOG-30) und eines zu 60 ECTS-Credits (GEOG-60). Das Zusatzfach verlangt keine Vorkenntnisse im Gebiet der Geographie.\n\nDas  Studienprogramm  zu  60  ECTS-Credits  (GEOG-60)  wurde  speziell  für  die  Wahl  der Geographie als zweites Unterrichtsfach im Rahmen des «Lehrdiplom für die Maturitätsschulen» (LDM) konzipiert, kann aber auch im Rahmen eines allgemeinen Zusatzfachs von 60 ECTSCredits gewählt werden.\n\n## 3.6.1 Unterrichtseinheiten (UE)\n\n## 3.6.1.1 Unterrichtseinheiten des Zusatzfaches GEOG-30 zu 30 ECTS\n\n[Version 2023, Anrechnungseinheit: PV-SGG.0000078]\n\nDas Zusatzfach GEOG-30 richtet sich an die Studierenden aller Fakultäten, die eine elementare Ausbildung in Geographie zu erlangen wünschen.\n\nAlle UE werden in einer einzigen Anrechnungseinheit zusammengefasst.\n\nAus Gründen von Zeitkonflikten ist es möglich, einige der empfohlenen Kurse durch Kurse der Humangeographie, Physischen Geographie oder Geomatik zu ersetzen, solange die Vorbedingungen §  erfüllt sind.\n\nUE, die mit einem Stern (*) markiert sind und bereits im Rahmen eines anderen Programmes (z.B.  Propädeutikum)  belegt  worden  sind,  werden  durch  andere,  innerhalb  des  Zusatzfaches angebotenen UE ersetzt.\n\n## obligatorische UE (1. Semester)\n\n| Code                                | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-------------------------------------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001                           | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |    3   |\n| SGS.01002                           | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |    3   |\n| SGS.01003                           | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |    3   |\n| SGS.01004                           | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |    3   |\n| SGS.01005                           | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |    2   |\n| SGS.01006                           | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |    2   |\n| empfohlene UE (2. oder 4. Semester) | empfohlene UE (2. oder 4. Semester)                                        |            |             |        |\n| SGS.00105                           | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |    3   |\n| SGS.00106                           | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |    3   |\n| SGS.00156                           | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |    3   |\n| SGS.00157                           | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |    2   |\n| SGS.01301                           | Geologie und Gesellschaft: Angewandte Herausforderungen*                   | FS         |          14 |    1.5 |\n| SGS.01201                           | Politische Ökologie des Wassers*                                           | FS         |          14 |    1.5 |\n\n| Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      |\n|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|\n| SGG.00205                                                     | Stadtgeographie                                               | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00210                                                     | Wirtschaftsgeographie                                         | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) |\n| SGG.02301                                                     | Atmosphärenwissenschaften                                     | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00262                                                     | Geomorphologie - Quartär, Teil 1 (Vorlesung)                  | HS                                                            | 36                                                            | 3                                                             |\n| SGG.00263                                                     | Geomorphologie - Quartär, Teil 2 (Vorlesung)                  | FS                                                            | 20                                                            | 3                                                             |\n| SGG.00283                                                     | Geomorphologie - Quartär (Praktikum I)                        | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00284                                                     | Geomorphologie - Quartär (Praktikum II)                       | FS                                                            | 36                                                            | 3                                                             |\n| SGG.03301                                                     | Kryosphere (Vorlesung)**                                      | HS                                                            | 28                                                            | 3                                                             |\n| SGG.03302                                                     | Kryosphere (Praktikum)**                                      | HS                                                            | 28                                                            | 2                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             |\n| SGS.01101                                                     | Geostatistik*                                                 | FS                                                            | 28                                                            | 3                                                             |\n| SGG.02101                                                     | Räumliche und deskriptive Statistik                           | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00312                                                     | Geographische Informationsverarbeitung (GIS)                  | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00319                                                     | Fernerkundung                                                 | FS                                                            | 28                                                            | 3                                                             |\n\n- § Diesbezügliche Informationen befinden sich im Vorlesungsverzeichnis (https://www.unifr.ch/timetable) bzw. im Studierendenportal MyUniFR (https://my.unifr.ch)\n* Studierende, die diese Kurse als Teil eines anderen Programms belegen (propädeutisches Fach oder Bachelor Erdwissenschaften), müssen sie durch Wahlkurse aus der obigen Tabelle ersetzen.\n\n**  Vorlesung für Fortgeschrittene, empfohlen für das Ende des Programms für das Zusatzfach\n\n## 3.6.1.2 Unterrichtseinheiten des Zusatzfaches GEOG-60 zu 60 ECTS\n\n[Version 2025, Anrechnungseinheit: PV-SGG.0000085]\n\nDas Zusatzfach GEOG-60 richtet sich an Studierende aus allen Fakultäten, welche im Rahmen ihrer  Studienrichtung eine vertiefte Ausbildung in Geographie erwerben möchten, und welche beabsichtigen  das  «Lehrdiplom  für  Maturitätsschulen»  (LDM)  zu  absolvieren.  Das  Studienprogramm entspricht dem eines zweiten Lehrfachs. Der erste Teil beinhaltet ein Programm von Pflichtveranstaltungen, während der zweite Teil gleichzeitig obligatorische wie auch optionale Lehrveranstaltungen beinhaltet.\n\nAlle UE werden in einer einzigen Anrechnungseinheit zusammengefasst.\n\nEs ist wichtig, die vorgeschlagene Unterrichtsreihenfolge einzuhalten: zuerst die Kurse des ersten Teils, dann erst die des zweiten Teils. Bei zeitlichen Konflikten können die UE des Zusatzfaches auf die 6 Semester des Bachelorstudiums verteilt werden.\n\n## 1. Teil (30 ECTS): obligatorische UE (1. und 2. Semester)\n\n| Code      | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-----------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001 | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |      3 |\n| SGS.01002 | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |      3 |\n| SGS.01003 | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |      3 |\n| SGS.01004 | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |      3 |\n| SGS.01005 | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.01006 | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.00105 | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |      3 |\n| SGS.00106 | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |      3 |\n| SGS.00156 | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |      3 |\n| SGS.00157 | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |      2 |\n| SGS.01101 | Geostatistik                                                               | FS         |          28 |      3 |\n\n## 2. Teil (30 ECTS): obligatorische (6 ECTS) und optionale (24 ECTS) UE (Semester 3 und folgende)\n\n## Obligatorische UE von insgesamt 6 ECTS:\n\n| Code      | Unterrichtseinheiten                             | Semeste r   |   tot. Std |   ECTS |\n|-----------|--------------------------------------------------|-------------|------------|--------|\n| SGG.02111 | Empirische Sozialforschung I: Forschungsdesign § | HS          |         28 |      3 |\n| SGG.02101 | Räumliche und deskriptive Statistik              | HS          |         28 |      3 |\n\n## Optionale UE von insgesamt 24 ECTS:\n\nAus den optionalen UE sind mindestens 7 ECTS in Humangeographie und 7 ECTS in physischer Geographie zu absolvieren.\n\nDie  Praktika  SGG.003302,  SGG.00283  und  SGG.00284  können  nicht  unabhängig  von  ihren Vorlesungen (SGG.03301, und SGG.00262/263) gewählt werden, und können auch nicht vor den Vorlesungen besucht werden.\n\nWenn der Kurs  SGG.02112  gewählt  wird,  muss  er  im  selben  Semester  wie  SGG.02111  belegt werden.\n\n## a) in Humangeographie (mindestens 7 ECTS):\n\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n|--------------------------------------------------|---------------------------------------------------------|-------------|------------|--------|\n| SGG.02112                                        | Empirische Sozialforschung II: Datenerhebung §          | HS          | 28         | 3      |\n| SGS.01201                                        | Politische Ökologie des Wassers                         | FS          | 14         | 1.5    |\n| SGG.00205                                        | Stadtgeographie                                         | FS          | 28         | 3      |\n| SGG.02201                                        | Geographie des Ländlichen                               | FS          | 28         | 3      |\n| SGG.00210                                        | Wirtschaftsgeographie                                   | FS          | 28         | 3      |\n| SGG.00305                                        | Politische Geographie **                                | FS          | 28         | 3      |\n| SGG.00318                                        | Umweltgeographie **                                     | HS          | 28         | 3      |\n| b) in physischer Geographie (mindestens 7 ECTS): | b) in physischer Geographie (mindestens 7 ECTS):        |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.02301                                        | Atmosphärenwissenschaften                               | HS          | 28         | 3      |\n| SGG.03301                                        | Kryosphäre (Vorlesung) **                               | HS          | 28         | 3      |\n| SGG.03302                                        | Kryosphäre (Praktikum) **                               | HS          | 28         | 2      |\n| SGG.00262                                        | Geomorphologie - Quartär, Teil 1 (Vorlesung)            | HS          | 36         | 3      |\n| SGG.00263                                        | Geomorphologie - Quartär, Teil 2 (Vorlesung)            | FS          | 20         | 3      |\n| SGG.00283                                        | Geomorphologie - Quartär (Praktikum I)                  | HS          | 28         | 3      |\n| c) sonstige:                                     | c) sonstige:                                            |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.00312                                        | Geographische Informationsverarbeitung (GIS)            | HS          | 28         | 3      |\n| SGG.00319                                        | Fernerkundung                                           | FS          | 28         | 3      |\n| SST.00201                                        | Regionale Geologie                                      | FS          | 28         | 3      |\n| SGS.01301                                        | Geologie und Gesellschaft: Angewandte Herausforderungen | FS          | 14         | 1.5    |\n| SGG.00256                                        | Geographie Exkursion I                                  | HS/FS       | 8          | 0.5    |\n| SGG.00257                                        | Geographie Exkursion II                                 | HS/FS       | 8          | 0.5    |\n\n**  Vorlesung für Fortgeschrittene, empfohlen am Ende des Programms für das Zusatzfach\n\n§ Unbedingt im selben Semester wie SGG.02111 zu belegen\n\n## 3.6.2 Inhalt der Unterrichtseinheiten der Zusatzfächer\n\n- Vorlesungen: Die Grundlagenveranstaltungen Einführung in die Geowissenschaften (SGS.01001, SGS.01002,  SGS.01003  und  SGS.01004)  vermitteln einen allgemeinen Überblick  über  die  wichtigsten  Charakteristika  des  Erdsystems  (Raum  und  Gesellschaft; Atmosphäre,  Hydrosphäre  und  Klima;  interne  und  externe  Geodynamik;  Gesteine  und Mineralien) und  über  die Interaktionen  zwischen  den  verschiedenen  Disziplinen, die zusammen die Geowissenschaften bilden. Die Lehrveranstaltung Kartographie und Einführung  in  die  GIS (SGS.00156)  bietet  eine  Einführung  in  das  Lesen  und  Erstellen thematischer  Karten  sowie  in  das  Prinzip  geographischer  Informationssysteme  (GIS).  Der Kurs  Geostatistik  (SGS.01101)  führt  in  die  Methoden  zur  Verarbeitung  und  Nutzung  von Geodaten  ein.    In Erdgeschichte (SGS.00106) wird  die  Evolution  der  Erde  über  die geologischen Zeitalter hinweg dargestellt.   Die Stadtgeographie (SGG.00205) geht auf die\n\nwichtigsten  Probleme  des  heutigen  städtischen  Raumes  ein,  betrachtet  aber  auch  die historische  Dimension.  Der  Kurs Politische  Ökologie  des  Wassers (SGS.01201)  legt  die aktuellen  politischen  und  sozialen  Dimensionen  des  Zugangs  zu  Wasser  dar.    Im  Kurs Geologie und Gesellschaft: Angewandte Herausforderungen (SGS.01301) werden Beispiele für Herausforderungen oder konkrete Umsetzungen im Bereich der Geologie vorgestellt. Die Vorlesung Epistemologie der Geowissenschaften (SGS.00105) führt in die Grundprinzipien der Erkenntnistheorie und in die Disziplingeschichte der Geowissenschaften ein. Der Kurs Regionale  Geologie (SST.00201)  gibt  einen  Überblick  über  die  wichtigsten  tektonischen Einheiten der Schweiz. Die  Vorlesungen Geomorphologie -Quartär in zwei Teilen (SGG.00262 und  SGG.00263)  beschäftigen  sich  mit  der  Beschreibung  und  Erklärung  der Oberflächenformen der Erde als Grundlage für das Verständnis der Naturund Kulturlandschaften; sie schlagen einen multidisziplinären Ansatz für die jüngste Periode der Erdgeschichte  vor.  Die  beiden  Teile  können  nicht  einzeln  validiert  werden.  Die  Vorlesung Kryosphäre (SGG.03301) vermittelt die Grundkenntnisse physikalischer Prozesse in Frostgebieten  (Schnee,  Eis,  Permafrost).  Der  Kurs Räumliche  und  deskriptive  Statistik (SGG.02101) besteht aus Unterrichtseinheiten, die durch Übungen ergänzt werden, die sich mit der praktischen Anwendung der Statistik im geographischen Kontext befassen. Der Kurs Atmosphärenwissenschaften (SGG.02301)  behandelt  die  Grundlagen  der  physikalischen Prozesse in der Atmosphäre, was erlaubt, Klima- und Wettersysteme und deren zukünftige Entwicklung  zu  verstehen. Die Wirtschaftsgeographie (SGG.00210) legt  den  Schwerpunkt auf die Beziehungen zwischen Wirtschaft, Gesellschaft und Ökosystem. Der Aufbau geographischer Datenbanken  und  ihre  Nutzung  in  der  räumlichen  Analyse  ist  Thema  der  Lehrveranstaltung Geographische Informationsverarbeitung (GIS) ( SGG.00312) . Der Kurs Fernerkundung (SGG.00319) vermittelt die Grundlagen, Prinzipien und Methoden zum Verständnis und zur Transformation des Inhalts von Fernerkundungsbildern. Die Umweltgeographie (SGG.00318) präsentiert die geographischen Theorien und Konzepte, um die Beziehung zwischen Natur und Gesellschaft zu verstehen. In Politischer Geographie (SGG.00305) werden die Beziehungen zwischen Raum und Machtverhältnissen untersucht.  Der Kurs Geographie des Ländlichen (SGG.02201) stellt die verschiedenen Aspekte der neuen Ländlichkeit vor, insbesondere die Landwirtschaft, Agrarlandschaften und die neuen sozialen und wirtschaftlichen Herausforderungen im ländlichen Raum. Die Lehrveranstaltung zu den Empirische Sozialforschung I: Forschungsdesign (SGG.02111) zielt darauf ab, die theoretischen Voraussetzungen vorzustellen, welche für die Ausarbeitung einer Forschungsmethode notwendig sind. In der Veranstaltung Empirische Sozialforschung II: Datenerhebung (SGG.02112) werden grundlegende  quantitative  und  qualitative  empirische  Datenerhebungsmethoden  (Interviews, Fragebögen,  Kartierungen,  Inhaltsanalyse)  eingeführt  und  anhand  kleiner  Studien  durch  die Studierenden selber angewendet. Wenn der Kurs SGG.02112 gewählt wird, muss er im selben Semester wie SGG.02111 belegt werden.\n\n- Praktika: Die  Praktika  zu  den  Kursen  in Geowissenschaften (SGS.01005 et SGS.01006) und Kartographie  und  Einführung  in  die  GIS (SGS.00157)  führen  in  die  Berechnungen  und Messmethoden  der  Geowissenschaften  und  in  die  Methoden  der  Kartographie  ein  und machen die Studierenden mit den qualitativen Methoden der Humangeographie vertraut. Die Praktika  sind  komplementär  zu  den  Vorlesungen.  Themen  der  Vorlesungen  werden aufgegriffen  und  praktisch  angewandt.  Die  Praktika  zu Geomorphologie -Quartär I  und II (SGG.00283 und SGG.00284) und zur Kryosphäre (SGG.03302) begleiten und vertiefen die Lehrinhalte der entsprechenden Vorlesungen (SGG.00262/263, SGG.03301). Sie können nicht vor den entsprechenden Kursen absolviert werden.\n- Die Exkursionen: Die Geographie Exkursionen I und II (SGG.00256 et SGG.00257) haben das Ziel human- oder physiogeographische Begriffe, die in den Veranstaltungen behandelt wurden zu illustrieren und zu vertiefen.\n\n## 3.6.3 Evaluation der Unterrichtseinheiten\n\nDie Bewertungsbedingungen der UE finden sich im Anhang der entsprechenden Fachbereiche. Bitte beachten Sie den Anhang der Geographie und der Geowissenschaften.",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## 3.6  Geographie\n\nDas Departement Geowissenschaften bietet zwei Möglichkeiten für ein Zusatzfach in Geographie an: ein Fach zu 30 ECTS-Credits (GEOG-30) und eines zu 60 ECTS-Credits (GEOG-60). Das Zusatzfach verlangt keine Vorkenntnisse im Gebiet der Geographie.\n\nDas  Studienprogramm  zu  60  ECTS-Credits  (GEOG-60)  wurde  speziell  für  die  Wahl  der Geographie als zweites Unterrichtsfach im Rahmen des «Lehrdiplom für die Maturitätsschulen» (LDM) konzipiert, kann aber auch im Rahmen eines allgemeinen Zusatzfachs von 60 ECTSCredits gewählt werden.\n\n## 3.6.1 Unterrichtseinheiten (UE)\n\n## 3.6.1.1 Unterrichtseinheiten des Zusatzfaches GEOG-30 zu 30 ECTS\n\n[Version 2023, Anrechnungseinheit: PV-SGG.0000078]\n\nDas Zusatzfach GEOG-30 richtet sich an die Studierenden aller Fakultäten, die eine elementare Ausbildung in Geographie zu erlangen wünschen.\n\nAlle UE werden in einer einzigen Anrechnungseinheit zusammengefasst.\n\nAus Gründen von Zeitkonflikten ist es möglich, einige der empfohlenen Kurse durch Kurse der Humangeographie, Physischen Geographie oder Geomatik zu ersetzen, solange die Vorbedingungen §  erfüllt sind.\n\nUE, die mit einem Stern (*) markiert sind und bereits im Rahmen eines anderen Programmes (z.B.  Propädeutikum)  belegt  worden  sind,  werden  durch  andere,  innerhalb  des  Zusatzfaches angebotenen UE ersetzt.\n\n## obligatorische UE (1. Semester)\n\n| Code                                | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-------------------------------------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001                           | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |    3   |\n| SGS.01002                           | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |    3   |\n| SGS.01003                           | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |    3   |\n| SGS.01004                           | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |    3   |\n| SGS.01005                           | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |    2   |\n| SGS.01006                           | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |    2   |\n| empfohlene UE (2. oder 4. Semester) | empfohlene UE (2. oder 4. Semester)                                        |            |             |        |\n| SGS.00105                           | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |    3   |\n| SGS.00106                           | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |    3   |\n| SGS.00156                           | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |    3   |\n| SGS.00157                           | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |    2   |\n| SGS.01301                           | Geologie und Gesellschaft: Angewandte Herausforderungen*                   | FS         |          14 |    1.5 |\n| SGS.01201                           | Politische Ökologie des Wassers*                                           | FS         |          14 |    1.5 |\n\n| Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      |\n|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|\n| SGG.00205                                                     | Stadtgeographie                                               | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00210                                                     | Wirtschaftsgeographie                                         | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) |\n| SGG.02301                                                     | Atmosphärenwissenschaften                                     | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00262                                                     | Geomorphologie - Quartär, Teil 1 (Vorlesung)                  | HS                                                            | 36                                                            | 3                                                             |\n| SGG.00263                                                     | Geomorphologie - Quartär, Teil 2 (Vorlesung)                  | FS                                                            | 20                                                            | 3                                                             |\n| SGG.00283                                                     | Geomorphologie - Quartär (Praktikum I)                        | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00284                                                     | Geomorphologie - Quartär (Praktikum II)                       | FS                                                            | 36                                                            | 3                                                             |\n| SGG.03301                                                     | Kryosphere (Vorlesung)**                                      | HS                                                            | 28                                                            | 3                                                             |\n| SGG.03302                                                     | Kryosphere (Praktikum)**                                      | HS                                                            | 28                                                            | 2                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             |\n| SGS.01101                                                     | Geostatistik*                                                 | FS                                                            | 28                                                            | 3                                                             |\n| SGG.02101                                                     | Räumliche und deskriptive Statistik                           | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00312                                                     | Geographische Informationsverarbeitung (GIS)                  | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00319                                                     | Fernerkundung                                                 | FS                                                            | 28                                                            | 3                                                             |\n\n- § Diesbezügliche Informationen befinden sich im Vorlesungsverzeichnis (https://www.unifr.ch/timetable) bzw. im Studierendenportal MyUniFR (https://my.unifr.ch)\n* Studierende, die diese Kurse als Teil eines anderen Programms belegen (propädeutisches Fach oder Bachelor Erdwissenschaften), müssen sie durch Wahlkurse aus der obigen Tabelle ersetzen.\n\n**  Vorlesung für Fortgeschrittene, empfohlen für das Ende des Programms für das Zusatzfach\n\n## 3.6.1.2 Unterrichtseinheiten des Zusatzfaches GEOG-60 zu 60 ECTS\n\n[Version 2025, Anrechnungseinheit: PV-SGG.0000085]\n\nDas Zusatzfach GEOG-60 richtet sich an Studierende aus allen Fakultäten, welche im Rahmen ihrer  Studienrichtung eine vertiefte Ausbildung in Geographie erwerben möchten, und welche beabsichtigen  das  «Lehrdiplom  für  Maturitätsschulen»  (LDM)  zu  absolvieren.  Das  Studienprogramm entspricht dem eines zweiten Lehrfachs. Der erste Teil beinhaltet ein Programm von Pflichtveranstaltungen, während der zweite Teil gleichzeitig obligatorische wie auch optionale Lehrveranstaltungen beinhaltet.\n\nAlle UE werden in einer einzigen Anrechnungseinheit zusammengefasst.\n\nEs ist wichtig, die vorgeschlagene Unterrichtsreihenfolge einzuhalten: zuerst die Kurse des ersten Teils, dann erst die des zweiten Teils. Bei zeitlichen Konflikten können die UE des Zusatzfaches auf die 6 Semester des Bachelorstudiums verteilt werden.\n\n## 1. Teil (30 ECTS): obligatorische UE (1. und 2. Semester)\n\n| Code      | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-----------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001 | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |      3 |\n| SGS.01002 | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |      3 |\n| SGS.01003 | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |      3 |\n| SGS.01004 | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |      3 |\n| SGS.01005 | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.01006 | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.00105 | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |      3 |\n| SGS.00106 | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |      3 |\n| SGS.00156 | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |      3 |\n| SGS.00157 | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |      2 |\n| SGS.01101 | Geostatistik                                                               | FS         |          28 |      3 |\n\n## 2. Teil (30 ECTS): obligatorische (6 ECTS) und optionale (24 ECTS) UE (Semester 3 und folgende)\n\n## Obligatorische UE von insgesamt 6 ECTS:\n\n| Code      | Unterrichtseinheiten                             | Semeste r   |   tot. Std |   ECTS |\n|-----------|--------------------------------------------------|-------------|------------|--------|\n| SGG.02111 | Empirische Sozialforschung I: Forschungsdesign § | HS          |         28 |      3 |\n| SGG.02101 | Räumliche und deskriptive Statistik              | HS          |         28 |      3 |\n\n## Optionale UE von insgesamt 24 ECTS:\n\nAus den optionalen UE sind mindestens 7 ECTS in Humangeographie und 7 ECTS in physischer Geographie zu absolvieren.\n\nDie  Praktika  SGG.003302,  SGG.00283  und  SGG.00284  können  nicht  unabhängig  von  ihren Vorlesungen (SGG.03301, und SGG.00262/263) gewählt werden, und können auch nicht vor den Vorlesungen besucht werden.\n\nWenn der Kurs  SGG.02112  gewählt  wird,  muss  er  im  selben  Semester  wie  SGG.02111  belegt werden.\n\n## a) in Humangeographie (mindestens 7 ECTS):\n\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n|--------------------------------------------------|---------------------------------------------------------|-------------|------------|--------|\n| SGG.02112                                        | Empirische Sozialforschung II: Datenerhebung §          | HS          | 28         | 3      |\n| SGS.01201                                        | Politische Ökologie des Wassers                         | FS          | 14         | 1.5    |\n| SGG.00205                                        | Stadtgeographie                                         | FS          | 28         | 3      |\n| SGG.02201                                        | Geographie des Ländlichen                               | FS          | 28         | 3      |\n| SGG.00210                                        | Wirtschaftsgeographie                                   | FS          | 28         | 3      |\n| SGG.00305                                        | Politische Geographie **                                | FS          | 28         | 3      |\n| SGG.00318                                        | Umweltgeographie **                                     | HS          | 28         | 3      |\n| b) in physischer Geographie (mindestens 7 ECTS): | b) in physischer Geographie (mindestens 7 ECTS):        |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.02301                                        | Atmosphärenwissenschaften                               | HS          | 28         | 3      |\n| SGG.03301                                        | Kryosphäre (Vorlesung) **                               | HS          | 28         | 3      |\n| SGG.03302                                        | Kryosphäre (Praktikum) **                               | HS          | 28         | 2      |\n| SGG.00262                                        | Geomorphologie - Quartär, Teil 1 (Vorlesung)            | HS          | 36         | 3      |\n| SGG.00263                                        | Geomorphologie - Quartär, Teil 2 (Vorlesung)            | FS          | 20         | 3      |\n| SGG.00283                                        | Geomorphologie - Quartär (Praktikum I)                  | HS          | 28         | 3      |\n| c) sonstige:                                     | c) sonstige:                                            |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.00312                                        | Geographische Informationsverarbeitung (GIS)            | HS          | 28         | 3      |\n| SGG.00319                                        | Fernerkundung                                           | FS          | 28         | 3      |\n| SST.00201                                        | Regionale Geologie                                      | FS          | 28         | 3      |\n| SGS.01301                                        | Geologie und Gesellschaft: Angewandte Herausforderungen | FS          | 14         | 1.5    |\n| SGG.00256                                        | Geographie Exkursion I                                  | HS/FS       | 8          | 0.5    |\n| SGG.00257                                        | Geographie Exkursion II                                 | HS/FS       | 8          | 0.5    |\n\n**  Vorlesung für Fortgeschrittene, empfohlen am Ende des Programms für das Zusatzfach\n\n§ Unbedingt im selben Semester wie SGG.02111 zu belegen\n\n## 3.6.2 Inhalt der Unterrichtseinheiten der Zusatzfächer\n\n- Vorlesungen: Die Grundlagenveranstaltungen Einführung in die Geowissenschaften (SGS.01001, SGS.01002,  SGS.01003  und  SGS.01004)  vermitteln einen allgemeinen Überblick  über  die  wichtigsten  Charakteristika  des  Erdsystems  (Raum  und  Gesellschaft; Atmosphäre,  Hydrosphäre  und  Klima;  interne  und  externe  Geodynamik;  Gesteine  und Mineralien) und  über  die Interaktionen  zwischen  den  verschiedenen  Disziplinen, die zusammen die Geowissenschaften bilden. Die Lehrveranstaltung Kartographie und Einführung  in  die  GIS (SGS.00156)  bietet  eine  Einführung  in  das  Lesen  und  Erstellen thematischer  Karten  sowie  in  das  Prinzip  geographischer  Informationssysteme  (GIS).  Der Kurs  Geostatistik  (SGS.01101)  führt  in  die  Methoden  zur  Verarbeitung  und  Nutzung  von Geodaten  ein.    In Erdgeschichte (SGS.00106) wird  die  Evolution  der  Erde  über  die geologischen Zeitalter hinweg dargestellt.   Die Stadtgeographie (SGG.00205) geht auf die\n\nwichtigsten  Probleme  des  heutigen  städtischen  Raumes  ein,  betrachtet  aber  auch  die historische  Dimension.  Der  Kurs Politische  Ökologie  des  Wassers (SGS.01201)  legt  die aktuellen  politischen  und  sozialen  Dimensionen  des  Zugangs  zu  Wasser  dar.    Im  Kurs Geologie und Gesellschaft: Angewandte Herausforderungen (SGS.01301) werden Beispiele für Herausforderungen oder konkrete Umsetzungen im Bereich der Geologie vorgestellt. Die Vorlesung Epistemologie der Geowissenschaften (SGS.00105) führt in die Grundprinzipien der Erkenntnistheorie und in die Disziplingeschichte der Geowissenschaften ein. Der Kurs Regionale  Geologie (SST.00201)  gibt  einen  Überblick  über  die  wichtigsten  tektonischen Einheiten der Schweiz. Die  Vorlesungen Geomorphologie -Quartär in zwei Teilen (SGG.00262 und  SGG.00263)  beschäftigen  sich  mit  der  Beschreibung  und  Erklärung  der Oberflächenformen der Erde als Grundlage für das Verständnis der Naturund Kulturlandschaften; sie schlagen einen multidisziplinären Ansatz für die jüngste Periode der Erdgeschichte  vor.  Die  beiden  Teile  können  nicht  einzeln  validiert  werden.  Die  Vorlesung Kryosphäre (SGG.03301) vermittelt die Grundkenntnisse physikalischer Prozesse in Frostgebieten  (Schnee,  Eis,  Permafrost).  Der  Kurs Räumliche  und  deskriptive  Statistik (SGG.02101) besteht aus Unterrichtseinheiten, die durch Übungen ergänzt werden, die sich mit der praktischen Anwendung der Statistik im geographischen Kontext befassen. Der Kurs Atmosphärenwissenschaften (SGG.02301)  behandelt  die  Grundlagen  der  physikalischen Prozesse in der Atmosphäre, was erlaubt, Klima- und Wettersysteme und deren zukünftige Entwicklung  zu  verstehen. Die Wirtschaftsgeographie (SGG.00210) legt  den  Schwerpunkt auf die Beziehungen zwischen Wirtschaft, Gesellschaft und Ökosystem. Der Aufbau geographischer Datenbanken  und  ihre  Nutzung  in  der  räumlichen  Analyse  ist  Thema  der  Lehrveranstaltung Geographische Informationsverarbeitung (GIS) ( SGG.00312) . Der Kurs Fernerkundung (SGG.00319) vermittelt die Grundlagen, Prinzipien und Methoden zum Verständnis und zur Transformation des Inhalts von Fernerkundungsbildern. Die Umweltgeographie (SGG.00318) präsentiert die geographischen Theorien und Konzepte, um die Beziehung zwischen Natur und Gesellschaft zu verstehen. In Politischer Geographie (SGG.00305) werden die Beziehungen zwischen Raum und Machtverhältnissen untersucht.  Der Kurs Geographie des Ländlichen (SGG.02201) stellt die verschiedenen Aspekte der neuen Ländlichkeit vor, insbesondere die Landwirtschaft, Agrarlandschaften und die neuen sozialen und wirtschaftlichen Herausforderungen im ländlichen Raum. Die Lehrveranstaltung zu den Empirische Sozialforschung I: Forschungsdesign (SGG.02111) zielt darauf ab, die theoretischen Voraussetzungen vorzustellen, welche für die Ausarbeitung einer Forschungsmethode notwendig sind. In der Veranstaltung Empirische Sozialforschung II: Datenerhebung (SGG.02112) werden grundlegende  quantitative  und  qualitative  empirische  Datenerhebungsmethoden  (Interviews, Fragebögen,  Kartierungen,  Inhaltsanalyse)  eingeführt  und  anhand  kleiner  Studien  durch  die Studierenden selber angewendet. Wenn der Kurs SGG.02112 gewählt wird, muss er im selben Semester wie SGG.02111 belegt werden.\n\n- Praktika: Die  Praktika  zu  den  Kursen  in Geowissenschaften (SGS.01005 et SGS.01006) und Kartographie  und  Einführung  in  die  GIS (SGS.00157)  führen  in  die  Berechnungen  und Messmethoden  der  Geowissenschaften  und  in  die  Methoden  der  Kartographie  ein  und machen die Studierenden mit den qualitativen Methoden der Humangeographie vertraut. Die Praktika  sind  komplementär  zu  den  Vorlesungen.  Themen  der  Vorlesungen  werden aufgegriffen  und  praktisch  angewandt.  Die  Praktika  zu Geomorphologie -Quartär I  und II (SGG.00283 und SGG.00284) und zur Kryosphäre (SGG.03302) begleiten und vertiefen die Lehrinhalte der entsprechenden Vorlesungen (SGG.00262/263, SGG.03301). Sie können nicht vor den entsprechenden Kursen absolviert werden.\n- Die Exkursionen: Die Geographie Exkursionen I und II (SGG.00256 et SGG.00257) haben das Ziel human- oder physiogeographische Begriffe, die in den Veranstaltungen behandelt wurden zu illustrieren und zu vertiefen.\n\n## 3.6.3 Evaluation der Unterrichtseinheiten\n\nDie Bewertungsbedingungen der UE finden sich im Anhang der entsprechenden Fachbereiche. Bitte beachten Sie den Anhang der Geographie und der Geowissenschaften."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Code                                | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-------------------------------------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001                           | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |    3   |\n| SGS.01002                           | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |    3   |\n| SGS.01003                           | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |    3   |\n| SGS.01004                           | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |    3   |\n| SGS.01005                           | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |    2   |\n| SGS.01006                           | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |    2   |\n| empfohlene UE (2. oder 4. Semester) | empfohlene UE (2. oder 4. Semester)                                        |            |             |        |\n| SGS.00105                           | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |    3   |\n| SGS.00106                           | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |    3   |\n| SGS.00156                           | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |    3   |\n| SGS.00157                           | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |    2   |\n| SGS.01301                           | Geologie und Gesellschaft: Angewandte Herausforderungen*                   | FS         |          14 |    1.5 |\n| SGS.01201                           | Politische Ökologie des Wassers*                                           | FS         |          14 |    1.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SGS.01001",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SGS.01002",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SGS.01003",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 3 - Allgemeine Geologie*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SGS.01004",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SGS.01005",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 1 + 2 - Praktikum*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SGS.01006",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 3 + 4 - Praktikum*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "empfohlene UE (2. oder 4. Semester)",
+            "Unterrichtseinheit": "empfohlene UE (2. oder 4. Semester)",
+            "Semester": "",
+            "tot. Std.": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SGS.00105",
+            "Unterrichtseinheit": "Epistemologie der Geowissenschaften (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SGS.00106",
+            "Unterrichtseinheit": "Erdgeschichte (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SGS.00156",
+            "Unterrichtseinheit": "Kartographie und Einführung in die GIS (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SGS.00157",
+            "Unterrichtseinheit": "Kartographie und Einführung in die GIS (Praktikum)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SGS.01301",
+            "Unterrichtseinheit": "Geologie und Gesellschaft: Angewandte Herausforderungen*",
+            "Semester": "FS",
+            "tot. Std.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SGS.01201",
+            "Unterrichtseinheit": "Politische Ökologie des Wassers*",
+            "Semester": "FS",
+            "tot. Std.": "14",
+            "ECTS": "1.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      | Wahloption Humangeographie (Vorbedingungen beachten! § )      |\n|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|\n| SGG.00205                                                     | Stadtgeographie                                               | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00210                                                     | Wirtschaftsgeographie                                         | FS                                                            | 28                                                            | 3                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) | Wahloption physische Geographie (Vorbedingungen beachten! § ) |\n| SGG.02301                                                     | Atmosphärenwissenschaften                                     | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00262                                                     | Geomorphologie - Quartär, Teil 1 (Vorlesung)                  | HS                                                            | 36                                                            | 3                                                             |\n| SGG.00263                                                     | Geomorphologie - Quartär, Teil 2 (Vorlesung)                  | FS                                                            | 20                                                            | 3                                                             |\n| SGG.00283                                                     | Geomorphologie - Quartär (Praktikum I)                        | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00284                                                     | Geomorphologie - Quartär (Praktikum II)                       | FS                                                            | 36                                                            | 3                                                             |\n| SGG.03301                                                     | Kryosphere (Vorlesung)**                                      | HS                                                            | 28                                                            | 3                                                             |\n| SGG.03302                                                     | Kryosphere (Praktikum)**                                      | HS                                                            | 28                                                            | 2                                                             |\n| SGG.00256                                                     | Geographie Exkursion I                                        | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| SGG.00257                                                     | Geographie Exkursion II                                       | HS/FS                                                         | 8                                                             | 0.5                                                           |\n| Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             | Wahloption Geomatik (Vorbedingungen beachten! § )             |\n| SGS.01101                                                     | Geostatistik*                                                 | FS                                                            | 28                                                            | 3                                                             |\n| SGG.02101                                                     | Räumliche und deskriptive Statistik                           | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00312                                                     | Geographische Informationsverarbeitung (GIS)                  | HS                                                            | 28                                                            | 3                                                             |\n| SGG.00319                                                     | Fernerkundung                                                 | FS                                                            | 28                                                            | 3                                                             |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "0.5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "0.5"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "Wahloption physische Geographie (Vorbedingungen beachten! § )"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "2"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "0.5"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "0.5"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "Wahloption Geomatik (Vorbedingungen beachten! § )"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 16,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 17,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        },
+        {
+          "row_index": 18,
+          "cells": {
+            "Wahloption Humangeographie (Vorbedingungen beachten! § )": "3"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 2,
+      "markdown": "| Code      | Unterrichtseinheit                                                         | Semester   |   tot. Std. |   ECTS |\n|-----------|----------------------------------------------------------------------------|------------|-------------|--------|\n| SGS.01001 | Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*             | HS         |          28 |      3 |\n| SGS.01002 | Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima* | HS         |          28 |      3 |\n| SGS.01003 | Einführung in die Geowissenschaften 3 - Allgemeine Geologie*               | HS         |          28 |      3 |\n| SGS.01004 | Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*           | HS         |          28 |      3 |\n| SGS.01005 | Einführung in die Geowissenschaften 1 + 2 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.01006 | Einführung in die Geowissenschaften 3 + 4 - Praktikum*                     | HS         |          28 |      2 |\n| SGS.00105 | Epistemologie der Geowissenschaften (Vorlesung)*                           | FS         |          28 |      3 |\n| SGS.00106 | Erdgeschichte (Vorlesung)*                                                 | FS         |          28 |      3 |\n| SGS.00156 | Kartographie und Einführung in die GIS (Vorlesung)*                        | FS         |          28 |      3 |\n| SGS.00157 | Kartographie und Einführung in die GIS (Praktikum)*                        | FS         |          28 |      2 |\n| SGS.01101 | Geostatistik                                                               | FS         |          28 |      3 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SGS.01001",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 1 - Raum und Gesellschaft*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SGS.01002",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 2 - Atmosphäre, Hydrosphäre und Klima*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SGS.01003",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 3 - Allgemeine Geologie*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SGS.01004",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 4 - Gesteine und Mineralien*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SGS.01005",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 1 + 2 - Praktikum*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SGS.01006",
+            "Unterrichtseinheit": "Einführung in die Geowissenschaften 3 + 4 - Praktikum*",
+            "Semester": "HS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SGS.00105",
+            "Unterrichtseinheit": "Epistemologie der Geowissenschaften (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SGS.00106",
+            "Unterrichtseinheit": "Erdgeschichte (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SGS.00156",
+            "Unterrichtseinheit": "Kartographie und Einführung in die GIS (Vorlesung)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SGS.00157",
+            "Unterrichtseinheit": "Kartographie und Einführung in die GIS (Praktikum)*",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SGS.01101",
+            "Unterrichtseinheit": "Geostatistik",
+            "Semester": "FS",
+            "tot. Std.": "28",
+            "ECTS": "3"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 3,
+      "markdown": "| Code      | Unterrichtseinheiten                             | Semeste r   |   tot. Std |   ECTS |\n|-----------|--------------------------------------------------|-------------|------------|--------|\n| SGG.02111 | Empirische Sozialforschung I: Forschungsdesign § | HS          |         28 |      3 |\n| SGG.02101 | Räumliche und deskriptive Statistik              | HS          |         28 |      3 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SGG.02111",
+            "Unterrichtseinheiten": "Empirische Sozialforschung I: Forschungsdesign §",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SGG.02101",
+            "Unterrichtseinheiten": "Räumliche und deskriptive Statistik",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 4,
+      "markdown": "| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n|--------------------------------------------------|---------------------------------------------------------|-------------|------------|--------|\n| SGG.02112                                        | Empirische Sozialforschung II: Datenerhebung §          | HS          | 28         | 3      |\n| SGS.01201                                        | Politische Ökologie des Wassers                         | FS          | 14         | 1.5    |\n| SGG.00205                                        | Stadtgeographie                                         | FS          | 28         | 3      |\n| SGG.02201                                        | Geographie des Ländlichen                               | FS          | 28         | 3      |\n| SGG.00210                                        | Wirtschaftsgeographie                                   | FS          | 28         | 3      |\n| SGG.00305                                        | Politische Geographie **                                | FS          | 28         | 3      |\n| SGG.00318                                        | Umweltgeographie **                                     | HS          | 28         | 3      |\n| b) in physischer Geographie (mindestens 7 ECTS): | b) in physischer Geographie (mindestens 7 ECTS):        |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.02301                                        | Atmosphärenwissenschaften                               | HS          | 28         | 3      |\n| SGG.03301                                        | Kryosphäre (Vorlesung) **                               | HS          | 28         | 3      |\n| SGG.03302                                        | Kryosphäre (Praktikum) **                               | HS          | 28         | 2      |\n| SGG.00262                                        | Geomorphologie - Quartär, Teil 1 (Vorlesung)            | HS          | 36         | 3      |\n| SGG.00263                                        | Geomorphologie - Quartär, Teil 2 (Vorlesung)            | FS          | 20         | 3      |\n| SGG.00283                                        | Geomorphologie - Quartär (Praktikum I)                  | HS          | 28         | 3      |\n| c) sonstige:                                     | c) sonstige:                                            |             |            |        |\n| Code                                             | Unterrichtseinheiten                                    | Semeste r   | tot. Std   | ECTS   |\n| SGG.00312                                        | Geographische Informationsverarbeitung (GIS)            | HS          | 28         | 3      |\n| SGG.00319                                        | Fernerkundung                                           | FS          | 28         | 3      |\n| SST.00201                                        | Regionale Geologie                                      | FS          | 28         | 3      |\n| SGS.01301                                        | Geologie und Gesellschaft: Angewandte Herausforderungen | FS          | 14         | 1.5    |\n| SGG.00256                                        | Geographie Exkursion I                                  | HS/FS       | 8          | 0.5    |\n| SGG.00257                                        | Geographie Exkursion II                                 | HS/FS       | 8          | 0.5    |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SGG.02112",
+            "Unterrichtseinheiten": "Empirische Sozialforschung II: Datenerhebung §",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SGS.01201",
+            "Unterrichtseinheiten": "Politische Ökologie des Wassers",
+            "Semeste r": "FS",
+            "tot. Std": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SGG.00205",
+            "Unterrichtseinheiten": "Stadtgeographie",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SGG.02201",
+            "Unterrichtseinheiten": "Geographie des Ländlichen",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SGG.00210",
+            "Unterrichtseinheiten": "Wirtschaftsgeographie",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SGG.00305",
+            "Unterrichtseinheiten": "Politische Geographie **",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SGG.00318",
+            "Unterrichtseinheiten": "Umweltgeographie **",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "b) in physischer Geographie (mindestens 7 ECTS):",
+            "Unterrichtseinheiten": "b) in physischer Geographie (mindestens 7 ECTS):",
+            "Semeste r": "",
+            "tot. Std": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "Code",
+            "Unterrichtseinheiten": "Unterrichtseinheiten",
+            "Semeste r": "Semeste r",
+            "tot. Std": "tot. Std",
+            "ECTS": "ECTS"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SGG.02301",
+            "Unterrichtseinheiten": "Atmosphärenwissenschaften",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SGG.03301",
+            "Unterrichtseinheiten": "Kryosphäre (Vorlesung) **",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SGG.03302",
+            "Unterrichtseinheiten": "Kryosphäre (Praktikum) **",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SGG.00262",
+            "Unterrichtseinheiten": "Geomorphologie - Quartär, Teil 1 (Vorlesung)",
+            "Semeste r": "HS",
+            "tot. Std": "36",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Code": "SGG.00263",
+            "Unterrichtseinheiten": "Geomorphologie - Quartär, Teil 2 (Vorlesung)",
+            "Semeste r": "FS",
+            "tot. Std": "20",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Code": "SGG.00283",
+            "Unterrichtseinheiten": "Geomorphologie - Quartär (Praktikum I)",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "Code": "c) sonstige:",
+            "Unterrichtseinheiten": "c) sonstige:",
+            "Semeste r": "",
+            "tot. Std": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 16,
+          "cells": {
+            "Code": "Code",
+            "Unterrichtseinheiten": "Unterrichtseinheiten",
+            "Semeste r": "Semeste r",
+            "tot. Std": "tot. Std",
+            "ECTS": "ECTS"
+          }
+        },
+        {
+          "row_index": 17,
+          "cells": {
+            "Code": "SGG.00312",
+            "Unterrichtseinheiten": "Geographische Informationsverarbeitung (GIS)",
+            "Semeste r": "HS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 18,
+          "cells": {
+            "Code": "SGG.00319",
+            "Unterrichtseinheiten": "Fernerkundung",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 19,
+          "cells": {
+            "Code": "SST.00201",
+            "Unterrichtseinheiten": "Regionale Geologie",
+            "Semeste r": "FS",
+            "tot. Std": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 20,
+          "cells": {
+            "Code": "SGS.01301",
+            "Unterrichtseinheiten": "Geologie und Gesellschaft: Angewandte Herausforderungen",
+            "Semeste r": "FS",
+            "tot. Std": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 21,
+          "cells": {
+            "Code": "SGG.00256",
+            "Unterrichtseinheiten": "Geographie Exkursion I",
+            "Semeste r": "HS/FS",
+            "tot. Std": "8",
+            "ECTS": "0.5"
+          }
+        },
+        {
+          "row_index": 22,
+          "cells": {
+            "Code": "SGG.00257",
+            "Unterrichtseinheiten": "Geographie Exkursion II",
+            "Semeste r": "HS/FS",
+            "tot. Std": "8",
+            "ECTS": "0.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "3.6 Geographie",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.6.1 Unterrichtseinheiten (UE)",
+      "line_index": 10,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.6.1.1 Unterrichtseinheiten des Zusatzfaches GEOG-30 zu 30 ECTS",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "obligatorische UE (1. Semester)",
+      "line_index": 24,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.6.1.2 Unterrichtseinheiten des Zusatzfaches GEOG-60 zu 60 ECTS",
+      "line_index": 69,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1. Teil (30 ECTS): obligatorische UE (1. und 2. Semester)",
+      "line_index": 79,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2. Teil (30 ECTS): obligatorische (6 ECTS) und optionale (24 ECTS) UE (Semester 3 und folgende)",
+      "line_index": 95,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Obligatorische UE von insgesamt 6 ECTS:",
+      "line_index": 97,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Optionale UE von insgesamt 24 ECTS:",
+      "line_index": 104,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "a) in Humangeographie (mindestens 7 ECTS):",
+      "line_index": 112,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.6.2 Inhalt der Unterrichtseinheiten der Zusatzfächer",
+      "line_index": 144,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.6.3 Evaluation der Unterrichtseinheiten",
+      "line_index": 153,
+      "source": "markdown_regex"
+    }
+  ]
+}

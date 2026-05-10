@@ -1,0 +1,312 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T19:53:51.871Z",
+  "title": "Philosophy_Master_90_General_and_Swiss_History_of_Modern_Times_Lekt_re-Empfehlungen_510b37d278a8f9f9251435c29329894173adf59d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "510b37d278a8f9f9251435c29329894173adf59d",
+  "program_key": "philosophy|master|90|general and swiss history of modern times",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "General and Swiss History of Modern Times",
+  "doc_label": "Lektüre-Empfehlungen",
+  "source_url": "https://www.unifr.ch/complit/de/assets/public/files/studium/Lektuere-Empfehlungen.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_General_and_Swiss_History_of_Modern_Times_Lekt_re-Empfehlungen_510b37d278a8f9f9251435c29329894173adf59d.pdf",
+  "sha256": "6f91fe73515a0469238b1433551d540a400c0d5e1d9d9b94e892dd6197508784",
+  "fetched_at": "2026-04-03T11:31:03.937Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/Lektuere-Empfehlungen.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Lektüre-Empfehlungen
+
+Kursiv = Orignaltitel; fett = Einstiegsempfehlung zu einer Epoche; * = auszugsweise
+
+- Homer : Ilias; Odysseia
+- Pindar: Epinikia * (Siegeslieder); Oden
+- Aischylos: Oresteia
+- Sophokles : Antigone ; Oidipus tyrannos (König Ödipus)
+- Euripides: Medeia; Iphigeneia he en Taurois (Iphigenie bei den Taurern)
+- Aristophanes : Nephelai (Die Wolken); Lysistrate
+- Platon: Symposion (Gastmahl)
+- Lukian: Theon dialogoi * (Göttergespräche)
+- Heliodor: Aithiopika * (Theagenes und Charikleia)
+- Plautus: Amphitruo (Amphitryon)
+- Lukrez: De rerum natura * (Von der Natur der Dinge)
+- Properz: Elegiae *
+- Vergil: Bucolica (Hirtengedichte); Aeneis
+- Horaz: Satirae *, Oden und Epoden
+- Ovid: Metamorphoseon libri (Metamorphosen), Amores (Liebesgedichte)
+- Martial: Epigrammata *
+- Petronius: Satyricon *
+- Augustinus: Confessiones * (Bekenntnisse)
+- Jacobus de Voragine: Legenda aurea *
+- Älteres Hildebrandslied
+- La chanson de Roland (Rolandslied)
+- Lieder der Trobadors *
+- Chrétien de Troyes: Érec et Énide
+- Wolfram von Eschenbach: Parzival
+- Gottfried von Straßburg: Tristan und Isold
+- Dante: La Divina Commedia (Die Göttliche Komödie )
+- Petrarca: Canzoniere *
+- Boccaccio: Il Decameron
+- Ariost: Orlando furioso * (Der rasende Roland)
+- Tasso: La Gierusalemme liberata (Das befreite Jerusalem)
+- G.B. Basile: Pentamerone (Märchen)
+- Cantar de Mio Cid
+- Libro de Apolonio
+- Gonzalo de Berceo: Milagro de Nuestra Señora
+- Anonym: Lazarillo de Tormes
+- Góngora: Soledades (Einsamkeiten)
+- Cervantes: Novelas ejemplares (Exemplarische Novellen); El ingenioso hidalgo Don Quijote de la Mancha
+- Tirso de Molina: El burlador de Sevilla y convidado de piedra (Der Spötter von Sevilla und der steinerne Gast)
+- Lope de Vega: Fuentovejuna
+- De Quevedo: El Buscón
+- Calderón de la Barca : El principe constante (Der steinerne Prinz); La vida es sueño (Das Leben ein Traum)
+- Villon: La grant testament (Das große Testament)
+- Rabelais: Gargantua et Pantagruel * (Gargantua und Pantagruel)
+- Ronsard: Sonnets
+- Montaigne: Essays *
+- La Rochefoucauld: Maximes
+- Molière : Le misanthrope (Der Menschenfeind); Le malade imaginaire (Der eingebildete Kranke), Tartuffe
+- Corneille: Le Cid
+- Racine: Phèdre (Phädra)
+- La Fontaine: Fables
+- Voltaire: Zaïre oder Candide
+- Diderot: Jacques le Fataliste (Jakob und sein Herr); Le neveu de Rameau (Rameaus Neffe)
+- Rousseau: Les rêveries du promenaire solitaire (Die Träumereien eines einsamen Spaziergängers)
+- Choderlos de Laclos: Les liaisons dangereuses (Gefährliche Liebschaften)
+- Shakespeare : A Midsummer-Night's Dream (Ein Sommernachtstraum); Hamlet ;
+- Troilus and Cressida; King Lear; Macbeth; The Tempest (Der Sturm) ; Sonnets *
+- Metaphysical Poets*
+- Milton: Paradise lost * (Das verlorene Paradies)
+- Defoe: Robinson Crusoe; Moll Flanders
+- Swift: A Modest Proposal (Ein bescheidener Vorschlag); Gulliver's Travels (Gullivers Reisen)
+- Richardson: Clarissa*
+- Fielding: Tom Jones
+- Sterne: Tristram Shandy; A Sentimental Journey Through France and Italy (Empfindsame Reise)
+- Coleridge/Wordsworth: Lyrical ballads
+- Grimmelshausen: Der abenteuerliche Simplizissimus Teutsch
+- Lessing: Minna von Barnhelm; Nathan der Weise
+
+·
+
+Goethe:
+
+Die Leiden des jungen Werthers; Wilhelm Meister; Faust; West-
+
+östlicher Divan
+
+- Schiller: Wallenstein; Kabale und Liebe
+- Jean Paul: Flegeljahre
+- Hölderlin: Gedichte*
+- Kleist: Amphitryon; Der zerbrochene Krug; Penthesilea ; Erzählungen*
+- Tieck: Der blonde Eckbert
+- Lyrik der deutschen Romantik*
+- Brüder Grimm: Kinder- und Hausmärchen *
+- E.T.A. Hoffmann: Erzählungen *
+- Heine: Deutschland, ein Wintermärchen
+- Büchner : Dantons Tod; Leonce und Lena; Woyzeck; Lenz
+- Fontane: Effi Briest; Der Stechlin
+- Hauptmann: Die Weber
+- Lyrik der englischen Romantik*
+- J. Austen: Pride and Prejudice (Stolz und Vorurteil)
+- Byron: Childe Harolds Pilgrinage; The Cosair oder Manfred
+- E. Brontë: Wuthering Heights (Sturmhöhe)
+- Poe: Erzählungen *
+- Melville: Moby Dick or: The Wale
+- Dickens: Great Expectations (Große Erwartungen)
+- Carroll: Alice's Adventures in Wonderland (Alice im Wunderland)
+- Twain: The Adventures of Huckleberry Finn (Huckleberry Finns Abenteuer)
+- Whitman: Leaves of Grass (Grashalme)
+- Wilde: The Picture of Dorian Gray , Salomé
+- H. James: The Turn of the Screw (Schraubendrehungen)
+- Goldoni: Il teatro comico
+- Leopardi: Canti * (Gesänge)
+- Manzoni: I promessi sposi (Die Verlobten)
+- D'Annunzio: Il piacere
+- Kochanowski: Treny
+- Pu š kin: Evgenij Onegin (Eugen Onegin)
+- Mickiewicz: Pan Tadeusz (Herr Taddäus); Dziady (Totenfeier)
+- Slowacki: Kordian
+- Krasinski: (Ungöttliche Komödie)
+- Lermontov: (Held)
+- Gogol: Š inel' (Der Mantel); Nos (Die Nase); (Der Revisor)
+- Gontscharov: Oblomov
+- Turgenjew: (Väter und Söhne)
+- Dostoevskij: Prestuplenie i nakazanie (Schuld und Sühne/Verbrechen und Strafe) (Der Idiot)
+- Tolstoj: Vojna i mir (Krieg und Frieden); Anna Karenina ; Erzählungen*
+- Leskov: (Die Klerisei)
+- Cechov: Vi š nëvyj sad (Der Kirschgarten)
+- Chateaubriand: Mémoires d'outre-tombe
+- Stendhal: Le rouge et le noir (Rot und Schwarz)
+- Balzac: Illusions perdues (Verlorene Illusionen)
+- Hugo: Notre dame de Paris ; Les Orientales
+- Flaubert: Madame Bovary ; L'éducation sentimentale (Lehrjahre des Gefühls)
+- Gautier: Emaux et camées; Mlle de Maupin
+- Nerval: Aurélie
+- Maupassant: Le Horla
+- Zola: Le ventre de Paris (Der Bauch von Paris)
+- Baudelaire: Les fleurs du mal (Blumen des Bösen)
+- Rimbaud: Illuminations
+- Mallarmé: Gedichte*
+- Andersen: Eventyr * (Märchen)
+- Ibsen: Peer Gynt; Vildanden (Die Wildente)
+- Jacobsen: N. Lyhne
+- Strindberg: Ett Drömspel (Traumspiel)
+- Hamsun: Sult (Hunger)
+- Th. Mann : Buddenbrooks; Doktor Faustus
+- Rilke : Malte Laurids Brigge; Gedichte *
+- Menschheitsdämmerung * hg. K. Pinthus
+- Kafka : Der Prozeß ; Erzählungen*
+- Musil: Der Mann ohne Eigenschaften *
+- R. Walser: Geschwister Tanner
+- Horváth: Geschichten aus dem Wienerwald
+- Brecht: Mutter Courage und ihre Kinder ; Gedichte*
+- Rimbaud: Le bateau ivre
+- Verlaine: Jadis et naguère
+- Huysmans: A rebours (Gegen den Strich)
+- Maeterlinck: Pelléas et Mélisande; Serres chaudes
+- Valéry: Charmes
+- Jarry: Ubu roi
+- Proust: A la recherche du temps perdu * (Auf der Suche nach der verlorenen Zeit)
+- Aragon: Le paysan de Paris (Der Bauer von Paris)
+- Sartre: La nausée (Der Ekel)
+- Camus: La peste
+- Beckett: En attendant Godot (Warten auf Godot); Molloy
+- Sarraute: Tropismes (Tropismen)
+- Yeats: The Rose
+- Shaw: Pygmalion
+- Joyce: Ulysses ; Finnegans Wake *
+- T. S. Eliot: The Waste Land (Das wüste Land)
+- Woolf: The Waves (Die Wellen)
+- Hemingway: Stories *
+- Faulkner: The Sound and the Fury (Schall und Wahn)
+- Nabokov: Pale Fire (Fahles Feuer); Ada or Ardor (Ada); Lolita
+- T. Williams: A streetcar named Desire
+- Huxley: Brave new world oder Orwell: 1984
+- Russische symbolistische und futuristische Lyrik*
+- Gorki: (Nachtasyl)
+- Hasek: Schwejk
+- Č apek, Phantastische Erzählungen
+- Mandelstamm: Tristia
+- Achmatowa: Anno Domini
+- Zwetajewa: Nicht mehr in Russland oder ein anderer Gedichtband
+- Babel': Konarmija (Budjonnys Reiterarmee)
+- Bulgakov: Master i Margarita (Der Meister und Margarita)
+- Crnjanski: Siedlungen
+- Platonov: Tschwengur
+- Pirandello: Sei personaggi in cerca d'autore (Sechs Personen suchen einen Autor)
+- Svevo: La coscienza di Zeno (Zeno Cosini)
+- Calvino: Se una notte d'inverno un viaggiatore (Wenn ein Reisender in einer Winternacht)
+- Levi: Se questo è un uomo
+- Galdós: Fortunata y Jacinta, Misericordia
+- Alas: La Regenta
+- Unanumo: Niebla
+- Machado: Campos de Castilla
+- García Lorca: La casa de Bernarda Alba
+- Vallejo: El concierto de San Ovidio
+- Asturias: El señor Presidente
+- Borges: Ficciones
+- Onetti: La vida breve
+- Carpentier: El siglo de las luces
+- Neruda: Residencia en la tierra (Aufenthalt auf Erden), Canto general
+- García Márquez: Cien años de soledad ( Hundert Jahre Einsamkeit)
+- Fuentes: La muerte de Artemio Cruz
+- Cortázar: Rayuela
+- Vargas Llosa: La guerra de fin del mundo
+- Herbert: (Saite aus Licht)
+- Duras: Moderato cantabile
+- Queneau: Zazie
+- Robbe-Grillet: Dans le labyrinthe
+- Simon: La route des Flandres
+- Tournier: Le roi des aulnes
+- Ungaretti: Taccuino del vecchio
+- Ginzburg: Le voce della sera
+- Eco: Il nome della rosa (Der Name der Rose)
+- Tabucchi: Notturno indiano
+- S. Mrozek: (Die Polizei)
+- T. Rozewicz: (Formen der Unruhe)
+- Solcenicyn: Ivan Denisovic
+- Havel: (Das Gartenfest)
+- Brodsky: Gedichte
+- Celan: Gedichte
+- Enzensberger (Hrsg.): Museum der modernen Poesie
+- P. Handke: Der kurze Brief zum langen Abschied
+- Grass: Die Blechtrommel
+- Gustafsson: (Die Risse in der Mauer)
+- Baldwin: The Fire next time
+- Plath: The Bell Jar
+- Barnes: Flaubert's Parrot
+- P. Auster: City of Glass
+- Oates: Bellefleur
+- Jabès: Récit
+- Noteboom: In Nederland (In den Niederlanden) ; (Der Umweg nach Santiago)
+- Ben Jelloum: L'enfant de sable
+- Koltès: R. Zucco
+- Konrád: (Das Geisterfest)
+- Morrison: Beloved
+- Soyinka: Isará
+
+## Nicht-abendländische Texte
+
+1 Die Bibel. Luthertext mit Apokryphen. Stuttgart: Deutsche Bibelgesellschaft 1985. Die Schrift. Verdeutscht von Martin Buber gemeinsam mit Franz Rosenzweig. 4 Bde. Heidelberg 1954ff.
+
+1407/BC 1405 B 917-1
+
+2 Der Koran. Übs. Friedrich Rückert, hg. H.Bolzin/W.Fischer. Ergon-Verlag. Übs. Max Henning. Reclam RUB 4206.
+
+1407/BE 8611 H 517
+
+3 Reden Gotama Buddhas. Aus der mittleren Sammlung. Ausgew. von Hellmuth Hecker. Übertr. von Karl Eugen Neumann München 1987. Serie Piper 668. UB: 0001/8 87-2303
+
+## 4 Das Gilgamesch-Epos.
+
+Übersetzt und mit Anmerkungen versehen von Albert Schott, neu herausgegeben von Wolfram von Soden. Reclam RUB 7235
+
+5 Pañcatantra: Die fünf Bücher indischer Lebensweisheit, hg. A. Greither, übers. 1869 v. Theodor Benfey. München 1986. 0001/8 86-7743
+
+6 Kalidasa: Sakontala oder der entscheidende Ring. Nach der Übersetzung von Georg Forster (1791) bearbeitet von Scarlatto Negrentino. Scaneg. TheaterLIT 3. 1407/EV 337 K 1451 0001/8 N 23368
+
+7 Dschuang Dsi: Das wahre Buch vom südlichen Blütenland. Übersetzt von Richard Wilhelm. Diederichs Gelbe Reihe DG 14 China. 0001/8 N 61904
+
+## 8 Der Traum der roten Kammer.
+
+Aus dem Chinesischen von Franz Kuhn mit zeitgenössischen Illustr. it 1772.
+
+0001/8 87-8127(1 und 8 87-8127(2
+
+- 9 Die Geschichte vom Prinzen Genji. Wie sie geschrieben wurde um das Jahr 1000 unserer Zeitrechnung von Murasaki. Manesse (2 Bände).
+
+1407/EL 5200 M 972-1
+
+- 10 Vierundzwanzig No-Spiele.
+
+Ausgewählt und aus dem Japanischen übertragen von Peter Weber-Schäfer. Insel. 1407/EL 5100 W 375-2
+
+- 11 Nizami: Chosrou und Schirin.
+
+Aus dem Persischen übersetzt von J. Christoph Bürgel. Manesse im dtv 24029
+
+1403/EV 881 N 737-5
+
+12
+
+Geschichten aus Tausendundeiner Nacht.
+
+0001/8 N 14698
+
+## (Zusammenstellung: Maria-Christina Boerner)

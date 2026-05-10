@@ -1,0 +1,48 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:29:25.616Z",
+  "title": "Philosophy_Bachelor_30_Psychology_Versuchspersonenstunden_180_ECTS__59ef8add0b84130ea03df537b79b6b1bfc25484b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "59ef8add0b84130ea03df537b79b6b1bfc25484b",
+  "program_key": "philosophy|bachelor|30|psychology",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Psychology",
+  "doc_label": "Versuchspersonenstunden (180 ECTS)",
+  "source_url": "https://www.unifr.ch/psycho/de/assets/public/bachelor/reglements/Versuchspersonenstundenreglement_180_11_16.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Psychology_Versuchspersonenstunden_180_ECTS__59ef8add0b84130ea03df537b79b6b1bfc25484b.pdf",
+  "sha256": "8e3ce6ce837b80f912e6b8a2286af04035050c9d8229861b8b1c1b808289e26f",
+  "fetched_at": "2026-04-03T11:30:12.966Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/bachelor/reglements/Versuchspersonenstundenreglement_180_11_16.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Reglement des Departements für Psychologie zur Vergabe von Versuchspersonenstunden im Bachelorstudiengang (180ECTS)
+
+1 Für den erfolgreichen Abschluss des Bachelorkolloquiums ist die Ableistung von 30 Versuchspersonenstunden erforderlich, welche durch die Teilnahme an Untersuchungen im Departement für Psychologie erlangt werden können.
+
+2 Die abzuleistenden Versuchspersonenstunden sollten auf mehrere Forschungsabteilungen des Departements für Psychologie verteilt werden. Es darf nur 1 langes Experiment (5-10 Stunden) angerechnet werden.
+
+3 Für die Teilnahme an Untersuchung können auch folgende Zeiteinheiten, die nicht einer vollen Stunde entsprechen, vergeben werden: viertel, halbe und dreiviertel Stunde
+
+4 Nur die wissenschaftlichen Mitarbeiter/innen und Professoren/innen des Departements für Psychologie sind berechtigt, abgeleistete Versuchspersonenstunden zu testieren.
+
+5 Die Liste mit den abgeleisteten Versuchspersonenstunden ist der Bachelorarbeit beizulegen.
+
+6 Das vorliegende Reglement tritt ab Herbstsemester 2016 in Kraft und gilt für alle Studierenden im Bachelorstudiengang 180ECTS mit Beginn ab AA2016-17.
+
+Angenommen durch den Departementsrat vom 25.04.2016

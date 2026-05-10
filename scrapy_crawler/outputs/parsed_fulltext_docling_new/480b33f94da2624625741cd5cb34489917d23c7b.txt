@@ -1,0 +1,401 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T19:17:32.973Z",
+  "title": "Philosophy_Bachelor_60_English_Language_and_Literature_Plan_d_tudes_BA_SI_50_ECTS__480b33f94da2624625741cd5cb34489917d23c7b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "480b33f94da2624625741cd5cb34489917d23c7b",
+  "program_key": "philosophy|bachelor|60|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 50,
+  "program_name": "Teacher Education for Secondary Level I",
+  "doc_label": "Plan d'études BA SI (50 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BASI%20FRENCH_250708.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_English_Language_and_Literature_Plan_d_tudes_BA_SI_50_ECTS__480b33f94da2624625741cd5cb34489917d23c7b.pdf",
+  "sha256": "64d435814b52d24d11a4de8c88fb22e6c9568d509692272982f388acf7b243b4",
+  "fetched_at": "2026-04-03T11:31:26.619Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BASI%20FRENCH_250708.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Université de Fribourg Département d'anglais
+
+## en collaboration avec le Département de plurilinguisme et didactique des langues étrangères
+
+Plan d'études Bachelor DEDS en Langue et littérature anglaises, 50 ECTS
+
+## I. REMARQUES GÉNÉRALES
+
+Le programme d'études Bachelor DAES I en langue et littérature anglaises est prévu pour être effectué en 3 ans. L'objectif du cursus est de développer le savoir linguistique et académique des futur-e-s enseignant-e-s d'anglais langue étrangère dans les écoles secondaires (niveau I).
+
+Des unités d'enseignement sont offertes dans les 4 domaines d'enseignement suivants :
+
+- 1) English and American Literature
+- 2) Linguistics and Applied Linguistics
+- 3) Language learning: Instruction and Assessment
+- 4) Reflective language study
+
+Ce  programme  est  destiné  aux  étudiant-e-s  qui  ne  sont  pas  de  langue  maternelle  anglaise.  Des arrangements  spéciaux  peuvent  être  conclus  au  cas  où  des  étudiant-e-s  de  langue  maternelle anglaise désirent suivre ce programme.
+
+L'inscription  au  programme  d'études  peut  se  faire  au  semestre  d'automne  ou  au  semestre  de printemps. La langue d'enseignement est l'anglais. Un niveau de compétence en anglais équivalent à un niveau C1 est fortement conseillé pour débuter un programme d'études au Département d'Anglais (cadre européen commun de référence pour les langues).
+
+## Crédits ECTS
+
+Les crédits ECTS sont obtenus suite à la réussite de chaque unité d'enseignement et des évaluations. Un crédit correspond approximativement à 30 heures d'études. Le programme consiste en 50 crédits ECTS, dont 3 obtenus dans une unité d'enseignement de la didactique de l'anglais.
+
+## II. STRUCTURE DES ÉTUDES
+
+Le cursus  est divisé  en  modules.  Les  étudiant-e-s  doivent  avoir  accompli  toutes  les unités d'enseignement obligatoires et obtenu tous les crédits requis pour chaque module.
+
+Les 4 modules sont les suivants :
+
+Module 1 :
+
+English and American Literature
+
+15 ECTS
+
+English Department
+
+Module 2 :
+
+Linguistics and Applied Linguistics
+
+12 ECTS
+
+English Department, Département de plurilinguisme et didactique des langues étrangères
+
+Module 3 :
+
+Language learning
+
+: Instruction and Assessment
+
+12 ECTS
+
+Département de plurilinguisme et didactique des langues étrangères, Département de formation à l'enseignement, English Department
+
+Module 4 :
+
+Reflective language study
+
+11 ECTS
+
+English Department
+
+Total :
+
+50 ECTS
+
+Module 1 :
+
+English and American Literature English Department
+
+## Objectifs :
+
+- Les étudiant-e-s explorent les études de littérature et développent une compréhension des genres littéraires et des relations entre ces derniers.
+- Les  étudiant-e-s  se  familiarisent  avec  les  thèmes  majeurs  de  la  littérature  anglaise  et américaine,  en  examinant  avec  critique  un  corpus  important  de  textes  modernes  et contemporains qu'ils-elles apprennent à analyser, expliquer et interpréter. Ceci présuppose une compréhension de la relation entre les éléments des genres formels (poésie, théâtre, prose) et le 'message' du texte. En outre, les étudiant-e-s doivent développer la capacité de situer les textes littéraires dans leur contexte historique, social et politique.
+- A travers leurs études de littérature, les étudiant-e-s acquièrent une connaissance approfondie des différentes approches critiques qu'ils-elles apprennent à appliquent dans les discussions en classe et dans leurs travaux écrits.
+
+## Unités d'enseignement :
+
+Libre choix entre les cours et séminaires proposés.
+
+1 ère  année, semestre d'automne
+
+## English or American literature
+
+Lecture course
+
+English Department
+
+3 ECTS
+
+1 ère année, semestre de printemps
+
+## English or American literature
+
+Lecture course
+
+English Department
+
+3 ECTS
+
+## English or American literature
+
+BA proseminar English Department
+
+3 ECTS
+
+2 ème année
+
+## English or American literature
+
+BA proseminar with paper English Department
+
+6 ECTS
+
+Total :
+
+15 ECTS
+
+## Module 2 :
+
+## Objectifs :
+
+- Notions de base, connaissance des courants linguistiques
+- Connaissance du système linguistique et compétences métalinguistiques
+- Connaissance des théories de la communication
+- Connaissance des particularités de l'acquisition et apprentissage des langues, des théories de l'acquisition et apprentissage des langues ainsi que des méthodes de recherche qui étudient et décrivent l'acquisition et l'apprentissage des langues
+- Connaissance des théories sur le plurilinguisme individuel et des particularités du plurilinguisme et du transfert entre langues
+- Capacité d'évaluer la performance d'apprentissage dans la langue cible.
+- Capacité d'analyser l'interlangue, de reconnaître les erreurs ainsi que de les corriger et les expliquer
+
+## Cours :
+
+## Second language acquisition
+
+Choix  entre  unités  d'enseignement  en  français  ou  en  allemand  (ou  éventuellement  autoapprentissage en anglais)*
+
+Departement  für  Mehrsprachigkeitsforschung  und  Fremdsprachendidaktik  DAF :  Deutsch  als Fremdsprache / Deutsch als Zweitsprache : Gesteuerter und ungesteuerter Spracherwerb Département de plurilinguisme et didactique des langues étrangères FLE : Linguistique appliquée et acquisition / apprentissage des langues
+
+* English Department: Second language acquisition
+
+## Evaluation and assessment
+
+Choix  entre  unités  d'enseignement  en  français  ou  en  allemand  (ou  éventuellement  autoapprentissage en anglais)*
+
+Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik DAF : Leistungsbeurteilung im Fremdsprachenunterricht Département de plurilinguisme et didactique des langues étrangères FLE : Evaluation, certifications et cadre européen
+
+* English Department : Evaluation and assessment
+
+Linguistics and Applied Linguistics
+
+English  Department,  Département  de  plurilinguisme  et  didactique  des  langues étrangères
+
+3 ECTS
+
+3 ECTS
+
+*En principe les étudiant-e-s participeront à une unité d'enseignement en français ou en allemand. L'option auto-apprentissage en anglais est ouverte aux étudiant-e-s ayant déjà fait valider l'unité d'enseignement en allemand ou en français pour un autre programme d'études.
+
+## English linguistics
+
+BA proseminar or lecture course Free choice English Department
+
+## Phonetics and Linguistics for English Language Teachers
+
+BA proseminar (2 semesters)
+
+3 ECTS
+
+The two courses 'Phonetics for English Language Teaching' and 'Linguistics for English Language Teaching' can be taken in any order, but it is recommended that students start with  the  'Phonetics'  course.  While  it  is  possible  to  attend  the  second  course  without  having passed  the  assessment  of  the  first  yet,  both  courses  (and  their  assessments)  need  to  be successfully completed eventually.
+
+Part I: Phonetics for English Language Teaching (1.5 ECTS)
+
+Part II: Linguistics for English Language Teaching 1.5 ECTS)
+
+English Department
+
+## Important :
+
+Certaines  unités  d'enseignement  du  Département  de  plurilinguisme  et  didactique  des  langues étrangères du programme Bachelor DEDS ne sont pas offertes chaque année. Chaque étudiant-e a la responsabilité de consulter le programme  et de s'informer de la disponibilité des unités d'enseignement.
+
+Module 3 :
+
+Language learning : Instruction and Assessment
+
+Département de plurilinguisme et didactique des langues étrangères, Département de formation à l'enseignement, English Department
+
+## Objectifs :
+
+- Connaissance des courants et des outils méthodologiques
+- Connaissance des curricula en EFL et capacité de les analyser
+- Connaissance des outils d'évaluation et suivi des progressions
+- Expériences de nouvelles formes d'apprentissage
+- Connaissance  des  possibilités  de  planification,  d'organisation  et  d'évaluation  de  projets d'échange
+- Capacité d'adapter l'enseignement à un public cible
+- Capacité d'exploiter la multiculturalité de la classe
+- Capacité de réfléchir sur sa propre biographie langagière
+- Capacité d'analyser et d'évaluer les méthodes et moyens d'enseignement
+- Capacité de sélectionner des textes et de les enseigner en classe
+
+## Cours : Language teaching methodologies
+
+Choix  entre  unités  d'enseignement  en  français  ou  en  allemand  (ou  éventuellement  autoapprentissage en anglais)*
+
+Departement für Mehrprachigkeitsforschung und Fremdsprachendidaktik DaF. Ziele und Methoden des Fremdsprachenunterrichts
+
+Département de plurilinguisme et didactique des langues étrangères FLE. Courants méthodologiques ou Analyse des outils pédagogiques et des méthodologies
+
+* English Department : Language teaching methods
+
+Total :
+
+3 ECTS
+
+12 ECTS
+
+3 ECTS
+
+*En principe les étudiant-e-s participeront à une unité d'enseignement en français ou en allemand. L'option auto-apprentissage en anglais est ouverte aux étudiant-e-s ayant déjà fait valider l'unité d'enseignement en allemand ou en français pour un autre programme d'études.
+
+## The language learning classroom I
+
+Culture and discourse of English language teaching BA proseminar English Department
+
+3 ECTS
+
+## The language learning classroom II
+
+Learning activities and assessment practices
+
+BA proseminar English Department
+
+3 ECTS
+
+## Fachdidaktik/didactique de branche
+
+Département de formation à l'enseignement
+
+3 ECTS
+
+Total :
+
+12 ECTS
+
+## Important :
+
+Certaines  unités  d'enseignement  du  Département  de  plurilinguisme  et  didactique  des  langues étrangères du programme de Bachelor DEDS ne sont pas offertes chaque année. Chaque étudiant-e a la  responsabilité  de  consulter  le  programme  et  de  s'informer  de  la  disponibilité  des  unités d'enseignement.
+
+Module 4 :
+
+Reflective language study English Department
+
+## Objectifs :
+
+- Maîtrise de la langue : niveau C1 (Cadre européen commun de référence pour les langues)
+- Auto-évaluation des compétences linguistiques
+- Production langagière en situation didactique
+- Capacité d'évaluer des productions langagières
+- Compétence de communication en contexte interculturel/ pluriculturel
+- Capacité de décentration pour s'intégrer à une culture anglophone (séjour linguistique)
+- Connaissance sur les contextes socioculturels et politiques des pays anglophones
+- Connaissance des médias importants dans les sociétés anglophones
+
+## Cours :
+
+## Advanced English Programme
+
+Year One (two semesters)
+
+Part I: Year One - Part One (1.5 ECTS)
+
+Part II: Year One - Part Two (1.5 ECTS)
+
+English Department
+
+3 ECTS
+
+Year Two (two semesters) Part I: Year Two - Part One (1.5 ECTS) Part II: Year Two - Part Two (1.5 ECTS)
+
+English Department
+
+3 ECTS
+
+## Guided autonomous study (4 semesters)
+
+Part I: Year One - Part One (0.75 ECTS)
+
+Part II: Year One - Part Two (0.75 ECTS)
+
+Part III: Year Two - Part One (0.75 ECTS)
+
+Part IV: Year Two - Part Two (0.75 ECTS)
+
+English Department
+
+#Stage linguistique
+
+Written report
+
+English Department
+
+## Examen oral de la pratique de l'anglais
+
+Cet examen est une partie importante du Advanced English Programme, présenté dans le Module 4 :
+
+Reflective  language  study.  Les étudiant-e-s  effectuent  l'examen oral  de  pratique  de  l'anglais  après avoir validé les unités d'enseignement du programme Advanced English. Ce dernier dure au minimum
+
+15 minutes et au maximum 30 minutes. Cet examen a pour but de garantir que les étudiant-e-s ont les capacités orales et de compréhension pour enseigner l'anglais.
+
+Stage linguistique
+
+Durant leurs études, les étudiant-e-s doivent suivre un stage linguistique d'au moins 3 mois dans un pays anglophone. Ce stage peut être accompli en suivant des cours de langues pendant les vacances
+
+d'été ou en passant un semestre dans une université adéquate. Les étudiant-e-s doivent soumettre un rapport  sur  leur  stage  à  l'étranger.  Ce  rapport  a  pour  but  d'évaluer  l'évolution  de  leur  savoir
+
+linguistique et culturel durant leur stage. Si le rapport du stage est approuvé (« réussi »), l'étudiant-e recevra 2 crédits ECTS.
+
+Des séjours passés à l'étranger avant de commencer ses études peuvent être pris en considération par le-la directeur-trice du programme à condition que les étudiant-e-s aient suivi un séjour d'une certaine
+
+durée dans un but culturel et aient atteint un bon niveau de connaissance de la langue anglaise. Le stage  linguistique  et  la  possibilité  de  dispense  pour  celui-ci  sont  définis  par  les  directives  du
+
+département d'anglais .
+
+Le-la responsable du programme est responsable de valider le stage linguistique et le rapport.
+
+III. ÉVALUATION ET NOTES
+
+Les enseignant-e-es sont responsables d'évaluer chaque unité d'enseignement par des évaluations
+
+(travaux écrits et/ou présentations orales) ainsi que par des tests écrits ou oraux. Les spécifications exactes des évaluations sont décrites dans MyUnifr.
+
+La première tentative à un examen de module ou d'unité d'enseignement requiert que l'étudiant-e aille  au  terme  de  la  procédure  d'évaluation  pour  ce  même  module  ou  unité  d'enseignement,
+
+conduisant ainsi à une réussite ou à un échec pour ce module et cette unité d'enseignement.
+
+Toutes les unités d'enseignement évaluées sont notées sur une échelle allant de 1 à 6, 4 étant la note minimale requise pour valider l'unité d'enseignement. L'étudiant-e qui échoue dans la validation d'une
+
+unité
+
+d'enseignement bénéficie
+
+d'une autre
+
+tentative de
+
+validation pour
+
+la même  unité
+
+d'enseignement. L'étudiant-e qui échoue à sa 2ème tentative (en l'espace de 4 sessions d'examens au
+
+6/6
+
+Total :
+
+3 ECTS
+
+2 ECTS
+
+11 ECTS
+
+maximum) est en situation d'échec définitif et ne peut plus poursuivre ses études dans un programme de Bachelor en Anglais.
+
+La note finale du programme correspond à la moyenne des moyennes de modules, la note pour chaque module étant la moyenne des notes obtenues dans le module.

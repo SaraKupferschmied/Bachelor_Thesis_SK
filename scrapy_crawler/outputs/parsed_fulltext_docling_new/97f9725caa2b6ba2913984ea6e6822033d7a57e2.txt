@@ -1,0 +1,158 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T23:49:40.889Z",
+  "title": "Philosophy_Master_90_Spanish_Plan_d_tudes_sp_cialisation_MA_30_ECTS_97f9725caa2b6ba2913984ea6e6822033d7a57e2",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "97f9725caa2b6ba2913984ea6e6822033d7a57e2",
+  "program_key": "philosophy|master|90|spanish",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Spanish",
+  "doc_label": "Plan d'études spécialisation MA 30 ECTS",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Franc%C3%A9s/PLE_Espagnol_PS_30_230301.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/h2ehx",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Spanish_Plan_d_tudes_sp_cialisation_MA_30_ECTS_97f9725caa2b6ba2913984ea6e6822033d7a57e2.pdf",
+  "sha256": "2fa6821e3f93a65de17b6b4dd147b22495cc945366f81f3eb50eb7f36144f6b8",
+  "fetched_at": "2026-04-03T11:31:08.960Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Franc%C3%A9s/PLE_Espagnol_PS_30_230301.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## FACULTÉ DES LETTRES ET DES SCIENCES HUMAINES Département d'Espagnol
+
+## PROGRAMME DE SPÉCIALISATION (30 CRÉDITS ECTS)
+
+## 1. Base légale
+
+Le  présent  plan  d'études  s'appuie  sur  le Règlement  du  8  mars  2018 pour  l'obtention  du bachelor et du master à la Faculté des lettres et des sciences humaines [Règlement bachelor/master du 8 mars 2018].
+
+## 2. Conditions d'admission
+
+Pour les conditions d'admission aux études de master, les principes du règlement d'admission de l'Université de Fribourg sont applicables. L'admission à ce programme de spécialisation est soumise à l'admission au programme d'études approfondies Espagnol (se référer au plan d'études spécifique).
+
+## 3. Master anticipé
+
+Les  étudiant-e-s  qui  sont  sur  le  point  de  terminer  les  études  de  bachelor  en Espagnol à l'Université  de  Fribourg,  peuvent  obtenir  de  manière  anticipée  un  maximum  de  30  crédits  ECTS correspondant  à  des  prestations  requises  pour  l'octroi  du  diplôme  de  master,  selon  les  conditions décrites dans le Règlement bachelor/master du 8 mars 2018, art. 46.
+
+## 4. Description du programme
+
+Ce programme de spécialisation peut être choisi uniquement en complément au programme d'études approfondies en Espagnol (90 crédits ECTS). Il offre une formation littéraire et linguistique et  propose,  pour  ceux  qui  le  souhaitent,  une  ouverture  sur  la  pluralité  des  aspects  culturels  liés  au domaine littéraire dans une perspective interdisciplinaire qui favorise le dialogue avec les Départements des autres langues et littératures, Histoire, Philosophie, Anthropologie, Musicologie, Science politique,
+
+Sociologie, Études européennes, etc.
+
+## PLAN D'ÉTUDES MASTER ESPAGNOL 2023
+
+Dans  ce  programme,  l'étudiant-e  complète  sa  formation  en  suivant  des  enseignements  qui offrent une spécialisation et un complément à leur formation de niveau Master, tenant compte aussi bien  de  la  dimension  textuelle,  qu'historique  de  la  littérature.  La  réussite  du  programme  de spécialisation requiert la validation de 30 crédits ECTS.
+
+Selon le cursus antérieur des étudiant-e-s, ce programme (avec niveau de langue C2 attesté) peut donner accès à la formation pour l'obtention du DEEM (Diplôme d'Enseignement pour les Écoles de Maturité) 1 . D'excellents résultats ouvrent la possibilité de réaliser un doctorat et de poursuivre une carrière académique.
+
+Par ailleurs, cette formation débouche sur de nombreuses autres possibilités professionnelles : enseignement dans les écoles privées et dans les entreprises ; métiers d'écriture tels que journalisme, publicité, traduction littéraire et technique, industrie du livre (édition, administration et commerce), bibliothéconomie. De plus, la maîtrise de la langue espagnole constitue un atout pour obtenir des postes dans les domaines de la diplomatie, banque, hôtellerie et tourisme, relations publiques, interprétation, management culturel, muséographie, organisations internationales, administration publique et privée, entreprises des nouvelles technologies, etc.
+
+## 5. Objectifs de formation
+
+Le  programme  d'études  approfondies  (90  crédits  ECTS)  suivi  de  ce  programme  de spécialisation (30 crédits ECTS), permettent une maîtrise approfondie de la philologie et de la littérature hispanoaméricaines, aussi bien dans le cadre de l'époque médiévale et du Siècle d'Or que dans les époques  moderne  et  contemporaine.  Le  programme  d'études  permet  d'affiner  les  compétences d'analyse et d'interprétation du fait littéraire acquises pendant les études précédentes.
+
+L'étudiant-e a la possibilité d'approfondir ses compétences dans les domaines qui l'intéressent davantage parmi la littérature moderne et contemporaine, la philologie et la linguistique ou encore d'ouvrir leur formation dans une perspective interdisciplinaire, en développant le dialogue entre les études  philologiques  et  littéraires  d'une  part,  et  les  autres  disciplines  philosophiques,  historiques, artistiques, etc.
+
+## 6. Début et durée des études
+
+Le début des études peut se faire autant au semestre d'automne qu'au semestre de printemps. Les études du programme d'études approfondies Espagnol et ce programme de spécialisation ont une durée minimale de 4semestres et maximale de 12 semestres.
+
+1 Pour  les  conditions  exactes,  prière  de  consulter  le  Règlement  du  29  avril  2021  pour  l'obtention  du  Diplôme d'enseignement pour les écoles de maturité (DEEM) et le Règlement d'exécution du 4 novembre 2021.
+
+## 7. Langue d'enseignement
+
+La langue d'enseignement est l'espagnol. Il n'y a pas de possibilité d'obtenir une mention bilingue.
+
+## 8. Structure du plan d'études
+
+Ce plan d'études se compose d'un module obligatoire, le M3 ( Opciones libres ) et un module à choix entre les deux modules M1 ( Historia de las literaturas hispánicas ) ou M2 ( Lingüística española actual ) 2 . Ce programme complète l'offre proposée au niveau master puisque les étudiant-e-s veilleront à choisir le module à choix (M1 ou M2) qui n'a pas été choisi dans leur plan d'études approfondies.
+
+Le premier module (M1) contient deux cours (3 crédits ECTS chacun) et un séminaire (9 crédits ECTS). Le deuxième module (M2) contient un séminaire et offre le choix entre deux cours ou un exercice (6 crédits ECTS). Notons que l'étudiant-e a la possibilité de composer le troisième module (M3) avec des enseignements du Département jusqu'à l'obtention d'un total de 15 crédits ECTS. À vocation interdisciplinaire, l'étudiant-e pourra choisir de compléter un maximum de 6 crédits ECTS (parmi les 15 crédits ECTS du troisième module) avec des unités d'enseignement hors Département en lien avec l'hispanisme. Chaque module permet ainsi de valider 15 crédits ECTS.
+
+Les unités d'enseignement d'un module peuvent être suivis durant des semestres différents. Les crédits ECTS, correspondant à la charge de travail, sont validés lorsque l'étudiant-e a accompli, dans le module concerné, l'ensemble des exigences requises. Sauf exception particulière, la durée des unités d'enseignement est d'un semestre.
+
+2  Notons que le premier module (M1) de ce programme de spécialisation correspond au deuxième module (M2) du plan d'études approfondies, tandis que le deuxième module (M2) équivaut au quatrième module (M4) toujours du même plan d'études approfondies.
+
+## Tableau récapitulatif
+
+Légende des abréviations :
+
+M = module, C = cours, S = séminaire, E = exercice
+
+| Nom du module                              | Unité d'enseignement (UE)                                                                                                                                                      | ECTS UE                       | ECTS Module            |
+|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------|
+| Choisir le M1ou le M2*                     | Choisir le M1ou le M2*                                                                                                                                                         | Choisir le M1ou le M2*        | Choisir le M1ou le M2* |
+| M1: Historia de las literaturas hispánicas | C: Literatura española/latinoamericana en su contexto histórico I C: Literatura española/latinoamericana en su contexto histórico II S: El autor en su obra: estudio de textos | 3 3 9                         | 15 ECTS                |
+| M2: Lingüística española actual            | S: Análisis lingüístico del discurso A choix : C: El sistema lingüístico: teorías y praxis I C: El sistema lingüístico: teorías y praxis II ou E: Investigación aplicada       | 9 3 3 6                       | 15 ECTS                |
+| Module obligatoire                         | Module obligatoire                                                                                                                                                             | Module obligatoire            | Module obligatoire     |
+| M3: Opciones libres                        | Cursos o seminarios: • del Departamento de Español • de ciencias humanas y sociales (en lien avec l'hispanisme, 6 crédits ECTS au maximum)                                     | Variables en fonction de l'UE | 15 ECTS                |
+
+## 9. Descriptif des modules
+
+## M1 : Historia de las literaturas hispánicas (15 crédits ECTS)
+
+Le  module  est  composé  de  deux  cours  et  d'un  séminaire.  L'objectif  des  cours Literatura española/latinoamericana en su contexto histórico I et II est d'approfondir la formation que l'étudiante a acquise au niveau bachelor afin d'acquérir une  connaissance suffisamment vaste et solide de  la littérature espagnole et de celle de l'Amérique hispanique concernant les périodes, mouvements, genres littéraires, écoles et générations les plus remarquables de leur histoire. Le séminaire El autor en su obra: estudio  de  textos permet  d'acquérir  les  outils  nécessaires  pour  examiner  la  signification  réelle  de l'œuvre d'un auteur déterminé à l'intérieur de cette histoire.
+
+## M2 : Lingüística española actual (15 crédits ECTS)
+
+Le champ d'étude étant très vaste et multipliant les perspectives pour l'aborder, l'étudiant-e doit suivre  un  séminaire,  et  au  choix  :  deux  cours  ou  l'exercice Investigación  aplicada .  Sans  oublier l'évolution de la langue espagnole aux cours des siècles passés, ce module (et en premier lieu les cours El sistema lingüístico: teorías y praxis I et II ), met l'accent sur ses structures et ses variations actuelles dans l'ensemble des pays hispanophones. Il tient particulièrement compte du fait que la connaissance du  contexte  culturel  et  historique  reste  nécessaire  pour  la  compréhension  et  l'explication  des phénomènes langagiers observés.
+
+Le séminaire Análisis lingüístico del discurso portera sur l'étude d'un type ou d'une variante du discours à partir des documents actuels en s'appuyant sur les outils méthodologiques acquis pendant le semestre. Si l'étudiant-e choisit l'exercice, il/elle présentera au responsable de l'unité d'enseignement un projet de recherche appliquée et rédigera de manière autonome un travail écrit sur sa recherche. Celleci  devra  être  en  rapport  avec  une  pratique  langagière  de l'espagnol  actuel :  linguistique  contrastive, lexicologie  contemporaine,  langues  en  contacte,  néologismes,  langue  et  moyens  de  communication, parmi d'autres. Le délai pour la reddition du travail sera fixé par l'enseignant une fois le projet de recherche approuvé.
+
+## M3 : Opciones libres (15 crédits ECTS)
+
+Suivant ses intérêts et ses besoins de formation, l'étudiant-e peut composer ce module avec des unités d'enseignement à choix (pour un total de 15 crédits ECTS) dont le sujet n'a pas encore été suivi par l'intéressé-e.
+
+Une  formation  interdisciplinaire en sciences humaines  et  sociales est particulièrement enrichissante  autant  du  point  de  vue  de  la  connaissance  que  de  l'approche  méthodologique  (pour l'analyse  de  discours,  pour  les  stratégies  de  recherche,  pour  les  relations  transversales  entre  les domaines,  etc.).  Pour  cette  raison,  l'étudiant-e  a  la  possibilité  d'obtenir  jusqu'à  6  crédits  ECTS  en
+
+suivant des cours et/ou séminaires, en lien avec l'hispanisme, hors Département. Les étudiant-e-s sont ainsi encouragé-e-s à compléter leur formation, sur la base de leurs propres intérêts, ils/elles doivent cependant demander l'accord du responsable de programme.
+
+## 10. Mobilité
+
+Un-e étudiant-e soumis-e à ce plan d'études pourra acquérir un maximum de 9 crédits ECTS dans une autre université (que ce soit par le biais du programme BeNeFri ou autre). Concernant les enseignements à suivre lors d'un séjour de mobilité ou dans le cadre de BeNeFri, l'accord préalable du responsable  de  programme  sera  nécessaire  sous  la  forme  d'un  contrat  pédagogique  (Learning agreement). Sur la base du contrat pédagogique et des prestations réalisées, le département reconnaît les crédits ECTS obtenus.
+
+## 11. Évaluation des prestations
+
+## 11.1 Évaluations et validation
+
+Toutes les évaluations sont notées. Les cours sont généralement évalués par un examen écrit d'environ 2 heures. Tout-e enseignant-e a néanmoins la possibilité d'organiser une épreuve orale ou une évaluation par contrôle continu ; dans ce cas, il ou elle en informe les étudiant-e-s au début de la période des cours.
+
+Selon l'unité d'enseignement et le sujet traité, les séminaires admettent différentes possibilités de validation (exemples : présentation orale + travail écrit, dossier d'exercices). Une participation active pendant  tous  les  séminaires  est  requise.  Les  évaluations  se  font  par  unité  d'enseignement :  aucune compensation ne sera possible.
+
+Une  présence  régulière  aux  séminaires  est  obligatoire  :  plus  de  trois  absences  injustifiées entraînent un  échec  pour  cet enseignement  (l'étudiant-e  devra  alors  suivre  une  nouvelle  unité d'enseignement  équivalente).  Le/La  responsable  du  programme  décide  du  caractère  justifié  des absences.
+
+L'inscription au cours via le système informatique en vigueur est obligatoire pour suivre un enseignement, de même que l'inscription à l'examen est requise pour se présenter à un examen, toujours en respectant les délais annoncés par le Décanat. Concernant les séminaires, il est en plus recommandé de s'annoncer auprès de l'enseignant-e avant le début du semestre, afin d'avoir la possibilité de choisir une œuvre de manière anticipée et d'acquérir son propre exemplaire du livre.
+
+Un examen ayant donné lieu à un échec peut être répété une fois, l'étudiant-e doit s'inscrire à chacune  des  tentatives.  Un  deuxième  échec  entraînera  un  échec  définitif  à  l'unité  d'enseignement. L'examen doit être réussi au plus tard à la quatrième session qui suit la période d'inscription au cours, sous peine d'échec définitif à l'unité d'enseignement. Dans les deux cas, un échec définitif à l'unité
+
+d'enseignement implique pour l'étudiant-e de suivre un nouveau cours ou séminaire pour une unité d'enseignement équivalente. Par ailleurs, l'absence à un examen pour  lequel  l'étudiant-e  s'est  inscrite  équivaut  à  un  échec,  sauf  cas  de  force  majeure.  Dans  ce cas,  il/elle  doit  en  informer  par  écrit le  secrétariat  du  Département  au  plus  tard  7 jours  après la date de l'évaluation. Le Département décide du caractère justifié de l'absence (art. 19, alinéas 1 et 2 du Règlement bachelor/master du 8 mars 2018).
+
+Le délai pour la validation (avec résultat positif) d'un travail écrit de séminaire est pour les séminaires suivis au SA, le 31 janvier de l'année académique suivante ; pour ceux du SP, le 30 juin de l'année académique suivante.
+
+## 11.2 Échec définitif
+
+Il n'y a pas d'échec définitif pour ce programme de spécialisation, sauf en cas de dépassement de la durée maximale des études, comme indiqué au point 6.
+
+## 11.3 Note finale
+
+La  validation  d'un  module  présuppose  la  réussite  par  l'étudiant-e  de  chacune  des  unités d'enseignement qui en font partie. La note de module est le résultat de la moyenne arithmétique des notes de chaque unité d'enseignement validée dans le module. La note finale du programme correspond à la moyenne arithmétique des deux notes de module.
+
+## 12. Entrée en vigueur et dispositions transitoires
+
+Ce plan d'études entre en vigueur dès le semestre d'automne 2023 : les étudiant-e-s qui débutent leurs études d'espagnol lors dudit semestre y sont soumis sans exception. Ceux qui ont commencé leurs études au semestre d'automne 2022 ou au semestre de printemps 2023  ont la possibilité de continuer dans l'ancien plan ou d'adopter le nouveau avant le début du semestre de printemps 2024. Au semestre d'automne 2026, tous les étudiant-e-s soumis à une ancienne version de plan d'études doivent transiter obligatoirement dans ce plan d'études.

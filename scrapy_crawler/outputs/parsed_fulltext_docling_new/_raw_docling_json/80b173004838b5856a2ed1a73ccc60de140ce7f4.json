@@ -1,0 +1,1147 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "SES_Bachelor_180_Business_Informatics_Studienplan_80b173004838b5856a2ed1a73ccc60de140ce7f4",
+  "markdown": "<!-- image -->\n\n## Zusammenfassung des Studienplans\n\nWirtschafts- und Sozialwissenschaftliche Fakultät\n\nFakultät\n\n365 : Bachelor of Science in Wirtschaftsinformatik\n\nStudiengang\n\n1082 : Wirtschaftsinformatik 180\n\nProgramm\n\n2020-SA\\_V02\n\nVersion\n\nHS-2025/FS-2026\n\nGültigkeitsdauer\n\n## WICHTIGER HINWEIS\n\nDas Bachelor-Reglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 4 bis 9) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg, abrufbar unter unifr.ch/ses/de/studium/reglemente.html).\n\n## Studiumsdauer\n\nUmeinen regelmässigen Studienfortschritt im Bachelorstudium der Betriebswirtschaftslehre zu gewährleisten, gelten folgende Fristen für den Abschluss der Studienjahre:\n\n- -Erstes Studienjahr: muss spätestens am Ende des 4. Semesters abgeschlossen sein.\n- -Zweites Studienjahr: muss spätestens am Ende des 8. Semesters abgeschlossen sein.\n- -Drittes Studienjahr: muss spätestens am Ende des 12. Semesters abgeschlossen sein.\n\nDie Nichteinhaltung dieser Fristen führt zum Ausschluss aus dem Studienprogramm.\n\n## Kompensationsprinzip\n\nDie Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27.\n\nSeptember 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870295)\n\nSeminararbeiten und die Bachelorarbeit müssen zwingend bestanden werden : sie können nicht kompensiert werden.\n\n## Stand des Kursangebots\n\nDieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.\n\nDie in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.\n\nDie meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.\n\nIm Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.\n\n| Code   | Lehreinheit   | Lehrer(innen)   | Semester   | Sprache Niveau   | Bewertung   | ECTS   |\n|--------|---------------|-----------------|------------|------------------|-------------|--------|\n\n## 1. Jahr 60 ECTS\n\nDas erste Studienjahr des Bachelors in Wirtschaftsinformatik vermittelt eine solide Grundlage in Programmierung, Wirtschaftsinformatik, Mathematik und Statistik sowie in den Grundlagen der Betriebswirtschaft und Buchhaltung. Alle Kurse sind obligatorisch und zielen darauf ab, grundlegende analytische und technische Kompetenzen zu entwickeln. Der Unterricht erfolgt mehrsprachig, wobei einige Kurse ausschliesslich auf Französisch oder Englisch angeboten\n\n<!-- image -->\n\nCode\n\nECTS\n\nBewertung\n\nSprache\n\nNiveau\n\nSemester\n\nLehrer(innen)\n\nLehreinheit werden. Das erste Studienjahr muss spätestens bis zum Ende des 4. Semesters vollständig validiert sein, andernfalls erfolgt ein automatischer Ausschluss vom Studienprogramm (ausser bei einer bewilligten Ausnahme).\n\nMöglichkeit zum Ausgleich von maximal 12 ECTS\n\n| SIN.01023   | Einführung in die Programmierung           | Bloechle                  | HS-2025   | BA   | fr, de   | Schriftliche Prüfung   |   6 |\n|-------------|--------------------------------------------|---------------------------|-----------|------|----------|------------------------|-----|\n| EIG.00036   | Informatique de gestion I                  | Fischer                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00037   | Wirtschaftsinformatik I                    | Fill                      | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00136   | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00135   | Introduction à la gestion d'entreprise     | Davoine                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00137   | Introduction à la comptabilité             | Missonier-Piera           | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00138   | Unternehmensrechnung                       | Burkert                   | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EIG.00122   | Introduction à la statistique I            | Donzé                     | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| EIG.00123   | Einführung in die Statistik I              | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00048   | Mathematik I                               | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00047   | Mathématiques I                            | Schindl                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| SIN.02023   | Objektorientierte Programmierung           | Cudré-Mauroux, Tonon      | FS-2026   | BA   | en       | Schriftliche Prüfung   | 6   |\n| EIG.00038   | Informatique de gestion II                 | Fischer                   | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00039   | Wirtschaftsinformatik II                   | Fill                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00253   | Organisation (f)                           | Fauchart                  | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00258   | Organisation (d)                           | Gmür                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| ESE.00028   | Einführung in die Statistik II             | Huber                     | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00027   | Introduction à la statistique II           | Kauth, Kauth              | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| ESE.00052   | Mathematik II                              | Leuenberger               | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00051   | Mathématiques II                           |                           | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n\n## 2. Studienjahr 60 ECTS\n\nIm zweiten Studienjahr werden die in der ersten Phase erworbenen Kenntnisse vertieft, mit Kursen in Datenbanken, Algorithmen, Software Engineering, Recht, Marketing, Finanzen und Mikroökonomie. Das interdisziplinäre Profil des Programms wird weiter gestärkt durch die Verbindung von Informatik, Management und Wirtschaft. Alle Kurse sind obligatorisch. Der Unterricht erfolgt weiterhin mehrsprachig, wobei einige Kurse ausschliesslich auf Englisch oder Französisch angeboten werden. Das zweite Studienjahr muss spätestens bis zum Ende des 8. Semesters vollständig validiert sein, andernfalls erfolgt ein automatischer Ausschluss vom Studienprogramm (ausser bei einer bewilligten Ausnahme).\n\nMöglichkeit zum Ausgleich von maximal 12 ECTS\n\n| SIN.03023   | Algorithmik                                    | Grossenbacher   | HS-2025   | BA   | en   | Schriftliche Prüfung   |   6 |\n|-------------|------------------------------------------------|-----------------|-----------|------|------|------------------------|-----|\n| SIN.03024   | Datenbanken                                    | Fill            | HS-2025   | BA   | en   | Schriftliche Prüfung   | 6   |\n| EGE.00273   | MAN01F: Investissement et financement          | Isakov          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 6   |\n| EGE.00274   | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 6   |\n| EGE.00275   | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00276   | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |\n| EGE.00139   | Droit I                                        | Dubey, Fournier | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00140   | Recht I                                        | Güngerich       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |\n\n<!-- image -->\n\n| Code      | Lehreinheit                     | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |\n|-----------|---------------------------------|-----------------|------------|----------|-----------|----------------------|--------|\n| ESE.00040 | Microéconomie I                 | Gugler          | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |\n| ESE.00041 | Mikroökonomie I                 | Büchel          | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |\n| SIN.04023 | Software Engineering            | Fischer         | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |\n| EIG.00015 | Operations Management (d)       | Trautmann       | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |\n| EIG.00132 | Information Systems Modeling    | Curty           | FS-2026    | BA       | en        | Schriftliche Prüfung |    6   |\n| EGE.00279 | MAN04F: Comptabilité financière | Missonier-Piera | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| EGE.00280 | MAN04D: Bilanzierung            | Kunz            | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |\n| ESE.00029 | Statistique: approfondissement  | Donzé           | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| ESE.00030 | Vertiefungskurs Statistik       | Leuenberger     | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |\n\n## Informationskompetenz in den Wirtschaftswissenschaften\n\nDie Informationskompetenz im Bereich Wirtschaftsinformatik soll Studierende in die Recherche, die kritische Analyse und die sachgerechte Nutzung wissenschaftlicher und beruflicher Quellen im Bereich der Informationstechnologien einführen. Der Schwerpunkt liegt auf dem Verständnis wissenschaftlicher Publikationen, technischer Berichte, IT-Normen und strategischer Dokumente im Zusammenhang mit Informationssystemen. Diese Kompetenzen sind obligatorisch und müssen vor Beginn der Bachelorarbeit validiert werden, da sie eine wesentliche methodische Grundlage darstellen.\n\n| EDK.00951   | Compétences documentaires en économie 1 - Groupe A                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n|-------------|---------------------------------------------------------------------|--------------------|-----------|------|------|---------------------------|-----|\n| EDK.00954   | Compétences documentaires en économie 1 - Groupe B                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00955   | Compétences documentaires en économie 1 - Groupe C                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00956   | Compétences documentaires en économie 1 - Groupe D                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00957   | Compétences documentaires en économie 1 - Groupe E                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00958   | Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00962   | Compétences documentaires en informatique de Gestion 2 - Groupe C   | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00965   | Compétences documentaires en informatique de Gestion 2 - Groupe G   | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00967   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00969   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | FS-2026   | BA   | de   | Fortlaufende Evaluation   |   0 |\n\n## 3. Studienjahr 60 ECTS\n\nIm dritten Studienjahr können sich die Studierenden gemäss ihren Interessen spezialisieren und ihre praktischen Fähigkeiten weiterentwickeln. Der Unterricht bleibt mehrsprachig, wobei einige Kurse ausschliesslich auf Französisch oder Englisch angeboten werden. Das Studienjahr muss spätestens bis zum Ende des 12. Semesters validiert sein, ausser bei bewilligter Ausnahme.\n\n- -Pflichtkurse (32.5 ECTS): verteilte Systeme, IT-Sicherheit, Machine Learning, Entscheidungsunterstützung, Projektentwicklung usw.\n- -Wahlkurse (mind. 14 ECTS): mindestens drei Kurse, darunter je ein Kurs vom Typ A (Informatik) und Typ B (Management/Wirtschaft).\n- -Bachelorarbeit (15 ECTS): individuelles Projekt mit häufigem Praxisbezug zu realen Unternehmensfragen.\n\nMöglichkeit zum Ausgleich von maximal 9 ECTS\n\n## Pflichtkurse 32.5 ECTS\n\n| SIN.05022   | Konkurrierende und verteilte Systeme   | Felber      | HS-2025   | BA   | fr   | Schriftliche Prüfung   |   5 |\n|-------------|----------------------------------------|-------------|-----------|------|------|------------------------|-----|\n| EIG.00081   | Info II: Decision Support I (f)        | Ries        | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EIG.00049   | Info I: Sécurité informatique (f)      | Abou Khaled | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n\n<!-- image -->\n\n| Code                   | Lehreinheit                                      | Lehrer(innen)            | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |\n|------------------------|--------------------------------------------------|--------------------------|------------|----------|-----------|--------------------------------------------------|--------|\n| EIG.00229              | Requirements Engineering for Information Systems | Curty                    | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| SIN.06022              | Maschinelles Lernen                              | Grossenbacher            | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| EIG.00089              | Info V: Decision support II (f)                  | Schindl                  | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EIG.00230              | Information Systems Development Project          | Curty                    | FS-2026    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| Wahlkurse min. 14 ECTS | Wahlkurse min. 14 ECTS                           |                          |            |          |           |                                                  |        |\n| EEP.00358              | ECO08E: Applied Econometrics                     | Huber                    | HS-2025    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00149              | Droit II                                         | Dubey, Fournier          | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00150              | Recht II                                         | Güngerich                | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| Wahlkurse - Typus A    | Wahlkurse - Typus A                              |                          |            |          |           |                                                  |        |\n| SIN.01022              | Computerarchitektur                              | König, Locher            | HS-2025    | BA       | fr, de    | Fortlaufende Evaluation und schriftliche Prüfung |    5   |\n| SIN.06021              | Formale Methoden                                 | Audiffren                | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.02020              | Systemnahe Programmierung                        | Cudré-Mauroux, Luggen    | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.05020              | Funktionale und logische Programmierung          | Luggen                   | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    5   |\n| SIN.02022              | Robotik                                          | Nembrini                 | FS-2026    | BA       | fr, de    | Fortlaufende                                     |    5   |\n| SIN.04022              | Betriebssysteme                                  | Cudré-Mauroux, Schiavoni | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| Wahlkurse - Typus B    | Wahlkurse - Typus B                              |                          |            |          |           |                                                  |        |\n| EGE.00281              | MAN05F: Gestion des ressources humaines          | Davoine                  | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00282              | MAN05D: Human Resource Management                | Gmür                     | HS-2025    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00263              | MAN06E: Introductory course in Entrepreneurship  | Fauchart                 | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| EGE.00283              | MAN08F: Management stratégique                   | Mena                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00485              | MAN08E: Strategic Management                     | Mena                     | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00285              | MAN09F: Comptabilité de gestion                  | Oyon                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00286              | MAN09D: Controlling (d)                          | Burkert                  | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00287              | MAN10F: Finance d'Entreprise                     | Isakov                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00288              | MAN10D: Unternehmensfinanzierung                 | Affolter, Wilding        | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EEP.00160              | Microéconomie II                                 | Gugler                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    6   |\n| EEP.00161              | Mikroökonomie II                                 | Herz, Staubli            | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    6   |\n| EGE.00277              | MAN03F: Recherche Marketing                      | Furrer                   | FS-2026    | BA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |\n| EGE.00278              | MAN03D: Marketingforschung                       | Bambauer-Sachse          | FS-2026    | BA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |\n\n## Bachelorarbeit\n\n<!-- image -->\n\n| Code      | Lehreinheit    | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung               |   ECTS |\n|-----------|----------------|-----------------|------------|----------|-----------|-------------------------|--------|\n| EDK.01669 | Bachelorarbeit | Décanat         | FS-2026    | BA       |           | Fortlaufende Evaluation |     15 |\n| EDK.01669 | Bachelorarbeit | Décanat         | HS-2025    | BA       |           | Fortlaufende Evaluation |     15 |\n\n## Rechtsgrundlage\n\nReglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg",
+  "pages": [
+    "<!-- image -->\n\n## Zusammenfassung des Studienplans\n\nWirtschafts- und Sozialwissenschaftliche Fakultät\n\nFakultät\n\n365 : Bachelor of Science in Wirtschaftsinformatik\n\nStudiengang\n\n1082 : Wirtschaftsinformatik 180\n\nProgramm\n\n2020-SA\\_V02\n\nVersion\n\nHS-2025/FS-2026\n\nGültigkeitsdauer\n\n## WICHTIGER HINWEIS\n\nDas Bachelor-Reglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 4 bis 9) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg, abrufbar unter unifr.ch/ses/de/studium/reglemente.html).\n\n## Studiumsdauer\n\nUmeinen regelmässigen Studienfortschritt im Bachelorstudium der Betriebswirtschaftslehre zu gewährleisten, gelten folgende Fristen für den Abschluss der Studienjahre:\n\n- -Erstes Studienjahr: muss spätestens am Ende des 4. Semesters abgeschlossen sein.\n- -Zweites Studienjahr: muss spätestens am Ende des 8. Semesters abgeschlossen sein.\n- -Drittes Studienjahr: muss spätestens am Ende des 12. Semesters abgeschlossen sein.\n\nDie Nichteinhaltung dieser Fristen führt zum Ausschluss aus dem Studienprogramm.\n\n## Kompensationsprinzip\n\nDie Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27.\n\nSeptember 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870295)\n\nSeminararbeiten und die Bachelorarbeit müssen zwingend bestanden werden : sie können nicht kompensiert werden.\n\n## Stand des Kursangebots\n\nDieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.\n\nDie in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.\n\nDie meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.\n\nIm Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.\n\n| Code   | Lehreinheit   | Lehrer(innen)   | Semester   | Sprache Niveau   | Bewertung   | ECTS   |\n|--------|---------------|-----------------|------------|------------------|-------------|--------|\n\n## 1. Jahr 60 ECTS\n\nDas erste Studienjahr des Bachelors in Wirtschaftsinformatik vermittelt eine solide Grundlage in Programmierung, Wirtschaftsinformatik, Mathematik und Statistik sowie in den Grundlagen der Betriebswirtschaft und Buchhaltung. Alle Kurse sind obligatorisch und zielen darauf ab, grundlegende analytische und technische Kompetenzen zu entwickeln. Der Unterricht erfolgt mehrsprachig, wobei einige Kurse ausschliesslich auf Französisch oder Englisch angeboten\n\n<!-- image -->\n\nCode\n\nECTS\n\nBewertung\n\nSprache\n\nNiveau\n\nSemester\n\nLehrer(innen)\n\nLehreinheit werden. Das erste Studienjahr muss spätestens bis zum Ende des 4. Semesters vollständig validiert sein, andernfalls erfolgt ein automatischer Ausschluss vom Studienprogramm (ausser bei einer bewilligten Ausnahme).\n\nMöglichkeit zum Ausgleich von maximal 12 ECTS\n\n| SIN.01023   | Einführung in die Programmierung           | Bloechle                  | HS-2025   | BA   | fr, de   | Schriftliche Prüfung   |   6 |\n|-------------|--------------------------------------------|---------------------------|-----------|------|----------|------------------------|-----|\n| EIG.00036   | Informatique de gestion I                  | Fischer                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00037   | Wirtschaftsinformatik I                    | Fill                      | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00136   | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00135   | Introduction à la gestion d'entreprise     | Davoine                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00137   | Introduction à la comptabilité             | Missonier-Piera           | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00138   | Unternehmensrechnung                       | Burkert                   | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EIG.00122   | Introduction à la statistique I            | Donzé                     | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| EIG.00123   | Einführung in die Statistik I              | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00048   | Mathematik I                               | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00047   | Mathématiques I                            | Schindl                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| SIN.02023   | Objektorientierte Programmierung           | Cudré-Mauroux, Tonon      | FS-2026   | BA   | en       | Schriftliche Prüfung   | 6   |\n| EIG.00038   | Informatique de gestion II                 | Fischer                   | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00039   | Wirtschaftsinformatik II                   | Fill                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00253   | Organisation (f)                           | Fauchart                  | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00258   | Organisation (d)                           | Gmür                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| ESE.00028   | Einführung in die Statistik II             | Huber                     | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00027   | Introduction à la statistique II           | Kauth, Kauth              | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| ESE.00052   | Mathematik II                              | Leuenberger               | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00051   | Mathématiques II                           |                           | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n\n## 2. Studienjahr 60 ECTS\n\nIm zweiten Studienjahr werden die in der ersten Phase erworbenen Kenntnisse vertieft, mit Kursen in Datenbanken, Algorithmen, Software Engineering, Recht, Marketing, Finanzen und Mikroökonomie. Das interdisziplinäre Profil des Programms wird weiter gestärkt durch die Verbindung von Informatik, Management und Wirtschaft. Alle Kurse sind obligatorisch. Der Unterricht erfolgt weiterhin mehrsprachig, wobei einige Kurse ausschliesslich auf Englisch oder Französisch angeboten werden. Das zweite Studienjahr muss spätestens bis zum Ende des 8. Semesters vollständig validiert sein, andernfalls erfolgt ein automatischer Ausschluss vom Studienprogramm (ausser bei einer bewilligten Ausnahme).\n\nMöglichkeit zum Ausgleich von maximal 12 ECTS\n\n| SIN.03023   | Algorithmik                                    | Grossenbacher   | HS-2025   | BA   | en   | Schriftliche Prüfung   |   6 |\n|-------------|------------------------------------------------|-----------------|-----------|------|------|------------------------|-----|\n| SIN.03024   | Datenbanken                                    | Fill            | HS-2025   | BA   | en   | Schriftliche Prüfung   | 6   |\n| EGE.00273   | MAN01F: Investissement et financement          | Isakov          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 6   |\n| EGE.00274   | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 6   |\n| EGE.00275   | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00276   | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |\n| EGE.00139   | Droit I                                        | Dubey, Fournier | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00140   | Recht I                                        | Güngerich       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |\n\n<!-- image -->\n\n| Code      | Lehreinheit                     | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |\n|-----------|---------------------------------|-----------------|------------|----------|-----------|----------------------|--------|\n| ESE.00040 | Microéconomie I                 | Gugler          | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |\n| ESE.00041 | Mikroökonomie I                 | Büchel          | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |\n| SIN.04023 | Software Engineering            | Fischer         | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |\n| EIG.00015 | Operations Management (d)       | Trautmann       | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |\n| EIG.00132 | Information Systems Modeling    | Curty           | FS-2026    | BA       | en        | Schriftliche Prüfung |    6   |\n| EGE.00279 | MAN04F: Comptabilité financière | Missonier-Piera | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| EGE.00280 | MAN04D: Bilanzierung            | Kunz            | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |\n| ESE.00029 | Statistique: approfondissement  | Donzé           | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| ESE.00030 | Vertiefungskurs Statistik       | Leuenberger     | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |\n\n## Informationskompetenz in den Wirtschaftswissenschaften\n\nDie Informationskompetenz im Bereich Wirtschaftsinformatik soll Studierende in die Recherche, die kritische Analyse und die sachgerechte Nutzung wissenschaftlicher und beruflicher Quellen im Bereich der Informationstechnologien einführen. Der Schwerpunkt liegt auf dem Verständnis wissenschaftlicher Publikationen, technischer Berichte, IT-Normen und strategischer Dokumente im Zusammenhang mit Informationssystemen. Diese Kompetenzen sind obligatorisch und müssen vor Beginn der Bachelorarbeit validiert werden, da sie eine wesentliche methodische Grundlage darstellen.\n\n| EDK.00951   | Compétences documentaires en économie 1 - Groupe A                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n|-------------|---------------------------------------------------------------------|--------------------|-----------|------|------|---------------------------|-----|\n| EDK.00954   | Compétences documentaires en économie 1 - Groupe B                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00955   | Compétences documentaires en économie 1 - Groupe C                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00956   | Compétences documentaires en économie 1 - Groupe D                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00957   | Compétences documentaires en économie 1 - Groupe E                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00958   | Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00962   | Compétences documentaires en informatique de Gestion 2 - Groupe C   | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00965   | Compétences documentaires en informatique de Gestion 2 - Groupe G   | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00967   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00969   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | FS-2026   | BA   | de   | Fortlaufende Evaluation   |   0 |\n\n## 3. Studienjahr 60 ECTS\n\nIm dritten Studienjahr können sich die Studierenden gemäss ihren Interessen spezialisieren und ihre praktischen Fähigkeiten weiterentwickeln. Der Unterricht bleibt mehrsprachig, wobei einige Kurse ausschliesslich auf Französisch oder Englisch angeboten werden. Das Studienjahr muss spätestens bis zum Ende des 12. Semesters validiert sein, ausser bei bewilligter Ausnahme.\n\n- -Pflichtkurse (32.5 ECTS): verteilte Systeme, IT-Sicherheit, Machine Learning, Entscheidungsunterstützung, Projektentwicklung usw.\n- -Wahlkurse (mind. 14 ECTS): mindestens drei Kurse, darunter je ein Kurs vom Typ A (Informatik) und Typ B (Management/Wirtschaft).\n- -Bachelorarbeit (15 ECTS): individuelles Projekt mit häufigem Praxisbezug zu realen Unternehmensfragen.\n\nMöglichkeit zum Ausgleich von maximal 9 ECTS\n\n## Pflichtkurse 32.5 ECTS\n\n| SIN.05022   | Konkurrierende und verteilte Systeme   | Felber      | HS-2025   | BA   | fr   | Schriftliche Prüfung   |   5 |\n|-------------|----------------------------------------|-------------|-----------|------|------|------------------------|-----|\n| EIG.00081   | Info II: Decision Support I (f)        | Ries        | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EIG.00049   | Info I: Sécurité informatique (f)      | Abou Khaled | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n\n<!-- image -->\n\n| Code                   | Lehreinheit                                      | Lehrer(innen)            | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |\n|------------------------|--------------------------------------------------|--------------------------|------------|----------|-----------|--------------------------------------------------|--------|\n| EIG.00229              | Requirements Engineering for Information Systems | Curty                    | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| SIN.06022              | Maschinelles Lernen                              | Grossenbacher            | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| EIG.00089              | Info V: Decision support II (f)                  | Schindl                  | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EIG.00230              | Information Systems Development Project          | Curty                    | FS-2026    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| Wahlkurse min. 14 ECTS | Wahlkurse min. 14 ECTS                           |                          |            |          |           |                                                  |        |\n| EEP.00358              | ECO08E: Applied Econometrics                     | Huber                    | HS-2025    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00149              | Droit II                                         | Dubey, Fournier          | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00150              | Recht II                                         | Güngerich                | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| Wahlkurse - Typus A    | Wahlkurse - Typus A                              |                          |            |          |           |                                                  |        |\n| SIN.01022              | Computerarchitektur                              | König, Locher            | HS-2025    | BA       | fr, de    | Fortlaufende Evaluation und schriftliche Prüfung |    5   |\n| SIN.06021              | Formale Methoden                                 | Audiffren                | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.02020              | Systemnahe Programmierung                        | Cudré-Mauroux, Luggen    | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.05020              | Funktionale und logische Programmierung          | Luggen                   | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    5   |\n| SIN.02022              | Robotik                                          | Nembrini                 | FS-2026    | BA       | fr, de    | Fortlaufende                                     |    5   |\n| SIN.04022              | Betriebssysteme                                  | Cudré-Mauroux, Schiavoni | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| Wahlkurse - Typus B    | Wahlkurse - Typus B                              |                          |            |          |           |                                                  |        |\n| EGE.00281              | MAN05F: Gestion des ressources humaines          | Davoine                  | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00282              | MAN05D: Human Resource Management                | Gmür                     | HS-2025    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00263              | MAN06E: Introductory course in Entrepreneurship  | Fauchart                 | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| EGE.00283              | MAN08F: Management stratégique                   | Mena                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00485              | MAN08E: Strategic Management                     | Mena                     | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00285              | MAN09F: Comptabilité de gestion                  | Oyon                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00286              | MAN09D: Controlling (d)                          | Burkert                  | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00287              | MAN10F: Finance d'Entreprise                     | Isakov                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00288              | MAN10D: Unternehmensfinanzierung                 | Affolter, Wilding        | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EEP.00160              | Microéconomie II                                 | Gugler                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    6   |\n| EEP.00161              | Mikroökonomie II                                 | Herz, Staubli            | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    6   |\n| EGE.00277              | MAN03F: Recherche Marketing                      | Furrer                   | FS-2026    | BA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |\n| EGE.00278              | MAN03D: Marketingforschung                       | Bambauer-Sachse          | FS-2026    | BA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |\n\n## Bachelorarbeit\n\n<!-- image -->\n\n| Code      | Lehreinheit    | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung               |   ECTS |\n|-----------|----------------|-----------------|------------|----------|-----------|-------------------------|--------|\n| EDK.01669 | Bachelorarbeit | Décanat         | FS-2026    | BA       |           | Fortlaufende Evaluation |     15 |\n| EDK.01669 | Bachelorarbeit | Décanat         | HS-2025    | BA       |           | Fortlaufende Evaluation |     15 |\n\n## Rechtsgrundlage\n\nReglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg"
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": null,
+      "rows": [],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| SIN.01023   | Einführung in die Programmierung           | Bloechle                  | HS-2025   | BA   | fr, de   | Schriftliche Prüfung   |   6 |\n|-------------|--------------------------------------------|---------------------------|-----------|------|----------|------------------------|-----|\n| EIG.00036   | Informatique de gestion I                  | Fischer                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00037   | Wirtschaftsinformatik I                    | Fill                      | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00136   | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00135   | Introduction à la gestion d'entreprise     | Davoine                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00137   | Introduction à la comptabilité             | Missonier-Piera           | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00138   | Unternehmensrechnung                       | Burkert                   | HS-2025   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EIG.00122   | Introduction à la statistique I            | Donzé                     | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| EIG.00123   | Einführung in die Statistik I              | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00048   | Mathematik I                               | Leuenberger               | HS-2025   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00047   | Mathématiques I                            | Schindl                   | HS-2025   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| SIN.02023   | Objektorientierte Programmierung           | Cudré-Mauroux, Tonon      | FS-2026   | BA   | en       | Schriftliche Prüfung   | 6   |\n| EIG.00038   | Informatique de gestion II                 | Fischer                   | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EIG.00039   | Wirtschaftsinformatik II                   | Fill                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| EGE.00253   | Organisation (f)                           | Fauchart                  | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 6   |\n| EGE.00258   | Organisation (d)                           | Gmür                      | FS-2026   | BA   | de       | Schriftliche Prüfung   | 6   |\n| ESE.00028   | Einführung in die Statistik II             | Huber                     | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00027   | Introduction à la statistique II           | Kauth, Kauth              | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |\n| ESE.00052   | Mathematik II                              | Leuenberger               | FS-2026   | BA   | de       | Schriftliche Prüfung   | 4.5 |\n| ESE.00051   | Mathématiques II                           |                           | FS-2026   | BA   | fr       | Schriftliche Prüfung   | 4.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EIG.00036",
+            "Einführung in die Programmierung": "Informatique de gestion I",
+            "Bloechle": "Fischer",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EIG.00037",
+            "Einführung in die Programmierung": "Wirtschaftsinformatik I",
+            "Bloechle": "Fill",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00136",
+            "Einführung in die Programmierung": "Einführung in die Betriebswirtschaftslehre",
+            "Bloechle": "Barmettler, Milosavljevic",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00135",
+            "Einführung in die Programmierung": "Introduction à la gestion d'entreprise",
+            "Bloechle": "Davoine",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00137",
+            "Einführung in die Programmierung": "Introduction à la comptabilité",
+            "Bloechle": "Missonier-Piera",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00138",
+            "Einführung in die Programmierung": "Unternehmensrechnung",
+            "Bloechle": "Burkert",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "EIG.00122",
+            "Einführung in die Programmierung": "Introduction à la statistique I",
+            "Bloechle": "Donzé",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "EIG.00123",
+            "Einführung in die Programmierung": "Einführung in die Statistik I",
+            "Bloechle": "Leuenberger",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00048",
+            "Einführung in die Programmierung": "Mathematik I",
+            "Bloechle": "Leuenberger",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00047",
+            "Einführung in die Programmierung": "Mathématiques I",
+            "Bloechle": "Schindl",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "SIN.02023",
+            "Einführung in die Programmierung": "Objektorientierte Programmierung",
+            "Bloechle": "Cudré-Mauroux, Tonon",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "en",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EIG.00038",
+            "Einführung in die Programmierung": "Informatique de gestion II",
+            "Bloechle": "Fischer",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EIG.00039",
+            "Einführung in die Programmierung": "Wirtschaftsinformatik II",
+            "Bloechle": "Fill",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00253",
+            "Einführung in die Programmierung": "Organisation (f)",
+            "Bloechle": "Fauchart",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "6": "6",
+            "SIN.01023": "EGE.00258",
+            "Einführung in die Programmierung": "Organisation (d)",
+            "Bloechle": "Gmür",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00028",
+            "Einführung in die Programmierung": "Einführung in die Statistik II",
+            "Bloechle": "Huber",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 16,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00027",
+            "Einführung in die Programmierung": "Introduction à la statistique II",
+            "Bloechle": "Kauth, Kauth",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 17,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00052",
+            "Einführung in die Programmierung": "Mathematik II",
+            "Bloechle": "Leuenberger",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 18,
+          "cells": {
+            "6": "4.5",
+            "SIN.01023": "ESE.00051",
+            "Einführung in die Programmierung": "Mathématiques II",
+            "Bloechle": "",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr, de": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 2,
+      "markdown": "| SIN.03023   | Algorithmik                                    | Grossenbacher   | HS-2025   | BA   | en   | Schriftliche Prüfung   |   6 |\n|-------------|------------------------------------------------|-----------------|-----------|------|------|------------------------|-----|\n| SIN.03024   | Datenbanken                                    | Fill            | HS-2025   | BA   | en   | Schriftliche Prüfung   | 6   |\n| EGE.00273   | MAN01F: Investissement et financement          | Isakov          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 6   |\n| EGE.00274   | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 6   |\n| EGE.00275   | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer          | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00276   | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |\n| EGE.00139   | Droit I                                        | Dubey, Fournier | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EGE.00140   | Recht I                                        | Güngerich       | HS-2025   | BA   | de   | Schriftliche Prüfung   | 4.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "6": "6",
+            "SIN.03023": "SIN.03024",
+            "Algorithmik": "Datenbanken",
+            "Grossenbacher": "Fill",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "en",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "6": "6",
+            "SIN.03023": "EGE.00273",
+            "Algorithmik": "MAN01F: Investissement et financement",
+            "Grossenbacher": "Isakov",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "6": "6",
+            "SIN.03023": "EGE.00274",
+            "Algorithmik": "MAN01D: Investitions- und Finanzierungstheorie",
+            "Grossenbacher": "Wallmeier",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "6": "4.5",
+            "SIN.03023": "EGE.00275",
+            "Algorithmik": "MAN02F: Marketing (f, 4.5 ECTS)",
+            "Grossenbacher": "Furrer",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "6": "4.5",
+            "SIN.03023": "EGE.00276",
+            "Algorithmik": "MAN02D: Marketing (d, 4.5 ECTS)",
+            "Grossenbacher": "Bambauer-Sachse",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "6": "4.5",
+            "SIN.03023": "EGE.00139",
+            "Algorithmik": "Droit I",
+            "Grossenbacher": "Dubey, Fournier",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "6": "4.5",
+            "SIN.03023": "EGE.00140",
+            "Algorithmik": "Recht I",
+            "Grossenbacher": "Güngerich",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "en": "de",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 3,
+      "markdown": "| Code      | Lehreinheit                     | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |\n|-----------|---------------------------------|-----------------|------------|----------|-----------|----------------------|--------|\n| ESE.00040 | Microéconomie I                 | Gugler          | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |\n| ESE.00041 | Mikroökonomie I                 | Büchel          | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |\n| SIN.04023 | Software Engineering            | Fischer         | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |\n| EIG.00015 | Operations Management (d)       | Trautmann       | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |\n| EIG.00132 | Information Systems Modeling    | Curty           | FS-2026    | BA       | en        | Schriftliche Prüfung |    6   |\n| EGE.00279 | MAN04F: Comptabilité financière | Missonier-Piera | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| EGE.00280 | MAN04D: Bilanzierung            | Kunz            | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |\n| ESE.00029 | Statistique: approfondissement  | Donzé           | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |\n| ESE.00030 | Vertiefungskurs Statistik       | Leuenberger     | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "ESE.00040",
+            "Lehreinheit": "Microéconomie I",
+            "Lehrer(innen)": "Gugler",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "ESE.00041",
+            "Lehreinheit": "Mikroökonomie I",
+            "Lehrer(innen)": "Büchel",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SIN.04023",
+            "Lehreinheit": "Software Engineering",
+            "Lehrer(innen)": "Fischer",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "EIG.00015",
+            "Lehreinheit": "Operations Management (d)",
+            "Lehrer(innen)": "Trautmann",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "EIG.00132",
+            "Lehreinheit": "Information Systems Modeling",
+            "Lehrer(innen)": "Curty",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "EGE.00279",
+            "Lehreinheit": "MAN04F: Comptabilité financière",
+            "Lehrer(innen)": "Missonier-Piera",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "EGE.00280",
+            "Lehreinheit": "MAN04D: Bilanzierung",
+            "Lehrer(innen)": "Kunz",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "ESE.00029",
+            "Lehreinheit": "Statistique: approfondissement",
+            "Lehrer(innen)": "Donzé",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "ESE.00030",
+            "Lehreinheit": "Vertiefungskurs Statistik",
+            "Lehrer(innen)": "Leuenberger",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 4,
+      "markdown": "| EDK.00951   | Compétences documentaires en économie 1 - Groupe A                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n|-------------|---------------------------------------------------------------------|--------------------|-----------|------|------|---------------------------|-----|\n| EDK.00954   | Compétences documentaires en économie 1 - Groupe B                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00955   | Compétences documentaires en économie 1 - Groupe C                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00956   | Compétences documentaires en économie 1 - Groupe D                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00957   | Compétences documentaires en économie 1 - Groupe E                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00958   | Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00962   | Compétences documentaires en informatique de Gestion 2 - Groupe C   | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00965   | Compétences documentaires en informatique de Gestion 2 - Groupe G   | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |\n| EDK.00967   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |\n| EDK.00969   | Informationskompetenz in der Wirtschaftsinformatik                  | Lüscher            | FS-2026   | BA   | de   | Fortlaufende Evaluation   |   0 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00954",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en économie 1 - Groupe B",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00955",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en économie 1 - Groupe C",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00956",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en économie 1 - Groupe D",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00957",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en économie 1 - Groupe E",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00958",
+            "Compétences documentaires en économie 1 - Groupe A": "Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A",
+            "Brodard, Lüscher": "Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "de",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00962",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en informatique de Gestion 2 - Groupe C",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00965",
+            "Compétences documentaires en économie 1 - Groupe A": "Compétences documentaires en informatique de Gestion 2 - Groupe G",
+            "Brodard, Lüscher": "Brodard, Lüscher",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr": "fr",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00967",
+            "Compétences documentaires en économie 1 - Groupe A": "Informationskompetenz in der Wirtschaftsinformatik",
+            "Brodard, Lüscher": "Lüscher",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "de",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "0": "0",
+            "EDK.00951": "EDK.00969",
+            "Compétences documentaires en économie 1 - Groupe A": "Informationskompetenz in der Wirtschaftsinformatik",
+            "Brodard, Lüscher": "Lüscher",
+            "HS-2025": "FS-2026",
+            "BA": "BA",
+            "fr": "de",
+            "Fortlaufende Evaluation": "Fortlaufende Evaluation"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 5,
+      "markdown": "| SIN.05022   | Konkurrierende und verteilte Systeme   | Felber      | HS-2025   | BA   | fr   | Schriftliche Prüfung   |   5 |\n|-------------|----------------------------------------|-------------|-----------|------|------|------------------------|-----|\n| EIG.00081   | Info II: Decision Support I (f)        | Ries        | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |\n| EIG.00049   | Info I: Sécurité informatique (f)      | Abou Khaled | HS-2025   | BA   | fr   | Schriftliche Prüfung   | 4.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "5": "4.5",
+            "SIN.05022": "EIG.00081",
+            "Konkurrierende und verteilte Systeme": "Info II: Decision Support I (f)",
+            "Felber": "Ries",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "5": "4.5",
+            "SIN.05022": "EIG.00049",
+            "Konkurrierende und verteilte Systeme": "Info I: Sécurité informatique (f)",
+            "Felber": "Abou Khaled",
+            "HS-2025": "HS-2025",
+            "BA": "BA",
+            "fr": "fr",
+            "Schriftliche Prüfung": "Schriftliche Prüfung"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 6,
+      "markdown": "| Code                   | Lehreinheit                                      | Lehrer(innen)            | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |\n|------------------------|--------------------------------------------------|--------------------------|------------|----------|-----------|--------------------------------------------------|--------|\n| EIG.00229              | Requirements Engineering for Information Systems | Curty                    | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| SIN.06022              | Maschinelles Lernen                              | Grossenbacher            | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| EIG.00089              | Info V: Decision support II (f)                  | Schindl                  | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EIG.00230              | Information Systems Development Project          | Curty                    | FS-2026    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| Wahlkurse min. 14 ECTS | Wahlkurse min. 14 ECTS                           |                          |            |          |           |                                                  |        |\n| EEP.00358              | ECO08E: Applied Econometrics                     | Huber                    | HS-2025    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00149              | Droit II                                         | Dubey, Fournier          | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00150              | Recht II                                         | Güngerich                | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| Wahlkurse - Typus A    | Wahlkurse - Typus A                              |                          |            |          |           |                                                  |        |\n| SIN.01022              | Computerarchitektur                              | König, Locher            | HS-2025    | BA       | fr, de    | Fortlaufende Evaluation und schriftliche Prüfung |    5   |\n| SIN.06021              | Formale Methoden                                 | Audiffren                | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.02020              | Systemnahe Programmierung                        | Cudré-Mauroux, Luggen    | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| SIN.05020              | Funktionale und logische Programmierung          | Luggen                   | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    5   |\n| SIN.02022              | Robotik                                          | Nembrini                 | FS-2026    | BA       | fr, de    | Fortlaufende                                     |    5   |\n| SIN.04022              | Betriebssysteme                                  | Cudré-Mauroux, Schiavoni | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    5   |\n| Wahlkurse - Typus B    | Wahlkurse - Typus B                              |                          |            |          |           |                                                  |        |\n| EGE.00281              | MAN05F: Gestion des ressources humaines          | Davoine                  | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00282              | MAN05D: Human Resource Management                | Gmür                     | HS-2025    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00263              | MAN06E: Introductory course in Entrepreneurship  | Fauchart                 | HS-2025    | BA       | en        | Fortlaufende Evaluation                          |    4.5 |\n| EGE.00283              | MAN08F: Management stratégique                   | Mena                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00485              | MAN08E: Strategic Management                     | Mena                     | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00285              | MAN09F: Comptabilité de gestion                  | Oyon                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00286              | MAN09D: Controlling (d)                          | Burkert                  | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00287              | MAN10F: Finance d'Entreprise                     | Isakov                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |\n| EGE.00288              | MAN10D: Unternehmensfinanzierung                 | Affolter, Wilding        | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |\n| EEP.00160              | Microéconomie II                                 | Gugler                   | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    6   |\n| EEP.00161              | Mikroökonomie II                                 | Herz, Staubli            | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    6   |\n| EGE.00277              | MAN03F: Recherche Marketing                      | Furrer                   | FS-2026    | BA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |\n| EGE.00278              | MAN03D: Marketingforschung                       | Bambauer-Sachse          | FS-2026    | BA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "EIG.00229",
+            "Lehreinheit": "Requirements Engineering for Information Systems",
+            "Lehrer(innen)": "Curty",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Fortlaufende Evaluation",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SIN.06022",
+            "Lehreinheit": "Maschinelles Lernen",
+            "Lehrer(innen)": "Grossenbacher",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "EIG.00089",
+            "Lehreinheit": "Info V: Decision support II (f)",
+            "Lehrer(innen)": "Schindl",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "EIG.00230",
+            "Lehreinheit": "Information Systems Development Project",
+            "Lehrer(innen)": "Curty",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Fortlaufende Evaluation",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "Wahlkurse min. 14 ECTS",
+            "Lehreinheit": "Wahlkurse min. 14 ECTS",
+            "Lehrer(innen)": "",
+            "Semester": "",
+            "Niveau": "",
+            "Sprache": "",
+            "Bewertung": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "EEP.00358",
+            "Lehreinheit": "ECO08E: Applied Econometrics",
+            "Lehrer(innen)": "Huber",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "EGE.00149",
+            "Lehreinheit": "Droit II",
+            "Lehrer(innen)": "Dubey, Fournier",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "EGE.00150",
+            "Lehreinheit": "Recht II",
+            "Lehrer(innen)": "Güngerich",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "Wahlkurse - Typus A",
+            "Lehreinheit": "Wahlkurse - Typus A",
+            "Lehrer(innen)": "",
+            "Semester": "",
+            "Niveau": "",
+            "Sprache": "",
+            "Bewertung": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SIN.01022",
+            "Lehreinheit": "Computerarchitektur",
+            "Lehrer(innen)": "König, Locher",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "fr, de",
+            "Bewertung": "Fortlaufende Evaluation und schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SIN.06021",
+            "Lehreinheit": "Formale Methoden",
+            "Lehrer(innen)": "Audiffren",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SIN.02020",
+            "Lehreinheit": "Systemnahe Programmierung",
+            "Lehrer(innen)": "Cudré-Mauroux, Luggen",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SIN.05020",
+            "Lehreinheit": "Funktionale und logische Programmierung",
+            "Lehrer(innen)": "Luggen",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Code": "SIN.02022",
+            "Lehreinheit": "Robotik",
+            "Lehrer(innen)": "Nembrini",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr, de",
+            "Bewertung": "Fortlaufende",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Code": "SIN.04022",
+            "Lehreinheit": "Betriebssysteme",
+            "Lehrer(innen)": "Cudré-Mauroux, Schiavoni",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "Code": "Wahlkurse - Typus B",
+            "Lehreinheit": "Wahlkurse - Typus B",
+            "Lehrer(innen)": "",
+            "Semester": "",
+            "Niveau": "",
+            "Sprache": "",
+            "Bewertung": "",
+            "ECTS": ""
+          }
+        },
+        {
+          "row_index": 16,
+          "cells": {
+            "Code": "EGE.00281",
+            "Lehreinheit": "MAN05F: Gestion des ressources humaines",
+            "Lehrer(innen)": "Davoine",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 17,
+          "cells": {
+            "Code": "EGE.00282",
+            "Lehreinheit": "MAN05D: Human Resource Management",
+            "Lehrer(innen)": "Gmür",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 18,
+          "cells": {
+            "Code": "EGE.00263",
+            "Lehreinheit": "MAN06E: Introductory course in Entrepreneurship",
+            "Lehrer(innen)": "Fauchart",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Fortlaufende Evaluation",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 19,
+          "cells": {
+            "Code": "EGE.00283",
+            "Lehreinheit": "MAN08F: Management stratégique",
+            "Lehrer(innen)": "Mena",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 20,
+          "cells": {
+            "Code": "EGE.00485",
+            "Lehreinheit": "MAN08E: Strategic Management",
+            "Lehrer(innen)": "Mena",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "en",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 21,
+          "cells": {
+            "Code": "EGE.00285",
+            "Lehreinheit": "MAN09F: Comptabilité de gestion",
+            "Lehrer(innen)": "Oyon",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 22,
+          "cells": {
+            "Code": "EGE.00286",
+            "Lehreinheit": "MAN09D: Controlling (d)",
+            "Lehrer(innen)": "Burkert",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 23,
+          "cells": {
+            "Code": "EGE.00287",
+            "Lehreinheit": "MAN10F: Finance d'Entreprise",
+            "Lehrer(innen)": "Isakov",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 24,
+          "cells": {
+            "Code": "EGE.00288",
+            "Lehreinheit": "MAN10D: Unternehmensfinanzierung",
+            "Lehrer(innen)": "Affolter, Wilding",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 25,
+          "cells": {
+            "Code": "EEP.00160",
+            "Lehreinheit": "Microéconomie II",
+            "Lehrer(innen)": "Gugler",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 26,
+          "cells": {
+            "Code": "EEP.00161",
+            "Lehreinheit": "Mikroökonomie II",
+            "Lehrer(innen)": "Herz, Staubli",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 27,
+          "cells": {
+            "Code": "EGE.00277",
+            "Lehreinheit": "MAN03F: Recherche Marketing",
+            "Lehrer(innen)": "Furrer",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "fr",
+            "Bewertung": "Fortlaufende Evaluation und schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 28,
+          "cells": {
+            "Code": "EGE.00278",
+            "Lehreinheit": "MAN03D: Marketingforschung",
+            "Lehrer(innen)": "Bambauer-Sachse",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "de",
+            "Bewertung": "Fortlaufende Evaluation und schriftliche Prüfung",
+            "ECTS": "6"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 7,
+      "markdown": "| Code      | Lehreinheit    | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung               |   ECTS |\n|-----------|----------------|-----------------|------------|----------|-----------|-------------------------|--------|\n| EDK.01669 | Bachelorarbeit | Décanat         | FS-2026    | BA       |           | Fortlaufende Evaluation |     15 |\n| EDK.01669 | Bachelorarbeit | Décanat         | HS-2025    | BA       |           | Fortlaufende Evaluation |     15 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "EDK.01669",
+            "Lehreinheit": "Bachelorarbeit",
+            "Lehrer(innen)": "Décanat",
+            "Semester": "FS-2026",
+            "Niveau": "BA",
+            "Sprache": "",
+            "Bewertung": "Fortlaufende Evaluation",
+            "ECTS": "15"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "EDK.01669",
+            "Lehreinheit": "Bachelorarbeit",
+            "Lehrer(innen)": "Décanat",
+            "Semester": "HS-2025",
+            "Niveau": "BA",
+            "Sprache": "",
+            "Bewertung": "Fortlaufende Evaluation",
+            "ECTS": "15"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 8,
+      "markdown": "| Code   | Lehreinheit   | Lehrer(innen)   | Semester   | Sprache Niveau   | Bewertung   | ECTS   |\n|--------|---------------|-----------------|------------|------------------|-------------|--------|",
+      "rows": [],
+      "source": "markdown_regex"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Zusammenfassung des Studienplans",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "WICHTIGER HINWEIS",
+      "line_index": 24,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Studiumsdauer",
+      "line_index": 28,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Kompensationsprinzip",
+      "line_index": 38,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Stand des Kursangebots",
+      "line_index": 46,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1. Jahr 60 ECTS",
+      "line_index": 59,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2. Studienjahr 60 ECTS",
+      "line_index": 105,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Informationskompetenz in den Wirtschaftswissenschaften",
+      "line_index": 135,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3. Studienjahr 60 ECTS",
+      "line_index": 151,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Pflichtkurse 32.5 ECTS",
+      "line_index": 161,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Bachelorarbeit",
+      "line_index": 202,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Rechtsgrundlage",
+      "line_index": 211,
+      "source": "markdown_regex"
+    }
+  ]
+}

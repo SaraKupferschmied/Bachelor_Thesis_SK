@@ -1,0 +1,343 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T23:40:19.130Z",
+  "title": "Philosophy_Master_90_Foreign_Language_Didactics_Master_Fremdsprachendidaktik_94ebae7061666c1d7409bcad29504e3fee830823",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "94ebae7061666c1d7409bcad29504e3fee830823",
+  "program_key": "philosophy|master|90|foreign language didactics",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Foreign Language Didactics",
+  "doc_label": "Master Fremdsprachendidaktik",
+  "source_url": "https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-dle-DE_2025-8-19.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/foreignlanguagedidactics",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Foreign_Language_Didactics_Master_Fremdsprachendidaktik_94ebae7061666c1d7409bcad29504e3fee830823.pdf",
+  "sha256": "3c9b3c0f11ccc9704aca0a5e5ccc3614e8b75112e35701bc9eacf2b4fa73ea76",
+  "fetched_at": "2026-04-03T11:31:07.158Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-dle-DE_2025-8-19.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+| SPEZIALISIERTER MASTER OF ARTS IN FREMDSPRACHENDIDAKTIK   |
+|-----------------------------------------------------------|
+
+## LEITFADEN FÜR STUDIERENDE
+
+## INHALT
+
+| Universitätskonto ..............................................................................................................................................................3                                                                               |                                                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Erste Beratung ...................................................................................................................................................................3                                                                             |                                                                                                                                                                                 |
+| Ergänzungsprogramm ....................................................................................................................................................3                                                                                        |                                                                                                                                                                                 |
+| Vertiefungsprogramm: Gemeinsamer Teil ...........................................................................................................4                                                                                                              |                                                                                                                                                                                 |
+| Vertiefungsprogramm: Option (Französisch, Deutsch, Englisch, Italienisch als Fremdsprache) ...................................................................................................................................................................4 |                                                                                                                                                                                 |
+| Empfohlener Studienverlauf ........................................................................................................................................4                                                                                            |                                                                                                                                                                                 |
+| (Ungefährer) Stundenplan ............................................................................................................................................5                                                                                          |                                                                                                                                                                                 |
+| Informationsveranstaltung ............................................................................................................................................8                                                                                         |                                                                                                                                                                                 |
+| Kurseinschreibung: MyUnifr ........................................................................................................................................8                                                                                            |                                                                                                                                                                                 |
+| Online-Informationsplattform: Moodle ....................................................................................................................8                                                                                                      |                                                                                                                                                                                 |
+| Seminararbeiten ................................................................................................................................................................8                                                                               |                                                                                                                                                                                 |
+| Praktikum ..............................................................................................................................................................................9                                                                       |                                                                                                                                                                                 |
+| ForschungsKolloquium und Masterarbeit ..........................................................................................................10                                                                                                              |                                                                                                                                                                                 |
+| Team ....................................................................................................................................................................................11                                                                     |                                                                                                                                                                                 |
+| Bibliothek für Fremdsprachen (BLE) ....................................................................................................................12                                                                                                       |                                                                                                                                                                                 |
+| Institut für Mehrsprachigkeit .....................................................................................................................................12                                                                                           |                                                                                                                                                                                 |
+| Lageplan                                                                                                                                                                                                                                                        | .............................................................................................................................................................................13 |
+
+## UNIVERSITÄTSKONTO
+
+Nach der Immatrikulation an der Universität Freiburg erhalten Sie Ihren Benutzernamen und Ihr Passwort, die Sie für den Zugang zu Ihrem Mailkonto @unifr , zum Studierendenportal MyUnifr (Einschreibung zu Lehrveranstaltungen u.v.m.) und für die Arbeitsplattform Moodle benötigen. Der Mailverkehr wird ausschliesslich über die Adresse @unifr.ch geführt (auch die Informationen der Universitätsstellen und automatisierte Nachrichten der Uni).
+
+## ERSTE BERATUNG
+
+Sobald  Sie  Ihre Immatrikulation  abgeschlossen haben,  und vor  Ihrem  Studienbeginn , nehmen Sie mit dem Studienberater (nicolas.felix@unifr.ch), Kontakt auf. Im Verlauf der ersten Beratung sind folgende Punkte zu besprechen:
+
+- -Umfang  und  Inhalt  des  Ergänzungsprogramms  (auf  Basis  Ihrer  vorangehenden Ausbildung(en) und Ihrer Ziele für das Studium)
+- -Planung  des  Praktikums  (in  welchem  Semester  und  an  welcher  Pädagogischen Hochschule).
+- -Offene Fragen (nach sorgfältiger Lektüre dieses Dokuments).
+
+## ERGÄNZUNGSPROGRAMM
+
+Der spezialisierte Master in Fremdsprachendidaktik erfordert den Besuch eines Ergänzungsprogramms von max. 30 ECTS am Anfang des Masterstudiums, um die nötigen Vorkenntnisse zu erwerben.
+
+Das  Ergänzungsprogramm  besteht  aus  Unterrichtseinheiten  in  Fremdsprachendidaktik, Erwachsenenbildung, Linguistik und Sprachkursen. - Wenn Sie Ihre Sprachkenntnisse in einer der Studiersprachen des Masterprogramms verbessern müssen, können Sie am Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik (FR, DE) oder am Sprachenzentrum der Universität Kurse belegen. Für den Erwerb von Kreditpunkten gelten die Bedingungen der jeweiligen Anbieter dieser Unterrichtseinheiten.
+
+Auf Basis Ihres Dossiers kann der Studienberater Leistungen aus Ihrer bisherigen Ausbildung anerkennen, und der Umfang des Ergänzungsprogramms kann sich entsprechend verringern. Bei der ersten Beratung wird abgemacht, welche Einheiten noch besucht werden müssen. Die Abmachung wird elektronisch festgehalten und ist verbindlich. Sie kann nur im Fall von höherer Gewalt geändert werden (z. B. wenn eine vorgesehene Lehrveranstaltung nicht stattfindet).
+
+Wichtig: Ist eine Unterrichtseinheit aus dem vereinbarten Ergänzungsprogramm definitiv nicht bestanden (s. Reglement der Fakultät), kann der spezialisierte Master Fremdsprachendidaktik nicht weiterstudiert werden.
+
+Das Ergänzungsprogramm hat zu Beginn des Studiums Priorität . Parallel dazu können jedoch bereits Unterrichtseinheiten aus dem Vertiefungsprogramm belegt werden. In diesem Fall empfehlen wir, mit den Veranstaltungen des ersten Moduls und den Hauptvorlesungen zu beginnen.
+
+## VERTIEFUNGSPROGRAMM: GEMEINSAMER TEIL
+
+Der gemeinsame Teil besteht aus zwei Modulen (A und B) zu je 15 ECTS-Punkten. Die genaue Zusammensetzung der Module entnehmen Sie dem Studienplan in den Downloads auf der Website des Departements. Im Studienplan sehen Sie auch, welche Unterrichtseinheiten mit einer Note validiert werden und welche mit einfachem 'bestanden/nicht bestanden'.
+
+## VERTIEFUNGSPROGRAMM: OPTION (FRANZÖSISCH, DEUTSCH, ENGLISCH, ITALIENISCH ALS FREMDSPRACHE)
+
+Studierende mit den Optionen DaF oder FLE/FLS absolvieren das Modul C an der Universität Freiburg/CH. Studierende mit der Option EFL können das Modul C im Ausland (Universität Southampton) oder in der Schweiz 1  absolvieren. Studierende mit der Option ILS gehen für das Modul C an die Universität der italienischen Schweiz (USI).
+
+Achtung: In Southampton steht nur ein Studienplatz pro Semester zur Verfügung. Interessierte Studierende  sollten  sich  frühzeitig  um  die  Planung  und  Organisation  kümmern.  Weitere Informationen finden Sie im Studienplan und in den entsprechenden Dokumenten auf Moodle.
+
+## EMPFOHLENER STUDIENVERLAUF
+
+Die  angegebene  Zeitachse  geht  davon  aus,  dass  sich  die  Studierenden  zu  100%  ihrem Studium  widmen.  Aufgrund  des  obligatorischen  Ergänzungsprogramms  zu  diesem  Master wurde ein zusätzliches Semester für die Studiendauer eingeplant. Die angegebenen Phasen für das Verfassen der Arbeiten und für das Praktikum sollten eingehalten werden (vgl. auch die 'Timeline' am Ende des Dokuments).
+
+<!-- image -->
+
+Es ist möglich, neben dem Studium erwerbstätig zu sein. Die Studiendauer wird sich dadurch entsprechend verlängern. Die maximale Studiendauer ist im Fakultätsreglement festgelegt. Wir raten dringend davon ab , neben dem Studium eine berufliche Tätigkeit von mehr als 50% zu verfolgen. Rechnen Sie für jede Stunde Präsenzunterricht 2 Stunden für die Vor- und Nachbereitung des Stoffs ein.
+
+1 In der Option EFL ist die Möglichkeit, die ECTS-Punkte des Moduls C in der Schweiz zu erwerben, nur für das akademische Jahr 2025-2026 gewährleistet.
+
+## (UNGEFÄHRER) STUNDENPLAN
+
+Der Asterisk * bei gewissen Kursen zeigt an, dass die Unterrichtssprachen bi-annuell alternieren.
+
+Soweit  möglich  bleiben  die  angegeben  Unterrichtszeiten  der  Vorlesungen  (C)  und  der Seminare (S) jedes Jahr gleich. Änderungen können dennoch vereinzelt vorkommen. - Es ist in  der  Verantwortung der Studierenden, am Anfang jedes Semesters Unterrichtszeiten und sonstige Informationen zu überprüfen und Ihren Zeitplan so zu gestalten, dass sie ihr Studium unbeschwert absolvieren können.
+
+Die Informationen zu den Präsenzveranstaltungen werden ab Juni möglichst vollständig auf TIMETABLE publiziert, spätestens aber einige Wochen vor Semesterbeginn.
+
+## HERBSTSEMESTER (HS)
+
+LEGENDE
+
+Gemeinsamer Teil
+
+ACHTUNG: Die Angaben in der Tabelle beziehen sich auf den neuen Studienplan (01.03.2023). Auf Moodle finden Sie die Details zu den Kursen im Wahlpflichtbereich. Bei Fragen oder Unklarheiten kontaktieren Sie bitte den Studienberater (nicolas.felix@unifr.ch).
+
+Option FLE
+
+Option DaF
+
+Fettgedruckt: obligatorisch
+
+|       | Montag                                                            | Dienstag                                                                | Dienstag                                                                | Mittwoch                                                | Mittwoch                                                                           |
+|-------|-------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------|
+| 8-10  | *S: Quantitative Methodologie (EN/DE)                             | *C: Die rätoromanische Minderheit in der vielsprachigen Schweiz (FR/DE) | *C: Die rätoromanische Minderheit in der vielsprachigen Schweiz (FR/DE) |                                                         |                                                                                    |
+| 10-12 | *S: Sprachen in Kontakt (FR/DE)                                   |                                                                         |                                                                         | S: Analyse von Lehrwerken und Lernmaterialien           | S: Linguistique appliquée au FLE / "La phonologie du français et son enseignement" |
+| 12-13 |                                                                   |                                                                         |                                                                         |                                                         |                                                                                    |
+| 13-15 | S: Methodische Grundlagen der Sprachlehr- und Sprachlernforschung | S: Der Altersfaktor beim Spracherwerb                                   | S: Der Altersfaktor beim Spracherwerb                                   | S: Méthodes de recherche en FLE/FLS                     | S: Méthodes de recherche en FLE/FLS                                                |
+| 15-17 | *C: Mehrsprachige Kompetenz (FR/DE)                               | S: Utilisation des corpus dans la recherche et dans l'enseignemen t     | S: Einführung Quantitative Datenanalyse (DE oder EN)                    | S: Aktuelle Arbeiten im Bereich der Sprachlehrforschung | S: Aktuelle Arbeiten im Bereich der Sprachlehrforschung                            |
+| 17-19 | Ringveranstaltung / Cycle de conférences (Blockunterricht)        | C: Langage et Société                                                   | C: Langage et Société                                                   |                                                         |                                                                                    |
+
+## FRÜHLINGSSEMESTER (FS)
+
+| LEGEN- DE   | Gemeinsamer Teil   | Option FLE   | Option DaF   | Fettgedruckt: obligatorisch   |
+|-------------|--------------------|--------------|--------------|-------------------------------|
+
+ACHTUNG: Die Angaben in der Tabelle beziehen sich auf den neuen Studienplan (01.03.2023). Auf Moodle finden Sie die Details zu den Kursen im Wahlpflichtbereich. Bei Fragen oder Unklarheiten kontaktieren Sie bitte den Studienberater (nicolas.felix@unifr.ch).
+
+|       | Montag                                                                                                                                                                                | Dienstag                                                                                   | Mittwoch                                                                                                                 |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 8-10  | S: Second Language Acquisition                                                                                                                                                        |                                                                                            |                                                                                                                          |
+| 10-12 | S: /                                                                                                                                                                                  | Mehrsprachigkeitsdidaktik Didactique du Plurilinguisme                                     | S: Sprachlehrkompetenz: Berufssprachliches Handeln im Unterricht verstehen, reflektieren und optimieren (ungerade Jahre) |
+| 12-13 |                                                                                                                                                                                       |                                                                                            |                                                                                                                          |
+| 13-15 | DaF-Projektseminar en alternance : S: Sprachenlehren und -lernen unter erschwerten Bedingungen ODER S: Korpuslinguistik und DaF                                                       | S: Facteurs d'intégration linguistique et sociale en FLS                                   | C: Vorlesung DaF zu einem Spezialthema                                                                                   |
+| 15-17 | *C: Institutionelle Mehrsprachig- keit (FR/DE) de S: Szenariobasiert er Unterricht im Erwachsenenb ereich [MA- Seminar mit wechselndem, unterrichts- relevantem Thema] (gerade Jahre) | S: Méthodologie qualitative                                                                | S: Pratiques de recherche, questions actuelles en FLE/FLS                                                                |
+| 17-19 | Ringveranstalt -ung / Cycle conférences (Blockunter- richt)                                                                                                                           | Abwechselnd: S: Langage, pouvoir et inégalités sociales ODER S: Sociolinguistique critique |                                                                                                                          |
+
+## NICHT SEMESTERGEBUNDENE EINHEITEN
+
+-  Praktikum
+-  2 Seminararbeiten
+-  Blockkurse für die Erarbeitung und Begleitung der Masterarbeit (je nach betreuenden Professoren). Informationen auf Moodle
+-  Masterarbeit
+
+## INFORMATIONSVERANSTALTUNG
+
+Diese  findet  jedes  Jahr  im  Herbstsemester  in  der  ersten  Sitzung  der  Lehrveranstaltung 'Mehrsprachige Kompetenz' statt (Montag 15h15 Uhr).
+
+## KURSEINSCHREIBUNG: MYUNIFR
+
+Die Studierenden verwalten ihre Kurseinschreibungen via das Portal MyUnifr . In der Regel hat es immer genügend Plätze in den Kursen des Departements, aber es ist trotzdem ratsam, sich in  der  Woche  vor  Semesterbeginn  für  die  Präsenz-Veranstaltungen  anzumelden,  denn  es kommt  vor,  dass  die  Unterrichtenden  noch  vor  Kursbeginn  eine  E-Mail  mit  wichtigen Informationen an die Teilnehmenden verschicken.
+
+Für jede Lehrveranstaltung müssen Sie sich auch für die Prüfung/Evaluation einschreiben innerhalb  der  von  der  Fakultät  festgelegten  Fristen.  Dies  gilt  auch  für  nicht  benotete Lehrveranstaltungen. Ohne diese Einschreibung können keine Resultate und ECTS-Punkte erfasst werden.
+
+ Lesen  Sie  die  Informationen  des  Dekanats  und/oder  der  Sekretärin  des  Departements betreffend Verwaltung Ihrer Studienleistungen aufmerksam.
+
+## ONLINE-INFORMATIONSPLATTFORM: MOODLE
+
+Wir nutzen Moodle als Informations- und Austauschplattform, für die Lehrveranstaltungen und auch für die Abgabe von Arbeiten. Die Passwörter werden Ihnen in der Informationsveranstaltung oder zu Beginn der jeweiligen Lehrveranstaltung mitgeteilt.
+
+Wichtige  und  nützliche  Informationen  allgemeiner  Art  zu  den  beiden  Masterprogrammen Fremdsprachendidaktik und Mehrsprachigkeitsforschung finden Sie hier:
+
+https://moodle.unifr.ch/course/view.php?id=9433#section-0
+
+## SEMINARARBEITEN
+
+Im Laufe Ihres Studiums verfassen Sie zwei Seminararbeiten:
+
+-  1 im Rahmen des gemeinsamen Teils
+-  1 in der jeweiligen Spezialisierung FLE/DaF/Englisch/Italienisch
+
+Die Seminararbeiten ermöglichen Ihnen, Themen aus den verschiedenen Unterrichtseinheiten zu vertiefen, die Sie besonders interessieren (Vorlesungen, Seminare, oder auch Praktikum). Im  Rahmen  dieser  Arbeiten  werden  Sie  eine  Forschungsfrage  empirisch  bearbeiten.  Die Seminararbeiten  werden  nach  den  Regeln  einer  wissenschaftlichen  Arbeit  verfasst.  Auf Moodle finden Sie einen Leitfaden dazu.
+
+Nota  bene:  Die  Studierenden  müssen  mindestens  eine  der  beiden  Seminararbeiten  sowie auch die Masterarbeit in der gewählten Spezialisierungssprache verfassen.
+
+## Wahl des Betreuers / der Betreuerin
+
+-  Für eine von den zwei Seminararbeiten können Sie eine Dozentin/einen Dozenten aus dem Departement Mehrsprachigkeitsforschung und Fremdsprachendidaktik anfragen, bei der/dem sie mindestens eine Lehrveranstaltung besucht haben.
+-  Die andere Seminararbeit schreiben Sie bei dem Professor/ der Professorin, der/die Ihre  Masterarbeit  betreuen  wird  (vgl.  weiter  unten  die  Informationen  zur  Wahl  des Betreuers/der Betreuerin der Masterarbeit).
+
+## Time line
+
+-  Es werden  keine Seminararbeiten zur Korrektur angenommen,  solange  nicht mindestens  ein  Seminar  zur  Methodologie  (Modul  A  oder  C)  erfolgreich absolviert worden ist.
+-  Eine Seminararbeit sollte ganz abgeschlossen und die zweite zumindest in Arbeit sein, bevor mit dem Forschungskolloquium angefangen wird.
+-  Beide Seminararbeiten müssen validiert sein, bevor die Masterarbeit beim Dekanat abgegeben wird.
+-  Bedenken Sie, dass die Korrektur und allfällige Überarbeitung einer Seminararbeit in der Regel ungefähr 5 Wochen in Anspruch nehmen.
+
+## Einschreibung
+
+Schreiben  Sie  sich  auf MyUnifr ein,  sobald  Sie  das  Thema  mit  der  Betreuungsperson abgesprochen und deren Einverständnis bekommen haben. Schreiben Sie sich aber erst für die Evaluation ein, wenn Sie sicher sind, dass Sie die Arbeit innerhalb der entsprechenden Prüfungssession abgeben können.
+
+## Abgabe
+
+Bitte reichen Sie Ihre Seminararbeit über die beiden folgenden Wege ein:
+
+-  elektronisch per E-Mail an die Dozentin/den Dozenten mit barbara.ruf@unifr.ch im Cc
+-  auf  Wunsch  des  betreuenden  Dozenten  /  der  betreuenden  Dozentin  auch  eine ausgedruckte Version (per Post schicken oder im Sekretariat vorbeibringen).
+
+## Eidesstattliche Erklärung
+
+Wie bei allen zu bewertenden Arbeiten muss am Ende der Seminararbeit obligatorisch eine eidesstattliche  Erklärung  eingefügt  werden.  Jegliche  externe  Hilfe  muss  deklariert  werden, einschliesslich der Instrumente, die auf künstlicher Intelligenz basieren. (Die entsprechenden Textstellen müssen gekennzeichnet werden.) Die Inanspruchnahme von Hilfe Dritter für das Korrekturlesen  und  für  sprachliche  Korrekturen  wird  in  einem  Zusatz  zur  eidesstattlichen Erklärung ebenfalls festgehalten, gemäss der auf moodle verfügbaren Vorlage.
+
+## PRAKTIKUM
+
+Der  spezialisierte  Master  in  Fremdsprachendidaktik  wurde  prioritär  für  Absolventen  eines Lehrdiploms (Bachelor oder Master) einer Schweizer Pädagogischen Hochschule oder einer Schweizer Universität konzipiert.
+
+Normalerweise sollten die Studierenden bereits eine Seminararbeit verfasst haben, bevor sie das Praktikum beginnen.
+
+Das Praktikum in einer PH bezweckt, dass die Studierenden ihre theoretisch-methodischen Kenntnisse mit der institutionellen Realität in der Ausbildung von Fremdsprachenlehrpersonen konfrontieren können.
+
+Aktuell bestehen Vereinbarungen mit mehreren Pädagogischen Hochschulen. Es ist erlaubt, das Praktikum in einer PH zu absolvieren, mit welcher wir keinen festen Vertrag haben. In diesem  Fall  organisiert  sich  der/die  Studierende  mit  der  betreffenden  PH  selber  für  sein Praktikum  und  unterbreitet  den  Vorschlag  dem  für  den  Master  Fremdsprachendidaktik verantwortlichen Professor.
+
+Falls  Sie  nicht  über  ein  schweizerisches  Lehrdiplom  verfügen,  können  wir  Ihnen  keinen Praktikumsplatz  in  einer  PH  garantieren.  Sie  müssen  in  diesem  Fall  selbständig  eine Organisation  oder eine private oder öffentliche Institution  finden,  die  Sprachunterricht  oder mehrsprachige Erziehung/Ausbildung vermittelt.
+
+Auf Moodle finden Sie alle wichtigen und detaillierten Informationen für die Organisation und die Validierung Ihres Praktikums.
+
+## FORSCHUNGSKOLLOQUIUM UND MASTERARBEIT
+
+## Betreuer/Betreuerin der Masterarbeit
+
+Die Masterarbeit wird in der Regel von der Professorin oder dem Professor des Departements betreut, die/der für die Spezialisierungssprache zuständig ist (gilt vor allem für DaF und FLE). Grundsätzlich  ist  es  aber  auch  möglich,  die  Arbeit  bei  anderen  ProfessorInnen  des Departements Mehrsprachigkeitsforschung und Fremdsprachendidaktik zu verfassen, insbesondere  dann,  wenn  das  Thema  der  Master-Arbeit  im  Spezialgebiet  der  jeweiligen Person angesiedelt ist. Co-Betreuungen auch mit DozentInnen der Partnerhochschulen sind nach Absprache möglich. Bitte diskutieren Sie die Wahl Ihres Themas  und Ihrer Betreuungsperson rechtzeitig mit den verantwortlichen Dozierenden des Departements.
+
+## Masterarbeit
+
+Die Masterarbeit wird im Rahmen eines Forschungskolloquiums begleitet und betreut. Diese Veranstaltungen finden i.d.R. in drei Blöcken pro Semester statt.
+
+Auf  Moodle  finden  Sie  die  Erläuterungen  zum  Forschungskolloquium,  in  welchem  Sie  die verschiedenen Entwicklungsphasen Ihrer Masterarbeit präsentieren, von der ersten Idee bis zur Datenanalyse.
+
+Wir empfehlen den Studierenden, an mehr als 6 obligatorischen Blöcken teilzunehmen. Ihre Ideen  und  Beiträge  fördern  und  bereichern  die  Auseinandersetzung  mit  dem  eigenen Forschungsprozess sowie mit demjenigen der KommilitonInnen.
+
+Daten  und  Zeiten  der  Blöcke  sowie  alle  weiteren  Informationen  und  Anleitungen  zum Forschungskolloquium finden Sie auf Moodle.
+
+## Umfang der Masterarbeit
+
+Die Masterarbeit soll zwischen 25 000 und 40 000 Wörter umfassen (ohne Tabellen, Grafiken, Anhänge usw.).
+
+## Einreichen der Masterarbeit
+
+Für die Masterarbeit gibt es keine Einschreibung auf MyUnifr . Der administrative Prozess wird mit der Abgabe der Arbeit beim Dekanat der philosophischen Fakultät ausgelöst.
+
+Bitte lesen Sie das Reglement und das Merkblatt des Dekanats, bevor Sie uns Fragen stellen (Dokumente auch auf unserer Moodle-Informationsseite verfügbar).
+
+Sie finden hier wichtige Informationen zu Abgabefristen, Verteidigungsterminen und Dokumenten, welche der Arbeit bei der Abgabe hinzuzufügen sind.
+
+In unserem Departement drucken Sie in der Regel 3 Exemplare auf Papier und 1 pdf Ihrer Masterarbeit aus:
+
+-  1 Exemplar für die Abgabe im Dekanat
+-  1 pdf für den Betreuer/die Betreuerin der Masterarbeit
+-  2 Exemplare für die Jury (Abgabe im Sekretariat des Departements MIS10-2.12 barbara.ruf@unifr.ch)
+
+Beachten  Sie  bitte,  dass  mit  dem  Dekanat  kein  gesonderter  persönlicher  Termin  für  das Einreichen Ihrer Masterarbeit vereinbart werden kann.
+
+## TEAM
+
+## ProfessorInnen
+
+Thomas Studer, Deutsch als Fremdsprache
+
+Anita Thomas, Français Langue Étrangère
+
+Raphael Berthele, Mehrsprachigkeitsforschung
+
+Alexandre Duchêne, Soziolinguistik
+
+Matthias Grünert, Rätoromanisch
+
+## Studienberatende und Unterrichtende
+
+Malgorzata Barras, Studienberatung Master DaF
+
+Giulia Berchio (Institut für Mehrsprachigkeit), Koordination der Ringveranstaltung
+
+Claire Boisserie, Studienberatung Master FLE
+
+Nathalie Dherbey, Oberassistentin FLE
+
+Nicolas Félix, Studienberatung Master FSD und Koordination der PH-Praktika
+
+Philippe Humbert, Lehrbeauftragter
+
+Olivia Joy-Rütti, Oberassistentin DaF
+
+Simone Morehed, Lehrbeauftragte
+
+Lisa Singh, Lehrbeauftragte
+
+Zorana Sokolovska, Lehrbeauftragte
+
+Jan Vanhove, LFR Mehrsprachigkeitsforschung
+
+## Administration
+
+Barbara Ruf
+
+## BIBLIOTHEK FÜR FREMDSPRACHEN (BLE)
+
+Die BLE ist gleichzeitig Dokumentationsstelle des Kompetenzzentrums für Mehrsprachigkeit und verfügt über einen reichhaltigen Bestand an elektronischen und gedruckten Medien zur Fremdsprachendidaktik  und  zur  Mehrsprachigkeitsforschung.  Ein  besonderer  Fokus  liegt dabei auf den vier schweizerischen Nationalsprachen. Sie finden in der Bibliothek:
+
+-  Bücher
+-  Zeitschriften
+-  Audiovisuelle Medien
+-  Datenbanken
+-  Pressemitteilungen, Radio- und Fernsehproduktionen
+-  die Forschungsberichte des Kompetenzzentrums
+
+Die  BLE  gehört  als  dezentrales  Mitglied  zum  Bibliotheksnetzwerk  der  Kantons-  und Universitätsbibliothek (KUB). Das Ausleihreglement ist das der KUB.
+
+In der BLE befindet sich das Selbstlernzentrum Sprachen und es gibt dort auch mehrere Arbeitsplätze.
+
+Zahlreiche Quellen können auch in anderen schweizerischen Bibliotheken gefunden werden. Verwenden Sie z.B. die Suchwerkzeuge der BLE oder das Webportal zur Mehrsprachigkeit.
+
+## Wichtig:
+
+Um von zu Hause aus Zugang zu elektronischen Zeitschriften zu erhalten, installieren Sie das VPN der Universität.
+
+## INSTITUT FÜR MEHRSPRACHIGKEIT
+
+Besondere Beachtung verdienen die Veranstaltungen des Instituts für Mehrsprachigkeit, an denen auch die Masterstudierenden teilnehmen können. Die Vorträge von international bekannten Forscherinnen und Forschern geben Ihnen die Möglichkeit, Ihre Kompetenzen sowie das im Master erworbene Wissen zu vertiefen oder auch mal in Frage zu stellen.
+
+Das Institut für Mehrsprachigkeit widmet sich der Forschung auf dem Gebiet der Mehrsprachigkeit in ihren sprachwissenschaftlichen, sozialen, politischen, wirtschaftlichen und pädagogischen Facetten. Forschungsschwerpunkte des Instituts sind insbesondere die Bereiche Schule und Unterricht, Migration, Arbeitswelt sowie Evaluierung von Sprachkompetenzen.
+
+## LAGEPLAN
+
+<!-- image -->
+
+Rue Joseph-Pil
+
+Rue du Varis

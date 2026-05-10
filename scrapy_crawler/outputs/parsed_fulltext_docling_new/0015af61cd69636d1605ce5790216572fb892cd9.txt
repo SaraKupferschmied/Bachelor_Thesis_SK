@@ -1,0 +1,229 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T14:25:51.447Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_nbsp_Humanmedizin_0015af61cd69636d1605ce5790216572fb892cd9",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0015af61cd69636d1605ce5790216572fb892cd9",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Medicine",
+  "doc_label": "Hauptfach&nbsp;Humanmedizin",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2021/Plan_BMed_de.pdf?time=101",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_nbsp_Humanmedizin_0015af61cd69636d1605ce5790216572fb892cd9.pdf",
+  "sha256": "c4f0150aafab1f1a95c55f0e173f4511347a6c374ae203db1c5b54c51df59955",
+  "fetched_at": "2026-04-03T11:27:37.675Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2021/Plan_BMed_de.pdf?time=101, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BMed_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+| ALLGEMEINES ..................................................................................................................3                                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Universitärer Titel und Studiengang................................................................................................. 3                                                                                                                                                                        |
+| Aufbau des Studiums......................................................................................................................... 3                                                                                                                                                                |
+| Erlangte Kompetenzen....................................................................................................................... 6                                                                                                                                                                 |
+| Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTS-Credits .................................. 6                                                                                                                                                                                                      |
+| Unterrichtssprachen........................................................................................................................... 7                                                                                                                                                              |
+| Wissenschaftsethik ............................................................................................................................ 7                                                                                                                                                             |
+| Reglemente und ergänzende Informationsquellen ......................................................................... 7                                                                                                                                                                                     |
+| BACHELOR OF MEDICINE (BMED)..................................................................................9                                                                                                                                                                                                |
+| Das erste Studienjahr......................................................................................................................... 9                                                                                                                                                              |
+| 2.1.1 Studienprogramm und Evaluation des ersten Studienjahres (Semester 1 und 2) .................................9 2.1.2 Inhalt der UE des ersten Studienjahres..................................................................................................10                                          |
+| Einführung in die arztliche Tätigkeit (Übersichtstabelle Med1, rote Zone R)............................................................... 10                                                                                                                                                                 |
+| ............................................... Biomedizinische Grundlagen I (Übersichtstabelle Med1, gelbe Zone Ge).................................................................. 10                                                                                                                     |
+| Physik und Chemie für Medizinstudierende (Übersichtstabelle Med1, graue Zone G) 10                                                                                                                                                                                                                            |
+| Einführung zu den Systemen und Systeme I (Übersichtstabelle Med1, hellblaue Zone HB) ...................................... 10 Medical Humanities I - Medizinische Psychologie und Soziologie I - Public Health I - Wissenschaftliches Denken und                                                             |
+| Arbeiten I (Übersichtstabelle Med1, grüne Zone Gr) ..................................................................................... 11 Anatomie des Bewegungsapparats und Histologie Praktikum (Übersichtstabelle Med1, Hellblaue Zone 12                                                                |
+| HB)............ Das zweite Studienjahr..................................................................................................................... 12                                                                                                                                                |
+| 2.2.1 Studienprogramm und Evaluation des zweiten Studienjahres (Sem. 3 und 4) ................................12 2.2.2 Inhalt der UE des zweiten Studienjahres.............................................................................................13                                                 |
+| IIa, IIb und IIc (Übersichtstabelle Med2, hellblaue Zone HB)....................................................................... 13 Grundlagen II (Übersichtstabelle Med2, gelbe Zone Ge)................................................................. 14                                              |
+| Systeme Biomedizinische Praktika                                                                                                                                                                                                                                                                              |
+| (Übersichtstabelle Med2, dunkelblaue Zone, DB) ........................................................................................ 14                                                                                                                                                                    |
+| Medical Humanities II - Medizinische Psychologie und Soziologie II - Wissenschaftliches Arbeiten und Denken I ..................................................................................................... 14                                                                                        |
+| (Übersichtstabelle Med2, grüne Zone Gr) 14                                                                                                                                                                                                                                                                    |
+| Wahlkurse (Übersichtstabelle Med2, graue Zone G)                                                                                                                                                                                                                                                              |
+| ................................................................................................. Das dritte Studienjahr ...................................................................................................................... 15                                                            |
+| 2.3.1 Studienprogramm und Evaluation des 3. Studienjahres (Semester 5 und 6)...................................15 2.3.2 Med3, gelbe Zone Ge)......................................................... 16 Zone HB)......................................................................................... 16 |
+| Inhalt der UE des 3. Jahres...................................................................................................................16 Klinische Grundlagenfächer I und II (Übersichtstabelle Systeme III (Übersichtstabelle Med3, hellblaue                                                        |
+| 17                                                                                                                                                                                                                                                                                                            |
+| Medical Humanities III und Public Health II (Übersichtstabelle                                                                                                                                                                                                                                                |
+| Med3, grüne Zone Gr)............................................... Klinische (Übersichtstabelle Med3, dunkelblaue Zone,                                                                                                                                                                                      |
+| Kompetenzen und Einführung in die Hausarzt-Medizin (EHAM) DB)............................................................................................................................................................... 17                                                                               |
+| Prüfungen ................................................................................................................................... 17                                                                                                                                                              |
+| Die                                                                                                                                                                                                                                                                                                           |
+
+## 1 Allgemeines
+
+Der vorliegende Studienplan beinhaltet die notwendigen Informationen für Studierende, welche das Studium der Humanmedizin an der Universität Freiburg in Angriff nehmen. Er stützt sich auf die Bestimmungen des Reglements vom 25.05.2020 für die Erlangung des Bachelor of Medicine in Humanmedizin (nachfolgend 'Reglement' genannt) .
+
+## 1.1  Universitärer Titel und Studiengang
+
+Die Math.-Nat. und Med. Fakultät der Universität Freiburg verleiht Studierenden, welche ihr Studium  erfolgreich  abgeschlossen  haben,  den  offiziellen  Titel Bachelor  of  Medicine  in Humanmedizin , nachfolgend BMed genannt.
+
+Der Studiengang  BMed bietet  eine  wissenschaftliche,  vorklinische  und  klinische  Grundausbildung an. Die Zulassung zum BMed erfolgt gemäss dem Reglement über die Zulassung an die Universität Freiburg sowie ggf. gemäss spezifischen kantonalen Verordnungen betreffend
+
+- die Aufnahmekapazität und den Eignungstest für das Medizinstudium sowie
+- die Zulassung ausländischer Kandidatinnen und Kandidaten zum Medizinstudium.
+
+Zugelassen  werden  nur  Kandidatinnen  und  Kandidaten  mit  einem  eidgenössisch  anerkannten Maturitätszeugnis  oder  einem  als  gleichwertig  anerkannten  Vorbildungsausweis  (Art.  4  des Reglements).
+
+Die  Inhaberinnen  und  Inhaber  eines  Bachelor  of  Medicine  in  Humanmedizin  der  Universität Freiburg führen ihr Studium für den Master of Medicine an der Universität Freiburg oder an einer Partneruniversität gemäss den geltenden Konventionen fort.
+
+## 1.2  Aufbau des Studiums
+
+Das BMed-Studium gliedert sich in Unterrichtseinheiten (UE) . Jeder UE wird eine bestimmte Anzahl ECTS 1 -Punkte zugeordnet,  die  durch  ein  Evaluationsverfahren  in ECTS-Credits umgewandelt werden (s. Paragraph 1.4) . Das BMed-Studium erfordert den Erwerb von mindestens 180 ECTS-Credits (6 Semester Vollzeitstudium).
+
+Das  Studium  der  grossen Organsysteme des  menschlichen  Körpers  (z.B.  Herz-  und  Kreislaufsystem, Endokrines System, Nervensystem usw.) bildet den roten Faden des Programms und erfolgt auf dreierlei Art und Weise.
+
+- Im ersten Semester vermittelt die UE Einführung zu den Systemen den Studierenden wichtige Grundkenntnisse und sensibilisiert sie für eine integrative Sicht der biologischen Abläufe.
+- Das vertiefte Studium der Morphologie und der Funktionen der Systeme erstreckt sich über die Semester 2, 3 und 4. Es umfasst die Anatomie, die Histologie, die Biochemie und die Physiologie sowie klinische Beispiele. Das Erlernte wird im Rahmen von Praktika angewendet und vertieft.
+- Im 3. Jahr konzentriert sich das Studium der Systeme auf das Verständnis der pathophysiologischen  Konzepte.  Die  UE  beinhalten  ebenfalls  die  Grundlagen  der  systemspezifischen Pathologie und der Pharmakologie.
+
+In den Kursen für klinische Kompetenzen (ab dem 1. Studienjahr - UE Einführung in die ärztliche Tätigkeit -  dann  vor  allem  im  3.  Studienjahr  )  üben  sich  die  Studierenden  in  der  ärztlichen Gesprächsführung und in der klinischen Untersuchung sowie in einigen Grundtechniken (Nähen, Reanimation usw.). Ausserdem werden sie ins Clinical Reasoning eingeführt.
+
+1 ECTS steht für European Credit Transfer System. Ein ECTS-Punkt entspricht etwa 30 Std. Arbeitsaufwand.
+
+Die Erlangung der erwähnten Kenntnisse und Kompetenzen setzt das Beherrschen physikalischchemischer und biologischer Konzepte voraus. Daher beinhalten das 1. und das 2. Studienjahr auch  UE  in  Physik,  Chemie,  Molekular-  und  Zellbiologie,  Genetik,  den  Grundlagen  der Biochemie, allgemeiner Histologie sowie allgemeiner Physiologie.
+
+Im 3. Jahr geht dem klinischen Studium der Systeme zu Beginn des 5. Semesters eine propädeutische UE voraus, welche sich den Prinzipen der allgemeinen Pathologie und der allgemeinen Pharmakologie widmet. Die medizinische Mikrobiologie wird in separaten UE behandelt.
+
+Schlussendlich beinhaltet das Programm vertikal aufgebaute jahresübergreifende UE: Wissenschaftliches Denken und Arbeiten, Public Health, Medizinische Psychologie und Soziologie und Medical Humanities (MH).
+
+## Übersichtstabelle der BMed-Struktur und Studienthematik
+
+.
+
+Die Buchstaben rechts beziehen sich auf die Farben (siehe Kapitel 2.1.2, 2.2.2 und 2.3.2)
+
+| Med1 (60 ECTS)   | Einführung in die ärztliche Tätigkeit                                                                            | R   |
+|------------------|------------------------------------------------------------------------------------------------------------------|-----|
+| Med1 (60 ECTS)   | Physik und Chemie                                                                                                | G   |
+| Med1 (60 ECTS)   | Einführung zu den Systemen                                                                                       | HB  |
+| Med1 (60 ECTS)   | Biomedizinische Grundlagen I Zelle - Genetik - Information Medizinische Embryologie Biomoleküle und Stoffwechsel | Ge  |
+| Med1 (60 ECTS)   | Systeme I Lokomotion - Genitalsysteme - Blut - Haut Einführung in die medizinische Bildgebung                    | HB  |
+| Med1 (60 ECTS)   | Wissenschaftliches Denken und Arbeiten I / Public Health I                                                       | Gr  |
+| Med1 (60 ECTS)   | Medical Humanities I / Medizinische Psychologie und Soziologie I                                                 | Gr  |
+
+| Med2 (60 ECTS)   | Systeme II                                                         | HB   |
+|------------------|--------------------------------------------------------------------|------|
+| Med2 (60 ECTS)   | Herz und Kreislauf - Atmung - Nieren                               |      |
+| Med2 (60 ECTS)   | Ernährung und Verdauung                                            |      |
+| Med2 (60 ECTS)   | Endokrines System                                                  |      |
+| Med2 (60 ECTS)   | Nervensystem und Sinnesorgane                                      |      |
+|                  | Praktika in Anatomie, Histologie, Biochemie und Physiologie        | DB   |
+|                  | Biomedizinische Grundlagen II                                      | Ge   |
+|                  | Abwehr und Immunität                                               |      |
+|                  | Wahlkurse                                                          | G    |
+|                  | Wissenschaftliches Denken und Arbeiten II                          | Gr   |
+|                  | Medical Humanities II / Medizinische Psychologie und Soziologie II | Gr   |
+
+| (61 ECTS)   | Klinische Grundlagenfächer Allgemeine Pathologie - Allgemeine Allgemeine, medizinische und Klinische Immunologie Radiologie   | Ge   |
+|-------------|-------------------------------------------------------------------------------------------------------------------------------|------|
+|             | Pharmakologie                                                                                                                 |      |
+|             | klinische Mikrobiologie                                                                                                       |      |
+|             | Systeme III : Pathophysiologie und Klinische Grundlagen                                                                       | HB   |
+| Med3        | Blut - Herz und Kreislauf - Atmung - Nieren                                                                                   |      |
+|             | Verdauung und Abdomen - Endokrines System                                                                                     |      |
+|             | Lokomotion                                                                                                                    |      |
+
+| Nervensystem - Psychische Gesundheit                         |    |
+|--------------------------------------------------------------|----|
+| Gynäkologie und Geburtshilfe                                 |    |
+| Der junge Patient (Pädiatrie)                                |    |
+| Der alte Patient (Geriatrie)                                 |    |
+| Klinische Kompetenzen und Einführung in die Hausarzt-Medizin | DB |
+| Public Health II                                             | Gr |
+| Medical Humanities III                                       | Gr |
+
+In den verschiedenen UE des Studienplans wird auf diverse Lehrund Lernformen zurückgegriffen:
+
+- Vorlesungen tragen  zum  Erwerb  der  notwendigen  Kenntnisse  sowie  zum  Verständnis  der fundamentalen  Konzepte  bei. Traditionelle Vorlesungen  werden  teilweise durch eine umgekehrte  Klasse  (flipped  class) ersetzt.  In  diesem  Fall  liegt  der  Schwerpunkt  für  die Studierenden  auf  die  Vorbereitung  auf  den  Präsenzunterricht  (Falllösung,  Fragen  und Antworten).
+- Übungen ergänzen  die  Vorlesungen  und  tragen  wesentlich  zum  Verständnis  und  zur Verarbeitung  der  Vorlesungsinhalte  bei.  Sie  bieten  Gelegenheit,  die  erlernten  Prinzipien, Techniken und Methoden auf konkrete Probleme anzuwenden.
+- Problem-Orientiertes Lernen (POL , im 2. Studienjahr ) ist eine Form des Kleingruppenunterrichts. Probleme, welche sich auf die Grundlagenmedizin beziehen, werden den Studierenden vorgestellt. Diese müssen dann in Gruppenarbeit oder im Selbststudium die Probleme identifizieren, die Lernziele definieren, die erforderlichen Kenntnisse erwerben und Lösungen und Resultate präsentieren. Im 3. Studienjahr wird das Clinical Reasoning anhand des Lösens  klinischer  Fälle eingeführt  ( apprentissage  par  résolution  de  problèmes -ARP -) .
+- Verschiedene UE  beinhalten das Lernen mittels e-learning (Beispiel: Embryologie, Integrative Physiologie usw.)
+- Praktika veranschaulichen die in den Vorlesungen erworbenen theoretischen Kenntnisse. Sie geben den Studierenden Gelegenheit, Versuche in reellen Situationen durchzuführen, dabei verschiedenste spezifische Techniken anzuwenden, den Beobachtungssinn zu schulen sowie die kritische Analyse und die Interpretation von Resultaten zu üben. Die Praktika in Biochemie und Integrativer Physiologie werden durch Kolloquien vervollständigt.
+- In  den  UE Klinische  Kompetenzen werden  unterschiedliche  Lernsituationen  angewandt, gemäss den vorgegebenen Zielen und dem Ausbildungsstand: Übungen zwischen Studierenden, Simulationen unter Einbezug von Übungspuppen und simulierten Patientinnen und Patienten sowie reelle klinische Situationen .
+- Ein erheblicher Teil der Themen der UE MH wird in Form von Gruppenseminaren erarbeitet.
+- Im Rahmen der UE MH des dritten Jahres schreiben die Studierenden einen Aufsatz, der auf einer reflexiven Beobachtung von Patienten/innen in einer Hausarztpraxis basiert ( reflexive writing ).
+
+## 1.3  Erlangte Kompetenzen
+
+Die Ausbildung BMed bereitet die Studierenden auf das Programm des Master of Medicine vor. Der Inhaber des BMed hat folgende Kompetenzen erlangt:
+
+1. ein  vertieftes  Verständnis  der  naturwissenschaftlichen  Prinzipien  (Physik,  Chemie  und Biologie), welche für das Medizinstudium nötig sind.
+2. vertiefte Kenntnisse der Strukturen und Funktionen des gesunden menschlichen Körpers, im Besonderen derjenigen, die für die ärztliche Berufspraxis von Bedeutung sind.
+3. vertiefte Kenntnisse der klinischen Grundlagenwissenschaften (Mikrobiologie, Pathologie und  Pharmakologie)  und  ein  Verständnis  der  wichtigsten  physiopathologischen  und psychopathologischen Mechanismen.
+4. die  Berücksichtigung  der  psychologischen  und  sozialen  Dimension  von  Krankheit  und Medizin.
+5. die Berücksichtigung des ethischen, rechtlichen  und  ökonomischen  Rahmens  der ärztlichen Berufspraxis sowie das Bewusstsein für die (insbesondere soziokulturelle) Rolle des Arztes, bzw. der Ärztin und der Medizin in unserer Gesellschaft.
+6. die Beherrschung der klinischen Grundfertigkeiten: Anamnese, klinische Untersuchung, Skills und erstes Management von Notfallsituationen.
+7. die  Fähigkeit,  die  vorgenannten  Kenntnisse,  Fertigkeiten  und  Haltungen  auf  klinische Situationen anzuwenden, sprich Anzeichen und Symptome auf der Grundlage pathophysiologischer  Prinzipien und  unter Einbezug  der  persönlichen Situation des Patienten, bzw. der Patientin (Geschlecht, Alter, soziokultureller und -ökonomischer Status) zu erläutern.
+8. die  Fähigkeit,  eine  adäquate  Kommunikation  und  Beziehung  zum  Patienten,  bzw.  zur Patientin herzustellen.
+9. die  Fähigkeit  zur  kritischen  Analyse  medizinischer  Daten  und  das  Verständnis  der Forschungsmethodik in der Medizin.
+10. Eine  Sensibilisierung  gegenüber  den  wichtigsten  Fragen  der  Volksgesundheit  ( Public Health ) und der Gesundheit von Bevölkerungen (Grundsätze der Überwachung und Arten der Prävention) sowie Kenntnisse über das schweizerische Gesundheitssystem.
+
+Dank der zweisprachigen Ausbildung kennen die Studierenden die nötigen Fachbegriffe und sind fähig,  einen  Dialog  mit  Patienten  und  dem  übrigen  Gesundheitspersonal  in  deutscher  und französischer Sprache zu führen.
+
+## 1.4  Bewertung von Unterrichtseinheiten (UE) und Erwerb von ECTSCredits
+
+Der Erwerb von ECTS-Credits erfolgt durch das Bestehen der Anrechnungseinheiten.
+
+Die in der jeweiligen UE erworbenen Kompetenzen werden bewertet (meistens in Form einer Prüfung).  Die  entsprechenden  Modalitäten  sind  im  Anhang  zu  diesem  Studienplan  definiert (Bewertung der UE des BMed). In der Regel werden mehrere Unterrichtseinheiten gemeinsam geprüft.  Die  Prüfungen  finden  während  drei  regulären  Prüfungsperioden  (Sessionen)  statt:  im Winter, im Sommer und im Herbst. Die UE des laufenden akademischen Jahres werden zwei Mal pro Jahr geprüft, davon einmal im Herbst. Die Bewertung der klinischen Kompetenzen im 3. Jahr findet nur einmal pro Jahr statt und zwar im Sommer (Art. 9 al. 2 des Reglements).
+
+Die Studierenden schreiben sich für jede Prüfung unter Einhaltung der von der Math.-Nat. und Med. Fakultät vorgeschriebenen Fristen online auf dem Studierendenportal MyUnifr (http://my.unifr.ch)  ein.  Zugang  gibt  das  persönliche,  von  der  Universität  Freiburg  erstellte Benutzerkonto und Passwort. Die Prüfung betrifft den Stoff der UE, wie er zuletzt gelehrt worden ist. Ausnahmen werden durch die Abteilung und/oder die verantwortliche Lehrperson mitgeteilt.
+
+Die Notenskala reicht von 6 (beste Note) bis 1 (schlechteste Note).  Die Note 1.0 bedingt den Ausschluss.
+
+Die Anrechnungseinheiten fassen  mehrere  UE  zusammen.  Alle  Prüfungen  der  UE  einer  Anrechnungseinheit werden in einer und derselben Session geprüft. Art. 15 des Reglements bestimmt die Anzahl der Anrechnungseinheiten, deren Inhalt im vorliegenden Studienplan festgelegt ist.
+
+Um Zugang zum 2. bzw. 3.  Studienjahr  des  BMed  zu  erhalten,  müssen  die  Studierenden  die 60 ECTS-Credits  des  1.,  bzw.  2.  Studienjahres  erworben  haben.  Die  ECTS-Credits  des  1. Studienjahres müssen bis spätestens Ende des 4. Semesters und die des BMed bis spätestens Ende des 12. Semesters 1 erlangt werden.
+
+Die Anrechnung der ECTSCredits (Art. 16 des Reglements) wird vom Dekanat vorgenommen. Dabei werden die ECTS-Punkte jeder UE werden in ECTS-Credits umgewandelt. Es wird verlangt, dass:
+
+- das gewichtete Mittel der Prüfungsnoten (Zehntel) in der Anrechnungseinheit ≥ 4.0 ist;
+- keine Note 1.0 erteilt wurde;
+- nicht benotete spezifische Evaluationskriterien (aktive Präsenz, Berichte, usw.) erfüllt sind.
+
+Unter diesen Voraussetzungen werden die Anrechnungseinheiten validiert und die ECTS-Punkte in ECTS-Credits umgewandelt. Auf Verlangen des oder der Studierenden und nach Bezahlung der Prüfungsgebühr stellt das Dekanat einen Leistungsnachweis aus, in welchem die Prüfungsresultate und die Anzahl erworbener Credits aufgeführt sind (Art. 21 des Reglements).
+
+Für den Erhalt des BMed muss die oder der Studierende zwingend ein Pflegepraktikum von mindestens  4  Wochen,  ohne  Unterbruch,  absolviert  haben.  Die  Weisungen  betreffend  dieses Praktikums  und  andere  Informationen  sind  auf  der Internetseite der  Abteilung  Medizin veröffentlicht (http://www.unifr.ch/med). Studierende, welche ihren Militärdienst bei den Sanitätstruppen  leisten  oder  bereits  eine  Ausbildung  im  Gesundheitswesen  absolviert  haben (Pflegefachfrau/-mann, Ambulanzfahrer oder -fahrerin), sind von diesem Praktikum befreit.
+
+## 1.5  Unterrichtssprachen
+
+Das Studium des BMed ist zweisprachig (deutsch -französisch): Die Lehrveranstaltungen des BMed finden  in  deutscher  oder  in  französischer  Sprache  statt,  je  nach  Wahl  der  Lehrperson. Prüfungen sowie schriftliche Arbeiten können wahlweise in französischer oder deutscher Sprache absolviert werden.
+
+## 1.6  Wissenschaftsethik
+
+Ethische Prinzipien sind ein integraler Bestandteil der ärztlichen Ausbildung. Bei der Anfertigung einer wissenschaftlichen Arbeit (Projekt, Seminar, Bericht usw.) sind die international anerkannten Regeln zu beachten. Insbesondere sind alle externen Informationsquellen (Fachschriftenartikel, mündliche Mitteilungen, Internetseiten usw.) korrekt zu zitieren. Konsultieren Sie dazu auch die Richtlinien, welche die Schweizerische Akademie  der Medizinischen Wissenschaften zu diesem Thema veröffentlicht hat (http://www.samw.ch/de/Ethik/Richtlinien/Aktuell-gueltige-Richtlinien.html).
+
+## 1.7  Reglemente und ergänzende Informationsquellen
+
+Weitere Informationen zum Humanmedizin Bachelor BMed sind in den Dokumenten enthalten, die auf der Webseite der Fakultät http://www.unifr.ch/scimed/plans sowie auf der Webseite der Abteilung  Medizin  (https://www.unifr.ch/med/de/studies/bachelor/med/)  aufgeführt  sind.  Die
+
+1 Die Prüfungssession im Herbst, welche dem neuen akademischen Jahr vorausgeht, zählt zum Frühlingssemester.
+
+Ausbildung  in  Humanmedizin  unterliegt  alle  sieben  Jahre  einer  Akkreditierung  durch  den Schweizerischen Akkreditierungsrat.
+
+<!-- image -->

@@ -1,0 +1,364 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T23:20:23.707Z",
+  "title": "UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_Minor_60_ECTS-Kreditpunkte__8d56361ee7e7fbf70959880e909165ba4ea2c29b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8d56361ee7e7fbf70959880e909165ba4ea2c29b",
+  "program_key": "|master|60|teacher education for baccalaureate schools",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Pedagogy / Psychology",
+  "doc_label": "Bachelor Minor (60 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_60%20%281197%29%2005%2006%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_60_Teacher_Education_for_Baccalaureate_Schools_Bachelor_Minor_60_ECTS-Kreditpunkte__8d56361ee7e7fbf70959880e909165ba4ea2c29b.pdf",
+  "sha256": "f174aad23ed4fac4fb72a2ed310a38330a120b1805c40d852b33cd1a82c50886",
+  "fetched_at": "2026-04-03T11:26:52.243Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_60%20%281197%29%2005%2006%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BSc_PädPsy_PédPsy_60 (1197) 05 06 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR ERZIEHUNGSWISSENSCHAFTEN
+
+## STUDIENPLAN
+
+## Pädagogik/ Psychologie
+
+Studienprogramm Bachelor Minor 60 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+DEPARTEMENT DES SCIENCES DE L'EDUCATION
+
+## PLAN D'ÉTUDES
+
+## Pédagogie/ Psychologie
+
+Programme d'études Bachelor Minor 60 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen  Zulassungsbedingungen  an  der Fakultät für Erziehungsund Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften (Studienreglement)
+- Richtlinien  vom  17. Oktober  2024  über  die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses  Studienprogramm  richtet  sich  an  Studierende, die ihren Bachelorstudiengang in Pädagogik/Psychologie Minor teilweise auf Deutsch,  teilweise  auf  Französisch  absolvieren möchten  und  so  den  Vermerk  «zweisprachiges Studium, Deutsch/Französisch» erlangen möchten.
+
+Das Bachelorprogramm Pädagogik/Psychologie besteht zur Hälfte aus dem Studium der Erziehungswissenschaften und zur Hälfte aus dem Studium der Psychologie. Es richtet sich damit vor allem  an  diejenigen  Studierenden,  die  auf  dieser Grundlage  das  Lehrdiplom  für  Maturitätsschulen (LDM) für das Fach Pädagogik/Psychologie erwerben möchten. In den Erziehungswissenschaften wird Wissen u.a. über Erziehungsund Bildungsverhältnisse sowie über die Bedeutung des sozialen, gesellschaftlichen, ökonomischen, ökologischen und kulturellen Kontextes für das Aufwachsen und für (schulische) Bildung erworben. In der Psychologie erfolgt eine Auseinandersetzung mit dem kognitiven und affektiven Bereich  menschlichen Erlebens und Verhaltens, mit den Diagnoseund klinischen Behandlungsverfahren sowie den Forschungsverfahren und -instrumenten. Das Programm zeichnet sich insbesondere dadurch aus, dass die Studierenden in wissenschaftlichen und kulturellen Perspektiven  sowohl  aus  dem  deutsch-  als  auch aus dem französischsprachigen Raum ausgebildet werden.
+
+Der Abschluss dieses zweisprachigen Studienprog-ramms  ermöglicht  den  Studierenden einen bedingungslosen Zugang zu den Masterprogrammen in Pädagogik/Psychologie .
+
+## 1 Bases légales
+
+Ce  plan  d'études  suivant  repose  sur  les  bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les  conditions  d'admission  complémentaires  à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Directives  du  17  octobre  2024  relatives  à  la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'études
+
+Ce programme d'études s'adresse aux étudiant∙e∙s qui désirent accomplir leur cursus de Bachelor en Pédagogie/Psychologie Minor en partie en allemand et en partie en français, et ainsi obtenir la mention  « études  bilingues,  allemand/français » sur leur diplôme.
+
+Le programme de Bachelor en Pédagogie/Psychologie se compose pour moitié d'études en sciences de l'éducation et pour moitié d'études en psychologie.  Il  s'adresse  donc  avant  tout  aux étudiant·e·s qui souhaitent obtenir sur cette base le diplôme d'enseignement pour les écoles de maturité  (DEEM)  dans  la  discipline  Pédagogie/ Psychologie. En sciences de l'éducation, on acquiert, entre autres, des connaissances sur les conditions d'éducation et de formation ainsi que sur l'importance du contexte social, économique, écologique  et  culturel  pour  le  développement  et l'éducation et la formation (scolaire). En psychologie,  on  étudie  les  domaines  cognitifs  et affectifs de l'expérience et du comportement humains, les procédures  de diagnostic et de traitement  clinique  ainsi  que  les  méthodes  et  les instruments  de  recherche.  Ce  programme  a  la particularité  de  permettre  aux  étudiant·e·s  d'être formé·e·s aux perspectives scientifiques et culturelles à la fois francophones et germanophones.
+
+L'obtention de ce programme bilingue permet aux étudiant∙e∙s  d'avoir  un  accès  sans  condition  aux programmes  de  Master  en Pédagogie/Psychologie .
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Pädagogik/Psychologie (60 ECTS-Kreditpunkte) kann auf Deutsch, Französisch oder zweisprachig (DeutschFranzösisch) absolviert werden. Nachfolgend wird der  Studienplan  für  den  Erwerb  des  Vermerks «zweisprachiges Studium, Deutsch/Französisch».
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 60 ECTSKreditpunkte, die in 4 Module aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Die Studierenden lernen Grundbegriffe, Theorien, Themenbereiche  und  Forschungsmethoden  der beiden  Bereiche  Erziehungswissenschaften  und Psychologie kennen. Sie werden befähigt, menschliches Denken und Verhalten, deren kontextuellen Bedingungen und gesellschaftlichen, sozialen und pädagogischen Rahmungen zu verstehen und nach aktuellem wissenschaftlichen Erkenntnisstand zu interpretieren und reflektieren.
+
+In  Bezugnahme  auf  den  von  swissuniversities herausgegebenen Qualifikationsrahmen für die Schweizer Hochschulen (2021) sind die Absolvierenden dieses Studienprogramms in der Lage,
+
+- grundlegendes  Wissen  und  Verständnis  aus ihrem  Studienbereich  zu  mobilisieren,  um  die Herausforderungen,  Prozesse,  Kontexte  und Akteurinnen und Akteure im Bereich der Pädagogik/Psychologie in ihrer Vielfalt zu erfassen;
+- relevante  Daten  aus  wissenschaftlichen  und praxisbezogenen Quellen zu erfassen und interpretieren, um qualitativ hochwertige Reflexionen  über  im  Bereich  der  Pädagogik/ Psychologie situierten Problematiken anstellen zu können;
+- einem Fach- und Laienpublikum relevante und fundierte Informationen und  Argumente zu Themen und Herausforderungen im Bereich der Pädagogik/Psychologie zu vermitteln;
+- angemessene Lernstrategien anzuwenden, um ihr Studium mit einem hohen Mass an Selbstständigkeit fortzusetzen.
+
+## 2.2 Langue de la formation
+
+Le  programme  d'études Pédagogie/Psychologie (60 crédits ECTS) peut s'effectuer en français, en allemand ou de manière bilingue (françaisallemand). Ce document présente le plan d'études permettant d'obtenir la mention « études bilingues, français/allemand ».
+
+## 2.3 Conditions et délais d'admission
+
+Le début des études n'est possible qu'au semestre d'automne. Les inscriptions tardives sont autorisées.
+
+## 3 Programme d'études
+
+Le programme d'études comprend 60 crédits ECTS répartis en 4 modules obligatoires.
+
+## 3.1 Objectifs de la formation
+
+Les étudiant·e·s apprennent les concepts de base, les théories, les  thèmes  et  les  méthodes  de recherche des deux domaines : sciences de l'éducation et psychologie. Ils seront en mesure de comprendre la pensée et le comportement humains,  en  tenant  compte  du  contexte  et  des cadres sociaux et éducatifs, afin de les interroger à partir des connaissances scientifiques.
+
+En  référence  au  cadre  de  qualification  pour  les hautes  écoles  suisses  édité  par  swissuniversities (2021), les diplômé·e·s de ce programme d'études sont en mesure de :
+
+- mobiliser des connaissances et une compréhension de base de leur domaine d'études afin d'appréhender dans leur diversité les enjeux, processus, contextes et protagonistes concernés par la pédagogie/ psychologie ;
+- collecter et interpréter des données pertinentes issues de ressources scientifiques et pratiques en vue d'élaborer  une réflexion  de  qualité sur des problématiques situées dans le champ de la pédagogie/psychologie ;
+- communiquer  à  un  public  spécialisé  et  non spécialisé  des  informations  et  des  arguments pertinents et fondés à propos de problématiques et d'enjeux situés dans le champ de la pédagogie/psychologie ;
+- mettre  en  œuvre  des  stratégies  d'apprentissage  adaptées  pour  poursuivre  leurs  études avec un fort degré d'autonomie.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+## 3.2 Structure générale de la formation
+
+| Modul                                                                          |   ECTS | Module                                                                         |
+|--------------------------------------------------------------------------------|--------|--------------------------------------------------------------------------------|
+| Modul 1: Grundlagen der Erziehungswissenschaften                               |     15 | Module 1 : Fondements des sciences de l'éducation                              |
+| Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale |     18 | Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale |
+| Modul 3 : Grundlagenfächer der Psychologie                                     |     12 | Modul 3 : Grundlagenfächer der Psychologie                                     |
+| Modul 4: Vertiefung erziehungswissenschaftlicher Bereiche                      |     15 | Module 4 : Approfondissements en sciences de l'éducation                       |
+
+## Folgende Regelungen gilt es zu beachten:
+
+- 1) Alle  Unterrictseinheiten  (UE)  des  Moduls  2 sollten im ersten Studienjahr absolviert werden. Alle anderen UE können auf die drei Studienjahre verteilt werden. Es gilt zu beachten,  dass  einige  UE  im  Modul  4  nur  im zweijährigen Rhythmus angeboten werden.
+- 2) Um  den  Vermerk  «zweisprachiges  Studium, Deutsch/Französisch» zu erhalten, müssen mind.  40%  der  ECTS-Kreditpunkte,  also  24 ECTS, auf Deutsch und ebenso 40% der ECTSKreditpunkte,  also  24  ECTS,  auf  Französisch erbracht werden. Das Programm ist so strukturiert,  dass  die  Studierenden  mit  allen Pflicht- und Wahlkursen diese Anzahl an ECTSKreditpunkte absolvieren werden.
+- 3) Der Wechsel in ein Studienprogramm der Psychologie ist nicht vorgesehen.
+
+## Les règles suivantes doivent être respectées:
+
+- 1) Toutes les unités d'enseignement (UE) du module 2 doivent être validées au cours de la première année d'études. Toutes les autres UE peuvent être suivies sur les trois années d'études. Il convient de noter que l'UE dans le module 4 ne sont proposées que tous les deux ans.
+- 2) Pour  obtenir  la  mention  « études  bilingues, allemand/français », au moins 40% des crédits ECTS,  soit 24 crédits ECTS,  doivent  être effectués en allemand et 40% des crédits ECTS, soit 24 crédits ECTS, doivent être effectués en français. Le programme est structuré de manière à ce que les étudiant·e·s obtiennent ce nombre  d'ECTS  en  suivant  tous  les  cours obligatoires et à choix.
+- 3) Le changement vers un programme d'études en Psychologie n'est pas prévu.
+
+## 3.3 Struktur der Module
+
+## Modul 1: Grundlagen der Erziehungswissenschaften
+
+In diesem Modul werden die theoretischen Grundlagen der Erziehungswissenschaften im Rahmen von deutsch- und französischsprachigen Unterrichtseinheiten (UE) vermittelt. Zentrale pädagogische  Begriffe  (z. B.  Erziehung,  Bildung, Sozialisation und Lernen) und Phänomene von der frühen  Kindheit  bis  ins  Erwachsenenalter  werden aus erziehungswissenschaftlicher, aber auch aus soziologischer,  anthropologischer,  psychologischer und  philosophischer  Perspektive  beleuchtet,  um ein differenziertes und theoriegeleitetes Verständnis von  Erziehungs-,  Bildungs-,  Sozialisations-  und Lernprozessen sowie ihrer strukturellen Bedingungen zu erhalten.
+
+## 3.3 Structure des modules
+
+## Module 1 : Fondements des sciences de l'éducation
+
+Dans ce module, les bases théoriques des sciences  de  l'éducation  sont  enseignées  dans  le cadre d'unités d'enseignement (UE) en allemand et en français. Les concepts pédagogiques centraux (par ex. éducation, formation, socialisation et apprentissage)  et  les  phénomènes  de  la  petite enfance  à  l'âge  adulte  sont  examinés  dans  une perspective pédagogique, mais aussi sociologique, anthropologique,  psychologique  et  philosophique afin  d'obtenir  une  compréhension  différenciée  et fondée sur la  théorie  des  processus  d'éducation, de  formation,  de  socialisation  et  d'apprentissage ainsi que de leurs conditions structurelles.
+
+| Unterrichtseinheiten / Unités d'enseignement   | Unterrichtseinheiten / Unités d'enseignement             | 15 ECTS   |
+|------------------------------------------------|----------------------------------------------------------|-----------|
+| F23.00044                                      | Allgemeine Erziehungswissenschaft*                       | 3 ECTS    |
+| F23.00050                                      | Erziehungs- und Bildungssoziologie*                      | 3 ECTS    |
+| F23.00001                                      | Introduction aux sciences de l'éducation*                | 3 ECTS    |
+| F23.00008                                      | Anthropologie de l'éducation*                            | 3 ECTS    |
+| F23.00049                                      | International Education Policy*                          | 3 ECTS    |
+| F24.00855                                      | Pädagogische Psychologie I*                              | 3 ECTS    |
+| F23.00018                                      | Introduction à l'ingénierie pédagogique et de formation* | 3 ECTS    |
+| F22.00168                                      | Philosophie de l'éducation *                             | 3 ECTS    |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses  Modul  bietet  8  UE  an.  Die  ersten  4,  fett markierten UE sind obligatorisch. Von den restlichen 4 UE wählen die Studierenden 1 UE aus, um die 15 ECTS-Kreditpunkte zu erhalten, die für die Validierung des Moduls erforderlich sind. Die UE werden mit einer mündlichen  oder  schriftlichen  Prüfung  evaluiert und benotet. Damit das Modul validiert wird, muss jede der 4 obligatorischen UE sowie die 1 gewählte UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung innerhalb des Moduls ist nicht möglich. Wird eine nicht obligatorische UE des Moduls nicht bestanden, kann diese durch eine andere UE  aus den restlichen zur Auswahl stehenden UE  ersetzt werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+* Hinweis:  Für  diese  Unterrichtseinheiten  besteht die Möglichkeit, für einen einzigen Leistungsnachweis  und  nur  ein  einziges  Mal  in diesem Studienprogramm einen dritten Versuch zu erhalten.  Es  gelten  die  Bestimmungen  gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Modalités d'évaluation
+
+Ce  module  propose  8  UE.  Les  4  premières  UE, indiquées  en  gras,  sont  obligatoires.  Parmi  les  4 UE restantes, les étudiant·e·s choisissent 1 UE afin d ' obtenir  les  15  crédits  ECTS  nécessaires  à  la validation du module.  Les  UE  sont  évaluées  et notées par un examen oral ou écrit. Pour que le module soit validé, chacune des 4 UE obligatoires ainsi  que  la  1  UE  choisie  doivent  être  évaluées avec une note suffisante. La compensation d ' une évaluation insuffisante au sein du module n ' étant pas  possible.  En  cas  d ' échec  à  une  UE  non obligatoire du module, celle-ci peut être remplacée par une autre UE parmi les UE restantes à choisir. La  note  du  module  résulte  de  la  moyenne  non arrondie  et  non  pondérée  des  notes  des  unités d'enseignement qui le composent.
+
+* Remarque : Pour ces unités d ' enseignement, il est possible d ' obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d ' études. Les dispositions de l ' art. 24 al. 4 du Règlement des études s ' appliquent.
+
+## Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale
+
+Sont  présentés  dans  ce  module  les  fondements  scientifiques  les  plus  importants  de  la  psychologie.  En psychologie cognitive les fonctions psychiques humaines sont traitées. En psychologie clinique les facteurs biologiques,  sociaux,  cognitifs  et  émotionnels  agissant  sur  les  troubles  psychiques  sont  examinés.  En psychologie développementale les changements liés à l ' âge (perdurant dans le temps et se combinant) touchant l ' expérience et le comportement sur l ' empan total de la vie sont présentés. Le but du module est de  transmettre  aux  étudiant∙e∙s  les  connaissances  essentielles,  théoriques  et  scientifiques  dans  les domaines fondamentaux de la psychologie.
+
+| Unités d ' enseignement   | Unités d ' enseignement                                  | 18 ECTS   |
+|---------------------------|----------------------------------------------------------|-----------|
+| L25.00009                 | Psychologie cognitive                                    | 6 ECTS    |
+| L25.00014                 | Psychologie clinique, Psychopathologie et Psychothérapie | 6 ECTS    |
+| L25.00468                 | Psychologie du développement                             | 6 ECTS    |
+
+## Modalités d ' évaluation
+
+Toutes les unités d ' enseignement (UE) sont obligatoires et font l ' objet d ' une évaluation et d ' une notation sous forme d ' examen écrit et/ou oral. Pour que le module soit validé, les 3 UE doivent être évaluées avec une note suffisante. La compensation d ' une évaluation insuffisante au sein du module n ' étant pas possible. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+## Modul 3: Grundlagenfächer der Psychologie
+
+In diesem Modul werden wichtige inhaltliche Grundlagenfächer der Psychologie vermittelt. Dabei haben die Studierenden  die  Möglichkeit,  aus  einer  breiten  Auswahl  an  Unterrichtseinheiten  in  der  Psychologie entsprechend  ihrem  Interesse  Schwerpunkte  zu  setzen.  In  der  Einführung  in  die  Themenbereiche  der Psychologie werden die aktuell zentralen Praxis- und Forschungsbereiche der Psychologie vorgestellt. Es wird  empfohlen,  diese  Veranstaltung  im  3.  Semester  des  Studiums  zu  besuchen.  In  der  Neurobiologie werden  die  Grundlagen  zu  dem  Aufbau  und  den  Funktionen  von  Nervensystemen  untersucht.  In  der Sozialpsychologie I und II werden die Einflüsse von der realen oder der imaginierten Anwesenheit anderer Menschen auf das Erleben und das Verhalten des einzelnen Individuums erforscht. Es wird empfohlen, zunächst  die  Veranstaltung  Sozialpsychologie  I  und  dann  die  Sozialpsychologie  II  zu  besuchen.  In  der Differentiellen- &amp; Persönlichkeitspsychologie werden die individuellen Unterschiede zwischen den Menschen in Bezug auf einzelne Persönlichkeitsaspekte und auf die gesamte Persönlichkeitsstruktur ergründet. In der Veranstaltung Lernen, Verhaltenserwerb &amp; Adaptation werden die Grundlagen der Lerntheorien sowie ihre Bedeutung für die klinische Psychologie vorgestellt. Die Gesundheitspsychologie bietet eine Einführung in die relevanten biologischen und psychologischen Systeme sowie ihre Interaktionen, die für die Aufrechterhaltung  und  Förderung  von  Gesundheit  eine  Rolle  spielen.  Das  Ziel  des  Moduls  ist  es,  den Studierenden  ein  theoretisches  und  wissenschaftliches  Basiswissen  in  den  Grundlagenfächern  der Psychologie zu vermitteln sowie den Studierenden einen kritisch-reflektierten Einblick in die aktuell wichtigen Praxis- und Forschungsgebiete der Psychologie zu bieten.
+
+| Unterrichtseinheiten   | Unterrichtseinheiten                                                        | 12 ECTS   |
+|------------------------|-----------------------------------------------------------------------------|-----------|
+| L25.00016              | Einführung in die Themenbereiche der Psychologie                            | 3 ECTS    |
+| SPY.01001              | Neurobiologie I                                                             | 3 ECTS    |
+| SPY.02001              | Neurobiologie II                                                            | 3 ECTS    |
+| L25.01030              | Sozialpsychologie I                                                         | 3 ECTS    |
+| L25.01031              | Sozialpsychologie II                                                        | 3 ECTS    |
+| L25.00037              | Einführung in die Persönlichkeitspsychologie und Differentielle Psychologie | 3 ECTS    |
+| L25.01052              | Lernen, Verhaltenserwerb & Adaptation                                       | 3 ECTS    |
+| L25.01205              | Health psychology                                                           | 3 ECTS    |
+
+## Evaluation der Unterrichtseinheiten:
+
+Dieses Modul besteht aus 7 inhaltlich verschiedenen Unterrichtseinheiten (UE), die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden. Damit das Modul validiert wird, müssen insgesamt 12 ECTS-Kreditpunkte erfolgreich absolviert werden. Alle gewählten UE müssen mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere UE aus den restlichen zur Auswahl stehenden UE in diesem Modul ersetzt werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## Modul 4: Vertiefung erziehungswissenschaftlicher Bereiche
+
+In diesem Modul setzen sich die Studierenden mit verschiedenen  Fragen,  Themen  und  Handlungsfeldern der Erziehungswissenschaften auseinander: Wie  werden  Kinder  zu  Subjekten  der  Erziehung und Bildung? Welche Bedeutung haben das soziale  Umfeld, pädagogische Institutionen sowie gesellschaftliche  und  politische  Bedingungen  für Bildungsprozesse? Welche Bildungsmöglichkeiten werden in Familie, peer group und professionalisierten  Kontex-ten  eröffnet?  Zudem verdeutlich das Modul einerseits, wie wichtig es ist, dass jeder pädagogische Ansatz auf einer soliden Kenntnis der (körperlichen, kognitiven, emotionalen, zwischenmenschlichen und sozialen) Entwicklung von Kindern und Jugendlichen basiert. Zudem bietet es den Studierenden die Möglichkeit, Kenntnisse und Kompetenzen in für den Unterricht wichtigen Themenbereichen zu erwerben: Beziehungen zwischen Lehrenden und Lernenden; Lernschwierigkeiten. Im Rahmen der UE in diesem Modul vertiefen die Studierenden ihr in den Modulen 1 und 2 erworbenes Wissen in Problemstellungen und Bereichen der Erziehungswissenschaften.
+
+## Module 4 : Approfondissements en sciences de l ' éducation
+
+Dans ce module, les étudiant·e·s abordent différentes questions, thématiques et champs d'action liés aux sciences de l' éducation : comment les enfants deviennentils des sujets d'éducation et de formation ? Quelle est l ' importance de l ' environnement social, des institutions pédagogiques et des conditions sociales et politiques pour  les  processus éducatifs ? Quelles possibilités éducatives s'ouvrent dans la famille, le groupe de pairs et les contextes professionnels ? En outre, le module souligne l'importanc e de fonder toute approche éducative sur une bonne connaissance du développement (physique, cognitif, affectif, relationnel et social) de l'enfant et de l'adolescent∙e. Il offre également aux étudiant∙e∙s la possibilité d' acquérir des connaissances et compétences dans les domaines thématiques importants pour l ' enseignement : les relations  entre  enseignants  et  apprenant∙e∙s ;  les difficultés d ' apprentissage. Dans le cadre de l ' UE de ce module, les étudiant∙e∙s approfondissent les connaissances acquises dans les modules 1 et 2 sur  des  problématiques  et  des  domaines  des sciences de l ' éducation.
+
+| Unterrichtseinheiten / Unités d'enseignement   | Unterrichtseinheiten / Unités d'enseignement          | 12 ECTS   |
+|------------------------------------------------|-------------------------------------------------------|-----------|
+| F23.00115                                      | Subjekt, Individuum, Selbst                           | 3 ECTS    |
+| F23.00122                                      | Soziale Institutionen                                 | 3 ECTS    |
+| F23.00140                                      | Professionalisierung                                  | 3 ECTS    |
+| F23.00141                                      | Gesellschaft und Politik                              | 3 ECTS    |
+| F23.00007                                      | Apprentissage, mémoire et motivation                  | 3 ECTS    |
+| F23.00004                                      | Séminaire Processus d'apprentissage et d'enseignement | 3 ECTS    |
+| F23.00006                                      | Psychopédagogie de l'adolescence                      | 3 ECTS    |
+| F24.00816                                      | Relations et affectivité en classe                    | 3 ECTS    |
+| F23.00010                                      | Soutien à l'apprentissage                             | 3 ECTS    |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses Modul besteht aus 9 verschiedenen UE à 3 ECTS-Kreditpunkten,  die  mit  einer  mündlichen oder  schriftlichen  Prüfung  evaluiert  und  benotet werden. Obligatorisch müssen 4 UE belegt werden.  Damit  das  Modul  validiert  wird,  müssen alle  4  gewählten UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine  UE  nicht  bestanden,  kann  diese  durch  eine andere UE aus den restlichen zur Auswahl stehenden UE in diesem Modul ersetzt werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich dreissig Arbeitsstunden für die Studierenden. ECTS-Kreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Die oder der Dozierende informiert über die genauen Modalitäten der Evaluation der Unterrichtseinheit. Die Bewertung einer UE kann in einem Teil oder in mehreren Teilen erfolgen, die während des Semesters und/oder während einer Prüfungssession durchgeführt  werden  können.  Die  Bewertungen können in Form einer mündlichen oder schriftlichen Prüfung, einer schriftlichen Arbeit, eines Vortrags, eines  Berichts,  eines  Portfolios,  einer  komplexen Aufgabe, einer Validierungsaktivität usw. erfolgen. Bei  einer  mehrteiligen  Bewertung  erhalten  die Studierenden, die nicht an allen Teilen teilnehmen, eine ungenügende Bewertung.
+
+Die Angaben zur Bewertung der Lehrveranstaltungen sowie die Modalitäten für die Erstellung und Abgabe der schriftlichen Arbeiten finden sich in den Lehrveranstaltungsbeschreibungen im Vorlesungsverzeichnis der Universität Freiburg. Bezüglich der französischsprachigen Lehrveranstaltungen lassen sich weitere Informationen dem «Guide de rédaction des travaux écrits» entnehmen, hinsichtlich der  deutschsprachigen  Lehrveranstaltungen  dem «Schreibleitfaden»  sowie  den  Richtlinien  für  die Seminar- und Bachelorarbeit. Die entsprechenden Dokumente sind auf der Homepage des Departements für Erziehungswissenschaften ersichtlich.
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich absolviert wurden.
+
+## Modalités d'évaluation
+
+Ce  module  propose  9  UE  différentes,  chacune valant 3 crédits ECTS qui sont évaluées et notées par un examen oral ou écrit. Il est obligatoire de suivre 4 UE. Pour que le module soit validé, les 4 UE choisies doivent être évaluées avec une note suffisante. La compensation d'une évaluation insuffisante n'étant pas possible. En cas d' échec à une UE du module, celle-ci peut être remplacée par une autre UE parmi les UE restantes à choisir. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un  crédit  ECTS  représente  en  moyenne  trente heures  de  travail  pour  l'étudiant·e.  Les  crédits ECTS sont attribués sur la base d'unités d'enseignement  jugées  suffisantes  (art. 3  chif. 7 et 14 du Règlement des études).
+
+L'enseignant · e informe les étudiant∙e∙s des modalités précises d'évaluation. L'évaluation d'une UE peut s'effectuer en une ou plusieurs parties qui peuvent être réalisées pendant le semestre et/ou pendant  une  session  d'examen.  Les  évaluations peuvent prendre la forme d'un examen oral ou écrit, d'un  travail  écrit,  d'un  exposé,  d'un  rapport,  d'un portfolio,  d'une  tâche complexe, d'une activité de validation, etc. Dans  le cas d'une évaluation constituée de plusieurs parties, l'étudiant·e qui ne participe pas à toutes les parties obtient un échec à l'évaluation.
+
+Les indications concernant l'évaluation des UE de même que les modalités  pour  la  réalisation  et  la remise  des  travaux  écrits  sont  précisés  dans  les descriptifs des UE dans le programme des cours de l'Université de Fribourg. Pour les UE en français, des informations supplémentaires sont disponibles dans le « Guide de rédaction des travaux écrits », pour celles en allemand dans le « Schreibleitfaden » ainsi que dans les directives relatives aux travaux de séminaire et au Travail de Bachelor. Ces documents correspondants sont disponibles sur le site internet du Département des sciences de l'éducation.
+
+Les  unités  d'enseignement  sont  regroupées  en modules. Un module est validé une fois que toutes les unités d'enseignement qui le composent ont été réussies.
+
+## 4.2 Anerkennung
+
+Alle  UE  dieses  Studienprogramms  können  durch eine  formale  Anerkennung  (im  Sinne  von  Art.  3 Abs. 5  Anerkennungsrichtlinien)  und  im  Rahmen der  maximal  vorgesehenen  Anzahl  von  ECTSKreditpunkten (Art. 3 Abs. 1) angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die Studierenden müssen sich für jede Unterrichtseinheit  und  jede  Evaluation  über  den virtuellen Schalter gemäss  dem  Kalender  der Fakultät  einschreiben  (Art.  33  und  34  Studienreglement). Nicht eingeschriebene Studierende haben keinen Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Keine Unterrichtseinheit wird ausserhalb der Sessionen evaluiert.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder  «nicht  bestanden».  Die  für  die  benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben,  die  Noten  unterhalb  von  4  für  nicht bestandene  Leistungsnachweise  (Art. 22  und  23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden.  Gegebenenfalls  muss  sich  die  oder  der Studierende für den zweiten Versuch wieder einschreiben. Falls sie oder er den zweiten Versuch nicht  besteht,  gilt  diese  Unterrichtseinheit  oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für das betreffende Studienprogramm zuständigen Departementssekretariat  können  Studierende  in jedem  Studienprogramm  der  Fakultät  für  einen einzigen  Leistungsnachweis  und  nur  ein  einziges Mal einen dritten Versuch erhalten. Falls notwendig wird  für  diesen  dritten  Versuch  eine  zusätzliche Prüfungssession  gewährt.  Besteht  die  oder  der Studierende  diesen  einmaligen  dritten  Versuch nicht, so hat sie oder er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+## 4.2 Reconnaissances
+
+Toutes les UE de ce programme d'études peuvent être  validées  par  le  biais  d'une  reconnaissance formelle  (au  sens  de  l'art. 3  al. 5  des  Directives reconnaissances),  dans  la  limite  du  nombre  de crédits ECTS maximal prévu (art. 3 al. 1).
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du  Règlement  des  études).  Un·e  étudiant·e  noninscrit·e ne peut pas prétendre à une évaluation.
+
+## 4.4 Unités d'enseignement hors session
+
+Aucune unité d'enseignement n'est définie comme hors session.
+
+## 4.5 Notation
+
+Les évaluations  sont  notées  ou  font  l'objet  d'une décision  « réussi »  ou  « échoué ».  L'échelle  de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 22 et 23 du Règlement des études).
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e  ne  réussit  pas  la  deuxième  tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module. Sur demande auprès du secrétariat du Département, l'étudiant·e peut obtenir l'accès à une troisième tentative, pour une seule évaluation et une seule fois dans chaque programme d'études de la Faculté. Si nécessaire, une session d'examens supplémentaire est accordée pour cette troisième  tentative.  S'il/elle  ne  réussit  pas  cette unique  troisième  tentative,  il/elle  est  en  échec définitif à l'unité d'enseignement ou au module.
+
+Les  unités  d'enseignement  pour  lesquelles  une troisième  tentative  est  autorisée  sont  précisées dans le chapitre 3.3.
+
+En cas d'échec définitif  dans  un  programme d'études, l'étudiant·e ne peut plus poursuivre ses études dans ce programme d'études pendant une période de cinq ans à partir de la session
+
+Die Unterrichtseinheiten, für die ein dritter Versuch erlaubt ist, sind in Kapitel 3.3 aufgeführt.
+
+Wird ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann  nicht  fortgesetzt  werden,  wenn  eines  der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE wurde innerhalb von vier Prüfungssessionen nicht bestanden (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen  oder  gerechtfertigter Abwesenheit);
+- die  maximal zulässige Studiendauer  gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Die Abschlussnote ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der validierten Module dieses Studienprogramms;  die  Note  eines  Moduls  ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt  der  Noten  der  Unterrichtseinheiten, aus  denen  es  sich  zusammensetzt  (Art.  41  des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester  2025  in  Kraft.  Er  gilt  für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum Zeitpunkt des Inkrafttretens dieses Studienplans bereits im Bachelorprogramm Pädadogik/Psychologie , Bereich II, 60  ECTSKreditpunkte  der  Philosophischen  Fakultät eingeschrieben waren, unterliegen diesem Studienplan. Die vollständige  Anerkennung der  erworbenen ECTS-Kreditpunkte ist gewährleistet. Während der Übergangszeit entscheidet die Studienprogrammverantwortliche, welche Unterrichtseinheiten gemäss diesem  Studienplan  diejenigen  ersetzen, die eventuell nicht mehr angeboten werden.
+
+d'examens concernée (art. 24  du  Règlement  des études).
+
+Les  études  sont  considérées  comme  échouées définitivement et ne peuvent être poursuivies si l'un des critères suivants est rempli :
+
+- l'UE obligatoire n'a pas été validée lors des deux tentatives (exception faite de l'éventuelle troisième tentative) ;
+- l'UE obligatoire n'a  pas  été  validée dans  les quatre  sessions  (exception  faite  du  report  de session en raison de conflit horaire ou d'absence justifiée) ;
+- la  durée  maximale  autorisée  pour  les  études (selon  art. 10  du  Règlement  des  études)  est dépassée.
+
+## 4.7 Note finale
+
+La note finale résulte de la moyenne non arrondie et non pondérée des notes des modules validés de ce  programme  d'études  ;  la  note  d'un  module résulte de la moyenne  non  arrondie et non pondérée des notes des unités d'enseignement qui le composent (art. 41 du Règlement des études).
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le  présent  plan  d'études  entre  en  vigueur  au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.
+
+L'étudiant·e qui, au moment de l'entrée en vigueur du présent plan d'études, était déjà inscrit·e dans le  programme  Bachelor  en Pédagogie/Psychologie , domaine II, 60 crédits ECTS de la Faculté des lettres et des Sciences humaines est soumis·e au présent plan d'études. Une reconnaissance complète des crédits acquis est garantie. Durant la période transitoire,  le  ou  la  responsable  de  programme d'études décide quelles unités d'enseignement selon le présent plan d'études remplacent les unités qui ne seraient éventuellement plus proposées.

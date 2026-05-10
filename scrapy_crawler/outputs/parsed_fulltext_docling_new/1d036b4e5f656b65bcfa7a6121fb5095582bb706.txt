@@ -1,0 +1,434 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T16:52:42.757Z",
+  "title": "Theology_Bachelor_60_Theology_Concrete_avenues_for_doctoral_students_and_those_supervising_them_1d036b4e5f656b65bcfa7a6121fb5095582bb706",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1d036b4e5f656b65bcfa7a6121fb5095582bb706",
+  "program_key": "theology|bachelor|60|theology",
+  "faculty": "Theology",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Theology",
+  "doc_label": "Concrete avenues for doctoral students and those supervising them",
+  "source_url": "https://www.unifr.ch/theo/fr/assets/public/doc%2520etudes/Booklet_ConditionsPhD_2020.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "http://studies.unifr.ch/go/llH5R",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Theology_Bachelor_60_Theology_Concrete_avenues_for_doctoral_students_and_those_supervising_them_1d036b4e5f656b65bcfa7a6121fb5095582bb706.pdf",
+  "sha256": "0e3390c736d097f1430642fbbeea0863696715a7e7a9d64c271dd63bd988e257",
+  "fetched_at": "2026-04-03T11:31:55.476Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/fr/assets/public/doc%2520etudes/Booklet_ConditionsPhD_2020.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## CONDITIONS FOR THE SUCCESS OF DOCTORAL SUPERVISION
+
+Concrete avenues for doctoral students and those supervising them
+
+Publication of the Centre for Faculty Development at the University of Fribourg (Switzerland) with the financial support of swissuniversities
+
+Authors: Dr Marie Lambert, Dr Colette Niclasse &amp; Prof. Dr Bernadette Charlier
+
+Translation : Alan McCluskey
+
+Graphic design: Sandra Gellura
+
+Illustrations: Sébastien Niclasse
+
+Fribourg, 01.12.2020 (second, revised and expanded edition)
+
+<!-- image -->
+
+## TABLE OF CONTENTS
+
+| PREFACE                                                      |   3 |
+|--------------------------------------------------------------|-----|
+| CONDITIONSANDMEASURESTO FACILITATE DOCTORAL JOURNEY          |   4 |
+| INDIVIDUAL CHARACTERISTICS AND CONTEXTUAL FACTORS            |   5 |
+| Individual characteristics                                   |   5 |
+| Organizational context                                       |   6 |
+| Socio-professional environment                               |   6 |
+| Personal circle                                              |   7 |
+| Variable configurations                                      |   7 |
+| ACTING AND INTERACTING IN SITU                               |   8 |
+| Progressing by managing instability                          |   8 |
+| Having a sufficient base of resources                        |   9 |
+| Shared responsibilities                                      |  11 |
+| RECOMMENDATIONSFOR DOCTORAL STUDENTS                         |  12 |
+| Taking stock of the situation                                |  12 |
+| Communicating and creating a personal network                |  12 |
+| Seizing opportunities                                        |  13 |
+| Taking care of yourself                                      |  14 |
+| RECOMMENDATIONSFOR THOSE SUPERVISING DOCTORAL STUDENTS       |  15 |
+| Getting involved and setting up a transparent framework      |  15 |
+| Encouraging the development of autonomy                      |  16 |
+| Encouraging the development of competence                    |  17 |
+| Supporting affiliation                                       |  18 |
+| Developing as a supervisor                                   |  18 |
+| REFERENCES ANDADDITIONAL RESOURCES                           |  19 |
+| MAIN REFERENCES                                              |  19 |
+| ADDITIONAL RESOURCES FOR DOCTORAL STUDENTS                   |  19 |
+| Suggested readings                                           |  19 |
+| Vignettes                                                    |  20 |
+| Guides for doctoral students                                 |  20 |
+| Tools                                                        |  20 |
+| ADDITIONAL RESOURCES FOR THOSE SUPERVISING DOCTORAL STUDENTS |  21 |
+| Suggested readings                                           |  21 |
+| Vignettes                                                    |  22 |
+| Documents                                                    |  22 |
+| Tools                                                        |  23 |
+| NOTES                                                        |  24 |
+
+5
+
+6
+
+6
+
+7
+
+7
+
+8
+
+9
+
+## PREFACE
+
+Under what conditions can one successfully complete a thesis?
+
+If you have taken the trouble to pick up this brochure and read these few lines, this is probably a question for you.
+
+Under what conditions does one build useful and relevant knowledge, which, in addition to being one's own work, will be acknowledged and integrated by a scientific community whose backing is essential to be a researcher? Under what conditions and thanks to what accompanying and support  measures  can one  build  such  knowledge  while  preserving  physical  and  mental  wellbeing?
+
+If you are a supervisor, you might be saying to yourself 'I know, because I did it!'. If you are a doctoral student, you certainly think that you can draw on your experience of the Masters. Of course, you are right. Your experience matters a lot. But the fact remains that each new thesis is a unique human adventure, the conditions for the success of which are largely unknown.
+
+The advice you will find in this brochure is not purely a fruit of common sense. It is founded on two research studies, two 'theses on the thesis', carried out in Fribourg and acknowledged for their scientific quality. Its authors have summarized here the key elements from the literature and their own research and have come up with possible avenues forward that you can interpret according to your context and your discipline.
+
+Enjoy the read, and may your adventure be happy and rewarding!
+
+Prof. Dr Bernadette Charlier
+
+## CONDITIONS AND MEASURES TO FACILITATE DOCTORAL JOURNEY
+
+The  doctorate  is  a  demanding  journey,  comparable  to  a  long  rollercoaster  ride  where contentment, stress, anxiety, pride, relief, hope, interest, frustration and doubt alternate. As a result  of  this  instability,  the  initial  motivation,  nourished by the  prospect  of professional  and personal enrichment, may wane, while the known risks of harm to mental health increase. This
+
+<!-- image -->
+
+deterioration is notably attributable to the fact that doctoral students are  often  insufficiently  prepared  for  the  multiple,  complex  tasks involved in carrying out their research, but also the teaching activities entrusted to them. At the same time, supervisors do not necessarily have the tools to supervise them optimally, or do not use them.
+
+This brochure is intended for doctoral students and those who supervise them so they can design and implement, individually and jointly, the conditions and measures to facilitate the career of doctoral students while preserving their physical and psychological well-being.
+
+Its  contents  are  drawn  from  two  doctoral  theses  in  Educational  Sciences  (Lambert,  2013; Niclasse, 2019). The first is devoted to the professional development of teaching assistants in higher  education,  and more specifically to  the complexity  and  richness  of  their  research  and teaching  experience  (Lambert,  2013).  It  aims  to  describe  and  understand  the  individual  and organizational configurations that can be a source of professional development, as well as the different  ways  in  which  these  transformations  come  about, by  analysing  the products  of  the process. The second thesis explores the emotional experiences of doctoral students on a daily basis in order to highlight the key moments in their individual development and transformation process in interaction with their environment (Niclasse, 2019). It aims to understand what is required for them to learn and develop in suitable conditions, while preserving a state of wellbeing  capable  of  supporting  this  process.  Adopting  a  holistic  perspective,  the  two  studies examine, each in its own way and with specific theoretical foundations, the goals pursued by doctoral  students  and  the  meaning  they  give  to  their  training,  the  individual  and  situational conditions of their transformation and professional development, the strategies they implement in these processes and the learning achieved. The results which were complementary in several
+
+aspects were obtained by means of mixed designs (combining questionnaires and interviews), from samples of teaching assistants and doctoral students benefiting from a scholarship and/or registered as external students at the University of Fribourg. These different categories will be referred to in the rest of this brochure in a unified manner as 'doctoral students'.
+
+The  following  chapter  provides  a  summary  of  the  theoretical  foundations  on  which  the recommendations presented in the second part of this brochure are based.
+
+## INDIVIDUAL CHARACTERISTICS AND CONTEXTUAL FACTORS
+
+Different  parameters  come  into  play  in  the  transformation  and  professional  development processes of doctoral students.
+
+## Individual characteristics
+
+Individual characteristics are a central element of professional and personal development. In particular, they include:
+
+-  Intrinsic existential aspirations (fulfilment and self-actualization, authentic and harmonious relationships, social contribution), the goals pursued and the motivations for the doctorate (curiosity, intellectual stimulation, desire to learn and develop skills, aspiration to improve knowledge of a subject related to their interests, perceived usefulness of the diploma) and, where applicable, for assistantship (interest in teaching and supporting students, development of teaching skills).
+-  Other components of eudemonic well-being, namely the satisfaction of basic psychological needs (autonomy, competence, affiliation; see pages 9-10).
+-  Professional objectives and career plans (research and teaching in universities and higher education, managerial positions in the public or private sector).
+-  Scientific and educational knowledge, prior experience and skills in teaching and research.
+-  Personal skills such as critical reflexivity and self-direction (ability to manage professional development by setting goals and implementing appropriate strategies to achieve them).
+
+## Organizational context
+
+The organizational context corresponds to the global environment and the general climate in which doctoral students evolve, and encompasses the resources the institution makes available, or not. These include the regulations, the terms of engagement and remuneration, the working conditions, the infrastructure and the institutional policies regarding the supervision of doctoral students. Two important elements are:
+
+-  The possibility for doctoral students to participate in support programmes for research and teaching activities (e.g. doctoral programmes, pedagogical training, mentoring programmes, workshops and seminars). These courses are highly valued by doctoral students, because they provide specific practical tools as well as opportunities to discuss with peers and experts outside of the supervisory relationship.
+-  Offers  of  psychological  and  social  support  within  the  institution  (e.g.  service  for  gender equality, social service, psychological counselling, chaplaincy). These provide contact with people  who  know  the  university  world  and  are  subject  to  professional  secrecy.  It  is regrettable that suffering doctoral students tend to seek help outside the institution (Waight &amp;  Giordano,  2018,  cited  in  Niclasse,  2019),  perhaps  out  of  fear  of  being  stigmatized  or because they are not aware what is on offer, particularly at the start of their doctorate.
+
+## Socio-professional environment
+
+On a daily or occasional basis, doctoral students interact with different categories of people, all of whom play an important part in their various activities:
+
+-  Supervisors (main thesis supervisor and other people involved in supervision). As the main relays of learning and support for doctoral students, they play a central role. However, this role can be ambiguous, or perceived as such (e.g. the dual status of thesis supervisor and manager of the assistantship).
+-  Peers and colleagues (other assistants and doctoral students, more experienced teachers and researchers). These people act as valuable resources for research and teaching, including through opportunities for exchange and mutual support provided informally. A climate of trust, solidarity and collaboration within work teams promotes the professional and personal development of doctoral students. Conversely, an atmosphere marked by competition and rivalry hinders them.
+
+-  Members  of  the  wider  scientific  community,  met  at  congresses,  conferences,  training sessions, or during scientific collaboration, etc. If based on trust and goodwill, which is often the  case,  such  exchanges  with  senior  researchers  can  provide  sound  benchmarks  and learning opportunities. They reassure doctoral students of the value and relevance of their contributions and generate criticism and constructive suggestions for improvement. While allowing doctoral students to gradually feel part of the scientific community, they offer the opportunity to rely on or free themselves from professional models and ideals, beyond the figure embodied by their supervisor.
+
+## Personal circle
+
+Made up of family  and  friends,  this  personal  circle  can  provide  fundamental  emotional  and practical support for doctoral students. Nevertheless, it can also be a source of conflict by placing demands on personal resources of doctoral students through responsibility and duties.
+
+In addition, some students may have the impression that members of their personal entourage do not really understand their experiences, as they do not or insufficiently know the academic world, its problems and issues. As a result, the family and relatives may not only be considered a beneficial resource during the doctorate.
+
+## Variable configurations
+
+Personal  and  contextual  conditions  are  not  fixed  once  and  for  all,  nor  dissociated  from  one another.  Throughout  the  doctorate,  a  key  period  at  the  beginning  of  a  career,  they  interact dynamically taking on variable configurations that can be more or less favourable to professional development. Hence the importance of optimizing these conditions and their interactions, so that  each  doctoral  student  (given  his  or  her  history,  values,  aspirations,  representations, characteristics,  personal  context  and  skills)  can  take  advantage  of  the  opportunities  the professional environment offers and find a place in the scientific community.
+
+While training offers (e.g. doctoral programmes, pedagogical training) represent an important avenue for professional development, doctoral students learn just as much - if not more - from interacting with members of their professional entourage and/or the scientific community on a daily basis as well as by carrying out research and teaching activities. These workplace learning
+
+opportunities should be recognized and valued alongside participation in more formalized setups.
+
+## ACTING AND INTERACTING IN SITU
+
+The doctorate is a transformation and development process that involves establishing a variety of specific, transversal knowledge and skills as well as a professional posture and identity. On the one hand, this is achieved through meaningful research and teaching activities, and on the other by  contributing  to  those  social  interactions  in  which  these  activities  take  place.  However, participating  and  interacting  do  not  necessarily  lead  to  growth.  Certain  levers  can  facilitate learning in situ.
+
+## Progressing by managing instability
+
+Doctoral students are confronted on a daily basis with situations in which they lack knowledge or which require ways of thinking or doing that challenge how they currently see and act in the world,  or  how  they  think  of  themselves  as  (future)  professionals.  These  moments  of destabilization offer learning opportunities which can, under certain conditions, lead them to transform and develop themselves, to restructure their ways of seeing, thinking and acting, and to  experience  pivotal  moments,  thresholds  that  lead  to  a  deeper,  more  complex  level  of understanding.
+
+Learning opportunities take on a particular meaning depending on the stage in the doctorate. It can  be  broken  down  schematically  into  three  phases  with  permeable  boundaries.  At  the beginning of the doctorate, learning focuses particularly on the construction and mobilization of knowledge, the appropriation of codes and standards, allowing doctoral students to build their research and position as a novice researcher within the scientific community. The middle of the process  is  marked  by  a  detachment  from  his  or  her  experiences  and  achievements  and  the development of a "meta" position, which will lead them to see other ways of organizing ideas (divergent thinking), in particular thanks to the confrontation with unpublished data collected and analysed during this period. The final phase, leading to the completion of the doctorate, is marked by critical reflexivity vis-à-vis the reference frameworks being used, resulting in original
+
+proposals that can contribute to science. For doctoral students this period implies developing presentations  and  written  work  and  taking  responsibility  for  them.  Doing  so  allows  doctoral students to learn to assert their ideas and their posture as researcher with a view to these being acknowledged by members of the scientific community. This learning is finally put to the test during  the  defence  of  the  thesis,  an  academic  ritual  both  feared  and  awaited  by  doctoral students. Information and advice from supervisors is therefore invaluable in enabling them to prepare appropriately, both with regard to formal and administrative requirements, but also the unspoken habits and rules that permeate this particular exercise.
+
+This transformation and development process is costly in cognitive, motivational and affective resources. It requires an effort. On the one hand, countering the human tendency to maintain a certain stability in systems of representations and beliefs. On the other, accepting and managing the  momentary  destabilization,  which  can  be  uncomfortable  and  leave  insecure.  Indeed, (re)building one's knowledge by mobilizing what has been learnt and reorganizing it to integrate new elements requires  an  active  commitment  to  constructively  manage  the  imbalance.  This potentially causes ambivalent emotions (satisfaction at developing understanding, anxiety linked to a momentary loss of bearings, etc.).
+
+## Having a sufficient base of resources
+
+Creating  and  maintaining  a  sufficient  base  of  resources  is  essential  to  be  able  to  engage  in activities which, like the doctorate, require special effort. This foundation is, for the most part, constituted by satisfying three fundamental basic psychological needs that are interdependent and present in each individual (Ryan &amp; Deci, 2017, cited in Niclasse, 2019):
+
+-  Autonomy: having the opportunity to express oneself, to make choices, to initiate  one's  actions  and  to  regulate  them  in  line  with  one's  values, aspirations, goals and interests - without becoming isolated.
+-  Competence: having the opportunity to rise to challenges adapted to one's abilities and to seize  opportunities to develop one's skills; being able to see that one masters what one undertakes and to feel progress.
+
+<!-- image -->
+
+-  Affiliation: experiencing others as receptive and sensitive, as able to reciprocate; being able to form authentic, warm relationships, suffused with benevolence and trust, consideration for who one is and mutual support.
+
+The  concomitant  satisfaction  of  these  three  basic  needs  promotes  well-being  which,  in  turn, confers the vitality and energy that allows a creative and non-defensive approach to daily life. When  supported  by  supervisors,  teams,  colleagues  and  other  members  of  the  scientific community, the  learning  and  professional  development  process  is  significantly  facilitated  for doctoral students. Thus, they can:
+
+-  (Re)engage  in  and  (re)appropriate  their  actions  by  acting  intentionally  (autonomy)  and position themselves within their scientific community in a context where codes, standards and practices are still too often implicit.
+-  Understand and appropriate what has been done before them and master tools, acts and ways  of  thinking  employed  and  valued  by  their  community  by  accessing  higher,  more complex and critical levels of understanding (competence) that allow them to subsequently evolve.
+-  Progress in a sphere of trust that provides psychological security and support (affiliation) which makes it possible for them to be momentarily destabilized, without fear of getting lost or of being subject to reprisals. As a result, they benefit from the reinforcing effect of these relationships and are open to feedback and guidance while exercising the intellectual and emotional freedom that allows them to collaborate, take risks, create and innovate.
+-  Achieve  the  institutional  objective  of  contributing  to  science  and  society  set  for  the obtention of a doctorate.
+
+Actors  in  the  socio-professional  environment play  a  central  role  in  transmission  by  providing benchmarks  and  supporting  the  acquisition  of  tools  for  critical  reflexivity.  In  addition  to supporting learning and professional development, these human resources help reduce the risk of  drop-out  or  even  the  deterioration  of  doctoral  students'  health.  More  and  more research indeed reveals the worrying psychological state in which a majority of them find themselves (exhaustion, burnout, depression), revealing isolation, intense and chronic stress and a feeling of helplessness well beyond what would be expected from the management of the normal hazards
+
+of any research process (see additional resources, in particular Levecque et al., 2017; Schmidt &amp; Hansson, 2018).
+
+## Shared responsibilities
+
+Doctoral students are primarily responsible for their studies, their commitment, the way they invest and make use of the supervision and the support framework provided. On the other hand, they have no grip over the number and quality of learning opportunities offered. These are the educational responsibility  of the  people  and  institutions  supervising  the  future  generation  of researchers.  This  is  why  specific  recommendations  are  proposed  below,  both  for  doctoral students and supervisors.
+
+## RECOMMENDATIONS FOR DOCTORAL STUDENTS
+
+<!-- image -->
+
+As a doctoral student, it is up to you to regularly reflect on your situation and, if necessary, actively seek appropriate solutions. Some actions make it possible to  anticipate  potential  problems,  others  to  find  ways  of  remedying difficulties already identified.
+
+## Taking stock of the situation
+
+-  Consider your personal values, interests, goals and motivations, in connection with your doctoral project and your life in general, and be aware of what is important to you, of what leads to progress, but also of your contradictions (which may pose an increased risk to mental health). The aim is not to attain a precise, fixed vision of these considerations, but rather to pay attention to the drivers behind your actions in order to be able to act intentionally (rather than react) should it prove necessary.
+-  Examine your personal situation  and  the  conditions  in  which  the  doctorate  is  to  take place.  Discuss  the  implications  of  choosing  to  do  a  doctorate  with  those  close  to  you (partner, children, family) whose daily lives will be impacted by this long-term project.
+-  From the outset, clarify the formal aspects of the research, teaching and administrative activities with your supervisors and superiors (e.g. contract, detailed specifications, clear instructions about tasks to be performed, organisation of time and workspaces, rhythms and  modalities  of  exchanges,  sharing  of  responsibilities,  rights  and  obligations  of  the different parties).
+-  Take stock of the choices at key stages of the doctorate (e.g. decision to embark on a doctorate, selection of subject and methods).
+
+## Communicating and creating a personal network
+
+-  Communicate regularly with your supervisors and do not hesitate to ask questions, clarify uncertainties and evoke difficulties encountered.
+-  Adopt a proactive approach to your supervisors, for example, by soliciting feedback or specific advice, or by requesting and appropriately preparing meetings to take stock of progress  together.  Since  supervisors  are  often  very  busy,  they  tend  to  interpret  the
+
+<!-- image -->
+
+absence of requests from doctoral students as a lack of need for support. It is therefore up to you to take the initiative should you have a question or difficulty, or simply to remain in contact by providing information on the progress of your thesis or teaching activities.
+
+-  Seek advice or help from peers and colleagues. They are valuable partners when it comes to  discussing,  asking  questions  or  seeking  advice.  They  offer  resources  that  are complementary  to  those  of  your  supervisors  and  the  closer  hierarchical  proximity  is conducive to discussion and collaboration.
+-  Create  a  network  of  trusted  interlocutors,  in  addition  to  peers  and  colleagues.  These people  are  ideally  close  enough  to  be  familiar  with  the  situations  experienced,  but without having too direct a relationship, especially not a professional one. They can be (post) doctoral students from the same discipline or a similar discipline, but doing their thesis under the supervision of another person, (post) doctoral students from the same institution,  but  another  discipline,  or  even  (post)  doctoral  students  met  in  a  doctoral programme  or  during  a  training  workshop.  These  people  play  an  important  role  by listening and advising, because they can understand the situations you experience and their  implications,  but  without  the  risk  of  competition  and  without  issues  likely  to
+
+<!-- image -->
+
+complicate daily professional relationships. Actors at other hierarchical levels, such as professors or senior researchers, can also be valuable partners in critical reflection and in the development of
+
+thought and ideas.
+
+## Seizing opportunities
+
+Participate  in  activities  supporting  research  and  teaching  (e.g.  doctoral  programmes, pedagogical training, mentoring programmes, workshops and seminars, individual or group coaching). In principle, you should be able to participate freely in offers you consider useful for  your  further  training  and  professional  development.  However,  you  should  choose according  to  your  specific  needs,  expectations,  availability  and  priorities.  To  make  these choices,  it  may  be  useful  to  seek  advice  from  others,  for  example  your  supervisors,  your superiors or those managing support offers.
+
+## Taking care of yourself
+
+Pay  attention  to  your  well-being.  The  doctorate  is  not  only  demanding,  but  also  rich  in emotions, both pleasant and unpleasant. Managing these emotions is essential to maintaining a solid base of resources and energy. Doing so makes it possible to handle the fluctuations inherent in any research process (uncertainties, hazards, etc.), but also to support learning and creativity, both of which are demanding in cognitive and emotional terms. Ensuring you well-being means, in particular, setting aside time for rest  and  leisure,  favouring  a  healthy  and  balanced  diet,  and  preserving your  hours  of  sleep.  It  is  also  about  recognizing  and  expressing  your emotions and sharing interacting with people you trust. Meditation (see additional resources) can be beneficial. Without seeking to be therapeutic, it  can  help  prevent  the  onset  of  psychological  disorders  by  supporting regulation and emotional recovery, especially under high stress.
+
+<!-- image -->
+
+## RECOMMENDATIONS FOR THOSE SUPERVISING DOCTORAL STUDENTS
+
+On a daily basis, as supervisors and experienced members of the scientific community, you play a key role in the professional development of doctoral students. You provide them with a  work  environment  and  support  offering  opportunities  to  learn  and develop. Of course, there are many ways to do this and each supervisor needs  to  find  the  way  that  works  for  him  or  her.  Nevertheless,  certain
+
+avenues can be proposed to ensure quality supervision.
+
+## Getting involved and setting up a transparent framework
+
+Whether you are a novice or experienced in doctoral supervision, it is wise to reflect on how you  represent  your  role  and  the  practices  implemented.  This  involves  clarifying,  first  for yourself, your expectations with regard to your doctoral students, as well as the methods of support and the limits that you consider necessary to place on supervision. In particular, this involves asking the following questions: What do I expect from my doctoral students? What should they do (or not do) when doing their thesis under my supervision? What is their role as a doctoral student? What is my role as a supervisor? What actions do I agree to undertake? Who is primarily  responsible  for  research?  How  are  we  going  to  organize  the  supervision (meetings, readings and feedbacks, etc.)?
+
+At the start of any new supervisory relationship, the first exchanges with the (future) doctoral student are fundamental. They should make it possible to establish a trusting relationship necessary for support. It is therefore essential to be available (allow enough time) and be open to discussion, so that the (future) doctoral student feels free to ask questions and, should he or she feel the need, to raise delicate subjects. These exchanges should cover the following aspects, amongst others:
+
+-  Get  to  know  the  person,  including  understanding  their  values,  goals  and  aspirations; discuss their reasons for choosing to embark on a doctorate to ensure it corresponds to the person's goals.
+-  Be transparent in discussing the opportunities and constraints of an academic career, as well as the various professional options open to holders of a doctorate.
+
+<!-- image -->
+
+-  Without being intrusive, learn about the doctoral student's personal situation, not out of curiosity, but for its possible impact on the doctorate. Ensure the person has analysed the conditions in which he or she finds him or herself with a view to carrying out a lengthy research project.
+-  Take into account the person's contractual and personal situation (e.g. respect the thesis time, organize working days).
+-  Explain  transparently  the  support  framework  proposed  (depending  on  the  aspects mentioned above), specifying what is negotiable and what is not, what will be provided, and what, on the other hand, is the doctoral student's responsibility. Make it clear that the doctoral student is responsible for how he or she takes on and uses this framework.
+-  Rely on a charter. Establish a doctoral agreement (see additional resources).
+-  Consider  the  relevance  of  co-supervision  or  co-direction  of  a  thesis,  as  well  as  the possibility of setting up a support committee, making it possible to engage third parties in the supervision relationship.
+
+Autonomy, competence and affiliation are the pillars of the doctorate, a base of resources.
+
+Supervision should therefore give paramount  importance to the satisfaction of these three basic psychological needs.
+
+## Encouraging the development of autonomy
+
+To allow doctoral students to regulate, orient and embody their actions with intention, as a supervisor you should:
+
+-  Within the framework of support provided, grant room for manoeuvre in the form of opportunities for choice and initiative.
+-  Suggest appropriate challenges.
+-  Explain the meaning of new activities, providing arguments allowing doctoral students to understand how these activities have value and are relevant to the research and to the doctoral student as a professional. In this way, the doctoral student can experience the added value and give meaning to his or her actions. This will facilitate the integration of the values, standards and practices of the scientific community.
+
+<!-- image -->
+
+-  Adapt the support offered to the individual characteristics of the doctoral student and to his/her personal situation, to the difficulties encountered and to the current stage in the doctorate (see the three stages: beginning, middle or end; see pages 8-9).
+-  Carefully consider the use of coercive measures and rewards because of their potentially detrimental effect on well-being and motivation.
+
+## Encouraging the development of competence
+
+To  encourage  the  development  of  competence  requires  offering  quality  guidance  and providing benchmarks to doctoral students:
+
+-  Provide  intellectual  support  for  the  completion  of  the  research,  supporting  critical thinking and providing theoretical and methodological insights.
+-  Provide  regular  informative  feedback  on  output  (thesis  chapters,  abstracts  to  be submitted,  presentations  in  congresses,  etc.)  taking  into  consideration  the  doctoral student's perspective, recognizing and clarifying valuing indications of proficiency and the development of  skills,  noting  progress,  pointing  out  and  discussing  shortcomings  and mistakes.
+-  Explain  the  values,  standards  and  practices  (still  largely)  implicit  in  the  scientific community, as well as the quality requirements for processes and outputs. Play the role of a socialization agent, enabling the doctoral student to understand the "rules of the game" of the scientific world and to adopt them gradually. One good practice, among others, is to support the doctoral student's first steps in the scientific community by jointly participating in conferences, projects or publications.
+-  Encourage and support independent critical reflection on contents, activities and related experience (identification of obstacles, concerns, etc.).
+-  Support  the  development  of  a  personal  network  of  resource  people  and  encourage meetings with experts in the field.
+-  Foster a culture of collaboration and mutual aid in the research team, allowing doctoral students to benefit from the support of peers and colleagues.
+-  Encourage  the  doctoral  student  to  participate  in  activities  supporting  research  and teaching  (e.g.  doctoral  programmes,  pedagogical  training,  mentoring  programmes, workshops  and  seminars).  It  is  important  to  relay  related  information,  as  doctoral students are often poorly informed about available opportunities, especially if they do
+
+not  work  as  an  assistant  in  the  university.  Encouragement  from  the  supervisor  and recognition of efforts made, enhance motivation and commitment in ongoing training.
+
+## Supporting affiliation
+
+Doctoral students' perception of the quality of support is also linked to more personal and
+
+<!-- image -->
+
+This requires:
+
+-  Plan and devote sufficient time to discussions and be fully accessible during them.
+-  Establish a climate of trust and security (authenticity, consideration, empathy, openness) that allows doubt and trial and error.
+-  Exchange on a personal and emotional level (which does not imply intimacy). Consider the doctoral student as a unique individual, worthy of interest and trust. Recognize and possibly express your emotions, share your experiences - your successes, but also your doubts and the pitfalls encountered - so that the doctoral student can have more realistic expectations, and see, beyond the outputs, the entire knowledge creation process and the uncertainty and vagaries that are normal to all research.
+
+## Developing as a supervisor
+
+In  addition  to  reflecting  on  your  vision  of  your  role  and  the  way  you  supervise  doctoral students,  discussing  with  other  supervisors,  participating  in  trainings  or  reading  resources about supervision (such as those suggested in the additional resources) can contribute to your personal development and the development of your supervisory skills.
+
+emotional factors,  such  as  interactions  on  a  personal, warm, benevolent and respectful basis, mutual sharing of experience, but also the recognition of their difficulties and emotional experiences.
+
+## REFERENCES AND ADDITIONAL RESOURCES
+
+## MAIN REFERENCES
+
+- Lambert,  M.  (2013). Être  assistant  et  se  développer  professionnellement ?  Recherche descriptive  et  compréhensive  sur  le  développement  professionnel  des  assistants  à l'Université de Fribourg (Thèse de doctorat). Université de Fribourg. (publiée sur RERO DOC : http://doc.rero.ch/record/232541).
+- Niclasse,  C.  (2019). La  thèse  de  doctorat  comme  parcours  de  (trans)formation :  analyses longitudinales au prisme des émotions (Thèse de doctorat). Université de Fribourg (en cours de publication).
+
+## ADDITIONAL RESOURCES FOR DOCTORAL STUDENTS
+
+## Suggested readings
+
+The books are available at the PSPE library of the University of Fribourg (Regina Mundi site) and the articles in journals accessible via the BCU.
+
+- Bourgeois, É. (2018). Le désir d'apprendre : Formation et construction du sujet . Presses Universitaires de France.
+- Ryan, R. M., &amp; Deci, E. L. (2017). Self-determination theory: Basic psychological needs in motivation, development, and wellness . Guilford Press.
+- Gérard, L. (2014). Le doctorat : un rite de passage. Analyse du parcours doctoral et postdoctoral . Téraèdre.
+- Gosling, P. &amp; Noordam, L.D (2006, 2011). Mastering Your PhD. Survival and Success in the Doctoral Years and Beyond . Springer-Verlag. (available online as a PDF document) Hunsmann, M. &amp; Kapp, S. (Eds.). (2013) . Devenir chercheur : Écrire une thèse en sciences sociales. Éditions de l'École des Hautes Études en Sciences Sociales.
+- Müller, M. (2014). Promotion - Postdoc - Professur. Karriereplanung in der Wissenschaft . Campus Verlag.
+
+<!-- image -->
+
+Phillips, E. M. &amp; Pugh, D. S. (2015). How to get a PhD. A handbook for students and their supervisors (6 th edition) . Open University Press. (4 th edition available online as a PDF document)
+
+## Vignettes
+
+We  offer  short  vignettes  on  the  website  of  the  Centre  for  Faculty  Development  at  the University of Fribourg. These key moments experienced by doctoral students in their daily lives can be used to stimulate reflection and discussion of various aspects of the doctorate, especially those that are affective or motivational.
+
+[https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/](https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/)
+
+## Guides for doctoral students
+
+-  Guide 'Getting Your Thesis Off to a Good Start. Guide for doctoral students'
+-  Guide 'Beyond the doctorate. Guide for advanced doctoral and postdoctoral students'
+
+[https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/](https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/)
+
+## Tools
+
+-  Questionnaire for the self-assessment of skills (Lambert, 2011, 2016): https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/
+-  Mindfulness Based Stress Reduction (MBSR) training program, developed at the University of Massachusetts Medical School by Jon Kabat-Zinn : https://mbsrtraining.com
+-  Guided Meditations by Tara Brach (free) : https://www.tarabrach.com/guidedmeditations/
+
+## ADDITIONAL RESOURCES FOR THOSE SUPERVISING DOCTORAL STUDENTS
+
+## Suggested readings
+
+The books are available at the PSPE library of the University of Fribourg (Regina Mundi site) and the articles in journals accessible via the BCU.
+
+- Bourgeois, É. (2018). Le désir d'apprendre : Formation et construction du sujet. Presses Universitaires de France.
+- Cifali, M. (2018). S'engager pour accompagner : Valeurs des métiers de la formation . Presses Universitaires de France.
+- Ryan, R. M., &amp; Deci, E. L. (2017). Self-determination theory: Basic psychological needs in motivation, development, and wellness . Guilford Press.
+- Devos, C., Van der Linden, N., Boudrenghien, G., Azzi, A., Frenay, M., Galand, B. &amp; Klein, O. (2015). Doctoral supervision in the light of the three types of support promoted in selfdetermination theory. International Journal of Doctoral Studies , 10 , 438-464.
+- Frenay, M. &amp; Romainville, M. (2013). L'accompagnement des mémoires et des thèses . Presses universitaires de Louvain.
+- Gérard, L. (2014). Le doctorat : un rite de passage. Analyse du parcours doctoral et postdoctoral . Téraèdre.
+- Hounsell, D., McCune, V., Hounsell, J. &amp; Litjens, J. (2007). The quality of guidance and feedback to students. Higher Education Research &amp; Development, 27 (1), 55-67.
+- Levecque, K., Anseel, F., De Beuckelaer, A., Van der Heyden, J., &amp; Gisle, L. (2017). Work organization and mental health problems in PhD students. Research Policy, 46 (4), 868879.
+- McAlpine, L., Paulson, J., Gonsalves, A., &amp; Jazvac-Martek, M. (2012). 'Untold' doctoral stories: Can we move beyond cultural narratives of neglect? Higher Education Research &amp; Development , 31(4), 511-523.
+- Prégent, R. (2001). L'encadrement des travaux de mémoire et de thèse. Conseils pédagogiques aux directeurs de recherche .Presses Internationales Polytechnique.
+- Schmidt, M., &amp; Hansson, E. (2018). Doctoral students' well-being: A literature review. International Journal of Qualitative Studies on Health and Well-Being, 13 (1), 1508171.
+
+Skakni, I. (2018). Doctoral studies as an initiatory trial: Expected and taken-for-granted practices that impede PhD students' progress. Teaching in Higher Education , 8 (23), 927-944.
+
+Wisker, G. (2012). The Good Supervisor. Supervising Postgraduate and Undergraduate Research for Doctoral Theses and Dissertations (2 nd  edition) . Palgrave Macmillan.
+
+## Vignettes
+
+We  offer  short  vignettes  on  the  website  of  the  Centre  for  Faculty  Development  at  the University of Fribourg. These key moments experienced by doctoral students in their daily lives can be used to stimulate reflection and discussion of various aspects of the doctorate, especially those that are affective or motivational.
+
+[https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/](https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/)
+
+## Documents
+
+Code of Practice for the Doctorate (University of Lausanne):
+
+[https://www.unil.ch/graduatecampus/en/home/menuinst/doctorantes/avant-ledoctorat/charte-du-doctorat.html](https://www.unil.ch/graduatecampus/en/home/menuinst/doctorantes/avant-le-doctorat/charte-du-doctorat.html)
+
+Doctoral agreement (excerpt from the Règlement du 11 décembre 2014 pour l'obtention du doctorat à la Faculté des lettres de l'Université de Fribourg, point D, in French and German) : https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/
+
+## Guides for doctoral students
+
+-  Guide 'Getting Your Thesis Off to a Good Start. Guide for doctoral students'
+-  Guide 'Beyond the doctorate. Guide for advanced doctoral and postdoctoral students' https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sa-supervision/
+
+'Excellence through Research': Joint Position Paper by the Swiss Universities on the
+
+Doctorate (17.01.2014) (swissuniversities)
+
+[https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Kammern/Kamm er\_UH/Empfehlungen/Joint\_Position\_17012014.pdf](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Kammern/Kammer_UH/Empfehlungen/Joint_Position_17012014.pdf)
+
+[Joint Declaration on Doctoral Training in Europe (2014) https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Forschung/14110 1\_Joint\_Declaration\_on\_Doctoral\_Training\_in\_Europe\_2014\_11.pdf](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Forschung/141101_Joint_Declaration_on_Doctoral_Training_in_Europe_2014_11.pdf)
+
+## Tools
+
+-  Questionnaire for the self-assessment of skills for doctoral students (Lambert, 2011, 2016): https://www3.unifr.ch/didactic/fr/services/ressources/le-doctorat-et-sasupervision/
+-  Mindfulness Based Stress Reduction (MBSR) training program, developed at the University of Massachusetts Medical School by Jon Kabat-Zinn : https://mbsrtraining.com
+-  Guided Meditations by Tara Brach (free) : https://www.tarabrach.com/guidedmeditations/

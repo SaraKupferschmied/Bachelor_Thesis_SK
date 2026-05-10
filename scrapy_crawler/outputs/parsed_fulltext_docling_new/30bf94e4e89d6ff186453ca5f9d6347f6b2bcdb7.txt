@@ -1,0 +1,222 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:47:23.054Z",
+  "title": "SES_Master_90_International_and_European_Business_Brosch_re_30bf94e4e89d6ff186453ca5f9d6347f6b2bcdb7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "30bf94e4e89d6ff186453ca5f9d6347f6b2bcdb7",
+  "program_key": "ses|master|90|international and european business",
+  "faculty": "SES",
+  "degree_level": "Master",
+  "total_ects": [
+    90,
+    120
+  ],
+  "program_name": "International and European Business",
+  "doc_label": "Broschüre",
+  "source_url": "https://www.calameo.com/read/003659115121784738f7c",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/europeanbusiness",
+  "curriculum_url": "http://studies.unifr.ch/go/2ihyy",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SES_Master_90_International_and_European_Business_Brosch_re_30bf94e4e89d6ff186453ca5f9d6347f6b2bcdb7.pdf",
+  "sha256": "09b872c4494b1086bf4d0222c3a858d0393159e7429b112fc44cc99b409d0ab7",
+  "fetched_at": "2026-04-03T11:31:37.466Z",
+  "notes": "calameo downloaded (id=003659115121784738f7c, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110505-553fb92486453aad1718c9c0d93febd3/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T113135Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=bc6ce9fcbe4561ecba8acae64ff9a329a33d460d541cd7c75253b2fdd6d0fd5d, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Master of Arts International and European Business
+
+## Programme Highlights
+
+Discover a Master that opens doors worldwide: learn in English in Fribourg's bilingual setting, join intercultural teams with classmates from 20+ countries, and tackle real business challenges through case studies and projects. Benefit from guest lectures by managers, international
+
+<!-- image -->
+
+study opportunities, and the chance to earn a prestigious double degree in Strasbourg or in Pavia. Shape your future as a global leader and gain the skills employers seek: strategic thinking, profound business knowledge, and leadership in an international context.
+
+## Mobility
+
+An exceptional opportunity to shape your Master's and strengthen your academic journey by spending one or two semesters abroad. Experience new cultures, expand your international network, and boost your CV with all credits obtained fully recognised.
+
+Recommended semester: from the 2 nd  semester onwards Mobility mention: awarded from 30 validated ECTS
+
+<!-- image -->
+
+/comment
+
+## LANGUAGE OF STUDY
+
+The programme is taught in English, ensuring global accessibility. Up to 18 ECTS can be taken in French or German, adding linguistic depth and cultural insight. Fribourg's bilingual environment makes your learning experience truly international.
+
+## Standard Study Plan
+
+<!-- image -->
+
+<!-- image -->
+
+## ADMISSION REQUIREMENTS
+
+Proof of sufficient English language skills may be required by the Office for Admissions, see www. unifr.ch/admission, depending on the curriculum of the candidate.
+
+- → Bachelor degree in Management from a Swiss university : Unconditional Admission.
+- → Bachelor degree in another discipline or from a foreign university : admission is based on a full review of the application.
+
+Applications must include a lettre of motivation in addition to the documents required by the University of Fribourg Admissions Office. For foreign degrees from outside the EU/EFTA, GMAT results are mandatory.
+
+The minimum requirement is 60 ECTS in Management. Where admission is granted, the SES Faculty may require the completion of additional Bachelorlevel ECTS credits.
+
+- → Bachelor degree in Business Administration from a Swiss University of Applied Sciences (HES): admission is possible with a standard supplement of 30 ECTS.
+
+For special cases (e.g., foreign degrees or Bachelor's degrees obtained more than eight years ago), admission is not automatic. Admission decisions are made on a case-by-case basis.
+
+Applicants who are enrolled at the University of Fribourg must submit their application via the MyUnifr portal.
+
+## FURTHER INFO
+
+Enjoy a flexible structure in Fribourg as well as electives to choose from the programme modules, other Faculty courses, and up to 9 ECTS from the University's offer.
+
+Through the BeNeFri Convention, you may even take courses at the universities of Neuchâtel or Bern if you meet the requirements.
+
+## 120 ECTS Master
+
+For broader horizons, add a 30 ECTS Minor to reach a 120 ECTS Master's degree, provided you meet the admission requirements for that Minor.
+
+/map
+
+## STUDY PLAN
+
+Full version here ↓
+
+<!-- image -->
+
+## Study Plan Double Degree
+
+Fribourg - Strasbourg for outgoing Fribourg students
+
+<!-- image -->
+
+## FURTHER INFO
+
+A 'Grand Oral' concludes the Strasbourg's Major, assessing students on both their studies and their case study.
+
+Variation for Students from Strasbourg
+
+Incoming Students from Strasbourg have to complete 60 ECTS from courses in their first year in Strasbourg. They spend their second year in Fribourg where they have to complete 42 ECTS from courses plus 18 ECTS from a Master Thesis in Fribourg.
+
+<!-- image -->
+
+## FURTHER INFO
+
+A Thesis Defence concludes the studies at Pavia and the double degree.
+
+## Variation for Students from Pavia
+
+Incoming students from Pavia have to complete 60 ECTS from courses in their first year in Pavia. They spend their second year in Fribourg where they have to complete 42 ECTS from courses plus 18 ECTS from a Master Thesis in Fribourg.
+
+<!-- image -->
+
+STUDY PLAN Full version here ↓
+
+<!-- image -->
+
+<!-- image -->
+
+STUDY PLAN Full version here ↓
+
+<!-- image -->
+
+## Double Degree Programmes
+
+Master in International and European Business (Fribourg)
+
+MSc In International and European Business (Strasbourg)
+
+and
+
+<!-- image -->
+
+Laurea Magistralis in International Business and Economics (Pavia)
+
+<!-- image -->
+
+The Faculty of Management, Economics and Social Sciences of the University of Fribourg in Switzerland together with the EM Strasbourg Business School in France and the University of Pavia in Italy have established two double degree programmes leading to the award of two university Master degrees upon completion of an integrated 120 ECTS programme, with one year in Fribourg and one year in Strasbourg or Pavia.
+
+Studying in the double degree programme gives students valuable experience abroad, strong intercultural experience, the perspective of professors and lecturers from many different nations and both a Swiss diploma and a French or Italian diploma from top ranked institutions. With these integrated programmes, students can study one year in the bilingual city of Fribourg in Switzerland, adding the unique Swiss perspective, in an economically sound country that has recently been ranked as the most competitive nation in the world. They are given the opportunity to spend their second year at the business school of the largest university in France, Strasbourg, or at the Faculty of Economics of the University of Pavia, in Italy. The language of the programmes is English. Up to 18 ECTS can be taken in any other language.
+
+<!-- image -->
+
+## APPLICATION
+
+Applications must be sent by 31 January to mobility-delegate-ses@unifr.ch and must include the following documents:
+
+- → Curriculum Vitae
+- → Transcripts of BA and eventually MA marks
+- → Letter of motivation
+
+The Admissions Delegate will make a decision, in consultation with the double degree academic advisor, after the publication of the MA marks in February for a start at the partner university the following Autumn Semester.
+
+## Testimonials
+
+Daniel Rust Senior Brand Manager at Schweppes
+
+<!-- image -->
+
+The University of Fribourg is founded on openness and meaningful exchange. Professors were consistently approachable, and the lectures were both intellectually stimulating and highly engaging. This supportive academic environment enabled me to develop strong capabilities that I continue to rely on today and which have played a pivotal role in my professional career.
+
+Nhu-Lan Muster-Lam Lead Marketing Schweiz at Haleon
+
+<!-- image -->
+
+Pursuing this Master at the University of Fribourg was a pivotal step in my career. The program's strong mix of theory and practical experience along with international study trips broadened my perspective, while the supportive community of peers, alumni, and professors shaped my skills and professional journey.
+
+<!-- image -->
+
+## ACADEMIC ADVISING - INFORMATION
+
+Faculty of Management, Economics and Social Sciences
+
+Bd de Pérolles 90 CH-1700 Fribourg
+
+/phone
+
+<!-- image -->
+
+<!-- image -->
+
+at
+
+<!-- image -->
+
+/paper-plane
+
+Jessica Eyer Audit Assistant at EY Switzerland
+
+<!-- image -->
+
+My Master's in International and European Business was a springboard into a complex, interconnected, sometimes challenging, but incredibly exciting world. We discovered it not only through theories and case studies, but also through real-life experiences such as intercultural teamwork, international perspectives and stays abroad.
+
+## Career Opportunities
+
+This Master opens doors to positions in multinational firms, international organisations, and globally oriented SMEs. Depending on the specialisation taken in their elective module, graduates work in marketing, finance, consulting, or HR, and often advance to leadership roles. The programme combines academic rigor with practical skills for decision making in international business contexts.
+
+<!-- image -->
+
+<!-- image -->
+
++41 (0) 26 300 82 00
+
+decanat-ses@unifr.ch www.unifr.ch/ses

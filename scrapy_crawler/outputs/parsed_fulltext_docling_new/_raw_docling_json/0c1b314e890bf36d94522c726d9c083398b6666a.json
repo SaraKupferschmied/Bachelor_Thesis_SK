@@ -1,0 +1,780 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Bioinformatics_and_Computational_Biology_0c1b314e890bf36d94522c726d9c083398b6666a",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## CONTENTS\n\n|   CONTENTS ...............................................................................................................................2 | CONTENTS ...............................................................................................................................2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|                                                                                                                                         1   | GENERAL REMARKS........................................................................................................3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n|                                                                                                                                         1.1 | Academic Title and Study Plan ......................................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|                                                                                                                                         1.2 | Course Structure ................................................................................................................................ 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         1.3 | Acquired Skills.................................................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         1.4 | Course Assessment (UE) and Accreditation of ECTS Credits....................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.5 | Teaching Languages.......................................................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |\n|                                                                                                                                         1.6 | Ethics and Science............................................................................................................................. 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.7 | Regulations and Additional Information .......................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         2   | MASTER OF SCIENCE (MSC) ...........................................................................................6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n|                                                                                                                                         2.1 | MSc Course Units ............................................................................................................................... 6 Preparatory Validation Package (7.5 ECTS)......................................................................................................6 Compulsory validation Packages (74.5 ECTS).................................................................................................7 Elective courses (8 ECTS)..................................................................................................................................8 Recognition of external credits..........................................................................................................................8 |\n|                                                                                                                                         2.2 | Content of the Courses...................................................................................................................... 9 2.2.1 Compulsory Lectures..............................................................................................................................9 2.2.2 Term Project...........................................................................................................................................11                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                         2.3 | MSc Exams and Assessment.......................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         2.4 | Master's Thesis and Exam............................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n|                                                                                                                                         2.5 | Admission Regulations for the Master Programme...................................................................... 11 2.5.1 Admission Procedure............................................................................................................................11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |\n|                                                                                                                                         2.6 | Rules for Completion and Final Grade........................................................................................... 12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |\n\n## 1 General Remarks\n\nThis  curriculum  describes  all  regulations  concerning  the  joint  study  in  Bioinformatics  and Computational Biology at the University of Fribourg and the University of Bern. It is based on the Fachkonvention BEFRI im Fachbereich Bioinformatik signed  on  January  13,  2012  and  the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force on April 6 th , 2020 (hereafter called the Regulation for short).\n\nThe Regulation of 6 April 2020 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study programs (see articles 10, 11a, 12a, 13 and 31) (https://www3.unifr.ch/scimed/fr/rules/regulations).\n\n## 1.1  Academic Title and Study Plan\n\nThe Faculty of Science and Medicine of the University of Fribourg awards the following official academic title to students who have successfully completed their studies:\n\n## Master of Science in Bioinformatics and Computational Biology (MSc), University of Fribourg\n\nThe MSc in Bioinformatics and Computational Biology (subsequently called MSc) is organized as a joint degree between the University of Fribourg and the University of Bern, with about half of the courses taught at either University.\n\nThe MSc study programme teaches students how to analyse large biological data sets and images through  correct  use  of  computer  algorithms  and  statistical  tools,  and  how  to  model  biological processes. The MSc project further allows students to delve deeper into one of the subjects.\n\nThe programme not only aims at preparing students for a PhD programme in this research field, but also offers the necessary background to work in bioinformatics in industry, public health or different governmental institutions.\n\nGraduates in possession of a Bachelor degree with at least 90 ECTS credits in bioinformatics, biology, biochemistry,  life  sciences,  biomedicine,  mathematics,  statistics  or  computer  science  from  the University of Fribourg or any other Swiss university can directly enrol in the MSc in Bioinformatics and Computational Biology. Holders of a non-Swiss BSc degree, a BSc degree in a different subject or an equivalent BSc degree can be admitted into the programme based on a decision of the Faculty of Science and Medicine. The admission decision is made individually for each case. Provisional admission can be granted and depends on the fulfilment of additional requirements set by the Faculty.\n\n## 1.2  Course Structure\n\nThe course work leading to the MSc degree is subdivided into ' UE ' (from 'unité d' enseigne ment' or  'Unterrichtseinheit'),  consisting  of  lectures,  exercise  classes,  practical  courses,  semi nars  and specialized  projects.  To  each  UE,  a  number  of ECTS 1   points is  assigned,  which,  following successful completion of the course (e.g., exams) are converted into ECTS credits (see Section 1.3). The MSc degree requires a total of 120 ECTS credits (four semesters) where the first three semesters (90 ECTS credits) consists of formal lectures, exercise classes and seminars, followed by a semester devoted to an MSc project lasting six months and terminating with the MSc thesis (30 ECTS).\n\nThe purpose of the different UE types is as follows:\n\n1 ECTS stands for European Credit Transfer and Accumulation System. One ECTS point corresponds to some 30 hours of work (see https://ec.europa.eu/education/resources/european-credit-transfer-accumulation-system\\_en )\n\n- Lectures give  a  formal  introduction  to  the  scientific  methods  and  their  application  in  bioinformatics and computational biology and encourage advance thinking in a scientific way. They help in acquiring the basic knowledge and understanding the fundamental concepts in analysing large biological data sets and in modelling biological processes using computers.\n- Exercise classes complement the lectures and provide essential help for the understanding and practical application of a lecture ' s content. Through them, the student will practise and apply the acquired principles, mathematical and statistical techniques and computer-based algorithms.\n- Laboratory work , be it experimental or theoretical, is the basis of scientific research. It provides a controlled environment for the hands-on realization of biological measurements. Students with a background different than biology will obtain a basic understanding of experimental design and learn to use instruments commonly used in current biological research.\n- Seminar presentations are used to expand the student's knowledge in specialized domains often neglected in the formal courses as well as to begin the development of oral presentation skills for scientific results.\n- The preparation of the Master thesis , under the supervision of an experienced researcher, is the actual starting point of scientific research.\n\n## 1.3  Acquired Skills\n\nThe aim of the studies leading to the award of a MSc in Bioinformatics and Computational Biology is to deepen knowledge and perfect competence in the chosen fields and, at the same time, develop skills in planning and executing research, present and communicate research both orally and in written form in scientific English. Thus, at the end of the study programme, the students will have shown that they can apply their knowledge to accomplish a research project and will have learned how to work independently, or how to integrate into an interdisciplinary research team. The award of the degree requires creative and self-critical talents as well as the ability to communicate ideas and work in English.\n\n## 1.4  Course Assessment (UE) and Accreditation of ECTS Credits\n\nAcquisition of ECTS credits occurs via three steps: assessment of individual UEs, grouping of UEs  into  a  validation  package,  and  awarding  the  respective  ECTS  credits  for  the  completed package.\n\nAssessment is generally made by a written exam of 60 to 120 minutes in length. However, oral exams of 15 to 60 minutes in length are also possible. The marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated, but only once, and at the earliest during the next exam session. In the case of a repetition, the examiners may decide to replace a written exam by an oral exam of 15 to 60 minutes in length. Such a change has to be communicated to the students at least one week prior to the exam.\n\nAssessment of exercises, laboratory work and seminars may consist partly or in total on criteria assessed during the UE, for instance through assessment of laboratory work, presentations, written projects or based on the number of submitted exercise papers or the number of correctly solved exercises. Assessing exercises or laboratory work jointly with an associated lecture is possible.\n\nStudents are informed at the beginning of a course about the type and duration of the assessment and evaluation criteria. Permission to sit the exam associated with a formal lecture can be subject to  the  successful  completion  of  the  lecture's  corresponding  exercise  class,  as  specified  in  the appendix of this document.\n\nA validation package comprises multiple, separately assessed, UEs. The art. 22 and 24 of the Regulation determines the number of these packages whereas this curriculum determines their content.\n\nECTS points are credited according to art. 23 of the Regulation if:\n\n- the weighted average of the exam marks of a validation package is at least 4. The weighting is determined by the number of ECTS points assigned to a UE, and\n- the assessment criteria for UE not subject to formal examinations (practical work exercises seminars, etc.) are met.\n- no mark is equal to 1.0.\n\nAfter satisfying those conditions, a package is considered validated and the corresponding ECTS points are converted into ECTS credits and attributed to the student. Upon request, the Dean's office will issue transcripts of records in which exam results and awarded credits are acknowledged (Art. 26 and 27 of the Regulation), provided the exam fee has been paid.\n\nExams occur during the official exam sessions in spring, summer, or autumn, and are subject to a fee. Students register for each exam via the student s' web portal MyUniFR (https://my.unifr.ch) within the stipulated delays according to the on-line procedure and using their university account and password.\n\n## 1.5  Teaching Languages\n\nAll courses of the MSc programme in Bioinformatics and Computational Biology are taught in English. Also, all exams and written work (e.g. Master's thesis) have to be in English.\n\n## 1.6  Ethics and Science\n\nEthical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and all scientific writing work, be that a project, a lecture, a thesis, or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be correctly cited.\n\n## 1.7  Regulations and Additional Information\n\nDetailed information about studying Bioinformatics can be found in the documents referenced on the web page http://www.unifr.ch/scimed/en/plans which can also be obtained from the Office of the Department of Biology, chemin du Musée 10, CH-1700 Fribourg.\n\n## 2 Master of Science (MSc)\n\n[Version 2020, validation packages: PV-SBI-0000100, PV-SBI-0000101, PV-SBI-0000102]\n\nThe MSc programme in Bioinformatics and Computational Biology requires 120 ECTS credits to be completed, and is expected to take 24 months. The first three semesters (90 ECTS credits) consist primarily of courses, exercises, laboratory work and seminars designed to strengthen and complete the student's knowledge in bioinformatics and computational biology, but also in proper scientific conduct and skills like research communication. The courses are organised both at the University  of  Fribourg  and  the  University  of  Bern  and  can  be  complemented  with  additional courses offered at the University of Fribourg or under the BeNeFri agreement. The MSc degree is completed by a research project of 30 ECTS credits which includes the writing of a Master thesis.\n\n## 2.1  MSc Course Units\n\nThe courses consist of compulsory courses organized in one preparatory (7.5 ECTS) and four compulsory modules (74.5 ECTS). These are complemented by a module consisting of elective courses (8 ECTS).\n\nAll UE are assessed under two validation packages, consisting of the following modules:\n\n1. PV-SBI.0000100, 36.5 ECTS, consisting of the modules:\n- a. Computer Science, 15.5 ECTS\n- b. Statistics, 21 ECTS\n2. PV-SBI.0000101, 53.5 ECTS, consisting of the modules:\n- a. Preparatory Computer Science, 7.5 ECTS*\n- b. Preparatory Biology, 7.5 ECTS*\n- c. Genomics, 19.5 ECTS\n- d. Bioinformatic Applications, 18.5 ECTS\n- e. Elective courses, 8 ECTS\n\n* Only one of the preparatory modules can be chosen\n\nThe specific assessment criteria for each individual UE is specified in the appropriate appendices to the curricula on assessment modalities in Biology, Mathematics and Biochemistry.\n\n## Preparatory Modules (7.5 ECTS)\n\nTo account for the diverse background of students,7.5 ECTS credits are awarded for one of two possible modules:\n\n- Preparatory Computer Science teaches students basic programming skills.\n- Preparatory Biology introduces students to basic biological and biochemical processes and teaches basic laboratory skills.\n\nThe goal of these modules is to homogenize the knowledge of all students. Therefore, students with a BSc in biology, biochemistry, life sciences or equivalent follow the module ' Preparatory Computer Science ' . Students with a BSc in mathematics, statistics, computer science or equivalent follow the module ' Preparatory Biology ' .\n\n## Module ' Preparatory Computer Science '\n\n| Code          | Title of UE                                                                                     | tot. h.   | ECTS   |\n|---------------|-------------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07110 - * | Introduction to UNIX and BASH (lecture with exercises) Basic programming for non-informaticians | 5 days 56 | 2.5 5  |\n| Total         |                                                                                                 |           | 7.5    |\n\n## Module ' Preparatory Biology '\n\n| Code   | Title of UE                                                   | tot. h.   |   ECTS |\n|--------|---------------------------------------------------------------|-----------|--------|\n| -      | Molecular biology and genetics for non-biologists (lecture)   | 5 days    |    2.5 |\n| - *    | Molecular biology and genetics for non-biologists (practical) | 56        |    5   |\n| Total  |                                                               |           |    7.5 |\n\n## Compulsory Modules (74.5 ECTS)\n\n## Module 'Computer Science'\n\n| Code      | Title of UE                                 | tot. h.   |   ECTS |\n|-----------|---------------------------------------------|-----------|--------|\n| SBL.30001 | Introduction to R                           | 4 days    |    2   |\n| SBC.07109 | Programming with R                          | 2 days    |    1   |\n| _*        | Introduction to Digital Sustainability      | 2 days    |    1   |\n| _*        | Introduction to High-Performance Computing  | 2 days    |    1   |\n| _*        | Advanced Python                             | 28        |    2.5 |\n| _*        | Introduction to Signal and Image Processing | 42        |    5   |\n| _*        | Bioinformatic Algorithms                    | 28        |    3   |\n| Total     |                                             |           |   15.5 |\n\n## Module 'Statistics'\n\n| Code      | Title of UE                                       | tot. h.   |   ECTS |\n|-----------|---------------------------------------------------|-----------|--------|\n| _*        | Applied biostatistics I (lecture with exercises)  | 28+28     |      4 |\n| - *       | Applied biostatistics II (lecture with exercises) | 28+28     |      4 |\n| SBL.30002 | Machine Learning                                  | 10 days   |      5 |\n| SMA.07010 | Stochastic models in bioinformatics               | 28        |      3 |\n| _*        | Deep Learning in Life Science                     | 10 days   |      5 |\n| Total     |                                                   |           |     21 |\n\n## Module ' Genomics '\n\n| Code      | Title of UE                                      | tot. h.   |   ECTS |\n|-----------|--------------------------------------------------|-----------|--------|\n| SBC.07107 | Bioinformatics (practical course, in silico)     | 6 days    |    3   |\n| _*        | RNA-Sequencing                                   | 6 days    |    3   |\n| _*        | Cancer Genomics                                  | 6 days    |    3   |\n| SBL.20034 | Evolutionary Genomics                            | 6 days    |    3   |\n| _*        | Genome Assembly                                  | 4 days    |    2   |\n| SBL.30004 | Organization and annotation of Eukaryote genomes | 6 days    |    3   |\n| _*        | Genomics of Microorganisms                       | 14        |    1.5 |\n| SBL.00425 | Metagenomics Data Analysis                       | 14        |    1   |\n| Total     |                                                  |           |   19.5 |\n\n## Module ' Bioinformatic Applications '\n\n| Code      | Title of UE                             | tot. h.   |   ECTS |\n|-----------|-----------------------------------------|-----------|--------|\n| SBC.07111 | Research Seminar in Bioinformatics      | 28        |    2   |\n| _*        | Proteomics and Metabolomics             | 10 days   |    5   |\n| SBL.06002 | Classical Models in Biology (lecture)   | 28        |    3   |\n| SBL.06003 | Classical Models in Biology (exercises) | 14        |    1   |\n| _*        | Epidemiology                            | 14        |    1.5 |\n| SBL.10012 | Systems Biology                         | 28        |    3   |\n| _*        | Precision Medicine                      | 28        |    3   |\n| Total     | Total                                   | Total     |   18.5 |\n\n* Course offered by the University of Bern (see: http://www.bioinformatics.unibe.ch/)\n\n## Elective courses (8 ECTS)\n\nThe students complete the compulsory modules with elective courses. These courses are meant to complement the background of students and should hence be taken from a different field than that of the bachelor. Only courses agreed with by the study advisor are eligible. The following list contains a series of suggestions only.\n\n## Module ' Elective C ourses' (suggestions only)\n\n| Code        | Title of UE                                                                              | tot. h.   |   ECTS |\n|-------------|------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07150   | Term project°                                                                            | -         |    3   |\n| SBC.07151   | Term project°                                                                            | -         |    4   |\n| SBC.07152   | Term project°                                                                            | -         |    5   |\n| SIN.00220   | Data Processing and Visualization                                                        | 56        |    6   |\n| SIN.08608   | Pattern Recognition                                                                      | 42        |    5   |\n| SBC.07104 § | Introduction to Protein Structure and Protein Homology Modelling                         | 14        |    1.5 |\n| SBC.07105 § | Introduction to Docking of Small Molecules to Large Macromolecules and Molecular Graphic | 14        |    1.5 |\n| SBL.20035   | Structure and Functions of Host-associated Microbiota                                    | 28        |    3   |\n| SBL.00119   | Molecular Genetics of Model Organism development                                         | 28        |    3   |\n| - *         | Programmierung 1                                                                         | -         |    5   |\n| - *         | Beyond genetic inheritance                                                               | 28        |    3   |\n| - *         | Seminar and journal club in Population genetics and Bioinformatics                       | 28        |    2   |\n| _*          | Four weeks research project                                                              | -         |    7.5 |\n\n- ° Only one Term project can be chosen\n\n* Course offered by the University of Bern (see: http://www.bioinformatics.unibe.ch/)\n\n§ Must be taken together\n\n## Recognition of external credits\n\nIf requested by a student, the study advisor can recognize courses taken at other universities for up to 10 ECTS credits.\n\n## 2.2  Content of the Courses\n\n## 2.2.1  Compulsory Lectures\n\nThe compulsory courses are intended to introduce the students to the current techniques to generate and analyse large data sets in the context of Life Sciences. This is achieved by explaining and demonstrating the techniques with examples, and a large collection of supervised exercises. The following courses constitute the compulsory curriculum:\n\n- Introduction to UNIX and BASH (SBC.07110): The students will learn the basics of computing and programming, with an emphasis on UNIX operating system and command-line examples. They will learn BASH scripting using modern tools, including regular expressions.\n- Basic  programming  for  non-informaticians: This  course  introduces  the  basic  concepts  of programming  using  Python,  explains  important  algorithms  for  data  storage,  searching  and sorting, and establishes good programming habits for code readability and code organization.\n- Molecular biology and genetics for non-biologists: The goal of this course is a basic understanding of the molecules students will be dealing with later in the curriculum, such as DNA, RNA and proteins, as well as the basic cellular processes in which these molecules are involved. An important part of this course are guided lab-practicals aimed at introducing basic laboratory techniques which are important to understand potential sources of errors and contaminations when analysing the resulting data.\n- Introduction  to  R (SBL.30001) : This  course  introduces  the  basic  usage  of  the  statistical programming language R. The focus will be on data structures (vectors, matrices and data frames), import / export of data, basic plotting, writing of functions and scripts for reproducible data ana lysis. The course will be largely 'hands -on' and does not require any prior knowledge on R.\n- Programming with R (SBC.07109): This course introduces advanced topics in R programming, with a focus on S3 classes and R packages. The course will be largely 'hand son'.\n- Introduction to Digital Sustainability: This course introduces the concepts and workflows that ensure the long-term storage and usability of digital code and data.\n- Introduction  to  High-Performance  Computing :  This  course  introduces  the  use  of  highperformance computing centers, with a focus on the IBU cluster.\n- Advanced Python : This course introduces advanced topics in modern Python programming.\n- Introduction to signal and image processing: This lecture introduces the core principles of digital image processing and feature detection, which are then used by the students in extensive exercise sessions on biological image data.\n- Bioinformatics Algorithms : This course introduces algorithms commonly used in bioinformatic applications. The main focus is on searching and matching algorithms, graph algorithms and algorithms used to construct phylogenetic trees.\n- Applied biostatistics I: This lecture focuses on basic statistics and introduces all the important concepts  needed  in  the  courses  of  the  second  semester.  These  include  probability  theory, probability distributions, hypothesis testing and the basics of both frequentist and Bayesian inference. The course is paired with 'hands -on' sessions that will allow students to become familiar with the R programming language and to play with the concepts of the lectures using biological data.\n- Applied biostatistics II: This course builds on the knowledge obtained in Applied biostatistics I and introduces more complex statistical techniques such as working with joint distributions, regression analysis, analysis of variance and clustering approaches. The course is paired with 'hands -on' sessions that will allow students to play with the concepts of the lectures using biological data in 'R'.\n\n- Machine  learning  (SBL.30002): The  aim  of  this  course  is  to  equip  the  students  with  the necessary  skills  to  apply  machine-learning  techniques  in  their  own  research.  It  focuses  on numerical techniques such as Expectation Maximization and Markov Chain Monte Carlo, and introduces the use Hidden Markov Models and approximate techniques to analyse genomic data. The course is paired with exercises allowing students to implement these techniques in 'R' to analyse biological data.\n- Stochastic models in bioinformatics (SMA.07010): This course discusses stochastic dynamics in  gene  networks,  drug-receptors  interactions  and  modelling  of  small  molecules.  It  aims  to enable students to pursue their own research using the presented techniques and hence puts a large emphasis on mathematical concepts.\n- Deep Learning in Life Science : This course introduces deep learning as a technique and teaches how modern deep learning algorithms can be used to solve problems in the life sciences.\n- Bioinformatics  (practical  course,  in  silico): During  this  course,  students  will  become acquainted with DNA-sequence manipulation using Python and other tools and will assemble a bacterial genome de novo and annotate it structurally and functionally. Most of the course is organized as exercise sessions.\n- RNA-Sequencing :  This  course  introduces  the  methods  and  tools  used  to  analyse  RNAsequencing data from both tissues and single cells.\n- Cancer genomics: Besides a biological and medical introduction to cancer, this course focuses on genomic approaches to characterize, understand, and detect cancer. This course includes practical  sessions  where  students  will  use  next-generation  sequencing  techniques  to  detect variants in cancer cells and characterize the detected mutations using gene ontology.\n- Evolutionary  genomics  (SBL.20034) :  This  course  examines  the  main  factors  that  shape  the evolution  of  plant  and  animal  genomes.  In  particular,  it  discusses  various  approaches  for assessing  patterns  of  genomic  variation  in  natural  populations  and  the  evolutionary  and ecological  processes  affecting  them.  Students  will  population  genetical  statistics  and  about computational tools for analysing genetic variation at the genome-level, including for example the estimation of genome-wide population structure and tests of selection.\n- Genome assembly : This course introduces the methods and tools used to generate high-quality genome assemblies.\n- Organization and annotation of Eukaryote genomes (SBL.30004) : This course introduces the methods and tools used to annotate genomes and offers an evolutionary perspective on the interpretation of genomic features.\n- Genomics of microorganisms : This course gives an overview of the genome organization of microorganisms and introduces the concept of metagenomics.\n- Metagenomics data analysis: Students will learn the basic principles of metagenomics data analysis and their associated methods. The course will cover the targeted methods (16S, ITS) as well as the Whole Genome/Transcriptome Sequencing methods, both in prokaryotes and eukaryotes.  Students  will  learn  which  kind  of  data  could  be  extracted  from  metagenomics analysis and how to analyse and represent these data. SBC.07111 or equivalent is a prerequisite to access this course.\n- Proteomics and Metabolomics: This course introduces how proteomic data is acquired by mass spectrometry and analysed to reveal new understandings of biological systems, mainly focusing on protein interactions and genome annotation through proteomics. In addition to the lectures, students  will  present  and  discuss  relevant  articles  to  improve  the  understanding  behind  the algorithms and methods used.\n- Classical models in biology (SBL.06002 &amp; SBL.06003): The students will learn the basics of modelling  using  differential  equations  and  stochastic  processes  in  the  context  of  ecology, epidemiology and systems biology (cell and protein and networks). The course is paired with extensive 'hands -on' sessions.\n- Epidemiology: This  course  gives  an  overview  of  epidemiological  models  and  their  use  to understand disease dynamics.\n\n- System Biology (SBL.10012) : This course introduces the concept of systems biology, along with the methods and tools commonly used to study biological systems.\n- Precision Medicine : This course gives an overview of the use of bioinformatic tools in precision medicine.\n\n## 2.2.2  Term Project\n\nBetween 3 and 7.5 ECTS may be obtained through a term project (SBC.07150, SBC.07151 or SBC.07152)  or  a  four-weeks  research  project  (offered  in  Bern),  which  should  focus  on  an experimental or theoretical work performed within one of the research groups present at Bern or Fribourg.  During  the  work,  the  student  will  become  intimately  familiar  with  the  experimental techniques  and/or  theoretical  methods  applicable  to  research  questions  in  bioinformatics  or computational biology. The results will be written in an extended, detailed report.\n\n## 2.3  Master's Thesis and Exam\n\nThe  third  validation  package  of  the  Master ' s  program  (PV-SBI.0000102,  30  ECTS  credits) consists entirely of the UE dedicated to the Master thesis itself (SBC.07500). This work is foreseen to last six (6) months full time (excluding course work) and may start in the second semester and will last over the entire 3 rd semester. An extension of an additional 6 months is possible. Such an extension has to be justified to the Study Adviser in written form.\n\nThe Master thesis project involves real research work that the student will carry out under the supervision  of  an  active  researcher  in  the  field,  a nd  during  which  the  student's  aptitude  for fundamental  research  will  begin  to  develop.  The  work  must  be  presented  as  a  formal  written document. An additional oral presentation is encouraged. The work will be judged on the same 1 ('totally  unacceptable')  to 6  ('excellent')  scale  as  the  exams  by  the  supervisor  based  on  the research conducted and the written thesis. PV.SBI-0000102 will be validated only for marks of 4 and above. If a work is judged insufficient, a second PV.SBI-0000102 project is offered to the student, on a different subject.\n\n## 2.4  Admission Regulations for the Master Programme\n\n## 2.4.1  Admission Procedure\n\nAdmission to the Master program may be granted provided the following two conditions have been met by the applicant:\n\n- Satisfying the University admission requirements as defined in the Règlement concernant l'admission à l'Université de Fribourg (https://www.unifr.ch/apps/legal/fr/document/274904),\n- The student possesses a Bachelor of at least 90 ECTS credits in biology, biochemistry, life sciences, mathematics, statistics or computer science from the University of Fribourg or an academic degree judged equivalent by the Faculty of Science and Medicine.\n\nFor candidates with degrees that are not judged equivalent by the Faculty of Science and Medicine, the Commission for Students' Requests will decide on eligibility ( Commission des requêtes des étudiant-e-s , Dean's Office, Faculty of Science and Medicine, ch. du Musée 8, CH -1700 Fribourg, Switzerland).\n\nBased  on  th e  candidate's  academic  qualification,  the  Commission  for  Students'  Requests  can accept the application on the condition that additional requirements are fulfilled, provided they are of a minor scope and can be completed simultaneously with the Master studies. Otherwise, access is  denied  or  applicants  can  be  admitted  to  a  'pre -master  program'  and  can  begin  the  Master\n\nprogram  only  after  having  fulfilled  the  requirements  initially  set  for  the  pre-master.  Final acceptance to the Master program for a qualifying student depends on the successful completion of the additional requirements.\n\n## 2.5  Rules for Completion and Final Grade\n\nSuccessful completion of the PV-SBI.0000100, PV-SBI.0000101 and PV-SBI.0000102 validation packages results in the right to the title Master of Science in Bioinformatics and Computational Biology, University of Fribourg (MSc) .",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## CONTENTS\n\n|   CONTENTS ...............................................................................................................................2 | CONTENTS ...............................................................................................................................2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|                                                                                                                                         1   | GENERAL REMARKS........................................................................................................3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n|                                                                                                                                         1.1 | Academic Title and Study Plan ......................................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|                                                                                                                                         1.2 | Course Structure ................................................................................................................................ 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         1.3 | Acquired Skills.................................................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         1.4 | Course Assessment (UE) and Accreditation of ECTS Credits....................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.5 | Teaching Languages.......................................................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |\n|                                                                                                                                         1.6 | Ethics and Science............................................................................................................................. 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.7 | Regulations and Additional Information .......................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         2   | MASTER OF SCIENCE (MSC) ...........................................................................................6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n|                                                                                                                                         2.1 | MSc Course Units ............................................................................................................................... 6 Preparatory Validation Package (7.5 ECTS)......................................................................................................6 Compulsory validation Packages (74.5 ECTS).................................................................................................7 Elective courses (8 ECTS)..................................................................................................................................8 Recognition of external credits..........................................................................................................................8 |\n|                                                                                                                                         2.2 | Content of the Courses...................................................................................................................... 9 2.2.1 Compulsory Lectures..............................................................................................................................9 2.2.2 Term Project...........................................................................................................................................11                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                         2.3 | MSc Exams and Assessment.......................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         2.4 | Master's Thesis and Exam............................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n|                                                                                                                                         2.5 | Admission Regulations for the Master Programme...................................................................... 11 2.5.1 Admission Procedure............................................................................................................................11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |\n|                                                                                                                                         2.6 | Rules for Completion and Final Grade........................................................................................... 12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |\n\n## 1 General Remarks\n\nThis  curriculum  describes  all  regulations  concerning  the  joint  study  in  Bioinformatics  and Computational Biology at the University of Fribourg and the University of Bern. It is based on the Fachkonvention BEFRI im Fachbereich Bioinformatik signed  on  January  13,  2012  and  the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force on April 6 th , 2020 (hereafter called the Regulation for short).\n\nThe Regulation of 6 April 2020 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study programs (see articles 10, 11a, 12a, 13 and 31) (https://www3.unifr.ch/scimed/fr/rules/regulations).\n\n## 1.1  Academic Title and Study Plan\n\nThe Faculty of Science and Medicine of the University of Fribourg awards the following official academic title to students who have successfully completed their studies:\n\n## Master of Science in Bioinformatics and Computational Biology (MSc), University of Fribourg\n\nThe MSc in Bioinformatics and Computational Biology (subsequently called MSc) is organized as a joint degree between the University of Fribourg and the University of Bern, with about half of the courses taught at either University.\n\nThe MSc study programme teaches students how to analyse large biological data sets and images through  correct  use  of  computer  algorithms  and  statistical  tools,  and  how  to  model  biological processes. The MSc project further allows students to delve deeper into one of the subjects.\n\nThe programme not only aims at preparing students for a PhD programme in this research field, but also offers the necessary background to work in bioinformatics in industry, public health or different governmental institutions.\n\nGraduates in possession of a Bachelor degree with at least 90 ECTS credits in bioinformatics, biology, biochemistry,  life  sciences,  biomedicine,  mathematics,  statistics  or  computer  science  from  the University of Fribourg or any other Swiss university can directly enrol in the MSc in Bioinformatics and Computational Biology. Holders of a non-Swiss BSc degree, a BSc degree in a different subject or an equivalent BSc degree can be admitted into the programme based on a decision of the Faculty of Science and Medicine. The admission decision is made individually for each case. Provisional admission can be granted and depends on the fulfilment of additional requirements set by the Faculty.\n\n## 1.2  Course Structure\n\nThe course work leading to the MSc degree is subdivided into ' UE ' (from 'unité d' enseigne ment' or  'Unterrichtseinheit'),  consisting  of  lectures,  exercise  classes,  practical  courses,  semi nars  and specialized  projects.  To  each  UE,  a  number  of ECTS 1   points is  assigned,  which,  following successful completion of the course (e.g., exams) are converted into ECTS credits (see Section 1.3). The MSc degree requires a total of 120 ECTS credits (four semesters) where the first three semesters (90 ECTS credits) consists of formal lectures, exercise classes and seminars, followed by a semester devoted to an MSc project lasting six months and terminating with the MSc thesis (30 ECTS).\n\nThe purpose of the different UE types is as follows:\n\n1 ECTS stands for European Credit Transfer and Accumulation System. One ECTS point corresponds to some 30 hours of work (see https://ec.europa.eu/education/resources/european-credit-transfer-accumulation-system\\_en )\n\n- Lectures give  a  formal  introduction  to  the  scientific  methods  and  their  application  in  bioinformatics and computational biology and encourage advance thinking in a scientific way. They help in acquiring the basic knowledge and understanding the fundamental concepts in analysing large biological data sets and in modelling biological processes using computers.\n- Exercise classes complement the lectures and provide essential help for the understanding and practical application of a lecture ' s content. Through them, the student will practise and apply the acquired principles, mathematical and statistical techniques and computer-based algorithms.\n- Laboratory work , be it experimental or theoretical, is the basis of scientific research. It provides a controlled environment for the hands-on realization of biological measurements. Students with a background different than biology will obtain a basic understanding of experimental design and learn to use instruments commonly used in current biological research.\n- Seminar presentations are used to expand the student's knowledge in specialized domains often neglected in the formal courses as well as to begin the development of oral presentation skills for scientific results.\n- The preparation of the Master thesis , under the supervision of an experienced researcher, is the actual starting point of scientific research.\n\n## 1.3  Acquired Skills\n\nThe aim of the studies leading to the award of a MSc in Bioinformatics and Computational Biology is to deepen knowledge and perfect competence in the chosen fields and, at the same time, develop skills in planning and executing research, present and communicate research both orally and in written form in scientific English. Thus, at the end of the study programme, the students will have shown that they can apply their knowledge to accomplish a research project and will have learned how to work independently, or how to integrate into an interdisciplinary research team. The award of the degree requires creative and self-critical talents as well as the ability to communicate ideas and work in English.\n\n## 1.4  Course Assessment (UE) and Accreditation of ECTS Credits\n\nAcquisition of ECTS credits occurs via three steps: assessment of individual UEs, grouping of UEs  into  a  validation  package,  and  awarding  the  respective  ECTS  credits  for  the  completed package.\n\nAssessment is generally made by a written exam of 60 to 120 minutes in length. However, oral exams of 15 to 60 minutes in length are also possible. The marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated, but only once, and at the earliest during the next exam session. In the case of a repetition, the examiners may decide to replace a written exam by an oral exam of 15 to 60 minutes in length. Such a change has to be communicated to the students at least one week prior to the exam.\n\nAssessment of exercises, laboratory work and seminars may consist partly or in total on criteria assessed during the UE, for instance through assessment of laboratory work, presentations, written projects or based on the number of submitted exercise papers or the number of correctly solved exercises. Assessing exercises or laboratory work jointly with an associated lecture is possible.\n\nStudents are informed at the beginning of a course about the type and duration of the assessment and evaluation criteria. Permission to sit the exam associated with a formal lecture can be subject to  the  successful  completion  of  the  lecture's  corresponding  exercise  class,  as  specified  in  the appendix of this document.\n\nA validation package comprises multiple, separately assessed, UEs. The art. 22 and 24 of the Regulation determines the number of these packages whereas this curriculum determines their content.\n\nECTS points are credited according to art. 23 of the Regulation if:\n\n- the weighted average of the exam marks of a validation package is at least 4. The weighting is determined by the number of ECTS points assigned to a UE, and\n- the assessment criteria for UE not subject to formal examinations (practical work exercises seminars, etc.) are met.\n- no mark is equal to 1.0.\n\nAfter satisfying those conditions, a package is considered validated and the corresponding ECTS points are converted into ECTS credits and attributed to the student. Upon request, the Dean's office will issue transcripts of records in which exam results and awarded credits are acknowledged (Art. 26 and 27 of the Regulation), provided the exam fee has been paid.\n\nExams occur during the official exam sessions in spring, summer, or autumn, and are subject to a fee. Students register for each exam via the student s' web portal MyUniFR (https://my.unifr.ch) within the stipulated delays according to the on-line procedure and using their university account and password.\n\n## 1.5  Teaching Languages\n\nAll courses of the MSc programme in Bioinformatics and Computational Biology are taught in English. Also, all exams and written work (e.g. Master's thesis) have to be in English.\n\n## 1.6  Ethics and Science\n\nEthical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and all scientific writing work, be that a project, a lecture, a thesis, or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be correctly cited.\n\n## 1.7  Regulations and Additional Information\n\nDetailed information about studying Bioinformatics can be found in the documents referenced on the web page http://www.unifr.ch/scimed/en/plans which can also be obtained from the Office of the Department of Biology, chemin du Musée 10, CH-1700 Fribourg.\n\n## 2 Master of Science (MSc)\n\n[Version 2020, validation packages: PV-SBI-0000100, PV-SBI-0000101, PV-SBI-0000102]\n\nThe MSc programme in Bioinformatics and Computational Biology requires 120 ECTS credits to be completed, and is expected to take 24 months. The first three semesters (90 ECTS credits) consist primarily of courses, exercises, laboratory work and seminars designed to strengthen and complete the student's knowledge in bioinformatics and computational biology, but also in proper scientific conduct and skills like research communication. The courses are organised both at the University  of  Fribourg  and  the  University  of  Bern  and  can  be  complemented  with  additional courses offered at the University of Fribourg or under the BeNeFri agreement. The MSc degree is completed by a research project of 30 ECTS credits which includes the writing of a Master thesis.\n\n## 2.1  MSc Course Units\n\nThe courses consist of compulsory courses organized in one preparatory (7.5 ECTS) and four compulsory modules (74.5 ECTS). These are complemented by a module consisting of elective courses (8 ECTS).\n\nAll UE are assessed under two validation packages, consisting of the following modules:\n\n1. PV-SBI.0000100, 36.5 ECTS, consisting of the modules:\n- a. Computer Science, 15.5 ECTS\n- b. Statistics, 21 ECTS\n2. PV-SBI.0000101, 53.5 ECTS, consisting of the modules:\n- a. Preparatory Computer Science, 7.5 ECTS*\n- b. Preparatory Biology, 7.5 ECTS*\n- c. Genomics, 19.5 ECTS\n- d. Bioinformatic Applications, 18.5 ECTS\n- e. Elective courses, 8 ECTS\n\n* Only one of the preparatory modules can be chosen\n\nThe specific assessment criteria for each individual UE is specified in the appropriate appendices to the curricula on assessment modalities in Biology, Mathematics and Biochemistry.\n\n## Preparatory Modules (7.5 ECTS)\n\nTo account for the diverse background of students,7.5 ECTS credits are awarded for one of two possible modules:\n\n- Preparatory Computer Science teaches students basic programming skills.\n- Preparatory Biology introduces students to basic biological and biochemical processes and teaches basic laboratory skills.\n\nThe goal of these modules is to homogenize the knowledge of all students. Therefore, students with a BSc in biology, biochemistry, life sciences or equivalent follow the module ' Preparatory Computer Science ' . Students with a BSc in mathematics, statistics, computer science or equivalent follow the module ' Preparatory Biology ' .\n\n## Module ' Preparatory Computer Science '\n\n| Code          | Title of UE                                                                                     | tot. h.   | ECTS   |\n|---------------|-------------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07110 - * | Introduction to UNIX and BASH (lecture with exercises) Basic programming for non-informaticians | 5 days 56 | 2.5 5  |\n| Total         |                                                                                                 |           | 7.5    |\n\n## Module ' Preparatory Biology '\n\n| Code   | Title of UE                                                   | tot. h.   |   ECTS |\n|--------|---------------------------------------------------------------|-----------|--------|\n| -      | Molecular biology and genetics for non-biologists (lecture)   | 5 days    |    2.5 |\n| - *    | Molecular biology and genetics for non-biologists (practical) | 56        |    5   |\n| Total  |                                                               |           |    7.5 |\n\n## Compulsory Modules (74.5 ECTS)\n\n## Module 'Computer Science'\n\n| Code      | Title of UE                                 | tot. h.   |   ECTS |\n|-----------|---------------------------------------------|-----------|--------|\n| SBL.30001 | Introduction to R                           | 4 days    |    2   |\n| SBC.07109 | Programming with R                          | 2 days    |    1   |\n| _*        | Introduction to Digital Sustainability      | 2 days    |    1   |\n| _*        | Introduction to High-Performance Computing  | 2 days    |    1   |\n| _*        | Advanced Python                             | 28        |    2.5 |\n| _*        | Introduction to Signal and Image Processing | 42        |    5   |\n| _*        | Bioinformatic Algorithms                    | 28        |    3   |\n| Total     |                                             |           |   15.5 |\n\n## Module 'Statistics'\n\n| Code      | Title of UE                                       | tot. h.   |   ECTS |\n|-----------|---------------------------------------------------|-----------|--------|\n| _*        | Applied biostatistics I (lecture with exercises)  | 28+28     |      4 |\n| - *       | Applied biostatistics II (lecture with exercises) | 28+28     |      4 |\n| SBL.30002 | Machine Learning                                  | 10 days   |      5 |\n| SMA.07010 | Stochastic models in bioinformatics               | 28        |      3 |\n| _*        | Deep Learning in Life Science                     | 10 days   |      5 |\n| Total     |                                                   |           |     21 |\n\n## Module ' Genomics '\n\n| Code      | Title of UE                                      | tot. h.   |   ECTS |\n|-----------|--------------------------------------------------|-----------|--------|\n| SBC.07107 | Bioinformatics (practical course, in silico)     | 6 days    |    3   |\n| _*        | RNA-Sequencing                                   | 6 days    |    3   |\n| _*        | Cancer Genomics                                  | 6 days    |    3   |\n| SBL.20034 | Evolutionary Genomics                            | 6 days    |    3   |\n| _*        | Genome Assembly                                  | 4 days    |    2   |\n| SBL.30004 | Organization and annotation of Eukaryote genomes | 6 days    |    3   |\n| _*        | Genomics of Microorganisms                       | 14        |    1.5 |\n| SBL.00425 | Metagenomics Data Analysis                       | 14        |    1   |\n| Total     |                                                  |           |   19.5 |\n\n## Module ' Bioinformatic Applications '\n\n| Code      | Title of UE                             | tot. h.   |   ECTS |\n|-----------|-----------------------------------------|-----------|--------|\n| SBC.07111 | Research Seminar in Bioinformatics      | 28        |    2   |\n| _*        | Proteomics and Metabolomics             | 10 days   |    5   |\n| SBL.06002 | Classical Models in Biology (lecture)   | 28        |    3   |\n| SBL.06003 | Classical Models in Biology (exercises) | 14        |    1   |\n| _*        | Epidemiology                            | 14        |    1.5 |\n| SBL.10012 | Systems Biology                         | 28        |    3   |\n| _*        | Precision Medicine                      | 28        |    3   |\n| Total     | Total                                   | Total     |   18.5 |\n\n* Course offered by the University of Bern (see: http://www.bioinformatics.unibe.ch/)\n\n## Elective courses (8 ECTS)\n\nThe students complete the compulsory modules with elective courses. These courses are meant to complement the background of students and should hence be taken from a different field than that of the bachelor. Only courses agreed with by the study advisor are eligible. The following list contains a series of suggestions only.\n\n## Module ' Elective C ourses' (suggestions only)\n\n| Code        | Title of UE                                                                              | tot. h.   |   ECTS |\n|-------------|------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07150   | Term project°                                                                            | -         |    3   |\n| SBC.07151   | Term project°                                                                            | -         |    4   |\n| SBC.07152   | Term project°                                                                            | -         |    5   |\n| SIN.00220   | Data Processing and Visualization                                                        | 56        |    6   |\n| SIN.08608   | Pattern Recognition                                                                      | 42        |    5   |\n| SBC.07104 § | Introduction to Protein Structure and Protein Homology Modelling                         | 14        |    1.5 |\n| SBC.07105 § | Introduction to Docking of Small Molecules to Large Macromolecules and Molecular Graphic | 14        |    1.5 |\n| SBL.20035   | Structure and Functions of Host-associated Microbiota                                    | 28        |    3   |\n| SBL.00119   | Molecular Genetics of Model Organism development                                         | 28        |    3   |\n| - *         | Programmierung 1                                                                         | -         |    5   |\n| - *         | Beyond genetic inheritance                                                               | 28        |    3   |\n| - *         | Seminar and journal club in Population genetics and Bioinformatics                       | 28        |    2   |\n| _*          | Four weeks research project                                                              | -         |    7.5 |\n\n- ° Only one Term project can be chosen\n\n* Course offered by the University of Bern (see: http://www.bioinformatics.unibe.ch/)\n\n§ Must be taken together\n\n## Recognition of external credits\n\nIf requested by a student, the study advisor can recognize courses taken at other universities for up to 10 ECTS credits.\n\n## 2.2  Content of the Courses\n\n## 2.2.1  Compulsory Lectures\n\nThe compulsory courses are intended to introduce the students to the current techniques to generate and analyse large data sets in the context of Life Sciences. This is achieved by explaining and demonstrating the techniques with examples, and a large collection of supervised exercises. The following courses constitute the compulsory curriculum:\n\n- Introduction to UNIX and BASH (SBC.07110): The students will learn the basics of computing and programming, with an emphasis on UNIX operating system and command-line examples. They will learn BASH scripting using modern tools, including regular expressions.\n- Basic  programming  for  non-informaticians: This  course  introduces  the  basic  concepts  of programming  using  Python,  explains  important  algorithms  for  data  storage,  searching  and sorting, and establishes good programming habits for code readability and code organization.\n- Molecular biology and genetics for non-biologists: The goal of this course is a basic understanding of the molecules students will be dealing with later in the curriculum, such as DNA, RNA and proteins, as well as the basic cellular processes in which these molecules are involved. An important part of this course are guided lab-practicals aimed at introducing basic laboratory techniques which are important to understand potential sources of errors and contaminations when analysing the resulting data.\n- Introduction  to  R (SBL.30001) : This  course  introduces  the  basic  usage  of  the  statistical programming language R. The focus will be on data structures (vectors, matrices and data frames), import / export of data, basic plotting, writing of functions and scripts for reproducible data ana lysis. The course will be largely 'hands -on' and does not require any prior knowledge on R.\n- Programming with R (SBC.07109): This course introduces advanced topics in R programming, with a focus on S3 classes and R packages. The course will be largely 'hand son'.\n- Introduction to Digital Sustainability: This course introduces the concepts and workflows that ensure the long-term storage and usability of digital code and data.\n- Introduction  to  High-Performance  Computing :  This  course  introduces  the  use  of  highperformance computing centers, with a focus on the IBU cluster.\n- Advanced Python : This course introduces advanced topics in modern Python programming.\n- Introduction to signal and image processing: This lecture introduces the core principles of digital image processing and feature detection, which are then used by the students in extensive exercise sessions on biological image data.\n- Bioinformatics Algorithms : This course introduces algorithms commonly used in bioinformatic applications. The main focus is on searching and matching algorithms, graph algorithms and algorithms used to construct phylogenetic trees.\n- Applied biostatistics I: This lecture focuses on basic statistics and introduces all the important concepts  needed  in  the  courses  of  the  second  semester.  These  include  probability  theory, probability distributions, hypothesis testing and the basics of both frequentist and Bayesian inference. The course is paired with 'hands -on' sessions that will allow students to become familiar with the R programming language and to play with the concepts of the lectures using biological data.\n- Applied biostatistics II: This course builds on the knowledge obtained in Applied biostatistics I and introduces more complex statistical techniques such as working with joint distributions, regression analysis, analysis of variance and clustering approaches. The course is paired with 'hands -on' sessions that will allow students to play with the concepts of the lectures using biological data in 'R'.\n\n- Machine  learning  (SBL.30002): The  aim  of  this  course  is  to  equip  the  students  with  the necessary  skills  to  apply  machine-learning  techniques  in  their  own  research.  It  focuses  on numerical techniques such as Expectation Maximization and Markov Chain Monte Carlo, and introduces the use Hidden Markov Models and approximate techniques to analyse genomic data. The course is paired with exercises allowing students to implement these techniques in 'R' to analyse biological data.\n- Stochastic models in bioinformatics (SMA.07010): This course discusses stochastic dynamics in  gene  networks,  drug-receptors  interactions  and  modelling  of  small  molecules.  It  aims  to enable students to pursue their own research using the presented techniques and hence puts a large emphasis on mathematical concepts.\n- Deep Learning in Life Science : This course introduces deep learning as a technique and teaches how modern deep learning algorithms can be used to solve problems in the life sciences.\n- Bioinformatics  (practical  course,  in  silico): During  this  course,  students  will  become acquainted with DNA-sequence manipulation using Python and other tools and will assemble a bacterial genome de novo and annotate it structurally and functionally. Most of the course is organized as exercise sessions.\n- RNA-Sequencing :  This  course  introduces  the  methods  and  tools  used  to  analyse  RNAsequencing data from both tissues and single cells.\n- Cancer genomics: Besides a biological and medical introduction to cancer, this course focuses on genomic approaches to characterize, understand, and detect cancer. This course includes practical  sessions  where  students  will  use  next-generation  sequencing  techniques  to  detect variants in cancer cells and characterize the detected mutations using gene ontology.\n- Evolutionary  genomics  (SBL.20034) :  This  course  examines  the  main  factors  that  shape  the evolution  of  plant  and  animal  genomes.  In  particular,  it  discusses  various  approaches  for assessing  patterns  of  genomic  variation  in  natural  populations  and  the  evolutionary  and ecological  processes  affecting  them.  Students  will  population  genetical  statistics  and  about computational tools for analysing genetic variation at the genome-level, including for example the estimation of genome-wide population structure and tests of selection.\n- Genome assembly : This course introduces the methods and tools used to generate high-quality genome assemblies.\n- Organization and annotation of Eukaryote genomes (SBL.30004) : This course introduces the methods and tools used to annotate genomes and offers an evolutionary perspective on the interpretation of genomic features.\n- Genomics of microorganisms : This course gives an overview of the genome organization of microorganisms and introduces the concept of metagenomics.\n- Metagenomics data analysis: Students will learn the basic principles of metagenomics data analysis and their associated methods. The course will cover the targeted methods (16S, ITS) as well as the Whole Genome/Transcriptome Sequencing methods, both in prokaryotes and eukaryotes.  Students  will  learn  which  kind  of  data  could  be  extracted  from  metagenomics analysis and how to analyse and represent these data. SBC.07111 or equivalent is a prerequisite to access this course.\n- Proteomics and Metabolomics: This course introduces how proteomic data is acquired by mass spectrometry and analysed to reveal new understandings of biological systems, mainly focusing on protein interactions and genome annotation through proteomics. In addition to the lectures, students  will  present  and  discuss  relevant  articles  to  improve  the  understanding  behind  the algorithms and methods used.\n- Classical models in biology (SBL.06002 &amp; SBL.06003): The students will learn the basics of modelling  using  differential  equations  and  stochastic  processes  in  the  context  of  ecology, epidemiology and systems biology (cell and protein and networks). The course is paired with extensive 'hands -on' sessions.\n- Epidemiology: This  course  gives  an  overview  of  epidemiological  models  and  their  use  to understand disease dynamics.\n\n- System Biology (SBL.10012) : This course introduces the concept of systems biology, along with the methods and tools commonly used to study biological systems.\n- Precision Medicine : This course gives an overview of the use of bioinformatic tools in precision medicine.\n\n## 2.2.2  Term Project\n\nBetween 3 and 7.5 ECTS may be obtained through a term project (SBC.07150, SBC.07151 or SBC.07152)  or  a  four-weeks  research  project  (offered  in  Bern),  which  should  focus  on  an experimental or theoretical work performed within one of the research groups present at Bern or Fribourg.  During  the  work,  the  student  will  become  intimately  familiar  with  the  experimental techniques  and/or  theoretical  methods  applicable  to  research  questions  in  bioinformatics  or computational biology. The results will be written in an extended, detailed report.\n\n## 2.3  Master's Thesis and Exam\n\nThe  third  validation  package  of  the  Master ' s  program  (PV-SBI.0000102,  30  ECTS  credits) consists entirely of the UE dedicated to the Master thesis itself (SBC.07500). This work is foreseen to last six (6) months full time (excluding course work) and may start in the second semester and will last over the entire 3 rd semester. An extension of an additional 6 months is possible. Such an extension has to be justified to the Study Adviser in written form.\n\nThe Master thesis project involves real research work that the student will carry out under the supervision  of  an  active  researcher  in  the  field,  a nd  during  which  the  student's  aptitude  for fundamental  research  will  begin  to  develop.  The  work  must  be  presented  as  a  formal  written document. An additional oral presentation is encouraged. The work will be judged on the same 1 ('totally  unacceptable')  to 6  ('excellent')  scale  as  the  exams  by  the  supervisor  based  on  the research conducted and the written thesis. PV.SBI-0000102 will be validated only for marks of 4 and above. If a work is judged insufficient, a second PV.SBI-0000102 project is offered to the student, on a different subject.\n\n## 2.4  Admission Regulations for the Master Programme\n\n## 2.4.1  Admission Procedure\n\nAdmission to the Master program may be granted provided the following two conditions have been met by the applicant:\n\n- Satisfying the University admission requirements as defined in the Règlement concernant l'admission à l'Université de Fribourg (https://www.unifr.ch/apps/legal/fr/document/274904),\n- The student possesses a Bachelor of at least 90 ECTS credits in biology, biochemistry, life sciences, mathematics, statistics or computer science from the University of Fribourg or an academic degree judged equivalent by the Faculty of Science and Medicine.\n\nFor candidates with degrees that are not judged equivalent by the Faculty of Science and Medicine, the Commission for Students' Requests will decide on eligibility ( Commission des requêtes des étudiant-e-s , Dean's Office, Faculty of Science and Medicine, ch. du Musée 8, CH -1700 Fribourg, Switzerland).\n\nBased  on  th e  candidate's  academic  qualification,  the  Commission  for  Students'  Requests  can accept the application on the condition that additional requirements are fulfilled, provided they are of a minor scope and can be completed simultaneously with the Master studies. Otherwise, access is  denied  or  applicants  can  be  admitted  to  a  'pre -master  program'  and  can  begin  the  Master\n\nprogram  only  after  having  fulfilled  the  requirements  initially  set  for  the  pre-master.  Final acceptance to the Master program for a qualifying student depends on the successful completion of the additional requirements.\n\n## 2.5  Rules for Completion and Final Grade\n\nSuccessful completion of the PV-SBI.0000100, PV-SBI.0000101 and PV-SBI.0000102 validation packages results in the right to the title Master of Science in Bioinformatics and Computational Biology, University of Fribourg (MSc) ."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "|   CONTENTS ...............................................................................................................................2 | CONTENTS ...............................................................................................................................2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|                                                                                                                                         1   | GENERAL REMARKS........................................................................................................3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n|                                                                                                                                         1.1 | Academic Title and Study Plan ......................................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |\n|                                                                                                                                         1.2 | Course Structure ................................................................................................................................ 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         1.3 | Acquired Skills.................................................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         1.4 | Course Assessment (UE) and Accreditation of ECTS Credits....................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.5 | Teaching Languages.......................................................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |\n|                                                                                                                                         1.6 | Ethics and Science............................................................................................................................. 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n|                                                                                                                                         1.7 | Regulations and Additional Information .......................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |\n|                                                                                                                                         2   | MASTER OF SCIENCE (MSC) ...........................................................................................6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n|                                                                                                                                         2.1 | MSc Course Units ............................................................................................................................... 6 Preparatory Validation Package (7.5 ECTS)......................................................................................................6 Compulsory validation Packages (74.5 ECTS).................................................................................................7 Elective courses (8 ECTS)..................................................................................................................................8 Recognition of external credits..........................................................................................................................8 |\n|                                                                                                                                         2.2 | Content of the Courses...................................................................................................................... 9 2.2.1 Compulsory Lectures..............................................................................................................................9 2.2.2 Term Project...........................................................................................................................................11                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                         2.3 | MSc Exams and Assessment.......................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n|                                                                                                                                         2.4 | Master's Thesis and Exam............................................................................................................... 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n|                                                                                                                                         2.5 | Admission Regulations for the Master Programme...................................................................... 11 2.5.1 Admission Procedure............................................................................................................................11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |\n|                                                                                                                                         2.6 | Rules for Completion and Final Grade........................................................................................... 12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "GENERAL REMARKS........................................................................................................3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Academic Title and Study Plan ......................................................................................................... 3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Course Structure ................................................................................................................................ 3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Acquired Skills.................................................................................................................................... 4"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Course Assessment (UE) and Accreditation of ECTS Credits....................................................... 4"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Teaching Languages.......................................................................................................................... 5"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Ethics and Science............................................................................................................................. 5"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Regulations and Additional Information .......................................................................................... 5"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "MASTER OF SCIENCE (MSC) ...........................................................................................6"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "MSc Course Units ............................................................................................................................... 6 Preparatory Validation Package (7.5 ECTS)......................................................................................................6 Compulsory validation Packages (74.5 ECTS).................................................................................................7 Elective courses (8 ECTS)..................................................................................................................................8 Recognition of external credits..........................................................................................................................8"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Content of the Courses...................................................................................................................... 9 2.2.1 Compulsory Lectures..............................................................................................................................9 2.2.2 Term Project...........................................................................................................................................11"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "MSc Exams and Assessment.......................................................................................................... 11"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Master's Thesis and Exam............................................................................................................... 11"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Admission Regulations for the Master Programme...................................................................... 11 2.5.1 Admission Procedure............................................................................................................................11"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "CONTENTS ...............................................................................................................................2": "Rules for Completion and Final Grade........................................................................................... 12"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| Code          | Title of UE                                                                                     | tot. h.   | ECTS   |\n|---------------|-------------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07110 - * | Introduction to UNIX and BASH (lecture with exercises) Basic programming for non-informaticians | 5 days 56 | 2.5 5  |\n| Total         |                                                                                                 |           | 7.5    |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBC.07110 - *",
+            "Title of UE": "Introduction to UNIX and BASH (lecture with exercises) Basic programming for non-informaticians",
+            "tot. h.": "5 days 56",
+            "ECTS": "2.5 5"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "",
+            "tot. h.": "",
+            "ECTS": "7.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 2,
+      "markdown": "| Code   | Title of UE                                                   | tot. h.   |   ECTS |\n|--------|---------------------------------------------------------------|-----------|--------|\n| -      | Molecular biology and genetics for non-biologists (lecture)   | 5 days    |    2.5 |\n| - *    | Molecular biology and genetics for non-biologists (practical) | 56        |    5   |\n| Total  |                                                               |           |    7.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "-",
+            "Title of UE": "Molecular biology and genetics for non-biologists (lecture)",
+            "tot. h.": "5 days",
+            "ECTS": "2.5"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "- *",
+            "Title of UE": "Molecular biology and genetics for non-biologists (practical)",
+            "tot. h.": "56",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "",
+            "tot. h.": "",
+            "ECTS": "7.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 3,
+      "markdown": "| Code      | Title of UE                                 | tot. h.   |   ECTS |\n|-----------|---------------------------------------------|-----------|--------|\n| SBL.30001 | Introduction to R                           | 4 days    |    2   |\n| SBC.07109 | Programming with R                          | 2 days    |    1   |\n| _*        | Introduction to Digital Sustainability      | 2 days    |    1   |\n| _*        | Introduction to High-Performance Computing  | 2 days    |    1   |\n| _*        | Advanced Python                             | 28        |    2.5 |\n| _*        | Introduction to Signal and Image Processing | 42        |    5   |\n| _*        | Bioinformatic Algorithms                    | 28        |    3   |\n| Total     |                                             |           |   15.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBL.30001",
+            "Title of UE": "Introduction to R",
+            "tot. h.": "4 days",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SBC.07109",
+            "Title of UE": "Programming with R",
+            "tot. h.": "2 days",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Introduction to Digital Sustainability",
+            "tot. h.": "2 days",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Introduction to High-Performance Computing",
+            "tot. h.": "2 days",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Advanced Python",
+            "tot. h.": "28",
+            "ECTS": "2.5"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Introduction to Signal and Image Processing",
+            "tot. h.": "42",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Bioinformatic Algorithms",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "",
+            "tot. h.": "",
+            "ECTS": "15.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 4,
+      "markdown": "| Code      | Title of UE                                       | tot. h.   |   ECTS |\n|-----------|---------------------------------------------------|-----------|--------|\n| _*        | Applied biostatistics I (lecture with exercises)  | 28+28     |      4 |\n| - *       | Applied biostatistics II (lecture with exercises) | 28+28     |      4 |\n| SBL.30002 | Machine Learning                                  | 10 days   |      5 |\n| SMA.07010 | Stochastic models in bioinformatics               | 28        |      3 |\n| _*        | Deep Learning in Life Science                     | 10 days   |      5 |\n| Total     |                                                   |           |     21 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Applied biostatistics I (lecture with exercises)",
+            "tot. h.": "28+28",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "- *",
+            "Title of UE": "Applied biostatistics II (lecture with exercises)",
+            "tot. h.": "28+28",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SBL.30002",
+            "Title of UE": "Machine Learning",
+            "tot. h.": "10 days",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SMA.07010",
+            "Title of UE": "Stochastic models in bioinformatics",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Deep Learning in Life Science",
+            "tot. h.": "10 days",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "",
+            "tot. h.": "",
+            "ECTS": "21"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 5,
+      "markdown": "| Code      | Title of UE                                      | tot. h.   |   ECTS |\n|-----------|--------------------------------------------------|-----------|--------|\n| SBC.07107 | Bioinformatics (practical course, in silico)     | 6 days    |    3   |\n| _*        | RNA-Sequencing                                   | 6 days    |    3   |\n| _*        | Cancer Genomics                                  | 6 days    |    3   |\n| SBL.20034 | Evolutionary Genomics                            | 6 days    |    3   |\n| _*        | Genome Assembly                                  | 4 days    |    2   |\n| SBL.30004 | Organization and annotation of Eukaryote genomes | 6 days    |    3   |\n| _*        | Genomics of Microorganisms                       | 14        |    1.5 |\n| SBL.00425 | Metagenomics Data Analysis                       | 14        |    1   |\n| Total     |                                                  |           |   19.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBC.07107",
+            "Title of UE": "Bioinformatics (practical course, in silico)",
+            "tot. h.": "6 days",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "RNA-Sequencing",
+            "tot. h.": "6 days",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Cancer Genomics",
+            "tot. h.": "6 days",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SBL.20034",
+            "Title of UE": "Evolutionary Genomics",
+            "tot. h.": "6 days",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Genome Assembly",
+            "tot. h.": "4 days",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SBL.30004",
+            "Title of UE": "Organization and annotation of Eukaryote genomes",
+            "tot. h.": "6 days",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Genomics of Microorganisms",
+            "tot. h.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SBL.00425",
+            "Title of UE": "Metagenomics Data Analysis",
+            "tot. h.": "14",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "",
+            "tot. h.": "",
+            "ECTS": "19.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 6,
+      "markdown": "| Code      | Title of UE                             | tot. h.   |   ECTS |\n|-----------|-----------------------------------------|-----------|--------|\n| SBC.07111 | Research Seminar in Bioinformatics      | 28        |    2   |\n| _*        | Proteomics and Metabolomics             | 10 days   |    5   |\n| SBL.06002 | Classical Models in Biology (lecture)   | 28        |    3   |\n| SBL.06003 | Classical Models in Biology (exercises) | 14        |    1   |\n| _*        | Epidemiology                            | 14        |    1.5 |\n| SBL.10012 | Systems Biology                         | 28        |    3   |\n| _*        | Precision Medicine                      | 28        |    3   |\n| Total     | Total                                   | Total     |   18.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBC.07111",
+            "Title of UE": "Research Seminar in Bioinformatics",
+            "tot. h.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Proteomics and Metabolomics",
+            "tot. h.": "10 days",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SBL.06002",
+            "Title of UE": "Classical Models in Biology (lecture)",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SBL.06003",
+            "Title of UE": "Classical Models in Biology (exercises)",
+            "tot. h.": "14",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Epidemiology",
+            "tot. h.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SBL.10012",
+            "Title of UE": "Systems Biology",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Precision Medicine",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "Total",
+            "Title of UE": "Total",
+            "tot. h.": "Total",
+            "ECTS": "18.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 7,
+      "markdown": "| Code        | Title of UE                                                                              | tot. h.   |   ECTS |\n|-------------|------------------------------------------------------------------------------------------|-----------|--------|\n| SBC.07150   | Term project°                                                                            | -         |    3   |\n| SBC.07151   | Term project°                                                                            | -         |    4   |\n| SBC.07152   | Term project°                                                                            | -         |    5   |\n| SIN.00220   | Data Processing and Visualization                                                        | 56        |    6   |\n| SIN.08608   | Pattern Recognition                                                                      | 42        |    5   |\n| SBC.07104 § | Introduction to Protein Structure and Protein Homology Modelling                         | 14        |    1.5 |\n| SBC.07105 § | Introduction to Docking of Small Molecules to Large Macromolecules and Molecular Graphic | 14        |    1.5 |\n| SBL.20035   | Structure and Functions of Host-associated Microbiota                                    | 28        |    3   |\n| SBL.00119   | Molecular Genetics of Model Organism development                                         | 28        |    3   |\n| - *         | Programmierung 1                                                                         | -         |    5   |\n| - *         | Beyond genetic inheritance                                                               | 28        |    3   |\n| - *         | Seminar and journal club in Population genetics and Bioinformatics                       | 28        |    2   |\n| _*          | Four weeks research project                                                              | -         |    7.5 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBC.07150",
+            "Title of UE": "Term project°",
+            "tot. h.": "-",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SBC.07151",
+            "Title of UE": "Term project°",
+            "tot. h.": "-",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SBC.07152",
+            "Title of UE": "Term project°",
+            "tot. h.": "-",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SIN.00220",
+            "Title of UE": "Data Processing and Visualization",
+            "tot. h.": "56",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SIN.08608",
+            "Title of UE": "Pattern Recognition",
+            "tot. h.": "42",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SBC.07104 §",
+            "Title of UE": "Introduction to Protein Structure and Protein Homology Modelling",
+            "tot. h.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SBC.07105 §",
+            "Title of UE": "Introduction to Docking of Small Molecules to Large Macromolecules and Molecular Graphic",
+            "tot. h.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SBL.20035",
+            "Title of UE": "Structure and Functions of Host-associated Microbiota",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SBL.00119",
+            "Title of UE": "Molecular Genetics of Model Organism development",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "- *",
+            "Title of UE": "Programmierung 1",
+            "tot. h.": "-",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "- *",
+            "Title of UE": "Beyond genetic inheritance",
+            "tot. h.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "- *",
+            "Title of UE": "Seminar and journal club in Population genetics and Bioinformatics",
+            "tot. h.": "28",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "_*",
+            "Title of UE": "Four weeks research project",
+            "tot. h.": "-",
+            "ECTS": "7.5"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "CONTENTS",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1 General Remarks",
+      "line_index": 24,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.1 Academic Title and Study Plan",
+      "line_index": 30,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Master of Science in Bioinformatics and Computational Biology (MSc), University of Fribourg",
+      "line_index": 34,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.2 Course Structure",
+      "line_index": 44,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.3 Acquired Skills",
+      "line_index": 58,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.4 Course Assessment (UE) and Accreditation of ECTS Credits",
+      "line_index": 62,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.5 Teaching Languages",
+      "line_index": 84,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.6 Ethics and Science",
+      "line_index": 88,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.7 Regulations and Additional Information",
+      "line_index": 92,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2 Master of Science (MSc)",
+      "line_index": 96,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.1 MSc Course Units",
+      "line_index": 102,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Preparatory Modules (7.5 ECTS)",
+      "line_index": 122,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module ' Preparatory Computer Science '",
+      "line_index": 131,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module ' Preparatory Biology '",
+      "line_index": 138,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Compulsory Modules (74.5 ECTS)",
+      "line_index": 146,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module 'Computer Science'",
+      "line_index": 148,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module 'Statistics'",
+      "line_index": 161,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module ' Genomics '",
+      "line_index": 172,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module ' Bioinformatic Applications '",
+      "line_index": 186,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Elective courses (8 ECTS)",
+      "line_index": 201,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Module ' Elective C ourses' (suggestions only)",
+      "line_index": 205,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Recognition of external credits",
+      "line_index": 229,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.2 Content of the Courses",
+      "line_index": 233,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.2.1 Compulsory Lectures",
+      "line_index": 235,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.2.2 Term Project",
+      "line_index": 270,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.3 Master's Thesis and Exam",
+      "line_index": 274,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.4 Admission Regulations for the Master Programme",
+      "line_index": 280,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.4.1 Admission Procedure",
+      "line_index": 282,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.5 Rules for Completion and Final Grade",
+      "line_index": 295,
+      "source": "markdown_regex"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T23:17:59.703Z",
+  "title": "Philosophy_Master_90_English_Language_and_Literature_Studienplan_MA_Nebenprogramm_30_ECTS__8c78a1ada52ae0e3b6f4eb5a459c20562e43a282",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8c78a1ada52ae0e3b6f4eb5a459c20562e43a282",
+  "program_key": "philosophy|master|90|english language and literature",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "English Language and Literature",
+  "doc_label": "Studienplan MA Nebenprogramm (30 ECTS)",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_p2_as_2010_d.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_English_Language_and_Literature_Studienplan_MA_Nebenprogramm_30_ECTS__8c78a1ada52ae0e3b6f4eb5a459c20562e43a282.pdf",
+  "sha256": "7c70967606e23d0d522debe770131fb44cced0a5e3d493ed5ebc9b4a74873bfa",
+  "fetched_at": "2026-04-03T11:31:25.835Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ma_p2_as_2010_d.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "ma_p2_as_2010_d.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Universität Freiburg (Schweiz)
+
+Philosophische Fakultät Departement für Sprachen und Literaturen
+
+## Bereich Englisch
+
+## Master of Arts
+
+## Nebenprogramm (30 Kreditpunkte) Englische Sprache und Literatur
+
+## Studienplan
+
+Das voliegende Dokument beschreibt die Organisation des Nebenprogramms in Englisch. Das Vertiefungsprogramm und das Nebenprogramm  sind  in  getrennten  Dokumenten  beschrieben.  Verantwortlich für diesen Studienplan ist der Präsident des Departements.
+
+## I. Allgemeines
+
+## I.1. Einführung in den Studienplan
+
+Dieses  Programm  bietet  Studierenden  die  Möglichkeit,  ihr Wissen in zwei Teilbereichen der Anglistik zu erweitern und zu vertiefen. Das M.A. Programm legt besonderen Wert auf Techniken wissenschaftlichen Arbeitens, die Geschichte der Kritik, sowie neue Methoden, und geht dabei ein auf die spezifischen Gegebenheiten der Anglistik. Im Bereich der englischen Linguistik  lernen  Studierende, die Sprache wissenschaftlich zu beschreiben  und  empirisch  zu  analysieren  unter  Berücksichtigung sowohl intra-  als  auch  interkultureller  Dimensionen.  In der Literaturwissenschaft setzen Studierende sich auseinander mit  den  Beziehungen  zwischen  angloamerikanischen  Traditionen  und  denen  Kontinentaleuropas.  In  beiden  Fällen  wird besonderes Augenmerk gelegt auf eine fundierte Kenntnis des historischen  Kontexts,  um  die  Entwicklung  einer  multikulturellen Betrachtungsweise der englischsprachigen Zivilisation in ihrem  globalen  Zusammenhang  und  in  all  ihrer  Vielfalt  zu fördern.
+
+In  diesem  Programm  wählen  Studierende  zwei  Module  im Wert  von  jeweils  15  ECTS  Kreditpunkten  aus  den  folgenden Optionen aus: Englische Linguistik, Englische Philologie, Englische  Literatur  1500-1780,  Englische  Literatur  1780-Gegenwart, Amerikanische Literatur.
+
+## I.2 Zulassungsvoraussetzungen
+
+Die  Zulassung  zum  Nebenprogramm  in  Englisch  wird  ohne weitere Bedingungen erteilt an folgende Bewerber:
+
+- o Bewerber  mit  einem  B.A.  Abschluss  inklusive  eines Minimums  von  60  Kreditpunkten  in  englischer  Sprache und Literatur (Haupt- oder Nebenfach/ Domaine I oder II)
+
+Bewerber, die diese Bedingungen nicht erfüllen, können zugelassen  werden durch die Entscheidung des Departementrats. In solchen Fällen kann von Bewerbern gegebenenfalls erwartet werden, dass sie zusätzliche Studienleistungen erbringen. Dieses kann entweder vor Beginn des Programms geschehen oder während des Programms.
+
+## I.3 Prüfungen und Anerkennung von Kreditpunkten
+
+ECTS  Kreditpunkte werden  ausschließlich auf  Grund  von Studienleistungen vergeben, die evaluiert und als ausreichend befunden  wurden  (siehe  Artikel  21  des Reglement  für  die Erlangung eines Masters an der Philosophischen Fakultät der Universität ).  Die  Bewertung  kann  erfolgen  für  eine  einzelne Lehrveranstaltung  (eine  Unterrichtseinheit  oder UE )  oder  für eine  Gruppe  von  Lehrveranstaltungen  (Unterrichtseinheiten/ UEs )  innerhalb  eines  Moduls.  Welche  Art  der  Bewertung  zur Anwendung kommt, wird bei Semesterbeginn festgelegt.
+
+Der erfolgreiche Abschluss des Nebenprogramms erfordert die Validierung von 30 ECTS Kreditpunkten. Die einem Modul zugerechneten  Kreditpunkte  werden  an  die  Studierenden  vergeben sobald festgestellt ist, dass sie alle Studienziele erfüllt haben, die im Studienplan für das jeweilige Modul vorgesehen sind (siehe § II.1 unten).
+
+## I.4 Unterrichtssprache
+
+Die Unterrichtssprache ist Englisch.
+
+## I. Studienorganisation
+
+Studierende wählen 2 Module im Wert von jeweils 15 ECTS Kreditpunkten aus den folgenden Optionen:
+
+## Modul 1  - 15 ECTS Kreditpunkte Englische Linguistik
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+c/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+## Modul 2 - 15 ECTS Kreditpunkte Englische Philologie
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+c/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+## Modul 3 - 15 ECTS Kreditpunkte Englische Literatur I (1500-1780)
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+c/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+## Modul 4 - 15 ECTS Kreditpunkte Englische Literatur II  (1780-Gegenwart)
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+c/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+## Modul 5 - 15 ECTS Kreditpunkte Amerikanische Literatur
+
+## Unterrichtssprache : Englisch
+
+a/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+b/ Vorlesung 2 Wochenstunden pro Semester. Wert: 3 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+c/ Seminar 2 Wochenstunden pro Semester. Wert: 9 ECTS Kreditpunkte. Prüfung/Bewertung wird spezifiziert vom verantwortlichen Dozenten.
+
+Zwei Module werden aus der obenstehenden Liste ausgewählt (2 x 15 ECTS = 30 ECTS)
+
+Genauere Bestimmungen zu allen Leistungsnachweisen werden vom verantwortlichen Dozenten festgelegt und in Gestens beschrieben

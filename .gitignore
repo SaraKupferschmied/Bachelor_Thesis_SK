@@ -9,7 +9,6 @@ __pycache__/
 .scrapy/
 
 # Data outputs
-outputs/
 *.jl
 *.sqlite
 *.db
@@ -41,10 +40,3 @@ chatbot/app/__pycache__
 
 # git
 .git/
-
-# temporary
-*.faiss
-*.plk
-chatbot/vectorstore
-*.json
-*.jsonl

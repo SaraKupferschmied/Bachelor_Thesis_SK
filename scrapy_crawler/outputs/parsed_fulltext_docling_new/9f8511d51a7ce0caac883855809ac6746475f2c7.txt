@@ -1,0 +1,191 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T00:20:08.171Z",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Mathematics_9f8511d51a7ce0caac883855809ac6746475f2c7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "9f8511d51a7ce0caac883855809ac6746475f2c7",
+  "program_key": "|master|120|experimental biomedical research",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Mathematics",
+  "doc_label": "Master of Science in Mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2024/Plan_MSc_MA_en.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/biomedicalresearch",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Experimental_Biomedical_Research_Master_of_Science_in_Mathematics_9f8511d51a7ce0caac883855809ac6746475f2c7.pdf",
+  "sha256": "7cbf4762c58cc17f0991df3ec28d086b5e048593e755dc23a4c2137217482d31",
+  "fetched_at": "2026-04-03T11:26:35.104Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2024/Plan_MSc_MA_en.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_MSc_MA_en.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Contents
+
+|   1 | GENERAL REMARKS........................................................................................................3                              |
+|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1 | Academic Titles and Programme of Study ...................................................................................... 3                       |
+| 1.2 | Course Structure ................................................................................................................................ 3   |
+| 1.3 | Acquired Skills.................................................................................................................................... 4 |
+| 1.4 | Assessment of Teaching Units (UE) and Acquisition of ECTS Credits .......................................... 4                                        |
+| 1.5 | Teaching Languages.......................................................................................................................... 4        |
+| 1.6 | Ethics and Science............................................................................................................................. 4     |
+| 1.7 | Regulations and Additional Information .......................................................................................... 4                   |
+| 3   | MASTER OF SCIENCE (MSC) IN MATHEMATICS............................................................5                                                   |
+| 3.1 | Admission to the MSc Programme................................................................................................... 5                   |
+| 3.2 | Teaching Units of the MSc Programme............................................................................................ 5                     |
+| 3.3 | Continuation of the Minor Field and Practical Work....................................................................... 6                           |
+| 3.4 | Examinations in the MSc Programme .............................................................................................. 6                    |
+| 3.5 | Master's Thesis................................................................................................................................... 6  |
+
+## 1 General Remarks
+
+This curriculum describes the regulations concerning the course of studies in mathematics at the University of Fribourg. It is based on the regulations of the Faculty of Science and Medicine as defined in the Règlement du 30 May 2022 pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine (subsequently called the Regulations for short).
+
+The Regulation of 30 May 2022 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study programmes (see articles 11, 13 and 14) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1  Academic Titles and Programme of Study
+
+The Faculty of Science and Medicine of the University of Fribourg awards the following official academic titles to students who have successfully completed the corresponding course of studies:
+
+- Bachelor of Science in Mathematics, University of Fribourg , subsequently called BSc .
+- Master of Science in Mathematics, University of Fribourg , subsequently called MSc .
+
+The programme of the MSc in mathematics represents a scientific course of studies giving access to various professional activities in research, education, industry, commerce, and administration. In addition, the MSc is the entry requirement for the scientific work and deepened scientific education leading to a doctorate. When accompanied by an adequate subsidiary subject (biology, chemistry, geography,  mathematics,  or  physics),  the  MSc  allows  one  to  enter  a  complementary  didactics programme leading to a qualification as a high-school teacher ( Diplôme d'enseignement pour les écoles de maturité, DEEM / Lehrdiplom für die Maturitätsschulen, LDM ).
+
+Candidates in possession of a BSc in Mathematics of the University of Fribourg or any other Swiss university or ETH are admitted without further requirement to the MSc course of studies (art. 8 of the Regulation). Candidates in possession of a BSc degree from abroad , in a different subject or of equivalent degrees can also be admitted to the MSc study programme by a decision of the Faculty of Science and Medicine to be made in each individual case. Provisional admission may be granted subject to the fulfilment of additional requirements (cf. Section 3.1).
+
+## 1.2  Course Structure
+
+The degree courses leading to the MSc are subdivided into teaching units (UE, from the German Unterrichtseinheit ) comprising lectures, seminars, etc. To each UE, a number of ECTS credits (Europen Credit Transfer System) is assigned. The MSc degree course requires 90 ECTS credits, corresponding to a duration of study of 3 semesters.
+
+The programme consists of a one-year taught programme comprising lectures and seminars, and the MSc thesis . Examinations of the UE of the MSc are only possible after all the requirements for the BSc have been completed. (cf. 1.4).
+
+The purpose of the different forms of UE is as follows:
+
+- Lectures give an introduction to the scientific methods in mathematics and advanced scientific thinking. They provide the fundamentals of various mathematical fields and their applications.
+- Seminars give  the  opportunity  for  working  more  deeply  on  a  mathematical  subject  and presenting it orally as well as in written form.
+- The master's thesis is an autonomous scientific work under the supervision of an experienced researcher.
+
+## 1.3  Acquired Skills
+
+The aim of the studies leading to an MSc in Mathematics is to deepen knowledge and perfect competence in the chosen field. Thus, at the end of the programme, students will have shown that they can apply their knowledge to accomplish a research project and will have learned how to work independently or how to integrate into an interdisciplinary research team. The award of the degree requires creative and self-critical talents as well as the ability to communicate ideas.
+
+## 1.4  Assessment of Teaching Units (UE) and Acquisition of ECTS Credits
+
+The UE of the MSc programme are grouped into two validation packages, MSc1 and MSc2. The acquisition of ECTS credits occurs in two steps: the assessment of the UE and the awarding of the credits for completed validation packages.
+
+Admission to the exam corresponding to a course can be subject to meeting the requirements of the corresponding exercise class. The assessment of lectures is made by an oral exam, whose type and duration are regulated in an appendix to this curriculum. Exams normally take place during the official exam periods (sessions) scheduled by the Faculty. Students register in the students' portal MyUniFR (https://my.unifr.ch) within the time stipulated for each exam according to the on-line procedure. When the semester during which the student has taken a UE on which they want to be examined  does  not  appear  in  the  list  of  examinable  UE,  they  should  notify  the  Department  of Mathematics to have it added. The grades range from 6 (highest) to 1 (lowest). An exam with a grade below 4 can be repeated once at the earliest during the next exam session.
+
+A Validation  package comprises  multiple,  separately  assessed,  UEs.  Art.  24  and  27  of  the Regulation determines the number of these packages whereas this curriculum determines their content.
+
+The conditions for validation of ECTS credits are described in Art. 25 of the Regulation.
+
+After the validation, upon request, the Dean's office will issue transcripts of records in which exam results and awarded credits are acknowledged (Art. 28 and 30 of the Regulation), provided the exam fee has been paid.
+
+## 1.5  Teaching Languages
+
+Courses are taught in French, German or English ,  depending on the lecturer's preference .  The students  may  choose  the  language  of  their  seminar  talks,  written  works  and  exams  (French, German or English).
+
+## 1.6  Ethics and Science
+
+Ethical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and upon the writing up of any scientific work whether it be a lecture, a thesis or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be adequately and correctly cited.
+
+## 1.7  Regulations and Additional Information
+
+Detailed information about studying Mathematics can be found in the documents referenced on the web page https://www.unifr.ch/scimed/fr/plans, which can also be obtained from the Office of the Department of Mathematics, chemin du Musée 23, CH-1700 Fribourg.
+
+## 3 Master of Science (MSc) in Mathematics
+
+[Version 2022, validation package: PV-SMA.0000046, PV-SMA.0000047]
+
+The MSc degree programme consists of course work corresponding to 90 ECTS credits and usually requires 3 semesters. It is concluded with a master's thesis. Teaching units for the MSc programme can be assessed and validated only after the BSc certificate has been obtained.
+
+## 3.1  Admission to the MSc Programme
+
+The acceptance to a Master programme in Mathematics may be granted provided the following two conditions have been met by the applicant:
+
+- Satisfying the University admission requirements as defined in the Règlement concernant l'admission à l' Université de Fribourg (https://www.unifr.ch/apps/legal/fr/document/274904 ),
+- The student possesses a Bachelor of Science in Mathematics from the University of Fribourg or an academic degree judged equivalent by the Faculty of Science and Medicine.
+
+For candidates with degrees that are not judged equivalent by the Faculty of Science and Medicine, the Commission for Students' Requests will decide on eligibility ( Commission des requêtes des étudiant-e-s , Dean's Office, Faculty of Science and Medicine, ch. du Musée 8, CH -1700 Fribourg, Switzerland).
+
+Based  on  the  candidate's  academic  qualification,  the  Commission  for  Students'  Requests  can accept the application on the condition that additional requirements are fulfilled, provided they are of a minor scope and can be completed simultaneously with the Master studies. Otherwise, access is denied or applicants can be admitted to a 'pre -master programme' and can begin the Master programme  only  after  having  fulfilled  the  requirements  initially  set  for  the  pre-master.  Final acceptance to the Master programme for a qualifying student depends on the successful completion of the additional requirements.
+
+Students enrolled in the Bachelor programme of Mathematics at the University of Fribourg can participate in courses and one seminar belonging to the Master programme before completing the BSc.  However,  assessment  and  validation  of  these  courses  can  take  place  only  after  the  BSc certificate has been obtained. Participation in a seminar for the master's programme requires prior successful completion of all seminars for the bachelor.
+
+## 3.2  Teaching Units of the MSc Programme
+
+The MSc programme comprises seven lecture courses 1 ,  two seminars, a master's thesis and its presentation in a lecture. The following table lists a possible schedule for each semester.
+
+1 st  semester
+
+| semester Code       | Teaching unit     | tot. h.   |   ECTS |
+|---------------------|-------------------|-----------|--------|
+|                     | Mathematics *)    |           |        |
+| SMA.04xxx SMA.048xx | 4 lecture courses | 4 x 56    |     24 |
+|                     | Seminar           | 28        |      3 |
+|                     |                   |           |     27 |
+
+*) see section 3.3
+
+1 A lecture consists of a 4h/week class for one semester, a 2h/week class for one year or two 2h/week classes for one semester.
+
+| 2 nd semester      |                                 |         | ECTS   |
+|--------------------|---------------------------------|---------|--------|
+|                    | Mathematics *)                  |         |        |
+| SMA.04xxx          | 3 lecture courses               | 3 x 56  | 18     |
+| SMA.048xx          | Seminar                         | 28      | 3      |
+| and                | with                            |         |        |
+| SMA.04814          | Essay                           | -       | 3      |
+| SMA.04813          | Preparation for master's thesis | -       | 6      |
+|                    |                                 |         | 30     |
+| *) see section 3.3 | *) see section 3.3              |         |        |
+| 3 rd semester Code | Teaching unit                   | tot. h. | ECTS   |
+| SMA.05801          | Master's thesis                 | -       | 30     |
+| SMA.05802          | Presentation of master's thesis | -       | 3      |
+|                    |                                 |         | 33     |
+
+It  is  possible to choose some teaching units that are not part of the university's normal course programme,  notably  courses  given  in  the 3 e Cycle  Romand  de  Statistique  et  Probabilités appliquées , the Swiss Doctoral Program in Mathematics, as well as lecture courses offered at the Universities of Bern and Neuchâtel as part of the BeNeFri convention or the collaboration with the University of Bern. This requires the prior consent of the student advisor.
+
+Of the seven lecture  courses  chosen,  at  least  one  each  must  belong  to  the  fields  of Analysis, Algebra-Geometry-Topology and Applied Mathematics (Numerical Analysis, Stochastics, Biomathematics). It is recommended to study the course announcements in time and to discuss the programme with the student adviser.
+
+## 3.3  Continuation of the Minor Field and Practical Work
+
+Students that had computer science , physics or one of the three existing options in economics as a minor in their BSc curriculum may extend their knowledge in the same discipline during their MSc programme. In this case, up to 12 ECTS credits in Mathematics may be replaced by ECTS credits in the corresponding discipline. Suitable courses are chosen in agreement with the student advisers of the major and minor disciplines. Only one of these minors can be pursued. The 1 to 12 ECTS credits obtained for the minor are counted towards Applied Mathematics in the sense of the preceding section.
+
+Six ECTS credits may also be obtained, with prior consent of the student adviser, from a practical project in cooperation with the Ecole d'ingénieurs et d'architectes de Fribourg or the industry.
+
+## 3.4  Examinations in the MSc Programme
+
+The teaching units of the first two semesters of the MSc programme comprise the first validation package.  Assessments  of  the  courses  are  described  in  an  appendix  to  the  curriculum  of mathematics. External courses are assessed by the school or faculty offering them.
+
+## 3.5  Master's Thesis
+
+The  master's  thesis  is  written  under  the  supervision  of  a  professor  or tenured  lecturer  of  the Department of Mathematics. The subject of the thesis is usually related to the courses and seminars of  the  first  year  of  the  MSc  programme.  Students  should  contact  a  supervisor  early  in  their programme in order to choose a topic for their thesis. The master's thesis is to be completed within 6 months and then presented in the form of a lecture that should be accessible to fellow students.
+
+It  may  also  be  written  under  the  co-direction  of  non-tenured  lecturer  of  the  Department  for Mathematics  (MA,  SNFS-professor),  or  under  the  co-direction  of  a  professor  from  another university.
+
+The master's thesis is graded on a scale of 6.0 (best) to 1.0 (worst). If the grade obtained is below 4.0, a second thesis may be written on a different topic.
+
+The second validation package consists of 33 ECTS credits. These ECTS credits are validated if the master's thesis has obtained a grade of 4.0 or better and if its presentation in the required lecture has been accepted.
+
+The degree Master of Science in Mathematics, University of Fribourg (MSc) is conferred after successful completion of the 2 validation packages.

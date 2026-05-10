@@ -1,0 +1,212 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T22:58:44.413Z",
+  "title": "Philosophy_Bachelor_60_Eastern_European_Studies_BA_60_ECTS_Anhang_zum_Studienplan_8b3c0262ea04c4433b81f795e052aa56bf62fab4",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8b3c0262ea04c4433b81f795e052aa56bf62fab4",
+  "program_key": "philosophy|bachelor|60|eastern european studies",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Eastern European Studies",
+  "doc_label": "BA 60 ECTS Anhang zum Studienplan",
+  "source_url": "https://www.unifr.ch/iicee/de/assets/public/files/BA60Anhang.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/easterneuropeanstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/OKTj8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_60_Eastern_European_Studies_BA_60_ECTS_Anhang_zum_Studienplan_8b3c0262ea04c4433b81f795e052aa56bf62fab4.pdf",
+  "sha256": "524a96ee5fd417a4a663ede060e3b77401f20c1c97ec82072490058c7e636f8a",
+  "fetched_at": "2026-04-03T11:30:46.191Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/iicee/de/assets/public/files/BA60Anhang.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Anhang 2
+
+zum Studienplan vom 6.04.2022 für die gemeinsamen Bachelor- und Master-Studienprogramme Eastern European Studies / Osteuropa-Studien / Études de l'Europe orientale der Universitäten Bern und Freiburg
+
+## BA Minor 60
+
+Das BA Minor-Programm Osteuropa-Studien ist ein interdisziplinäres Studienprogramm, das seinen Studierenden wissenschaftlich fundierte Kenntnisse über die Gesellschaften und Kulturen des europäischen Ostens sowie Grundkenntnisse in mindestens einer osteuropäischen Sprache vermittelt. Es umfasst wissenschaftliche Lehrveranstaltungen mit Osteuropa-Bezug in zwei der drei Fachrichtungen Geschichte, Kulturwissenschaften und Sozialwissenschaften.
+
+Das Studium ist konsekutiv aufgebaut: Die Einführungsmodule geben eine Einführung in die osteuropawissenschaftliche Forschung und vermitteln osteuropaspezifische Recherchekompetenzen. Die Studierenden werden ausserdem mit den methodischen Grundlagen der einzelnen Fachrichtungen vertraut. Dies befähigt sie dazu, sich in den darauf aufbauenden Fachmodulen methodisch und inhaltlich fundiert mit Fragestellungen zur Gegenwart und Zeitgeschichte Osteuropas zu befassen. Ziel des Studienprogramms ist es, die Studierenden in die Lage zu versetzen, aktuell relevante Themen und Probleme der Länder und Gesellschaften Osteuropas fundiert im Lichte ihrer historischen Genese sowie ihrer kulturellen, sozialen und politischen Implikationen zu analysieren - und diese Ergebnisse einem wissenschaftlichen und nichtwissenschaftlichen Publikum zu vermitteln.
+
+## Übersicht über den Ablauf des Studiums
+
+| Einführungsmodule                                                                   | ECTS              |
+|-------------------------------------------------------------------------------------|-------------------|
+| Modul 1: Einführung Osteuropa-Studien                                               |                   |
+| Empfohlene Semester: 1-2                                                            | 6                 |
+| 2 von 3 fachspezifischen Einführungsmodulen (Module 2/3/4) müssen absolviert werden |                   |
+| Modul 2: Einführung Geschichte                                                      |                   |
+| Empfohlene Semester: 1-3                                                            | 11                |
+| Modul 3: Einführung Kulturwissenschaften                                            |                   |
+| Empfohlene Semester: 1-3                                                            | 9                 |
+| Modul 4: Einführung Sozialwissenschaften                                            |                   |
+| Empfohlene Semester: 1-3                                                            | 9                 |
+|                                                                                     | Total: 24 oder 26 |
+
+| Sprachkompetenzen          |   ECTS |
+|----------------------------|--------|
+| Modul 5: Sprachkompetenzen |        |
+| Empfohlene Semester: 1-6   |     12 |
+
+| Fachmodule 1                                                                                                     | ECTS                                                                                                             |
+|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 2 von 3 Fachmodulen (Module 6/7/8) müssen entsprechend der Kombination der Einführungsmodule ab- solviert werden | 2 von 3 Fachmodulen (Module 6/7/8) müssen entsprechend der Kombination der Einführungsmodule ab- solviert werden |
+| Modul 6: Geschichte Major                                                                                        | Modul 6: Geschichte Major                                                                                        |
+| Empfohlene Semester: 2-6                                                                                         | 10                                                                                                               |
+| Modul 7: Kulturwissenschaften                                                                                    | Modul 7: Kulturwissenschaften                                                                                    |
+| Empfohlene Semester: 2-6                                                                                         | 12                                                                                                               |
+| Modul 8: Sozialwissenschaften                                                                                    | Modul 8: Sozialwissenschaften                                                                                    |
+| Empfohlene Semester: 2-6                                                                                         | 12                                                                                                               |
+|                                                                                                                  | Total: 22 oder 24                                                                                                |
+
+| Total BA Minor   | ECTS 60   |
+|------------------|-----------|
+
+## Modulbeschreibungen
+
+| Glossar   | Glossar              | Glossar   | Glossar                          |
+|-----------|----------------------|-----------|----------------------------------|
+| KE        | Kurzessay            | SSL       | serielle schriftliche Leistungen |
+| KR        | Kurzreferat          | TN        | aktive Teilnahme                 |
+| MP        | mündliche Prüfung    | TP        | Thesenpapier                     |
+| SA        | schriftliche Arbeit  | TR        | thematisches Referat             |
+| SP        | schriftliche Prüfung |           |                                  |
+
+| Einführungsmodule   |
+|---------------------|
+
+| Modul 1: Einführung Osteuropa-Studien   | Evaluierung   |   ECTS/Veranst. ECTS/Module |    |
+|-----------------------------------------|---------------|-----------------------------|----|
+| Ringvorlesung                           | SP            |                           3 |  6 |
+| Übung Informationskompetenz             | SSL           |                           3 |  6 |
+
+Das Modul besteht aus einer Ringvorlesung und einer Übung zur Informationskompetenz im Bereich der Osteuropa-Studien.
+
+Inhalt: In der Ringvorlesung führen alle Fachrichtungen und die zusätzlich am Studienprogramm beteiligten Fächer in die Grundprobleme der Geschichte, Kulturen und Gesellschaften Osteuropas ein, vermitteln einen ersten Einblick  in  die  Besonderheiten der Region und erläutern die spezifischen Formen und Verfahren des wissenschaftlichen Zugangs zu Osteuropa in den einzelnen Fachrichtungen. Die Übung zur Informationskompetenz vermittelt den Studierenden das notwendige Rüstzeug, um zielgerichtet und effizient wissenschaftliche Informationsquellen zu Osteuropa (in Bibliotheken, Datenbanken, Internet etc.) zu recherchieren, zu organisieren und zu verarbeiten.
+
+Evaluierung: Vorlesung: schriftliche Prüfung; Übung: serielle schriftliche Leistungen.
+
+| Modul 2: Einführung Geschichte   | Evaluierung   |   ECTS/Veranst. ECTS/Module |    |
+|----------------------------------|---------------|-----------------------------|----|
+| Proseminar + Tutorium            | TR und SSL    |                           6 | 11 |
+| Proseminararbeit                 | SA            |                           5 | 11 |
+
+Das Modul besteht aus einem Proseminar inklusive obligatorischem Begleittutorium und einer Proseminararbeit. Einführung Geschichte : Im Proseminar und dem obligatorischen Begleittutorium zur Einführung in die Osteuropäische Geschichte werden die Studierenden in die Grundlagen der Geschichtswissenschaft eingeführt. Dazu zählen das Kennenlernen wichtiger Hilfsmittel und methodischer Zugänge, der Umgang mit Fachliteratur und Quellen, die mündliche und schriftliche Vermittlung von wissenschaftlichen Inhalten und Erkenntnisinteressen. Zudem lernen die Studierenden die Region Osteuropa in historischer Perspektive und das Fach Osteuropäische Geschichte kennen.
+
+Evaluierung: Proseminar + Tutorium: thematisches Referat und serielle schriftliche Leistungen; Umfang der Proseminararbeit: 37.000 Zeichen (inkl. Anmerkungen, Bibliographie).
+
+| Modul 3: Einführung Kulturwissenschaften   | Evaluierung   |   ECTS/Veranst. |    |
+|--------------------------------------------|---------------|-----------------|----|
+| Einführungsseminar                         | SSL           |               6 |  9 |
+| Vorlesung                                  | SP            |               3 |  9 |
+
+Das Modul besteht aus einem Einführungsseminar und einer Vorlesung.
+
+Einführung Kulturwissenschaften: Die Studierenden können eine 'Einführung in die slavistische Literaturwissenschaft' oder eine 'Einführung in die slavistische Sprachwissenschaft' wählen.
+
+a) In der 'Einführung in die slavistische Literaturwissenschaft' machen sich die Studierenden mit den grundlegenden Arbeitstechniken und Hilfsmitteln der (slavistischen) Literaturwissenschaft vertraut. Sie erhalten einen Einblick in die Grundlagen der Literaturtheorie und die Verfahren der Textanalyse und erproben ihr Wissen anhand einer Reihe ausgewählter Texte. Die Vorlesung gibt einen Überblick über die Epochen der russischen Literatur und führt in zentrale Themenkomplexe der russischen Kulturgeschichte ein.
+
+b) In der "Einführung in die slavistische Sprachwissenschaft" erlernen die Studierenden die grundlegenden Beschreibungsmethoden der (slavistischen) Systemlinguistik durch eine systematische Darstellung der Strukturen slavischer Sprachen auf den verschiedenen sprachlichen Ebenen von der Phonetik bis hin zur Syntax. Daneben erhalten die Studierenden einen Überblick über verschiedene linguistische Teildisziplinen wie Kontaktlinguistik, Psycholinguistik und Soziolinguistik und ihre Beziehung zu angrenzenden interdisziplinären Bereichen. Betrachtet werden hier auch die Entstehung und Entwicklung von Sprache in Phylogenese und Ontogenese. Im Vordergrund stehen die jeweiligen Forschungsschwerpunkte und Methoden.
+
+Evaluierung: Seminar: serielle schriftliche Leistungen; Vorlesung: schriftliche Prüfung.
+
+| Modul 4: Einführung Sozialwissenschaften   | Modul 4: Einführung Sozialwissenschaften   | Modul 4: Einführung Sozialwissenschaften   | Modul 4: Einführung Sozialwissenschaften   |
+|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| Modul                                      | Evaluierung                                | ECTS/Veranst.                              | ECTS/Module                                |
+| Einführungsvorlesung Politikwissenschaft   | SP                                         | 3                                          |                                            |
+| Einführungsvorlesung Sozialanthropologie   | SP                                         | 3                                          | 9                                          |
+| Seminar Methodeneinführung                 | KR und TP                                  | 3                                          |                                            |
+
+Das Modul besteht aus je einer Einführungsvorlesung in Politikwissenschaft und Sozialanthropologie sowie einem Methodeneinführungsseminar.
+
+## Einführung Sozialwissenschaften:
+
+Die Studierenden belegen zwei Einführungsvorlesungen - eine 'Einführung in die Politikwissenschaft' und eine 'Einführung in die Sozialanthropologie'. In der 'Einführung in die Politikwissenschaft' werden die Arbeitstechniken, Grundbegriffe und Methoden der Politikwissenschaft definiert und durch praktische Übungen und Vorträge veranschaulicht. In der 'Einführung in die Sozialanthropologie' erlangen die Studierenden einen Überblick über die Entwicklung und die Schlüsselkonzepte der Sozialanthropologie sowie einen Einblick in aktuelle Fachdebatten. Darüber hinaus wählen sie ein Methodeneinführungsseminar im Bereich Politikwissenschaft oder eines im Bereich Sozialanthropologie aus. Beide Seminare vermitteln anhand praktischer Übungen die grundlegenden Konzepte und Methoden des jeweiligen Bereichs.
+
+Evaluierung: Vorlesung: schriftliche Prüfung; Methodeneinführung: Kurzreferat und Thesenpapier (Auflistung der Kernthesen eines Textes, 1-2 S.).
+
+| Sprachkompetenzen   |
+|---------------------|
+
+| Modul 5: Sprachkompetenzen   | Evaluierung ECTS/Veranst.   |   ECTS/Module |    |
+|------------------------------|-----------------------------|---------------|----|
+| Sprachkurse                  | SP                          |             6 | 12 |
+
+Das Modul besteht in der Regel aus 2 Semesterkursen (2 à 6 Semesterwochenstunden). Es kann ausschliesslich Russisch-Unterricht, oder aber eine Kombination von Kursen verschiedener osteuropäischer Sprachen aus dem Angebot der Freiburger oder Berner Fakultäten gewählt werden.
+
+Inhalt: Die  Kurse  richten  sich  an  Studierende ohne Vorkenntnisse der jeweiligen Sprache. Vermittelt werden sprachliche Grundstrukturen (Phonetik, Grammatik) sowie Schrift, Orthographie und Lexik mit dem Ziel der Ausbildung  von  Sprachverstehen  und  kommunikativer  Kompetenz  (Hörverstehen,  Leseverstehen,  mündlicher  u. schriftlicher Ausdruck). Das erreichte Niveau ist dabei abhängig von der Breite des gewählten Sprachangebots (bei Beschränkung auf Russisch: Stufe A1 nach 'Gemeinsamem europäischem Referenzrahmen für Sprachen' CEF).
+
+ECTS-Punkte, die im Rahmen von Auslandsaufenthalten in Sprachkursen bei (in der Regel) universitären Anbietern erworben wurden, können auf Antrag angerechnet werden.
+
+Evaluierung: schriftliche Prüfung am Ende eines jeden Semesterkurses.
+
+| Fachmodule   |
+|--------------|
+
+| Modul 6: Geschichte Minor   | Evaluierung   |   ECTS/Veranst. |    |
+|-----------------------------|---------------|-----------------|----|
+| Vorlesung                   | TN            |               3 | 10 |
+| Seminar                     | TR und SSL    |               7 | 10 |
+
+Das Modul besteht aus einer Vorlesung und einem Seminar.
+
+Inhalt: Die Veranstaltungen behandeln das östliche Europa im 19. und 20. Jahrhundert mit einem Fokus auf der Geschichte Russlands, der Sowjetunion, der Ukraine sowie der östlichen Habsburgermonarchie und ihrer Nachfolgestaaten, insbesondere Ungarns. Wissenschaftliche Zugänge sind Lebenswelten, Alltags-, Frauen- und Geschlechtergeschichte sowie transnationale Bezüge, hier besonders Verflechtungen zwischen Osteuropa und der Schweiz.
+
+Je nach Angebot kann das Seminar durch eine Studienreise/Exkursion ersetzt werden (7 ECTS). 2
+
+Evaluierung: Vorlesung: regelmässige Präsenz und aktive Diskussionsbeteiligung (bestanden/nicht bestanden); Seminar:  thematisches  Referat,  serielle  schriftliche  Leistungen  und  aktive  Diskussionsbeteiligung;  Studienreise/Exkursion: thematisches Referat, Handout und aktive Diskussionsbeteiligung.
+
+| Modul 7: Kulturwissenschaften Modul   | Evaluierung   |   ECTS/Veranst. |   ECTS/Module |
+|---------------------------------------|---------------|-----------------|---------------|
+| Vorlesung                             | SP/MP         |               3 |               |
+| Seminar                               | KR            |               3 |            12 |
+| Seminararbeit                         | SA            |               6 |               |
+
+Das Modul besteht aus einer Vorlesung, einem Seminar und einer Seminararbeit. Die Studierenden wählen einen der drei Bereiche: a) Literaturwissenschaft, b) Sprachwissenschaft, c) Philosophie.
+
+Inhalte: a) Die literaturwissenschaftlichen Veranstaltungen untersuchen zentrale Texte, Autoren, Epochen, Problemkomplexe (Gattungen, Strömungen, Ideen) osteuropäischer Kulturen. Insbesondere geht es um den kulturellen Status der Literatur und seine Wandlungen und die Wechselbeziehungen zwischen der Literatur und den Diskursen der Kultur.
+
+b) Die sprachwissenschaftlichen Veranstaltungen betrachten spezifische Teilaspekte der Sprachwissenschaft im Detail. Diese können die Bereiche der interdisziplinären Linguistik abdecken oder systemlinguistische Fragestellungen fokussieren. Insbesondere soll hier die Relevanz der Sprache in ihren unterschiedlichen Facetten verdeutlicht werden, wie es bspw. im politischen Diskurs oder auch in mündlichen Alltagsgesprächen durch die Wahl besonderer sprachlicher Mittel ersichtlich wird.
+
+c) Die Veranstaltungen zur Philosophie behandeln bedeutende philosophische Positionen und Entwürfe der osteuropäischen Philosophie des 19. bis 21. Jahrhunderts und erläutern deren Relevanz im Kontext internationaler ideengeschichtlicher Entwicklungen.
+
+Je nach Angebot kann das Seminar durch eine Studienreise/Exkursion ersetzt werden (3 ECTS).
+
+Evaluierung: Vorlesung Literaturwissenschaft / Sprachwissenschaft: schriftliche Prüfung; Vorlesung Philosophie: mündliche Prüfung; Seminar: Kurzreferat, regelmässige und aktive Präsenz (bestanden/nicht bestanden). Studienreise/Exkursion: Kurzreferat (bestanden/nicht bestanden). Umfang der Seminararbeit: 40.000 Zeichen (inkl. Anmerkungen, Bibliographie).
+
+| Modul 8: Sozialwissenschaften Modul   | Evaluierung   |   ECTS/Veranst. |   ECTS/Module |
+|---------------------------------------|---------------|-----------------|---------------|
+| Vorlesung                             | KE/SP         |               3 |               |
+| Seminar                               | KR            |               3 |            12 |
+| Seminararbeit                         | SA            |               6 |               |
+
+Das Modul besteht aus einer Vorlesung, einem Seminar und einer Seminararbeit. Vorlesung und Seminar können, müssen aber nicht beide aus demselben Teilbereich (Politikwissenschaft oder Sozialanthropologie) gewählt werden.
+
+Inhalt Politikwissenschaften: Die Veranstaltungen der Politikwissenschaft geben einen Überblick über die politischen Entwicklungen in Osteuropa. In Vorlesung und Seminar geht es um die Analyse von politischen Systemen Osteuropas (fallweise und/oder vergleichend mit bzw. ohne Einbezug von politischen Systemen aus anderen Weltregionen). Ziel ist es, den Studierenden einen sowohl theoretisch als auch empirisch fundierten Überblick zu geben über die Verschiedenartigkeit und die Gemeinsamkeiten osteuropäischer Politiksysteme, die je nach Region und Land mit spezifischen politischen Herrschaftsstrukturen experimentieren und / oder sich europäischen Standards angleichen. Daneben werden auch transversale Themen behandelt, und zwar aus theoretischer wie auch aus empirischer Perspektive. Mögliche Themen sind: politische Transformation und Demokratisierung,
+
+2  Eine Studienreise (Fribourg) oder Exkursion (Bern) dauert in der Regel zwischen 3 und 14 Tagen. Sie umfasst eine thematische Vor- und Nachbereitung sowie aktive Mitarbeit vor Ort, etwa in Form von Referat plus Handout.
+
+Staaten und ihre Gesellschaften, institutioneller Wandel, Personalisierung und Informalisierung der Politik, Vertrauen und Misstrauen in Osteuropa, Modernisierung und politischer Wandel.
+
+Je nach Angebot kann das Seminar durch eine Studienreise/Exkursion ersetzt werden (3 ECTS).
+
+Evaluierung Politikwissenschaft: Vorlesung: Kurzessay; Seminar: Kurzreferat; Studienreise/Exkursion: Kurzreferat. Umfang der Seminararbeit: 40.000 Zeichen (inkl. Anmerkungen, Bibliographie).
+
+Inhalt Sozialanthropologie: Die Veranstaltungen der Sozialanthropologie fokussieren entweder auf Methoden oder auf Theorien und Konzepte. In den methodisch ausgerichteten Seminaren erlernen die Studierenden die anthropologischen Forschungsmethoden: die teilnehmende Beobachtung, verschiedene Interview-Formen (z.B. biographische, offene, semi-strukturierte, individuelle oder Gruppen-Interviews) und die Methoden der visuellen und Medien-Anthropologie. Sie diskutieren auch die ethischen Fragen, die aus der anthropologischen Forschung resultieren und sie begleiten. In den konzeptuell ausgerichteten Seminaren und Vorlesungen wird die anthropologische Literatur sowohl zu klassischen Begriffen wie Staat, Grenze, Ethnizität, Nationalismus, Kolonialismus, Mobilität, Migration, sozialer Wandel und Gender, wie auch zu neuen Forschungsfeldern, wie etwa Infrastruktur, Klimawandel, Anthropozän, gelesen und diskutiert. Dabei werden kleine Forschungsübungen durchgeführt, die es den Studierenden ermöglichen, mit den Themen der Seminare direkt in Berührung zu kommen. Die Begriffe und Theorien werden an konkreten ethnographischen Beispielen diskutiert und thematisiert. Die gesellschaftlichen, kulturellen und politischen Prozesse in der Volksrepublik China und im postsowjetischen Zentralasien werden stark in der Lehre gewichtet und in vergleichender Perspektive mit anderen Welt-Regionen analysiert.
+
+Je nach Angebot kann das Seminar durch eine Studienreise/Exkursion ersetzt werden (3 ECTS).
+
+Evaluierung Sozialanthropologie: Vorlesung: schriftliche Prüfung; Seminar: Kurzreferat, Podcast, kurzes Video oder schriftlicher Bericht zu Forschungsübung - abhängig von der Ausrichtung des Seminars; Studienreise/Exkursion: Kurzreferat, Podcast, kurzes Video oder schriftlicher Bericht. Umfang der Seminararbeit: 40.000-50.000 Zeichen (inkl. Anmerkungen und Bibliographie).

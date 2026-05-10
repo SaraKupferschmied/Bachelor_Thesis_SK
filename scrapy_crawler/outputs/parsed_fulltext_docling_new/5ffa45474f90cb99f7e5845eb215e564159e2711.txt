@@ -1,0 +1,324 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:50:37.269Z",
+  "title": "EDUFORM_Bachelor_120_Pedagogy_Psychology_Bachelor_Major_120_ECTS-Kreditpunkte__5ffa45474f90cb99f7e5845eb215e564159e2711",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5ffa45474f90cb99f7e5845eb215e564159e2711",
+  "program_key": "eduform|bachelor|120|pedagogy / psychology",
+  "faculty": "EDUFORM",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Pedagogy / Psychology",
+  "doc_label": "Bachelor Major (120 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_120%20(1196)%2005%2006%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/educationpsychology",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\EDUFORM_Bachelor_120_Pedagogy_Psychology_Bachelor_Major_120_ECTS-Kreditpunkte__5ffa45474f90cb99f7e5845eb215e564159e2711.pdf",
+  "sha256": "6c26b18cdd4c9ee3acce11cd4b262ae2f92d0e17bb733b60d2c7ed08f0494876",
+  "fetched_at": "2026-04-03T11:30:14.307Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_120%20(1196)%2005%2006%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BSc_PädPsy_120 (1196) 05 06 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR ERZIEHUNGSWISSENSCHAFTEN
+
+## STUDIENPLAN
+
+## Bachelor of Science in Erziehungswissenschaften
+
+Studienprogramm Pädagogik/Psychologie Bachelor Major 120 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die ihren Bachelorstudiengang in Pädagogik/Psychologie Major absolvieren möchten.
+
+Das Bachelorprogramm Pädagogik/Psychologie besteht zur Hälfte aus dem Studium der Erziehungswissenschaften und zur Hälfte aus dem Studium der Psychologie. Es richtet sich damit vor allem an diejenigen Studierenden, die auf dieser Grundlage das Lehrdiplom für Maturitätsschulen (LDM) für das Fach Pädagogik/Psychologie erwerben möchten. In den Erziehungswissenschaften erwerben Sie Wissen u. a. über Erziehungsund Bildungsverhältnisse sowie über die Bedeutung des sozialen, gesellschaftlichen, ökonomischen, ökologischen und kulturellen Kontextes für das Aufwachsen und für schulische Bildung. In der Psychologie  befassen  Sie  sich  mit  dem  kognitiven  und  affektiven  Bereich  menschlichen  Erlebens  und Verhaltens,  mit  den  Diagnose-  und  klinischen  Behandlungsverfahren  sowie  den  Forschungsverfahren und -instrumenten.
+
+Der Abschluss dieses Studienprogramms ermöglicht den Studierenden einen bedingungslosen Zugang zu den Masterprogrammen in Pädagogik/Psychologie .
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Pädagogik/Psychologie (120 ECTS-Kreditpunkte) kann auf Deutsch, Französisch oder zweisprachig (Deutsch-Französisch) absolviert werden. Nachfolgend wird der deutschsprachige Studienplan vorgestellt.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität Freiburg (Reglement vom 26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen der Fakultät (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+## 2.4 Mobilität
+
+Ein Mobilitätsaufenthalt kann während des ganzen Studiums absolviert werden. Die enge Abstimmung mit der Studienberatung wird vorausgesetzt.
+
+## 2.5 Verliehener Titel
+
+Der verliehene Titel lautet Bachelor of Science in Erziehungswissenschaften , Major : Pädagogik/Psychologie.
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 120 ECTS-Kreditpunkte, die in 8 Module aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Die  Studierenden  lernen  Grundbegriffe,  Theorien,  Themenbereiche  und  Forschungsmethoden  der  beiden Fächer  Erziehungswissenschaften  und  Psychologie  in  ihrer  Breite  und  Tiefe  kennen.  Sie  werden  befähigt, menschliches Denken und Verhalten, deren kontextuellen Bedingungen und gesellschaftlichen, sozialen und pädagogischen  Rahmungen  zu  verstehen  und  nach  aktuellem  wissenschaftlichen  Erkenntnisstand  zu interpretieren  und  reflektieren.  Zudem  erwerben  sie  Kompetenzen  in  der  selbstständigen  Durchführung erziehungswissenschaftlicher  Forschungen.  Die  Ergebnisse  der  Analysen  werden  in  schriftlichen  Arbeiten (Seminararbeit und Bachelorarbeit) festgehalten und reflektiert.
+
+In  Bezugnahme  auf  den  von  swissuniversities  herausgegebenen  Qualifikationsrahmen  für  die  Schweizer Hochschulen (2021) sind die Absolvierenden dieses Studienprogramms in der Lage,
+
+- grundlegendes Wissen und Verständnis aus ihrem Studienbereich zu mobilisieren, um die Herausforderungen, Prozesse, Kontexte und Akteurinnen und Akteure im Bereich der Erziehung und Bildung in ihrer Vielfalt zu erfassen;
+- relevante Daten aus wissenschaftlichen und praxisbezogenen Quellen zu erfassen und interpretieren, um qualitativ  hochwertige  Reflexionen  über  im  Bereich  der  Erziehung  und  Bildung  situierten  Problematiken anstellen zu können;
+- einem  Fach-  und  Laienpublikum  relevante  und  fundierte  Informationen  und Argumente  zu Themen  und Herausforderungen im Bereich der Erziehung und Bildung zu vermitteln;
+- angemessene Lernstrategien anzuwenden, um ihr Studium mit einem hohen Mass an Selbstständigkeit fortzusetzen.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+| Modul 1   | Theoretische Grundlagen der Erziehungswissenschaften                   | 15 ECTS   |
+|-----------|------------------------------------------------------------------------|-----------|
+| Modul 2   | Propädeutikum: Allgemeine, klinische und Entwicklungspsychologie       | 18 ECTS   |
+| Modul 3   | Einführung in das wissenschaftliche Arbeiten                           | 12 ECTS   |
+| Modul 4   | Psychologische Methodenlehre                                           | 12 ECTS   |
+| Modul 5   | Vertiefung erziehungswissenschaftlicher Themen- und Forschungsbereiche | 18 ECTS   |
+| Modul 6   | Grundlagenfächer der Psychologie                                       | 15 ECTS   |
+| Modul 7   | Wahlkurse                                                              | 15 ECTS   |
+| Modul 8   | Bachelorarbeit                                                         | 15 ECTS   |
+
+Die grau markierten Module müssen in den jeweiligen Studienjahren absolviert werden. Die Darstellung der anderen Module ist beispielhaft.
+
+| Jahr 1 (insg. 39 ECTS)   | Modul 1 (15 ECTS)   | Modul 2 (18 ECTS)   | Modul 3 (Anteil: 3 ECTS)   | Modul 4 (Anteil: 3 ECTS)   |                          |
+|--------------------------|---------------------|---------------------|----------------------------|----------------------------|--------------------------|
+| Jahr 2 (insg. 42 ECTS)   | Module 3 (9 ECTS)   | Modul 4 (9 ECTS)    | Modul 5 (Anteil: 9 ECTS)   | Modul 6 (Anteil: 6 ECTS)   | Modul 7 (Anteil: 9 ECTS) |
+| Jahr 3 (insg. 39 ECTS)   | Modul 8 (15 ECTS)   |                     | Modul 5 (Anteil: 9 ECTS)   | Modul 6 (Anteil: 9 ECTS)   | Modul 7 (Anteil: 6 ECTS) |
+
+Folgende grundlegende Regelungen gilt es zu beachten:
+
+- 1) Das Studium muss mit den Modulen 1 und 2 begonnen werden.
+- 2) Die Unterrichtseinheiten (UE) in den Modulen 5 und 6 können auf die drei Studienjahre verteilt werden.
+- 3) Die Seminararbeit im Modul 5 kann frühestens im zweiten Jahr verfasst werden, wenn die Module 1 und 2 sowie mindestens jeweils eine UE aus den Modulen 3 und 4 besucht und erfolgreich abgeschlossen worden sind.
+- 4) Die UE des Moduls 7 (Wahlkurse) sind frei wählbar und können auf die drei Studienjahre verteilt werden. Es empfiehlt sich jedoch, im ersten Jahr noch keinen Wahlkurs zu besuchen, sondern zunächst grundlegendes Fachwissen in den Erziehungswissenschaften und in der Psychologie zu erwerben.
+- 5) Die Bachelorarbeit muss im letzten Studienjahr verfasst werden.
+
+## 3.3 Struktur der Module
+
+## MODUL 1: THEORETISCHE GRUNDLAGEN DER ERZIEHUNGSWISSENSCHAFTEN
+
+15 ECTS
+
+In  diesem  Modul  werden  die  theoretischen  Grundlagen  der  Erziehungswissenschaften  vermittelt.  Zentrale pädagogische Begriffe, Konzepte und Phänomene von der frühen Kindheit bis ins Erwachsenenalter werden aus  erziehungswissenschaftlicher,  aber  auch  aus  soziologischer,  anthropologischer,  psychologischer  und philosophischer  Perspektive  beleuchtet,  um  ein  differenziertes  und  theoriegeleitetes  Verständnis  von Erziehungs-, Bildungs-, Sozialisations- und Lernprozessen sowie ihrer strukturellen Bedingungen zu erhalten. Die Unterrichtseinheiten (UE) Pädagogische Psychologie I und II bauen dabei aufeinander auf, Teil I muss demnach vor Teil II besucht werden.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)           |
+|-------------------------------------|-------------------------------------|-------------------------------------|
+| F23.00044                           | Allgemeine Erziehungswissenschaft*  | 3 ECTS                              |
+| F23.00050                           | Erziehungs- und Bildungssoziologie* | 3 ECTS                              |
+| F23.00049                           | International Education Policy*     | 3 ECTS                              |
+| F24.00855                           | Pädagogische Psychologie I*         | 3 ECTS                              |
+| F24.00856                           | Pädagogische Psychologie II*        | 3 ECTS                              |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten |
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 5 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 2: PROPÄDEUTIKUM: ALLGEMEINE, KLINISCHE UND ENTWICKLUNGS-PSYCHOLOGIE
+
+## 18 ECTS
+
+In diesem Modul werden die wichtigsten inhaltlichen wissenschaftlichen Grundlagenfächer der Psychologie vermittelt. In der Allgemeinen Psychologie werden die psychischen Funktionen, die alle Menschen gemeinsam haben,  betrachtet.  In  der  Klinischen  Psychologie  werden  die  biologischen,  sozialen,  kognitiven  und emotionalen Einflussfaktoren auf psychische Störungen untersucht. In der Entwicklungspsychologie werden die altersbedingten (zeitlich überdauernden und aufeinander aufbauenden) Veränderungen im menschlichen Erleben  und  Verhalten  über  die  gesamte  Lebensspanne  untersucht.  Das  Ziel  des  Moduls  ist  es,  den Studierenden ein theoretisches und wissenschaftliches Basiswissen in den Grundlagenfächern der Psychologie zu vermitteln.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)                                  |                                     |
+|-------------------------------------|------------------------------------------------------------|-------------------------------------|
+| L25.00002                           | Allgemeine Psychologie                                     | 6 ECTS                              |
+| L25.00007                           | Klinische Psychologie, Psychopathologie und Psychotherapie | 6 ECTS                              |
+| L25.01025                           | Entwicklungspsychologie                                    | 6 ECTS                              |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten                        | Evaluation der Unterrichtseinheiten |
+
+Alle  Unterrichtseinheiten  (UE)  sind  obligatorisch  und  werden  mit  einer  schriftlichen  und/oder  mündlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 3 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## MODUL 3: EINFÜHRUNG IN DAS WISSENSCHAFTLICHE ARBEITEN
+
+## 12 ECTS
+
+In diesem Modul werden die Grundlagen des wissenschaftlichen Arbeitens vermittelt. Dazu gehören Techniken des  wissenschaftlichen  Arbeitens,  mit  denen  bestehendes  wissenschaftliches  Wissen  erschlossen  (z. B. Literaturrecherche) und eigene wissenschaftliche Arbeiten durchgeführt werden. In der unterrichts-einheit (UE) Techniken des wissenschaftlichen Arbeitens werden in Kooperation mit den Verantwortlichen der Bibliotheken Informationskompetenzen entwickelt. Grundfragen qualitativer und quantitativer Methoden werden anhand von theoretischen Inputs und Beispielen aus der erziehungswissenschaftlichen Forschung bearbeitet. Die beiden UE Einführung  in  die  empirische  Sozialforschung  I  und  II sind  dabei  aufeinander  aufbauend,  Teil  I  muss demnach vor Teil II besucht werden. Im Modul soll erschlossen werden, wie wissenschaftlich fundiertes Wissen über Erziehung und Bildung gewonnen wird.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                          |        |
+|-----------------------------|----------------------------------------------------|--------|
+| F23.00043                   | Techniken des wissenschaftlichen Arbeitens*        | 3 ECTS |
+| F23.00003                   | Einführung in die empirische Sozialforschung I*    | 3 ECTS |
+| F23.00015                   | Einführung in die empirische Sozialforschung II*   | 3 ECTS |
+| F23.00063                   | Wissenschaftstheorie der Erziehungswissenschaften* | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Alle Unterrichtseinheiten (UE) sind obligatorisch und werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, müssen alle 4 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## MODUL 4: PSYCHOLOGISCHE METHODENLEHRE
+
+## 12 ECTS
+
+In dem Modul werden wichtige methodische Grundlagenfächer der Psychologie vermittelt. In der Methoden-lehre wird  vermittelt,  wie  in  der  Forschung  wissenschaftliche  Erkenntnisse  gewonnen,  formuliert  und  abge-sichert werden  können.  In  der  Statistik  I  werden  die  deskriptive  Statistik,  die  wahrscheinlichkeitstheoretischen Voraussetzungen für die Inferenzstatistik und die einfache Inferenzstatistik (mit zwei Variablen) unterrichtet. In der Testtheorie werden die zentralen Grundlagen bei der Entwicklung von psychologischen Testverfahren und bei  der  Anwendung  und  der  Interpretation  von  Testergebnissen  vermittelt.  Zu  dieser  Veranstaltung  gehören zusätzlich  15  Stunden  experimentelle  Selbsterfahrung.  Die  Veranstaltung  wird  erst  validiert,  wenn  der Veranstaltungsleiterin  /  dem  Veranstaltungsleiter  die  entsprechenden  Nachweise  vorgelegt  worden  sind  (für detaillierte Informationen zum Verfahren s. unten). In der Veranstaltung zu Diagnostik wird auf die spezifischen Aspekte der klinischen Diagnostik sowie die Entstehung klinischer Störungsbilder eingegangen. Das Ziel des Moduls  ist  es,  den  Studierenden  methodische  Basiskenntnisse  und  grundlegende  Fertigkeiten  in  den Forschungsmethoden der Psychologie zu vermitteln.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)                               |                                     |
+|-------------------------------------|---------------------------------------------------------|-------------------------------------|
+| L25.00302                           | Methodenlehre                                           | 6 ECTS                              |
+| L25.01022                           | Statistik I & Tutorat                                   | 9 ECTS                              |
+| L25.01054                           | Testtheorie                                             | 3 ECTS                              |
+| L25.01053                           | Klassifikation und Phänomenologie psychischer Störungen | 3 ECTS                              |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten                     | Evaluation der Unterrichtseinheiten |
+
+Aus dem Angebot müssen mindestens 12 ECTS-Kreditpunkte erfolgreich absolviert werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. Falls es in einer Veranstaltung einen definitiven Misserfolg gibt, kann diese durch eine andere Veranstaltung aus diesem Modul mit entsprechenden ECTS-Kreditpunkten ersetzt werden.
+
+## *Experimentelle Selbsterfahrung
+
+Studierende, die die Veranstaltung Testtheorie wählen, [müssen] mindestens 15 Stunden selbst an verschiedenen  psychologischen  Untersuchungen  im  Departement  für  Psychologie  als  Versuchspersonen teilnehmen. Die aktuell angebotenen Untersuchungen werden vom Departement für Psychologie regelmässig kommuniziert. Es wird empfohlen, mit dem Ableisten der Versuchspersonenstunden bereits in der Einführungsphase des Studiums zu beginnen. Um eine möglichst breite experimentelle Selbsterfahrung zu gewährleisten, sollten die abzuleistenden Versuchspersonenstunden auf verschiedene Untersuchungen aus unter-schiedlichen Forschungsabteilungen des Departements für Psychologie verteilt werden. Für die Teilnahme an Untersuchungen  können  je  nach  Dauer  der  Untersuchung  auch  Viertelstunde,  halbe  Stunde  und  eine Dreiviertelstunde vergeben werden. Die Liste mit den abgeleisteten Versuchspersonenstunden ist dem Dozenten / der Dozentin der Veranstaltung Testtheorie abzugeben. Der Kurs wird erst validiert, wenn der Nachweis über das Ableisten der Versuchspersonenstunden erbracht ist. Für die erforderlichen 15 Versuchspersonenstunden darf nur ein langes Experiment (5-10 Stunden) angerechnet werden. Von allen weiteren Versuchsteilnahmen können  jeweils  nur  maximal  4  Versuchspersonenstunden  pro  Versuchsteilnahme  angerechnet  werden, unabhängig  von  der  Länge  der  Untersuchungen.  Zur  Teilnahme  an  Untersuchungen  melden  sich  die Studierenden vorab für einen Termin bei dem Versuchsleiter / der Versuchsleiterin der Untersuchung an. Der Versuchsleiter / die Versuchsleiterin teilt interessierten und eingeschriebenen Probanden und Probandinnen mit, ob sie beim Experiment mitmachen können oder nicht, stellt Kontaktinformationen zur Verfügung und informiert die Probanden über allfällige Änderungen der Versuchszeiten. Im Fall einer Absage muss der Proband / die Probandin  den  Versuchsleiter  /  die  Versuchsleiterin  mindestens  einen  halben  Tag  vor  dem  angesetzten Versuchstermin verständigen. Erfolgt keine rechtzeitige Abmeldung, kann der angemeldeten Versuchsperson die Anzahl an verpassten Stunden der Untersuchung abgezogen werden (mit Ausnahme von Fällen höher Gewalt). Der Versuchsleiter / die Versuchsleiterin informiert die verantwortliche Person des Departements über den Abzug per  Email.  Der  /  die  Dozentin/in  der  Veranstaltung Testtheorie ist  verantwortlich,  die  Kompensation  der abgezogenen Versuchspersonenstunden zu kontrollieren.
+
+Nur  die  wissenschaftlichen  Mitarbeiter/innen  und  Professoren/innen  des  Departements  für  Psychologie  in Fribourg sind berechtigt, abgeleistete Versuchspersonenstunden zu testieren. Das Departement gewährleistet den Studierenden eine freie Teilnahme-Auswahl an verschiedenen psychologischen Studien für die experimentelle  Selbsterfahrung.  Ist  es  trotzdem  aus  überzeugenden  ethischen  Überlegungen  oder  anderen schwerwiegenden  Gründen  einem  Studierenden  nicht  möglich,  die  gesamte  oder  Teile  der  experimentellen Selbsterfahrung zu leisten, sollten Studierende eine alternative Veranstaltung ohne experimentelle Selbsterfahrung aus diesem Modul auswählen.
+
+## MODUL 5: VERTIEFUNG ERZIEHUNGSWISSENSCHAFTLICHER THEMEN- UND FORSCHUNGSBEREICHE
+
+## 18 ECTS
+
+In  diesem  Modul  setzen  sich  die  Studierenden  interessengeleitet  mit  verschiedenen,  historisch  und zeitgenössisch relevanten Fragen, Themen, Handlungsfeldern und Forschungsperspektiven der Erziehungswissenschaft auseinander: Wie werden Kinder zu Subjekten der Erziehung und Bildung? Welche Bedeutung haben das soziale Umfeld, pädagogische Institutionen sowie gesellschaftliche und politische Bedingungen für Bildungsprozesse?  Welche  Bildungsmöglichkeiten  werden  in  Familie,  peer  group  und  professionalisierten Kontexten eröffnet? Zudem haben die Studierenden die Möglichkeit, sich mit Fragen der Kindheits-, Jugendund Altersforschung zu befassen, sich in Bereiche der Migrations- und Ungleichheitsforschung einzuarbeiten oder sich in international vergleichender Perspektive mit der Policy Forschung auseinanderzusetzen.
+
+Im Rahmen der UE in diesem Modul vertiefen die Studierenden ihr im Modul 1 erworbenes Wissen in grundlegenden Problemstellungen und Bereichen der Erziehungswissenschaft.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                                             | Unterrichtseinheiten (UE)   |
+|-----------------------------|-----------------------------------------------------------------------|-----------------------------|
+| F23.00115                   | Subjekt, Individuum, Selbst                                           | 3 ECTS                      |
+| F23.00122                   | Soziale Institutionen                                                 | 3 ECTS                      |
+| F23.00140                   | Professionalisierung                                                  | 3 ECTS                      |
+| F23.00141                   | Gesellschaft und Politik                                              | 3 ECTS                      |
+| F23.00116                   | Kindheits-, Jugend- und Altersforschung                               | 3 ECTS                      |
+| F23.00123                   | Migrationsforschung                                                   | 3 ECTS                      |
+| F23.00142                   | Policy Forschung                                                      | 3 ECTS                      |
+| F23.00143                   | Ungleichheitsforschung                                                | 3 ECTS                      |
+| F23.00052                   | Seminararbeit (Themen und Handlungsfelder der Erziehungswissenschaft) | 6 ECTS                      |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses Modul besteht aus 8 inhaltlich verschiedenen Unterrichtseinheiten (UE) mit 3 ECTS-Kreditpunkten, die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden, sowie einer Seminararbeit mit 6 ECTS-Kreditpunkten, die ebenfalls mit einer Note evaluiert wird. Obligatorisch müssen 4 von den 8 UE belegt sowie eine Seminararbeit, die den Inhalt einer besuchten UE vertiefen soll, verfasst werden. Die Wahl der UE ist den Studierenden überlassen. Damit das Modul validiert wird, müssen sowohl die 4 gewählten UE als auch die  Seminararbeit  mit  einer  bestandenen  Note  bewertet  werden.  Die  Kompensation  einer  ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere aus den restlichen zur  Auswahl  stehenden  UE  in  diesem  Modul  ersetzt  werden.  Das  Schreiben  der  Seminararbeit  setzt  den positiven Abschluss der Module 1 und 3 voraus. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+## MODUL 6: GRUNDLAGENFÄCHER DER PSYCHOLOGIE
+
+## 15 ECTS
+
+In diesem Modul werden wichtige inhaltliche Grundlagenfächer der Psychologie vermittelt. Dabei haben die Studierenden  die  Möglichkeit,  aus  einer  breiten  Auswahl  an  Unterrichtseinheiten  (UE)  in  der  Psychologie entsprechend  ihrem  Interesse  Schwerpunkte  zu  setzen.  In  der  Einführung  in  die  Themenbereiche  der Psychologie werden die aktuell zentralen Praxis- und Forschungsbereiche der Psychologie vorgestellt. Es wird empfohlen,  diese  Veranstaltung  zu  Beginn  des  Studiums  zu  besuchen.  In  der  Neurobiologie  werden  die Grundlagen zu dem Aufbau und den Funktionen von Nervensystemen untersucht. In der Sozialpsychologie I und II werden die Einflüsse von der realen oder der imaginierten Anwesenheit anderer Menschen auf das Erleben  und  das  Verhalten  des  einzelnen  Individuums  erforscht.  Es  wird  empfohlen,  zunächst  die  UE Sozialpsychologie I und dann die Sozialpsychologie II zu besuchen. In der Differentiellen- &amp; Persönlichkeitspsychologie  werden  die  individuellen  Unterschiede  zwischen  den  Menschen  in  Bezug  auf  einzelne Persönlichkeitsaspekte und auf die gesamte Persönlichkeitsstruktur ergründet. In der Veranstaltung Lernen, Verhaltenserwerb &amp; Adaptation werden die Grundlagen der Lerntheorien sowie ihre Bedeutung für die klinische Psychologie vorgestellt. Die Gesundheitspsychologie bietet eine Einführung in die relevanten biologischen und psychologischen  Systeme  sowie  ihre  Interaktionen,  die  für  die  Aufrechterhaltung  und  Förderung  von Gesundheit  eine  Rolle  spielen.  Das  Ziel  des  Moduls  ist  es,  den  Studierenden  ein  theoretisches  und wissenschaftliches  Basiswissen  in  den  Grundlagenfächern  der  Psychologie  zu  vermitteln  sowie  den Studierenden einen kritisch-reflektierten Einblick in die aktuell wichtigen Praxis- und Forschungsgebiete der Psychologie zu bieten.
+
+| Unterrichtseinheiten (UE)   | Unterrichtseinheiten (UE)                                                   |        |
+|-----------------------------|-----------------------------------------------------------------------------|--------|
+| L25.00016                   | Einführung in die Themenbereiche der Psychologie                            | 3 ECTS |
+| SPY.01001                   | Neurobiologie I                                                             | 3 ECTS |
+| SPY.02001                   | Neurobiologie II                                                            | 3 ECTS |
+| L25.01030                   | Sozialpsychologie I                                                         | 3 ECTS |
+| L25.01031                   | Sozialpsychologie II                                                        | 3 ECTS |
+| L25.00037                   | Einführung in die Persönlichkeitspsychologie und Differentielle Psychologie | 3 ECTS |
+| L25.01052                   | Lernen, Verhaltenserwerb & Adaptation                                       | 3 ECTS |
+| L25.01205                   | Health psychology                                                           | 3 ECTS |
+
+## Evaluation der Unterrichtseinheiten
+
+Aus  dem  Angebot  müssen  insgesamt  15  ECTS-Kreditpunkte  erfolgreich  absolviert  werden.  Die  Note  des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten,  aus  denen  es  sich  zusammensetzt.  Falls  es  in  einer  Unterrichtseinheit  (UE)  einen definitiven Misserfolg gibt, kann diese durch eine andere UE aus diesem Modul mit entsprechenden ECTSKreditpunkten ersetzt werden.
+
+In diesem Modul können auch UE anderer Universitäten (national und/oder international) anerkannt werden. Es  können  maximal  9  ECTS-Kreditpunkte  anerkannt  werden  und  die  Kurse  müssen  einen  eindeutigen Themenschwerpunkt in der Psychologie aufweisen. Eine formale Zustimmung der Bachelorstudienberatung ist Voraussetzung für die Anerkennung.
+
+## MODUL 7: WAHLKURSE
+
+## 15 ECTS
+
+Dieses  Modul  soll  es  den  Studierenden  ermöglichen,  sich  für  andere  Studienbereiche  zu  öffnen.  Die Studierenden wählen ihre Unterrichtseinheiten (UE) frei aus den UE, die von den anderen Departementen der Universität  als  «soft  skills»  geöffnet  werden.  Die  Studierenden  achten  darauf,  dieses  Modul  im  Laufe  des Studiums zu absolvieren. Empfohlen werden Lehrangebote, die das Hauptstudium sinnvoll ergänzen.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)                            |                                     |
+|-------------------------------------|------------------------------------------------------|-------------------------------------|
+| 000.00000                           | Kurse aus den offenen Angeboten anderer Departemente | 15 ECTS                             |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten                  | Evaluation der Unterrichtseinheiten |
+
+Die Evaluation und Validierung der Unterrichtseinheiten (UE) wird von den jeweiligen Studienbereichen, die die UE verantworten, festgelegt und übernommen. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. Eine Kompensation ist möglich. Wird eine UE nicht bestanden, kann diese durch eine andere UE ersetzt werden.
+
+## MODUL 8: BACHELORARBEIT 15 ECTS
+
+Die  Bachelorarbeit  wird  zu  einem  Themengebiet  der  Erziehungswissenschaften  oder  der  Psychologie selbstständig verfasst. Diese Arbeit bildet den Abschluss des Bachelorstudiums und hat zum Ziel, die Fähigkeit zu einer eigenständigen wissenschaftlichen Auseinandersetzung mit einer erziehungswissenschaftlichen oder psychologischen Fragestellung darzulegen: eine wissenschaftliche Problemstellung zu identifizieren und diese auf  der  Basis  relevanter  Fachliteratur  und  unter  Berücksichtigung  wissenschaftlicher  Gepflogenheiten  zu bearbeiten. Die Studierenden werden von einer Mitarbeiterin bzw. einem Mitarbeiter der deutschsprachigen Abteilung des Departementes für Erziehungswissenschaften individuell betreut. Das Verfassen der Bachelorarbeit wird zudem durch eine Begleitveranstaltung unterstützt, welche integraler Bestandteil der Bachelorarbeit ist.  Die  Bestimmungen für die  Bachelorarbeit sind  in  Richtlinien  festgelegt, welche auf  der Homepage  des Departements für Erziehungswissenschaften zu finden sind.
+
+| Unterrichtseinheiten (UE)           | Unterrichtseinheiten (UE)           |                                     |
+|-------------------------------------|-------------------------------------|-------------------------------------|
+| F23.00053                           | Bachelorarbeit                      | 12 ECTS                             |
+| F23.00078                           | Begleitveranstaltung Bachelorarbeit | 3ECTS                               |
+| Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten | Evaluation der Unterrichtseinheiten |
+
+Das Schreiben der Bachelorarbeit setzt das erfolgreiche Absolvieren der Seminararbeit  aus  dem Modul  5 voraus. Das Verfassen der Bachelorarbeit sowie die Absolvierung der Begleitveranstaltung sind obligatorisch. Ausschliesslich die Bachelorarbeit wird mit einer Note bewertet. Die Note der Bachelorarbeit ist gleichzeitig die Note des Moduls. Im Falle eines Nichtbestehens muss die Bachelorarbeit überarbeitet und erneut eingereicht werden. Beim wiederholten Nichtbestehen gilt die Bachelorarbeit als «definitiv nicht bestanden».
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Jeder absolvierte Leistungsnachweis muss für den erfolgreichen Studienabschluss positiv benotet sein. Die oder der Dozierende informiert zu Beginn der Unterrichtseinheit über die genauen Modalitäten der Evaluation der Unterrichtseinheit.
+
+Die Modalitäten für die Erstellung und Abgabe von schriftlichen Arbeiten sind dem Schreibleitfaden für das Verfassen  von  schriftlichen  Arbeiten  zu  entnehmen,  welcher  auf  der  Homepage  des  Departements  für Erziehungswissenschaften zu finden ist.
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich absolviert wurden.
+
+## 4.2 Anerkennung
+
+Mit Ausnahme  der  Bachelorarbeit  und  der  Seminararbeit  können  alle  Unterrichtseinheiten  dieses  Studienprogramms  durch  eine  formale Anerkennung  (im  Sinne  von Art.  3 Abs.  5 Anerkennungsrichtlinien)  und  im Rahmen der maximal vorgesehenen Anzahl von ECTS-Kreditpunkten (Art. 3 Abs. 1) angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement).
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Seminararbeit im Modul 5 stellt eine UE dar, die ausserhalb der Sessionen evaluiert wird.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel 3.3  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht  bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Die Abschlussnote, die als Grundlage für die Vergabe des Prädikats dient, ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der validierten Module dieses Studienprogramms; die Note eines Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt (Art. 41 des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester 2025 in Kraft. Er gilt für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende,  die  zum  Zeitpunkt  des  Inkrafttretens  dieses  Studienplans  bereits  im  Bachelorprogramm Pädagogik/Psychologie Bereich I, 120 ECTS-Kreditpunkte der Philosophischen Fakultät eingeschrieben waren, unterliegen  diesem  Studienplan.  Die  vollständige  Anerkennung  der  erworbenen  ECTS-Kreditpunkte  ist gewährleistet. Während der Übergangszeit entscheidet die Studienprogrammverantwortliche, welche Unterrichtseinheiten  gemäss  diesem  Studienplan  diejenigen  ersetzen,  die  eventuell  nicht  mehr  angeboten werden.

@@ -1,0 +1,341 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T16:38:10.641Z",
+  "title": "Philosophy_Bachelor_30_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_60_BA_SI_50_-_SA_2025_19b8210669f82178677da86e1e96ffa011c92e50",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "19b8210669f82178677da86e1e96ffa011c92e50",
+  "program_key": "philosophy|bachelor|60|italian",
+  "faculty": "Philosophy",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Italian",
+  "doc_label": "Informazioni per studentesse e studenti del primo anno (BA 60 + BA_SI 50) - SA 2025",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA60_BA_SI50.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/aVOzt",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_60_BA_SI_50_-_SA_2025_19b8210669f82178677da86e1e96ffa011c92e50.pdf",
+  "sha256": "e8f6d30ccebea4c5db1de466bf7066df5cca11768aee74314979ef9aea9d7525",
+  "fetched_at": "2026-04-03T11:31:21.451Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA60_BA_SI50.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Presentazione_DipIT_SA2025_BA60_BA_SI50.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Dipartimento di Italiano Università di Friburgo
+
+<!-- image -->
+
+## Dipartimento di Italiano
+
+- Due siti principali: Miséricorde e Beauregard 11
+- Aule, Uffici
+- BLL, BCU
+
+## Gli studi a livello Bachelor
+
+- Prima materia: 120 crediti
+- Seconda materia: 60 crediti
+- Materia complementare (altre Facoltà): 30 crediti
+- BA\_SI: 50 crediti
+
+www.unifr.ch/ital
+
+## Corsi e seminari
+
+- Un corso è …
+- 3 crediti: lezione + esame (orale o scritto)
+- Un (pro)seminario è …
+- 6 crediti: lavoro sui testi; partecipazione e presentazione in classe ed elaborato scritto
+- I proseminari sono seminari introduttivi propedeutici, da frequentare all'inizio del percorso di studi
+
+<!-- image -->
+
+## Durata degli studi
+
+BA: tre anni (6 semestri) MA: due anni (4 semestri) Dottorato: tre-cinque anni
+
+Mobilità: possibilità di compiere un semestre o un anno di studi in un'altra Università all'estero
+
+Mobilità svizzera: possibilità di frequentare corsi e seminari in altre Università vicine
+
+## PERSONALE DEL DIPARTIMENTO
+
+- 2 Professori di letteratura italiana (U. Motta, P. Borsa)
+- 1 Professore di filologia italiana (C. Genetelli)
+- 1 Maître-assistante (S. Clerc)
+- 1 Assistente-dottore di Filologia (S. Canzona)
+- 1 Assistente-dottore di Letteratura (C. Tarallo)
+- 1 Assistente diplomata (L. Quartiroli)
+- 1 collaboratrice amministrativa (F. Mauron)
+
+## PERSONALE DEL DIPARTIMENTO
+
+- 2 Professori di letteratura italiana (U. Motta, P. Borsa)
+- 1 Professore di filologia italiana (C. Genetelli)
+- 1 Maître-assistante (S. Clerc)
+- 1 Assistente-dottore di Filologia (S. Canzona)
+- 1 Assistente-dottore di Letteratura (C. Tarallo)
+- 1 Assistente diplomata (L. Quartiroli)
+- 1 collaboratrice amministrativa (F. Mauron)
+
+<!-- image -->
+
+## Prof. Uberto Motta
+
+Ufficio: 3.210
+
+uberto.motta@unifr.ch
+
+- Riceve: su appuntamento
+
+Letteratura del Rinascimento (Castiglione, Michelangelo)
+
+Letteratura del Novecento (Ungaretti, Zanzotto, Luzi)
+
+Storia della critica letteraria
+
+## Prof. Paolo Borsa
+
+Ufficio: 3.207
+
+paolo.borsa@unifr.ch
+
+- Riceve: su appuntamento
+
+Letteratura latina e volgare dei secoli XIII-XIV
+
+Dante Alighieri
+
+Letteratura del Sette e Ottocento
+
+Open Science / Open Access
+
+<!-- image -->
+
+<!-- image -->
+
+## Prof. Christian Genetelli
+
+Ufficio: 3.222 christian.genetelli@unifr.ch
+
+- Riceve: su appuntamento
+
+Leopardi Letteratura dell'Ottocento Montale Letteratura del Novecento Filologia e critica Storia della lingua Edizione e commento di testi
+
+<!-- image -->
+
+## Dr.ssa Sandra Clerc
+
+Ufficio: 3.615 sandra.clerc@unifr.ch
+
+- Conseillère aux études (Dip. Italiano)
+- Riceve: su appuntamento
+
+Letteratura del Novecento
+
+Letteratura della Svizzera italiana
+
+Narrativa e narratologia
+
+Teatro
+
+Rinascimento
+
+Dr.ssa Sofia Canzona
+
+Ufficio: 3.606 sofia.canzona@unifr.ch
+
+- Riceve: su appuntamento
+
+Letteratura dell'Ottocento
+
+·
+
+Filologia italiana
+
+- Epistolari
+
+<!-- image -->
+
+Dr.ssa Claudia Tarallo
+
+Ufficio: 3.622
+
+claudia.tarallo@unifr.ch
+
+Riceve: su appuntamento
+
+Letteratura dell'epoca barocca
+
+<!-- image -->
+
+<!-- image -->
+
+## Ludovica Quartiroli
+
+- Ufficio: 3.622
+- ludovica.quartiroli@unifr.ch
+- Riceve: su appuntamento
+- Letteratura dei secoli XIV-XV
+
+## Francesca Mauron
+
+- Martedì, Giovedì, Venerdì: 8h3013h30
+- Mercoledì: 9h-15h
+- Riceve: su appuntamento
+
+<!-- image -->
+
+M1: Introduzione: analisi del testo e filologia (12 ECTS)
+
+M2S: Proseminari di introduzione (12 ECTS)
+
+M3S: Filologia, lingua, letteratura (18 ECTS)
+
+M4S: Letteratura italiana (18 ECTS)
+
+## BA 60 Italiano
+
+## M1: Introduzione: analisi del testo e filologia (12 ECTS)
+
+- C Introduzione all'analisi del testo poetico
+- C Introduzione all'analisi del testo narrativo
+- C Introduzione alla filologia italiana
+- C Elementi di comunicazione
+
+## M2S: Proseminari di introduzione (12 ECTS)
+
+- Proseminario a scelta: analisi del testo poetico o analisi del testo narrativo
+- Proseminario di filologia italiana
+
+M3S: Filologia, lingua, letteratura (18 ECTS)
+
+M4S: Letteratura italiana (18 ECTS)
+
+## BA 60 Italiano
+
+## M1: Introduzione: analisi del testo e filologia (12 ECTS)
+
+M2S: Proseminari di introduzione (12 ECTS)
+
+## M3S: Filologia, lingua, letteratura (18 ECTS)
+
+- C Filologia e critica
+- C Elementi di grammatica storica italiana
+- C a scelta: Storia della lingua o Fondamenti di linguistica
+- C Dante I
+- S a scelta: Seminario di letteratura medioevale o Seminario di letteratura umanisticorinascimentale
+
+## M4S: Letteratura italiana (18 ECTS)
+
+- C a scelta: Storia della letteratura medioevale o Monografico di letteratura medioevale
+- C a scelta: Storia della letteratura umanistico-rinascimentale o Monografico di letteratura umanistico-rinascimentale o Letteratura teatrale rinascimentale
+- C a scelta: Storia della letteratura moderna o Monografico di letteratura moderna o Letteratura teatrale moderna e contemporanea
+- C a scelta: Storia della letteratura contemporanea  o Monografico di letteratura contemporanea o Letteratura teatrale moderna e contemporanea
+- S a scelta: Seminario di letteratura moderna o Seminario di letteratura contemporanea o Seminario di letteratura teatrale o Seminario di letteratura nella Svizzera italiana o Seminario Leopardi o Seminario di filologia italiana
+
+## BA 60 Italiano
+
+## Altre offerte didattiche
+
+Docente invitata
+
+Dr.ssa Aline Kunz «Fondamenti di linguistica italiana»
+
+## M1i: Introduzione: analisi del testo, lingua, filologia (15 ECTS)
+
+- C Introduzione all'analisi del testo poetico
+- C Introduzione all'analisi del testo narrativo
+- C a scelta: Introduzione alla filologia italiana o Elementi di grammatica storica italiana
+- Proseminario a scelta: Analisi del testo poetico o Analisi del testo narrativo o Proseminario di filologia italiana
+
+## M2i: Letteratura e filologia (15 ECTS)
+
+- C Storia della letteratura
+- C a scelta: Monografico di letteratura o Dante
+- C a scelta: Storia della lingua o Filologia e critica
+- S a scelta: Seminario di letteratura o Seminario di filologia italiana
+
+## BA 30 Italiano
+
+M1: Introduzione all'analisi del testo letterario (12 ECTS)
+
+M2SI: Proseminari di introduzione (12 ECTS)
+
+M3SI: Lingua e letteratura (12 ECTS)
+
+M4SI: Letteratura e didattica (14 ECTS)
+
+BA\_SI 50 Italiano
+
+## M1: Introduzione all'analisi del testo letterario (12 ECTS)
+
+- C Introduzione all'analisi del testo poetico
+- C Introduzione all'analisi del testo narrativo
+- C Introduzione alla filologia italiana
+- C Elementi di comunicazione
+
+M2SI: Proseminari di introduzione (12 ECTS)
+
+- Proseminario di analisi del testo poetico
+- Proseminario di analisi del testo narrativo
+
+M3SI: Lingua e letteratura (12 ECTS)
+
+M4SI: Letteratura e didattica (14 ECTS)
+
+## BA\_SI 50 Italiano
+
+## M1: Introduzione all'analisi del testo letterario (12 ECTS)
+
+M2SI: Proseminari di introduzione (12 ECTS)
+
+## M3SI: Lingua e letteratura (12 ECTS)
+
+- C Fondamenti di linguistica italiana
+- C Elementi di grammatica storica italiana
+- C Storia della lingua
+- C Storia della letteratura
+
+## M4SI: Letteratura e didattica (14 ECTS)
+
+- C Didattica della materia
+- C Monografico di letteratura
+- Seminario di letteratura
+- K Colloquio sulle competenze linguistiche
+
+## BA\_SI 50 Italiano
+
+## Corsi consigliati per il primo semestre (SA 2025)
+
+## Corsi fortemente consigliati
+
+- Prof. U. Motta, Introduzione all'analisi del testo poetico (3 ECTS)
+- Prof. P . Borsa, Elementi di comunicazione (3 ECTS)
+- Prof. C. Genetelli, Introduzione alla filologia italiana (3 ECTS)
+- Prof. P . Borsa, Letture della 'Comedìa'. 'Inferno' (3 ECTS)*
+
+* La lettura di almeno una cantica dantesca è obbligatoria nei piani di studio BA 120 e BA 60.
+
+## Corsi consigliati per il primo semestre (SA 2025)
+
+## Corsi a libera scelta
+
+- Prof. U. Motta, Corso monografico di letteratura contemporanea (3 ECTS)
+- Prof. C. Genetelli, Filologia e critica (3 ECTS)
+- Dr.ssa S. Clerc, Corso monografico di letteratura teatrale moderna e contemporanea (3 ECTS)

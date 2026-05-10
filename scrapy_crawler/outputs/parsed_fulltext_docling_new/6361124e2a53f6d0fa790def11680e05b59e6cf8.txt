@@ -1,0 +1,87 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:59:02.658Z",
+  "title": "SES_Master_30_Business_Informatics_Wirtschaftsinformatik_6361124e2a53f6d0fa790def11680e05b59e6cf8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6361124e2a53f6d0fa790def11680e05b59e6cf8",
+  "program_key": "ses|master|30|business informatics",
+  "faculty": "SES",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Business Informatics",
+  "doc_label": "Wirtschaftsinformatik",
+  "source_url": "https://fr.calameo.com/read/0036591151fcdf0dcf5b2",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/businessinformatics",
+  "curriculum_url": "http://studies.unifr.ch/go/CEsEp",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SES_Master_30_Business_Informatics_Wirtschaftsinformatik_6361124e2a53f6d0fa790def11680e05b59e6cf8.pdf",
+  "sha256": "64c7ea65297564d6d7d52daf23b488731774eb77e19d0e1be4908731d6309258",
+  "fetched_at": "2026-04-03T11:26:27.176Z",
+  "notes": "calameo downloaded (id=0036591151fcdf0dcf5b2, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260304100952-d1f9ed9b7fa53d695a80b08908f3ef10/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T112626Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=4239905efb1023b4f0058662bdcd596a4afe995579d979746118d9d91615e74b, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+septembre 2024
+
+## Masternebenfach 30 ECTS
+
+## Wirtschaftsinformatik
+
+## Kurse
+
+## 27 ECTS an Semesterwahlkursen, unter folgenden Bedingungen:
+
+-  Mindestens 18 ECTS aus dem Kurs Angebot des Masters in Wirtschaftsinformatik in folgenden zwei Modulen:
+- Data Analytics &amp; Decision Support (DADS)
+- Technologies and Modelling for Digitalization (TMD)
+-  Maximal 9 ECTS in den oben erwähnten Modulen und/oder aus dem Kursangebot des Masters in Informatik (Module T0 bis T4 sowie T6 des Joint Master) und/oder des Masters in Betriebswirtschaftslehre.
+
+## Seminarbeit
+
+Das Seminar muss in einem der im Rahmen dieses Programms in Wirtschaftsinformatik angebotenen Kurse absolviert werden.
+
+Total
+
+## ZULASSUNGSBEDINGUNGEN
+
+Mindestens 30 ECTS-Kreditpunkte sind durch Bachelorkurse in Wirtschaftsinformatik zu erbringen, wie folgt :
+
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Wirtschaftsinformatik II (6 ECTS)
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Information Systems Modeling (6 ECTS)
+-  Operations Management (6 ECTS)
+
+## KURSANGEBOT
+
+Informationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.
+
+## WEITERE INFO
+
+Wenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.
+
+ECTS
+
+27
+
+18 - 27
+
+0 - 9
+
+3
+
+30

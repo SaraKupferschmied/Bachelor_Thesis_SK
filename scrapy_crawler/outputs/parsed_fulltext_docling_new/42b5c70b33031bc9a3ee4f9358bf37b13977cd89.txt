@@ -1,0 +1,332 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T18:45:54.350Z",
+  "title": "UNK_Master_120_Experimental_Biomedical_Research_SpMSc_in_Experimental_Biomedical_nbsp_Research_42b5c70b33031bc9a3ee4f9358bf37b13977cd89",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "42b5c70b33031bc9a3ee4f9358bf37b13977cd89",
+  "program_key": "|master|120|experimental biomedical research",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Experimental Biomedical Research",
+  "doc_label": "SpMSc in Experimental Biomedical&nbsp;Research",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2020/Plan_MScSp_EBR_en.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/biomedicalresearch",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_120_Experimental_Biomedical_Research_SpMSc_in_Experimental_Biomedical_nbsp_Research_42b5c70b33031bc9a3ee4f9358bf37b13977cd89.pdf",
+  "sha256": "56bf823e1190a6f1996e875b9f43ab5ba22ff8b6243a3f943b5c1b7bef5932ab",
+  "fetched_at": "2026-04-03T11:26:47.211Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2020/Plan_MScSp_EBR_en.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## TABLE OF CONTENTS
+
+|   ...................................................................................................................................................1 | ...................................................................................................................................................1   | ...................................................................................................................................................1                                                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                    1   | GENERAL REMARKS.................................................................................................3                                      | GENERAL REMARKS.................................................................................................3                                                                                                                                                                      |
+|                                                                                                                                                        | 1.1                                                                                                                                                    | Academic title and study plan ................................................................................................... 3                                                                                                                                                    |
+|                                                                                                                                                        | 1.2                                                                                                                                                    | Course structure ......................................................................................................................... 3                                                                                                                                           |
+|                                                                                                                                                        | 1.3                                                                                                                                                    | Acquired skills............................................................................................................................. 4                                                                                                                                         |
+|                                                                                                                                                        | 1.4                                                                                                                                                    | Course assessment (UE) and accreditation of ECTS credits................................................. 4                                                                                                                                                                            |
+|                                                                                                                                                        | 1.5                                                                                                                                                    | Teaching languages.................................................................................................................... 5                                                                                                                                               |
+|                                                                                                                                                        | 1.6                                                                                                                                                    | Ethics and science...................................................................................................................... 5                                                                                                                                             |
+|                                                                                                                                                        | 1.7                                                                                                                                                    | Regulations and additional Information ................................................................................... 5                                                                                                                                                           |
+|                                                                                                                                                    2   | MASTER OF SCIENCE (MSC).....................................................................................6                                          | MASTER OF SCIENCE (MSC).....................................................................................6                                                                                                                                                                          |
+|                                                                                                                                                        | 2.1                                                                                                                                                    | MSc course units ........................................................................................................................ 6                                                                                                                                            |
+|                                                                                                                                                        | 2.2                                                                                                                                                    | Content of the MSc UE ............................................................................................................... 8 2.2.1 Compulsory course units ...............................................................................................................8 |
+|                                                                                                                                                        |                                                                                                                                                        | 2.2.2 Courses of the Neuroscience option.............................................................................................9 2.2.3                                                                                                                                           |
+|                                                                                                                                                        |                                                                                                                                                        | Courses of the Infection, Inflammation and Cancer option.........................................................9 2.2.4 Courses of the Cardiovascular and Metabolic Health option....................................................10                                               |
+|                                                                                                                                                    2.3 | MSc exams and assessment ................................................................................................... 12                        | MSc exams and assessment ................................................................................................... 12                                                                                                                                                        |
+|                                                                                                                                                    2.4 | Master's thesis and exam ........................................................................................................ 12                   | Master's thesis and exam ........................................................................................................ 12                                                                                                                                                   |
+|                                                                                                                                                    2.5 | Admission regulations for the Master's programme ............................................................ 12                                       | Admission regulations for the Master's programme ............................................................ 12                                                                                                                                                                       |
+
+## 1 General remarks
+
+This  curriculum  describes  all  regulations  concerning  the  study  of  experimental  biomedical research at the Master level at the University of Fribourg. It is based on the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force  on  April  6 th ,  2020  (hereafter  called  the Regulation in  short).  In  case  of  discrepancies  of translation, the French version will be considered authoritative.
+
+The Regulation of 6 April 2020 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study program (see articles 10, 11a, 12a, 13 and 31) (https://www3.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1  Academic title and study plan
+
+The Faculty of Science and Medicine of the University of Fribourg awards the following official academic title to students who have successfully completed their studies:
+
+## Specialised Master of Science in Experimental Biomedical Research (sp-MSc), University of Fribourg
+
+The programme consists of four modules:
+
+-  Compulsory courses: 18 ECTS credits
+-  Elective courses in one of the three options: 12 ECTS credits
+-  Master thesis-related activities: 15 ECTS credits
+-  Master thesis: 45 ECTS credits
+
+Three options (specialisations) with specific courses are offered:
+
+-  Neuroscience
+-  Infection, Inflammation and Cancer
+-  Cardiovascular and Metabolic Health
+
+Elective courses not listed in the study programme of these options may also be taken.  In this case, the student must consult the study advisor.
+
+The MSc study programme in  Experimental  biomedical  research  (subsequently  called  MSc) provides  the  students  with  advanced  courses  in  their  chosen  specialisation,  as  well  as  a foundation  of  obligatory  courses.  The  programme  aims  at  preparing  students  for  a  PhD programme.  At  the  same  time,  the  programme  provides  students  with  skills  needed  for  a successful career in health-related industry and administration.
+
+Candidates with a Bachelor degree in biology, biochemistry, biomedical sciences or medicine from  the  University  of  Fribourg  or  from  another  Swiss  university,  can  apply  to  the  MSc  (as outlined in Section 2.5 below). Applicants in possession of a BSc degree from other countries or in a different but related subject can also be admitted into the programme based on a decision of the Faculty of Science and Medicine. The admission decision is made individually for each case. Provisional admission can be granted and depends on the fulfilment of additional requirements set by the Faculty (see Section 2.5 below).
+
+## 1.2  Course structure
+
+The course work leading to the MSc degree is subdivided into ' UE ' (= teaching units, from 'unité d'enseignement' or  'Unterrichtseinheit'),  consisting  of  formal  lectures,  exercise  classes,  practical
+
+courses, seminars,  and specialised projects. To  each UE,  a number  of ECTS 1  points is  assigned, which, following successful completion of the course (e.g., exams) are converted into ECTS.
+
+The MSc degree requires a minimum of 90 ECTS credits over three semesters. The programme is subdivided into two parts (or validation packages ):
+
+-  formal lectures, practical courses, projects, seminars (45 ECTS credits)
+-  a Master project that terminates with the Master thesis (45 ECTS credits).
+
+The purpose of the different UE types is as follows:
+
+-  Lectures give  a  formal  introduction  to  the  scientific  methods  in  basic  and  experimental biomedical  research  and  encourage  advanced  scientific  thinking.  They  help  acquiring  the basic knowledge and understanding of the fundamental concepts in specific disciplines.
+-  Laboratory work ,  be  it  experimental  or  theoretical,  is  the  basis  of  scientific  research.  It provides  a  supervised  environment  for  the  hands-on  realization  of  biological  and  medical measurements. It is during this work that the student will encounter and learn many of the techniques and instruments used in biological and medical research.
+-  Seminar presentations are used to expand the student's knowledge in specialised domains, often  neglected  in  the  formal  courses,  as  well  as  to  begin  the  development  of  oral presentation skills for communication of scientific results.
+-  Student  projects are  a  first  step  towards  applying  the  skills  learned  in  the  lectures  and exercise classes to address and solve appropriate research questions.
+-  The preparation of the Master thesis , under the supervision of an experienced researcher, is the actual starting point of scientific research.
+
+## 1.3  Acquired skills
+
+The aim of the studies leading to the award of an MSc in Experimental Biomedical Research is to deepen knowledge and techniques, and to perfect competence in the chosen field and, at the same  time,  develop  skills  in  scientific  English  and  scientific  writing.  Thus,  at  the  end  of  the study  programme,  a  student  will  have  shown  that  he/she  can  apply  their  knowledge  to accomplish a research project and will have learned how to work independently, how to integrate into an interdisciplinary research team and how to present and discuss the obtained results. The successful  completion  of  the  degree  requires  creative  and  self-critical  talents  as  well  as  the ability to both communicate ideas and work in English.
+
+## 1.4  Course assessment (UE) and accreditation of ECTS credits
+
+Acquisition of ECTS credits occurs via three steps: assessment of individual UE, grouping of UE into a validation package, and awarding the respective ECTS credits for the completed package.
+
+Assessment of  lectures  is  made  by  an  oral  and/or  written  exam,  whose  type  and  duration  are specified in  an appendix to this curriculum. Exams occur during the official exam sessions in spring,  summer,  or  autumn,  and  are  subject  to  a  fee.  Students  register  for  each  exam  via  the students' web portal MyUniFR (https://my.unifr.ch), within the stipulated deadlines according to the  on-line  procedure  and  using  their  University-provided  account  and  password.  The  marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated, but only once, and at earliest during the next exam session.
+
+A Validation package comprises  multiple,  separately  assessed,  UE.  Article  22  and  24  of  the Regulation determines the number of these packages whereas this curriculum determines their content.
+
+1 ECTS stands for European Credit Transfer System. One ECTS point corresponds to approx. 30 hours of work.
+
+ECTS points are credited according to Art. 23 of the Regulation if:
+
+-  the weighted average of the exam marks of a validation package is at least 4. The weighting is given by the number of ECTS points assigned to a UE, and
+-  the assessment criteria for UE not subject to formal examinations (practical work, seminars, etc.) are met, according to the specific appendices (see Section 2.4 below).
+-  no mark is equal to 1.0.
+
+After satisfying those conditions, a package is considered validated and the corresponding ECTS points are converted into ECTS credits and attributed to the student. Upon request, the Dean's office  will  issue  Transcripts  of  records  in  which  exam  results  and  awarded  credits  are acknowledged (Art. 26 and 27 of the Regulation), provided the exam fee has been paid.
+
+## 1.5  Teaching languages
+
+MSc courses are generally taught in English, although selected courses may be conducted in the German or French language. Written work (project reports, MSc thesis, etc…) will preferably be in English. Texts in French or in German are also accepted.
+
+## 1.6  Ethics and science
+
+Ethical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and while documenting all scientific work whether it be a  project,  a  lecture,  a  thesis,  or  a  report.  In  particular,  every  external  source  of  information (articles, lectures, web pages, etc.) must be correctly cited.
+
+## 1.7  Regulations and additional Information
+
+Detailed  information  about  studying  Experimental  Biomedical  Research  can  be  found  in  the documents  referenced  on  the  web  page  http://www3.unifr.ch/scimed/plans  which  are  also available on the section website (https://www3.unifr.ch/med/fr/) as well as from the Office of the Medicine Section.
+
+## 2 Master of Science (MSc)
+
+[Version 2020, validation packages: Option N: PV-SME.000041, PV-SME.000042 Option IIC: PV-SME.000043, PV-SME.000044 Option CMH: PV-SME.000045, PV-SME.000046]
+
+The  MSc  programme  in  Experimental  Biomedical  Research  requires  90  ECTS  credits  to  be completed,  and  is  expected  to  take  18  months.  The  first  year  consists  primarily  of  courses, seminars,  and  the  first  part  of  the  Master  work,  designed  to  strengthen  and  complete  the student's existing biomedical knowledge, as well as the proper scientific conduct and skills to communicate research. As members of a research team, the Master students take part in various activities such as research group meetings, seminars, and literature study/journal clubs. Students are expected to participate in those activities throughout the duration of the study. The credits for these activities amount to 15 ECTS. The MSc degree course is completed by a research project of 45 ECTS in total, which includes the writing of a Master thesis.
+
+## 2.1  MSc course units
+
+In  the  first  year  of  the  study  programme,  MSc  students  follow  all  compulsory  course  units (18 ECTS), as well as elective course units (12 ECTS) in their chosen specialisation. The study programme is complemented by thesis-related activities in the chosen specialisation (15 ECTS) and the MSc thesis (45 ECTS).
+
+## Compulsory Course Units
+
+| Code      | Title of UE                                                  |   tot. h. |   ECTS |
+|-----------|--------------------------------------------------------------|-----------|--------|
+| SME.07100 | Models for human diseases                                    |        28 |      3 |
+| SME.07200 | Infection, inflammation and cancer                           |        28 |      3 |
+| SME.07300 | Central nervous system regeneration and repair               |        28 |      3 |
+| SME.07400 | Microscopy in life sciences                                  |        28 |      3 |
+| SME.07500 | Scientific writing                                           |        28 |      3 |
+| SME.07700 | Data analysis and statistics with the R programming language |        28 |      3 |
+| Total     |                                                              |           |     18 |
+| SME.07600 | Master thesis                                                |           |     45 |
+
+## Course Units in the Neuroscience option
+
+| Code       | Title of UE                               |   tot. h. |   ECTS |
+|------------|-------------------------------------------|-----------|--------|
+| SME.07301  | Behavioural methods in neuroscience       |        28 |      3 |
+| L25.00721  | Sleep and visual neuroscience [L071.0821] |        28 |      3 |
+| L25.00731  | Introduction to R [L071.0831]             |        28 |      3 |
+| L25.00644* | Introduction to Matlab I [L071.0743]      |        14 |      3 |
+| Total      |                                           |           |     12 |
+
+* Offered by the Dept. of Psychology, Faculty of Humanities
+
+Subject to change. See the up to date list under moodle.
+
+## Thesis-related activities in the Neuroscience option
+
+| Code      | Title of UE                                                 |   tot. h. |   ECTS |
+|-----------|-------------------------------------------------------------|-----------|--------|
+| SME.07002 | Fribourg day of cognition                                   |         8 |    0.5 |
+| SME.06001 | Neurobiology (seminar)                                      |         5 |    0.5 |
+| SME.07001 | Neurobiology (seminar)                                      |         5 |    0.5 |
+| SME.07302 | Frontiers in neuroscience BENEFRI (workshop)                |        18 |    1.5 |
+| SME.07304 | Neuroscience journal club [2 semesters x 14h]               |        28 |    4.5 |
+| SME.07601 | Research group meetings in Neuroscience [3 semesters x 14h] |        42 |    3   |
+| SME.07602 | Project design in Neuroscience                              |        42 |    4.5 |
+| Total     |                                                             |           |   15   |
+
+## Course Units in the Infection, Inflammation and Cancer option
+
+| Code      | Title of UE                                                                                     |   tot. h. |   ECTS |
+|-----------|-------------------------------------------------------------------------------------------------|-----------|--------|
+| SME.07201 | Cellular immunology: theory and practice                                                        |        28 |      3 |
+| SME.07202 | Hot topics in cancer research                                                                   |        28 |      3 |
+| SME.07203 | Principles and methods in investigating and treating age-associated heart and vascular diseases |        28 |      3 |
+| SME.07209 | Concepts and approaches in metabolic phenotyping, anti-obesity targeting and hypoxia research   |        28 |      3 |
+| Total     |                                                                                                 |           |     12 |
+
+## Thesis-related activities in the Infection, Inflammation and Cancer option
+
+| Code      | Title of UE                                                        |   tot. h. |   ECTS |
+|-----------|--------------------------------------------------------------------|-----------|--------|
+| SME.07210 | Section of medicine research (seminar)                             |         6 |    0.5 |
+| SME.07211 | Section of medicine research (seminar)                             |         6 |    0.5 |
+| SME.07212 | Research Day in Medicine                                           |         8 |    0.5 |
+| SME.07208 | Cancer/inflammation research journal club [3 semesters x 14h]      |        42 |    4.5 |
+| SME.07603 | Research group meetings in cancer/inflammation [3 semesters x 14h] |        42 |    4.5 |
+| SME.07604 | Project design in cancer/inflammation                              |        42 |    4.5 |
+| Total     |                                                                    |           |   15   |
+
+## Course Units in the Cardiovascular and Metabolic Health option
+
+| Code      | Title of UE                                                                                     |   tot. h. |   ECTS |
+|-----------|-------------------------------------------------------------------------------------------------|-----------|--------|
+| SME.07203 | Principles and methods in investigating and treating age-associated heart and vascular diseases |        28 |      3 |
+| SME.07209 | Concepts and approaches in metabolic phenotyping, anti-obesity targeting and hypoxial research  |        28 |      3 |
+| SME.07201 | Cellular immunology: theory and practice                                                        |        28 |      3 |
+| SME.07202 | Hot topics in cancer research                                                                   |        28 |      3 |
+| Total     |                                                                                                 |           |     12 |
+
+| Thesis-related activities in the Cardiovascular and Metabolic Health option   | Thesis-related activities in the Cardiovascular and Metabolic Health option                     |         |      |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------|------|
+| Code                                                                          | Title of UE                                                                                     | tot. h. | ECTS |
+| SME.07104                                                                     | Joint research group meetings of Dept EMC (Endocrinology, Metabolism and Cardiovascular System) | 12      | 1    |
+| SME.07212                                                                     | Research Day in Medicine                                                                        | 8       | 0.5  |
+| SME.07102                                                                     | Research symposium                                                                              | 8       | 0.5  |
+| SME.07103                                                                     | Cardiovascular and metabolic health journal club (3x14)                                         | 40      | 4    |
+| SME.07605                                                                     | Research group meetings in cardiovascular/metabolic health [3 semesters x 14h]                  | 42      | 4.5  |
+| SME.07606                                                                     | Project design in cardiovascular/metabolic health                                               | 42      | 4.5  |
+| Total                                                                         |                                                                                                 |         | 15   |
+
+## 2.2  Content of the MSc UE
+
+## 2.2.1  Compulsory course units
+
+The course Models for human diseases will present relevant experimental models and integrative approaches for understanding physio-pathological processes of human diseases, including aging and  age-related  diseases  such  as  heart  failure,  atherosclerosis,  metabolic  disorders  and  renal disease.  Advantages  and  pitfalls  of  the  models  for  the  human  diseases  will  be  analysed. Prospective  translational  aspects  of  modifying  the  disease  process  by  nutrition,  therapeutics, gene/stem cell therapy, development of new drug candidates as well as choice of the best animal model for the targeted therapeutic area will be discussed.
+
+The course Infection, inflammation and cancer provides a comprehensive theoretical basis to the understanding  of  novel  paradigms  and  emerging  areas  of  research  in  the  field  of  infection diseases, inflammation and cancer. The course will cover topics such as mechanisms of initiation of inflammation, perception of inflammation, the role of inflammation in cancer initiation and progression and novel pathogens and emerging resistance in infection diseases. Emphasis will be put  on  highlighting  the  significance  of  recently  acquired  knowledge  in  these  areas  and  its relevance to experimental research and clinical medicine.
+
+The course Central nervous system regeneration and repair provides the conceptual background necessary  for  understanding  major  approaches  for  helping  the  brain  recover  from  neural pathologies. The importance of behavioural characterization, functional measurements as well as therapeutic interventions such as psychopharmacology  or electrical brain stimulation is illustrated by relevant examples drawn from clinical and basic science.
+
+The course Data analysis and statistics with the R programming language consists of two parts. The first part is an introduction to the R programming language. The second part of the course focuses on experimental design and statistical analysis, addressing the underlying concepts and presenting the main parametric and non-parametric tests used in inferential statistics.
+
+The course Microscopy in life sciences provides a theoretical introduction to various forms of microscopy, including light-, fluorescence- and 2-photon microscopy. Key concepts as well as practical issues for productive use of microscopy instruments will be covered. The course will include some hands-on sessions with the various instruments.
+
+The  course Scientific  writing encompasses  literature  research,  reading,  writing,  reviewing, editing  and  publishing.  It  engages  students  in  a  real-world  exercise  of  scientific  writing  and publishing. The students will gain experience in scientific writing through an individual essay (scientific  review  article  or  book  chapter) . This  will  increase  the  students'  skills  in  word processing and reference management  systems.  The  students  will participate in critical
+
+evaluation of scientific writing by assessing peer-written work , explore relevant web sites and become familiar with electronic publishing.
+
+## 2.2.2  Courses of the Neuroscience option
+
+The description of the courses offered by the Department of Psychology, Faculty of Humanities will be provided to students at the beginning of the semester via the Moodle platform.
+
+The course Behavioural methods in neuroscience is an introduction to laboratory methods used for behavioural and associated functional studies in humans and animals. It focuses on measurement, analysis and interpretation of behavioural parameters such as behavioural choice or reaction time, as  well  as  functional  parameters  such  as  electroencephalographic  recordings.  The  course  is conducted in 7 modules of four hours each, and takes place in specialised laboratories.
+
+The BENEFRI workshop 'Frontiers  in  neurosciences' is  intended  to  make  students  familiar with  current  frontiers  in  neurobiological  research.  The  course  is  given  by  national  and  international experts working in very diverse fields of neuroscience. Previous block courses included topics  such  as  brain  mapping,  hypothalamus,  motor  systems,  neurogenetic  model  systems, neuroinformatics, olfaction, sensory systems, synaptic function, and visual cortex.
+
+The Fribourg  day  of  cognition consists  of  research  presentations  related  to  ongoing  projects conducted  in  the  area  of  behavioural,  cognitive  and  developmental  neurosciences  at  the University of Fribourg. Participants are asked to select a presentation and write a short summary of about 2 pages consisting of introduction, hypotheses to be tested, results and significance.
+
+The Neurobiology seminars is  a  series  of  lunchtime  lectures  by  experts  in  the  field  of neuroscience, who present recent and ongoing research and inform participants on cutting edge developments  in  the  area  of  specialisation.  Topics  cover  all  areas  of  neuroscience  including molecular, systems, behavioural and clinical neuroscience.
+
+In  the Neuroscience  journal  club researchers  and  students  report  and  debate  recently  published articles. Research group meetings allow members of a research group to present and discuss their ongoing  work. Project  design  in  neuroscience allows  the  students  to  carry  out  a  short-term experimental and theoretical project in a research group. They  can  become  familiar  with investigation methods, learn how to collaborate efficiently with other group members and contribute actively to research. On successful accomplishment of the project they will be able to independently deal with new topics and will make the transition towards Masters level research with confidence.
+
+During  the Master  thesis the  student  familiarizes  herself/himself  with  modern  techniques  and executes a research project under the guidance of a group leader within a Neuroscience research group  of  the  Section  of  Medicine.  This  work  requires  designing  and  carrying  out  a  research strategy, keeping a clear lab journal and data analysis. The Master thesis also includes a report written like a scientific article (summary, introduction, methods, results, discussion, references).
+
+## 2.2.3  Courses of the Infection, Inflammation and Cancer option
+
+The course Cellular immunology: theory and practice is a balanced combination between theory and  laboratory-based  practical  activities.  The  students  will  elaborate  themselves  the  basic principles  of  immune cell  types,  cell  characterization,  cell  activation  and  function.  In  parallel, laboratory  protocols  corresponding  to  the  theoretical  principals  will  be  applied  under  the instruction and supervision of experienced researchers. There will be emphasis on experimental design,  leading  to  performing  corresponding  experiments  by  the  students.  The  students  will collect individual results for each experiment, to be used for statistical analysis and discussion.
+
+The course Hot topics in cancer research , comprises a selection of current topics at the forefront of  biomedical  research  presented  by  experts  in  each  field.  Topics  vary  each  year  and  usually include cancer immunotherapy, biomarkers in cancer, vaccines and nanomedicine. The course
+
+consists of overview lectures, scientific workshops, and demonstrations in the lab. Students will gain insights into some of the hottest and rapidly evolving research topics in the field as well as experience in critical discussion of emerging scientific questions.
+
+The  course Principles  and  methods  in  investigating  and  treating  age-associated  heart  and vascular diseases will provide a wide range of laboratory skills at the molecular, cellular, organ, and whole body levels, including analysis of oxidative stress, inflammation, advanced gene/cell therapy and drug delivery techniques for heart and vascular repair, etc. These techniques allow students to investigate the organism aging process and mechanisms of age-related diseases such as  heart  failure  and  vascular  dysfunction  in  an  integrative  manner.  The  course  will  also emphasize how to formulate a scientific concept and/or hypothesis, and how to design a research project scientifically.
+
+The course Concepts and approaches in metabolic phenotyping, anti-obesity targeting and hypoxia research will present the complex gene-environment interactions in obesity and the challenges in the field  of  'phenotyping':  What  to  phenotype?  How  to  phenotype?  When  to  phenotype?  These fundamental questions will be addressed in this course with particular emphasis on recent advances and emerging concepts about phenotyping for early metabolic predictors of obesity in view of developing effective  strategies  for  both  the  prevention  and  treatment  of  obesity  and  associated  cardiometabolic risks.  In addition, the theory and practice of hypoxia research methods and techniques in cell biology and  specific  animal  (disease)  models  will  be  presented.  The Section  of  medicine  research seminar series consists of a mixture of internal progress reports by principal investigators and senior scientific collaborators, as well as lectures given by external speakers from Switzerland and abroad. The series covers  the  three  main  research  areas  pursued  at  the  Section  of  medicine:  i)  neurosciences,  ii) cardiovascular and metabolism, iii) infection, inflammation and cancer. Students have the opportunity to meet with external speakers before or after the lecture.
+
+The Research Day in Medicine consists  of  presentations  from  researchers  at  the  University  of Fribourg  and  the  Cantonal  Hospital  of  Fribourg  and  invited  external  speakers.  Research approaches  in  basic  as  well  as  applied  clinical  research  are  covered  with  the  perspective  of encouraging  collaborative  initiatives.  Each  year  a  novel  topic  is  proposed  among  the  fields represented in Fribourg. A poster session for students is part of the event.
+
+In  the Cancer/inflammation  research  journal  club researchers  and  students  report  and  debate recently  published  articles. Research  group  meetings allow  members  of  a  research  group  to present  and  discuss  their  ongoing  work. Project  design  in  infection,  inflammation  and  cancer allows the student to carry out a short-term experimental and theoretical project in a research group.  He/she  can  become  familiar  with  investigation  methods,  learn  how  to  collaborate efficiently  with  other  group  members  and  contribute  actively  to  research.  On  successful accomplishment of the project he/she will be able to independently deal with new topics and will make the transition towards Masters level research with confidence.
+
+During  the Master's  thesis the  student  familiarizes  herself/himself  with  modern  techniques  and executes  a  research  project  under  the  guidance  of  a  group  leader  within  a Cancer/Inflammation research group of the Section of Medicine. This work requires designing and carrying out a research strategy, keeping a clear lab journal and data analysis. The Master thesis also includes a report written like a scientific article (summary, introduction, methods, results, discussion, references).
+
+## 2.2.4  Courses of the Cardiovascular and Metabolic Health option
+
+The course Cellular immunology: theory and practice is a balanced combination between theory and  laboratory-based  practical  activities.  The  students  will  elaborate  themselves  the  basic principles  of  immune cell  types,  cell  characterization,  cell  activation  and  function.  In  parallel, laboratory  protocols  corresponding  to  the  theoretical  principals  will  be  applied  under  the instruction and supervision of experienced researchers. There will be emphasis on experimental
+
+design,  leading  to  performing  corresponding  experiments  by  the  students.  The  students  will collect individual results for each experiment, to be used for statistical analysis and discussion.
+
+In Hot  topics  in  cancer  research ,  consists  of  a  selection  of  current  topics  at  the  forefront  of biomedical  research  presented  by  experts  in  each  field.  Topics  vary  each  year  and  usually include cancer immunotherapy, biomarkers in cancer, vaccines and nanomedicine. The course consists of overview lectures, scientific workshops, and demonstrations in the lab. Students will gain insights into some of the hottest and rapidly evolving research topics in the field as well as experience in critical discussion of emerging scientific questions.
+
+The course Principles and methods in investigating and treating age-associated heart and vascular diseases will provide a wide range of laboratory skills at the molecular, cellular, organ, and whole body  levels,  including  analysis  of  oxidative  stress,  inflammation,  advanced  gene/cell  therapy  and drug  delivery  techniques  for  heart  and  vascular  repair,  etc.  These  techniques  allow  students  to investigate the organism aging process and mechanisms of age-related diseases such as heart failure and vascular dysfunction in an integrative manner. The course will also emphasize how to formulate a scientific concept and/or hypothesis, and how to design a research project scientifically.
+
+The course Concepts and approaches in metabolic phenotyping, anti-obesity targeting and hypoxia research will present the complex gene-environment interactions in obesity and the challenges in the field  of  'phenotyping':  What  to  phenotype?  How  to  phenotype?  When  to  phenotype?  These fundamental questions will be addressed in this course with particular emphasis on recent advances and  emerging  concepts  about  phenotyping  for  early  metabolic  predictors  of  obesity  in  view  of developing  effective  strategies  for  both  the  prevention  and  treatment  of  obesity  and  associated cardiometabolic  risks.  In  addition,  the  theory  and  practice  of  hypoxia  research  methods  and techniques in cell biology and specific animal (disease) models will be presented.
+
+The Joint research group meetings of Dept EMC  (Endocrinology, Metabolism and Cardiovascular System) will  be  organized  either  by  our  cluster  or  in  collaboration  with  other universities. It is intended to make students familiar with current frontiers in cardiovascular and metabolic health research. The course is given by national and international experts working in this  field.  The  students  are  required  to  write  a  short  summary  (about  2  pages)  about  the  most relevant findings related to their research field presented during the meeting or present their own work as a poster at the meeting.
+
+The  course Research  symposium in  cardiovascular  and  metabolic  health  will  be  organized  to address  the  very  specific  research  questions  or  new  research  topics  that  the  research  groups intend to investigate. Internal and external experts will be invited to discuss the themes. The aim of this course is to discuss the specific questions or topics deeply and to strengthen or establish collaborations  among  the  research  groups  on  specific  projects.  Students  will  learn  how  to critically discuss scientific questions and how to establish scientific collaborations.
+
+The Research Day in Medicine consists of presentations from researchers at the University of Fribourg  and  the  Cantonal  Hospital  of  Fribourg  and  invited  external  speakers.  Research approaches  in  basic  as  well  as  applied  clinical  research  are  covered  with  the  perspective  of encouraging  collaborative  initiatives.  Each  year  a  novel  topic  is  proposed  among  the  fields represented in Fribourg. A poster session for students is part of the event.
+
+In  the Cardiovascular  and  metabolic  health  journal  club researchers  and  students  report  and debate recently published articles. Research group meetings allow members of a research group to  present  and  discuss  their  ongoing  work. Project  design  in  cardiovascular  and  metabolic health allows  the  student  to  carry  out  a  short-term  experimental  and  theoretical  project  in  a research group. He/she can become familiar with investigation methods, learn how to collaborate efficiently  with  other  group  members  and  contribute  actively  to  research.  On  successful accomplishment of the project he/she will be able to independently deal with new topics and will make the transition towards Masters level research with confidence.
+
+During  the Master  thesis the  student  familiarizes  herself/himself  with  modern  techniques  and executes a research project under the  guidance  of a group leader within a Cardiovascular  and Metabolic Health research group of the Section of Medicine. This work requires designing and carrying out a research strategy, keeping a clear lab journal and data analysis. The Master thesis also includes a report written like a scientific article (summary, introduction, methods, results, discussion, and references).
+
+## 2.3  MSc exams and assessment
+
+Assessment  criteria  for  UEs  are  specified  in  the  appendices  to  the  curriculum  in  Medical sciences, morphology, and physiology. The UEs of the Master courses (compulsory and relative to the options) and Master thesis-related activities are collectively assessed in the first validation package, and accords the student 45 ECTS credits, if successful.
+
+## 2.4  Master's thesis and exam
+
+The second validation package of the Master's programme (45 ECTS credits) consists entirely of the UE dedicated  to  the Master's  thesis itself  (SME.08003).  This  work  is  foreseen  to  be  completed within  12  months.  It  is  laboratory-based  research  work  that  the  student  will  carry  out  under  the supervision  of  an  active  researcher  in  the  field,  and  during  which  the  student's  aptitude  for fundamental and biomedical research will begin to develop. The work will be presented both as a formal written document, and as a 30-minute oral presentation. The work will be evaluated on the same scale (1, unacceptable to 6, excellent) as the exams. The second validation package will be validated only for marks of 4 and above. If a work is judged insufficient, a second  Master thesis project may be offered to the student.
+
+Successful completion of the two validation packages results in the right to the title Specialised Master of Science in Experimental Biomedical Research , option 'Neuroscience', ' Infection, Inflammation  and  Cancer' or 'Cardiovascular  and  Metabolic  Health' , University of Fribourg (sp-MSc) .
+
+## 2.5  Admission regulations for the Master's programme
+
+To  be  admitted  to  the  Master's  programme,  students  must  fulfil  the  University  admission requirements,  as  defined  in  the Règlement  concernant  l'admission  à  l'Université  de  Fribourg (https://www3.unifr.ch/apps/legal/fr/document/274904).
+
+The number of students accepted is limited to the training capacities of the Section of Medicine. Candidates should submit a complete application that includes the following documents:
+
+-  Bachelor degree diploma in biology, biochemistry, biomedical sciences or medicine (original or certified copy).
+-  Transcript of records.
+-  Description of their Bachelor's studies (for applicants coming from Universities other than Fribourg), including information about the content and volume of the courses.
+-  Motivation letter, in which the applicant should also specify her/his preferred option (specialisation) in the Master programme.
+-  One or two letter(s) of recommendation from an academic professional. The referee should specify in which capacity he/she has formed an expert opinion of the applicant.
+
+The applications will be evaluated and selected candidates may be invited for an interview. The selection  criteria  for  the  evaluation  are  the  academic  performance  during  previous  academic studies, the motivation for pursuit of studies in the Master's programme and the content of the recommendation letter(s).

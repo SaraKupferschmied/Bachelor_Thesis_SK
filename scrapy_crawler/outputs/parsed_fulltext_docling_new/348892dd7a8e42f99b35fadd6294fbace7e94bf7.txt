@@ -1,0 +1,467 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:57:48.438Z",
+  "title": "Philosophy_Bachelor_30_Social_Work_and_Social_Policy_FR__MA_Soziologie_Sozialpolitik_Sozialarbeit_zu_90_ECTS_348892dd7a8e42f99b35fadd6294fbace7e94bf7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "348892dd7a8e42f99b35fadd6294fbace7e94bf7",
+  "program_key": "philosophy|bachelor|30|social work and social policy (fr)",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Social Work and Social Policy (FR)",
+  "doc_label": "MA Soziologie, Sozialpolitik, Sozialarbeit zu 90 ECTS",
+  "source_url": "https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozialarbeit_Sozialpol_Globale_Entw_de_bil_10032021_HS24.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/socialworkfrench",
+  "curriculum_url": "http://studies.unifr.ch/go/3v29r",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Bachelor_30_Social_Work_and_Social_Policy_FR__MA_Soziologie_Sozialpolitik_Sozialarbeit_zu_90_ECTS_348892dd7a8e42f99b35fadd6294fbace7e94bf7.pdf",
+  "sha256": "99b1cccd9cf2cc4fd04040079f893a034370ace16e0f9083e2b2f2b6c669063b",
+  "fetched_at": "2026-04-03T11:30:47.525Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozialarbeit_Sozialpol_Globale_Entw_de_bil_10032021_HS24.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MA_Sozialarbeit_Sozialpol_Globale_Entw_de_bil_10032021_HS24.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung
+
+## Studienplan
+
+Master-Programm «Soziologie, Sozialpolitik, Sozialarbeit» Vertiefungsprogramm zu 90 ECTS
+
+Dieser «Studienplan 2021» ist ab Herbstsemester 2021 gültig (Stand HS 2024).
+
+|   1. | Gesetzliche Grundlagen......................................................................................................... 2                                                                                                                                      |
+|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    2 | Beschreibung des Programms................................................................................................ 2                                                                                                                                           |
+|      | 2.1 Allgemeine Beschreibung des Programms ...............................................................................2                                                                                                                                             |
+|      | Berufliche .......................................................................................................................2                                                                                                                                    |
+|      | Aussichten 2.2 Allgemeine Struktur des Programms........................................................................................2                                                                                                                              |
+|      | 2.3 Zulassungsbedingungen............................................................................................................3                                                                                                                                 |
+|    3 | Ausbildungsziele ................................................................................................................... 4                                                                                                                                 |
+|    4 | Studienbeginn und -dauer ..................................................................................................... 5                                                                                                                                       |
+|    5 | Studiensprache und zweisprachiges Studium ......................................................................... 5                                                                                                                                                  |
+|    6 | Allgemeine Organisation ....................................................................................................... 5                                                                                                                                      |
+|      | Tabelle 1: Modulstruktur des Programms «Soziologie, Sozialpolitik, Sozialarbeit» zu 90 ECTS ......6                                                                                                                                                                    |
+|    7 | Beschreibung der Module...................................................................................................... 7                                                                                                                                        |
+|      | MAs01: Methoden und Kolloquien Masterarbeit (15 ECTS) ............................................................7                                                                                                                                                    |
+|      | MAsoz01: Globaler Norden (15 ECTS) ..............................................................................................8 MAsoz02: Globaler Süden (15 ECTS) ................................................................................................8 |
+|      | MAsasp01: Soziale Lebenslagen und Differenzen (15 ECTS)............................................................9                                                                                                                                                   |
+|      | MAsasp02: Elemente der Wohlfahrtsproduktion (15 ECTS) ......................................................... 10                                                                                                                                                     |
+|      | MAtsps01: Inclusion sociale et nouvelles normalisations (15 ECTS) ............................................ 10                                                                                                                                                      |
+|      | MAtsps02: Santé publique et enjeux sociaux (15 ECTS)................................................................ 11                                                                                                                                                |
+|      | MAgen01: Gender und soziale Wohlfahrt (15 ECTS)..................................................................... 11                                                                                                                                                |
+|      | MAvmi: Nonprofitorganisationen und Management (15 ECTS).................................................... 12                                                                                                                                                         |
+|    8 | Masterexamen.....................................................................................................................12                                                                                                                                    |
+|    9 | Prüfungsmodalitäten............................................................................................................13                                                                                                                                      |
+|      | 9.1 Allgemeine Prüfungsmodalitäten .......................................................................................... 13                                                                                                                                       |
+|      | 9.2 Endgültiger Misserfolg........................................................................................................... 13                                                                                                                               |
+|      | Inkrafttreten und Übergangsbestimmungen .........................................................................14                                                                                                                                                    |
+|   10 |                                                                                                                                                                                                                                                                        |
+|   11 | Anhang: Übersicht aller Module und Kurse des Programms ..................................................15 Tabelle 2: Kurse und Module des Programms «Soziologie, Sozialpolitik, Sozialarbeit» ............... 15                                                     |
+
+## 1. Gesetzliche Grundlagen
+
+Das Master-Studienprogramm «Soziologie, Sozialpolitik, Sozialarbeit» zu 90 ECTS ist der Philosophischen Fakultät der Universität Fribourg angegliedert. Der Studienplan stützt sich auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät.
+
+## 2. Beschreibung des Programms
+
+## 2.1  Allgemeine Beschreibung des Programms
+
+Ziel des Master-Studiums «Soziologie, Sozialpolitik, Sozialarbeit» ist es, spezialisiertes und vertieftes Wissen zu Institutionen, Strukturen, Prozessen, Praktiken sowie weiteren gesellschaftlichen Phänomenen und deren Wandel zu vermitteln. Im Kern geht es um das Handeln von Menschen, Gruppen, Organisationen oder auch Staaten und den Beziehungen zwischen ihnen. Es interessiert, wie Menschen ihre Beziehungen leben und gestalten und wie sie ihren Handlungen und der Welt, in der sie leben, Sinn geben. Die thematischen Schwerpunkte des Studiums liegen auf den Themenfeldern Soziale Ungleichheiten, Armut, Arbeit, Konflikte, Delinquenz, Netzwerke und Gender. Thematisiert werden Fragen der Globalisierung, der Beziehungen zwischen dem Globalen Norden und dem Globalen Süden sowie wirtschaftliche, politische oder soziale Herausforderungen, Probleme und Potentiale. Die Themen und Fragestellungen werden nicht nur aus soziologischer, sondern auch aus der Perspektive von Sozialpolitik und Sozialarbeit betrachtet.
+
+Die Ausrichtung des Studiums ist international und interdisziplinär. Betont werden sowohl Theorie als auch Empirie in Lehre und Forschung. Theoriegeleitete Forschung und darauf basierende Lehre schärfen die Fähigkeit der Studierenden, wissenschaftliche Erkenntnisse und gesellschaftliche Prozesse kritisch zu analysieren und zu reflektieren. Die methodische Ausbildung ist vielfältig: Aufbauend auf den Kenntnissen der Bachelorprogramme werden qualitative und quantitative empirische Methoden der Sozialforschung vertieft und erweitert. Die Absolventinnen und Absolventen sind in der Lage, komplexe qualitative und quantitative Forschung zu betreiben und zu interpretieren. Gerade die methodischen Kenntnisse werden im Verbund mit fundierter theoretischer Expertise von vielen Arbeitgeberinnen und Arbeitgebern sehr geschätzt und sind Voraussetzung für den Zugang zu vielen verschiedenen Berufen und Tätigkeitsfeldern.
+
+## Berufliche Aussichten
+
+Das Master-Studium «Soziologie, Sozialpolitik, Sozialarbeit» vermittelt das theoretische und konzeptionelle Rüstzeug für (Kader-)Positionen in öffentlichen oder privaten Organisationen, aber auch für Forschung und Lehre an Universitäten und Fachhochschulen. Die Ausbildung befähigt zu einer beruflichen Tätigkeit in vielen verschiedenen Bereichen wie beispielsweise Management (Analyse, Planung, Entwicklung, Leitung, Umsetzung) und Evaluation von Projekten im Sozialbereich; Unterricht und Ausbildung; Mitarbeit und leitende Tätigkeit in Verbänden, internationalen Organisationen, Organisationen der Entwicklungszusammenarbeit; Entwicklung von Konzeptionen und Planungen der aktiven Bewältigung sozialer Probleme im Rahmen von unterschiedlichen sozialpolitischen Organisationen, sei es z.B. im Bereich der Beratung oder auch in Sozialdiensten; wissenschaftliche Forschung; Medienarbeit.
+
+## 2.2  Allgemeine Struktur des Programms
+
+Das Studienprogramm «Soziologie, Sozialpolitik, Sozialarbeit» an der Universität Fribourg dauert im Falle eines Vollzeitstudiums mindestens drei Semester. Das Vertiefungsprogramm (Major) umfasst insgesamt 90 ECTS und besteht aus vier Modulen zu 60 ECTS sowie dem Masterexamen zu 30 ECTS (bestehend aus Masterarbeit und Verteidigung der Masterarbeit). Das Studienprogramm kann durch ein Spezialisierungs- oder Nebenprogramm zu 30 ECTS (Minor) auf 120 ECTS erweitert werden.
+
+Das Vertiefungsprogramm setzt sich zusammen aus einem Pflichtmodul (P) und drei Wahlpflichtmodulen (WP) sowie dem Masterexamen. Alle Studierende besuchen das Pflichtmodul und wählen drei Wahlpflichtmodule aus dem möglichen Angebot.
+
+In jedem Modul werden 15 ECTS-Punkte erworben. Für die Erlangung des Masterabschlusses in «Soziologie, Sozialpolitik, Sozialarbeit» müssen alle erforderlichen Leistungen gemäss Studienplan erbracht werden sowie das Masterexamen bestanden sein.
+
+Spezialisierungsprogramme als Ergänzung des Vertiefungsprogramms sind:
+
+- «Soziologie» (Deutsch), sofern im Rahmen des Vertiefungsprogramms die WP-Module «Globaler Norden» und/oder «Globaler Süden» nicht gewählt werden
+- «Sozialpolitik und Sozialarbeit» (Deutsch), sofern im Rahmen des Vertiefungsprogramms die WPModule «Soziale Lebenslagen und Differenzen» und/oder «Elemente der Wohlfahrtsproduktion» nicht gewählt werden
+- «Travail social et politiques sociales: Problèmes sociaux, action sociale et préventions des risques» (Französisch), sofern im Rahmen des Vertiefungsprogramms die WP-Module «Inclusion sociale et nouvelles normalisations» und/oder «Santé publique et enjeux sociaux» nicht gewählt werden
+- «Gender, Gesellschaft, Sozialpolitik» (Deutsch), sofern im Rahmen des Vertiefungsprogramms das WP-Modul «Gender und soziale Wohlfahrt» nicht gewählt wird
+
+Das Vertiefungsprogramm lässt alle weiteren Master-Nebenprogramme zu 30 ECTS der Universität zu.
+
+## 2.3  Zulassungsbedingungen
+
+Das Master-Studium in «Soziologie, Sozialpolitik, Sozialarbeit» an der Universität Fribourg baut auf den im Bachelorstudium erworbenen inhaltlichen, methodologischen und methodischen Kenntnissen auf. So sind Kenntnisse in Wissenschaftstheorie, Statistik und qualitative Datenerhebungs- und Auswertungsmethoden notwendig.
+
+Von allen Masterstudierenden werden erwartet:
+
+- sehr gute Vorkenntnisse in quantitativen und qualitativen Methoden oder die Bereitschaft sich diese, in Absprache mit der Studienberatung, anzueignen
+- sehr gute Deutsch- und gute Englischkenntnisse
+
+Je nach erlangtem Bachelorabschluss werden drei unterschiedliche Zulassungen unterschieden:
+
+## i. Direkte Zulassung ohne Bedingungen
+
+Personen mit folgenden universitären Diplomen, sofern sie über die methodologischen und methodischen  Kenntnisse  verfügen,  sind  ohne  weitere  Bedingungen  zum  Vertiefungsprogramm «Soziologie, Sozialpolitik, Sozialarbeit» zugelassen:
+
+- Bachelor in Soziologie zu mindestens 90 ECTS
+- Bachelor in Sozialarbeit und Sozialpolitik zu mindestens 90 ECTS
+
+Verfügen Studierende nicht über die erwarteten methodologischen und/oder methodischen Kenntnisse auf BA-Niveau, wenden sie sich an die Studienberatung, damit ein Ergänzungsprogramm zusammengestellt werden kann.
+
+## ii.  Direkte Zulassung mit Auflagen
+
+Studierende mit folgenden universitären Diplomen (Bachelor) sind zugelassen, sofern sie ein Ergänzungsprogramm absolvieren:
+
+- Bachelor in Soziologie zu mindestens 60 ECTS
+- Bachelor in Sozialarbeit und Sozialpolitik zu mindestens 60 ECTS
+
+- Bachelor in Politikwissenschaften zu mindestens 90 ECTS
+- Bachelor in Religionswissenschaften zu mindestens 90 ECTS
+- Bachelor in Sozial- und Kulturanthropologie / Ethnologie zu mindestens 90 ECTS
+- Bachelor in Kommunikations- und Medienwissenschaften zu mindestens 90 ECTS
+- Bachelor in Erziehungswissenschaften zu mindestens 90 ECTS
+- Bachelor in Heilpädagogik zu mindestens 90 ECTS
+- Bachelor in Psychologie zu mindestens 90 ECTS
+- Bachelor in Geschichte (Spezialisierung Zeitgeschichte) zu mindestens 90 ECTS
+- Bachelor in Geographie (mit Spezialisierung in Humangeografie) zu mindestens 90 ECTS
+
+Ziel des Ergänzungsprogramms ist es, einen minimal gleichen Kenntnisstand in Wissenschaftstheorie und Methoden sowie fachspezifischen Theorien für das Masterprogramm zu gewährleisten. Das Ergänzungsprogramm beträgt maximal 30 ECTS und variiert nach Kenntnisstand. Ergänzungsprogramme werden von der Studienberatung individuell abgeklärt und festgelegt.
+
+## iii. Zulassung mit Bedingungen
+
+Studierende  mit  anderen  universitären  Bachelorabschlüssen  und  Bachelorabschlüssen  von Fachhochschulen und pädagogischen Hochschulen können zugelassen werden, wenn sie eine Vorstufe zum Master mit bis zu 60 ECTS erfolgreich absolvieren. Über die Aufnahme entscheidet das Departement «sur Dossier».
+
+Des Weiteren gelten die allgemeinen Zulassungsbedingungen für die Immatrikulation an der Universität Fribourg.
+
+## 3. Ausbildungsziele
+
+1.  Das Studium vermittelt Kompetenzen im Hinblick auf unterschiedliche problembezogene oder gesellschaftliche Anforderungen einer sich stetig ändernden sozialen Lebenswelt. Es soll für reale oder vermeintliche Veränderungen in gesellschaftlichen Problemfeldern und die damit einhergehenden nationalen, internationalen und globalen Herausforderungen sensibilisieren. Wissenschaftliche Erkenntnisse, Theorien und Konzepte sowie Kenntnisse in quantitativen und qualitativen Methoden befähigen dazu, soziale Probleme situativ und kritisch zu bearbeiten.
+2.  Im Studium werden disziplinäre theoretische Perspektiven und interdisziplinäre Denk- und Bearbeitungsansätze für soziale und soziologische Fragestellungen vermittelt, Techniken des wissenschaftlichen Arbeitens vertieft und Methoden der empirischen Sozialforschung theoriegeleitet und anwendungsorientiert vorgestellt und geübt.
+3.  Die Studierenden werden durch das Studium in «Soziologie, Sozialpolitik, Sozialarbeit» befähigt, wissenschaftliche Literatur kritisch zu resümieren und zu kommentieren, gezielte Literaturrecherchen zu wissenschaftlichen Fragestellungen durchzuführen sowie Themen im Rahmen eigenständiger Untersuchungen zu bearbeiten. Sie erwerben damit berufsqualifizierende Kompetenzen für unterschiedliche Anwendungsfelder in Wissenschaft und Praxis.
+4.  Berufsqualifizierende Kompetenzen werden entwickelt, indem wissenschaftliche und soziale Kompetenzen erworben werden. Diese werden z.B. erworben in Vorlesungen mit integriertem Diskussionsteil (auch englischsprachig) oder in der Zusammenarbeit in studentischen Gruppen, in der die Reflexion über die gemeinsame Zusammenarbeit und deren Organisation gefördert werden.
+
+## 4. Studienbeginn und -dauer
+
+Studierende können ihr Masterstudium im Herbst- oder Frühjahrssemester aufnehmen. Empfohlen wird ein Beginn im Herbstsemester; der Beginn im Frühjahrssemester kann -je nach Angebot der Module und Kurse -das Studium verlängern. Das Studium dauert mindestens drei Semester.
+
+Gemäss Art. 48 des Reglements vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät muss das Vertiefungsprogramm ohne Spezialisierungsprogramm spätestens neun Semester nach Studienbeginn abgeschlossen werden (Zeitpunkt des Masterexamens). Mit einem optionalen Spezialisierung- oder Nebenprogramm hat der Studienabschluss spätestens nach zwölf Semestern zu erfolgen.
+
+## 5. Studiensprache und zweisprachiges Studium
+
+Sehr gute Deutsch- und gute Englischkenntnisse sind für das Studium notwendig. Es wird vorausgesetzt, dass die Studierenden die Kurse in Deutsch und Englisch verstehen und die Leistungsanforderungen und Prüfungen erfüllen können. Der Unterricht findet in der Regel in deutscher Sprache statt. Einzelne Veranstaltungen können in englischer Sprache angeboten werden. Für die zwei im Programm optional angebotenen französischsprachigen Module werden gute mündliche und schriftliche Französischkenntnisse erwartet.
+
+In einigen Veranstaltungen besteht die Möglichkeit, in Absprache mit der verantwortlichen Lehrperson, die mündlichen und schriftlichen Examen auf Englisch abzulegen.
+
+Gemäss Art. 50 des Reglements vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät wird der Vermerk «zweisprachiges/bilingue Studium» vergeben, wenn mindestens 40% der Studienleistungen in jeder Sprache (Deutsch/Französisch) erfolgreich absolviert werden.
+
+Der Vermerk der Zweisprachigkeit auf dem universitären Master-Diplom wird Studierenden vergeben, die beide französischsprachigen WP-Module des Studienprogramms «Soziologie, Sozialpolitik, Sozialarbeit» (WP2 und WP3) erfolgreich absolvieren sowie im WP1 die französischsprachige Vortragsreihe belegen. Im zweisprachigen Studium werden als Teil der Unterrichtseinheiten in Französisch nur Leistungen gewertet, deren Evaluation auf Französisch erfolgt.
+
+## 6. Allgemeine Organisation
+
+Das Masterprogramm setzt sich zusammen aus einem Pflichtmodul (P) und Wahlpflichtmodulen (WP). Die deutschsprachigen WP-Module finden in der Regel im Zweijahresrhythmus statt, die französischsprachigen WP-Module jährlich. Tabelle 1 gibt die Übersicht über die Module des Master-Vertiefungsprogramms.
+
+Studierende absolvieren das Pflichtmodul «Methoden und Kolloquien Masterarbeit» und wählen drei der angebotenen WP-Module. Nicht alle Module sind als erste (WP1), zweite (WP2) oder dritte (WP3) WP-Module wählbar (vgl. Tabelle 1). Die Module sind unterschiedlichen Themenbereichen zugeordnet.
+
+Es wird empfohlen, das Pflichtmodul «Methoden und Kolloquien Masterarbeit» bereits im ersten Jahr zu besuchen. Das Kolloquium unterstützt die Studierenden bei ihrer Masterarbeit. Es besteht die Möglichkeit,  alle  WP-Module  innerhalb  von  drei  Semestern  zu  absolvieren. Durch gezielte  thematische Wahl der Module können im Vertiefungsprogramm unterschiedliche Schwerpunkte gesetzt werden.
+
+Die aktuell angebotenen Unterrichtseinheiten werden auf der Website des Departements und im universitären Vorlesungsverzeichnis bekannt gegeben.
+
+Im Rahmen des Gesamtstudiums des Vertiefungsprogramms muss mindestens eine Seminararbeit verfasst und eine Vortragsreihe besucht werden. Vier WP-Module bieten die Wahlfreiheit zwischen einer Seminararbeit zu einem der angebotenen Modulkurse und der Vortragsreihe. Zwei WP-Module sehen eine Seminararbeit zu einem vorgegebenen Kurs vor und in einem weiteren WP-Modul ist die Vortragsreihe vorgesehen.
+
+Tabelle 1: Modulstruktur des Programms «Soziologie, Sozialpolitik, Sozialarbeit» zu 90 ECTS
+
+| Soziologie, Sozialpolitik, Sozialarbeit Master-Vertiefungsprogramm zu 90 ECTS   | Soziologie, Sozialpolitik, Sozialarbeit Master-Vertiefungsprogramm zu 90 ECTS             | * jährlich / ungerade / gerade   |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------|
+|                                                                                 | 1 Pflichtmodul (P) &Masterexamen 3 Wahlpflichtmodule (WP1, WP2, WP3), aus 8 WPzur Auswahl |                                  |
+| MAs01                                                                           | P: Methoden und Kolloquien Masterarbeit                                                   | j                                |
+| MAs02                                                                           | P: Masterexamen                                                                           |                                  |
+|                                                                                 | Soziologie                                                                                |                                  |
+| MAsoz01                                                                         | WP1/2/3: Globaler Norden                                                                  | u                                |
+| MAsoz02                                                                         | WP1/2/3: Globaler Süden                                                                   | g                                |
+|                                                                                 | Sozialpolitik und Sozialarbeit                                                            |                                  |
+| MAsasp01                                                                        | WP1/2/3: Soziale Lebenslagen und Differenzen                                              | u                                |
+| MAsasp02                                                                        | WP1/2/3: Elemente der Wohlfahrtsproduktion                                                | g                                |
+|                                                                                 | Problèmes sociaux, action sociale et préventions des risques                              |                                  |
+| MAtsps01                                                                        | WP2/3: Inclusion sociale et nouvelles normalisations                                      | j                                |
+| MAtsps02                                                                        | WP2/3: Santé publique et enjeux sociaux                                                   | j                                |
+|                                                                                 | Weitere Themenbereiche:                                                                   |                                  |
+| MAgen01                                                                         | WP3: Gender und soziale Wohlfahrt                                                         | u                                |
+| MAvmi                                                                           | WP3: Nonprofitorganisationen und Management                                               | J                                |
+
+Für Studierende, die sich für ein optionales Spezialisierungsprogramm zu 30 ECTS angemeldet haben, ist die Wahl bestimmter Module im Vertiefungsprogramm nicht möglich, da diese Teil der folgenden Spezialisierungsprogramme sind:
+
+- Mit  dem  Spezialisierungsprogramm  «Soziologie»  sind  die  WP-Module  «Globaler  Norden»  (MAsoz01) und «Globaler Süden» (MAsoz02) nicht wählbar.
+- Mit dem Spezialisierungsprogramm «Sozialpolitik und Sozialarbeit» sind die WP-Module «Soziale Lebenslagen und Differenzen» (MAsasp01) und «Elemente der Wohlfahrtsproduktion» (MAsasp02) nicht wählbar.
+- Mit dem Spezialisierungsprogramm «Travail social et politiques sociales: Problèmes sociaux, action sociale et préventions des risques» sind die WP-Module «Inclusion sociale et nouvelles normalisations» (MAtsps01) und «Santé publique et enjeux sociaux» (MAtsps02) nicht wählbar.
+- Mit dem Spezialisierungsprogramm «Gender, Gesellschaft, Sozialpolitik» ist das WP-Modul «Gender und soziale Wohlfahrt» (MAgen01) nicht wählbar.
+
+Im Folgenden werden die Module des Studienprogramms beschrieben. Die Lehrveranstaltungen und Leistungen, die innerhalb der einzelnen Module zu erbringen sind, werden tabellarisch zusammen mit den entsprechenden JWS (= Jahreswochenstunden), den ECTS-Kreditpunkten und dem Jahresrhythmus, in welchem die Veranstaltungen angeboten werden, dargestellt. Ein Kurs à zwei Lektionen Präsenzunterricht in einem Semester entspricht 1 JWS; ein Jahreskurs à zwei Lektionen entspricht 2 JWS.
+
+Für die Studierenden entspricht 1 ECTS einem zeitlichen Arbeitsaufwand von durchschnittlich ca. 30 Arbeitsstunden. Für Präsenzkurse mit 1 JWS entsteht in der Regel einen Aufwand von 3 ECTS. Abweichend davon ist der Aufwand für das «Kolloquium II», das auf zwei Semester aufgeteilt ist, und für den Kurs «Vortragsreihe» (6 ECTS), der neben der Prüfung eine umfangreiche individuelle Leistung im Laufe des Semesters erfordert. Für Seminararbeiten werden 6 ECTS vergeben.
+
+## 7. Beschreibung der Module
+
+## MAs01: Methoden und Kolloquien Masterarbeit (15 ECTS)
+
+Ziel des Moduls «Methoden und Kolloquien Masterarbeit» ist es, die wissenschaftstheoretischen und methodischen Kenntnisse zu vertiefen und zu erweitern sowie diese Kenntnisse im Rahmen einer eigenständigen Masterarbeit anzuwenden. Das Modul bietet deshalb Kurse an, die die Studierenden beim Verfassen ihrer Masterarbeit unterstützen. Dies geschieht zum einen mit einer kritischen Auseinandersetzung und Diskussion von Themen, Konzepten, Methoden anhand ausgewählter Texte. Zum anderen werden die einzelnen Schritte der Masterarbeiten im Rahmen des Kolloquiums präsentiert und diskutiert.
+
+Im Kurs «Kolloquium I: Grundlagen und Forschungsskizze» befassen sich Studierende mit Fragen kritischen Denkens, mit der Genese und Präzisierung wissenschaftlicher Fragestellungen, Argumentation, Erklärungen und Beschrieben sowie dem Strukturieren und Verfassen der Masterarbeit. Überdies erhalten Studierende Hinweise zur Literatursuche und -organisation, sowie zu bestehenden qualitativen und quantitativen Datensätzen. Im «Kolloquium II: Untersuchungsplan» präsentieren und diskutieren Studierende die Forschungsdesigns und methodischen Herangehensweisen in ihrer Masterarbeit. Die Ergebnisse der Forschung werden im «Kolloquium III: Zwischenbericht» präsentiert und vor dem Hintergrund der konzeptuellen Rahmung und der Literatur diskutiert. In den Methodenkursen («Fortgeschrittene qualitative Methoden» und «Fortgeschrittene Statistik») werden Kompetenzen der qualitativen und quantitativen Datenerhebung und -analyse aus dem Bachelorstudium vertieft und erweitert. Im Kurs «Methode -Wissenschaft -Politik» werden Methodenfragen wie Mixed Methods oder Triangulation von Methoden oder das Verhältnis zwischen Wissenschaft und Politik diskutiert.
+
+Voraussetzung für die Teilnahme am Modul «Methoden und Kolloquien Masterarbeit» sind Grundkenntnisse der Wissenschaftstheorie, der deskriptiven und schliessenden Statistik und der quantitativen und qualitativen Datenerhebung und -analyse. Deshalb wird von Studierenden im Master-Studiengang erwartet, dass diese Kenntnisse vor dem Besuch des Moduls erworben sind. Es besteht die Möglichkeit,  diese Kompetenzen durch den Besuch entsprechender Veranstaltungen auf BachelorStufe nachzuholen. Studierende mit einem Anpassungsprogramm haben die entsprechenden Unterrichtseinheiten vor Aufnahme dieses Moduls abzuschliessen.
+
+Die Kurse des Methodenmoduls sollten bereits zu Beginn des Masterstudiums besucht werden. Das Kolloquium begleitet die Masterarbeit von Beginn bis zum Abschluss des Studiums.
+
+| MAs01   | P: Methoden und Kolloquien Masterarbeit                            |   JWS |   ECTS | * jährlich   |
+|---------|--------------------------------------------------------------------|-------|--------|--------------|
+| MAs01a  | Kolloquium I: Grundlagen und Forschungsskizze                      |     1 |      3 | j            |
+| MAs01b  | Kolloquium II: Untersuchungsplan & Kolloquium III: Zwischenbericht |     2 |      3 | j            |
+| MAs01c  | Fortgeschrittene qualitative Methoden                              |     1 |      3 | j            |
+| MAs01d  | Fortgeschrittene Statistik                                         |     1 |      3 | j            |
+| MAs01e  | Methode - Wissenschaft - Politik                                   |     1 |      3 | j            |
+
+## MAsoz01: Globaler Norden (15 ECTS)
+
+In diesem Modul werden aktuelle Herausforderungen von Gesellschaften im sogenannten «Globalen Norden» analysiert. Von Interesse ist unter anderem die Entwicklung von Gesellschaften unter den Bedingungen der zunehmenden Internationalisierung von Wirtschaft, Politik und Kultur, der Verschärfung ökologischer Probleme, des Wachstums der Weltbevölkerung, der Migration, der demografischen Alterung der Gesellschaften des Globalen Nordens sowie des zunehmenden Einflusses sogenannter Nicht-Regierungsorganisationen und sozialer Bewegungen. Die Analysen in diesem Modul sind überwiegend komparativ, d.h. die Gesellschaftsanalysen werden immer über einzelne Länder und Regionen hinweg untersucht, um insbesondere den Einfluss institutioneller Strukturen sowie wirtschaftliche, politische, soziale und historische Kontexte in die Bewertung mit einzubeziehen. Von Interesse sind auch die Handlungsmöglichkeiten der Individuen in Bezug auf diese Herausforderungen. Dabei werden begleitend auch Wechselwirkungen zwischen Globalem Norden und Globalem Süden berücksichtigt und verschiedene theoretische Ansätze diskutiert.
+
+Ziel des Moduls ist es, den Studierenden einen vertieften Einblick in ausgewählte sozialwissenschaftliche Diskussionen über Gesellschaftsanalysen des Globalen Nordens zu gewähren und Interdependenzen zwischen Globalem Norden und Globalem Süden aufzuzeigen.
+
+Im Modul besteht die Wahl zwischen einer Seminararbeit zu einem der angebotenen Modulkurse und der Vortragsreihe. Im Rahmen des Gesamtstudiums muss mindestens eine Seminararbeit verfasst und eine Vortragsreihe besucht werden. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+| MAsoz01   | WP1/2/3: Globaler Norden                              |   JWS |   ECTS | * jährlich / ungerade   |
+|-----------|-------------------------------------------------------|-------|--------|-------------------------|
+| MAsoz01a  | Globalisierung                                        |     1 |      3 | u                       |
+| MAsoz01b  | Globaler Norden: Vergleiche und Fallstudien           |     1 |      3 | u                       |
+| MAsoz01c  | Globaler Norden: Felder                               |     1 |      3 | u                       |
+|           | Wahlweise Seminararbeit oder Vortragsreihe            |       |        |                         |
+| MAsoz01d  | Seminararbeit zu MAsoz01a oder MAsoz01b oder MAsoz01c |       |      6 | u                       |
+| MAsoz01e  | Vortragsreihe 1                                       |     1 |      6 | j                       |
+
+## MAsoz02: Globaler Süden (15 ECTS)
+
+Der «Globale Süden» ist durch weltgesellschaftliche Zusammenhänge eng mit dem «Globalen Norden» verbunden. Ausgangspunkt sind Prozesse des sozialen Wandels, die im Kontext der Globalisierung zu sehen sind. Fallstudien und Vergleiche erweitern die Perspektive und kontextualisieren Entwicklungen. Es werden Länder innerhalb einer Region verglichen oder überregionale Vergleiche angestellt. Ausgewählte Felder wie beispielsweise die ökonomische Entwicklung, soziale Ungleichheiten, Institutionen, soziale Sicherung, Gesundheit, Differenzen, Urbanisierung, soziale Bewegungen oder aber Handlungsund Überlebensstrategien von Menschen im Kontext von sozialen, ökonomischen, kulturellen und naturräumlichen Systemen werden thematisch vertieft betrachtet. Zu den ausgewählten Feldern werden unterschiedliche theoretische Ansätze eingeführt und angewendet. Die Inhalte eines Kurses können in einer schriftlichen Seminararbeit weiterentwickelt werden.
+
+Die Studierenden erlernen theoretische und empirische Kenntnisse zu aktuellen Herausforderungen des  Globalen  Südens  und  analysieren  gesellschaftliche  Gestaltungsmöglichkeiten  und  Zukunftsperspektiven.
+
+Im Modul besteht die Wahl zwischen einer Seminararbeit zu einem der angebotenen Modulkurse und der Vortragsreihe. Im Rahmen des Gesamtstudiums muss mindestens eine Seminararbeit verfasst und eine Vortragsreihe besucht werden.
+
+| MAsoz02   | WP1/2/3: Globaler Süden                               |   JWS |   ECTS | * jährlich / gerade   |
+|-----------|-------------------------------------------------------|-------|--------|-----------------------|
+| MAsoz02a  | Sozialer Wandel                                       |     1 |      3 | g                     |
+| MAsoz02b  | Globaler Süden: Vergleiche und Fallstudien            |     1 |      3 | g                     |
+| MAsoz02c  | Globaler Süden: Felder                                |     1 |      3 | g                     |
+|           | Wahlweise Seminararbeit oder Vortragsreihe            |       |        |                       |
+| MAsoz02d  | Seminararbeit zu MAsoz02a oder MAsoz02b oder MAsoz02c |       |      6 | g                     |
+| MAsoz02e  | Vortragsreihe 1                                       |     1 |      6 | j                     |
+
+## MAsasp01: Soziale Lebenslagen und Differenzen (15 ECTS)
+
+Soziale Dimensionen wie Bildung, Einkommen, Geschlecht, Nationalität, ethnische Zugehörigkeit und Religion reflektieren gesellschaftliche Zugangsmechanismen, die zu einer ungleichen Verteilung von Lebenschancen führen. Darin zeigen sich systematische Privilegierungen, Benachteiligungen und unterschiedliche Handlungsspielräume. Das Modul «Soziale Lebenslagen und Differenzen» beschäftigt sich mit dieser Thematik und fokussiert auf Ungleichheiten bzw. spezifische Formen von Ungleichheiten. Dabei befassen sich Studierende zum einen mit Lebenslagen am unteren Ende der sozialen Hierarchie bzw. in besonders gefährdeten sozialen Lagen und den unterliegenden sozialen Mechanismen. Zum anderen stellen Familien, Gender oder generell demographische Bedingungen in einer Gesellschaft zentrale Dimensionen von individuellen Lebenslagen dar. Davon ausgehend werden wirtschaftliche, politische, soziale und gesellschaftsinterne und -externe Differenzierungsprozesse mit verschiedenen Konzepten wie Macht, Ein- und Ausschluss, Stigmatisierung, Zugang zu sozialer Sicherung und gesellschaftliche Partizipation verknüpft. In diesem Zusammenhang gilt es, die Relevanz sozialpolitischer oder sozialarbeiterischer Massnahmen zu reflektieren. In allen Veranstaltungen spielen unterschiedliche Ebenen (Mikro-, Meso- oder Makroebene) sowie unterschiedliche Akteure und Ansätze eine wichtige Rolle.
+
+Ziel dieses Moduls ist es, Kenntnisse und Analysekompetenzen bezüglich der Ursachen, Wahrnehmung und Auswirkungen sozialer Lebenslagen und Differenzierungsprozesse zu entwickeln sowie das Verständnis der ungleichen Verteilung sozialer Chancen zu vertiefen.
+
+Im Modul besteht die Wahl zwischen einer Seminararbeit zu einem der angebotenen Modulkurse und der Vortragsreihe. Im Rahmen des Gesamtstudiums muss mindestens eine Seminararbeit verfasst und eine Vortragsreihe besucht werden. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+| MAsasp01   | WP1/2/3: Soziale Lebenslagen und Differenzen             |   JWS |   ECTS | * jährlich / ungerade   |
+|------------|----------------------------------------------------------|-------|--------|-------------------------|
+| MAsasp01a  | Armut, Prekarität, Vulnerabilität                        |     1 |      3 | u                       |
+| MAsasp01b  | Lebensverlauf, Familie, Demografie                       |     1 |      3 | u                       |
+| MAsasp01c  | Differenzen und Konflikte                                |     1 |      3 | u                       |
+|            | Wahlweise Seminararbeit oder Vortragsreihe               |       |        |                         |
+| MAsasp01d  | Seminararbeit zu MAsasp01a oder MAsasp01b oder MAsasp01c |       |      6 | u                       |
+| MAsasp01e  | Vortragsreihe 1                                          |     1 |      6 | j                       |
+
+## MAsasp02: Elemente der Wohlfahrtsproduktion (15 ECTS)
+
+Das Modul befasst sich mit den Grundpfeilern der Wohlfahrtsproduktion. Dieser Begriff weist darauf hin, dass soziale Wohlfahrt sowohl auf staatlicher Sozialpolitik und Sozialarbeit als auch auf Beiträgen des Marktes, der Familien, der Privathaushalte, verschiedener Gemeinschaften und einer Vielzahl von intermediären, d.h. zwischen Markt, Familie und Staat angesiedelten Gruppierungen beruht (z.B. Nonprofitorganisationen). Diese Elemente der Wohlfahrtsproduktion verbinden sich zu unterschiedlichen Wohlfahrtsregimen. Die angebotenen Kurse konzentrieren sich auf verschiedenste Bereiche von Wohlfahrtsregimen: staatliche Sozialpolitik, zivilgesellschaftliche Organisationen, soziale Bewegungen, Nonprofitorganisationen, soziale Netzwerke (z.B. Familien, Freundschaften, Bekanntschaften, Selbsthilfegruppen), aber auch nationalstaatliche Grenzen übergreifende Sozialpolitik. In diesem Modul vertiefen die Studierenden die Kenntnisse zu Wohlfahrtsregimen und lernen, Zusammenhänge zwischen den Elementen der nationalen und internationalen Wohlfahrtsproduktion zu verstehen und zu analysieren.
+
+Im Modul besteht die Wahl zwischen einer Seminararbeit zu einem der angebotenen Modulkurse und der Vortragsreihe. Im Rahmen des Gesamtstudiums muss mindestens eine Seminararbeit verfasst und eine Vortragsreihe besucht werden. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+| MAsasp02   | WP1/2/3: Elemente der Wohlfahrtsproduktion               |   JWS |   ECTS | * jährlich / gerade   |
+|------------|----------------------------------------------------------|-------|--------|-----------------------|
+| MAsasp02a  | Öffentliche und private Sicherung                        |     1 |      3 | g                     |
+| MAsasp02b  | Soziale Netzwerke                                        |     1 |      3 | g                     |
+| MAsasp02c  | Internationale Sozialpolitik                             |     1 |      3 | g                     |
+|            | Wahlweise Seminararbeit oder Vortragsreihe               |       |        |                       |
+| MAsasp02d  | Seminararbeit zu MAsasp02a oder MAsasp02b oder MAsasp02c |       |      6 | g                     |
+| MAsasp02e  | Vortragsreihe 1                                          |     1 |      6 | j                     |
+
+## MAtsps01: Inclusion sociale et nouvelles normalisations (15 ECTS)
+
+Ce module vise à questionner les nouvelles manières de concevoir et de concrétiser les politiques sociales. Quels sont les fondements et les principes de l'action sociale ? Comment évoluent les politiques de lutte contre l'exclusion ? Quelles logiques sont à la base de l'intervention des professionnel -le-s ? Comment est pensé le suivi des usager-ères ? Il s'agit alors d'appréhender l'évolution de la logique de l'État social et de saisir l'organisation et l'articulation des nouvelles manières de faire et de penser l'intégration et le vivre -ensemble.
+
+In diesem Modul, das Teil des französischsprachigen Programms «Travail social et politiques sociales: Problèmes sociaux, action sociale et préventions des risques» ist, wird eine Seminararbeit zum Kurs « Enjeux et défis des politiques d'inclusion » verfasst. Die Modalitäten der Seminararbeit werden im Rahmen dieses Kurses angegeben.
+
+| MAtsps01   | WP2/3: Inclusion sociale et nouvelles normalisations   |   JWS | ECTS   | * jährlich   |
+|------------|--------------------------------------------------------|-------|--------|--------------|
+| MAtsps01a  | Cours: Moralisation des politiques publiques           |     1 | 3 j    |              |
+| MAtsps01b  | Cours: Le care et les nouvelles politiques sociales    |     1 | 3      | j            |
+| MAtsps01c  | Séminaire: Enjeux et défis des politiques d'inclusion  |     1 | 3      | j            |
+| MAtsps01d  | Travail de séminaire lié au séminaire MAtsps01c        |       | 6      | j            |
+
+## MAtsps02: Santé publique et enjeux sociaux (15 ECTS)
+
+Le décryptage et l'analyse des réflexions et des logiques d'action dans le champ de la santé publique et plus particulièrement la notion du risque sanitaire, telles sont les perspectives proposées dans le cadre de ce module. Comment l'idéal d'une « santé p arfaite » a-t-il émergé ? Quelles sont les modalités et répercussions de la « mise en risque » de notre quotidienneté ? Pourquoi ces logiques préventives sont-elles de plus en plus discutées ? En quoi la gestion des risques actuelle génère-t-elle des effets pervers ? En quoi certains discours préventifs se conjuguentils avec le développement d'une moralisation des comportements et d'une stigmatisation de certains « publics cibles » ? Faut -il (re)penser la prévention et le recours à cette notion du risque ?
+
+In diesem Modul, das Teil des französischsprachigen Programms «Problèmes sociaux, action sociale et préventions des risques» ist, wird eine Seminararbeit zum Kurs «Le culte de la santé et la gestion des risques» verfasst. Die Modalitäten der Seminararbeit werden im Rahmen dieses Kurses angegeben.
+
+| MAtsps02   | WP2/3: Santé publique et enjeux sociaux                     |   JWS |   ECTS | * jährlich   |
+|------------|-------------------------------------------------------------|-------|--------|--------------|
+| MAtsps02a  | Cours: Des politiques de santé aux pratiques d'intervention |     1 |      3 | j            |
+| MAtsps02b  | Cours: De la prévention de l'échec?                         |     1 |      3 | j            |
+| MAtsps02c  | Séminaire: Le culte de la santé et la gestion des risques   |     1 |      3 | j            |
+| MAtsps02d  | Travail de séminaire lié au séminaire MAtsps02c             |       |      6 | j            |
+
+## MAgen01: Gender und soziale Wohlfahrt (15 ECTS)
+
+In diesem Modul werden sozialwissenschaftliche Theorien und Konzepte aus der Geschlechterperspektive untersucht. Sie werden auf der Grundlage der in der Geschlechterforschung geführten Debatten -wie Gerechtigkeit und Sorge, Gleichheit und Differenzen, öffentliche und private Wohlfahrt -auf aktuelle Fragestellungen bezogen, z.B. Feminisierung von Armut und Migration, Sorgekrisen in Nord und Süd, Verteilung der bezahlten und unbezahlten Arbeit, Gender und gesellschaftlicher Wandel, Gender und Gewalt. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+Ziel des Moduls ist es, dass die Studierenden die Bedeutung der Kategorie Geschlecht und der Geschlechterverhältnisse  in  den  Sozialwissenschaften  kennenlernen  und  verstehen,  wodurch  geschlechtsspezifische Ungleichheiten reproduziert werden und wie soziale Institutionen geschlechtssensibel gestaltet werden können.
+
+| MAgen01   | WP3: Gender und soziale Wohlfahrt   |   JWS |   ECTS | * jährlich / ungerade   |
+|-----------|-------------------------------------|-------|--------|-------------------------|
+| MAgen01a  | Gender und soziale Gerechtigkeit    |     1 |      3 | u                       |
+| MAgen01b  | Gender und Sozialpolitik            |     1 |      3 | u                       |
+| MAgen01c  | Gender und soziale Wohlfahrt        |     1 |      3 | u                       |
+| MAgen01d  | Vortragsreihe                       |     1 |      6 | j                       |
+
+## MAvmi: Nonprofitorganisationen und Management (15 ECTS)
+
+Das Modul «Nonprofitorganisationen und Management» bietet eine Einführung in das Thema des Managements von Nonprofitorganisationen. Dabei stehen die betriebswirtschaftlichen Aspekte von Nonprofitorganisationen im Vordergrund. Vermittelt werden einerseits die Grundsätze des Managements, des Marketings und des Governments von Organisationen und andererseits lernen Studierende die Spezifika und Problematik des Managements von Vereinen, Stiftungen und Genossenschaften (u.a. im Sozialbereich) kennen. Ziel des Moduls ist es, den Studierenden Grundfertigkeiten des Managements von Nonprofitorganisationen zu vermitteln.
+
+Im Modul werden mindestens 9 ECTS im Rahmen von Kursen absolviert, die vom Institut für Verbands-, Stiftungs- und Genossenschaftsmanagement (VMI) der Universität Fribourg angeboten werden. Die Liste der Unterrichtseinheiten dieses Moduls wird auf der Website des Departements für Sozialarbeit, Sozialpolitik und globale Entwicklung publiziert. Unter anderem wird ein Einführungskurs in die Managementlehre angeboten, der für die Studierenden obligatorisch ist. Studierende mit betriebswirtschaftlichen Vorkenntnissen können sich vom Einführungskurs durch die Studienberatung dispensieren lassen und besuchen eine alternative Veranstaltung. Die Anzahl Studierende in diesem Modul ist beschränkt.
+
+| MAvmi   | WP3: Nonprofitorganisationen und Management                                                                                                                                                                                                                                           | * jährlich   |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+|         | Das Modul umfasst 15 ECTS, mindestens 9 davon aus Kursen des VMI. Die aktuali- sierte Liste der Unterrichtseinheiten wird auf der Website des VMI publiziert. Ohne betriebswirtschaftliche Vorkenntnisse ist der Besuch eines Einführungskurses in die Managementlehre obligatorisch. | j            |
+
+## 8. Masterexamen
+
+Das Masterexamen besteht aus einer eigenständigen Forschungsarbeit (Masterarbeit) und deren Verteidigung (30 ECTS-Punkte). Die Studierenden erhalten für die Masterarbeit eine individuelle Unterstützung und Beratung im Rahmen von Kolloquien (Modul «Methoden und Kolloquien Masterarbeit»).
+
+Die Masterarbeit belegt, dass die Studierenden…
+
+- über versierte Kenntnisse im Vertiefungsbereich und der gewählten thematischen Schwerpunkte verfügen;
+- fähig sind, eine wissenschaftliche Fragestellung zu entwickeln, Fachliteratur zum Thema zusammenzustellen, eine kritische Synthese des Themas zu verfassen und die Problematik des Themas auszuarbeiten;
+- ein für die Fragestellung sinnvolles Forschungsdesign erstellen, das entsprechende Datenmaterial erheben, aufbereiten, darstellen und unter Berücksichtigung der wissenschaftlichen Literatur theoriegeleitet analysieren und interpretieren können.
+
+Die Verteidigung der Masterarbeit gibt den Studierenden die Möglichkeit,
+
+- die Relevanz des Themas und die Entwicklung der Fragestellung zu erläutern,
+- die wichtigsten theoretischen Ansätze und Resultate aus der Literatur zu präsentieren,
+- die methodische Perspektive, die Wahl der verwendeten Methoden für die Datenerhebung und Auswertung und/oder das generelle Vorgehen zu begründen sowie
+- ihre Resultate zu präsentieren und diskutieren.
+
+Des Weiteren dient die Verteidigung der Masterarbeit dem Nachweis fachspezifischer Kenntnisse und der Fähigkeit wissenschaftlich zu argumentieren.
+
+## 9. Prüfungsmodalitäten
+
+## 9.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Jede Unterrichtseinheit wird evaluiert. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer Unterrichtseinheit erbracht werden. Es gibt unterschiedliche Evaluationsmodalitäten: schriftliche/mündliche Prüfung, das Verfassen einer Seminar- oder schriftlichen Arbeit, der Nachweis erbrachter Leistungen während des Semesters oder laufende Lernkontrollen. Sie werden in den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt dies als endgültiger Misserfolg und damit die Unterrichtseinheit als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder andere schriftliche Arbeit) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Seminararbeiten werden an vier verbindlich vorgeschriebenen Terminen eingereicht. Wird die Seminararbeit als ungenügend beurteilt, wird ein Misserfolg erfasst. Eine Seminararbeit, die nach der ersten Abgabe als ungenügend bewertet wird, kann einmal überarbeitet werden , sofern dies innerhalb der ersten drei Abgabetermine erfolgt. Wird die Seminararbeit beim vierten Termin nicht fristgerecht eingereicht oder als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Laufende Lernkontrollen (z.B. Übungsaufgaben, Essays, Protokolle etc., die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind) finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der Unterrichtseinheit und werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Sämtliche Plagiatsverdachte (beispielsweise in Übungen, Leistungsanforderungen, schriftliche Arbeiten oder Seminararbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die Unterrichtseinheit muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 9.2 Endgültiger Misserfolg
+
+Alle Unterrichtseinheiten sind einem Modul angeschlossen. Es gibt ein Pflichtmodul (mit «P» bezeichnet) und Wahlpflichtmodule (mit «WP» bezeichnet). Alle Unterrichtseinheiten des Pflichtmoduls und der gewählten Wahlpflichtmodule müssen erfolgreich absolviert werden. In Modul «Nonprofitorganisationen und Management» kann eine Unterrichtseinheit mit einem definitiven Misserfolg durch eine andere ersetzt werden. Wird ein Wahlpflichtmodul definitiv nicht bestanden, ist ein einmaliger Wechsel in ein anderes Wahlpflichtmodul möglich. Die bereits absolvierten Leistungen des ursprünglichen Wahlpflichtmoduls können dabei nicht im neuen Wahlpflichtmodul angerechnet werden.
+
+Ein definitiver Misserfolg des Pflichtmoduls oder eines Wahlpflichtmoduls nach einem bereits erfolgten einmaligen Wechsel des Moduls führt zum Ausschluss aus dem Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium im Vertiefungsprogramm «Soziologie, Sozialpolitik, Sozialarbeit» fortzusetzen.
+
+Werden innerhalb der maximalen Studiendauer (neun Semester für das Studium im Vertiefungsprogramm bzw. zwölf Semester für ein Studium mit optionalem Spezialisierungs- oder Nebenprogramm) die Leistungen des Studienprogramms nicht erfüllt, führt dies ebenfalls zum Ausschluss vom Studium in «Soziologie, Sozialpolitik, Sozialarbeit».
+
+Ein Wechsel in ein Master-Nebenprogramm «Soziologie», «Sozialpolitik und Sozialarbeit» oder «Gender, Gesellschaft, Sozialpolitik» am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist  nur  unter  der  Voraussetzung möglich, dass keine obligatorische Unterrichtseinheit des entsprechenden Spezialisierungs- bzw. Nebenprogramm im Rahmen des bisherigen Studiums in «Soziologie, Sozialpolitik, Sozialarbeit» definitiv nicht bestanden ist.
+
+## 9.3  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten Unterrichtseinheiten. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die Abschlussnote des Vertiefungsprogramms ist der ungewichtete Mittelwert aller Modulnoten ohne das Masterexamen. Die Note wird auf zwei Nachkommastellen gerundet.
+
+Für die Bestimmungen zur Vergabe des Prädikats und zur Verleihung des Mastertitels wird auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät verwiesen.
+
+## 10.  Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Masterstudium «Soziologie, Sozialpolitik, Sozialarbeit» im Vertiefungsprogramm zu 90 ECTS aufnehmen.
+
+Studierende nach Studienplan 2017 (d.h. mit Studienbeginn vor dem Herbstsemester 2021) können beim Departement einen Wechsel des Studienplans beantragen. Die bereits erbrachten Leistungen im Studienprogramm nach Studienplan 2017 werden ins neue Studienprogramm (nach Studienplan 2021) übertragen.
+
+Ab Herbstsemester 2025 ersetzt dieser Studienplan (2021) der frühere Masterstudienplan «Soziologie, Sozialpolitik, Sozialarbeit» (2017).
+
+## 11.  Anhang: Übersicht aller Module und Kurse des Programms
+
+Tabelle 2: Kurse und Module des Programms «Soziologie, Sozialpolitik, Sozialarbeit» zu 90 ECTS
+
+| Soziologie, Sozialpolitik, Sozialarbeit Master-Vertiefungsprogramm zu 90 ECTS 1 Pflichtmodul (P) &Masterarbeit + 3 Wahlpflichtmodule (WP1, WP2, WP3)   | Soziologie, Sozialpolitik, Sozialarbeit Master-Vertiefungsprogramm zu 90 ECTS 1 Pflichtmodul (P) &Masterarbeit + 3 Wahlpflichtmodule (WP1, WP2, WP3)   |   JWS |   ECTS | jährlich / ungerade / gerade   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|--------------------------------|
+|                                                                                                                                                        |                                                                                                                                                        |       |     15 |                                |
+| MAs01                                                                                                                                                  | P: Methoden und Kolloquien Masterarbeit                                                                                                                |     1 |      3 | j                              |
+| MAs01a MAs01b                                                                                                                                          | Kolloquium I: Grundlagen und Forschungsskizze Kolloquium II: Untersuchungsplan & Kolloquium III: Zwischenbericht                                       |     2 |      3 | j                              |
+| MAs01c                                                                                                                                                 | Fortgeschrittene qualitative Methoden                                                                                                                  |     1 |      3 | j                              |
+| MAs01d                                                                                                                                                 | Fortgeschrittene Statistik                                                                                                                             |     1 |      3 | j                              |
+| MAs01e                                                                                                                                                 | Methode - Wissenschaft - Politik                                                                                                                       |     1 |      3 | j                              |
+| MAs02                                                                                                                                                  | P: Masterexamen                                                                                                                                        |       |     30 |                                |
+| MAsoz01                                                                                                                                                | WP1/2/3: Globaler Norden                                                                                                                               |       |     15 |                                |
+| MAsoz01a                                                                                                                                               | Globalisierung                                                                                                                                         |     1 |      3 | u                              |
+| MAsoz01b                                                                                                                                               | Globaler Norden: Vergleiche und Fallstudien                                                                                                            |     1 |      3 | u                              |
+| MAsoz01c                                                                                                                                               | Globaler Norden: Felder                                                                                                                                |     1 |      3 | u                              |
+| MAsoz01d                                                                                                                                               | °Seminararbeit zu MAsoz01a oder MAsoz01b oder MAsoz01c                                                                                                 |       |      6 | u                              |
+| MAsoz01e                                                                                                                                               | °Vortragsreihe                                                                                                                                         |     1 |      6 | j                              |
+| MAsoz02                                                                                                                                                | WP1/2/3: Globaler Süden                                                                                                                                |       |     15 |                                |
+| MAsoz02a                                                                                                                                               | Sozialer Wandel                                                                                                                                        |     1 |      3 | g                              |
+| MAsoz02b                                                                                                                                               | Globaler Süden: Vergleiche und Fallstudien                                                                                                             |     1 |      3 | g                              |
+| MAsoz02c                                                                                                                                               | Globaler Süden: Felder                                                                                                                                 |     1 |      3 | g                              |
+| MAsoz02d                                                                                                                                               | °Seminararbeit zu MAsoz02a oder MAsoz02b oder MAsoz02c                                                                                                 |       |      6 | g                              |
+| MAsoz02e                                                                                                                                               | °Vortragsreihe                                                                                                                                         |     1 |      6 | j                              |
+| MAsasp01                                                                                                                                               | WP1/2/3: Soziale Lebenslagen und Differenzen                                                                                                           |       |     15 |                                |
+| MAsasp01a                                                                                                                                              | Armut, Prekarität, Vulnerabilität                                                                                                                      |     1 |      3 | u                              |
+| MAsasp01b                                                                                                                                              | Lebensverlauf, Familie, Demografie                                                                                                                     |     1 |      3 | u                              |
+| MAsasp01c                                                                                                                                              | Differenzen und Konflikte                                                                                                                              |     1 |      3 | u                              |
+| MAsasp01d                                                                                                                                              | °Seminararbeit zu MAsasp01a oder MAsasp01b oder MAsasp01c                                                                                              |       |      6 | u                              |
+| MAsasp01e                                                                                                                                              | °Vortragsreihe                                                                                                                                         |     1 |      6 | j                              |
+| MAsasp02                                                                                                                                               | WP1/2/3: Elemente der Wohlfahrtsproduktion                                                                                                             |       |     15 |                                |
+| MAsasp02a                                                                                                                                              | Öffentliche und private Sicherung                                                                                                                      |     1 |      3 | g                              |
+| MAsasp02b                                                                                                                                              | Soziale Netzwerke                                                                                                                                      |     1 |      3 | g                              |
+| MAsasp02c                                                                                                                                              | Internationale Sozialpolitik                                                                                                                           |     1 |      3 | g                              |
+| MAsasp02d                                                                                                                                              | °Seminararbeit zu MAsasp02a oder MAsasp02b oder MAsasp02c                                                                                              |       |      6 | g                              |
+| MAsasp02e                                                                                                                                              | °Vortragsreihe                                                                                                                                         |     1 |      6 | j                              |
+| MAtsps01                                                                                                                                               | WP2/3: Inclusion sociale et nouvelles normalisations                                                                                                   |       |     15 |                                |
+| MAtsps01a                                                                                                                                              | Cours: Moralisation des politiques publiques                                                                                                           |     1 |      3 | j                              |
+| MAtsps01b                                                                                                                                              | Cours: Le care et les nouvelles politiques sociales                                                                                                    |     1 |      3 | j                              |
+| MAtsps01c                                                                                                                                              | Séminaire: Enjeux et défis des politiques d'inclusion                                                                                                  |     1 |      3 | j                              |
+| MAtsps01d                                                                                                                                              | °Travail de séminaire lié au séminaire MAStsps01c                                                                                                      |       |      6 | j                              |
+| MAtsps02                                                                                                                                               | WP2/3: Santé publique et enjeux sociaux                                                                                                                |       |     15 |                                |
+| MAtsps02a                                                                                                                                              | Cours: Des politiques de santé aux pratiques d'intervention                                                                                            |     1 |      3 | j                              |
+| MAtsps02b                                                                                                                                              | Cours: De la prévention de l'échec?                                                                                                                    |     1 |      3 | j                              |
+| MAtsps02c                                                                                                                                              | Séminaire: Le culte de la santé et la gestion des risques                                                                                              |     1 |      3 | j                              |
+| MAtsps02d                                                                                                                                              | °Travail de séminaire lié au séminaire MAtsps02c                                                                                                       |       |      6 | j                              |
+| MAgen01                                                                                                                                                | WP3: Gender und soziale Wohlfahrt                                                                                                                      |       |     15 |                                |
+| MAgen01a                                                                                                                                               | Gender und soziale Gerechtigkeit                                                                                                                       |     1 |      3 | u                              |
+| MAgen01b                                                                                                                                               | Gender und Sozialpolitik                                                                                                                               |     1 |      3 | u                              |
+| MAgen01c                                                                                                                                               | Gender und soziale Wohlfahrt                                                                                                                           |     1 |      3 | u                              |
+| MAgen01d                                                                                                                                               | °Vortragsreihe                                                                                                                                         |     1 |      6 | j                              |
+| MAvmi                                                                                                                                                  | WP3: Nonprofitorganisationen und Management                                                                                                            |       |     15 |                                |
+|                                                                                                                                                        | Mindestens 9 ECTS aus Kursen des VMI. Weitere Kurse gemäss auf der Website des Departements publizierte Liste.                                         |       |        | j                              |

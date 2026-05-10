@@ -1,0 +1,313 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:43:57.169Z",
+  "title": "SES_Bachelor_180_Management_Studienplan_5e9d1f5b2070cadc853b7d891d01f79f908e1a5c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5e9d1f5b2070cadc853b7d891d01f79f908e1a5c",
+  "program_key": "ses|bachelor|180|management",
+  "faculty": "SES",
+  "degree_level": "Bachelor",
+  "total_ects": 180,
+  "program_name": "Management",
+  "doc_label": "Studienplan",
+  "source_url": "https://www.calameo.com/read/003659115e372c7c37cbb",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/management",
+  "curriculum_url": "http://studies.unifr.ch/go/z5BUJ",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SES_Bachelor_180_Management_Studienplan_5e9d1f5b2070cadc853b7d891d01f79f908e1a5c.pdf",
+  "sha256": "5b9bf347998500947a8645fec74498c53125fdf711e01a82ce32ca3b6c81d424",
+  "fetched_at": "2026-04-03T11:31:49.590Z",
+  "notes": "calameo downloaded (id=003659115e372c7c37cbb, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250909084224-e087898f3fae3cfea88408a955e119be/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260403%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260403T113148Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=153ace2acd9201eef7412c2de3c760c8c97a1ad8c5b0e9da715f4a9d3e1c8697, ct=application/octet-stream)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+336 : Bachelor of Arts in Betriebswirtschaftslehre
+
+Studiengang
+
+1045 : Betriebswirtschaftslehre 180
+
+Programm
+
+2019-SA\_V02
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+## WICHTIGER HINWEIS
+
+Das Bachelor-Reglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 4 bis 9) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg, abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiumsdauer
+
+Um einen regelmässigen Studienfortschritt im Bachelorstudium der Management zu gewährleisten, gelten folgende Fristen für den Abschluss der Studienjahre:
+
+- -Erstes Studienjahr: muss spätestens am Ende des 4. Semesters abgeschlossen sein.
+- -Zweites Studienjahr: muss spätestens am Ende des 8. Semesters abgeschlossen sein.
+- -Drittes Studienjahr: muss spätestens am Ende des 12. Semesters abgeschlossen sein.
+
+Die Nichteinhaltung dieser Fristen führt zum Ausschluss aus dem Studienprogramm.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870295)
+
+Seminararbeiten und die Bachelorarbeit müssen zwingend bestanden werden : sie können nicht kompensiert werden.
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Die meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.
+
+Im Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.
+
+| Code   | Lehreinheit   | Lehrer(innen)   | Semester   | Sprache Niveau   | Bewertung   | ECTS   |
+|--------|---------------|-----------------|------------|------------------|-------------|--------|
+
+## 1. Jahr 60 ECTS
+
+Das erste Studienjahr im Bachelor Management
+
+Möglichkeit zum Ausgleich von maximal 12
+
+ESE.00040
+
+Microéconomie I
+
+bildet ein gemeinsames Grundlagenjahr mit dem Bachelor in Volkswirtschaftslehre. ECTS
+
+Gugler
+
+HS-2025
+
+BA
+
+fr
+
+Schriftliche Prüfung
+
+6
+
+<!-- image -->
+
+| Code      | Lehreinheit                                | Lehrer(innen)             | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |
+|-----------|--------------------------------------------|---------------------------|------------|----------|-----------|----------------------|--------|
+| ESE.00041 | Mikroökonomie I                            | Büchel                    | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |
+| EGE.00136 | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |
+| EGE.00135 | Introduction à la gestion d'entreprise     | Davoine                   | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EGE.00137 | Introduction à la comptabilité             | Missonier-Piera           | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EGE.00138 | Unternehmensrechnung                       | Burkert                   | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |
+| EEP.00160 | Microéconomie II                           | Gugler                    | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EEP.00161 | Mikroökonomie II                           | Herz, Staubli             | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |
+| EIG.00036 | Informatique de gestion I                  | Fischer                   | HS-2025    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EIG.00037 | Wirtschaftsinformatik I                    | Fill                      | HS-2025    | BA       | de        | Schriftliche Prüfung |    6   |
+| EIG.00038 | Informatique de gestion II                 | Fischer                   | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EIG.00039 | Wirtschaftsinformatik II                   | Fill                      | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |
+| ESE.00048 | Mathematik I                               | Leuenberger               | HS-2025    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| ESE.00047 | Mathématiques I                            | Schindl                   | HS-2025    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+| ESE.00052 | Mathematik II                              | Leuenberger               | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| ESE.00051 | Mathématiques II                           |                           | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+| EIG.00122 | Introduction à la statistique I            | Donzé                     | HS-2025    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+| EIG.00123 | Einführung in die Statistik I              | Leuenberger               | HS-2025    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| EGE.00253 | Organisation (f)                           | Fauchart                  | FS-2026    | BA       | fr        | Schriftliche Prüfung |    6   |
+| EGE.00258 | Organisation (d)                           | Gmür                      | FS-2026    | BA       | de        | Schriftliche Prüfung |    6   |
+| ESE.00028 | Einführung in die Statistik II             | Huber                     | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| ESE.00027 | Introduction à la statistique II           | Kauth, Kauth              | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+
+## 2. Jahr 60 ECTS
+
+Das zweite Studienjahr umfasst 48 ECTS an Pflichtveranstaltungen und mindestens 12 ECTS an Wahlkursen. Es dient der Vertiefung der im ersten Jahr erworbenen Kenntnisse und der Vorbereitung auf ein Masterstudium.
+
+Möglichkeit zum Ausgleich von maximal 12 ECTS
+
+## Pflichtkurse 48 ECTS
+
+| EEP.00220   | Macroéconomie I                                | Massonnet       | HS-2025   | BA   | fr   | Mündliche Prüfung    |   6 |
+|-------------|------------------------------------------------|-----------------|-----------|------|------|----------------------|-----|
+| EEP.00221   | Makroökonomie I                                | Grossmann       | HS-2025   | BA   | de   | Schriftliche Prüfung | 6   |
+| EGE.00273   | MAN01F: Investissement et financement          | Isakov          | HS-2025   | BA   | fr   | Schriftliche Prüfung | 6   |
+| EGE.00274   | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier       | HS-2025   | BA   | de   | Schriftliche Prüfung | 6   |
+| EGE.00275   | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer          | HS-2025   | BA   | fr   | Schriftliche Prüfung | 4.5 |
+| EGE.00276   | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse | HS-2025   | BA   | de   | Schriftliche Prüfung | 4.5 |
+| EGE.00139   | Droit I                                        | Dubey, Fournier | HS-2025   | BA   | fr   | Schriftliche Prüfung | 4.5 |
+| EGE.00140   | Recht I                                        | Güngerich       | HS-2025   | BA   | de   | Schriftliche Prüfung | 4.5 |
+| EEP.00229   | Macroéconomie II                               | Rossi-Pedruzzi  | FS-2026   | BA   | fr   | Mündliche Prüfung    | 6   |
+| EEP.00230   | Makroökonomie II                               | Grossmann       | FS-2026   | BA   | de   | Schriftliche Prüfung | 6   |
+| EIG.00015   | Operations Management (d)                      | Trautmann       | FS-2026   | BA   | de   | Schriftliche Prüfung | 6   |
+
+<!-- image -->
+
+| Code      | Lehreinheit                     | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|---------------------------------|-----------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00277 | MAN03F: Recherche Marketing     | Furrer          | FS-2026    | BA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |
+| EGE.00278 | MAN03D: Marketingforschung      | Bambauer-Sachse | FS-2026    | BA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    6   |
+| EGE.00279 | MAN04F: Comptabilité financière | Missonier-Piera | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00280 | MAN04D: Bilanzierung            | Kunz            | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |
+| ESE.00029 | Statistique: approfondissement  | Donzé           | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| ESE.00030 | Vertiefungskurs Statistik       | Leuenberger     | FS-2026    | BA       | de        | Schriftliche Prüfung                             |    4.5 |
+
+## Wahlkurse min. 12 ECTS
+
+## Individuelle Profilbildung
+
+Die Wahlkurse ermöglichen es den Studierenden, ihr Bachelorstudium im Management individuell zu gestalten. Sie sind in drei Bereiche gegliedert: Management , Volkswirtschaftslehre und Wirtschaftsinformatik . Durch eine gezielte Auswahl dieser Kurse können die Studierenden ihr Studium in eine bestimmte Richtung lenken und so ein konsistentes Profil für ein weiterführendes Masterstudium oder den Berufseinstieg entwickeln.
+
+## Wahlkurse in Volkswirtschaftslehre für Betriebswirtschaftslehre 180 ECTS - HS 2018 - 2. Jahr
+
+| EEP.00355                                                                                     | ECO01F: Histoire des faits économiques                                                        | Dumas, Schrey                                                                                 | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 6                                                                                             |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| EEP.00356                                                                                     | ECO01D: Wirtschaftsgeschichte                                                                 | Herz                                                                                          | HS-2025                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 6                                                                                             |
+| EEP.00336                                                                                     | ECO02F: Économie publique                                                                     | Schelker                                                                                      | FS-2026                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 6                                                                                             |
+| EEP.00337                                                                                     | ECO02D: Wirtschafts- und Finanzpolitik                                                        | Eichenberger                                                                                  | FS-2026                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 6                                                                                             |
+| EEP.00338                                                                                     | ECO03F: Commerce international                                                                | Madiès                                                                                        | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00339                                                                                     | ECO03D: Internationaler Handel                                                                | Grossmann                                                                                     | FS-2026                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00340                                                                                     | ECO05F: Économie publique - Approfondissements                                                | Schelker                                                                                      | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00341                                                                                     | ECO06D: Wirtschaftspolitik: Schwerpunktthemen                                                 | Eichenberger                                                                                  | HS-2025                                                                                       | BA                                                                                            | de                                                                                            | Fortlaufende Evaluation                                                                       | 4.5                                                                                           |
+| EEP.00357                                                                                     | ECO07F: Économie du développement                                                             | Dumas                                                                                         | FS-2026                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00358                                                                                     | ECO08E: Applied Econometrics                                                                  | Huber                                                                                         | HS-2025                                                                                       | BA                                                                                            | en                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00359                                                                                     | ECO09F: Économie du travail                                                                   | Fernandes                                                                                     | FS-2026                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00360                                                                                     | ECO09D: Arbeitsökonomie                                                                       | Gerfin                                                                                        | FS-2026                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00343                                                                                     | ECO10F: Relations Financières Internationales                                                 | Madiès                                                                                        | FS-2026                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00361                                                                                     | ECO11D: Ökonomische Analyse des Rechts                                                        | Büchel                                                                                        | FS-2026                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00526                                                                                     | ECO12D: Wirtschaftspolitik: Theorie und Anwendungen                                           | Jeitziner                                                                                     | HS-2025                                                                                       | BA                                                                                            | de                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EEP.00531                                                                                     | ECO13F: Introduction à l'économie des migrations                                              | Gautrain                                                                                      | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr | Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 2. Jahr |
+| EIG.00132                                                                                     | Information Systems Modeling                                                                  | Curty                                                                                         | FS-2026                                                                                       | BA                                                                                            | en                                                                                            | Schriftliche Prüfung                                                                          | 6                                                                                             |
+| EIG.00049                                                                                     | Info I: Sécurité informatique (f)                                                             | Abou Khaled                                                                                   | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EIG.00081                                                                                     | Info II: Decision Support I (f)                                                               | Ries                                                                                          | HS-2025                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EIG.00089                                                                                     | Info V: Decision support II (f)                                                               | Schindl                                                                                       | FS-2026                                                                                       | BA                                                                                            | fr                                                                                            | Schriftliche Prüfung                                                                          | 4.5                                                                                           |
+| EIG.00229                                                                                     | Requirements Engineering for Information Systems                                              | Curty                                                                                         | HS-2025                                                                                       | BA                                                                                            | en                                                                                            | Fortlaufende                                                                                  | 4.5                                                                                           |
+
+Evaluation
+
+<!-- image -->
+
+| Code      | Lehreinheit                             | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung               |   ECTS |
+|-----------|-----------------------------------------|-----------------|------------|----------|-----------|-------------------------|--------|
+| EIG.00230 | Information Systems Development Project | Curty           | FS-2026    | BA       | en        | Fortlaufende Evaluation |    4.5 |
+
+## Informationskompetenz in den Wirtschaftswissenschaften
+
+Die Informationskompetenz im Bereich Volkswirtschaftslehre fördert die Fähigkeit, wirtschaftsbezogene Quellen kritisch zu analysieren und gezielt in schriftlichen Arbeiten einzusetzen. Der Fokus liegt auf dem Verständnis wissenschaftlicher Publikationen, Berichte wirtschaftlicher Institutionen und wirtschaftspolitischer Dokumente. Diese Kompetenzen sind obligatorisch und müssen vor Beginn der Bachelorarbeit erworben werden , da sie eine methodische Grundlage für deren Ausarbeitung bilden.
+
+| EDK.00951   | Compétences documentaires en économie 1 - Groupe A                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+|-------------|---------------------------------------------------------------------|--------------------|-----------|------|------|---------------------------|-----|
+| EDK.00954   | Compétences documentaires en économie 1 - Groupe B                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00955   | Compétences documentaires en économie 1 - Groupe C                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00956   | Compétences documentaires en économie 1 - Groupe D                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00957   | Compétences documentaires en économie 1 - Groupe E                  | Brodard, Lüscher   | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00958   | Informationskompetenz in den Wirtschaftswissenschaften 1 - Gruppe A | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |
+| EDK.00960   | Compétences documentaires en économie 2 - Groupe A                  | Lüscher            | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00961   | Compétences documentaires en économie 2 - Groupe B                  | Lüscher            | HS-2025   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00963   | Compétences documentaires en économie 2 - Groupe D                  | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00964   | Compétences documentaires en économie 2 - Groupe E                  | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00965   | Compétences documentaires en informatique de Gestion 2 - Groupe G   | Brodard, Lüscher   | FS-2026   | BA   | fr   | Fortlaufende Evaluation   |   0 |
+| EDK.00966   | Informationskompetenz in den Wirtschaftswissenschaften 2 - Gruppe A | Lüscher            | HS-2025   | BA   | de   | Fortlaufende Evaluation   |   0 |
+| EDK.00968   | Informationskompetenz in den Wirtschaftswissenschaften 2 - Gruppe C | Lüscher            | FS-2026   | BA   | de   | Fortlaufende Evaluation   |   0 |
+
+## 3. Jahr 60 ECTS
+
+## Konsolidierung und Professionalisierung (mind. 60 ECTS)
+
+Das dritte Studienjahr umfasst mindestens 27 ECTS an wählbaren Pflichtkursen, 18 ECTS an Wahlkursen sowie eine Bachelorarbeit im Umfang von 15 ECTS.
+
+Es dient der Vertiefung und Anwendung der im Studium erworbenen Kompetenzen.
+
+Die Bachelorarbeit, inklusive Informationskompetenz, stellt einen zentralen Schritt zur selbstständigen wissenschaftlichen Arbeit dar.
+
+Dieses Jahr bereitet gezielt auf den Berufseinstieg oder ein weiterführendes Masterstudium vor.
+
+Möglichkeit zum Ausgleich von maximal 9 ECTS
+
+## Pflichtkurse 27 ECTS
+
+| EGE.00281   | MAN05F: Gestion des ressources humaines         | Davoine   | HS-2025   | BA   | fr   | Schriftliche Prüfung    |   4.5 |
+|-------------|-------------------------------------------------|-----------|-----------|------|------|-------------------------|-------|
+| EGE.00282   | MAN05D: Human Resource Management               | Gmür      | HS-2025   | BA   | de   | Schriftliche Prüfung    |   4.5 |
+| EGE.00263   | MAN06E: Introductory course in Entrepreneurship | Fauchart  | HS-2025   | BA   | en   | Fortlaufende Evaluation |   4.5 |
+| EGE.00283   | MAN08F: Management stratégique                  | Mena      | FS-2026   | BA   | fr   | Schriftliche Prüfung    |   4.5 |
+| EGE.00485   | MAN08E: Strategic Management                    | Mena      | FS-2026   | BA   | en   | Schriftliche Prüfung    |   4.5 |
+| EGE.00285   | MAN09F: Comptabilité de gestion                 | Oyon      | FS-2026   | BA   | fr   | Schriftliche Prüfung    |   4.5 |
+
+<!-- image -->
+
+| Code      | Lehreinheit                      | Lehrer(innen)     | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |
+|-----------|----------------------------------|-------------------|------------|----------|-----------|----------------------|--------|
+| EGE.00286 | MAN09D: Controlling (d)          | Burkert           | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| EGE.00287 | MAN10F: Finance d'Entreprise     | Isakov            | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+| EGE.00288 | MAN10D: Unternehmensfinanzierung | Affolter, Wilding | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |
+| EGE.00149 | Droit II                         | Dubey, Fournier   | FS-2026    | BA       | fr        | Schriftliche Prüfung |    4.5 |
+| EGE.00150 | Recht II                         | Güngerich         | FS-2026    | BA       | de        | Schriftliche Prüfung |    4.5 |
+
+## Wahlkurse min. 18 ECTS
+
+## Individuelle Profilbildung
+
+Die Wahlkurse ermöglichen es den Studierenden, ihr Bachelorstudium im Management individuell zu gestalten. Sie sind in drei Bereiche gegliedert: Management , Volkswirtschaftslehre und Wirtschaftsinformatik . Durch eine gezielte Auswahl dieser Kurse können die Studierenden ihr Studium in eine bestimmte Richtung lenken und so ein konsistentes Profil für ein weiterführendes Masterstudium oder den Berufseinstieg entwickeln.
+
+## Wahlkurse in Volkswirtschaftslehre für Betriebswirtschaftslehre 180 ECTS - HS 2018 - 3. Jahr
+
+| EEP.00355   | ECO01F: Histoire des faits économiques              | Dumas, Schrey   | HS-2025   | BA   | fr   | Schriftliche Prüfung    |   6 |
+|-------------|-----------------------------------------------------|-----------------|-----------|------|------|-------------------------|-----|
+| EEP.00356   | ECO01D: Wirtschaftsgeschichte                       | Herz            | HS-2025   | BA   | de   | Schriftliche Prüfung    | 6   |
+| EEP.00336   | ECO02F: Économie publique                           | Schelker        | FS-2026   | BA   | fr   | Schriftliche Prüfung    | 6   |
+| EEP.00337   | ECO02D: Wirtschafts- und Finanzpolitik              | Eichenberger    | FS-2026   | BA   | de   | Schriftliche Prüfung    | 6   |
+| EEP.00338   | ECO03F: Commerce international                      | Madiès          | HS-2025   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EEP.00339   | ECO03D: Internationaler Handel                      | Grossmann       | FS-2026   | BA   | de   | Schriftliche Prüfung    | 4.5 |
+| EEP.00340   | ECO05F: Économie publique - Approfondissements      | Schelker        | HS-2025   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EEP.00341   | ECO06D: Wirtschaftspolitik: Schwerpunktthemen       | Eichenberger    | HS-2025   | BA   | de   | Fortlaufende Evaluation | 4.5 |
+| EEP.00357   | ECO07F: Économie du développement                   | Dumas           | FS-2026   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EEP.00358   | ECO08E: Applied Econometrics                        | Huber           | HS-2025   | BA   | en   | Schriftliche Prüfung    | 4.5 |
+| EEP.00359   | ECO09F: Économie du travail                         | Fernandes       | FS-2026   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EEP.00360   | ECO09D: Arbeitsökonomie                             | Gerfin          | FS-2026   | BA   | de   | Schriftliche Prüfung    | 4.5 |
+| EEP.00343   | ECO10F: Relations Financières Internationales       | Madiès          | FS-2026   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EEP.00361   | ECO11D: Ökonomische Analyse des Rechts              | Büchel          | FS-2026   | BA   | de   | Schriftliche Prüfung    | 4.5 |
+| EEP.00526   | ECO12D: Wirtschaftspolitik: Theorie und Anwendungen | Jeitziner       | HS-2025   | BA   | de   | Schriftliche Prüfung    | 4.5 |
+| EEP.00531   | ECO13F: Introduction à l'économie des migrations    | Gautrain        | HS-2025   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+
+## Wahlkurse in Wirtschaftsinformatik für Betriebswirtschaftslehre, 120 ECTS - SH 2018 - 3. Jahr
+
+| EIG.00132   | Information Systems Modeling                     | Curty       | FS-2026   | BA   | en   | Schriftliche Prüfung    |   6 |
+|-------------|--------------------------------------------------|-------------|-----------|------|------|-------------------------|-----|
+| EIG.00049   | Info I: Sécurité informatique (f)                | Abou Khaled | HS-2025   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EIG.00081   | Info II: Decision Support I (f)                  | Ries        | HS-2025   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EIG.00089   | Info V: Decision support II (f)                  | Schindl     | FS-2026   | BA   | fr   | Schriftliche Prüfung    | 4.5 |
+| EIG.00229   | Requirements Engineering for Information Systems | Curty       | HS-2025   | BA   | en   | Fortlaufende Evaluation | 4.5 |
+| EIG.00230   | Information Systems Development Project          | Curty       | FS-2026   | BA   | en   | Fortlaufende Evaluation | 4.5 |
+
+## Bachelorarbeit
+
+<!-- image -->
+
+| Code      | Lehreinheit    | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung               |   ECTS |
+|-----------|----------------|-----------------|------------|----------|-----------|-------------------------|--------|
+| EDK.01669 | Bachelorarbeit | Décanat         | FS-2026    | BA       |           | Fortlaufende Evaluation |     15 |
+| EDK.01669 | Bachelorarbeit | Décanat         | HS-2025    | BA       |           | Fortlaufende Evaluation |     15 |
+
+## Rechtsgrundlage
+
+Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg

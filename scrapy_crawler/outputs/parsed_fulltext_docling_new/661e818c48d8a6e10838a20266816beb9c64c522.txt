@@ -1,0 +1,415 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T21:03:13.691Z",
+  "title": "SCIMED_Master_90_Sport_Sciences_Hauptfach_Sportwissenschaften_Unterricht_oder_Gesundheit-Forschung_661e818c48d8a6e10838a20266816beb9c64c522",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "661e818c48d8a6e10838a20266816beb9c64c522",
+  "program_key": "scimed|master|90|sport sciences",
+  "faculty": "SCIMED",
+  "degree_level": "Master",
+  "total_ects": 90,
+  "program_name": "Sport Sciences",
+  "doc_label": "Hauptfach Sportwissenschaften / Unterricht oder Gesundheit-Forschung",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_SP_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/z3FE1",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SCIMED_Master_90_Sport_Sciences_Hauptfach_Sportwissenschaften_Unterricht_oder_Gesundheit-Forschung_661e818c48d8a6e10838a20266816beb9c64c522.pdf",
+  "sha256": "f928ae3fc1269c16eefb6180595e62bef9d6899aded1c28673cded0a8efb7eef",
+  "fetched_at": "2026-04-03T11:26:47.760Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_SP_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_MSc_SP_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Studienplan für den Erwerb des
+
+## Master of Science in Sportwissenschaften
+
+Optionen Unterricht Gesundheit und Forschung
+
+Angenommen von der Math.-Nat. und Med. Fakultät am 30.05.2022 Revidierte Version vom 14.04.2025
+
+## Inhaltsverzeichnis
+
+| 1                                                                                                                                                                                                       | ALLGEMEINES ..................................................................................................................3                                                                         | ALLGEMEINES ..................................................................................................................3                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1                                                                                                                                                                                                     | Universitäre Abschlüsse und Studiengänge ................................................................................... 3                                                                          | Universitäre Abschlüsse und Studiengänge ................................................................................... 3                                                                          |
+| 1.2                                                                                                                                                                                                     | Allgemeine Studienstruktur............................................................................................................... 4                                                             | Allgemeine Studienstruktur............................................................................................................... 4                                                             |
+| 1.3                                                                                                                                                                                                     | Erworbene Kompetenzen...................................................................................................................                                                                | 4                                                                                                                                                                                                       |
+|                                                                                                                                                                                                         | 1.3.1 Erlangte Kompetenzen der                                                                                                                                                                          | Option 'Unterricht' ...................................................................................5                                                                                                |
+|                                                                                                                                                                                                         | 1.3.2                                                                                                                                                                                                   | Erlangte Kompetenzen der Option 'Gesundheit und Forschung' ......................................................5                                                                                      |
+| 1.4                                                                                                                                                                                                     | Bewertung der Unterrichtseinheiten (UE) und Erwerb von ECTS-Credits ...................................                                                                                                 | 5                                                                                                                                                                                                       |
+| 1.5                                                                                                                                                                                                     | Unterrichtssprachen...........................................................................................................................                                                          | 6                                                                                                                                                                                                       |
+| 1.6                                                                                                                                                                                                     | Wissenschaftsethik ............................................................................................................................ 6                                                       | Wissenschaftsethik ............................................................................................................................ 6                                                       |
+| 1.7                                                                                                                                                                                                     | Reglemente und ergänzende Informationen.................................................................................... 6                                                                           | Reglemente und ergänzende Informationen.................................................................................... 6                                                                           |
+| 2                                                                                                                                                                                                       | MASTER OF SCIENCE IN SPORTWISSENSCHAFTEN, OPTION UNTERRICHT ...........7                                                                                                                                | MASTER OF SCIENCE IN SPORTWISSENSCHAFTEN, OPTION UNTERRICHT ...........7                                                                                                                                |
+| 2.1                                                                                                                                                                                                     | Unterrichtseinheiten des MSc-Sport-U............................................................................................. 7                                                                     | Unterrichtseinheiten des MSc-Sport-U............................................................................................. 7                                                                     |
+|                                                                                                                                                                                                         | 2.1.1                                                                                                                                                                                                   | Anrechnungseinheit 'Vertiefung' (MSc1) .............................................................................................7                                                                   |
+|                                                                                                                                                                                                         | 2.1.2                                                                                                                                                                                                   | Anrechnungseinheit 'Spezialisierung' (MSc2) .....................................................................................8                                                                      |
+|                                                                                                                                                                                                         | 2.1.3                                                                                                                                                                                                   | Anrechnungseinheit 'Masterarbeit' (MSc3) ..........................................................................................8                                                                    |
+| 2.2                                                                                                                                                                                                     | Prüfungen und Anrechnung des MSc-Sport-U................................................................................ 9                                                                              | Prüfungen und Anrechnung des MSc-Sport-U................................................................................ 9                                                                              |
+| 2.3                                                                                                                                                                                                     | Zulassungspasserellen zum Studium MSc-Sport-U ....................................................................... 9                                                                                 | Zulassungspasserellen zum Studium MSc-Sport-U ....................................................................... 9                                                                                 |
+|                                                                                                                                                                                                         | 2.3.1                                                                                                                                                                                                   | Zulassungsverfahren...............................................................................................................................9                                                     |
+|                                                                                                                                                                                                         | 2.3.2                                                                                                                                                                                                   | Standardpasserellen..............................................................................................................................10                                                     |
+| 3 MASTER OF SCIENCE IN SPORTWISSENSCHAFTEN, OPTION GESUNDHEIT UND FORSCHUNG..........................................................................................................................11 | 3 MASTER OF SCIENCE IN SPORTWISSENSCHAFTEN, OPTION GESUNDHEIT UND FORSCHUNG..........................................................................................................................11 | 3 MASTER OF SCIENCE IN SPORTWISSENSCHAFTEN, OPTION GESUNDHEIT UND FORSCHUNG..........................................................................................................................11 |
+| 3.1                                                                                                                                                                                                     | Unterrichtseinheiten des MSc-Sport-GF ........................................................................................ 11                                                                       | Unterrichtseinheiten des MSc-Sport-GF ........................................................................................ 11                                                                       |
+|                                                                                                                                                                                                         | 3.1.1                                                                                                                                                                                                   | Anrechnungseinheit 'Vertiefung' (MSc1) ...........................................................................................11                                                                    |
+|                                                                                                                                                                                                         | 3.1.2                                                                                                                                                                                                   | Anrechnungseinheit 'Spezialisierung' (MSc2) ...................................................................................12                                                                       |
+|                                                                                                                                                                                                         | 3.1.3                                                                                                                                                                                                   | Anrechnungseinheit 'Masterarbeit' (MSc3) ........................................................................................13                                                                     |
+| 3.2                                                                                                                                                                                                     | Prüfungen und Anrechnung des MSc-Sport-GF ........................................................................... 13                                                                                | Prüfungen und Anrechnung des MSc-Sport-GF ........................................................................... 13                                                                                |
+| 3.3                                                                                                                                                                                                     | Zulassungspasserellen zum Studium MSc-Sport-GF................................................................... 13                                                                                    | Zulassungspasserellen zum Studium MSc-Sport-GF................................................................... 13                                                                                    |
+|                                                                                                                                                                                                         | 3.3.1                                                                                                                                                                                                   | Zulassungsverfahren.............................................................................................................................13                                                      |
+|                                                                                                                                                                                                         | 3.3.2                                                                                                                                                                                                   | Standardpasserellen..............................................................................................................................14                                                     |
+
+## 1 Allgemeines
+
+Der vorliegende Studienplan beinhaltet alle notwendigen Informationen für Studierende, die das Studium Master of Science in Sportwissenschaften an der Mathematisch-Naturwissenschaftliche und Medizinische Fakultät der der Universität Freiburg aufnehmen möchten. Er unterliegt den Bedingungen gemäss dem Reglement vom 30. Mai 2022 für die Erlangung der Bachelor of Science  und  der  Master  of  Science  der  Math.-Nat.  und  Med.  Fakultät (nachfolgend  das Reglement).
+
+Der Master  of  Science  in  Sportwissenschaften wurde  in  Zusammenarbeit  mit  der  Eidgenössischen Hochschule für Sport Magglingen (EHSM) konzipiert und organisiert, basierend auf einer  Konvention  zwischen  der  EHSM  und  der  Universität  Freiburg  für  einen Joint-Master  of Science in Sportwissenschaften .
+
+Das Reglement vom 30. Mai 2022 für die Erlangung der Bachelor of Science und der Master of Science,  schreibt  für  das  Bachelor-  und  Masterstudium,  sowie  für  die  Zusatzfächer  eine Beschränkung der Studiendauer vor (siehe Artikel 11, 13 und 14).
+
+## 1.1  Universitäre Abschlüsse und Studiengänge
+
+Die  Math.-Nat.  und  Med.  Fakultät  verleiht  den  Studierenden,  die  ihr  Studium  erfolgreich abgeschlossen haben, folgende offizielle Titel:
+
+- Bachelor of Science in Sport- und Bewegungswissenschaften (BSc), Universität Freiburg
+- Option: Unterricht (nachfolgend BSc-Sport-U)
+- Option: Gesundheit -Leistung -Forschung (nachfolgend BSc-Sport-GLF)
+- Master of Science in Sportwissenschaften (MSc), Universität Freiburg und Eidgenössische Hochschule für Sport Magglingen
+- Option: Unterricht (nachfolgend MSc-Sport-U)
+- Option: Gesundheit und Forschung (nachfolgend MSc-Sport-GF)
+
+Dieser Studienplan regelt die Optionen 'Unterricht' und 'Gesundheit und Forschung'.
+
+Der  Studiengang  BSc-Sport bietet  eine  Grundausbildung  in  Sport-  und  Bewegungswissenschaften  und  ermöglicht  den  Erwerb  eines  zweiten  Unterrichtsfachs  (BSc-Sport-U)  oder  eine Grundausbildung in den propädeutischen Fächern (Mathematik, Physik, Chemie und Biologie) sowie in weiteren Gebieten (BSc-Sport-GLF). Das Allgemeinwissen und die Methodik, die diese Grundausbildung  vermitteln,  bilden  die  notwendige  Grundlage  für  die  vielseitigen  beruflichen Ausbildungsausrichtungen. Dieser BSc vermittelt weiter auch die unerlässlichen Grundkenntnisse für die vertiefte Fortsetzung des wissenschaftlichen Studiums in den verschiedenen Typen des MSc in Sportwissenschaften.
+
+Der  Studiengang  MSc-Sport bietet  die  Möglichkeit,  die  Ausbildung  in  Sportwissenschaften  zu vertiefen und sich in einem besonderen Bereich zu spezialisieren. Der MSc in Sportwissenschaften öffnet die Tür zu verschiedenen beruflichen Tätigkeiten, insbesondere in den Bereichen Forschung, Gesundheit oder Unterricht, und ermöglicht den Zugang zum Doktorstudium. Der MSc-Sport-U stellt eine fachwissenschaftliche Ausbildung im Sinne des Reglements vom 29. April 2021 zum Erwerb des Lehrdiploms für Maturitätsschulen (LDM) dar.
+
+Zum MSc-Sport-U zugelassen werden Inhaber des BSc-Sport-U der Universität Freiburg oder eines anderen äquivalenten und von der Fakultät anerkannten Hochschulabschlusses (Art. 8 des Reglements). Der BSc of Science EHSM in Sports der Eidg. Hochschule für Sport Magglingen EHSM ist äquivalent und ermöglicht den freien Zugang zum MSc-Sport-U. Zum MSc-Sport-GF zugelassen werden Inhaber des BSc-Sport-GLF der Universität Freiburg oder eines anderen äquivalenten und von der Fakultät anerkannten Hochschulabschlusses (Art. 8 des Reglements). Inhaber  eines  in  einer  anderen  sportwissenschaftlichen  Option  erworbenen  akademischen Diploms,  Inhaber  eines  HS-Diploms  in  Sportwissenschaft  oder  in  einer  anderen  Disziplin  mit Sport als Ergänzungsfach können auf Beschluss der Math.-Nat. und Med. Fakultät zum MScStudium zugelassen werden. Ergänzende Vorleistungen können verlangt werden (s. Kapitel 2.4).
+
+## 1.2  Allgemeine Studienstruktur
+
+Die MSc-Sport-Studium gliedert sich in drei Teile:
+
+- Vertiefung: in Vorlesungen, Seminaren und Workshops vertiefen die Studierenden das auf Bachelorniveau erworbene Wissen.
+- Spezialisierung: neue, spezifische Themen der jeweiligen MSc-Option kommen hinzu.
+- Masterarbeit:  Forschungsarbeit  in  einem  mässigen  Ausmass,  welche  das  Masterstudium abrunden.
+
+Das  MSc-Studium  in  Sportwissenschaften  setzt  sich  aus Unterrichtseinheiten  (UE) wie Vorlesungen, Seminaren (mit oder ohne praktischen Arbeiten), Workshops und der Masterarbeit zusammen. Jede UE ist  mit  einer  Anzahl ECTS-Credits (European  Credit  Transfer  System) dotiert. Das MSc-Studium erfordert den Erwerb von 90 ECTS-Credits (entspricht 3 Semestern Vollzeitstudium).
+
+Prüfungen  in  besuchten  UE  der  Studiengänge  des  MSc  können  erst  nach  erfolgreichem Abschluss des BSc abgelegt werden (siehe 1.4).
+
+Um die Studierenden zum MSc zu führen, sieht der Studienplan unterschiedliche UE vor:
+
+- Vorlesungen führen in die wissenschaftliche Methodik und das wissenschaftliche Denken ein. Sie tragen dazu bei, die notwendigen Kenntnisse zu erwerben und die fundamentalen Konzepte zu verstehen. Sie führen zur Methodik und zur wissenschaftlichen Reflexion. Im Masterstudiengang werden in den Vorlesungen vermehrt wissenschaftliche Studien vorgestellt, um den Studierenden damit den Unterschied von Lehrbuchwissen und wissenschaftlichem Erkenntnisgewinn vor Augen zu führen.
+- Seminare dienen  der  theoretischen  Verarbeitung  und  Vertiefung  von  Lehrinhalten.  Die  Studierenden erhalten Themen bzw. Literaturangaben zu bestimmten Themen und stellen diese in ausgearbeiteten  Präsentationen  vor.  Das  Ziel  ist  neben  der  Vertiefung  von  theoretischen Lehrinhalten  auch  der  Erwerb  von  neuen  Erkenntnissen,  selbstständiges  Befassen  mit  einem Thema, Literaturrecherchen und das Erlernen didaktischer Fertigkeiten der Präsentationstechnik.
+- Die Workshops im Masterstudiengang bauen auf den Workshops des Bachelorstudiengangs auf und stellen einen wichtigen Schritt zur experimentellen oder theoretischen Lösung eines konkreten Problems dar. Sie bilden daher die Grundlage der wissenschaftlichen Masterarbeit. Sie bieten die Gelegenheit, spezifische Techniken an realen Beispielen im Labor anzuwenden.
+- Die Masterarbeit bildet den Abschluss des Masterstudiums. Innerhalb des Studiums werden theoretisch-analytische  Fähigkeiten  vermittelt,  welche  zum  wissenschaftlichen  Arbeiten befähigen  und  den  Absolventen  darauf  vorbereiten,  sich  offen  und  kreativ  auf  die  neuen Anforderungen des Berufslebens einzustellen. Die Masterarbeit dient so der Überprüfung der erworbenen Qualifikationen. Die Masterstudierenden haben deshalb eine Aufgabe aus einem spezifischen Fachgebiet der Sportwissenschaft, selbstständig und nach wissenschaftlichen Methoden  zu  bearbeiten.  Im  Rahmen  der  Masterarbeit  sollen  die  Studierenden  weiter beweisen, dass sie dazu in der Lage sind, das theoretische Wissen und die Modelle, die ihnen im  Studium  vermittelt  worden  sind,  auf  eine  konkrete  und  in  der  Regel  an  der  Praxis orientierten Fragestellung anzuwenden.
+
+## 1.3  Erworbene Kompetenzen
+
+Mit dem Abschluss des MSc in Sportwissenschaften haben die Studierenden ihre Kenntnisse und  Kompetenzen  in  ihrem  Hauptfach  erweitert  und  vertieft.  Weiter  haben  sie  die  Fähigkeit gezeigt,  ihr  Wissen  im  Rahmen  eines  Forschungsprojekts  mobilisieren  zu  können.  Die  so erworbene wissenschaftliche Reife erlaubt es ihnen, selbstständig zu arbeiten oder sich in eine fachspezifische oder interdisziplinäre Arbeitsgruppe zu integrieren. Sie sind auch in der Lage, ihre  Kreativität  und  ihren  analytischen  Geist  unter  Beweis  zu  stellen  sowie  ihre  Ideen,  ihre Standpunkte und ihre Projekte zu kommunizieren.
+
+Dank der integrierten zweisprachigen Ausbildung haben  die  Studierenden  die  spezifischen Fachbegriffe in zwei Sprachen erworben und die Fähigkeit entwickelt, in ihren Studienfächern den Dialog mit Fachleuten sowohl in deutscher als auch französischer Sprache aufzunehmen.
+
+## 1.3.1 Erlangte Kompetenzen der Option ' Unterricht '
+
+Mit dem erfolgreichen Abschluss des MSc-Sport-U haben die Studierenden
+
+- ihre Kenntnisse in den spezifischen Themen der unterschiedlichen Bereiche der Sportwissenschaften vertieft (wie der Bewegungsund Trainingswissenschaften, der Sportpsychologie und -pädagogik)
+
+und sind in der Lage,
+
+- kritisch die Ergebnisse der wissenschaftlichen Forschung zu begreifen und aus diesen Nutzen zu ziehen insbesondere mit Hinblick auf den Unterricht;
+- die  mit  dem  Unterricht  verbundenen  Problemstellungen  in  einer  exakten  und  sozial  wie moralisch verantwortlichen Weise zu beurteilen;
+- ihre wissenschaftlichen Kenntnisse zur Planung, Realisierung und Bewertung von Unterrichtsaktivitäten anzuwenden;
+- fachübergreifende  Kompetenzen  in  der  Praxis  umzusetzen,  wie  z.B.  Kommunikation  oder Gruppenführung, notwendige Kompetenzen für zukünftige Lehrpersonen in der Bewegungsund Sporterziehung.
+
+## 1.3.2 Erlangte Kompetenzen der Option ' Gesundheit und Forschung '
+
+Mit dem erfolgreichen Abschluss des MSc-Sport-GF haben die Studierenden
+
+- ihre Kenntnisse in den spezifischen Themen der unterschiedlichen Bereiche der Sportwissenschaften vertieft (wie der Bewegungsund Trainingswissenschaften, der Biomechanik, der Sportmedizin und -psychologie)
+
+und sind in der Lage,
+
+- kritisch die Ergebnisse der wissenschaftlichen Forschung zu begreifen und aus diesen Nutzen zu ziehen insbesondere mit Hinblick auf die Gesundheit;
+- ihre wissenschaftlichen Kenntnisse im Kontext der Forschung und Förderung der Gesundheit durch Bewegung anzuwenden;
+- die Methoden und Messtechniken der sportwissenschaftlichen Forschung anzuwenden sowie die Daten zu analysieren, zu vergleichen und mit Hinblick auf den aktuellen wissenschaftlichen Kenntnisstand zu diskutieren.
+
+## 1.4  Bewertung der Unterrichtseinheiten (UE) und Erwerb von ECTSCredits
+
+Der Erwerb der ECTS-Credits erfolgt in drei Schritten: Bewertung der UE, Zusammenlegung der UE in Anrechnungseinheiten und Anrechnung der ihnen zugeordneten ECTS-Credits.
+
+Jede Unterrichtseinheit wird im Allgemeinen einzeln bewertet.
+
+Die Bewertung der Vorlesungen und der Seminare (mit oder ohne praktischen Arbeiten) erfolgt durch mündliche, schriftliche oder praktische Prüfungen, deren Dauer im Studienplan Bewertung der UE in Sportwissenschaften festgelegt ist. Die Bewertung der Workshops erfolgt nach Kriterien (Anzahl abgegebene Berichte, schriftliche Arbeit, Präsentation der Arbeit, usw.), die zu Beginn des Semesters kommuniziert werden. Die Prüfungen erstrecken sich über drei Prüfungsperioden (Winter, Sommer und  Herbst),  mit  Ausnahme  der  Prüfungen  von  Vorlesungen  mit  praktischen  Arbeiten, welche grundsätzlich am Ende des Kurses stattfinden.
+
+Die Studierenden müssen sich für jede Prüfung (exkl. einige Seminare und Workshops) an die vorgeschriebenen Einschreibefristen halten und sich anhand des Studierendenportals MyUniFR (https://my.unifr.ch/)  einschreiben.  Ausnahmefälle  müssen  das  Departement  und/oder  die unterrichtende Person entsprechend mitteilen. Die Notenskala geht von der 6 (beste Note) bis zur 1 (schlechteste Note). Eine Prüfung mit einer Note unter 4 kann einmal, und zwar frühestens anlässlich der nächsten Prüfungssession, wiederholt werden.
+
+Die Anrechnungseinheiten umfassen mehrere UE, welche einzeln evaluiert werden können. Die Anzahl der Anrechnungseinheiten ist in Art. 24 und 27 des Reglements geregelt und deren Inhalt durch diesen Studienplan präzisiert.
+
+Die  Bedingungen  für  die  Anrechnung  von  ECTS-Credits  sind  in  Art.  25  des  Reglements beschrieben.
+
+Nach der Anrechnung stellt das Dekanat auf Anfrage und nach Bezahlung der Prüfungsgebühren einen Leistungsnachweis aus, in welchem die Prüfungsresultate und die Anzahl erworbener Credits bestätigt werden (Art. 28 und 30 des Reglements).
+
+## 1.5  Unterrichtssprachen
+
+Das MSc-Studium ist zweisprachig französisch-deutsch. Dies bedeutet, dass gewisse Kurse auf Französisch und andere auf Deutsch gehalten werden, je nach Wahl des/der Dozierenden. Die Prüfungen sowie die schriftlichen Arbeiten (Berichte über praktische Arbeiten, Masterarbeit, usw.) können, nach Wahl, in deutscher, französischer oder englischer Sprache verfasst werden.
+
+## 1.6  Wissenschaftsethik
+
+Ethische  Grundsätze  sind  integraler  Bestandteil  der  wissenschaftlichen  Ausbildung.  Bei  der Ausarbeitung und der Redaktion wissenschaftlicher Arbeiten (Projekte, Seminare, Berichte, usw.) müssen die international anerkannten Regeln eingehalten werden. Besonders sind alle externen Informationsquellen  (Artikel,  mündliche  Mitteilungen,  Webseiten,  usw.)  in  korrekter  Form  zu zitieren.
+
+In diesem Zusammenhang hat die Fakultät zwei obligatorische Kurse eingerichtet, die während des Studiums absolviert werden müssen, um das Studium abzuschliessen. Es handelt sich um folgende Kurse:
+
+Ausführliche Beschreibungen finden Sie unter: https://www.unifr.ch/scimed/de/integrity
+
+## 1. Einführung und Recherche in der Bibliothek (Teil 1)
+
+Ziel ist es, die spezifischen Ziele und Methoden der Literaturrecherche kennenzulernen.
+
+Der Kurs muss im ersten Studiensemester absolviert werden. Sie können Ihre Ergebnisse erst einsehen,  nachdem  Sie  diesen  Kurs  erfolgreich  abgeschlossen  und  das  unterschriebene Formular 'Erklärung zur wissenschaftlichen Integrität' eingereicht haben.
+
+## 2. Systematische Recherche und Dokumentenverwaltung (Teil 2)
+
+Ziel  ist  es,  eine  Dokumentenrecherche  systematisch  und  umfassend  vorzubereiten  und durchzuführen.
+
+Dieser Kurs muss vor oder während Ihrer Bachelor- oder Masterarbeit absolviert werden. Er ist für den Abschluss der Bachelor- oder Masterarbeit obligatorisch.
+
+## 1.7  Reglemente und ergänzende Informationen
+
+Weiterführende Informationen in Bezug auf das Studium in Sport- und Bewegungswissenschaften sind in den Dokumenten enthalten, die auf der Webseite http://www.unifr.ch/scimed/plans aufgeführt sind. Sie können diese auch auf der Webseite der Abteilung Medizin ( http://www.unifr.ch/med) oder beim Sekretariat für Bewegungs- und Sportwissenschaften der Universität Freiburg, Bd de Pérolles 90, CH-1700 Freiburg beziehen.
+
+## 2 Master of Science in Sportwissenschaften, Option Unterricht
+
+[Version 2023, Anrechnungseinheiten: PV-SSP.0000083, PV-SSP.0000085, PV-SSP.0000084]
+
+Das Programm des MSc-Sport-U umfasst ein Studium von 1,5 Jahren und entspricht 90 ECTSPunkten. Die Unterrichtseinheiten des ersten Studienjahres ergeben insgesamt 60 ECTS-Punkte. Sie  bestehen  aus  Vorlesungen,  Seminaren,  Workshops  und  einer  Vorbereitung  auf  die Masterarbeit, und werden zu einem Teil in Magglingen (Montag, Dienstag und Mittwoch) und zum andern  Teil  in  Freiburg  (Mittwoch,  Donnerstag  und  Freitag)  unterrichtet.  Die  UE  des  ersten Studienjahres sind in zwei verschiedene Anrechnungseinheiten unterteilt: eine für beide Optionen des  MSc-Sport  gemeinsame  Anrechnungseinheit ' Vertiefung ' (21  ECTS;  PV-SSP.0000083) sowie eine optionsspezifische Anrechnungseinheit ' Spezialisierung ' (39 ECTS; PVSSP.0000085).  Das  Masterstudium  wird  mit  der Masterarbeit (30  ECTS;  PV-SSP.0000084) abgeschlossen, inklusive Redaktion der Master Thesis.
+
+Die UE des MSc können erst nach dem Erlangen des BSc bewertet und angerechnet werden.
+
+## 2.1  Unterrichtseinheiten des MSc-Sport-U
+
+## 2.1.1 Anrechnungseinheit 'Vertiefung' ( MSc1)
+
+| Code           | Unterrichtseinheit                                                       | Semester   | Std.       |   ECTS |
+|----------------|--------------------------------------------------------------------------|------------|------------|--------|
+| ' Vertiefung ' |                                                                          |            |            |        |
+|                | Bewegungswissenschaften                                                  |            |            |        |
+| SSP.01014      | Bewegungswissenschaften (Vorlesung)                                      | FS         | 28         |      3 |
+| SSP.02002      | Bewegungswissenschaften (Seminar) *                                      | HS         | 28         |      4 |
+| SSP.03002      | Bewegungswissenschaften (Workshop) **                                    | FS         | 14         |      2 |
+|                | Trainingswissenschaften                                                  |            |            |        |
+| SSM.01003      | Trainingswissenschaften (Vorlesung)                                      | HS         | 28         |      3 |
+| SSM.02003      | Trainingswissenschaften (Seminar) *                                      | FS         | 28         |      4 |
+| SSM.03003      | Trainingswissenschaften (Workshop) **                                    | FS         | 20         |      2 |
+|                | Sportpsychologie                                                         |            |            |        |
+| SSP.01015      | Sportpsychologie (Vorlesung)                                             | HS         | 28         |      3 |
+| SSP.02001      | Sportpsychologie (Seminar) *                                             | FS         | 28         |      4 |
+| SSP.03001      | Sportpsychologie (Workshop) **                                           | FS         | 14         |      2 |
+|                | Forschungsmethoden                                                       |            |            |        |
+| SSP.01006      | Quantitative Forschungsmethoden (Vorlesung)                              | HS         | 28         |      3 |
+| SSP.03009      | Quantitative Forschungsmethoden und Datenanalyse (Vorlesung mit Übungen) | FS         | 30         |      3 |
+| Total ECTS     | Total ECTS                                                               | Total ECTS | Total ECTS |     21 |
+
+* Die Studierenden wählen 1 von 3 Seminaren. Die Teilnehmerzahl pro Seminar ist beschränkt.
+
+** Die Studierenden wählen 1 von 3 Workshops. Die Teilnehmerzahl pro Workshop ist beschränkt.
+
+## 2.1.2 Anrechnungseinheit ' Spezialisierung ' ( MSc2)
+
+| Code                                    | Unterrichtseinheit                                                                                   | Semester   | Std.       |   ECTS |
+|-----------------------------------------|------------------------------------------------------------------------------------------------------|------------|------------|--------|
+| ' Spezialisierung '                     | ' Spezialisierung '                                                                                  |            |            |        |
+| Obligatorische UE                       | Obligatorische UE                                                                                    |            |            |        |
+|                                         | Sportpädagogik                                                                                       |            |            |        |
+| SSM.01010                               | Sportpädagogik (Vorlesung)                                                                           | FS         | 28         |      3 |
+| SSM.02011                               | Pädagogische Professionalisierung in der                                                             | HS         | 28         |      4 |
+| SSM.03011                               | Sportvermittlung (Seminar) Pädagogische Professionalisierung in der Sportvermittlung (Workshop)      | FS         | 14         |      2 |
+| Anwendung wissenschaftlicher Kenntnisse | Anwendung wissenschaftlicher Kenntnisse                                                              |            |            |        |
+| SSM.04003                               | Anwendung wissenschaftlicher Kenntnisse in Schneesportarten (Seminar mit praktischen Arbeiten)       | HS         | 30 (Block) |      4 |
+| SSM.04005                               | Anwendung wissenschaftlicher Kenntnisse in diversen Sportarten (Seminar mit praktischen Arbeiten)    | FS         | 28         |      4 |
+| SSM.04007                               | Anwendung wissenschaftlicher Kenntnisse in Körperausdruck (Seminar mit praktischen Arbeiten)         | FS         | 30         |      4 |
+| SSP.04005                               | Anwendung wissenschaftlicher Kenntnisse im Indoor-Sportklettern (Seminar mit praktischen Arbeiten) § | HS         | 30         |      4 |
+| Fachübergreifende Kompetenzen           | Fachübergreifende Kompetenzen                                                                        |            |            |        |
+| SSM.01005                               | Kommunikation (Vorlesung)                                                                            | HS         | 28         |      3 |
+| SSM.01105                               | Kommunikation (Seminar)                                                                              | FS         | 28         |      4 |
+| SSM.03016                               | Digital Skills in der Lehre (Workshop)                                                               | HS         | 14         |      2 |
+| Wahl-UE                                 | Wahl-UE                                                                                              |            |            |        |
+| SSM.01006                               | Sportspezifische Ernährung                                                                           | HS         | 28         |      3 |
+| SSM.01008                               | Scientific writing                                                                                   | HS         | 28         |      3 |
+| SSP.01012                               | Sportneuropsychologie                                                                                | HS         | 28         |      3 |
+| SSP.02006                               | Biomechanik (Seminar)                                                                                | HS         | 28         |      4 |
+| -                                       | Seminar ***                                                                                          | HS/FS      | 28         |      4 |
+|                                         |                                                                                                      |            |            |      5 |
+| Total ECTS                              | Total ECTS                                                                                           | Total ECTS | Total ECTS |     39 |
+
+*** Die Studierenden können ein weiteres Seminar der Anrechnungseinheit 'Vertiefung' wählen (aus SSP.02001,  SSP.02002  und  SSM.02003),  welches  noch  nicht  in  der  Anrechnungseinheit 'Vertiefung' belegt wurde. Die Teilnehmerzahl ist beschränkt.
+
+§ Die UE SSP.04005 ist im HS in 3 Gruppen organisiert. Da die Anzahl Plätze pro Gruppe begrenzt ist,  kann  eine  vierte  Gruppe  im  FS  organisiert  werden,  falls  viele  Studierende  an  diese  UE angemeldet sind.
+
+## 2.1.3 Anrechnungseinheit ' Masterarbeit ' (MSc3)
+
+| Code           | Unterrichtseinheit   | Semester   | Std.   |   ECTS |
+|----------------|----------------------|------------|--------|--------|
+| ' Masterarbeit | '                    |            |        |        |
+| SSP.05001      | Masterarbeit         |            | -      |     30 |
+| Total ECTS     |                      |            |        |     30 |
+
+## 2.2  Prüfungen und Anrechnung des MSc-Sport-U
+
+Die Gesamtheit der UE des 1. Jahres ergeben insgesamt 60 ECTS und sind in zwei verschiedene Anrechnungseinheiten  MSc1 (21  ECTS;  PV-SSP.0000083)  und MSc2 (39  ECTS;  PVSSP.0000085) unterteilt.
+
+Masterarbeit entspricht der UE SSP.05001 (Master Thesis). Sie stellt die Anrechnungseinheit MSc3 (PV-SSP.0000084)  im  Gesamtwert  von  30  ECTS-Credits  dar.  Die  dafür  vorgesehene Studiendauer beträgt 6 Monate. Sie beginnt im Verlaufe des zweiten Semesters und erstreckt sich  über  das  gesamte  dritte  Semester.  Es  handelt  sich  um  eine  Forschungsarbeit  mit verhältnismässig  bescheidenem  Umfang,  welche  die  Studierenden  unter  der  Leitung  einer Fachperson mit solider Forschungserfahrung durchführen. Durch die Masterarbeit können die Studierenden Geschmack an der Forschung finden und ihre Fähigkeiten darin (weiter-)entwickeln.  Sie  werden  ihre  Arbeiten  schriftlich  in  Form  einer  wissenschaftlichen Abhandlung  präsentieren.  Die  Masterarbeit  wird  mit  einer  Note  zwischen  6  (beste)  und  1 (schlechteste) beurteilt. Sie wird angerechnet, wenn mindestens die Note 4 erreicht wurde. Eine als ungenügend beurteilte Masterarbeit kann ein zweites Mal über ein anderes Thema erarbeitet werden.
+
+Die Anrechnung der Pakete MSc1, MSc2 und MSc3 berechtigt zum Titel Master of Science in Sportwissenschaften, Option Unterricht (MSc), Universität Freiburg und Eidgenössische Hochschule für Sport Magglingen.
+
+## 2.3  Zulassungspasserellen zum Studium MSc-Sport-U
+
+## 2.3.1 Zulassungsverfahren
+
+Der  Zugang  zum  Master  of  Science  in  Sportwissenschaften  Option  Unterricht  ist  an  zwei Voraussetzungen geknüpft:
+
+- die  Erfüllung  der  Zulassungsbedingungen  zum  Studium  an  der  Universität,  welche  im Reglement über die Zulassung zur Universität Freiburg geregelt sind. (https://www.unifr.ch/apps/legal/de/document/274904),
+- den Besitz eines Bachelorabschlusses in Sportwissenschaften der Universität Freiburg, der Eidgenössischen  Hochschule  für  Sport  Magglingen  oder  eines  von  der  Fakultät  als gleichwertig anerkannten Hochschulabschlusses.
+
+Für KandidatInen die im Besitz eines Abschlusses sind, der von der Fakultät nicht als gleichwertig betrachtet wird, entscheidet die Studiengesuchskommission über ihre Zulassung (Studiengesuchskommission, Dekanat, Math.-Nat. und Med. Fakultät, Ch du Musée 8, CH-1700 Fribourg, Schweiz).
+
+Je  nachdem  welche  Akademische  Titel  die  Kandidatin  oder  der  Kandidat  vorweist,  kann  die Kommission  eine  Anpassungsprogram  verlangen.  Falls  dieses  beschränkt  ist,  können  die Studierenden dieses Parallel zum Maserstudium absolvieren ( Zusatz zum Master ).  Sonst wird die Zulassung entweder verweigert oder die Kandidatin oder der Kandidat kann eine Vorstufe zum  Master  absolvieren  und  kann  nur  dann  mit  dem  Master  Studium  beginnen,  wenn  die Bedingungen erfüllt sind. Die Bestätigung des Masters hängt von der Erfüllung der zusätzlichen Bedingungen ab.
+
+## 2.3.2 Standardpasserellen
+
+Studierende, die im Sport 90 ECTS-Credits in anderen Programmen der Universität Freiburg (Zusatzfächer  ZF-Sport  60  und  ZF-Sport  +30)  erworben  haben,  werden  nach  erfolgreichem Abschluss des vordefinierten Programms ' Vorstufe oder Zusatz zum MSc in Sportwissenschaften ' von 20 ECTS -Credits zum MSc-Sport-U zugelassen.
+
+Für KandidatInnen, welche ihre Sportausbildung an einer anderen Hochschule erworben haben, wird von der Math.-Nat. und Med. Fakultät ein persönliches Programm zusammengestellt.
+
+## 3 Master of Science in Sportwissenschaften, Option Gesundheit und Forschung
+
+[Version 2023, Anrechnungseinheit: PV-SSP.0000086, PV-SSP.0000088, PV-SSP.0000087]
+
+Das Programm des MSc-Sport-GF umfasst ein Studium von 1,5 Jahren und entspricht 90 ECTSCredits. Die Unterrichtseinheiten des ersten Studienjahres ergeben insgesamt 60 ECTS-Credits. Sie  bestehen  aus  Vorlesungen,  Seminaren,  Workshops  und  einer  Vorbereitung  auf  die Masterarbeit und werden zu einem Teil in Magglingen (Montag, Dienstag und Mittwoch), zum andern  Teil  in  Freiburg  (Mittwoch,  Donnerstag  und  Freitag)  unterrichtet.  Die  UE  des  ersten Studienjahres sind in zwei verschiedene Anrechnungseinheiten unterteilt: eine für beide Optionen des  MSc-Sport  gemeinsame  Anrechnungseinheit ' Vertiefung '  (21  ECTS; PV-SSP.0000086) sowie eine optionsspezifische Anrechnungseinheit ' Spezialisierung ' (39 ECTS; PVSSP.0000088).  Das  Masterstudium  wird  mit  der Masterarbeit (30  ECTS;  PV-SSP.0000087) abgeschlossen, inklusive Redaktion der Master Thesis.
+
+Die UE des MSc können erst nach dem Erwerb des BSc-Zertifikats evaluiert und angerechnet werden.
+
+## 3.1  Unterrichtseinheiten des MSc-Sport-GF
+
+## 3.1.1 Anrechnungseinheit 'Vertiefung' ( MSc1)
+
+| Code           | Unterrichtseinheit                                                       | Semester   | Std.       |   ECTS |
+|----------------|--------------------------------------------------------------------------|------------|------------|--------|
+| ' Vertiefung ' | ' Vertiefung '                                                           |            |            |        |
+|                | Bewegungswissenschaften                                                  |            |            |        |
+| SSP.01014      | Bewegungswissenschaften (Vorlesung)                                      | FS         | 28         |      3 |
+| SSP.02002      | Bewegungswissenschaften (Seminar) *                                      | HS         | 28         |      4 |
+| SSP.03005      | Bewegungswissenschaften (Workshop) **                                    | FS         | 14         |      2 |
+|                | Trainingswissenschaften                                                  |            |            |        |
+| SSM.01003      | Trainingswissenschaften (Vorlesung)                                      | HS         | 28         |      3 |
+| SSM.02003      | Trainingswissenschaften (Seminar) *                                      | FS         | 28         |      4 |
+| SSM.03005      | Trainingwissenschaften (Workshop) **                                     | FS         | 20         |      2 |
+|                | Sportpsychologie                                                         |            |            |        |
+| SSP.01015      | Sportpsychologie (Vorlesung)                                             | HS         | 28         |      3 |
+| SSP.02001      | Sportpsychologie (Seminar) *                                             | FS         | 28         |      4 |
+| SSP.03006      | Sportpsychologie (Workshop) **                                           | FS         | 14         |      2 |
+|                | Forschungsmethoden                                                       |            |            |        |
+| SSP.01006      | Quantitative Forschungsmethoden (Vorlesung)                              | HS         | 28         |      3 |
+| SSP.03009      | Quantitative Forschungsmethoden und Datenanalyse (Vorlesung mit Übungen) | FS         | 30         |      3 |
+| Total ECTS     | Total ECTS                                                               | Total ECTS | Total ECTS |     21 |
+
+* Die Studierenden wählen 1 von 3 Seminaren. Die Teilnehmerzahl pro Seminar ist beschränkt.
+
+** Die Studierenden wählen 1 von 3 Workshops. Die Teilnehmerzahl pro Workshop ist beschränkt.
+
+## 3.1.2 Anrechnungseinheit ' Spezialisierung ' ( MSc2)
+
+| Code                | Unterrichtseinheit                                                                                       | Semester   | Std.       |   ECTS |
+|---------------------|----------------------------------------------------------------------------------------------------------|------------|------------|--------|
+| ' Spezialisierung ' | ' Spezialisierung '                                                                                      |            |            |        |
+| Obligatorische UE   | Obligatorische UE                                                                                        |            |            |        |
+| Gesundheit          | Gesundheit                                                                                               |            |            |        |
+| SSM.01006           | Sportspezifische Ernährung                                                                               | HS         | 28         |      3 |
+| SSP.01012           | Sportneuropsychologie                                                                                    | HS         | 28         |      3 |
+| SSP.01009           | Sportmedizin                                                                                             | HS         | 28         |      3 |
+| SSP.01010           | Bewegungsverhalten auf Bevölkerungsebene                                                                 | HS         | 28         |      3 |
+| SSP.01011           | Prävention durch Bewegung und Sport (Vorlesung)                                                          | HS         | 30 (block) |      3 |
+| SSP.03008           | Praktikum im Präventions- oder Rehabilitationszentrum                                                    | HS/FS      | -          |      3 |
+| SSP.04006           | Anwendung der wissenschaftlichen Kenntnisse in Gesundheit und körperliche Aktivität, Teil I (Seminar) §  | HS         | -          |      2 |
+| SSP.04007           | Anwendung der wissenschaftlichen Kenntnisse in Gesundheit und körperliche Aktivität, Teil II (Seminar) § | FS         | -          |      2 |
+| Forschung           | Forschung                                                                                                |            |            |        |
+| SSM.01008           | Scientific writing                                                                                       | HS         | 28         |      3 |
+| SSP.02006           | Biomechanik (Seminar)                                                                                    | HS         | 28         |      4 |
+| SSP.03010           | Datenanalyse mit Matlab (Vorlesung mit Übungen)                                                          | FS         | 28         |      3 |
+| -                   | 2 Workshops ***                                                                                          | FS         | 2 x 14     |      4 |
+|                     |                                                                                                          |            |            |     36 |
+| Wahl-UE             | Wahl-UE                                                                                                  |            |            |        |
+| -                   | Seminar ****                                                                                             | HS/FS      | 28         |      4 |
+| L25.00738           | Developmental Neuroscience §§                                                                            | HS         | 28         |      3 |
+| L25.01478           | Sleep and cognition (CogNeuro) §§                                                                        | HS         | 28         |      3 |
+| L25.01658           | Affective and decision making neuroscience §§                                                            | FS         | 28         |      3 |
+| L25.01659           | Health-promotion interventions in organizations                                                          | FS         | 28         |      3 |
+| L25.01661           | Clinical neuroscience §§                                                                                 | FS         | 28         |      3 |
+| SME.07700           | Data analysis and statistics with the R programming language                                             | HS         | 28         |      3 |
+| UniFr Sprachzentrum | English course(s) for Master students #                                                                  | HS/FS      | -          |      3 |
+|                     |                                                                                                          |            |            |      3 |
+| Total ECTS          |                                                                                                          |            |            |     39 |
+
+- *** Die Studierenden wählen die 2 anderen Workshops der Anrechnungseinheit 'Vertiefung' (aus SSP.03005,  SSP.03006  und  SSM.03005),  welche  noch  nicht  in  der  Anrechnungseinheit 'Vertiefung' belegt wurden.
+- **** Die Studierenden können ein weiteres Seminar der Anrechnungseinheit 'Vertiefung' wählen (aus SSP.02001,  SSP.02002  und  SSM.02003),  welches  noch  nicht  in  der  Anrechnungseinheit 'Vertiefung' belegt wurde. Die Teilnehmerzahl ist beschränkt.
+- § SSP.04006 und SSP.04007 werden obligatorisch zusammen belegt und mit einer gemeinsamen Note bewertet.
+- §§ Diese UE werden alle 2 Jahr organisiert. Info: https://www.unifr.ch/psycho/de/studium/master/cns/
+- # Englischkurs für Masterstudierende. Wir geben keinen konkreten Titel an, da dieser je nach dem aktuellen  Angebot  des  Sprachenzentrums  und  den  Kenntnissen  des  Studierenden  variieren kann.  Der/die  ausgewählte(n)  Kurs(e)  hilft/helfen  Masterstudierenden  in  wissenschaftlichen
+
+Disziplinen, die für ihr Studium und ihre zukünftige Karriere relevanten Englischkenntnisse zu erweitern. Das Zielniveau muss B2-C2 sein. Ein Online-Einstufungstest ist erforderlich, um den richtigen Kurs für Ihr Niveau zu finden. Mehr Informationen: https://www.unifr.ch/centredelangues/en/courses/semester/
+
+## 3.1.3 Anrechnungseinheit ' Masterarbeit ' ( MSc3)
+
+| Code             | Unterrichtseinheit   | Semester   | Std.       |   ECTS |
+|------------------|----------------------|------------|------------|--------|
+| ' Masterarbeit ' | ' Masterarbeit '     |            |            |        |
+| SSP.05002        | Masterarbeit         |            | -          |     30 |
+| Total ECTS       | Total ECTS           | Total ECTS | Total ECTS |     30 |
+
+## 3.2  Prüfungen und Anrechnung des MSc-Sport-GF
+
+Die Gesamtheit der UE des 1. Jahres ergeben insgesamt 60 ECTS und sind in zwei verschiedene Anrechnungseinheiten  MSc1 (21  ECTS;  PV-SSP.0000086)  und MSc2 (39  ECTS;  PVSSP.0000088)  unterteilt.  Damit  die  Anrechnungseinheit  MSc2  validiert  wird,  muss  dazu  das Praktikum SSP.03008 als bestanden bewertet worden sein.
+
+Die Masterarbeit entspricht der UE SSP.05002 (Master Thesis). Sie stellt die Anrechnungseinheit MSc3 (PV-SSP.0000087) im Gesamtwert von 30 ECTS-Credits dar. Ihre vorgesehene Studiendauer beträgt 6 Monate. Sie beginnt im Verlaufe des zweiten Semesters und erstreckt sich über das gesamte dritte Semester. Es handelt sich um eine Forschungsarbeit mit verhältnismässig bescheidenem Umfang, welche die Studierenden unter der Leitung einer Fachperson mit solider Forschungserfahrung durchführen. Durch die Masterarbeit können die Studierenden Geschmack an der Forschung finden und ihre Fähigkeiten darin (weiter-)entwickeln.  Sie  werden  ihre  Arbeiten  schriftlich  in  Form  einer  wissenschaftlichen Abhandlung  präsentieren.  Die  Masterarbeit  wird  mit  einer  Note  zwischen  6  (beste)  und  1 (schlechteste) beurteilt. Sie wird angerechnet, wenn mindestens die Note 4 erreicht wurde. Eine als ungenügend beurteilte Masterarbeit kann ein zweites Mal über ein anderes Thema erarbeitet werden.
+
+Die Anrechnung der Pakete MSc1, MSc2 und MSc3 berechtigt zum Titel Master of Science in Sportwissenschaften, Option Gesundheit und Forschung (MSc), Universität Freiburg und Eidgenössische Hochschule für Sport Magglingen .
+
+## 3.3  Zulassungspasserellen zum Studium MSc-Sport-GF
+
+## 3.3.1 Zulassungsverfahren
+
+Der Zugang zum Master of Science in Sportwissenschaften Option Gesundheit und Froschung ist an zwei Voraussetzungen geknüpft:
+
+- die Erfüllung der Zulassungsbedingungen zum Studium an der Universität, welche im Reglement über die Zulassung zur Universität Freiburg geregelt sind. (https://www.unifr.ch/apps/legal/de/document/274904),
+- den Besitz eines Bachelorabschlusses in Sportwissenschaften Option Gesundheit -Leistung -Forschung (BSc-Sport-SLF) der Universität Freiburg oder eines von der Fakultät als gleichwertig anerkannten Hochschulabschlusses.
+
+Für  Kandidat\_innen  die  im  Besitz  eines  Abschlusses  sind,  der  von  der  Fakultät  nicht  als gleichwertig  betrachtet  wird,  entscheidet  die  Studiengesuchskommission  über  ihre  Zulassung (Studiengesuchskommission, Dekanat, Math.-Nat. und Med. Fakultät, Ch du Musée 8, CH-1700 Fribourg, Schweiz).
+
+Je  nachdem  welche  Akademische  Titel  die  Kandidatin  oder  der  Kandidat  vorweist,  kann  die Kommission  eine  Anpassungsprogram  verlangen.  Falls  dieses  beschränkt  ist,  können  die Studierenden dieses Parallel zum Maserstudium absolvieren ( Zusatz zum Master ).  Sonst wird die Zulassung entweder verweigert oder die Kandidatin oder der Kandidat kann eine Vorstufe zum  Master  absolvieren  und  kann  nur  dann  mit  dem  Master  Studium  beginnen,  wenn  die Bedingungen erfüllt sind. Die Bestätigung des Masters hängt von der Erfüllung der zusätzlichen Bedingungen ab
+
+## 3.3.2 Standardpasserellen
+
+Studierende, die in Sportwissenschaften 120 ECTS-Credits erworben haben, d.h. im Hauptfach ihres Bachelors in Sportwissenschaft, Option Unterricht (BSc-Sport-U) oder im Besitz des BSc an  der  Eidgenössischen  Hochschule  für  Sport  Magglingen,  werden  nach  erfolgreichem Abschluss des vordefinierten Programms ' Vorstufe oder Zusatz zum Master ' von 6 ECTS-Credits zum MSc-Sport-GF zugelassen.
+
+Studierende, die 120 ECTS-Credits in biomedizinischen Wissenschaften und 60 ECTS-Credits in Sportwissenschaften (ZF-Sport60-BMS) erreicht haben, werden zum Anpassungsprogramm des MSc-Sport-GF zugelassen.
+
+Für Kandidat\_innen, welche ihre Sportausbildung an einer anderen Hochschule erworben haben, wird von der Math.-Nat. und Med. Fakultät ein persönliches Programm erstellt.

@@ -1,0 +1,477 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:37:48.110Z",
+  "title": "EDUFORM_Bachelor_120_Pedagogy_Psychology_Bachelor_Major_120_ECTS-Kreditpunkte__2cd821272cf259d35042e1f1ca864c10e65d84a6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2cd821272cf259d35042e1f1ca864c10e65d84a6",
+  "program_key": "eduform|bachelor|120|pedagogy / psychology",
+  "faculty": "EDUFORM",
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Pedagogy / Psychology",
+  "doc_label": "Bachelor Major (120 ECTS-Kreditpunkte)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_120%20(1196)%2005%2006%202025.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/educationpsychology",
+  "curriculum_url": "https://studies.unifr.ch/go/1J",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\EDUFORM_Bachelor_120_Pedagogy_Psychology_Bachelor_Major_120_ECTS-Kreditpunkte__2cd821272cf259d35042e1f1ca864c10e65d84a6.pdf",
+  "sha256": "3a1105bfe60ab051156c01ebf34fb294a61d0f95d5109ac7d5d69e8a2e44e0e2",
+  "fetched_at": "2026-04-03T11:30:14.479Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_120%20(1196)%2005%2006%202025.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "BSc_PädPsy_PédPsy_120 (1196) 05 06 2025.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR ERZIEHUNGSWISSENSCHAFTEN
+
+## STUDIENPLAN
+
+## Pädagogik/ Psychologie
+
+Studienprogramm Bachelor Major 120 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+DEPARTEMENT DES SCIENCES DE L'EDUCATION
+
+## PLAN D'ÉTUDES
+
+## Pédagogie/ Psychologie
+
+Programme d'études Bachelor Major 120 crédits ECTS
+
+Valable à partir du semestre d'automne 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen  Zulassungsbedingungen  an  der Fakultät für Erziehungsund Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften (Studienreglement)
+- Richtlinien  vom  17. Oktober  2024  über  die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm richtet sich an Studierende, die ihren Bachelorstudiengang  in Pädagogik/Psychologie Major teilweise auf Deutsch,  teilweise  auf  Französisch  absolvieren möchten  und  so  den  Vermerk  «zweisprachiges Studium, Deutsch/Französisch» erlangen möchten.
+
+Das Bachelorprogramm Pädagogik/Psychologie besteht zur Hälfte aus dem Studium der Erziehungswissenschaften und zur Hälfte aus dem Studium der Psychologie. Es richtet sich damit vor allem  an  diejenigen  Studierenden,  die  auf  dieser Grundlage  das  Lehrdiplom  für  Maturitätsschulen (LDM) für das Fach Pädagogik/Psychologie erwerben möchten. In den Erziehungswissenschaften  wird  Wissen  u.a.  über  Erziehungs-  und Bildungsverhältnisse  sowie  über  die  Bedeutung des  sozialen,  gesellschaftlichen,  ökonomischen, ökologischen  und  kulturellen  Kontextes  für  das Aufwachsen und für (schulische) Bildung erworben. In der Psychologie erfolgt eine  Auseinandersetzung mit dem kognitiven und affektiven Bereich menschlichen  Erlebens  und  Verhaltens,  mit  den Diagnose-  und  klinischen  Behandlungsverfahren sowie den Forschungsverfahren und -instrumenten. Das Programm zeichnet sich insbesondere dadurch aus, dass die Studierenden in wissenschaftlichen  und  kulturellen  Perspektiven sowohl  aus  dem  deutsch-  als  auch  aus  dem französischsprachigen Raum ausgebildet werden.
+
+Der Abschluss dieses zweisprachigen Studienprogramms  ermöglicht  den  Studierenden einen bedingungslosen Zugang zu den Masterprogrammen in Pädagogik/Psychologie .
+
+## 1 Bases légales
+
+Ce  plan  d'études  suivant  repose  sur  les  bases juridiques suivantes :
+
+- Règlement du 19 septembre 2024 concernant les  conditions  d'admission  complémentaires  à la Faculté des sciences de l'éducation et de la formation
+- Règlement du 19 septembre 2024 des études à la Faculté des sciences de l'éducation et de la formation (Règlement des études)
+- Directives  du  17  octobre  2024  relatives  à  la reconnaissance des acquis antérieurs
+
+## 2 Informations générales sur les études
+
+## 2.1 Description du programme d'études
+
+Ce programme d'études s' adresse aux étudiant∙e∙s qui désirent accomplir leur cursus de Bachelor en Pédagogie/Psychologie Major en partie en allemand et en partie en français, et ainsi obtenir la mention « études bilingues, allemand/français » sur leur diplôme.
+
+Le programme de Bachelor en Pédagogie/Psychologie se compose pour moitié d'études en sciences de l'éducation et pour moitié d'études en psychologie.  Il  s'adresse  donc  avant  tout  aux étudiant·e·s qui souhaitent obtenir sur cette base le diplôme d'enseignement pour les écoles de maturité  (DEEM)  dans  la  discipline  Pédagogie/ Psychologie. En sciences de l'éducation, on acquiert, entre autres, des connaissances sur les conditions d'éducation et de formation ainsi que sur l'importance du contexte social, économique, écologique  et  culturel  pour  le  développement  et l'éducation et la formation (scolaire). En psychologie,  on  étudie  les  domaines  cognitifs  et affectifs de l'expérience et du comportement humains, les procédures  de diagnostic et de traitement  clinique  ainsi  que  les  méthodes  et  les instruments  de  recherche.  Ce  programme  a  la particularité  de  permettre  aux  étudiant·e·s  d'être formé·e·s aux perspectives scientifiques et culturelles à la fois francophones et germanophones.
+
+L'obtention de ce programme bilingue permet aux étudiant∙e∙s  d 'avoir  un  accès  sans  condition  aux programmes  de  Master  en Pédagogie/Psychologie .
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Pädagogik/Psychologie (120 ECTS-Kreditpunkte) kann auf Deutsch, Französisch oder zweisprachig (DeutschFranzösisch) absolviert werden. Nachfolgend wird der  Studienplan  für  den  Erwerb  des  Vermerks «zweisprachiges Studium, Deutsch/Französisch».
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität  Freiburg  (Reglement  vom  26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen  der  Fakultät  (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist möglich.
+
+## 2.4 Mobilität
+
+Ein Mobilitätsaufenthalt kann während des 3. Studiensemesters absolviert werden. Interessierte Studierende wenden sich so früh wie möglich an die Studienberatung.
+
+## 2.5 Verliehener Titel
+
+Der verliehene Titel lautet Bachelor of Science in Erziehungswissenschaften, Major : Pädagogik/ Psychologie.
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 120 ECTSKreditpunkte, die in 8 Module aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Die Studierenden lernen Grundbegriffe, Theorien, Themenbereiche  und  Forschungsmethoden  der beiden  Bereiche  Erziehungswissenschaften  und Psychologie in ihrer Breite und Tiefe kennen. Sie werden befähigt, menschliches Denken und Verhalten,  deren  kontextuellen  Bedingungen  und gesellschaftlichen,  sozialen  und  pädagogischen Rahmungen  zu  verstehen  und  nach  aktuellem wissenschaftlichen Erkenntnisstand zu interpretieren und reflektieren.
+
+## 2.2 Langue de la formation
+
+Le  programme  d'études Pédagogie/Psychologie (120 crédits ECTS) peut s'effectuer en français, en allemand ou de manière bilingue (françaisallemand). Ce document présente le plan d'études permettant d'obtenir la mention « études bilingues, français/allemand ».
+
+## 2.3 Conditions et délais d'admission
+
+Les conditions d'admission à l'Université de Fribourg (Règlement du 26 mars 2020 concernant l'admission et l'immatriculation des étudiant-e-s et des auditeurs et auditrices à l'Université de Fribourg), ainsi que les conditions d'admission à la Faculté (Règlement concernant les conditions d'admission complémentaires) font foi.
+
+Le début des études n'est possible qu'au semestre d'automne. Les inscriptions tardives sont autorisées.
+
+## 2.4 Mobilité
+
+La mobilité peut être envisagée dès le 3 ème semestre  d'étude.  Les  étudiant · e · s  intéressé · e · s doivent s'adresser le plus tôt possible au conseiller aux études.
+
+## 2.5 Titre décerné
+
+Le  titre  décerné  est Bachelor  of  Science  en sciences de l'éducation , Major : Pédagogie/ Psychologie.
+
+## 3 Programme d'études
+
+Le programme  d'études comprend  120 crédits ECTS répartis en 8 modules obligatoires.
+
+## 3.1 Objectifs de la formation
+
+Les étudiant·e·s apprennent les concepts de base, les théories, les  thèmes  et  les  méthodes  de recherche des deux domaines : des sciences de l'éducation  et  de  la  psychologie.  Ils  seront  en mesure de comprendre la pensée et le comportement  humains,  en  tenant  compte  du contexte et des cadres sociaux et éducatifs, afin de les interroger à partir des connaissances scientifiques.
+
+In  Bezugnahme  auf  den  von  swissuniversities herausgegebenen Qualifikationsrahmen für die Schweizer Hochschulen (2021) sind die Absolvierenden dieses Studienprogramms in der Lage,
+
+- grundlegendes  Wissen  und  Verständnis  aus ihrem  Studienbereich  zu  mobilisieren,  um  die Herausforderungen,  Prozesse,  Kontexte  und Akteurinnen und Akteure im Bereich der Pädagogik/Psychologie in ihrer Vielfalt zu erfassen;
+- relevante  Daten  aus  wissenschaftlichen  und praxisbezogenen Quellen zu erfassen und interpretieren, um qualitativ hochwertige Reflexionen über im Bereich der Pädagogik/
+- Psychologie situierten Problematiken anstellen zu können;
+- einem Fach- und Laienpublikum relevante und fundierte Informationen und  Argumente zu Themen und Herausforderungen im Bereich
+- der Pädagogik/Psychologie zu vermitteln;
+- angemessene Lernstrategien anzuwenden, um ihr Studium mit einem hohen Mass an Selbstständigkeit fortzusetzen.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+En  référence  au  cadre  de  qualification  pour  les hautes  écoles  suisses  édité  par  swissuniversities (2021), les diplômé·e·s de ce programme d'études sont en mesure de :
+
+- mobiliser des connaissances et une compréhension de base de leur domaine d'études afin d'appréhender dans leur diversité les enjeux, processus, contextes et protagonistes concernés par la pédagogie/ psychologie ;
+- collecter et interpréter des données pertinentes issues de ressources scientifiques et pratiques en vue d'élaborer  une réflexion  de  qualité  sur des problématiques situées dans le champ de la pédagogie/psychologie ;
+- communiquer  à  un  public  spécialisé  et  non spécialisé  des  informations  et  des  arguments pertinents et fondés à propos de problématiques et d'enjeux situés dans le champ de la pédagogie/psychologie ;
+- mettre en œuvre des stratégies d'apprentissage adaptées pour poursuivre leurs études avec un fort degré d'autonomie.
+
+## 3.2 Structure générale de la formation
+
+| Modul                                                                          |   ECTS | Module                                                                           |
+|--------------------------------------------------------------------------------|--------|----------------------------------------------------------------------------------|
+| Modul 1: Grundlagen der Erziehungswissenschaften                               |     15 | Module 1 : Fondements des sciences de l'éducation                                |
+| Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale |     18 | Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale   |
+| Module 3 : Contextes d'éducation et de formation                               |     15 | Module 3 : Contextes d'éducation et de formation                                 |
+| Modul 4: Grundlagenfächer der Psychologie                                      |     15 | Modul 4: Grundlagenfächer der Psychologie                                        |
+| Modul 5: Forschungsmethoden in Erziehungswissenschaften und Psychologie        |     12 | Module 5 : Méthodes de la recherche en sciences de l'éducation et en psychologie |
+| Modul 6: Forschungsperspektiven in den Erziehungswissenschaften                |     15 | Modul 6 : Forschungsperspektiven in den Erziehungswissenschaften                 |
+| Modul 7: Wahlkurse                                                             |     15 | Module 7 : Cours à choix                                                         |
+| Modul 8: Bachelorarbeit                                                        |     15 | Module 8 : Travail de Bachelor                                                   |
+
+Folgende Regelungen gilt es zu beachten:
+
+- 1)  Das  Studium  muss  mit  den  Modulen  1  und  2 begonnen  werden.  Diese  Module  sollten  im ersten Studienjahr absolviert werden.
+- 2)  Die Unterrichtseinheiten (UE) in den Modulen 3, 4, 5, 6 und 7 können auf die drei Studienjahre verteilt werden. Es gilt zu beachten, dass die UE im  Modul  6  nur  im  zweijährigen  Rhythmus angeboten werden.
+- 3)  Das  Modul  2  muss  im  ersten  Jahr  erfolgreich abgeschlossen werden, bevor mit den UE aus Modul 4 gestartet werden kann.
+- 4)  Die Seminararbeit im Modul 6 kann frühestens im  zweiten  Jahr  verfasst  werden,  wenn  die Module 1 und 2 sowie mindestens eine UE aus dem Modul 6 besucht und erfolgreich abgeschlossen worden sind.
+- 5)  Die  UE  des  Moduls  7  (Wahlkurse)  sind  im zweiten und dritten Studienjahr frei wählbar. Es empfiehlt  sich,  im  ersten  Jahr  noch  keine  UE aus  dem  Wahlmodul  zu  besuchen,  sondern zunächst  grundlegendes  Fachwissen  in  den Erziehungswissenschaften und in der Psychologie zu erwerben.
+- 6)  Wenn das Modul 8 Bachelorarbeit auf Französisch verfasst wird, müssen im Modul 7 Wahlkurse mindestens  6  ECTS-  Kreditpunkte auf Deutsch erbracht werden. Wenn das Modul 8 Bachelorarbeit auf  Deutsch  verfasst  wird, müssen  im  Modul  7 Wahlkurse mindestens  3 ECTS-Kreditpunkte  auf  Französisch  erbracht werden.
+- 7)  Um  den  Vermerk  «zweisprachiges  Studium, Deutsch/Französisch» zu erhalten, müssen mind.  40%  der  ECTS-Kreditpunkte,  also  48 ECTS, auf Deutsch und ebenso 40% der ECTSKreditpunkte,  also  48  ECTS,  auf  Französisch erbracht werden. Das Programm ist so strukturiert,  dass  die  Studierenden  mit  allen Pflicht- und Wahlkursen diese Anzahl an ECTSKreditpunkte absolvieren werden.
+- 8)  Das  Modul  8 Bachelorarbeit muss  im  letzten Studienjahr verfasst werden.
+- 9)  Der Wechsel in ein Studienprogramm der Psychologie ist nicht vorgesehen.
+
+Les règles suivantes doivent être respectées:
+
+- 1)  Les études doivent commencer par les modules 1  et  2.  Ces  modules  devraient  être  suivis  au cours de la première année d'études.
+- 2)  Les unités d'enseignement (UE) des modules 3, 4,  5,  6  et  7  peuvent  être  suivis  sur  les  trois années d'études. Il convient de noter que l'UE dans le module 6 ne sont proposées que tous les deux ans.
+- 3)  Le  module  2  doit  être  terminé  avec  succès  la première  année  avant  de  pouvoir  commencer les UE du module 4.
+- 4)  Le Seminararbeit du module 6 peut être rédigé au  plus  tôt  au  cours  de  la  deuxième  année, lorsque les modules 1 et 2 ainsi qu'au moins une UE du module 6 ont été suivis et validés.
+- 5)  Les  UE  du  module  7  (cours  à  choix)  peuvent être choisies librement au cours de la deuxième et de la troisième année d'études. Il est recommandé de ne pas suivre d'UE du module à  choix  en  première  année,  mais  d'acquérir d'abord des connaissances de base en sciences de l'éducation et en psychologie.
+- 6)  Si le module 8 Travail de Bachelor est rédigé en français, au moins 6 crédits ECTS doivent être obtenus en allemand dans le module 7 Cours à choix .  Si  le  module  8 Travail  de  Bachelor est rédigé en allemand, au moins 3 crédits ECTS doivent être obtenus en français dans le module 7 Cours à choix .
+- 7)  Pour  obtenir  la  mention  « études  bilingues, allemand/français », au moins 40% des crédits ECTS,  soit 48 crédits ECTS,  doivent  être effectués en allemand et 40% des crédits ECTS, soit 48 crédits ECTS, doivent être effectués en français. Le programme est structuré de manière à ce que les étudiant·e·s obtiennent ce nombre  d'ECTS  en  suivant  tous  les  cours obligatoires et à choix.
+- 8)  Le module 8 Travail de Bachelor doit être rédigé au cours de la dernière année d'études.
+- 9)  Le changement vers un programme d'études en Psychologie n'est pas prévu.
+
+## 3.3 Struktur der Module
+
+## Modul 1: Grundlagen der Erziehungswissenschaften
+
+In diesem Modul werden die theoretischen Grundlagen der Erziehungswissenschaften im Rahmen von deutsch- und französischsprachigen Unterrichtseinheiten (UE) vermittelt. Zentrale pädagogische  Begriffe  (z.  B.  Erziehung,  Bildung, Sozialisation und Lernen) und Phänomene von der frühen  Kindheit  bis  ins  Erwachsenenalter  werden aus erziehungswissenschaftlicher, aber auch aus soziologischer,  anthropologischer,  psychologischer und philosophischer Perspektive beleuchtet, um ein differenziertes  und  theoriegeleitetes  Verständnis von  Erziehungs-,  Bildungs-,  Sozialisations-  und Lernprozessen sowie ihrer strukturellen Bedingungen zu erhalten.
+
+## Module 1 : Fondements des sciences de l'éducation
+
+Dans ce module, les bases théoriques des sciences  de  l'éducation  sont  enseignées  dans  le cadre d'unités d'enseignement (UE) en allemand et en français. Les concepts pédagogiques centraux (par ex. éducation, formation, socialisation et apprentissage)  et  les  phénomènes  de  la  petite enfance  à  l'âge  adulte  sont  examinés  dans  une perspective pédagogique, mais aussi sociologique, anthropologique,  psychologique  et  philosophique afin  d'obtenir  une  compréhension  différenciée  et fondée sur la  théorie  des  processus  d'éducation, de  formation,  de  socialisation  et  d'apprentissage ainsi que de leurs conditions structurelles.
+
+| Unterrichtseinheiten / Unités d'enseignement   | Unterrichtseinheiten / Unités d'enseignement             | 15 ECTS   |
+|------------------------------------------------|----------------------------------------------------------|-----------|
+| F23.00044                                      | Allgemeine Erziehungswissenschaft*                       | 3 ECTS    |
+| F23.00050                                      | Erziehungs- und Bildungssoziologie*                      | 3 ECTS    |
+| F23.00001                                      | Introduction aux sciences de l'éducation*                | 3 ECTS    |
+| F23.00008                                      | Anthropologie de l'éducation*                            | 3 ECTS    |
+| F23.00049                                      | International Education Policy*                          | 3 ECTS    |
+| F24.00855                                      | Pädagogische Psychologie I*                              | 3 ECTS    |
+| F23.00018                                      | Introduction à l'ingénierie pédagogique et de formation* | 3 ECTS    |
+| F22.00168                                      | Philosophie de l'éducation*                              | 3 ECTS    |
+
+## Evaluation der Unterrichtseinheiten
+
+Dieses  Modul  bietet  8  UE  an.  Die  ersten  4,  fett markierten UE sind obligatorisch. Von den restlichen 4 UE wählen die Studierenden 1 UE aus, um die 15 ECTS-Kreditpunkte zu erhalten, die für die Validierung des Moduls erforderlich sind. Die UE werden  mit  einer  mündlichen  oder  schriftlichen Prüfung  evaluiert  und  benotet.  Damit  das  Modul validiert wird, muss jede der 4 obligatorischen UE sowie  die  1  gewählte  UE  mit  einer  bestandenen Note  bewertet  werden.  Die  Kompensation  einer ungenügenden  Bewertung  innerhalb  des  Moduls ist nicht möglich. Wird eine nicht obligatorische UE des Moduls nicht bestanden, kann diese durch eine andere UE aus den restlichen zur Auswahl stehenden  UE  ersetzt werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+* Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und  nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es gelten  die  Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Modalités d'évaluation
+
+Ce  module  propose  8  UE.  Les  4  premières  UE, indiquées  en  gras,  sont  obligatoires.  Parmi  les  4 UE restantes, les étudiant·e·s choisissent 1 UE afin d'obtenir  les  15  crédits  ECTS  nécessaires  à  la validation  du  module.  Les  UE  sont  évaluées  et notées par un examen oral ou écrit. Pour que le module soit validé, chacune des 4 UE obligatoires ainsi  que  la  1  UE  choisie  doivent  être  évaluées avec une note suffisante. La compensation d'une évaluation insuffisante au sein du module n'étant pas  possible.  En  cas  d'échec  à  une  UE  non obligatoire du module, celle-ci peut être remplacée par une autre UE parmi les UE restantes à choisir. La  note  du  module  résulte  de  la  moyenne  non arrondie  et  non  pondérée  des  notes  des  unités d'enseignement qui le composent.
+
+* Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 al. 4 du Règlement des études s'appliquent.
+
+## Module 2 : Propédeutique : Psychologie cognitive, clinique et développementale
+
+Sont  présentés  dans  ce  module  les  fondements  scientifiques  les  plus  importants  de  la  psychologie.  En psychologie cognitive les fonctions psychiques humaines sont traitées. En psychologie clinique les facteurs biologiques,  sociaux,  cognitifs  et  émotionnels  agissant  sur  les  troubles  psychiques  sont  examinés.  En psychologie  développementale les changements liés à l'âge (perdurant dans le temps et se combinant) touchant l'expérience et le comportement sur l'empan total de la vie sont présentés. Le but du module est de  transmettre  aux  étudiant∙e∙s  les  connaissances  essentielles, théoriques  et  scientifiques  dans  les domaines fondamentaux de la psychologie.
+
+| Unités d'enseignement   | Unités d'enseignement                                    | 18 ECTS   |
+|-------------------------|----------------------------------------------------------|-----------|
+| L25.00009               | Psychologie cognitive                                    | 6 ECTS    |
+| L25.00014               | Psychologie clinique, Psychopathologie et Psychothérapie | 6 ECTS    |
+| L25.00468               | Psychologie du développement                             | 6 ECTS    |
+
+## Modalités d'évaluation
+
+Toutes les unités d'enseignement (UE) sont obligatoires et font l'objet d'une évaluation et d'une notation sous forme d'examen écrit et/ou oral. Pour que le module soit validé, les 3 UE doivent être évaluées avec une note suffisante. La compensation d'une évaluation insuffisante au sein du module n'étant pas possible. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+## Module 3 : Contextes d'éducation et de formation
+
+Ce module initie l'étudiant·e à la compréhension des défis contemporains de l'éducation et de la formation. La combinaison des UE du module permet de développer un regard systémique sur ces défis, reliant le niveau micro des relations entre les acteurs et actrices avec le niveau macro des contextes. L'UE Education interculturelle est accessible uniquement après avoir suivi l'UE Anthropologie de l'éducation (module 1).
+
+| Unités d'enseignement   | Unités d'enseignement                            | 15 ECTS   |
+|-------------------------|--------------------------------------------------|-----------|
+| F23.00012               | Education, familles, société*                    | 3 ECTS    |
+| F23.00019               | Education interculturelle*                       | 3 ECTS    |
+| F23.00005               | Formation des adultes*                           | 3 ECTS    |
+| F23.00011               | Systèmes d'éducation et de formation*            | 3 ECTS    |
+| F23.00030               | Séminaire Contextes d'éducation et de formation* | 3 ECTS    |
+
+## Modalités d'évaluation
+
+Pour que le module soit validé, l'évaluation de chacune des UE doit être réussie, la compensation d'une évaluation insuffisante au sein du module n'étant pas possible. Toutes les UE sont évaluées par note, à l'exception du séminaire, qui est évalué par les modalités « réussi » vs « échoué ». La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent.
+
+*Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 al. 4 du Règlement des études s'appliquent.
+
+## Modul 4: Grundlagenfächer der Psychologie
+
+In diesem Modul werden wichtige inhaltliche Grundlagenfächer der Psychologie vermittelt. Dabei haben die Studierenden  die  Möglichkeit,  aus  einer  breiten  Auswahl  an  Unterrichtseinheiten  in  der  Psychologie entsprechend  ihrem  Interesse  Schwerpunkte  zu  setzen.  In  der  Einführung  in  die  Themenbereiche  der Psychologie werden die aktuell zentralen Praxis- und Forschungsbereiche der Psychologie vorgestellt. Es wird  empfohlen,  diese  Veranstaltung  im  3.  Semester  des  Studiums  zu  besuchen.  In  der  Neurobiologie werden  die  Grundlagen  zu  dem  Aufbau  und  den  Funktionen  von  Nervensystemen  untersucht.  In  der Sozialpsychologie I und II werden die Einflüsse von der realen oder der imaginierten Anwesenheit anderer Menschen auf das Erleben und das Verhalten des einzelnen Individuums erforscht. Es wird empfohlen, zunächst  die  Veranstaltung  Sozialpsychologie  I  und  dann  die  Sozialpsychologie  II  zu  besuchen.  In  der Differentiellen- &amp; Persönlichkeitspsychologie werden die individuellen Unterschiede zwischen den Menschen in Bezug auf einzelne Persönlichkeitsaspekte und auf die gesamte Persönlichkeitsstruktur ergründet. In der Veranstaltung Lernen, Verhaltenserwerb &amp; Adaptation werden die Grundlagen der Lerntheorien sowie ihre Bedeutung für die klinische Psychologie vorgestellt. Die Gesundheitspsychologie bietet eine Einführung in die relevanten biologischen und psychologischen Systeme sowie ihre Interaktionen, die für die Aufrechterhaltung  und  Förderung  von  Gesundheit  eine  Rolle  spielen.  Das  Ziel  des  Moduls  ist  es,  den Studierenden  ein  theoretisches  und  wissenschaftliches  Basiswissen  in  den  Grundlagenfächern  der Psychologie zu vermitteln sowie den Studierenden einen kritisch-reflektierten Einblick in die aktuell wichtigen Praxis- und Forschungsgebiete der Psychologie zu bieten.
+
+| Unterrichtseinheiten   | Unterrichtseinheiten                                                        | 15 ECTS   |
+|------------------------|-----------------------------------------------------------------------------|-----------|
+| L25.00016              | Einführung in die Themenbereiche der Psychologie                            | 3 ECTS    |
+| SPY.01001              | Neurobiologie I                                                             | 3 ECTS    |
+| SPY.02001              | Neurobiologie II                                                            | 3 ECTS    |
+| L25.01030              | Sozialpsychologie I                                                         | 3 ECTS    |
+| L25.01031              | Sozialpsychologie II                                                        | 3 ECTS    |
+| L25.00037              | Einführung in die Persönlichkeitspsychologie und Differentielle Psychologie | 3 ECTS    |
+| L25.01052              | Lernen, Verhaltenserwerb & Adaptation                                       | 3 ECTS    |
+| L25.01205              | Health psychology                                                           | 3 ECTS    |
+
+## Evaluation der Unterrichtseinheiten:
+
+Dieses Modul besteht aus 7 inhaltlich verschiedenen Unterrichtseinheiten (UE), die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden. Damit das Modul validiert wird, müssen insgesamt 15 ECTS-Kreditpunkte erfolgreich absolviert werden. Alle gewählten UE müssen mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere UE aus den restlichen zur Auswahl stehenden UE in diesem Modul ersetzt werden. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+| Modul 5: Forschungsmethoden in Erziehungswissenschaften und Psychologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Modul 5: Forschungsmethoden in Erziehungswissenschaften und Psychologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Module 5 : Méthodes de la recherche en sciences de l'éducation et en psychologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Module 5 : Méthodes de la recherche en sciences de l'éducation et en psychologie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| In diesem Modul werden grundlegende Kenntnisse und Fähigkeiten im Rahmen von deutsch- und französischsprachigen Unterrichtseinheiten (UE) entwickelt, die mit der wissenschaftlichen Forschung in den Sozialwissenschaften und der Psychologie verbunden sind. Auf der Grundlage von theoretischen Inputs und empirischen Beispielen ermöglichen die UE in diesem Modul den Studierenden, sich mit verschiedenen Ansätzen der quantitativen und qualitativen Forschung vertraut zu machen. Sie werden angeleitet, spezifische Methoden und Analysen zu verwenden.                                                                                                                                                 | In diesem Modul werden grundlegende Kenntnisse und Fähigkeiten im Rahmen von deutsch- und französischsprachigen Unterrichtseinheiten (UE) entwickelt, die mit der wissenschaftlichen Forschung in den Sozialwissenschaften und der Psychologie verbunden sind. Auf der Grundlage von theoretischen Inputs und empirischen Beispielen ermöglichen die UE in diesem Modul den Studierenden, sich mit verschiedenen Ansätzen der quantitativen und qualitativen Forschung vertraut zu machen. Sie werden angeleitet, spezifische Methoden und Analysen zu verwenden.                                                                                                                                                 | Ce module permet de développer des connaissances et compétences de base dans le cadre d'unités d'enseignement (UE) en allemand et en français, en lien avec la recherche scientifique en sciences sociales et en psychologie. Sur la base d'apports théoriques et d'exemples empiriques, les UE de ce module permettent aux étudiant·e·s, de se familiariser avec différentes approches de la recherche quantitative et qualitative. Ils et elles sont guidé·e·s à utiliser des méthodes et analyses spécifiques.                                                                                                  | Ce module permet de développer des connaissances et compétences de base dans le cadre d'unités d'enseignement (UE) en allemand et en français, en lien avec la recherche scientifique en sciences sociales et en psychologie. Sur la base d'apports théoriques et d'exemples empiriques, les UE de ce module permettent aux étudiant·e·s, de se familiariser avec différentes approches de la recherche quantitative et qualitative. Ils et elles sont guidé·e·s à utiliser des méthodes et analyses spécifiques.                                                                                                  |
+| Unterrichtseinheiten / Unités d'enseignement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Unterrichtseinheiten / Unités d'enseignement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 12 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F23.00013                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Qualitative Methoden der Sozialforschung I*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Qualitative Methoden der Sozialforschung I*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 3 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| F23.00017                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Qualitative Methoden der Sozialforschung II*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Qualitative Methoden der Sozialforschung II*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 3 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| F24.01004                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Initiation à la recherche en éducation*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Initiation à la recherche en éducation*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 6ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Evaluation der Unterrichtseinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Evaluation der Unterrichtseinheiten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Modalités d'évaluation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Modalités d'évaluation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Dieses Modul bietet 3 UE an, die alle obligatorisch sind. Die UE werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, muss jede der 3 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. *Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungs- nachweis und nur ein einziges Mal in diesem Studienprogramm einen dritten Versuch zu erhalten. Es gelten die Bestimmungen gemäss Art. | Dieses Modul bietet 3 UE an, die alle obligatorisch sind. Die UE werden mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet. Damit das Modul validiert wird, muss jede der 3 UE mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. *Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungs- nachweis und nur ein einziges Mal in diesem Studienprogramm einen dritten Versuch zu erhalten. Es gelten die Bestimmungen gemäss Art. | Ce module propose 3 UE, qui sont toutes obligatoires. Les UE sont évaluées et notées par un examen oral ou écrit. Pour que le module soit validé, chacune des 3 UE doit être évaluées avec une note suffisante. La compensation d'une évaluation insuffisante n'étant pas possible. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent. *Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 | Ce module propose 3 UE, qui sont toutes obligatoires. Les UE sont évaluées et notées par un examen oral ou écrit. Pour que le module soit validé, chacune des 3 UE doit être évaluées avec une note suffisante. La compensation d'une évaluation insuffisante n'étant pas possible. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent. *Remarque : Pour ces unités d'enseignement, il est possible d'obtenir une troisième tentative pour une seule évaluation et une seule fois dans ce programme d'études. Les dispositions de l'art. 24 |
+
+## Modul 6: Forschungsperspektiven in den Erziehungswissenschaften
+
+In diesem Modul stehen historisch und zeitgenössisch relevante Forschungsperspektiven der Erziehungswissenschaft in ihrer jeweiligen Genese im Fokus. Die Studierenden haben die Möglichkeit, sich mit Fragen der Kindheits-, Jugend- und Altersforschung zu befassen, sich in Bereiche der Migrations- und Ungleichheitsforschung  einzuarbeiten  oder  sich  in  international  vergleichender  Perspektive  mit  der  Policy  Forschung auseinanderzusetzen.
+
+| Unterrichtseinheiten   | Unterrichtseinheiten                                                 | 15 ECTS   |
+|------------------------|----------------------------------------------------------------------|-----------|
+| F23.00116              | Kindheits-, Jugend- und Altersforschung*                             | 3 ECTS    |
+| F23.00123              | Migrationsforschung*                                                 | 3 ECTS    |
+| F23.00142              | Policy Forschung*                                                    | 3 ECTS    |
+| F23.00143              | Ungleichheitsforschung*                                              | 3 ECTS    |
+| F23.00059              | Seminararbeit (Forschungsperspektiven in der Erziehungswissenschaft) | 6 ECTS    |
+
+## Evaluation der Unterrichtseinheiten:
+
+Dieses Modul besteht aus 4 inhaltlich verschiedenen Unterrichtseinheiten (UE) à 3 ECTS-Kreditpunkten, die mit einer mündlichen oder schriftlichen Prüfung evaluiert und benotet werden, sowie einer Seminararbeit mit 6 ECTS-Kreditpunkten, die ebenfalls mit einer Note evaluiert wird. Obligatorisch müssen 3 von den 4 UE belegt sowie eine Seminararbeit, die den Inhalt einer besuchten UE aus diesem Modul oder aus dem Modul 5 vertiefen soll, verfasst werden. Die Wahl der UE ist den Studierenden überlassen. Damit das Modul validiert wird, müssen sowohl die 3 gewählten UE als auch die Seminararbeit mit einer bestandenen Note bewertet werden. Die Kompensation einer ungenügenden Bewertung ist nicht möglich. Wird eine UE nicht bestanden, kann diese durch eine andere aus der restlichen zur Auswahl stehenden UE in diesem Modul ersetzt werden. Das Schreiben der Seminararbeit setzt den positiven Abschluss der Module 1 und 2 voraus. Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt.
+
+*Hinweis: Für diese Unterrichtseinheiten besteht die Möglichkeit, für einen einzigen Leistungsnachweis und nur  ein  einziges  Mal  in  diesem  Studienprogramm  einen  dritten  Versuch  zu  erhalten.  Es  gelten  die Bestimmungen gemäss Art. 24 Abs. 4 Studienreglement.
+
+## Modul 7: Wahlkurse
+
+Dieses Modul soll es den Studierenden ermöglichen,  sich  für  andere  Studienbereiche  zu öffnen. Die Studierenden wählen ihre Unterrichtseinheiten (UE) frei aus den UE, die von den  anderen  Departementen  der  Universität  als «soft  skills»  geöffnet  werden.  Die  Studierenden achten darauf, dieses Modul im Laufe des Studiums zu absolvieren. Empfohlen werden Lehrangebote, die das Hauptstudium sinnvoll ergänzen. Die Studierenden können die Sprachen der UEs frei wählen.
+
+Wenn das Modul 8 Bachelorarbeit auf Französisch verfasst  wird,  müssen  im  Modul  7 Wahlkurse mindestens  6  ECTS-Kreditpunkte  auf  Deutsch erbracht werden. Wenn das Modul 8 Bachelorarbeit auf Deutsch verfasst wird, müssen im Modul  7 Wahlkurse mindestens  3  ECTSKreditpunkte auf Französisch erbracht werden.
+
+## Module 7 : Cours à choix
+
+Ce module vise à permettre aux l' étudiant∙e∙s de s'ouvrir à d'autres domaines d'études. Les étudiant∙e∙s  choisissent  librement  des  UE  parmi celles  ouvertes  en  « soft  skills »  par  les  autres départements de l'Université. Les étudiant∙e∙s veillent à compléter ce module au cours de leurs études. Il est recommandé de suivre des cours qui complètent avantageusement les études principales. Les étudiant∙e∙s sont libre de choisir la langue des UE.
+
+Si  le  module 8 Travail de Bachelor est  rédigé en français,  au  moins  6  crédits  ECTS  doivent  être obtenus  en  allemand  dans  le  module  7 Cours  à choix . Si le module 8 Travail de Bachelor est rédigé en allemand, au moins 3 crédits ECTS doivent être obtenus  en  français  dans  le  module  7 Cours  à choix .
+
+|   Unterrichtseinheiten / Unités d'enseignement | Unterrichtseinheiten / Unités d'enseignement                                                                      | 15 ECTS   |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------|
+|                                              0 | Kurse aus den offenen Angeboten anderer Departemente / Cours parmi les offres d'UE ouvertes d'autres départements |           |
+
+## Evaluation der Unterrichtseinheiten
+
+Die  Evaluation  und  Validierung  der  UE  wird  von den jeweiligen Studienbereichen, die die UE verantworten,  festgelegt  und  übernommen.  Die Note des Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt. Eine Kompensation ist möglich.
+
+## Modalités d'évaluation
+
+L'évaluation et la validation des UE sont définies et prises en charge par les  domaines d'études respectifs qui en ont la responsabilité. La note du module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent. Une compensation est possible.
+
+## Modul 8: Bachelorarbeit
+
+In  diesem  Modul  müssen  sich  die  Studierenden entscheiden, ob sie die Bachelorarbeit auf Deutsch oder  auf  Französisch  verfassen  möchten.  Wenn die Travail  de  Bachelor auf  Französisch  verfasst wird, müssen im Modul 7 Wahlkurse mindestens 6 ECTS- Kreditpunkte auf Deutsch erbracht werden. Wenn die Bachelorarbeit auf Deutsch verfasst wird, müssen im Modul 7 Cours à choix mindestens 3 ECTS-Kreditpunkte auf Französisch erbracht werden.
+
+Die Bachelorarbeit wird  zu  einem  Themengebiet der Erziehungswissenschaften oder der Psychologie  selbstständig  verfasst.  Diese  Arbeit bildet  den  Abschluss  des  Bachelorstudiums  und hat zum Ziel, die Fähigkeit zu einer eigenständigen wissenschaftlichen  Auseinandersetzung  mit  einer erziehungswissenschaftlichen oder psychologischen Fragestellung  darzulegen:  eine  wissenschaftliche Problemstellung zu identifizieren und diese auf der Basis  relevanter  Fachliteratur  und  unter  Berücksichtigung  wissenschaftlicher  Gepflogenheiten  zu bearbeiten.  Die  Studierenden  werden  von  einer Mitarbeiterin bzw. einem Mitarbeiter des Departementes für Erziehungswissenschaften individuell betreut. Das Verfassen der Bachelorarbeit wird zudem durch eine Begleitveranstaltung unterstützt, welche integraler Bestandteil der Bachelorarbeit ist. Die Bestimmungen für die Bachelorarbeit sind in Richtlinien  festgelegt,  welche  auf  der  Homepage des  Departements  für  Erziehungswissenschaften zu finden sind.
+
+## Module 8 : Travail de Bachelor
+
+Dans ce module, les étudiant·e·s doivent décider s'ils souhaitent rédiger leur Travail de Bachelor en français ou en allemand. Si le Travail de Bachelor est  rédigé  en  français,  au  moins  6  crédits  ECTS doivent être obtenus en allemand dans le module 7 Wahlkurse .  Si  le Bachelorarbeit est  rédigé  en allemand,  au  moins  3  crédits  ECTS  doivent  être obtenus en français dans le module 7 Cours à choix . Le Travail  de  Bachelor atteste  de  la  capacité  de l' étudiant∙e à identifier une problématique scientifique  relevant  des  sciences  de  l'éducation ainsi qu'à planifier, mettre en œuvre et y apporter une réponse argumentée qui est fondée sur une exploration rigoureuse de la littérature scientifique. Plus particulièrement, ce travail  individuel permet de développer les compétences suivantes :
+
+- Définir une problématique de manière rigoureuse ;
+- Rechercher des informations dans la littérature scientifique ;
+- Choisir et exploiter les informations théoriques et  empiriques  de  manière  pertinente,  fidèle  et synthétique ;
+- Élaborer une structure d'argumentation cohérente et logique ;
+- Discuter les résultats dans une posture à la fois analytique et scientifique ;
+- Communiquer  et  présenter  les  résultats  de façon scientifique.
+
+Un  suivi  individualisé  par  un·e  enseignant∙e  du Département  des  sciences  de  l'éducation  ainsi qu'un colloque collectif accompagnent l' étudiant∙e dans le développement de ces compétences. Les indications  relatives  au Travail  de  Bachelor se trouvent sur le site du Département.
+
+| Unterrichtseinheiten / Unités d'enseignement   | Unterrichtseinheiten / Unités d'enseignement   | 15 ECTS   |
+|------------------------------------------------|------------------------------------------------|-----------|
+| F23.00053                                      | Bachelorarbeit                                 | 12 ECTS   |
+| F23.00078                                      | Begleitveranstaltung Bachelorarbeit            | 3 ECTS    |
+| F23.00020                                      | Travail de Bachelor                            | 15 ECTS   |
+
+## Evaluation der Unterrichtseinheiten
+
+Das  Schreiben  der  Bachelorarbeit  auf  Deutsch setzt das erfolgreiche Absolvieren der Seminararbeit  aus  dem  Modul  6  voraus.  Das Verfassen der Bachelorarbeit sowie die Absolvierung der Begleitveranstaltung sind obligatorisch.  Ausschliess-lich  die  Bachelorarbeit wird mit einer Note bewertet. Die Note der Bachelorarbeit ist gleichzeitig die Note des Moduls. Im Falle eines Nichtbestehens muss die Bachelorarbeit überarbeitet und erneut eingereicht werden. Beim wiederholten Nichtbestehen gilt die Bachelorarbeit als «definitiv nicht bestanden».
+
+## Modalités d'évaluation
+
+Si le Travail de Bachelor est rédigé en français, il se présente comme un travail écrit individuel, suivi d'une soutenance orale. Son évaluation se fait par une  note  unique,  composée  pour  deux  tiers  de l'évaluation de l'écrit et pour un tiers de l'évaluation de  la  soutenance  orale.  La  note  du Travail  de Bachelor constitue également la note du module. En  cas  d'échec,  le Travail  de  Bachelor doit  être révisé et soumis à nouveau. En cas d'échec répété, le Travail  de  Bachelor est  considéré  comme « échec définitif ».
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich dreissig Arbeitsstunden für die Studierenden. ECTS-Kreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Die oder der Dozierende informiert über die genauen Modalitäten der Evaluation der Unterrichtseinheit. Die Bewertung einer UE kann in einem Teil oder in mehreren Teilen erfolgen, die während des Semesters und/oder während einer Prüfungssession durchgeführt  werden  können.  Die  Bewertungen können in Form einer mündlichen oder schriftlichen Prüfung, einer schriftlichen Arbeit, eines Vortrags, eines  Berichts,  eines  Portfolios,  einer  komplexen Aufgabe, einer Validierungsaktivität usw. erfolgen. Bei  einer  mehrteiligen  Bewertung  erhalten  die Studierenden, die nicht an allen Teilen teilnehmen, eine ungenügende Bewertung.
+
+Die Angaben zur Bewertung der Lehrveranstaltungen sowie die Modalitäten für die Erstellung und Abgabe der schriftlichen Arbeiten finden sich in den Lehrveranstaltungsbeschreibungen im Vorlesungsverzeichnis der Universität Freiburg. Bezüglich der französischsprachigen Lehrveranstaltungen lassen sich weitere Informationen dem «Guide de rédaction des travaux écrits» entnehmen, hinsichtlich der  deutschsprachigen  Lehrveranstaltungen  dem «Schreibleitfaden»  sowie  den  Richtlinien  für  die Seminar- und Bachelorarbeit. Die entsprechenden Dokumente sind auf der Homepage des Departements für Erziehungswissenschaften ersichtlich.
+
+Die Unterrichtseinheiten sind in Modulen zusammengefasst. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus denen es sich zusammensetzt, erfolgreich absolviert wurden.
+
+## 4.2 Anerkennung
+
+Mit Ausnahme der Bachelorarbeit und der Seminararbeiten können  alle  Unterrichtseinheiten dieses Studienprogramms durch eine formale Anerkennung (im Sinne von Art. 3 Abs. 5 Anerkennungsrichtlinien) und im Rahmen der maximal vorgesehenen Anzahl von ECTSKreditpunkten (Art. 3 Abs. 1) angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die Studierenden müssen sich für jede Unterrichtseinheit  und  jede  Evaluation  über  den virtuellen Schalter gemäss  dem  Kalender  der Fakultät einschreiben (Art. 33 und 34 Studienreglement).
+
+## 4 Evaluations
+
+## 4.1 Dispositions générales
+
+Un  crédit  ECTS  représente  en  moyenne  trente heures  de  travail  pour  l'étudiant·e.  Les  crédits ECTS sont attribués sur la base d'unités d'enseignement  jugées  suffisantes  (art. 3  chif. 7 et 14 du Règlement des études).
+
+L'enseignant · e informe les étudiant∙e∙s des modalités précises d'évaluation. L'évaluation d'une UE peut s'effectuer en une ou plusieurs parties qui peuvent être réalisées pendant le semestre et/ou pendant  une  session  d'examen.  Les  évaluations peuvent prendre la forme d'un examen oral ou écrit, d'un  travail  écrit,  d'un  exposé,  d'un  rapport,  d'un portfolio,  d'une  tâche  complexe, d'une activité de validation, etc. Dans  le cas d'une évaluation constituée de plusieurs parties, l'étudiant·e qui ne participe pas à toutes les parties obtient un échec à l'évaluation.
+
+Les indications concernant l'évaluation des UE de même que les modalités  pour  la  réalisation  et  la remise  des  travaux  écrits  sont  précisés  dans  les descriptifs des UE dans le programme des cours de l'Université de Fribourg. Pour les UE en français, des informations supplémentaires sont disponibles dans le « Guide de rédaction des travaux écrits », pour celles en allemand dans le « Schreibleitfaden » ainsi que dans les directives relatives aux travaux de séminaire et au Travail de Bachelor. Ces documents correspondants sont disponibles sur le site internet du Département des sciences de l'éducation.
+
+Les  unités  d'enseignement  sont  regroupées  en modules. Un module est validé une fois que toutes les unités d'enseignement qui le composent ont été réussies.
+
+## 4.2 Reconnaissances
+
+Hormis le Travail de Bachelor et le Seminararbeit , toutes les UE de ce programme d'études peuvent potentiellement  être  validées  par  le  biais  d'une reconnaissance formelle  (au  sens  de  l'art. 3  al. 5 des Directives reconnaissances), dans la limite du nombre  de  crédits  ECTS  maximal  prévu  (art. 3 al. 1).
+
+## 4.3 Inscription aux unités d'enseignement et aux évaluations
+
+L'étudiant·e doit s'inscrire pour chaque unité d'enseignement et chaque évaluation via le guichet virtuel selon le calendrier de la faculté (art. 33 et 34 du Règlement des études).
+
+Bei der  Anmeldung zu einem Praktikum im französischsprachigen  Bereich  melden  sich  die Studierenden  direkt  für  die  Bewertung  an,  damit das  Ergebnis  rechtzeitig  (auch  ausserhalb  der Prüfungssession)  eingegeben  werden  kann.  Eine Anmeldung zu einem Praktikum ist verbindlich und kann nicht storniert werden. Nicht eingeschriebene Studierende haben  keinen  Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Seminararbeit im Modul 6 stellt eine UE dar, die ausserhalb der Sessionen evaluiert wird.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder  «nicht  bestanden».  Die  für  die  benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben,  die  Noten  unterhalb  von  4  für  nicht bestandene  Leistungsnachweise  (Art. 22  und  23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden.  Gegebenenfalls  muss  sich  die  oder  der Studierende für den zweiten Versuch wieder einschreiben. Falls sie oder er den zweiten Versuch nicht  besteht,  gilt  diese  Unterrichtseinheit  oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für das betreffende Studienprogramm zuständigen Departementssekretariat  können  Studierende  in jedem  Studienprogramm  der  Fakultät  für  einen einzigen  Leistungsnachweis  und  nur  ein  einziges Mal einen dritten Versuch erhalten. Falls notwendig wird  für  diesen  dritten  Versuch  eine  zusätzliche Prüfungssession  gewährt.  Besteht  die  oder  der Studierende  diesen  einmaligen  dritten  Versuch nicht, so hat sie oder er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die Unterrichtseinheiten, für die ein dritter Versuch erlaubt ist, sind in Kapitel 3.3 aufgeführt.
+
+Wird ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Lors de l'inscription à un stage, l'étudiant·e s'inscrit directement  à  son  évaluation  afin  que  le  résultat puisse  être  entré  en  temps  voulu  (même  hors session). Une inscription à un stage est définitive et ne peut être annulée. Un·e étudiant·e non-inscrit·e ne peut pas prétendre à une évaluation.
+
+## 4.4 Unités d'enseignement hors session
+
+Le Seminararbeit du module 6 constitue une UE qui est évaluée hors session.
+
+## 4.5 Notation
+
+Les évaluations  sont  notées  ou  font  l'objet  d'une décision  « réussi »  ou  « échoué ».  L'échelle  de notation pour les évaluations notées se compose des notes entières et des demi-points de 1 à 6, où 6 est la meilleure note. Les notes de 6 à 4 qualifient les évaluations réussies, les notes en dessous de 4 qualifient les évaluations échouées (art. 22 et 23 du Règlement des études).
+
+## 4.6 Tentatives et échec définitif
+
+Une évaluation échouée équivaut à un échec. Une évaluation échouée peut être répétée une fois. Si l'étudiant·e  ne  réussit  pas  la  deuxième  tentative, il/elle est en échec définitif à l'unité d'enseignement ou au module. Sur demande auprès du secrétariat du Département, l'étudiant·e peut obtenir l'accès à une troisième tentative, pour une seule évaluation et une seule fois dans chaque programme d'études de la Faculté. Si nécessaire, une session d'examens supplémentaire est accordée pour cette troisième  tentative.  S'il/elle  ne  réussit  pas  cette unique  troisième  tentative,  il/elle  est  en  échec définitif à l'unité d'enseignement ou au module.
+
+Les  unités  d'enseignement  pour  lesquelles  une troisième  tentative  est  autorisée  sont  précisées dans le chapitre 3.3.
+
+En cas d'échec définitif  dans  un  programme d'études, l'étudiant·e ne peut plus poursuivre ses études dans ce programme d'études pendant une période de cinq ans à partir de la session d'examens concernée (art. 24  du  Règlement  des études).
+
+Das Studium gilt als endgültig nicht bestanden und kann  nicht  fortgesetzt  werden,  wenn  eines  der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE wurde innerhalb von vier Prüfungssessionen nicht bestanden (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen  oder  gerechtfertigter Abwesenheit);
+- die  maximal  zulässige  Studiendauer  gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Die  Abschlussnote, die als Grundlage  für die Vergabe des Prädikats dient, ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der validierten Module dieses Studienprogramms;  die  Note  eines  Moduls  ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt  der  Noten  der  Unterrichtseinheiten, aus  denen  es  sich  zusammensetzt  (Art. 41  des Studienreglement).
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der vorliegende Studienplan tritt im Herbstsemester  2025  in  Kraft.  Er  gilt  für alle Studierenden, die ihr Studium ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum Zeitpunkt des Inkrafttretens dieses Studienplans bereits im Bachelorprogramm Pädagogik/Psychologie , Bereich I,  120  ECTSKreditpunkte der Philosophischen Fakultät eingeschrieben waren, unterliegen diesem Studienplan.  Die  vollständige  Anerkennung  der erworbenen  ECTS-Kreditpunkte  ist  gewährleistet. Während der Übergangszeit entscheidet die Studienprogramm-verantwortliche, welche Unterrichtseinheiten  gemäss  diesem  Studienplan diejenigen ersetzen, die eventuell nicht mehr angeboten werden.
+
+Les  études  sont  considérées  comme  échouées définitivement et ne peuvent être poursuivies si l'un des critères suivants est rempli :
+
+- l'UE obligatoire n'a pas été validée lors des deux tentatives (exception faite de l'éventuelle troisième tentative) ;
+- l'UE  obligatoire  n'a  pas  été  validée  dans  les quatre  sessions  (exception  faite  du  report  de session en raison de conflit horaire ou d'absence justifiée) ;
+- la  durée  maximale  autorisée  pour  les  études (selon  art. 10  du  Règlement  des  études)  est dépassée.
+
+## 4.7 Note finale
+
+La note finale servant de base à l'attribution de la distinction résulte de la moyenne non arrondie et non pondérée des notes des modules validés de ce programme d'études ; la note d'un module résulte de la moyenne non arrondie et non pondérée des notes des unités d'enseignement qui le composent (art. 41 du Règlement des études).
+
+## 5 Entrée en vigueur et dispositions transitoires
+
+Le  présent  plan  d'études  entre  en  vigueur  au semestre d'automne 2025. Il s'applique à chaque étudiant·e qui commence sa formation à partir du semestre d'automne 2025.
+
+L'étudiant·e qui, au moment de l'entrée en vigueur du présent plan d'études, était déjà inscrit·e dans le programme  Bachelor  en Pédagogie/Psychologie , domaine  I,  120  crédits  ECTS  de  la  Faculté  des lettres et des Sciences humaines est soumis·e au présent plan d'études. Une reconnaissance complète des crédits acquis est garantie. Durant la période transitoire, le ou la responsable de programme d'études décide quelles unités d'enseignement  selon  le  présent  plan  d'études remplacent les unités qui ne seraient éventuellement plus proposées.

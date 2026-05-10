@@ -1,0 +1,353 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:49:46.139Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_Sport-_und_Bewegungswissenschaften_nbsp_Unterricht_32328ad58f8d1ddee34285c15cdb968753465dca",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "32328ad58f8d1ddee34285c15cdb968753465dca",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 150,
+  "program_name": "Sport Sciences and Motor Control",
+  "doc_label": "Hauptfach Sport- und Bewegungswissenschaften /&nbsp;Unterricht",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2019/Plan_BSc_SP-E_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_Sport-_und_Bewegungswissenschaften_nbsp_Unterricht_32328ad58f8d1ddee34285c15cdb968753465dca.pdf",
+  "sha256": "a4b5dee2927bbc6444a85a4813af8d1625e2d6052a1b301cfa130777c389472f",
+  "fetched_at": "2026-04-03T11:27:42.844Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2019/Plan_BSc_SP-E_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_SP-E_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Studienplan für den Erwerb des
+
+## Bachelor of Science in Sport- und Bewegungswissenschaften
+
+Option Unterricht
+
+Angenommen von der Math.-Nat. und Med. Fakultät am 19.03.2007 Revidierte Version vom 27.05.2019
+
+## Inhaltsverzeichnis
+
+|   1 | ALLGEMEINES .................................................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1 | Universitäre Abschlüsse und Studiengänge ................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 1.2 | Zulassungsbedingungen ................................................................................................................... 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|     | Aufbau des Studiums.........................................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|     | 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 1.3 | 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 1.4 | Erlangte Kompetenzen.......................................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 1.6 | Unterrichtssprachen........................................................................................................................... 5 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 1.7 | Wissenschaftsethik ............................................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 1.8 | Reglemente und zusätzliche Informationen .................................................................................... 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 2   | BACHELOR OF SCIENCE (BSC-SPORT-U)....................................................................... 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 2.1 | Das erste Studienjahr......................................................................................................................... 6 2.1.1 Unterrichtseinheiten des ersten Jahres.................................................................................................6 2.1.2 Inhalt der Unterrichtseinheiten des ersten Jahres...............................................................................7 2.1.2.1 Wissenschaftliche Ausbildung.............................................................................................................................7 2.1.2.2 Praktisch-methodische Ausbildung .....................................................................................................................8 |
+| 2.2 | Das zweite und dritte Studienjahr..................................................................................................... 9 2.2.1 Inhalt der UE des zweiten und dritten Jahres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 2.3 | .......................................................................................9 2.2.1.1 Wissenschaftliche Ausbildung.............................................................................................................................9 2.2.1.2 Praktisch-methodische Ausbildung ...................................................................................................................10                                                                                                                                                                                                                                                                                                                                                 |
+|     | Prüfungen.......................................................................................................................................... 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|     | Praktisch-methodische Ausbildung ............................................................................................... 2.4.1 Übersichtstabelle der                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 2.4 | 11 Unterrichtseinheiten.........................................................................................11 Bemerkung:....................................................................................................................................................................11                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+## 1 Allgemeines
+
+Der vorliegende Studienplan beinhaltet alle notwendigen Informationen für Studierende, die das Studium  der  Sport-  und  Bewegungswissenschaften  an  der  Universität  Freiburg  aufnehmen möchten. Der Studienplan unterliegt dem Reglement vom 2. Februar 2004 für die Erlangung der Bachelor of Science und der Master of Science (nachfolgend 'Reglement').
+
+## 1.1  Universitäre Abschlüsse und Studiengänge
+
+Die Mathematisch-Naturwissenschaftliche und Medizinische Fakultät verleiht den Studierenden, die dieses Studium erfolgreich abgeschlossen haben, folgenden offiziellen Titel:
+
+-  Bachelor of Science in Sport- und Bewegungswissenschaften, Option: Unterricht (U), Universität Freiburg (nachfolgend 'BSc-Sport-U').
+
+Der Studiengang BSc-Sport-U bietet eine Grundausbildung in den Sportund Bewegungswissenschaften  an.  Die  vermittelten  allgemeinen  Kenntnisse  und  die  Methoden bilden eine notwendige Basis für ein breites Spektrum an Berufsrichtungen im Sportunterricht an Schulen  der Sekundarstufe  I oder II.  Der  BSc-Sport-U  ermöglicht  eine  Vertiefung  der wissenschaftlichen  Ausbildung  im  Bereich  der  verschiedenen MSc in  Sport-  und  Bewegungswissenschaften .
+
+## 1.2  Zulassungsbedingungen
+
+Alle Inhaber eines eidgenössischen Maturitätzeugnisses oder eines als gleichwertig eingestuften Abschlusses sind zum Bachelorstudium BSc-Sport-U zugelassen (vgl. Art. 6 des Reglements).
+
+Die  Anmeldung  hat  bei  der  Dienststelle  für  Zulassung  und  Einschreibung  zu  erfolgen.  Die Einschreibung ist vorerst provisorisch und wird erst nach bestandenem Test der physischen und motorischen Fähigkeiten sowie mit dem Nachweis eines guten Gesundheitszustandes definitiv .
+
+## 1.2.1  Test der physischen und motorischen Fähigkeiten
+
+StudienbewerberInnen  für  den  BSc-Sport-U  müssen  vorab  einen  Eintrittstest  ihrer  physischen und motorischen Fähigkeiten absolvieren (https://www3.unifr.ch/med/de/studium/bachelor/sport/tkmf.html). Das Bestehen dieses Tests ist eine Bedingung, um definitiv zu diesem Studiengang zugelassen zu werden.
+
+Wegen begrenzter Kapazitäten der Sporteinrichtungen ist die Anzahl der StudienanfängerInnen auf 50 pro Jahr festgelegt. Falls  die  Anzahl  der  KandidatInnen  mit  bestandenem  Eignungstest die  Anzahl  der verfügbaren Studienplätze übersteigt, werden die  Studienplätze  gemäss einer kantonalen  Verordnung (siehe  http://www3.unifr.ch/apps/legal/de/document/784364) in der Reihenfolge ihrer Testergebnisse zugewiesen.
+
+## 1.2.2  Gesundheitszustand
+
+Anlässlich der Informationssitzungen mit dem Studienberater oder der Studienberaterin werden die  Studierenden  über  die  physischen  Anforderungen  dieser  Studiengänge  informiert.  Die Studierenden  müssen  ihren  guten  Gesundheitszustand  bezeugen  und  ein  ärztliches  Zeugnis vorlegen.
+
+## 1.3  Aufbau des Studiums
+
+Das  Bachelorstudium  besteht  aus Unterrichtseinheiten  (UE) wie  Vorlesungen,  Seminaren, Übungen, Workshops, Praktika usw. Jede UE ist mit einer Anzahl ECTS-Punkten ( European Credit  Transfer  System )  dotiert,  die  durch  Bewertung  (beispielsweise  Prüfungen)  in  ECTSKredite umgewandelt werden. Das Bachelorstudium erfordert 180 ECTS-Kredite (6 Semester). Der BSc-Sport-U besteht aus einem Hauptfach von 120 ECTS und einem Zusatzfach von 60 ECTS. Das Hauptfach enthält im ersten Jahr UE des wissenschaftlichen und des praktisch-methodischen Teils der Sport- und Bewegungswissenschaften. Die UE des ersten Jahres werden in den zwei folgenden Jahren durch zahlreiche Kurse in Sport- und Bewegungswissenschaften ergänzt. Für die  Option  Unterricht  wählen  die  Studierenden  ein Zusatzfach ,  das  im  Katalog  der  auf Sekundarstufe I oder II unterrichteten Fächer aufgeführt ist.
+
+Der Studienplan sieht UE in verschiedenen Formen vor:
+
+-  Vorlesungen führen  die  Studierenden  in  die  Methoden  des  präzisen  wissenschaftlichen Arbeitens ein.  Sie  dienen  der  Aneignung  von  notwendigen  Kenntnissen  und  helfen fundamentale Konzepte zu verstehen.
+-  Seminare helfen  die  Theorie  zu  vertiefen,  zu  bearbeiten  und  anzuwenden.  Studierende erhalten Dokumentationen zu spezifischen Themen und bereiten Präsentationen vor. Das Ziel ist  einerseits, die Vertiefung der Theorie und andererseits der Erwerb der Fähigkeiten, sich selbstständig  in  ein  Thema  einzuarbeiten  und  Erkenntnisse  mit  geeigneten  didaktischen Mitteln und  Präsentationstechniken zu präsentieren.
+-  Workshops zielen darauf ab, die Verknüpfung  von  Theorie und Praxis durch die Zusammenarbeit  von  Wissenschaftlern  und  Praktikern  zu  verstärken.  Auf  theoretischen Erläuterungen  aufbauend  erhalten  die  Studierenden  den  Auftrag,  motorische  Verhaltensweisen im Rahmen von ausgewählten Aktivitäten zu beobachten und zu analysieren.
+-  Kurse mit praktischen Arbeiten sind auf das Studium und die Ausübung von Bewegungsund Sportaktivitäten aus den verschiedenen Bewegungsbereichen ausgerichtet.
+
+## 1.4  Erlangte Kompetenzen
+
+Mit  der  Erlangung  eines BSc  in  Sport-  und  Bewegungswissenschaften,  Option  Unterricht , verfügen die Studierenden über die wissenschaftlichen Grundlagen und die allgemeinen Kenntnisse in ihrem Hauptfach und haben einen umfassenden Überblick über das das Gebiet. Sie verfügen über die  Kompetenz,  fachliche  Zusammenhänge  zu  erkennen  und  ein  kritisches  Denken  entwickelt, welches es ihnen erlaubt, ihr Studium zu vertiefen oder sich auf ihrem Gebiet zu spezialisieren.
+
+Mit  einem Zusatzfach im  Rahmen  des  BSc  entwickeln  die  Studierenden  einen  Zugang  zur Interdisziplinarität, der es ihnen erleichtert, mit Fachleuten anderer Disziplinen zu kommunizieren und zusammen zu arbeiten.
+
+Dank  der zweisprachigen  Ausbildung kennen  die  Studierenden  die  Fachbegriffe  in  beiden Sprachen und sind fähig, ein Fachgespräch sowohl auf Deutsch als auch auf Französisch zu führen.
+
+## 1.5  Bewertung der Unterrichtseinheiten (UE) und Erwerb der ECTSKreditpunkte
+
+Der Erwerb der ECTS-Kreditpunkte erfolgt in drei Schritten: Bewertung der UE, Gruppierung der UE  in Anrechnungseinheiten und Anrechnung der zugehörigen ECTS-Punkte. Im Allgemeinen wird jede UE einzeln evaluiert.
+
+Die Bewertung der Vorlesungen, der Seminare und der Kurse mit praktischen Arbeiten erfolgt  durch  mündliche,  schriftliche  und/oder  praktische  Prüfungen,  deren  Dauer  im  Anhang dieses  Studienplanes Bewertung der UE in Sportwissenschaften bestimmt  ist.  Die Bewertung der  Übungen,  der  praktischen  Arbeiten  und  der  Workshops erfolgt nach Kriterien
+
+(abgegebene  Berichte,  schriftliche  Arbeiten,  Vorträge/Referate,  etc.)  welche  zu  Beginn  des Semesters  mitgeteilt  werden.  Eine  als  genügend  beurteilte  Leistung  bei  den  Übungen,  den praktischen Arbeiten und den Workshops ist Voraussetzung für die Teilnahme an der Prüfung des entsprechenden Kurses.
+
+Die  Prüfungen  finden  während  drei  Prüfungssessionen  (Frühling,  Sommer,  Herbst)  statt;  eine Ausnahme gilt für die praktischen Prüfungen grundsätzlich am Ende des Kurses (während des Semesters) durchgeführt werden. Die Studierenden müssen, wenn keine Sonderbewilligung vorliegt, die Prüfungen des Niveau-II-Kurses vor dem Besuch des Niveau-III-Kurses absolvieren.
+
+Die  Studierenden  schreiben  sich  für  jede  Prüfung  innerhalb  der  vorgegebenen  Frist  beim Dekanat  der  Mathematisch-Naturwissenschaftlichen  und  Medizinischen  Fakultät  ein; dies geschieht mittels des Studierendenportals (https://my.unifr.ch/). Der Prüfungsstoff bezieht sich auf  den  Inhalt  des  Kurses  so  wie  er  zuletzt  unterrichtet  wurde.  Ausnahmen  werden  durch  das Departement  und/oder  die  Unterrichtsperson  entsprechend  bekannt  gegeben.  Die  Notenskala geht  von  6  (beste  Note)  bis  1  (schlechteste  Note).  Eine  Prüfung  mit  einer  Note  unter  4  kann einmal und zwar frühstens in der darauffolgenden Prüfungssession wiederholt werden.
+
+Die Anrechnungseinheiten fassen  mehrere  UE  zusammen,  die  getrennt  in  unterschiedlichen Prüfungssessionen  evaluiert  werden  können.  Die  Anzahl  der  Anrechnungseinheiten  ist  durch Art. 18 des Reglements bestimmt und deren Inhalt wird in diesem Studienplan festgelegt.
+
+Die Anrechnung der ECTS-Kredite (Art. 19 des Reglements) besteht in der Umwandlung der ECTS-Punkte jeder UE in ECTS-Kredite, sofern folgende Bedingungen erfüllt sind:
+
+-  Das  gewichtete  Mittel  der  Prüfungsnoten  der  Anrechnungseinheit  beträgt  mindestens  4.0. Die Gewichtung wird durch die der UE zugeordnete Anzahl ECTS-Punkte bestimmt.
+-  Die  Bewertungskriterien  der  nicht  geprüften  UE  (praktische  Arbeiten,  Übungen  usw.) wurden erfüllt.
+-  Es wurde keine Note 1 erzielt.
+
+Unter  diesen  Voraussetzungen  sind  die  Anrechnungseinheiten  validiert  und  die  ECTS-Punkte werden in ECTS-Kredite umgewandelt. Auf Anfrage und nach Bezahlung der Prüfungsgebühr erhalten die Studierenden vom Dekanat eine Bestätigung, welche die Evaluationsresultate und die Anzahl erworbener Kredite aufführt (Art. 22 des Reglements).
+
+## 1.6  Unterrichtssprachen
+
+Die Lehrveranstaltungen im Bachelorstudium erfolgen entweder in französischer oder deutscher Sprache. Die Studierenden haben jedoch immer die Wahl, sich in der einen oder der anderen Sprache  auszudrücken.  Dies  gilt  insbesondere  auch  für  die  Prüfungen,  Präsentationen  und schriftlichen Arbeiten.
+
+## 1.7  Wissenschaftsethik
+
+Ethische  Grundsätze  sind  integraler  Bestandteil  der  wissenschaftlichen  Ausbildung.  Beim Erstellen  und  Verfassen  von  wissenschaftlichen  Arbeiten  (Projekte,  Seminararbeiten,  Berichte usw.)  sind  die  international  geltenden  Regeln  einzuhalten.  Insbesondere  sind  alle  externen Informationsquellen (Artikel, mündliche Aussagen, Web-Seiten usw.) korrekt zu zitieren.
+
+## 1.8  Reglemente und zusätzliche Informationen
+
+Weitere Informationen zum Studium in Sport- und Bewegungswissenschaften finden sich in den Dokumenten,  die  auf  der  Webseite  http://www3.unifr.ch/scimed/plans  aufgeführt  sind.  Sie können diese auch auf der Webseite der Abteilung Medizin (http://www.unifr.ch/med) oder beim Sekretariat  der  Einheit  Bewegungs-  und  Sportwissenschaften  der  Universität  Freiburg,  Bd  de Pérolles 90, CH-1700 Freiburg beziehen.
+
+## 2 Bachelor of Science (BSc-Sport-U)
+
+[Version 2018, Anrechnungseinheiten: PV-SSP.0000002, PV-SSP.0000003]
+
+Das  Bachelorstudium  BSc-Sport-U  erstreckt  sich  über  3  Jahre,  was  180  ECTS-Kreditpunkten entspricht.  Es  beinhaltet  das  Hauptfach  in  Sport-  und  Bewegungswissenschaften  (120  ECTSKreditpunkte) und ein Zusatzfach (60 ECTS-Kreditpunkte).
+
+## 2.1  Das erste Studienjahr
+
+Eines  der  Ziele  im  ersten  Studienjahr  in  Sport-  und  Bewegungswissenschaften  ist,  den Studierenden  einen  reibungsfreien  Übergang  vor  der  Sekundarstufe  II  an  die  Universität  zu gewährleisten. Damit die Studierenden ihre Fähigkeiten überprüfen und sich überzeugen können, die richtige Option gewählt zu haben, wurden die UE dieses Jahres zu einer ersten Anrechnungseinheit zusammengefasst. Diese erste Anrechnungseinheit ist identisch mit derjenigen des BScSport Option Gesundheit - Leistung - Forschung.
+
+## 2.1.1  Unterrichtseinheiten des ersten Jahres
+
+| Code      | Unterrichtseinheit                                                       | Semester   |   Std. |   ECTS |
+|-----------|--------------------------------------------------------------------------|------------|--------|--------|
+|           | Wissenschaftliche Ausbildung                                             |            |        |        |
+| SMO.00630 | Deskriptive Anatomie                                                     | HS         |     28 |      3 |
+| SPY.00110 | Physiologie und Physiopathologie der grossen Regulationssysteme, Teil I  | HS         |     28 |      3 |
+| SPY.00111 | Physiologie und Physiopathologie der grossen Regulationssysteme, Teil II | FS         |     28 |      3 |
+| SSP.00600 | Sportpsychologie (Vorlesung)                                             | HS         |     28 |      3 |
+| SSP.00604 | Sportpsychologie (Seminar)                                               | HS         |     28 |      3 |
+| SSP.00625 | Sensorik und Wahrnehmung (Vorlesung)                                     | FS         |     28 |      3 |
+| SSP.00626 | Sensorik und Wahrnehmung (Workshop)                                      | FS         |     14 |      2 |
+| SSP.00700 | Bewegungslernen I (Vorlesung)                                            | HS         |     28 |      3 |
+| SSP.00702 | Bewegungslernen I (Seminar)                                              | FS         |     28 |      3 |
+| SSP.00760 | Biomechanik der Bewegung I (Vorlesung)                                   | FS         |     28 |      3 |
+| SSP.00765 | Biomechanik der Bewegung I (Workshop)                                    | FS         |     14 |      2 |
+| SSP.00770 | Funktionelle Anatomie, sportspezifisch (Vorlesung)                       | FS         |     28 |      3 |
+| SSP.00772 | Funktionelle Anatomie, sportspezifisch (Workshop)                        | FS         |     14 |      2 |
+| SSP.00792 | Quantitative Forschungsmethoden, Einführungskurs                         | HS         |     28 |      3 |
+| SSP.00793 | Einführung in wissenschaftliches Arbeiten (Seminar)                      | HS         |     28 |      3 |
+|           |                                                                          |            |        |     42 |
+
+| Praktisch-methodische   | Praktisch-methodische      |           |       |    |
+|-------------------------|----------------------------|-----------|-------|----|
+| SSP.00780               | * Grundlagen Spiele        | HS        | 14    |  1 |
+| SSP.00789               | * Grundlagen Schneesport § | HS        | 14    |  1 |
+| SSP.00801               | * Basketball I             | HS        | 28    |  1 |
+| SSP.00807               | * Basketball II            | FS        | 28    |  2 |
+| SSP.00812               | * Geräteturnen I           | HS        | 28    |  1 |
+| SSP.00813               | * Geräteturnen II          | FS        | 28    |  2 |
+| SSP.00825               | * Schwimmen I              | HS        | 28    |  1 |
+| SSP.00821               | * Schwimmen II §§          | FS        | 28    |  2 |
+| SSP.00831               | * Leichtathletik I         | HS        | 34    |  1 |
+| SSP.00832               | * Leichtathletik II        | FS        | 34    |  2 |
+| SSP.00834               | * Ski alpin §§§            | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00836               | Snowboard §§§              | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00851               | * Fitness mit Musik I      | HS        | 28    |  1 |
+| SSP.00852               | * Fitness mit Musik II     | FS        | 28    |  2 |
+|                         |                            |           |       | 19 |
+
+Anmerkung : Unterrichtseinheiten mit einem '*' sind obligatorisch für Studierende, die sich dem Unterricht auf Sekundarstufe I oder II zuwenden wollen.
+
+## 2.1.2    Inhalt der Unterrichtseinheiten des ersten Jahres
+
+## 2.1.2.1  Wissenschaftliche Ausbildung
+
+-  Die  Vorlesung Deskriptive  Anatomie (SMO.00630)  beschäftigt  sich  mit  dem  Aufbau  des Skeletts und des Bewegungsapparates sowie mit dem Kreislauf-, Atmungs- und Verdauungssystem.
+-  Die Vorlesung Physiologie und Physiopathologie der grossen Regulationssysteme, Teil I und II (SPY.00110, SPY.00111), behandelt über zwei Semester die zentralen Funktionssysteme des  menschlichen  Körpers  (Allgemeines,  Herzkreislauf-,  Nieren-,  Atmungs-,  Verdauungsund Hormonsystem) unter dem Blickwinkel der physiologischen Regulationsmechanismen. Mitunter werden die Studierenden auch mit pathophysiologischen Problemstellungen konfrontiert.
+-  Die Sportpsychologie (SSP.00600)  behandelt  die  Motivationsdeterminanten  der  Leistung sowie den Einfluss von emotionalen Faktoren auf die Leistung. Das Ziel ist es, theoretische Grundlagen zu liefern, um den Ursprung des Verhaltens besser zu verstehen (Bedürfnisse, Wünsche, Ziele). Des Weiteren werden eventuelle Motivations- und/oder Gefühlshindernisse für das Lernen und die Leistung identifiziert und behandelt.
+-  Die  Vorlesung Sensorik  und  Wahrnehmung (SSP.00625)  stellt  die  Sinnesorgane  und neuralen  Strukturen  vor,  die  unserer  Wahrnehmung  von  Raum  und  relativen  Bewegungen zwischen  dem  Körper  und  der  Umwelt  zugrunde  liegen.  Der  Schwerpunkt  liegt  auf  den Prozessen,  die  von  der  Erkennung  und  'Transduktion'  von  'physischen'  Signalen  bei  der Wahrnehmung und Repräsentationen der umgebenden Welt vorkommen.
+-  Das Bewegungslernen  I (SSP.00700)  behandelt  verschiedene  Kategorien,  Strömungen, Stadien  und  Strategien  des  Lernens,  setzt  sich  mit  verschiedenen  individual-typischen Verhaltensmustern  angesichts  neuer  Situationen  im  Sport  auseinander  und  untersucht Faktoren, die das Bewegungslernen beeinflussen.
+
+-  Die Vorlesung Biomechanik der Bewegung I (SSP.00760) befasst sich mit den Grundlagen der  Disziplin  angesichts  der  komplexen  motorischen  Fertigkeiten  in  den  verschiedenen aktuellen Sportarten. Basiskenntnisse der Physik werden nach Bedarf eingebaut.
+-  Die  Vorlesung Funktionelle  Anatomie  (sportspezifisch) (SSP.00770)  beschäftigt  sich  mit dem Studium der Körperfunktionen (Flexibilität - Stabilität - Einschränkungen), die bei der Ausführung von Bewegungsaufgaben zum Tragen kommen.
+-  Die  Vorlesung Quantitative  Forschungsmethoden, Einführungskurs (SSP.00792)  vermittelt verschiedene  Werkzeuge  und  Methoden,  die  eine  Zusammenfassung  bzw.  Synthese  der Daten  sowie  das  Herstellen  von  Beziehungen  zwischen  den  Variablen  ermöglicht.  Ein besonderer Schwerpunkt sind dabei die Zusammenhänge zwischen unterschiedlichen Typen von Variablen und Massstäben sowie graphischen Repräsentationen, Tendenzund Streuungsindexe auf welche sie hinweisen. Es werden ebenfalls Methoden und Indexe zur Messung des Verhältnisses zwischen zwei Variablen vorgestellt.
+-  Das  Seminar Einführung  in  wissenschaftliches  Arbeiten (SSP.00793)  hat  zum  Ziel,  den Studierenden  die  zum  Verfassen  wissenschaftlicher  Artikel  und  Arbeiten  notwendigen Kenntnisse und Werkzeuge beizubringen.
+
+## 2.1.2.2  Praktisch-methodische Ausbildung
+
+Kurse mit praktischen Arbeiten sind auf das Studium und die Ausübung von Bewegungs- und Sportaktivitäten aus den verschiedenen Bewegungsbereichen ausgerichtet.
+
+Die wichtigsten Lernziele sind:
+
+-  Entwicklung der Beziehung zu sich selbst, zu den anderen und zur Umwelt durch den Sport
+-  Analyse der motorischen Fähigkeiten durch die Verwendung von Konzepten und Analysemodellen
+-  Erwerb  von  technischen,  taktischen,  sozialen  und  persönlichen  Kompetenzen  in  allen Handlungsfeldern der sportlichen Aktivitäten
+-  Kenntnis  der  Reglemente,  der  Präventionsmöglichkeiten  und  Sicherheitsvorkehrungen  für die Sportpraxis
+
+Für  jede  UE  ist  eine  detaillierte  Beschreibung,  insbesondere  der  Lernziele,  verfügbar  im Vorlesungsverzeichnis (http://www.unifr.ch/timetable).
+
+## 2.2  Das zweite und dritte Studienjahr
+
+Im zweiten und dritten Studienjahr sind neben den Unterrichtseinheiten des Hauptfachs UE im Umfang von 60 ECTS-Kreditpunkten im gewählten Zusatzfach zu besuchen. Die Evaluationen all dieser UE finden auf die zwei Jahre verteilt statt. Es obliegt den Studierenden, diese zeitlich gleichmässig zu verteilen, um ihr Bachelorstudium in den vorgesehenen 3 Jahren abzuschliessen.
+
+| Code      | Unterrichtseinheit                                                                                                                                                                                                                                                                                                           | Semester                                                                                                                                                                                                                                                                                                                     | Std.                                                                                                                                                                                                                                                                                                                         |   ECTS |
+|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+|           | Wissenschaftliche Ausbildung                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                              |        |
+| SSP.00610 | Sportphysiologie (Vorlesung)                                                                                                                                                                                                                                                                                                 | HS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00613 | Sportphysiologie (Workshop)                                                                                                                                                                                                                                                                                                  | HS                                                                                                                                                                                                                                                                                                                           | 14                                                                                                                                                                                                                                                                                                                           |      2 |
+| SSP.00640 | Einführung in die Sportpädagogik                                                                                                                                                                                                                                                                                             | HS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00710 | Trainingslehre I (Vorlesung)                                                                                                                                                                                                                                                                                                 | HS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00712 | Trainingslehre I (Seminar)                                                                                                                                                                                                                                                                                                   | FS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00740 | Sportsoziologie (Vorlesung)                                                                                                                                                                                                                                                                                                  | FS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00741 | Sportsoziologie (Seminar)                                                                                                                                                                                                                                                                                                    | FS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+| SSP.00751 | Traumatologie und Prävention im Sport (Vorlesung)                                                                                                                                                                                                                                                                            | HS                                                                                                                                                                                                                                                                                                                           | 28                                                                                                                                                                                                                                                                                                                           |      3 |
+|           |                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                              |     23 |
+|           | Praktisch-methodische Ausbildung Die UE dieser Ausbildung von insgesamt 36 ECTS-Kreditpunkten sind entweder obligatorisch zu belegen oder frei wählbar. Unterrichtseinheiten mit einem '*' sind obligatorisch für Studierende, die sich dem Unterricht auf Sekundarstufe I oder II zuwenden wollen. (vgl. Übersichtstabelle) | Praktisch-methodische Ausbildung Die UE dieser Ausbildung von insgesamt 36 ECTS-Kreditpunkten sind entweder obligatorisch zu belegen oder frei wählbar. Unterrichtseinheiten mit einem '*' sind obligatorisch für Studierende, die sich dem Unterricht auf Sekundarstufe I oder II zuwenden wollen. (vgl. Übersichtstabelle) | Praktisch-methodische Ausbildung Die UE dieser Ausbildung von insgesamt 36 ECTS-Kreditpunkten sind entweder obligatorisch zu belegen oder frei wählbar. Unterrichtseinheiten mit einem '*' sind obligatorisch für Studierende, die sich dem Unterricht auf Sekundarstufe I oder II zuwenden wollen. (vgl. Übersichtstabelle) |     36 |
+
+Ab  dem  zweiten  Jahr  können  die  Studierenden  gewisse  UE  des  Zusatzfachs  (60  ECTSKreditpunkte) belegen. Die von dem/den betroffenen Departement/en angebotenen UE sind in den Studienplänen für die propädeutischen Fächer und Zusatzfächer der Math.-Nat. und Med. Fakultät der Universität Freiburg (http://www3.unifr.ch/scimed/de/plans/minor) aufgelistet. Es ist  Aufgabe  der  Studierenden,  sich  frühzeitig  über  das  Studienprogramm  zu  informieren,  um einen optimalen Stundenplan für den Besuch der UE des Zusatzfachs erstellen zu können.
+
+## 2.2.1 Inhalt der UE des zweiten und dritten Jahres
+
+## 2.2.1.1  Wissenschaftliche Ausbildung
+
+-  Die Vorlesung Sportphysiologie (SSP.00610) behandelt das neuromuskuläre System sowie die Hauptfaktoren der Kraftentwicklung, des Energiestoffwechsels und der Hormonregulierung, des Herzkreislauf- und Atemsystems, und erörtert ihre Anpassung an die Übung und das Training.
+-  Die  Sportpädagogik  behandelt  die  Beziehung  zwischen  der  körperlichen  und  sportlichen Aktivität und der Erziehung. Der Kurs Einführung in die Sportpädagogik (SSP.00640) bietet die  theoretischen  Grundlagen  der  Erziehung  im  und  durch  den  Sport.  Er  bedient  sich  der Theorien  der  Erziehungswissenschaften,  um  geeignete  und  angepasste  Methoden  für  den Sportunterricht zu entwickeln.
+-  Die Trainingslehre I (SSP.00710) wendet sich den grundlegenden Parametern des Leistungssports zu, um das Training allgemein planen zu können.
+-  Das Seminar: Trainingslehre I (SSP.00712) wendet sich den grundlegenden Determinanten des  Leistungssports  zu,  um  das  persönliche  Training  optimal  planen  und  begleiten  zu können.
+-  Die Sportsoziologie (SSP.00740)  behandelt den Sport unter dem  Blickwinkel  seiner identitäts-stiftenden  Funktion,  beleuchtet  verschiedene  Sportarten  im  Zusammenhang  mit verschiedenen  sozialen  Schichten,  betrachtet  die  historische  Entwicklung  des  Spiels  im Sport, untersucht Werte und Ideologien von Jugendorganisationen, handelt von Sportidealen und Doping, von modernen und sogenannten Fun-Sportarten, von interkulturellen
+
+Differenzen  im  Sport,  von  sportlichen  Vorbildern  und  von  Sport  im  Kontext  unserer Zivilisation.
+
+-  Die Vorlesung in Traumatologie und Prävention im Sport (SSP.00751) erforscht einerseits die  hauptsächlichen  Sportverletzungen,  ihre  Ursachen  und  angemessenen  Behandlungen (inklusive Notfalleingriffe), andererseits versucht sie, das Präventionsund die Sicherheitsdenken im Sportunterricht zu fördern und in den verschiedenen Handlungsfeldern umzusetzen.
+
+## 2.2.1.2  Praktisch-methodische Ausbildung
+
+Kurse mit praktischen Arbeiten sind auf das Studium und die Ausübung von Bewegungs- und Sportaktivitäten aus den verschiedenen Bewegungsbereichen ausgerichtet.
+
+Die wichtigsten Lernziele sind:
+
+-  Entwicklung der Beziehung zu sich selbst, zu den andern und zur Umwelt durch den Sport
+-  Erwerb  von  technischen,  taktischen,  sozialen  und  persönlichen  Kompetenzen  in  allen Handlungsfeldern der sportlichen Aktivitäten
+-  Analyse der motorischen Fähigkeiten anhand von Konzepten und Analysemodellen
+-  Kenntnis  der  Reglemente,  der  Präventionsmöglichkeiten  und  Sicherheitsvorkehrungen  für die Sportpraxis
+
+Für jede UE  findet sich eine detaillierte  Beschreibung,  insbesondere  der Lernziele,  im Vorlesungsverzeichnis (http://www.unifr.ch/timetable).
+
+## 2.3  Prüfungen
+
+Die Anrechnungseinheit BP1 umfasst alle UE des ersten Jahres und berechtigt zum Erwerb von 61 ECTS-Punkten. Damit die Anrechnungseinheit BP1 validiert wird, müssen dazu die Kurse SSP.00789, SSP.00812, SSP.00825 und SSP.00831 bestanden sein.
+
+Die  UE  des  ersten  Jahres  müssen  obligatorisch  am  Ende  des  4.  Semesters 1 validiert  werden. Wenn  dies  nicht  der  Fall  ist,  können  die  Studien  in  Sport-  und  Bewegungswissenschaften definitiv nicht mehr weitergeführt werden.
+
+Die Anrechnungseinheit BP2 umfasst die UE des zweiten und dritten Jahres des Hauptfaches, die nicht zum Zusatzfach gehören, und entspricht 59 ECTS-Kreditpunkten.
+
+Wenn  Studierende  zu  viele  ECTS-Kreditpunkte  der  praktisch-methodischen  Ausbildung  zur Validierung  einer  Anrechnungseinheit  besitzen,  können  sie  -  sofern  dies  möglich  ist  -  die zusätzlichen  bzw.  überzähligen  ECTS-Kreditpunkte  zu  einer  anderen  Anrechnungseinheit transferieren, die dem chronologischen Ablauf der Prüfungsdaten entspricht.
+
+Die Anrechnungseinheiten ZF60 fassen die UE des Zusatzfaches, die gemäss dem Studienplan evaluiert werden, zusammen. Insgesamt werden im Zusatzfach 60 ECTS-Kreditpunkte verliehen. Ein nicht bestandenes Zusatzfach kann durch ein anderes Zusatzfach ersetzt werden.
+
+## Anrechnungseinheiten
+
+| 1. Jahr             | Anrechnungseinheit BP1 Wissenschaftliche Ausbildung 42 ECTS + Praktische Ausbildung 19 ECTS             | Anrechnungseinheit BP1 Wissenschaftliche Ausbildung 42 ECTS + Praktische Ausbildung 19 ECTS   |
+|---------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 2. Jahr und 3. Jahr | Anrechnungseinheit BP2 (59 ECTS) Wissenschaftliche Ausbildung SBW 23 ECTS Praktische Ausbildung 36 ECTS | Anrechnungseinheit ZF60 Zusatzfach 60 ECTS                                                    |
+
+Die Anrechnung von BP1, BP2, ZF60 berechtigt die Verleihung des Titels Bachelor of Science in Sport- und Bewegungswissenschaften mit Option Unterricht, Universität Freiburg (BSc) .
+
+1 Die Examenssession vom September (vor Beginn des neuen Studienjahres) gehört zum Frühlingssemester
+
+## 2.4  Praktisch-methodische Ausbildung
+
+## 2.4.1  Übersichtstabelle der Unterrichtseinheiten
+
+Die Studierenden wählen 36 ECTS-Kreditpunkte aus den untenstehenden Unterrichtseinheiten.
+
+## Bemerkung:
+
+-  UE  mit  einem  '*'  sind  obligatorisch  für  Studierende,  die  sich  dem  Unterricht  auf Sekundarstufe I oder II zuwenden wollen.
+-  Für die wählbaren UE kann die Direktion der Sport- und Bewegungswissenschaften den Kurs absagen, falls die Anzahl Teilnehmer ungenügend ist.
+
+| Code      | Unterrichtseinheit                            | Semester   |   Std. |   ECTS |
+|-----------|-----------------------------------------------|------------|--------|--------|
+| SSP.00788 | * Sicherheitsaspekte des Sports               | FS         |     28 |      2 |
+|           | Mannschaftssportarten und Spiele              |            |        |        |
+| SSP.00800 | Badminton §                                   | HS         |     28 |      2 |
+| SSP.00802 | Uni-hockey                                    | FS         |     28 |      2 |
+| SSP.00803 | Fussball                                      | FS         |     28 |      2 |
+| SSP.00804 | * Volleyball I                                | HS         |     28 |      1 |
+| SSP.00805 | * Volleyball II                               | FS         |     28 |      2 |
+| SSP.00808 | Futsal                                        | HS         |     28 |      2 |
+| SSP.00809 | Handball §                                    | FS         |     28 |      2 |
+| SSP.00816 | * Eislaufen und Eishockey Einleitung          | HS         |     28 |      2 |
+| SSP.00817 | Eishockey                                     | HS         |     28 |      2 |
+| SSP.00818 | Tischtennis §                                 | FS         |     28 |      2 |
+| SSP.00838 | Spiele anderer Kulturen                       | FS         |     28 |      2 |
+|           | Körperliche Ausdrucksformen                   |            |        |        |
+| SSP.00810 | * Zeitgenössischer Tanz I                     | HS/FS      |     28 |      2 |
+| SSP.00811 | Zeitgenössischer Tanz II                      | HS         |     28 |      2 |
+| SSP.00819 | * Populärer Tanz I                            | HS/FS      |     28 |      2 |
+| SSP.00824 | Populärer Tanz II                             | FS         |     28 |      2 |
+| SSP.00823 | Ausdruck und Kommunikation durch die Bewegung | FS         |     28 |      2 |
+|           | Geräteturnen                                  |            |        |        |
+| SSP.00815 | * Geräteturnen III                            | HS         |     28 |      2 |
+| SSP.00857 | Balancieren und Sportakrobatik                | FS         |     28 |      2 |
+|           | Leichtathletik                                |            |        |        |
+| SSP.00839 | * Leichtathletik III                          | FS         |     28 |      2 |
+|           | Schwimmsport                                  |            |        |        |
+| SSP.00822 | *Schwimmen III                                | HS         |     28 |      2 |
+
+|           | Schneesport                              |           |       |    |
+|-----------|------------------------------------------|-----------|-------|----|
+| SSP.00834 | * Ski alpin §§                           | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00836 | *Snowboard §§                            | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00837 | * Langlauf §§                            | a.h. Sem. | 7 Tg. |  2 |
+|           | Outdoor-Aktivitäten                      |           |       |    |
+| SSP.00833 | Orientierungslauf                        | FS        | 28    |  2 |
+| SSP.00835 | Skitouren                                | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00844 | Triathlon                                | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00846 | Trekking                                 | a.h. Sem. | 7 Tg. |  2 |
+| SSP.00855 | Inline-Skating                           | FS        | 28    |  2 |
+|           | Weitere                                  |           |       |    |
+| SSP.00814 | Sportklettern §                          | FS        | 28    |  2 |
+| SSP.00845 | Sportmassage §                           | HS        | 28    |  2 |
+| SSP.00854 | Judo                                     | HS        | 28    |  2 |
+| SSM.00002 | * MHWI(Magglinger Hochschulwochen I) §§§ | a.h. Sem. | 5 Tg. |  2 |

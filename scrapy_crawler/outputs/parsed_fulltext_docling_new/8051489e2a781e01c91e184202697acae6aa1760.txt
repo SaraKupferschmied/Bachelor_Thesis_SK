@@ -1,0 +1,262 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T22:16:32.086Z",
+  "title": "Theology_Bachelor_60_Theology_Reglement_bis_21.10.2024__8051489e2a781e01c91e184202697acae6aa1760",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8051489e2a781e01c91e184202697acae6aa1760",
+  "program_key": "theology|bachelor|60|theology",
+  "faculty": "Theology",
+  "degree_level": "Bachelor",
+  "total_ects": 60,
+  "program_name": "Theology",
+  "doc_label": "Reglement (bis 21.10.2024)",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Dr_Theol_1996.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "http://studies.unifr.ch/go/llH5R",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Theology_Bachelor_60_Theology_Reglement_bis_21.10.2024__8051489e2a781e01c91e184202697acae6aa1760.pdf",
+  "sha256": "37a423af16578a93224e04f7a9cd5db11235dfaa6b51f8a93b85826245af762e",
+  "fetched_at": "2026-04-03T11:31:55.114Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Dr_Theol_1996.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## FACULTE DE THEOLOGIE / UNIVERSITE DE FRIBOURG (SUISSE) THEOLOGISCHE FAKULTÄT / UNIVERSITÄT FREIBURG (SCHWEIZ)
+
+## Règlement
+
+du 17 décembre 1996
+
+## sur l'octroi du doctorat en théologie
+
+La Faculté de théologie de l'Université de Fribourg (Suisse )
+
+vu :
+
+les  statuts  de  l'Université  de  Fribourg,  du  20 mai 1986, art. 54, al. 2, 64 et 67 ;
+
+les  statuts  de  la  Faculté  de  théologie  du  25 janvier 1994, art. 40 ;
+
+arrête :
+
+## Article premier Conditions préalables
+
+Sont  admis/ses  aux  études  de  doctorat  à  la Faculté de théologie de l'Université de Fribourg les candidats/tes en possession :
+
+d'un  diplôme de licence en théologie reconnu par  la  Faculté  ou  d'un  titre  jugé  équivalent, avec  la  note  minimum  de  5  sur  6,  ou  jugée équivalente ;
+
+et d'une attestation écrite, certifiant que, conformément à l'art. 4, la thèse projetée sera dirigée par un membre enseignant de la Faculté, habilité(e) par celle-ci à assumer cette direction (voir Annexe 1).
+
+## Art. 2. Admission
+
+- a) Le candidat ou la candidate aux études de doctorat  à  la  Faculté  de  théologie  doit adresser sa demande d'admission au Curator studiorum . La demande sera accompagnée de :
+
+l'original  du  diplôme  requis  à  l'art.  premier (ou une copie légalisée) ;
+
+de  l'attestation  relative  à  la  direction  de  la thèse par un membre enseignant de la Faculté habilité(e) à assumer cette charge ;
+
+d'une copie du mémoire de licence ou travail jugé équivalent ;
+
+d'un curriculum vitae.
+
+## Reglement
+
+## vom 17. Dezember 1996 für den Erwerb des Doktorates der Theologie
+
+Die Theologische Fakultät der Universität Freiburg (Schweiz) gestützt :
+
+Auf Art. 54, Abs. 2, 64 und 67 der Statuten der Universität Freiburg vom 20. Mai 1986, auf Art. 40 der Statuten der Theologischen Fakultät vom 25. Januar 1994 beschliesst :
+
+## Artikel 1 Voraussetzungen
+
+Zu  den  Doktoratsstudien  an  der  Theologischen Fakultät der Universität Freiburg werden Bewerber und Bewerberinnen zugelassen, die ein von der Theologischen Fakultät anerkanntes theologisches Lizentiat oder gleichwertiges  Diplom  mit  der  Gesamtnote  von mindestens 5 auf 6 (oder ein Äquivalent) erworben haben,
+
+und die eine schriftliche Zusicherung der Übernahme der Leitung des Dissertationsprojektes durch eine von der Fakultät ermächtigte Lehrperson ( s. Art4) vorweisen (Anlage 1).
+
+## Art. 2 Zulassung
+
+- a) Die  Bewerber  und  Bewerberinnen  haben der Fakultät zu Händen des Curator Studiorum ein Gesuch um Zulassung einzureichen.
+
+Dem Gesuch müssen beiliegen:
+
+das  Originaldokument  (oder  eine  beglaubigte Kopie) des für die Zulassung notwendigen Studienabschlusses die schriftliche Zusicherung der Übernahme der Leitung  des  Dissertationsprojektes  durch  eine von der Fakultät ermächtigte Lehrperson.
+
+ein Exemplar der Lizentiats- oder Diplomarbeit das curriculum vitae
+
+- b) La demande d'admission peut être présentée en tout temps.
+- c) Après examen de la demande d'admission  par  le Curator  studiorum , une Décision  d'admission (voir  Annexe 2)  sera  délivrée  au  candidat  ou  à  la candidate
+
+## Art. 3. Immatriculation
+
+- a) Muni  de  cette Décision  d'admission ,  le candidat ou la candidate se pourvoit auprès du Service d'immatriculation du formulaire d'inscription. Une fois ce formulaire  dûment  rempli  et  déposé  au Service d'immatriculation et la taxe d'inscription réglée, le candidat ou la candidate est immatriculé(e) en qualité de doctorant ou doctorante.
+- b) Le  doctorant  ou  la  doctorante  est  tenu(e) de  rester  immatriculé(e)  à  la  Faculté  de théologie jusqu'à la fin du doctorat.
+- c) Le doctorant ou la doctorante ne s'acquitte que de la taxe de base.
+
+## Art. 4. Direction de thèse
+
+- a) Tout membre du Collège des professeurs de la Faculté est habilité(e) à diriger une thèse dont le sujet relève de son domaine de compétence.
+- b) Selon  le  cas,  la  Faculté  peut  également autoriser un autre membre enseignant de la Faculté, possédant les qualifications requises, à diriger une thèse.
+- c) Les membres du corps enseignant émérites ou démissionnaires ne peuvent pas diriger une  thèse  plus  de  cinq  ans  après  avoir quitté la Faculté.
+- d) La direction de la thèse ne débute qu'après l'immatriculation définitive du candidat ou de la candidate
+- e) Le  directeur  ou  la  directrice  de  thèse  fait connaître au décanat de la Faculté le nom du candidat ou de la candidate et le titre de la thèse. Le doyen  ou  la  doyenne  en informe la Faculté.
+- b) Für  die  Einreichung  des  Gesuchs  bestehen keine Einschreibefristen.
+- c) Nach Prüfung des Gesuchs und der Unterlagen durch den Curator Studiorum wird  den  Bewerbern  und Bewerberinnen die Verfügung der Zulassung ( Anlage 2) zugestellt.
+
+## Art. 3 Immatrikulation
+
+- a) Mit  der Verfügung der Zulassung können die Bewerber und Bewerberinnen bei der Dienststelle  für  Zulassung  und  Einschreibung ein  Einschreibeformular  anfordern  und  sich mit  Bezahlen  der  Einschreibegebühr  an  der Universität Freiburg als Doktorand oder Doktorandin einschreiben.
+- b) Die Doktoranden und Doktorandinnen müssen bis zum  Abschluss  des  Doktorates  an  der Theologischen Fakultät eingeschrieben sein.
+- d) Die Doktoranden und Doktorandinnen bezahlen nur die Grundgebühren.
+
+## Art. 4 Leitung
+
+- a) Jedes  Mitglied  des  Professorenkollegiums,  in dessen Fachbereich das Dissertationsthema gehört, kann  die Leitung  einer Dissertation übernehmen.
+- b) Die  Fakultät  kann  im  Einzelfall  auch  andere qualifizierte  Mitglieder  des  Lehrkörpers  der Fakultät ermächtigen, eine Dissertation zu leiten.
+- c) Mitglieder des Lehrkörpers, die durch Emeritierung oder Demission aus der Lehrtätigkeit ausgeschieden sind, können nicht länger als fünf Jahre nach ihrem Ausscheiden die Leitung einer Dissertation innehaben.
+- d) Die Leitung der Dissertation beginnt erst, wenn Zulassung und Einschreibung abgeschlossen sind.
+- e) Die  von  der  Fakultät  ermächtigte  Lehrperson meldet dem Dekanat den Namen des Kandidaten oder der Kandidatin und den Titel des Dissertationsprojekts. Der Dekan oder die Dekanin informiert die Fakultät.
+
+- f) Un directeur ou une directrice de thèse qui constate que le candidat ou la candidate ne satisfait  plus  aux  conditions  d'un  travail scientifique  a  le  droit  de  mettre  fin  à  sa fonction de direction. Il (elle) l'annonce au Conseil de Faculté.
+- g) Tout changement de direction de thèse doit être annoncé au Conseil de Faculté.
+
+## Art. 5. Déroulement des études
+
+- a) La durée des études de doctorat est de deux ans au minimum et ne devrait pas dépasser cinq ans.
+- b) Le  directeur  ou  la  directrice  peut  exiger d'un  doctorant  ou  d'une  doctorante  qu'il (elle)  suive  un  cours  complémentaire  de langue
+- c) D'entente avec le directeur ou la directrice de thèse, le doctorant ou la doctorante aura éventuellement  à  compléter  ses  études  en fonction de sa spécialisation.
+
+## Art. 6. Thèse
+
+- a) La thèse doit constituer un travail personnel de  recherche  scientifique  dans  le  domaine théologique
+- b) Le thème sera circonscrit de telle sorte que la  thèse  puisse  être  rédigée  dans  le  temps requis. Elle comprendra environ 200 à 300 pages.
+- c) La  présentation  du  manuscrit  de  la  thèse sera conforme mutatis mutandis aux prescriptions du règlement des études.
+
+## Art. 7. Dépôt
+
+Le  manuscrit  définitif  de  la  thèse,  prêt  à  la publication,  sera  déposé  en  cinq  exemplaires reliés ou brochés auprès du secrétariat du décanat de la Faculté.
+
+## Art. 8. Appréciation
+
+- a) La  thèse  est  appréciée  par  deux  censeurs désignés  par  le  Conseil  de  la  Faculté,  qui font une proposition de note.
+- f) Sind bei einem Doktoranden oder einer Doktorandin die Bedingungen wissenschaftlichen Arbeitens nicht mehr gegeben, hat die leitende Lehrperson das Recht,  die  Leitungsfunktion  abzubrechen.  Sie muss dies der Fakultät mitteilen.
+- f) Jeder Wechsel der leitenden Lehrperson muss der Fakultät mitgeteilt werden
+
+## Art. 5 Studienverlauf
+
+- a) Die Doktoratsstudien müssen mindestens zwei Jahre und sollten höchstens fünf Jahre dauern.
+- b) Die Doktoranden und Doktorandinnen können vom Leiter oder von der Leiterin der Dissertation zu zusätzlichen Sprachstudien verpflichtet werden.
+- c) Die  Doktoranden  und  Doktorandinnen  haben nach Absprache mit dem  Leiter oder der Leiterin der Dissertation ihre Studien eventuell zu ergänzen und sie im Rahmen ihrer Spezialisierung weiterzuführen.
+
+## Art. 6 Dissertation
+
+- a) Die Dissertation muss eine selbständige wissenschaftliche Forschungsarbeit im Bereich der Theologie sein.
+- b) Das Thema soll so begrenzt werden, dass es in der vorgesehenen Zeit und auf 200-300 Seiten bewältigt werden kann.
+- c) Für die formale Gestaltung gelten mutatis mutandis die Bestimmungen für die schriftlichen Arbeiten in den Studienprogrammen.
+
+## Art. 7 Einreichung
+
+Die publikationsreife Dissertation ist in fünf gebundenen oder broschierten Exemplaren auf dem Sekretariat des Theologischen Dekanats einzureichen.
+
+## Art. 8 Bewertung
+
+- a) Die Dissertation wird von zwei Zensoren oder Zensorinnen, welche vom Komitee der Fakultät bestimmt werden, mit einem Notenvorschlag begutachtet.
+
+- b) Il est possible de faire appel, pour le deuxième censeur, à une personne compétente extérieure à la Faculté.
+- c) Les  censeurs  sont  tenus  de  fournir  leurs rapports  dans  les  meilleurs délais, mais au plus  tard  six  mois  après  le  dépôt  de  la thèse.
+- d) En  cas  de  refus  de  la  thèse  par  l'un  des deux  censeurs,  le  doyen  ou  la  doyenne nommera un troisième censeur.
+- e) Les  professeurs  décident  de  l'acceptation ou du rejet de la thèse lors de la séance du Conseil de Faculté, sur la base des rapports des  censeurs.  La  décision  est  prise  à  la majorité absolue.
+- f) En cas de rejet de la thèse par le Conseil de Faculté,  le  candidat  ou  la  candidate  a  la possibilité de présenter son texte retravaillé une  seconde  fois,  en  respectant  un  délai d'au moins  six  mois  après  la  première présentation.  Dans  ce  cas,  le  comité  de  la Faculté désigne deux nouveaux censeurs.
+- g) La note de la thèse sera déterminée lors de la séance du Conseil de Faculté sur la base des propositions des deux censeurs.
+
+## Art. 9. Soutenance de la thèse
+
+- a) Après l'acceptation de la thèse, la soutenance  a  lieu  devant  un  jury  de  cinq membres  composé  du doyen ou de la doyenne  qui  préside,  des  deux  censeurs  et de  deux  autres  assesseurs  désignés  par  la décanat.
+- b) La  soutenance  fait  suite,  dans  des  délais raisonnables, à l'acceptation de la thèse par la  Faculté.  Elle  est  publique  et  dure  au moins une heure et demie.
+- c) La première demi-heure et réservée au doctorant ou à la doctorante pour présenter les thèses principales et la méthodologie de son travail.
+- b) Als  zweiter  Zensor  oder  als  zweite  Zensorin kann auch eine auswärtige Fachperson beigezogen werden.
+- c) Die  Zensoren  und  Zensorinnen  sind  gehalten, ihr Gutachten baldmöglichst vorzulegen, längstens jedoch innerhalb einer Frist  von sechs Monaten nach Einreichung der Dissertation.
+- d) Lehnt einer der Zensoren oder eine der Zensorinnen die Arbeit ab, bestimmt der Dekan oder  die  Dekanin  einen  dritten  Zensor oder eine dritte Zensorin.
+- e) Die Professoren und Professorinnen beschliessen im Fakultätsrat aufgrund der Gutachten über die Annahme oder Ablehnung der Dissertation, wobei die absolute Mehrheit erforderlich ist.
+- f) Lehnt  der Fakultätsrat die Dissertation ab, kann  auf  Antrag  des  Doktoranden  oder  der Doktorandin nach einer Frist von mindestens 6 Monaten  und  nach  einer  Überarbeitung  die Arbeit  ein  zweites  Mal  vorgelegt  werden.  In diesem Fall bestimmt das Komitee zwei neue Zensoren oder Zensorinnen.
+- g) Die Note der Dissertation wird im Fakultätsrat aufgrund der  Notenvorschläge der Zensoren und Zensorinnen festgelegt.
+
+## Art. 9 Verteidigung
+
+- a) Ist  die  Dissertation  angenommen,  findet  die Verteidigung vor einer Jury statt, die sich aus dem  Dekan  als  dem  Präsidenten  oder  der Dekanin als der Präsidentin, den beiden Zensoren oder Zensorinnen und zwei weiteren, vom Dekanat bestimmten Beisitzern oder Beisitzerinnen zusammensetzt.
+- b) Die Verteidigung soll innerhalb einer angemessenen  Frist  nach  der  Annahme  der Dissertation durch die Fakultät stattfinden. Sie ist öffentlich und dauert mindestens 90 Minuten.
+- c) Dem Doktoranden oder der Doktorandin steht zu  Beginn  eine  halbe  Stunde  zur  Verfügung, um Hauptthese und Methode ihrer Dissertation vorzustellen.
+
+- d) Les  membres  du  jury,  à  égalité  des  voix, décident  par  un  votre  de  la  note  de  la soutenance.
+- e) Si  le  résultat  de  la  soutenance  est  jugé insuffisant, le doctorant ou la doctorante a le  droit  de  se  présenter  une  seconde  fois pour défendre sa thèse.
+
+## Art. 10. Conclusion du doctorat
+
+- a) La note finale du doctorat se compose pour deux tiers de la note de la thèse et pour un tiers de la note de la soutenance.
+- b) Après la réussite de la soutenance et jusqu'à la publication de la thèse, le nouveau promu ou la nouvelle promue a le droit de porter le titre de Doctor designatus ou designata (Dr des.)
+
+## Art. 11 Echelle d'évaluation - notes
+
+## L'échelle d'évaluation est la suivante :
+
+summa cum laude (6) -insigni cum laude (5.5) - magna cum laude (5) - cum laude (4.5) rite (4)
+
+## Art. 12 Publication de la thèse
+
+Les modalités de la publication de la thèse sont fixées par les Règles  pour  l'impression  des thèses de doctorat (voir Annexe 3).
+
+## Art. 13 Délai- prolongation - 2 ème présentation
+
+- a) La thèse doit être publiée intégralement, ou partiellement avec l'accord formel du doyen ou de la doyenne, dans les deux ans qui suivent la soutenance.
+- b) Si  le  délai  de  deux  ans  ne  peut  pas  être respecté,  on  déposera  auprès  du  décanat une demande de report du délai.
+- c) Dans  ce  cas,  le  texte  doit  être  soumis  une nouvelle fois ; éventuellement, selon l'avis des  censeurs,  il  devra  être  remis  à  jour  en fonction d'un nouvel état du savoir.
+- d) Die  Jury-Mitglieder  stimmen  gleichberechtigt über die Note der Verteidigung ab.
+- e) Wird die Verteidigung als ungenügend eingestuft, hat der Doktorand oder die Doktorandin  das  Recht,  ein  zweites  Mal  zur Verteidigung anzutreten.
+
+## Art. 10 Doktoratsabschluss
+
+- a) Die  Gesamtnote  des  Doktorats  ergibt  sich  zu zwei Dritteln aus der Note für die Dissertation und  zu  einem  Drittel  aus  der  Note  für  die Verteidigung.
+- b) In der Zeit zwischen erfolgreicher Verteidigung  und  Erscheinen  der  Dissertation in Buchform haben die Promovierten das Recht, den Titel Doctor designatus oder designata (Dr. des.) zu führen.
+
+## Art 11 Notenskala
+
+## Es gilt folgende Notenskala :
+
+s umma cum laude (6) - insigni cum laude (5.5) magna cum laude (5) - cum laude (4.5) - rite (4)
+
+## Art. 12 Veröffentlichung
+
+Die Veröffentlichung der Dissertation ist durch die Bestimmungen für die Drucklegung der Dissertation (s. Anlage 3) geregelt.
+
+## Art- 13
+
+- a) Die  Dissertation  ist  innert  zwei  Jahren  nach ihrer Verteidigung vollständig oder mit besonderer  Erlaubnis  des  Dekans  oder  der Dekanin teilweise zu veröffentlichen.
+- b) Wird die Frist von zwei Jahren nicht eingehalten, ist vom Dekanat ein neuer Termin einzuholen.
+- c) In diesem Fall muss der Text vor der Drucklegung noch einmal eingereicht und allenfalls  gemäss  den  Auflagen  der  Zensoren oder  Zensorinnen  auf  den  neuen  Stand  der Wissenschaft gebracht werden.
+
+## Art. 14 Diplôme et titre
+
+- a) Le diplôme de doctorat est remis au nouveau docteur par le secrétariat des Services des affaires académiques de l'Université  lorsque  les  exemplaires  de  la thèse imprimée ont été déposés conformément aux Règles pour l'impression des thèses de doctorat.
+- b) Le nouveau docteur n'a le droit de faire état du  titre  de docteur  en  théologie qu'après réception du diplôme
+
+## Art. 15 Entrée en vigueur
+
+Le  présent  règlement  entre  en  vigueur  dès  son approbation par le Conseil d'Etat du canton de Fribourg (Suisse).
+
+## Art- 14 Diplom und Titel
+
+- a) Das Doktoratsdiplom wird vom Sekretariat der Akademischen Dienststellen zugestellt, nachdem die Pflichtexemplare der Dissertation nach Angabe der Bestimmungen für die Drucklegung der Dissertation eingegangen sind.
+- b) Erst  nach  Empfang  des  Doktoratsdiploms  hat man das Recht, den Titel Doktor der Theologie zur führen.
+
+## Art. 15 Inkrafttreten
+
+Das vorliegende Reglement tritt mit seiner Annahme durch den Staatsrat des Kantons Freiburg (Schweiz) in Kraft.

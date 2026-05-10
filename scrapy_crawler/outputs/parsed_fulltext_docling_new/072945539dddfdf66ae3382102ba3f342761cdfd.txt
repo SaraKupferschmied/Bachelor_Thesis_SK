@@ -1,0 +1,72 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T15:01:11.290Z",
+  "title": "Philosophy_Master_120_Italian_Double_Degree__Disposizioni_MA_valide_dal_2019__072945539dddfdf66ae3382102ba3f342761cdfd",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "072945539dddfdf66ae3382102ba3f342761cdfd",
+  "program_key": "philosophy|master|120|italian [double degree]",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 120,
+  "program_name": "Italian [Double Degree]",
+  "doc_label": "Disposizioni MA (valide dal 2019)",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Dispositions_transitoires%282019%29/Master_des%20SA19_dispositions%20transitoires_Fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/italiandd",
+  "curriculum_url": "http://studies.unifr.ch/go/nNLOQ",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_120_Italian_Double_Degree__Disposizioni_MA_valide_dal_2019__072945539dddfdf66ae3382102ba3f342761cdfd.pdf",
+  "sha256": "8663f05c7b53f372aee2656bec6dfd55bc4a11904256bfee6ade3b13e82e5631",
+  "fetched_at": "2026-04-03T11:31:18.684Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Dispositions_transitoires%282019%29/Master_des%20SA19_dispositions%20transitoires_Fr.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Master_des SA19_dispositions transitoires_Fr.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Dispositions transitoires : plans d'études de Master
+
+Suite à l'entrée en vigueur du Règlement du 8 mars 2018 pour l'obtention du bachelor et du master à la Faculté des lettres et des sciences humaines , sont abrogés :
+
+- le Règlement pour l'obtention du Master à la Faculté des lettres de l'Université de Fribourg (Suisse) du 11 mai 2006 ;
+- les Directives  concernant  l'évaluation  des  prestations  d'études,  l'attribution  des crédits ECTS et la validation des modules à la Faculté des lettres de l'Université de Fribourg (Suisse) du 23 avril 2009 .
+
+Un certain nombre d'aspects liés des études est modifié à partir du semestre d'automne 2019.
+
+## Durée des études
+
+- « La durée minimale d'un master à 90 crédits ECTS est en principe de 3 semestres » (art. 7 al. 2)
+- « La durée minimale d'un master à 120 crédits ECTS est en principe de 4 semestres (art. 7 al. 3)
+- « La durée des études de master est limitée au triple du nombre de semestre prévu dans le plan d'études » (art. 48 al. 1)
+- « En cas de non-respect de ce délai, l'étudiant-e n'est plus autorisé-e à poursuivre les études dans le programme d'études concerné » (art. 49 al. 2)
+
+Dispositions transitoires : Pour les ancien-ne-s étudiant-e-s le décompte des semestres démarre dès le SA 19 (Art. 74).
+
+## Mention bilingue
+
+La mention est attribuée si dans le programme d'études approfondies (90 crédits ECTS) au moins 40% des crédits ECTS ont été obtenus dans chacune des langues (art. 50 al. 2).
+
+Disposition transitoire : Pour les étudiant-e-s ayant débuté les études de master dans un programme de master avant le SA 2019, le calcul de la mention bilingue, si celle-ci est prévue dans le plan d'études, se fait selon l'ancien règlement.
+
+## Modalités d'évaluation
+
+- a) Répétitions des évaluations : en cas d'échec une évaluation peut être répétée une fois (= 2 tentatives au total).
+2. Dispositions transitoires : pour les unités d'enseignement auxquelles l'inscription a été faite avant le SA 19, une troisième tentative reste possible.
+
+- b) Echec définitif après quatre sessions d'examens sans inscription : Si l'étudiant-e ne s'inscrit jamais à l'évaluation liée à une unité d'enseignement à laquelle il/elle est inscrite dans une durée de quatre sessions d'examen, l'étudiant-e est en échec définitif à l'unité d'enseignement ou au module correspondant (art. 24 al. 5)
+
+Dispositions transitoires : Si l'inscription à une unité d'enseignement a été faite avant le SA 19, sans inscription à l'évaluation, l'obligation de se présenter à une évaluation durant les quatre sessions ne s'applique pas et ces inscriptions ne mènent pas à un échec définitif.
+
+Si l'inscription à une unité d'enseignement a été faite avant le SA 19, avec inscription à une évaluation avant ou après le semestre d'automne 2019, le nombre de session d'examen est décompté normalement, à partir du semestre d'inscription à l'unité d'enseignement.

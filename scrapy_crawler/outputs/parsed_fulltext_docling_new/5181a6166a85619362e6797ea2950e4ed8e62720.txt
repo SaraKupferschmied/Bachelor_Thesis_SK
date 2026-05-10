@@ -1,0 +1,463 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T20:02:34.745Z",
+  "title": "SCIMED_Master_30_Environmental_Biology_Zusatzf_cher_Biologie_5181a6166a85619362e6797ea2950e4ed8e62720",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5181a6166a85619362e6797ea2950e4ed8e62720",
+  "program_key": "scimed|bachelor|30|biology",
+  "faculty": "SCIMED",
+  "degree_level": "Bachelor",
+  "total_ects": 30,
+  "program_name": "Biology",
+  "doc_label": "Zusatzfächer Biologie",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_BL_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biology",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\SCIMED_Master_30_Environmental_Biology_Zusatzf_cher_Biologie_5181a6166a85619362e6797ea2950e4ed8e62720.pdf",
+  "sha256": "1beb9849190cc920226af2e3812ab834fc554be389f9b822e4854f2f30072163",
+  "fetched_at": "2026-04-03T11:29:56.259Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_BL_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BCo_BL_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_BCo",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_program_name_degree_ects_source_url",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.7  Biologie
+
+Das Departement für Biologie bietet 5 Zusatzfächer in Biologie zur Wahl an:
+
+- 30 ECTS (MEDIZINISCHE UND MOLEKULARE BIOWISSENSCHAFTEN) für Studierende der Biologie und der Biochemie.
+- 30 ECTS (BIOLOGIE - VON GENEN ZU ÖKOSYSTEMEN) für Studierende der Biologie und der Biochemie.
+- 30 ECTS (BIOLOGIE A) für Studierende, die Biologie nicht als Hauptfach haben
+- 60 ECTS (BIOLOGIE B) für Studierende, die Biologie nicht als Hauptfach haben
+- 60 ECTS (BIOLOGIE E) für Studierende des LDM, die Biologie nicht als Hauptfach haben.
+
+Studierenden mit BIOLOGIE A, B oder E als Zusatzfach wird empfohlen, Allgemeine Biologie I (Vorlesung und Praktika, SBL.00001 und SBL.00003) sowie Allgemeine Biologie II (Vorlesung und  Praktika,  SBL.00002  und  SBL.00004)  schon  im  ersten  Jahr  zu  besuchen. Allgemeine Biologie I und II sind nämlich eine Voraussetzung für die meisten anderen Unterrichtseinheiten dieser Zusatzfächer.
+
+## 3.7.1 Unterrichtseinheiten
+
+## 3.7.1.1
+
+## Unterrichtseinheiten des Zusatzfachs MEDIZINISCHE UND MOLEKULARE BIOWISSENSCHAFTEN zu 30 ECTS für Studierende der Biologie oder der Biochemie
+
+[Version 2022, Anrechnungseinheit: PV-SBL.0000077]
+
+Das Zusatzfach MEDIZINISCHE UND MOLEKULARE BIOWISSENSCHAFTEN richtet sich an Studierende des BSc in Biologie und des BSc in Biochemie. Diese haben bereits die Vorlesungen und Praktika des propädeutischen Fachs Allgemeine Biologie I und II (SBL.00001, SBL.00003, SBL.00002,  SBL.00004)  absolviert.  Das  Zusatzfach  MEDIZINISCHE  UND  MOLEKULARE BIOWISSENSCHAFTEN  kann  nicht  zusammen  mit  dem  Zusatzfach  BIOLOGIE  A30  belegt werden.  Die  Gesamtzahl  der  ECTS-Credits  für  dieses  Zusatzfach  kann  zwischen  30  und  36 betragen.  Sobald  die  Anzahl  von  36  erreicht  ist,  werden  allfällige  zusätzliche  ECTS-Credits ausserhalb des Studienplans gesetzt und zählen nicht zum gewichteten Durchschnitt (Art.  24 Abs. 6).  Alle UE sind frei wählbar, sofern es nicht anderes angegeben ist.
+
+## Herbstsemester
+
+| Code      | Unterrichtseinheit                                                                                |   tot. Std. |   ECTS |
+|-----------|---------------------------------------------------------------------------------------------------|-------------|--------|
+| SBC.00114 | Allgemeine Biochemie                                                                              |          32 |    3.5 |
+| SBC.07005 | Fortgeschrittene Bioinformatik und Genomik #                                                      |          32 |    2.5 |
+| SBL.00020 | Neurobiologie                                                                                     |          20 |    2   |
+| SBL.00049 | Populationsgenetik 1                                                                              |          28 |    3   |
+| SBL.00061 | Funktionale Diversität der Mikroorganismen 2                                                      |          14 |    1.5 |
+| SBL.00063 | Grundlagen der Bakteriologie                                                                      |          14 |    1.5 |
+| SBL.00064 | Ionenkanäle: Funktionen und Fehlfunktionen 3                                                      |           8 |    1   |
+| SBL.00073 | Spezialisierter Metabolismus: Bedeutung für die chemische Ökologie und die menschliche Gesundheit |          14 |    1.5 |
+| SBL.00075 | Einführung in die Biostatistik                                                                    |          14 |    1.5 |
+| SFS.00001 | Philosophie und Ethik der Naturwissenschaften                                                     |          28 |    3   |
+| SMO.00007 | Funktionelle Anatomie der menschlichen Körpersysteme                                              |          28 |    3   |
+| SMO.00008 | Funktionelle Neuroanatomie des Menschen                                                           |          28 |    3   |
+| SMO.00630 | Deskriptive Anatomie                                                                              |          28 |    3   |
+| SPY.00110 | Physiologie und Pathophysiologie der grossen Regulations- systeme, Teil I (A)                     |          28 |    3   |
+| SPY.01001 | Neurobiologie I (deutsch) (B) §                                                                   |          28 |    3   |
+| SPY.01011 | Neurobiologie I (français) (C) §                                                                  |          28 |    3   |
+
+## Frühlingsemester
+
+| Code      | Unterrichtseinheit                                                             |   tot. Std. |   ECTS |
+|-----------|--------------------------------------------------------------------------------|-------------|--------|
+| SBC.00009 | Biochemische Methoden                                                          |          14 |    1.5 |
+| SBC.00047 | Biochemie für Anfänger (Praktikum)                                             |          60 |    3   |
+| SBC.00113 | Ergänzende Molekularbiologie                                                   |          28 |    3   |
+| SBC.00115 | Molekulare Humangenetik                                                        |          13 |    1.5 |
+| SBC.00125 | Hefegenetik, Zell- und Molekular Biologie 4                                    |          12 |    1.5 |
+| SME.06309 | Mikrobiologie (Praktikum)                                                      |           8 |    1   |
+| SBL.00015 | Tierphysiologie                                                                |          28 |    3   |
+| SBL.00058 | Mechanismen der Regeneration                                                   |          11 |    1   |
+| SBL.00062 | Meeresbiologie (Workshop)                                                      |          30 |    3   |
+| SFS.00002 | Naturwissenschaften und Gesellschaft                                           |          28 |    3   |
+| SME.05305 | Immunologie I                                                                  |          14 |    1.5 |
+| SME.06312 | Fortgeschrittene Immunologie 5                                                 |          16 |    2   |
+| SME.06104 | Spezialisierte klinische Mikrobiologie 4                                       |          24 |    2.5 |
+| SME.04300 | Aktuelles aus der regenerativen Medizin 6                                      |          10 |    1   |
+| SMO.04002 | Neuroanatomie (Praktikum)                                                      |          32 |    1.5 |
+| SPY.00111 | Physiologie und Pathophysiologie der grossen Regulationssysteme, Teil II (A) § |          28 |    3   |
+| SPY.02001 | Neurobiologie II (deutsch) (B)                                                 |          28 |    3   |
+| SPY.02011 | Neurobiologie II (français) (C) §                                              |          28 |    3   |
+
+- A, B, C.  Unterrichtseinheiten mit dem gleichen Buchstaben müssen zusammen gewählt werden
+- # Voraussetzung: SBC.07004. Kann nicht zusammen mit SBC.07003 belegt werden
+- 1 Voraussetzung: SBL.00021
+- 2 Voraussetzung: SME.05103 oder SBL.00063
+- 3 Voraussetzung: SBL.00020
+- 4 Voraussetzung: SBL.05103
+- 5 Voraussetzung: SME.05305
+- 6 Vorlesung wird jedes 2. Jahr gegeben. Als Voraussetzung wird SBL.00058 empfohlen.
+- § SPY.02011 und SPY.01011 sind die französischen Versionen von SPY.01001 und SPY.02001. Zu wählen sind entweder SPY.02011 und SPY.01011 oder SPY.01001 und SPY.02001.
+
+Die UE dieser Liste können nicht genommen werden, wenn sie schon im Hauptfach vorkommen.
+
+## 3.7.1.2 Unterrichtseinheiten des Zusatzfachs BIOLOGIE -VON GENEN ZU ÖKOSYSTEMEN zu 30 ECTS für Studierende der Biologie oder der Biochemie
+
+[Version 2022, Anrechnungseinheit: PV-SBL.0000078]
+
+Das Zusatzfach BIOLOGIE -VON GENEN ZU ÖKOSYSTEMEN richtet sich an Studierende des BSc in Biologie und des BSc in Biochemie. Diese haben bereits die Vorlesungen und Praktika des propädeutischen Fachs Allgemeine Biologie I und II (SBL.00001, SBL.00003, SBL.00002, SBL.00004) absolviert. Studierende des BSc Biologie haben bereits die UEs der Organismenbiologie I und II (SBL.00040 und SBL.00041) absolviert. Die Gesamtzahl der ECTSCredits für dieses Zusatzfach kann zwischen 30 und 36 betragen. Sobald die Anzahl  von 36 erreicht ist, werden allfällige zusätzliche ECTS-Credits ausserhalb des Studienplans gesetzt und zählen nicht zum gewichteten Durchschnitt (Art. 24 Abs. 6).  Alle UE sind frei wählbar, sofern es nicht anderes angegeben ist.
+
+## Herbstsemester
+
+| Code                               | Unterrichtseinheit                                                                                | tot. Std.                          |   ECTS |
+|------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------|--------|
+| SBC.07005                          | Fortgeschrittene Bioinformatik und Genomik #                                                      | 32                                 |    2.5 |
+| SBL.00013                          | Ökologie                                                                                          | 42                                 |    4   |
+| SBL.00018                          | Molekularbiologie der Pflanzen                                                                    | 28                                 |    3   |
+| SBL.00021                          | Evolutionsbiologie                                                                                | 28                                 |    3   |
+| SBL.00068                          | Phytopathologie und Pflanzen-Pathogen Interaktionen                                               | 28                                 |    3   |
+| SBL.00040                          | Organismenbiologie I: Wirbeltiere                                                                 | 28                                 |    3   |
+| SBL.00049                          | Populationsgenetik 1                                                                              | 28                                 |    3   |
+| SBL.00061                          | Funktionale Diversität der Mikroorganismen 2                                                      | 14                                 |    1.5 |
+| SBL.00063                          | Grundlagen der Bakteriologie                                                                      | 14                                 |    1.5 |
+| SBL.00073                          | Spezialisierter Metabolismus: Bedeutung für die chemische Ökologie und die menschliche Gesundheit | 14                                 |    1.5 |
+| SBL.00075                          | Einführung in die Biostatistik                                                                    | 14                                 |    1.5 |
+| SFS.00001                          | Philosophie und Ethik der Naturwissenschaften                                                     | 28                                 |    3   |
+| SSE.00101                          | Grundkurs Umweltwissenschaften: Ökologie                                                          | 28                                 |    3   |
+| SSE.00102                          | Grundkurs Umweltwissenschaften: Umweltökonomie und - Recht                                        | 28                                 |    3   |
+| SSE.00130                          | Lebensraum und Umwelt: ein anthropologischer Ansatz                                               | 28                                 |    3   |
+| SSE.00144                          | Brennpunkte nachhaltiger Entwicklung I (Seminar)                                                  | 28                                 |    3   |
+| SSE.00142                          | Brennpunkte nachhaltiger Entwicklung II (Seminar)                                                 | 28                                 |    1   |
+| SSE.00230                          | Principles of environmental ethics I                                                              | 28                                 |    3   |
+| SSE.00231                          | Principles of environmental ethics II                                                             | 28                                 |    1   |
+| SST.00203                          | Paläontologie, Vorlesung (A)                                                                      | 28                                 |    3   |
+| SST.00218                          | Paläontologie, Praktikum (A)                                                                      | 28                                 |    2   |
+| --- Vorlesungen im Rahmen BeNeFri* | --- Vorlesungen im Rahmen BeNeFri*                                                                | --- Vorlesungen im Rahmen BeNeFri* |    3   |
+
+## Frühlingsemester
+
+| Code      | Unterrichtseinheit                                                              | tot. Std.   |   ECTS |
+|-----------|---------------------------------------------------------------------------------|-------------|--------|
+| SBC.00009 | Biochemische Methoden                                                           | 14          |    1.5 |
+| SBC.00113 | Ergänzende Molekularbiologie                                                    | 28          |    3   |
+| SBL.00041 | Organismenbiologie II: Wirbellose Tiere                                         | 28          |    3   |
+| SBL.00074 | Organismenbiologie III: Pilze und Pflanzen (Vorlesung und Praktika/Exkursionen) | 72          |    5   |
+| SBL.00037 | Experimentelle Ökologie (Praktikum) 3                                           | 45          |    3   |
+| SBL.00045 | Hormone und Entwicklung der Pflanzen                                            | 28          |    3   |
+| SBL.00062 | Meeresbiologie (Workshop)                                                       | 30          |    3   |
+| SBL.00069 | Nutzpflanzen der Welt                                                           | 28          |    3   |
+| SBL.00070 | Forschungspraktikum                                                             | 20 Tage     |    3   |
+| SFS.00002 | Naturwissenschaften und Gesellschaft                                            | 28          |    3   |
+| SGS.01201 | Politische Ökologie des Wassers                                                 | 14          |    1.5 |
+| SGS.01301 | Geologie und Gesellschaft: Angewandte Herausforderungen                         | 14          |    1.5 |
+| SSE.00103 | Grundkurs Umweltwissenschaften: Ressourcen                                      | 28          |    3   |
+| SSE.00104 | Grundkurs Umweltwissenschaften : Umweltethik                                    | 28          |    3   |
+| SSE.00211 | Ethik und Umweltpraxis (Seminar)                                                | 28          |    3   |
+| SSE.00220 | Fokus Umweltethik (Seminar)                                                     | 28          |    3   |
+| ---       | Vorlesungen im Rahmen BeNeFri*                                                  |             |    3   |
+
+(A)  Unterrichtseinheiten mit dem gleichen Buchstaben müssen zusammen gewählt werden
+
+* siehe Liste unten. Maximum insgesamt 6 ECTS für 2 Semester.
+
+# Vorraussetzung: SBC.07004. Kann nicht zusammen mit SBC.07003 belegt werden
+
+1 Voraussetzung: SBL.00021
+
+- 2 Voraussetzung: SME.05103 oder SBL.00063
+- 3 Voraussetzung: SBL.00013 und SBL.00075 (obligatorisch)
+- SSE  : Weitere Informationen (Voraussetzungen, Beschreibungen der UE) sind in den Studienplänen für Umweltwissenschaften und ihren Anhängen zu finden.
+
+Die UE dieser Liste können nicht genommen werden, wenn sie schon im Hauptfach vorkommen.
+
+## Kursangebote von anderen Universitäten*:
+
+Nur gültig für das Zusatzfach BIOLOGIE -VON GENEN ZU ÖKOSYSTEMEN
+
+| Code    | Unterrichtseinheit                          | Angeboten von   | Semeste r   |   ECTS |
+|---------|---------------------------------------------|-----------------|-------------|--------|
+| 3BL1092 | Bases de pédologie                          | UniNe           | HS          |      3 |
+| 3BL1204 | Interactions êtres humains - Environnements | UniNe           | FS          |      3 |
+| 3ZL1008 | Bases d'éthologie et éco-éthologie          | UniNe           | HS          |      6 |
+| 3ZL1037 | Ecologie chimique                           | UniNe           | HS          |      3 |
+| 2GG1058 | Changements climatiques et sociétés         | UniNe           | FS          |      3 |
+
+https://www.unifr.ch/studies/fr/organisation/prestations-admin-etudiants/benefri.html
+
+## 3.7.1.3 Unterrichtseinheiten des Zusatzfachs BIOLOGIE A zu 30 ECTS für Studierende, die nicht Biologie als Hauptfach gewählt haben
+
+[Version 2022, Anrechnungseinheit: PV-SBL.0000079]
+
+Das Zusatzfach BIOLOGIE A ist für Studierende der Math.-Nat. und Med. Fakultät oder anderer Fakultäten bestimmt, aber nicht für Studierende im BSc Biologie. Das Programm besteht aus 12 ECTS obligatorischer UEs. Diese müssen aber durch andere UEs zur Wahl ersetzt werden, falls die obligatorischen UEs schon einem anderen Programm angerechnet werden. Die Summe von 30  ECTS muss mit  UEs  zur  Wahl  erreicht  werden.  Das  Zusatzfach  BIOLOGIE  A  kann  nicht zusammen mit dem Zusatzfach MEDIZINISCHE UND MOLEKULARE BIOWISSEN-SCHAFTEN belegt werden.
+
+Die  Gesamtzahl  der  ECTS-Credits  für  dieses  Zusatzfach  kann  zwischen  30  und  36  Credits betragen. Sobald die Anzahl von 36 ECTS erreicht ist, werden alle zusätzlichen ECTS-Credits ausserhalb des Studienplan gezählt und nicht auf den gewichteten Durchschnitt angerechnet (Art. 24 Abs. 6).
+
+| Code      | Unterrichtseinheit                                                              | Semester tot.   |   Std. |   ECTS |
+|-----------|---------------------------------------------------------------------------------|-----------------|--------|--------|
+|           | Erstes Jahr (obligatorisch)                                                     |                 |        |        |
+| SBL.00001 | Allgemeine Biologie I (Vorlesung)*                                              | HS              |     46 |    5   |
+| SBL.00003 | Allgemeine Biologie I (Praktikum)*                                              | HS              |     12 |    1   |
+| SBL.00002 | Allgemeine Biologie II (Vorlesung)*                                             | FS              |     46 |    5   |
+| SBL.00004 | Allgemeine Biologie II (Praktikum)*                                             | FS              |     12 |    1   |
+|           | Erstes Jahr oder nächste Jahre (zu Wahl) #                                      |                 |        |        |
+| SBL.00040 | Organismenbiologie I: Wirbeltiere                                               | HS              |     28 |    3   |
+| SBL.00041 | Organismenbiologie II: Wirbellose Tiere                                         | FS              |     28 |    3   |
+| SBL.00074 | Organismenbiologie III: Pilze und Pflanzen (Vorlesung und Praktika/Exkursionen) | FS              |     72 |    5   |
+| SBL.00075 | Einführung in die Biostatistik                                                  | HS              |     14 |    1.5 |
+| SBL.00013 | Ökologie                                                                        | HS              |     42 |    4   |
+| SBL.00037 | Experimentelle Ökologie (Praktikum) 1                                           | FS              |     45 |    3   |
+| SFS.00001 | Philosophie und Ethik der Naturwissenschaften                                   | HS              |     28 |    3   |
+| SFS.00002 | Naturwissenschaften und Gesellschaft                                            | FS              |     28 |    3   |
+
+| Zweites Jahr oder folgende Jahre (zur Wahl) #   | Zweites Jahr oder folgende Jahre (zur Wahl) #                                |    |    |      |
+|-------------------------------------------------|------------------------------------------------------------------------------|----|----|------|
+| SBL.00045                                       | Hormone und Entwicklung der Pflanzen                                         | FS | 28 |  3   |
+| SBL.00014                                       | Molekularbiologie                                                            | HS | 28 |  3   |
+| SBL.00015                                       | Tierphysiologie                                                              | FS | 28 |  3   |
+| SBL.00018                                       | Molekularbiologie der Pflanzen 3                                             | HS | 28 |  3   |
+| SBL.00019                                       | Methoden der Molekularbiologie 4                                             | HS | 28 |  3   |
+| SBL.00020                                       | Neurobiologie                                                                | HS | 28 |  2   |
+| SBL.00021                                       | Evolutionsbiologie                                                           | HS | 28 |  3   |
+| SBL.00068                                       | Phytopathologie und Pflanzen-Pathogen Interaktionen                          | HS | 28 |  3   |
+| SBL.00049                                       | Populationsgenetik                                                           | HS | 28 |  3   |
+| SBL.00057                                       | Entwicklungsbiologie                                                         | FS | 16 |  1.5 |
+| SBL.00061                                       | Funktionale Diversität der Mikroorganismen 2                                 | HS | 14 |  1.5 |
+| SBL.00063                                       | Grundlagen der Bakteriologie                                                 | HS | 14 |  1.5 |
+| SME.05103                                       | Allgemeine und medizinische Mikrobiologie                                    | HS | 24 |  3   |
+| SME.06104                                       | Spezialisierte klinische Mikrobiologie 5                                     | FS | 24 |  2.5 |
+| SME.06309                                       | Mikrobiologie (Praktikum) 5                                                  | FS |  8 |  1   |
+| SMO.00007                                       | Funktionelle Anatomie der menschlichen Körpersysteme                         | HS | 28 |  3   |
+| SMO.00008                                       | Funktionelle Neuroanatomie des Menschen                                      | HS | 28 |  3   |
+| SPY.00110                                       | Physiologie und Pathophysiologie der grossen Regulationssysteme, Teil I (A)  | HS | 28 |  3   |
+| SPY.00111                                       | Physiologie und Pathophysiologie der grossen Regulationssysteme, Teil II (A) | FS | 28 |  3   |
+|                                                 |                                                                              |    |    | 30   |
+
+# Die Jahreszahl bezieht sich auf das Zusatzfach, nicht auf den Beginn des Studiums.
+
+* UE, welche als propädeutische Fächer ins Hauptprogramm gewählt würden, sollen durch Wahlveranstaltungen ersetzt werden
+
+(A) Unterrichtseinheiten mit dem gleichen Buchstaben müssen zusammen gewählt werden
+
+1 Voraussetzung: SBL.00013; SBL.00075
+
+2 Voraussetzung: Grundlagen der Bakteriologie (SBL.00063), oder SME.05103
+
+3 Voraussetzung: Hormone und Entwicklung der Pflanzen (SBL.00045)
+
+4 Voraussetzung: Molekularbiologie (SBL.00014)
+
+- 5 Voraussetzung: Allgemeine Mikrobiologie (SME.05103)
+
+## 3.7.1.4 Unterrichtseinheiten des Zusatzfachs BIOLOGIE B zu 60 ECTS für Studierende, die nicht Biologie als Hauptfach gewählt haben
+
+[Version 2022, Anrechnungseinheit: PV-SBL.0000080]
+
+Das Zusatzfach BIOLOGIE B ist für Studierende der Math.-Nat. und Med. Fakultät oder anderer Fakultäten bestimmt, aber nicht für Studierende der Biologie. Das Programm besteht aus 12 ECTS obligatorischer UEs. Diese müssen aber durch andere UEs zur Wahl ersetzt werden, falls die obligatorischen UEs schon einem anderen Programm angerechnet werden. Die Summe von 30 ECTS muss mit UEs zur Wahl erreicht werden.
+
+Die  Gesamtzahl  der  ECTS-Credits  für  dieses  Zusatzfach  kann  zwischen  60  und  72  Credits betragen. Sobald die Anzahl von 72 ECTS erreicht ist, werden alle zusätzlichen ECTS-Credits ausserhalb des Studienplan gezählt und nicht auf den gewichteten Durchschnitt angerechnet (Art. 24 Abs. 6).
+
+| Code      | Unterrichtseinheiten                | Semester   |   tot. Std. |   ECTS |
+|-----------|-------------------------------------|------------|-------------|--------|
+|           | Erstes Jahr (obligatorisch)         |            |             |        |
+| SBL.00001 | Allgemeine Biologie I Vorlesung*    | HS         |          46 |      5 |
+| SBL.00003 | Allgemeine Biologie I (Praktikum)*  | HS         |          12 |      1 |
+| SBL.00002 | Allgemeine Biologie II Vorlesung*   | FS         |          46 |      5 |
+| SBL.00004 | Allgemeine Biologie II (Praktikum)* | FS         |          12 |      1 |
+
+| Erstes Jahr oder folgende Jahre (zur Wahl) #   | Erstes Jahr oder folgende Jahre (zur Wahl) #                                                      | Erstes Jahr oder folgende Jahre (zur Wahl) #   | Erstes Jahr oder folgende Jahre (zur Wahl) #   | Erstes Jahr oder folgende Jahre (zur Wahl) #   |
+|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|
+| SBL.00040                                      | Organismenbiologie I: Wirbeltiere                                                                 | HS                                             | 28                                             | 3                                              |
+| SBL.00041                                      | Organismenbiologie II: Wirbellose Tiere                                                           | FS                                             | 28                                             | 3                                              |
+| SBL.00074                                      | Organismenbiologie III: Pilze und Pflanzen (Vorlesung und Praktika/Exkursionen)                   | FS                                             | 72                                             | 5                                              |
+| SBL.00075                                      | Einführung in die Biostatistik                                                                    | HS                                             | 14                                             | 1.5                                            |
+| SBL.00013                                      | Ökologie                                                                                          | HS                                             | 42                                             | 4                                              |
+| SBL.00037                                      | Experimentelle Ökologie (Praktikum) 1                                                             | FS                                             | 45                                             | 3                                              |
+| Folgende Jahre (zur Wahl) #                    | Folgende Jahre (zur Wahl) #                                                                       | Folgende Jahre (zur Wahl) #                    | Folgende Jahre (zur Wahl) #                    | Folgende Jahre (zur Wahl) #                    |
+| SBC.00119                                      | Grundlagen der Biochemie                                                                          | FS                                             | 52                                             | 6                                              |
+| SBL.00014                                      | Molekularbiologie                                                                                 | HS                                             | 28                                             | 3                                              |
+| SBL.00015                                      | Tierphysiologie                                                                                   | FS                                             | 28                                             | 3                                              |
+| SBL.00018                                      | Molekularbiologie der Pflanzen 3                                                                  | HS                                             | 28                                             | 3                                              |
+| SBL.00019                                      | Methoden der Molekularbiologie 4                                                                  | HS                                             | 28                                             | 3                                              |
+| SBL.00020                                      | Neurobiologie 5                                                                                   | HS                                             | 20                                             | 2                                              |
+| SBL.00021                                      | Evolutionsbiologie                                                                                | HS                                             | 28                                             | 3                                              |
+| SBL.00068                                      | Phytopathologie und Pflanzen-Pathogen Interaktionen                                               | HS                                             | 28                                             | 3                                              |
+| SBL.00045                                      | Hormone und Entwicklung der Pflanzen                                                              | FS                                             | 28                                             | 3                                              |
+| SBL.00049                                      | Populationsgenetik                                                                                | HS                                             | 28                                             | 3                                              |
+| SBL.00057                                      | Entwicklungsbiologie                                                                              | FS                                             | 16                                             | 1.5                                            |
+| SBL.00073                                      | Spezialisierter Metabolismus: Bedeutung für die chemische Ökologie und die menschliche Gesundheit | HS                                             | 14                                             | 1.5                                            |
+| SBL.00061                                      | Funktionale Diversität der Mikroorganismen 5                                                      | HS                                             | 14                                             | 1.5                                            |
+| SBL.00063                                      | Grundlagen der Bakteriologie                                                                      | HS                                             | 14                                             | 1.5                                            |
+| SME.05103                                      | Allgemeine und medizinische Mikrobiologie                                                         | HS                                             | 24                                             | 3                                              |
+| SME.06104                                      | Spezialisierte klinische Mikrobiologie 2                                                          | FS                                             | 24                                             | 2.5                                            |
+| SME.06309                                      | Mikrobiologie (Praktikum) 2                                                                       | FS                                             | 8                                              | 1                                              |
+| SMO.00007                                      | Funktionelle Anatomie der menschlichen Körpersysteme                                              | HS                                             | 28                                             | 3                                              |
+| SMO.00008                                      | Funktionelle Neuroanatomie des Menschen                                                           | HS                                             | 28                                             | 3                                              |
+| SPY.00110                                      | Physiologie und Pathophysiologie der grossen Regula- tionssysteme I (A)                           | HS                                             | 28                                             | 3                                              |
+| SPY.00111                                      | Physiologie und Pathophysiologie der grossen Regula- tionssysteme II (A)                          | FS                                             | 28                                             | 3                                              |
+| SFS.00001                                      | Philosophie und Ethik der Naturwissenschaften                                                     | HS                                             | 28                                             | 3                                              |
+| SFS.00002                                      | Naturwissenschaften und Gesellschaft                                                              | FS                                             | 28                                             | 3                                              |
+|                                                |                                                                                                   |                                                |                                                | 60                                             |
+
+- # Die Jahreszahl bezieht sich auf das Zusatzfach, nicht auf den Beginn des Studiums.
+
+* UE,  welche  als  propädeutische  Fächer  ins  Hauptprogramm  gewählt  würden,  sollen durch Wahlveranstaltungen ersetzt werden
+
+(A)  diese Unterrichtseinheiten müssen zusammen gewählt werden
+
+- 1 Voraussetzung: Ökologie (SBL.00013)
+- 2 Voraussetzung: Allgemeine und medizinische Mikrobiologie (SME.05103)
+- 3 Voraussetzung: Hormone und Entwicklung der Pflanzen (SBL.00045)
+- 4 Voraussetzung: Molekularbiologie (SBL.00014)
+- 5 Voraussetzung: Grundlagen der Bakteriologie (SBL.00063) oder SME.05103
+
+## 3.7.1.5 Unterrichtseinheiten des Zusatzfachs BIOLOGIE E zu 60 ECTS
+
+[Version 2023, Anrechnungseinheit: PV-SBL.0000092]
+
+Das Zusatzfach BIOLOGIE E ist für Studierende der Math.-Nat. und Med. Fakultät oder anderer Fakultäten  bestimmt,  aber  nicht  für  Studierende  der  Biologie  im  Hauptfach.  Studierende,  die propädeutische Lehrveranstaltungen (SBL.00001; SBL.00002; SBL.00003; SBL.00004; SCH.01014; SCH.01072;  SMA.00402)  oder  fortgeschrittenere  Lehrveranstaltungen  in  anderen  Programmen besucht haben oder besuchen müssen, ersetzen die fehlenden Credits durch frei wählbare UE. Alle hier angebotenen UEs sind auf Bachelorniveau.
+
+Dieses Zusatzfach ist auch für zukünftige LDM Studierende bestimmt. Die 60 ECTS müssen aber in diesem Fall mit zusätzlichen 30 ECTS der Biologie E+30 ergänzt werden. Der/die Studierende muss sich über den Inhalt des Zusatzfachs Biologie E+30 informieren, um die notwendigen UEs, die als Vorrausetzung verlang werden, zu erwerben.
+
+Das  Zusatzfach  Biologie  E  kann  auch  ohne  Biologie  +30  genommen  werden,  wenn  der/die Studierende keine zusätzlichen Credits zu erwerben wünscht.
+
+Die  Gesamtzahl  der  ECTS-Credits  für  dieses  Zusatzfach  kann  zwischen  60  und  72  Credits betragen. Sobald die Anzahl von 72 ECTS erreicht ist, werden alle zusätzlichen ECTS-Credits ausserhalb des Studienplans gezählt und nicht auf den gewichteten Durchschnitt angerechnet (Art. 24 Abs. 6).
+
+| Code      | Unterrichtseinheiten                                                            | Semester   |   Std. |   ECTS |
+|-----------|---------------------------------------------------------------------------------|------------|--------|--------|
+| 1. Jahr:  | Propädeutische Biologie (obligatorisch)                                         |            |        |        |
+| SBL.00001 | Allgemeine Biologie I (Vorlesung)                                               | HS         |     46 |    5   |
+| SBL.00003 | Allgemeine Biologie I (Praktikum)                                               | HS         |     12 |    1   |
+| SBL.00002 | Allgemeine Biologie II (Vorlesung)                                              | FS         |     46 |    5   |
+| SBL.00004 | Allgemeine Biologie II (Praktikum)                                              | FS         |     12 |    1   |
+|           | 1. Jahr oder 2. Jahr: Mathematik und Chemie (obligatorisch)                     |            |        |        |
+| SCH.01014 | Allgemeine Chemie (Vorlesung)                                                   | HS         |     84 |    6   |
+| SCH.01072 | Grundlagen der organischen Chemie (Vorlesung)                                   | FS         |     42 |    3   |
+| SMA.00402 | Propädeutische Statistik (Vorlesung mit Übungen)                                | FS         |     42 |    3   |
+|           | 1. Jahr oder folgende Jahre (obligatorisch) #                                   |            |        |        |
+| SBL.00040 | Organismenbiologie I: Wirbeltiere                                               | HS         |     28 |    3   |
+| SBL.00041 | Organismenbiologie II: Wirbellose Tiere                                         | FS         |     28 |    3   |
+| SBL.00074 | Organismenbiologie III: Pilze und Pflanzen (Vorlesung und Praktika/Exkursionen) | FS         |     72 |    5   |
+|           | Ab dem 2. Jahr (obligatorisch) #                                                |            |        |        |
+| SBL.00013 | Ökologie (Vorlesung)                                                            | HS         |     42 |    4   |
+| SBL.00014 | Molekularbiologie (Vorlesung)                                                   | HS         |     28 |    3   |
+| SBL.00021 | Evolutionsbiologie (Vorlesung)                                                  | HS         |     28 |    3   |
+| SBL.00045 | Hormone und Entwicklung der Pflanzen                                            | FS         |     28 |    3   |
+| SBL.00063 | Grundlagen der Bakteriologie                                                    | HS         |     14 |    1.5 |
+
+| Zur Wahl   | Zur Wahl                                                                                          |    |    |     |
+|------------|---------------------------------------------------------------------------------------------------|----|----|-----|
+| SBC.00119  | Grundlagen der Biochemie                                                                          | FS | 52 | 6   |
+| SBL.00015  | Tierphysiologie                                                                                   | FS | 28 | 3   |
+| SBL.00019  | Methoden der Molekularbiologie 2                                                                  | HS | 28 | 3   |
+| SBL.00020  | Neurobiologie                                                                                     | HS | 28 | 2   |
+| SBL.00049  | Populationsgenetik 3                                                                              | HS | 28 | 3   |
+| SBL.00057  | Entwicklungsbiologie                                                                              | FS | 16 | 1.5 |
+| SBL.00073  | Spezialisierter Metabolismus: Bedeutung für die chemische Ökologie und die menschliche Gesundheit | HS | 14 | 1.5 |
+| SBL.00075  | Einführung in die Biostatistik                                                                    | HS | 14 | 1.5 |
+| SBL.00061  | Funktionale Diversität der Mikroorganismen 4                                                      | HS | 14 | 1.5 |
+| SMO.00007  | Funktionelle Anatomie der menschlichen Körpersysteme                                              | HS | 28 | 3   |
+| SMO.00008  | Funktionelle Neuroanatomie des Menschen                                                           | HS | 28 | 3   |
+| SFS.00001  | Philosophie und Ethik der Naturwissenschaften 1                                                   | HS | 28 | 3   |
+| SFS.00002  | Naturwissenschaften und Gesellschaft 1                                                            | FS | 28 | 3   |
+| SPY.00110  | Physiologie und Pathophysiologie der grossen Regulationssysteme, Teil I (A)                       | HS | 28 | 3   |
+| SPY.00111  | Physiologie und Pathophysiologie der grossen Regulationssysteme, Teil II (A)                      | FS | 28 | 3   |
+| SSE.00101  | Grundkurs Umweltwissenschaften: Ökologie                                                          | HS | 28 | 3   |
+| SSE.00104  | Grundkurs Umweltwissenschaften: Umweltethik                                                       | FS | 28 | 3   |
+
+- # Die Jahreszahl bezieht sich auf das Zusatzfach, nicht auf den Beginn des Studiums.
+- A  Unterrichtseinheiten mit dem gleichen Buchstaben müssen zusammen gewählt werden
+- 1 nur die eine oder die andere von diesen Vorlesungen kann in diesem Zusatzfach gewählt werden
+- 2 SBL.00019 ist wichtig für das Zusatzfach Biologie E+30
+- 3 Voraussetzung: Evolutionsbiologie (SBL.00021)
+- 4 Voraussetzung: Grundlagen der Bakteriologie (SBL.00063).
+
+## 3.7.2 Inhalt der Unterrichtseinheiten der Zusatzfächer
+
+## Biochemie und Bioinformatik
+
+- Die  Vorlesung Methoden  in  Biochemie (SBC.00009)  stellt  verschiedene  Methoden  und Technologien  vor,  die  in  der  Erforschung  der  Proteine  und  Makromoleküle  und  in  der Zellbiologie verwendet werden.
+- Biochemie für Anfänger (Praktika) (2. Jahr, SBC.00047): dieses Praktikum ist eine kurze Einführung in die einfachen biochemischen Methoden, die in Forschungslabors und in der klinischen Chemie verwendet werden.
+- Der  Kurs Zellbiologie (SBC.00106)  behandelt  die  molekularen  Mechanismen,  welche  es erlauben die Struktur und Funktionalität einer einzelnen Zelle (Transport von Proteinen an ihren Bestimmungsort, Autophagie, Zytoskelett, mitochondriale Vererbung) oder des ganzen Organismus (Stammzellen, Apoptose, Zell-Verbindungen, extrazelluläre Matrix) aufrecht zu erhalten.
+- Der Kurs Ergänzende Molekularbiologie (SBC.00113) vertieft Konzepte der Molekularbiologie mit Hauptgewicht auf Synthese und Reparatur von DNS, der Biogenese von Ribosomen, und der Regulation der RNS. Darüber hinaus bietet der Kurs eine Einführung in die Benutzung von Programmen und Datenbasen, welche es ermöglichen, DNS Sequenzen zu analysieren und zu verändern, z.B. im Hinblick auf eine Genklonierung
+- Der Kurs Allgemeine Biochemie (SBC.00114) vertieft die im Kurs Grundlagen der Biochemie (SBC.00119) erarbeiteten Konzepte und beschreibt Struktur und Funktion von Zellkomponenten  (Aminosäuren, Proteine, Zucker, Lipide) mit Hauptgewicht auf den entsprechenden metabolischen Stoffwechselwegen.
+
+- Die Vorlesung Molekulare Humangenetik (SBC.00115) liefert einerseits Erkenntnisse über die Grundlagen der Humangenetik und andererseits einen Einblick in die molekularen Mechanismen, die in der medizinischen Pathologie von Bedeutung sein. Ausserdem umfasst dieser Kurs Informationen über die Methoden der Diagnostik und der Therapie dieser Krankheiten.
+- Die  Vorlesung Grundlagen  der Biochemie (SBC.00119)  bietet  eine  Einführung  in  die  Biochemie.  Sie  beschreibt  die  Zusammensetzung,  die  Struktur  und  den  Metabolismus  der wichtigsten Zellbestandteile und des Organismus (d.h. Aminosäuren, Nukleinsäuren, Zucker und Lipide).
+- Vorlesung Hefe  Genetik (SBC.00125).  Hefe  hat  sich  als  einzelliger  Modellorganismus  für genetische  und  molekularbiologische  Studien  etabliert  und  wird  heutzutage  auch  oftmals verwendet  um  neue  genomweite  Hochdurchsatz-Methoden  zu  entwickeln.  In  diesem  Kurs werden die Grundlagen der Hefegenetik und Molekularbiologie erarbeitet  und anhand von aktuellen  Fragestellungen  aus  der  Forschung  erläutert.  Ziel  der  Vorlesung  ist,  dass  die Studierenden  einen  Einblick  erhalten,  wie  durch  die  Kombination  von  genetischen  und molekularbiologischen Methoden, komplexe zelluläre Vorgänge untersucht und aufgeschlüsselt werden können.
+- Der  Kurs Einführung  in  die  Bioinformatik  und  die  Genomik (SBC.07003)  beschreibt  die allgemeinen Grundsätze der Bioinformatik und ihren Anwendungen in die Genomik. Dieser Kurs  übermittelt  grundlegende  Kenntnisse  der  Hilfsmittel  und  Datenbanken,  welche  zum Vergleich  und  zur  Analyse  von  Protein-  oder  die  Nukleotidsequenzen  verwendet  werden. Dieser Kurs beschreibt die Sequenzierungstechnologien der nächsten Generation und ihre Verwendung  bei  der  Untersuchung  des  Genoms  von  verschiedenen  Organismen  und  in biomedizinische Forschung.
+- Der Kurs Fortgeschrittene Bioinformatik  und  Genomik (SBC.07005) ist eine direkte Fortsetzung  des  Grundkurses  SBC.07004.  Er  vertieft  die  Methoden  der  Next  Generation Sequencing-Anwendungen, wie de novo Genom- und Transkriptom-Assembly &amp; Annotation, Remapping  &amp;  Variantenidentifikation,  Transkriptomik,  ChIPseq  &amp;  verwandte  Methoden, Epigenomik, Mikrobiom &amp; Metagenomik, Populationsgenomik. Jede Woche  wird ein Hauptkonzept detailliert behandelt, wobei die Algorithmen der wichtigsten Methoden mit einem besonderen Blick auf ihre Vor- und Nachteile erklärt. Jede Woche werden praktische Übungen durchgeführt, die direkt mit den theoretischen Vorlesungen verbunden sind, um das Lernen durch den Einsatz einfacher Web-Tools zu verstärken.
+
+## Biologie
+
+- Die  propädeutischen  Biologie-Vorlesungen Allgemeine  Biologie I (SBL.00001)  und II (SBL.00002)  vermitteln  eine  Einführung  in  die  Biologie  (Zellbiologie,  Genetik,  Ökologie, Pflanzenbiologie,  Entwicklungsbiologie)  und  behandeln  die  biologischen  Strukturen  und Funktionen von der molekularen Ebene bis zum Organismus.
+- Die  Praktika  in Allgemeiner  Biologie  I (SBL.00003)  und II (SBL.00004),  illustrieren  die Grundkenntnisse der Biologie der Zellen, Organismen und der Evolution.
+- Die Vorlesungen Organismenbiologie I und II (SBL.00040 und SBL.00041) behandeln die Klassifizierung der Wirbeltiere ( Organismenbiologie I ) und der Protisten und wirbellosen Tiere ( Organismenbiologie II ), mit ihrer Organisation, vergleichenden Anatomie und Verhaltensökologie. Im Praktikum lernen die Studierenden Tiere zu sezieren (Fische) und Bestimmungsübungen  durchzuführen.  Die  Exkursionen  haben  zum  Ziel  Tiere  in  ihrer natürlichen  Umgebung  zu  beobachten,  sowie  Bestimmungsübungen  und  Ökologie  zu erlernen.
+- Die Vorlesung Organismenbiologie III (SBL.00074) beschreibt die Biologie der Pilze, Algen, Moose, Farne und der höheren Pflanzen und beinhaltet eine Einführung in ihre Systematik. Während der Praktika werden Pflanzen bestimmt und verschiedene typische Pflanzengesellschaften werden während Exkursionen besucht.
+- Die Vorlesung Ökologie (SBL.00013) beinhaltet eine Einleitung in die Populationsbiologie und beschreibt biotische Interaktionen und die Ökologie der Artengemeinschaften.
+
+- Die Vorlesung Molekularbiologie (SBL.00014) behandelt die molekularen Mechanismen, die mit Nukleinsäuren und der Genregulation bei Eukaryoten und Prokaryoten verbunden sind. Diese Vorlesung baut auf den Konzepten auf, die im Einführungskurs SBL.00001 erworben wurden.  Behandelt  werden  unter  anderem  die  Chromatinstruktur,  die  Transkription,  die transkriptionelle und posttranskriptionelle Regulation und die mit der Epigenetik verbundenen Mechanismen.
+- Die Vorlesung Tierphysiologie (SBL.00015) beschreibt die Grundlagen der Physiologie sowie ausgewählte Themen der vergleichenden Tierphysiologie.
+- Die Neurobiologie (SBL.00020) gibt einen Einblick in fortgeschrittene Neurobiologie und behandelt molekulare und zelluläre Aspekte sowie neuronale Funktionen und Verhalten.
+- Die Vorlesung Evolutionsbiologie (SBL.00021) behandelt die Mechanismen der Evolution und der Evolutionsgenetik sowie ausgewählte Themen der modernen Evolutionsforschung.
+- Im Praktikum Experimentelle Ökologie (SBL.00037) lernen die Studierenden Experimente zu planen und auszuführen, sowie das experimentelle Design, die statistischen Analysen und die  Präsentation  der  Resultate.  Es  wird  dringend  empfohlen,  zuvor  SBL.00075  und SBL.00013 absolviert zu haben.
+- Die Vorlesung Hormone und Entwicklung der Pflanzen (SBL.00045) behandelt die Grundlage der Physiologie, Biochemie und Entwicklungsbiologie der Pflanzen.
+- Die Vorlesung Populationsgenetik (SBL.00049) untersucht die Schwankungen der Allelfrequenzen über  Zeit  und  Raum,  unter  dem  Einfluss  von  natürlicher  Selektion, genetischer Drift, Mutationen und Migration.
+- Die  Vorlesung Entwicklungsbiologie (SBL.00057)  beschreibt  die  Phänomene  welche  zur Bildung von mehrzelligen Organismen führen. Er erläutert auch die Strategien und Techniken die zum Studium dieser Phänomene gebraucht werden.
+- Die  Vorlesung Mechanismen der Regeneration (SBL.00058)  erläutert  die  Grundlagen  der Fortpflanzung bei den Wirbellosen, den Wirbeltieren und dem Menschen. Dieser auf Englisch gehaltene Kurs richtet sich an Studierende im dritten Studienjahr und stellt eine Voraussetzung für die Vorlesung SME.04300 dar.
+- Die Vorlesung Funktionale Vielfalt der Mikroorganismen (SBL.00061) gibt einen Überblick über  die  verschiedenen  Funktionen  von  Mikroorganismen  in  der  Umwelt  und  ihre  Interaktionen mit anderen Organismen. Dabei wird insbesondere auf ihre Rolle in biogeochemischen Kreisläufen, in der Biotechnologie und in der Agrarwissenschaft eingegangen. Diese Vorlesung  beschreibt  auch  das  vielzellige  Verhalten  von  Mikroorganismen,  wie  z.B.  die Bildung von Biofilmen oder die Regulierung der Genexpression, die über Quorum-Sensing Mechanismen auf Populationsebene geschieht.
+- Die Meere zeigen die grösste Vielfalt der Tierarten auf unserem Planeten. Der fünftägige Workshop Meeresbiologie (SBL.00062)  besteht  aus  Theorie  und  Praxis  und  ist  darauf ausgerichtet, diese Biodiversität kennen zu lernen und Tiere aus verschiedenen Lebensräumen zu studieren. Damit sie von diesem Praktikum voll profitieren können, werden Studierende bevorzugt, die bereits SBL.00040 (Biologie der Organismen I, Wirbeltiere) und SBL.00041 Biologie der Organismen II: Wirbellose) absolviert haben.
+- Die  Vorlesung Grundlagen  der  Bakteriologie (SBL.00063)  erklärt  die  Grundlagen  der bakteriellen Physiologie. Er behandelt insbesondere die Ernährung, den Stoffwechsel, das Wachstum  und  das  Bewegungsvermögen,  sowie  das  vielzellige  Verhalten  der  Bakterien (Bildung von Biofilm, Gen-Regulierung per Quorum-Sensing). Er gibt auch einen Überblick über die Vielfalt der Welt der Bakterien und ihre Entwicklung seit dem Anfang des Lebens auf der Erde.
+- Ionenkanäle erfüllen mehrere grundlegende biologische Funktionen. Der Kurs, Ionenkanäle: Funktionen und Fehlfunktionen (SBL.00064) stellt die Struktur-Funktions-Beziehung in einer Reihe von Beispielen von Ionenkanälen in ihrer normalen Funktion und in verschiedenen menschlichen und tierischen Pathologien im Detail vor. Insbesondere sollen die Studierenden dazu gebracht werden, die Verbindung zwischen genetischen Mutationen, biophysikalischen Auswirkungen auf Kanäle und physiologischen Veränderungen auf zellulärer und organismischer Ebene herzustellen. Dieser Kurs wird im gleichen Zeitfenster wie SBL.00020 abgehalten, welcher eine Voraussetzung ist.
+
+- Die Vorlesung Phytopathologie und Pflanzen-Pathogen Interaktionen (SBL.00068) beginnt mit  einer  Einführung  in  die  klassische  Phytopathologie  und  einem  Überblick  über  die verschiedenen Arten von Pflanzenpathogenen, ihre Entwicklungszyklen und Infektionswege. Der zweite Teil  des  Kurses  widmet  sich  den  physiologischen,  biochemischen  und molekularen  Mechanismen,  die  den  Interaktionen  zwischen  Pflanzen  und  Pathogenen zugrunde liegen. Zu den behandelten Themen gehören die Strategien, die es Pathogenen ermöglichen, Pflanzen zu infizieren, die Abwehrreaktionen der Pflanzen und die Aktivierung ihres Immunsystems sowie die verschiedenen Strategien, die jeder Partner entwickelt, um die Waffen oder Abwehrkräfte des anderen zu neutralisieren. Da diese wichtige Grundkenntnisse vermitteln, sollten die Vorlesungen SBL.00074, SBL.00063 und SBL.00045 vorher besucht werden.
+- Die Vorlesung Nutzpflanzen der Welt (SBL.00069) vermittelt grundlegende Kenntnisse über wichtige Nutzpflanzen und beleuchtet ihre Eigenschaften  aus verschiedenen Perspektiven, wie  beispielsweise  physiologische  und  genetische  Besonderheiten,  Anbau,  Züchtung, Krankheiten,  Nutzbarkeit  und  Nachhaltigkeit.  Dieser  Kurs  wird  teilweise  in  Form  von Vorlesungen und teilweise als "umgekehrter Unterricht" abgehalten. Studierendengruppen präsentieren verschiedene Nutzpflanzen.
+- Das Ziel des Forschungspraktikums (SBL.00070) ist es, den Studierenden einen Einblick in den Alltag eines biologischen Forschers im Labor und/oder im Feld zu geben. Vier Wochen lang (idealerweise im Sommer)  führt  der/die Studierende unter der Aufsicht eines fortgeschrittenen  Forschers  der  aufnehmenden Forschungsgruppe  eine Forschungsarbeit durch,  wobei  er/sie  seine/ihre  Experimente  und  die  daraus  resultierenden  Ergebnisse  in einem  Laborheft  festhält.  Das  Praktikum  wird  auf  der  Grundlage  der  Vorlage  dieses Laborbuchs als bestanden oder nicht bestanden bewertet. Die Studierenden sind selbst dafür verantwortlich, eine Forschungsgruppe zu finden, die sie innerhalb des Departement Biologie aufnimmt.  Eine  Liste  der  Forschungsgruppen,  die  bereit  sind,  Studierende  für  dieses Praktikum aufzunehmen, wird auf der Moodle-Seite des Kurses zur Verfügung gestellt.
+- Im  Kurs Spezialisierter  Metabolismus:  Bedeutung  für  die  chemische  Ökologie  und  die menschliche Gesundheit (SBL.00073) werden wir den Metabolismus von Organismen und insbesondere  den  spezialisierten  Metabolismus  beschreiben.  Wir  werden  zunächst  die Bestandteile  des  Metabolismus  sowie  ihre  Ursprünge  und  Funktionen  definieren.  Dann werden wir den Begriff der Spezialisierung innerhalb des Metabolismus sowohl in Bezug auf die  biologischen  Funktionen  als  auch  in  Bezug  auf  das  Vorkommen  in  Lebewesen diskutieren. Schliesslich werden wir die Mechanismen und biosynthetischen Wege erläutern, die das Entstehen dieses spezialisierten Metabolismus erklären. Während dieser verschiedenen  Schritte  werden  wir  den  Metabolismus  unter  dem  Gesichtspunkt  der chemischen Ökologie und der menschlichen Gesundheit betrachten.
+- Die  Vorlesung Einführung  in  die  Biostatistik (SBL.00075)  behandelt  die  Grundlagen  der Biostatistik.  Wir  beginnen  mit  einer  Wiederholung  einiger  grundlegender  Konzepte  wie Grundgesamtheit, Stichprobe, Standardfehler, Konfidenzintervall, Typ-I- und Typ-II-Fehler und p-Wert. Dann werden wir die am häufigsten verwendeten statistischen Werkzeuge in der Biologie behandeln, wie z.B.: t-Test, Varianzanalyse (1 und 2 Faktoren; Messwiederholungen), Korrelation, lineare Regression, Stichprobengrösse
+
+## Medizinische Wissenschaften und Mikrobiologie
+
+- Der Kurs Aktuelles aus der regenerativen  Medizin (SME.04300).  Die Alterung der Bevölkerung und der  Kampf  gegen  chronisch degenerative Krankheiten stellen die Wissenschaft  vor  erhebliche  Herausforderungen.  Die  Notwendigkeit,  neue  therapeutische Strategien  zu  entwickeln,  die  auf  den  Ersatz  oder  die  Regeneration  von  geschädigten Organen und Geweben abzielen, ist eine der größten Herausforderungen der kommenden Jahrzehnte. Gleichzeitig kann die Entwicklung von künstlichen Geweben im Inkubator neue und  wertvolle  Werkzeuge  für  die  Prüfung  der  Arzneimitteltoxizität  liefern.  In  diesem multidisziplinären  Kurs  erwerben  Studierende  ein  Verständnis  des  tissue  engineering  und Kenntnisse  über  die  aktuelle  Übersetzung  wissenschaftlicher  Entwicklungen  in  klinische Anwendungen,  wobei  aktuelle  klinische  Studien  vorgestellt  werden.  Mehrere  spezifische Beispiele für verschiedene Organe und Gewebe (Herz, Knochen, Knorpel,
+
+Bauchspeicheldrüse, Leber, Haut) werden ebenso diskutiert wie Biomaterialien und Zellen, die  in  der  regenerativen  Medizin  eingesetzt  werden.  Anwesenheitskontrolle  mit  80% Anwesenheitspflicht. SBL.00058 ist eine empfohlene, aber nicht zwingende Voraussetzung für diesen Kurs.
+
+- Die  Vorlesung Allgemeine  und  medizinische  Mikrobiologie (SME.05103)  behandelt  die Grundzüge der Mikrobiologie (Bakterien, Viren, Parasiten) sowie die Geschichte, Klassifikation, Struktur, Pathogenitätsfaktoren, Genetik, Wirt-Pathogen-Interaktionen, Antibiotika und Virostatika; Resistenzen gegen Antibiotika und Virostatika, Mikrobiologie bei Menschen und Tier, und Umweltmikrobiologie.
+- Die  Vorlesungen Immunologie  I und Fortgeschrittene  Immunologie (SME.05305  und SME.06312) führen in die Grundlagen der Immunologie ein und vertiefen sie anschliessend. SME.05305 ist eine obligatorische Voraussetzung für SME.06312.
+- Der Kurs Funktionelle Anatomie der menschlichen Körpersysteme (SMO.00007) behandelt die Anatomie, Zellbiologie und Funktion wichtiger Körpersysteme des Menschen, einschliesslich des Herz-Kreislauf-Systems,  des  Verdauungssystems,  des  endokrinen Systems,  der  Atemwege,  der  Geschlechtsorgane  und  der  Harnwege.  Der  Kursinhalt  wird durch Vorlesungen und Praktika vermittelt.
+- Der Kurs Funktionelle Neuroanatomie des Menschen (SMO.00008) behandelt die Grundlagen  der  Entwicklung  des  menschlichen  Gehirns  und  konzentriert  sich  auf  die Anatomie, die Histologie, die Zellbiologie und die funktionellen Aspekte des zentralen und peripheren Nervensystems des erwachsenen  Menschen.  Der Kursinhalt wird durch Vorlesungen  und  Praktika  vermittelt.  SMO.00007  und  SMO.00008  können  unabhängig voneinander belegt werden.
+- Die Vorlesung Deskriptive Anatomie (SMO.00630) beschäftigt sich mit dem Aufbau des Skeletts und des Bewegungsapparates sowie mit dem Kreislauf-, Atmungs- und Verdauungssystem.
+- Die Vorlesung Physiologie und Pathophysiologie der grossen Regulationssysteme, Teile I und II (SPY.00110, SPY.00111) wird über zwei Semester erteilt. Sie behandelt die Hauptfunktionssysteme des menschlichen Körpers (Generelles, Kardiovaskuläres System, Nierensystem, Atmungssystem, Verdauungssystem und Drüsensystem) im Rahmen der Regulationsmechanismen. Dazu gehört noch eine Einleitung zu pathophysiologischen Zuständen.
+
+## Ethik, Erdwissenschaften, und Geographie
+
+- Im Kurs Geologie und Gesellschaft: Angewandte Herausforderungen (SGS.01301) werden Beispiele  für  Herausforderungen  oder  konkrete  Umsetzungen  im  Bereich  der  Geologie vorgestellt.
+- Der Kurs Politische Ökologie des Wassers (SGS.01201) legt die aktuellen politischen und sozialen Dimensionen des Zugangs zu Wasser dar.
+- Die Vorlesung Paläontologie (SST.00203)  stellt die Systematik und die ökologische Bedeutung der Fossilien vor und behandelt die Evolution des Lebens.
+- Im Praktikum Paläontologie (SST.00218) kann der/die Studierende die in den Vorlesungen behandelten Themen durch Beobachtungen und Interpretationen vertiefen.
+- Die  Vorlesung Philosophie  und  Ethik  der  Naturwissenschaften (SFS.00001)  vermittelt  die philosophischen  Ideen  der  modernen  Zeit  bis  zur  Gegenwart.  Studierende  werden  das Interesse  für  den  Dialog  zwischen  Wissenschaftler  und  Philosophen  entdecken,  für  die Entwicklung einer persönlichen Überlegung über die gegenwärtigen Wissenschaften.
+- Die  Vorlesung Naturwissenschaften  und  Gesellschaft (SFS.00002)  möchte  vor  allem  die wichtigen  Elemente  der  Geschichte  der  Ideen  im  westlichen  Denken  vermitteln,  für  ein besseres Verständnis der Inhalte und Gewichtung der zeitgenössischen Auseinandersetzungen über Wissenschaften und deren Anwendungen und Einfluss auf die Gesellschaft.
+
+## Umweltwissenschaften
+
+Die Beschreibung der UE in Umweltwissenschaften (SSE.nnnnn) finden Sie in den entsprechenden Studienplänen und ihrer Anlagen.
+
+## 3.7.3 Prüfung und Validierung der Unterrichtseinheiten
+
+Gemäss Artikel 25, Abs. 1 des Reglements für den Erwerb des BSc und MSc ist es nicht möglich, eine UE zu übertragen oder zu eliminieren, sobald diese bewertet wurde.
+
+Die  Bedingungen zur  Prüfung  der  Unterrichtseinheiten  sind  als  Anlagen  für  jedes  Nebenfach beigefügt.  Schauen  Sie  sich  dazu  bitte  die  Anlagen  der  Biologie,  Biochemie,  GeographieGeowissenschaften,  Medizinische  Wissenschaften,  Umweltwissenschaften,  Morphologie  und Physiologie, Erdwissenschaften und der Math.-Nat. und Med. Fakultät an.

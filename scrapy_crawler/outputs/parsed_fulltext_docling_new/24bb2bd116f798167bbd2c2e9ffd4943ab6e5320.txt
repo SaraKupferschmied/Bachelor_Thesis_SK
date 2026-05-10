@@ -1,0 +1,350 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:10:01.528Z",
+  "title": "UNK_Bachelor_150_Physics_Hauptfach_Biochemie_24bb2bd116f798167bbd2c2e9ffd4943ab6e5320",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "24bb2bd116f798167bbd2c2e9ffd4943ab6e5320",
+  "program_key": "|bachelor|150|physics",
+  "faculty": null,
+  "degree_level": "Bachelor",
+  "total_ects": 120,
+  "program_name": "Biochemistry",
+  "doc_label": "Hauptfach Biochemie",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/2021/Plan_BSc_BC_de.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Bachelor_150_Physics_Hauptfach_Biochemie_24bb2bd116f798167bbd2c2e9ffd4943ab6e5320.pdf",
+  "sha256": "54ddc2901bf75427ec7bc36eab90aab504d467beb4c6feadb78cc666d179e306",
+  "fetched_at": "2026-04-03T11:27:38.353Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/2021/Plan_BSc_BC_de.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "Plan_BSc_BC_de.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_bachelor_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+| 1       | ALLGEMEINES ..................................................................................................................3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1     | Universitäre Titel und Studiengänge................................................................................................ 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 1.2     | Aufbau des Studiums......................................................................................................................... 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 1.3     | Lernziele .............................................................................................................................................. 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 1.4     | Bewertung von UE und Erwerb von ECTS-Kreditpunkten............................................................. 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 1.5     | Unterrichtssprachen........................................................................................................................... 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 1.6     | Wissenschaftliche Ethik..................................................................................................................... 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 1.7     | Reglemente und ergänzende Informationsquellen ......................................................................... 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 2       | BACHELOR OF SCIENCE (BSC).......................................................................................8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 2.1     | Das erste Studienjahr......................................................................................................................... 8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 2.2     | Das zweite und dritte Studienjahr..................................................................................................... 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|         | 2.2.1 Unterrichtseinheiten des zweiten Studienjahres ................................................................................10 2.2.2 Unterrichtseinheiten des dritten Studienjahres..................................................................................10 2.2.3 Inhalt der UE des zweiten und dritten Jahres .....................................................................................11 Vorlesungen.............................................................................................................................................................. 11 Praktika..................................................................................................................................................................... 12 |
+| 2.3 2.4 | Prüfungen.......................................................................................................................................... 12 Voraussetzungen für die verschiedenen MSc Programme.......................................................... 13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+## 1 Allgemeines
+
+Dieser  Studienplan  enthält  alle  notwendigen  Bestimmungen  für  Studierende,  welche  das  Biochemiestudium  an  der  Universität  Freiburg  absolvieren.  Der  Studienplan  stützt  sich  auf  die Bestimmungen der Mathematisch-Naturwissenschaftlichen und Medizinischen Fakultät, die im Reglement vom 6. April 2020 für die Erlangung des Bachelor of Science und des Master of Science (im folgenden Reglement genannt) festgelegt sind.
+
+Das Reglement vom 6. April 2020 für die Erlangung der Bachelor of Science und der Master of Science,  schreibt  für  das  Bachelor-  und  Masterstudium,  sowie  für  die  Zusatzfächer  eine Beschränkung der Studiendauer vor (siehe Artikel 10, 11a, 12a, 13 und 31) (https://www.unifr.ch/scimed/de/rules/regulations).
+
+## 1.1  Universitäre Titel und Studiengänge
+
+Die Math.-Nat. und Med. Fakultät der Universität Freiburg verleiht Studierenden, welche ihre Studien mit Erfolg abgeschlossen haben, die folgenden offiziellen Titel:
+
+- Bachelor of Science in Biochemie, im folgenden BSc genannt.
+- MSc in Molecular Life and Health Sciences , im folgenden MSc genannt.
+
+Der Studiengang des BSc in Biochemie ist ein universitäres Studium, das durch seine Methodenund Problemorientierung eine wissenschaftliche Grundausbildung in Biochemie vermittelt. Der BSc in Biochemie vermittelt aber auch die notwendige Ausbildung für weiterführende Studien, welche zum MSc in Biochemie führen. Zum BSc-Studium werden alle Inhaber von eidgenössisch anerkannten Maturitätszeugnissen oder als äquivalent anerkannten Ausweisen zugelassen (vgl. Art.  6  des  Reglements).  Inhaber  eines  BSc  in  Biochemie  der  Universität  Freiburg  oder  einer anderen  schweizerischen  Hochschule  sind  zum MSc  in  Molecular  Life  and  Health  Sciences zugelassen, vorausgesetzt, sie haben genügend Kenntnisse in molekularen Wissenschaften (Art. 7 des Reglements).
+
+Studierende, die den Studiengang wechseln, müssen das ganze Programm des neuen Studiengangs absolvieren. Die schon erworbenen ECTS, die zum Programm dieses neuen Studiengangs gehören, werden  automatisch  übertragen.  Für  Studierende  des Bachelor  of  Science  in  biomedizinische Wissenschaften , die das 1. Jahr erfolgreich absolviert haben und im 2. Jahr mit dem Studiengang Bachelor of Science in Biochemie weiterfahren wollen, wird das 1. Jahr vollständig anerkannt.
+
+Der MSc  in  Molecular  Life  and  Health  Sciences bietet  die  Möglichkeit,  die  Ausbildung  in Biochemie zu vertiefen und sich in einem bestimmten Bereich zu spezialisieren. Der MSc bietet einen ersten Kontakt mit der Forschung und eröffnet den Weg zum Doktorat.
+
+Der BSc in Biochemie eröffnet auch den Zugang zum MSc in Environmental Biology . Die genauen Zulassungsbedingungen sind hier beschrieben.
+
+Das Diagramm unten zeigt die verschiedenen Wege zum BSc in Biologie oder Biochemie sowie die Wege zu den verschiedenen MSc-Optionen:
+
+<!-- image -->
+
+ohne Komplement zugänglich:
+
+MSc in Bioinformatics and Computational Biology (120 ECTS)
+
+- Der BSc in Biochemie ist von den Studiengängen Biologie I und Biologie II getrennt: Dennoch  besteht  die  Möglichkeit  mit  einem  BSc  in  Biochemie,  sich  zum  Studium  des MSc Environmental Biology anzumelden. Dazu  wird allerdings ein Komplement  verlangt (Übergang ③ , siehe Kapitel 2.4).
+- Studierenden mit einem BSc in Biologie (Studiengang Biologie I ) steht der MSc in Molecular Life and Health Sciences offen, unter der Bedingung, ausreichende Kenntnisse in molekularen Wissenschaften erworben zu haben, zum Beispiel durch ein Zusatzfach (Übergang ② , siehe Kapitel 2.4).
+- Studierende mit einem BSc in Biologie Biologie II können zum MSc in Environmental Biology zugelassen werden unter der Voraussetzung, dass sie genügend Kenntnissen in Organismen Biologie  erworben  haben,  z.B.  im  Rahmen  des  Zusatz-/Nebenfachs  (Übergang ④ ,  siehe Kapitel 2.4).
+- Der MSc  in  Bioinformatics  and  Computational  Biology steht  den  Studierenden  aller  drei Orientierungen offen.
+- Es besteht die Möglichkeit, zwei MSc Programme zu absolvieren.
+
+## 1.2  Aufbau des Studiums
+
+Das zum BSc führende Studium gliedert sich in Unterrichtseinheiten (UE) wie Vorlesungen, Übungen, Praktika, usw. Jeder UE sind eine bestimmte Anzahl ECTS 1 -Punkte zugeordnet, die durch  Bewertung  und  Validierung  in ECTS-Kredite umgewandelt werden. Das BSc-Studium erfordert 180 ECTS-Kredite (entsprechend einer Studiendauer von 6 Semestern).
+
+1 ECTS steht als Abkürzung für European Credit Transfer System. Ein ECTS-Punkt entspricht ungefähr 30 Stunden effektivem Arbeitsaufwand
+
+Das BSc-Studium setzt sich aus dem Hauptfach im Umfang von 120 ECTS und einem oder zwei wählbaren Zusatzfach/Zusatzfächern von  insgesamt  60  ECTS  zusammen.  Das  Hauptfach umfasst nebst den obligatorischen UE  in Biochemie, Biologie und Chemie auch die propädeutischen  Fächer (Biologie,  Chemie,  Physik  und  Mathematik).  Das  Zusatzfach  muss ausserhalb des Lehrangebots im Hauptfach gewählt werden. Unter den wählbaren Zusatzfächern bilden Chemie für Biochemiker und Spezielle Biologie eine natürliche Ergänzung für Biochemiestudierende.  Weitere  wählbare  Zusatzfächer,  welche  für  das  Biochemiestudium besonders geeignet sind, sind z.B. Informatik, Chemie oder Umweltwissenschaften . Für die Wahl eines  anderen  Zusatzfachs  wird  den  Studierenden  empfohlen,  sich  an  den  Studienberater  der Biochemie/Biologie zu wenden.
+
+Nachstehend werden Sinn und Zweck der verschiedenen Formen von UE erläutert:
+
+- Die Vorlesungen führen in die wissenschaftliche Methodik und das wissenschaftliche Denken ein.  Sie  tragen  dazu  bei,  die  notwendigen  Kenntnisse  zu  erwerben  und  die  fundamentalen Konzepte zu verstehen.
+- Die Übungen ergänzen die Vorlesungen und tragen zum Verständnis und zur Verarbeitung von Vorlesungsinhalten bei. Sie bieten Gelegenheit, die erlernten Prinzipien, Techniken und Methoden an konkreten Problemen anzuwenden.
+- Praktika bilden die Grundlage der wissenschaftlichen Arbeit, da die Biochemie vor allem eine experimentelle Wissenschaft ist. Sie geben Gelegenheit, spezifische Techniken zu erlernen, mehrtägige, biochemische Experimente durchzuführen, den Beobachtungssinn zu schulen und die kritische Interpretation der Bewertung von Ergebnissen zu erlernen.
+- In den Seminaren werden Vorträge und Diskussionen über ein bestimmtes Forschungsthema gehalten. Sie werden entweder von den Studierenden, welche eine Literaturarbeit präsentieren oder von nationalen oder internationalen Wissenschaftlern gegeben. Sie dienen der Verarbeitung und der mündlichen Präsentation von wissenschaftlichen Themen.
+
+## 1.3  Lernziele
+
+Mit dem Abschluss eines BSc in Biochemie haben sich die Studierenden die wissenschaftlichen Grundlagen, allgemeine Kenntnisse sowie einen Überblick über das Fach Biochemie angeeignet. Sie  haben  die  Kompetenz  erlangt,  fachliche  Zusammenhänge  zu  erkennen  und  ein  kritisches Denken entwickelt, welches es ihnen erlauben wird, ein vertiefendes Studium zu beginnen und sich für ein Spezialgebiet in der Biochemie zu entscheiden.
+
+Mit jedem propädeutischen Fach erwerben die Studierenden Grundkenntnisse in einem Gebiet, das nicht direkt zum Hauptfach gehört aber für dessen besseres Verständnis wichtig ist. Zudem erweitern die propädeutischen Fächer den wissenschaftlichen Horizont der Studierenden.
+
+Der Erwerb eines Zusatzfaches im Rahmen des BSc-Studiums ermöglicht es den Studierenden, ihre  Grundkenntnisse  in  Biologie  und  Biochemie  zu  vertiefen  und/oder,  je  nach  Wahl  des Zusatzfaches, Interdisziplinarität zu entwickeln. Diese Interdisziplinarität erleichtert den zukünftigen Dialog und die Zusammenarbeit mit Fachleuten aus anderen Disziplinen.
+
+Dank  der zweisprachigen  Ausbildung kennen  die  Studierenden  die  Fachbegriffe  in  beiden Sprachen und sind fähig, einen Dialog mit Fachleuten deutscher und französischer Sprache zu führen.
+
+## 1.4  Bewertung von UE und Erwerb von ECTS-Kreditpunkten
+
+Die Zuteilung von ECTS-Kreditpunkten erfolgt in drei Schritten: Evaluation der UE, Gruppierung von UE in Anrechnungseinheiten, sowie Anrechnung der zugehörigen ECTS-Punkte.
+
+Die Bewertung  der  Übungen,  Praktika  und  Seminararbeiten erfolgt  Kriterien,  welche  zu Beginn der Veranstaltung festgelegt werden (Anzahl abgegebener und korrekt gelöster Übungs-
+
+aufgaben, bzw. erfolgreich ausgeführten Praktikumsaufgaben usw.). Die Zulassung zur Prüfung einer Vorlesung kann an die Bedingung geknüpft werden, dass die Anforderungen der zugehörigen Übungen und Praktika erfüllt sind. Die Bewertung der Vorlesungen erfolgt  durch mündliche und/oder schriftliche Prüfungen, deren Art und Dauer im Anhang des vorliegenden Studienplans festgelegt sind. Die Prüfungen finden während der drei regulären Examensperioden (Sessionen) im Winter, im Sommer und im Herbst statt. Die Studierenden schreiben sich für jede Prüfung im Studierendenportal MyUniFR (https://my.unifr.ch/) ein. Die vorgeschriebenen Fristen sind dabei einzuhalten. Die Prüfung bezieht sich auf die Materie der zuletzt unterrichteten UE. Ausnahmen werden  vom  betreffenden  Departement  und/oder  verantwortlichen  Dozierende  mitgeteilt.  Die Notenskala reicht von 6 (beste Note) bis 1 (schlechteste Note). Eine Prüfung, deren Note unter 4 liegt, kann nur einmal und frühestens in der darauf folgenden Session wiederholt werden.
+
+Die Anrechnungseinheiten fassen mehrere, separat evaluierte UE zusammen. Art. 22 und 24 des Reglements  bestimmt  die  Anzahl  der  Anrechnungseinheiten,  während  deren  Inhalt  durch  den vorliegenden Studienplan festgelegt ist.
+
+Die ECTS-Punkte werden in ECTS-Kredite gemäß Art. 23 des Reglements umgewandelt, sofern
+
+- das gewichtete Mittel der Prüfungsnoten in der Anrechnungseinheit mindestens 4.0 beträgt. Die Gewichtung wird durch die der UE zugeordneten Anzahl ECTS-Punkte bestimmt.
+- die Bewertungskriterien der nicht geprüften UE (Praktika, Übungen usw.) erfüllt sind.
+- Es gibt keine Note gleich 1.0
+
+Unter dieser Voraussetzung werden die Anrechnungseinheiten validiert und die ECTS-Punkte in ECTS-Kredite  umgewandelt.  Auf  Verlangen der Studierenden und nach Bezahlung  der Examensgebühren stellt das Dekanat einen Leistungsnachweis aus, in welchem die Prüfungsresultate  und  die  Anzahl  erworbener  Kredite  bestätigt  werden  (Art.  26  und  27  des Reglements).
+
+## 1.5  Unterrichtssprachen
+
+Das Bachelor Studium ist zweisprachig französisch-deutsch. Dies bedeutet, dass gewisse Kurse auf Französisch und andere auf Deutsch gehalten werden, je nach Wahl des/der Dozierenden. Im dritten  Studienjahr  erfolgen  bestimmte  Vorlesungen  in  englischer  Sprache.  Die  Studierenden haben hingegen die Wahl, sich in der einen oder der anderen Sprache auszudrücken.
+
+Für die  Lehrveranstaltungen des MSc wird im Allgemeinen die englische Sprache verwendet. Prüfungen sowie schriftliche Arbeiten (Praktikumsberichte, Masterarbeit usw.) können hingegen nach Wahl in Deutsch, Französisch oder Englisch erfolgen.
+
+## 1.6  Wissenschaftliche Ethik
+
+Ethische Prinzipien gehören auch in die wissenschaftliche Ausbildung. Die Grundsätze der Ethik verlangen, dass auch in der wissenschaftlichen Ausbildung die international anerkannten Regeln beachtet werden. Insbesondere sind bei der Anfertigung einer wissenschaftlichen Arbeit (Projekt, Seminar, Bachelor- oder Masterarbeit, Bericht usw.) alle Quellen (Zeitschriftenartikel, mündliche Mitteilungen, Internetseiten usw.) korrekt zu zitieren.
+
+## 1.7  Reglemente und ergänzende Informationsquellen
+
+Weitere und ausführlichere Informationen zum Biochemiestudium finden sich in den Dokumenten, die auf der Webseite http://www.unifr.ch/scimed/plans aufgeführt sind. Sie können diese auch im Sekretariat der Biochemie, chemin du Musée 10, CH-1700 Fribourg, beziehen.
+
+Aufgrund der inhaltlichen Nähe der beiden Studienbereiche erlaubt das Departement für Biologie einen  Wechsel  vom  BSc  Biochemie  in  den  BSc  Biologie  nur,  wenn  zum  Zeitpunkt  der Antragstellung folgende Bedingungen erfüllt sind:
+
+1. der Notendurchschnitt der Anrechnungseinheit des Hauptfachs ist grösser oder gleich 4.0;
+2. es liegt kein definitiver Ausschluss vom Studiengang BSc Biologie oder BSc Biochemie vor;
+3. die/der Studierende hat das sechste Studiensemester noch nicht begonnen.
+
+## 2 Bachelor of Science (BSc)
+
+[Version 2020, Anrechnungseinheiten: PV-SBC.0000038, PV-SBC.0000039]
+
+Das Programm des BSc erstreckt sich über 3 Jahre Vollzeitstudium und entspricht 180 ECTSKreditpunkten. Es besteht aus dem Hauptfach (120 ECTS) sowie einem Zusatzfach oder zwei Zusatzfächern  von  insgesamt  60  ECTS.  Die  Biochemielehrveranstaltungen  der  ersten  drei Semester vermitteln in einem breiten Überblick die Gebiete der Biochemie und der Molekular- und Zellbiologie.  In  den  folgenden  Semestern  werden  in  systematischer  Weise  die  verschiedenen Gebiete der Biochemie, der Molekular- und Zellbiologie sowie zusätzlich in assoziierten Fächern vertieft,  die  für  das  Biochemiestudium  notwendig  sind  (Organische  Chemie,  Biophysik, Bioinformatik, Immunologie und Mikrobiologie).
+
+## 2.1  Das erste Studienjahr
+
+Im ersten Studienjahr in Biochemie gilt es, einen möglichst reibungslosen Übergang zwischen Gymnasium und  Universität  zu  gewährleisten  und  gleichzeitig  tragfähige  Grundlagen  für  das weitere  Studium  zu  schaffen.  Die  Unterrichtseinheiten  des  ersten  Jahres  sind  zu  einer  ersten Anrechnungseinheit  zusammengefasst,  welche  spätestens  am  Ende  des  zweiten  Studienjahres angerechnet wird.
+
+## 2.1.1  Unterrichtseinheiten des ersten Studienjahres
+
+## Semester 1 (Herbst)
+
+| Code      | Unterrichtseinheit                             |   tot. Std. |   ECTS |
+|-----------|------------------------------------------------|-------------|--------|
+|           | Chemie                                         |             |        |
+| SCH.01014 | Allgemeine Chemie (mit Übungen)                |          84 |      6 |
+| SCH.01035 | Allgemeine und anorganische Chemie (Praktikum) |         140 |      5 |
+|           | Propädeutische Fächer                          |             |        |
+|           | Propädeutische Biologie (Variante I)           |             |      6 |
+|           | Propädeutische Mathematik                      |             |      6 |
+|           | Propädeutische Physik                          |             |      6 |
+|           |                                                |             |     29 |
+
+## Semester 2 (Frühjahr)
+
+| Code      | Unterrichtseinheit                   |   tot. Std. |   ECTS |
+|-----------|--------------------------------------|-------------|--------|
+|           | Chemie                               |             |        |
+| SCH.01054 | Analytische Chemie                   |          42 |      3 |
+| SCH.01067 | Chemie der Elemente                  |          42 |      3 |
+| SCH.01072 | Grundlagen der organischen Chemie    |          42 |      3 |
+|           | Biochemie                            |             |        |
+| SBC.00119 | Grundlagen der Biochemie             |          42 |      6 |
+|           | Propädeutische Fächer                |             |        |
+|           | Propädeutische Biologie (Variante I) |             |      6 |
+|           | Propädeutische Mathematik            |             |      6 |
+|           | Propädeutische Physik                |             |      6 |
+|           |                                      |             |     33 |
+
+## 2.1.2  Inhalt der UE des ersten Jahres
+
+## Vorlesungen in Chemie, Biologie und Biochemie
+
+Das  Biochemiestudium  erfordert  in  erster  Linie  ein  Grundwissen  in  Biologie  und  Chemie insbesondere in organischer Chemie. Deshalb beginnt die erste Vorlesung in Biochemie jeweils erst im Frühjahrsemester.
+
+- Die Vorlesung Grundlagen der Biochemie (SBC.00119) bietet eine Einführung in die Biochemie.  Sie  beschreibt  die  Zusammensetzung,  die  Struktur  und  den  Metabolismus  der wichtigsten Zellbestandteile und des Organismus (d.h. Aminosäuren, Zucker und Lipide).
+- Die Vorlesung Allgemeine Chemie (mit Übungen ; SCH.01014) vermittelt die Grundlagen der Chemie  und  erweitert  die  gymnasialen  Chemiekenntnisse  auf  universitäres  Niveau.  Drei gleichwertige parallel geführte Vorlesungen im zweiten Semester bereiten die Studierenden auf die spezifischen Lehrinhalte der Vorlesungen des zweiten und dritten Jahres vor: während die Analytische  Chemie (SCH.01054)  die  theoretischen  Grundlagen  des  gleichnamigen Praktikums erarbeitet, gibt die Vorlesung Grundlagen der organischen Chemie (SCH.01072) einen vertieften Einblick in die biologisch relevanten Stoffklassen und deren Reaktionen.
+- Die Vorlesung Chemie der Elemente (SCH.01067) ist eine Einführung in die eher materialorientierten chemischen Verbindungen sowie deren Eigenschaften und Reaktivitäten.
+- Die propädeutischen Vorlesungen Allgemeine Biologie I (SBL.00001) und II (SBL.00002) geben eine Einführung in die Biologie (Zellbiologie, Genetik, Ökologie, Pflanzenbiologie, Entwicklungsbiologie)  und  behandeln  die  biologischen  Strukturen  und  Funktionen  von  der molekularen Ebene bis zum Organismus sowie die Genetik. Die Praktika Allgemeine Biologie I und II (SBL.00003, SBL.00004), vermitteln die Grundkenntnisse der Biologie der Zellen, der Genetik, der Organismen und der Evolution.
+
+## Die anderen propädeutischen Fächer
+
+Die anderen propädeutischen Fächer bieten ein Grundwissen in anderen Bereichen als der Biochemie. Diese Fächer sind erforderlich  für  das  Verständnis  der  Biochemie.  Sie  beinhalten  die propädeutische Physik und Mathematik. Die UE werden von dem entsprechenden Departement festgelegt und sind im Studienplan der propädeutischen Fächer und Zusatzfächer der Math.-Nat. und Med. Fakultät der Universität Freiburg angegeben.
+
+## 2.2  Das zweite und dritte Studienjahr
+
+Im  zweiten  und  dritten  Studienjahr  werden  parallel  zum  Studium  im  Hauptfach  die  UE  des gewählten  Zusatzfachs  /  der  gewählten  Zusatzfächer  belegt  (60  ECTS).  Diese  von  den betreffenden Departementen bezeichneten UE sind im Studienplan der Zusatzfächer der Math.Nat. und Med. Fakultät der Universität Freiburg aufgeführt. Die Studierenden sind verpflichtet, sich frühzeitig über dieses Fach zu informieren, um möglichen Stundenplankonflikten ausweichen zu können. Die Evaluationen aller UE werden während diesen 2 Studienjahren verteilt. Es obliegt den Studierenden, ihre Prüfungen so zu legen, dass das BSc-Studium in den vorgesehenen drei Jahren abgeschlossen werden kann.
+
+## 2.2.1  Unterrichtseinheiten des zweiten Studienjahres
+
+## Semester 3 (Herbst)
+
+| Code                                                                     | Unterrichtseinheit                                                       |   tot. Std. | ECTS     |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------|----------|
+|                                                                          | Biochemie                                                                |             |          |
+| SBC.00114                                                                | Allgemeine Biochemie                                                     |          32 | 3.5      |
+|                                                                          | Chemie                                                                   |             |          |
+| SCH.02312                                                                | Klassische Thermodynamik (Vorlesung mit Übungen)                         |          28 | 3        |
+|                                                                          | Biologie                                                                 |             |          |
+| SBL.00014                                                                | Molekularbiologie                                                        |          28 | 3        |
+| SME.05103                                                                | Allgemeine und medizinische Mikrobiologie                                |          24 | 3        |
+| Zusatzfach/-Fächer (gemäss Liste der UE des entsprechenden Fachbereichs) | Zusatzfach/-Fächer (gemäss Liste der UE des entsprechenden Fachbereichs) |             | x        |
+|                                                                          |                                                                          |             | 12.5 + x |
+
+## Semester 4 (Frühjahr)
+
+| Code      | Unterrichtseinheit                                               |   tot. Std. | ECTS   |
+|-----------|------------------------------------------------------------------|-------------|--------|
+|           | Biochemie                                                        |             |        |
+| SBC.00047 | Biochemie für Anfänger (Praktikum)                               |          60 | 3      |
+| SBC.00106 | Zellbiologie                                                     |          39 | 4      |
+| SBC.00113 | Ergänzende Molekularbiologie                                     |          28 | 3      |
+|           | Chemie                                                           |             |        |
+| SCH.02252 | Organische Instrumentalanalyse (Vorlesung mit Übungen)           |          56 | 5      |
+| SCH.00244 | Instrumentalanalyse (Praktikum)                                  |         140 | 5      |
+| SCH.02339 | Kinetik (für Biochemiker_innen)                                  |          28 | 3      |
+|           | Zusatzfach (gemäss Liste der UE des entsprechenden Fachbereichs) |             | x      |
+|           |                                                                  |             | 23 + x |
+
+## 2.2.2  Unterrichtseinheiten des dritten Studienjahres
+
+## Semester 5 (Herbst)
+
+| Code      | Unterrichtseinheit                                                       |   tot. Std. | ECTS     |
+|-----------|--------------------------------------------------------------------------|-------------|----------|
+|           | Biochemie                                                                |             |          |
+| SBC.00120 | Laborpraktikum in Biochemie I                                            |         120 | 5        |
+| SBC.07003 | Einführung in die Bioinformatik und die Genomik (Vorlesung mit Übungen)  |          56 | 4.5      |
+|           | Biologie                                                                 |             |          |
+| SBL.00019 | Methoden der Molekularbiologie                                           |          28 | 3        |
+|           | Zusatzfach/-Fächer (gemäss Liste der UE des entsprechenden Fachbereichs) |             | x        |
+|           |                                                                          |             | 12.5 + x |
+
+## Semester 6 (Frühjahr)
+
+| Code      | Unterrichtseinheit                                                       | tot. Std.   | ECTS   |
+|-----------|--------------------------------------------------------------------------|-------------|--------|
+|           | Biochemie                                                                |             |        |
+| SBC.00009 | Methoden in Biochemie                                                    | 14          | 1.5    |
+| SBC.00125 | Hefegenetik, Zell- und Molekular Biologie                                | 12          | 1.5    |
+| SBC.00121 | Laborpraktikum in Biochemie II                                           | 120         | 5      |
+|           | Biologie, medizinische Wissenschaften                                    |             |        |
+| SBC.00115 | Molekulare Humangenetik                                                  | 13          | 1.5    |
+| SBL.00057 | Entwicklungsbiologie                                                     | 16          | 1.5    |
+|           | Zusatzfach/-Fächer (gemäss Liste der UE des entsprechenden Fachbereichs) |             | x      |
+|           |                                                                          | 11 + x      | 11 + x |
+
+## 2.2.3  Inhalt der UE des zweiten und dritten Jahres
+
+## Vorlesungen
+
+- Die  Vorlesung Methoden  in  Biochemie (SBC.00009)  stellt  neue  Entwicklungen  und  verschiedene  Technologien  vor,  die  in  der  Protein-  und  Makromolekül-Forschung  und  in  der Zellbiologie benutzt werden.
+- Der Kurs Zellbiologie (SBC.00106) behandelt die molekularen Mechanismen, welche es erlauben die Struktur und Funktionalität einer einzelnen Zelle (Transport von Proteinen an ihren Bestimmungsort,  Autophagie,  Zytoskelett,  mitochondriale  Vererbung)  oder  des  ganzen Organismus (Stammzellen, Apoptose, Zell-Verbindungen, extrazelluläre Matrix) aufrecht zu erhalten.
+- Der Kurs Ergänzende Molekularbiologie (SBC.00113) vertieft Konzepte der Molekularbiologie mit Hauptgewicht auf Synthese und Reparatur von DNS. Darüber hinaus bietet der Kurs eine Einführung in die Benutzung von Programmen und Datenbasen, welche es ermöglichen, DNS Sequenzen zu analysieren und zu verändern, z.B. im Hinblick auf eine Genklonierung.
+- Der Kurs Allgemeine Biochemie (SBC.00114) vertieft die im Kurs Grundlagen der Biochemie (SBC.00119) erarbeiteten Konzepte und beschreibt Struktur und Funktion von Zellkomponenten  (Aminosäuren,  Proteine,  Zucker,  Lipide)  mit  Hauptgewicht  auf  den entsprechenden metabolischen Stoffwechselwegen, Synthese von Ribosomen und Kontrolle der Translation.
+- Die Vorlesung Molekulare Humangenetik (SBC.00115) liefert einerseits Erkenntnisse über die Grundlagen der Humangenetik und andererseits einen Einblick in die molekularen Mechanismen, die in der medizinischen Pathologie von Bedeutung sind. Ausserdem umfasst dieser Kurs Informationen über die Methoden der Diagnostik und der Therapie dieser Krankheiten.
+- Vorlesung Hefe  Genetik,  Zell-  und  Molekular  Biologie (SBC.00125).  Hefe  hat  sich  als einzelliger Modellorganismus für genetische und molekularbiologische Studien etabliert und wird heutzutage auch oftmals verwendet um neue genomweite Hochdurchsatz-Methoden zu entwickeln. In diesem Kurs werden die Grundlagen der Hefegenetik und Molekularbiologie erarbeitet  und  anhand  von  aktuellen  Fragestellungen  aus  der  Forschung  erläutert.  Ziel  der Vorlesung ist, dass die Studierenden einen Einblick erhalten, wie durch die Kombination von genetischen und molekularbiologischen Methoden, komplexe zelluläre Vorgänge untersucht und aufgeschlüsselt werden können.
+- Der  Kurs Einführung  in  die  Bioinformatik  und  die  Genomik (SBC.07003)  beschreibt  die allgemeinen Grundsätze der Bioinformatik und ihren Anwendungen in die Genomik. Dieser Kurs  übermittelt  grundlegende  Kenntnisse  der  Hilfsmittel  und  Datenbanken,  welche  zum Vergleich  und  zur  Analyse  von  Protein-  oder  die  Nukleotidsequenzen  verwendet  werden. Dieser  Kurs  beschreibt  die  Sequenzierungstechnologien  der  nächsten  Generation  und  ihre
+
+Verwendung  bei  der  Untersuchung  des  Genoms  von  verschiedenen  Organismen  und  in biomedizinische Forschung.
+
+- Die Vorlesung Molekularbiologie (SBL.00014) Die Vorlesung Molekularbiologie (SBL.00014) behandelt die molekularen Mechanismen der Genexpression und der Genregulation bei Eukaryoten und Prokaryoten.
+- Die  Vorlesung Methoden  der  Molekularbiologie (SBL.00019)  ist  eine  Einführung  in  die Methoden der Molekularbiologie.
+- Die  Vorlesung Entwicklungsbiologie (SBL.00057)  beschreibt  die  Phänomene  welche  zur Bildung von mehrzelligen Organismen führen. Er erläutert auch die Strategien und Techniken die zum Studium dieser Phänomene gebraucht werden.
+- Die  Vorlesung Allgemeine  und  medizinische  Mikrobiologie (SME.05103)  behandelt  die Grundzüge der Mikrobiologie (Bakterien, Viren, Parasiten).
+- Die Vorlesung Instrumentalanalyse (SCH.02252) ist eine Vertiefung der organischen Chemie, die die Versuchsverfahren der Synthesechemie erklären soll, insbesondere die verschiedenen spektroskopischen Methoden und die Interpretation eines NMR-Spektrums.
+- Die Vorlesungen Thermodynamik und Kinetik (SCH.02312 und SCH.02334) stellen die wichtigsten Grundlagen der biophysikalischen Chemie dar und umfassen die Reaktionsmechanismen von Transportvorgängen und Enzymen, sowie die betreffenden Forschungsmethoden.
+
+## Praktika
+
+- Praktikum in Biochemie (2. Jahr) : Dieses Praktikum ist eine kurze Einführung in die einfachen biochemischen  Methoden,  welche  im  Forschungslabor  und  in  der  klinischen  Chemie verwendet werden.
+- Das Laborpraktikum in Biochemie (SBC.00120 oder SBC.00121) findet in einer Gruppe der Biochemie  statt.  Die  Dauer  beträgt  6  Wochen.  Es  handelt  sich  um  eine  persönliche Forschungsarbeit,  die  von  einer  oder  einem  erfahrenen  Forschenden  geleitet  wird.  Der/die Studierende sucht eine Forschungsgruppe aus, in dem er/sie die oder den Gruppenleitenden kontaktiert. Die Studierenden wenden dabei moderne Labortechniken an. Einige Bespiele sind das Klonieren von Genen und allgemeine Methoden der Molekularbiologie, Biochemie der Proteine,  Biochemie  der  Fette  und  Zucker,  sowie  molekulare  Genetik.  Die  Studierenden schreiben einen Bericht über die Laborarbeit und stellen die Resultate in einem Gruppenseminar vor. SBC.00047 ist eine Voraussetzung für dieses Praktikum.
+- Praktikum in Chemie (2. Jahr): Im 2. Studienjahr findet das Praktikum in organischer Chemie statt.  Dieses  Praktikum  beinhaltet  die  Grundmethoden  der  organischen  Chemie  und  der Instrumentalanalyse und erlaubt die dazugehörigen Vorlesungen zu vertiefen.
+
+## 2.3  Prüfungen
+
+Die  Bedingungen  für  die  Beurteilung  der  UE  sind  in  den  Studienplänen  der  jeweiligen Fachbereiche angegeben. Bitte beachten Sie dafür die Studienpläne der Biochemie, der Biologie, der medizinischen Wissenschaften, Morphologie und Physiologie, und der Chemie.
+
+Die Anrechnungseinheit BSc1 umfasst  die  UE  des  Hauptfachs  des  ersten  Studienjahres.  Die Anrechnungseinheit BSc2 umfasst die UE des Hauptfachs des zweiten und dritten Studienjahres und zählt 90 ECTS-Kreditpunkte. Die Evaluierung der Kurse des 2. und 3. Jahres wird auf die verschiedenen Examens-Sessionen verteilt.
+
+Die Anrechnungseinheit BSc3 umfasst die UE des Zusatzfachs, das gemäß dem Studienplan dieses Fachs evaluiert wird. Es gibt Anrecht auf 30 ECTS-Kreditpunkte. Ein nicht bestandenes Zusatzfach kann durch ein anderes ersetzt werden.
+
+Die Anrechnung der Anrechnungseinheit BSc1, BSc2 und BSc3 berechtigt zum Titel Bachelor of Science in Biochemie Universität Freiburg (BSc) .
+
+## 2.4  Voraussetzungen für die verschiedenen MSc Programme
+
+Die Bedingungen sind im Schema, Kapitel 1.1 durch Zahlen bezeichnet. Hier die verschiedenen Voraussetzungen:
+
+- 1 : Keine Bedingungen, das Hauptfachprogramm (HF) des Bachelors allein genügt.
+- 2 : für die Zulassung zum MSc in in Molecular Life and Health Sciences müssen die folgenden UE erworben sein, entweder im Rahmen eines Zusatzfaches während dem Bachelor, oder als Komplement während dem Master:
+
+| Code      | Unterrichtseinheit           | Semester   |   ECTS |
+|-----------|------------------------------|------------|--------|
+| SBC.00009 | Methoden in Biochemie        | FS         |    1.5 |
+| SBC.00106 | Zellbiologie                 | FS         |    4   |
+| SBC.00113 | Ergänzende Molekularbiologie | HS         |    3   |
+| SBC.00114 | Allgemeine Biochemie         | HS         |    3.5 |
+
+3 : für die Zulassung zum MSc in Environmental Biology, müssen die folgenden UE erworben sein,  entweder  im  Rahmen  eines  Zusatzfaches  während  dem  Bachelor,  oder  als  Komplement während dem Master:
+
+| Code      | Unterrichtseinheit                                                                | Semester   |   ECTS |
+|-----------|-----------------------------------------------------------------------------------|------------|--------|
+| SBL.00013 | Ökologie                                                                          | HS         |    4   |
+| SBL.00018 | Molekularbiologie der Pflanzen                                                    | HS         |    3   |
+| SBL.00021 | Evolutionsbiologie                                                                | HS         |    3   |
+| SBL.00032 | Pflanzen-Pathogen Interaktionen                                                   | HS         |    2   |
+| SBL.00037 | Experimentelle Ökologie                                                           | FS         |    3   |
+| SBL.00040 | Organismenbiologie I: Wirbeltiere (Vorlesung und Praktikum/Exkursionen)           | HS         |    3   |
+| SBL.00041 | Organismenbiologie II: Wirbellose Tiere (Vorlesung und Praktikum/Exkursionen)     | FS         |    3   |
+| SBL.00042 | Organismenbiologie III: Pilze und Pflanzen (Vorlesung und Praktikum/Exkursion)    | FS         |    6   |
+| SBL.00045 | Hormone und Entwicklung der Pflanzen                                              | FS         |    3   |
+| SBL.00049 | Populationsgenetik                                                                | HS         |    3   |
+| SBL.00060 | Pflanzenstoffwechsel und seine Rolle in der menschlichen Gesundheit und Ernährung | HS         |    1.5 |
+| SBL.00061 | Funktionale Diversität der Mikroorganismen                                        | HS         |    1.5 |
+
+- 4 : für die Zulassung zum MSc in Environmental Biology, müssen die folgenden UE erworben sein,  entweder  im  Rahmen  eines  Zusatzfaches  während  dem  Bachelor,  oder  als  Komplement während dem Master:
+
+| Code      | Unterrichtseinheit                                                                | Semester   |   ECTS |
+|-----------|-----------------------------------------------------------------------------------|------------|--------|
+| SBL.00032 | Pflanzen-Pathogen Interaktionen                                                   | HS         |    2   |
+| SBL.00049 | Populationsgenetik                                                                | HS         |    3   |
+| SBL.00060 | Pflanzenstoffwechsel und seine Rolle in der menschlichen Gesundheit und Ernährung | HS         |    1.5 |
+| SBL.00061 | Funktionale Diversität der Mikroorganismen                                        | HS         |    1.5 |

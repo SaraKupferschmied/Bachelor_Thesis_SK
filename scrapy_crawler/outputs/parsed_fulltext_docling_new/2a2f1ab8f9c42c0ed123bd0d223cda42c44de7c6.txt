@@ -1,0 +1,58 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T17:22:13.727Z",
+  "title": "UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Schema_LDS_I_30_ECTS_2a2f1ab8f9c42c0ed123bd0d223cda42c44de7c6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2a2f1ab8f9c42c0ed123bd0d223cda42c44de7c6",
+  "program_key": "|master|30|culture, politics and religion in pluralist societies",
+  "faculty": null,
+  "degree_level": "Master",
+  "total_ects": 30,
+  "program_name": "Religious Studies",
+  "doc_label": "Schema LDS I 30 ECTS",
+  "source_url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/30_DAESI-LDS1-2017-Schemata_DE.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialanthropology",
+  "curriculum_url": "https://studies.unifr.ch/go/A0cJ8",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\UNK_Master_30_Culture_Politics_and_Religion_in_Pluralist_Societies_Schema_LDS_I_30_ECTS_2a2f1ab8f9c42c0ed123bd0d223cda42c44de7c6.pdf",
+  "sha256": "51d44daa1a6bbe0d16566f7e1be93a8357ee4d92048b0923657992123cb77f72",
+  "fetched_at": "2026-04-03T11:30:28.088Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/30_DAESI-LDS1-2017-Schemata_DE.pdf, ct=application/pdf)",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "multiple_doc_key_source_url_used_first",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Studienplan Bachelor für das Unterrichtsfach Religionslehre der Sekundarstufe I
+
+## LDS I zu 30 Kreditpunkten
+
+Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+2 VL: Einführung in zentrale
+
+Themen der RW (6 ECTS)
+
+Religionsgeschichte und religiöse Gegenwartskulturen D &amp; F - 6 ECTS
+
+2 Lehrveranstaltungen (6 ECTS)
+
+Fachwissenschaftliche Fachdidaktik D &amp; F - 9 ECTS
+
+1 Seminar (3 ECTS)
+
+1 Ref. mit didakt. Reflexion (3 ECTS)
+
+1 Berufsprakt. Fachdidaktik (3 ECTS)

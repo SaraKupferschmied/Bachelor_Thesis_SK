@@ -1,0 +1,192 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-21T00:16:54.605Z",
+  "title": "Philosophy_Master_90_Classics_Klassische_Philologie_9ddf59f8d66998f57c304f47bb169273e2915a60",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "9ddf59f8d66998f57c304f47bb169273e2915a60",
+  "program_key": "philosophy|master|90|classics",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 60,
+  "program_name": "Classics",
+  "doc_label": "Klassische Philologie",
+  "source_url": "https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_VP_60_Klassische_Philologie_DE_27012017_v2.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/classics",
+  "curriculum_url": "http://studies.unifr.ch/go/jXVrf",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_Classics_Klassische_Philologie_9ddf59f8d66998f57c304f47bb169273e2915a60.pdf",
+  "sha256": "af9fe29112b84677a036e3130d59a62519b18db1fddb77250b0eb5fefd25c91a",
+  "fetched_at": "2026-04-03T11:31:27.596Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_VP_60_Klassische_Philologie_DE_27012017_v2.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MA_VP_60_Klassische_Philologie_DE_27012017_v2.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+̈
+
+## UNIVERSITÄT FREIBURG SCHWEIZ
+
+Departement für Klassische Philologie
+
+## Master of Arts in Sprachen und Literaturen:
+
+## Klassische Philologie Vertiefungsprogramm (60 ECTS Punkte)
+
+̈
+
+Dieser Studienplan stu tzt sich auf das Reglement zur Erlangung des universita ren Diploms (Niveau europa ischer Master) an der Philosophischen Fakulta t. Er tritt am 1. September 2017 in Kraft. Für Studierende,  die  ihr  Masterstudium  zu  diesem  Zeitpunkt  aufnehmen,  gilt  dieser  Studienplan ausnahmslos.
+
+Studienbeginn im Herbstsemester (September) oder im Frühlingssemester (Februar).
+
+## Studienplan
+
+Im  Vertiefungsprogramm  Klassische  Philologie werden  die  Kenntnisse  der  griechischen  und lateinischen Sprache und Literatur sowie der antiken Kultur vertieft und erweitert. Das Programm umfasst auch das Nachleben der griechisch-römischen Antike in Spätantike, Byzanz, Mittelalter und  Renaissance.  Im  Anschluss  an  einen  gemeinsamen  Kern  haben  die  Studierenden  die Möglichkeit, ihrem Studiengang eine ihren Interessen entsprechende Orientierung zu geben. Die Optionen sind Alte Geschichte, Editionswissenschaft, Literaturwissenschaft, Renaissancestudien, Philosophie oder Patristik. Die Einschreibung in ein Nebenprogramm (30 ECTS Punkte) nach Wahl ist möglich.
+
+## Zulassungsbedingungen
+
+Zum Vertiefungsprogramm Klassische Philologie wird unmittelbar zugelassen:
+
+- -wer den Grad eines BA in der Studienrichtung ,Klassische Philologie' erworben hat;
+- -wer den Grad eines BA erworben hat, welcher mindestens 90 ECTS Punkte in den Gebieten ,Griechische Sprache und Kultur' und ,Lateinische Sprache und Kultur' umfasst.
+
+Zum Vertiefungsprogramm Klassische Philologie wird mit einem Anpassungsprogramm zugelassen:
+
+- -wer  den  Grad  eines  BA  zu  mindestens  60  ECTS  Punkten  erworben  hat  entweder      in ,Klassischer  Philologie',  in  ,Griechische  Sprache  und  Kultur'  oder  in  ,Lateinische  Sprache  und Kultur'.
+
+## Unterrichtssprachen
+
+Der Unterricht wird in Deutsch und in Franzo sisch erteilt. Die Studierenden können in einer der beiden Sprachen ihre Seminararbeiten abfassen und ihre schriftlichen wie mündlichen Prüfungen ablegen. Mit Zustimmung der Lehrperson kann auch eine andere Sprache gewa hlt werden. Der Vermerk  'zweisprachig'  wird  gemäss  dem  Reglement  zur  Erlangung  des  Masters  an  der Philosophischen Fakultät der Universität Freiburg (Schweiz), Art. 11 zuerkannt.
+
+## Studienaufbau
+
+Dieser Studiengang bietet eine Ausbildung in griechischer und lateinischer Sprache und Literatur an.  Er  dauert  zwei  Jahre  und  besteht  aus  vier  Modulen  (60  ECTS  Punkte),  zu  denen  die Masterarbeit  hinzukommt  (30  ECTS  Punkte).  Die  Basis  ist  ein  gemeinsamer  Kern,  der  zwei Vertiefungsmodule in Latein und Griechisch (2 x 15 ECTS Punkte) sowie ein Forschungsmodul (15 ECTS Punkte) umfasst. Darauf folgt ein Orientierungsmodul, das den Studierenden erlaubt, sich auf ein Gebiet zu spezialisieren (15 ECTS Punkte).
+
+̈
+
+̈
+
+̈
+
+̈
+
+## DIE MODULE
+
+|                                      |   PUNKTE |
+|--------------------------------------|----------|
+| 1. VERTIEFUNG GRIECHISCH             |       15 |
+| Vorlesung in griechischer Literatur  |        3 |
+| Griechische Lektüre Master           |        3 |
+| Seminar Griechisch                   |        9 |
+| 2. VERTIEFUNG LATEIN                 |       15 |
+| Vorlesung in lateinischer Literatur  |        3 |
+| Lateinische Lektüre Master           |        3 |
+| Seminar Latein                       |        9 |
+| 3. FORSCHUNG                         |       15 |
+| Seminar Griechisch oder Latein       |        9 |
+| Atelier                              |        6 |
+| 4. ORIENTIERUNG                      |       15 |
+| Zur Wahl:                            |          |
+| Geschichtswissenschaft               |          |
+| Editionswissenschaft                 |          |
+| Literaturwissenschaft                |          |
+| Renaissancestudien                   |          |
+| Philosophie / Patristik              |          |
+| Die 15 ECTS Punkte werden in ein und |          |
+| demselben Gebiet erworben.           |          |
+
+## 5. MASTERARBEIT
+
+30
+
+## MODUL 1: VERTIEFUNG GRIECHISCH (15 ECTS)
+
+- 15 PUNKTE Das Modul (15 ECTS Punkte) bietet Gelegenheit, die Kenntnisse in griechischer Sprache und Literatur zu vertiefen sowie im Rahmen eines Seminars die Methoden der literarischen Interpretation zu schulen.
+
+## 3 PUNKTE Vorlesung in griechischer Literatur
+
+Diese Vorlesung ermöglicht es den Studierenden, Autoren und Textsorten sowie einschlägige Themen und Motive der griechischen Literatur kennenzulernen.
+
+## 3 PUNKTE Griechische Lektüre Master
+
+In diesem für Master-Studierende reservierten Lektürekurs lesen die Studierenden Texte in der Originalsprache (Griechisch). Linguistische und literarische Erläuterungen von Seiten der Lehrperson fördern und vertiefen das Verständnis.
+
+## 9 PUNKTE Seminar Griechisch
+
+In diesem Seminar werden die Studierenden durch die Lektüre und Interpretation von  griechischen  Texten  angeleitet,  ihre  eigene  Reflexion  über  die  Texte  zu entwickeln  und  diese  unter  Anwendung  der  wissenschaftlichen  Hilfsmittel  der Klassischen Philologie in einer schriftlichen Arbeit zu vertiefen.
+
+## MODUL 2: VERTIEFUNG LATEIN (15 ECTS)
+
+15 PUNKTE Das Modul (15 ECTS Punkte) bietet Gelegenheit, die Kenntnisse in lateinischen Sprache und Literatur zu vertiefen sowie im Rahmen eines Seminars die Methoden der literarischen Interpretation zu schulen.
+
+## 3 Vorlesung in lateinischer Literatur
+
+PUNKTE Diese Vorlesung ermöglicht es den Studierenden, Autoren und Textsorten sowie einschlägige Themen und Motive der lateinischen Literatur kennenzulernen.
+
+In  diesem  für  Master-Studierende  reservierten  Lektürekurs  lesen  die Studierenden  Texte  in  der  Originalsprache  (Latein).  Linguistische  und literarische Erläuterungen von Seiten der Lehrperson fördern und vertiefen
+
+- 3 Lateinische Lektüre Master PUNKTE das Verständnis.
+
+## 9 Seminar Latein
+
+- PUNKTE In  diesem  Seminar  werden  die  Studierenden  durch  die  Lektüre  und Interpretation von lateinischen Texten angeleitet, ihre eigene Reflexion über die Texte zu entwickeln und diese unter Anwendung der wissenschaftlichen Hilfsmittel  der  Klassischen  Philologie  in  einer  schriftlichen  Arbeit  zu vertiefen.
+
+## MODUL 3: FORSCHUNG (15 ECTS)
+
+- 15 PUNKTE Das Forschungsmodul (15 ECTS Punkte) leitet die Studierenden zu selbständiger philologischer und/oder interdisziplinärer Forschung  an.
+
+- 9 Seminar Griechisch oder Latein PUNKTE
+
+Die Studierenden belegen ein griechisches oder lateinisches Seminar.
+
+- 6 Atelier
+
+PUNKTE
+
+Wissenschaftliches und interdisziplinäres Atelier mit aktiver Teilnahme und schriftlicher Arbeit.
+
+## MODUL 4: ORIENTIERUNG (15 ECTS)
+
+- 15 PUNKTE Dieses Modul (15 ECTS Punkte) ermöglicht es den Studierenden, sich in einem Gebiet mit Bezug zur Antike zu spezialisieren.
+- 15 PUNKTE Die 15 ECTS Punkte werden in ein und demselben Gebiet erworben, das mit der Studienberatung abgesprochen wird. Zur Auswahl stehen:
+
+| Geschichts- wissenschaft                      | Editions- wissenschaft                          | Literatur- wissenschaft                                                 | Renaissance- studien                                                                          | Philosophie / Patristik                                                       |
+|-----------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Papyrologie Epigraphik Numismatik Archäologie | Paläographie Textkritik Kodikologie Papyrologie | Literaturtheorie Vergleichende Literatur- wissenschaft Antike Literatur | Neulatein Neulateinische Literatur Geschichte der Renaissance Kunstgeschichte der Renaissance | Antike Philosophie Mittelalterliche Philosophie Moderne Philosophie Patristik |
+
+## MASTERARBEIT (30 ECTS)
+
+In  der  Masterarbeit  stellen  die  Studierenden  unter  Beweis,  dass  sie  sich  in  ihrem Studiengang die fachspezifischen Kenntnisse von Sprache, Literatur, Methode (wissenschaftliche Darstellung des Stoffes, Argumentation, Bibliographie) und Hilfsmitteln angeeignet haben. Die Verteidigung der Arbeit prüft die Fähigkeit, vor einem Fach- und weiteren Publikum die Prüfschrift darzustellen, den gewählten Zugang zum Thema zu erläutern, auf eventuelle Einwände einzugehen und auf Kritik zu antworten.
+
+## DIE EVALUATION
+
+Dieser  Studienplan  stützt  sich  auf  die  Richtlinien  über  die  Evaluation  der  Studienleistungen,  die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz). In jeder Lehrveranstaltung wird die Studienleistung schriftlich oder mündlich entweder während des Semesters oder an dessen Ende evaluiert. Die Evaluationsart wird zu Beginn des Semesters bekannt gegeben.
+
+1. Jede Veranstaltung kann nur einmal validiert werden.
+2. Die  Gesamtnote  eines  Moduls  setzt  sich  aus  den  Teilnoten  der  Einzelveranstaltungen zusammen, welche ein Modul konstituieren. Alle Teilnoten müssen genügend sein.
+3. Der Durchschnitt der vier Modulgesamtnoten ergibt die Schlussnote.
+4. Nicht  bestandene  Prüfungen  können  höchstens  zwei  Mal  wiederholt  werden.  Die Sessionen zur Wiederholung stehen nur den Studierenden offen, welche eine ungenügende Note erhalten haben.
+5. Jede Veranstaltung wird mit einer Note bewertet.
+6. 5.1. In den Vorlesungen zur Literatur werden  die Studienleistungen durch eine Semesterendprüfung evaluiert und benotet.
+7. 5.2. In den Lektüren werden die Studienleistungen durch eine schriftliche Übersetzungsprüfung evaluiert und benotet.
+8. 5.3. In den Seminaren werden die Studienleistungen durch einen mündlichen Vortrag und eine schriftliche Seminararbeit (eine literarische Interpretation) von mindestens zwanzig Seiten evaluiert und benotet.
+9. 5.4. Im Atelier werden die Studienleistungen durch einen mündlichen Vortrag und eine schriftliche Arbeit von mindestens fünfzehn Seiten evaluiert und benotet.
+6. Die Studienleistungen im Orientierungsmodul werden im Rahmen der jeweils unterrichteten Studienbereiche evaluiert.
+
+## ÜBERGANGSBESTIMMUNGEN
+
+1. Studierende, die ihr Studium im Herbstsemester 2016 im Studienplan vom 28. April 2009 begonnen haben, können bis zum Beginn des Herbstsemesters 2017 in den vorliegenden Studienplan wechseln.
+2. Die Modalitäten des Wechsels zum vorliegenden Studienplan werden vom/von der Studienberater/in auf der Basis der bisherigen Studienleistungen festgelegt.

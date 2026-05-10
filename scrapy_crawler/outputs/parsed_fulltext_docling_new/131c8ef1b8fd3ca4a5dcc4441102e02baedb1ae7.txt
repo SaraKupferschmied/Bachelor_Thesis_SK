@@ -1,0 +1,183 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-04-20T16:10:55.757Z",
+  "title": "Philosophy_Master_90_General_and_Swiss_History_of_Modern_Times_Studienplan_131c8ef1b8fd3ca4a5dcc4441102e02baedb1ae7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "131c8ef1b8fd3ca4a5dcc4441102e02baedb1ae7",
+  "program_key": "philosophy|master|90|general and swiss history of modern times",
+  "faculty": "Philosophy",
+  "degree_level": "Master",
+  "total_ects": 60,
+  "program_name": "General and Swiss History of Modern Times",
+  "doc_label": "Studienplan",
+  "source_url": "https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_PA_60_d_new_ratifiziert.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr",
+  "local_path": "C:\\Users\\Sara\\OneDrive\\Uni\\Bachelor thesis\\BA_Thesis_Dev\\scrapy_crawler\\outputs\\pdfs\\Philosophy_Master_90_General_and_Swiss_History_of_Modern_Times_Studienplan_131c8ef1b8fd3ca4a5dcc4441102e02baedb1ae7.pdf",
+  "sha256": "ee80361eae39943634fb5670bb036e92c302ceaf2c9c1c93ccfea9774dec754c",
+  "fetched_at": "2026-04-03T11:31:03.851Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_PA_60_d_new_ratifiziert.pdf, ct=application/pdf)",
+  "degree_level_filename_rule_applied": true,
+  "degree_level_filename_rule_source": "MA_Complit_PA_60_d_new_ratifiziert.pdf",
+  "degree_level_filename_rule_reason": "filename_contains_master_marker",
+  "programme_url_manifest_fix_applied": true,
+  "programme_url_manifest_fix_reason": "doc_key_and_program_name",
+  "programme_url_manifest_fix_preserved_fields": [
+    "program_name",
+    "degree_level",
+    "total_ects",
+    "doc_label"
+  ]
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## UNIVERSITÉ DE FRIBOURG SUISSE UNIVERSITÄT FREIBURG SCHWEIZ
+
+Institut für Allgemeine und Vergleichende Literaturwissenschaft
+
+## Master of Arts in Sprachen und Literaturen Vertiefungsprogramm (60 ECTS-Kreditpunkte) Allgemeine und Vergleichende  Literaturwissenschaft
+
+## Studienplan
+
+September 2010 [Modifizierung 2014]
+
+## I. ALLGEMEINES
+
+- I.1 Grundzüge des Studiums
+- I.2 Prüfungen und Anrechnung der Kreditpunkte
+- I.3 Unterrichtssprachen
+
+## II. AUFBAU DES STUDIUMS
+
+- II.1 Programme
+- II.2 Beschreibung der Module
+- III. ABSCHLUSSARBEIT
+
+## I. ALLGEMEINES
+
+## I.1 Grundzüge des Studiums
+
+Gegenstand der  Allgemeinen und Vergleichenden  Literaturwissenschaft ist  die  Weltliteratur  in ihrer  gesamten  Breite.  Dabei  werden  vor  allem  folgende  Aspekte  in  den  Blick  genommen: Literaturtheorien  und  Definitionen  von  Literarizität,  Analyse  von  Texten,  Traditionen  und Strömungen, die über einen nationalen Rahmen hinausgehen; Kulturbeziehungen und literarische Einflüsse; MotivStoffund Gattungsgeschichte; Beziehungen zu anderen Künsten; Literaturübersetzungen.
+
+Der  Studienplan  der  Allgemeinen  und  Vergleichenden  Literaturwissenschaft  besteht  aus vier  verschiedenen  'Säulen',  welche  den  vier  Pflicht-Modulen  A,  B,  C  und  D  (vgl.  II.2) entsprechen.  Ziel  des  Studiums  ist  der  Abschluss  als  'Master  of  Arts'  in  Sprachen  und Literaturen: Allgemeine und Vergleichende Literaturwissenschaft. Die Studiendauer beträgt zwei Jahre.
+
+Unterricht und DozentInnen unterstehen der Leitung des/der verantwortlichen Direktors/Direktorin des Instituts für Allgemeine und Vergleichende Literaturwissenschaft (kurz: 'Institut').  Darüber  hinaus  wird  ein  wesentlicher  Teil  des  Unterrichts  aus  Studienbereichen angeboten, die mit dem Institut zusammenarbeiten.
+
+Eine  genaue  Aufstellung  der  vorgesehenen  Unterrichtsveranstaltungen  wird  jeweils  zu Semesterbeginn bekannt gegeben.
+
+## I.2 Prüfungen und Anrechnung der Kreditpunkte
+
+Die Vergabe von ECTS-Kreditpunkten erfolgt ausschliesslich aufgrund von evaluierten und als ausreichend  bewerteten  Studienleistungen.  Die  einzelnen  Arbeiten  und  Prüfungen  werden  mit einer Notenskala von 1 bis 6 benotet, welche die Qualität der jeweiligen Leistung bewertet.
+
+Die  endgültige  Anrechnung  der  für  ein  bestimmtes  Modul  vorgesehenen  Kredite  erfolgt, sobald der/die Studierende nachweisen kann, dass alle laut Studienplan für das betreffende Modul vorgesehenen Leistungen erbracht sind.
+
+Jede Moduleinheit besitzt einen in ECTS-Kreditpunkten bemessenen Wert, der der Menge der  erbrachten  Leistung  entspricht.  Dieser  Wert  ist  unteilbar.  Er  gilt  erst  dann  als  endgültig erworben, wenn auch alle anderen zum Modul gehörigen Leistungen erbracht wurden. Von dieser Regel ausgenommen sind Studierende aus anderen Studienprogrammen, insbesondere TeilnehmerInnen an Mobilitätsprogrammen.
+
+Nicht  bestandene  Arbeiten  und  Prüfungen  können  nicht  mehr  als  zweimal  wiederholt werden.  Falls  ein(e)  Studierende(r)  in  einer  Unterrichtseinheit  nach  drei  Versuchen  keinen ausreichenden  Notendurchschnitt  erlangt,  wird  ihm/ihr  keine  Erlaubnis  zur  Fortsetzung  des Studiums erteilt.
+
+Kreditpunkte, die ausserhalb des vorliegenden Studienpans, z.B. an anderen Universitäten,
+
+erworben  wurden,  können  für  ein  Modul  ganz  oder  teilweise  angerechnet  werden.  Über  die Anerkennung  dieser  Leistung  befindet,  nach  Beratung  mit  den  verantwortlichen  DozentInnen, die Äquivalenz-Kommission des Instituts.
+
+## I.3 Unterrichtssprachen
+
+Unterrichtssprachen sind in der Regel Französisch, Deutsch und Englisch. Für ihre mündlichen und schriftlichen Prüfungen  wählen die Studierenden eine der drei Sprachen. Dasselbe  gilt für Seminararbeiten.
+
+Unter  der  Voraussetzung,  dass  mindestens  40%  des  Studiums  in  der  Zweitsprache absolviert  wurde,  kann  im  Rahmen  des  Vertiefungsprogramms  ein  zweisprachiges  Diplom (deutsch/französisch) erworben werden. In zweisprachigen Seminaren muss der/die Studierende vorab  erklären,  welche  Sprache  für  den  Leistungsbericht  gelten  soll.  Die  Überprüfung  der genannten Bedingungen obliegt der Institutsdirektion.
+
+## II. AUFBAU DES STUDIUMS
+
+## II.1 Programme
+
+Allgemeine und Vergleichende Literaturwissenschaft kann in zwei Programmvarianten studiert werden:
+
+## A. Vertiefungsprogramm
+
+Das insgesamt 60 Kreditpunkte umfassende Vertiefungsprogramm setzt sich aus vier Modulen zusammen,  die  jeweils  15  Kreditpunkte  enthalten.  Die  Module  A,  B,  C  und  D  (vgl.  die ausführliche Beschreibung unter II. 2) sind dem Studium fachspezifischer Themen und Methoden gewidmet.
+
+## B. Nebenprogramm (siehe separaten Studienplan)
+
+## II.2 Beschreibung der Module
+
+## Modul A : Europäische Literaturen
+
+Dieses Modul gestattet Studierenden, ihre Kenntnisse der europäischen Literatur zu vertiefen.  Es
+
+ist in folgende Einheiten gegliedert:
+
+## A 1. Master-Seminar zu einer literaturwissenschaftlichen und komparatistischen Fragestellung.
+
+Erwartet  wird  ein  mündliches  Referat  sowie  eine  schriftliche  Arbeit.  Wert:  9  (3  plus  6) Kreditpunkte.
+
+## A 2. Weltliteratur-Kurs I und II.
+
+Beide  Einheiten  dauern  jeweils  ein  Semester  und  schliessen  nach  jedem  Semester  mit  einer Klausur. Studierende, die diese Veranstaltung bereits als CTC im Rahmen eines BA-Studiums erfolgreich  besucht  haben,  wählen  ersatzweise  zwei  andere  Vorlesungen  aus  dem  Lehrangebot des Instituts. Wert: 3 Kreditpunkte pro Semester = 6 Kreditpunkte.
+
+Das  Modul  gilt  als  bestanden,  wenn  alle  in  den  Einheiten  A  1  und  A  2  (I  u.  II)  erbrachten Leistungen    mit  der  Note  4  oder  besser  bewertet  wurden.  Gesamtwert  des  Moduls :  15 Kreditpunkte.
+
+## Modul B : Allgemeine Literaturwissenschaft
+
+Dieses Modul befähigt Studierenden zu einem vertrauteren Umgang mit Literaturtheorien. Es ist in folgende Einheiten gegliedert:
+
+## B 1. Master-Seminar zu einer literaturtheoretischen Fragestellung.
+
+Erwartet  wird  ein  mündliches  Referat  sowie  eine  schriftliche  Arbeit.  Wert:  9  (3  plus  6) Kreditpunkte.
+
+## B 2. Kolloquium zur Literaturtheorie
+
+Diese Unterrichtseinheit gibt Studierenden die Gelegenheit, ihre literaturtheoretischen Kenntnisse zu  erweitern.  Erwartet  wird  eine  aktive  und  produktive  Teilnahme  am  Unterricht.  Wert:  6 Kreditpunkte.
+
+Das Modul gilt als bestanden, wenn alle in den Einheiten B 1 und B 2 erbrachten Leistungen  mit der Note 4 oder besser bewertet wurden. Gesamtwert des Moduls : 15 Kreditpunkte.
+
+## Modul C: Literaturbeziehungen im historischen Zusammenhang
+
+Ziel  dieses  Modul  ist,  den  Studierenden  ein  Verständnis  für  die  historische  Bedeutung  zu vermitteln,  die  kulturelle  Beziehungen,  Einflüsse  und  die  Aneignung  fremder  Kulturleistungen für  die  Literatur  von  der  Antike  bis  zur  Moderne  haben.  Das  Modul  ist  in  folgende  Einheiten gegliedert:
+
+## C  1,  C  2,  C  3,  C  4. Serie  von  4  Vorlesungen  oder  'Cours-séminaire' über  kulturelle  und literarische Beziehungen in Europa .
+
+Jede  Vorlesung  ist  einer  der  folgenden  Epochen  gewidmet :  Antike,  Mittelalter,  16.  bis  18. Jahrhundert, 19. bis 21.  Jahrhundert.  Jede  Vorlesung  endet  mit einer Klausur. Wert:  4
+
+Vorlesungen zu jeweils 3 Kreditpunkten = 12 Kreditpunkte.
+
+C  5. Übung:  Archivforschung (Programm  in  Zusammenarbeit  mit  dem  Schweizerischen Literaturarchiv  in  Bern).  Die  Veranstaltung  wird  jedes  zweite  Jahr  im  Frühlingssemester angeboten.
+
+Im Rahmen dieser Veranstaltung ist ein mündliches Referat vorgesehen. Wert: 3 Kreditpunkte.
+
+Das Modul gilt als bestanden, wenn alle in den Einheiten C 1 bis C 5 erbrachten Leistungen  mit der Note 4 oder besser bewertet wurden. Gesamtwert des Moduls: 15 Kreditpunkte.
+
+## Modul D: Interkulturalität
+
+Das  interdisziplinäre  Modul  bietet  eine  Einführung  in  Fragen  der  Interkulturalität  und  des Kulturtransfers und befähigt, die historische und strukturelle Konstruktion kultureller Identitäten zu verstehen. Das Programm besteht aus dem Lehrangebot des Instituts sowie aus Kursen anderer Fächer wie Anthropologie, Soziologie, Politikwissenschaften, Geschichte, Religionswissenschaften,  Europa-Studien  und  Mehrsprachigkeit.  Zu  Semesterbeginn  wird  die jeweils gültige Liste mit den Unterrichtseinheiten veröffentlicht, die zum Modul 'Interkulturalität' gehören.
+
+Das Modul ist in folgende Einheiten gegliedert:
+
+## D 1. Master-Seminar zu einer interkulturellen Fragestellung.
+
+Erwartet  wird  ein  mündliches  Referat  sowie  eine  schriftliche  Arbeit.  Wert:  9  (3  plus  6) Kreditpunkte.
+
+D 2, D 3. Zwei Vorlesungen oder 'Cours-séminaire' über Fragen der Interkulturalität und des Kulturtransfers.  Die  Vorlesungen  enden  mit  einer  Klausur.  Wert:  2  Vorlesungen  zu  jeweils  3 Kreditpunkten = 6 Kreditpunkte.
+
+Das Modul gilt als bestanden, wenn alle in den Einheiten D 1 bis D 3 erbrachten Leistungen  mit der Note 4 oder besser bewertet wurden. Gesamtwert des Moduls: 15 Kreditpunkte.
+
+## III. ABSCHLUSSARBEIT
+
+Die Abschlussarbeit muss zu erkennen geben, dass der/die KandidatIn sich in der von ihm/ihr gewählten  Materie  auskennt.  Er/sie  muss  in  der  Lage  sein,  die  für  das  betreffende  Thema relevanten Quellen und bibliografischen Grundlagen zu recherchieren, eine kritische Synthese zu erstellen und eine eigenständige Fragestellung zu erarbeiten. Die mündliche Prüfung gibt ihm/ihr Gelegenheit,  die  gewählten  Ansätze  und  Methoden  zu  begründen  und  auf  Fragen  zur  Arbeit einzugehen. Darüber hinaus erlaubt sie eine Überprüfung fachlicher Kenntnisse.
+
+Studierende  des  Vertiefungsprogramms  werden  ersucht,  sich  spätestens  am  Ende  des
+
+zweiten Semesters mit ihrem/ihren zukünftigen PrüferIn in Verbindung zu setzen, um das Thema der Arbeit zu vereinbaren.
+
+Prüfungsberechtigt  sind  alle  zur  Professorenschaft  gehörenden  Mitglieder  des  Instituts sowie alle anderen Mitglieder, die über eine Venia legendi in Allgemeiner und Vergleichender Literaturwissenschaft  verfügen  und  auf  Anfrage  des  Instituts  von  der  Fakultät  als  PrüferInnen zugelassen sind. Eine namentliche Aufstellung der betreffenden Personen wird auf der Website des Instituts veröffentlicht.
+
+Die Jury der Prüfung wird von der Professorenschaft des Instituts bestimmt. Sie besteht aus dem/der für die Abschlussarbeit zuständigen PrüferIn sowie ein oder zwei ExpertInnen, die auf dem Gebiet  der  betreffenden  Arbeit  wissenschaftlich  ausgewiesen  sind.  Zumindest  eine(r)  der beiden  ExpertInnen  muss  auch  selbst  prüfungsberechtigt  sein.  Der  Vorsitz  der  Jury  obliegt dem/der für die Abschlussarbeit zuständigen PrüferIn.
+
+Für alle weiteren Fragen, welche die Masterarbeit oder deren Verteidigung betreffen, wird auf die entsprechenden Reglemente der Fakultät verwiesen.
+
+Dieser  Studienplan  wurde  vom  Institutsrat  am  7.  Dezember  2009  angenommen.  Er  wurde  von  der  Studien-  und Examenskommission der Fakultät am 2. Juni 2010 ratifiziert.  Die  Modifizierungen  wurden  von  der  Studien-  und Examenskommission am 27.02.2014 angenommen.
+
+## ANNEX : Übergangsbestimmungen
+
+Studierende,  die  ihr  Masterstudium  in  Allgemeiner  und  Vergleichender  Literaturwissenschaft  vor September 2010 begonnen haben und gemäss neuem Reglement abschliessen möchten, können bei der Studienberaterin ein dahingehendes Gesuch einreichen.
