@@ -86,6 +86,8 @@ type OfferingDetailRow = {
   link_course_catalogue: string | null;
   code: string;
   course_name: string | null;
+  description: string | null;
+  learning_goals: string | null;
   ects: number | null;
 };
 
@@ -167,6 +169,7 @@ type StudyProgramPlanQuery = {
 };
 
 type ProgramPlanCourseRow = {
+  row_no: number;
   program_id: number;
   code: string;
   course_name: string | null;
@@ -181,6 +184,7 @@ type ProgramPlanCourseRow = {
 };
 
 type PlanCourse = {
+  row_no: number;
   code: string;
   course_name: string | null;
   ects: number | null;
@@ -201,6 +205,9 @@ type PlanGroup = {
   suggested_year: number | null;
   semester_types: string[];
   sequence: number;
+  sequence_series_key: string;
+  sequence_part: number | null;
+  source_order: number;
   options: PlanCourse[];
 };
 
@@ -233,11 +240,12 @@ function canonicalCourseKey(name: string | null, code: string, ects: number | nu
   if (man) return `man-${Number(man[1])}-${ects ?? ""}`;
 
   const replacements: Array<[RegExp, string]> = [
-    [/\bwirtschaftsinformatik\b|\binformatique de gestion\b/g, "business informatics"],
-    [/\beinfuehrung in die statistik\b|\beinfuh rung in die statistik\b|\bintroduction a la statistique\b/g, "statistics"],
+    [/\bwirtschaftsinformatik I\b|\binformatique de gestion I\b/g, "business informatics I"],
+    [/\bwirtschaftsinformatik II\b|\binformatique de gestion II\b/g, "business informatics II"],
+    [/\beinfuehrung in die statistik\b|\beinfuhrung in die statistik\b|\bintroduction a la statistique\b/g, "statistics"],
     [/\bvertiefungskurs statistik\b|\bstatistique approfondissement\b/g, "advanced statistics"],
     [/\bmathematik\b|\bmathematiques\b/g, "mathematics"],
-    [/\beinfuehrung in die betriebswirtschaftslehre\b|\beinf uhrung in die betriebswirtschaftslehre\b|\bintroduction a la gestion d entreprise\b/g, "management"],
+    [/\beinfuehrung in die betriebswirtschaftslehre\b|\bintroduction a la gestion d entreprise\b/g, "management"],
     [/\bunternehmensrechnung\b|\bintroduction a la comptabilite\b/g, "accounting"],
     [/\brecht\b|\bdroit\b/g, "law"],
     [/\bmikrookonomie\b|\bmicroeconomie\b/g, "microeconomics"],
@@ -252,12 +260,49 @@ function canonicalCourseKey(name: string | null, code: string, ects: number | nu
   return `${n || code}-${ects ?? ""}`;
 }
 
+function romanOrNumberToInt(value: string | null): number | null {
+  const n = normalizeText(value);
+  if (!n) return null;
+  if (n === "1" || n === "i") return 1;
+  if (n === "2" || n === "ii") return 2;
+  if (n === "3" || n === "iii") return 3;
+  if (n === "4" || n === "iv") return 4;
+  if (n === "5" || n === "v") return 5;
+  return null;
+}
+
+function titleAfterPrefix(name: string | null): string {
+  const raw = String(name ?? "");
+  const colonIndex = raw.indexOf(":");
+  return colonIndex >= 0 ? raw.slice(colonIndex + 1) : raw;
+}
+
 function sequenceHint(name: string | null): number {
-  const n = normalizeText(name);
-  if (/\b(i|1)\b/.test(n) && !/\b(ii|2)\b/.test(n)) return 1;
-  if (/\b(ii|2)\b/.test(n)) return 2;
-  if (/\b(iii|3)\b/.test(n)) return 3;
-  return 50;
+  const full = normalizeText(name);
+  const title = normalizeText(titleAfterPrefix(name));
+
+  // Prefer explicit part markers in the actual course title after prefixes such
+  // as "Info II:" or "MAN04D:". This avoids reading the prefix as the course
+  // progression number.
+  const titleRoman = title.match(/\b(i|ii|iii|iv|v|1|2|3|4|5)\b/);
+  const titleSeq = romanOrNumberToInt(titleRoman?.[1] ?? null);
+  if (titleSeq !== null) return titleSeq;
+
+  const fullRoman = full.match(/\b(i|ii|iii|iv|v|1|2|3|4|5)\b/);
+  const fullSeq = romanOrNumberToInt(fullRoman?.[1] ?? null);
+  return fullSeq ?? 50;
+}
+
+function removeSequenceMarkers(value: string): string {
+  return normalizeText(value)
+    .replace(/\b(i|ii|iii|iv|v|1|2|3|4|5)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function courseSeriesKey(name: string | null): string {
+  const title = translatedNameKey(titleAfterPrefix(name));
+  return removeSequenceMarkers(title);
 }
 
 function uniqStrings(values: unknown): string[] {
@@ -268,6 +313,7 @@ function uniqStrings(values: unknown): string[] {
 function toPlanCourse(row: ProgramPlanCourseRow): PlanCourse {
   const types = uniqStrings(row.offered_semester_types);
   return {
+    row_no: row.row_no,
     code: row.code,
     course_name: row.course_name ?? row.canonical_course_name ?? row.code,
     ects: row.ects,
@@ -282,12 +328,176 @@ function toPlanCourse(row: ProgramPlanCourseRow): PlanCourse {
   };
 }
 
-function makeGroups(courses: PlanCourse[]): PlanGroup[] {
-  const byKey = new Map<string, PlanCourse[]>();
-  for (const course of courses) {
-    const key = canonicalCourseKey(course.course_name, course.code, course.ects);
-    byKey.set(key, [...(byKey.get(key) ?? []), course]);
+function sameCourseTypeAndEcts(a: PlanCourse, b: PlanCourse): boolean {
+  return a.course_type === b.course_type && Number(a.ects ?? 0) === Number(b.ects ?? 0);
+}
+
+function sameSection(a: PlanCourse, b: PlanCourse): boolean {
+  return normalizeText(a.program_course_description) === normalizeText(b.program_course_description);
+}
+
+function languageSet(course: PlanCourse): Set<string> {
+  return new Set(course.teaching_languages.map((x) => normalizeText(x)));
+}
+
+function hasGerman(course: PlanCourse): boolean {
+  const langs = languageSet(course);
+  return langs.has("deutsch") || langs.has("german") || langs.has("allemand");
+}
+
+function hasFrench(course: PlanCourse): boolean {
+  const langs = languageSet(course);
+  return langs.has("franzosisch") || langs.has("franzoesisch") || langs.has("french") || langs.has("francais") || langs.has("francais");
+}
+
+function hasDifferentGermanFrenchLanguages(a: PlanCourse, b: PlanCourse): boolean {
+  return (hasGerman(a) && hasFrench(b)) || (hasFrench(a) && hasGerman(b));
+}
+
+function compatibleSemesterTypes(a: PlanCourse, b: PlanCourse): boolean {
+  if (!a.semester_types.length || !b.semester_types.length) return true;
+  return a.semester_types.some((type) => b.semester_types.includes(type));
+}
+
+function translatedNameKey(value: string | null): string {
+  let n = normalizeText(value)
+    .replace(/\bman\s*0?(\d{1,2})\s*[def]?\b/g, "man $1")
+    .replace(/\bue\s*[a-z]+\s*\d+\b/g, " ");
+
+  const replacements: Array<[RegExp, string]> = [
+    [/\bwirtschaftsinformatik\b|\binformatique de gestion\b/g, "business informatics"],
+    [/\binformation systems?\b/g, "business informatics"],
+    [/\beinfuehrung\b|\beinfuhrung\b|\bintroduction\b|\bintroductory\b/g, "introduction"],
+    [/\bstatistique\b|\bstatistik\b|\bstatistics?\b/g, "statistics"],
+    [/\bvertiefungskurs\b|\bapprofondissement\b|\badvanced\b/g, "advanced"],
+    [/\bmathematiques?\b|\bmathematik\b|\bmathematics?\b/g, "mathematics"],
+    [/\bbetriebswirtschaftslehre\b|\bgestion d entreprise\b|\bbusiness administration\b/g, "business administration"],
+    [/\bunternehmensrechnung\b|\bcomptabilite\b|\baccounting\b/g, "accounting"],
+    [/\bbilanzierung\b|\bcomptabilite financiere\b|\bfinancial accounting\b/g, "financial accounting"],
+    [/\brecht\b|\bdroit\b|\blaw\b/g, "law"],
+    [/\bmikrookonomie\b|\bmicroeconomie\b|\bmicroeconomics?\b/g, "microeconomics"],
+    [/\binvestissement\b|\binvestitions\b|\binvestition\b|\binvestment\b/g, "investment"],
+    [/\bfinancement\b|\bfinanzierung\b|\bfinancing\b|\bfinance\b/g, "financing"],
+    [/\bmarketingforschung\b|\brecherche marketing\b|\bmarketing research\b/g, "marketing research"],
+    [/\bressources humaines\b|\bgestion des ressources humaines\b|\bhuman resource management\b/g, "human resource management"],
+    [/\bcontrolling\b|\bcomptabilite de gestion\b|\bmanagement accounting\b/g, "management accounting"],
+    [/\bunternehmensfinanzierung\b|\bfinance d entreprise\b|\bcorporate finance\b/g, "corporate finance"],
+    [/\borganisation\b|\borganization\b/g, "organisation"],
+    [/\bkompetenz\b|\bcompetences\b|\bcompetence\b/g, "competence"],
+    [/\bdocumentaires?\b|\bdocumentary\b/g, "documentary"],
+    [/\binformationskompetenz\b/g, "information competence"],
+    [/\bwirtschaftswissenschaften\b|\beconomie\b|\beconomics?\b/g, "economics"],
+  ];
+  for (const [rx, repl] of replacements) n = n.replace(rx, repl);
+  return n.replace(/\s+/g, " ").trim();
+}
+
+function tokenSet(value: string): Set<string> {
+  const stop = new Set(["in", "de", "des", "der", "die", "das", "a", "the", "and", "et", "en", "of", "for", "to", "course", "cours"]);
+  return new Set(value.split(/\s+/).filter((x) => x && !stop.has(x)));
+}
+
+function jaccard(a: Set<string>, b: Set<string>): number {
+  if (!a.size && !b.size) return 1;
+  let intersection = 0;
+  for (const item of a) if (b.has(item)) intersection += 1;
+  return intersection / (a.size + b.size - intersection);
+}
+
+function namesLookEquivalent(a: PlanCourse, b: PlanCourse): boolean {
+  const aKey = canonicalCourseKey(a.course_name, a.code, a.ects);
+  const bKey = canonicalCourseKey(b.course_name, b.code, b.ects);
+  if (aKey === bKey) return true;
+
+  const an = translatedNameKey(a.course_name);
+  const bn = translatedNameKey(b.course_name);
+  if (an && bn && an === bn) return true;
+
+  const score = jaccard(tokenSet(an), tokenSet(bn));
+  return score >= 0.72;
+}
+
+function sameDirectlyRepeatedZeroEctsName(a: PlanCourse, b: PlanCourse): boolean {
+  return Number(a.ects ?? 0) === 0 && normalizeText(a.course_name) === normalizeText(b.course_name);
+}
+
+function shouldGroupAsLanguageEquivalent(a: PlanCourse, b: PlanCourse): boolean {
+  if (!sameCourseTypeAndEcts(a, b)) return false;
+  if (!compatibleSemesterTypes(a, b)) return false;
+
+  // Strong case: same normalized/translated name. This catches bilingual course
+  // names even when the rows are not adjacent after SQL sorting.
+  if (namesLookEquivalent(a, b)) return true;
+
+  // Safe import-order fallback: the source table stores language alternatives
+  // directly next to each other. Only use adjacency with all hard guards enabled:
+  // same course type, same ECTS, compatible semester, German/French split, and
+  // either same section or a very similar translated title. This prevents false
+  // pairs such as Microeconomics + Algorithmics.
+  if (Math.abs(a.row_no - b.row_no) === 1 && hasDifferentGermanFrenchLanguages(a, b)) {
+    if (sameSection(a, b) && jaccard(tokenSet(translatedNameKey(a.course_name)), tokenSet(translatedNameKey(b.course_name))) >= 0.45) {
+      return true;
+    }
   }
+
+  // Several 0-ECTS information-literacy rows appear as repeated technical rows.
+  return sameDirectlyRepeatedZeroEctsName(a, b);
+}
+
+function groupCoursesByEquivalentKey(courses: PlanCourse[]): Map<string, PlanCourse[]> {
+  const ordered = [...courses].sort((a, b) => a.row_no - b.row_no);
+  const parent = ordered.map((_, i) => i);
+
+  const find = (i: number): number => {
+    const currentParent = parent[i];
+    if (currentParent === undefined || currentParent === i) return i;
+
+    const root = find(currentParent);
+    parent[i] = root;
+    return root;
+  };
+  const unite = (a: number, b: number) => {
+    const ra = find(a);
+    const rb = find(b);
+    if (ra !== rb) parent[rb] = ra;
+  };
+
+  for (let i = 0; i < ordered.length; i += 1) {
+    for (let j = i + 1; j < ordered.length; j += 1) {
+      if (!sameCourseTypeAndEcts(ordered[i]!, ordered[j]!)) continue;
+      if (!compatibleSemesterTypes(ordered[i]!, ordered[j]!)) continue;
+
+      const adjacent = Math.abs(ordered[i]!.row_no - ordered[j]!.row_no) === 1;
+      const sameCanonical = canonicalCourseKey(ordered[i]!.course_name, ordered[i]!.code, ordered[i]!.ects) ===
+        canonicalCourseKey(ordered[j]!.course_name, ordered[j]!.code, ordered[j]!.ects);
+
+      // Keep comparisons cheap and conservative: compare all exact canonical
+      // matches, and otherwise only likely language alternatives.
+      if (sameCanonical || adjacent || hasDifferentGermanFrenchLanguages(ordered[i]!, ordered[j]!)) {
+        if (shouldGroupAsLanguageEquivalent(ordered[i]!, ordered[j]!)) unite(i, j);
+      }
+    }
+  }
+
+  const groupedByRoot = new Map<number, PlanCourse[]>();
+  ordered.forEach((course, index) => {
+    const root = find(index);
+    groupedByRoot.set(root, [...(groupedByRoot.get(root) ?? []), course]);
+  });
+
+  const byKey = new Map<string, PlanCourse[]>();
+  for (const [root, options] of groupedByRoot.entries()) {
+    const first = ordered[root]!;
+    const concept = translatedNameKey(first.course_name) || normalizeText(first.course_name) || first.code;
+    const key = `${concept}-${first.course_type}-${first.ects ?? ""}-${options.map((o) => o.code).sort().join("_")}`;
+    byKey.set(key, options.sort((a, b) => a.row_no - b.row_no));
+  }
+
+  return byKey;
+}
+
+function makeGroups(courses: PlanCourse[]): PlanGroup[] {
+  const byKey = groupCoursesByEquivalentKey(courses);
   return [...byKey.entries()].map(([key, options]) => {
     const first = options[0] as PlanCourse;
     const allTypes = [...new Set(options.flatMap((o) => o.semester_types))];
@@ -299,6 +509,9 @@ function makeGroups(courses: PlanCourse[]): PlanGroup[] {
       suggested_year: years.length ? Math.min(...years) : null,
       semester_types: allTypes,
       sequence: Math.min(...options.map((o) => sequenceHint(o.course_name))),
+      sequence_series_key: courseSeriesKey(first.course_name),
+      sequence_part: sequenceHint(first.course_name) === 50 ? null : sequenceHint(first.course_name),
+      source_order: Math.min(...options.map((o) => o.row_no)),
       options,
     };
   });
@@ -312,8 +525,18 @@ function fitsSemester(group: PlanGroup, semesterType: "Autumn" | "Spring") {
   return group.semester_types.length === 0 || group.semester_types.includes(semesterType);
 }
 
-function buildSuggestedPlan(mandatoryGroups: PlanGroup[], electiveGroups: PlanGroup[], semesters: number, totalEcts: number | null, onlySelectedElectives = false) {
+function buildSuggestedPlan(
+  mandatoryGroups: PlanGroup[],
+  electiveGroups: PlanGroup[],
+  semesters: number,
+  totalEcts: number | null,
+  onlySelectedElectives = false
+) {
   const target = (totalEcts && totalEcts > 0 ? totalEcts : 180) / semesters;
+  const tolerance = 0.2;
+  const lowerTarget = target * (1 - tolerance);
+  const upperTarget = target * (1 + tolerance);
+
   const slots = Array.from({ length: semesters }, (_, i) => ({
     semester_number: i + 1,
     semester_type: semesterTypeForNumber(i + 1),
@@ -323,40 +546,133 @@ function buildSuggestedPlan(mandatoryGroups: PlanGroup[], electiveGroups: PlanGr
     electives: [] as PlanGroup[],
   }));
 
-  const sortedMandatory = [...mandatoryGroups].sort((a, b) =>
+  const compareGroups = (a: PlanGroup, b: PlanGroup) =>
     (a.suggested_year ?? 99) - (b.suggested_year ?? 99) ||
+    a.source_order - b.source_order ||
+    a.sequence_series_key.localeCompare(b.sequence_series_key) ||
+    (a.sequence_part ?? 999) - (b.sequence_part ?? 999) ||
     a.sequence - b.sequence ||
-    a.group_key.localeCompare(b.group_key)
-  );
+    a.group_key.localeCompare(b.group_key);
+
+  const chooseSlotForMandatory = (candidates: typeof slots, group: PlanGroup) => {
+    const ectsAfterAdding = (planned: number) => planned + group.planned_ects;
+
+    const underLoadedAndFits = candidates
+      .filter(
+        (s) =>
+          s.planned_ects < lowerTarget &&
+          ectsAfterAdding(s.planned_ects) <= upperTarget
+      )
+      .sort((a, b) => a.semester_number - b.semester_number);
+
+    if (underLoadedAndFits[0]) return underLoadedAndFits[0];
+
+    const stillFitsUpperBand = candidates
+      .filter((s) => ectsAfterAdding(s.planned_ects) <= upperTarget)
+      .sort(
+        (a, b) =>
+          a.planned_ects - b.planned_ects ||
+          a.semester_number - b.semester_number
+      );
+
+    if (stillFitsUpperBand[0]) return stillFitsUpperBand[0];
+
+    return [...candidates].sort(
+      (a, b) =>
+        Math.max(0, ectsAfterAdding(a.planned_ects) - upperTarget) -
+          Math.max(0, ectsAfterAdding(b.planned_ects) - upperTarget) ||
+        a.planned_ects - b.planned_ects ||
+        a.semester_number - b.semester_number
+    )[0];
+  };
+
+  const sortedMandatory = [...mandatoryGroups].sort(compareGroups);
+
+  const lastPlacedSemesterBySeries = new Map<string, number>();
 
   for (const group of sortedMandatory) {
-    const minSem = group.suggested_year ? Math.max(1, (group.suggested_year - 1) * 2 + 1) : 1;
-    let candidates = slots.filter((s) => s.semester_number >= minSem && fitsSemester(group, s.semester_type));
-    if (!candidates.length) candidates = slots.filter((s) => fitsSemester(group, s.semester_type));
-    if (!candidates.length) candidates = slots;
-    candidates.sort((a, b) =>
-      Math.abs((a.planned_ects + group.planned_ects) - target) - Math.abs((b.planned_ects + group.planned_ects) - target) ||
-      a.semester_number - b.semester_number
+    const baseMinSem = group.suggested_year
+      ? Math.max(1, (group.suggested_year - 1) * 2 + 1)
+      : 1;
+
+    const previousSeriesSemester =
+      group.sequence_part && group.sequence_part > 1
+        ? lastPlacedSemesterBySeries.get(group.sequence_series_key)
+        : undefined;
+
+    const minSem =
+      previousSeriesSemester !== undefined
+        ? Math.max(baseMinSem, previousSeriesSemester + 1)
+        : baseMinSem;
+
+    let candidates = slots.filter(
+      (s) =>
+        s.semester_number >= minSem &&
+        fitsSemester(group, s.semester_type)
     );
-    const selectedSlot = candidates[0];
+
+    if (!candidates.length) {
+      candidates = slots.filter(
+        (s) =>
+          s.semester_number >= baseMinSem &&
+          fitsSemester(group, s.semester_type)
+      );
+    }
+
+    if (!candidates.length) {
+      candidates = slots.filter((s) => fitsSemester(group, s.semester_type));
+    }
+
+    if (!candidates.length) candidates = slots;
+
+    const selectedSlot = chooseSlotForMandatory(candidates, group);
     if (!selectedSlot) continue;
+
     selectedSlot.mandatory.push(group);
     selectedSlot.planned_ects += group.planned_ects;
+
+    if (group.sequence_series_key && group.sequence_part !== null) {
+      lastPlacedSemesterBySeries.set(
+        group.sequence_series_key,
+        selectedSlot.semester_number
+      );
+    }
   }
 
-  const sortedElectives = [...electiveGroups].sort((a, b) =>
-    (a.suggested_year ?? 99) - (b.suggested_year ?? 99) ||
-    a.sequence - b.sequence ||
-    a.group_key.localeCompare(b.group_key)
+  const sortedElectives = [...electiveGroups].sort(
+    (a, b) =>
+      (a.suggested_year ?? 99) - (b.suggested_year ?? 99) ||
+      a.sequence - b.sequence ||
+      a.group_key.localeCompare(b.group_key)
   );
-  const electiveStart = Math.max(1, Math.min(semesters, Math.ceil(semesters * 0.6)));
+
+  const electiveStart = Math.max(
+    1,
+    Math.min(semesters, Math.ceil(semesters * 0.6))
+  );
+
   for (const group of sortedElectives) {
     const candidates = slots
-      .filter((s) => s.semester_number >= electiveStart && fitsSemester(group, s.semester_type))
-      .sort((a, b) => a.planned_ects - b.planned_ects || a.semester_number - b.semester_number);
+      .filter(
+        (s) =>
+          s.semester_number >= electiveStart &&
+          fitsSemester(group, s.semester_type) &&
+          s.planned_ects + group.planned_ects <= upperTarget
+      )
+      .sort(
+        (a, b) =>
+          a.planned_ects - b.planned_ects ||
+          a.semester_number - b.semester_number
+      );
+
     const slot = candidates[0];
     if (!slot) continue;
-    if (onlySelectedElectives || slot.planned_ects <= target - 1 || slot.electives.length < 2) {
+
+    if (
+      onlySelectedElectives ||
+      slot.planned_ects < lowerTarget ||
+      slot.electives.length < 2
+    ) {
       slot.electives.push(group);
       slot.planned_ects += group.planned_ects;
     }
@@ -679,6 +995,8 @@ export async function plannerRoutes(app: FastifyInstance) {
         link_course_catalogue: string | null;
         code: string;
         course_name: string | null;
+        description: string | null;
+        learning_goals: string | null;
         ects: number | null;
         teaching_languages: string[] | null;
         mandatory_for: unknown;
@@ -694,6 +1012,8 @@ export async function plannerRoutes(app: FastifyInstance) {
           off.link_course_catalogue,
           c.code,
           c.name AS course_name,
+          c.description,
+          c.learning_goals,
           c.ects,
           COALESCE(
             ARRAY_AGG(DISTINCT l.description) FILTER (WHERE l.description IS NOT NULL),
@@ -742,6 +1062,8 @@ export async function plannerRoutes(app: FastifyInstance) {
           off.link_course_catalogue,
           c.code,
           c.name,
+          c.description,
+          c.learning_goals,
           c.ects
         ORDER BY c.name ASC NULLS LAST, c.code, off.offering_id
         `,
@@ -841,6 +1163,7 @@ export async function plannerRoutes(app: FastifyInstance) {
           GROUP BY off.code
         )
         SELECT
+          ROW_NUMBER() OVER (ORDER BY co.course_type, co.description NULLS LAST, co.code) AS row_no,
           co.program_id,
           co.code,
           COALESCE(NULLIF(co.course_name, ''), c.name) AS course_name,
@@ -874,7 +1197,7 @@ export async function plannerRoutes(app: FastifyInstance) {
       const allElectiveGroups = makeGroups(courses.filter((c) => c.course_type === "Elective"));
       const electiveGroups = selectedElectiveCodeSet.size
         ? allElectiveGroups.filter((g) => g.options.some((o) => selectedElectiveCodeSet.has(normalizeCourseCode(o.code))))
-        : allElectiveGroups;
+        : [];
       const program = programRows[0]!;
       if (!program) {
         return rep.code(404).send({ error: `No study program found for id ${programId}` });
@@ -898,7 +1221,7 @@ export async function plannerRoutes(app: FastifyInstance) {
           "This is a generated proposal from structured database rows, not a legally binding study plan.",
           "Odd planned semesters are treated as HS/Autumn; even planned semesters are treated as FS/Spring.",
           "Likely bilingual/equivalent alternatives are grouped and count only once toward ECTS.",
-          "Courses with year hints in consist_of.description are placed before later-year or unlabelled courses where possible.",
+          "Courses suggested to take in year 1 are scheduled before others.",
         ],
         mandatory_choice_groups: mandatoryGroups.filter((g) => g.requires_choice),
         suggested_mandatory_semester_plan: plan,
@@ -933,6 +1256,8 @@ export async function plannerRoutes(app: FastifyInstance) {
               link_course_catalogue: { type: ["string", "null"] },
               code: { type: "string" },
               course_name: { type: ["string", "null"] },
+              description: { type: ["string", "null"] },
+              learning_goals: { type: ["string", "null"] },
               ects: { type: ["number", "null"] },
               teaching_languages: {
                 type: "array",
@@ -993,6 +1318,8 @@ export async function plannerRoutes(app: FastifyInstance) {
           off.link_course_catalogue,
           c.code,
           c.name AS course_name,
+          c.description,
+          c.learning_goals,
           c.ects
         FROM CourseOffering off
         JOIN Course c

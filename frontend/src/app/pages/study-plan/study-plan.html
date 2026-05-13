@@ -118,38 +118,51 @@
           } @else {
             <div class="course-grid course-grid--create">
               @for (course of filteredCourses(); track course.offering_id) {
-                <button
-                  type="button"
+                <article
                   class="course-box"
                   [class.course-box--selected]="isCourseSelected(course.offering_id)"
-                  (click)="toggleCourse(course.offering_id)">
-                  <div>
-                    <strong>{{ course.course_name || course.code }}</strong>
-                    <div class="muted">{{ course.code }}</div>
-                  </div>
+                  tabindex="0"
+                  role="button"
+                  (click)="toggleCourse(course.offering_id)"
+                  (keydown.enter)="toggleCourse(course.offering_id)"
+                  (keydown.space)="toggleCourse(course.offering_id)">
+                  <button
+                    type="button"
+                    class="info-btn"
+                    [attr.aria-label]="t().courseInfo"
+                    (click)="openCourseInfo(course, $event)">
+                    i
+                  </button>
 
-                  <div class="course-meta-row">
-                    <span class="pill">{{ offeringTag(course) }}</span>
-                    @if (course.ects != null) {
-                      <span>{{ course.ects }} ECTS</span>
+                  <div class="course-box__content">
+                    <div>
+                      <strong>{{ course.course_name || course.code }}</strong>
+                      <div class="muted">{{ course.code }}</div>
+                    </div>
+
+                    <div class="course-meta-row">
+                      <span class="pill">{{ offeringTag(course) }}</span>
+                      @if (course.ects != null) {
+                        <span>{{ course.ects }} ECTS</span>
+                      }
+                      @if (course.offering_type) {
+                        <span>{{ offeringTypeLabel(course.offering_type) }}</span>
+                      }
+                    </div>
+
+                    @if (course.day_time_info) {
+                      <div class="muted course-extra">{{ course.day_time_info }}</div>
                     }
-                    @if (course.offering_type) {
-                      <span>{{ offeringTypeLabel(course.offering_type) }}</span>
+
+                    @if (offeringLanguages(course)) {
+                      <div class="muted course-extra">{{ t().language }}: {{ offeringLanguages(course) }}</div>
+                    }
+
+                    @if (offeringPrograms(course)) {
+                      <div class="muted course-extra">{{ t().programs }}: {{ offeringPrograms(course) }}</div>
                     }
                   </div>
-
-                  @if (course.day_time_info) {
-                    <div class="muted course-extra">{{ course.day_time_info }}</div>
-                  }
-
-                  @if (offeringLanguages(course)) {
-                    <div class="muted course-extra">{{ t().language }}: {{ offeringLanguages(course) }}</div>
-                  }
-
-                  @if (offeringPrograms(course)) {
-                    <div class="muted course-extra">{{ t().programs }}: {{ offeringPrograms(course) }}</div>
-                  }
-                </button>
+                </article>
               }
             </div>
           }
@@ -353,6 +366,13 @@
                 <div class="stack-list">
                   @for (course of filteredCourses(); track course.offering_id) {
                     <article class="suggestion-card" [class.suggestion-card--added]="isCourseSelected(course.offering_id)">
+                      <button
+                        type="button"
+                        class="info-btn info-btn--suggestion"
+                        [attr.aria-label]="t().courseInfo"
+                        (click)="openCourseInfo(course, $event)">
+                        i
+                      </button>
                       <div>
                         <strong>{{ course.course_name || course.code }}</strong>
                         <div class="course-meta-row">
@@ -386,5 +406,43 @@
         </section>
       }
     }
+
+          @if (selectedInfoCourse(); as course) {
+            <div class="modal-backdrop" (click)="closeCourseInfo()">
+              <section class="course-modal course-info-modal" (click)="$event.stopPropagation()">
+                <div class="detail-header">
+                  <div>
+                    <h2>{{ course.course_name || course.code }}</h2>
+                    <p>{{ course.code }}</p>
+                  </div>
+                  <button type="button" class="secondary-btn" (click)="closeCourseInfo()">{{ t().close }}</button>
+                </div>
+
+                @if (hasCourseInfo(course)) {
+                  <div class="stack-list">
+                    @if (course.learning_goals) {
+                      <article class="stack-card course-info-section">
+                        <div>
+                          <strong>{{ t().learningGoals }}</strong>
+                          <p class="course-info-text">{{ course.learning_goals }}</p>
+                        </div>
+                      </article>
+                    }
+
+                    @if (course.description) {
+                      <article class="stack-card course-info-section">
+                        <div>
+                          <strong>{{ t().description }}</strong>
+                          <p class="course-info-text">{{ course.description }}</p>
+                        </div>
+                      </article>
+                    }
+                  </div>
+                } @else {
+                  <div class="empty-state">{{ t().noCourseInfo }}</div>
+                }
+              </section>
+            </div>
+          }
   </main>
 </div>

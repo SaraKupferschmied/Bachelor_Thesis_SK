@@ -75,6 +75,8 @@ class Settings(BaseModel):
         suffix = self._variant_suffix
         if self.rag_parser == "docling_language_aware":
             return self.vectorstore_dir / "faiss_studyplans_docling_language_aware"
+        if self.rag_parser == "docling_table_semantic":
+            return self.vectorstore_dir / "faiss_studyplans_docling_table_semantic_new"
         if self.rag_parser == "docling":
             return self.vectorstore_dir / f"faiss_studyplans_docling{suffix}"
         return self.vectorstore_dir / f"faiss_studyplans_default{suffix}"
@@ -84,9 +86,17 @@ class Settings(BaseModel):
         suffix = self._variant_suffix
         if self.rag_parser == "docling_language_aware":
             return self.vectorstore_dir / "faiss_reglementations_docling_language_aware"
+        if self.rag_parser == "docling_table_semantic":
+            # For the selected setup, keep using the normal regulations index
+            # instead of the experimental table-semantic regulations store.
+            return self.vectorstore_dir / "faiss_reglementations"
         if self.rag_parser == "docling":
             return self.vectorstore_dir / f"faiss_reglementations_docling{suffix}"
         return self.vectorstore_dir / f"faiss_reglementations_default{suffix}"
+
+    @property
+    def base_data_index(self) -> Path:
+        return self.vectorstore_dir / "faiss_BaseData"
 
 
 settings = Settings()

@@ -391,7 +391,7 @@ def _fmt_ects(value: Any) -> str:
         return "unknown ECTS"
     try:
         num = float(value)
-        return f"{int(num)} ECTS" if num.is_integer() else f"{num:g} ECTS"
+        return f"{num:.2f} ECTS" if num.is_integer() else f"{num:g} ECTS"
     except Exception:
         return f"{value} ECTS"
 
@@ -514,8 +514,6 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
         lines.append("\nTo finish the plan, please choose which electives you want to take. You can answer with course codes like `UE-SIN.01022` or with the course names.")
     elif elective_courses and selected_codes:
         lines.append("\nIf you want to change electives, tell me the new elective course codes and I can regenerate the proposal.")
-
-    lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)
 
 
@@ -546,6 +544,34 @@ def format_mobility_plan(result: Dict[str, Any]) -> str:
                 lines.append(f"  - Content: {str(c['description'])[:180]}...")
 
     return "\n".join(lines)
+
+def _dedupe_documents(docs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    result = []
+    seen = set()
+
+    for doc in docs or []:
+        if not isinstance(doc, dict):
+            continue
+
+        source_url = doc.get("source_url") or doc.get("url")
+        doc_key = doc.get("doc_key")
+        dedupe_key = doc_key or source_url
+
+        if not dedupe_key or dedupe_key in seen:
+            continue
+
+        seen.add(dedupe_key)
+
+        result.append({
+            "title": doc.get("title") or doc.get("label") or "Source document",
+            "doc_key": doc_key,
+            "doc_type": doc.get("doc_type"),
+            "source_url": source_url,
+            "download_url": doc.get("download_url") or source_url,
+            "page": doc.get("page"),
+        })
+
+    return result
 
 
 def answer_question(
@@ -594,7 +620,20 @@ def answer_question(
         semesters = flow.get("semesters")
         total_ects = flow.get("total_ects")
 
-        found_semesters = _extract_semester_count(question)
+        candidate_programs = flow.get("candidate_programs", [])
+
+        # Important: when we are waiting for a program-id selection, a reply like
+        # "11" is the program id, not a request to plan 11 semesters.
+        # Therefore only parse semester counts after the id-selection branch, or
+        # when the user explicitly says "8 semesters" in the same message.
+        found_semesters = None
+        if not (candidate_programs and not selected_program_id) or re.search(
+            r"\b\d{1,2}\s*(semester|semesters|semestri|semestren)\b",
+            question,
+            flags=re.IGNORECASE,
+        ):
+            found_semesters = _extract_semester_count(question)
+
         found_total_ects = _extract_total_ects(question)
 
         if found_semesters:
@@ -604,8 +643,6 @@ def answer_question(
         if found_total_ects:
             total_ects = found_total_ects
             session_state["hero_flow"]["total_ects"] = total_ects
-
-        candidate_programs = flow.get("candidate_programs", [])
 
         if candidate_programs and not selected_program_id:
             chosen_id = _extract_program_id(question)
@@ -652,7 +689,16 @@ def answer_question(
                     flags=re.IGNORECASE,
                 )
 
-            cleaned_question = cleaned_question.strip(" ,.-")
+            # Remove degree/semester words before program lookup so a phrase like
+            # "Bachelor in Business Informatics in 8 semesters" becomes the actual
+            # searchable program name instead of an over-specific literal query.
+            cleaned_question = re.sub(
+                r"\b(bachelor|master|doctorate|phd|in|for|over|within|complete|study|plan|program|programme)\b",
+                " ",
+                cleaned_question,
+                flags=re.IGNORECASE,
+            )
+            cleaned_question = re.sub(r"\s+", " ", cleaned_question).strip(" ,.-")
 
             if not cleaned_question:
                 return {
@@ -1002,6 +1048,7 @@ def answer_question(
     tool_results: List[Dict[str, Any]] = []
     sources = []
     answer_parts: List[str] = []
+    documents = []
     debug_tool_calls = []
 
     if mode in ("tool", "hybrid"):
@@ -1140,12 +1187,13 @@ def answer_question(
 
         if db is not None:
             with timed_step("rag.total"):
-                rag_text, rag_sources = rag_answer(
-                    db=db,
-                    question=question,
-                    language=language,
-                )
+                rag_text, rag_sources, rag_documents = rag_answer(
+                db=db,
+                question=question,
+                language=language,
+            )
             sources.extend(rag_sources)
+            documents.extend(rag_documents)
 
             if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
                 final_answer = rag_text
@@ -1170,6 +1218,7 @@ def answer_question(
     return {
         "answer": final_answer,
         "sources": sources,
+        "documents": _dedupe_documents(documents),
         "used_tools": [x["tool"] for x in tool_results if x.get("tool")],
         "session_state": new_session_state,
         "plan": plan,

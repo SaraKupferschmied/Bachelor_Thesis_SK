@@ -17,9 +17,18 @@ class SourceSnippet(BaseModel):
     metadata: Dict[str, Any] = Field(default_factory=dict)
     source_type: str = "pdf"
 
+class SourceDocument(BaseModel):
+    title: Optional[str] = None
+    doc_key: Optional[str] = None
+    doc_type: Optional[str] = None
+    source_url: Optional[str] = None
+    download_url: Optional[str] = None
+    page: Optional[int] = None
+
 class AskResponse(BaseModel):
     answer: str
     sources: List[SourceSnippet] = Field(default_factory=list)
+    documents: List[SourceDocument] = Field(default_factory=list)
     used_tools: List[str] = Field(default_factory=list)
     session_state: Optional[dict] = None
     plan: Optional[dict] = None
