@@ -98,5 +98,4 @@ def format_study_program_plan(result: Dict[str, Any], rag_rules: str | None = No
         if len(electives) > 12:
             lines.append(f"- …and {len(electives) - 12} more electives.")
 
-    lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)

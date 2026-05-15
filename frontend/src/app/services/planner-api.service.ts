@@ -39,6 +39,8 @@ export interface PlannerCourseOffering {
   link_course_catalogue: string | null;
   code: string;
   course_name: string | null;
+  description: string | null;
+  learning_goals: string | null;
   ects: number | null;
   teaching_languages: string[];
   mandatory_for: PlannerProgramRef[];
@@ -86,6 +88,8 @@ export interface PlannerOfferingDetail {
   link_course_catalogue: string | null;
   code: string;
   course_name: string | null;
+  description: string | null;
+  learning_goals: string | null;
   ects: number | null;
   teaching_languages: string[];
   professors: PlannerProfessor[];

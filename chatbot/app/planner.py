@@ -196,9 +196,17 @@ def plan_tool_usage(
 ) -> dict[str, Any]:
     session_state = session_state or {}
 
-    fast_plan = _fast_structured_plan(question)
-    if fast_plan is not None:
-        return fast_plan
+    # Keep only deterministic extraction that is genuinely unambiguous.
+    # Do NOT route broad natural-language questions with keyword rules such as
+    # "bachelor" -> get_programs. That turns the chatbot into a brittle backend
+    # form. Semantic tool selection is handled by the LLM below using TOOL_SPECS.
+    code = _extract_course_code(question)
+    if code:
+        return {
+            "mode": "tool",
+            "tool_calls": [{"tool": "get_course_by_code", "args": {"code": code}}],
+            "reason": "Exact course code detected",
+        }
 
     llm = ChatOllama(
         model=settings.ollama_model,
@@ -231,9 +239,23 @@ Return ONLY valid JSON in this exact format:
 }}
 
 Rules:
-- Use "tool" when backend tools can answer the question with structured data.
-- Use "rag" for regulations, policy, explanatory document questions, or questions about rules.
-- Use "hybrid" when both structured backend data and document context are needed.
+- First understand the user's information need. Do not choose tools by keyword matching.
+- Use "tool" when backend tools can answer the actual question with structured data. (first try to find a matching api because if it exists its way faster than rag)
+- Use "rag" for conceptual, regulatory, policy, explanatory, or general knowledge questions.
+- Use "hybrid" when structured data is needed but the answer also needs explanation from documents.
+- A question can mention entities like "bachelor", "program", "ECTS", or "Business Informatics"
+  without asking for a list. Decide whether the user wants:
+  1. a specific value/fact,
+  2. a filtered list,
+  3. a computed/aggregated answer,
+  4. an explanation.
+- For specific values in the database, call the narrowest matching tool and let the assistant synthesize the answer.
+  Example: "What is the total number of ECTS for the Business Informatics bachelor?" ->
+  get_programs with name="Business Informatics" and degree_level="Bachelor", not RAG.
+- For broad conceptual questions like "How many ECTS does an average Bachelor have?" prefer RAG or hybrid,
+  because the user is not asking to list every Bachelor program row.
+- For filtered list questions like "show all Bachelor programs" or "which Bachelor minors have 60 ECTS",
+  use get_programs.
 - Use get_course_by_code for one exact course code or a follow-up about one known course.
 - Use get_courses for filtered lists of courses. For ECTS comparisons pass ects as strings like ">6", "<3", ">=5".
 - Use get_programs for program searches. For minor/major/mono use program_type. For ECTS comparisons pass total_ects as strings like ">90", "<90", ">=120".

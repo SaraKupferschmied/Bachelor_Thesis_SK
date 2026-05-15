@@ -150,3 +150,46 @@ Timeout for too long questions
     tool=http://localhost:8000/ask:tool ^
     rag=http://localhost:8000/ask:rag
     
+
+# Run locally
+
+## Requirements
+
+- Docker Desktop
+- Git
+
+## Setup
+
+```bash
+git clone <repo>
+cd <repo>
+
+cp .env.example .env
+
+docker compose up --build
+```
+
+Backend:
+http://localhost:3000
+
+Chatbot:
+http://localhost:8000
+
+
+cd scrapy_crawler
+cd scrapy_crawler
+scrapy crawl structure_of_studies -O spider_outputs/base_info/structure_of_studies.json
+scrapy crawl student_advice_and_information -O spider_outputs/base_info/student_advice_and_information.json
+scrapy crawl languages_of_study -O spider_outputs/base_info/languages_of_study.json
+scrapy crawl unifr_examinations_faculty_rules -O spider_outputs/base_info/unifr_examinations_faculty_rules.json
+scrapy crawl unifr_elite_sports -O spider_outputs/base_info/unifr_elite_sports.json
+scrapy crawl unifr_studies_disability -O spider_outputs/base_info/unifr_studies_disability.json
+scrapy crawl unifr_studies_army -O spider_outputs/base_info/unifr_studies_army.json
+
+scrapy crawl unifr_infrastructures -O spider_outputs/base_info/unifr_infrastructures.json
+scrapy crawl unifr_activities -O spider_outputs/base_info/unifr_activities.json
+scrapy crawl unifr_living_in_fribourg -O spider_outputs/base_info/unifr_living_in_fribourg.json
+scrapy crawl unifr_life_in_fribourg -O spider_outputs/base_info/unifr_life_in_fribourg.json
+
+
+python chatbot/app/create_base_faiss_vectorstore.py

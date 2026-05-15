@@ -442,3 +442,65 @@
 .block-card:hover {
   background: #faf5ff;
 }
+.course-box {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.course-box:focus-visible {
+  outline: 3px solid #c4b5fd;
+  outline-offset: 2px;
+}
+
+.course-box__content {
+  padding-right: 34px;
+}
+
+.info-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #c4b5fd;
+  border-radius: 50%;
+  background: #fff;
+  color: #7c3aed;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.info-btn:hover,
+.info-btn:focus-visible {
+  background: #faf5ff;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.info-btn--suggestion {
+  position: static;
+  flex: none;
+  margin-right: 2px;
+}
+
+.suggestion-card {
+  position: relative;
+}
+
+.course-info-modal {
+  width: min(760px, 100%);
+}
+
+.course-info-section {
+  align-items: flex-start;
+}
+
+.course-info-text {
+  margin: 10px 0 0;
+  color: #475569;
+  line-height: 1.6;
+  white-space: pre-line;
+}

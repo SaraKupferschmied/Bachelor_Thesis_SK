@@ -165,10 +165,11 @@ export class HomeComponent {
 
 
   openStudyProgramDialog(): void {
-    this.errorMessage = '';
-    this.closeSidebar();
-    this.isStudyProgramDialogOpen = true;
-  }
+    // Use the same chat-driven flow as semester planning. This avoids the
+    // double-submit problem where the hidden hero message starts the flow and
+    // the dialog payload is interpreted as a second, unrelated prompt.
+    this.onSendMessage(PLAN_STUDY_PROGRAM_HERO_MESSAGE);
+   }
 
   closeStudyProgramDialog(): void {
     if (this.isloading) {
@@ -344,8 +345,8 @@ export class HomeComponent {
       normalizedTitle.includes('plan d’études complet') ||
       normalizedTitle.includes('plan d’études complet')
     ) {
-      this.openStudyProgramDialog();
-      return;
+      this.onSendMessage(PLAN_STUDY_PROGRAM_HERO_MESSAGE);
+       return;
     }
 
     if (

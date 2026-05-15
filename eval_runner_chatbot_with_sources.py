@@ -47,6 +47,16 @@ RESULT_COLUMNS = [
     "answer_question_ms",
     "tool_used",
     "sources_count",
+    # Source fields for retrieval evaluation metrics such as Recall@K, Precision@K, and MRR.
+    "retrieved_source_keys",
+    "retrieved_source_categories",
+    "retrieved_source_pages",
+    "retrieved_sources_ranked",
+    "retrieved_sources_json",
+    "top1_source_key",
+    "top1_source_category",
+    "top1_source_page",
+    "top1_source_snippet",
     "answer",
     "error",
 ]
@@ -141,6 +151,94 @@ def extract_answer(payload: Any, response_text: str) -> str:
     return response_text
 
 
+
+def _clean_cell_text(value: Any, max_chars: int = 32000) -> str:
+    """Return a safe, compact string for an Excel cell."""
+    if value is None:
+        return ""
+    text = str(value).replace("\r\n", "\n").replace("\r", "\n")
+    text = "\n".join(line.strip() for line in text.splitlines())
+    return text[:max_chars]
+
+
+def _source_key(source: Dict[str, Any]) -> str:
+    """Stable-ish identifier used to compare retrieved sources with gold labels."""
+    metadata = source.get("metadata") if isinstance(source.get("metadata"), dict) else {}
+    for key in ("chunk_id", "doc_key", "source_file"):
+        value = metadata.get(key)
+        if value not in (None, ""):
+            return str(value)
+    for key in ("source", "source_url", "url"):
+        value = source.get(key) or metadata.get(key)
+        if value not in (None, ""):
+            return str(value)
+    return ""
+
+
+def _source_category(source: Dict[str, Any]) -> str:
+    metadata = source.get("metadata") if isinstance(source.get("metadata"), dict) else {}
+    value = (
+        metadata.get("rag_source")
+        or metadata.get("category")
+        or source.get("category")
+        or source.get("source_type")
+        or metadata.get("source_type")
+    )
+    return str(value) if value not in (None, "") else ""
+
+
+def _source_page(source: Dict[str, Any]) -> str:
+    metadata = source.get("metadata") if isinstance(source.get("metadata"), dict) else {}
+    value = source.get("page") or metadata.get("page") or metadata.get("page_start")
+    return str(value) if value not in (None, "") else ""
+
+
+def summarize_sources_for_excel(sources: Any) -> Dict[str, Any]:
+    """Flatten /ask sources into cells that can be used for retrieval metrics.
+
+    The ranked fields preserve the endpoint order. Use retrieved_source_keys or
+    retrieved_source_categories against manually annotated gold columns to
+    calculate Recall@K, Precision@K, and MRR.
+    """
+    if not isinstance(sources, list):
+        sources = []
+
+    rows = []
+    source_keys = []
+    categories = []
+    pages = []
+
+    for rank, source in enumerate(sources, start=1):
+        if not isinstance(source, dict):
+            continue
+        metadata = source.get("metadata") if isinstance(source.get("metadata"), dict) else {}
+        key = _source_key(source)
+        category = _source_category(source)
+        page = _source_page(source)
+        source_name = source.get("source") or metadata.get("source_file") or metadata.get("source_url") or ""
+        snippet = _clean_cell_text(source.get("snippet") or source.get("page_content") or "", max_chars=500)
+
+        source_keys.append(key)
+        categories.append(category)
+        pages.append(page)
+        rows.append(
+            f"{rank}. category={category}; key={key}; page={page}; source={source_name}; snippet={snippet}"
+        )
+
+    top = sources[0] if sources and isinstance(sources[0], dict) else {}
+
+    return {
+        "retrieved_source_keys": " | ".join(source_keys),
+        "retrieved_source_categories": " | ".join(categories),
+        "retrieved_source_pages": " | ".join(pages),
+        "retrieved_sources_ranked": _clean_cell_text("\n".join(rows)),
+        "retrieved_sources_json": _clean_cell_text(json.dumps(sources, ensure_ascii=False, default=str)),
+        "top1_source_key": _source_key(top) if top else "",
+        "top1_source_category": _source_category(top) if top else "",
+        "top1_source_page": _source_page(top) if top else "",
+        "top1_source_snippet": _clean_cell_text(top.get("snippet", ""), max_chars=1000) if top else "",
+    }
+
 def call_system(system_name: str, url: str, question: str, run_mode: Optional[str], timeout_seconds: int) -> Dict[str, Any]:
     start = time.perf_counter()
     body: Dict[str, Any] = {
@@ -166,6 +264,8 @@ def call_system(system_name: str, url: str, question: str, run_mode: Optional[st
         used_tools = payload.get("used_tools", []) if isinstance(payload, dict) else []
         sources = payload.get("sources", []) if isinstance(payload, dict) else []
 
+        source_fields = summarize_sources_for_excel(sources)
+
         return {
             "system": system_name,
             "run_mode": run_mode or "",
@@ -177,6 +277,7 @@ def call_system(system_name: str, url: str, question: str, run_mode: Optional[st
             "answer_question_ms": get_measurement_ms(timing, "ask.answer_question") if isinstance(timing, dict) else None,
             "tool_used": ", ".join(used_tools) if isinstance(used_tools, list) else str(used_tools),
             "sources_count": len(sources) if isinstance(sources, list) else None,
+            **source_fields,
             "answer": answer,
             "error": None if 200 <= response.status_code < 300 else response_text[:1000],
         }
@@ -193,6 +294,15 @@ def call_system(system_name: str, url: str, question: str, run_mode: Optional[st
             "answer_question_ms": None,
             "tool_used": "",
             "sources_count": None,
+            "retrieved_source_keys": "",
+            "retrieved_source_categories": "",
+            "retrieved_source_pages": "",
+            "retrieved_sources_ranked": "",
+            "retrieved_sources_json": "",
+            "top1_source_key": "",
+            "top1_source_category": "",
+            "top1_source_page": "",
+            "top1_source_snippet": "",
             "answer": "",
             "error": str(exc),
         }
@@ -215,8 +325,10 @@ def format_sheet(ws) -> None:
     for col_idx in range(1, ws.max_column + 1):
         letter = get_column_letter(col_idx)
         header = str(ws.cell(row=1, column=col_idx).value or "").lower()
-        if header in {"question", "answer", "expected_answer", "error"}:
-            ws.column_dimensions[letter].width = 50
+        if header in {"question", "answer", "expected_answer", "error", "retrieved_sources_ranked", "retrieved_sources_json", "top1_source_snippet"}:
+            ws.column_dimensions[letter].width = 60
+        elif "source" in header:
+            ws.column_dimensions[letter].width = 35
         elif "time" in header or "ms" in header:
             ws.column_dimensions[letter].width = 18
         else:

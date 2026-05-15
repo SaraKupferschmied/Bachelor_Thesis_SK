@@ -63,6 +63,7 @@ export class StudyPlanPageComponent {
   readonly selectedCalendarEntry = signal<any | null>(null);
   readonly selectedOfferingDetail = signal<PlannerOfferingDetail | null>(null);
   readonly isLoadingOfferingDetail = signal(false);
+  readonly selectedInfoCourse = signal<PlannerCourseOffering | null>(null);
 
   readonly selectedProgramNames = computed(() =>
     this.programs()
@@ -114,6 +115,8 @@ export class StudyPlanPageComponent {
           course.code,
           course.offering_type ?? '',
           course.day_time_info ?? '',
+          course.description ?? '',
+          course.learning_goals ?? '',
           ...course.teaching_languages,
           ...programRefs.map((program) => program.program_name ?? '')
         ].some((value) => value.toLowerCase().includes(query));
@@ -241,6 +244,20 @@ export class StudyPlanPageComponent {
     if (ids.length > 0 && this.selectedSemesterId()) {
       this.loadCourses();
     }
+  }
+
+  openCourseInfo(course: PlannerCourseOffering, event?: Event): void {
+    event?.stopPropagation();
+    event?.preventDefault();
+    this.selectedInfoCourse.set(course);
+  }
+
+  closeCourseInfo(): void {
+    this.selectedInfoCourse.set(null);
+  }
+
+  hasCourseInfo(course: PlannerCourseOffering | null): boolean {
+    return !!(course?.learning_goals?.trim() || course?.description?.trim());
   }
 
   toggleCourse(offeringId: number): void {

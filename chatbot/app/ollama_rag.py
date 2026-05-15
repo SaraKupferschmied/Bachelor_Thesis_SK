@@ -414,6 +414,44 @@ def _enrich_query(
     return "\n".join(hints)
 
 
+
+
+def _query_source_intent(question: str) -> str:
+    q = (question or "").lower()
+    regulations_terms = [
+        "reglement", "regulation", "regulations", "ordnung", "article", "artikel",
+        "paragraph", "§", "admission requirements", "zulassung", "exam regulation",
+    ]
+    studyplan_terms = [
+        "course", "courses", "module", "modules", "semester", "study plan",
+        "curriculum", "kurs", "kurse", "modul", "studienplan", "pflichtfach",
+        "wahlfach", "recommended course", "obligatory course", "course code",
+    ]
+    base_terms = [
+        "how many ects", "how many credits", "contains", "comprise", "consist of",
+        "duration", "how long", "what is a bachelor", "what is a master",
+        "bachelor program", "bachelor programme", "master program", "master programme",
+        "study program", "study programme", "degree", "overview", "base data",
+    ]
+
+    if any(term in q for term in regulations_terms):
+        return "reglementations"
+    if any(term in q for term in studyplan_terms):
+        return "studyplans"
+    if any(term in q for term in base_terms):
+        return "base_data"
+    return "base_data"
+
+
+def _source_priority_score(intent: str, metadata: dict) -> float:
+    source = str(metadata.get("rag_source") or metadata.get("category") or "")
+    if intent == "base_data":
+        return {"base_data": 80.0, "reglementations": 25.0, "studyplans": 5.0}.get(source, 0.0)
+    if intent == "reglementations":
+        return {"reglementations": 80.0, "base_data": 25.0, "studyplans": 5.0}.get(source, 0.0)
+    return {"studyplans": 80.0, "base_data": 25.0, "reglementations": 10.0}.get(source, 0.0)
+
+
 def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Document], Dict[str, Any]]:
     degree = _detect_degree(question)
     ects = _detect_total_ects(question)
@@ -465,12 +503,14 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
             )
 
     q_tokens = _tokens(question)
+    source_intent = _query_source_intent(question)
+    debug_info["source_intent"] = source_intent
 
     def score_doc(doc: Document) -> float:
         md = doc.metadata or {}
         text = _normalize_text(doc.page_content + " " + json.dumps(md, ensure_ascii=False))
 
-        score = 0.0
+        score = _source_priority_score(source_intent, md)
 
         if program and _metadata_matches_program(md, program):
             score += 100.0
@@ -749,7 +789,7 @@ def answer_question(
     question: str,
     k: int | None = None,
     language: str | None = None,
-) -> Tuple[str, List[dict]]:
+) -> Tuple[str, List[dict], list]:
     final_k = k or settings.k
 
     with timed_step("rag.retrieve", k=final_k):
@@ -769,7 +809,7 @@ def answer_question(
             "es": "No encontré fuentes relevantes en los documentos para responder a la pregunta.",
         }
         code = _normalize_language_code(language) or "en"
-        return fallback_by_language.get(code, fallback_by_language["en"]), []
+        return fallback_by_language.get(code, fallback_by_language["en"]), [], []
 
     context_parts = []
 
@@ -826,7 +866,7 @@ def answer_question(
             }
         )
 
-    return resp.content, sources
+    return resp.content, sources, docs
 
 
 def debug_find_chunks_for_doc(

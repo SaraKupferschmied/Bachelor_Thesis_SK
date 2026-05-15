@@ -302,6 +302,7 @@ def get_study_program_plan(
     locale: str = "en",
     total_ects: Optional[int | float | str] = None,
     selected_elective_codes: Optional[list[str] | str] = None,
+    completed_course_codes: Optional[list[str] | str] = None,
 ) -> dict[str, Any]:
     params: dict[str, Any] = {
         "program_id": program_id,
@@ -311,10 +312,15 @@ def get_study_program_plan(
     if total_ects is not None:
         params["total_ects"] = total_ects
     if selected_elective_codes:
-        if isinstance(selected_elective_codes, str):
-            params["selected_elective_codes"] = selected_elective_codes
-        else:
+        if isinstance(selected_elective_codes, list):
             params["selected_elective_codes"] = ",".join(selected_elective_codes)
+        else:
+            params["selected_elective_codes"] = selected_elective_codes
+    if completed_course_codes:
+        if isinstance(completed_course_codes, list):
+            params["completed_course_codes"] = ",".join(completed_course_codes)
+        else:
+            params["completed_course_codes"] = completed_course_codes
     return _get("/planner/study-program-plan-proposal", params=params)
 
 
