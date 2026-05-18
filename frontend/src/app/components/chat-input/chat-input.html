@@ -1,10 +1,13 @@
 <form class="chat-input" (ngSubmit)="send()">
-  <input
-    type="text"
+  <textarea
+    #messageBox
     [(ngModel)]="message"
     name="message"
     [placeholder]="dictionary().messagePlaceholder"
-  />
+    rows="1"
+    (input)="autoResize(messageBox)"
+    (keydown.enter)="handleEnter($event, messageBox)"
+  ></textarea>
 
   <button type="submit" [attr.aria-label]="dictionary().sendLabel">➤</button>
 </form>
