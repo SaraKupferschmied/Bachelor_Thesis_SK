@@ -284,25 +284,31 @@ def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
 
     return str(result)
 
-def _select_rag_db(question: str, db_study=None, db_regl=None):
+def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
     q = question.lower()
 
     study_keywords = [
         "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
         "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
-        "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
+        "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach", 
     ]
 
     regl_keywords = [
         "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
     ]
 
-    if any(k in q for k in study_keywords):
-        return db_study or db_regl
-    if any(k in q for k in regl_keywords):
-        return db_regl or db_study
-    return db_study or db_regl
+    base_keywords = [
+        "datetime", "time", "teacher", "lecturer", "room",
+        "metadata", "course content", "description", "day_time_info"
+    ]
 
+    if any(k in q for k in study_keywords):
+        return db_study or db_base or db_regl
+    if any(k in q for k in regl_keywords):
+        return db_regl or db_study or db_base
+    if any(k in q for k in base_keywords):
+        return db_base or db_study or db_regl
+    return db_base or db_study or db_regl
 
 def _extract_semester_count(text: str) -> int | None:
     # Important: do NOT treat every standalone number as a duration. Replies
@@ -1747,7 +1753,7 @@ def answer_question(
     should_run_rag = mode in ("rag", "hybrid") or (mode == "tool" and not tool_mode_found_anything)
 
     if should_run_rag:
-        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl)
+        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl, db_base=None)
 
         if db is not None:
             with timed_step("rag.total"):

@@ -480,15 +480,20 @@
   transform: translateY(-1px);
 }
 
-.info-btn--suggestion {
-  position: static;
-  flex: none;
-  margin-right: 2px;
-}
-
 .suggestion-card {
   position: relative;
+  padding-right: 54px;
 }
+
+.info-btn--suggestion {
+  top: 14px;
+  right: 14px;
+}
+
+.suggestion-card > div:first-of-type {
+  min-width: 0;
+}
+
 
 .course-info-modal {
   width: min(760px, 100%);

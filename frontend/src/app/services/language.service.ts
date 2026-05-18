@@ -65,7 +65,7 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
       {
         icon: '✈',
         title: 'Auslandsaufenthalt',
-        description: 'Plane dein Auslandssemester oder -jahr',
+        description: 'Plane dein Mobilitätssemester oder -jahr an der UniFr',
         borderColor: '#99f6e4'
       }
     ],
@@ -124,7 +124,7 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
       {
         icon: '✈',
         title: 'Séjour à l’étranger',
-        description: 'Planifie ton semestre ou ton année à l’étranger',
+        description: 'Planifie ton semestre ou ton année de mobilité à l’UniFr',
         borderColor: '#99f6e4'
       }
     ],
@@ -183,7 +183,7 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
       {
         icon: '✈',
         title: 'Study abroad',
-        description: 'Plan your semester or year abroad',
+        description: 'Plan your mobility semester or year at UniFr',
         borderColor: '#99f6e4'
       }
     ],

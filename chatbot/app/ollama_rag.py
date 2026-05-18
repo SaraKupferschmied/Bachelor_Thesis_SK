@@ -243,6 +243,15 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
     return catalog
 
 
+
+def _extract_course_code(question: str) -> str | None:
+    match = re.search(
+        r"\b(?:UE-[A-Z0-9]+(?:-[A-Z0-9]+)*\.\d{3,6}|[A-Z]{2,4}-[A-Z]\d{2}\.\d{5}|[A-Z]{2,4}\.?\d{3,6})\b",
+        question or "",
+        flags=re.IGNORECASE,
+    )
+    return match.group(0).replace(" ", "").upper() if match else None
+
 def _detect_degree(question: str) -> str | None:
     q = _normalize_text(question)
     for degree, aliases in _DEGREE_ALIASES.items():
@@ -420,26 +429,37 @@ def _query_source_intent(question: str) -> str:
     q = (question or "").lower()
     regulations_terms = [
         "reglement", "regulation", "regulations", "ordnung", "article", "artikel",
-        "paragraph", "§", "admission requirements", "zulassung", "exam regulation",
+        "paragraph", "§", "admission requirements", "zulassung", "exam regulation", 
+        "reglementation", "reglementations", "rules",
     ]
     studyplan_terms = [
         "course", "courses", "module", "modules", "semester", "study plan",
         "curriculum", "kurs", "kurse", "modul", "studienplan", "pflichtfach",
         "wahlfach", "recommended course", "obligatory course", "course code",
+
+        # programme-specific descriptive questions
+        "profile", "skills", "competences", "competencies", "learned",
+        "learning outcomes", "structure", "structured",
+        "management", "mathematics", "teacher training",
     ]
     base_terms = [
         "how many ects", "how many credits", "contains", "comprise", "consist of",
         "duration", "how long", "what is a bachelor", "what is a master",
         "bachelor program", "bachelor programme", "master program", "master programme",
         "study program", "study programme", "degree", "overview", "base data",
+        "which bachelor programs", "programs have",
     ]
 
+    # Exact structured catalogue questions should prefer base_data/API-derived chunks.
+    # Study-plan PDFs remain useful fallback context, but should not monopolize retrieval.
+    if _extract_course_code(question):
+        return "base_data"
     if any(term in q for term in regulations_terms):
         return "reglementations"
-    if any(term in q for term in studyplan_terms):
-        return "studyplans"
     if any(term in q for term in base_terms):
         return "base_data"
+    if any(term in q for term in studyplan_terms):
+        return "studyplans"
     return "base_data"
 
 
@@ -479,8 +499,11 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
     debug_info["candidate_count_after_program_degree_ects"] = len(candidates)
 
     if program and not candidates:
-        debug_info["error"] = "Programme was detected, but no FAISS documents matched its metadata."
-        return [], debug_info
+        debug_info["program_filter_warning"] = (
+            "Programme was detected, but no FAISS documents matched its metadata. "
+            "Falling back to global vector retrieval."
+        )
+        program = None
 
     if not program:
         enriched_query = _enrich_query(question, program, degree, ects, year)
@@ -605,12 +628,15 @@ def _retrieve_metadata_and_language_aware(
 
     requested_language = _normalize_language_code(language)
 
-    queries: list[tuple[str, str | None]] = [(question, requested_language)]
+    queries: list[tuple[str, str | None]] = [(question, None)]
 
-    for code in _available_language_codes(db):
-        translated = _translate_query(question, code, llm)
-        if translated and translated.lower().strip() != question.lower().strip():
-            queries.append((translated, code))
+    # Translation multiplied retrieval latency in evaluation. With multilingual embeddings,
+    # keep it opt-in and skip it for exact course-code lookups where translation cannot help.
+    if settings.enable_query_translation and not _extract_course_code(question):
+        for code in _available_language_codes(db):
+            translated = _translate_query(question, code, llm)
+            if translated and translated.lower().strip() != question.lower().strip():
+                queries.append((translated, code))
 
     merged: list[Document] = []
     seen: set[str] = set()

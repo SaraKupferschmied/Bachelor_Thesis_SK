@@ -193,3 +193,11 @@ scrapy crawl unifr_life_in_fribourg -O spider_outputs/base_info/unifr_life_in_fr
 
 
 python chatbot/app/create_base_faiss_vectorstore.py
+
+
+python run_rag_retrieval_eval.py --input thesis_chatbot_evaluation_template.xlsx --output rag_retrieval_eval_results.xlsx --base-url http://localhost:8000 --limit 15
+
+
+python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results.xlsx --base-url http://localhost:8000 
+
+python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new.xlsx --base-url http://localhost:8000 

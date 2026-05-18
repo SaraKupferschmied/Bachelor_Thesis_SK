@@ -47,6 +47,9 @@ class Settings(BaseModel):
     rag_parser: str = os.getenv("RAG_PARSER", "default")
     vectorstore_variant: str = os.getenv("VECTORSTORE_VARIANT", "")
     k: int = int(os.getenv("RETRIEVAL_K", "8"))
+    # Query translation is expensive and often unnecessary with multilingual embeddings.
+    enable_query_translation: bool = os.getenv("ENABLE_QUERY_TRANSLATION", "0").lower() in {"1", "true", "yes", "on"}
+    exact_code_boost: float = float(os.getenv("EXACT_CODE_BOOST", "250"))
     backend_api_base: str = os.getenv("BACKEND_API_BASE", "http://localhost:3000")
 
     @property

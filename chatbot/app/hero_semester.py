@@ -17,8 +17,7 @@ def start_plan_semester_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
             "Sure — which semester would you like to plan?\n\n"
             "Please tell me:\n"
             "1. the semester, for example **FS-2026** or **HS-2026**\n"
-            "2. your study program or direction\n"
-            "3. which study semester you are currently in, for example **Bachelor semester 4**"
+            "2. your study program or direction"
         ),
         "sources": [],
         "used_tools": [],

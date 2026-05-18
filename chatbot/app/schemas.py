@@ -3,13 +3,15 @@ from typing import List, Optional, Dict, Any, Literal
 
 LanguageCode = Literal["de", "en", "fr"]
 RunMode = Literal["auto", "rag", "tool", "hybrid"]
+RagSource = Literal["auto", "studyplans", "reglementations", "base_data"]
 
 class AskRequest(BaseModel):
     question: str
     language: Optional[LanguageCode] = None
     run_mode: Optional[RunMode] = "auto"
+    rag_source: Optional[RagSource] = "auto"
     session_id: Optional[str] = None
-
+    
 class SourceSnippet(BaseModel):
     source: str
     page: Optional[int] = None

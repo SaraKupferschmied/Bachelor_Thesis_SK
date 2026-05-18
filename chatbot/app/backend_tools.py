@@ -337,7 +337,7 @@ def get_mobility_courses(
 
         for search_fn in [
             lambda: get_program_courses_by_metadata(
-                program_name=interest,
+                program_en=interest,
                 degree_level="Bachelor",
                 semester=sem,
                 mobility=True,
