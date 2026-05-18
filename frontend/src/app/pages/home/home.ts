@@ -163,6 +163,71 @@ export class HomeComponent {
       });
   }
 
+  formatMessage(text: string): string {
+    const escapeHtml = (value: string): string =>
+      value
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+    const formatInline = (value: string): string =>
+      escapeHtml(value).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    const lines = text.split('\n');
+    let html = '';
+    let inList = false;
+    let inSubList = false;
+
+    for (const line of lines) {
+      const trimmed = line.trim();
+
+      if (!trimmed) {
+        continue;
+      }
+
+      if (line.startsWith('  - ')) {
+        if (!inSubList) {
+          html += '<ul>';
+          inSubList = true;
+        }
+
+        html += `<li>${formatInline(trimmed.slice(2))}</li>`;
+        continue;
+      }
+
+      if (line.startsWith('- ')) {
+        if (inSubList) {
+          html += '</ul>';
+          inSubList = false;
+        }
+
+        if (!inList) {
+          html += '<ul>';
+          inList = true;
+        }
+
+        html += `<li>${formatInline(trimmed.slice(2))}</li>`;
+        continue;
+      }
+
+      if (inSubList) {
+        html += '</ul>';
+        inSubList = false;
+      }
+
+      if (inList) {
+        html += '</ul>';
+        inList = false;
+      }
+
+      html += `<p>${formatInline(trimmed)}</p>`;
+    }
+
+    if (inSubList) html += '</ul>';
+    if (inList) html += '</ul>';
+
+    return html;
+  }
 
   openStudyProgramDialog(): void {
     // Use the same chat-driven flow as semester planning. This avoids the

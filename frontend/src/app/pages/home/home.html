@@ -90,9 +90,10 @@
               {{ message.role === 'user' ? 'You' : 'Chatbot' }}
             </div>
 
-            <div class="chat-bubble__text">
-              {{ message.text }}
-            </div>
+            <div
+              class="chat-bubble__text"
+              [innerHTML]="formatMessage(message.text)"
+            ></div>
 
             @if (message.sources?.length) {
               <div class="chat-bubble__sources">

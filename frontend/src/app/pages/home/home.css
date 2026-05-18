@@ -208,6 +208,25 @@
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
 }
 
+.chat-bubble__text {
+  white-space: normal;
+  line-height: 1.45;
+}
+
+.chat-bubble__text ul {
+  margin: 8px 0;
+  padding-left: 22px;
+}
+
+.chat-bubble__text li {
+  margin: 4px 0;
+}
+
+.chat-bubble__text li ul {
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
 .chat-bubble--user {
   align-self: flex-end;
   background: #ede9fe;
