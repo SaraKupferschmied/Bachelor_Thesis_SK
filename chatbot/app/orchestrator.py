@@ -290,7 +290,7 @@ def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
     study_keywords = [
         "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
         "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
-        "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach", 
+        "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
     ]
 
     regl_keywords = [
@@ -308,6 +308,7 @@ def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
         return db_regl or db_study or db_base
     if any(k in q for k in base_keywords):
         return db_base or db_study or db_regl
+
     return db_base or db_study or db_regl
 
 def _extract_semester_count(text: str) -> int | None:
@@ -1023,6 +1024,7 @@ def answer_question(
     question: str,
     db_study=None,
     db_regl=None,
+    db_base=None,
     language: str | None = None,
     session_state: Dict[str, Any] | None = None,
     run_mode: str | None = None,
@@ -1753,15 +1755,26 @@ def answer_question(
     should_run_rag = mode in ("rag", "hybrid") or (mode == "tool" and not tool_mode_found_anything)
 
     if should_run_rag:
-        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl, db_base=None)
+        # Do not hard-route RAG to a single vectorstore.  Pass all loaded stores
+        # to the RAG layer; it will retrieve with intent-weighted quotas
+        # (for example 10/5/3) and rerank the merged candidates.
+        db = {
+            name: store
+            for name, store in {
+                "studyplans": db_study,
+                "reglementations": db_regl,
+                "base_data": db_base,
+            }.items()
+            if store is not None
+        }
 
-        if db is not None:
+        if db:
             with timed_step("rag.total"):
                 rag_text, rag_sources, rag_documents = rag_answer(
-                db=db,
-                question=question,
-                language=language,
-            )
+                    db=db,
+                    question=question,
+                    language=language,
+                )
             sources.extend(rag_sources)
             documents.extend(rag_documents)
 

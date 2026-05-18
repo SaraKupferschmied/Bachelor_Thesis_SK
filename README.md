@@ -200,4 +200,4 @@ python run_rag_retrieval_eval.py --input thesis_chatbot_evaluation_template.xlsx
 
 python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results.xlsx --base-url http://localhost:8000 
 
-python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new.xlsx --base-url http://localhost:8000 
+python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new6.xlsx --base-url http://localhost:8000 
