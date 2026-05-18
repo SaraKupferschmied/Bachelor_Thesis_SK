@@ -20,6 +20,7 @@ def _post(path: str, json_body: dict[str, Any]) -> Any:
 # ------------------------
 
 def get_courses(
+    q: Optional[str] = None,
     ects: Optional[int | float | str] = None,
     faculty_id: Optional[int | str] = None,
     faculty_name: Optional[str] = None,
@@ -36,6 +37,8 @@ def get_courses(
 ) -> list[dict[str, Any]]:
     params: dict[str, Any] = {}
 
+    if q:
+        params["q"] = q
     if ects is not None:
         params["ects"] = ects
     if faculty_id is not None:
@@ -154,6 +157,7 @@ def get_program_courses(
     return _get(f"/programs/{program_id}/courses", params=params)
 
 def get_program_courses_by_metadata(
+    q: Optional[str] = None,
     program_en: Optional[str] = None,
     program_de: Optional[str] = None,
     program_fr: Optional[str] = None,
@@ -177,6 +181,8 @@ def get_program_courses_by_metadata(
 ) -> list[dict[str, Any]]:
     params: dict[str, Any] = {}
 
+    if q:
+        params["q"] = q
     if program_en:
         params["program_en"] = program_en
     if program_de:
@@ -324,57 +330,86 @@ def get_study_program_plan(
     return _get("/planner/study-program-plan-proposal", params=params)
 
 
+def _dedupe_course_rows(rows: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+    deduped: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    for row in rows:
+        key = str(row.get("code") or row.get("course_code") or row.get("name") or row)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(row)
+        if len(deduped) >= limit:
+            break
+
+    return deduped
+
+
 def get_mobility_courses(
     semesters: list[str],
     interest: str,
     language: Optional[str] = None,
-    limit_per_semester: int = 30,
+    limit_per_semester: int = 50,
 ) -> dict[str, Any]:
+    """Find mobility course candidates for one or two exchange semesters.
+
+    The interest is intentionally treated as a broad search query, not only as a
+    study-program name. Backend /programs/courses?q=... searches program names,
+    course titles, course descriptions, program-course descriptions and domains.
+    """
+    cleaned_interest = " ".join(str(interest or "").split())
     by_semester: dict[str, list[dict[str, Any]]] = {}
 
     for sem in semesters[:2]:
-        matches = []
+        candidates: list[dict[str, Any]] = []
 
-        for search_fn in [
+        # First: preferred mobility-enabled courses matching the broad query.
+        search_attempts = [
             lambda: get_program_courses_by_metadata(
-                program_en=interest,
+                q=cleaned_interest,
                 degree_level="Bachelor",
                 semester=sem,
                 mobility=True,
                 language=language,
                 limit=limit_per_semester,
             ),
-            lambda: get_courses(
-                domain_name=interest,
+            # Fallback: same broad match without degree restriction.
+            lambda: get_program_courses_by_metadata(
+                q=cleaned_interest,
+                semester=sem,
                 mobility=True,
+                language=language,
+                limit=limit_per_semester,
+            ),
+            # Fallback: if the mobility flag is incomplete in the data, still show
+            # relevant semester courses and let the output metadata reveal flags.
+            lambda: get_program_courses_by_metadata(
+                q=cleaned_interest,
+                degree_level="Bachelor",
                 semester=sem,
                 language=language,
                 limit=limit_per_semester,
             ),
-            lambda: get_courses(
-                name_contains=interest,
-                mobility=True,
-                semester=sem,
-                language=language,
-                limit=limit_per_semester,
-            ),
-        ]:
+        ]
+
+        for search_fn in search_attempts:
             rows = search_fn()
-
             for row in rows:
-                row = dict(row)
-                row["requested_semester"] = sem
-                row["matched_by"] = "mobility_search"
-                matches.append(row)
+                item = dict(row)
+                item["requested_semester"] = sem
+                item["matched_by"] = "mobility_interest_query"
+                candidates.append(item)
 
-            if len(matches) >= 8:
+            candidates = _dedupe_course_rows(candidates, limit_per_semester)
+            if len(candidates) >= 50:
                 break
 
-        by_semester[sem] = matches
+        by_semester[sem] = candidates
 
     return {
         "semesters": semesters[:2],
-        "interest": interest,
+        "interest": cleaned_interest,
         "courses_by_semester": by_semester,
     }
 

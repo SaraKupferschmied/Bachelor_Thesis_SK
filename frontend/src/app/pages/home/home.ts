@@ -22,11 +22,6 @@ type StudyProgramPlannerForm = {
   semesters: number | null;
 };
 
-type MobilityPlannerForm = {
-  semesters: string;
-  interest: string;
-};
-
 const PLAN_MOBILITY_HERO_MESSAGE = '__hero__:plan_mobility';
 
 const PLAN_STUDY_PROGRAM_HERO_MESSAGE = '__hero__:plan_study_program';
@@ -185,6 +180,21 @@ export class HomeComponent {
         continue;
       }
 
+      if (trimmed.startsWith('## ')) {
+        if (inSubList) {
+          html += '</ul>';
+          inSubList = false;
+        }
+
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+
+        html += `<h2>${formatInline(trimmed.slice(3))}</h2>`;
+        continue;
+      }
+
       if (line.startsWith('  - ')) {
         if (!inSubList) {
           html += '<ul>';
@@ -314,81 +324,6 @@ export class HomeComponent {
     return `Please create a complete study plan for ${studyProgram} in ${semesters} semesters.`;
   }
 
-  isMobilityDialogOpen = false;
-
-  mobilityForm: MobilityPlannerForm = {
-    semesters: '',
-    interest: ''
-  };
-
-  openMobilityDialog(): void {
-    this.errorMessage = '';
-    this.closeSidebar();
-    this.isMobilityDialogOpen = true;
-  }
-
-  closeMobilityDialog(): void {
-    if (this.isloading) return;
-    this.isMobilityDialogOpen = false;
-  }
-
-  submitMobilityDialog(): void {
-    const semesters = this.mobilityForm.semesters.trim();
-    const interest = this.mobilityForm.interest.trim();
-
-    if (!semesters || !interest) {
-      this.errorMessage = 'Please enter your exchange semester(s) and course interest.';
-      return;
-    }
-
-    const language = this.currentLanguage();
-
-    const visibleUserMessage =
-      `Please help me plan my exchange semester(s): ${semesters}. ` +
-      `I am interested in courses related to ${interest}.`;
-
-    // Important: keep this clean for the chatbot parser.
-    const detailsMessage = `${semesters} ${interest}`;
-
-    this.errorMessage = '';
-    this.isloading = true;
-    this.isMobilityDialogOpen = false;
-    this.closeSidebar();
-
-    this.messages.push({
-      role: 'user',
-      text: visibleUserMessage
-    });
-
-    this.chatService.ask(PLAN_MOBILITY_HERO_MESSAGE, language)
-      .pipe(
-        switchMap(() => this.chatService.ask(detailsMessage, language)),
-        finalize(() => {
-          this.isloading = false;
-          this.cdr.detectChanges();
-        })
-      )
-      .subscribe({
-        next: (res: AskResponse) => {
-          this.messages.push({
-            role: 'assistant',
-            text: res.answer,
-            sources: res.sources,
-            usedTools: res.used_tools
-          });
-          this.cdr.detectChanges();
-        },
-        error: () => {
-          this.errorMessage = 'The mobility planning request failed.';
-          this.messages.push({
-            role: 'assistant',
-            text: 'Sorry, I could not create the mobility plan right now.'
-          });
-          this.cdr.detectChanges();
-        }
-      });
-  }
-
   onHeroOptionClick(title: string): void {
     const normalizedTitle = title.toLowerCase();
 
@@ -419,7 +354,7 @@ export class HomeComponent {
       normalizedTitle.includes('study abroad') ||
       normalizedTitle.includes('séjour à l’étranger')
     ) {
-      this.openMobilityDialog();
+      this.onSendMessage(PLAN_MOBILITY_HERO_MESSAGE);
       return;
     }
 

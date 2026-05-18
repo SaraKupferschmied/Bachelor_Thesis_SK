@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { query } from "../db.js";
 
 type CoursesQuery = {
+  q?: string;
   code?: string;
   mobility?: string | boolean;
   soft_skills?: string | boolean;
@@ -110,6 +111,10 @@ export async function coursesRoutes(app: FastifyInstance) {
         querystring: {
           type: "object",
           properties: {
+            q: {
+              type: "string",
+              description: "Broad text search across course title, course description, program-course title/description, domain, and study program names",
+            },
             code: {
               type: "string",
               description:
@@ -179,6 +184,7 @@ export async function coursesRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
+        q,
         code,
         mobility,
         soft_skills,
@@ -272,6 +278,19 @@ export async function coursesRoutes(app: FastifyInstance) {
                 AND l.description ILIKE $14
             )
           )
+          AND (
+            $17::text IS NULL
+            OR c.name ILIKE $17
+            OR c.description ILIKE $17
+            OR c.learning_goals ILIKE $17
+            OR co.course_name ILIKE $17
+            OR co.description ILIKE $17
+            OR d.name ILIKE $17
+            OR p.name ILIKE $17
+            OR p.name_en ILIKE $17
+            OR p.name_de ILIKE $17
+            OR p.name_fr ILIKE $17
+          )
         ORDER BY c.code
         LIMIT COALESCE($15::int, 50)
         `,
@@ -292,6 +311,7 @@ export async function coursesRoutes(app: FastifyInstance) {
           language ? `%${String(language).trim()}%` : null,
           toInt(limit) ?? 50,
           ectsFilter.operator,
+          q ? `%${String(q).trim()}%` : null,
         ]
       );
     }

@@ -964,20 +964,35 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
 
 
 def format_mobility_plan(result: Dict[str, Any]) -> str:
-    lines = [f"Here are mobility-enabled course candidates for **{result['interest']}**."]
+    lines = [
+        f"Here are mobility-enabled course candidates for **{result['interest']}**."
+    ]
 
     for sem in result["semesters"]:
         lines.append(f"\n## {sem}")
+
         courses = result["courses_by_semester"].get(sem, [])
+
+        total_courses = len(courses)
+        shown_courses = min(total_courses, 25)
 
         if not courses:
             lines.append("- No matching mobility courses found.")
             continue
 
-        for c in courses[:12]:
+        lines.append(
+            f"Showing {shown_courses} of {total_courses} matching courses. "
+            f'Ask "show more" to see additional results.'
+        )
+
+        lines.append("")
+
+        for c in courses[:25]:
             details = [c.get("code")]
+
             if c.get("ects") is not None:
                 details.append(f"{c['ects']} ECTS")
+
             if c.get("domain_name"):
                 details.append(c["domain_name"])
 
@@ -987,7 +1002,9 @@ def format_mobility_plan(result: Dict[str, Any]) -> str:
             )
 
             if c.get("description"):
-                lines.append(f"  - Content: {str(c['description'])[:180]}...")
+                lines.append(
+                    f"  - Content: {str(c['description'])[:180]}..."
+                )
 
     return "\n".join(lines)
 
@@ -1548,8 +1565,27 @@ def answer_question(
         }
 
     if flow and flow.get("name") == "plan_mobility":
-        semesters = _extract_semester_ids(question)
-        interest = _strip_semesters(question)
+        # Slot-fill the mobility flow across turns. The previous implementation
+        # only parsed the *current* message, so after `HS-2026` the next message
+        # `Sports` lost the semester and the bot asked for it again.
+        stored_semesters = flow.get("semesters") or []
+        if isinstance(stored_semesters, str):
+            stored_semesters = [stored_semesters]
+
+        found_semesters = _extract_semester_ids(question)
+        semesters = list(dict.fromkeys([*stored_semesters, *found_semesters]))[:2]
+
+        raw_interest = _strip_semesters(question)
+        # If this turn only contained a semester, keep the previous interest.
+        # If this turn contains normal text, treat it as the missing/updated
+        # interest. This supports both `HS-2026` -> `Sports` and
+        # `HS-2026, Sports` in one message.
+        interest = raw_interest or flow.get("interest")
+
+        if semesters:
+            session_state["hero_flow"]["semesters"] = semesters
+        if interest:
+            session_state["hero_flow"]["interest"] = interest
 
         if not semesters:
             return {

@@ -15,6 +15,7 @@ type ProgramsListQuery = {
 };
 
 type ProgramCoursesQuery = {
+  q?: string;
   program_en?: string;
   program_de?: string;
   program_fr?: string;
@@ -300,6 +301,10 @@ export async function programsRoutes(app: FastifyInstance) {
             language: { type: "string" },
             semester: { type: "string" },
             name_contains: { type: "string" },
+            q: {
+              type: "string",
+              description: "Broad text search across study program names, course title, course description, program-course title/description, and domain",
+            },
             mobility: { type: "boolean" },
             soft_skills: { type: "boolean" },
             section_contains: {
@@ -313,6 +318,7 @@ export async function programsRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
+        q,
         program_en,
         program_de,
         program_fr,
@@ -466,6 +472,19 @@ export async function programsRoutes(app: FastifyInstance) {
             )
           )
           AND ($22::text IS NULL OR co.description ILIKE $22)
+          AND (
+            $24::text IS NULL
+            OR p.name ILIKE $24
+            OR p.name_en ILIKE $24
+            OR p.name_de ILIKE $24
+            OR p.name_fr ILIKE $24
+            OR c.name ILIKE $24
+            OR c.description ILIKE $24
+            OR c.learning_goals ILIKE $24
+            OR co.course_name ILIKE $24
+            OR co.description ILIKE $24
+            OR d.name ILIKE $24
+          )
         ORDER BY program_sort_name, p.degree_level, p.total_ects, co.description NULLS LAST, c.code
         LIMIT COALESCE($23::int, 100)
         `,
@@ -494,6 +513,7 @@ export async function programsRoutes(app: FastifyInstance) {
           language ? `%${String(language).trim()}%` : null,
           section_contains ? `%${String(section_contains).trim()}%` : null,
           toInt(limit) ?? 100,
+          q ? `%${String(q).trim()}%` : null,
         ]
       );
     }
