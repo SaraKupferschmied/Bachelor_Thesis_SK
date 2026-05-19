@@ -568,7 +568,7 @@ def main() -> None:
     parser.add_argument("--base-url", default="http://localhost:8000", help="FastAPI base URL")
     parser.add_argument("--limit", type=int, default=15, help="Maximum number of questions to run")
     parser.add_argument("--start-row", type=int, default=None, help="Excel row to start at")
-    parser.add_argument("--timeout", type=int, default=240, help="Timeout per /ask request in seconds")
+    parser.add_argument("--timeout", type=int, default=2400, help="Timeout per /ask request in seconds")
     parser.add_argument("--include-all", action="store_true", help="Select from all questions instead of RAG-focused rows")
     parser.add_argument("--ids", nargs="*", default=None, help="Optional question ids to run, e.g. --ids 4 5 12")
     parser.add_argument("--run-mode", choices=["auto", "rag", "tool", "hybrid"], default="rag", help="AskRequest run_mode")

@@ -481,6 +481,29 @@ def _extract_completed_course_codes(question: str, candidates: list[dict[str, An
     return _extract_selected_elective_codes(question, candidates)
 
 
+def _completed_courses_note(completed_codes: list[str], candidates: list[dict[str, Any]] | None = None) -> str:
+    if not completed_codes:
+        return ""
+
+    candidate_by_code = {
+        str(course.get("code") or "").upper(): course
+        for course in (candidates or [])
+        if course.get("code")
+    }
+
+    lines = [
+        "Already completed courses are kept out of the new proposal:",
+    ]
+
+    for code in completed_codes:
+        course = candidate_by_code.get(str(code).upper())
+        if course:
+            lines.append(f"- {_course_label_for_plan(course)}")
+        else:
+            lines.append(f"- {code}")
+
+    return "\n".join(lines)
+
 
 def overlaps(a_start, a_end, b_start, b_end) -> bool:
     return a_start < b_end and b_start < a_end
@@ -531,6 +554,15 @@ def _blocks_overlap(a: dict[str, Any], b: dict[str, Any]) -> bool:
     )
 
 
+def _block_key(block: dict[str, Any]) -> tuple[str, str, int, int]:
+    return (
+        str(block.get("code") or block.get("course") or ""),
+        str(block.get("day") or ""),
+        int(block.get("start") or 0),
+        int(block.get("end") or 0),
+    )
+
+
 def _group_conflicting_blocks(blocks: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
     groups: list[list[dict[str, Any]]] = []
 
@@ -541,17 +573,18 @@ def _group_conflicting_blocks(blocks: list[dict[str, Any]]) -> list[list[dict[st
             if all(_blocks_overlap(other, existing) for existing in group):
                 group.append(other)
 
-        if len(group) > 1:
+        # Duplicated rows for the same course/offering are not conflicts.
+        if len({_block_key(block) for block in group}) > 1 and len({block.get("code") for block in group}) > 1:
             groups.append(group)
 
     # Remove duplicate/smaller groups.
     unique: list[list[dict[str, Any]]] = []
-    seen: set[tuple[str, ...]] = set()
+    seen: set[tuple[tuple[str, str, int, int], ...]] = set()
 
     groups.sort(key=len, reverse=True)
 
     for group in groups:
-        key = tuple(sorted(str(b.get("code")) + str(b.get("start")) + str(b.get("end")) for b in group))
+        key = tuple(sorted(_block_key(block) for block in group))
         if key in seen:
             continue
 
@@ -559,10 +592,7 @@ def _group_conflicting_blocks(blocks: list[dict[str, Any]]) -> list[list[dict[st
         is_subset = False
 
         for existing in unique:
-            existing_key = set(
-                str(b.get("code")) + str(b.get("start")) + str(b.get("end"))
-                for b in existing
-            )
+            existing_key = {_block_key(block) for block in existing}
             if group_keys.issubset(existing_key):
                 is_subset = True
                 break
@@ -575,17 +605,28 @@ def _group_conflicting_blocks(blocks: list[dict[str, Any]]) -> list[list[dict[st
 
 def _detect_course_conflicts(courses: list[Dict[str, Any]]) -> list[str]:
     blocks: list[dict[str, Any]] = []
+    seen_blocks: set[tuple[str, str, int, int]] = set()
 
     for course in courses:
-        blocks.extend(_extract_time_blocks(course))
+        for block in _extract_time_blocks(course):
+            key = _block_key(block)
+            if key in seen_blocks:
+                continue
+            seen_blocks.add(key)
+            blocks.append(block)
 
     blocks.sort(key=lambda b: (b["day"], b["start"], b["end"], b["course"]))
 
     groups = _group_conflicting_blocks(blocks)
 
     conflicts: list[str] = []
+    seen_conflicts: set[str] = set()
 
     for group in groups:
+        unique_codes = {b.get("code") for b in group}
+        if len(unique_codes) < 2:
+            continue
+
         start = min(b["start"] for b in group)
         end = max(b["end"] for b in group)
         day = group[0]["day"].capitalize()
@@ -604,7 +645,10 @@ def _detect_course_conflicts(courses: list[Dict[str, Any]]) -> list[str]:
             block_end = _format_minutes(b["end"])
             course_parts.append(f"{b['course']} ({block_start}-{block_end})")
 
-        conflicts.append(f"- {label}: " + "; ".join(course_parts))
+        line = f"- {label}: " + "; ".join(course_parts)
+        if line not in seen_conflicts:
+            seen_conflicts.add(line)
+            conflicts.append(line)
 
     return conflicts
 
@@ -916,7 +960,7 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
             number = slot.get("semester_number") or slot.get("index") or "?"
             sem_type = slot.get("semester_type") or slot.get("type") or "semester"
             planned = slot.get("planned_ects")
-            header = f"\n### Semester {number} ({sem_type})"
+            header = f"\n## Semester {number} ({sem_type})"
             if planned is not None:
                 header += f" — {_fmt_ects(planned)}"
             lines.append(header)
@@ -950,6 +994,41 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
                         lines.append(f"- Elective: {_course_label_for_plan(options[0])}")
                 elif isinstance(group, dict):
                     lines.append(f"- Elective: {_course_label_for_plan(group)}")
+
+    if selected_codes:
+        elective_courses_by_code = {
+            _normalize_course_code(str(course.get("code") or "")): course
+            for course in (result.get("elective_courses") or [])
+            if course.get("code")
+        }
+        selected_elective_courses = [
+            elective_courses_by_code.get(_normalize_course_code(str(code)))
+            for code in selected_codes
+        ]
+        selected_elective_courses = [course for course in selected_elective_courses if course]
+
+        placed_selected_codes: set[str] = set()
+        for slot in plan_slots:
+            for group in slot.get("electives") or []:
+                if isinstance(group, dict):
+                    options = group.get("options") or [group]
+                    for option in options:
+                        code = option.get("code") if isinstance(option, dict) else None
+                        if code:
+                            placed_selected_codes.add(_normalize_course_code(str(code)))
+
+        unplaced_selected = [
+            course for course in selected_elective_courses
+            if _normalize_course_code(str(course.get("code") or "")) not in placed_selected_codes
+        ]
+
+        if selected_elective_courses:
+            lines.append("\n## Selected elective courses")
+            for course in selected_elective_courses:
+                lines.append(f"- {_course_label_for_plan(course)}")
+
+        if unplaced_selected:
+            lines.append("\nNote: These selected electives could not be placed into a semester slot by the backend planner yet, but they were recognized as your choices.")
 
     elective_courses = result.get("elective_courses") or []
     if elective_courses and not selected_codes:
@@ -1279,20 +1358,22 @@ def answer_question(
                 flow.get("elective_candidates") or [],
             )
             if not selected_codes:
-                return {
-                    "answer": (
-                        "I am still waiting for your elective choices. "
-                        "Please answer with elective course codes such as `UE-SIN.01022`, "
-                        "or copy the elective course names from the list."
-                    ),
-                    "sources": [],
-                    "used_tools": [],
-                    "session_state": session_state,
-                    "plan": {"mode": "hero"},
-                    "planning_errors": None,
-                }
-            previous_selected = flow.get("selected_elective_codes") or []
-            planner_args["selected_elective_codes"] = list(dict.fromkeys([*previous_selected, *selected_codes]))
+                if not completed_codes:
+                    return {
+                        "answer": (
+                            "I am still waiting for your elective choices. "
+                            "Please answer with elective course codes such as `UE-SIN.01022`, "
+                            "or copy the elective course names from the list."
+                        ),
+                        "sources": [],
+                        "used_tools": [],
+                        "session_state": session_state,
+                        "plan": {"mode": "hero"},
+                        "planning_errors": None,
+                    }
+            else:
+                previous_selected = flow.get("selected_elective_codes") or []
+                planner_args["selected_elective_codes"] = list(dict.fromkeys([*previous_selected, *selected_codes]))
         elif flow.get("selected_elective_codes"):
             planner_args["selected_elective_codes"] = flow.get("selected_elective_codes")
 
@@ -1303,6 +1384,13 @@ def answer_question(
 
         with timed_step("answer.format_study_program_plan"):
             answer = format_study_program_plan(planner_result)
+
+        completed_note = _completed_courses_note(
+            completed_codes,
+            flow.get("course_candidates") or flow.get("elective_candidates") or [],
+        )
+        if completed_note:
+            answer = f"{completed_note}\n\n{answer}"
 
         if awaiting_electives or planner_result.get("selected_elective_codes"):
             session_state["hero_flow"] = {

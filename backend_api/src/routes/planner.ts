@@ -701,7 +701,7 @@ function buildSuggestedPlan(
   );
 
   for (const group of sortedElectives) {
-    const candidates = slots
+    let candidates = slots
       .filter(
         (s) =>
           s.semester_number >= electiveStart &&
@@ -714,6 +714,36 @@ function buildSuggestedPlan(
           a.planned_ects - b.planned_ects ||
           a.semester_number - b.semester_number
       );
+
+    // When the student explicitly chooses electives, those choices must be
+    // visible in the generated study plan even if the ideal ECTS band is
+    // already full. The previous logic filtered them out before the
+    // `onlySelectedElectives` check, so the chatbot accepted the choices but
+    // the planner showed no elective courses.
+    if (!candidates.length && onlySelectedElectives) {
+      candidates = slots
+        .filter(
+          (s) =>
+            s.semester_number >= electiveStart &&
+            fitsSemester(group, s.semester_type) &&
+            !slotHasConflict(s, group)
+        )
+        .sort(
+          (a, b) =>
+            a.planned_ects - b.planned_ects ||
+            a.semester_number - b.semester_number
+        );
+    }
+
+    if (!candidates.length && onlySelectedElectives) {
+      candidates = slots
+        .filter((s) => fitsSemester(group, s.semester_type) && !slotHasConflict(s, group))
+        .sort(
+          (a, b) =>
+            a.planned_ects - b.planned_ects ||
+            a.semester_number - b.semester_number
+        );
+    }
 
     const slot = candidates[0];
     if (!slot) continue;
