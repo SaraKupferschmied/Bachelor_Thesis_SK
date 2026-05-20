@@ -15,15 +15,15 @@ from .session_state import empty_session_state
 from .ollama_rag import _retrieve_metadata_and_language_aware
 
 if settings.rag_parser == "docling_language_aware":
-    from .build_faiss_docling_language_aware import build_index_for
+    from .faiss_builders.build_faiss_docling_language_aware import build_index_for
 elif settings.rag_parser == "docling":
-    from .build_faiss_docling import build_index_for
+    from .faiss_builders.build_faiss_docling import build_index_for
 elif settings.rag_parser == "docling_table_semantic":
-    from .build_faiss_docling_table_semantic import build_index_for
+    from .faiss_builders.build_faiss_docling_table_semantic import build_index_for
 elif settings.rag_parser == "docling_parent_child":
-    from .build_faiss_docling_parent_child import build_index_for
+    from .faiss_builders.build_faiss_docling_parent_child import build_index_for
 else:
-    from .build_faiss import build_index_for
+    from .faiss_builders.build_faiss import build_index_for
 
 app = FastAPI(title="Regulations & Studyplan Chatbot (Ollama RAG)")
 

@@ -8,3 +8,5 @@ As first run, open a terminal and execute "docker compose --env-file .env.docker
 
 for all later runs use the command: "docker compose --env-file .env.docker up --build" (the first call also filled the db initially, now this is done)
 
+If you want to rerun the spiders scraping the university websites for the jsons that are used to import data to the database run "python scrapy_crawler\scripts\run_unifr_crawl_pipeline.py" 
+

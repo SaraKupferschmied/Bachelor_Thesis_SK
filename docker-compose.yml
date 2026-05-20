@@ -1,7 +1,7 @@
 services:
   db:
     image: postgres:16
-    container_name: ba_thesis_db_dev
+    container_name: bachelor_thesis_db
     restart: unless-stopped
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
@@ -19,7 +19,7 @@ services:
  
   adminer:
     image: adminer
-    container_name: ba_thesis_adminer_dev
+    container_name: bachelor_thesis_adminer
     restart: unless-stopped
     ports:
       - "8080:8080"
@@ -31,7 +31,7 @@ services:
  
   db_init:
     image: node:20
-    container_name: ba_thesis_db_init_dev
+    container_name: bachelor_thesis_db_init
     working_dir: /app
     volumes:
       - ./DB_service:/app
@@ -51,7 +51,7 @@ services:
  
   import_data:
     image: node:20
-    container_name: ba_thesis_import_data_dev
+    container_name: bachelor_thesis_import_data
     working_dir: /app
     volumes:
       - ./DB_service:/app
@@ -76,7 +76,7 @@ services:
   backend:
     build:
       context: ./backend_api
-    container_name: ba_thesis_backend_dev
+    container_name: bachelor_thesis_backend
     restart: unless-stopped
     ports:
       - "3000:3000"
@@ -96,7 +96,7 @@ services:
  
   ollama:
     image: ollama/ollama
-    container_name: ba_thesis_ollama
+    container_name: bachelor_thesis_ollama
     restart: unless-stopped
     ports:
       - "11434:11434"
@@ -113,7 +113,7 @@ services:
   chatbot:
     build:
       context: ./chatbot
-    container_name: ba_thesis_chatbot
+    container_name: bachelor_thesis_chatbot
     ports:
       - "8000:8000"
     environment:
@@ -131,7 +131,7 @@ services:
  
   frontend:
     image: node:20-alpine
-    container_name: ba_thesis_frontend_dev
+    container_name: bachelor_thesis_frontend
     working_dir: /app
     restart: unless-stopped
     ports:
@@ -145,7 +145,7 @@ services:
  
   info:
     image: alpine
-    container_name: ba_thesis_info
+    container_name: bachelor_thesis_info
     command: >
       sh -c "echo '🚀 Usefull Links (may need reload):';
       echo '📄Chatbot Swagger: http://localhost:8000/docs';
