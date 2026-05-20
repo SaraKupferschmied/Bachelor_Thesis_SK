@@ -47,9 +47,6 @@ class Settings(BaseModel):
     rag_parser: str = os.getenv("RAG_PARSER", "default")
     vectorstore_variant: str = os.getenv("VECTORSTORE_VARIANT", "")
     k: int = int(os.getenv("RETRIEVAL_K", "8"))
-    # Query translation is expensive and often unnecessary with multilingual embeddings.
-    enable_query_translation: bool = os.getenv("ENABLE_QUERY_TRANSLATION", "0").lower() in {"1", "true", "yes", "on"}
-    exact_code_boost: float = float(os.getenv("EXACT_CODE_BOOST", "250"))
     backend_api_base: str = os.getenv("BACKEND_API_BASE", "http://localhost:3000")
 
     @property
@@ -90,12 +87,11 @@ class Settings(BaseModel):
         if self.rag_parser == "docling_language_aware":
             return self.vectorstore_dir / "faiss_reglementations_docling_language_aware"
         if self.rag_parser == "docling_table_semantic":
-            # For the selected setup, keep using the normal regulations index
-            # instead of the experimental table-semantic regulations store.
             return self.vectorstore_dir / "faiss_reglementations"
         if self.rag_parser == "docling":
             return self.vectorstore_dir / f"faiss_reglementations_docling{suffix}"
         return self.vectorstore_dir / f"faiss_reglementations_default{suffix}"
+
 
     @property
     def base_data_index(self) -> Path:

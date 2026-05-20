@@ -1,7 +1,6 @@
 import re
 from typing import Any, Dict, List
 import logging
-import json
 
 from .planner import plan_tool_usage
 from .backend_tools import TOOLS
@@ -9,10 +8,6 @@ from .ollama_rag import answer_question as rag_answer
 from .session_state import update_session_state
 from .hero_semester import is_plan_semester_hero, start_plan_semester_flow
 from .performance import timed_step
-from .config import settings
-
-from langchain_ollama import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate
 
 logger = logging.getLogger(__name__)
 
@@ -26,70 +21,6 @@ def _has_tool_result(result: Any) -> bool:
     if isinstance(result, str):
         return bool(result.strip())
     return True
-
-def _compact_tool_results(tool_results: List[Dict[str, Any]], max_rows: int = 80) -> List[Dict[str, Any]]:
-    """Keep enough structured data for answer synthesis without flooding the LLM."""
-    compact: List[Dict[str, Any]] = []
-    for item in tool_results:
-        result = item.get("result")
-        if isinstance(result, list):
-            compact.append({
-                "tool": item.get("tool"),
-                "row_count": len(result),
-                "rows": result[:max_rows],
-                "truncated": len(result) > max_rows,
-            })
-        else:
-            compact.append({
-                "tool": item.get("tool"),
-                "result": result,
-                "error": item.get("error"),
-            })
-    return compact
-
-
-def _synthesize_tool_answer(question: str, plan: Dict[str, Any], tool_results: List[Dict[str, Any]]) -> str:
-    """Turn raw API rows into a chatbot answer.
-
-    This is the key difference between a chatbot and a hard-coded backend route:
-    tools retrieve reliable structured facts; the LLM decides how to answer the
-    user's actual question from those facts.
-    """
-    llm = ChatOllama(
-        model=settings.ollama_model,
-        temperature=0,
-        base_url=settings.ollama_host,
-    )
-    prompt = ChatPromptTemplate.from_template("""
-You are a university study chatbot. Answer the user's question using ONLY the tool results.
-
-User question:
-{question}
-
-Planner decision:
-{plan}
-
-Tool results:
-{tool_results}
-
-Instructions:
-- Do not dump raw database rows unless the user explicitly asked for a list.
-- If the user asked for one fact, answer that fact directly.
-- If multiple database rows match, explain the relevant distinction briefly.
-  Example: a program may exist as 30/60 ECTS minor and 180 ECTS mono.
-- If the user asked for a calculation or comparison, compute it from the tool results.
-- If the tool result is insufficient, say exactly what is missing.
-- Keep the answer concise and conversational.
-""")
-    msg = prompt.format_messages(
-        question=question,
-        plan=json.dumps(plan, ensure_ascii=False),
-        tool_results=json.dumps(_compact_tool_results(tool_results), ensure_ascii=False, indent=2, default=str),
-    )
-    with timed_step("tool_answer.synthesize"):
-        resp = llm.invoke(msg)
-    return str(resp.content).strip()
-
 
 
 def _program_type(item: dict[str, Any]) -> str | None:
@@ -114,29 +45,6 @@ def _program_type(item: dict[str, Any]) -> str | None:
         return "mono"
     return None
 
-def _looks_like_new_general_question(question: str) -> bool:
-    q = question.lower().strip()
-
-    general_markers = [
-        "what programs",
-        "which programs",
-        "what can i study",
-        "what courses",
-        "tell me about",
-        "explain",
-        "regulation",
-        "regulations",
-        "requirements",
-        "deadline",
-        "how do i",
-        "can you explain",
-        "something else",
-        "now can you tell me",
-        "next up",
-        "new topic",
-    ]
-
-    return any(marker in q for marker in general_markers)
 
 def _question_asks_first_year(question: str) -> bool:
     q = question.lower()
@@ -284,7 +192,7 @@ def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
 
     return str(result)
 
-def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
+def _select_rag_db(question: str, db_study=None, db_regl=None):
     q = question.lower()
 
     study_keywords = [
@@ -297,34 +205,21 @@ def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
         "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
     ]
 
-    base_keywords = [
-        "datetime", "time", "teacher", "lecturer", "room",
-        "metadata", "course content", "description", "day_time_info"
-    ]
-
     if any(k in q for k in study_keywords):
-        return db_study or db_base or db_regl
+        return db_study or db_regl
     if any(k in q for k in regl_keywords):
-        return db_regl or db_study or db_base
-    if any(k in q for k in base_keywords):
-        return db_base or db_study or db_regl
+        return db_regl or db_study
+    return db_study or db_regl
 
-    return db_base or db_study or db_regl
 
 def _extract_semester_count(text: str) -> int | None:
-    # Important: do NOT treat every standalone number as a duration. Replies
-    # like "I completed ... Competences documentaires ... 1" previously became
-    # "plan this in 1 semester". Only parse explicit duration phrases.
-    match = re.search(
-        r"\b(?:in|within|over|during|for)?\s*(\d{1,2})\s*(semester|semesters|semestri|semestren)\b",
-        text.lower(),
-    )
+    match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)?\b", text.lower())
     if not match:
         return None
 
     value = int(match.group(1))
 
-    if 1 <= value <= 12:
+    if 1 <= value <= 16:
         return value
 
     return None
@@ -365,6 +260,86 @@ def _extract_semester_ids(text: str) -> list[str]:
             result.append(sem)
 
     return result[:2]
+
+
+def _strip_semesters(text: str) -> str:
+    text = re.sub(r"\b(FS|HS|SS|AS)[-\s]?\d{4}\b", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip(" ,.-:")
+
+
+def is_plan_study_program_hero(question: str) -> bool:
+    q = question.lower().strip()
+    return q in {
+        "__hero__:plan_study_program",
+        "__hero__:plan_whole_study_program",
+        "__hero__:complete_study_plan",
+    }
+
+
+def is_plan_mobility_hero(question: str) -> bool:
+    return question.strip().lower() == "__hero__:plan_mobility"
+
+
+def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
+    session_state["hero_flow"] = {
+        "name": "plan_study_program",
+        "program_id": None,
+        "program_name": None,
+        "candidate_programs": [],
+        "semesters": None,
+        "total_ects": None,
+    }
+
+    return {
+        "answer": (
+            "Sure — which study program would you like to plan?\n\n"
+            "Please tell me:\n"
+            "1. the study program, for example **Business Informatics Bachelor**\n"
+            "2. in how many semesters you would like to finish, for example **8 semesters**"
+        ),
+        "sources": [],
+        "used_tools": [],
+        "session_state": session_state,
+        "plan": {"mode": "hero"},
+        "planning_errors": None,
+    }
+
+
+def _normalize_course_code(value: str | None) -> str:
+    if not value:
+        return ""
+    return re.sub(r"[^A-Z0-9]", "", str(value).upper().replace("UE-", ""))
+
+
+def _extract_selected_elective_codes(question: str, elective_candidates: list[dict[str, Any]] | None = None) -> list[str]:
+    """Extract selected elective course codes from a free-text reply.
+
+    Prefer explicit UE-XXX codes. As a fallback, match candidate names that occur
+    in the answer so users can reply with course names only.
+    """
+    text = question or ""
+    found: list[str] = []
+
+    for match in re.finditer(r"\b(?:UE[-\s]?)?([A-Z]{3})[.-]?(\d{5})\b", text, flags=re.IGNORECASE):
+        code = f"UE-{match.group(1).upper()}.{match.group(2)}"
+        if code not in found:
+            found.append(code)
+
+    lowered = text.lower()
+    for course in elective_candidates or []:
+        code = str(course.get("code") or "")
+        name = str(course.get("course_name") or course.get("name") or "")
+        if not code:
+            continue
+        norm_code = _normalize_course_code(code)
+        if any(_normalize_course_code(existing) == norm_code for existing in found):
+            continue
+        if name and name.lower() in lowered:
+            found.append(code)
+
+    return found
+
 
 def _extract_required_course_codes(question: str, courses: list[Dict[str, Any]]) -> list[str]:
     q = question.lower()
@@ -504,6 +479,32 @@ def _completed_courses_note(completed_codes: list[str], candidates: list[dict[st
 
     return "\n".join(lines)
 
+
+
+def _looks_like_completed_or_exclusion_update(question: str) -> bool:
+    q = (question or "").lower()
+    return any(phrase in q for phrase in [
+        "already completed",
+        "i have completed",
+        "i completed",
+        "completed",
+        "exclude",
+        "remove",
+        "take out",
+        "leave out",
+    ])
+
+
+def _merge_unique_course_codes(*groups: list[str]) -> list[str]:
+    merged: list[str] = []
+    seen: set[str] = set()
+    for group in groups:
+        for code in group or []:
+            norm = _normalize_course_code(code)
+            if norm and norm not in seen:
+                seen.add(norm)
+                merged.append(code)
+    return merged
 
 def overlaps(a_start, a_end, b_start, b_end) -> bool:
     return a_start < b_end and b_start < a_end
@@ -881,7 +882,7 @@ def _fmt_ects(value: Any) -> str:
         return "unknown ECTS"
     try:
         num = float(value)
-        return f"{num:.2f} ECTS" if num.is_integer() else f"{num:g} ECTS"
+        return f"{int(num)} ECTS" if num.is_integer() else f"{num:g} ECTS"
     except Exception:
         return f"{value} ECTS"
 
@@ -946,13 +947,6 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
         for assumption in assumptions:
             lines.append(f"- {assumption}")
 
-#    choice_groups = [g for g in (result.get("mandatory_choice_groups") or []) if g.get("requires_choice")]
-#    if choice_groups:
-#        lines.append("\n## Mandatory language/equivalent choices")
-#        for group in choice_groups[:12]:
-#            options = group.get("options") or []
-#            lines.append("- Choose one of: " + "; ".join(_course_label_for_plan(o) for o in options))
-
     plan_slots = result.get("suggested_mandatory_semester_plan") or result.get("semesters") or []
     if plan_slots:
         lines.append("\n## Suggested semester distribution")
@@ -960,7 +954,7 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
             number = slot.get("semester_number") or slot.get("index") or "?"
             sem_type = slot.get("semester_type") or slot.get("type") or "semester"
             planned = slot.get("planned_ects")
-            header = f"\n## Semester {number} ({sem_type})"
+            header = f"\n### Semester {number} ({sem_type})"
             if planned is not None:
                 header += f" — {_fmt_ects(planned)}"
             lines.append(header)
@@ -995,41 +989,6 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
                 elif isinstance(group, dict):
                     lines.append(f"- Elective: {_course_label_for_plan(group)}")
 
-    if selected_codes:
-        elective_courses_by_code = {
-            _normalize_course_code(str(course.get("code") or "")): course
-            for course in (result.get("elective_courses") or [])
-            if course.get("code")
-        }
-        selected_elective_courses = [
-            elective_courses_by_code.get(_normalize_course_code(str(code)))
-            for code in selected_codes
-        ]
-        selected_elective_courses = [course for course in selected_elective_courses if course]
-
-        placed_selected_codes: set[str] = set()
-        for slot in plan_slots:
-            for group in slot.get("electives") or []:
-                if isinstance(group, dict):
-                    options = group.get("options") or [group]
-                    for option in options:
-                        code = option.get("code") if isinstance(option, dict) else None
-                        if code:
-                            placed_selected_codes.add(_normalize_course_code(str(code)))
-
-        unplaced_selected = [
-            course for course in selected_elective_courses
-            if _normalize_course_code(str(course.get("code") or "")) not in placed_selected_codes
-        ]
-
-        if selected_elective_courses:
-            lines.append("\n## Selected elective courses")
-            for course in selected_elective_courses:
-                lines.append(f"- {_course_label_for_plan(course)}")
-
-        if unplaced_selected:
-            lines.append("\nNote: These selected electives could not be placed into a semester slot by the backend planner yet, but they were recognized as your choices.")
-
     elective_courses = result.get("elective_courses") or []
     if elective_courses and not selected_codes:
         lines.append("\n## Elective courses")
@@ -1039,39 +998,46 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
         lines.append("\nTo finish the plan, please choose which electives you want to take. You can answer with course codes like `UE-SIN.01022` or with the course names.")
     elif elective_courses and selected_codes:
         lines.append("\nIf you want to change electives, tell me the new elective course codes and I can regenerate the proposal.")
+
+    lines.append("\nIf you have not completed all suggested earlier-year courses yet, tell me so I can show all courses again instead of filtering/placing them by study year.")
     return "\n".join(lines)
 
 
-def format_mobility_plan(result: Dict[str, Any]) -> str:
+def format_mobility_plan(
+    result: Dict[str, Any],
+    offset: int = 0,
+    page_size: int = 25,
+) -> str:
     lines = [
         f"Here are mobility-enabled course candidates for **{result['interest']}**."
     ]
 
     for sem in result["semesters"]:
         lines.append(f"\n## {sem}")
-
         courses = result["courses_by_semester"].get(sem, [])
 
         total_courses = len(courses)
-        shown_courses = min(total_courses, 25)
+        start = max(0, offset)
+        end = min(total_courses, start + page_size)
 
         if not courses:
             lines.append("- No matching mobility courses found.")
             continue
 
+        if start >= total_courses:
+            lines.append(f"No more matching courses to show. Already shown all {total_courses} courses.")
+            continue
+
         lines.append(
-            f"Showing {shown_courses} of {total_courses} matching courses. "
+            f"Showing {end} of {total_courses} matching courses. "
             f'Ask "show more" to see additional results.'
         )
-
         lines.append("")
 
-        for c in courses[:25]:
+        for c in courses[start:end]:
             details = [c.get("code")]
-
             if c.get("ects") is not None:
                 details.append(f"{c['ects']} ECTS")
-
             if c.get("domain_name"):
                 details.append(c["domain_name"])
 
@@ -1081,52 +1047,36 @@ def format_mobility_plan(result: Dict[str, Any]) -> str:
             )
 
             if c.get("description"):
-                lines.append(
-                    f"  - Content: {str(c['description'])[:180]}..."
-                )
+                lines.append(f"  - Content: {str(c['description'])[:180]}...")
 
     return "\n".join(lines)
-
-def _dedupe_documents(docs: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    result = []
-    seen = set()
-
-    for doc in docs or []:
-        if not isinstance(doc, dict):
-            continue
-
-        source_url = doc.get("source_url") or doc.get("url")
-        doc_key = doc.get("doc_key")
-        dedupe_key = doc_key or source_url
-
-        if not dedupe_key or dedupe_key in seen:
-            continue
-
-        seen.add(dedupe_key)
-
-        result.append({
-            "title": doc.get("title") or doc.get("label") or "Source document",
-            "doc_key": doc_key,
-            "doc_type": doc.get("doc_type"),
-            "source_url": source_url,
-            "download_url": doc.get("download_url") or source_url,
-            "page": doc.get("page"),
-        })
-
-    return result
 
 
 def answer_question(
     question: str,
     db_study=None,
     db_regl=None,
-    db_base=None,
     language: str | None = None,
     session_state: Dict[str, Any] | None = None,
     run_mode: str | None = None,
 ) -> Dict[str, Any]:
     session_state = session_state or {}
     final_answer = ""
+
+    mobility_results = session_state.get("last_mobility_result")
+    if mobility_results and re.search(r"\b(show more|more results|next|weitere|mehr)\b", question, re.IGNORECASE):
+        current_offset = int(session_state.get("last_mobility_offset") or 0)
+        page_size = int(session_state.get("last_mobility_page_size") or 25)
+        next_offset = current_offset + page_size
+        session_state["last_mobility_offset"] = next_offset
+        return {
+            "answer": format_mobility_plan(mobility_results, offset=next_offset, page_size=page_size),
+            "sources": [],
+            "used_tools": ["get_mobility_courses"],
+            "session_state": session_state,
+            "plan": {"mode": "hero", "hero": "plan_mobility", "pagination": "show_more"},
+            "planning_errors": None,
+        }
 
     if is_plan_semester_hero(question):
         return start_plan_semester_flow(session_state)
@@ -1135,10 +1085,6 @@ def answer_question(
         return start_plan_study_program_flow(session_state)
 
     flow = session_state.get("hero_flow")
-
-    if flow and _looks_like_new_general_question(question):
-        session_state["hero_flow"] = None
-        flow = None
 
     if is_plan_mobility_hero(question):
         session_state["hero_flow"] = {
@@ -1379,8 +1325,6 @@ def answer_question(
 
         with timed_step("tool.get_study_program_plan"):
             planner_result = TOOLS["get_study_program_plan"](**planner_args)
-
-        print("DEBUG study_program_plan result:", planner_result)
 
         with timed_step("answer.format_study_program_plan"):
             answer = format_study_program_plan(planner_result)
@@ -1653,27 +1597,34 @@ def answer_question(
         }
 
     if flow and flow.get("name") == "plan_mobility":
-        # Slot-fill the mobility flow across turns. The previous implementation
-        # only parsed the *current* message, so after `HS-2026` the next message
-        # `Sports` lost the semester and the bot asked for it again.
-        stored_semesters = flow.get("semesters") or []
-        if isinstance(stored_semesters, str):
-            stored_semesters = [stored_semesters]
-
+        # Keep mobility as a multi-turn slot-filling flow. The old restored
+        # implementation only inspected the current message, so a first reply
+        # like "FS-2026" was forgotten when the user later answered
+        # "Management". Persist both slots in session_state before deciding
+        # whether we have enough information to call the mobility tool.
+        existing_semesters = flow.get("semesters") or []
         found_semesters = _extract_semester_ids(question)
-        semesters = list(dict.fromkeys([*stored_semesters, *found_semesters]))[:2]
+        semesters = list(existing_semesters)
+        for sem in found_semesters:
+            if sem not in semesters:
+                semesters.append(sem)
+        semesters = semesters[:2]
 
-        raw_interest = _strip_semesters(question)
-        # If this turn only contained a semester, keep the previous interest.
-        # If this turn contains normal text, treat it as the missing/updated
-        # interest. This supports both `HS-2026` -> `Sports` and
-        # `HS-2026, Sports` in one message.
-        interest = raw_interest or flow.get("interest")
+        cleaned_interest = _strip_semesters(question).strip()
+        existing_interest = (flow.get("interest") or "").strip()
 
-        if semesters:
-            session_state["hero_flow"]["semesters"] = semesters
-        if interest:
-            session_state["hero_flow"]["interest"] = interest
+        # Treat messages that only contain semester IDs as semester answers, not
+        # as an interest. Otherwise use the latest non-empty text as the course
+        # direction, e.g. "Management".
+        interest = existing_interest
+        if cleaned_interest and cleaned_interest.lower() not in {"fs", "hs", "ss", "as"}:
+            interest = cleaned_interest
+
+        session_state["hero_flow"] = {
+            "name": "plan_mobility",
+            "semesters": semesters,
+            "interest": interest or None,
+        }
 
         if not semesters:
             return {
@@ -1702,9 +1653,12 @@ def answer_question(
         )
 
         session_state["hero_flow"] = None
+        session_state["last_mobility_result"] = result
+        session_state["last_mobility_offset"] = 0
+        session_state["last_mobility_page_size"] = 25
 
         return {
-            "answer": format_mobility_plan(result),
+            "answer": format_mobility_plan(result, offset=0, page_size=25),
             "sources": [],
             "used_tools": ["get_mobility_courses"],
             "session_state": session_state,
@@ -1746,7 +1700,6 @@ def answer_question(
     tool_results: List[Dict[str, Any]] = []
     sources = []
     answer_parts: List[str] = []
-    documents = []
     debug_tool_calls = []
 
     if mode in ("tool", "hybrid"):
@@ -1781,7 +1734,7 @@ def answer_question(
                 },
                 "get_planner_programs": {"q", "degree_level", "locale", "limit"},
                 "get_planner_courses": {"sem_id", "program_ids", "locale"},
-                "get_study_program_plan": {"program_id", "semesters", "locale", "total_ects", "selected_elective_codes", "completed_course_codes"},
+                "get_study_program_plan": {"program_id", "semesters", "locale", "total_ects"},
                 "get_mobility_courses": {"semesters", "interest", "language"},
             }
 
@@ -1830,9 +1783,11 @@ def answer_question(
                     "result": result,
                 })
 
-                # Keep raw results for the final synthesis step below. Do not
-                # immediately format rows as the visible answer, otherwise a
-                # question like "how many ECTS does X have?" becomes a giant list.
+                # Important: only add non-empty tool results to the visible answer.
+                # Empty results are still kept in tool_results for debugging and session state.
+                if _has_tool_result(result):
+                    answer_parts.append(_format_tool_result(tool_name, result, question=question))
+
                 debug_entry["result_type"] = type(result).__name__
 
                 if isinstance(result, list):
@@ -1879,28 +1834,16 @@ def answer_question(
     should_run_rag = mode in ("rag", "hybrid") or (mode == "tool" and not tool_mode_found_anything)
 
     if should_run_rag:
-        # Do not hard-route RAG to a single vectorstore.  Pass all loaded stores
-        # to the RAG layer; it will retrieve with intent-weighted quotas
-        # (for example 10/5/3) and rerank the merged candidates.
-        db = {
-            name: store
-            for name, store in {
-                "studyplans": db_study,
-                "reglementations": db_regl,
-                "base_data": db_base,
-            }.items()
-            if store is not None
-        }
+        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl)
 
-        if db:
+        if db is not None:
             with timed_step("rag.total"):
-                rag_text, rag_sources, rag_documents = rag_answer(
+                rag_text, rag_sources = rag_answer(
                     db=db,
                     question=question,
                     language=language,
                 )
             sources.extend(rag_sources)
-            documents.extend(rag_documents)
 
             if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
                 final_answer = rag_text
@@ -1913,14 +1856,7 @@ def answer_question(
                 answer_parts.append("The document index is not loaded.")
 
     if mode == "tool" and not final_answer:
-        if tool_mode_found_anything:
-            try:
-                final_answer = _synthesize_tool_answer(question, plan, tool_results)
-            except Exception as e:
-                logger.exception("Tool answer synthesis failed")
-                final_answer = "\n".join(answer_parts) if answer_parts else f"I found matching data, but could not synthesize the answer: {e}"
-        else:
-            final_answer = "No matching result found."
+        final_answer = "\n".join(answer_parts) if answer_parts else "No matching result found."
     elif mode == "hybrid":
         final_answer = "\n\n".join(part for part in answer_parts if part) or "No answer available."
     elif mode == "rag" and not final_answer:
@@ -1932,7 +1868,6 @@ def answer_question(
     return {
         "answer": final_answer,
         "sources": sources,
-        "documents": _dedupe_documents(documents),
         "used_tools": [x["tool"] for x in tool_results if x.get("tool")],
         "session_state": new_session_state,
         "plan": plan,

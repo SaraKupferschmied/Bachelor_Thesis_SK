@@ -19,7 +19,8 @@ def _extract_json(text: str) -> dict[str, Any]:
         pass
 
     if "```" in text:
-        for part in text.split("```"):
+        parts = text.split("```")
+        for part in parts:
             candidate = part.strip()
             if candidate.startswith("json"):
                 candidate = candidate[4:].strip()
@@ -31,28 +32,20 @@ def _extract_json(text: str) -> dict[str, Any]:
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end != -1 and end > start:
-        return json.loads(text[start:end + 1])
+        candidate = text[start:end + 1]
+        return json.loads(candidate)
 
     raise ValueError("No valid JSON found in planner output")
 
 
 def _extract_course_code(question: str) -> str | None:
-    match = re.search(
-        r"\b(?:UE-[A-Z0-9]+(?:-[A-Z0-9]+)*\.\d{3,6}|[A-Z]{2,4}-[A-Z]\d{2}\.\d{5}|[A-Z]{2,4}\.?\d{3,6})\b",
-        question,
-        flags=re.IGNORECASE,
-    )
-    return match.group(0).replace(" ", "").upper() if match else None
+    match = re.search(r"\b[A-Z]{2}-[A-Z]\d{2}\.\d{5}\b", question)
+    return match.group(0) if match else None
 
 
 def _clean_program_name(value: str) -> str | None:
     value = re.sub(r"\b(with|having)?\s*\d{2,3}\s*ects\b.*$", "", value, flags=re.IGNORECASE)
-    value = re.sub(
-        r"\b(program|programme|courses?|modules?|mandatory|elective|include|includes|including|first study year|first year|study year)\b.*$",
-        "",
-        value,
-        flags=re.IGNORECASE,
-    )
+    value = re.sub(r"\b(program|programme|courses?|modules?|mandatory|elective|include|includes|including|first study year|first year|study year)\b.*$", "", value, flags=re.IGNORECASE)
     value = value.strip(" ?.,;:-")
     if not value or value.lower() in {"level", "program", "programs", "course", "courses"}:
         return None
@@ -60,6 +53,7 @@ def _clean_program_name(value: str) -> str | None:
 
 
 def _extract_program_name(question: str) -> str | None:
+    # Strong patterns first: "Bachelor of Business Informatics", "Bachelor in Economics".
     strong = re.search(
         r"\b(?:bachelor|master|doctorate)\s+(?:of|in)\s+(.+?)(?:\s+with\s+\d|\s+\d{2,3}\s*ects|\?|$)",
         question,
@@ -68,6 +62,7 @@ def _extract_program_name(question: str) -> str | None:
     if strong:
         return _clean_program_name(strong.group(1))
 
+    # "courses in the Bachelor Business Informatics program"
     strong = re.search(
         r"\b(?:bachelor|master|doctorate)\s+(.+?)(?:\s+with\s+\d|\s+\d{2,3}\s*ects|\s+program|\?|$)",
         question,
@@ -76,11 +71,8 @@ def _extract_program_name(question: str) -> str | None:
     if strong and "level" not in strong.group(1).lower():
         return _clean_program_name(strong.group(1))
 
-    fallback = re.search(
-        r"\b(?:courses?|modules?)\s+(?:in|for|of)\s+(.+?)(?:\?|$)",
-        question,
-        flags=re.IGNORECASE,
-    )
+    # Fallback for "courses in Business Informatics".
+    fallback = re.search(r"\b(?:courses?|modules?)\s+(?:in|for|of)\s+(.+?)(?:\?|$)", question, flags=re.IGNORECASE)
     if fallback:
         return _clean_program_name(fallback.group(1))
 
@@ -89,107 +81,27 @@ def _extract_program_name(question: str) -> str | None:
 
 def _extract_numeric_filter(question: str, field_name: str = "ects") -> int | str | None:
     q = question.lower()
-    m = re.search(
-        r"(greater than|more than|above|over|at least|minimum|min|less than|fewer than|below|under|at most|maximum|max|>=|<=|>|<|=)?\s*(\d{1,3})\s*(?:total\s*)?"
-        + re.escape(field_name),
-        q,
-    )
+    m = re.search(r"(greater than|more than|above|over|at least|minimum|min|less than|fewer than|below|under|at most|maximum|max|>=|<=|>|<|=)?\s*(\d{1,3})\s*(?:total\s*)?" + re.escape(field_name), q)
     if not m:
         return None
-
     op, value = m.groups()
     word_to_op = {
-        "greater than": ">",
-        "more than": ">",
-        "above": ">",
-        "over": ">",
-        "at least": ">=",
-        "minimum": ">=",
-        "min": ">=",
-        "less than": "<",
-        "fewer than": "<",
-        "below": "<",
-        "under": "<",
-        "at most": "<=",
-        "maximum": "<=",
-        "max": "<=",
+        "greater than": ">", "more than": ">", "above": ">", "over": ">",
+        "at least": ">=", "minimum": ">=", "min": ">=",
+        "less than": "<", "fewer than": "<", "below": "<", "under": "<",
+        "at most": "<=", "maximum": "<=", "max": "<=",
     }
     op = word_to_op.get(op or "", op)
     return f"{op}{value}" if op and op != "=" else int(value)
 
 
-GENERAL_OR_EXPLANATORY_BLOCKERS = [
-    "average", "generally", "in general", "overview", "explain", "why",
-    "compare", "difference", "recommend", "should i", "can i", "allowed",
-    "rule", "rules", "regulation", "article", "§", "requirement",
-]
-
-
-def _looks_like_specific_structured_query(question: str) -> bool:
-    q = question.lower()
-
-    if any(x in q for x in GENERAL_OR_EXPLANATORY_BLOCKERS):
-        return False
-
-    if _extract_course_code(question):
-        return True
-
-    has_entity = any(x in q for x in [
-        "course", "courses", "module", "modules",
-        "program", "programs", "study program",
-        "ects", "mandatory", "elective", "mobility", "soft skills",
-    ])
-
-    has_filter = any(x in q for x in [
-        "bachelor", "master", "doctorate", "phd",
-        "english", "german", "french",
-        "autumn", "spring", "hs", "fs",
-        "mandatory", "elective", "mobility", "soft skills",
-        "minor", "major", "mono",
-    ])
-
-    has_numbered_filter = _extract_numeric_filter(question, "ects") is not None
-
-    return has_entity and (has_filter or has_numbered_filter)
-
-
-def _validate_fast_plan(question: str, plan: dict[str, Any]) -> dict[str, Any] | None:
-    q = question.lower()
-    calls = plan.get("tool_calls", [])
-
-    if not calls:
-        return None
-
-    tool = calls[0].get("tool")
-
-    if tool == "get_course_by_code":
-        return plan
-
-    if tool == "get_programs":
-        wants_program_listing = any(x in q for x in [
-            "list programs", "all programs", "show programs",
-            "which programs", "available programs", "study programs",
-            "programs", "degrees",
-        ])
-        if not wants_program_listing:
-            return None
-
-    if tool in {"get_courses", "get_program_courses_by_metadata"}:
-        wants_course_listing = any(x in q for x in [
-            "courses", "modules", "show", "list", "find", "which", "what courses",
-            "mandatory", "elective",
-        ])
-        if not wants_course_listing:
-            return None
-
-    return plan
-
-
 def _fast_structured_plan(question: str) -> dict[str, Any] | None:
-    q = question.lower()
+    """Rule-based plans for frequent structured DB questions.
 
-    if not _looks_like_specific_structured_query(question):
-        return None
+    This avoids sending simple API-selection questions to the local LLM, which can
+    be very slow. The LLM remains a fallback for ambiguous mixed RAG/tool questions.
+    """
+    q = question.lower()
 
     code = _extract_course_code(question)
     if code:
@@ -199,12 +111,8 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
             "reason": "Fast structured rule: exact course code",
         }
 
-    wants_programs = any(word in q for word in [
-        "program", "programs", "study programs", "studienprogramme", "studiengang", "degree", "degrees"
-    ])
-    wants_courses = any(word in q for word in [
-        "course", "courses", "module", "modules", "kurs", "kurse"
-    ])
+    wants_programs = any(word in q for word in ["program", "programs", "study programs", "studienprogramme", "studiengang"])
+    wants_courses = any(word in q for word in ["course", "courses", "module", "modules", "kurs", "kurse"])
 
     degree_level = None
     if "bachelor" in q:
@@ -227,13 +135,8 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
     if wants_courses:
         program_name = _extract_program_name(question)
 
-        if (
-            not program_name
-            and not degree_level
-            and not program_type
-            and total_ects is not None
-            and not any(x in q for x in ["mandatory", "elective", "pflicht", "wahl"])
-        ):
+        # Generic course list by course ECTS, not program total ECTS.
+        if not program_name and not degree_level and not program_type and total_ects is not None and not any(x in q for x in ["mandatory", "elective", "pflicht", "wahl"]):
             return {
                 "mode": "tool",
                 "tool_calls": [{"tool": "get_courses", "args": {"ects": total_ects, "limit": 500}}],
@@ -241,7 +144,6 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
             }
 
         args: dict[str, Any] = {"limit": 500}
-
         if program_name:
             args["program_en"] = program_name
         if degree_level:
@@ -250,17 +152,14 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
             args["total_ects"] = total_ects
         if program_type:
             args["program_type"] = program_type
-
         if "mandatory" in q or "pflicht" in q:
             args["course_type"] = "Mandatory"
         elif "elective" in q or "wahl" in q:
             args["course_type"] = "Elective"
-
         if "autumn" in q or "fall" in q or "herbst" in q:
             args["semester_type"] = "Autumn"
         elif "spring" in q or "frühling" in q or "printemps" in q:
             args["semester_type"] = "Spring"
-
         if "english" in q:
             args["language"] = "English"
         elif "german" in q or "deutsch" in q:
@@ -277,14 +176,12 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
 
     if wants_programs and not wants_courses:
         args: dict[str, Any] = {}
-
         if degree_level:
             args["degree_level"] = degree_level
         if program_type:
             args["program_type"] = program_type
         if total_ects is not None:
             args["total_ects"] = total_ects
-
         return {
             "mode": "tool",
             "tool_calls": [{"tool": "get_programs", "args": args}],
@@ -292,7 +189,6 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
         }
 
     return None
-
 
 def plan_tool_usage(
     question: str,
@@ -302,9 +198,7 @@ def plan_tool_usage(
 
     fast_plan = _fast_structured_plan(question)
     if fast_plan is not None:
-        validated = _validate_fast_plan(question, fast_plan)
-        if validated is not None:
-            return validated
+        return fast_plan
 
     llm = ChatOllama(
         model=settings.ollama_model,
@@ -337,25 +231,21 @@ Return ONLY valid JSON in this exact format:
 }}
 
 Rules:
-- First understand the user's information need. Do not choose tools by keyword matching only.
-- Prefer backend tools when they can answer the user's actual question exactly, because tools are faster and more reliable than RAG.
-- Use "tool" for exact structured database questions: course lists, program lists, ECTS filters, mandatory/elective courses, course code lookups, offerings, planner context.
-- Use "rag" for conceptual, regulatory, policy, explanatory, average/general, or document-based questions.
-- Use "hybrid" when structured data is needed but the answer also needs document explanation.
-- A question may mention "bachelor", "program", "ECTS", or a program name without asking for a list. Decide the intent.
-- If the user asks for a filtered list, use the appropriate tool.
-- If the user asks for an average/general/comparative explanation, prefer rag or hybrid.
+- Use "tool" when backend tools can answer the question with structured data.
+- Use "rag" for regulations, policy, explanatory document questions, or questions about rules.
+- Use "hybrid" when both structured backend data and document context are needed.
 - Use get_course_by_code for one exact course code or a follow-up about one known course.
 - Use get_courses for filtered lists of courses. For ECTS comparisons pass ects as strings like ">6", "<3", ">=5".
 - Use get_programs for program searches. For minor/major/mono use program_type. For ECTS comparisons pass total_ects as strings like ">90", "<90", ">=120".
 - Use get_program_by_id when the id is known.
-- Use get_program_courses when the user asks for courses of a known program id.
-- Use get_program_courses_by_metadata when the user asks for courses in a named program but no id is known.
-- Use get_program_course_sections when the user asks for section headings, proposed study year, or consists-of metadata for a known program id.
+- Use get_program_courses when the user asks for courses of a known program id. For ECTS comparisons pass ects as strings like ">6" or "<3".
+- Use get_program_courses_by_metadata when the user asks for courses in a named program but no id is known. This is the best DB tool for mandatory/elective courses in Bachelor/Master X with Y ECTS.
+- Use get_program_course_sections when the user asks for section headings, proposed study year, or consists-of table metadata for a known program id.
 - Use get_program_docs when the user asks for official documents of a known program.
 - Use get_offerings when the user asks what is offered in a given semester.
 - Use get_planner_context for semester planning with known program and semester.
 - Resolve references like "this course", "that one", or "it" from session state when possible.
+- Prefer structured tools when they can answer exactly. Do not choose RAG for DB list questions such as all programs, minor/major/mono programs, course ECTS by code, or program-course lists.
 """)
 
     msg = prompt.format_messages(

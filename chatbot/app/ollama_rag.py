@@ -52,7 +52,6 @@ _EMBEDDINGS = HuggingFaceEmbeddings(
 
 META_RE = re.compile(r"---METADATA_JSON---\s*(\{.*?\})\s*---/METADATA_JSON---", re.S)
 PAGE_RE = re.compile(r"---PAGE\s+(\d+)---\s*(.*?)(?=---PAGE\s+\d+---|\Z)", re.S)
-COURSE_CODE_RE = re.compile(r"\b[A-ZÄÖÜ]{2,5}(?:-[A-ZÄÖÜ0-9]{1,5})?\.\d{5}\b")
 
 
 LANGUAGE_NAMES = {
@@ -244,15 +243,6 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
     return catalog
 
 
-def _extract_course_codes(question: str) -> list[str]:
-    # Handles both EGE.00451 and UE-F23.00128 style course codes.
-    seen: list[str] = []
-    for code in COURSE_CODE_RE.findall(question or ""):
-        if code not in seen:
-            seen.append(code)
-    return seen
-
-
 def _detect_degree(question: str) -> str | None:
     q = _normalize_text(question)
     for degree, aliases in _DEGREE_ALIASES.items():
@@ -424,110 +414,10 @@ def _enrich_query(
     return "\n".join(hints)
 
 
-
-
-def _looks_like_generic_degree_question(question: str) -> bool:
-    """True for questions about Bachelor/Master as a degree type, not a named programme."""
-    q = _normalize_text(question)
-    generic_patterns = [
-        r"\b(a|an|the|every|any)\s+(bachelor|master)\s+(program|programme|degree|study)\b",
-        r"\b(bachelor|master)\s+(program|programme|degree|studies)\b",
-        r"\bhow\s+many\s+(ects|credits)\s+.*\b(master|bachelor)\b",
-        r"\bhow\s+long\s+.*\b(master|bachelor)\b",
-    ]
-    if not any(re.search(pattern, q) for pattern in generic_patterns):
-        return False
-
-    # Named programme questions often look like "Bachelor in History" or
-    # "Master of Slavic Studies".  Those should be study-plan lookups, not
-    # generic base-data lookups.
-    named_markers = [
-        r"\b(bachelor|master)\s+(in|of|en|im|in der|in die|de|du|des)\s+[a-zà-ÿ]",
-        r"\bprogramme?\s+(in|of|en|im|de|du|des)\s+[a-zà-ÿ]",
-        r"\bstudienprogramm\s+[a-zà-ÿ]",
-    ]
-    return not any(re.search(pattern, q) for pattern in named_markers)
-
-
-def _looks_like_named_program_question(question: str) -> bool:
-    q = _normalize_text(question)
-
-    named_patterns = [
-        r"\b(bachelor|master)\s+(in|of|en|im|in der|in die|de|du|des)\s+[a-zà-ÿ]",
-        r"\bprogramme?\s+(in|of|en|im|de|du|des)\s+[a-zà-ÿ]",
-        r"\bstudienprogramm\s+[a-zà-ÿ]",
-        r"\bstudy\s+programme?\s+[a-zà-ÿ]",
-        r"\bteacher\s+training\b",
-        r"\binformatique\s+de\s+gestion\b",
-        r"\bbusiness\s+informatics\b",
-    ]
-    return any(re.search(pattern, q) for pattern in named_patterns)
-
-
-def _query_source_intent(question: str) -> str:
-    q = (question or "").lower()
-
-    regulations_terms = [
-        "reglement", "regulation", "regulations", "ordnung", "article", "artikel",
-        "paragraph", "§", "admission requirements", "zulassung", "exam regulation",
-        "quality assurance", "failed exams", "repeating failed", "rules", "rule",
-    ]
-    base_terms = [
-        "which faculties exist", "faculties exist", "list of faculties",
-        "what faculties", "faculty list", "base data",
-    ]
-    course_terms = [
-        "course", "courses", "module", "modules", "semester", "study plan",
-        "curriculum", "kurs", "kurse", "modul", "studienplan", "pflichtfach",
-        "wahlfach", "recommended course", "obligatory course", "mandatory",
-        "course code", "suggested order", "order of courses", "contained", "enthalten",
-    ]
-    program_overview_terms = [
-        "what can you tell me about", "profile", "skills", "skill", "competencies",
-        "competences", "learning outcomes", "electives", "structure", "structured",
-        "language of instruction", "langue d'enseignement", "unterrichtssprache",
-        "teaching language", "student of", "teacher training", "trianing",
-    ]
-
-    # Regulations have their own document family; keep this strong even though
-    # base_data pages may mention similar administrative words.
-    if any(term in q for term in regulations_terms):
-        return "reglementations"
-
-    # Generic degree facts should use base_data.  Do this before course_terms so
-    # "How many ECTS credits does a master program have?" is not misread as a
-    # course-list query just because it contains "ECTS".
-    if _looks_like_generic_degree_question(question):
-        return "base_data"
-
-    if any(term in q for term in base_terms):
-        return "base_data"
-
-    # Named programme questions, including profile/skills/language questions,
-    # are programme-document questions even if they do not explicitly say
-    # "course".
-    if _looks_like_named_program_question(question) or any(term in q for term in course_terms + program_overview_terms):
-        return "studyplans"
-
-    return "base_data"
-
-def _source_priority_score(intent: str, metadata: dict) -> float:
-    source = str(metadata.get("rag_source") or metadata.get("category") or "")
-    # This is still soft routing: non-primary stores remain eligible, but the
-    # primary source should not lose to generic keyword overlap.  The previous
-    # 80/25 gap was too small for generic base_data chunks.
-    if intent == "base_data":
-        return {"base_data": 220.0, "reglementations": 35.0, "studyplans": 20.0}.get(source, 0.0)
-    if intent == "reglementations":
-        return {"reglementations": 220.0, "base_data": 35.0, "studyplans": 20.0}.get(source, 0.0)
-    return {"studyplans": 220.0, "base_data": 35.0, "reglementations": 20.0}.get(source, 0.0)
-
-
 def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Document], Dict[str, Any]]:
     degree = _detect_degree(question)
     ects = _detect_total_ects(question)
     year = _detect_year(question)
-    course_codes = _extract_course_codes(question)
     program = _detect_program(question, db, degree=degree, ects=ects)
 
     debug_info = {
@@ -536,52 +426,28 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
         "detected_degree": degree,
         "detected_ects": ects,
         "detected_year": year,
-        "detected_course_codes": course_codes,
         "retrieval_mode": "metadata_first",
     }
 
     all_docs = list(_iter_docstore_docs(db))
 
-    metadata_candidates = [
+    candidates = [
         d for d in all_docs
         if (not program or _metadata_matches_program(d.metadata or {}, program))
         and _metadata_matches_degree(d.metadata or {}, degree)
         and _metadata_matches_ects(d.metadata or {}, ects)
     ]
 
-    debug_info["candidate_count_after_program_degree_ects"] = len(metadata_candidates)
-
-    enriched_query = _enrich_query(question, program, degree, ects, year)
-    fetch_k = max(k * 20, 120)
-    vector_candidates = db.as_retriever(search_kwargs={"k": fetch_k}).invoke(enriched_query)
-
-    # Prefer semantically retrieved chunks, then apply hard metadata filters.
-    # If FAISS misses the right programme entirely, fall back to metadata scanning.
-    candidates = [
-        d for d in vector_candidates
-        if (not program or _metadata_matches_program(d.metadata or {}, program))
-        and _metadata_matches_degree(d.metadata or {}, degree)
-        and _metadata_matches_ects(d.metadata or {}, ects)
-    ]
-    debug_info["candidate_count_vector_filtered"] = len(candidates)
-
-    if program and len(candidates) < k:
-        seen_ids = {
-            d.metadata.get("chunk_id") or f"{d.metadata.get('source_file')}:{d.metadata.get('page')}:{d.page_content[:80]}"
-            for d in candidates
-        }
-        for d in metadata_candidates:
-            doc_id = d.metadata.get("chunk_id") or f"{d.metadata.get('source_file')}:{d.metadata.get('page')}:{d.page_content[:80]}"
-            if doc_id not in seen_ids:
-                candidates.append(d)
-                seen_ids.add(doc_id)
+    debug_info["candidate_count_after_program_degree_ects"] = len(candidates)
 
     if program and not candidates:
         debug_info["error"] = "Programme was detected, but no FAISS documents matched its metadata."
         return [], debug_info
 
     if not program:
-        candidates = vector_candidates
+        enriched_query = _enrich_query(question, program, degree, ects, year)
+        fetch_k = max(k * 8, 40)
+        candidates = db.as_retriever(search_kwargs={"k": fetch_k}).invoke(enriched_query)
         debug_info["candidate_count_global_fallback"] = len(candidates)
 
     year_candidates = candidates
@@ -599,14 +465,12 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
             )
 
     q_tokens = _tokens(question)
-    source_intent = _query_source_intent(question)
-    debug_info["source_intent"] = source_intent
 
     def score_doc(doc: Document) -> float:
         md = doc.metadata or {}
         text = _normalize_text(doc.page_content + " " + json.dumps(md, ensure_ascii=False))
 
-        score = _source_priority_score(source_intent, md)
+        score = 0.0
 
         if program and _metadata_matches_program(md, program):
             score += 100.0
@@ -626,14 +490,8 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
         if md.get("contains_table"):
             score += 20.0
 
-        if COURSE_CODE_RE.search(doc.page_content):
+        if re.search(r"\b[A-ZÄÖÜ]{2,4}\.\d{5}\b", doc.page_content):
             score += 15.0
-
-        for code in course_codes:
-            if code in doc.page_content:
-                score += 250.0
-            elif code.split(".")[-1] in doc.page_content:
-                score += 40.0
 
         doc_tokens = set(text.split())
         score += len(q_tokens & doc_tokens) * 2.0
@@ -694,23 +552,11 @@ def _translate_query(question: str, target_language_code: str, llm: ChatOllama) 
 
 
 def _retrieve_metadata_and_language_aware(
-    db: FAISS | Dict[str, FAISS],
+    db: FAISS,
     question: str,
     k: int,
     language: str | None = None,
 ) -> Tuple[List[Document], Dict[str, Any]]:
-    # /debug/retrieve in auto mode passes a mapping of vectorstores.  Delegate
-    # to the weighted multi-source retriever instead of treating the mapping like
-    # a FAISS instance.  This fixes: AttributeError: 'dict' object has no
-    # attribute 'as_retriever'.
-    if isinstance(db, dict):
-        return _retrieve_multi_vectorstores(
-            dbs=db,
-            question=question,
-            k=k,
-            language=language,
-        )
-
     llm = ChatOllama(
         model=settings.ollama_model,
         temperature=0,
@@ -897,194 +743,22 @@ def debug_chunk_file(path: str, category: str = "studyplans", limit: int = 10):
         print(ch.metadata)
         print(ch.page_content[:1200])
 
-def _doc_key(doc: Document) -> str:
-    md = doc.metadata or {}
-    return str(
-        md.get("chunk_id")
-        or f"{md.get('category')}:{md.get('source') or md.get('source_file')}:{md.get('page') or md.get('page_start')}:{doc.page_content[:120]}"
-    )
-
-
-def _source_category(metadata: Dict[str, Any]) -> str:
-    return str(
-        metadata.get("rag_source")
-       or metadata.get("category")
-        or metadata.get("source_category")
-        or "unknown"
-    )
-
-
-def _multi_source_quotas(intent: str, final_k: int) -> Dict[str, int]:
-    """Candidate quotas per vectorstore.
-
-    This intentionally does not hard-route to one vectorstore.  It gives the
-    most likely source the largest candidate budget, but still lets the other
-    stores contribute evidence that can win during reranking.
-    """
-    base = {"studyplans": 6, "reglementations": 6, "base_data": 6}
-    if intent == "reglementations":
-        base.update({"reglementations": 16, "base_data": 5, "studyplans": 3})
-    elif intent == "studyplans":
-        base.update({"studyplans": 16, "base_data": 5, "reglementations": 3})
-    elif intent == "base_data":
-        base.update({"base_data": 16, "studyplans": 5, "reglementations": 3})
-
-    # Make sure tiny k values do not starve the reranker during normal /ask.
-    scale = max(1.0, final_k / 8.0)
-    return {name: max(2, int(round(value * scale))) for name, value in base.items()}
-
-
-def _rerank_merged_docs(
-    docs: List[Document],
-    question: str,
-    final_k: int,
-    preferred_intent: str | None = None,
-) -> List[Document]:
-    degree = _detect_degree(question)
-    ects = _detect_total_ects(question)
-    year = _detect_year(question)
-    course_codes = _extract_course_codes(question)
-    q_tokens = _tokens(question)
-    intent = preferred_intent or _query_source_intent(question)
-
-    def score_doc(doc: Document) -> float:
-        md = doc.metadata or {}
-        source = _source_category(md)
-        text_norm = _normalize_text(doc.page_content + " " + json.dumps(md, ensure_ascii=False))
-        doc_tokens = set(text_norm.split())
-
-        score = _source_priority_score(intent, {**md, "category": source})
-
-        if degree and md.get("degree_level") == degree:
-            score += 20.0
-        if ects is not None and md.get("total_ects") == ects:
-            score += 10.0
-        if year and _doc_matches_year(doc, year):
-            score += 35.0
-
-        # Prefer structured/table-like chunks for course-list questions, but do
-        # not over-boost tables for regulations/base facts.
-        q_low = (question or "").lower()
-        asks_courses = any(x in q_low for x in ["course", "courses", "module", "modules", "kurs", "kurse", "modul"])
-        if asks_courses and (md.get("chunk_type") == "table" or md.get("contains_table")):
-            score += 25.0
-        elif md.get("chunk_type") == "table" or md.get("contains_table"):
-            score += 5.0
-
-        for code in course_codes:
-            if code in doc.page_content:
-                score += 250.0
-            elif code.split(".")[-1] in doc.page_content:
-                score += 40.0
-
-        # Exact phrase/title/metadata matches are often more reliable than dense
-        # similarity for short programme names such as "History".
-        for field in ["program_name", "program_key", "title", "doc_label", "section"]:
-            value = _normalize_text(md.get(field))
-            if value and value in _normalize_text(question):
-                score += 18.0
-
-        score += len(q_tokens & doc_tokens) * 2.0
-
-        # Penalize obvious cross-program noise when a concrete degree was asked.
-        if degree and md.get("degree_level") and md.get("degree_level") != degree:
-            score -= 15.0
-
-        return score
-
-    unique: Dict[str, Document] = {}
-    for doc in docs:
-        unique.setdefault(_doc_key(doc), doc)
-
-    ranked = sorted(unique.values(), key=score_doc, reverse=True)
-    return ranked[:final_k]
-
-
-def _retrieve_multi_vectorstores(
-    dbs: Dict[str, FAISS],
-    question: str,
-    k: int,
-    language: str | None = None,
-) -> Tuple[List[Document], Dict[str, Any]]:
-    intent = _query_source_intent(question)
-    quotas = _multi_source_quotas(intent, max(k, 8))
-    all_docs: List[Document] = []
-    per_source_debug: Dict[str, Any] = {}
-
-    # Search all available stores with intent-weighted quotas.  The reranker
-    # below decides the final order.
-    for source_name, db in dbs.items():
-        if db is None:
-            continue
-        quota = quotas.get(source_name, 4)
-        try:
-            docs, debug = _retrieve_metadata_and_language_aware(
-                db=db,
-                question=question,
-                k=quota,
-                language=language,
-            )
-        except Exception as exc:
-            per_source_debug[source_name] = {"error": str(exc), "quota": quota}
-            continue
-
-        for doc in docs:
-            doc.metadata = dict(doc.metadata or {})
-            doc.metadata.setdefault("category", source_name)
-            doc.metadata.setdefault("rag_source", source_name)
-            doc.metadata["source_retrieval_quota"] = quota
-        all_docs.extend(docs)
-        per_source_debug[source_name] = {"quota": quota, "returned": len(docs), "debug": debug}
-
-    final_docs = _rerank_merged_docs(all_docs, question=question, final_k=k, preferred_intent=intent)
-    debug = {
-        "retrieval_mode": "multi_vectorstore_weighted_rerank",
-        "source_intent": intent,
-        "quotas": quotas,
-        "per_source": per_source_debug,
-        "candidate_count_before_dedupe": len(all_docs),
-        "returned_count": len(final_docs),
-        "returned_sources": [
-            _source_category(d.metadata or {}) for d in final_docs
-        ],
-        "returned_programs": sorted({
-            str((d.metadata or {}).get("program_name"))
-            for d in final_docs
-            if (d.metadata or {}).get("program_name")
-        }),
-    }
-    for doc in final_docs:
-        doc.metadata = dict(doc.metadata or {})
-        doc.metadata["retrieval_debug"] = debug
-    return final_docs, debug
-
 
 def answer_question(
     db: FAISS,
     question: str,
     k: int | None = None,
     language: str | None = None,
-) -> Tuple[str, List[dict], list]:
+) -> Tuple[str, List[dict]]:
     final_k = k or settings.k
 
-    # Keep enough candidates for the reranker even when settings.k is small.
-    final_k = max(final_k, 8)
-
     with timed_step("rag.retrieve", k=final_k):
-        if isinstance(db, dict):
-            docs, retrieval_debug = _retrieve_multi_vectorstores(
-                dbs=db,
-                question=question,
-                k=final_k,
-                language=language,
-            )
-        else:
-            docs, retrieval_debug = _retrieve_metadata_and_language_aware(
-                db=db,
-                question=question,
-                k=final_k,
-                language=language,
-            )
+        docs, retrieval_debug = _retrieve_metadata_and_language_aware(
+            db=db,
+            question=question,
+            k=final_k,
+            language=language,
+        )
 
     if not docs:
         fallback_by_language = {
@@ -1095,7 +769,7 @@ def answer_question(
             "es": "No encontré fuentes relevantes en los documentos para responder a la pregunta.",
         }
         code = _normalize_language_code(language) or "en"
-        return fallback_by_language.get(code, fallback_by_language["en"]), [], []
+        return fallback_by_language.get(code, fallback_by_language["en"]), []
 
     context_parts = []
 
@@ -1152,7 +826,7 @@ def answer_question(
             }
         )
 
-    return resp.content, sources, docs
+    return resp.content, sources
 
 
 def debug_find_chunks_for_doc(
