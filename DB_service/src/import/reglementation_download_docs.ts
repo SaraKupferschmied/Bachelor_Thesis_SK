@@ -1,4 +1,4 @@
-import "../environments/environment";
+//import "../environments/environment";
 
 import fs from "fs";
 import path from "path";

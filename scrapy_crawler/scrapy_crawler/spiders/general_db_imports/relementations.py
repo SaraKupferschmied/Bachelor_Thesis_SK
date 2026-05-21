@@ -44,15 +44,18 @@ class ReglementationSpider(scrapy.Spider):
         },
     }
 
+    # Crawl only the German Rechtsetzung entry page.
+    # The German and French legal pages point to the same underlying documents,
+    # so crawling both creates duplicate rows and duplicate downloads.
     start_urls = [
         "https://www.unifr.ch/uni/de/rechtsetzung/",
-        "https://www.unifr.ch/uni/fr/legislation/",
     ]
 
+    # Only accept German legal pages.
     LEGAL_PAGE_RE = re.compile(
-        r"https?:\\?/\\?/webapps\.unifr\.ch\\?/legal\\?/(de|fr)\\?/([0-9][0-9.]+)"
+        r"https?:\\?/\\?/webapps\.unifr\.ch\\?/legal\\?/de\\?/([0-9][0-9.]+)"
     )
-    LEGAL_PAGE_REL_RE = re.compile(r"/legal/(de|fr)/([0-9][0-9.]+)")
+    LEGAL_PAGE_REL_RE = re.compile(r"/legal/de/([0-9][0-9.]+)")
     CURRENT_LOAD_RE = re.compile(r"/legal/(de|fr)/load/(\d+)")
     CURRENT_DOWNLOAD_RE = re.compile(r"/legal/(de|fr)/download/(\d+)")
     CD_FILENAME_RE = re.compile(r"filename\*?=(?:UTF-8''|\"?)([^\";]+)\"?", re.IGNORECASE)
@@ -186,28 +189,32 @@ class ReglementationSpider(scrapy.Spider):
             "//select[@id='legal--version_selector']/option[@selected]/@value"
         ).get()
         if selected:
-            return norm(selected)
+            selected = norm(selected)
+            if selected != "9999":
+                return selected
 
         first_option = response.xpath(
             "//select[@id='legal--version_selector']/option[1]/@value"
         ).get()
         if first_option:
-            return norm(first_option)
+            first_option = norm(first_option)
+            if first_option != "9999":
+                return first_option
 
         html_text = response.text or ""
 
-        load_match = self.CURRENT_LOAD_RE.search(html_text)
-        if load_match:
-            return load_match.group(2)
+        load_matches = [m.group(2) for m in self.CURRENT_LOAD_RE.finditer(html_text) if m.group(2) != "9999"]
+        if load_matches:
+            return load_matches[0]
 
-        download_match = self.CURRENT_DOWNLOAD_RE.search(html_text)
-        if download_match and download_match.group(2) != "9999":
-            return download_match.group(2)
+        download_matches = [m.group(2) for m in self.CURRENT_DOWNLOAD_RE.finditer(html_text) if m.group(2) != "9999"]
+        if download_matches:
+            return download_matches[0]
 
         # The actual id can also appear as fallback id = "5509668";
-        fallback_id = re.search(r'id\s*=\s*[\"\'](\d{4,})[\"\']', html_text)
-        if fallback_id:
-            return fallback_id.group(1)
+        fallback_ids = [m.group(1) for m in re.finditer(r'id\s*=\s*[\"\'](\d{4,})[\"\']', html_text) if m.group(1) != "9999"]
+        if fallback_ids:
+            return fallback_ids[0]
 
         return None
 
@@ -247,8 +254,8 @@ class ReglementationSpider(scrapy.Spider):
             if doc:
                 docs.append(doc)
 
-        for lang, code in self.LEGAL_PAGE_REL_RE.findall(html_text):
-            raw_url = f"https://webapps.unifr.ch/legal/{lang}/{code}"
+        for code in self.LEGAL_PAGE_REL_RE.findall(html_text):
+            raw_url = f"https://webapps.unifr.ch/legal/de/{code}"
             doc = self._doc_from_href(raw_url, None, None, response)
             if doc:
                 docs.append(doc)
@@ -293,11 +300,12 @@ class ReglementationSpider(scrapy.Spider):
         if parsed.netloc != "webapps.unifr.ch":
             return None
 
-        match = re.search(r"/legal/(de|fr)/([0-9][0-9.]+)$", parsed.path)
+        match = re.search(r"/legal/de/([0-9][0-9.]+)$", parsed.path)
         if not match:
             return None
 
-        lang, legal_code = match.groups()
+        lang = "de"
+        legal_code = match.group(1)
 
         return {
             "title": self._clean_title(raw_text),

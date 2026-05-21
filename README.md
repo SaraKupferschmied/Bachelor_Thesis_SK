@@ -212,3 +212,5 @@ python DB_service\src\import\match_faculty_docs_to_programs.py ^
   --out scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_faculty_documents.json ^
   --audit-out scrapy_crawler\scrapy_crawler\spider_outputs\document_program_match_audit.json ^
   --unmatched-docs-out scrapy_crawler\scrapy_crawler\spider_outputs\unmatched_faculty_documents.json
+
+npx tsx DB_service/src/import/01_download_faculty_docs_v3.ts ^  --matched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/programmes_with_faculty_documents_patched.json ^  --unmatched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/unmatched_faculty_documents_remaining.json ^  --out ./scrapy_crawler/outputs/faculty_docs_v3 ^  --concurrency 6
