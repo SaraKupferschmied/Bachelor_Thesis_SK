@@ -1,0 +1,432 @@
+[
+  {
+    "programme_index": 45,
+    "programme": "Teacher Education for Primary Level",
+    "programme_level": "B",
+    "programme_ects": 180,
+    "document_index": 0,
+    "document_program_name": "Textiles und Technisches Gestalten",
+    "document_label": "Fach (30 ECTS-Kreditpunkte)",
+    "document_url": "https://cdn.unifr.ch/eduform/plans/current/Fach_TTG_30%20(1537)%2028%2003%202025.pdf",
+    "document_ects_values": [
+      30
+    ],
+    "reason": "patch_teacher_education_generic"
+  },
+  {
+    "programme_index": 45,
+    "programme": "Teacher Education for Primary Level",
+    "programme_level": "B",
+    "programme_ects": 180,
+    "document_index": 1,
+    "document_program_name": "Textiles und Technisches Gestalten",
+    "document_label": "Fach (50 ECTS-Kreditpunkte)",
+    "document_url": "https://cdn.unifr.ch/eduform/plans/current/Fach_TTG_50%20(1535)%2028%2003%202025.pdf",
+    "document_ects_values": [
+      50
+    ],
+    "reason": "patch_teacher_education_generic"
+  },
+  {
+    "programme_index": 45,
+    "programme": "Teacher Education for Primary Level",
+    "programme_level": "B",
+    "programme_ects": 180,
+    "document_index": 2,
+    "document_program_name": "Bildnerisches Gestalten",
+    "document_label": "Fach (50 ECTS-Kreditpunkte)",
+    "document_url": "https://cdn.unifr.ch/eduform/plans/current/Fach_BG_50%20(1533)%2028%2003%202025.pdf",
+    "document_ects_values": [
+      50
+    ],
+    "reason": "patch_teacher_education_generic"
+  },
+  {
+    "programme_index": 45,
+    "programme": "Teacher Education for Primary Level",
+    "programme_level": "B",
+    "programme_ects": 180,
+    "document_index": 3,
+    "document_program_name": "Wirtschaft, Arbeit, Haushalt",
+    "document_label": "Fach (50 ECTS-Kreditpunkte)",
+    "document_url": "https://cdn.unifr.ch/eduform/plans/current/Fach_WAH_50%20(1534)%2028%2003%202025.pdf",
+    "document_ects_values": [
+      50
+    ],
+    "reason": "patch_teacher_education_generic"
+  },
+  {
+    "programme_index": 39,
+    "programme": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+    "programme_level": "M",
+    "programme_ects": 106,
+    "document_index": 4,
+    "document_program_name": "Logopädie",
+    "document_label": "Master Major (90 ECTS-Kreditpunkte)",
+    "document_url": "https://cdn.unifr.ch/eduform/plans/current/MSc_SP_90%20(1504)%2005%2006%202025.pdf",
+    "document_ects_values": [
+      90
+    ],
+    "reason": "patch_teacher_education_generic"
+  },
+  {
+    "programme_index": 336,
+    "programme": "Legal Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 5,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Studienplan MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 339,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 5,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Studienplan MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 344,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 5,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Studienplan MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 336,
+    "programme": "Legal Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 6,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Präsentation MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 339,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 6,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Präsentation MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 344,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 6,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Präsentation MALS",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 336,
+    "programme": "Legal Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 7,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Leitfaden «Mein MALS-Studium»",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 339,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 7,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Leitfaden «Mein MALS-Studium»",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 344,
+    "programme": "Law",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 7,
+    "document_program_name": "MALS – Jusstudium für Nicht-Jurist_innen",
+    "document_label": "Leitfaden «Mein MALS-Studium»",
+    "document_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf",
+    "document_ects_values": [
+      35
+    ],
+    "reason": "patch_law_fallback"
+  },
+  {
+    "programme_index": 44,
+    "programme": "Teacher Education for Secondary Level I",
+    "programme_level": "B",
+    "programme_ects": 150,
+    "document_index": 10,
+    "document_program_name": "Introduction aux branches à choix BSc_SI",
+    "document_label": "Introduction aux branches à choix BSc_SI",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_Intro_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_teacher_education_secondary_i"
+  },
+  {
+    "programme_index": 44,
+    "programme": "Teacher Education for Secondary Level I",
+    "programme_level": "B",
+    "programme_ects": 150,
+    "document_index": 11,
+    "document_program_name": "Introduction aux branches à choix BA_SI",
+    "document_label": "Introduction aux branches à choix BA_SI",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BASI-SciMed_Intro_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_teacher_education_secondary_i"
+  },
+  {
+    "programme_index": 44,
+    "programme": "Teacher Education for Secondary Level I",
+    "programme_level": "B",
+    "programme_ects": 150,
+    "document_index": 12,
+    "document_program_name": "Sciences naturelles",
+    "document_label": "Sciences naturelles",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_SN_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_teacher_education_secondary_i"
+  },
+  {
+    "programme_index": 73,
+    "programme": "Environmental Sciences and Humanities",
+    "programme_level": "M",
+    "programme_ects": 30,
+    "document_index": 15,
+    "document_program_name": "Sciences de l'environnement propédeutiques",
+    "document_label": "Sciences de l'environnement propédeutiques",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_SE_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_sciences_smallest"
+  },
+  {
+    "programme_index": 75,
+    "programme": "Environmental Sciences and Humanities",
+    "programme_level": "B",
+    "programme_ects": 30,
+    "document_index": 15,
+    "document_program_name": "Sciences de l'environnement propédeutiques",
+    "document_label": "Sciences de l'environnement propédeutiques",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_SE_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_sciences_smallest"
+  },
+  {
+    "programme_index": 75,
+    "programme": "Environmental Sciences and Humanities",
+    "programme_level": "B",
+    "programme_ects": 30,
+    "document_index": 17,
+    "document_program_name": "Branches complémentaires en sciences de l'environnement",
+    "document_label": "Branches complémentaires en sciences de l'environnement",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_SE_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_sciences_smallest"
+  },
+  {
+    "programme_index": 35,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 30,
+    "document_index": 18,
+    "document_program_name": "Master minor in environmental sciences and humanities",
+    "document_label": "Master minor in environmental sciences and humanities",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCm_SE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 36,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 18,
+    "document_program_name": "Master minor in environmental sciences and humanities",
+    "document_label": "Master minor in environmental sciences and humanities",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCm_SE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 35,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 30,
+    "document_index": 19,
+    "document_program_name": "Master minor in environmental humanities and ethics",
+    "document_label": "Master minor in environmental humanities and ethics",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCm_SE-HE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 36,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 19,
+    "document_program_name": "Master minor in environmental humanities and ethics",
+    "document_label": "Master minor in environmental humanities and ethics",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCm_SE-HE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 35,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 30,
+    "document_index": 20,
+    "document_program_name": "Environmental sciences and humanities",
+    "document_label": "Master of Science in Environmental sciences and humanities",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_SE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 36,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 20,
+    "document_program_name": "Environmental sciences and humanities",
+    "document_label": "Master of Science in Environmental sciences and humanities",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_SE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 35,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 30,
+    "document_index": 21,
+    "document_program_name": "Environmental humanities and ethics in interdisciplinary contexts",
+    "document_label": "Master of Science in Environmental humanities and ethics in interdisciplinary contexts",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_HE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 36,
+    "programme": "Environmental Humanities and Sustainability Studies",
+    "programme_level": "M",
+    "programme_ects": 90,
+    "document_index": 21,
+    "document_program_name": "Environmental humanities and ethics in interdisciplinary contexts",
+    "document_label": "Master of Science in Environmental humanities and ethics in interdisciplinary contexts",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_HE_en.pdf",
+    "document_ects_values": [],
+    "reason": "patch_environmental_humanities"
+  },
+  {
+    "programme_index": 23,
+    "programme": "Human Medicine",
+    "programme_level": "M",
+    "programme_ects": 180,
+    "document_index": 22,
+    "document_program_name": "Master of Medicine in Medicine",
+    "document_label": "Master of Medicine in Medicine (FR)",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MMed_fr.pdf",
+    "document_ects_values": [],
+    "reason": "patch_human_medicine"
+  },
+  {
+    "programme_index": 39,
+    "programme": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+    "programme_level": "M",
+    "programme_ects": 106,
+    "document_index": 32,
+    "document_program_name": "DAES / DEEM",
+    "document_label": "Studienplan (50 ECTS)",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufe%20I_studienplan%20.pdf",
+    "document_ects_values": [
+      50
+    ],
+    "reason": "patch_teacher_education_combined"
+  },
+  {
+    "programme_index": 39,
+    "programme": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+    "programme_level": "M",
+    "programme_ects": 106,
+    "document_index": 33,
+    "document_program_name": "DAES / DEEM",
+    "document_label": "Ausbildung für den Unterricht auf der Sekundarstufe I",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/doc%2520etudes/Plan_DAESI_2019.pdf",
+    "document_ects_values": [],
+    "reason": "patch_teacher_education_combined"
+  },
+  {
+    "programme_index": 39,
+    "programme": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+    "programme_level": "M",
+    "programme_ects": 106,
+    "document_index": 34,
+    "document_program_name": "DAES / DEEM",
+    "document_label": "Studienplan (90 ECTS)",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufeII_studienplan.pdf",
+    "document_ects_values": [
+      90
+    ],
+    "reason": "patch_teacher_education_combined"
+  },
+  {
+    "programme_index": 354,
+    "programme": "Interreligious Studies",
+    "programme_level": "B",
+    "programme_ects": 60,
+    "document_index": 51,
+    "document_program_name": "Nebenprogramm Nebenprogramm 60 ECTS",
+    "document_label": "Studienplan für nicht-TheologInnen",
+    "document_url": "https://www.unifr.ch/theo/fr/assets/public/doc%2520etudes/Nebenprogramme_Programmessecondaires_Interreligioese_Studien_BA_MA.pdf",
+    "document_ects_values": [
+      60
+    ],
+    "reason": "patch_interreligious_studies"
+  }
+]

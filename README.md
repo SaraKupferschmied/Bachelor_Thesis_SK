@@ -203,3 +203,12 @@ python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template
 python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new6.xlsx --base-url http://localhost:8000 
 
 python run_ask_answer_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_ask_only_possible_results.xlsx --base-url http://localhost:8000 
+
+python DB_service\src\import\normalize_faculty_documents.py ^  --input-dir scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json
+
+python DB_service\src\import\match_faculty_docs_to_programs.py ^ 
+  --programmes scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_curricula_enriched.json ^
+  --docs scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json ^
+  --out scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_faculty_documents.json ^
+  --audit-out scrapy_crawler\scrapy_crawler\spider_outputs\document_program_match_audit.json ^
+  --unmatched-docs-out scrapy_crawler\scrapy_crawler\spider_outputs\unmatched_faculty_documents.json

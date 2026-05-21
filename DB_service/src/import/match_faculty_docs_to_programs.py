@@ -621,7 +621,15 @@ def attach_documents(
     audit: list[dict[str, Any]] = []
     unmatched_docs: list[dict[str, Any]] = []
 
-    for d_idx, doc in enumerate(docs):
+    total_docs = len(docs)
+
+    for d_idx, doc in enumerate(docs, start=1):
+
+        if d_idx == 1 or d_idx % 25 == 0 or d_idx == total_docs:
+            print(
+                f"[{d_idx}/{total_docs}] matching "
+                f"{doc.get('program_name') or doc.get('document_label') or doc.get('document_url')}"
+            )
         selected = select_matches_for_doc(programmes, doc, threshold)
 
         if not selected:
