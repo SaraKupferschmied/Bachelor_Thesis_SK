@@ -1,7 +1,7 @@
-import glob
+
 import json
 import re
-from typing import Iterable, List, Dict, Optional
+from typing import Iterable, List, Dict, Any
 
 import scrapy
 
@@ -21,7 +21,7 @@ def iter_course_objects(path: str) -> Iterable[dict]:
     Robustly iterate objects from:
       1) JSON array: [ {...}, {...} ]
       2) JSONL:      {...}\n{...}\n
-      3) Comma-separated objects as in your sample (optionally wrapped or not)
+      3) Comma-separated objects, optionally partly wrapped
     """
     decoder = json.JSONDecoder()
 
@@ -31,7 +31,6 @@ def iter_course_objects(path: str) -> Iterable[dict]:
     if not text:
         return
 
-    # If it's a proper JSON array or object, try normal parsing first
     if text[0] in "[{":
         try:
             data = json.loads(text)
@@ -44,14 +43,11 @@ def iter_course_objects(path: str) -> Iterable[dict]:
                 yield data
                 return
         except json.JSONDecodeError:
-            # fall back to streaming decode below
             pass
 
-    # Streaming decode: walk through text and decode objects one by one
     i = 0
     n = len(text)
     while i < n:
-        # skip whitespace and commas and array brackets
         while i < n and text[i] in " \r\n\t,[":
             i += 1
         if i < n and text[i] == "]":
@@ -65,21 +61,41 @@ def iter_course_objects(path: str) -> Iterable[dict]:
         i = j
 
 
+def ensure_list(value: Any) -> List[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [normalize_name(str(x)) for x in value if normalize_name(str(x))]
+    if isinstance(value, str):
+        value = normalize_name(value)
+        return [value] if value else []
+    return []
+
+
 def extract_names_from_courses_file(path: str) -> List[str]:
     names: Dict[str, str] = {}
 
-    for row in iter_course_objects(path):
-        teaching = (row.get("teaching") or {})
-        for field in ["Verantwortliche", "Dozenten-innen"]:
-            arr = teaching.get(field) or []
-            if not isinstance(arr, list):
-                continue
-            for n in arr:
-                nn = normalize_name(n)
-                if nn:
-                    names[name_key(nn)] = nn
+    teaching_fields = [
+        "Verantwortliche",
+        "Dozenten-innen",
+        "Responsibles",
+        "Teachers",
+        "Assistants",
+        "Enseignants",
+        "Responsables",
+        "Chargé-e-s de cours",
+    ]
 
-    return sorted(names.values())
+    for row in iter_course_objects(path):
+        teaching = row.get("teaching") or {}
+        if not isinstance(teaching, dict):
+            continue
+
+        for field in teaching_fields:
+            for person_name in ensure_list(teaching.get(field)):
+                names[name_key(person_name)] = person_name
+
+    return sorted(names.values(), key=lambda s: s.lower())
 
 
 class UnifrDirectorySpider(scrapy.Spider):
@@ -87,21 +103,37 @@ class UnifrDirectorySpider(scrapy.Spider):
     allowed_domains = ["www.unifr.ch"]
     start_urls = ["https://www.unifr.ch/directory/de"]
 
+    custom_settings = {
+        "ROBOTSTXT_OBEY": True,
+        "DOWNLOAD_DELAY": 0.2,
+        "CONCURRENT_REQUESTS_PER_DOMAIN": 2,
+        "FEED_EXPORT_ENCODING": "utf-8",
+        "DEFAULT_REQUEST_HEADERS": {
+            "User-Agent": "Mozilla/5.0 (compatible; unifr-directory-scraper/2.0)",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+    }
+
     def __init__(self, courses_file="courses.json", *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.courses_file = courses_file
         self.people_names = extract_names_from_courses_file(self.courses_file)
 
     def parse(self, response: scrapy.http.Response):
-        # CSRF token is in <meta name="csrf-token" content="...">
         token = response.css('meta[name="csrf-token"]::attr(content)').get()
         if not token:
             self.logger.error("Could not find csrf-token meta tag on /directory/de")
             return
 
         if not self.people_names:
-            self.logger.warning("No names found from courses files glob: %s", self.courses_glob)
+            self.logger.warning("No names found in courses_file=%s", self.courses_file)
             return
+
+        self.logger.info(
+            "Searching UNIFR directory for %s unique teaching names from %s",
+            len(self.people_names),
+            self.courses_file,
+        )
 
         for full_name in self.people_names:
             yield scrapy.FormRequest(
@@ -117,12 +149,8 @@ class UnifrDirectorySpider(scrapy.Spider):
             )
 
     def parse_search(self, response: scrapy.http.Response, query_name: str):
-        """
-        The search results page layout can change; we try to find links to /directory/de/people/...
-        Then choose the best match based on displayed name similarity.
-        """
         links = response.css('a[href*="/directory/de/people/"]::attr(href)').getall()
-        links = list(dict.fromkeys(links))  # preserve order, dedup
+        links = list(dict.fromkeys(links))
 
         if not links:
             yield {
@@ -136,7 +164,6 @@ class UnifrDirectorySpider(scrapy.Spider):
             }
             return
 
-        # Build candidate list with their visible link text (best-effort)
         candidates = []
         for a in response.css('a[href*="/directory/de/people/"]'):
             href = a.attrib.get("href")
@@ -144,8 +171,6 @@ class UnifrDirectorySpider(scrapy.Spider):
             if href:
                 candidates.append((href, txt))
 
-        # pick "best" link:
-        # 1) exact text match if present
         qk = name_key(query_name)
         best_href = None
 
@@ -154,7 +179,14 @@ class UnifrDirectorySpider(scrapy.Spider):
                 best_href = href
                 break
 
-        # 2) else fallback to first people link on page
+        if not best_href:
+            reversed_query = self._reverse_name(query_name)
+            rqk = name_key(reversed_query)
+            for href, txt in candidates:
+                if txt and name_key(txt) == rqk:
+                    best_href = href
+                    break
+
         if not best_href:
             best_href = links[0]
 
@@ -167,22 +199,18 @@ class UnifrDirectorySpider(scrapy.Spider):
         )
 
     def parse_person(self, response: scrapy.http.Response, query_name: str, person_url: str):
-        # Name shown on page
         matched_name = normalize_name(response.css("h2::text").get())
 
-        # Email: <a href="mailto:...">
         email = response.css('a[href^="mailto:"]::text').get()
         email = normalize_name(email) if email else None
 
-        # Title: first <strong> inside the main details panel often contains the position/title
-        # Example: <p><strong>Wissenschaftliche_r Mitarbeiter_in</strong><br>...
         title = response.css(".directory--details p strong::text").get()
         title = normalize_name(title) if title else None
 
-        # Office/Büro: icon fa-building-o with title "Büro", then adjacent text in same row box
         office = None
         office_row = response.xpath(
-            "//i[contains(@class,'fa-building-o') and @title='Büro']/ancestor::div[contains(@class,'row') and contains(@class,'box')][1]"
+            "//i[contains(@class,'fa-building-o') and @title='Büro']"
+            "/ancestor::div[contains(@class,'row') and contains(@class,'box')][1]"
         )
         if office_row:
             office_txt = office_row.xpath(".//div[contains(@class,'col-xs-10')]//text()").getall()
@@ -198,3 +226,9 @@ class UnifrDirectorySpider(scrapy.Spider):
             "office": office,
             "status": "ok",
         }
+
+    def _reverse_name(self, name: str) -> str:
+        parts = normalize_name(name).split()
+        if len(parts) < 2:
+            return name
+        return " ".join(parts[1:] + parts[:1])

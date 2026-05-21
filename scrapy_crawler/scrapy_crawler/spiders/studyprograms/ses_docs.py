@@ -73,6 +73,17 @@ def extract_ects_from_page(response) -> int | None:
     nums = [n for n in nums if 30 <= n <= 300]
     return max(nums) if nums else None
 
+def is_detail_studyplan_page_link(text: str | None, href: str | None) -> bool:
+    t = lower_norm(text or "")
+    h = (href or "").lower()
+    return (
+        "detaillierte studienpläne" in t
+        or "detaillierte studienplaene" in t
+        or "plans d" in t and "études" in t
+        or "plans-d" in h and "tudes" in h
+        or "studienpl" in h
+    )
+
 
 def parse_nebenfach_section_meta(h: str) -> tuple[str | None, int | None, str]:
     """
@@ -378,16 +389,47 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
         }
 
     def parse_nebenfach_page(self, response):
-        """
-        Split Nebenfächer into separate emitted items instead of one big bucket.
+        data = dict(response.meta)
 
-        Strategy:
-          - Walk DOM in order; each H4 starts a "section" (BA 30, BA 60, MA 30, Lehrfach 50, ...)
-          - Collect doc links under that section
-          - Emit one item per doc-link with:
-              program.name_de = <minor name> (Nebenfach <B/M> <ects> ECTS)
-              program.ects = section ects (so it won't stay null)
-        """
+        # OLD behavior: parse direct Nebenfach docs on this page
+        yield from self._parse_nebenfach_docs(response)
+
+        # NEW behavior: additionally follow "Detaillierte Studienpläne"
+        followed = set(response.meta.get("followed_detail_pages", []))
+
+        for a in response.css("main#main a[href], a[href]"):
+            href = a.attrib.get("href")
+            if not href:
+                continue
+
+            text = clean_text(" ".join(a.css("::text").getall())) or ""
+            url = abs_href(response, href)
+
+            if (
+                url not in followed
+                and not is_doc_href(href)
+                and is_detail_studyplan_page_link(text, href)
+            ):
+                followed.add(url)
+                yield scrapy.Request(
+                    url,
+                    callback=self.parse_nebenfach_detail_page,
+                    meta={
+                        **data,
+                        "faculty": "SES",
+                        "category": "nebenfach",
+                        "page_url_de": data.get("page_url_de") or response.url,
+                        "detail_page_url_de": url,
+                        "followed_detail_pages": list(followed),
+                    },
+                    dont_filter=True,
+                )
+
+
+    def parse_nebenfach_detail_page(self, response):
+        yield from self._parse_nebenfach_docs(response)
+
+    def _parse_nebenfach_docs(self, response):
         data = dict(response.meta)
 
         page_title = clean_text(response.css("h1::text, h2::text").get()) or "Nebenfächer"
@@ -395,56 +437,74 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
         page_url_fr = alts.get("fr")
         page_url_en = alts.get("en")
 
-        sections: list[dict] = []
-        current: dict | None = None
+        sections = []
+        current = None
 
-        # Iterate over all elements inside main to keep document order
         for el in response.css("main#main *"):
             tag = getattr(el.root, "tag", None)
 
-            if tag == "h4":
+            if tag in {"h3", "h4"}:
                 htxt = clean_text(" ".join(el.css("::text").getall())) or ""
                 lvl, ects, heading = parse_nebenfach_section_meta(htxt)
-                current = {"heading": heading, "level": lvl, "ects": ects, "links": []}
-                sections.append(current)
+
+                # only start a section for headings that look relevant
+                if (
+                    "ects" in lower_norm(htxt)
+                    or "ba " in lower_norm(htxt)
+                    or "ma " in lower_norm(htxt)
+                    or "neben" in lower_norm(htxt)
+                ):
+                    current = {
+                        "heading": heading,
+                        "level": lvl,
+                        "ects": ects,
+                        "links": [],
+                    }
+                    sections.append(current)
                 continue
 
             if tag == "a" and current is not None:
                 href = el.attrib.get("href")
                 if not href:
                     continue
+
                 url = abs_href(response, href)
                 if not is_doc_href(url):
                     continue
+
                 label = clean_text(" ".join(el.css("::text").getall()))
                 current["links"].append((href, label))
 
-        # Fallback: if no h4 sections were discovered, behave like old version (still better than failing)
         if not sections:
-            hrefs = response.css("a[href]::attr(href)").getall()
+            hrefs = response.css("main#main a[href]::attr(href)").getall()
             docs = self.normalize_docs_with_labels(response, hrefs)
-            yield {
-                "faculty": data["faculty"],
-                "category": "nebenfach",
-                "program": {
-                    "name_de": page_title,
-                    "name_fr": None,
-                    "name_en": None,
-                    "ects": None,
-                    "page_url_de": data.get("page_url_de") or response.url,
-                    "page_url_fr": page_url_fr,
-                    "page_url_en": page_url_en,
-                },
-                "documents": docs,
-            }
+
+            if docs:
+                yield {
+                    "faculty": data.get("faculty", "SES"),
+                    "category": "nebenfach",
+                    "program": {
+                        "name_de": page_title,
+                        "name_fr": None,
+                        "name_en": None,
+                        "ects": None,
+                        "page_url_de": (
+                            data.get("detail_page_url_de")
+                            or data.get("page_url_de")
+                            or response.url
+                        ),
+                        "page_url_fr": page_url_fr,
+                        "page_url_en": page_url_en,
+                    },
+                    "documents": docs,
+                }
             return
 
-        # Emit one item per doc under each section
         for sec in sections:
-            sec_level = sec.get("level")  # 'B'/'M'/None
-            sec_ects = sec.get("ects")    # int|None
+            sec_level = sec.get("level")
+            sec_ects = sec.get("ects")
 
-            for (href, label) in sec.get("links", []):
+            for href, label in sec.get("links", []):
                 url = abs_href(response, href)
                 if not is_doc_href(url):
                     continue
@@ -452,7 +512,6 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
                 doc_label = clean_text(label) or url.split("/")[-1]
                 minor = minor_name_from_label(doc_label) or page_title
 
-                # Build a program name that is not just "Nebenfächer"
                 if sec_level in {"B", "M"} and sec_ects:
                     prog_name = f"{minor} (Nebenfach {sec_level} {sec_ects} ECTS)"
                 elif sec_ects:
@@ -465,15 +524,19 @@ class UnifrSesStudyPlansSpider(scrapy.Spider):
                     doc_item["source_type"] = "calameo"
 
                 yield {
-                    "faculty": data["faculty"],
+                    "faculty": data.get("faculty", "SES"),
                     "category": "nebenfach",
                     "level": sec_level,
                     "program": {
                         "name_de": prog_name,
                         "name_fr": None,
                         "name_en": None,
-                        "ects": sec_ects,  # key: not null for most sections
-                        "page_url_de": data.get("page_url_de") or response.url,
+                        "ects": sec_ects,
+                        "page_url_de": (
+                            data.get("detail_page_url_de")
+                            or data.get("page_url_de")
+                            or response.url
+                        ),
                         "page_url_fr": page_url_fr,
                         "page_url_en": page_url_en,
                     },

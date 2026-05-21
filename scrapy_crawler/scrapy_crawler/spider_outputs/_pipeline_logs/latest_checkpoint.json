@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-05-21T14:23:53",
+  "status": "success",
+  "step_number": 17,
+  "step_label": "merge: unmatched patch",
+  "step_kind": "merge",
+  "attempt": 1,
+  "duration_seconds": 1417.63,
+  "returncode": 0,
+  "output": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\program_links_with_ects_and_docs_enriched.json",
+  "command": "C:\\Program Files\\Python313\\python.exe C:\\Users\\Sara\\Bachelor_Thesis_SK\\DB_service\\src\\import\\unmatched_patch.py --in C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\program_links_with_ects_and_docs.json --out C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\program_links_with_ects_and_docs_enriched.json",
+  "cwd": "C:\\Users\\Sara\\Bachelor_Thesis_SK"
+}

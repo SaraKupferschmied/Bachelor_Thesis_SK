@@ -92,6 +92,34 @@ def find_alt_lang_urls(response) -> dict:
         out[lang] = safe_url(href)
     return out
 
+def tokens_for_program(name: str | None) -> list[str]:
+    if not name:
+        return []
+    s = lower_norm(name)
+    s = re.sub(r"\([^)]*\)", " ", s)
+    parts = re.split(r"\s+|,|/|-|–", s)
+    stop = {
+        "und", "oder", "als", "in", "der", "die", "das", "zu", "für",
+        "bachelor", "master", "studienprogramm", "hauptstudienprogramm",
+        "nebenstudienprogramm", "ects"
+    }
+    return [p for p in parts if len(p) >= 4 and p not in stop]
+
+
+def doc_matches_program(doc: dict, program_name: str | None) -> bool:
+    hay = lower_norm(f"{doc.get('label', '')} {doc.get('url', '')}")
+    pname = lower_norm(program_name or "")
+
+    if "griech" in pname:
+        return "griech" in hay or "grec" in hay
+    if "latein" in pname:
+        return "latein" in hay or "latin" in hay
+    if "klassische philologie" in pname:
+        return "klassische" in hay or "philologie" in hay
+
+    toks = tokens_for_program(program_name)
+    return any(t in hay for t in toks) if toks else True
+
 
 class UnifrPhilStudyPlansSpider(scrapy.Spider):
     name = "unifr_phil_studyplans"
@@ -112,6 +140,8 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
 
         # url -> cached parse result from that page (so duplicates can emit without refetch)
         self._program_page_cache: dict[str, dict] = {}
+
+        self._emitted_keys = set()
 
     # Scrapy 2.13+ compatibility
     async def start(self):
@@ -314,13 +344,15 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
             # If we already parsed this URL once, emit immediately for THIS program too
             cached = self._program_page_cache.get(program_url)
             if cached:
-                yield self._build_item(
+                item = self._build_item(
                     ctx,
                     response=None,  # we'll use cached alts
                     studienplan_url=cached.get("studienplan_url"),
                     docs=cached.get("docs", []),
                     alts=cached.get("alts", {}),
                 )
+                if item:
+                    yield item
                 continue
 
             # If it's already pending, just enqueue this program and don't refetch
@@ -464,6 +496,14 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
             score = 0
             if any(k in t for k in PLAN_TEXT_KEYS):
                 score += 100
+            if "download" in p or "downloads" in p:
+                score += 80
+            if "studienplan" in t:
+                score += 100
+            if "vollständige fassung" in t:
+                score -= 40
+            if "website" in t:
+                score -= 80
             if "studium" in p or "studies" in p:
                 score += 10
             if "download" in p or "downloads" in p:
@@ -486,28 +526,44 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
         studienplan_url = response.meta.get("studienplan_url") or response.url
         yield from self._finalize_and_emit(program_url_key, response, ctx_list, docs, studienplan_url)
 
-    def _finalize_and_emit(self, program_url_key: str, response, ctx_list: list[dict], docs: list[dict], studienplan_url: str | None):
-        # compute alt-lang urls once
+    def _finalize_and_emit(self, program_url_key, response, ctx_list, docs, studienplan_url):
         alts = find_alt_lang_urls(response) if response is not None else {}
 
-        # cache the raw docs result for duplicates arriving later
         self._program_page_cache[program_url_key] = {
             "docs": docs,
             "studienplan_url": studienplan_url,
             "alts": alts,
         }
 
-        # clear pending
         self._pending_program_ctx.pop(program_url_key, None)
 
-        # emit for each program context (and keep your level-splitting behavior)
         for ctx in ctx_list:
-            # ctx has the requested "level" for that program listing (bachelor/master)
-            if docs:
-                # reuse your existing split-by-level logic
-                yield from self._yield_split_levels_if_needed(ctx, response, docs, studienplan_url or response.url)
+            program_docs = [
+                d for d in docs
+                if doc_matches_program(d, ctx.get("program_name_de"))
+            ]
+
+            # fallback: don't lose everything if labels are too generic
+            if not program_docs:
+                program_docs = docs
+
+            if program_docs:
+                yield from self._yield_split_levels_if_needed(
+                    ctx,
+                    response,
+                    program_docs,
+                    studienplan_url or response.url,
+                )
             else:
-                yield self._build_item(ctx, response, studienplan_url=studienplan_url, docs=[], alts=alts)
+                item = self._build_item(
+                    ctx,
+                    response,
+                    studienplan_url=studienplan_url,
+                    docs=[],
+                    alts=alts,
+                )
+                if item:
+                    yield item
 
     def _yield_split_levels_if_needed(self, data, response, docs, studienplan_url: str):
         ba_docs, ma_docs, unknown = [], [], []
@@ -521,22 +577,32 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
                 unknown.append(d)
 
         if not ba_docs and not ma_docs:
-            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=docs)
+            item = self._build_item(data, response, studienplan_url=studienplan_url, docs=docs)
+            if item:
+                yield item
             return
 
         requested = data.get("level")
         if requested == "bachelor":
-            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=ba_docs or unknown or docs)
+            item = self._build_item(data, response, studienplan_url=studienplan_url, docs=ba_docs or unknown or docs)
+            if item:
+                yield item
             if ma_docs:
                 data2 = dict(data)
                 data2["level"] = "master"
-                yield self._build_item(data2, response, studienplan_url=studienplan_url, docs=ma_docs)
+                item = self._build_item(data2, response, studienplan_url=studienplan_url, docs=ma_docs)
+                if item:
+                    yield item
         else:
-            yield self._build_item(data, response, studienplan_url=studienplan_url, docs=ma_docs or unknown or docs)
+            item = self._build_item(data, response, studienplan_url=studienplan_url, docs=ma_docs or unknown or docs)
+            if item:
+                yield item
             if ba_docs:
                 data2 = dict(data)
                 data2["level"] = "bachelor"
-                yield self._build_item(data2, response, studienplan_url=studienplan_url, docs=ba_docs)
+                item = self._build_item(data2, response, studienplan_url=studienplan_url, docs=ba_docs)
+                if item:
+                    yield item
 
     # ---------------------------
     # Doc collection + output
@@ -574,7 +640,7 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
         if alts is None:
             alts = find_alt_lang_urls(response) if response is not None else {}
 
-        return {
+        item = {
             "faculty": data.get("faculty"),
             "level": data.get("level"),
             "program": {
@@ -586,3 +652,16 @@ class UnifrPhilStudyPlansSpider(scrapy.Spider):
             },
             "documents": docs,
         }
+
+        key = (
+            item["level"],
+            item["program"]["name_de"],
+            item["program"]["page_url"],
+            tuple(sorted(d["url"] for d in docs)),
+        )
+
+        if key in self._emitted_keys:
+            return None
+
+        self._emitted_keys.add(key)
+        return item

@@ -75,34 +75,20 @@ class UnifrEduStudyPlansSpider(scrapy.Spider):
         return data
 
     def start_requests(self):
-        try:
-            data = self._load_faculties()
-
-            edu = next((x for x in data if x.get("key") == "eduform"), None)
-            if not edu:
-                raise ValueError("No eduform entry found in faculties.json")
-
-            faculty_name = edu.get(f"name_{self.lang}") or edu.get("name_en") or "EDUFORM"
-
-            base_url = edu.get(f"url_{self.lang}") or edu.get("url_en") or edu.get("url_de") or edu.get("url_fr")
-            if not base_url:
-                raise ValueError(f"No url_{self.lang} (or fallback url) found for eduform")
-
-            start_url = base_url.rstrip("/") + f"/{self.lang}/studium/angebot/"
-
-        except Exception as e:
-            self.logger.warning(
-                "faculties.json unusable (%s). Falling back to hardcoded eduform URL.", e
-            )
-            start_url = f"https://www.unifr.ch/eduform/{self.lang}/studium/angebot/"
+        start_url = "https://www.unifr.ch/eduform/de/studium/angebot/"
 
         self.logger.info("Starting EDUFORM crawl at: %s", start_url)
-        yield scrapy.Request(start_url, callback=self.parse_studienangebot_und_plaene)
 
+        yield scrapy.Request(
+            start_url,
+            callback=self.parse_studienangebot_und_plaene,
+        )
 
     def parse_studienangebot_und_plaene(self, response):
         faculty_name = response.meta.get("faculty_name", "EDUFORM")
-        boxes = response.css("div.col-sm-6.inner-10")
+        boxes = response.css(
+            "main#main div.panel.panel-violet"
+        )
         self.logger.info("Found %d boxes on %s", len(boxes), response.url)
 
         if not boxes:
@@ -111,8 +97,9 @@ class UnifrEduStudyPlansSpider(scrapy.Spider):
             return
 
         for box in boxes:
-            title = clean_text(box.css("h4::text").get()) or clean_text(
-                " ".join(box.css("h4 *::text").getall())
+            title = (
+                clean_text(box.css(".panel-heading h4::text, h4::text").get())
+                or clean_text(" ".join(box.css(".panel-heading *::text, h4 *::text").getall()))
             )
 
             docs = []

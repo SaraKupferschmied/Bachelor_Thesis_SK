@@ -1,0 +1,62 @@
+Done.
+Output: C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json
+Stats:
+  ignored_doctorates: 72
+  matched_id_exact_level_name_ects: 32
+  matched_id_exact_level_name: 0
+  matched_id_exact_name_ects: 9
+  matched_id_exact_name: 52
+  matched_id_fuzzy_level_name_ects: 2
+  matched_id_fuzzy_level_name: 0
+  matched_id_fuzzy_name_ects: 0
+  matched_id_fuzzy_name: 0
+  matched_doc_exact_level_name_ects: 0
+  matched_doc_exact_level_name: 0
+  matched_doc_exact_name_ects: 0
+  matched_doc_exact_name: 0
+  matched_doc_fuzzy_level_name_ects: 2
+  matched_doc_fuzzy_level_name: 0
+  matched_doc_fuzzy_name_ects: 0
+  matched_doc_fuzzy_name: 0
+  unmatched: 198
+  docs_filtered: 13
+  doc_candidates_rejected_by_gate: 0
+
+================================================================================
+2026-05-21T07:58:09
+Step 16: merge: merge studyplans
+Attempt 1/1
+CWD: C:\Users\Sara\Bachelor_Thesis_SK
+CMD: C:\Program Files\Python313\python.exe C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\merge_studyplans.py --base C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects.json --inputs C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs_normalized.json --out C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json
+================================================================================
+Done.
+Output: C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json
+Stats:
+  ignored_doctorates: 72
+  matched_id_exact_level_name_ects: 135
+  matched_id_exact_level_name: 53
+  matched_id_exact_name_ects: 14
+  matched_id_exact_name: 38
+  matched_id_fuzzy_level_name_ects: 1
+  matched_id_fuzzy_level_name: 0
+  matched_id_fuzzy_name_ects: 1
+  matched_id_fuzzy_name: 0
+  matched_doc_exact_level_name_ects: 0
+  matched_doc_exact_level_name: 0
+  matched_doc_exact_name_ects: 0
+  matched_doc_exact_name: 0
+  matched_doc_fuzzy_level_name_ects: 2
+  matched_doc_fuzzy_level_name: 0
+  matched_doc_fuzzy_name_ects: 0
+  matched_doc_fuzzy_name: 0
+  unmatched: 51
+  docs_filtered: 44
+  doc_candidates_rejected_by_gate: 0
+
+================================================================================
+2026-05-21T14:00:09
+Step 16: merge: merge studyplans
+Attempt 1/1
+CWD: C:\Users\Sara\Bachelor_Thesis_SK
+CMD: C:\Program Files\Python313\python.exe C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\merge_studyplans.py --base C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects.json --inputs C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs_normalized.json --out C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json
+================================================================================

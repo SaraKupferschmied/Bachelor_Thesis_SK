@@ -1,0 +1,142 @@
+Traceback (most recent call last):
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 353, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 334, in main
+    extract_document_links(session, u, validate=validate)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 256, in extract_document_links
+    if not validate or is_reachable_doc(session, link, referer=r.url):
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 145, in is_reachable_doc
+    r = session.get(
+        url,
+    ...<3 lines>...
+        stream=True,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 438, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+================================================================================
+2026-05-21T07:58:26
+Step 17: merge: unmatched patch
+Attempt 1/1
+CWD: C:\Users\Sara\Bachelor_Thesis_SK
+CMD: C:\Program Files\Python313\python.exe C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py --in C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json --out C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json
+================================================================================
+Traceback (most recent call last):
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 353, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 334, in main
+    extract_document_links(session, u, validate=validate)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 256, in extract_document_links
+    if not validate or is_reachable_doc(session, link, referer=r.url):
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py", line 145, in is_reachable_doc
+    r = session.get(
+        url,
+    ...<3 lines>...
+        stream=True,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Sara\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 438, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+================================================================================
+2026-05-21T13:01:20
+Step 17: merge: unmatched patch
+Attempt 1/1
+CWD: C:\Users\Sara\Bachelor_Thesis_SK
+CMD: C:\Program Files\Python313\python.exe C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py --in C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json --out C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json
+================================================================================
+Processed unmatched programmes: 45
+Enriched: 44
+Validation: ON
+Output written to: C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json
+
+================================================================================
+2026-05-21T14:00:16
+Step 17: merge: unmatched patch
+Attempt 1/1
+CWD: C:\Users\Sara\Bachelor_Thesis_SK
+CMD: C:\Program Files\Python313\python.exe C:\Users\Sara\Bachelor_Thesis_SK\DB_service\src\import\unmatched_patch.py --in C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json --out C:\Users\Sara\Bachelor_Thesis_SK\scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json
+================================================================================
