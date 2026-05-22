@@ -1,0 +1,126 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:38:58.718Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_120_Geography__valuation_en_g_ographie_et_g_osciences_GG_GS_97cf83126ca873a26bf7263c641bea08a847856d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "97cf83126ca873a26bf7263c641bea08a847856d",
+  "program_key": "faculty of science and medicine|master|120|geography",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_GG-GS_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Geography__valuation_en_g_ographie_et_g_osciences_GG_GS_97cf83126ca873a26bf7263c641bea08a847856d.pdf",
+  "sha256": "6eb5d38728feb4fc9ea74ac015ee3de09f876f7bbf2155c8edd457e52ba51579",
+  "fetched_at": "2026-05-21T16:05:17.924Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_GG-GS_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Annexe aux plans d'études de la Faculté des sciences et de médecine
+
+## Modalités d'évaluation des UE de la géographie et des géosciences
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des Unités d'enseignement (UE) sous la respon -sabilité de l'Unité de géographie du Département de géosciences. Elle complète les différents plans d'études où apparaissent des UE avec le code ' SGG.0 nnnn' et ' SGS.0 nnnn'.
+
+## 2 Évaluations des unités d ' enseignement
+
+L ' évaluation des exercices, des travaux pratiques et des excursions se fait suivant des critères (nombre  de  séries  d ' exercices  rendues,  acceptation  ou  notation,  etc.)  énoncés  en  début  de semestre. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée  dans  la  présente  annexe.  Les  épreuves se  déroulent,  en  général,  durant  trois sessions d ' examens  (hiver,  été,  automne). Pour  chaque  épreuve,  l'étudiant ·e  s ' inscrit  dans  les  délais prescrits selon la procédure en ligne accessible avec le compte personnel et le mot de passe fournis par l'Université (https://my.unifr.ch/). L 'épreuve porte sur la matière de l'UE telle qu'elle a été  enseignée la  dernière  fois.  En  cas  d'exception,  celle -ci  sera  communiquée par l'Unité de géographie et/ou par l'enseignant ·e  responsable.  L ' échelle  des  notes  s ' étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants 1 :
+
+- Plan d'études pour l'obtention du Bachelor of Science en géographie et du Master of Science in Geography
+- Plan d'études pour l'obtention du Bachelor of Science en sciences de la Terre.
+- Plan d ' études des branches propédeutiques et complémentaires offertes par la Faculté des sciences  et  de  médecine dans  le  cadre  du  Bachelor  of  Science  ou  d'autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d ' études des branches complémentaires +30 ECTS en Physique, Biologie, Mathématiques, Informatique, Chimie, Géographie, Sciences du sport offertes par la Faculté des sciences et de médecine.
+- Plan d'études pour l'obtention du Bachelor of Science pour la formation scientifique dans les branches enseignables au degré secondaire I (BSc\_SI).
+- Plan d'études des branches Géosciences, Mathématiques , Informatique, Sciences naturelles et Sciences du sport et de la motricité pour les étudiant·e·s de la Faculté des lettres et des sciences  humaines,  de  la  Faculté  des  sciences de  l'éducation  et  de  la  formation et  de  la Faculté de théologie souhaitant obtenir le Bachelor of Arts pour la formation scientifique dans les branches enseignables au degré secondaire I (BA\_SI).
+
+Il est soumis au Règlement pour l ' obtention des Bachelor of Science et des Master of Science.
+
+Tous ces documents sont accessibles à partir de https://www.unifr.ch/scimed/plans.
+
+1  Des UE de la géographie peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+## 4 Modalités d'évaluation
+
+Les travaux pratiques, les exercices, le travail de recherche en géographie, les excursions et le camp de terrain sont évalués à l ' aide de critères fixés et communiqués en début de semestre.
+
+Avec l'accord écrit de l'étudiant ·e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite.  Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code      | Unité d'enseignement                                                 | ECTS   | Modalités d'évaluation Notation (épreuve/durée)   |
+|-----------|----------------------------------------------------------------------|--------|---------------------------------------------------|
+| SGS.01001 | Introduction aux géosciences 1 - Espace et Société                   | 3      | écrite / 60 min.                                  |
+| SGS.01002 | Introduction aux géosciences 2 - Atmosphère, Hydrosphère et Climat   | 3      | écrite / 60 min.                                  |
+| SGS.01003 | Introduction aux géosciences 3 - Géologie générale                   | 3      | écrite / 60 min.                                  |
+| SGS.01004 | Introduction aux géosciences 4 - Roches et Minéraux                  | 3      | écrite / 60 min.                                  |
+| SGS.01005 | Introduction aux géosciences 1 + 2 - Travaux pratiques               | 2      | exercices                                         |
+| SGS.01006 | Introduction aux géosciences 3 + 4 - Travaux pratiques               | 2      | exercices                                         |
+| SGS.01101 | Géostatistique                                                       | 3      | Exercices + écrite / 60 min.                      |
+| SGS.00156 | Cartographie et introduction aux SIG (cours)                         | 3      | écrite / 60 min.                                  |
+| SGS.00157 | Cartographie et introduction aux SIG (travaux pratiques)             | 2      |                                                   |
+| SGS.00105 | Epistémologie des géosciences (cours)                                | 3      | écrite / 60 min.                                  |
+| SGS.00106 | Histoire de la Terre (cours)                                         | 3      | écrite / 60 min.                                  |
+| SGS.01301 | Géologie et Société : défis appliqués                                | 1,5    | écrite / 60 min.                                  |
+| SGS.01201 | Ecologie politique de l'eau                                          | 1,5    | écrite / 60 min.                                  |
+| SGG.00205 | Géographie urbaine                                                   | 3      | écrite / 60 min.                                  |
+| SGG.02111 | Recherche empirique en sciences sociales I : Conceptions             | 3      | écrite / 60 min.                                  |
+| SGG.02112 | Recherche empirique en sciences sociales II : Production des données | 3      | exercices                                         |
+| SGG.00312 | Traitement de l'information géographique (SIG)                       | 3      | projet                                            |
+| SGG.02101 | Analyse spatiale et statistique descriptive                          | 3      | projet                                            |
+| SGG.02301 | Sciences de l'atmosphère                                             | 3      | évaluation continue et examen écrit / 60 min.     |
+| SGG.00210 | Géographie économique                                                | 3      | examen écrit / 60 min.                            |
+| SGG.02351 | Géophysique (cours)                                                  | 3      | orale / 15 min.                                   |
+| SGG.02352 | Géophysique (travaux pratiques)                                      | 2      |                                                   |
+| SGG.00262 | Géomorphologie - Quaternaire, partie 1 (cours)                       | 3      | orale / 20 min., une seule note                   |
+| SGG.00263 | Géomorphologie - Quaternaire, partie 2 (cours)                       | 3      |                                                   |
+| SGG.00283 | Géomorphologie - Quaternaire, travaux pratiques I                    | 3      |                                                   |
+| SGG.00284 | Géomorphologie - Quaternaire, travaux pratiques II                   | 3      | projet, y.c. 2 excursions                         |
+| SGG.02201 | Géographie rurale                                                    | 3      | examen écrit / 60 min.                            |
+| SGG.00319 | Télédétection                                                        | 3      | projet                                            |
+| SGG.00256 | Excursion en géographie I                                            | 0.5    |                                                   |
+
+| SGG.00257   | Excursion en géographie II                                               |   0.5 | rapport                |                                         |
+|-------------|--------------------------------------------------------------------------|-------|------------------------|-----------------------------------------|
+| SGG.03301   | Cryosphère (cours)                                                       |     3 |                        | écrite / 60 min.                        |
+| SGG.03302   | Cryosphère (travaux pratiques)                                           |     2 | Exercices + test écrit |                                         |
+| SGG.00305   | Géographie politique                                                     |     3 |                        | écrite / 60 min.                        |
+| SGG.00318   | Géographie de l'environnement                                            |     3 |                        | projet                                  |
+| SGG.03113   | Recherche empirique en sciences sociales III : Analyse et interprétation |     2 |                        | travail et exposé                       |
+| SGG.03401   | Stage de terrain en géographie                                           |     4 |                        | projet                                  |
+| SGG.03402   | Travail de Bachelor                                                      |     9 |                        | projet                                  |
+| SGG.03403   | Travail de Bachelor (bilan)                                              |     1 | rapport                |                                         |
+| SGG.00409   | Models, modelling and representations                                    |     3 |                        | presentation                            |
+| SGG.00410   | Master thesis seminar (preliminary)                                      |     2 | presentatio n          |                                         |
+| SGG.00426   | Climate Change: state of the art and debates                             |     3 |                        | project                                 |
+| SGG.00424   | Hazards, risks and vulnerability                                         |     3 |                        | written / 60 min.                       |
+| SGG.00425   | Data and methods for environmental analysis                              |     3 |                        | project                                 |
+| SGG.00441   | Applied geophysical methods                                              |     3 | exercises              |                                         |
+| SGG.00443   | Project in cryosphere and geomorphology                                  |     3 |                        | project                                 |
+| SGG.00444   | Alpine cryosphere                                                        |     3 |                        | oral / 15 min.                          |
+| SGG.00445   | Mountain geomorphology                                                   |     3 |                        | oral / 15 min.                          |
+| SGG.00448   | Modelling of glaciers and permafrost                                     |     3 |                        | project                                 |
+| SGG.00449   | Seminar in climatology and glaciology I                                  |     2 | presentatio n          |                                         |
+| SGG.00450   | Seminar in climatology and glaciology II                                 |     2 | presentatio n          |                                         |
+| SGG.00451   | Seminar in geomorphology I                                               |     2 | presentatio n          |                                         |
+| SGG.00452   | Seminar in geomorphology II                                              |     2 | presentatio n          |                                         |
+| SGG.00453   | Field course I in physical geography                                     |     5 |                        | project                                 |
+| SGG.00454   | Field course II in physical geography                                    |     5 |                        | project                                 |
+| SGG.00471   | New approaches in human geography                                        |     3 |                        | project                                 |
+| SGG.00473   | Seminar in global change, development and ethics                         |     3 |                        | project                                 |
+| SGG.00477   | Political ecology                                                        |     3 |                        | project                                 |
+| SGG.00480   | Field course I in human geography                                        |     5 |                        | project                                 |
+| SGG.00481   | Field course II in human geography                                       |     5 |                        | project                                 |
+| SGG.00484   | Social theories (seminar)                                                |     3 |                        | project                                 |
+| SGG.00485   | Environmental history                                                    |     3 |                        | project                                 |
+| SGG.00486   | Advanced social research methods                                         |     3 |                        | project                                 |
+| SGG.00487   | Issues in environmental ethics                                           |     3 |                        | Written seminar paper (deadline: 15.7.) |
+| SGG.00503   | Master thesis (with final public presentation)                           |    58 |                        | thesis + 20 min. presentation           |
+| SGG.00512   | Geocolloquium                                                            |     3 |                        | participation                           |

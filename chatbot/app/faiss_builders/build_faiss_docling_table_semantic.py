@@ -66,11 +66,11 @@ class Block:
 
 
 def _parsed_dir_for(target: str, parser: str) -> Path:
-    root = Path(__file__).resolve().parents[2] / "scrapy_crawler" / "outputs"
+    root = Path(__file__).resolve().parents[3] / "scrapy_crawler" / "outputs"
     if parser not in {"docling", "docling_table_semantic"}:
         raise ValueError(f"This builder only supports docling table semantic, got: {parser}")
     if target == "studyplans":
-        return root / "parsed_fulltext_docling_new"
+        return root / "parsed_fulltext_docling_new2"
     if target in {"regulations", "reglementations"}:
         return root / "reglementation_docs" / "parsed_fulltext_docling_new"
     raise ValueError(f"Unknown target: {target}")

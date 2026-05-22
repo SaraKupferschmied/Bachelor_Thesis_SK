@@ -1,0 +1,75 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:23:34.187Z",
+  "title": "matched_Faculty_of_Law_Master_30_Law_Informationsblatt_1403fc10a208a93ac5c4c0367f22e8a253c31c52",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1403fc10a208a93ac5c4c0367f22e8a253c31c52",
+  "program_key": "faculty of law|master|30|law",
+  "source_url": "https://www.unifr.ch/ius/assets/public/documents/etudes/Passerelle-FH-RW-MLaw-Informationsblatt.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_30_Law_Informationsblatt_1403fc10a208a93ac5c4c0367f22e8a253c31c52.pdf",
+  "sha256": "cde1471ccca8747662cb9164de3d6569cdac1cb09719df62d4e28a7bdd264020",
+  "fetched_at": "2026-05-21T16:05:34.959Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/Passerelle-FH-RW-MLaw-Informationsblatt.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Passerelle zum Master of Law
+
+Inhaber oder Inhaberinnen eines Bachelordiploms in Rechtswissenschaften einer schweizerischen Fachhochschule werden unter Auflagen zum Masterstudium (Master of Law 2023 | Rechtswissenschaftliche Fakultät | Universität Freiburg) zugelassen. Siehe Art. 11 Abs. 1bis und Art. 12a RRS sowie Art. 9i ff. AR-RRS.
+
+Diese  Auflage  (Passerelle)  besteht  aus 30  ECTS-Kreditpunkten und  ist  wie  folgt  mit  Kursen  aus dem Bachelorprogramm aus dem 1. Studienjahr (IUR I), dem 2. Studienjahr (IUR II), dem 3. Studienjahr (IUR III) oder aus den Wahlfächern (W) zu erfüllen:
+
+<!-- image -->
+
+30 ECTS
+
+<!-- image -->
+
+dhrRecht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+Schriftliche Arbeiten (propädeutische Arbeit, Praktikumsbericht, Proseminararbeit) oder Spezialkredite werden nicht an die Passerelle angerechnet.
+
+## Kursbeschriebe  und  Stundenpläne:
+
+Die  Inhalte  zu den  Kursen  finden  sich im jeweiligen  Kursbeschrieb.
+
+Die Stundenpläne sind nach Studienjahren erstellt:
+
+1. Studienjahr IUR I siehe ba\_iur1\_horaire\_d.pdf
+2. Studienjahr IUR II siehe ba\_iur2\_horaire\_d.pdf
+3. Studienjahr IUR III siehe ba\_iur3\_horaire\_d.pdf
+
+Wahlfächer siehe ba\_ment\_horaire\_d.pdf
+
+Änderungen vorbehalten.  Es  handelt  sich  um  die  im  laufenden  akademischen  Jahr  geltenden Stundenpläne.
+
+Die  zusätzlichen  Studienleistungen  können parallel zu  den  Studienleistungen  des Masterstudiengangs erbracht werden und müssen nicht vorgängig validiert werden. Das Studium des Master of Law richtet sich nach den für alle Master of Law Studierenden geltenden Bestimmungen (siehe Studienplan Master of Law). Das Masterdiplom kann nur ausgestellt werden, wenn alle zusätzlichen Studienleistungen gemäss Art. 12a RRS und alle gemäss Art. 12 RRS erforderlichen Studienleistungen erbracht worden sind.
+
+## Anerkennung von bisher erbrachten Studienleistungen
+
+Studienleistungen aus dem die Zulassung gemäss Art. 12a RRS begründenden Bachelordiplom kommen weder für die Anerkennung noch für die Dispensation von zusätzlichen Studienleistungen im Rahmen der Auflage (Passerelle) aus dem Bachelorprogramm oder von Studienleistungen aus dem Masterstudiengang in Betracht.
+
+## Prüfungsmodalitäten
+
+Die Prüfungen in Kursen aus dem Bachelorprogramm können zwei Mal wiederholt werden (= 3 Versuche) und müssen jeweils mit der Note 4.0 bestanden werden. Es ist keine Kompensation möglich. Da es sich um Jahreskurse handelt, können die Prüfungen in den Fächern für die Passerelle frühestens nach 2 Semestern abgelegt werden.
+
+Pro Prüfungssession können nicht mehr als 6 Examen abgelegt werden (Examen für Passerelle + Examen für MLaw).
+
+## Mobilität (BENEFRI, Schweizer Mobilität, Auslandaufenthalte, etc.)
+
+Das Angebot für Mobilitätsaufenthalte steht auch Studierenden offen, die eine Passerelle absolvieren müssen. Kurse, welche im Rahmen der Passerelle erfolgreich besucht werden müssen, sind zwingend in Freiburg abzulegen. Kurse aus dem Masterprogramm können nach den allgemein geltenden Grundsätzen der Mobilität auch ausserhalb von Freiburg erbracht und an den Master of Law in Freiburg angerechnet werden. Siehe dazu: Mobilität Outgoing |
+
+Rechtswissenschaftliche Fakultät | Universität Freiburg dhir Recht.
+
+<!-- image -->

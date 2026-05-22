@@ -1,0 +1,381 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Education_Bachelor_150_Teacher_Education_for_Secondary_Level_I_Sciences_naturelles_48c53b9a386b6c719d5a97e73a75fca7efa4e8a0",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## Sciences naturelles\n\n[Version 2025, paquets de validation : PV-SSN.0000008, PV-SSN.0000009]\n\n## 1 Unités d'enseignement\n\nDans le cadre d'un Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\\_SI] ou Bachelor of Arts [BA\\_SI]), la discipline Sciences naturelles est composée de trois domaines :\n\n- biologie\n- chimie\n- physique\n\nL e programme d'études disciplinaire Sciences naturelles existe en deux versions, soit à 50 ou à 70 crédits ECTS. Les programmes comprennent des UE (unités d'enseignement) obligatoires dans chacun de ces domaines (38 ECTS) ainsi que 5 crédits ECTS de didactique de la discipline (enseignée par la Faculté des sciences de l'éducation  et  de  la  formation ).  Les  crédits  ECTS restants sont complétés par les unités d'enseignement à choix (7 resp. 27 ECTS).\n\nComme certaines UE utilisent  des  méthodes  mathématiques,  il  est  recommandé  d'étudier  la discipline Sciences naturelles en combinaison avec la discipline Mathématiques.\n\n## 1.1 UE obligatoire de la 1e année (36 ECTS).\n\nDans le cadre du BSc\\_SI, ces UE font partie du paquet de validation de 1 e  année et doivent être validées au plus tard à la fin du 4 e  semestre.\n\n| Code      | Titre                                           | semestre   |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------|------------|-----------|--------|\n| SBL.00001 | Biologie générale I (cours)                     | SA         |        46 |      5 |\n| SBL.00003 | Biologie générale I (travaux pratiques) *       | SA         |        12 |      1 |\n| SBL.00002 | Biologie générale II (cours)                    | SP         |        46 |      5 |\n| SBL.00004 | Biologie générale II (travaux pratiques) *      | SP         |        12 |      1 |\n| SCH.01014 | Chimie générale (cours)                         | SA         |        84 |      6 |\n| SCH.01024 | Chimie générale (travaux pratiques) *           | SP         |        84 |      3 |\n| SCH.01072 | Chimie organique de base (cours avec exercices) | SP         |        42 |      3 |\n| SPH.01103 | Physique propédeutique I (cours et exercices)   | SA         |        70 |      5 |\n| SPH.01003 | Physique propédeutique I (travaux pratiques) *  | SA         |        12 |      1 |\n| SPH.01203 | Physique propédeutique II (cours et exercices)  | SP         |        70 |      5 |\n| SPH.01004 | Physique propédeutique II (travaux pratiques) * | SP         |        12 |      1 |\n\n36\n\n* Unités d'enseignement contenant de la « pratique de la discipline »\n\n## 1.2 Autres UE obligatoires (1e à 3e année, 7 ECTS)\n\n| Code      | Titre                                        | semestreh. tot. ECTS   |   semestreh. tot. ECTS |   semestreh. tot. ECTS |\n|-----------|----------------------------------------------|------------------------|------------------------|------------------------|\n| F24.00799 | Didactique Sciences de la nature - Bachelor  | SA/SP                  |                        |                      5 |\n| SCH.00112 | Chimie de tous les jours pour enseignant-e-s | SP                     |                     14 |                      2 |\n|           |                                              |                        |                        |                      7 |\n\n## 1.3 UE à choix (1e à 3e année, 7 ou 27 ECTS)\n\n| Code      | Titre                                                | semestreh. tot.   |   semestreh. tot. |   ECTS |\n|-----------|------------------------------------------------------|-------------------|-------------------|--------|\n| SBL.00040 | Biologie des organismes I : vertébrés                | SA                |                28 |      3 |\n| SBL.00041 | Biologie des organismes II : invertébrés             | SP                |                28 |      3 |\n| SBL.00074 | Biologie des organismes III : champignons et plantes | SP                |                72 |      5 |\n| SBL.00045 | Hormones et développement des plantes                | SP                |                28 |      3 |\n| SBL.00021 | Biologie de l'évolution                              | SA                |                28 |      3 |\n| SCH.01067 | Chimie des éléments                                  | SP                |                42 |      3 |\n| SPH.02101 | Physique moderne (cours et exercices)                | SA                |                84 |      7 |\n| SFS.00001 | Philosophie et éthique des sciences                  | SA                |                28 |      3 |\n| SBL.00013 | Écologie                                             | SA                |                42 |      4 |\n| SBL.00014 | Biologie moléculaire                                 | SA                |                28 |      3 |\n| SBL.00020 | Neurobiologie                                        | SA                |                20 |      2 |\n| SBC.00119 | Fondements de biochimie                              | SA                |                52 |      6 |\n| SME.05103 | Microbiologie générale et médicale                   | SA                |                24 |      3 |\n| SFS.00002 | Sciences et société                                  | SP                |                28 |      3 |\n| SCH.01054 | Chimie analytique (cours avec exercices)             | SP                |                42 |      3 |\n| SPH.01301 | Aspects théoriques de physique fondamentale I        | SA                |                56 |      4 |\n| SPH.01401 | Aspects théoriques de physique fondamentale II       | SP                |                56 |      4 |\n\n## 2 Description des unités d'enseignement\n\n## 2.1 Domaine de la Biologie\n\n- Les cours de Biologie générale I, II (SBL.00001, SBL.00002) donnent une introduction à la biologie  (Biologie  cellulaire,  Génétique,  Biologie  moléculaire,  Ecologie,  Biologie  végétale, Biologie  de  l'évolution)  et  traitent  des  structures  et  fonctions  biologiques,  du  niveau moléculaire à l'organisme.\n- Les travaux  pratiques  de  Biologie  générale  I et II (SBL.00003,  SBL.00004) illustrent  des notions de biologie fondamentale touchant les cellules, les organismes et l'évolution.\n- Les cours de Biologie des organismes I (SBL.00040) et II (SBL.00041) portent sur la classification des vertébrés (Biologie des organismes I) et des protistes et invertébrés (Biologie des organismes II), leur organisation, anatomie comparée et écologie du comportement. Durant les  travaux  pratiques,  les  étudiant-e-s  apprennent  à  disséquer  des  animaux  (poissons)  et effectuent  des  exercices  de  détermination.  Les  excursions  ont  pour  but  l'observation  des espèces dans leur milieu naturel, l'apprentissage de leur détermination et de leur écologie.\n- Le cours de Biologie des organismes III (SBL.00074) porte sur la biologie des organismes appartenant  aux  champignons,  algues,  mousses,  fougères  et  plantes  supérieures  et comprend une introduction à leur biologie et systématique. Durant les travaux pratiques, les étudiant-e-s effectuent des exercices de détermination et participent à des excursions dans différentes zones végétales.\n- Les  cours Hormones  et  développement  des  plantes (SBL.00045)  présente  les  bases physiologiques, biochimiques et moléculaires du développement des plantes.\n- Le cours Ecologie (SBL.00013) comprend une introduction à la biologie des populations et décrit les interactions biotiques et l'écologie des communautés.\n- Le cours Biologie moléculaire (SBL.00014) est une introduction aux mécanismes moléculaires liés aux acides nucléiques et à la régulation génique chez les eucaryotes et les procaryotes.\n- Le  cours Neurobiologie (SBL.00020)  porte  sur  la  neurobiologie  avancée  et  présente  des facettes  allant  des  molécules  aux  cellules  et  aux  fonctions  neuronales  y  compris  le comportement.\n- Le cours Biologie de l'évolution (SBL.0 0021) parle des mécanismes de l'évolution et de la gé nétique de l'évolution ainsi que de thèmes choisis de la recherche moderne sur l'évolution.\n- Le cours Fondements de biochimie (SBC.00119) présente une introduction à la biochimie et décrit la composition, la structure et les voies métaboliques principales des composants cellulaires les plus importants et des organismes (sucres, acides aminés et lipides).\n- Le cours de Microbiologie générale et médicale (SME.05103) traite des grands principes de la microbiologie (bactéries, virus, parasites) ; historique, classification, structure, facteurs de pathogénicité,  génétique,  interactions  hôte-pathogène,  antibiotiques  et  antiviraux  ;  résistances aux antibiotiques et aux antiviraux, microbiologie chez l'Homme et chez l'animal et microbiologie de l'environnement.\n- Le but du cours Philosophie et éthique des sciences (SFS.00001) est de donner à celles et ceux qui le suivront une connaissance des idées philosophiques élaborées depuis l'époque moderne jusqu'à nos jours, et de faire découvrir l'intérêt de ce dialogue entre philosophes et scientifiques  pour  le  développement  d'une  réflexion  personnelle  sur  les  sciences  et  la connaissance actuelles.\n- Le cours Science et Société (SFS.00002) aimerait avant tout offrir à celles et ceux qui le suivent l'occasion de découvrir des éléments importants de l'histoire des idées de la pensée occidentale en vue d'une meilleure compréhension des contenus et des enjeux des débats contemporains  touchant  à  la  connaissance  scientifique,  tout  particulièrement  dans  ses aspects pratiques et dans ses influences sur la société.\n\n## 2.2 Domaine de la Chimie\n\n- Le cours de Chimie générale (SCH.01014) établit les bases de la chimie et complète les connaissances acquises au gymnase pour les amener au niveau universitaire.\n- Les travaux  pratiques  en  chimie  générale (SCH.01024)  illustrant  les  concepts  principaux exposés dans le cours de Chimie générale par des expériences concrètes.\n- Au second semestre, la Chimie des éléments (SCH.01067) apporte une introduction sur la structure chimique des matériaux ainsi que leurs propriétés et réactivité.\n- L'unité d'enseignement Chimie de tous les jours pour enseignants (SCH.00112) est donnée sous  forme  de  séminaireprojet  pendant  lequel  l'étudiant -e  expose  certains  phénomènes chimiques fondés sur des exemples concrets tirés du quotidien sous forme d'un séminaire avec expériences.\n- La Chimie analytique (SCH.01054) donne une introduction à l'étude des systèmes complexes (équilibres multiples) et aux méthodes analytiques classiques (gravimétrie, volumétrie, ...).\n- Les Chimie organique de base (SCH.01072) donne une introduction aux réactions organiques et aux mécanismes réactionnels.\n\n## 2.3 Domaine de la Physique\n\n- Les cours de Physique propédeutique I et II (SPH.01103, SPH.01203) sont les cours de base de physique générale dans lesquels les concepts sont illustrés par des expériences et des démonstrations pratiques. Les domaines de la Physique propédeutique I (mécanique, ondes, acoustique,  thermodynamique)  ainsi  que  les  domaines  de  la Physique  propédeutique  II (électricité, magnétisme, optique, atomistique) étendent les connaissances du gymnase et préparent à la physique moderne.\n\nLes cours Aspects théoriques de physique fondamentale I et II (SPH.01301, SPH.01401) donnent un traitement plus approfondi de certains sujets du cours de Physique I et II comme la mécanique, l'électricité et le magnétisme. Ils préparent aux cours de physique théorique.\n\n- Le cours Physique moderne (SPH.02101) décrit la transition de la physique classique à la physique du 20 e  siècle.\n- Les travaux pratiques de Physique propédeutiques I et II (SPH.01003, SPH.01004) donnent une initiation aux techniques de mesures des grandeurs physiques les plus importantes.\n\n## 3 Évaluation des UE\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la biologie, de la chimie et de la physique.",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## Sciences naturelles\n\n[Version 2025, paquets de validation : PV-SSN.0000008, PV-SSN.0000009]\n\n## 1 Unités d'enseignement\n\nDans le cadre d'un Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\\_SI] ou Bachelor of Arts [BA\\_SI]), la discipline Sciences naturelles est composée de trois domaines :\n\n- biologie\n- chimie\n- physique\n\nL e programme d'études disciplinaire Sciences naturelles existe en deux versions, soit à 50 ou à 70 crédits ECTS. Les programmes comprennent des UE (unités d'enseignement) obligatoires dans chacun de ces domaines (38 ECTS) ainsi que 5 crédits ECTS de didactique de la discipline (enseignée par la Faculté des sciences de l'éducation  et  de  la  formation ).  Les  crédits  ECTS restants sont complétés par les unités d'enseignement à choix (7 resp. 27 ECTS).\n\nComme certaines UE utilisent  des  méthodes  mathématiques,  il  est  recommandé  d'étudier  la discipline Sciences naturelles en combinaison avec la discipline Mathématiques.\n\n## 1.1 UE obligatoire de la 1e année (36 ECTS).\n\nDans le cadre du BSc\\_SI, ces UE font partie du paquet de validation de 1 e  année et doivent être validées au plus tard à la fin du 4 e  semestre.\n\n| Code      | Titre                                           | semestre   |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------|------------|-----------|--------|\n| SBL.00001 | Biologie générale I (cours)                     | SA         |        46 |      5 |\n| SBL.00003 | Biologie générale I (travaux pratiques) *       | SA         |        12 |      1 |\n| SBL.00002 | Biologie générale II (cours)                    | SP         |        46 |      5 |\n| SBL.00004 | Biologie générale II (travaux pratiques) *      | SP         |        12 |      1 |\n| SCH.01014 | Chimie générale (cours)                         | SA         |        84 |      6 |\n| SCH.01024 | Chimie générale (travaux pratiques) *           | SP         |        84 |      3 |\n| SCH.01072 | Chimie organique de base (cours avec exercices) | SP         |        42 |      3 |\n| SPH.01103 | Physique propédeutique I (cours et exercices)   | SA         |        70 |      5 |\n| SPH.01003 | Physique propédeutique I (travaux pratiques) *  | SA         |        12 |      1 |\n| SPH.01203 | Physique propédeutique II (cours et exercices)  | SP         |        70 |      5 |\n| SPH.01004 | Physique propédeutique II (travaux pratiques) * | SP         |        12 |      1 |\n\n36\n\n* Unités d'enseignement contenant de la « pratique de la discipline »\n\n## 1.2 Autres UE obligatoires (1e à 3e année, 7 ECTS)\n\n| Code      | Titre                                        | semestreh. tot. ECTS   |   semestreh. tot. ECTS |   semestreh. tot. ECTS |\n|-----------|----------------------------------------------|------------------------|------------------------|------------------------|\n| F24.00799 | Didactique Sciences de la nature - Bachelor  | SA/SP                  |                        |                      5 |\n| SCH.00112 | Chimie de tous les jours pour enseignant-e-s | SP                     |                     14 |                      2 |\n|           |                                              |                        |                        |                      7 |\n\n## 1.3 UE à choix (1e à 3e année, 7 ou 27 ECTS)\n\n| Code      | Titre                                                | semestreh. tot.   |   semestreh. tot. |   ECTS |\n|-----------|------------------------------------------------------|-------------------|-------------------|--------|\n| SBL.00040 | Biologie des organismes I : vertébrés                | SA                |                28 |      3 |\n| SBL.00041 | Biologie des organismes II : invertébrés             | SP                |                28 |      3 |\n| SBL.00074 | Biologie des organismes III : champignons et plantes | SP                |                72 |      5 |\n| SBL.00045 | Hormones et développement des plantes                | SP                |                28 |      3 |\n| SBL.00021 | Biologie de l'évolution                              | SA                |                28 |      3 |\n| SCH.01067 | Chimie des éléments                                  | SP                |                42 |      3 |\n| SPH.02101 | Physique moderne (cours et exercices)                | SA                |                84 |      7 |\n| SFS.00001 | Philosophie et éthique des sciences                  | SA                |                28 |      3 |\n| SBL.00013 | Écologie                                             | SA                |                42 |      4 |\n| SBL.00014 | Biologie moléculaire                                 | SA                |                28 |      3 |\n| SBL.00020 | Neurobiologie                                        | SA                |                20 |      2 |\n| SBC.00119 | Fondements de biochimie                              | SA                |                52 |      6 |\n| SME.05103 | Microbiologie générale et médicale                   | SA                |                24 |      3 |\n| SFS.00002 | Sciences et société                                  | SP                |                28 |      3 |\n| SCH.01054 | Chimie analytique (cours avec exercices)             | SP                |                42 |      3 |\n| SPH.01301 | Aspects théoriques de physique fondamentale I        | SA                |                56 |      4 |\n| SPH.01401 | Aspects théoriques de physique fondamentale II       | SP                |                56 |      4 |\n\n## 2 Description des unités d'enseignement\n\n## 2.1 Domaine de la Biologie\n\n- Les cours de Biologie générale I, II (SBL.00001, SBL.00002) donnent une introduction à la biologie  (Biologie  cellulaire,  Génétique,  Biologie  moléculaire,  Ecologie,  Biologie  végétale, Biologie  de  l'évolution)  et  traitent  des  structures  et  fonctions  biologiques,  du  niveau moléculaire à l'organisme.\n- Les travaux  pratiques  de  Biologie  générale  I et II (SBL.00003,  SBL.00004) illustrent  des notions de biologie fondamentale touchant les cellules, les organismes et l'évolution.\n- Les cours de Biologie des organismes I (SBL.00040) et II (SBL.00041) portent sur la classification des vertébrés (Biologie des organismes I) et des protistes et invertébrés (Biologie des organismes II), leur organisation, anatomie comparée et écologie du comportement. Durant les  travaux  pratiques,  les  étudiant-e-s  apprennent  à  disséquer  des  animaux  (poissons)  et effectuent  des  exercices  de  détermination.  Les  excursions  ont  pour  but  l'observation  des espèces dans leur milieu naturel, l'apprentissage de leur détermination et de leur écologie.\n- Le cours de Biologie des organismes III (SBL.00074) porte sur la biologie des organismes appartenant  aux  champignons,  algues,  mousses,  fougères  et  plantes  supérieures  et comprend une introduction à leur biologie et systématique. Durant les travaux pratiques, les étudiant-e-s effectuent des exercices de détermination et participent à des excursions dans différentes zones végétales.\n- Les  cours Hormones  et  développement  des  plantes (SBL.00045)  présente  les  bases physiologiques, biochimiques et moléculaires du développement des plantes.\n- Le cours Ecologie (SBL.00013) comprend une introduction à la biologie des populations et décrit les interactions biotiques et l'écologie des communautés.\n- Le cours Biologie moléculaire (SBL.00014) est une introduction aux mécanismes moléculaires liés aux acides nucléiques et à la régulation génique chez les eucaryotes et les procaryotes.\n- Le  cours Neurobiologie (SBL.00020)  porte  sur  la  neurobiologie  avancée  et  présente  des facettes  allant  des  molécules  aux  cellules  et  aux  fonctions  neuronales  y  compris  le comportement.\n- Le cours Biologie de l'évolution (SBL.0 0021) parle des mécanismes de l'évolution et de la gé nétique de l'évolution ainsi que de thèmes choisis de la recherche moderne sur l'évolution.\n- Le cours Fondements de biochimie (SBC.00119) présente une introduction à la biochimie et décrit la composition, la structure et les voies métaboliques principales des composants cellulaires les plus importants et des organismes (sucres, acides aminés et lipides).\n- Le cours de Microbiologie générale et médicale (SME.05103) traite des grands principes de la microbiologie (bactéries, virus, parasites) ; historique, classification, structure, facteurs de pathogénicité,  génétique,  interactions  hôte-pathogène,  antibiotiques  et  antiviraux  ;  résistances aux antibiotiques et aux antiviraux, microbiologie chez l'Homme et chez l'animal et microbiologie de l'environnement.\n- Le but du cours Philosophie et éthique des sciences (SFS.00001) est de donner à celles et ceux qui le suivront une connaissance des idées philosophiques élaborées depuis l'époque moderne jusqu'à nos jours, et de faire découvrir l'intérêt de ce dialogue entre philosophes et scientifiques  pour  le  développement  d'une  réflexion  personnelle  sur  les  sciences  et  la connaissance actuelles.\n- Le cours Science et Société (SFS.00002) aimerait avant tout offrir à celles et ceux qui le suivent l'occasion de découvrir des éléments importants de l'histoire des idées de la pensée occidentale en vue d'une meilleure compréhension des contenus et des enjeux des débats contemporains  touchant  à  la  connaissance  scientifique,  tout  particulièrement  dans  ses aspects pratiques et dans ses influences sur la société.\n\n## 2.2 Domaine de la Chimie\n\n- Le cours de Chimie générale (SCH.01014) établit les bases de la chimie et complète les connaissances acquises au gymnase pour les amener au niveau universitaire.\n- Les travaux  pratiques  en  chimie  générale (SCH.01024)  illustrant  les  concepts  principaux exposés dans le cours de Chimie générale par des expériences concrètes.\n- Au second semestre, la Chimie des éléments (SCH.01067) apporte une introduction sur la structure chimique des matériaux ainsi que leurs propriétés et réactivité.\n- L'unité d'enseignement Chimie de tous les jours pour enseignants (SCH.00112) est donnée sous  forme  de  séminaireprojet  pendant  lequel  l'étudiant -e  expose  certains  phénomènes chimiques fondés sur des exemples concrets tirés du quotidien sous forme d'un séminaire avec expériences.\n- La Chimie analytique (SCH.01054) donne une introduction à l'étude des systèmes complexes (équilibres multiples) et aux méthodes analytiques classiques (gravimétrie, volumétrie, ...).\n- Les Chimie organique de base (SCH.01072) donne une introduction aux réactions organiques et aux mécanismes réactionnels.\n\n## 2.3 Domaine de la Physique\n\n- Les cours de Physique propédeutique I et II (SPH.01103, SPH.01203) sont les cours de base de physique générale dans lesquels les concepts sont illustrés par des expériences et des démonstrations pratiques. Les domaines de la Physique propédeutique I (mécanique, ondes, acoustique,  thermodynamique)  ainsi  que  les  domaines  de  la Physique  propédeutique  II (électricité, magnétisme, optique, atomistique) étendent les connaissances du gymnase et préparent à la physique moderne.\n\nLes cours Aspects théoriques de physique fondamentale I et II (SPH.01301, SPH.01401) donnent un traitement plus approfondi de certains sujets du cours de Physique I et II comme la mécanique, l'électricité et le magnétisme. Ils préparent aux cours de physique théorique.\n\n- Le cours Physique moderne (SPH.02101) décrit la transition de la physique classique à la physique du 20 e  siècle.\n- Les travaux pratiques de Physique propédeutiques I et II (SPH.01003, SPH.01004) donnent une initiation aux techniques de mesures des grandeurs physiques les plus importantes.\n\n## 3 Évaluation des UE\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la biologie, de la chimie et de la physique."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Code      | Titre                                           | semestre   |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------|------------|-----------|--------|\n| SBL.00001 | Biologie générale I (cours)                     | SA         |        46 |      5 |\n| SBL.00003 | Biologie générale I (travaux pratiques) *       | SA         |        12 |      1 |\n| SBL.00002 | Biologie générale II (cours)                    | SP         |        46 |      5 |\n| SBL.00004 | Biologie générale II (travaux pratiques) *      | SP         |        12 |      1 |\n| SCH.01014 | Chimie générale (cours)                         | SA         |        84 |      6 |\n| SCH.01024 | Chimie générale (travaux pratiques) *           | SP         |        84 |      3 |\n| SCH.01072 | Chimie organique de base (cours avec exercices) | SP         |        42 |      3 |\n| SPH.01103 | Physique propédeutique I (cours et exercices)   | SA         |        70 |      5 |\n| SPH.01003 | Physique propédeutique I (travaux pratiques) *  | SA         |        12 |      1 |\n| SPH.01203 | Physique propédeutique II (cours et exercices)  | SP         |        70 |      5 |\n| SPH.01004 | Physique propédeutique II (travaux pratiques) * | SP         |        12 |      1 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBL.00001",
+            "Titre": "Biologie générale I (cours)",
+            "semestre": "SA",
+            "h. tot.": "46",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SBL.00003",
+            "Titre": "Biologie générale I (travaux pratiques) *",
+            "semestre": "SA",
+            "h. tot.": "12",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SBL.00002",
+            "Titre": "Biologie générale II (cours)",
+            "semestre": "SP",
+            "h. tot.": "46",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SBL.00004",
+            "Titre": "Biologie générale II (travaux pratiques) *",
+            "semestre": "SP",
+            "h. tot.": "12",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SCH.01014",
+            "Titre": "Chimie générale (cours)",
+            "semestre": "SA",
+            "h. tot.": "84",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SCH.01024",
+            "Titre": "Chimie générale (travaux pratiques) *",
+            "semestre": "SP",
+            "h. tot.": "84",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SCH.01072",
+            "Titre": "Chimie organique de base (cours avec exercices)",
+            "semestre": "SP",
+            "h. tot.": "42",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SPH.01103",
+            "Titre": "Physique propédeutique I (cours et exercices)",
+            "semestre": "SA",
+            "h. tot.": "70",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SPH.01003",
+            "Titre": "Physique propédeutique I (travaux pratiques) *",
+            "semestre": "SA",
+            "h. tot.": "12",
+            "ECTS": "1"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SPH.01203",
+            "Titre": "Physique propédeutique II (cours et exercices)",
+            "semestre": "SP",
+            "h. tot.": "70",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SPH.01004",
+            "Titre": "Physique propédeutique II (travaux pratiques) *",
+            "semestre": "SP",
+            "h. tot.": "12",
+            "ECTS": "1"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| Code      | Titre                                        | semestreh. tot. ECTS   |   semestreh. tot. ECTS |   semestreh. tot. ECTS |\n|-----------|----------------------------------------------|------------------------|------------------------|------------------------|\n| F24.00799 | Didactique Sciences de la nature - Bachelor  | SA/SP                  |                        |                      5 |\n| SCH.00112 | Chimie de tous les jours pour enseignant-e-s | SP                     |                     14 |                      2 |\n|           |                                              |                        |                        |                      7 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "F24.00799",
+            "Titre": "Didactique Sciences de la nature - Bachelor",
+            "semestreh. tot. ECTS": "5"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SCH.00112",
+            "Titre": "Chimie de tous les jours pour enseignant-e-s",
+            "semestreh. tot. ECTS": "2"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "",
+            "Titre": "",
+            "semestreh. tot. ECTS": "7"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 2,
+      "markdown": "| Code      | Titre                                                | semestreh. tot.   |   semestreh. tot. |   ECTS |\n|-----------|------------------------------------------------------|-------------------|-------------------|--------|\n| SBL.00040 | Biologie des organismes I : vertébrés                | SA                |                28 |      3 |\n| SBL.00041 | Biologie des organismes II : invertébrés             | SP                |                28 |      3 |\n| SBL.00074 | Biologie des organismes III : champignons et plantes | SP                |                72 |      5 |\n| SBL.00045 | Hormones et développement des plantes                | SP                |                28 |      3 |\n| SBL.00021 | Biologie de l'évolution                              | SA                |                28 |      3 |\n| SCH.01067 | Chimie des éléments                                  | SP                |                42 |      3 |\n| SPH.02101 | Physique moderne (cours et exercices)                | SA                |                84 |      7 |\n| SFS.00001 | Philosophie et éthique des sciences                  | SA                |                28 |      3 |\n| SBL.00013 | Écologie                                             | SA                |                42 |      4 |\n| SBL.00014 | Biologie moléculaire                                 | SA                |                28 |      3 |\n| SBL.00020 | Neurobiologie                                        | SA                |                20 |      2 |\n| SBC.00119 | Fondements de biochimie                              | SA                |                52 |      6 |\n| SME.05103 | Microbiologie générale et médicale                   | SA                |                24 |      3 |\n| SFS.00002 | Sciences et société                                  | SP                |                28 |      3 |\n| SCH.01054 | Chimie analytique (cours avec exercices)             | SP                |                42 |      3 |\n| SPH.01301 | Aspects théoriques de physique fondamentale I        | SA                |                56 |      4 |\n| SPH.01401 | Aspects théoriques de physique fondamentale II       | SP                |                56 |      4 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SBL.00040",
+            "Titre": "Biologie des organismes I : vertébrés",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SBL.00041",
+            "Titre": "Biologie des organismes II : invertébrés",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SBL.00074",
+            "Titre": "Biologie des organismes III : champignons et plantes",
+            "semestreh. tot.": "72",
+            "ECTS": "5"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SBL.00045",
+            "Titre": "Hormones et développement des plantes",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SBL.00021",
+            "Titre": "Biologie de l'évolution",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SCH.01067",
+            "Titre": "Chimie des éléments",
+            "semestreh. tot.": "42",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SPH.02101",
+            "Titre": "Physique moderne (cours et exercices)",
+            "semestreh. tot.": "84",
+            "ECTS": "7"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SFS.00001",
+            "Titre": "Philosophie et éthique des sciences",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SBL.00013",
+            "Titre": "Écologie",
+            "semestreh. tot.": "42",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SBL.00014",
+            "Titre": "Biologie moléculaire",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SBL.00020",
+            "Titre": "Neurobiologie",
+            "semestreh. tot.": "20",
+            "ECTS": "2"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SBC.00119",
+            "Titre": "Fondements de biochimie",
+            "semestreh. tot.": "52",
+            "ECTS": "6"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SME.05103",
+            "Titre": "Microbiologie générale et médicale",
+            "semestreh. tot.": "24",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Code": "SFS.00002",
+            "Titre": "Sciences et société",
+            "semestreh. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Code": "SCH.01054",
+            "Titre": "Chimie analytique (cours avec exercices)",
+            "semestreh. tot.": "42",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "Code": "SPH.01301",
+            "Titre": "Aspects théoriques de physique fondamentale I",
+            "semestreh. tot.": "56",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 16,
+          "cells": {
+            "Code": "SPH.01401",
+            "Titre": "Aspects théoriques de physique fondamentale II",
+            "semestreh. tot.": "56",
+            "ECTS": "4"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Sciences naturelles",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1 Unités d'enseignement",
+      "line_index": 8,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.1 UE obligatoire de la 1e année (36 ECTS).",
+      "line_index": 20,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.2 Autres UE obligatoires (1e à 3e année, 7 ECTS)",
+      "line_index": 42,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "1.3 UE à choix (1e à 3e année, 7 ou 27 ECTS)",
+      "line_index": 50,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2 Description des unités d'enseignement",
+      "line_index": 72,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.1 Domaine de la Biologie",
+      "line_index": 74,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.2 Domaine de la Chimie",
+      "line_index": 90,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.3 Domaine de la Physique",
+      "line_index": 99,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3 Évaluation des UE",
+      "line_index": 108,
+      "source": "markdown_regex"
+    }
+  ]
+}

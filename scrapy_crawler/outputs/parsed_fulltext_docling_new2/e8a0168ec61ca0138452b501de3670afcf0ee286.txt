@@ -1,0 +1,65 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:34:23.808Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Assessment_modalities_in_digital_neuroscience_DN_e8a0168ec61ca0138452b501de3670afcf0ee286",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e8a0168ec61ca0138452b501de3670afcf0ee286",
+  "program_key": "faculty of science and medicine|master|120|digital neuroscience",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_DN_en.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Assessment_modalities_in_digital_neuroscience_DN_e8a0168ec61ca0138452b501de3670afcf0ee286.pdf",
+  "sha256": "f094b47b0797397deeafbf1e0cad231c26ea7b3d2da38be9cf559277da68f922",
+  "fetched_at": "2026-05-21T16:05:16.658Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_DN_en.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+10
+
+Appendix to the curriculum of the Faculty of Science and Medicine
+
+Assessment modalities for the teaching units in Digital Neuroscience
+
+Accepted by the Faculty of Science and Medicine on 30.05.2022 Revised Version of 14.04.2025
+
+## 1 Introduction
+
+This  appendix  describes  the  assessment  conditions  of  the  Teaching  Units  (UE)  in  Digital neurosciences.  It  complements  the  curricula  in  which  the  units  with  the  code  "SDN.0nnnn" appear.
+
+## 2 Assessment of teaching units
+
+The assessment of exercises, practicals and seminars is based on criteria (number of sets of exercises completed, completion of projects, presentation style, etc.) set out at the beginning of the semester. The assessment of courses is carried out by oral or written exams, the duration of which  is  set  out  in  this  appendix.  A  satisfactory  assessment  for  the  exercises  may  be  a prerequisite for access to the corresponding exam. The exams are usually held during three exam sessions (winter, summer, autumn). For each exam, the student registers within the prescribed deadlines  on  the  MyUniFR  portal  (https://my.unifr.ch)  according  to  the  online  procedure accessible with the personal account and password provided by the University. The exam will cover the subject of the UE as it was last taught. Any exceptions will be communicated by the Department and/or the teacher in charge. The grading scale ranges from 6 (best grade) to 1 (worst grade). A test with a mark of less than 4 may be repeated once and at the earliest in the next exam session.
+
+## 3 Regulatory basis
+
+This document serves as an appendix to the following curricula:
+
+- Curriculum for the Specialised Master of Science in Digital Neuroscience.
+
+It is subject to the Regulation for the award of the Bachelor of Science and Master of Science .
+
+All these documents are available at http://www.unifr.ch/scimed/fr/plans.
+
+## 4 Assessment modalities
+
+Exercises, mini-projects and other forms are evaluated according to criteria set and communicated at the beginning of the semester. The exercises may also be examined in the corresponding course test.
+
+The assessment of each UE is conducted in one of the following two ways:
+
+- Modality A (lecture): Exercises, mini-projects and other forms are assessed on a continuous basis and will be judged by a grade. The assessment of the UE consists either of a continuous assessment, a written test of 60 to 120 minutes or an oral test of 20 minutes. In order to register for the test, the candidate must meet the minimum requirements as stated at  the beginning of the course. A mark is awarded.
+- Modality B (Master's thesis/individual project): Report and possible presentation. A mark is awarded.
+
+With the written consent of the student, a change in the examination modality may be made. This applies in particular when a student is the only one registered for a written exam. The Department in  charge  may  offer  the  student  that  the  written  exam  be  replaced  by  an  oral  exam  (written response required).
+
+| Code      | Teaching Unit                                             |   ECTS | Assessment modality   |
+|-----------|-----------------------------------------------------------|--------|-----------------------|
+| SDN.00001 | Introduction to neuroscience                              |      3 | Modality A            |
+| SDN.00002 | Foundations of informatics                                |      3 | Modality A            |
+| SDN.00003 | Current topics in digital neuroscience                    |      3 | Modality A            |
+| SDN.00006 | Cybernetic Systems: Bridging Brains, Machines and society |      5 | Modality A            |
+| SDN.00010 | Master's thesis and presentation                          |     58 | Modality B            |
+| SDN.00011 | Master's thesis -related activities                       |      2 | Modality B            |

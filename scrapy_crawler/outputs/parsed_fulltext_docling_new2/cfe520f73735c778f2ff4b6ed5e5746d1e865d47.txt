@@ -1,0 +1,263 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:56:47.147Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Mathematics_Branches_compl_mentaires_en_math_matiques_cfe520f73735c778f2ff4b6ed5e5746d1e865d47",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "cfe520f73735c778f2ff4b6ed5e5746d1e865d47",
+  "program_key": "faculty of science and medicine|bachelor|120|mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_MA_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Mathematics_Branches_compl_mentaires_en_math_matiques_cfe520f73735c778f2ff4b6ed5e5746d1e865d47.pdf",
+  "sha256": "2a61f1e29409dde187852712c695f7997978876724205583234d801f44ec6d8a",
+  "fetched_at": "2026-05-21T16:05:17.662Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_MA_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.1  Mathématiques
+
+Les mathématiques sont offertes comme branche complémentaire à 30 ou à 60 crédits ECTS. Pour la branche complémentaire à 30 crédits ECTS, il existe plusieurs variantes dont le choix dépend de la branche principale. La branche complémentaire à 60 crédits ECTS, complétée par la  branche  complémentaire  Mathématiques  +30,  dispense  une  formation  scientifique  en mathématiques reconnue comme deuxième branche d'enseignement du Diplôme d'Enseignement pour les Ecoles de Maturité DEEM.
+
+## 3.1.1 Branche complémentaire MATH 30A
+
+[Version 2023, paquet de validation : PV-SMA.0000058/OP-SMA.0000016]
+
+Le plan d'études ci -dessous présuppose l'achèvement de la branche propédeutique Mathéma -tiques et s'applique aux étudiant -e-s qui ont déjà suivi les mathématiques propédeutiques dans le cadre de la branche principale ou d'une autre branche complémentaire.
+
+## 3.1.1.1 Unités d'enseignement
+
+| Code                | Unité d'enseignement                                                        | semestre            | h. tot.             | ECTS   |
+|---------------------|-----------------------------------------------------------------------------|---------------------|---------------------|--------|
+|                     | UE à choix (30 ECTS)                                                        |                     |                     |        |
+| SMA.02331           | Introduction à l'analyse numérique I (cours avec exercices)                 | SA                  | 56                  | 5      |
+| SMA.02332           | Introduction à l'analyse numérique II (cours avec exercices)                | SP                  | 56                  | 5      |
+| SMA.02705           | Mathématiques I pour BSc_SI (cours avec exercices)                          | SA                  | 84                  | 8      |
+| SMA.02706           | Mathématiques II pour BSc_SI (cours avec exercices)                         | SP                  | 84                  | 7      |
+| SMA.02431           | Introduction aux probabilités et à la statistique I (cours avec exercices)  | SA                  | 56                  | 5      |
+| SMA.02432           | Introduction aux probabilités et à la statistique II (cours avec exercices) | SP                  | 56                  | 5      |
+| SMA.0xxxx           | Autres cours *                                                              |                     |                     | *      |
+| Total (à atteindre) | Total (à atteindre)                                                         | Total (à atteindre) | Total (à atteindre) | 30     |
+
+* D'entente avec le conseiller ou la conseillère d'études ; on recommande par exemple les cours suivants :
+
+-Mathématiques discrètes (SMA.03519/20).
+
+## 3.1.1.2 Contenu des unités d'enseignement
+
+Dans les cours Introduction à l'analyse numérique I - II (SMA.02331, SMA.02332) et Introduction aux probabilités et à la statistique I - II (SMA.02431, SMA.02432), les étudiant-e-s acquièrent des connaissances de base dans deux domaines importants des mathématiques appliquées.
+
+Les cours Mathématiques I et II pour BSc\_SI (SMA.02705 et SMA.02706) présentent les fondements de quelques domaines importants des mathématiques de l'enseignement aux degrés secon daires I.
+
+Les  exercices  obligatoires  qui  les  accompagnent  en  sont  une  composante  essentielle  car  la matière ne peut être vraiment maîtrisée que par un travail personnel.
+
+## 3.1.1.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .
+
+## 3.1.2 Branche complémentaire MATH 30B
+
+[Version 2023, Paquet de validation : PV-SMA.0000058/OP-SMA.0000017]
+
+Lorsque  les  mathématiques  ne  sont  ni  une  branche  propédeutique  ni  prévues  dans  le  plan d'études de la branche principale (comme par exemple dans les études de physique), le plan d'études suivant s'applique :
+
+## 3.1.2.1 Unités d'enseignement
+
+| Premier semestre Code        | Unité d'enseignement                                                       | semestre   | h. tot.   | ECTS   |
+|------------------------------|----------------------------------------------------------------------------|------------|-----------|--------|
+| SMA.00103                    | Analyse propédeutique I (cours avec exercices)                             | SA         | 42        | 3      |
+| SMA.00202                    | Algèbre linéaire propédeutique (cours avec exercices)                      | SA         | 42        | 3      |
+|                              | Total                                                                      |            |           | 6      |
+| Deuxième semestre            | Deuxième semestre                                                          |            |           |        |
+| Code                         | Unité d'enseignement                                                       | semestre   | h. tot.   | ECTS   |
+| SMA.00104                    | Analyse propédeutique II (cours avec exercices)                            | SP         | 42        | 3      |
+| SMA.00402                    | Statistique propédeutique (cours avec exercices)                           | SP         | 42        | 3      |
+|                              | Total                                                                      |            |           | 6      |
+| Deuxième et troisième années | Deuxième et troisième années                                               |            |           |        |
+| Code                         | Unité d'enseignement                                                       | semestre   | h. tot.   | ECTS   |
+|                              | UE à choix (18 ECTS)                                                       |            |           |        |
+| SMA.02331                    | Introduction à l'analyse numérique I (cours avec exercices)                | SA         | 56        | 5      |
+| SMA.02332                    | Introduction à l'analyse numérique II (cours avec exercices)               | SP         | 56        | 5      |
+| SMA.02431                    | Introduction aux probabilités et à la statistique I (cours avec exercices) | SA         | 56        | 5      |
+| SMA.02705                    | Mathématiques I pour BSc_SI (cours avec exercices)                         | SA         | 84        | 8      |
+| SMA.0xxxx                    | Autres cours *                                                             |            |           | *      |
+|                              | Total (à atteindre)                                                        |            |           | 18     |
+
+* D'entente avec le conseiller ou la conseillère d'études ; on recommande par exemple les cours suivants :
+
+-Mathématiques discrètes (SMA.03519/20).
+
+-Introduction aux probabilités et à la statistique II (cours avec exercices, SMA.02432)
+
+## 3.1.2.2 Contenu des unités d'enseignement
+
+Les cours Analyse propédeutique I et II (SMA.00103 et SMA.00104) rafraîchissent et élargissent les connaissances sur les fonctions réelles (calcul différentiel et intégral) acquises au gymnase, avant tout dans le domaine des équations différentielles, dont le traitement conduit à l'introduction des nombres complexes. Pa rtant de la résolution des systèmes d'équations linéaires, l' Algèbre linéaire  propédeutique (SMA.00202 )  introduit  à  un  domaine  d'importance  fondamentale  pour toute discipline mathématique.
+
+La Statistique propédeutique (SMA.00402) introduit aux méthodes statistiques indispensables à tout scientifique.
+
+Dans les cours Introduction à l'analyse numérique I et II (SMA.02331) et Introduction aux probabilités  et  à  la  statistique  I -II (SMA.02431), les étudiant-e-s acquièrent des connaissances de base dans deux domaines importants des mathématiques appliquées.
+
+Le  cours Mathématiques  I  pour  BSc\_SI (SMA.02705)  présente  les  fondements  de  quelques domaines importants des mathématiques du secondaire I.
+
+Les exercices obligatoires accompagnant ces cours en sont une composante essentielle car la matière ne peut être vraiment maîtrisée que par un travail personnel.
+
+## 3.1.2.3 Evaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .
+
+## 3.1.3 Branche complémentaire MATH 30C
+
+[Version 2023, paquet de validation : PV-SMA.0000058/OP-SMA.0000018]
+
+Le plan d'études suivant s'applique aux étudiant-e-s qui suivent une branche principale de 150 ECTS ou plus (par exemple, en chimie). Ils peuvent choisir la branche complémentaire MATH 30C (qui contient les 30 ECTS des UE de la première année de MATH 60) à la place de MATH 30A ou MATH 30B.
+
+Cette variante est qualifiée pour les étudiant-e-s qui par la suite aimeraient approfondir leurs connaissances  en  mathématiques,  mais  qui,  à  cause  du  volume  limité  de  leur  branche complémentaire, ne peuvent pas prendre MATH 60 comme branche complémentaire pendant leurs études de Bachelor.
+
+## 3.1.3.1 Unités d'enseignement
+
+## Premier semestre
+
+| Code      | Unité d'enseignement                              | semestre   |   h. tot. |   ECTS |
+|-----------|---------------------------------------------------|------------|-----------|--------|
+| SMA.01103 | Analyse I (cours avec exercices)                  | SA         |        84 |      7 |
+| SMA.01203 | Algèbre linéaire I (cours avec exercices)         | SA         |        84 |      7 |
+| SMA.01903 | Compléments I à l'Analyse et à l'Algèbre linéaire | SA         |        14 |      1 |
+|           | Total                                             |            |           |     15 |
+
+## Deuxième semestre
+
+| Code      | Unité d'enseignement                               | semestre   |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------|------------|-----------|--------|
+| SMA.01104 | Analyse II (cours avec exercices)                  | SP         |        84 |      7 |
+| SMA.01204 | Algèbre linéaire II (cours avec exercices)         | SP         |        84 |      7 |
+| SMA.01904 | Compléments II à l'Analyse et à l'Algèbre linéaire | SP         |        14 |      1 |
+|           | Total                                              |            |           |     15 |
+
+## 3.1.4 Branche complémentaire MATH 30PH
+
+[Version 2022, paquet de validation : PV-SMA.0000049]
+
+Ce plan d'études s'adresse aux étudiant -e-s qui ont la physique en branche principale et qui, de ce  fait,  acquièrent  déjà  des  connaissances  de  mathématiques  dans  le  cadre  de  la  branche principale. Bien que cette variante ne comporte que 30 crédits, les étudiant-es l'ayant choisie dans le cadre de leur formation en physique (BSc et MSc) combinée avec MATH +30 ont accès à la formation menant au Diplôme d'enseignement pour les écoles de maturité (DEEM) dans les branches physique et mathématiques.
+
+## 3.1.4.1 Unités d'enseignement
+
+| Code                 | Unité d'enseignement                                                         | semestre   | h. tot.   |   ECTS |
+|----------------------|------------------------------------------------------------------------------|------------|-----------|--------|
+| UE obligatoires (20  | ECTS)                                                                        |            |           |        |
+| SMA.02331            | Introduction à l'analyse numérique I (cours avec exercices)                  | SA         | 56        |      5 |
+| SMA.02431            | Introduction aux probabilités et à la statistique I (cours avec exercices)   | SA         | 56        |      5 |
+| SMA.02332            | Introduction à l'analyse numérique II (cours avec exercices)                 | SP         | 56        |      5 |
+| SMA.02432            | Introduction aux probabilités et à la statistique II, (cours avec exercices) | SP         | 56        |      5 |
+| UE optionnelles (≥10 | ECTS)                                                                        |            |           |        |
+| SMA.02132            | Analyse IV (cours avec exercices)                                            | SP         | 84        |      7 |
+| SMA.03xxx            | Un autre cours                                                               |            | **        |      6 |
+| SMA.03xxx            | Un autre cours                                                               |            | **        |      6 |
+| SIN.01023            | Introduction à la programmation                                              | SA         | 56        |      6 |
+| SIN.02020            | Programmation proche du système                                              | SP         | 56        |      5 |
+| SIN.01022            | Architecture d'ordinateur                                                    | SA         | 56        |      5 |
+| SIN.03023            | Algorithmique                                                                | SP         | 56        |      6 |
+| Total                | Total                                                                        | Total      | Total     |     30 |
+
+** Cours de 2 heures par semaine sur une année ou 4 heures par semaine sur un semestre.
+
+Il y a d'autres possibilités offertes comme par exemple Algèbre et géométrie I (SMA.02231, 7 ECTS) ou Algèbre et géométrie II (SMA.02232, 7 ECTS)
+
+## 3.1.4.2 Contenu des unités d'enseignement
+
+Dans les cours Introduction à l'analyse numérique I et II (SMA.02331, SMA.02332) et Introduction aux probabilités et à la statistique I et II (SMA.02431, SMA.02432), les étudiant-e-s acquièrent des connaissances de base dans deux domaines importants des mathématiques appliquées. Les exercices obligatoires accompagnant ces cours en forment une composante essentielle, car la matière ne peut être vraiment maîtrisée que par un travail personnel. Ils sont particulièrement importants en mathématiques appliquées.
+
+Le cours Introduction à la programmation (SIN.01020) introduit la programmation d'un ordina teur. Le  cours Architecture  d'ordinateur (SIN.01022)  permet  d'étudier  le  fonctionnement  des  ordinateurs à partir de leur architecture, c'est-à-dire avec une vue matérielle. Le cours Algorithmique (SIN.02021) est dédié à l'étude des algorithmes, c'est-à-dire des méthodes de résolution de problèmes  classiques à l'aide d'ordinateurs. Le cours Programmation  proche  du  système (SIN.02020)  introduit  à  la  programmation  impérative  de  processus  proches  du  système d'exploitation.
+
+## 3.1.4.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques, de l'informatique et de la physique.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .
+
+## 3.1.5 Branche complémentaire MATH 30MA
+
+[Version 2022, paquet de validation : PV-SMA.0000050]
+
+Les étudiant-e-s inscrit-e-s en mathématiques comme branche principale peuvent choisir des mathématiques d'un volume de 30 crédits ECTS comme branche complémentaire.
+
+## 3.1.5.1 Unités d'enseignement
+
+En 2 e et 3 e  années, des cours et séminaires d'un total de 30 crédits ECTS sont à choisir.
+
+## 3.1.5.2 Contenu des unités d'enseignement
+
+Des cours ou séminaires d'un total de 30 crédits ECTS doivent être choisis dans le programme de la troisième année du Bachelor en mathématiques ou dans celui du Master en mathématiques, d'entente avec le conseiller  ou la conseillère d' études .  Le  choix  n'est  soumis  à  aucune  autre restriction  et  peut  par  exemple  s'effectuer  en  vue  d'une  spécialisation  dans  une  discipline mathématique.
+
+## 3.1.5.3 Évaluation
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .
+
+## 3.1.6 Branche complémentaire MATH 60
+
+[Version 2022, paquet de validation : PV-SMA.0000051]
+
+Cette  branche  complémentaire  combinée  avec  MATH +30  est  reconnue  comme  formation scientifique en mathématiques comme deuxième branche d'enseignement du DEEM.
+
+## Unités d'enseignement
+
+## Premier semestre
+
+| Code      | Unité d'enseignement                              | semestre   |   h. tot. |   ECTS |
+|-----------|---------------------------------------------------|------------|-----------|--------|
+| SMA.01103 | Analyse I (cours avec exercices)                  | SA         |        84 |      7 |
+| SMA.01203 | Algèbre linéaire I (cours avec exercices)         | SA         |        84 |      7 |
+| SMA.01903 | Compléments I à l'Analyse et à l'Algèbre linéaire | SA         |        14 |      1 |
+| Total     | Total                                             |            |           |     15 |
+
+## Deuxième semestre
+
+| Code      | Unité d'enseignement                               | semestre   | h. tot.   |   ECTS |
+|-----------|----------------------------------------------------|------------|-----------|--------|
+| SMA.01104 | Analyse II (cours avec exercices)                  | SP         | 84        |      7 |
+| SMA.01204 | Algèbre linéaire II (cours avec exercices)         | SP         | 84        |      7 |
+| SMA.01904 | Compléments II à l'Analyse et à l'Algèbre linéaire | SP         | 14        |      1 |
+| Total     | Total                                              | Total      | Total     |     15 |
+
+## Deuxième et troisième années
+
+** Cours de 2 heures par semaine sur une année, 4 heures par semaine sur un semestre ou 2 cours de 2 heures par semaine sur un semestre. Il y a d'autres possibilités offertes comme Analyse III avec exercices (SMA.02131, 7 ECTS) ou Algèbre et Géométrie I avec exercices (SMA.02231, 7 ECTS).
+
+| Code      | Unité d'enseignement                                                        | semestre   | h. tot.   |   ECTS |
+|-----------|-----------------------------------------------------------------------------|------------|-----------|--------|
+| SMA.02331 | Introduction à l'analyse numérique I (cours avec exercices)                 | SA         | 56        |      5 |
+| SMA.02431 | Introduction aux probabilités et à la statistique I (cours avec exercices)  | SA         | 56        |      5 |
+| SMA.02332 | Introduction à l'analyse numérique II (cours avec exercices)                | SP         | 56        |      5 |
+| SMA.02432 | Introduction aux probabilités et à la statistique II (cours avec exercices) | SP         | 56        |      5 |
+| SMA.03xxx | Un autre cours                                                              |            | **        |      6 |
+| SMA.038xx | Un séminaire ou un proséminaire avec conférence                             |            | 28        |      3 |
+| SMA.03810 | Travail écrit ***                                                           |            | -         |      1 |
+| Total     | Total                                                                       | Total      |           |     30 |
+
+*** En complément du (pro-)séminaire SMA.038xx
+
+## 3.1.6.2 Contenu des unités d'enseignement
+
+Les cours de mathématiques de la première année sont également suivis par les étudiant-e-s avec les mathématiques comme branche principale et transmettent des connaissances de base allant  au-delà  des  mathématiques  propédeutiques  et  indispensables  aux  futurs  maîtres  de gymnase par exemple. À l'exception du cours Compléments à l'Analyse et à l'Algèbre linéaire (SMA.01903 et SMA.0 1904), ils sont accompagnés d'exercices obligatoires. Ceux -ci forment un élément essentiel des études, car la matière ne peut être vraiment maîtrisée que par un travail personnel.
+
+Les cours Analyse I et II (SMA.01103 et SMA.01104) traitent le calcul différentiel et intégral des fonctions réelles d'une et de plusieurs variables et introduisent ainsi à un domaine des mathé matiques jouant un rôle prépondérant dans la plupart des applications dans les sciences naturelles et dans bien d'autres sciences. Les cours Algèbre linéaire I et II (SMA.01203 et SMA.01204) traitent en particulier  de  la  résolution  de  systèmes  d'équations  linéaires,  mais  surtout  des  concepts  qui  en découlent et qui imprègnent presque toutes les branches des mathématiques.  Le cours Compléments à l'Analyse et à l'Algèbre linéaire I et II (SMA.01903 et SMA.01904) complète les autres.
+
+Dans  les  cours Introduction  à  l'analyse  numérique  I et II (SMA.02331)  et Introduction  aux probabilités et à la statistique I et II (SMA.02431), les étudiant-e-s acquièrent des connaissances de base dans deux domaines particulièrement importants en mathématiques appliquées. Les exercices obligatoires accompagnant ces cours en forment une composante essentielle, car la matière ne peut être vraiment maîtrisée que par un travail personnel.
+
+Le (pro)séminaire avec conférence (SMA.038xx) et travail écrit (SMA.0 3810) offre l'opportunité d'une immersion plus profonde dans des chapitres choisis des mathématiques et de les présenter dans une conférence.
+
+## 3.1.6.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .

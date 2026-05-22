@@ -1,0 +1,88 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:29:35.897Z",
+  "title": "matched_Faculty_of_Law_Master_90_Law_Studienplan_MLaw_3afcfd2aae52a60f219537caf6d3c2689a7a40d6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3afcfd2aae52a60f219537caf6d3c2689a7a40d6",
+  "program_key": "faculty of law|master|90|law",
+  "source_url": "https://www.unifr.ch/ius/assets/public/documents/etudes/MLaw-Studienplan.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Law_Studienplan_MLaw_3afcfd2aae52a60f219537caf6d3c2689a7a40d6.pdf",
+  "sha256": "8aa690e18a075696df126f70cd8ebc38c4f6767697011ba71c72667fd4b96f33",
+  "fetched_at": "2026-05-21T16:05:35.176Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/MLaw-Studienplan.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Studienplan Master of Law
+
+| Kurs                                                                                                                                                                                                                                                                                                                                                                               | ECTS    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Obligatorische Semesterkurse (IUR IV): Jeder Semesterkurs entspricht jeweils 5 ECTS                                                                                                                                                                                                                                                                                                | 25 ECTS |
+| Internationales Privatrecht  Schuldbetreibung und Konkurs  Verwaltungsverfahren  Zivilprozessrecht  Strafprozessrecht                                                                                                                                                                                                                                                          |         |
+| Frei wählbare Semesterkurse / Blockkurse                                                                                                                                                                                                                                                                                                                                           | 40 ECTS |
+| - Jeder Semester-/Blockkurs entspricht jeweils 5 ECTS. Es müssen somit 8 Semester-/Blockkurse bestanden werden. - 10 ECTS können durch Seminare/Seminararbeiten oder durch eine Forschungsarbeit ersetzt werden.                                                                                                                                                                   |         |
+| Masterarbeit                                                                                                                                                                                                                                                                                                                                                                       | 5 ECTS  |
+| Seminare                                                                                                                                                                                                                                                                                                                                                                           | 10 ECTS |
+| - 2 Seminare à je 5 ECTS - Innerhalb dieser Seminare ist eine schriftliche Arbeit (=Seminararbeit) zu verfassen, welche zusammen mit einer mündlichen Leistung als Seminar zu 5 ECTS zählt. - Ein Seminar kann durch eine Seminararbeit ersetzt werden, die ausserhalb eines Seminars verfasst wird. - Beide Seminare können durch eine Forschungsarbeit (10 ECTS) ersetzt werden. |         |
+| Spezialkredite                                                                                                                                                                                                                                                                                                                                                                     | 10 ECTS |
+| - Tutorate, zusätzliche Seminare und Seminararbeiten, Moot Courts können als Spezialkredite gezählt werden, siehe Liste der Spezialkredite - Auch frei wählbare Semesterkurse + Blockkurse können als Spezialkredite validiert werden                                                                                                                                              |         |
+| TOTAL                                                                                                                                                                                                                                                                                                                                                                              | 90 ECTS |
+
+<!-- image -->
+
+dir Recht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Schwerpunkte
+
+Innerhalb der obligatorischen 90 ECTS können Schwerpunkte erlangt werden. Folgende 9 Schwerpunkte stehen zur Auswahl:
+
+- 1) Wirtschaft
+- 7) Strafen
+- 4) Familie
+- 5) Umwelt und Klima
+- 6) Religion
+- 2) Staat und Service public
+- 8) Streitbeilegung
+- 3) Europa
+- 9) Menschenrechte
+
+Es können maximal 2 Schwerpunkte erlangt werden. Für den Erwerb eines Schwerpunktes sind folgende Leistungen nötig:
+
+- 3 Kurse (Blockkurse oder frei wählbare Semesterkurse) à 5 ECTS (15 ECTS)
+- 1 schriftliche Arbeit à 5 ECTS
+
+Bis zur Einschreibung in die letzte Examenssession besteht die Möglichkeit, die Wahl seiner Schwerpunkte zu ändern.
+
+## Mention «bilingue»
+
+Der Master of Law kann mit dem Zusatz «bilingue» erworben werden. Wer diesen Zusatz zum Master erlangen möchte, muss
+
+- 35 ECTS in der Zweitsprache leisten und
+- eine der drei schriftlichen Arbeiten in der Zweitsprache verfassen. Diese Arbeit wird in den 35 verlangten ECTS mitgezählt.
+
+Wer seinen Bachelor of Law bereits mit dem Zusatz «bilingue» erworben hat, ist von der schriftlichen Arbeit in der Zweitsprache befreit, muss aber dennoch 35 ECTS in der Zweitsprache erlangen.
+
+## Mention «Studienleistungen in englischer Sprache»
+
+Der Master of Law kann mit dem Zusatz «Studienleistungen in englischer Sprache» erworben werden. Wer diesen Zusatz zum Master erlangen möchte, muss
+
+- 35 ECTS auf Englisch leisten,
+- den obligatorischen Kurs Legal English and Common Law (5 ECTS) validieren,
+- eine der drei schriftlichen Arbeiten auf Englisch verfassen.
+
+Der obligatorische Kurs sowie die schriftliche Arbeit werden in den 35 verlangten ECTS mitgezählt. Wer die Bestätigung «Studienleistungen in englischer Sprache» zum Bachelor erlangt hat, ist vom Kurs Legal English and Common Law sowie von der schriftlichen Arbeit auf Englisch befreit, muss aber dennoch 35 ECTS auf Englisch erlangen.
+
+<!-- image -->
+
+dhrRecht.

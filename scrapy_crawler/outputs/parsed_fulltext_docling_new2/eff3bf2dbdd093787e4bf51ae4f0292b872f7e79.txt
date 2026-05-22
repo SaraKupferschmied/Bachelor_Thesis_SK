@@ -1,0 +1,49 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:49:36.440Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Doctorate_UNK_Geosciences_G_osciences_prop_deutiques_eff3bf2dbdd093787e4bf51ae4f0292b872f7e79",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "eff3bf2dbdd093787e4bf51ae4f0292b872f7e79",
+  "program_key": "faculty of science and medicine|doctorate||geosciences",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_GS_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Doctorate_UNK_Geosciences_G_osciences_prop_deutiques_eff3bf2dbdd093787e4bf51ae4f0292b872f7e79.pdf",
+  "sha256": "244bf60b6a937ce6da95de5d02cc4b216dbd4e28616727e6bdcd5f1cbc298d99",
+  "fetched_at": "2026-05-21T16:05:17.683Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_GS_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.5  Géosciences propédeutiques
+
+[Version 2023, module : MO-SGS.00006]
+
+La branche propédeutique géosciences fait partie de l'enseignement obligatoire pour les étudiant -e-s  du  BSc  en  géographie  et  en  sciences  de  la  Terre.  Cette  branche  propédeutique  peut également être choisie par des étudiant-e-s de la Faculté des sciences et de médecine et d'autres Facultés.
+
+## 2.5.1 Unités d'enseignement de la branche propédeutique géosciences
+
+Ce programme propédeutique offre un ensemble de cours de base en géosciences (géographie et sciences de la Terre) dont l'horaire est compatible avec la majorité des plans d'études de 1 ère année de la Faculté des sciences et de médecine.
+
+## Semestre 1 (automne)
+
+| Code      | Unité d'enseignement                                               |   h. tot. |   ECTS |
+|-----------|--------------------------------------------------------------------|-----------|--------|
+| SGS.01001 | Introduction aux géosciences 1 - Espace et Société                 |        28 |      3 |
+| SGS.01002 | Introduction aux géosciences 2 - Atmosphère, Hydrosphère et Climat |        28 |      3 |
+| SGS.01003 | Introduction aux géosciences 3 - Géologie générale                 |        28 |      3 |
+| SGS.01004 | Introduction aux géosciences 4 - Roches et Minéraux                |        28 |      3 |
+|           |                                                                    |           |     12 |
+
+## 2.5.2 Contenu des unités d'enseignement
+
+Les  cours  de  base  d' introduction  aux  géosciences  (SGS.01001,  SGS.01002,  SGS.01003  et SGS.01004)  sont  destinés  à  donner  un  aperçu  général  des  caractéristiques  principales  du système  Terre  (Espace  et  Société ;  Atmosphère,  Hydrosphère  et  Climat ;  Géodynamiques interne et externe ; Roches et Minéraux) et des interactions entre les différentes disciplines qui composent les géosciences.
+
+## 2.5.3 Évaluation de la branche propédeutique géosciences
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la géographie (http://www.unifr.ch/scimed/plans/eval).

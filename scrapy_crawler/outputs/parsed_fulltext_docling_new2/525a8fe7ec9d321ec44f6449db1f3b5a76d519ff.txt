@@ -1,0 +1,96 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:47:46.603Z",
+  "title": "matched_Faculty_of_Law_Master_90_Legal_Studies_Pr_sentation_MALS_525a8fe7ec9d321ec44f6449db1f3b5a76d519ff",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "525a8fe7ec9d321ec44f6449db1f3b5a76d519ff",
+  "program_key": "faculty of law|master|90|legal studies",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Legal_Studies_Pr_sentation_MALS_525a8fe7ec9d321ec44f6449db1f3b5a76d519ff.pdf",
+  "sha256": "92bb800ca1cfe6e5df67d24c8adac9843614c7f8c53b1b6727d6567be6ed46bd",
+  "fetched_at": "2026-05-21T16:05:34.646Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITE DEFRIBOURG UNIVERSITAT FREIBURG
+
+<!-- image -->
+
+<!-- image -->
+
+chr Recht.
+
+## I. Marché du travail / Arbeitsmarkt
+
+- Le marché du travail demande de plus en plus des connaissances pluridisciplinaires.
+- Le système de Bologne facilite des études pluridisciplinaires (obtention d'un bachelor et d'un master dans des domaines différents).
+- Der Arbeitsmarkt verlangt immer mehr nach multidisziplinären Kenntnissen.
+- Das Bolognasystem erleichtert multidisziplinäre Studien (Erhalt des Bachelors und Masters in jeweils unterschiedlichen Bereichen).
+
+## I. Marché du travail / Arbeitsmarkt
+
+- En pratique, des connaissances juridiques sont de plus en plus importantes pour des personnes qui n'exercent  pas une profession juridique classique (p. ex. juge, avocat, notaire).
+- MALS est la réponse de notre faculté de droit aux nouvelles exigences du marché du travail.
+- In der Praxis werden juristische Kenntnisse für Personen, die keinen klassischen juristischen Beruf ausüben (z.B. Richter, Anwalt, Notar) immer wichtiger.
+- MALS ist die Antwort unserer Fakultät auf die neuen Bedürfnisse des Arbeitsmarktes.
+
+## II. Conditions d'admission / Zulassungsbedingungen
+
+## Admission sans conditions
+
+- Bachelor non juridique d'une université suisse ou étrangère.
+- Bachelor ou Master of Law d'une université étrangère.
+
+## Zulassung ohne Auflagen
+
+- Nicht-juristischer Bachelor einer Schweizer oder ausländischen Universität.
+- Bachelor oder Master of Law einer ausländischen Universität.
+
+## II. Conditions d'admission / Zulassungsbedingungen
+
+## Admission avec conditions
+
+- Bachelor d'une Haute école spécialisée (HES) suisse ou étrangère. La décision d'admission est rendue par la faculté. Un travail écrit, à réaliser durant les deux premiers semestres d'étude, est en principe exigé.
+
+## Zulassung mit Auflagen
+
+- Bachelor einer Schweizer oder ausländischen Fachhochschule. Der Zulassungsentscheid wird von der Fakultät getroffen. Grundsätzlich wird eine schriftliche Arbeit verlangt, die im Verlauf der ersten zwei Semester verfasst werden muss.
+
+## VII. Les examens (inscription) / Examen (Einschreibung)
+
+- Examen des cours de Bachelor : Choix entre session de juin ou septembre (pas de cumul, même en cas d'échec ). « Rattrapage » en janvier.
+- Inscription en mars pour les sessions d'examen en juin ou septembre.
+- Examens pour les cours de Bachelor et de Master la même session : juin (janvier).
+- Inscription sur myunifr.ch -&gt; payez l' émolument d'examen dans les délais!
+- Prüfung von Bachelorkursen : Wahl zwischen Juni oder September (keine Kumulation, auch nicht bei Misserfolg). «Nachholsession» im Januar.
+- Einschreibung im März für die Prüfungssessionen Juni oder September.
+- Prüfungen für Bachelor- und Masterkurse in der gleichen Session : Juni (Januar).
+- Einschreibung auf myunifr.ch -&gt; Prüfungsgebühren fristgerecht bezahlen!
+
+## VII. Les examens (déroulement) / Examen (Ablauf)
+
+- Le plan des examens est publié sur le site internet de la faculté.
+- Examens écrits: salle des fêtes (Fribourg Poya, Bus n o 1) ou Forum selon indication.
+- Arrivée: 30 min. avant le début de l'examen
+- Durée: 2h (2h20 bilingue).
+- Pour connaître le déroulement exact de l' examen , consultez le site internet du professeur.
+- Prüfungsplan wird auf der Internetseite der Fakultät publiziert.
+- Schriftliche Examen: Festsaal (Fribourg Poya, Bus Nr. 1) oder Forum gemäss Angaben.
+- Ankunft: 30 Min. vor Prüfungsbeginn.
+- Dauer: 2h (2h20 bilingue).
+- Konsultieren Sie vor der Prüfung die Lehrstuhlseite des Examinators.
+
+## VIII. Travail de Master / Masterarbeit
+
+- Selon les mêmes règles que pour le Master of Law.
+- Traitement d'un problème juridique ou interdisciplinaire (durée: 16 jours).
+- 5 ECTS.
+- Nach denselben Vorgaben wie für den Master of Law.
+- Abhandlung einer juristischen oder interdisziplinären Fragestellung (Dauer: 16 Tage).
+- 5 ECTS.

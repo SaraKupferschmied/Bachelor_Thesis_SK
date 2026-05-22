@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__240abb82af53a6df49e4c519c522184a3f628e28",
+  "markdown": "<!-- image -->\n\n## STUDIENAUFBAU: BA GESCHICHTE 30\n\n(STUDIENPLAN 2016)\n\n## P F L C H T L\n\n## L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)\n\n- 1 Überblicksvorlesung (3 ECTS)\n- 1 Methodenkurs (I) Grundkurs Epoche I (3 ECTS)\n- 1 Vorlesung ausserhalb der Epoche I (3 ECTS)\n- 1 Proseminar mit schriftlicher Arbeit ausserhalb der Epoche I (6 ECTS)\n\n## W  A H L P F L C H T T E L\n\n## BASISMODUL EPOCHE I (15 ECTS)\n\n- 2 Vorlesungen (2x3 ECTS)\n- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)\n- 1 vom Epochenfach festgelegte Veranstaltung der Epoche I (3 ECTS) Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot\n\n## NOTA BENE\n\n- Die Wahl des Epochenfaches im Wahlpflichtteil ist der / dem Studierenden überlassen.\n- Codes und konkreter Aufbau der Basismodule im Dokument: Ü bersicht Module",
+  "pages": [
+    "<!-- image -->\n\n## STUDIENAUFBAU: BA GESCHICHTE 30\n\n(STUDIENPLAN 2016)\n\n## P F L C H T L\n\n## L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)\n\n- 1 Überblicksvorlesung (3 ECTS)\n- 1 Methodenkurs (I) Grundkurs Epoche I (3 ECTS)\n- 1 Vorlesung ausserhalb der Epoche I (3 ECTS)\n- 1 Proseminar mit schriftlicher Arbeit ausserhalb der Epoche I (6 ECTS)\n\n## W  A H L P F L C H T T E L\n\n## BASISMODUL EPOCHE I (15 ECTS)\n\n- 2 Vorlesungen (2x3 ECTS)\n- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)\n- 1 vom Epochenfach festgelegte Veranstaltung der Epoche I (3 ECTS) Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot\n\n## NOTA BENE\n\n- Die Wahl des Epochenfaches im Wahlpflichtteil ist der / dem Studierenden überlassen.\n- Codes und konkreter Aufbau der Basismodule im Dokument: Ü bersicht Module"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "STUDIENAUFBAU: BA GESCHICHTE 30",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "P F L C H T L",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)",
+      "line_index": 8,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "W A H L P F L C H T T E L",
+      "line_index": 15,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "BASISMODUL EPOCHE I (15 ECTS)",
+      "line_index": 17,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "NOTA BENE",
+      "line_index": 23,
+      "source": "markdown_regex"
+    }
+  ]
+}

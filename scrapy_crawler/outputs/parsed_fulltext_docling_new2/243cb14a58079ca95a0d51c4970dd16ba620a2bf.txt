@@ -1,0 +1,47 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:50:13.837Z",
+  "title": "matched_Faculty_of_Theology_Master_120_Theology_Hauptprogramm_90_ECTS_243cb14a58079ca95a0d51c4970dd16ba620a2bf",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "243cb14a58079ca95a0d51c4970dd16ba620a2bf",
+  "program_key": "faculty of theology|master|120|theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/OE_MA_t2.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_120_Theology_Hauptprogramm_90_ECTS_243cb14a58079ca95a0d51c4970dd16ba620a2bf.pdf",
+  "sha256": "d49e322667a4c14eb5f7838be9b99298c85147a79ba0242b3daa64fcdd2f9397",
+  "fetched_at": "2026-05-21T16:05:40.594Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/OE_MA_t2.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## II. MASTER (4 SEMESTER/SEMESTRES, 90 CP)
+
+| Gebiet/Matière                                                                                 | h                                                                      | Ev                                                                     |   CP |
+|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------|
+| 1. Biblische Studien/Études bibliques                                                          |                                                                        |                                                                        |   12 |
+| Exegese oder Theologie AT/Exégèse ou théologie AT                                              | 4                                                                      | Ev                                                                     |    6 |
+| Exegese oder Theologie NT/Exégèse ou théologie NT                                              | 4                                                                      | Ev                                                                     |    6 |
+| 2. Patristik und Kirchengeschichte/Patristique et histoire de l'Église                         | 2. Patristik und Kirchengeschichte/Patristique et histoire de l'Église | 2. Patristik und Kirchengeschichte/Patristique et histoire de l'Église |    9 |
+| Patristik/Patristique                                                                          | 2                                                                      | Ev                                                                     |    3 |
+| Kirchengeschichte/Histoire de l'Église                                                         | 4                                                                      | Ev                                                                     |    6 |
+| 3. Philosophie                                                                                 |                                                                        |                                                                        |    9 |
+| Philosophie                                                                                    | 6                                                                      | Ev                                                                     |    9 |
+| 4. Glaubenswissenschaft/Science de la foi                                                      |                                                                        |                                                                        |   11 |
+| Fundamentaltheologie/Théologie fondamentale                                                    | 2                                                                      | Ev                                                                     |    3 |
+| Dogmatik/Théologie dogmatique                                                                  | 6                                                                      | Ev                                                                     |    8 |
+| 5. Theologische Ethik/Théologie morale                                                         |                                                                        |                                                                        |    8 |
+| Theologische Ethik/Théologie morale oder/ou Christliche Soziallehre/Éthique sociale chrétienne | 6                                                                      | Ev                                                                     |    8 |
+| 6. Praktische Theologie/Théologie pratique                                                     |                                                                        |                                                                        |   12 |
+| Pastoraltheologie/Théologie pastorale                                                          | 2                                                                      | Ev                                                                     |    3 |
+
+| Liturgiewissenschaft/Sciences liturgiques                                                                   |   2 | Ev                             |   3 |
+|-------------------------------------------------------------------------------------------------------------|-----|--------------------------------|-----|
+| Religionspädagogik oder Katechetische Übungen Catéchèse et pédagogie religieuse ou Exercices catéchistiques |   2 | Ev                             |   3 |
+| Kirchenrecht/Droit canonique                                                                                |   2 | Ev                             |   3 |
+| 7. Weitere Studien- und Prüfungsverpflichtungen/ D'autres obligations d'études et d'éxamens                 |     |                                |  29 |
+| Seminar/Séminaire                                                                                           |   2 | schriftl. Arbeit/travail écrit |   4 |
+| Wahlpflichtgebiet(e)/Matière(s) au choix                                                                    |     |                                |   5 |
+| Master-Arbeit/Travail de Master                                                                             |     |                                |  20 |
+| Insgesamt/en tout:                                                                                          |     |                                |  90 |

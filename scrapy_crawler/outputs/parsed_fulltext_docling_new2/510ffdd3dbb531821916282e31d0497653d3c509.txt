@@ -1,0 +1,58 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:47:05.085Z",
+  "title": "matched_Faculty_of_Law_Master_90_Legal_Studies_Studienplan_MALS_510ffdd3dbb531821916282e31d0497653d3c509",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "510ffdd3dbb531821916282e31d0497653d3c509",
+  "program_key": "faculty of law|master|90|legal studies",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Legal_Studies_Studienplan_MALS_510ffdd3dbb531821916282e31d0497653d3c509.pdf",
+  "sha256": "02bed6bb8d0d534bbee9af1bc0ae8158bd772bb179b4141aaa98ac6d47641489",
+  "fetched_at": "2026-05-21T16:05:34.398Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Studienplan Master of Arts in Legal Studies (MALS)
+
+Das  Programm des Master  of  Arts  in  Legal  Studies  (MALS)  dauert  durchschnittlich  drei Semester  (90  ECTS).  Der  Master  setzt  sich  aus  obligatorischen  Fächern  des  BachelorProgramms (BLaw) und aus frei wählbaren Fächern des Bachelor- und Masterprogramms (MLaw) zusammen.
+
+| Kurs                                         | ECTS       |
+|----------------------------------------------|------------|
+| Obligatorische Fächer:                       | 48/42 ECTS |
+| Einführung in das Recht                      | 6 ECTS     |
+| Zivilrecht I                                 | 6 ECTS     |
+| Obligationenrecht I oder II                  | 9/12 ECTS  |
+| Öffentliches Recht I oder II                 | 12 ECTS    |
+| Strafrecht I oder II                         | 12/9 ECTS  |
+| Wahlfächer (aus Bachelor-und Masterprogramm) | 37/43 ECTS |
+| Masterarbeit                                 | 5 ECTS     |
+| Total                                        | 90 ECTS    |
+
+## Allgemeines
+
+- -MALS-Studierende  sind  nicht  verpflichtet,  den  Teil «Rechtsdurchsetzung» ,  welcher  die « Einführung  ins  Recht »  im  Bachelorprogramm  ab  Herbstsemester  2023  ergänzt,  zu besuchen.
+- -MALS-Studierenden  dürfen  auch  Kurse  auf  der  Liste  der Spezialkredite belegen.  Diese Kreditpunkte  werden  jedoch  nicht  an  die  90  ECTS-Kreditpunkte,  welche  für  das  Diplom erforderlich sind, angerechnet.
+- -MALS-Studierende  können Seminare aus  dem  Masterprogramm  besuchen,  die  BLawStudierenden, welche das IUR II bestanden haben, offenstehen, vorausgesetzt sie verfügen über vergleichbare juristische Vorkenntnisse auf dem Gebiet des Seminars, wie die BLawStudierenden.
+- -Die Prüfungseinschreibung erfolgt online über myUnifr . Pro Session ist eine Einschreibung für  max .  sechs  Prüfungen möglich.  Im  Falle  des  Nichtbestehens  eines obligatorischen Kurses  oder  eines Wahlfachs aus  dem Bachelor programm  kann  die  Prüfung  zweimal wiederholt werden (total drei Versuche). Im Falle des Nichtbestehens eines Wahlfachs aus dem Master programm kann die Prüfung nur einmal wiederholt werden (total zwei Versuche).
+
+<!-- image -->
+
+dirRecht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+- -Das  Erlangen  des  Titels ' Master  of  Arts  in  Legal  Studies ' setzt  das  Bestehen  der erforderlichen  Prüfungen  mit  den  zugehörigen  Kreditpunkten  sowie  das  Verfassen  einer genügenden Masterarbeit (5 ECTS-Kreditpunkte) voraus.
+
+Für Fragen und weitere Informationen: ius-admin@unifr.ch dir Recht.
+
+<!-- image -->

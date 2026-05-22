@@ -1,0 +1,199 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:37:32.457Z",
+  "title": "unmatched_THEO_UNK_UNK_Kirchliches_Diplom_Anmeldeformular_c1d6b93a00d16ade7a509360dc013c29b27eddde",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c1d6b93a00d16ade7a509360dc013c29b27eddde",
+  "program_key": null,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/docfac/Formular_Kirchliches_Diplom_2022.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Kirchliches_Diplom_Anmeldeformular_c1d6b93a00d16ade7a509360dc013c29b27eddde.pdf",
+  "sha256": "6f443ed09854c477c59024e9c29566244b3fa4ef3a6e685138fec2efed83dea0",
+  "fetched_at": "2026-05-21T16:05:42.068Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/docfac/Formular_Kirchliches_Diplom_2022.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Anmeldeformular - Kirchliches Diplom
+
+- [ ] Herbstsemester  20\_\_\_\_\_
+
+(Anmeldetermin: 30.4.)
+
+## Persönliche Angaben
+
+Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Vorname: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Geburtsdatum (Tag/Monat/Jahr):  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Geschlecht :
+
+- [ ] männlich
+
+- [ ] weiblich
+
+Zivilstand:
+
+- [ ] ledig
+
+- [ ] verheiratet
+
+- [ ] geschieden
+
+- [ ] eingetragene Partnerschaft
+
+Konfession:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+AHV-Nummer : \_\_\_\_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_\_\_\_-\_\_\_\_\_\_\_\_\_\_\_\_-\_\_\_\_\_\_
+
+Gewünschte Korrespondenzsprache:
+
+- [ ] Deutsch
+
+- [ ] Französisch
+
+Muttersprache: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Herkunftsland: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Heimatgemeinde:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Adresse
+
+Strasse: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+c/o oder Postfach: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Postleitzahl:\_\_\_\_\_\_\_\_ Ort:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Land: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Tel.  : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Handynummer:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Private E-Mail Adresse: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Schulabschluss
+
+Ausstellungsjahr des Diploms:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Land, welches das Diplom ausgestellt hat: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Genauer Titel des Diploms:   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Land  und Gemeinde des gesetzlichen Wohnsitzes zum Zeitpunkt der Erlangung des Diploms: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Hochschulstudien (Universität, Hochschule)
+
+Name der Universität / Hochschule
+
+Land
+
+Studium
+
+Anzahl Semester
+
+von (Jahr) bis
+
+Haben Sie einen universitären Grad erworben?
+
+- [ ] ja
+
+- [ ] nein
+
+Genauer Titel: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Waren Sie schon an einer schweizerischen Universität oder Hochschule immatrikuliert?
+
+- [ ] ja
+
+- [ ] nein
+
+Wenn ja, bitte Schweizerische Matrikelnummer angeben: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+*
+
+* bei anderer Muttersprache als Deutsch oder Französisch : Nachweis über Sprachniveau B2
+
+Bitte kleben Sie Ihr Passfoto hier
+
+## Berufliche Ausbildung
+
+Ausstellungsjahr des Diploms:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Land, welches das Diplom ausgestellt hat: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Genauer Titel des Diploms:   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Berufserfahrung
+
+Name des Arbeitsgebers                                                                                     Tätigkeit                                                                            von (Jahr) bis
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Tätigkeit im kirchlichen Bereich
+
+Name des Arbeitsgebers                                                                                     Tätigkeit                                                                            von (Jahr) bis
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Einzureichende Dokumente
+
+- vollständiger Lebenslauf
+- amtlich beglaubigte Kopien sämtlicher Diplome oder Vorlage der Originale (Kopien werden im Dekanat erstellt)
+- Motivationsschreiben
+- -Empfehlung einer kirchlichen Stelle (z.B. Pfarrer, bischöfliche Stelle)
+- -wenn andere Muttersprache als Deutsch oder Französisch: Nachweis über Sprachniveau B2
+- Beleg über einbezahlte Dossiergebühr von CHF 50.-- auf folgendes Konto:
+
+Freiburger Kantonalbank
+
+Universität Freiburg
+
+Verwaltungsdirektion , Finanzdienst
+
+Av. de l'Europe 20
+
+1700
+
+Freiburg
+
+PCK 17-49-3
+
+IBAN CH56 0076 8011 0040 1760 0
+
+Vermerk TE-30016 Kirchliches Diplom
+
+Es werden nur vollständige Dossiers behandelt.
+
+Adresse für den Versand der Dokumente:
+
+Universität Freiburg Dekanat der Theologischen Fakultät Av. de l'Europe 20 CH - 1700 Freiburg
+
+decanat-theol@unifr.ch
+
+Durch die Validierung der Anmeldung bestätige ich:
+
+- dass ich jeden Ausschluss vom Weiterstudium infolge endgültigen Nichtbestehens der Prüfungen in einem Hauptfach, Hauptbereich oder Hauptstudiengang an einer schweizerischen oder ausländischen Universität oder Hochschule angegeben habe und dass ich mich verpflichte, einen definitiven Misserfolg, der nach der Validierung der Anmeldung erfolgt, der Universität Freiburg sofort zu melden;
+-  dass ich alle Fragen wahrheitsgetreu und vollständig beantwortet habe und dass ich zur Kenntnis genommen habe, dass sich die Universität Freiburg rechtliche Schritte vorbehält, sollten die oben gemachten Angaben nicht korrekt sein;
+-  dass ich zur Kenntnis genommen habe, dass die Universität Freiburg die Echtheit meiner Diplome bei den ausstellenden Institutionen überprüfen wird;
+- dass ich akzeptiere, dass die oben gemachten Angaben gemäss dem kantonalen Gesetz über den Datenschutz und dem Bundesgesetz über den Datenschutz den kantonalen und eidgenössischen Behörden weitergegeben werden können. Meine Angaben werden zudem an die Kantons- und Universitätsbibliothek Freiburg (KUB) übermittelt, die automatisch eine Einschreibung für den Westschweizer Bibliotheksverbund (RERO) vornimmt.

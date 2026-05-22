@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Religious_studies_Schema_BA_120_ECTS_fed587f6a8aa4cb0f92c0da5ec3c68152c98a37c",
+  "markdown": "## Bachelor Religionswissenschaft\n\n## Studienprogramm zu 120 Kreditpunkten\n\n## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\n## Religionsgeschichte D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n- 2 VL: Grundlagen Sozialwissenschaften (Sozialanthropologie und Soziologie (6 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nTheorie und Fachgeschichte der RW\n\nD &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Empirische Methoden D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nModul Bachelorarbeit (18 ECTS): Bachelor-Arbeit (15 ECTS), Kolloquium (3 ECTS)\n\nModul Bereichsübergreifende und komplementäre Kompetenzen (CTC) 12 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nGesellschaft, Kultur und Religion D &amp; F - 15 ECTS\n\n- 5 Lehrveranstaltungen (15 ECTS)",
+  "pages": [
+    "## Bachelor Religionswissenschaft\n\n## Studienprogramm zu 120 Kreditpunkten\n\n## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\n## Religionsgeschichte D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n- 2 VL: Grundlagen Sozialwissenschaften (Sozialanthropologie und Soziologie (6 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nTheorie und Fachgeschichte der RW\n\nD &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Empirische Methoden D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nModul Bachelorarbeit (18 ECTS): Bachelor-Arbeit (15 ECTS), Kolloquium (3 ECTS)\n\nModul Bereichsübergreifende und komplementäre Kompetenzen (CTC) 12 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\nGesellschaft, Kultur und Religion D &amp; F - 15 ECTS\n\n- 5 Lehrveranstaltungen (15 ECTS)"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Bachelor Religionswissenschaft",
+      "line_index": 0,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Studienprogramm zu 120 Kreditpunkten",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Einführung in die Religionswissenschaft D &amp; F - 15 ECTS",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Religionsgeschichte D &amp; F - 15 ECTS",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Empirische Methoden D &amp; F - 15 ECTS",
+      "line_index": 26,
+      "source": "markdown_regex"
+    }
+  ]
+}

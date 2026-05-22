@@ -1,0 +1,82 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:10:08.147Z",
+  "title": "matched_Faculty_of_Law_Master_90_Law_Studienplan_MLaw_2013_30fc1545d2ebbeead4d8362d4485f613a03ca706",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "30fc1545d2ebbeead4d8362d4485f613a03ca706",
+  "program_key": "faculty of law|master|90|law",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MLaw-2013-Studienplan.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Law_Studienplan_MLaw_2013_30fc1545d2ebbeead4d8362d4485f613a03ca706.pdf",
+  "sha256": "9f3d4e1e48f3b6a21b4350c5160801f74b2f3dd97e121ef21d53bd1648a6e5f5",
+  "fetched_at": "2026-05-21T16:05:36.275Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MLaw-2013-Studienplan.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Studienplan Master of Law 2013
+
+Alle Studierenden, die ihr Masterstudium in Freiburg spätestens im Frühlingssemester 2023 begonnen haben, studieren grundsätzlich im Master of Law 2013 .
+
+| Kurs                                                                                                                                                                                                                                                                                                                                                                                             | ECTS    |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Frei wählbare Semesterkurse / Blockkurse                                                                                                                                                                                                                                                                                                                                                         | 60 ECTS |
+| - Jeder Semester-/Blockkurs entspricht jeweils 5ECTS-Kreditpunkten. Es müssen somit 12 Semester-/Blockkurse bestanden werden. - 10 ECTS können durch Seminare/Seminararbeiten oder durch eine Forschungsarbeit ersetzt werden.                                                                                                                                                                   |         |
+| Masterarbeit                                                                                                                                                                                                                                                                                                                                                                                     | 5 ECTS  |
+| Seminare                                                                                                                                                                                                                                                                                                                                                                                         | 10 ECTS |
+| - 2 Seminare à je 5 ECTS-Kreditpunkten - Innerhalb dieser Seminare ist eine schriftliche Arbeit (=Seminararbeit) zu verfassen, welche zusammen mit einer mündlichen Leistung als Seminar zu 5 ECTS zählt. - Ein Seminar kann durch eine Seminararbeit ersetzt werden, die ausserhalb eines Seminars verfasst wird. - Beide Seminare können durch eine Forschungsarbeit (10 ECTS) ersetzt werden. |         |
+| Spezialkredite                                                                                                                                                                                                                                                                                                                                                                                   | 15 ECTS |
+| - Tutorate, zusätzliche Seminare und Seminararbeiten, Moot Courts können als Spezialkredite gezählt werden, siehe Liste der Spezialkredite - Auch frei wählbare Semesterkurse + Blockkurse können als Spezialkredite validiert werden                                                                                                                                                            |         |
+| TOTAL                                                                                                                                                                                                                                                                                                                                                                                            | 90 ECTS |
+
+## Zusätze zum Master of Law 2013
+
+## 1. Zusatz «bilingue»
+
+Der Master of Law kann mit dem Zusatz «bilingue» erworben werden. Wer diesen Zusatz zum Master erlangen möchte, muss
+
+- 35 ECTS in der Zweitsprache leisten und
+- eine der drei schriftlichen Arbeiten in der Zweitsprache verfassen. Diese Arbeit wird in den 35 verlangten ECTS mitgezählt.
+
+<!-- image -->
+
+dir Recht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+Wer seinen Bachelor of Law bereits mit dem Zusatz «bilingue» erworben hat, ist von der schriftlichen Arbeit in der Zweitsprache befreit, muss aber dennoch 35 ECTS in der Zweitsprache erlangen.
+
+## 2. Zusatz «Europarecht»
+
+Wer den Zusatz «Europarecht» zu seinem Master of Law erwerben möchte, muss
+
+- 30 ECTS in europarechtlichen Fächern validieren (= 6 Kurse in Europarecht) und
+- eine der drei schriftlichen Arbeiten (5 ECTS) im europarechtlichen Kontext verfassen.
+
+Dabei werden nur 15 ECTS an die obligatorischen 90 ECTS-Kreditpunkte anrechnet. Die restlichen 20 ECTS-Kreditpunkte zählen als zusätzliche Leistungen . Wer den Master of Law mit dem Zusatz «Europarecht» erlangen möchte, erhält einen Master mit 110 ECTS-Kreditpunkten .
+
+Der Zusatz «Europarecht» kann unabhängig davon erlangt werden, ob der Bachelor of Law mit oder ohne diesen Zusatz abgeschlossen wurde.
+
+## 3. Zusatz «Religionsrecht»
+
+Wer den Zusatz «Religionsrecht» zu seinem Master of Law erwerben möchte, muss wie folgt 15 ECTS-Kreditpunkte mit religionsrechtlichem Bezug validieren:
+
+- «Vertiefungskurs Religionsrecht» (5 ECTS), obligatorisch und
+- Zwei Kurse mit Bezug zum Religionsrecht oder ein Kurs mit Bezug zum Religionsrecht und die Masterarbeit im Religionsrecht
+- Wer mit dem Zusatz erst auf Masterstufe beginnt, muss zudem den Kurs «Einführung in das Religionsrecht» (Jahreskurs, 6 ECTS) erfolgreich ablegen.
+
+Dabei werden nur 10 ECTS an die obligatorischen 90 ECTS-Kreditpunkte anrechnet. Die restlichen ECTS-Kreditpunkte zählen als zusätzliche Leistungen . Wer den Master of Law mit dem Zusatz «Religionsrecht» erlangen möchte, erhält einen Master mit 95 ECTSKreditpunkten .
+
+Der Zusatz «Religionsrecht» kann unabhängig davon erlangt werden, ob der Bachelor of Law mit oder ohne diesen Zusatz abgeschlossen wurde.
+
+<!-- image -->
+
+dirRecht.

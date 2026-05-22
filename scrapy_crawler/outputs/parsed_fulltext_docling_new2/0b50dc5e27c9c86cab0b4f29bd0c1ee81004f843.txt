@@ -1,0 +1,106 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:09:07.226Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Informatique_pour_le_DEDS_en_fran_ais__0b50dc5e27c9c86cab0b4f29bd0c1ee81004f843",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0b50dc5e27c9c86cab0b4f29bd0c1ee81004f843",
+  "program_key": "faculty of science and medicine|bachelor|120|computer science",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_IN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Informatique_pour_le_DEDS_en_fran_ais__0b50dc5e27c9c86cab0b4f29bd0c1ee81004f843.pdf",
+  "sha256": "475d1052ee793f393af395efad6c8c021e26f8b4a559e6309ae7d76fbbc18780",
+  "fetched_at": "2026-05-21T16:05:13.236Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_IN_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Bachelor en enseignement pour le degré secondaire I
+
+- Géosciences
+- Mathématiques
+- Informatique
+- Sciences naturelles
+- Sciences du sport et de la motricité
+
+Informatique (Plan d'étude s romand)
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+## Informatique
+
+[Version 2025, paquets de validation : PV-SIN.0000079, PV-SIN.0000080]
+
+Dans le cadre d'un Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\_SI] ou Bachelor of Arts [BA\_SI]), la discipline en Informatique propose deux programmes de  30  et  de  50  crédits  ECTS.  Le  premier  est  constitué  de  27  crédits  ECTS  d ' unités d'enseignement  (UE)  obligatoires  d'informatique et  de  3  crédits  ECTS  de  didactique  de  la branche . Le programme de 50 crédits ECTS est constitué d'UE obligatoires ( 30 ECTS) et d'UE à choix (minimum 20 ECTS).
+
+Attention :  La  branche  enseignable  en  informatique s'adresse uniquement  aux  étudiant-e-s souhaitant obtenir un Diplôme d'aptitude à l'enseignement au secondaire I ( DAES I) en français. En  allemand,  les  étudiant-es  qui  se  destinent  au  Diplôme  d'aptitude  à  l'enseignement  au secondaire I (LDS I) choisissent plutôt la branche enseignable Medien und Informatik .
+
+La Faculté des sciences de l'éducation et de la formation est responsable de la didactique de l ' informatique.
+
+## 1 Unités d'enseignement
+
+## 1.1 UE obligatoires de la 1 e  année (12 ECTS)
+
+Dans le cadre du BSc\_SI, ces UE font partie du paquet de validation de 1 e année et doivent être validées au plus tard à la fin du 4 e semestre.
+
+| Code      | Titre                                                                    | Semestre   |   h. tot. |   ECTS |
+|-----------|--------------------------------------------------------------------------|------------|-----------|--------|
+| SIN.00120 | Programmation scientifique (cours avec projet et exercices)              | SA         |        56 |      6 |
+| SIN.00220 | Traitement des données et visualisation (cours avec projet et exercices) | SP         |        56 |      6 |
+
+## 1.2 Autres UE obligatoires (1 e  à 3 e  année, 18 ECTS)
+
+| Code      | Titre                                              | Semestreh. tot.   |   Semestreh. tot. |   ECTS |
+|-----------|----------------------------------------------------|-------------------|-------------------|--------|
+| SIN.01021 | Réseaux (cours avec projet et exercices)           | SA                |                56 |      5 |
+| SIN.01022 | Architecture d ' ordinateur (cours avec exercices) | SA                |                56 |      5 |
+| SIN.02022 | Robotique (cours avec projet et exercices)         | SP                |                56 |      5 |
+| F24.00881 | Didactique Education numérique - Bachelor          | SA/SP             |                   |      3 |
+
+## 1.3 U nités d'enseignement à choix pour le programme de 50 ECTS (1 e  à 3 e  année, min. 20 ECTS)
+
+| Code      | Titre                                                            | Semestre   |   h. tot. |   ECTS |
+|-----------|------------------------------------------------------------------|------------|-----------|--------|
+| SIN.01023 | Introduction à la programmation (cours avec exercices)           | SP         |        56 |      6 |
+| SIN.02020 | Programmation proche du système (cours avec projet et exercices) | SP         |        56 |      5 |
+| SIN.02023 | Programmation orientée objets (cours avec exercices)             | SP         |        56 |      6 |
+| SIN.03023 | Algorithmique (cours avec exercices)                             | SA         |        56 |      6 |
+| SIN.03024 | Bases de données (cours avec exercices)                          | SA         |        56 |      6 |
+| SIN.04028 | Contrôle de processus (cours avec projet et exercices)           | SA         |        56 |      5 |
+| SIN.04022 | Systèmes d ' exploitation (cours avec projet et exercices)       | SP         |        56 |      5 |
+| SIN.04023 | Génie logiciel (cours avec projet et exercices)                  | SP         |        56 |      6 |
+| EIG.00132 | Information Systems Modeling (cours et exercices)                | SP         |        56 |      6 |
+| SIN.05020 | Programmation fonctionnelle et logique (cours avec exercices)    | SA         |        56 |      5 |
+| SIN.05022 | Systèmes concurrents et distribués (cours avec exercices)        | SA         |        56 |      5 |
+| SIN.06021 | Méthodes formelles (cours avec exercices)                        | SP         |        56 |      5 |
+| SIN.06022 | Apprentissage automatique (cours avec exercices)                 | SP         |        56 |      5 |
+
+## 2 Description des unités d'enseignement
+
+- Le cours Programmation scientifique (SIN.00120) propose une introduction à la programmation  en  mettant  l ' accent  sur  le  développement  des  logiciels  pour  le  calcul scientifique.
+- Le cours Traitement des données et visualisation (SIN.00220), une introduction au traitement des données et à leur visualisation est fourni.
+- Le  cours Réseaux (SIN.01021) traite  de  l'architecture  des  réseaux,  des  services  et  des protocoles sur Internet et dans la sécurisation de la transmission des données.
+- Le cours Architecture d'ordinateur (SIN.01022) permet d ' étudier le fonctionnement des ordinateurs à partir de leur architecture, c'est -à-dire avec une vue matérielle.
+- Le cours Robotique (SIN.02022) introduit aux concepts de base de la robotique autonome et de la simulation.
+- Le  cours Introduction  à  la  programmation (SIN.01023)  introduit  à la  programmation  d'un ordinateur.
+- Le  cours Programmation  proche  du  système (SIN.02020)  introduit  à  la  programmation impérative de processus proches du système d'exploitation.
+- Le  cours Programmation  orientée  objets (SIN.02023)  introduit  à  la  programmation  en  se basant sur les fondements de la programmation dite orientée objets.
+- Le  cours Algorithmique (SIN.03023)  est  dédié  à l'étude des  algorithmes, c'est -à-dire  des méthodes de résolution de problèmes classiques à l'aide d'ordinateurs .
+- Le cours Bases de données (SIN.03024 ) est consacré à l'organisation des données dans les systèmes de gestion de bases de données.
+- Le cours Contrôle de processus (SIN.04028) traite du développement de logiciels de contrôle pour un système physique, y compris l'interface entre ordinateur et monde physique .
+- Le cours Systèmes d'exploitation (SIN.04022) traite de manière spécifique du fonctionnement des systèmes d'exploitation, une composante majeure de tout ordina teur.
+- Le cours G énie  logiciel (SIN.04023) considère le développement systématique de logiciel selon le principe de la programmation orienté objets.
+- Le cours Information Systems Modeling (EIG.00132) traite de la modélisation des systèmes d ' information et des données à traiter dans ces systèmes, par exemple en utilisant XML.
+- Dans  le  cours Programmation fonctionnelle  et  logique (SIN.05020),  on  introduit  les  deux styles de programmation (fonctionnelle et logique).
+- Le cours Systèmes concurrents et distribués (SIN.05022) aborde les modèles classiques de programmation concurrente et répartie.
+- Le cours Méthodes formelles (SIN.06021) considère des concepts mathématiques utiles pour le développement de programmes ainsi que les questions de solvabilité générale et efficace des problèmes.
+- Le cours Apprentissage automatique (SIN.06022) contient des concepts qui permettent aux ordinateurs d'apprendre des solutions à des problème grâce à des exemples.
+
+## 3 Évaluation
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de l'informatique.

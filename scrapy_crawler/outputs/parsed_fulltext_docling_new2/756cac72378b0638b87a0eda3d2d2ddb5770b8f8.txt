@@ -1,0 +1,48 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:38:17.141Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Computer_Science_Branche_compl_mentaire_en_informatique_30_756cac72378b0638b87a0eda3d2d2ddb5770b8f8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "756cac72378b0638b87a0eda3d2d2ddb5770b8f8",
+  "program_key": "faculty of science and medicine|bachelor|30|computer science",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_IN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Computer_Science_Branche_compl_mentaire_en_informatique_30_756cac72378b0638b87a0eda3d2d2ddb5770b8f8.pdf",
+  "sha256": "6d6c41dd2faa2014527070f32136272b4193b581df74e9dfc7234ac65b46c731",
+  "fetched_at": "2026-05-21T16:05:13.140Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_IN_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.2  Informatique +30
+
+[Version 2022, paquet de validation : PV-SIN.0000064]
+
+## 2.2.1 Unités d'enseignements de la branche complémentaire BCo-INF+30 pour le DEEM
+
+Pour étudier l'informatique comme branche complémentaire à 90 ECTS pour le DEEM, nous offrons  un  programme  BCo-INF+30-DEEM qui  vaut  comme  complément  de  30  ECTS  au programme de la BCo-INF60-DEEM. Toutefois, ce programme BCo-INF+30-DEEM ne peut être validé que si BCo-INF60-DEEM a été réussie préalablement.
+
+La branche complémentaire BCo-INF+30-DEEM s'étend en principe sur 2 semestres. Le plan d'études est composé d'un projet individuel à 30 ECTS.
+
+## Semestre 1 et 2 (automne/printemps)
+
+| Code      | Unité d'enseignement   | h. tot.   |   ECTS 30 |
+|-----------|------------------------|-----------|-----------|
+| SIN.00320 | Projet individuel      |           |           |
+|           |                        |           |        30 |
+
+## 2.2.2 Contenu des unités d'enseignements de la branche complémentaire BCo-INF+30 pour le DEEM
+
+## Cours d'informatique
+
+Dans le cas du projet individuel (SIN.00320), il s'agit d'un travail personnel, qui est réalisé par les étudiant-e-s  sous  la  responsabilité d'un -e  professeur-e  et,  si  nécessaire,  accompagné d'un -e assistant-e. Les étudiant-e-s doivent résoudre un problème concret et ainsi mettre en pratique les connaissances acquises pendant leurs études.
+
+## 2.2.3 Evaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de l'informatique.

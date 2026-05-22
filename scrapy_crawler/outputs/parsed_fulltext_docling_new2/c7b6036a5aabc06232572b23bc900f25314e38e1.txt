@@ -1,0 +1,102 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:44:36.795Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics__valuation_en_math_matiques_MA_c7b6036a5aabc06232572b23bc900f25314e38e1",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c7b6036a5aabc06232572b23bc900f25314e38e1",
+  "program_key": "faculty of science and medicine|master|90|mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MA_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics__valuation_en_math_matiques_MA_c7b6036a5aabc06232572b23bc900f25314e38e1.pdf",
+  "sha256": "b6291aa6e2bc138bc9514bdafbdab871d25fa645ffba9bc8d96041061dced308",
+  "fetched_at": "2026-05-21T16:05:17.575Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MA_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des Unités d'enseignement (UE) sous la respon -sabilité du Département de mathématiques. Elle complète les différents plans d'études où appa -raissent des UE avec le code ' SMA.0 nnnn'.
+
+## 2 Évaluation des unités d ' enseignement
+
+L ' évaluation des exercices se fait selon des critères (par exemple un nombre de séries d ' exercices à rendre) énoncés en début de semestre. L ' évaluation satisfaisante des exercices est un prérequis pour l'accès à l ' épreuve du cours correspondant. L ' évaluation des (pro)séminaires se fonde sur la participation active comme conférencier ou conférencière ainsi que sur la présence aux autres conférences. Un séminaire est accepté ou non, aucune note n ' est attribuée. Le proséminaire ne peut être répété qu'une fois. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans la présente annexe. Les épreuves se déroulent, en général, durant trois sessions d ' examens (hiver , été, automne). Pour chaque épreuve, l'étudiant ·e s ' inscrit dans  les  délais  prescrits  selon  la  procédure  online  accessible dans  le  portail  d'étudiant ·e·s (https://my.unifr.ch). L ' échelle des notes s ' étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants 1 :
+
+- Plan d'études pour l'obtention du Bachelor of Science en mathématiques et du Master of Science in Mathematics
+- Plan d ' études des branches propédeutiques et complémentaires offertes par la Faculté des sciences  et  de  médecine dans  le  cadre  du  Bachelor  of  Science  ou  d'autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d ' études des branches complémentaires +30 ECTS en Physique, Biologie, Mathématiques, Informatique, Chimie, Géographie, Sciences du sport offertes par la Faculté des sciences et de médecine.
+- Plan d'études pour l'obtention du Bachelor of Science pour la formation scientifique dans les branches enseignables au degré secondaire I (BSc\_SI).
+- Plan d'études des branches Géosciences, Mathématiques , Informatique, Sciences naturelles et Sciences du sport et de la motricité pour les étudiant·e·s de la Faculté des lettres et des sciences humaines ,  de  la  Faculté  des  sciences de  l'éducation  et  de  la  formation et  de  la Faculté de théologie souhaitant obtenir le Bachelor of Arts pour la formation scientifique dans les branches enseignables au degré secondaire I (BA\_SI).
+
+Il est soumis au Règlement pour l ' obtention des Bachelor of science et des Master of science.
+
+Tous ces documents sont accessibles à partir de http://www.unifr.ch/scimed/fr/plans.
+
+1 Des UE de mathématiques peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+## 4 Modalités d'évaluation
+
+Comme mentionné dans le plan d'études, les cours avancés de mathématiques se composent d' un cours semestriel de 4 heures, d' un cours annuel de 2 heures ou deux cours semestriels de deux heures. Certains cours et leurs numéros changent chaque année ; l'offre actuelle peut être consultée dans le programme de cours (https://www.unifr.ch/timetable).
+
+## Remarque importante pour l'inscription :
+
+Lorsque le semestre durant lequel l'étudiant · e a suivi une UE à l'épreuve de laquelle il ou elle veut s'inscrire n'apparaît pas sur la liste des UE examinables, il ou elle est prié · e de s'annoncer à temps au secrétariat du Département de mathématiques pour le faire ajouter.
+
+Les  épreuves  des  mathématiques  propédeutiques  (SMA.00103,  SMA.00104,  SMA.00202, SMA.00402) portent sur la matière de l ' UE telle qu ' elle a été enseignée la dernière fois. En cas d ' exception, celleci sera communiquée par le Département et/ou par l'enseignant ·e responsable.
+
+Lorsque le plan d'études le permet, ou dans le cas d'un second essai suite à une des notes insuffisantes d'une épreuve portant sur plusieurs UE, une UE seule peut être examinée par une épreuve d'une durée réduite en conséquence.
+
+Avec l'accord écrit de l'étudiant · e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite. Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code                                    | Unité d'enseignement                                                                                                                             | ECTS    | Modalités d'évaluation                                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMA.00103 SMA.00104                     | Analyse propédeutique I Analyse propédeutique II (cours avec exercices)                                                                          | 3 3     | Épreuve écrite de 90 min. portant sur SMA.00103 et SMA.00104. Une seule note est attribuée. Les exercices correspondants aux cours doivent avoir été complétés avec succès (selon des critères communiqués en début de semestre), afin que l'inscription à l'épreuve soit acceptée.                                                     |
+| SMA.00202                               | Algèbre linéaire propédeutique (cours avec exercices)                                                                                            | 3       | Épreuve écrite de 75 min. Une note est attribuée. Les exercices correspondants au cours doivent avoir été complétés avec succès (selon des critères communiqués en début de semestre), afin que l'inscription à l'épreuve soit acceptée.                                                                                                |
+| SMA.00402                               | Statistique propédeutique (cours avec exercices)                                                                                                 | 3       | Épreuve écrite de 75 min. Une note est attribuée. Les exercices correspondants au cours doivent avoir été complétés avec succès (selon des critères communiqués en début de semestre), afin que l'inscription à l'épreuve soit acceptée.                                                                                                |
+| SMA.01103 SMA.01104 SMA.01903 SMA.01904 | Analyse I Analyse II Compléments I à l'Analyse et à l'Algèbre linéaire Compléments II à l'Analyse et à l'Algèbre linéaire (cours avec exercices) | 7 7 1 1 | Épreuve orale de 30 min. ou épreuve écrite de 180 min. portant sur SMA.01103, SMA.01104, SMA.01903 et SMA.01904. Une seule note est attribuée. Les exercices correspondants aux cours doivent avoir été complétés avec succès (selon des critères communiqués en début de semestre), afin que l'inscription à l'épreuve soit acceptée . |
+| SMA.01203 SMA.01204                     | Algèbre linéaire I Algèbre linéaire II (cours avec exercices)                                                                                    | 7 7     | Épreuve orale de 30 min. ou épreuve écrite de 180 min. portant sur SMA.01203, et SMA.01204. Une seule note est attribuée. Les exercices correspondants aux cours doivent avoir été complétés avec succès (selon des critères communiqués en début de semestre), afin que l'inscription à l'épreuve soit acceptée.                       |
+
+| SMA.02131 SMA.02132   | Analyse III Analyse IV (cours avec exercices)                               | 7 7   | Épreuve orale de 40 min. ou épreuve écrite de 180 min. portant sur SMA.02131, SMA.02132. Une seule note est attribuée.* Les exercices inclus dans les cours doivent être                                                              |
+|-----------------------|-----------------------------------------------------------------------------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMA.02231             | Algèbre et Géométrie I Algèbre et Géométrie II                              | 7 7   | Épreuve orale de 40 min. ou épreuve écrite de 180 min. portant sur SMA.02231, SMA.02232. Une seule note est attribuée.*                                                                                                               |
+| SMA.02232 SMA.02331   | (cours avec exercices) Introduction à l'analyse numérique I                 | 5     | Les exercices inclus dans les cours doivent être réussis (selon des critères communiqués en début de semestre) pour que l'inscription à l'épreuve soit acceptée. Épreuve orale de 20 min portant sur SMA.02331 et SMA.02332. Une note |
+| SMA.02332             | Introduction à l'analyse numérique II (cours avec exercices)                | 5     | attribuée. Les exercices inclus dans les cours doivent être réussis (selon des critères communiqués en début de semestre) pour que l'inscription à l'épreuve soit acceptée.                                                           |
+| SMA.02431             | Introduction aux probabilités et à la statistique I                         | 5     | Épreuve orale de 20 min portant sur SMA.02431 et SMA.02432. Une note                                                                                                                                                                  |
+| SMA.02432             | Introduction aux probabilités et à la statistique II (cours avec exercices) | 5     | attribuée. Les exercices inclus dans les cours doivent être réussis (selon des critères communiqués en début de semestre) pour que l ' inscription à l ' épreuve soit acceptée.                                                       |
+| SMA.02705             | Mathématiques I pour BSc_SI                                                 | 8     | Épreuve écrite de 90 min. Une note attribuée.                                                                                                                                                                                         |
+| SMA.02706             | Mathématiques II pour BSc_SI                                                | 7     | Épreuve écrite de 90 min. Une note attribuée.                                                                                                                                                                                         |
+| SMA.03xxx             | Cours (1 cours semestriel de 4h ou 2 cours semestriels de 2h chacun)        | 6     | Épreuve orale de 20 ou 30 min. Une note attribuée.                                                                                                                                                                                    |
+| SMA.03519 SMA.03520   | Mathématiques discrètes I Mathématiques discrètes II                        | 3 3   | Épreuve écrite de 120 min. portant sur SMA.03519 et SMA.03520, une note attribuée.                                                                                                                                                    |
+| SMA.03802             | Séminaire thématique                                                        | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.03803             | Séminaire libre                                                             | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.03804             | Séminaire libre                                                             | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.03805             | Séminaire libre                                                             | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.03809             | Travail écrit, branche complémentaire de mathématiques                      | 1     | Acceptation du travail. Pas de note attribuée.                                                                                                                                                                                        |
+| SMA.03810             | Travail écrit, branche complémentaire de mathématiques                      | 1     | Acceptation du travail. Pas de note attribuée.                                                                                                                                                                                        |
+| SMA.03811             | Travail écrit, branche complémentaire de mathématiques                      | 1     | Acceptation du travail. Pas de note attribuée.                                                                                                                                                                                        |
+| SMA.03812             | Séminaire thématique                                                        | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.03820             | Travail écrit I (pour secondaire I)                                         | 1     | Acceptation du travail. Pas de note attribuée.                                                                                                                                                                                        |
+| SMA.03821             | Travail écrit II (pour secondaire I)                                        | 1     | Acceptation du travail. Pas de note attribuée.                                                                                                                                                                                        |
+| SMA.04xxx             | Lecture course (1 semester lecture of 4h or 2 semester lectures of 2h each) | 6     | 20 or 30 min. oral exam, one mark.                                                                                                                                                                                                    |
+| SMA.048xx             | Séminaires                                                                  | 3     | Exposé et présence aux conférences. Pas de note attribuée.                                                                                                                                                                            |
+| SMA.04812             | Séminaire thématique                                                        | 3     | Exposé et présence aux conférences. Pas de note attribuée                                                                                                                                                                             |
+| SMA.04813             | Préparation au travail de Master                                            | 6     | Evaluée selon des critères communiqués par le directeur ou la directrice du travail. Pas de                                                                                                                                           |
+| SMA.04814             | Essay                                                                       | 3     | note attribuée. Acceptance of the essay, no mark.                                                                                                                                                                                     |
+
+| SMA.04820   | Practical Project                                                  |   6 | Acceptance of the project, no mark.                                                                                                                                                                                 |
+|-------------|--------------------------------------------------------------------|-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMA.05801   | Master's thesis                                                    |  30 | Written thesis, assessed with a mark.                                                                                                                                                                               |
+| SMA.05802   | Presentation of master's thesis                                    |   3 | Talk. No mark is given.                                                                                                                                                                                             |
+| SMA.07003   | Méthodes mathématiques de l'Informatique I (cours avec exercices)  |   5 | Épreuve écrite de 120 min. Une note est attribuée. Les exercices inclus dans les cours doivent être réussis (selon des critères communiqués en début de semestre) pour que l'inscription à l'épreuve soit acceptée. |
+| SMA.07004   | Méthodes mathématiques de l'Informatique II (cours avec exercices) |   5 | Épreuve écrite de 120 min. Une note est attribuée. Les exercices inclus dans les cours doivent être réussis (selon des critères communiqués en début de semestre) pour que l'inscription à l'épreuve soit acceptée  |
+| SMA.07010   | Modèles stochastiques en bioinformatique                           |   3 | Épreuve orale de 15 min. ou épreuve écrite de 75 min. Une note est attribuée.                                                                                                                                       |

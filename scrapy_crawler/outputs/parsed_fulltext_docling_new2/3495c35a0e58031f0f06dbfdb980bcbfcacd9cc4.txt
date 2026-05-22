@@ -1,0 +1,68 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:17:46.302Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Art_History_Spezialisierungs-_oder_Nebenprogramme_in_Kunstgeschichte_3495c35a0e58031f0f06dbfdb980bcbfcacd9cc4",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3495c35a0e58031f0f06dbfdb980bcbfcacd9cc4",
+  "program_key": "faculty of humanities|master|30|art history",
+  "source_url": "https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20MA/HA_MA30_de_%2020140919_modif260521.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Art_History_Spezialisierungs-_oder_Nebenprogramme_in_Kunstgeschichte_3495c35a0e58031f0f06dbfdb980bcbfcacd9cc4.pdf",
+  "sha256": "1b6d56562836e66dc509eae3b9bf49bd22564688960737a8556f899319cc6a62",
+  "fetched_at": "2026-05-21T16:05:22.696Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20MA/HA_MA30_de_%2020140919_modif260521.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Histoire de l'art
+
+## Kunstgeschichte Art History Master -30 ECTS-Kredite
+
+Das Studienprogramm Kunstgeschichte Master zu 30 Kreditpunkten wird durch den vorliegenden Studienplan bestimmt. Dieser Studienplan beruht auf dem Reglement vom 11. Mai 2006 zur Erlangung des Masters an der Philosophischen Fakultät und auf den Richtlinien vom 23. April 2009 über die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz).
+
+## 1. Allgemeine Beschreibung des Programms
+
+Das Masterstudium in Kunstgeschichte bietet Studentinnen und Studenten eine spezialisierte Ausbildung in der Geschichte der Kunst von den Anfängen bis heute: Kunstgeschichte der Moderne und Gegenwart (20. und 21. Jh.), Kunstgeschichte der Neuzeit, des Mittelalters im Westen und in der byzantinischen Welt und Kunstgeschichte und Archäologie der klassischen Antike. Das Masterstudium legt den Schwerpunkt darauf, die künstlerischen Manifestationen von verschiedenen Gesichtspunkten aus und nach den neuesten Methoden aus einer anthropologischen, sozial- und mediengeschichtlichen Perspektive zu betrachten.
+
+Das Studium der Kunstgeschichte kann sowohl im Herbst- als auch im Frühlingssemester beginnen.
+
+## 2. Aufbau des Studiums 1
+
+Die Struktur des Curriculums besteht aus zwei Wahlmodulen. Ein Vertiefungsmodul beinhaltet jeweils Kurse aus einer der vier historischen Epochen; für beide Module ist die Wahl der Epoche frei.
+
+| Modul   | Beschreibung                        |   Kredite |
+|---------|-------------------------------------|-----------|
+| Modul 1 | Vertiefung in die Kunstgeschichte 1 |        15 |
+| Modul 2 | Vertiefung in die Kunstgeschichte 2 |        15 |
+
+## 3. Spezifische Bestimmungen
+
+## 3.1 Veranstaltungstypen und Prüfungsmodalitäten
+
+Seminar (9 ECTS): gefordert werden eine aktive Teilnahme und die Übernahme eines Referats. Das Seminar wird durch eine wissenschaftliche Hausarbeit von ungefähr 45'000 Zeichen (inklusive Leerzeichen und Fussnoten, ohne Titelseite, Bibliografie, Abbildungsverzeichnis, Abbildungen und andere Anhänge) evaluiert. Anzahl Referate und andere Anforderungen regelt die verantwortliche Dozentin oder der verantwortliche Dozent.
+
+1 Eine detaillierte Beschreibung des Studieninhalts findet sich im Anhang.
+
+Thematische Vorlesung (3 ECTS): Evaluierung durch eine schriftliche oder mündliche Prüfung. Die Prüfungsmodalitäten regelt die verantwortliche Dozentin oder der verantwortliche Dozent.
+
+Studienreise (3 ECTS): gefordert werden eine aktive Teilnahme und die Übernahme eines Referats vor Ort. Weitere Anforderungen, wie die Abgabe eines Papers oder eines Berichts, regelt die verantwortliche Dozentin oder der verantwortliche Dozent.
+
+## 3.2 Berechnung der Noten
+
+Die Unterrichtseinheiten, die eine Note erhalten (Vorlesungen und Seminare), werden einzeln mit halben oder ganzen Noten zwischen 1 und 6 bewertet. Für einen erfolgreichen Abschluss muss mindestens die Note 4 erreicht werden. Eine nicht bestandene Unterrichtseinheit kann durch eine entsprechende Unterrichtseinheit im gleichen Modul kompensiert werden.
+
+Die Modulnoten werden aus dem Durchschnitt aller im Modul erworbenen Noten berechnet und nicht gerundet.
+
+Die Endnote des Studienprogramms entspricht dem Durchschnitt aller Modulnoten.
+
+## 3.3 Unterrichtssprachen
+
+Dieses Studienprogramm ist zweisprachig, unterrichtet wird auf Französisch und auf Deutsch. Die Studentinnen und Studenten müssen obligatorisch Veranstaltungen in beiden Sprachen belegen. Die genaue Aufteilung hängt von den einzelnen Unterrichtseinheiten ab. Die Prüfungen, Hausarbeiten und Referate können die Studentinnen und Studenten jedoch immer in der Sprache ihrer Wahl (Französisch oder Deutsch) abgelegen.
+
+## 3.4 Anerkennung von Studienleistungen, Erasmus, Swiss-Mobility
+
+Zur Erlangung eines Diploms in Kunstgeschichte der Universität Freiburg i. Ue. muss die Studentin oder der Student mindestens 50% der ECTS Punkte des betreffenden Bereichs an der Universität Freiburg validieren. Die an einer externen Universität besuchten Lehrveranstaltungen können nur in dem Masse angerechnet werden, wie sie sich thematisch und formal in den Studienplan integrieren lassen.
+
+Alle Unterrichtseinheiten von externen Universitäten, die der Bereich anerkennt, müssen mit einer Note evaluiert sein.

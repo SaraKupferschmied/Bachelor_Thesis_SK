@@ -1,0 +1,87 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:22:05.808Z",
+  "title": "matched_Faculty_of_Law_Bachelor_180_Part-time_Law_studies_Studienplan_Teilzeit_baeae1a6bfd61d5baad6d3a243d10f77d8b11408",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "baeae1a6bfd61d5baad6d3a243d10f77d8b11408",
+  "program_key": "faculty of law|bachelor|180|part-time law studies",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/BLaw-Teilzeit_Studienplan.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Bachelor_180_Part-time_Law_studies_Studienplan_Teilzeit_baeae1a6bfd61d5baad6d3a243d10f77d8b11408.pdf",
+  "sha256": "84309f6e9ffb85b9919395fd5bcffa1eca5db13e34216569816dfcbb0715248c",
+  "fetched_at": "2026-05-21T16:05:36.288Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BLaw-Teilzeit_Studienplan.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Bachelor of Law (Teilzeitmodus) (TP)
+
+Dieser Studienplan gilt für alle Studierenden, die ab Herbstsemester 2023 ihr Bachelorstudium in Freiburg im Teilzeitmodus aufnehmen.
+
+| IUR TP I - 1. Studienjahr                                             | 60 ECTS   |
+|-----------------------------------------------------------------------|-----------|
+| - Einführung in das Recht / Rechtsdurchsetzung - Öffentliches Recht I | 12 ECTS   |
+|                                                                       | 12 ECTS   |
+| - Öffentliches Recht II                                               | 12 ECTS   |
+| - Öffentliches Recht III                                              | 12 ECTS   |
+| - Europa- und Völkerrecht                                             | 9 ECTS    |
+| Propädeutische Arbeit                                                 | 3 ECTS    |
+| IUR TP II - 2. Studienjahr                                            | 39 ECTS   |
+| - Strafrecht I                                                        | 12 ECTS   |
+| - Strafrecht II                                                       | 9 ECTS    |
+| - Rechtsgeschichte                                                    | 9 ECTS    |
+| - Rechtsphilosophie                                                   | 6 ECTS    |
+| Proseminararbeit                                                      | 3 ECTS    |
+| IUR TP III - 3. Studienjahr                                           | 57 ECTS   |
+| - Römisches Recht                                                     | 9 ECTS    |
+| - Zivilrecht I                                                        | 6 ECTS    |
+| - Zivilrecht II                                                       | 9 ECTS    |
+| - Zivilrecht III                                                      | 9 ECTS    |
+| - Obligationenrecht I                                                 | 9 ECTS    |
+| - Obligationenrecht II                                                | 12 ECTS   |
+| Proseminararbeit                                                      | 3 ECTS    |
+| IUR TP IV - 4. Studienjahr                                            | 24 ECTS   |
+| - Handels- und Wirtschaftsrecht                                       | 9 ECTS    |
+| - Sozialrecht                                                         | 9 ECTS    |
+| - Steuerrecht                                                         | 6 ECTS    |
+| TOTAL                                                                 | 180 ECTS  |
+
+<!-- image -->
+
+dirRecht.
+
+<!-- image -->
+
+UNIVERSITATFREIBURG
+
+## Zusätze zum Bachelor of Law
+
+## 1. Zusatz «bilingue»
+
+Der Bachelor of Law kann mit dem Zusatz «bilingue» erworben werden. Wer diesen Zusatz zum Bachelor erlangen möchte, muss
+
+- -insgesamt 72 ECTS in der Zweitsprache leisten und
+- -eine der zwei Proseminararbeiten in der Zweitsprache verfassen. Diese Arbeit wird in den 72 verlangten ECTS mitgezählt.
+- ➔ Der Zusatz « bilingue » kann mit den Zusätzen « Europarecht » und « Religionsrecht» kombiniert werden.
+
+## 2. Zusatz «bilingue plus»
+
+Der Bachelor of Law kann mit dem Zusatz «bilingue plus» erworben werden. Wer diesen Zusatz zum Bachelor erlangen möchte, muss den Bachelor mit dem Zusatz «bilingue» absolvieren. Weitere Informationen siehe Bilingue plus | Sprachenzentrum | Universität Freiburg (unifr.ch)
+
+## 3. Zusatz «Europarecht»
+
+Wer den «Zusatz Europarecht» zu seinem Bachelor of Law erwerben möchte, muss die zwei zusätzlichen Kurse «Binnenmarktrecht» (Semesterkurs, 4 ECTS) und «Einführung in das europäische Privatrecht» (Semesterkurs, 4 ECTS) erfolgreich ablegen. Zudem ist eine der zwei Proseminararbeiten zu einem europarechtlichen Thema zu verfassen.
+
+## 4. Zusatz «Religionsrecht»
+
+Wer den «Zusatz Religionsrecht» zu seinem Bachelor erwerben möchte, muss den Kurs «Einführung in das Religionsrecht» (Jahreskurs, 8 ECTS) erfolgreich ablegen und eine der zwei Proseminararbeiten zum Thema Religionsrecht verfassen.
+
+<!-- image -->
+
+dir Recht.

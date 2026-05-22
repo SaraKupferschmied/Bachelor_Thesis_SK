@@ -1,0 +1,76 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "unmatched_THEO_Master_60_ANEC_Nebenprogramm_15_30_oder_60_ECTS_ANEC_Veranstaltungen_2024-2025_ab8cb9112f00baf9e044b00713014546869b8de2",
+  "markdown": "## ANEC - Veranstaltungen HS 2024\n\n| Bern Theol                                              | Bern Phil.-hist.                               | Fribourg Theol / Ägyptol                                     |\n|---------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------|\n| V+Ü: Einführung in die christliche Archäologie (Bridel) | VL: Archäologie der Levante (Sy- rien) (Novák) | VL AT: Einführung in das Alte Testament I: Pentateuch (Eder) |\n\n## ANEC - Veranstaltungen FS 2025 (in Planung)\n\n| Bern Theol                                                                                                                                                           | Bern Phil.-hist.                                                                                      | Fribourg Theol / Ägyptol                                                                                                                                                                                                                                                                                                       |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| VL: Geschichte Israels (NN) VL: Einführung in die Archäologie der Südlevante (Münger) Exkursion: Reise nach Ägypten, 22.04. oder 03.05.25 (Bloch/Hey- den/von Aesch) | PS: Einführung in die Altorientalis- tik (Tudeau) SK: Sumerisch II (Tudeau) SK: Akkadisch IV (Tudeau) | S AT: Zeitgenössische Körper- praxis und biblisch-ethische Perspektiven (Eder) VL: Biblische Umwelt AT - Die Kulturen der antiken Le- vante und ihrer Nachbarn in Texten und Bildern (Staubli) VL: Histoire de l'Égypte du Nouvel Empire à l'époque gréco-romaine (Spieser) VL: Art et histoire de l'Égypte ancienne (Spieser) |\n\n## ANEC - Veranstaltungen HS 2025 (in Planung)\n\n| Bern Theol      | Bern Phil.-hist.                                                                                              | Fribourg Theol / Ägyptol                                                                                                        |\n|-----------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|\n| S ANEC: NN (NN) | PS: Einführung in die Vorderasiati- sche Archäologie (NN) SK: Sumerisch III (Tudeau) SK: Akkadisch I (Tudeau) | VL AT: Einführung ins AT III: Prophetie (Eder) VL AT: Theologie des Alten Testaments I (Eder) VL: NN (Spieser) SK: NN (Spieser) |",
+  "pages": [
+    "## ANEC - Veranstaltungen HS 2024\n\n| Bern Theol                                              | Bern Phil.-hist.                               | Fribourg Theol / Ägyptol                                     |\n|---------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------|\n| V+Ü: Einführung in die christliche Archäologie (Bridel) | VL: Archäologie der Levante (Sy- rien) (Novák) | VL AT: Einführung in das Alte Testament I: Pentateuch (Eder) |\n\n## ANEC - Veranstaltungen FS 2025 (in Planung)\n\n| Bern Theol                                                                                                                                                           | Bern Phil.-hist.                                                                                      | Fribourg Theol / Ägyptol                                                                                                                                                                                                                                                                                                       |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| VL: Geschichte Israels (NN) VL: Einführung in die Archäologie der Südlevante (Münger) Exkursion: Reise nach Ägypten, 22.04. oder 03.05.25 (Bloch/Hey- den/von Aesch) | PS: Einführung in die Altorientalis- tik (Tudeau) SK: Sumerisch II (Tudeau) SK: Akkadisch IV (Tudeau) | S AT: Zeitgenössische Körper- praxis und biblisch-ethische Perspektiven (Eder) VL: Biblische Umwelt AT - Die Kulturen der antiken Le- vante und ihrer Nachbarn in Texten und Bildern (Staubli) VL: Histoire de l'Égypte du Nouvel Empire à l'époque gréco-romaine (Spieser) VL: Art et histoire de l'Égypte ancienne (Spieser) |\n\n## ANEC - Veranstaltungen HS 2025 (in Planung)\n\n| Bern Theol      | Bern Phil.-hist.                                                                                              | Fribourg Theol / Ägyptol                                                                                                        |\n|-----------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|\n| S ANEC: NN (NN) | PS: Einführung in die Vorderasiati- sche Archäologie (NN) SK: Sumerisch III (Tudeau) SK: Akkadisch I (Tudeau) | VL AT: Einführung ins AT III: Prophetie (Eder) VL AT: Theologie des Alten Testaments I (Eder) VL: NN (Spieser) SK: NN (Spieser) |"
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Bern Theol                                              | Bern Phil.-hist.                               | Fribourg Theol / Ägyptol                                     |\n|---------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------|\n| V+Ü: Einführung in die christliche Archäologie (Bridel) | VL: Archäologie der Levante (Sy- rien) (Novák) | VL AT: Einführung in das Alte Testament I: Pentateuch (Eder) |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Bern Theol": "V+Ü: Einführung in die christliche Archäologie (Bridel)",
+            "Bern Phil.-hist.": "VL: Archäologie der Levante (Sy- rien) (Novák)",
+            "Fribourg Theol / Ägyptol": "VL AT: Einführung in das Alte Testament I: Pentateuch (Eder)"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| Bern Theol                                                                                                                                                           | Bern Phil.-hist.                                                                                      | Fribourg Theol / Ägyptol                                                                                                                                                                                                                                                                                                       |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| VL: Geschichte Israels (NN) VL: Einführung in die Archäologie der Südlevante (Münger) Exkursion: Reise nach Ägypten, 22.04. oder 03.05.25 (Bloch/Hey- den/von Aesch) | PS: Einführung in die Altorientalis- tik (Tudeau) SK: Sumerisch II (Tudeau) SK: Akkadisch IV (Tudeau) | S AT: Zeitgenössische Körper- praxis und biblisch-ethische Perspektiven (Eder) VL: Biblische Umwelt AT - Die Kulturen der antiken Le- vante und ihrer Nachbarn in Texten und Bildern (Staubli) VL: Histoire de l'Égypte du Nouvel Empire à l'époque gréco-romaine (Spieser) VL: Art et histoire de l'Égypte ancienne (Spieser) |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Bern Theol": "VL: Geschichte Israels (NN) VL: Einführung in die Archäologie der Südlevante (Münger) Exkursion: Reise nach Ägypten, 22.04. oder 03.05.25 (Bloch/Hey- den/von Aesch)",
+            "Bern Phil.-hist.": "PS: Einführung in die Altorientalis- tik (Tudeau) SK: Sumerisch II (Tudeau) SK: Akkadisch IV (Tudeau)",
+            "Fribourg Theol / Ägyptol": "S AT: Zeitgenössische Körper- praxis und biblisch-ethische Perspektiven (Eder) VL: Biblische Umwelt AT - Die Kulturen der antiken Le- vante und ihrer Nachbarn in Texten und Bildern (Staubli) VL: Histoire de l'Égypte du Nouvel Empire à l'époque gréco-romaine (Spieser) VL: Art et histoire de l'Égypte ancienne (Spieser)"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 2,
+      "markdown": "| Bern Theol      | Bern Phil.-hist.                                                                                              | Fribourg Theol / Ägyptol                                                                                                        |\n|-----------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|\n| S ANEC: NN (NN) | PS: Einführung in die Vorderasiati- sche Archäologie (NN) SK: Sumerisch III (Tudeau) SK: Akkadisch I (Tudeau) | VL AT: Einführung ins AT III: Prophetie (Eder) VL AT: Theologie des Alten Testaments I (Eder) VL: NN (Spieser) SK: NN (Spieser) |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Bern Theol": "S ANEC: NN (NN)",
+            "Bern Phil.-hist.": "PS: Einführung in die Vorderasiati- sche Archäologie (NN) SK: Sumerisch III (Tudeau) SK: Akkadisch I (Tudeau)",
+            "Fribourg Theol / Ägyptol": "VL AT: Einführung ins AT III: Prophetie (Eder) VL AT: Theologie des Alten Testaments I (Eder) VL: NN (Spieser) SK: NN (Spieser)"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "ANEC - Veranstaltungen HS 2024",
+      "line_index": 0,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "ANEC - Veranstaltungen FS 2025 (in Planung)",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "ANEC - Veranstaltungen HS 2025 (in Planung)",
+      "line_index": 12,
+      "source": "markdown_regex"
+    }
+  ]
+}

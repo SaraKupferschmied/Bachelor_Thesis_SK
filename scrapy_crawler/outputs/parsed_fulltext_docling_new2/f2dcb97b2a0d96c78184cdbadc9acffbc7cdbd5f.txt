@@ -1,0 +1,96 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:56:22.725Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_30_Spanish_Plan_d_tudes_BA_30_ECTS_f2dcb97b2a0d96c78184cdbadc9acffbc7cdbd5f",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f2dcb97b2a0d96c78184cdbadc9acffbc7cdbd5f",
+  "program_key": "faculty of humanities|bachelor|30|spanish",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/FR_30_ba_espagnol.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Spanish_Plan_d_tudes_BA_30_ECTS_f2dcb97b2a0d96c78184cdbadc9acffbc7cdbd5f.pdf",
+  "sha256": "8007c10217e0d69bc7e2c40fea19271d35c84773fdbb03804a2b7af4e8e8ab63",
+  "fetched_at": "2026-05-21T16:05:24.710Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/FR_30_ba_espagnol.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## UNIVERSITÉ DE FRIBOURG - SUISSE FACULTÉ DES LETTRES - DÉPARTEMENT DES LANGUES ET LITTÉRATURES Département d'Espagnol PLAN D'ÉTUDES BACHELOR À 30 ECTS
+
+## 1. Description générale
+
+Le  présent  plan  d'études  suit  le Règlement  de  la  Faculté  des  lettres  du  23  juin  2005 pour l'obtention  du  diplôme  universitaire  (niveau bachelor européen)  et  les Directives  du  23  avril  2009 (Etat au 26 septembre 2013) concernant l'évaluation des prestations d'études.
+
+Le Département d'Espagnol recouvre les diverses littératures de l'Amérique hispanophone (y compris les États-Unis) et de la Péninsule Ibérique. Il accorde une attention particulière aux rapports entre littérature et sciences humaines ainsi qu'à l'apport des études interdisciplinaires. La philologie hispanique  aborde l'étude de la langue, de la littérature et de la culture de l'Espagne médiévale ainsi que la tradition manuscrite des œuvres et de leur place dans l'histoire de la culture occidentale. La formation proposée correspond, donc,  aux bases locales de la  culture hispanique et aussi au contexte international (voire même transcontinental) qui constituent  son histoire et sa réalité actuelle.
+
+Le Plan  d'études  bachelor  à  30  crédits a  pour  objectif  d'offrir  une  formation  mettant l'accent sur les points essentiels de la littérature, de la langue et de la culture hispaniques, en tenant compte des différentes régions qui la composent et de leurs liens séculaires. Il privilégie une approche historique  à  travers  des  cours  généraux  et  des  cours  monographiques  (sur  de  grandes  périodes  et régions  ou  sur  des  sujets plus spécifiques) tout en soulignant l'intérêt d'acquérir un certain bagage  de  compétences techniques  et  analytiques,  de  communication  écrite  et  orale,  ainsi  que  de recherche individuelle et en groupe.  Les  proséminaires  offerts  dans  le  cadre  du  plan  sont  destinés à  l'acquisition  de  ce  bagage  fondamental.
+
+Le début des études peut se faire autant au semestre d'automne (septembre-décembre) qu'au semestre de printemps (février-mai). La langue d'enseignement est l'espagnol.
+
+## 2. Structure du plan d'études
+
+Le plan d'études à 30 crédits est composé de deux modules : un petit module à 12 crédits avec des enseignements obligatoires (M1 : Módulo de base )  et  un grand module à18 crédits, à l'intérieur duquel différentes possibilités de choix sont offertes (M2 :  Módulo combinado ).  En  effet,  le M2 est structuré en trois blocs, chacun avec un contenu différent et complémentaire de celui des autres : cours de littérature ( Bloc A ),  cours  d'histoire  de  la  langue  et  de linguistique ( Bloc B )  et  proséminaires de littérature et de langue ( Bloc C ).
+
+Les crédits ECTS correspondant à la charge de travail prévue pour un module sont validés lorsque  l'étudiant-e  a  accompli,  dans  le  module  concerné,  l'ensemble  des  exigences  requises.  La valeur  des  crédits  est  indivisible :  aucune  attribution  partielle  de  crédits  n'est  possible  à  l'intérieur d'un module.
+
+L'étudiant-e doit suivre les deux cours qui intègrent le module M1, étant donné leur contenu : des  connaissances  fondamentales  sur  l'histoire  littéraire  et  culturelle  du  monde  hispanique.  En revanche, il/elle bénéficie d'une grande liberté concernant le module M2 : l'étudiant-e choisira une des trois unités d'enseignement qui composent chacun des blocs du module. Le programme combine ainsi une  structure  claire  et  une  certaine  flexibilité  qui  permet  de  satisfaire  les  intérêts  et  les  besoins  de formation de l'étudiant-e.
+
+Par ailleurs, un-e étudiant-e inscrit-e à ce plan d'études pourra acquérir jusqu'à un maximum de 9 crédits dans  une  autre université et  notamment  lors  d'un  séjour  linguistique  dans  un pays hispanophone.  Concernant  les  enseignements  à  suivre,  l'accord  préalable  du Département d' Espagnol  sera  nécessaire.  Celui-ci  transposera  dans  son  système  de  validation  les  notes  et  les crédits  ainsi  obtenus par l'étudiant-e (il est possible que des travaux complémentaires d'ajustement soient exigés).
+
+Sauf  exception  particulière,  la  durée  des  cours  et  des  proséminaires  est  d'un  semestre.  Les cours et les proséminaires d'un même module peuvent être suivis pendant des semestres différents.
+
+## DÉPARTEMENT D'ESPAGNOL PLAN D'ÉTUDES BACHELOR À 30 CRÉDITS
+
+## Tableau récapitulatif
+
+| Nom du module        | Unité d'enseignement                                                                                                                                                                                                                                                                                                                                                                                                                                      | ECTS Unité        | ECTS Module   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|---------------|
+| M1: Módulo de base   | C: Síntesis de historia y literatura española C: Literatura y Civilización de América Latina                                                                                                                                                                                                                                                                                                                                                              | 6 6               | 12 ECTS       |
+| M2: Módulo combinado | Elegir una materia de cada bloque Bloque A: Cursos de Literatura - Literatura de la Edad Media - Literatura moderna y contemporánea esp. - Literatura latinoamericana Bloque B: Cursos de Lengua - Historia de la lengua: orígenes - siglo XV - Historia de la lengua: siglos XVI-XXI - Lingüística contemporánea Bloque C: Proseminarios - Textos literarios latinoamericanos - Literatura medieval - Historia de la lengua/Lingüística contem- poránea. | 6 6 6 6 6 6 6 6 6 | 18 ECTS       |
+
+## 3. Descriptif des modules
+
+## M1 : Módulo de base (12 crédits)
+
+Les deux cours qui composent ce module offrent une formation de base concernant, d'un côté, l'évolution de la littérature espagnole insérée dans l'histoire de l'Espagne et, de l'autre, les contenus, périodes, problématiques, genres littéraires et auteurs les plus remarquables de l'Amérique latine.
+
+Chacun  des  deux  enseignements  débouchera  sur  une  évaluation  qui  aura  lieu  à  la  fin  du semestre dans lequel l'étudiant-e a suivi l'enseignement. Les évaluations se font par unité d'enseignement et sont indépendantes : aucune compensation ne sera possible. Chaque épreuve réussie donnera droit à 6 crédits.
+
+## M2 : Módulo combinado (18 crédits)
+
+Le premier des trois blocs qui composent ce module offre trois cours à choix qui ont pour finalité  la  connaissance  d'un  grand  chapitre  de  la  littérature  latino-américaine  ou  de  l'Espagne médiévale ou moderne. Le deuxième, également composé de trois cours à choix, permet de connaître une période de l'histoire de la langue espagnole ou de ses structures et variantes actuelles. Le but du troisième  est  d'acquérir  les  compétences  techniques  et  critiques  nécessaires  pour  l'analyse  des documentes représentatifs de  la tradition  littéraire  hispanique  ou  de  sa  réalité  linguistique  actuelle : c'est de nouveau l'étudiant qui décide vers quel objectif orienter son étude et sa réflexion.
+
+Les évaluations des cours se feront, pour chacun d'entre eux, au moyen d'un examen écrit à la fin du semestre ; celle du proséminaire choisi, par le biais d'une présentation orale et d'un travail écrit à la suite du semestre ou au moyen d'un dossier d'exercices, selon le sujet traité. Les trois évaluations se  font  par  unité  d'enseignement  et  sont  indépendantes :  aucune  compensation  ne  sera  possible. Chaque enseignement réussi donnera droit à 6 crédits.
+
+## 4. Évaluation des prestations
+
+Comme il a déjà été dit, chaque cours est validé, de manière indépendante et sans possibilité de compensation, au moyen d'un examen écrit proposé à la fin du semestre et réussi avec un minimum de 4 et un maximum de 6. Selon l'unité d'enseignements et le sujet traité, le proséminaire choisi admet deux  possibilités  de  validation :  présentation  orale  +  travail  écrit  à  la  suite  du  semestre  ou  dossier d'exercices  (contrôle  des  prestations  réalisées  en  cours  d'enseignement).  Dans  les  deux  cas,  une participation active est requise.
+
+Une  présence  régulière  aux  cours  et  aux  proséminaires  est  obligatoire :  trois  absences injustifiées  entraînent  la  non-validation  d'un  enseignement.  Le/La  responsable  de  l'enseignement (le cas échéant, le responsable du Département ) décide du caractère justifié des absences.
+
+La  validation  d'un  module  présuppose  la  réussite  de  l'étudiant-e  dans  chacune  des  unités d'enseignement qui en font partie. La moyenne du module sera calculée sur la base des validations qui ont reçu une qualification numérique (entre 4 et 6).
+
+On ne pourra pas accorder la validation d'un enseignement d'un module en remplacement de celui d'un autre module. Également, un cours ne pourra pas être validé à la place d'un proséminaire ou vice-versa.
+
+L'inscription via le système informatique en vigueur est obligatoire pour suivre un cours ou un proséminaire dans notre Faculté, de même que pour se présenter à un examen, toujours en respectant les  délais  annoncés  par  le  Décanat.  Concernant  les  proséminaires,  il  est  en  plus  recommandé  de s'annoncer auprès de l'enseignant-e avant le début du semestre, afin de réserver une place et d'éviter ainsi le risque de devoir différer sa participation audit proséminaire.
+
+Un examen ayant donné lieu à un échec peut être répété encore deux fois, l'étudiant-e devant se réinscrire à chacune des tentatives. L'examen doit être réussi au plus tard à la quatrième session qui suit  la  date  d'inscription au  cours,  sous  peine  d'échec  définitif.  Par  ailleurs, l'absence  à  un examen pour  lequel  l'étudiant-e  s'est  inscrit-e  équivaut  à  un  échec,  sauf  cas  de  force  majeure.  Dans  ce cas,  il/elle  doit  en  informer  par  écrit  le  secrétariat  du Département au  plus  tard  une  semaine  après la  date  de  l'examen.  Le Département décide  du  caractère  justifié  de  l'absence  (arts.  3  et  4  des Directives concernant l'évaluation des prestations d'études ).
+
+Les deux enseignements du module M1sont annuels et obligatoires. L'étudiant-e qui, dans les délais  prévus,  ne  réussit  pas  leur  évaluation  ne  sera  pas  autorisé-e  à  poursuivre  ses  études dans  n'importe quel plan d'études du Département .
+
+Sauf exception particulière précisée par l'enseignant-e, le délai maximal pour la reddition du travail de proséminaire est de trois mois à partir de la fin du semestre dans lequel le proséminaire a été suivi.  Par  ailleurs,  le  proséminaire  devra  être  réussi,  au  plus  tard,  le  1 er septembre  s'il  a  été  suivi pendant  le  semestre  d'automne  précédent,  et  le  1 er février  s'il  a  été  suivi  pendant  le  semestre  de printemps précédent.
+
+## 5. Dispositions transitoires
+
+Ce plan d'études entre en vigueur dès la rentrée académique d'automne 2016 : les étudiant-e-s qui débutent leurs études à l'Université de Fribourg lors dudit semestre y sont soumis sans exception.
+
+Ceux qui ont commencé leur cursus universitaire entre le semestre d'automne 2015 et le semestre de printemps 2016 ont la possibilité de continuer dans l'ancien plan ou d'adopter le nouveau avant le début du semestre de printemps 2017.
+
+En principe, les étudiant-e-s inscrit-e-s à l'université de Fribourg avant le semestre d'automne 2015 n'ont pas la possibilité de changer de plan d'études. Des exceptions dûment motivées pourront être prises en considération.
+
+Approuvé par le Domaine d'études Espagnol le 6.10.2015
+
+Approuvé par le Conseil du Département des langues et littératures le 22.10.2015

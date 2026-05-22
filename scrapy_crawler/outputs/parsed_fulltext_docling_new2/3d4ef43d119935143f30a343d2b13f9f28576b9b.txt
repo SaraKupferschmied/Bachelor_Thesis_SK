@@ -1,0 +1,53 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:30:10.929Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Transition_in_Digital_Neuroscience_-_DN_3d4ef43d119935143f30a343d2b13f9f28576b9b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3d4ef43d119935143f30a343d2b13f9f28576b9b",
+  "program_key": "faculty of science and medicine|master|120|digital neuroscience",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_DN_en.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Transition_in_Digital_Neuroscience_-_DN_3d4ef43d119935143f30a343d2b13f9f28576b9b.pdf",
+  "sha256": "185cf99cd8d32397271de2696f1826b63d8fde7a0f34310aa083eea5a4b45169",
+  "fetched_at": "2026-05-21T16:05:16.772Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_DN_en.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Annexe to the study plans of the Faculty of Science and Medicine
+
+Transitional provisions
+
+Specialised Master of Science in Digital Neuroscience
+
+Applicable from the academic year 2025-2026
+
+Accepted by the Faculty of Science and Medicine on 14.04.2025
+
+Accepted by the Faculty of Science and Medicine on 30.05.2022
+
+0
+
+O
+
+## Transitional provisions 2025-2026
+
+These transitional provisions concern students whose reference programme is in a study plan prior to 2025, namely:
+
+- Specialised Master of Science in Digital Neuroscience (120 ECTS)
+
+The following transitional provisions apply.
+
+## Cybernetic Systems: Bridging Brains, Machines and society (SDN.00006):
+
+- Students who have already made an attempt at exam of the course ' Data analytics in Python (I09.00013) ' and got an insufficient grade, can undergo the repetition exam of this course during the next exam session.
+- Students who have not yet attempted the exam of the course ' Data analytics in Python (I09.00013) ' , must follow the course ' Cvbernetic Systems: Bridging Brains, Machines and society (SDN.00006) ' .
+
+## Neural Decoding of EEG signals (L25.01822):
+
+- Students who have already succeeded at exam of the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' do not have to take the course ' Neural Decoding of EEG signals (L25.01822) ' .
+- Students who have not taken the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' , must follow the course ' Neural Decoding of EEG signals (L25.01822) ' .

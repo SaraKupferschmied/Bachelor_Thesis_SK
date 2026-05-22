@@ -1,0 +1,89 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:17:29.319Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science__valuation_en_informatique_IN_33d15783c4382d986aca57bd33fee9cb4c3eb1aa",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "33d15783c4382d986aca57bd33fee9cb4c3eb1aa",
+  "program_key": "faculty of science and medicine|bachelor|120|computer science",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_IN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science__valuation_en_informatique_IN_33d15783c4382d986aca57bd33fee9cb4c3eb1aa.pdf",
+  "sha256": "68837fcc200b4d1f55e32b384097607497e2a3daccbc004fbc74c2be94029ea5",
+  "fetched_at": "2026-05-21T16:05:13.367Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_IN_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Annexe aux plans d'études de la Faculté des sciences et de médecine
+
+## Modalités d'évaluation des UE en informatique
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des unités d'enseignement (UE) sous la respon -sabilité du Département d'informatique. Elle complète les différents plans d'études où apparais -sent des UE avec le code ' SIN.0 nnnn'.
+
+## 2 Évaluations des unités d ' enseignement
+
+L ' évaluation des exercices, des travaux pratiques et des séminaires se fait suivant des critères (nombre de séries d ' exercices rendues,  réalisation  des  projets,  style  des  présentations,  etc.) énoncés en début de semestre. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans la présente annexe. Une évaluation satisfaisante pour les exercices peut être un pré-requis pour accéder à l ' épreuve du cours correspondant. Les épreuves se déroulent, en général, durant trois sessions d ' examens (hiver, été, automne). Pour chaque épreuve, l ' étudiant·e s ' inscrit dans les délais prescrits sur le portail MyUniFR (https://my.unifr.ch) selon la procédure online accessible avec le compte personnel et le mot de passe fournis par l'Université. L ' épreuve  porte  sur  la  matière  de  l 'UE  telle  qu'elle  a  été  enseignée  la  dernière  fois.  En  cas d'exception, celle -ci sera communiquée par le Département et/ou par l'enseignant ·e responsable. L ' échelle des notes s ' étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants 1 :
+
+- Plan d'études pour l'obtention du Bachelor of Science en informatique.
+- Plan d ' études des branches propédeutiques et complémentaires offertes par la Faculté des sciences  et  de  médecine  dans  le  cadre  du  Bachelor  of  Science  ou  d'autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d ' études des branches complémentaires +30 ECTS en Mathématiques, Informatique, Physique, Chimie, Géographie, Biologie, Sciences du sport et de la motricité offertes par la Faculté des sciences et de médecine.
+- Plan d'études pour l'obtention du Bachelor of Science pour la formation scientifique dans les branches enseignables au degré secondaire I (BSc\_SI).
+- Plan d'études des branches Géosciences, Mathématiques , Informatique, Sciences naturelles et Sciences du sport et de la motricité pour les étudiant·e·s de la Faculté des lettres et des sciences humaines ,  de  la  Faculté  des  sciences de  l'éducation  et  de  la formation et  de  la Faculté de théologie souhaitant obtenir le Bachelor of Arts pour la formation scientifique dans les branches enseignables au degré secondaire I (BA\_SI).
+- Plan d'études pour l'obtention du Specialised Master of Science in Digital Neuroscience
+
+Il est soumis au Règlement pour l ' obtention des Bachelor of Science et des Master of Science.
+
+Tous ces documents sont accessibles à partir de https://www.unifr.ch/scimed/fr/plans.
+
+## 4 Modalités d'évaluation
+
+Les  exercices,  les  mini-projets  et  les  autres  formes  sont  évalués  à  l ' aide  de  critères  fixés  et communiqués  en  début  du  semestre.  Les  exercices  peuvent  aussi  être  examinés  lors  de l ' épreuve du cours correspondant.
+
+L'évaluation de chaque UE se déroule selon l'une des deux modalités suivantes :
+
+- Modalité A (cours) :  Les  exercices,  les  mini-projets  et  les  autres  formes  sont  évalués  de manière continue et peuvent finalement jugés par une note. L'évaluation de l'UE consiste soit
+
+1 Des UE d'informatique peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+d'un contrôle continu, d'une épreuve écrite de 60 à 120 minutes ou d'une épreuve orale de 20 minutes. Pour pouvoir s'inscrire à l'épreuve, le candidat ou la candidate doit satisfaire les préconditions minimales tels qu'énoncées au début du cours. Une note est attribuée.
+
+- Modalité B (travail de Bachelor/projet individuel) : Rapport et éventuellement présentation. Une note est attribuée.
+
+Avec l'accord écrit de l'étudiant ·e, il peut être procédé à un changement des modalités d'examen . Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite. Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code      | Unité d'enseignement                                    |   ECTS | Modalités d'évaluation                                                          |
+|-----------|---------------------------------------------------------|--------|---------------------------------------------------------------------------------|
+| SIN.00120 | Programmation scientifique                              |      6 | Modalité A                                                                      |
+| SIN.00121 | Programmation scientifique [pour sciences biomédicales] |    3.5 | Modalité A                                                                      |
+| SIN.00220 | Traitement des données et visualisation                 |      6 | Modalité A                                                                      |
+| SIN.01023 | Introduction à la programmation                         |      6 | Modalité A                                                                      |
+| SIN.01021 | Réseaux                                                 |      5 | Modalité A                                                                      |
+| SIN.01022 | Architecture d'ordinateur                               |      5 | Modalité A                                                                      |
+| SIN.02020 | Programmation proche du système                         |      5 | Modalité A                                                                      |
+| SIN.02022 | Robotique                                               |      5 | Modalité A                                                                      |
+| SIN.02023 | Programmation orientée objets                           |      6 | Modalité A                                                                      |
+| SIN.03023 | Algorithmique                                           |      6 | Modalité A                                                                      |
+| SIN.03024 | Bases de données                                        |      6 | Modalité A                                                                      |
+| SIN.04028 | Contrôle de processus                                   |      5 | Modalité A                                                                      |
+| SIN.04023 | Génie logiciel                                          |      6 | Modalité A                                                                      |
+| SIN.04022 | Systèmes d'exploitation                                 |      5 | Modalité A                                                                      |
+| SIN.05020 | Programmation fonctionnelle et logique                  |      5 | Modalité A                                                                      |
+| SIN.05022 | Systèmes concurrents et distribués                      |      5 | Modalité A                                                                      |
+| SIN.06021 | Méthodes formelles                                      |      5 | Modalité A                                                                      |
+| SIN.06022 | Apprentissage automatique                               |      5 | Modalité A                                                                      |
+| SIN.06020 | Travail de Bachelor                                     |     15 | Modalité B                                                                      |
+| SIN.00320 | Projet individuel (BCo+30)                              |     30 | Modalité B                                                                      |
+| SIN.08022 | Apprentissage automatique                               |      5 | Modalité A                                                                      |
+| EIG.00132 | Information Systems Modeling                            |      6 | Modalité selon la Faculté des sciences économiques et sociales et du management |

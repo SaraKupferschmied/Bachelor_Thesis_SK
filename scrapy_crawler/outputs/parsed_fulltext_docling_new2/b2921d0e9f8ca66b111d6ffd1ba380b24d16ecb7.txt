@@ -1,0 +1,108 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:06:51.531Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_30_Business_Informatics_Wirtschaftsinformatik_b2921d0e9f8ca66b111d6ffd1ba380b24d16ecb7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "b2921d0e9f8ca66b111d6ffd1ba380b24d16ecb7",
+  "program_key": "faculty of management, economics and social sciences|bachelor|30|business informatics",
+  "source_url": "https://www.calameo.com/read/003659115dfc08655250f",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_30_Business_Informatics_Wirtschaftsinformatik_b2921d0e9f8ca66b111d6ffd1ba380b24d16ecb7.pdf",
+  "sha256": "8ed6a43ccbfbf87b0a5c01aa67f61bb16a290caa1e987510876876640f3f50f0",
+  "fetched_at": "2026-05-21T16:05:14.307Z",
+  "notes": "calameo downloaded (id=003659115dfc08655250f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251006152427-f9a6745e2178c9708c63e55ecd30d865/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d0967c1a5828227ea683e3c77114c85ea24a153220c206309106ca28a4d61c3c, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+64 : Wirtschaftsinformatik 30-33
+
+Programm
+
+2021-SA\_V03
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+## Wichtiger Hinweis
+
+Das Organisationsreglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 11 und 12) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg , abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiendauer
+
+Ein Nebenfach ist zeitlich durch die Dauer seines Hauptprogramms begrenzt. Es muss spätestens mit dem gleichen Zeitaufwand erworben werden wie der Studiengang, dem es untergeordnet ist.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870304)
+
+Möglichkeit zum Ausgleich von maximal 6 ECTS
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Die meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.
+
+Im Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.
+
+| Code   | Lehreinheit   | Lehrer(innen)   | Semester   | Sprache Niveau   | Bewertung   | ECTS   |
+|--------|---------------|-----------------|------------|------------------|-------------|--------|
+
+## Tragen Sie sich in die Ihrer Situation entsprechende Option ein.
+
+## Standard
+
+Sie müssen sich in diesem Kontext einschreiben, wenn Sie nicht im Bachelorstudiengang Informatik eingeschrieben sind.
+
+Die erste Einschreibung in einen der Bereiche bedeutet, dass der andere Bereich für weitere Einschreibungen gesperrt wird. Im Falle eines Fehlers ist es möglich, einen ECTS-Transfer beantragen, um die Option Ihres Nebenfachs zu ändern.
+
+| EIG.00036   | Informatique de gestion I   | Fischer   | HS-2025   | BA   | fr   | Schriftliche Prüfung   |   6 |
+|-------------|-----------------------------|-----------|-----------|------|------|------------------------|-----|
+| EIG.00037   | Wirtschaftsinformatik I     | Fill      | HS-2025   | BA   | de   | Schriftliche Prüfung   |   6 |
+| EIG.00038   | Informatique de gestion II  | Fischer   | FS-2026   | BA   | fr   | Schriftliche Prüfung   |   6 |
+| EIG.00039   | Wirtschaftsinformatik II    | Fill      | FS-2026   | BA   | de   | Schriftliche Prüfung   |   6 |
+| EIG.00015   | Operations Management (d)   | Trautmann | FS-2026   | BA   | de   | Schriftliche Prüfung   |   6 |
+
+<!-- image -->
+
+| Code      | Lehreinheit                                | Lehrer(innen)             | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |
+|-----------|--------------------------------------------|---------------------------|------------|----------|-----------|----------------------|--------|
+| EGE.00136 | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic | HS-2025    | BA       | de        | Schriftliche Prüfung |      6 |
+| EGE.00135 | Introduction à la gestion d'entreprise     | Davoine                   | HS-2025    | BA       | fr        | Schriftliche Prüfung |      6 |
+| EIG.00132 | Information Systems Modeling               | Curty                     | FS-2026    | BA       | en        | Schriftliche Prüfung |      6 |
+
+## Ich studiere im Bachelor in Informatik
+
+Sie müssen sich in diesem Kontext einschreiben, wenn Sie im Bachelorstudiengang Informatik eingeschrieben sind.
+
+Die erste Einschreibung in einen der Bereiche bedeutet, dass der andere Bereich für weitere Einschreibungen gesperrt wird. Im Falle eines Irrtums können Sie einen ECTS-Transfer beantragen, um die Option Ihres Nebenfachs zu ändern.
+
+| EIG.00036   | Informatique de gestion I                        | Fischer                   | HS-2025   | BA   | fr   | Schriftliche Prüfung    |   6 |
+|-------------|--------------------------------------------------|---------------------------|-----------|------|------|-------------------------|-----|
+| EIG.00037   | Wirtschaftsinformatik I                          | Fill                      | HS-2025   | BA   | de   | Schriftliche Prüfung    |   6 |
+| EIG.00015   | Operations Management (d)                        | Trautmann                 | FS-2026   | BA   | de   | Schriftliche Prüfung    |   6 |
+| EIG.00230   | Information Systems Development Project          | Curty                     | FS-2026   | BA   | en   | Fortlaufende Evaluation | 4.5 |
+| EIG.00229   | Requirements Engineering for Information Systems | Curty                     | HS-2025   | BA   | en   | Fortlaufende Evaluation | 4.5 |
+| EGE.00136   | Einführung in die Betriebswirtschaftslehre       | Barmettler, Milosavljevic | HS-2025   | BA   | de   | Schriftliche Prüfung    |   6 |
+| EGE.00135   | Introduction à la gestion d'entreprise           | Davoine                   | HS-2025   | BA   | fr   | Schriftliche Prüfung    |   6 |
+| EGE.00137   | Introduction à la comptabilité                   | Missonier-Piera           | HS-2025   | BA   | fr   | Schriftliche Prüfung    |   6 |
+| EGE.00138   | Unternehmensrechnung                             | Burkert                   | HS-2025   | BA   | de   | Schriftliche Prüfung    |   6 |
+
+## Rechtsgrundlage
+
+Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg

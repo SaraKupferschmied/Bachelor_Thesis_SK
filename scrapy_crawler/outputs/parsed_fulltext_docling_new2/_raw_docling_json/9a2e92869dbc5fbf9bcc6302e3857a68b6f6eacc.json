@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Theology_Doctorate_UNK_Theology_Zusicherung_der_Dissertationsleitung_9a2e92869dbc5fbf9bcc6302e3857a68b6f6eacc",
+  "markdown": "<!-- image -->\n\nFaculté de Théologie Theologische Fakultät Décanat - Dekanat\n\nAv. de l'Europe 20 CH-1700 FRIBOURG-FREIBURG SUISSE-SCHWEIZ\n\nT +41 26 300 73 70 decanat-theol@unifr.ch www.unifr.ch/theo\n\nFACULTÉ DE THÉOLOGIE DÉCANAT\n\nReglement für den Erwerb des Doktorates der Philosophie (Anhang I)\n\n## Zusicherung der Dissertationsleitung\n\nDie von der Theologischen Fakultät der Universität Freiburg/Schweiz zur Leitung einer Dissertation befähigte Lehrperson\n\nName\n\nsichert hiermit zu, dass sie die wissenschaftliche Leitung des Dissertations- projektes der folgenden Person gemäss Reglement für den Erwerb des Doktorates der Philosophie, Artikel 5, übernimmt\n\nName\n\nVorname\n\n## Arbeitstitel der Dissertation\n\nOption :\n\nReligionsstudien / Theologische Studien (Nichtzutreffendes ist zu streichen)\n\nOrt und Datum\n\nDissertationsleiter/in\n\n……………………………….\n\n…………………………………\n\nGegebenenfalls, gemäss Art 2 al 4, Zusicherung der Ko-Leitung\n\nOrt und Datum\n\nKo-Leiter/in\n\n……………………………….\n\n…………………………………",
+  "pages": [
+    "<!-- image -->\n\nFaculté de Théologie Theologische Fakultät Décanat - Dekanat\n\nAv. de l'Europe 20 CH-1700 FRIBOURG-FREIBURG SUISSE-SCHWEIZ\n\nT +41 26 300 73 70 decanat-theol@unifr.ch www.unifr.ch/theo\n\nFACULTÉ DE THÉOLOGIE DÉCANAT\n\nReglement für den Erwerb des Doktorates der Philosophie (Anhang I)\n\n## Zusicherung der Dissertationsleitung\n\nDie von der Theologischen Fakultät der Universität Freiburg/Schweiz zur Leitung einer Dissertation befähigte Lehrperson\n\nName\n\nsichert hiermit zu, dass sie die wissenschaftliche Leitung des Dissertations- projektes der folgenden Person gemäss Reglement für den Erwerb des Doktorates der Philosophie, Artikel 5, übernimmt\n\nName\n\nVorname\n\n## Arbeitstitel der Dissertation\n\nOption :\n\nReligionsstudien / Theologische Studien (Nichtzutreffendes ist zu streichen)\n\nOrt und Datum\n\nDissertationsleiter/in\n\n……………………………….\n\n…………………………………\n\nGegebenenfalls, gemäss Art 2 al 4, Zusicherung der Ko-Leitung\n\nOrt und Datum\n\nKo-Leiter/in\n\n……………………………….\n\n…………………………………"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Zusicherung der Dissertationsleitung",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Arbeitstitel der Dissertation",
+      "line_index": 24,
+      "source": "markdown_regex"
+    }
+  ]
+}

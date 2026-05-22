@@ -1,0 +1,151 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:07:16.928Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Social_Work_and_Social_Policy_DE__BA_Soziologie_zu_60_ECTS_09f037640aa81cde24b77302361520d7affa3cb8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "09f037640aa81cde24b77302361520d7affa3cb8",
+  "program_key": "faculty of humanities|bachelor|60|social work and social policy (de)",
+  "source_url": "https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_60_de_4112020_HS24.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Social_Work_and_Social_Policy_DE__BA_Soziologie_zu_60_ECTS_09f037640aa81cde24b77302361520d7affa3cb8.pdf",
+  "sha256": "ad07459cfb0709ace9349189237baf56609a8b2c9fd92365f8e196837b2d1be1",
+  "fetched_at": "2026-05-21T16:05:21.794Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_60_de_4112020_HS24.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Philosophische Fakultät
+
+## Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung
+
+## Studienplan
+
+Bachelor-Programm «Soziologie» Bereich II zu 60 ECTS
+
+Dieser «Studienplan 2021» ist ab Herbstsemester 2021 gültig (Stand HS 2024).
+
+|   1. | Gesetzliche Grundlagen......................................................................................................... 2                                                                                                                                    |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Beschreibung des Programms................................................................................................ 2                                                                                                                                         |
+|      | 2.1 Allgemeine Beschreibung des Programms ...............................................................................2                                                                                                                                           |
+|      | 2.2 Allgemeine Struktur des Programms........................................................................................2                                                                                                                                       |
+|      | 2.3 Zulassungsbedingungen............................................................................................................2                                                                                                                               |
+|   3. | Ausbildungsziele ................................................................................................................... 2                                                                                                                               |
+|   4. | Studienbeginn und -dauer ..................................................................................................... 3                                                                                                                                     |
+|   5. | Studiensprache ..................................................................................................................... 3                                                                                                                               |
+|   6. | Allgemeine Organisation ....................................................................................................... 3                                                                                                                                    |
+|      | Tabelle 1: Modulstruktur des Programms «Soziologie» zu 60 ECTS ................................................3                                                                                                                                                     |
+|   7. | Beschreibung der Module...................................................................................................... 4                                                                                                                                      |
+|      | BAsoz01: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik (15 ECTS)......................................4                                                                                                                                                      |
+|      | BAsoz02: Vertiefung Soziologie (15 ECTS)........................................................................................4                                                                                                                                    |
+|      | BAsoz03: Gesellschaftsanalyse (15 ECTS).........................................................................................5                                                                                                                                    |
+|      | BAsoz04: Felder der Soziologie (15 ECTS).........................................................................................6                                                                                                                                   |
+|      | BAsoz05: Theorien und Debatten (15 ECTS).....................................................................................6                                                                                                                                       |
+|   8. | Prüfungsmodalitäten............................................................................................................. 6 8.1 Allgemeine Prüfungsmodalitäten .............................................................................................6 |
+|      | Inkrafttreten und Übergangsbestimmungen .......................................................................... 8                                                                                                                                                 |
+|   9. | 8.3 Modulnoten und Gesamtnote..................................................................................................7                                                                                                                                     |
+|      | Anhang: Übersicht aller Module und Kurse des Programms....................................................                                                                                                                                                           |
+|  10. | 9 Tabelle 2: Kurse und Module des Programms «Soziologie» zu 60 ECTS..........................................9                                                                                                                                                       |
+
+## BAsoz04: Felder der Soziologie (15 ECTS)
+
+Das Modul dient der Darstellung der Breite des Faches und der Vielfalt an Speziellen Soziologien. In zwei Kursen «Felder der Soziologie 1» und «Felder der Soziologie 2» wird je ein Feld behandelt: Es werden Probleme, Fragen und Ergebnisse der soziologischen Beschäftigung mit unterschiedlichen Gegenstandsbereichen, wie etwa Kriminalität, Gesundheit, Bildung, Wirtschaft, Alter, Generationen, Familie, Arbeit, Digitalisierung oder Politik präsentiert. Das begleitende «Proseminar: Felder der Soziologie», das mit einer schriftlichen Proseminararbeit abgeschlossen wird, bietet den Studierenden die Gelegenheit, sich mit einem dritten Feld intensiver auseinander zu setzen.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsoz04   | WP: Felder der Soziologie         |   JWS |   ECTS | * gerade   |
+|-----------|-----------------------------------|-------|--------|------------|
+| BAsoz04a  | Felder der Soziologie 1           |     1 |      3 | g          |
+| BAsoz04b  | Felder der Soziologie 2           |     1 |      3 | g          |
+| BAsoz04c  | Proseminar: Felder der Soziologie |     1 |      9 | g          |
+
+## BAsoz05: Theorien und Debatten (15 ECTS)
+
+Im Modul «Theorien und Debatten» werden Entwicklungen soziologischer Theoriebildung und Forschung thematisiert. Im Kurs «Theorien» setzen sich die Studierenden mit jeweils unterschiedlichen Theorien und ihrer Begriffe auseinander. Zu nennen sind beispielsweise Begriffe wie Solidarität, Risiko, Gemeinschaft, Inklusion oder Exklusion, Macht und Herrschaft, Globalisierung, Individualisierung, Soziologie im Alltag oder in der Praxis. Im Kurs «Debatten» kommen aktuelle soziologische Themen, Konzepte, theoretische Ansätze und Forschungsergebnisse zur Sprache, wie beispielsweise Transkulturalität, soziale Ungleichheit ( the death of classes ), Armut, Prekarität, Digitalisierung ( the digital divide ). Im «Proseminar: Theorien und Debatte» mit Proseminararbeit vertiefen die Studierenden jeweils eine der vielfältigen wissenschaftlichen Debatten oder Theorien.
+
+Ziel des Moduls ist es, spezifische Theorien und Debatten der Soziologie vertieft kennenzulernen und analytisch erfassen zu können.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsoz05   | WP: Theorien und Debatten         |   JWS |   ECTS | * ungerade   |
+|-----------|-----------------------------------|-------|--------|--------------|
+| BAsoz05a  | Theorien                          |     1 |      3 | u            |
+| BAsoz05b  | Debatten                          |     1 |      3 | u            |
+| BAsoz05c  | Proseminar: Theorien und Debatten |     1 |      9 | u            |
+
+## 8. Prüfungsmodalitäten
+
+## 8.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Jede Unterrichtseinheit wird evaluiert. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer Unterrichtseinheit erbracht werden. Es gibt unterschiedliche Evaluationsmodalitäten:  schriftliche/mündliche  Prüfung,  das  Verfassen einer Proseminar- oder  schriftlichen  Arbeit,  der Nachweis erbrachter Leistungen während des Semesters oder laufende Lernkontrollen. Sie werden in den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt dies als endgültiger Misserfolg und damit die Unterrichtseinheit als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder andere schriftliche Arbeit) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Proseminararbeiten werden an vier verbindlich vorgeschriebenen, dem Kurs nachfolgenden Terminen eingereicht. Wird die Proseminararbeit als ungenügend beurteilt, wird ein Misserfolg erfasst. Eine Proseminararbeit, die nach der ersten Abgabe als ungenügend bewertet wird, kann einmal überarbeitet werden , sofern dies innerhalb der ersten drei Abgabetermine erfolgt. Wird die Proseminararbeit beim vierten Termin nicht fristgerecht eingereicht oder als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Laufende Lernkontrollen (z.B. Essays, Protokolle, Vorträge, etc.), die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind, finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der Unterrichtseinheit und werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Sämtliche Plagiatsverdachte (beispielsweise in Leistungsanforderungen, schriftliche Arbeiten oder Proseminararbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die Unterrichtseinheit muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 8.2 Endgültiger Misserfolg
+
+Alle Unterrichtseinheiten sind einem Modul angeschlossen. Es gibt Pflichtmodule (mit «P» bezeichnet) und Wahlpflichtmodule (mit «WP» bezeichnet). Alle Unterrichtseinheiten der Pflichtmodule und der gewählten Wahlpflichtmodule müssen erfolgreich absolviert werden. Wird in einer Unterrichtseinheit eines Wahlpflichtmoduls ein definitiver Misserfolg erzielt, ist ein einmaliger Wechsel in ein anderes Wahlpflichtmodul möglich. Die bereits absolvierten Leistungen des ursprünglichen Wahlpflichtmoduls können dabei nicht im neuen Wahlpflichtmodul angerechnet werden.
+
+Wird ein Pflichtmodul definitiv nicht bestanden, führt dies zum definitiven Misserfolg im Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium in «Soziologie» an der Universität Fribourg fortzusetzen.
+
+Ein Wechsel in das Bachelorprogramm «Sozialarbeit und Sozialpolitik» am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist nur unter der Voraussetzung möglich, dass keine Unterrichtseinheit des Moduls BAsoz01 «Grundlagen Soziologie, Sozialarbeit und Sozialpolitik» im Rahmen des bisherigen Studiums in Soziologie definitiv nicht bestanden ist.
+
+## 8.3  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten Unterrichtseinheiten. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die Abschlussnote des Programms ist der ungewichtete Mittelwert aller Modulnoten. Die Gesamtnote wird auf zwei Nachkommastellen gerundet.
+
+## 9. Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Bachelor-Studienprogramm «Soziologie» im Bereich II zu 60 ECTS aufnehmen.
+
+Studierende nach Studienplan 2017 (d.h. mit Studienbeginn vor dem Herbstsemester 2021) können beim Departement einen Wechsel des Studienplans beantragen. Die bereits erbrachten Leistungen im Studienprogramm nach Studienplan 2017 werden ins neue Studienprogramm (nach Studienplan 2021) übertragen.
+
+Ab Herbstsemester 2025 ersetzt dieser Studienplan (2021) der frühere Bachelorstudienplan «Soziologie» (2017) im Bereich II.
+
+## 10.  Anhang: Übersicht aller Module und Kurse des Programms
+
+Das Modul «Grundlagen Soziologie, Sozialarbeit und Sozialpolitik» ist im ersten Studienjahr vorgesehen. Das Modul «Vertiefung Sozialarbeit und Sozialpolitik» (ohne zweite Vortragsreihe) wird ebenfalls für das erste Studienjahr empfohlen. Die Wahlpflichtmodule im zweiten und/oder dritten Jahr sind darauf aufbauend. Die Vortragsreihe des Vertiefungsmoduls wird im zweiten oder dritten Jahr besucht.
+
+Studierende mit «Sozialarbeit und Sozialpolitik» im Bereich I absolvieren im ersten Jahr das Vertiefungsmodul (ohne Vortragsreihe). Das Grundlagenmodul entfällt. Im zweiten und dritten Jahr werden alle drei Wahlpflichtmodule belegt. Die Vortragsreihe des Vertiefungsmoduls ist im dritten Jahr vorgesehen.
+
+Bei Tabelle 2 ist zu beachten, dass die Zulassung zu den mit «II» bezeichneten Kursen erst nach Besuch des Kurses «I» möglich ist (aufbauende Kurse).
+
+Tabelle 2: Kurse und Module des Programms «Soziologie» zu 60 ECTS
+
+| Soziologie Bachelor-Programm zu 60 ECTS   | Soziologie Bachelor-Programm zu 60 ECTS                   |   JWS |   ECTS | * jährlich / ungerade / gerade   |
+|-------------------------------------------|-----------------------------------------------------------|-------|--------|----------------------------------|
+| BAsoz01                                   | °P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik |    15 |     15 | 15                               |
+| BAsoz01a                                  | Soziologie I                                              |     1 |      3 | j                                |
+| BAsoz01b                                  | Soziale Probleme                                          |     1 |      3 | j                                |
+| BAsoz01c                                  | Sozialpolitik I                                           |     1 |      3 | j                                |
+| BAsoz01d                                  | Sozialstaat und Wohlfahrtsregime I                        |     1 |      3 | j                                |
+| BAsoz01e                                  | Vortragsreihe                                             |     1 |      3 | j                                |
+| BAsoz02                                   | P: Vertiefung Soziologie                                  |    15 |     15 | 15                               |
+| BAsoz02a                                  | Soziologie II                                             |     1 |      6 | j                                |
+| BAsoz02b                                  | Sozialstrukturanalyse                                     |     1 |      3 | j                                |
+| BAsoz02c                                  | Hausarbeit: Soziologie                                    |       |      3 | j                                |
+| BAsoz02d                                  | Vortragsreihe                                             |     1 |      3 | j                                |
+| BAsoz03                                   | WP: Gesellschaftsanalyse                                  |    15 |     15 | 15                               |
+| BAsoz03a                                  | Wirtschaft und Gesellschaft                               |     1 |      3 | u                                |
+| BAsoz03b                                  | Politische Soziologie                                     |     1 |      3 | u                                |
+| BAsoz03c                                  | Zivilgesellschaft, Demokratie, Rechte                     |     1 |      3 | u                                |
+| BAsoz03d                                  | Gesellschaftsdiagnosen                                    |     1 |      6 | u                                |
+| BAsoz04                                   | WP: Felder der Soziologie                                 |    15 |     15 | 15                               |
+| BAsoz04a                                  | Felder der Soziologie 1                                   |     1 |      3 | g                                |
+| BAsoz04b                                  | Felder der Soziologie 2                                   |     1 |      3 | g                                |
+| BAsoz04c                                  | Proseminar: Felder der Soziologie                         |     1 |      9 | g                                |
+| BAsoz05                                   | WP: Theorien und Debatten                                 |    15 |     15 | 15                               |
+| BAsoz05a                                  | Theorien                                                  |     1 |      3 | u                                |
+| BAsoz05b                                  | Debatten                                                  |     1 |      3 | u                                |
+| BAsoz05c                                  | Proseminar: Theorien und Debatten                         |     1 |      9 | u                                |

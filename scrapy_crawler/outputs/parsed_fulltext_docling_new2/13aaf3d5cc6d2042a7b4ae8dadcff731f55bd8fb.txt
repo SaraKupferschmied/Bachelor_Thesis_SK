@@ -1,0 +1,42 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:21:08.122Z",
+  "title": "unmatched_THEO_UNK_UNK_Habilitation_Pr_fungs_-_und_Diplomgeb_ren_13aaf3d5cc6d2042a7b4ae8dadcff731f55bd8fb",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "13aaf3d5cc6d2042a7b4ae8dadcff731f55bd8fb",
+  "program_key": null,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_Pr_fungs_-_und_Diplomgeb_ren_13aaf3d5cc6d2042a7b4ae8dadcff731f55bd8fb.pdf",
+  "sha256": "99f5486881b8b674df5f21bf15d9742ef769fbd69d3fbaa47b6e2922154d518b",
+  "fetched_at": "2026-05-21T16:05:41.832Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm
+
+Frais d'examen et de diplôme de la Faculté de Théologie pour les voies d'études uniques, principales et secondaires.
+
+(angenommen durch den Fakultätsrat am - approuvé par le Conseil de Faculté le 6.10.2015)
+
+## * Prix/Preis CHF
+
+|                                           | Vollprogramm Progr. unique   | Hauptprogramm Progr. principal   | Nebenprogramm Progr. secondaire   |
+|-------------------------------------------|------------------------------|----------------------------------|-----------------------------------|
+| Bachelor                                  | 180 .-                       | 120 .-                           | 30 .- / 60 .-                     |
+| Master                                    | 240 .-                       | 180 .-                           | 60 .-                             |
+| Kirchliches Diplom Diplôme ecclésiastique | 200 .-                       | 0 .-                             | 0 .-                              |
+| Kanonisches Lizentiat Licence Canonique   | 200 .-                       | 0 .-                             | 0 .-                              |
+| Doktorat - Doctorat                       | 400 .-                       | 0 .-                             | 0 .-                              |
+| Habilitation                              | 600 .-                       | 0 .-                             | 0 .-                              |
+
+Les frais d'examens et de diplôme sont perçus au moment du dépôt du travail final. Les frais d'examens pour un programme secondaire sont perçus au moment de l'établissement de l'attestation finale.
+
+Die Prüfungs- und Diplomgebühren werden fällig bei der Abgabe der Abschlussarbeit. Die Prüfungsgebühren für ein Nebenprogramm werden bei der Ausstellung der Schlussbestätigung fällig.
+
+Freiburg/Fribourg, 6.10.2015

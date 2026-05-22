@@ -1,0 +1,141 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:00:51.721Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Spanish_Plan_de_estudios_BA_120_ECTS_ae6b55e28a0704911ecce27103153365f28ef810",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ae6b55e28a0704911ecce27103153365f28ef810",
+  "program_key": "faculty of humanities|bachelor|120|spanish",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/bachelor-es-120-ects-es.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Spanish_Plan_de_estudios_BA_120_ECTS_ae6b55e28a0704911ecce27103153365f28ef810.pdf",
+  "sha256": "7eb45da051e8767c65db71dc8760f94462d16e0e7bf82d22c07946a0638257b8",
+  "fetched_at": "2026-05-21T16:05:25.119Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/bachelor-es-120-ects-es.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## UNIVERSIDAD DE FRIBURGO - SUIZA FACULTAD DE LETRAS - DEPARTEMENTO DE LENGUAS Y LITERATURAS Departamento de Español
+
+## PLAN DE ESTUDIOS BACHELOR A 120 ECTS
+
+## 1. Descripción general
+
+El presente plan de estudios sigue el Reglamento de la Facultad de Letras del 23 de junio de 2005 para la obtención del diploma universitario (nivel bachelor europeo) y las Directivas del 23 de abril de 2009 (revisadas el 26.09.2013) sobre la evaluación de las prestaciones de estudios.
+
+El Departamento de Español abarca tanto las diversas literaturas de la América hispanófona  (incluyendo  Estados  Unidos)  como  de  la  Península  Ibérica  y  presta  una atención particular a las relaciones entre literaturas y ciencias humanas  así como  al aporte de  los estudios interdisciplinarios.  La  filología  hispánica  estudia  la  lengua,  la  literatura  y  la  cultura de la España  medieval e igualmente la tradición manuscrita de las obras y su lugar en la historia  de  la  cultura  occidental.  La  formación propuesta corresponde así a las bases locales de la cultura hispana y también al contexto internacional (incluso transcontinental) que ha configurado su historia y su realidad actual.
+
+En cuanto a la duración de los estudios, el programa de bachelor en español (plan de estudios a 120 créditos + plan de estudios a 60 créditos) puede realizarse en seis semestres.
+
+El Plan de estudios bachelor a 120 créditos tiene por objetivo ofrecer una formación conjunta y  progresiva  en  la  historia  literaria,  lingüística  y  cultural  del  mundo  hispánico,  no  solamente  en su evolución global sino también en las particularidades de las diferentes regiones que lo componen y en sus relaciones mutuas. Se trata de una formación  general pero sólida, que facilitará la especialización  posterior en el nivel de máster a partir de los conocimientos recibidos en cursos generales o  monográficos (sobre grandes periodos y regiones o sobre temas más específicos) y en las  competencias adquiridas en los proseminarios: técnicas de análisis del discurso, descripción codicológica, expresión oral, comunicación escrita (objeto de una atención especial), distancia crítica y gestión de la investigación individual y en grupo.
+
+Este plan de estudios permite una progresión estructurada y abierta, que parte de un módulo de base  (M1)  a  seguir  al  inicio  de  los  estudios,  continúa  con  los  módulos  de  orientación  (M2  y M3)  previstos para el primero y el segundo año y termina con la validación de los módulos  de profundización (M4-M6) seguidos durante los dos últimos años  de bachelor .  Por  otro lado, admite la posibilidad de modificar el orden de seguimiento de los diferentes módulos, aunque se recomienda  la  progresión  citada.  Además,  el  plan  permite  adquirir  una  determinada  cantidad  de créditos  (CTC)  en otros dominios de la Facultad y esto en el orden y con el ritmo que el estudiante 1 desee.
+
+Las  perspectivas  profesionales  son  muy  numerosas  a  partir  de  la  formación  propuesta: enseñanza  universitaria,  en  colegios  de  nivel  secundario,  en  escuelas  privadas  y  en  empresas; profesiones de la escritura como periodismo, publicidad, traducción literaria y técnica, industria del libro (edición, administración y comercio), biblioteconomía; otras como diplomacia, banca, hostelería y turismo, relaciones públicas, interpretación, gestión cultural, museografía, administración pública y privada, empresas de nuevas tecnologías, etc.
+
+Los estudios pueden empezarse tanto en el semestre de otoño (septiembre-diciembre) como en el de primavera (febrero-mayo). La lengua de enseñanza es el español.
+
+## 2. Estructura del plan estudios
+
+El  plan  de  estudios  está  estructurado  en  siete  módulos  distribuidos  en  cuatro  secciones: fundamentos (M1), orientación (M2 y M3), profundización (M4, M5 y M6) y complementos (M7). Estos últimos pueden adquirirse, según se desee, durante los tres años de bachelor . Todos los módulos cuentan con 18 créditos menos el séptimo, que tiene 12. Los cursos y los proseminarios de un mismo módulo pueden seguirse en semestres diferentes.
+
+Los  créditos  ECTS  correspondientes  a  la  carga  de  trabajo  prevista  para  un  módulo  quedan validados cuando el estudiante ha cumplido con las exigencias requeridas en dicho módulo. El valor de  los  créditos  es  indivisible:  no  es  posible  ninguna  atribución  parcial  de  créditos  dentro  de  un módulo.
+
+La  composición  de  los  módulos  obedece  a  criterios  de  coherencia  temática  (literatura latinoamericana, literatura española, filología e historia de la lengua, estudios teatrales) o a fundamentos que han de ser asumidos lo antes posible (primer módulo). En proporciones variables, cada  módulo  contiene  cursos  y  proseminarios  para  que  el  estudiante,  por  una  parte,  adquiera  los conocimientos relativos al periodo histórico o a la problemática general objeto del módulo y, por otra, esté  en  disposición  de  enfrentarse  con  rigor  y  pertinencia  a  los  textos  relacionados  con  él.  Salvo excepción particular, la duración de los cursos y de los proseminarios es de un semestre.
+
+Este plan de estudios contiene varias posibilidades para ampliar la formación ofrecida en los cinco primeros módulos: por un lado, mediante cursos y proseminarios de nuestro propio Departamento (módulo  M6: Opciones  específicas ); por otro, a través de enseñanzas  externas (módulo M7: Competencias  transversales ) que darán a la formación recibida un dimensión interdisciplinar. Además,  un  estudiante  inscrito  en  este  plan  de  estudios  podrá  obtener  un  máximo de  36  créditos  en otra  universidad,  particularmente  durante  una  estancia  lingüística  en  un  país  de lengua  española.  En  relación  con  los  cursos  que  podrá  seguir,  será  necesario  el  acuerdo  previo del Departamento de Español.  Este  último  transferirá  a  su  sistema  de  validación  las  notas  y créditos obtenidos por el estudiante (es posible que se exijan trabajos complementarios de ajustamiento).
+
+## DEPARTAMENTO DE ESPAÑOL
+
+## PLAN DE ESTUDIOS BACHELOR A 120 ECTS
+
+## Cuadro recapitulativo
+
+| Nombre módulo                                       | Unidad de enseñanza                                                                                                                                                              | ECTS/unidad                     | ECTS/módulo   |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|---------------|
+| - Fundamentos (primer año)                          | - Fundamentos (primer año)                                                                                                                                                       |                                 |               |
+| M1: Competen- cias básicas                          | C: Síntesis de historia y literatura española PS: Introducción a la crítica literaria PS: Traducción y gramática                                                                 | 6 6 6                           | 18 ECTS       |
+| - Módulos de orientación (primer año y segundo)     | - Módulos de orientación (primer año y segundo)                                                                                                                                  |                                 |               |
+| M2: Literatura latinoamericana: prosa y poesía      | C: Literatura y Civilización de América Latina C: Literatura latinoamericana PS: Proseminario de textos latinoamericanos                                                         | 6 6 6                           | 18 ECTS       |
+| M3: Literatura española: prosa y poesía             | C: Literatura de la Edad Media C: Literatura moderna y contemporánea PS: Literatura medieval                                                                                     | 6 6 6                           | 18 ECTS       |
+| - Módulos de profundización (segundo año y tercero) | - Módulos de profundización (segundo año y tercero)                                                                                                                              |                                 |               |
+| M4: Filología hispánica clási- ca y moderna         | C: Historia de la lengua: orígenes - siglo XV C: Historia de la lengua: siglos XVI-XXI PS: Historia de la lengua/lingüística contemp.                                            | 6 6 6                           | 18 ECTS       |
+| M5: Teatro hispano                                  | C: Historia del teatro: orígenes - Siglo XXI PS: Teatro clásico español PS: Teatro de los siglos XVIII-XXI                                                                       | 6 6 6                           | 18 ECTS       |
+| M6: Opciones específicas                            | - Cursos y proseminarios del Departamento de Español - Estancia lingüística en país hispanohablante - Memoria de Bachelor                                                        | cada uno 6 6 12                 | 18 ECTS       |
+| - Complementos (primer año, segundo y tercero)      | - Complementos (primer año, segundo y tercero)                                                                                                                                   |                                 |               |
+| M7: Competen- cias transversa- les (CTC)            | - Cursos de filología, lingüística o literatura del Departamento de lenguas y literaturas - Otros cursos de la Facultad de letras - Cursos de otras facultades de la Universidad | variables según las disciplinas | 12 ECTS       |
+
+## 3. Descripción de los módulos
+
+## M1: Competencias básicas (18 créditos)
+
+Dos  formas  de  enseñanza  componen  este  módulo:  un  curso  y  dos  proseminarios.  El  curso ofrece un conocimiento básico del desarrollo de la literatura española inserta en la historia general de España. El primer proseminario permite adquirir los útiles de crítica literaria indispensables para los análisis del discurso que tendrán lugar a lo largo de los estudios. El segundo mejora la expresión oral y escrita (corrección gramatical, léxico, estilo, propiedad de lenguaje), cuyo dominio deberá mostrar el estudiante en los trabajos de seminario, en los exámenes y en la memoria que seguirá más tarde. Ya en este nivel se ponen de relieve las relaciones entre literatura y cultura.
+
+La  evaluación  del  curso  se  hará  mediante  examen  escrito  al  final  del  semestre;  la  de  los proseminarios,  por  dossier  de  ejercicios  (control  de  prestaciones  realizadas  en  el  transcurso  de  la enseñanza  más,  según  los  casos,  una  prueba  escrita  final).  Las  evaluaciones  serán  por  unidad  de enseñanza  e  independientes:  no  se  admitirá  ninguna  compensación.  Cada  unidad  aprobada  dará derecho a 6 créditos.
+
+## M2: Literatura latinoamericana: prosa y poesía (18 créditos)
+
+Este  módulo  está  formado  por  dos  cursos  y  un  seminario.  Los  cursos  poseen  objetivos complementarios:  a  través  del  primero,  el  estudiante  obtiene  una  formación  general  en  torno  a  los grandes  contenidos,  periodos,  problemáticas,  géneros  literarios  y  autores  de  América  Latina.  Por  el segundo, de carácter monográfico, profundiza su información sobre un aspecto central de esa misma literatura  (un  movimiento,  una  escuela,  una  generación  literaria,  un  gran  autor).  El  proseminario  le permite el conocimiento directo y crítico de un texto o de un conjunto de textos que serán analizados para extraer de ellos sus rasgos más pertinentes desde un punto de vista estético, cultural e histórico.
+
+Las  evaluaciones  de  los  cursos  se  harán  por  examen  escrito  al  final  del  semestre;  la  del proseminario, mediante una presentación oral y un trabajo escrito a continuación del semestre o por dossier  de  ejercicios,  según  el  asunto  tratado.  Las  evaluaciones  serán  por  unidad  de  enseñanza  e independientes:  no  se  admitirá  ninguna  compensación.  Cada  unidad  aprobada  dará  derecho  a  6 créditos.
+
+## M3: Literatura española: prosa y poesía (18 créditos)
+
+Dos cursos y un proseminario constituyen este módulo. El conjunto de los dos cursos permite conocer los principales movimientos, escuelas, generaciones y problemáticas de la literatura española así como la obra de un gran autor que haya marcado su historia: Alfonso X el Sabio, Cervantes, Lope de  Vega,  Galdós,  Unamuno,  García  Lorca,  etc.  Dado  que  la  época  medieval  plantea  problemas específicos (codicológicos, lingüísticos, de transmisión textual, etc.), el proseminario está destinado a la  adquisición  de  las  competencias  técnicas  necesarias  para  afrontarlos  con  una  base  teórica  y  el contacto directo con los textos.
+
+Las  evaluaciones  de  los  cursos  se  harán  en  un  examen  escrito  al  final  del  semestre;  la  del proseminario, mediante una presentación oral y un trabajo escrito a continuación del semestre o por dossier  de  ejercicios,  según  el  asunto  tratado.  Las  evaluaciones  serán  por  unidad  de  enseñanza  e independientes:  no  se  admitirá  ninguna  compensación.  Cada  unidad  aprobada  dará  derecho  a  6 créditos.
+
+## M4: Filología española clásica y moderna (18 créditos)
+
+El módulo consta de dos cursos y de un proseminario. A través de los dos cursos se obtiene una visión de conjunto de la evolución de la lengua española desde la Edad Media hasta la actualidad, así  como de la inmensa amplitud de sus variantes regionales y continentales. El proseminario es un instrumento indispensable para establecer contacto, de una manera concreta, con esta multiplicidad de discursos y para dominar algunas de sus modalidades, ya sea en un plano diacrónico o sincrónico.
+
+Las  evaluaciones  de  los  cursos  se  harán  por  examen  escrito  al  final  del  semestre;  la  del proseminario, mediante una presentación oral y un trabajo escrito a continuación del semestre o por dossier  de  ejercicios,  según  el  asunto  tratado.  Las  evaluaciones  serán  por  unidad  de  enseñanza  e independientes:  no  se  admitirá  ninguna  compensación.  Cada  unidad  aprobada  dará  derecho  a  6 créditos.
+
+## M5: Teatro hispano (18 créditos)
+
+Este módulo, con finalidad teórica y práctica, se compone de un curso y de dos proseminarios. El objetivo del primero es adquirir una sólida cultura general sobre los principales autores y periodos de  la  historia  teatral  en  lengua  española.  El  proseminario  sobre  el  teatro  clásico  español  permite dominar  las  características  específicas  de  la  escena  del  Siglo  de  Oro  (lengua,  técnicas,  fórmulas métricas, puesta en escena, modalidades dramáticas, etc.), mientras que el de los últimos siglos estará particularmente atento a la multiplicidad de las variantes que recorren el  mundo  hispánico contemporáneo. Esta formación, que continúa en el nivel de máster, es única entre las universidades vecinas y, por lo tanto, constituye una especialidad de los estudios hispánicos de la Universidad de Friburgo.
+
+La  evaluación  del  curso  se  hará  en  un  examen  escrito  al  final  del  semestre;  las  de  los proseminarios, mediante una presentación oral y un trabajo escrito a continuación del semestre o por dossier  de  ejercicios,  según  el  asunto  tratado.  Las  evaluaciones  serán  por  unidad  de  enseñanza  e independientes:  no  se  admitirá  ninguna  compensación.  Cada  unidad  aprobada  dará  derecho  a  6 créditos.
+
+## M6: Opciones específicas (18 créditos)
+
+La  composición  del  módulo  se  realiza  por  elección  múltiple:  cursos  y/o  seminarios  cuyo asunto  todavía  no  ha  sido  seguido  por  el  interesado,  curso  +  proseminario  +  estancia  lingüística, estancia  lingüística  +  memoria  de bachelor ,  etc.,  hasta  la  obtención  del  total  de  los  18  créditos requeridos.  Siguiendo  sus  intereses  y  sus  necesidades  de  formación,  el  estudiante  profundizará  sus conocimientos en una temática determinada o aprovechará para ampliarlos siguiendo una enseñanza sobre una materia aún no estudiada. Además, podrá mejorar sus competencias lingüísticas y culturales mediante una estancia en un país de lengua española o redactar una memoria de final de bachelor .
+
+La  estancia  lingüística,  muy  aconsejable  sobre  todo  para  los  estudiantes  no  hispanófonos, tendrá una duración mínima de cuatro meses sobre la base de un Proyecto de Estancia aprobado por el responsable del Departamento de Español y será completada con un Informe de Estancia debidamente justificado.  La  validación  del  conjunto  de  las  prestaciones  dará  derecho  a  6 créditos.  Una estancia  realizada antes de empezar  los estudios universitarios en esta vía de estudios  no será  tomada  en consideración.
+
+La memoria de bachelo r  será  dirigida  por  un  profesor  o  por  otro  docente  del Departamento de Español  con  la  autorización  previa  del  responsable  del Departamento .  El  docente  fijará  el  plazo para la entrega de la memoria una vez aprobado el proyecto de la investigación.
+
+Todas  las  evaluaciones  se  harán  por  unidad  de  enseñanza  y  serán  independientes,  sin posibilidad de compensación.
+
+## M7: Competencias transversales (12 créditos)
+
+El estudiante compone el módulo con materias externas al Departamento de Español  hasta la obtención de un total de 12 créditos. Este módulo, de vocación interdisciplinar,  permite adquirir complementos de formación en disciplinas próximas al español (las del D epartamento de lenguas y literaturas en primer lugar), en cursos relacionados con el hispanismo ofrecidos por otros departamentos  e  institutos  de  la  Facultad de Letras o por otras  facultades de la Universidad de Friburgo, siempre con el acuerdo previo  del  responsable  del Departamento de Español.
+
+El estudiante tiene la posibilidad de seguir las enseñanzas seleccionadas durante cualquier año de  sus  estudios  de bachelor .  Para  ser  validadas  es  necesario  que  no  formen  parte  del  programa obligatorio de la rama principal o secundaria elegida por el estudiante.
+
+## 4. Evaluación de las prestaciones
+
+Obligatorio en este plan de estudios, el examen de fin de primer año se considera aprobado cuando el  módulo  M1  (competencias  de  base)  ha  sido  validado.  Salvo  razones  que  lo  impidan,  las evaluaciones correspondientes deben quedar aprobadas al principio del quinto semestre de estudios, como  más  tarde.  El  no  respeto  de  este  plazo  implica  la  imposibilidad  de  seguir  los  estudios  en el  mismo Departamento (art.  11/1  del Reglamento de la Facultad ).  Las  peticiones  de  ampliación por  dichas razones  deberán  dirigirse  al  Decanato  de  la  Facultad,  a  más  tardar  quince  días  antes del  inicio  del quinto semestre.
+
+Cada curso es validado, de manera independiente y sin posibilidad de compensación, mediante un examen escrito propuesto al final del semestre y aprobado con un mínimo de 4 puntos y un máximo de 6. Según la unidad de enseñanza o la temática tratada, los proseminarios admiten dos posibilidades de validación: presentación oral + trabajo escrito a continuación del semestre o dossier de ejercicios (control de prestaciones realizadas en el transcurso de la enseñanza). En ambos casos se requiere una participación activa.
+
+Es  obligatoria  la  presencia  regular  en  cursos  y  proseminarios:  tres  ausencias  injustificadas provocan  la  no  validación  de  la  enseñanza.  El  responsable  de  la  enseñanza  (llegado  el  caso, el responsable del Departamento ) decide sobre el carácter justificado de las ausencias.
+
+La validación de un módulo presupone que el estudiante ha aprobado cada una de las unidades de  enseñanza  que  forman  parte  de  él.  La  media  del  módulo  será  calculada  sobre  la  base  de  las validaciones que hayan recibido una calificación numerada (entre 4 y 6).
+
+No se podrá acordar la validación de una enseñanza de un módulo para remplazar la de otro módulo. Igualmente, un curso no podrá ser validado en lugar de un proseminario o viceversa.
+
+La inscripción en Gestens es  obligatoria  para  seguir  un  curso  o  un  proseminario  en  nuestra Facultad, lo mismo que para presentarse a un examen, respetando siempre los plazos indicados por el Decanato. A propósito de los proseminarios, se recomienda, además, anunciarse al docente antes del inicio  del  semestre  para  reservar  plaza  y  evitar  así  el  riesgo  de  tener  que  diferir  la  participación  en dicho proseminario.
+
+Se  puede  repetir  dos  veces  el  examen  que  ha  dado  lugar  a  un  suspenso;  el  estudiante  debe reinscribirse  para  cada  una  de  las  tentativas.  A  más  tardar  y  bajo  pena  de  suspenso  definitivo,  el examen debe ser aprobado en la cuarta sesión que sigue a la fecha de la inscripción en el curso.  La ausencia a un examen para el que el estudiante se ha inscrito equivale a un suspenso, salvo un caso de fuerza mayor. En este caso, se debe informar por escrito al secretariado del Departamento como más tarde  una  semana  después  de  la  fecha  del  examen.  El Departamento decide  sobre  el  carácter justificado  de  la ausencia (arts. 3 y 4 de las Directivas sobre las prestaciones de estudios).
+
+Las  enseñanzas  del  módulo  M1  (excepto Traducción y gramática )  y  el  curso Literatura  y Civilización de América Latina (M2)  son  anuales  y  obligatorias.  El  estudiante  que  no  apruebe  sus evaluaciones  en  los  plazos  previstos  no  será  autorizado  a  seguir  sus  estudios  en  ningún  plan  de estudios del Departamento .
+
+Salvo excepción particular precisada por el docente, el plazo máximo para la entrega de los trabajos  escritos  es  de  tres  meses  a  partir  del  final  del  semestre  en  el  que  se  ha  seguido  el proseminario. Este deberá ser aprobado, a más tardar, el 1° de septiembre si ha sido seguido durante el semestre  de  otoño  anterior  y  el  1°  de  febrero  si  ha  sido  seguido  durante  el  semestre  de  primavera anterior.  Los  plazos  referentes  a  la  memoria  de bachelor serán  precisados  por  el  director  de  la memoria.
+
+## 5. Disposiciones transitorias
+
+El presente plan de estudios entra en vigor desde el inicio del semestre de otoño de 2016: los estudiantes que comienzan entonces sus estudios en la Universidad de Friburgo están sometidos a él sin excepción. Los que han empezado sus estudios universitarios entre el semestre de otoño de 2015 y el de primavera de 2016 tienen la posibilidad de continuar en el plan anterior o adoptar el nuevo antes del comienzo del semestre de primavera de 2017.
+
+En  principio,  los  estudiantes  inscritos  en  la  Universidad  de  Friburgo  antes  del  semestre  de otoño de 2015 no tienen la posibilidad de cambiar de plan de estudios. Sin embargo, las excepciones debidamente motivadas podrán ser tomadas en consideración.

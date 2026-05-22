@@ -1,0 +1,129 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:05:23.216Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_Module_2016__2e3bda792c2f66923bfaf8e6bc87340da1ee6e5e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2e3bda792c2f66923bfaf8e6bc87340da1ee6e5e",
+  "program_key": "faculty of humanities|bachelor|120|history of modern times",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/Schema%202021_Geschichte%20120_2016_2.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_Module_2016__2e3bda792c2f66923bfaf8e6bc87340da1ee6e5e.pdf",
+  "sha256": "f00f60c34751b6a644fbad427d13b328c651d221086f3b331eaeee073bcf0e3f",
+  "fetched_at": "2026-05-21T16:05:23.285Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/Schema%202021_Geschichte%20120_2016_2.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENAUFBAU: BA GESCHICHTE 120 (STUDIENPLAN 2016)
+
+## L14.00211 | GRUNDLAGENMODUL GESCHICHTE (15 ECTS)
+
+- 1 Überblicksvorlesung (3 ECTS)
+- 1 Methodenkurs (I) Antike (3 ECTS)
+- 1 Methodenkurs (I/II) Mittelalter (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Neuzeit (3 ECTS)
+- 1 Grundkurs Zeitgeschichte (3 ECTS)
+
+## L14.00212 | BASISMODUL ANTIKE (15 ECTS)
+
+- 2 Vorlesungen (2x3 ECTS) [Antike]
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Antike / Lehrangebot
+
+## L14.00214 | BASISMODUL NEUZEIT (15 ECTS) \_\_\_\_\_\_\_
+
+- 2 Vorlesungen (2x3 ECTS) [Neuzeit]
+- 1 Proseminar mit schriftlicher Arbeit (6  ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Neuzeit / Lehrangebot
+
+## · L14.00213 | BASISMODUL MITTELALTER (15 ECTS)
+
+- 2 Vorlesungen (2x3 ECTS) [Mittelalter]
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Mittelalter / Lehrangebot
+
+## L14.00228 | BASISMODUL ZEITGESCHICHTE (15 ECTS)
+
+- 2 Vorlesungen (2x3 ECTS) [Zeitg.]
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 Übung (3 ECTS)
+
+## W L F L C H T T L
+
+## MODUL BACHELORARBEIT EPOCHE I (18 ECTS)
+
+- 1 Vorlesung (3 ECTS)
+- 1 Seminar mit schriftlicher Bachelorarbeit (12 ECTS)
+- 1 vom Epochenfach I festgelegte Veranstaltung (3 ECTS) -&gt; Methodenkurs II
+
+## VERTIEFUNGSMODUL EPOCHE II (15 ECTS)
+
+- 1 Vorlesung (3 ECTS)
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 vom Epochenfach II festgelegte Veranstaltung (3 ECTS) -&gt; Methodenkurs II
+
+## L14.00199 | SOFT SKILLS (12 ECTS)
+
+- -&gt; Vorlesungen ausserhalb der Studienbereiche Geschichte &amp; Zeitgeschichte
+
+<!-- image -->
+
+## AUSFÜHRUNGEN WAHLPFLICHTTEIL
+
+- Wahl und Kombination der Epochenfächer im Wahlpflichtteil sind der / dem Studierenden überlassen. Es gilt eine Einschränkung: Das Vertiefungsmodul (15 ECTS) und das Modul Bachelorarbeit (18  ECTS) müssen zwei verschiedenen Epochenfächern angehören.
+- Konkreter Aufbau der Vertiefungs- und Bachelorarbeit-Module / Codes:
+
+## L14.00215 | VERTIEFUNGSMODUL ANTIKE
+
+- 1 Vorlesung (3 ECTS) [Antike]
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 Methodenkurs II (3 ECTS)
+
+## L14.00216 | VERTIEFUNGSMODUL MITTELALTER
+
+- 1 Vorlesung (3 ECTS) [Mittelalter]
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 Methodenkurs II (3 ECTS)
+
+## L14.00235 | VERTIEFUNGSMODUL NEUZEIT
+
+- 1 Vorlesung (3 ECTS) [Neuzeit]
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 Methodenkurs II (3 CTS)
+
+## L14.00229 | VERTIEFUNGSMODUL ZEITGESCHICHTE
+
+- 1 Vorlesung (3 ECTS) [Zeitg.]
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 Historiographie- oder Methodenseminar II (3 ECTS)
+
+## L14.00218 | BACHELORARBEIT ANTIKE
+
+- 1 Vorlesung (3 ECTS) [Antike]
+- 1 Seminar mit schriftlicher Bachelorarbeit (12 ECTS)
+- 1 Methodenkurs II (3 ECTS)
+
+## L14.00219 | BACHELORARBEIT MITTELALTER
+
+- 1 Vorlesung (3 ECTS) [Mittelalter]
+- 1 Seminar mit schriftlicher Bachelorarbeit (12 ECTS)
+- 1 Methodenkurs II (3 ECTS)
+
+## L14.00220| BACHELORARBEIT NEUZEIT
+
+- 1 Vorlesung (3 ECTS) [Neuzeit]
+- 1 Seminar mit schriftlicher Bachelorarbeit (12 ECTS)
+- 1 Methodenkurs II (3 ECTS)
+
+## L14.00230 | BACHELORARBEIT ZEITGESCHICHTE
+
+- 1 Vorlesung (3 ECTS) [Zeitg.]
+- 1 Seminar mit schriftlicher Bachelorarbeit (12 ECTS)
+- 1 Historiographie- oder Methodenseminar II (3 ECTS)

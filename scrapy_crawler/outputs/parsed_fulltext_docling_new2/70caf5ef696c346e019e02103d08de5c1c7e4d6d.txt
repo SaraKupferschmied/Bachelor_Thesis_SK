@@ -1,0 +1,50 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:34:24.149Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Schema_BA_60_ECTS_70caf5ef696c346e019e02103d08de5c1c7e4d6d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "70caf5ef696c346e019e02103d08de5c1c7e4d6d",
+  "program_key": "faculty of humanities|bachelor|60|religious studies",
+  "source_url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Schema_BA_60_ECTS_70caf5ef696c346e019e02103d08de5c1c7e4d6d.pdf",
+  "sha256": "0f1ee368d4140c2e11580b43960d2b878324a1ad2caf9f3fd2af52f5c475f4d7",
+  "fetched_at": "2026-05-21T16:05:20.563Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Bachelor Religionswissenschaft
+
+## Studienprogramm zu 60 Kreditpunkten
+
+## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)*
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+2 VL: Einführung in zentrale
+
+Themen der RW (6 ECTS)
+
+- *Ggf. VL Einführung in zentrale
+
+Themen der RW (3 ECTS)
+
+Religiöse Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)

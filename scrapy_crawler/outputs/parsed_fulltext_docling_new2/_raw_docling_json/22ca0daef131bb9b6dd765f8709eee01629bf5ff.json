@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_30_Religious_studies_Schema_BA_30_ECTS_22ca0daef131bb9b6dd765f8709eee01629bf5ff",
+  "markdown": "## Bachelor  Religionswissenschaft\n\n## Studienprogramm zu 30 Kreditpunkten\n\nEinführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)* 2 VL + 2 S: Einführung in zentrale Themen der RW (12 ECTS) *Ggf. VL Einführung in zentrale Themen der RW (3 ECTS)\n\nReligionsgeschichte und religiöse Gegenwartskult. D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)",
+  "pages": [
+    "## Bachelor  Religionswissenschaft\n\n## Studienprogramm zu 30 Kreditpunkten\n\nEinführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)* 2 VL + 2 S: Einführung in zentrale Themen der RW (12 ECTS) *Ggf. VL Einführung in zentrale Themen der RW (3 ECTS)\n\nReligionsgeschichte und religiöse Gegenwartskult. D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Bachelor Religionswissenschaft",
+      "line_index": 0,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Studienprogramm zu 30 Kreditpunkten",
+      "line_index": 2,
+      "source": "markdown_regex"
+    }
+  ]
+}

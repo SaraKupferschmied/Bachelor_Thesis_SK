@@ -1,0 +1,122 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:20:57.173Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_60_Management_Betriebswirtschaftslehre_69da23a255849bb393760018cca23d51418f8c23",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "69da23a255849bb393760018cca23d51418f8c23",
+  "program_key": "faculty of management, economics and social sciences|bachelor|60|management",
+  "source_url": "https://www.calameo.com/read/003659115ca7470534982",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_60_Management_Betriebswirtschaftslehre_69da23a255849bb393760018cca23d51418f8c23.pdf",
+  "sha256": "4bf7b5b91aef18f40c8f2bcb5ed6ea5b81bebdfd9533877dd798df859f314866",
+  "fetched_at": "2026-05-21T16:05:33.915Z",
+  "notes": "calameo downloaded (id=003659115ca7470534982, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251006153432-a094cd844fa7c30c964b0291d91bdcf6/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=4c944c22a0dde30322eae4ce300f17ea551b6b32dbae2e1307375dd55fc03a86, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+41 : Betriebswirtschaftslehre 60
+
+Programm
+
+2015-SA\_V01
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+Das Nebenfach Betriebswirtschaftslehre (60 ECTS) vermittelt solide Grundlagen in den wichtigsten Bereichen des Managements . Es ergänzt ein Hauptfach eines Bachelor-Studiengangs und vermittelt die Voraussetzungen für den direkten Zugang zum Master of Arts in Betriebswirtschaftslehre oder verwandten Disziplinen. Das Programm kombiniert Pflichtveranstaltungen mit Wahlkursen und erlaubt so eine gewisse individuelle Gestaltung des Studienverlaufs.
+
+## Wichtiger Hinweis
+
+Das Organisationsreglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 11 und 12) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg , abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiendauer
+
+Ein Nebenfach ist zeitlich durch die Dauer seines Hauptprogramms begrenzt. Es muss spätestens mit dem gleichen Zeitaufwand erworben werden wie der Studiengang, dem es untergeordnet ist.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870304)
+
+Möglichkeit zum Ausgleich von maximal 12 ECTS
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Die meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.
+
+Im Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.
+
+| Code                             | Lehreinheit                                | Lehrer(innen)                    | Semester                         | Niveau                           | Sprache                          | Bewertung                        | ECTS                             |
+|----------------------------------|--------------------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS           | Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS | Obligatorische Kurse - 28.5 ECTS |
+| EGE.00136                        | Einführung in die Betriebswirtschaftslehre | Barmettler, Milosavljevic        | HS-2025                          | BA                               | de                               | Schriftliche Prüfung             | 6                                |
+| EGE.00135                        | Introduction à la gestion d'entreprise     | Davoine                          | HS-2025                          | BA                               | fr                               | Schriftliche Prüfung             | 6                                |
+| EGE.00137                        | Introduction à la comptabilité             | Missonier-Piera                  | HS-2025                          | BA                               | fr                               | Schriftliche Prüfung             | 6                                |
+
+<!-- image -->
+
+| Code                                                     | Lehreinheit                                              | Lehrer(innen)                                            | Semester                                                 | Niveau                                                   | Sprache                                                  | Bewertung                                                | ECTS                                                     |
+|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| EGE.00138                                                | Unternehmensrechnung                                     | Burkert                                                  | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| ESE.00040                                                | Microéconomie I                                          | Gugler                                                   | HS-2025                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| ESE.00041                                                | Mikroökonomie I                                          | Büchel                                                   | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EEP.00160                                                | Microéconomie II                                         | Gugler                                                   | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EEP.00161                                                | Mikroökonomie II                                         | Herz, Staubli                                            | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II | Wahlpflichtkurs: Statistik: Vertiefung oder Statistik II |
+| ESE.00028                                                | Einführung in die Statistik II                           | Huber                                                    | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| ESE.00027                                                | Introduction à la statistique II                         | Kauth, Kauth                                             | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| ESE.00029                                                | Statistique: approfondissement                           | Donzé                                                    | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| ESE.00030                                                | Vertiefungskurs Statistik                                | Leuenberger                                              | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          | Wahlkurse: mindestens 31.5 ECTS                          |
+| EGE.00279                                                | MAN04F: Comptabilité financière                          | Missonier-Piera                                          | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00280                                                | MAN04D: Bilanzierung                                     | Kunz                                                     | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00285                                                | MAN09F: Comptabilité de gestion                          | Oyon                                                     | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00286                                                | MAN09D: Controlling (d)                                  | Burkert                                                  | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00273                                                | MAN01F: Investissement et financement                    | Isakov                                                   | HS-2025                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EGE.00274                                                | MAN01D: Investitions- und Finanzierungstheorie           | Wallmeier                                                | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EGE.00275                                                | MAN02F: Marketing (f, 4.5 ECTS)                          | Furrer                                                   | HS-2025                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00276                                                | MAN02D: Marketing (d, 4.5 ECTS)                          | Bambauer-Sachse                                          | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EIG.00015                                                | Operations Management (d)                                | Trautmann                                                | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EGE.00281                                                | MAN05F: Gestion des ressources humaines                  | Davoine                                                  | HS-2025                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00282                                                | MAN05D: Human Resource Management                        | Gmür                                                     | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00263                                                | MAN06E: Introductory course in Entrepreneurship          | Fauchart                                                 | HS-2025                                                  | BA                                                       | en                                                       | Fortlaufende Evaluation                                  | 4.5                                                      |
+| EGE.00253                                                | Organisation (f)                                         | Fauchart                                                 | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EGE.00258                                                | Organisation (d)                                         | Gmür                                                     | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 6                                                        |
+| EGE.00283                                                | MAN08F: Management stratégique                           | Mena                                                     | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00485                                                | MAN08E: Strategic Management                             | Mena                                                     | FS-2026                                                  | BA                                                       | en                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00277                                                | MAN03F: Recherche Marketing                              | Furrer                                                   | FS-2026                                                  | BA                                                       | fr                                                       | Fortlaufende Evaluation und                              | 6                                                        |
+| EGE.00278                                                | MAN03D: Marketingforschung                               | Bambauer-Sachse                                          | FS-2026                                                  | BA                                                       | de                                                       | Fortlaufende Evaluation und schriftliche Prüfung         | 6                                                        |
+| EGE.00287                                                | MAN10F: Finance d'Entreprise                             | Isakov                                                   | FS-2026                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00288                                                | MAN10D: Unternehmensfinanzierung                         | Affolter, Wilding                                        | FS-2026                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EIG.00122                                                | Introduction à la statistique I                          | Donzé                                                    | HS-2025                                                  | BA                                                       | fr                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EIG.00123                                                | Einführung in die Statistik I                            | Leuenberger                                              | HS-2025                                                  | BA                                                       | de                                                       | Schriftliche Prüfung                                     | 4.5                                                      |
+| EGE.00277                                                | MAN03F: Recherche Marketing                              | Furrer                                                   | FS-2026                                                  | BA                                                       | fr                                                       | Fortlaufende Evaluation und                              | 6                                                        |
+
+schriftliche Prüfung
+
+<!-- image -->
+
+| Code      | Lehreinheit                                                    | Lehrer(innen)           | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|----------------------------------------------------------------|-------------------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00278 | MAN03D: Marketingforschung                                     | Bambauer-Sachse         | FS-2026    | BA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |      6 |
+| EKM.01237 | Vorlesung Methoden der empirischen Sozialforschung: Einführung | Helfer, Hänggli Fricker | HS-2025    | BA       | de        | Schriftliche Prüfung                             |      3 |
+
+## Rechtsgrundlage
+
+Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg

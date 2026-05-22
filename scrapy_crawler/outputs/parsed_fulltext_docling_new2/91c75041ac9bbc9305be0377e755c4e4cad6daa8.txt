@@ -1,0 +1,229 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:23:12.784Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Biology_Branche_compl_mentaire_en_biologie_30_91c75041ac9bbc9305be0377e755c4e4cad6daa8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "91c75041ac9bbc9305be0377e755c4e4cad6daa8",
+  "program_key": "faculty of science and medicine|bachelor|30|biology",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_BL_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Biology_Branche_compl_mentaire_en_biologie_30_91c75041ac9bbc9305be0377e755c4e4cad6daa8.pdf",
+  "sha256": "6442e27525249782808071641b807c2bd2ee684226ced8f08b468cca88f2942b",
+  "fetched_at": "2026-05-21T16:05:18.810Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_BL_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.6  Biologie E+30, pour étudiant·e·s avec formation propédeutique
+
+[Version 2023, paquet de validation : PV-SBL.0000093]
+
+## 2.6.1 Description et objectif
+
+Ce programme est choisi par des étudiant·e·s de la Faculté des sciences et de médecine ou d'autres Facultés ayant complété 60 crédits ECTS de la branche complémentaire Biologie E. Le programme BIOLOGIE E+30 (30 ECTS) comprend:
+
+Partie 1 :
+
+- UEs obligatoires enseignées en anglais, pour un total de 17 crédits ECTS. 8.5 ECTS doivent être  acquis  en  « Molecular  life  and  health  sciences »  et  8.5  ECTS  en  « Environmental Biology ».
+- Travail personnel (SBL.00502), 1 ECTS.
+
+Partie 2 :
+
+- UEs à choix pour un total de 12 crédits ECTS, enseignées en allemand ou en français.
+
+Veuillez vérifier au préalable les exigences de la formation pédagogique, car elle varient selon les écoles (par exemple BeJuNe). Il est ainsi possible de prendre plus de 17 crédits ECTS parmi les UE enseignées dans la partie 1. Le surplus sera déduit du quota à obtenir dans la partie 2. Il est  aussi  possible  d'acquérir  les  30  ECTS  de  la  branche  complémentaire  Biologie  E+30  en choisissant exclusivement des UEs dans la partie 1. Dans ce cas l'étudiant·e veillera à acquérir à l'avance les UEs conseillées dans la section 2.6.4. Alternativement ces UEs peuvent être acquis en enseignement complémentaire, ou dans le cadre des 6 ECTS supplémentaires mentionnés dans le paragraphe suivant.
+
+Le nombre total de crédits ECTS pour cette branche complémentaire peut se situer entre 30 et 36 crédits. Une fois le nombre de 36 atteint, les éventuels crédits ECTS supplémentaires sont mis hors plan d'études et ne comptent pas dans la moyenne pondérée (Art.24, al.6).
+
+Partie 1 : UE obligatoires enseignées en anglais :
+
+| Code                                                       | Unité d ' enseignement                                     | semestre h. tot. ECTS                                      | semestre h. tot. ECTS                                      | semestre h. tot. ECTS               |
+|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|-------------------------------------|
+| Molecular life and health sciences*                        | Molecular life and health sciences*                        | Molecular life and health sciences*                        | Molecular life and health sciences*                        | Molecular life and health sciences* |
+| SBL.00114                                                  | Experimental genetics                                      | AS°                                                        | 8                                                          | 1                                   |
+| SBL.00115                                                  | The RNA world                                              | AS                                                         | 12                                                         | 1.5                                 |
+| SBL.00117                                                  | Neurogenetics                                              | AS                                                         | 28                                                         | 3                                   |
+| SBL.00119                                                  | Molecular genetics of model organism development           | AS                                                         | 28                                                         | 3                                   |
+| SBL.00130                                                  | Nuclear organization and chromosome dynamics               | AS                                                         | 8                                                          | 1                                   |
+| SBL.00414                                                  | Cell fate and tissue regeneration                          | AS                                                         | 8                                                          | 1                                   |
+| SBL.00416                                                  | Biological rhythms                                         | SS                                                         | 8                                                          | 1                                   |
+| SBL.00415                                                  | Cell proliferation                                         | SS                                                         | 8                                                          | 1                                   |
+| SBL.00503                                                  | Introduction to microscopy                                 | AS                                                         | 8                                                          | 1                                   |
+| SBL.00421                                                  | Oceanography and marine ecosystems 1                       | SS                                                         | 8                                                          | 1                                   |
+| SBL.10006                                                  | Developmental biology of marine animal models 1            | AS                                                         | 8                                                          | 1                                   |
+| SBL.10007                                                  | Polar biology 1                                            | SS                                                         | 8                                                          | 1                                   |
+| SBL.10014                                                  | Cancer immunology                                          | SS                                                         | 8                                                          | 1                                   |
+| Minimum ECTS from MLHS                                     | Minimum ECTS from MLHS                                     |                                                            |                                                            | 8.5                                 |
+| Environmental Biology*                                     | Environmental Biology*                                     | Environmental Biology*                                     | Environmental Biology*                                     | Environmental Biology*              |
+| SBL.20031                                                  | Community ecology 1                                        | SS #                                                       | 28                                                         | 3                                   |
+| SBL.20032                                                  | Population ecology and evolutionary dynamics 1             | SS                                                         | 28                                                         | 3                                   |
+| SBL.20035                                                  | Structure and functions of host-associated microbiota 1    | SS                                                         | 28                                                         | 3                                   |
+| SBL.20041                                                  | Global change biology 1                                    | AS                                                         | 28                                                         | 3                                   |
+| SBL.20037                                                  | Invasion biology 1                                         | AS                                                         | 28                                                         | 3                                   |
+| SBL.00307                                                  | Symbiosis: how plants and microbes communicate 1           | SS                                                         | 12                                                         | 1.5                                 |
+| SBL.00308                                                  | Plant development: the life of a sessile organism 1        | SS                                                         | 12                                                         | 1.5                                 |
+| SBL.00323                                                  | Plant biotechnology 1                                      | SS                                                         | 24                                                         | 3                                   |
+| SBL.00418                                                  | Microbial metabolism and genetics                          | SS                                                         | 8                                                          | 1                                   |
+| Minimum ECTS from Env.                                     | Biology                                                    |                                                            |                                                            | 8.5                                 |
+| Total ECTS credits in obligatory courses taught in English | Total ECTS credits in obligatory courses taught in English | Total ECTS credits in obligatory courses taught in English | Total ECTS credits in obligatory courses taught in English | 17                                  |
+
+## UE obligatoire
+
+| Code      | Unité d'enseignement                  | semestre h. tot. ECTS   |
+|-----------|---------------------------------------|-------------------------|
+| SBL.00502 | General concepts for biology teachers | SS 30 1                 |
+
+## Partie 2 : Cours à choix enseignés en français ou en allemand* :
+
+| Code                 | Unité d'enseignement                                                         | semestre   |   h. tot. |   ECTS |
+|----------------------|------------------------------------------------------------------------------|------------|-----------|--------|
+|                      | Biochimie                                                                    |            |           |        |
+| SBC.00009            | Méthodes de biochimie                                                        | SS         |        14 |    1.5 |
+| SBC.00106            | Biologie cellulaire                                                          | SS         |        39 |      4 |
+| SBC.00119            | Fondements de biochimie                                                      | SS         |        52 |      6 |
+| SBC.00113            | Compléments de biologie moléculaire                                          | SS         |        35 |      3 |
+| SBC.00114            | Biochimie générale                                                           | AS         |        32 |    3.5 |
+| SBC.00115            | Génétique moléculaire humaine                                                | SS         |        13 |    1.5 |
+| SBC.00125            | Génétique de la levure, biologie cellulaire et moléculaire                   | SS         |        12 |    1.5 |
+| SBC.07003            | Introduction à la bioinformatique et à la génomique (cours avec exercices)   | AS         |        56 |    4.5 |
+| Biologie             |                                                                              |            |           |        |
+| SBL.00014            | Biologie moléculaire                                                         | AS         |        28 |      3 |
+| SBL.00015            | Physiologie animale                                                          | SS         |        28 |      3 |
+| SBL.00018            | Biologie moléculaire des plantes                                             | AS         |        28 |      3 |
+| SBL.00019            | Méthodes de biologie moléculaire                                             | AS         |        28 |      3 |
+| SBL.00020            | Neurobiologie                                                                | AS         |        20 |      2 |
+| SBL.00021            | Biologie de l'évolution                                                      | AS         |        28 |      3 |
+| SBL.00068            | Phytopathologie et interactions plantes- pathogènes                          | AS         |        28 |      3 |
+| SBL.00037            | Ecologie expérimentale                                                       | SS         |        45 |      3 |
+| SBL.00049            | Génétique des populations                                                    | AS         |        28 |      3 |
+| SBL.00057            | Biologie du développement                                                    | SS         |        16 |    1.5 |
+| SBL.00073            | Métabolisme spécialisé : importance en écologie chimique et en santé humaine | AS         |        14 |    1.5 |
+| SBL.00075            | Introduction aux biostatistiques                                             | AS         |        14 |    1.5 |
+| SBL.00061            | Diversité fonctionnelle des microorganismes                                  | AS         |        14 |    1.5 |
+| SBL.00063            | Bases de bactériologie                                                       | AS         |        14 |    1.5 |
+|                      | Sciences médicales et environnementales                                      |            |           |        |
+| SSE.00101            | Cours de base des sciences de l'environnement: écologie                      | AS         |        28 |      3 |
+| SSE.00104            | Cours de base des sciences de l'environnement: éthique de l'environnement    | SS         |        28 |      3 |
+| SFS.00001            | Philosophie et éthique des sciences                                          | AS         |        28 |      3 |
+| SFS.00002            | Science et société                                                           | SS         |        28 |      3 |
+| SPY.00110            | Physiologie et physiopathologie des grandes régulations, partie I (A)        | AS         |        28 |      3 |
+| SPY.00111            | Physiologie et physiopathologie des grandes régulations, partie II (A)       | SS         |        28 |      3 |
+| Chimie #             | Chimie #                                                                     |            |           |        |
+| SCH.01014            | Chimie générale (avec exercices)                                             | AS         |        84 |      6 |
+| SCH.01072            | Chimie organique de base                                                     | SS         |        42 |      3 |
+| Total des UE à choix | Total des UE à choix                                                         |            |           |     12 |
+
+(A)
+
+*
+
+Les UE désignées par les mêmes lettres doivent être prises ensemble
+
+Attention: la plupart des UE demandent des prérequis. Consulter le tableau
+
+2.6.4.
+
+Des UEs déjà acquises dans la BCo Biologie E 60 ne peuvent pas être choisies # Obligatoire si la matière correspondante n'a pas été enseignée durant les études de Bachelor.
+
+## 2.6.2 Contenu des unités d ' enseignement
+
+- Le  cours Méthodes  de  biochimie ( SBC.00009 )  présente  des  développements  récents couvrant diverses technologies utilisées dans l'investigation des protéines et macromolécules et en biologie cellulaire.
+
+- Le cours de Biologie cellulaire ( SBC.00106 ) porte sur l ' étude des mécanismes moléculaires utilisés pour maintenir la fonctionnalité et la structure de la cellule individuelle (trafic des protéines, autophagie, cytosquelette, hérédité mitochondriale), ainsi que de l ' organisme en entier (cellules souches, apoptose, jonctions cellulaire, matrice extracellulaire).
+- Le cours Compléments de biologie moléculaire ( SBC.00113 ) approfondit les concepts de la biologie moléculaire et est focalisé sur les mécanismes de la synthèse et réparation de l'ADN, la synthèse des ribosomes, et la régulation de la traduction. De plus, le cours présente une introduction  de  l'utilisation  d'un logiciel  et  de  diverses  bases  de  données  permettant d'analyser et manipuler des séquences d'ADN par exemple en vue d'un clonage.
+- Le cours de biochimie générale ( SBC.00114 ) approfondit les concepts du cours Fondements de biochimie (SBC.00119) et décrit la structure et la fonction des composants de la cellule (acides  aminés,  protéines,  sucres,  et  lipides)  avec  un  accent  sur  les  voies  métaboliques correspondantes.
+- Le cours Génétique moléculaire humaine ( SBC.00115 ) fournit d'une part des connaissances de  base  en  génétique  humaine  et  d'autre  part  un  aperçu  des  mécanismes  moléculaires impliqués  dans  des  pathologies  relevant  de  la  médecine.  De  plus,  ce  cours  inclut  des informations sur les méthodes de diagnostic et de thérapie de ces maladies.
+- Le cours Fondements de biochimie ( SBC.00119 ) offre une introduction à la biochimie; il décrit la composition, la structure et le métabolisme des principaux composés de la cellule et des organismes (acides aminés, acides nucléiques, glucides et lipides).
+- Le cours Génétique de la levure, biologie cellulaire et moléculaire ( SBC.00125 ) donne une introduction sur un modèle unicellulaire pour les études de génétique et biologie moléculaire. La  levure  est  couramment  utilisée  dans  le  développement de  nouvelles  méthodes  de génomique basées sur le criblage à haut débit. Dans ce cours, nous discuterons des bases de la génétique de levure ainsi que de la recherche actuelle dans ce domaine. L'objectif de ce cours est de donner à l'étudiant une vision générale sur la façon dont la combinaison entre méthodes de génétique et de biologie moléculaire permet d'examiner et de subdiviser les complexes réactions cellulaires qui ont lieu dans la levure
+- Le cours Introduction à la bioinformatique et à la génomique ( SBC.07003 ) présente les principes  généraux  de  la  bioinformatique  et  leur  application  en  génomique.  Ce  cours  permet d ' acquérir  une  connaissance  de  base  des  outils  et  des  bases  de  données  utilisés  pour analyser et pour comparer des séquences de protéines ou d ' acides nucléiques. Il présente les  nouvelles  technologies  de  séquençage  à  haut  débit  et  leur  utilisation  dans  l ' étude du génome de différents organismes et dans la recherche biomédicale actuelle. Cette UE ne peut pas être prise si SBC.07004 a été acquise antérieurement dans un autre parcours. Dans ce cas on choisira SBC.07005 (2.5 ECTS)
+- Le  cours Biologie  moléculaire ( SBL.00014 ) décrit  les mécanismes  moléculaires  liés  aux acides nucléiques et à la régulation génique chez les eucaryotes et les procaryotes. Ce cours se base sur les concepts acquis lors du cours d'introduction SBL.00001. Les thèmes traités sont entre autres la structure de la chromatine, la transcription, la régulation transcriptionnelle et posttranscriptionnelle, et les mécanismes liés à l'épigénétique.
+- Le cours Physiologie animale ( SBL.00015 ) porte sur les bases de la physiologie animale et des thèmes choisis de la physiologie comparée des animaux.
+- Le cours Biologie moléculaire des plantes ( SBL.00018 ) approfondit les aspects moléculaires et cellulaires de la biologie végétale.
+- Le cours Méthodes de Biologie moléculaire ( SBL.00019 ) est une introduction aux principes et aux méthodes de biologie moléculaire.
+- Le  cours Neurobiologie ( SBL.00020 )  porte  sur  la  neurobiologie  avancée  et  présente  des facettes  allant  des  molécules  aux  cellules  et  aux  fonctions  neuronales  y  compris  le comportement.
+- Le cours Biologie de l'évolution ( SBL.00021 ) parle des mécanismes de l'évolution et de la génétique de l'évolution ainsi que de thèmes choisis de la recherche moderne sur l'évolution.
+
+- Le cours Phytopathologie et interactions plantes-pathogènes ( SBL.00068 )  commence par une  introduction  à  la  phytopathologie  classique  et  une  présentation  des  différents  types d'agents  pathogènes  des  plantes,  de  leurs  cycles  de développement  et  de  leurs  modes d'infection.  La  deuxième  partie  du  cours  est  dédiée  aux  mécanismes  physiologiques, biochimiques  et  moléculaires  qui  sous-tendent  les  interactions  plantes-pathogènes.  Les thématiques  abordées  sont  notamment  les  stratégies  qui  permettent  aux  pathogènes d'infecter les plantes, les réactions de défense des plantes et l'activation de leur système immunitaire, et les différentes stratégies que chaque partenaire développe pour neutraliser les armes ou les défenses de l'autre. Il est vivement conseillé de suivre en parallèle, ou d'avoir suivi au préalable SBL.00074, SBL.00063 et SBL.00045
+- Durant les Travaux pratiques d'Écologie expérimentale ( SBL.00037 ), l'é tudiant·e apprend à planifier  et  conduire  des  expériences  y  compris  le  design  expérimental,  les  analyses statistiques  et  la  présentation  des  résultats. Il  est  fortement  recommandé  d'avoir  suivi SBL.00075 au préalable.
+- Le cours Génétique des populations ( SBL.00049 ) étudie les fluctuations des fréquences des différentes versions d ' un gène (allèles) de populations dans le temps et dans l ' espace, sous l ' influence de la sélection naturelle, de la dérive génétique, des mutations et des migrations.
+- Le cours Biologie du développement ( SBL.00057 ) introduit les principaux phénomènes qui conduisent à la formation d ' un organisme multicellulaire. Ce cours donne aussi un aperçu sur les stratégies et techniques utilisées dans ce domaine.
+- Le cours Diversité fonctionnelle  des  microorganismes ( SBL.00061 )  donne  une  vue d'ensemble  des  fonctions  principales  des  micro -organismes  dans  l'environnement.  Leurs rôles dans les cycles biogéochimiques, dans la biotechnologie et dans l'agronomie y sont notamment discutés. Ce cours s'intéresse également à la communicati on chimique et à son rôle dans l'établissement d'interactions mutualistes entre bactéries et eucaryotes.
+- Le  cours Bases  de  bactériologie ( SBL.00063 )  explique  les  bases  de  la  physiologie bactérienne. Il traite notamment de nutrition, de métabolisme, de croissance et de motilité, ainsi que du comportement multicellulaire des bactéries (formation de biofilms, régulation des gènes par quorum-sensing). Il donne également un aperçu de la diversité du monde bactérien et de son évolution depuis les débuts de la vie sur Terre.
+- Le cours Métabolisme spécialisé : importance en écologie chimique et en santé humaine ( SBL.00073 )  explore  le  métabolisme  du  vivant  et  plus  particulièrement  le  métabolisme spécialisé.  Nous  définirons  tout  d'abord  les  constituants  du  métabolisme  ainsi  que  leurs origines  et  leurs  fonctions.  Puis,  nous  aborderons  la  notion  de  spécialisation  au  sein  du métabolisme  à  la  fois  en  termes  de  fonctionnalités  biologiques  comme  en  termes d'occurrence  au  sein  du  vivant.  Nous  détaillerons  enfin  les  mécanismes  et  les  voies biosynthétiques permettant d'expliquer l'émergence de ce métabolisme spécialisé. Au cours de  ces  différentes  étapes  nous  observerons  le  métabolisme  sous  l'angle  de  l'écologie chimique et sous celui de la santé humaine
+- Le cours Introduction  aux  biostatistiques ( SBL.00075 )  traite  des  bases  de  biostatistiques. Nous  commençons  par  un  rappel  des  concepts  fondamentaux  tel  que  la  population, l'échantillon, l'erreur standard, l'intervalle de confiance, les erreurs de Type I et de Type II et la p-valeur. Ensuite, nous étudierons les outils statistiques les plus couramment utilisés en biologie tels que : test de Student, ANOVA (1 et 2 facteurs ; mesures répétées), corrélation, régression linéaire, détermination de la taille d'un échantillon.
+- The lecture course Experimental genetics ( SBL.00114 ) gives the theoretical background of the main techniques used in modern genetics. Students will learn how to localise genes using deletions,  polymorphisms,  recombination  frequencies  and  the  candidate  gene  approach. Furthermore, this course presents the design of forward genetic screens, reverse genetics, how to construct strains and the use of sequence databases and CRISPR technology for gene editing. This lecture is intended for students who are interested in pursuing their education on genetic  model  organisms  such  as S.  cerevisiae , Drosophila , C.  elegans , Zebrafish and Arabidopsis .
+
+- The RNA world ( SBL.00115 ): The flow of genetic information goes from DNA to RNA, and from  RNA to  proteins.  Then  how  could  the  first  proteins  be  made  if  they  are  needed  for transcription and translation? The hypothesis of the RNA world suggests that catalytic RNAs (ribozymes) may have preceded proteins. This lecture will briefly describe the origins of life and emphasize the importance of ribozymes, their mode of action and their roles in today ' s world.  Other  themes  include  the  discovery  and  mechanism  of  RNAi  interference,  the importance  of  small  and  long  non-coding  RNAs,  RNA-based  technologies  including  RNA vaccines, the evolution of RNA-based adaptive CRISPR immunity.
+- The  course Neurogenetics ( SBL.00117 )  consists  of  an  introduction  into  developmental genetics  of Drosophila followed  by  a  comprehensive  coverage  of  neurogenetics,  the  key discipline of developmental neurobiology. The neurogenetic part begins with an overview of modern genetic and neurobiological methods in Drosophila and then focuses on the major highlights of neurogenetic research in Drosophila , C. elegans and vertebrates. Topics include early neurogenesis, nervous system regionalization, tissue specification, axonal pathfinding, neuromuscular specificity, biological rhythms, learning and memory, mechano-sensation, and olfaction. The topics are covered by an up-to-date script. This lecture is also accessible to MSc students from Berne.
+- The  course Molecular  genetics  of  model  organism  development ( SBL.00119 ) is  an introduction into some of the most popular model systems used for the study of development. These include Xenopus , Mouse, C. elegans , Drosophila and Zebrafish. The value of different technical  approaches  will  be  discussed.  Further  emphasis  will  be  on  presenting  key experiments and the most recent findings for each system. Topics may vary from year to year but are likely to include transcriptional, translational, post-translational and epigenetic control of gene expression.
+- Nuclear organization and chromosome dynamics ( SBL.00130 ): DNA-associated processes, such transcription, replication, recombination, but also chromosome pairing during meiosis, occur in the context of the highly organized cell nucleus. Several structural elements of the nucleus such as the nuclear lamina or special nuclear compartments are known to regulate these processes. Changes in the nuclear organization are accompanying development and differentiation processes and defects in the nuclear architecture are known to be responsible for  several  human  diseases.  This  course  will  focus  on  the  elements that  are  shaping  the nuclear architecture and their role in the activity of the genome. Since meiotic nuclei are the home of a beautiful chromosome choreography and an intense nuclear reorganization, this course  will  also  include  an  overview  of  the  mechanisms  underlying  these  processes. Understanding the molecular mechanisms underlying nuclear organization and chromosome dynamics is essential for human health and fertility. Key concepts of the lecture are nuclear architecture, chromatin domains, nuclear compartment, chromosome territories and pairing, recombination and genome stability.
+- Lecture course Cell fate and tissue regeneration ( SBL.00414 ). Tissues rely on stem cells for homeostasis and repair. Recent research shows that the fate and lineage potential of stem cells  can  change  depending  on  whether  a  stem  cell  exists  within  its  resident  niche  and responds to normal tissue homeostasis, whether it is mobilized to repair a wound, or whether it is taken from its niche and  challenged  to de  novo tissue  morphogenesis  after transplantation. This course offers teaching in basics of stem cell biology, pluripotency and induced pluripotency. The particular focus will be given to the molecular control of mammalian stem cell fate decisions. It will be discussed how different populations of naturally lineagerestricted  stem  cells  and  committed  progenitors  can  display  remarkable  plasticity  and reversibility and reacquire long-term self-renewing capacities and multi-lineage differentiation potential during physiological and regenerative conditions. Finally, it will be also discussed what are the implications of cellular plasticity for regenerative medicine, as exemplified by cardiac and skeletal muscle differentiation.
+- The  course Cell  proliferation ( SBL.00415 )  covers  a  wide  range  of  issues  related  to  the regulation of cell proliferation in eukaryotic cells. These include fundamental aspects of cell cycle  control  and  their  coordination  with  environmental  cues  that  are  mediated  by  signal transduction  pathways.  Lectures  will  provide  detailed  information  on  both  the  recent conceptual and technical advances in the field of cell proliferation control.
+
+- The course Biological rhythms ( SBL.00416 ) focuses on the properties and functions of the circadian clock and other biological rhythms. The circadian clock is a cellular property defined by a set of clock genes that establish an auto-regulatory transcriptional/translational feedbackloop. These cellular clocks interact with each other via neuronal, hormonal and biochemical pathways to establish a coherent systemic hierarchy of physiological functions. This organizes body  functions  such  as  sleep  and  feeding  in  a  temporal  manner.  Prerequisite:  Basic understanding of biochemistry and physiology.
+- The  course Microbial  genetics  and  metabolism ( SBL.00418 )  treats  various  aspects  of microbial genetics with the focus on bacteria, fungi, and oomycetes. It deals with fundamental aspects of microbial genetics and applied aspects related to disease or beneficial mutualistic interactions. Furthermore, important examples of metabolic pathways will be discussed in the context of microbial life and interactions with the biotic and/or abiotic environment.
+- The teaching unit General concepts for biology teachers ( SBL.00502 ) consists in a personal work aimed at refreshing the knowledge in biology acquired at Bachelor and Master levels. The student reviews his or her course notes with the aim of being able to explain general concepts simply, concisely and clearly . The questions are of a general nature and cover the following teaching units: SBL.00001 ; SBL.00002 ; SBL.00040 ; SBL.00041 ; SBL.00074; SBL.00013; SBL.00021 ; SBL.00045 ; SBL.00063 ; SBL.00014 and SBL.00019. The exam can also be taken in German or in French.
+- Teaching  and  research  in  biology  are  unthinkable  without  a  microscope.  The  course ( SBL.00503 ) Introduction to microscopy teaches the theoretical basis of modern light and fluorescence  microscopy.  A  practical  part  includes  the  set-up  and  use  of  an  optical microscope.
+- Developmental biology of marine animal models (SBL.10006 ). Classical studies in developmental biology  were  often  making  use  of  the  abundancy  of  live  eggs  and  embryos  of  marine organisms.  Pioneering  studies  in  sea  urchins  and  sea  squirts  have  paved  the  way  to fundamental  biological  concepts.  The  advent  of  molecular  techniques  as  well  as  modern imaging techniques has further made such models a corner stone of modern approaches in developmental biology but also in marine biology. Moreover, the diversity of different animal species  and  phyla  allow  direct  comparison  of  mechanisms  underlying  developmental processes and pathways and thus are link to evolution in a field often referred to as Evo-Devo.
+- The course Polar Biology (SBL.10007 ) is focused on the biological specialties and particularities of animals and ecosystems at the poles. We will introduce similarities and differences between fauna of the arctic and Antarctica. Since the poles are severely affected by climate change, we will also, put phenomena currently occurring in the polar regions into a global context.
+- Block course SBL.00421 , Oceanography and marine ecosystems : Oceans are home of a vast diversity of animal life forms from all animal phyla. Variable abiotic physical and chemical conditions as well as geographic location strongly impact the marine biosphere. This module will provide a comprehensive introduction into oceanography, diversity of marine biotopes and ecological interactions.
+- Cancer  immunology ( SBL.10014 ).  This  course  covers  the  crosstalk  between  cancer  and immune  cells.  It  gives  a  basic  introduction  into  cancer  biology  and  the  regulation  of  the immune system. We discuss in detail how an immune response to cancer can be regulated and how tumors evade immune system recognition. Current cancer immunotherapies are being discussed and how autophagy, a cellular recycling process, can contribute to cancer therapy or therapy evasion, focusing on the role of immune cells.
+- Community ecology ( SBL.20031 ).  This course will start with a reminder of basic concepts (ecological niche, integrated community model) and the introduction of a more recent theory (Vellend's  theory  of  ecological  communities).  The  following  topics  will  then  be  discussed: communities in a changing environment; species interactions and coexistence; biodiversity ecosystem-functioning relationships; ecological networks; and metacommunities. This course is given biennially and alternates with Population and evolutionary dynamics.
+
+- Population and evolutionary dynamics ( SBL.20032 ). This course focuses on the ecological and  evolutionary  dynamics  of  populations.  In  the  1st  part  students  will  study  basic  and advanced concepts of population dynamics, including population growth and growth rates, age-structured  models  (Leslie  matrix;  Euler-Lotka  equation),  limiting  factors  and  densitydependence, and demographic principles of life-history evolution. In the 2nd part, students will  be  introduced  to  evolutionary  dynamics,  including  replicator  dynamics  in  population genetics, the principles of evolutionary game theory and adaptive dynamics. Students will learn, for example, the key concept of fitness landscapes and how they are defined from the underlying population dynamics. They will then study the evolution of fitness landscapes and, in  particular,  how  selection  acts  on  different  evolutionary  strategies.  The  students  are expected  to  have  a  basic  knowledge  (BSc  level)  of  ecology,  evolutionary  biology,  and population genetics. This course is given biennially and alternates with Community ecology.
+- Structure and functions of host-associated microbiota ( SBL.20035 ). This lecture introduces students to the concept of holobionts and metaorganisms. They will learn how microbiomes are  assembled  and  structured  in  different  host  organisms,  including  plants,  animals  and humans. They will discover the functions these microbiomes fulfil for their hosts and how we can leverage on these microbiome-encoded functions to address current challenges, e.g. in plant and human health.
+- Plant  biotechnology ( SBL.00323 ).  In  this  course  your  memory  of  the  basic  methods  and associated  problems  of  plant  transformation  will  be  refreshed.  This  is  followed  by  an introduction of new methods and technology related to genome engineering. Finally, we will have a look at selected examples of plant biotechnology in commercial applications as well as basic science.  This course is given biennially and alternates with Plant development: the life of a sessile organism and Symbiosis: how plants and microbes communicate.
+- Plant development: the life of a sessile organism ( SBL.00308 ). This course describes central issues  of  developmental  programmes  involved  in  embryogenesis,  root,  shoot,  and  flower development.  The  emphasis  will  be  on  hormonal  control  of  morphogenesis  and  pattern formation,  and  on  the  determinants  of  organ  identity.  This  course  is  given  biennially  and alternates with Plant biotechnology.
+- Symbiosis: how plants and microbes communicate ( SBL.00307 ). This course deals with the mutual recognition between the plant and the microbial partner, and with the coordination of their development. In general, the course consists of short introductory lectures followed by critical examination of the recent literature on the topic. The goal is to show how scientific knowledge is generated and interpreted. This course is given biennially and alternates with Plant biotechnology.
+- Global change  biology ( SBL.20041 ). How  is biodiversity affected by environmental challenges? Describing the evolutionary ecology of organisms from local to global scales, this course provides an overview of processes that shape the origin, expansion and extinction of species and communities in space and time. Through a series of lectures and personal work, it  compares  the  underpinnings  of  biodiversity  across varied  ecosystems such  as  droughtrelated deserts, Mediterranean regions and alpine ranges in order to organize main drivers of variation  in  a  coherent  framework.  Building  on  such  an  integrated  approach  of  biological responses  to  past  environmental  changes  is  key  to  understand  and  interpret  the  current distribution  of  biodiversity  and  to  appraise  and  manage  future  challenges  under  global changes.  This course is given biennially and alternates with Invasion biology.
+- Invasion  biology ( SBL.20037 ).  Biological  invasions  are  a  global  phenomenon  and  are considered as one of the major drivers of global change. Alien species can threaten native species and ecosystems, as well as human economy and well-being. This course covers the ecological, evolutionary and socio-economic implications of biological invasions. In particular, the  following  topics  are  covered:  the  invasion  process,  transport,  pathways,  introduction, establishment, persistence, evolution, spread, impacts, management. This course is given biennially and alternates with global change biology SBL.20041.
+- Le but du cours Philosophie et éthique des sciences ( SFS.00001 ) est de donner à celles et ceux qui le suivront une connaissance des idées philosophiques élaborées depuis l ' époque moderne jusqu ' à nos jours, et de faire découvrir l ' intérêt de ce dialogue entre philosophes et scientifiques  pour  le  développement  d ' une  réflexion  personnelle  sur  les  sciences  et  la connaissance actuelles.
+
+- Le cours Science et Société ( SFS.00002 )  aimerait  avant  tout  offrir  à  celles  et  ceux  qui  le suivent l'occasion de découvrir des éléments importants de l'histoire des idées de la pensée occiden tale en vue d'une meilleure compréhension des contenus et des enjeux des débats contemporains  touchant  à  la  connaissance  scientifique,  tout  particulièrement  dans  ses aspects pratiques et dans ses influences sur la société.
+- Les cours Physiologie et physiopathologie des grandes régulations, parties I et II ( SPY.00110 et SPY.00111 ),  donnés sur deux semestres, traitent des grands systèmes fonctionnels du corps humain (généralités, systèmes nerveux, cardiovasculaire, rénal, respiratoire, digestif et endocrinien) sous l ' angle des mécanismes de régulation physiologique, avec une introduction à des situations physiopathologiques.
+- Le Cours  de  base  des  sciences  de  l ' environnement :  Écologie ( SSE.00101 )  traite  des conditions de l'environnement et de leur changement suite aux processus et interactions dans la géosphère, l'hydrosphère, l'atmosphère et la biosphère. Le cours introduit des concepts qu'il illustre à l'aide de nombreux exemples et discute des possibilités de régulation.
+- Dans le cadre du Cours de base des sciences de l'environnement : Éthique de l'environne -ment ( SSE.00104 ), les questions suivantes seront examinées du point de vue philosophique et théologique. Le pillage écologique, est-il immoral? Devrions-nous mettre des entraves à notre comportement face à la nature non humaine ? Quelles bonnes raisons y a-t-il pour une attitude  qui  prend  soin  de  la  nature  ?  On  discutera  des  textes  classiques  de  l'éthique  de l'environnement, mais aussi des concepts de base de l'éthique en théologie et en philosophie.
+
+## 2.6.3 Évaluation et validation des unités d ' enseignement
+
+Selon l'article 25, al.1 du Règlement pour l'obtention des BSc et MSc, il n'est pas possible de transférer ou éliminer une UE, une fois qu'elle a été évaluée.
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter les annexes de la biologie, de la biochimie, de la géographie-géoscience, de la sciences médicales, morphologie et physiologie, des sciences de la Terre et de la Faculté des sciences et de médecine (https://www.unifr.ch/scimed/en/plans/eval).
+
+## 2.6.4 Prérequis pour la fréquentation des unités d ' enseignement de la BCo+30
+
+Les UE sur la gauche requièrent que les UE indiqués sur la droite aient été suivies ou soient suivies  lors  du  semestre  en  cours.  D ' une manière  générale,  cette  directive  concerne  les  UE propédeutiques  SBL.00001;  SBL.00002;  SBL.00003  et  SBL.00004  ainsi  que  SBL.00040; SBL.00041 ; SBL.00074 et SBL.00013.
+
+Depuis le SA2023, ces prérequis ne sont plus obligatoires, mais il est fortement conseillé d'en avoir acquis la matière afin d'être en mesure de suivre avec succès les UEs plus avancées.
+
+| UE          | Prérequis                         |
+|-------------|-----------------------------------|
+| SBL.00018 : | SBL.00014                         |
+| SBL.00019 : | SBL.00014                         |
+| SBL.00037 : | SBL.00075                         |
+| SBL.00061 : | SBL.00063                         |
+| SBL.00114 : | SBL.00014 ; SBL.00019             |
+| SBL.00115 : | SBL.00014 ; SBL.00019             |
+| SBL.00117 : | SBL.00014 ; SBL.00020             |
+| SBL.00119 : | SBL.00014 ; SBL.00057             |
+| SBL.00130 : | SBL.00014 ; SBL.00019             |
+| SBL.00307 : | SBL.00045                         |
+| SBL.00308 : | SBL.00045                         |
+| SBL.00323 : | SBL.00045; SBL.00014; SBL.00018   |
+| SBL.00414 : | SBL.00014                         |
+| SBL.00415 : | SBL.00014                         |
+| SBL.00416 : | SBL.00014                         |
+| SBL.00418 : | SBL.00063                         |
+| SBL.10006 : | SBL.00057                         |
+| SBL.10010 : | SBC.00119 ; SBC.00114             |
+| SBL.20032 : | SBL.00049 ; SBL.00021             |
+| SBL.20035 : | SBL.00063 ; SBL.00061 ; SBL.00068 |
+| SBC.00113 : | SBL.00014                         |
+| SBC.00115 : | SBL.00014                         |
+| SBC.00125 : | SBL.00014, SBC.00106              |

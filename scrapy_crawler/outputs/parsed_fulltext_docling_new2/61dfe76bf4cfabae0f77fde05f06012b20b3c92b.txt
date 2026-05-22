@@ -1,0 +1,27 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:11:03.335Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016.2__61dfe76bf4cfabae0f77fde05f06012b20b3c92b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "61dfe76bf4cfabae0f77fde05f06012b20b3c92b",
+  "program_key": "faculty of humanities|bachelor|120|history of modern times",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/2023_Geschichte%2030_2016%20LDS%20I%20DE.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016.2__61dfe76bf4cfabae0f77fde05f06012b20b3c92b.pdf",
+  "sha256": "a7ecfe4691f1b4cdc94f9da33742e380e504a65f66c76b35a8d079b31b1f5b6e",
+  "fetched_at": "2026-05-21T16:05:23.378Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/2023_Geschichte%2030_2016%20LDS%20I%20DE.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENAUFBAU: GESCHICHTE 30  LDS I (STUDIENPLAN 2016)
+
+## Modulnummer ab FS 2023
+
+<!-- image -->
+
+Dieser Studiengang wird ausschliesslich in deutscher Sprache angeboten.

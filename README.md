@@ -214,3 +214,11 @@ python DB_service\src\import\match_faculty_docs_to_programs.py ^
   --unmatched-docs-out scrapy_crawler\scrapy_crawler\spider_outputs\unmatched_faculty_documents.json
 
 npx tsx DB_service/src/import/01_download_faculty_docs_v3.ts ^  --matched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/programmes_with_faculty_documents_patched.json ^  --unmatched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/unmatched_faculty_documents_remaining.json ^  --out ./scrapy_crawler/outputs/faculty_docs_v3 ^  --concurrency 6
+
+npx tsx DB_service/src/import/parse_docs_full_docling_new.ts ^  --root ./scrapy_crawler/outputs/faculty_docs_v3 ^  --manifest ./scrapy_crawler/outputs/faculty_docs_v3/_faculty_docs_manifest.json ^  --parsed-dir ./scrapy_crawler/outputs/parsed_fulltext_docling_new2 ^  --docling-helper ./DB_service/src/import/parse_with_docling_robust.py ^  --python python
+
+
+requirement: 
+python -m pip install langchain-core langchain-community langchain-ollama faiss-cpu
+set RAG_PARSER=docling_table_semantic
+python -m chatbot.app.faiss_builders.build_faiss_docling_table_semantic --target studyplans --force

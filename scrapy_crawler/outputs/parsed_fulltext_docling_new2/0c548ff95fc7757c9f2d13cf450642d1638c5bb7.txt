@@ -1,0 +1,66 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:11:48.234Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_120_BA_SI_50_-_SA_2025_0c548ff95fc7757c9f2d13cf450642d1638c5bb7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0c548ff95fc7757c9f2d13cf450642d1638c5bb7",
+  "program_key": "faculty of humanities|bachelor|120|italian",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA120_BA_SI50.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_120_BA_SI_50_-_SA_2025_0c548ff95fc7757c9f2d13cf450642d1638c5bb7.pdf",
+  "sha256": "5895d49656b6c9a6a9520ec8f582e5a304c8f44b43b3e4b8fcbe870258dab55b",
+  "fetched_at": "2026-05-21T16:05:26.571Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA120_BA_SI50.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Dipartimento di Italiano Università di Friburgo
+
+<!-- image -->
+
+## Dipartimento di Italiano
+
+- Due siti principali: Miséricorde e Beauregard 11
+- Aule, Uffici
+- BLL, BCU
+
+## Gli studi a livello Bachelor
+
+- Prima materia: 120 crediti
+- Seconda materia: 60 crediti
+- Materia complementare (altre Facoltà): 30 crediti
+- BA\_SI: 50 crediti
+
+www.unifr.ch/ital
+
+## Corsi e seminari
+
+- Un corso è …
+- 3 crediti: lezione + esame (orale o scritto)
+- Un (pro)seminario è …
+- 6 crediti: lavoro sui testi; partecipazione e presentazione in classe ed elaborato scritto
+- I proseminari sono seminari introduttivi propedeutici, da frequentare all'inizio del percorso di studi
+
+<!-- image -->
+
+## Durata degli studi
+
+BA: tre anni (6 semestri) MA: due anni (4 semestri) Dottorato: tre-cinque anni
+
+Mobilità: possibilità di compiere un semestre o un anno di studi in un'altra Università all'estero
+
+Mobilità svizzera: possibilità di frequentare corsi e seminari in altre Università vicine
+
+## PERSONALE DEL DIPARTIMENTO
+
+- 2 Professori di letteratura italiana (U. Motta, P. Borsa)
+- 1 Professore di filologia italiana (C. Genetelli)
+- 1 Maître-assistante (S. Clerc)
+- 1 Assistente-dottore di Filologia (S. Canzona)
+- 1 Assistente-dottore di Letteratura (C. Tarallo)
+- 1 Assistente diplomata (L. Quartiroli)
+- 1 collaboratrice amministrativa (F. Mauron)

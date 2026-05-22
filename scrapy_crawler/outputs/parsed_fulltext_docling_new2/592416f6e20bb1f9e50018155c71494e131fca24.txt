@@ -1,0 +1,212 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:02:16.270Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Earth_Sciences_Branches_compl_mentaires_en_sciences_de_la_Terre_592416f6e20bb1f9e50018155c71494e131fca24",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "592416f6e20bb1f9e50018155c71494e131fca24",
+  "program_key": "faculty of science and medicine|bachelor|150|earth sciences",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ST_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Earth_Sciences_Branches_compl_mentaires_en_sciences_de_la_Terre_592416f6e20bb1f9e50018155c71494e131fca24.pdf",
+  "sha256": "920961a6d71f97f34df37159372a00fb344d0c1549bb723f35ab4705defd4cc3",
+  "fetched_at": "2026-05-21T16:05:18.232Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ST_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.5 Sciences de la Terre
+
+Les sciences de la Terre offrent deux branches complémentaires, une à 30 et une à 60 crédits ECTS.
+
+## 3.5.1 Unités d ' enseignement
+
+## 3.5.1.1 Unités d'enseignement de la branche complémentaire à 30 ECTS
+
+[Version 2023, paquet de validation : PV-SST.0000061]
+
+La branche complémentaire de 30 crédits ECTS en sciences de la Terre comporte deux parties. Les  UE  de  la  première  partie  (13  crédits  ECTS)  sont  obligatoires  et  doivent  être  suivies impérativement avant de suivre les UE de la seconde partie, c'est -à-dire en principe au cours de la  première  année.  La  seconde  partie  comprend  des  UE  recommandées  et  des  UE  à  choix. L'étudiant -e doit choisir au moins 2 UE parmi les UE recommandées. Pour le reste, elle/il fait son choix dans la liste ci-dessous.
+
+Le choix des UE doit tenir compte des prérequis (http://www.unifr.ch/timetable):
+
+- Il est nécessaire de suivre (ou avoir suivi) le cours pour participer aux travaux pratiques correspondants.
+- Il est nécessaire d' avoir suivi la première partie d 'un cours avant de suivre la deuxième partie.
+- La participation à certaines excursions et cours-blocs est également liée à la fréquentation préalable des cours correspondants.
+
+Si des UE obligatoires ont déjà été suivies dans le cadre d'un autre programme d'études, ce qui est les cas en particulier dans le programme de Bachelor de géographie, elles doivent être remplacées par des UE à choix.
+
+## Première partie : UE obligatoires à suivre impérativement au cours de la première année (semestres 1 et 2).
+
+## Semestre 1 (automne)
+
+| Code      | Unité d'enseignement                                   | Semestr e   | h. tot.   |   ECTS |
+|-----------|--------------------------------------------------------|-------------|-----------|--------|
+| SGS.01003 | Introduction aux géosciences 3 - Géologie générale     | SA          | 28        |      3 |
+| SGS.01004 | Introduction aux géosciences 4 - Roches et Minéraux    | SA          | 28        |      3 |
+| SGS.01006 | Introduction aux géosciences 3 + 4 - Travaux pratiques | SA          | 28        |      2 |
+| SST.01831 | Excursion de géologie IB                               | SA          | 1 jour    |    0.5 |
+
+## Semestre 2 (printemps)
+
+| Code      | Unité d'enseignement                  | Semestre h. tot. ECTS   |   Semestre h. tot. ECTS |   Semestre h. tot. ECTS |
+|-----------|---------------------------------------|-------------------------|-------------------------|-------------------------|
+| SGS.00106 | Histoire de la Terre (cours)          | SP                      |                      28 |                       3 |
+| SGS.01301 | Géologie et Société : défis appliqués | SP                      |                      14 |                     1.5 |
+
+## Deuxième partie : UE à suivre au cours de la deuxième année (semestres 3 et 4).
+
+## UE recommandées (au moins deux de celles-ci doivent être suivies)
+
+| Code       | Unité d'enseignement                                                          | Semestre   | h. tot.   | ECTS   |
+|------------|-------------------------------------------------------------------------------|------------|-----------|--------|
+| SST.00203  | Paléontologie (cours)                                                         | SA         | 28        | 3      |
+| SST.00205  | Sédimentologie (cours)                                                        | SA         | 28        | 3      |
+| SST.00206  | Tectonique (cours)                                                            | SA         | 28        | 3      |
+| SST.02208  | Pétrologie magmatique                                                         | SA         | 28        | 2.5    |
+| SST.00201  | Géologie régionale (cours)                                                    | SP         | 28        | 3      |
+| UE à choix |                                                                               |            |           |        |
+| Code       | Unité d'enseignement                                                          | Semestre   | h. tot.   | ECTS   |
+| SST.00218  | Paléontologie (travaux pratiques) *                                           | SA         | 28        | 2      |
+| SST.00224  | Cartes et profils I (travaux pratiques)                                       | SA         | 28        | 2      |
+| SST.02207  | Minéralogie-Cristallographie I                                                | SA         | 28        | 2.5    |
+| SST.00303  | Micropaléontologie générale (cours)                                           | SA         | 28        | 3      |
+| SST.00304  | Micropaléontologie générale (travaux pratiques) *                             | SA         | 28        | 2      |
+| SST.03305  | Géologie appliquée I : Terrains instables                                     | SA         | 28        | 3      |
+| SST.03308  | Hydrogéologie 2                                                               | SA         | 28        | 3      |
+| SST.01832  | Excursion de géologie IC                                                      | SA         | 1 jour    | 0.5    |
+| SGS.01001  | Introduction aux géosciences 1 - Espace et Société                            | SA         | 28        | 3      |
+| SGS.01002  | Introduction aux géosciences 2 - Atmosphère,                                  | SA         | 28        | 3      |
+| SGS.01005  | Hydrosphère et Climat Introduction aux géosciences 1 + 2 - travaux pratiques* | SA         | 28        | 2      |
+| SST.02213  | Microscopie optique I : Minéraux                                              | SP         | 14        | 1      |
+| SST.02214  | Microscopie optique II : Roches magmatiques *                                 | SP         | 14        | 1      |
+| SST.02210  | Sédimentologie (cours et travaux pratiques) *                                 | SP         | 28        | 2.5    |
+| SST.02212  | Minéralogie-Cristallographie II *                                             | SP         | 28        | 2.5    |
+| SST.03307  | Géologie appliquée II : Géologie de l'ingénieur                               | SP         | 28        | 3      |
+| SGS.00105  | Epistémologie des géosciences                                                 | SP         | 28        | 3      |
+| SGS.00156  | Cartographie et introduction aux SIG (cours)                                  | SP         | 28        | 3      |
+| SGS.00157  | Cartographie et introduction aux SIG (travaux pratiques) *                    | SP         | 28        | 3      |
+| SGS.01101  | Géostatistiques                                                               | SP         | 28        | 3      |
+| SST.01816  | Stage de terrain I *                                                          | SP         | 3 jours   | 1.5    |
+| SST.01833  | Excursion de géologie ID                                                      | SP         | 1 jour    | 0.5    |
+| SST.02801  | Excursion de géologie IIA *                                                   | SP         | 5 jours   | 2.5    |
+| SST.02802  | Excursion de géologie IIB *                                                   | SP         | 3 jours   | 1.5    |
+| SST.02803  | Stage de terrain II *                                                         | SP         | 5 jours   | 2.5    |
+| SST.03801  | Excursions de géologie IIIA *                                                 | SP         | 5 jours   | 2.5    |
+| SST.03805  | Excursions de géologie IIID *                                                 | SP         | 1 jour    | 0.5    |
+| SST.03807  | Excursions de géologie IIIE *                                                 | SP         | 1 jour    | 0.5    |
+
+## 3.5.1.2 Unités d'enseignement de la branche complémentaire à 60 ECTS
+
+[Version 2023, paquet de validation : PV-SST.0000062]
+
+La branche complémentaire de 60 crédits ECTS en sciences de la Terre comporte deux parties. Les UE de la première partie (32.5 ECTS) sont obligatoires et doivent être suivies impérativement avant de suivre les UE de la seconde partie, c'est -à-dire en principe au cours de la première année.  La  seconde  partie  comprend  des  UE  obligatoires  (14.5  ECTS)  et  des  UE  à  choix. L'étudiant -e fait son choix dans la liste ci-dessous.
+
+Le choix des UE doit tenir compte des prérequis (http://www.unifr.ch/timetable):
+
+- Il est nécessaire de suivre (ou avoir suivi) le cours pour participer aux travaux pratiques correspondant.
+- Il est nécessaire d'avoir suivi la première partie d'un cours avant de suivre la deuxième partie.
+- La participation à certaines excursions et cours-blocs est également liée à la fréquentation préalable des cours correspondants.
+
+Si des UE obligatoires ont déjà été suivies dans le cadre d'un autre programme d'études, ce qui est les cas en particulier dans le programme de Bachelor de géographie, elles doivent être remplacées par des UE à choix.
+
+## Première partie : UE obligatoires à suivre impérativement au cours de la première année (semestres 1 et 2).
+
+## Semestre 1 (automne)
+
+| Code      | Unité d'enseignement                                               | Semestre   | h.tot.   |   ECTS |
+|-----------|--------------------------------------------------------------------|------------|----------|--------|
+| SGS.01001 | Introduction aux géosciences 1 - Espace et Société                 | SA         | 28       |      3 |
+| SGS.01002 | Introduction aux géosciences 2 - Atmosphère, Hydrosphère et Climat | SA         | 28       |      3 |
+| SGS.01003 | Introduction aux géosciences 3 - Géologie générale                 | SA         | 28       |      3 |
+| SGS.01004 | Introduction aux géosciences 4 - Roches et Minéraux                | SA         | 28       |      3 |
+| SGS.01005 | Introduction aux géosciences 1 + 2 - Travaux pratiques *           | SA         | 28       |      2 |
+| SGS.01006 | Introduction aux géosciences 3 + 4 - Travaux pratiques *           | SA         | 28       |      2 |
+| SST.01815 | Excursions de géologie I 1                                         | SA/SP 3    | 3 jours  |    1.5 |
+
+## Semestre 2 (printemps)
+
+| Code      | Unité d'enseignement                                       | Semestre   | h.tot.   | ECTS   |
+|-----------|------------------------------------------------------------|------------|----------|--------|
+| SGS.00105 | Epistémologie des géosciences                              | SP         | 28       | 3      |
+| SGS.00106 | Histoire de la Terre (cours)                               | SP         | 28       | 3      |
+| SGS.00156 | Cartographie et introduction aux SIG (cours)               | SP         | 28       | 3      |
+| SGS.00157 | Cartographie et introduction aux SIG (travaux pratiques) * | SP         | 28       | 3      |
+| SGS.01301 | Géologie et Société : défis appliqués                      | SP         | 14       | 1,5    |
+| SST.01816 | Stage de terrain I 1                                       | SP         | 3 jours  | 1.5    |
+
+## Deuxième partie : UE à suivre au cours de la deuxième année (semestres 3 et 4).
+
+## UE obligatoires
+
+| Code                      | Unité d'enseignement                              | Semestre   | h.tot.     | ECTS       |
+|---------------------------|---------------------------------------------------|------------|------------|------------|
+| SST.00203                 | Paléontologie (cours)                             | SA         | 28         | 3          |
+| SST.00205                 | Sédimentologie (cours)                            | SA         | 28         | 3          |
+| SST.00206                 | Tectonique (cours)                                | SA         | 28         | 3          |
+| SST.02208                 | Pétrologie des magmatites                         | SA         | 28         | 2.5        |
+| SST.00201                 | Géologie régionale (cours)                        | SP         | 28         | 3          |
+| UE à choix                | UE à choix                                        | UE à choix | UE à choix | UE à choix |
+| Code Unité d'enseignement | Code Unité d'enseignement                         | Semestre   | h.tot.     | ECTS       |
+| SST.00218                 | Paléontologie (travaux pratiques) *               | SA         | 28         | 2          |
+| SST.00224                 | Cartes et profils I (travaux pratiques)           | SA         | 28         | 2          |
+| SST.02207                 | Minéralogie-Cristallographie I                    | SA         | 28         | 2.5        |
+| SST.02213                 | Microscopie optique I : minéraux                  | SP         | 14         | 1          |
+| SST.02214                 | Microscopie optique II : magmatites *             | SP         | 14         | 1          |
+| SST.03302                 | Microscopie optique III : roches sédimentaires *  | SA         | 14         | 1          |
+| SST.00303                 | Micropaléontologie générale (cours)               | SA         | 28         | 3          |
+| SST.00304                 | Micropaléontologie générale (travaux pratiques) * | SA         | 28         | 2          |
+| SST.03305                 | Géologie appliquée I : Terrains instables         | SA         | 28         | 3          |
+| SST.03312                 | Pétrologie des métamorphites                      | SA         | 28         | 2.5        |
+| SST.03313                 | Microscopie optique IV : métamorphites            | SA         | 14         | 1          |
+| ----                      | Géochimie I 2                                     | SA         | 28         | 2.5        |
+| SST.02210                 | Sédimentologie (cours et travaux pratiques) *     | SP         | 28         | 2.5        |
+| SST.02211                 | Tectonique (cours et travaux pratiques) *         | SP         | 28         | 2.5        |
+| SST.02212                 | Minéralogie-Cristallographie II *                 | SP         | 28         | 2.5        |
+| SST.00225                 | Cartes et profils II (travaux pratiques) *        | SP         | 28         | 2          |
+| SST.03307                 | Géologie appliquée II : Géologie de l'ingénieur   | SP         | 28         | 3          |
+| SST.00311                 | Méthodes de sédimentologie (cours-bloc)           | SP         | 5 jours    | 2.5        |
+| ----                      | Géochimie II * 2                                  | SP         | 28         | 2.5        |
+| SST.03308                 | Hydrogéologie 3                                   | SP         | 28         | 3          |
+| SGG.02351                 | Géophysique (cours)                               | SP         | 28         | 3          |
+| SGG.02352                 | Géophysique (travaux pratiques) *                 | SP         | 28         | 2          |
+| SGS.01101                 | Géostatistiques                                   | SP         | 28         | 3          |
+| SST.02801                 | Excursion de géologie IIA *                       | SP         | 5 jours    | 2.5        |
+| SST.02802                 | Excursion de géologie IIB *                       | SP         | 3 jours    | 1.5        |
+| SST.02803                 | Stage de terrain II *                             | SP         | 5 jours    | 2.5        |
+| SST.03801                 | Excursions de géologie IIIA *                     | SP         | 5 jours    | 2.5        |
+| SST.03802                 | Excursions de géologie IIIB *                     | SP         | 5 jours    | 2.5        |
+| SST.03803                 | Excursions de géologie IIIC *                     | SP         | 2 jours    | 1          |
+| SST.03805                 | Excursions de géologie IIID *                     | SP         | 1 jour     | 0.5        |
+| SST.03807                 | Excursions de géologie IIIE *                     | SP         | 1 jour     | 0.5        |
+| SST.03808                 | Stage de terrain III *                            | SP         | 5 jours    | 2.5        |
+
+## 3.5.2 Contenu des unités d'enseignement des branches complémentaires
+
+## Les enseignements SGS : géosciences
+
+- Les cours de base d'introduction aux géosciences ( SGS.01001, SGS.01002, SGS.01003 et SGS.01004 ) et les travaux pratiques associés ( SGS.01005 et SGS.01006 ) sont destinés à donner un aperçu général du domaine en présentant quatre approches complémentaires pour comprendre le système Terre et les interactions entre l'humanité et le milieu naturel. L'accent est mis sur les interactions entre les différentes disciplines des géosciences. Ces connaissances  de  base  doivent  être  acquises  avant  d'aborder  des  enseignements  plus spécifiques.
+- Le cours Histoire de la Terre ( SGS.00106 ) retrace l' évolution de notre planète à travers le temps géologique.
+- Le cours Géologie et Société : défis appliqués ( SGS.01301 ) présente des exemples d'enjeux ou de réalisations concrètes dans le domaine de la géologie.
+- Les autres cours SGS présentent des outils de base (méthodes de cartographie, géostatistiques) ainsi que l'histoire d es connaissances dans le domaine.
+
+Les descriptifs détaillés des cours SGS sont présentés dans le Plan d'étude pour l'obtention du Bachelor of Science en géographie et dans le programme des cours (http://www.unifr.ch/timetable).
+
+## Les enseignements SST : sciences de la Terre / géologie
+
+Les principales disciplines sont présentées dans des cours de base :
+
+- Le cours Paléontologie ( SST.00203 ) présente la systématique des fossiles et leur signification environnementale, ainsi que l'évolution de la vie.
+- La Sédimentologie ( SST.00205 ) s'occupe des processus d'érosion, de transport et de dépôt de sédiments aujourd'hui et dans le passé.
+- Le cours Tectonique ( SST.00206 ) décrit la déformation de la croûte terrestre et les méthodes d'analyse structurale.
+- Le  cours Pétrologie  des  magmatites ( SST.02208 ), étudie les  roches  volcaniques  et plutoniques qui résultent de la solidification d'un magma.
+
+Dans  chacune  de  ces  disciplines  principales,  des  enseignements  complémentaires  sont proposés en plus du cours de base : cours spécialisés, travaux pratiques, excursions et stages de terrain. Ces enseignements permettent d'approfondir les notions théoriques présentées dans le  cours  correspondant  par  le  biais  d'autres  méthodes  d'apprentissage  ou  d'élargir  les connaissances en abordant des sujets plus spécialisés.
+
+L' approche sur le terrain est une dimension importante des sciences de la Terre car elle permet d'appréhender les phénomènes et les processus géologiques à l'échelle du paysage ou de la région. Le programme des branches secondaires n'impose qu'un minimum de participation aux excursions (BCo30 : SST.01831 et BCo60 : SST.01815 et SST.01816). L'étudiant -e qui souhaite participer à d'autres enseignements sur le terrain doit établir son programme de manière à remplir les conditions requises.
+
+Les descriptifs détaillés des cours SST sont présentés dans le Plan d'étude pour l'obtention du Bachelor of Science en sciences de la Terre et dans le programme des cours (http://www.unifr.ch/timetable).

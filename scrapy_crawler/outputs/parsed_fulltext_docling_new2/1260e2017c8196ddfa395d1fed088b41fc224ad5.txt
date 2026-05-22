@@ -1,0 +1,176 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:19:17.714Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Physics_Branches_compl_mentaires_en_physique_1260e2017c8196ddfa395d1fed088b41fc224ad5",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1260e2017c8196ddfa395d1fed088b41fc224ad5",
+  "program_key": "faculty of science and medicine|bachelor|150|physics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_PH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Physics_Branches_compl_mentaires_en_physique_1260e2017c8196ddfa395d1fed088b41fc224ad5.pdf",
+  "sha256": "d6a77f8a2b42acfa85cca8113d9a61cccedbd04bd932e8d5ede369d1a5de70f3",
+  "fetched_at": "2026-05-21T16:05:17.129Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_PH_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.3  Physique
+
+Le département de Physique propose 4 choix de branches complémentaires. Deux à 30 crédits ECTS (PHYS1, PHYS2) et deux à 60 crédits ECTS (PHYS3, PHYS4). Le choix d ' une branche complémentaire  implique  certaines  connaissances  qui  ne  sont  pas  apportées  par  les  unités d ' enseignement obligatoires. Il est donc important de bien se renseigner sur les prérequis.
+
+Les unités d ' enseignement des branches complémentaires sont distribuées dans un ordre approprié à la branche principale physique. Toutefois, en respectant l ' ordre chronologique, l ' étudiant-e a la possibilité de les répartir différemment dans le temps suivant ses disponibilités.
+
+## 3.3.1 Unités d ' enseignement
+
+## 3.3.1.1 Unités d ' enseignement de la branche complémentaire PHYS1 à 30 ECTS
+
+[Version 2023, paquet de validation : PV-SPH.0000051 / OP-SPH.0000033]
+
+La branche complémentaire PHYS1 s ' adresse aux étudiant-e-s qui ne suivent pas la Physique propédeutique , mais souhaitent néanmoins acquérir une formation élémentaire en physique.
+
+Prérequis : Avoir suivi ou suivre les cours de Mathématiques propédeutiques .
+
+## Semestre 1 (automne)
+
+| Code                   | Unité d ' enseignement                               |   h. tot. |   ECTS |
+|------------------------|------------------------------------------------------|-----------|--------|
+| SPH.01105              | Physique I (cours et exercices)                      |        70 |      5 |
+| SPH.01015              | Physique I 1H (travaux pratiques pour débutant-e-s)  |        12 |      1 |
+| SPH.01301              | Aspects théoriques de physique fondamentale I        |        56 |      4 |
+|                        |                                                      |           |     10 |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                               |           |        |
+| SPH.01205              | Physique II (cours et exercices)                     |        70 |      5 |
+| SPH.01016              | Physique II 1E (travaux pratiques pour débutant-e-s) |        12 |      1 |
+| SPH.01401              | Aspects théoriques de physique fondamentale II       |        56 |      4 |
+|                        |                                                      |           |     10 |
+| Semestre 3 (automne)   | Semestre 3 (automne)                                 |           |        |
+| SPH.02101              | Physique moderne (cours et exercices)                |        84 |      7 |
+| SPH.02003              | Physique 3H A (travaux pratiques pour avancé-e-s)    |        42 |      3 |
+|                        |                                                      |           |     10 |
+
+## 3.3.1.2 Unités d ' enseignement de la branche complémentaire PHYS2 à 30 ECTS
+
+[Version 2023, paquet de validation : PV-SPH.0000051 / OP-SPH.0000034
+
+]
+
+La branche complémentaire PHYS2 s ' adresse aux étudiant-e-s de la Faculté des sciences et de médecine qui  suivent  le  cours  de Physique  propédeutique .  Les  unités  d ' enseignement  de  la première année apportent les notions de physique générale qui n ' ont pas été acquises dans la branche propédeutique.
+
+Prérequis: Avoir suivi ou suivre les unités d ' enseignement de la Physique propédeutique .
+
+| Semestre 1 (automne)   | Semestre 1 (automne)                                                                      |         |      |
+|------------------------|-------------------------------------------------------------------------------------------|---------|------|
+| Code                   | Unité d ' enseignement                                                                    | h. tot. | ECTS |
+| SPH.01015              | Physique I 1H (travaux pratiques pour débutant-e-s)                                       | 12      | 1    |
+| SPH.01301              | Aspects théoriques de physique fondamentale I                                             | 56      | 4    |
+|                        |                                                                                           |         | 5    |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                                                                    |         |      |
+| SPH.01016              | Physique II 1E (travaux pratiques pour débutant-e-s)                                      | 12      | 1    |
+| SPH.01401              | Aspects théoriques de physique fondamentale II                                            | 56      | 4    |
+|                        |                                                                                           |         | 5    |
+| Semestre 3 (automne)   | Semestre 3 (automne)                                                                      |         |      |
+| SPH.02101              | Physique moderne (cours et exercices)                                                     | 84      | 7    |
+| SPH.02003              | Physique 3H A (travaux pratiques pour avancé-e-s)                                         | 42      | 3    |
+|                        |                                                                                           |         | 10   |
+| Semestre 4 (printemps) | Semestre 4 (printemps)                                                                    |         |      |
+| SPH.02203              | Introduction à la physique des particules et à la physique nucléaire (cours et exercices) | 42      | 3.5  |
+| SPH.02402              | Thermodynamique (cours et exercices)                                                      | 42      | 3.5  |
+| SPH.02006              | Physique 3E P (travaux pratiques pour avancé-e-s)                                         | 42      | 3    |
+|                        |                                                                                           |         | 10   |
+
+## 3.3.1.3 Unités d ' enseignement de la branche complémentaire PHYS3 à 60 ECTS
+
+[Version 2023, paquet de validation : PV-SPH.0000052 / OP-SPH.0000035]
+
+La branche complémentaire PHYS3 s ' adresse aux étudiant-e-s qui ne suivent pas la Physique propédeutique ,  mais souhaitent néanmoins acquérir une formation de base en physique. Elle peut  être  prise  comme  branche  d ' enseignement  pour  le  DEEM.  Pour  ce  faire,  elle  doit  être complétée par la branche complémentaire PHYS+30.
+
+Prérequis : Avoir  suivi  ou  suivre  les  cours  de Mathématiques propédeutiques .  Des  connaissances en analyse vectorielle sont indispensables. De plus, le cours et les exercices de Méthodes mathématiques de la physique (SPH.02801) sont vivement recommandés.
+
+## Semestre 1 (automne)
+
+| Code                   | Unité d ' enseignement                            |   h. tot. |   ECTS |
+|------------------------|---------------------------------------------------|-----------|--------|
+| SPH.01105              | Physique I (cours et exercices)                   |        70 |      5 |
+| SPH.01301              | Aspects théoriques de physique fondamentale I     |        56 |      4 |
+| SPH.01001              | Physique I (travaux pratiques pour débutant-e-s)  |        36 |      3 |
+|                        |                                                   |           |     12 |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                            |           |        |
+| SPH.01205              | Physique II (cours et exercices)                  |        70 |      5 |
+| SPH.01401              | Aspects théoriques de physique fondamentale II    |        56 |      4 |
+| SPH.01002              | Physique II (travaux pratiques pour débutant-e-s) |        36 |      3 |
+|                        |                                                   |           |     12 |
+| Semestre 3 (automne)   | Semestre 3 (automne)                              |           |        |
+| SPH.02101              | Physique moderne (cours et exercices)             |        84 |      7 |
+| SPH.02501              | Electrodynamique (cours et exercices)             |        42 |    3.5 |
+| SPH.02701              | Mécanique classique (cours et exercices)          |        42 |    3.5 |
+| SPH.02003              | Physique 3H A (travaux pratiques pour avancé-e-s) |        42 |      3 |
+| SPH.03506              | Relativité et cosmologie                          |        28 |      3 |
+|                        |                                                   |           |     20 |
+
+| Semestre 4 (printemps)   | Semestre 4 (printemps)                                                                    |    |     |
+|--------------------------|-------------------------------------------------------------------------------------------|----|-----|
+| SPH.02203                | Introduction à la physique des particules et à la physique nucléaire (cours et exercices) | 42 | 3.5 |
+| SPH.02402                | Thermodynamique (cours et exercices)                                                      | 42 | 3.5 |
+| SPH.02601                | Mécanique quantique (cours et exercices)                                                  | 84 |   7 |
+| SPH.02004                | Physique 2E P (travaux pratiques pour avancé-e-s)                                         | 28 |   2 |
+|                          |                                                                                           |    |  16 |
+
+## 3.3.1.4 Unités d ' enseignement de la branche complémentaire PHYS4 à 60 ECTS
+
+[Version 2023, paquets de validation : PV-SPH.0000052 / OP-SPH.0000036]
+
+La branche complémentaire PHYS4 s ' adresse aux étudiant-e-s de la Faculté des Sciences et de médecine qui suivent le cours de physique propédeutique. Elle peut être choisie pour compléter une  branche  principale  d ' une  autre  filière  à  120  ECTS  et  peut  être  prise  comme  branche d ' enseignement  pour  le  DEEM.  Pour  ce  faire,  elle  doit  être  complétée  par  la  branche complémentaire PHYS+30.
+
+Les unités d ' enseignement de la première année complètent la Physique propédeutique .
+
+Prérequis : Avoir suivi ou suivre les cours de Mathématiques propédeutiques . Des connaissances en analyse vectorielle sont indispensables. De plus, le cours et les exercices de Méthodes mathématiques de la physique (SPH.02801) sont vivement recommandés.
+
+| Semestre 1 (automne)   | Semestre 1 (automne)                                                                      |         |      |
+|------------------------|-------------------------------------------------------------------------------------------|---------|------|
+| Code                   | Unité d ' enseignement                                                                    | h. tot. | ECTS |
+| SPH.01301              | Aspects théoriques de physique fondamentale I                                             | 56      | 4    |
+| SPH.01009              | Physique I +2H (travaux pratiques pour débutant-e-s)                                      | 24      | 2    |
+|                        |                                                                                           |         | 6    |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                                                                    |         |      |
+| SPH.01401              | Aspects théoriques de physique fondamentale II                                            | 56      | 4    |
+| SPH.01010              | Physique II +2E (travaux pratiques pour débutant-e-s)                                     | 24      | 2    |
+|                        |                                                                                           |         | 6    |
+| Semestre 3 (automne)   | Semestre 3 (automne)                                                                      |         |      |
+| SPH.02101              | Physique moderne (cours et exercices)                                                     | 84      | 7    |
+| SPH.02501              | Electrodynamique (cours et exercices)                                                     | 42      | 3.5  |
+| SPH.02701              | Mécanique classique (cours et exercices)                                                  | 42      | 3.5  |
+| SPH.02007              | Physique 2H A (travaux pratiques pour avancé-e-s)                                         | 28      | 2    |
+|                        |                                                                                           |         | 16   |
+| Semestre 4 (printemps) | Semestre 4 (printemps)                                                                    |         |      |
+| SPH.02203              | Introduction à la physique des particules et à la physique nucléaire (cours et exercices) | 42      | 3.5  |
+| SPH.02402              | Thermodynamique (cours et exercices)                                                      | 42      | 3.5  |
+| SPH.02601              | Mécanique quantique (cours et exercices)                                                  | 84      | 7    |
+| SPH.02002              | Physique P (travaux pratiques pour avancé-e-s)                                            | 56      | 4    |
+|                        |                                                                                           |         | 18   |
+| Semestre 5 (automne)   | Semestre 5 (automne)                                                                      |         |      |
+| SPH.03nnn              | Deux cours avec exercices de la 3 e année du BSc                                          | 2x42    | 7    |
+|                        |                                                                                           |         | 7    |
+| Semestre 6 (printemps) | Semestre 6 (printemps)                                                                    |         |      |
+| SPH.03nnn              | Un ou deux cours avec exercices de la 3 e année du BSc                                    | 2x42    | 7    |
+|                        |                                                                                           |         | 7    |
+
+## 3.3.2 Contenu des unités d ' enseignement des branches complémentaires
+
+- Les cours de Physique I et II sont les cours de base de physique générale dans lesquels les concepts sont illustrés par des expériences et des démonstrations pratiques. Les domaines de la Physique I (mécanique, ondes, acoustique, thermodynamique) ainsi que les domaines de la Physique II (électricité, magnétisme, optique, atomistique) étendent les connaissances du gymnase et préparent à la physique moderne.
+- Les cours Aspects théoriques de physique fondamentale I et II donnent un traitement plus approfondi de certains sujets du cours de Physique I et II comme la mécanique, l ' électricité et le magnétisme. Ils préparent aux cours de physique théorique.
+- Le cours Introduction à la physique moderne décrit la transition de la physique classique à la physique du 20 e  siècle.
+- Le cours Relativité et cosmologie introduit la relativité restreinte et générale d'Einstein qui sont des piliers de la physique moderne.
+- Le  cours Introduction  à  la  physique  des  particules  et  à  la  physique  nucléaire  (cours  et exercices) amène l ' étudiant-e dans les domaines touchant aussi bien la physique du Cosmos que celle des accélérateurs.
+- La Thermodynamique introduit  des  concepts  importants  tels  que  l ' équilibre  thermique  et l ' entropie.
+- Les Travaux pratiques pour débutant-e-s s ' étendent sur deux semestres. Ils donnent une initiation  aux  techniques  de mesures  des  plus  importantes  grandeurs  physiques  par  de  petites expériences. L ' étudiant-e y apprend aussi les techniques d ' analyse de données expérimentales ainsi que leur interprétation.
+- Les Travaux pratiques pour avancé-e-s permettent de perfectionner l ' habileté dans l ' utilisation des techniques expérimentales et dans l ' analyse des données.
+
+## 3.3.3 Évaluation des unités d ' enseignement
+
+Les conditions d ' évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l ' annexe de la physique (http://www.unifr.ch/scimed/plans/eval).

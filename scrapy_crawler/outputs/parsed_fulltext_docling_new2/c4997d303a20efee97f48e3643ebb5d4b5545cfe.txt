@@ -1,0 +1,41 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:41:08.314Z",
+  "title": "unmatched_THEO_UNK_UNK_Habilitation_ehrenw_rtliche_Erkl_rung_c4997d303a20efee97f48e3643ebb5d4b5545cfe",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c4997d303a20efee97f48e3643ebb5d4b5545cfe",
+  "program_key": null,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_ehrenw_rtliche_Erkl_rung_c4997d303a20efee97f48e3643ebb5d4b5545cfe.pdf",
+  "sha256": "3c885ec0105bbce965f0945c05621b9b66b0b358338441b716c9ad0d1612164b",
+  "fetched_at": "2026-05-21T16:05:41.821Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Ehrenwörtliche Erklärung
+
+Hiermit bestätige ich mit meiner Unterschrift, dass ich die hier vorgelegte Arbeit persönlich verfasst und dabei nur die angeführten Quellen und Hilfsmittel verwendet habe; wörtliche Zitate und Paraphrasen sind als solche gekennzeichnet.
+
+Ich habe zur Kenntnis genommen, dass wissenschaftliches Fehlverhalten nach den Richtlinien der Universität Freiburg* geahndet wird.
+
+Vorname:
+
+Name:
+
+Nr. SIUS :
+
+Ort und Datum:
+
+Unterschrift:
+
+* Richtlinien der Universität Freiburg vom 13. Mai 2008 über das Verfahren für die Verhängung von Disziplinarstrafen nach Art. 101 der Statuten der Universität Freiburg vom 31. März 2000 im Falle des Verstosses gegen die Regeln guter wissenschaftlicher Praxis beim Verfassen schriftlicher Arbeiten während der Ausbildung: http://www.unifr.ch/rectorat/reglements/pdf/1\_1\_15.pdf
+
+Art. 2: 'Wissenschaftliches Fehlverhalten liegt vor, wenn gegen die Regeln guter wissenschaftlicher  Praxis verstossen wird, namentlich wenn in einer schriftlichen Arbeit fremde Arbeitsergebnisse und Erkenntnisse unter eigenem Namen verfasst werden (Plagiat), wenn eine Arbeit eingereicht wird, die von einer Drittperson verfasst worden ist (Ghostwriting), oder wenn vorsätzlich oder grob fahrlässig Falschangaben gemacht werden'.
+
+Diese Erklärung muss jeder öffentlich zugänglichen schriftlichen Arbeit (Master, Lizentiat, Doktorat, Habilitation) beigelegt sein. Ohne diese Erklärung gilt die Arbeit als nicht eingereicht.

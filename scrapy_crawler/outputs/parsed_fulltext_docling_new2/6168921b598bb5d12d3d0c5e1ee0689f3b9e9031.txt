@@ -1,0 +1,76 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:10:24.431Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_30_Mathematics_Branche_compl_mentaire_en_math_matiques_30_6168921b598bb5d12d3d0c5e1ee0689f3b9e9031",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6168921b598bb5d12d3d0c5e1ee0689f3b9e9031",
+  "program_key": "faculty of science and medicine|master|30|mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_MA_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Mathematics_Branche_compl_mentaire_en_math_matiques_30_6168921b598bb5d12d3d0c5e1ee0689f3b9e9031.pdf",
+  "sha256": "233ebd9036c2e6776e2c8e7eca00aea8f48a5d9cfe8412462552f88009b75e3a",
+  "fetched_at": "2026-05-21T16:05:17.431Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_MA_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.1  Mathématiques +30
+
+[Version 2022, paquet de validation : PV-SMA.0000052]
+
+Le programme de formation supplémentaire en mathématiques MATH+30 peut être suivi après la réussite de la branche complémentaire MATH 60.
+
+## 2.1.1 Unités d'enseignement
+
+L'étudiant-e peut choisir entre les modules A et B; si certaines des unités d'enseignement font partie d'un autre programme (comme par exemple SMA.02131 pour le Bachelor en physique), on choisira deux autres des quatre unités SMA.02131, SMA.02132, SMA.02231, SMA.02232. Au cas où trois de ces quatre unités sont déjà prises, l'unité restante est choisie et le module A est complété par un cours SMA.03xxx (6 ECTS) avec un travail écrit (SMA.03809, 1 ECTS). Le module C est obligatoire.
+
+## Module A
+
+| Code      | Unité d'enseignement               | semestre   |   h. tot. |   ECTS |
+|-----------|------------------------------------|------------|-----------|--------|
+| SMA.02131 | Analyse III (cours avec exercices) | SA         |        84 |      7 |
+| SMA.02132 | Analyse IV (cours avec exercices)  | SP         |        84 |      7 |
+| Total     | Total                              |            |           |     14 |
+
+## Module B
+
+| Code      | Unité d'enseignement                           | semestre   |   h. tot. |   ECTS |
+|-----------|------------------------------------------------|------------|-----------|--------|
+| SMA.02231 | Algèbre et Géométrie I (cours avec exercices)  | SA         |        84 |      7 |
+| SMA.02232 | Algèbre et Géométrie II (cours avec exercices) | SP         |        84 |      7 |
+| Total     | Total                                          |            |           |     14 |
+
+## Module C
+
+| Code      | Unité d'enseignement                         | semestre   | h.tot.   |   ECTS |
+|-----------|----------------------------------------------|------------|----------|--------|
+| SMA.03xxx | 2 cours *                                    |            | 56**     |     12 |
+| ou        |                                              |            |          |        |
+| SMA.04xxx |                                              |            |          |        |
+| SMA.038xx | Séminaire (ou pro-séminaire) avec conférence |            | 28       |      3 |
+| SMA.03811 | Travail écrit ***                            |            | -        |      1 |
+| Total     | Total                                        | Total      | Total    |     16 |
+
+*
+
+d'entente avec le conseiller aux études
+
+** cours de 2 heures par semaine sur une année ou 4 heures par semaine sur un semestre
+
+*** en complément du (pro-)séminaire SMA.038xx
+
+## 2.1.2 Contenu des unités d'enseignement
+
+Les cours des modules A et B font partie du programme de la deuxième année pour les mathématiques comme branche principale. Ils se basent sur les connaissances acquises dans les cours d'Analyse et d'Algèbre linéaire et élargissent ces connaissances par une introduction à l'analyse vectorielle et à la théorie des fonctions analytiques d'une variable complexe (module A) ou une introduction à l'algèbre et à ses applications dans les différentes branches de la géométrie. Le séminaire du module C offre l'opportunité d'une immersion plus profonde dans un chapitre choisi des mathématiques et de le présenter dans une conférence.
+
+## 2.1.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques .
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .

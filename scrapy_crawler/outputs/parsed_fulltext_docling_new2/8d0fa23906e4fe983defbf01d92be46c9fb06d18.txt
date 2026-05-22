@@ -1,0 +1,263 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:15:46.312Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Philosophy_Studienplan_BA_Bereich_II_60_ECTS__8d0fa23906e4fe983defbf01d92be46c9fb06d18",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8d0fa23906e4fe983defbf01d92be46c9fb06d18",
+  "program_key": "faculty of humanities|bachelor|60|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_60_de_2006.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Philosophy_Studienplan_BA_Bereich_II_60_ECTS__8d0fa23906e4fe983defbf01d92be46c9fb06d18.pdf",
+  "sha256": "0f57fb5c6ac75d60502e3d52a17d11b4f33e80ed3301cff87ddaca33965370be",
+  "fetched_at": "2026-05-21T16:05:27.416Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_60_de_2006.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Achtung : alte Version vom 24.04.2006. Die aktuellen Studienpläne finden Sie auf folgendem Link:
+
+[http://lettres.unifr.ch/de/philosophie/philosophie/ba-reglements.html](http://lettres.unifr.ch/de/philosophie/philosophie/ba-reglements.html)
+
+<!-- image -->
+
+## Studienführer des
+
+## Departements der Philosophie
+
+## Studienordnung zur Erlangung des universitären Diploms (BA)
+
+Dieses  Reglement  betrifft  Studierende,  welche  ihr  Studium  im  Wintersemester 2005/2006  begonnen  haben,  und  diejenigen,  welche  ihr  Studium  im  Zeitraum zwischen dem Wintersemester 2003/04 und dem Sommersemester 2005 begonnen und sich für das neue Reglement der Philosophischen Fakultät vom 23. Juni 2005 (siehe Art. 26, Abs. 3) entschieden haben.
+
+## I. Allgemeines
+
+- a.  Das  Lehrangebot  in  Philosophie  will  dem  Studierenden  eine  möglichst  umfassende Einführung in das weite Gebiet der philosophischen Probleme und  Methoden vermitteln. Im Hinblick auf eine qualitative Vertiefung erstrebt das Studium:
+- eine breite philosophische Ausbildung, welche eine Einführung in die Strömungen der Geschichte der Philosophie und ein systematisches Studium der grundlegenden philosophischen Probleme beinhaltet;
+- die  Entwicklung  der  Fähigkeit  der  Studierenden  zur  eigenen  Forschung,  die  zur Abfassung schriftlicher Arbeiten befähigt.
+
+Dieses doppelte Ziel wird in einer Atmosphäre akademischer Freiheit verfolgt.
+
+- b.  Das  Studium  der  Philosophie  ermöglicht  die  Abschlüsse  BA  (Universitäres  Diplom, europäisches Bachelor -Niveau) und  MA  (Lizentiat,  europäisches MasterNiveau). Ausserdem  können  der Erwerb eines LDS  II-Abschlusses (Lehrdiplom für die Sekundarstufe  II),  eines  Doktorats  und  der  Habilitation  verfolgt  werden.  Das  MAStudium  beginnt  im  akademischen  Jahr  2006/07.  Philosophie  kann  zweisprachig studiert werden, wenn sie als Hauptbereich I gewählt wird.
+
+## II. Lehrangebot
+
+- a.  Der Unterricht gliedert sich in die beiden Schwerpunkte Systematische Philosophie und Geschichte der Philosophie , die wiederum in 7 Gebieten  unterteilt sind:
+- b.  Zusätzlich werden nach Möglichkeit Veranstaltungen zu folgenden Themen angeboten:
+- Fachdidaktik der Philosophie
+- Philosophie der Ökologie
+- Chinesische Philosophie
+- Rechtsphilosophie (an der Juristischen Fakultät)
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Antike Philosophie                                                     | pan         |
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+## III. Unterrichtsformen
+
+- a. Vorlesungen :  Die regelmässigen Grundvorlesungen ergeben einen Überblick über die einzelnen  in II.a  aufgeführten  Gebiete.  Spezialvorlesungen,  die  jedes  Jahr  von Professoren und Assistenten gehalten werden, dienen der Vertiefung gewisser Problemkreise der betreffenden Fragenstellungen. Die Vorlesungen von Gastprofessoren sind integraler Bestandteil des Studienprogrammes und tragen dazu bei, neue Perspektiven zu eröffnen und neue Forschungen anzuregen.
+- b.  Die Proseminare werden von den Professoren oder Assistenten geleitet und ermöglichen den Anfängern den Einstieg ins Philosophiestudium.
+- c.  Die Seminare verlangen vom Studierenden eine besondere persönliche und kritische Mitarbeit und werden nach den erforderlichen Proseminaren besucht.
+
+## IV. Die allgemeine Struktur des Bachelorstudiums
+
+- a.  Das  Bachelorstudium  (BA)  umfasst  zwei  Bereiche,  einen  Hauptbereich  I  und  einen Nebenbereich II. Philosophie kann
+- entweder als Bereich I (120 ECTS),
+- oder als Bereich II (60 ECTS)
+
+studiert werden.
+
+- b.  Studierende, die an der Universität Freiburg ausserhalb der Philosophischen Fakultät immatrikuliert sind und Philosophie als Bereich II studieren wollen, mögen sich an das Dekanat der Philosophischen Fakultät wenden, um die Kompatibilität ihres Studiums überprüfen zu lassen.
+- c. Wer  ein  Studium  der  Philosophie  im  Bereich  I  mit  einem  anderen  Bereich  aus  der Fakultät der Theologie, der Wirtschaftsund Sozialwissenschaften oder der Naturwissenschaften  kombinieren  möchte,  oder  wer  die  Philosophie  in  den  Rahmen eines  Studiums  des  Rechts  integrieren  möchte,  informiere  sich  über  diesbezügliche Möglichkeiten beim Dekanat der betroffenen Fakultät.
+- d.  Das  Bachelorstudium der Philosophie will eine möglichst breite philosophische Grundausbildung vermitteln. Die Studierenden sollen deshalb Vorlesungen, Proseminare und Seminare sowohl in systematischer Philosophie als auch in Geschichte der Philosophie besuchen.
+- e.  Wer Philosophie als Bereich I studieren will, muss Lateinkenntnisse nachweisen. Diese können  gegebenenfalls  bis  vor  den  letzten  Prüfungen  des  Bachelors  nachgeholt werden. Wer Latein nachholen müsste, hat die Möglichkeit anstelle einer Ergänzungsprüfung  in Latein eine  Ergänzungsprüfung  in Griechisch abzulegen.  Die nachgeholten Leistungen in Latein oder Griechisch können als CTC-Punkte (Bereichsübergreifende  und  -erweiternde  Kompetenzen  /  soft  skills)  angerechnet werden.
+
+## V.  Aufteilung  der  Kreditpunkte  des  ECTS  (European  Credit  Transfer System)
+
+Die  ECTS-Punkte  messen  den  Arbeitsaufwand  der  Studierenden  (darin  eingeschlossen die Zeit der Anwesenheit in Vorlesung/Seminar sowie die persönliche Arbeitszeit ausserhalb dieser Stunden). 1 ECTS-Punkt entspricht 30 Arbeitsstunden.
+
+| Unterrichtsform                                  | Vergebene ECTS Punkte   | Unterrichtsform                                                  | Vergebene ECTS Punkte   |
+|--------------------------------------------------|-------------------------|------------------------------------------------------------------|-------------------------|
+| Evaluierte Vorlesung                             | 3 Pkt.                  |                                                                  |                         |
+| Aktive Teilnahme* an einem Proseminar            | 3 Pkt.                  | Aktive Teilnahme* an einem Proseminar und Verfassen einer Arbeit | 6 Pkt.                  |
+| Schriftliche Arbeit verfasst in einem Proseminar | 3 Pkt.                  | Aktive Teilnahme* an einem Proseminar und Verfassen einer Arbeit | 6 Pkt.                  |
+| Aktive Teilnahme* an einem Seminar               | 3 Pkt.                  | Aktive Teilnahme* an einem Seminar und Verfassen einer Arbeit    | 7 Pkt.                  |
+| Schriftliche Arbeit, verfasst in einem Seminar   | 4 Pkt.                  | Aktive Teilnahme* an einem Seminar und Verfassen einer Arbeit    | 7 Pkt.                  |
+
+Die ECTS-Punkte werden unter der Bedingung, dass die erforderliche Leistung vor dem 1. Februar anerkannt wird, für das Herbstsemester erworben.
+
+Die ECTS-Punkte werden unter der Bedingung, dass die erforderliche Leistung vor dem 1. August anerkannt wird, für das Frühlingssemester erworben.
+
+## VI. Philosophie als Bereich I
+
+## a.  Vorlesungen, Proseminare und Pflichtseminare
+
+1. Die  Studierenden  müssen  mindestens  16  geprüfte  Semestervorlesungen besuchen. In  jedem  der  7  Gebiete (siehe  II.a) ist  mindestens  eine geprüfte  Semestervorlesung  zu  besuchen.  Man  muss  also  in  jedem Gebiet mindestens 3 ECTS-Punkte erwerben .
+2. Die Studierenden müssen mindestens vier Semesterproseminare besuchen (mit  aktiver  Teilnahme  und  schriftlicher  Arbeit  in  jedem  der  Proseminare), davon:
+- 2  Semesterproseminare  mit  aktiver  Teilnahme  und  schriftlicher  Arbeit im Schwerpunkt : Geschichte der Philosophie (HPH) und
+- 2  Semesterproseminare  mit  aktiver  Teilnahme  und  schriftlicher  Arbeit im Schwerpunkt: Systematischer Philosophie (PHS), darunter ein Semester  Logikproseminar  mit  schriftlichen  Übungen  und  schriftlicher Prüfung.
+3. Die  Studierenden  können  erst  ab  dem  zweiten  Jahr  (ab  dem  dritten Semester)  Seminare  besuchen,  und  zwar  nur  unter  der  Bedingung,  dass sie bereits 2 Proseminare besucht und die damit verbundenen Anforderungen ganz erfüllt haben. Die Proseminararbeiten werden benotet (Siehe Notenskala, VI.,c, 5).
+4. Die  Studierenden  müssen  mindestens  4  Semesterseminare  mit  aktiver Teilnahme besuchen und in 3 davon eine schriftliche Arbeit verfassen. Von den 3 Seminararbeiten muss mindestens 1 im Schwerpunkt HPH (Geschichte  der  Philosophie)  und  mindestens  1  im  Schwerpunkt  PHS (Systematische Philosophie) geschrieben werden; der Schwerpunkt der 3. schriftlichen Arbeit kann der Studierende frei wählen (entweder HPH oder PHS). Der Schwerpunkt des 4. Seminars, ohne schriftliche Arbeit,  ist  frei wählbar.  Die  3  Seminararbeiten  werden  benotet  (siehe  Notenskala,  VI.,c, 5).
+5. Bei  einigen  Veranstaltungen  (Vorlesungen,  Proseminare,  Seminare)  ist ausgewiesen, dass sie mehrere Gebiete betreffen. Eine derartige Veranstaltung  kann  für  eines  dieser  Gebiete  angerechnet  werden,  eine mehrfache Anrechnung ist jedoch ausgeschlossen. Der Studierende wählt also aus den angegebenen Gebieten eines aus, wofür er die Veranstaltung anrechnen möchte. Es ist nicht möglich die Wahl des Gebiets rückwirkend zu ändern.
+
+## b.  Beispiel eines Stundenplans
+
+| Semester                                            | Evaluierte Vorlesung 3 ects per Einheit             | Proseminar (mit aktiver Teilnahme) 3 ects per Einheit   | Proseminar (mit aktiver Teilnahme und schriftlicher Arbeit) 6 ects per Einheit   | Seminar (mit aktiver Teilnahme) 3 ects per Einheit   | Seminar (mit aktiver Teilnahme und schriftlicher Arbeit) 7 ects per Einheit   | Freie Punkte 12 ects CTC / Soft skills 12 etcs      | Total ects                                          |
+|-----------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| 1                                                   | 3                                                   |                                                         | 1                                                                                |                                                      |                                                                               |                                                     |                                                     |
+| ects                                                | 9                                                   |                                                         | 6                                                                                |                                                      |                                                                               | 3 3                                                 | 21                                                  |
+| 2 ects                                              | 3 9                                                 |                                                         | 1 6                                                                              |                                                      |                                                                               | 3 3                                                 | 21                                                  |
+| 3                                                   | 3                                                   |                                                         | 1                                                                                |                                                      |                                                                               |                                                     |                                                     |
+| ects                                                | 9                                                   |                                                         | 6                                                                                |                                                      |                                                                               | 3 4                                                 | 22                                                  |
+| 4 ects                                              | 3 9                                                 |                                                         | 1 6                                                                              |                                                      |                                                                               | 3 2                                                 | 20                                                  |
+| 5 ects                                              | 2                                                   |                                                         |                                                                                  | 1 3                                                  | 1 7                                                                           |                                                     |                                                     |
+| 6                                                   | 6                                                   |                                                         |                                                                                  |                                                      | 2                                                                             |                                                     | 16                                                  |
+| ects                                                | 2                                                   |                                                         |                                                                                  |                                                      | 14                                                                            |                                                     | 20                                                  |
+| Nach 6 sem.                                         | 6 16                                                |                                                         | 4                                                                                | 1                                                    | 3                                                                             |                                                     |                                                     |
+| ects                                                | 48                                                  |                                                         | 24                                                                               | 3                                                    | 21                                                                            | 12 12                                               | 120                                                 |
+| Obligatorische minimale Aufteilung nach 6 Semestern | Obligatorische minimale Aufteilung nach 6 Semestern | Obligatorische minimale Aufteilung nach 6 Semestern     | Obligatorische minimale Aufteilung nach 6 Semestern                              | Obligatorische minimale Aufteilung nach 6 Semestern  | Obligatorische minimale Aufteilung nach 6 Semestern                           | Obligatorische minimale Aufteilung nach 6 Semestern | Obligatorische minimale Aufteilung nach 6 Semestern |
+
+Freie  Punkte:  Die  12  freien  ECTS-Punkte  können  nach  freier  Wahl  des  Studierenden aufgeteilt werden, sie dürfen aber nicht ausschliesslich in Vorlesungen erworben werden. Achtung: diese 12 freien Punkte sind nicht mit den 12 CTC-Punkten (Bereichsübergreifende und -erweiternde Kompetenzen / soft skills) identisch!
+
+Die obige Tabelle ist ein beliebiges Beispiel einer Verteilung von obligatorischen Vorlesungen, Proseminaren und Seminaren über die sechs Semester des Bachelorstudiums. Die Wahl der Verteilung liegt im Rahmen der genannten Beschränkungen bei den Studierenden.
+
+ACHTUNG:  Um  den  Studierenden  möglichst  viel  Freiheit in der Gestaltung ihrer Ausbildung  zu  lassen,  übt  das  Departement  der  Philosophie  keinerlei  Aufsicht  über  die jährlich erworbenen ECTS-Punkte aus. Es liegt bei jedem Studierenden, darauf zu achten, jährlich circa 40 ECTS-Punkte zu erwerben.
+
+## c.  Leistungskontrolle
+
+## 1.  Proseminare
+
+Die  Leistungskontrolle  erfolgt  in  Proseminaren  über  die  aktive  Teilnahme  (z.B.  in Form  von  Referaten)  und  über  eine  oder  mehrere  schriftliche  Arbeiten.  Die Proseminararbeiten werden benotet und können höchstens zweimal neu geschrieben werden.
+
+## 2.  Seminare
+
+Die Leistungskontrolle erfolgt in Seminaren über die aktive Teilnahme (z.B. in Form von Referaten) und über eine oder mehrere schriftliche Arbeiten. Die Seminararbeiten werden benotet und können höchstens zweimal neu geschrieben werden.
+
+## 3.  Vorlesungen
+
+Der Lehrende entscheidet über die Art der Prüfung. Grundsätzlich sind zwei Arten der Prüfung möglich:
+
+- mündliche  Prüfung:  Die  Dauer  der  mündlichen  Prüfung  bemisst  sich  auf  15 Minuten pro Semestervorlesung. Es ist möglich, mehrere Semestervorlesungen derselben Lehrperson bei deren Einverständnis in einer Prüfung zusammenzufassen;
+- schriftliche  Prüfung:  Die  Lehrperson  bestimmt die Modalitäten der schriftlichen Prüfung.  Es  ist  möglich,  mehrere  Semestervorlesungen  derselben  Lehrperson bei deren Einverständnis in einer Prüfung zusammenzufassen.
+
+Andere Arten der Evaluation (Referat etc.) sind bei Einverständnis des Lehrenden möglich. Eine  nicht  bestandene  Prüfung  muss  im  selben  Gebiet  und  beim selben Professor wiederholt werden (höchstens zweimal).
+
+## 4.  Examen am Ende des ersten Jahres (Erstjahresexamen):
+
+Das Erstjahresexamen besteht aus zwei Prüfungen über je eine Semestervorlesung, die bei zwei verschiedenen Professoren in zwei verschiedenen Gebieten abgelegt werden.
+
+Das  Erstjahresexamen  ist  bestanden,  wenn  beide  Prüfungen  bestanden  sind.  In Abwesenheit zwingender Hinderungsgründe muss die Erstjahresprüfung spätestens zu Beginn des fünften Studiensemesters bestanden sein.
+
+## 5.  Die Notenskala
+
+Eine  Evaluation  ist  bestanden,  wenn  dem  Urteil  der  Lehrperson  zufolge  die erforderlichen Kenntnisse erworben wurden. Die Noten werden nach der folgenden Notenskala vergeben:
+
+- 6 =
+
+Summa cum laude
+
+- 5.5 =
+
+Insigni cum laude
+
+- 5 =
+
+Magna cum laude
+
+- 4.5 = Cum laude
+
+- 4 = Rite
+
+## 6.  Schlussnote
+
+- Die  Schlussnote  ergibt  sich  aus  dem  Durchschnitt  aller  Noten  in  denjenigen Modulen,  welche  im  Studienplan  vorgesehen  sind  (geprüfte  Vorlesungen, schriftliche Arbeiten der Proseminare und Seminare). Jede erlangte Note muss genügend sein: es ist nicht möglich zu kompensieren.
+- Studierende,  welche  ihr  Studium  im  Zeitraum  zwischen  dem  Wintersemester 2003/04  und  dem  Sommersemester  2005  begonnen  und  sich  für  das  neue Reglement  der  Philosophischen  Fakultät  vom  23.06.2005  entschieden  haben, sind  den  Bestimmungen  unter  den  Artikeln  26,  Abs.  3  und  27  des  erwähnten Reglements unterstellt.
+
+## d.  Freie Punkte
+
+Die Summe der ECTS-Punkte aus den Pflichtveranstaltungen beträgt 96. 12 Punkte sind für die  CTC  reserviert  (siehe  unten).  Demnach  bleiben  12  Punkte  übrig,  die  die Studierenden  innerhalb  des  Lehrangebots  des  Departements  der  Philosophie  aufteilen können, wie es ihnen sinnvoll erscheint. Die einzige Beschränkung besteht darin, dass die 12 Punkte nicht ausschliesslich in Vorlesungen erworben werden dürfen.
+
+## e.  CTC / soft skills (Bereichsübergreifende und -erweiternde Kompetenzen)
+
+Nach  dem  Bachelor-Reglement  der  Philosophischen  Fakultät  vom  26.06.2003  sind  12 ECTS-Punkte (10% der Gesamtzahl) für CTC reserviert. 6 davon können im Rahmen des Nachholunterrichts  für  Latein  oder  Griechisch  erworben  werden.  Die  anderen  6  Punkte können frei gewählt werden. Wer bereits über ausreichende Kenntnisse aus dem Bereich der antiken Sprachen verfügt, kann alle 12 CTC-Punkte in den akademischen Bereichen eigener Wahl erwerben. Das Departement erstellt für jedes akademische Jahr eine Liste von  akademischen  Veranstaltungen,  auf  denen  CTC-Punkte  erworben  werden  können. Die CTC-Punkte können ausschliesslich ausserhalb des Lehrangebots des Departements für Philosophie erworben werden.
+
+## f. Bachelor als Bereich I mit Erwähnung der Zweisprachigkeit
+
+Falls in einem Studienbereich 60 % der ECTS (65-75) in einer der beiden offiziellen Sprachen der Universität erworben wurden und 40% (45-55) in der anderen, wird das Universitätsdiplom mit einem besonderen Vermerk versehen. Einen Teil der jeweils in  der  anderen  Sprache  erworbenen  ECTS  müssen  aus  schriftlichen  Arbeiten stammen, d.h., es muss eine der beiden folgenden Bedingungen erfüllt sein:
+
+- 2  Proseminare und 1 Seminar (aktive  Teilnahme und schriftliche Arbeit) 19 ECTS
+
+oder
+
+- 2  Seminare und 1 Proseminar (aktive  Teilnahme und schriftliche Arbeit) 20 ECTS
+
+## g.  Erasmus-Aufenthalt
+
+Studierenden, welche einen Erasmus-Aufenthalt an einer anderen Universität absolvieren wollen, wird empfohlen, dies erst nach Abschluss der Module HPH I und PHS I (d.h. ab dem 3. Studienjahr) zu tun.
+
+## VII. Noten-Module (Bereich I)
+
+Jede Veranstaltung in den im Studienplan genannten Gebieten (ausser den Proseminaren und  Seminaren,  welche  nur  mit  aktiver  Teilnahme  besucht  werden)  wird  benotet.  Alle Noten werden in die Berechnung der Schlussnote des Bachelor-Diploms (siehe VI., c, 6) einbezogen. Die Schlussnote ergibt sich aus dem Durchschnitt von sechs Teilnoten . Diese sechs Teilnoten errechnen sich gemäss den folgenden sechs Modulen:
+
+| Module                                                                                                                   | Unterrichtsformen                                                                                                                                             | Total ECTS pro Modul   | Teilnoten                                                                                       |
+|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------------------------------------|
+| HPH I (in den Gebieten: pan, pme oder pmc)                                                                               | • 3 Semestervorlesungen • 2 Proseminare mit aktiver Teilnahme und schriftlicher Arbeit                                                                        | 21 ects                | Durchschnitt aus den 5 erhaltenen Noten                                                         |
+| PHS I (in den Gebieten: leh, epp, pce oder eme)                                                                          | • 3 Semestervorlesungen • 1 Proseminar mit aktiver Teilnahme und schriftlicher Arbeit • 1 Logikproseminar mit schriftlichen Übungen und schriftlicher Prüfung | 21 ects                | Durchschnitt aus den 5 erhaltenen Noten                                                         |
+| HPH II (in den Gebieten: pan, pme oder pmc)                                                                              | • 3 Semestervorlesungen • 1 Seminar mit aktiver Teil-nahme und schriftlicher Arbeit                                                                           | 16 ects                | Durchschnitt aus den 4 erhaltenen Noten                                                         |
+| PHS II (in den Gebieten: leh, epp, pce oder eme)                                                                         | • 3 Semestervorlesungen • 1 Seminar mit aktiver Teilnahme und schriftlicher Arbeit                                                                            | 16 ects                | Durchschnitt aus den 4 erhaltenen Noten                                                         |
+| kombiniertes Modul nach Wahl (HPH und /oder PHS) (in den Gebieten: pan, pme oder pmc und/oder in leh, epp, pce oder eme) | • 4 Semestervorlesungen • 1 Seminar nur mit aktiver Teilnahme • 1 Seminar mit aktiver Teilnahme und schriftlicher Arbeit                                      | 22 ects                | Durchschnitt aus den 5 erhaltenen Noten                                                         |
+| Freie Punkte                                                                                                             | • die 12 verbleibenden Punkte können nach freier Wahl aus dem gesamten Lehrangebot des Departements ausgewählt werden                                         | 12 ects                | Mindestens 3 Noten, frei nach Wahl aus: benoteter Vorlesung, Proseminar- oder Seminararbeit * . |
+|                                                                                                                          |                                                                                                                                                               | 108 ects               |                                                                                                 |
+| CTC/soft skills                                                                                                          |                                                                                                                                                               | 12 ects                |                                                                                                 |
+| Total 120 ects                                                                                                           | Total 120 ects                                                                                                                                                | Total 120 ects         | Total 120 ects                                                                                  |
+
+1. Alle  Noten  müssen genügend sein (Note 4): es ist nicht möglich ungenügende Noten zu kompensieren.
+2. Der Zugang zu den Modulen HPH II , PHS II und dem kombinierten Modul (HPH und/oder PHS) nach Wahl ist nur möglich, wenn alle Anforderungen mindestens zweier Proseminare erfüllt worden sind.
+
+## VIII. Philosophie als Bereich II
+
+## a.  Vorlesungen, Proseminare und Pflichtseminare
+
+1. Die  Studierenden  müssen  mindestens  9  geprüfte  Semestervorlesungen  in mindestens 4 verschiedenen Gebieten besuchen.
+2. Ausserdem sind mindestens 3 Semesterproseminar mit aktiver Teilnahme zu besuchen und es müssen 3 schriftliche Arbeiten verfasst werden. Von den 3 Proseminararbeiten müssen mindestens 1 im Schwerpunkt HPH (Geschichte der  Philosophie)  und  mindestens  1  im  Schwerpunkt    PHS  (Systematische Philosophie) geschrieben werden; der Schwerpunkt der 3. schriftlichen Arbeit kann der Studierende frei wählen (entweder HPH oder PHS). Die Proseminararbeiten werden benotet (siehe Notenskala, VIII., c,5).
+3. Die Studierenden können erst ab dem zweiten Jahr (ab dem dritten Semester) Seminare  besuchen,  und  zwar  nur  unter  der  Bedingung,  dass  sie  bereits  1 Proseminar  besucht  und  die  damit  verbundenen  Anforderungen  ganz  erfüllt haben.
+4. Die Studierenden müssen mindestens 2 Semesterseminare besuchen und in einem davon eine schriftliche Arbeit verfassen. Die Seminararbeit wird benotet (siehe Notenskala, VIII., c,5).
+5. Bei einigen Veranstaltungen (Vorlesungen, Proseminare, Seminare) ist ausgewiesen, dass sie mehrere Gebiete betreffen. Eine derartige Veranstaltung kann  für eines dieser  Gebiete  angerechnet  werden,  eine mehrfache Anrechnung ist jedoch ausgeschlossen. Der Studierende wählt also aus  den  angegebenen  Gebieten  eines  aus,  wofür  er  die  Veranstaltung anrechnen möchte. Es ist nicht möglich, die Wahl des Gebiets rückwirkend zu ändern.
+
+## b.  Beispiel eines Stundenplans:
+
+| Semester    | Evaluierte Vorlesung 3 ects per Einheit               | Proseminar (mit aktiver Teilnahme und schriftlicher Arbeit) 6 ects per Einheit   | Seminar (mit aktiver Teilnahme). 3 ects per Einheit   | Seminar (mit aktiver Teilnahme und schriftlicher Arbeit) 7 ects per Einheit   | CTC / Soft skills                                     | Total ects   |
+|-------------|-------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------|--------------|
+| 1           | 2                                                     | 1                                                                                |                                                       |                                                                               |                                                       |              |
+| ects        | 6                                                     | 6                                                                                |                                                       |                                                                               |                                                       | 12           |
+| 2           | 1 3                                                   | 1 6                                                                              |                                                       |                                                                               |                                                       | 9            |
+| ects 3      | 2                                                     | 1                                                                                |                                                       |                                                                               |                                                       |              |
+| ects        | 6                                                     | 6                                                                                |                                                       |                                                                               | 3                                                     | 15           |
+| 4 ects      | 1 3                                                   |                                                                                  |                                                       |                                                                               | 3                                                     | 6            |
+| 5           | 2                                                     |                                                                                  | 1                                                     |                                                                               |                                                       |              |
+| ects        | 6                                                     |                                                                                  | 3                                                     |                                                                               |                                                       | 9            |
+| 6           | 1                                                     |                                                                                  |                                                       | 1                                                                             |                                                       |              |
+| ects        | 3                                                     |                                                                                  |                                                       | 7                                                                             |                                                       | 10           |
+| Nach 6 sem. | 9                                                     | 3                                                                                | 1                                                     | 1                                                                             | 6                                                     |              |
+| ects        | 27                                                    | 18                                                                               | 3                                                     | 7                                                                             |                                                       | 60 (61)      |
+|             | Minimale obligatorische Aufteilung nach 6 Semestern ! | Minimale obligatorische Aufteilung nach 6 Semestern !                            | Minimale obligatorische Aufteilung nach 6 Semestern ! | Minimale obligatorische Aufteilung nach 6 Semestern !                         | Minimale obligatorische Aufteilung nach 6 Semestern ! |              |
+
+Die obige Tabelle ist ein beliebiges Beispiel einer Verteilung von obligatorischen Vorlesungen, Proseminaren und Seminaren über die sechs Semester des Bachelorstudiums. Die Wahl der Verteilung liegt im Rahmen der genannten Beschränkungen bei den Studierenden.
+
+ACHTUNG:  Um  den  Studierenden  möglichst  viel  Freiheit in der Gestaltung ihrer Ausbildung  zu  lassen,  übt  das  Departement  der  Philosophie  keinerlei  Aufsicht  über  die jährlich erworbenen ECTS-Punkte  aus. Es liegt in der Eigenverantwortung jedes Studierenden, darauf zu achten, den Erwerb dieser ECTS-Punkte auf seine Studienjahre aufzuteilen.
+
+## c.  Leistungskontrolle
+
+## 1.  Proseminare
+
+Die  Leistungskontrolle  erfolgt  in  Proseminaren  über  die  aktive  Teilnahme  (z.B.  in Form  von  Referaten)  und  über  eine  oder  mehrere  schriftliche  Arbeiten.  Die Proseminararbeiten werden benotet und können höchstens zweimal neu geschrieben werden.
+
+## 2.  Seminare
+
+Die Leistungskontrolle erfolgt in Seminaren über die aktive Teilnahme (z.B. in Form von Referaten) und über eine oder mehrere schriftliche Arbeiten. Die Seminararbeiten werden benotet und können höchstens zweimal neu geschrieben werden.

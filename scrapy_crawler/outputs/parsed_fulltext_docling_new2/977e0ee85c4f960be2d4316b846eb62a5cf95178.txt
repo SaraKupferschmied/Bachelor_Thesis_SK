@@ -1,0 +1,170 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:37:59.263Z",
+  "title": "matched_Faculty_of_Theology_Bachelor_30_Theology_Theologie_Nebenprogramme_Optionsprogramme_30_ECTS_977e0ee85c4f960be2d4316b846eb62a5cf95178",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "977e0ee85c4f960be2d4316b846eb62a5cf95178",
+  "program_key": "faculty of theology|bachelor|30|theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Programmes%20secondaires/theo_programme_BA_MA_30.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_30_Theology_Theologie_Nebenprogramme_Optionsprogramme_30_ECTS_977e0ee85c4f960be2d4316b846eb62a5cf95178.pdf",
+  "sha256": "28bdd3bcd3ed64a360065d6478714c6f5ab203e687d59f052abddafd28b31df1",
+  "fetched_at": "2026-05-21T16:05:40.639Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Programmes%20secondaires/theo_programme_BA_MA_30.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Nebenprogramme / Optionsprogramme 30 CP/ Programmes secondaires / Programmes à option à 30 CP
+
+für Studierende anderer Fakultäten / pour les étudiant-e-s d'autres facultés
+
+La Faculté de Théologie § offre aux étudiant-e-s inscrit-e-s dans un programme secondaire dans la Faculté la possibilité d'un programme d'option à 30 ECTS dans chacun des départements :
+
+1.    Etudes bibliques
+2.    Patristique et histoire de l'Eglise
+3.    Sciences de la foi et des religions, philosophie
+4.    Théologie morale et éthique
+5.    a)   Théologie pratique
+- b)   Sciences liturgiques
+
+Chaque  programme  à  option  est  sous  la  responsabilité  d'un-e  professeur-e,  avec  l'accord  avec  le curator studiorum . Une copie signée par le/la professeur-e doit être déposée dans le dossier de l'étudiant au décanat durant  le  1 er semestre  de  ses  études.  Les  cours  peuvent  être  suivis  dans  les  deux  langues d'enseignement, mais doivent être des cours correspondant à la voie d'études principales (des cours de BA, respectivement MA, pour un-e étudiant-e qui a son domaine I en BA, respectivement en MA).
+
+Die Theologische Fakultät bietet Studierenden, die für ein Nebenprogramm in der Fakultät eingeschrieben sind, die Möglichkeit, ein Optionsprogramm zu 30 ECTS in jedem der Departemente zu studieren:
+
+1. Biblische Studien
+2.      Patristik und Kirchengeschichte
+3.     Glaubens- und Religionswissenschaft, Philosophie
+4.     Moraltheologie und Ethik
+5.     a)   Praktische Theologie
+- b)   Liturgiewissenschaft
+
+Jedes  Optionsprogramm  steht  unter  Verantwortung  eines  Professors/einer  Professorin  und  bedarf  der Zustimmung  des  Studienberaters.  Eine  vom/von  der  Professor-in  unterzeichnete  Kopie  wird  während des ersten Studiensemesters im Dekanat in das Studierendendossier eingefügt. Die Lehrveranstaltungen können in beiden Unterrichtssprachen belegt werden, müssen aber dem Studiengang des Hauptprogramms entsprechen  (BA-Veranstaltungen  für  Studierende,  die  ihren  Studienbereich  I  im  BA, MA-Veranstaltungen für MA-Studierende im Studienbereich I).
+
+## 1.         ETUDES BIBLIQUES/BIBLISCHE STUDIEN Ancient Near Eastern Cultures Relating to Pre-Islamic Palestine/Israel (ANEC)
+
+## Verantwortlich für das Optionsprogramm
+
+Studienprogramm  als  Bereich  II  zu  30  ECTS  angeboten  von  der  Philosophischen  Fakultät  in  Freiburg und den Theologischen Fakultäten in Freiburg und Bern.
+
+## Optionsprogramm für BA
+
+| Seminare (aus mindestens zwei der genannten 7 Gebiete)   | 1. Archäologie Israels/Palästinas 2. Ikonographie Israels/Palästinas und des vorislamischen Orients 3. Aegyptologie 4. Sprachen, Inschriften und Literaturen des vorislamischen Vorder- asiens 5. Religionsgeschichte Israels/Palästinas im Rahmen des vorislami- schen Orients 6. Textüberlieferung der Hebräischen Bibel   | 8 ECTS   |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Vorlesungen*                                             | 7. Wirtschafts- und Sozialgeschichte                                                                                                                                                                                                                                                                                         | 3 ECTS   |
+|                                                          | Geschichte Israels von Merneptah bis Bar Kochba I oder II                                                                                                                                                                                                                                                                    |          |
+
+|                     | Einführung in die Archäologie Palästinas               | 3 ECTS   |
+|---------------------|--------------------------------------------------------|----------|
+|                     | Historische Geographie Palästinas                      | 3 ECTS   |
+|                     | Einführung in die altorientalische Ikonographie        | 3 ECTS   |
+|                     | Schrift und Schreiben in der Bibel und im Alten Orient | 3 ECTS   |
+|                     | Sprachen                                               | 5 ECTS   |
+| Schriftliche Arbeit | Umfang: 30'000-40'000 Zeichen                          | 1 ECTS   |
+
+*
+
+Eine  der  Veranstaltungen  aus  dem  Grundstudium  kann  durch  Eigenleistungen  im  Sinne  eines  'learning contract'  absolviert werden. In Bern  sind für diesen  Studiengang  Seminare  mit 5 CPs  angesetzt; epigraphische Übungen werden wie Sprachkurse behandelt, also auch 5 CPs.
+
+## Optionsprogramm für MA
+
+Zum  Masterstudium  wird  zugelassen,  wer  einen  Bachelor  (30  ECTS)  oder  äquivalenten  Abschluss  in Theologie,  Bibelwissenschaft,  Judaistik,  Religionswissenschaft,  Archäologie,  Altorientalistik,  Ägyptologie oder  einer  verwandten  Studienrichtung  einschliesslich  des  BA-Optionsprogramms  ANEC  hat  und  einen Nachweis  über gute Kenntnisse mindestens einer Sprache  des vorislamischen Israels/Palästinas erbringen kann.
+
+Als Sprachen  des vorislamischen Israels/Palästinas gelten: Althebräisch (einschliesslich des epigraphisch  belegten  Nord-  und  Südostkanaanäischen),  Ägyptisch,  Akkadisch,  Ugaritisch  Aramäisch (einschliesslich  des  Syrischen  und  der  aramäischen  Schriftsprache  der  Nabatäer  und  Palmyrener), Altnordarabisch (Thamudisch und  Safaitisch),  Koptisch,  Armenisch, Griechisch .  Sofern  die  Sprachkurse  in  Freiburg  gehalten  werden, kann zusätzlich zu den 2-3 ECTS für die evaluierte Lehrveranstaltung die Eigenleistung durch einen 'learning contract' mit weiteren 3 ECTS bemessen werden.
+
+| Sprachkurs:                                                         | eine zweite Sprache des Vorislamischen Orients                                                                                                                                                                                                                                                                                                                  | 10 ECTS   |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Wahlpensum: Lehrveranstaltungen aus mindestens 2 der 7 Schwerpunkte | 1. Archäologie Israels/Palästinas 2. Ikonographie Israels/Palästinas und des vorislamischen Orients 3. Aegyptologie 4. Sprachen, Inschriften und Literaturen des vorislamischen Vor- derasiens 5. Religionsgeschichte Israels/Palästinas im Rahmen des vorisla- mischen Orients 6. Textüberlieferung der Hebräischen Bibel 7. Wirtschafts- und Sozialgeschichte | 20 ECTS   |
+
+## 2. PATRISTIQUE ET HISTOIRE DE L'EGLISE/PATRISTIK UND KIRCHENGESCHICHTE :
+
+CHRISTLICHE RELIGIONS- UND KULTURGESCHICHTE /KIRCHENGESCHICHTE
+
+HISTOIRE DE LA RELIGION ET DE LA CULTURE CHRÉTIENNES / HISTOIRE DE L'EGLISE
+
+Verantwortlich für das Optionsprogramm / Responsable du programme à option Ce programme est offert par le Département de Patristique et d'Histoire de l'Eglise / Dieses Optionsprogramm wird vom Departement für Patristik und Kirchengeschichte angeboten.
+
+## Optionsprogramm BA/MA / Programme à option BA/MA
+
+| (Pro-)Sémi- naires/ (Pro-)Semi- nare   | 1 proséminaire Histoire de l'Eglise ancienne - Patristique / 1 Proseminar Geschichte der Alten Kirche - Patristik 1 proséminaire Histoire de l'Eglise / 1 Proseminar Kirchengeschichte 1 séminaire en Histoire de l'Eglise ancienne - Patristique ou en Histoire de l'Eglise / 1 Seminar in Geschichte der Alten Kirche - Patristik oder in Kirchengeschichte   | 4 ECTS 4 ECTS         |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| Cours/ Vorlesungen                     | Cours en Histoire de l'Eglise ancienne - Patristique / Vorlesungen in Ge- schichte der Alten Kirche - Patristik Cours en Histoire de l'Eglise / Vorlesungen in Kirchengeschichte Cours spéciaux en Histoire de l'Eglise ancienne - Patristique - Histoire de l'Eglise / Spezialvorlesungen in Geschichte der Alten Kirche - Patristik - Kirchengeschichte       | 6 ECTS 6 ECTS 10 ECTS |
+| Total                                  |                                                                                                                                                                                                                                                                                                                                                                 | 30 ECTS               |
+
+## 3. SCIENCES DE LA FOI ET DES RELIGIONS, PHILOSOPHIE/ GLAUBENS- UND RELIGIONSWISSENSCHAFT, PHILOSOPHIE: FONDEMENTS DE LA FOI/GRUNDKURS DES GLAUBENS
+
+## Verantwortlich für das Optionsprogramm / Responsable du programme à option
+
+Ce programme est offert par le Département de sciences de la foi et des religions, philosophie  /  Dieses Optionsprogramm wird vom  Departement für Glaubensund Religionswissenschaften,  Philosophie angeboten.
+
+## Optionsprogramm BA / Programme à option BA
+
+| Proséminaire/ Proseminar             | 1 proséminaire Philosophie / 1 Proseminar Philosophie                                                                                                                                                                                                                                                                                    | 4 ECTS                             |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| Cours/ Vorlesungen                   | 1 cours de théologie propédeutique / 1 Vorlesung Einführung in die Theologie 1 cours de Philosophie / 1 Vorlesung Philosophie 1 cours de théologie fondamentale / 1 Vorlesung Fundamentaltheologie Cours de théologie dogmatique / Vorlesungen in Dogmatik 1 cours d'introduction à l'œcuménisme / 1 Vorlesung Einführung in die Ökumene | 3 ECTS 3 ECTS 3 ECTS 8 ECTS 1 ECTS |
+| Interdisciplinaire/ Interdisziplinär | 1 cours d'introduction à la science des religions (étude d'une religion non-chrétienne) / 1 Vorlesung Religionswissenschaft (Studium einer nicht-christlichen Religion)                                                                                                                                                                  | 1 ECTS                             |
+| Total                                |                                                                                                                                                                                                                                                                                                                                          | 30                                 |
+|                                      | A choix / Wahlbereich                                                                                                                                                                                                                                                                                                                    | 7 ECTS                             |
+|                                      |                                                                                                                                                                                                                                                                                                                                          | ECTS                               |
+
+## Optionsprogramm MA / Programme à option MA
+
+| Séminaire/ Seminar                   | 1-2 séminaire(s) en Philosophie et/ou en théologie fondamentale / 1-2 Seminar(e) in Philosophie und/oder Fundamentaltheologie                                                                    | 4-8 ECTS          |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Cours/ Vorlesungen                   | Cours de théologie dogmatique / Vorlesungen in Dogmatik 1 cours (facultatif) de Philosophie et/ou de théologie fondamentale / 1 (fakultative) Vorlesung in Philosophie und/oder Fundamentaltheo- | 8 ECTS (3 ECTS)   |
+| Interdisciplinaire/ Interdisziplinär | 1 cours en science des religions (étude d'une religion non chrétienne) / 1 Vorlesung in Religionswissenschaft (Studium einer nicht-christ- lichen Religion) A choix / Wahlbereich                | 3 ECTS 11-13 ECTS |
+| Total                                |                                                                                                                                                                                                  | 30 ECTS           |
+
+## 4. THÉOLOGIE MORALE ET ÉTHIQUE / MORALTHEOLOGIE UND ETHIK
+
+## Verantwortlich für das Optionsprogramm / Responsable du programme à option
+
+Ce  programme  est  offert  par  le  Département  de  théologie  morale  et  d'éthique. Dieses Optionsprogramm wird vom Departement für Moraltheologie und Ethik angeboten.
+
+## Optionsprogramm BA / Programme à option BA
+
+| Proséminaire/ Proseminar   | 1 proséminaire de théologie morale / 1 Proseminar in Moraltheologie 1 séminaire en théologie morale / 1 Seminar in Moraltheologie und Ethik                                                                                                                                                                                                                                                                           | 2 ECTS 4 ECTS         |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| Cours/ Vorlesungen         | 4 cours de théologie morale fondamentale / 4 Vorlesungen in Funda- mentalmoral 1 cours de théologie de la spiritualité (ou dans des domaines par ex. d'éthique d'économie, éthique de l'environnement, bioéthique) / 1 Vorlesung in Theologie der Spiritualität (oder in Bereichen wie z.B. Wirtschaftsethik, Umweltethik, Bioethik) Cours complémentaires en théologie morale / Spezialvorlesungen in Moraltheologie | 16 ECTS 2 ECTS 3 ECTS |
+
+| Interdisciplinaire/ Interdisziplinär   | 1 cours d'introduction à la philosophie / 1 Vorlesung Einführung in die Philosophie   | 3 ECTS   |
+|----------------------------------------|---------------------------------------------------------------------------------------|----------|
+| Total                                  |                                                                                       | 30 ECTS  |
+
+## Optionsprogramm MA / Programme à option MA
+
+| Séminaire/ Seminar   | 1 séminaire en théologie morale / 1 Seminar in Sozialethik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 4 ECTS               |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| Cours/ Vorlesungen   | 4 cours de théologie morale spéciale / 4 Vorlesungen Fundamentalmoral 2 cours de théologie de la spiritualité (ou dans des domaines par ex. d'éthique d'économie, éthique de l'environnement, bioéthique) / 2 Vorlesungen in Theologie der Spiritualität (oder in Bereichen wie z.B. Wirtschaftsethik, Umweltethik, Bioethik) Cours complémentaires en théologie morale (dans des domaines par ex. d'éthique d'économie, éthique de l'environnement, bioéthique) / Spezialvorlesungen in Moraltheologie (in Bereichen wie z.B. Wirtschaftsethik, Umweltethik, Bioethik) | 16 CTS 4 ECTS 6 ECTS |
+| Total                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 30 ECTS              |
+
+## 5.        A) THÉOLOGIE PRATIQUE/ PRAKTISCHE THEOLOGIE
+
+## Verantwortlich für das Optionsprogramm / Responsable du programme à option
+
+Ce programme est offert par le Département de théologie pratique. Un des professeurs du département prend  la  responsabilité.  /  Dieses  Optionsprogramm  wird  vom  Departement  für  Praktische  Theologie angeboten. Die Leitung übernimmt einer der Professoren des Departements.
+
+## Optionsprogramm BA/MA / Programme à option BA/MA
+
+| Séminaire/ Seminare                  | 1 séminaire à choix (sciences liturgiques, droit canonique, théologie pastorale, pédagogie religieuse, homilétique) / 1 Seminar zur Wahl (Liturgiewissenschaft, Kirchenrecht, Pastoraltheologie, Religions- pädagogik, Homiletik)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 4 ECTS        |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| Cours/ Vorlesungen                   | 1-2 cours d'introduction aux sciences liturgiques / 1-2 Vorlesung(en) Einführung in die Liturgiewissenschaft 1-2 cours d'introduction à la théologie pastorale / 1-2 Vorlesung(en) Einführung in die Pastoraltheologie 1 cours de sciences humaines / 1 Vorlesung in Humanwissenschaften 1 cours de sciences liturgiques / 1 Vorlesung in Liturgiewissenschaft 1 cours de droit canonique / 1 Vorlesung in Kirchenrecht 1 cours de théologie pastorale / 1 Vorlesung in Pastoraltheologie 1 cours de pédagogie religieuse / 1 Vorlesung in Religionspädagogik 1 cours à choix (sciences liturgiques, droit canonique, théologie pasto- rale, pédagogie religieuse, homilétique, sciences humaines) / 1 Vor- lesung zur Wahl (Liturgiewissenschaft, Kirchenrecht, Pastoraltheo- logie, Religionspädagogik, Homiletik, Humanwissenschaften) Ou/oder 1 colloque dans un domaine du département ou colloque scientifique / 1 Kolloquium in einem der Fächer des Departements oder ein Fachkolloquium | 18 ECTS       |
+| Interdisciplinaire/ Interdisziplinär | 1 cours d'introduction à la science des religions / 1 Vorlesung in Religionswissenschaft (Studium einer nicht-christlichen Religion) A choix/zur Wahl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1 ECTS 7 ECTS |
+| Total                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 30 ECTS       |
+
+## 5. B) SCIENCES LITURGIQUES / LITURGIEWISSENSCHAFT
+
+## Verantwortlich für das Optionsprogramm / Responsable du programme à option
+
+Ce programme d'option est offert par l'Institut de sciences liturgiques / Dieses Options- programm wird vom Institut für Liturgiewissenschaft angeboten.
+
+## Optionsprogramm BA/MA / Programme à option BA/MA
+
+La connaissance du latin est une condition d'admission. / Der Nachweis von Lateinkenntnissen ist Voraussetzung.
+
+| Séminaires/ Seminare                 | 2 séminaires en Sciences liturgiques / 2 Seminare in Liturgiewissen- schaft                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8 ECTS   |
+|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Cours/ Vorlesungen                   | 1 cours d'introduction à la science liturgique / 1 Vorlesung Einführung in die Liturgiewissenschaft 2 cours sur les célébrations des sacrements et sacramentaux et la liturgie dans le rythme du temps / 2 Vorlesungen über Sakramentliche Feiern und Liturgie im Rhythmus der Zeit 1-2 cours complémentaire(s) de sciences liturgiques / 1-2 Spezialvor- lesung(en) in Liturgiewissenschaft 1-2 colloque(s) accompagnant un cours / 1-2 vorlesungsbegleitende Kolloquium(ien) 1-2 journée(s) d'études en pastorale liturgique / 1-2 pastoralliturgische Studientage 'Liturgie im Gespräch'                    | 12 ECTS  |
+| Interdisciplinaire/ Interdisziplinär | 1-2 cours en pastorale des sacrements ou en théologie sacramentaire / 1-2 Vorlesung(en) in Sakramentenpastoral oder Sakramenten- theologie 1 cours ou séminaire en archéologie chrétienne ou en histoire de l'art (en lien avec les sciences liturgiques) / 1 Vorlesung oder Seminar in Christlicher Archäologie oder in Kunstgeschichte (mit liturgiewis- senschaftlicher Relevanz) 1 cours ou séminaire en lien avec les sciences liturgiques dans une autre discipline / 1 Vorlesung oder Seminar mit liturgiewissenschaftlicher Relevanz in einer anderen Disziplin Programme de lecture / Lektüreprogramm | 10 ECTS  |
+| Total                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 30 ECTS  |

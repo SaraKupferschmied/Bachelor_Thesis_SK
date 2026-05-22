@@ -1,0 +1,106 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:07:12.081Z",
+  "title": "unmatched_SES_UNK_50_Lehrfach_Medien_und_Informatik_50_ECTS_Nebenfach_50_ECTS__Lehrfach_Medien_und_Informatik_50_ECTS_2fb02f96ab74f26e40d993f4de429b44228cc842",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2fb02f96ab74f26e40d993f4de429b44228cc842",
+  "program_key": null,
+  "source_url": "https://en.calameo.com/read/00365911584fdc46378f4",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SES_UNK_50_Lehrfach_Medien_und_Informatik_50_ECTS_Nebenfach_50_ECTS__Lehrfach_Medien_und_Informatik_50_ECTS_2fb02f96ab74f26e40d993f4de429b44228cc842.pdf",
+  "sha256": "1fdf3364a077c714d61f1b5038ed3367e3d34d2f743b7a9cda03332db48bb284",
+  "fetched_at": "2026-05-21T16:05:41.686Z",
+  "notes": "calameo downloaded (id=00365911584fdc46378f4, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/210423114444-e383d569ac32f229e763128f014d0e26/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=469a528fa685818dc8928a2191f79c5d36896d6c5d80155ac1d57ee62c23ee70, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.2
+
+## Medien und Informatik
+
+[Version 2021, Anrechnungseinheiten: PV-SIN.0009003, PV-SIN.0009004]
+
+Im  Rahmen  eines  Bachelor  für  den  Unterricht  auf  der  Sekundarstufe  I  (Bachelor  of  Science [BSc\_SI] oder Bachelor of Arts [BA\_SI]) bietet die Mathematisch-Naturwissenschaftliche und Medizinische Fakultät in Zusammenarbeit mit der Fakultät der Wirtschaftsund Sozialwissenschaften  ein  interdisziplinäres  Fach Medien  und  Informatik von  50  ECTSKreditpunkten  an.  Dieses  Facht  besteht  einerseits  aus  Unterrichtseinheiten  (UE)  des  Fachs Informatik  (27  ECTS-Kreditpunkte)  und  Einheiten  der  Didaktik  der  Informatik  (3  ECTSKreditpunkte), andererseits aus Unterrichtseinheiten des Fachs Kommunikationswissenschaft und Medienforschung (20 ECTS). Bachelorarbeiten gibt es keine in diesem Fach.
+
+Für die Didaktik der Informatik  ist das Institut  für  Lehrerinnen-  und  Lehrerausbildung  für  die Sekundarstufen (ILLB) verantwortlich.
+
+## 2.2.1  Unterrichtseinheiten der Informatik (30 ECTS)
+
+## 2.2.1.1  Obligatorische Unterrichteinheiten des ersten Jahres (12 ECTS).
+
+| Code                                                                                          | Titel                                                                                         | Semester                                                                                      | tot.                                                                                          | Std.ECTS                                                                                      |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|                                                                                               | 1. Jahr                                                                                       |                                                                                               |                                                                                               |                                                                                               |
+| SIN.00120                                                                                     | Wissenschaftliches Programmieren (Vorlesung mit Übungen)                                      | HS                                                                                            | 56                                                                                            | 6                                                                                             |
+| SIN.00220                                                                                     | Datenverarbeitung und Visualisierung Programmieren (Vorlesung mit Übungen)                    | FS                                                                                            | 56                                                                                            | 6                                                                                             |
+| 2.2.1.2 Weitere obligatorische Unterrichtseinheiten (des zweiten und dritten Jahres, 18 ECTS) | 2.2.1.2 Weitere obligatorische Unterrichtseinheiten (des zweiten und dritten Jahres, 18 ECTS) | 2.2.1.2 Weitere obligatorische Unterrichtseinheiten (des zweiten und dritten Jahres, 18 ECTS) | 2.2.1.2 Weitere obligatorische Unterrichtseinheiten (des zweiten und dritten Jahres, 18 ECTS) | 2.2.1.2 Weitere obligatorische Unterrichtseinheiten (des zweiten und dritten Jahres, 18 ECTS) |
+|                                                                                               | 2. und 3. Jahr                                                                                |                                                                                               |                                                                                               |                                                                                               |
+| SIN.01021                                                                                     | Netzwerke (Vorlesung mit Übungen)                                                             | HS                                                                                            | 56                                                                                            | 5                                                                                             |
+| SIN.01022                                                                                     | Computerarchitektur (Vorlesung und Übungen)                                                   | HS                                                                                            | 56                                                                                            | 5                                                                                             |
+| SIN.02022                                                                                     | Robotik (Vorlesung mit Projekt und Übungen)                                                   | FS                                                                                            | 56                                                                                            | 5                                                                                             |
+| L24.00567                                                                                     | Berufspraktische Fachdidaktik Informatik                                                      | HS/FS                                                                                         |                                                                                               | 3                                                                                             |
+
+## 2.2.2  Unterrichtseinheiten der Kommunikationswissenschaft und Medienforschung (20/21 ECTS)
+
+Für die Kurse in Kommunikationswissenschaft und Medienforschung gelten die Einschreibedaten und  Prüfungsrichtlinien  der  Fakultät  der  Wirtschafts-  und  Sozialwissenschaften.  Allgemeine Informationen zu Examen sowie Prüfungssession sind unter https://www3.unifr.ch/ses/de/studium/examen-arbeiten/examen/infos.html aufgeführt.
+
+## 2.2.2.1  Obligatorische Unterrichteinheiten (12 ECTS).
+
+| Code                                              | Titel                                                     | Semester   |   tot. Std. |   ECTS |
+|---------------------------------------------------|-----------------------------------------------------------|------------|-------------|--------|
+|                                                   | 1., 2. oder 3. Jahr                                       |            |             |        |
+| EKM.00035                                         | Vorlesung 'Einführung in die Kommunikationswissenschaft'  | HS         |          28 |      3 |
+| EKM.00037                                         | Vorlesung 'Mediennutzungs- und Medien- wirkungsforschung' | FS         |          28 |      3 |
+|                                                   | 1 Proseminar 1 aus nachstehender Liste:                   | HS/FS      |          28 |      3 |
+| EKM.00769 EKM.00770 EKM.00771 EKM.00772 EKM.00773 | inkl. Proseminararbeit 1                                  |            |             |      3 |
+
+## 2.2.2.2  Frei wählbare Unterrichtseinheiten (21 ECTS)
+
+| Code      | Titel                                                                                         | Semester   |   tot. Std.ECTS |    |
+|-----------|-----------------------------------------------------------------------------------------------|------------|-----------------|----|
+|           | 1., 2. oder 3. Jahr 3 Vorlesungen aus folgender Liste:                                        |            |                 |    |
+| EKM.00039 | Vorlesung 'Kommunikations- und Mediengeschichte'                                              | FS         |              28 |  3 |
+| EKM.00047 | Vorlesung 'Journalismusforschung'                                                             | FS         |              28 |  3 |
+| EKM.00050 | Vorlesung 'PR-Forschung und Kommunikations- management'                                       | HS         |              28 |  3 |
+| EKM.00090 | Vorlesung 'Medienökonomie'                                                                    | FS         |              28 |  3 |
+| EKM.00579 | Vorlesung 'Methoden der empirischen Sozialforschung: Einführung'                              | HS         |              42 |  3 |
+| EKM.00609 | Vorlesung 'Medienpolitik'                                                                     | HS         |              28 |  3 |
+| EKM.00851 | Vorlesung 'Identität, Gender und Medien'                                                      | HS         |              28 |  3 |
+| EKM.00xxx | Vorlesung 'Politische Kommunikation' Allfällige Lehraufträge im Bereich Medien und Informatik | FS         |              28 |  3 |
+
+## 2.2.3 Beschreibung der Unterrichtseinheiten
+
+- Die Vorlesung Wissenschaftliches Programmieren (SIN.00120) beinhaltet eine Einführung in die Programmierung mit einem Schwerpunkt auf der Softwareentwicklung zum wissenschaftlichen Rechnen.
+- Die Vorlesung Datenverarbeitung und Visualisierung (SIN.00220) beinhaltet eine Einführung in diese Technologien, mit besonderem Bezug auf das Web.
+- Die  Vorlesung Netzwerke (SIN.01021)  behandelt  die  Netzwerkarchitektur,  Services  und Protokolle im Internet und bei der Sicherung der Datenübertragung.
+- In Computerarchitektur (SIN.01022) wird die Funktionsweise und Architektur eines Computers betrachtet, also die physikalischen Aspekte eines Computers (Hardware) beleuchtet.
+- Robotik (SIN.02022) führt Basiskonzepte der autonomen Robotik und der Simulation ein.
+
+****
+
+1 Wenn die TeilnehmerInnenzahl die Kapazitäten des DCMs übersteigt, wird das Proseminar inkl. Proseminararbeit ersetzt durch eine Vorlesung.
+
+- Die Vorlesung Einführung in die Kommunikationswissenschaft (EKM.00035) legt Grundlagen für das Studium der Kommunikationswissenschaft. Sie vermittelt einen Überblick über das Fach (Gegenstand, Forschungsfelder). Studierende werden mit den zentralen Grundbegriffen (Kommunikation, Medien, Massenkommunikation und Öffentlichkeit) sowie mit den damit verbundenen Modellen und theoretischen Ansätzen vertraut gemacht. Die zentralen Akteure kommunikationswissenschaftlicher Perspektiven (Journalismus, PR, Politik, Publikum) sowie Grundzüge  der  Mediennutzungs-  und  Medienwirkungsforschung  werden  besprochen.  Den Abschluss bildet ein Überblick über Systeme und Strukturen (Medienpolitik, Medienökonomie etc.).
+- Der erste Teil der Vorlesung Mediennutzungs- und Medienwirkungsforschung (EKM.00037) befasst sich mit dem Wirkungsbegriff sowie den Grundlagen und Konzepten von Medienwirkungen. Nach Diskussion von Selektions- und Nutzungsmotiven werden affektive Phänomene näher beleuchtet. Hieran schliessen sich sozialpsychologische Perspektiven auf Medienwirkungen an. Darauf aufbauend werden gesamtgesellschaftliche Wirkungen in den Blick genommen, die sich z. B. mit der Frage beschäftigen, wie die Medien die öffentliche Kommunikation bestimmen und strukturieren oder sich auf die gesellschaftliche Verteilung von Wissen auswirken und wie Medien unsere Realitätswahrnehmung beeinflussen.
+- Im Proseminar  Medien,  Kommunikation  und  Wissenschaftliches  Arbeiten machen  sich Studierende mit der schweizerischen Medienlandschaft und mit ausländischen Mediensystemen vertraut: Wie sind die Medien organisiert und finanziert? Wie beschaffen und vertreiben sie ihre Informationen? Welche unterschiedlichen Regulierungsinstanzen gibt es? Wer sind die wichtigen Medienakteure? Ein Teil der Veranstaltung ist für eine allgemeine Einführung  in  das  wissenschaftliche  Arbeiten  reserviert.  Es  werden  Recherchierhilfen, Zitierregeln und der Aufbau einer schriftlichen Arbeit vorgestellt und anhand von praktischen Beispielen eingeübt. Der Beitrag der Studierenden zur Veranstaltung besteht in Gruppenarbeiten, Referaten und Übungen. Ausserdem ist eine schriftliche Proseminararbeit (Umfang: ca. 15 Seiten) zu verfassen, in der ein ausgewähltes Thema vertieft behandelt wird.
+- Die Vorlesung Kommunikations- und Mediengeschichte (EKM.00039) geht der Frage nach, wie  die  öffentliche  Kommunikation  zu  verschiedenen  Zeiten  und  in  unterschiedlichen Gesellschaften funktioniert(e). Wer waren die an der öffentlichen Kommunikation Beteiligten? Welche Medien wurden dafür eingesetzt, wer kontrollierte diese und wer hatte Zugang dazu? Wie waren die soziale Kommunikation und ihre Medien jeweils organisiert?
+- Die Vorlesung Journalismusforschung (EKM.00047) befasst sich mit den Bedingungen, unter denen  massenmediale  Produkte  produziert  und  vertrieben  werden.  Aus  welchen  Gründen ergreifen Menschen diesen Beruf? Wie sehen die Ausbildungssituation und die Arbeitsbedingungen  aus?  Welche  Faktoren  und  Sozialisationsinstanzen  beeinflussen  die journalistische  Arbeit?  Wie  positionieren  sich  Journalistinnen  und  Journalisten  in  ihrer jeweiligen Gesellschaft (Berufsrollenselbstverständnisse)? Was bedeuten journalistische Ethik und  journalistische  Qualität,  und  wer  befasst  sich  mit  diesen  Themen?  Welches  sind  die Eigenheiten  diverser  journalistischer  Sparten?  Wie  hat  sich  das  Berufsfeld  in  der  jüngsten Vergangenheit geändert, und wie sieht die Zukunft des Journalismus aus?
+- Die  Vorlesung PR-Forschung  und  Kommunikationsmanagement (EKM.00050)  gibt  einen Überblick über die theoretischen Grundlagen und Ansätze sowie praktischen Tätigkeitsbereiche des Kommunikationsmanagement und der strategischen Kommunikation unter den Bedingungen der Mediengesellschaft, in der sich staatliche, politische, non-profit und private Organisationen auf den Meinungsmärkten positionieren müssen und diese durch ihre Aktivitäten entscheidend mitprägen.
+- Die  Vorlesung Medienökonomie (EKM.00090)  befasst  sich  mit  der  Funktionsweise  von Medienmärkten und Medienunternehmen in der digitalen Gesellschaft. Aus unterschiedlichen theoretischen Perspektiven werden die Marktfähigkeit und die gesellschaftlichen Folgen der marktlichen Bereitstellung von Medien thematisiert.
+
+- Die  Vorlesung Methoden  der  empirischen  Sozialforschung:  Einführung (EKM.00579) behandelt Forschungskonzepte, verschiedene Schritte im Forschungsprozess, Instrumente der Datenerhebung und Sekundärdaten.
+- Die  Vorlesung Medienpolitik (EKM.00609)  fokussiert  auf  die  politische  Gestaltung  des Mediensektor im digitalen Zeitalter. Dabei wird nicht nur die Einflussnahme unterschiedlicher Akteure auf den medienpolitischen Prozess thematisiert, sondern auch die Regulierung von Medien und Onlineplattformen auf nationaler, europäischer und globaler Ebene.
+- Die Vorlesung Identität,  Gender  und  Medien (EKM.00851) behandelt Fragen wie:  Warum dominieren  in  den  Medien  Fitness,  Jugend  und  Schönheit?  Warum  gibt  es  spezielle Überraschungseier oder Tütensuppen für Mädchen und spezielle für Jungs? Gilt 'zeige mir was Du isst, und ich sage Dir wer Du bist'? Welche Rolle haben Drag Queens und Kings in unserer  Gesellschaft?  Welche  Gender-Kenntnisse  brauchen  Manager  und  Managerinnen? Welche Rolle spielt Instagram bei unseren Identitätskonstruktionen?
+- Die Vorlesung Politische  Kommunikation (EKM.TBD)  befasst  sich  mit  der Erzeugung, Bewerbung  und  Verbreitung  von  Information zwischen  politischen  Akteuren,  Medien  und Bevölkerung,  sowie  den  Auswirkungen  dieser  Kommunikation auf  den  Meinungsbildungsprozess und auf das Verhalten der beteiligten Akteure.
+
+## 2.2.4  Evaluation
+
+Die Evaluationsmodalitäten der Unterrichtseinheiten sind in den Anhängen zu den Studienplänen beschrieben. Man konsultiere dazu die Anhänge für die Informatik.
+
+Für  die  Unterrichtseinheiten,  des  Teilbereiches  Kommunikationswissenschaft  und  Medienforschung sind die Evaluationsmodalitäten im Kursprogramm aufgeführt.

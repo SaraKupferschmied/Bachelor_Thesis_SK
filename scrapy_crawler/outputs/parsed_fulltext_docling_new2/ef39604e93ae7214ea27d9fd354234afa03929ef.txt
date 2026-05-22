@@ -1,0 +1,50 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:47:52.445Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Informatique_prop_deutique_ef39604e93ae7214ea27d9fd354234afa03929ef",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ef39604e93ae7214ea27d9fd354234afa03929ef",
+  "program_key": "faculty of science and medicine|bachelor|120|computer science",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_IN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Informatique_prop_deutique_ef39604e93ae7214ea27d9fd354234afa03929ef.pdf",
+  "sha256": "be66f010dbd357070fd6633b3d51b1200a7e9a88e7973f3e9790ba9561802176",
+  "fetched_at": "2026-05-21T16:05:13.119Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_IN_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.2  Informatique propédeutique
+
+[Version 2020, module : MO-SIN.00047]
+
+L'informatique propédeutique offre des unités d'enseignement de première année pour la plupart des voies d'études de la Faculté des sciences et de médecine. L'accent est mis sur la formation pratique, au moyen d'exercices et des travaux pratiques à réaliser sur machine.
+
+## 2.2.1 Unités d'enseignement de l'informatique propédeutique
+
+Chaque semestre, une unité d'enseignement est formée de deux heures de cours et deux heures d'exercices . À ce cours s'ajoute un travail pratique progressif appelé mini-projet.
+
+## Semestre 1 (automne)
+
+| Code                   | Unité d'enseignement                                           | h. tot.   | ECTS   |
+|------------------------|----------------------------------------------------------------|-----------|--------|
+| SIN.00120              | Programmation scientifique (cours avec exercices)              | 56        | 6      |
+|                        |                                                                |           | 6      |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                                         |           |        |
+| Code                   | Unité d'enseignement                                           | h. tot.   | ECTS   |
+| SIN.00220              | Traitement des données et visualisation (cours avec exercices) | 56        | 6      |
+|                        |                                                                |           | 6      |
+
+## 2.2.2 Contenu des unités d'enseignement
+
+L'objectif du semestre d'automne est de se familiariser avec les logiciels spécialisés pour le calcul scientifique . La matière propose une introduction à la programmation en mettant l ' accent sur le développement des logiciels pour le calcul scientifique. Quant au semestre de printemps, il fournit une introduction au traitement des données et à leur visualisation , notamment en relation avec le Web.
+
+## 2.2.3 Évaluation de l'informatique propédeutique
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de l'informatique.

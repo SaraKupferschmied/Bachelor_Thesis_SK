@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_Schema_2016.2__2251c75bf15e62c6f1d27db01cb5c825402bebe9",
+  "markdown": "<!-- image -->\n\n## STUDIENAUFBAU: GESCHICHTE 30  LDS I (STUDIENPLAN 2016)\n\n## Modulnummer ab FS 2023\n\n<!-- image -->\n\nDieser Studiengang wird ausschliesslich in deutscher Sprache angeboten.",
+  "pages": [
+    "<!-- image -->\n\n## STUDIENAUFBAU: GESCHICHTE 30  LDS I (STUDIENPLAN 2016)\n\n## Modulnummer ab FS 2023\n\n<!-- image -->\n\nDieser Studiengang wird ausschliesslich in deutscher Sprache angeboten."
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "STUDIENAUFBAU: GESCHICHTE 30 LDS I (STUDIENPLAN 2016)",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Modulnummer ab FS 2023",
+      "line_index": 4,
+      "source": "markdown_regex"
+    }
+  ]
+}

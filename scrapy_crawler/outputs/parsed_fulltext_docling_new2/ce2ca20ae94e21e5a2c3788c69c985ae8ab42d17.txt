@@ -1,0 +1,61 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:54:23.807Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_Schema_2016__ce2ca20ae94e21e5a2c3788c69c985ae8ab42d17",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ce2ca20ae94e21e5a2c3788c69c985ae8ab42d17",
+  "program_key": "faculty of humanities|bachelor|120|history",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_Schema_2016__ce2ca20ae94e21e5a2c3788c69c985ae8ab42d17.pdf",
+  "sha256": "13ce38a9c5321306e0bc99bb3430b197196cbb9939da6ad9a77b3f3c0113a885",
+  "fetched_at": "2026-05-21T16:05:23.697Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENAUFBAU: BA GESCHICHTE 60
+
+(STUDIENPLAN 2016)
+
+## P F L C H T L
+
+## L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)
+
+- 1 Überblicksvorlesung (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Epoche I (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Epoche II (3 ECTS)
+- 2 Vorlesungen oder 1 Proseminar ausserhalb der Epochen I / II (2x3 / 6 ECTS)
+
+## W  A H L P F L C H T T E L
+
+## BASISMODUL EPOCHE I (15 ECTS)   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+- 2 Vorlesungen (2x3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach I festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot
+
+## BASISMODUL EPOCHE II (15 ECTS) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+- 2 Vorlesungen (2x3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach II festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot
+
+## VERTIEFUNGSMODUL EPOCHE I (15 ECTS)
+
+- 1 Vorlesung (3 ECTS)
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+- -&gt; Methodenkurs II
+
+## NOTA BENE
+
+- Wahl und Kombination der Epochenfächer im Wahlpflichtteil sind der / dem Studierenden überlassen. Es gilt eine Einschränkung:
+- Zur Wahl für das Vertiefungsmodul stehen nur die beiden Epochenfächer, die im Rahmen der Basismodule belegt wurden.
+- Codes und konkreter Aufbau der Basis- und Vertiefungsmodule im Dokument: Ü bersicht Module

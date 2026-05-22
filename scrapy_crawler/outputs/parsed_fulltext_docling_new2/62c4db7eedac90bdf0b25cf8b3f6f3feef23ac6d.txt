@@ -1,0 +1,76 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:11:46.673Z",
+  "title": "matched_Faculty_of_Theology_Doctorate_UNK_Theology_Abgabe_Archivierung_Ver_ffentlichung_der_wissenschaftlichen_Abschlussarbeiten_62c4db7eedac90bdf0b25cf8b3f6f3feef23ac6d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "62c4db7eedac90bdf0b25cf8b3f6f3feef23ac6d",
+  "program_key": "faculty of theology|doctorate||theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/SP%25202022/Richtlinien_Abgabe_schriftliche_Abschlussarbeiten_2022.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Abgabe_Archivierung_Ver_ffentlichung_der_wissenschaftlichen_Abschlussarbeiten_62c4db7eedac90bdf0b25cf8b3f6f3feef23ac6d.pdf",
+  "sha256": "54fbe2f0fcfa8e79b35cab2feb2e85520c4052674b855847e28f44f922d33d20",
+  "fetched_at": "2026-05-21T16:05:38.796Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%25202022/Richtlinien_Abgabe_schriftliche_Abschlussarbeiten_2022.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Abgabe - Archivierung - Veröffentlichung der wissenschaftlichen Abschlussarbeiten
+
+| Bachelor     |                                                                                                                                       |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Abgabe       | 1 PDF über MyUnifr 1 ; 3 gebundene Exemplare in Papierform an das Dekanat (davon je 1 Ex. für die zwei Zensoren); keine Spiralbindung |
+| Archivierung | 1 Exemplar im Archiv der Fakultät                                                                                                     |
+
+| Master, Diplom, Kan. Lizentiat   |                                                                                                                                                                                            |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Abgabe                           | 1 PDF über MyUnifr 1 ; 3 gebundene Exemplare in Papierform an das Dekanat (davon je 1 Ex. für die zwei Zensoren); keine Spiralbindung                                                      |
+| Archivierung                     | 1 Exemplar in der Kantons- und Universitätsbibliothek (KUB)                                                                                                                                |
+| Veröffentlichung                 | Wenn die Arbeit mit der Mindestnote 5,5 (insigni cum laude) bewertet wurde, kann sie mit Zustimmung der Fakultät in gedruckter Form oder als pdf-Version durch rero-doc publiziert werden. |
+
+| Doktorat           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Abgabe             | 1 PDF über MyUnifr 1 ; 5 gebundene (oder broschierte) Exemplare an das Dekanat (vgl. Reglement vom 17.12.1996), recto-verso gedruckt; keine Spiralbindung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Umfang             | 200-300 Seiten mit 2'500 Zeichen/Seite; d.h. insges. 500'000-750'000 Zeichen (ohne Leerschläge)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Veröffentlichung   | als gedrucktes Buch oder durch rero-doc oder in beiden Formen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Pflichtexemplare 2 | a) bei Veröffentlichung über einen Verlag : 10 Exemplare des gedruckten Buches an die KUB (davon sind: 4 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 3 Ex. für die KUB, 1 Ex. für die Bibliothek Geschichte/Theologie (BHT), 1 Ex. für die Nationalbibliothek Bern); b) bei einer Veröffentlichung im Selbstverlag : 15 Ex. an die KUB (davon 10 Ex. wie unter a), die weiteren Exemplare zum Tausch unter Bibliotheken); c) bei Veröffentlichung durch rero-doc : 10 Exemplare in Buchform (kein A4-Format) an die KUB (davon sind: 4 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 3 Ex. für die KUB, 1 Ex. für die BHT, 1 Ex. für die Nationalbibliothek Bern) |
+
+KUB: Kantons- und Universitätsbibliothek https://www3.unifr.ch/biblio/de/
+
+1 Gemäss Fakultätsbeschluss vom 6.10.2020
+
+2 Gemäss Fakultätsbeschluss vom 11.12.2018
+
+Fortsetzung s. nächste Seite
+
+| Habilitation       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Abgabe             | 1 elektronisches Dokument PDF 1 ; 4 gebundene (oder broschierte) Exemplare an das Dekanat (vgl. geltendes Habilitationsreglement); keine Spiralbindung                                                                                                                                                                                                                                                                                                                |
+| Veröffentlichung   | als gedrucktes Buch                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Pflichtexemplare 3 | a) bei Veröffentlichung über einen Verlag : 8 Ex des gedruckten Buches an die Kantons- und Universitätsbibliothek https://www3.unifr.ch/biblio/de/ (davon sind: 3 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 2 Ex. für die KUB, 1 Ex. für die BHT, 1 Ex. für die Nationalbibliothek Bern); b) bei einer Veröffentlichung im Selbstverlag : 15 Ex. an die KUB (davon 8 Ex. wie unter a), die weiteren Exemplare zum Tausch unter Bibliotheken |
+
+| Einband   | Grundsätzlich gilt: Die zur Archivierung bestimmten Exemplare dürfen keine Spiralbindung haben.   |
+|-----------|---------------------------------------------------------------------------------------------------|
+
+## Ehrenwörtliche Erklärung
+
+Richtlinien der Universität Freiburg vom 13. Mai 2008 über das Verfahren für die Verhängung von Disziplinarstrafen nach Art. 116 der Statuten der Universität Freiburg vom 4. November 2016 im Falle des Verstosses gegen die Regeln guter wissenschaftlicher Praxis beim Verfassen schriftlicher Arbeiten während der Ausbildung:
+
+https://www3.unifr.ch/apps/legal/de/document/274678
+
+Gemäss diesen Richtlinien muss die ' Ehrenwörtlichen Erklärung ' jeder öffentlich zugänglichen schriftlichen Arbeit (Master, Lizentiat, Doktorat, Habilitation) beigelegt sein. Ohne diese Erklärung gilt die Arbeit als nicht eingereicht. Das Dokument kann im Dekanat abgeholt werden und ist im Internet verfügbar unter dem folgenden Link:
+
+https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche\_Erkl aerung-dt.doc.pdf
+
+| Prüfungs- und Diplomgebühren 4   | fällig bei der Abgabe der schriftlichen Arbeit, per Banküberweisung zu bezahlen (direkt über MyUnifr)   | fällig bei der Abgabe der schriftlichen Arbeit, per Banküberweisung zu bezahlen (direkt über MyUnifr)   | fällig bei der Abgabe der schriftlichen Arbeit, per Banküberweisung zu bezahlen (direkt über MyUnifr)   |
+|----------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Prüfungs- und Diplomgebühren 4   | Vollprogramm                                                                                            | Hauptprogramm                                                                                           | Nebenprogramm                                                                                           |
+| Bachelor                         | CHF 180                                                                                                 | CHF 120                                                                                                 | CHF 30 / CHF 60                                                                                         |
+| Master                           | CHF 240                                                                                                 | CHF 180                                                                                                 | CHF 60                                                                                                  |
+| Kirchliches Diplom               | CHF 200                                                                                                 | -                                                                                                       | -                                                                                                       |
+| Kanonisches Lizentiat            | CHF 200                                                                                                 | -                                                                                                       | -                                                                                                       |
+| Doktorat                         | CHF 400                                                                                                 | -                                                                                                       | -                                                                                                       |
+| Habilitation                     | CHF 600                                                                                                 | -                                                                                                       | -                                                                                                       |

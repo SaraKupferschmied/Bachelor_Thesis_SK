@@ -1,0 +1,53 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:49:53.824Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Chemistry_Chimie_prop_deutique_ca3169630e9ec164be97e6f472a815ca8489815b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ca3169630e9ec164be97e6f472a815ca8489815b",
+  "program_key": "faculty of science and medicine|bachelor|150|chemistry",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_CH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Chemistry_Chimie_prop_deutique_ca3169630e9ec164be97e6f472a815ca8489815b.pdf",
+  "sha256": "a779b16d5e697195843004d355af97af257962f91d525cb4916e832fea48a7a2",
+  "fetched_at": "2026-05-21T16:05:18.653Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_CH_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.4 Chimie propédeutique
+
+[Version 2020, modules : MO-SCH.00008, MO-SCH.00010]
+
+La chimie propédeutique offre les unités d ' enseignement de première année pour la plupart des voies d ' études de la Faculté des sciences et de médecine. Elle regroupe des cours, exercices et  travaux  pratiques  d ' une  valeur  totale  de  12  crédits  ECTS.  Il  y  a  2  variantes  possibles  au semestre  de  printemps.  La  variante  A  est  spécialement  adaptée  pour  les  étudiant-e-s  en physique et la variante B pour les étudiant-e-s en biologie.
+
+## 2.4.1 Unités d ' enseignement de la Chimie propédeutique
+
+## Semestre 1 (automne)
+
+| Code                   | Unité d ' enseignement               | h. tot.   | ECTS   |
+|------------------------|--------------------------------------|-----------|--------|
+| SCH.01014              | Chimie générale (avec exercices)     | 84        | 6      |
+|                        |                                      |           | 6      |
+| Semestre 2 (printemps) | Semestre 2 (printemps)               |           |        |
+| Code                   | Unité d ' enseignement               | h. tot.   | ECTS   |
+| SCH.01024              | Chimie générale (travaux pratiques)  | 15        | 3      |
+|                        | Variante A :                         |           |        |
+| SCH.01067              | Chimie des éléments (avec exercices) | 42        | 3      |
+|                        | ou                                   |           |        |
+|                        | Variante B :                         |           |        |
+| SCH.01072              | Chimie organique de base             | 42        | 3      |
+|                        |                                      |           | 6      |
+
+## 2.4.2 Contenu des unités d ' enseignement
+
+Le  cours  de Chimie  générale établit  les  bases  de  la  chimie  et  complète  les  connaissances acquises au gymnase pour les amener au niveau universitaire. Au second semestre, le choix de la variante A permet le renforcement des bases avec la Chimie des éléments, qui apporte une introduction sur la structure chimique des matériaux ainsi que leurs propriétés et réactivité. La variante B donne avec la Chimie organique de base, une introduction aux réactions organiques et aux mécanismes réactionnels.
+
+## 2.4.3 Évaluation de la chimie propédeutique
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie (http://www.unifr.ch/scimed/plans/eval).

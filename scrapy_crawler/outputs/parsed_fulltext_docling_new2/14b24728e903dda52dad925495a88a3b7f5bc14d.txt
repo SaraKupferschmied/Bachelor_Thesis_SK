@@ -1,0 +1,65 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:27:56.696Z",
+  "title": "matched_Faculty_of_Education_Bachelor_150_Teacher_Education_for_Secondary_Level_I_Introduction_aux_branches_choix_BA_SI_14b24728e903dda52dad925495a88a3b7f5bc14d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "14b24728e903dda52dad925495a88a3b7f5bc14d",
+  "program_key": "faculty of education|bachelor|150|teacher education for secondary level i",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BASI-SciMed_Intro_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_150_Teacher_Education_for_Secondary_Level_I_Introduction_aux_branches_choix_BA_SI_14b24728e903dda52dad925495a88a3b7f5bc14d.pdf",
+  "sha256": "c6e4137156f45acbee728033d4b091bce6339fe308f834e057f4c813d9e01f31",
+  "fetched_at": "2026-05-21T16:05:16.537Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BASI-SciMed_Intro_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Généralités
+
+Ce document contient les plans d ' études des 5 programmes d ' études disciplinaires offerts par la Faculté des sciences et de médecine aux étudiant·e·s de la Faculté des lettres et des sciences humaines, de la Faculté des sciences de l'éducation et de la formation ainsi que de la Faculté de théologie qui souhaitent obtenir le Bachelor of Arts en enseignement pour le degré secondaire I (BA\_SI).
+
+Un programme d'étude disciplinaire  choisi  dans  la  Faculté  des  sciences  et  de  médecine  est considérée comme une branche complémentaire au sens du Règlement du 30 mai 2022 pour l ' obtention des Bachelor of Science et des Masters of Science de la Faculté des sciences et de médecine. Il est régi par ce règlement. En cas de réussite, il est attestée par la Faculté des sciences et de médecine et validé ensuite dans le cadre du BA\_SI.
+
+Chaque programme d'études disciplinaire  a  un volume de 30, 50 ou 70 crédits ECTS.  Les 5 programme  d'études disciplinaires  offerts  par  la  Faculté  de  sciences  et  de  médecine  sont Géosciences (30  ou  50  ECTS), Mathématiques (30  ou  50  ECTS), Informatique (30  ou  50 ECTS), Sciences naturelles (50 ou 70 ECTS), Sciences du sport et de la motricité (70 ECTS).
+
+## 2 Notions de base
+
+Les programmes d'études offerts  par  la  Faculté  des  sciences  et  de  médecine  se  composent d ' unités  d ' enseignement (UE)  telles  que  les  cours,  les  exercices,  les  travaux  pratiques,  les workshops, les projets, etc., qui s ' étendent habituellement sur un semestre. À chacune des UE est associé un nombre de crédits ECTS.
+
+## 3 Évaluation des UE et attribution des crédits ECTS
+
+L ' acquisition des crédits ECTS passe par deux étapes : l ' évaluation des unités d ' enseignement et la validation des crédits ECTS.
+
+Chaque unité d ' enseignement est évaluée, soit sous la forme d ' une épreuve, soit par la participation active à des expériences, des exercices ou d ' autres travaux pratiques. Une épreuve conduit habituellement à une note, alors que les autres formes d ' évaluation sont jugées à l ' aide des prédicats  « réussi » ou « échoué ». Les modalités d ' évaluation d ' une UE sont décrites dans des annexes disponibles à http://www.unifr.ch/scimed/fr/plans. Si l ' épreuve d ' une unité d ' enseignement est parfois orale, parfois écrite, les étudiant·e·s doivent être informé·e·s au début du semestre correspondant de la façon dont se déroulera l ' épreuve. De manière similaire, ils doivent  être  instruits  au  début  de  chaque  semestre  sous  quelles  conditions  les  travaux,  les expériences ou les exercices sont jugés « réussi ». En  cas d'exception, celle -ci sera communiquée par le Département et/ou par l'enseignant ·e responsable.
+
+Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément. Le nombre de paquets est fixé par les Art. 24 et 27 du règlement susmentionné et le contenu est précisé par ces plans d'études.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement
+
+Après validation ,  sur  demande de l'étudiant · e et après acquittement de la taxe d'examen, un relevé de prestations indiquant les résultats des évaluations et le nombre de crédits acquis sera délivrée par le Décanat (Art. 28 et 30 du règlement).
+
+## 4 Langues d ' enseignement
+
+L ' enseignement dans les programmes d'études de la formation disciplinaire est donné en français ou en allemand. Toutefois, l'étudiant · e a toujours la possibilité de s'exprimer dans l'une ou l'autre de ces langues. Les enseignements peuvent parfois être donnés en anglais. Les examens, les présentations et les travaux écrits peuvent être effectués, au choix, en français ou en allemand.
+
+## 5 Éthique scientifique
+
+Les principes d ' éthique scientifique font partie intégrante de la formation scientifique. Les règles internationalement admises doivent être respectées lors de l ' élaboration et la rédaction de tout travail  scientifique  (projet,  séminaire,  travail  de  bachelor  et  de  master,  rapport,  etc.).  En particulier, toute source externe d ' information (articles, communications orales, page web, etc.) doit être correctement citée.
+
+Dans ce cadre, la Faculté a mis en place la formation obligatoire ci-dessous : Vous trouvez la description détaillée à l'adresse : https://www.unifr.ch/scimed/fr/integrity
+
+## Orientation de base et recherche à la bibliothèque
+
+Le but est de connaître les objectifs et les méthodes spécifiques de la recherche documentaire.
+
+Cette formation est à suivre durant le premier semestre d'études. Vous pourrez consulter vos résultats  seulement  après  avoir  réussi  cette  formation  et  soumis  le  formulaire  « Déclaration d'intégrité scientifique » signé.
+
+## 6 Informations complémentaires
+
+De plus amples informations concernant les études enseignement pour le degré secondaire I sont contenues dans les documents cités sur la page web http://www.unifr.ch/scimed/fr/plans, ainsi que sur la page http://www.unifr.ch/scimed/fr/studies/teach.

@@ -1,0 +1,119 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:25:20.719Z",
+  "title": "unmatched_THEO_UNK_UNK_Habilitation_Direktiven_e0acf4676a5f69df91297b401ac18ccd1a6b6790",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e0acf4676a5f69df91297b401ac18ccd1a6b6790",
+  "program_key": null,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/directives_%202016.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_Direktiven_e0acf4676a5f69df91297b401ac18ccd1a6b6790.pdf",
+  "sha256": "6837d3bdfdf04d25e38a94388abab3d69eba357ce23a9402fc6b8d53456eb400",
+  "fetched_at": "2026-05-21T16:05:41.663Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/directives_%202016.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Abgabe - Archivierung - Veröffentlichung der wissenschaftlichen Abschlussarbeiten
+
+Die Theologische Fakultät der Universität Freiburg / Schweiz  beschliesst:
+
+## 1. Bachelor-Arbeiten
+
+Abgabe:
+
+3 gebundene Exemplare in Papierform an das Dekanat (davon 1 Exemplar für die zwei Zensoren).
+
+Aufbewahrung:
+
+1 Exemplar im Archiv der Fakultät. 1
+
+## 2. Lizentiats-, Master- und Diplom-Arbeiten
+
+Abgabe:
+
+3 gebundene Exemplare in Papierform an das Dekanat (davon 1 Exemplar für die zwei Zensoren).
+
+Aufbewahrung:
+
+1 Exemplar in der KUB. 1
+
+Veröffentlichung:
+
+Wenn die Arbeit mit der Mindestnote 5,5 (insigni cum laude) bewertet wurde, kann der/die Verfasser-in nach Zustimmung der Fakultät sie in gedruckter Form oder als pdf-Version durch rero-doc 3 publizieren.
+
+## 3. Doktoratsdissertationen
+
+Abgabe:
+
+5  gebundene  (oder  broschierte)  Exemplare  an  das  Dekanat  (vgl.  Reglement vom 17.12.1996). recto-verso gedruckt.
+
+Umfang:
+
+200-300 Seiten mit 2'500 Zeichen/Seite; d.h. insges. 500'000-750'000 Zeichen (ohne Leerschläge) 2
+
+Veröffentlichung:
+
+Als gedrucktes Buch oder durch rero-doc 3
+
+oder in beiden Formen.
+
+Pflichtexemplare:
+
+Gemäss Fakultätsbeschluss vom 3. Mai 2005, Tract. 16:
+
+- a) bei  Veröffentlichung  über  einen  Verlag:  10  Exemplare  des  gedruckten Buches an die KUB (davon sind: 5 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 2 Ex. für die KUB, 1 Ex. für die BHT, 1 Ex. für die Nationalbibliothek Bern);
+- b)   bei  einer  Veröffentlichung  im  Selbstverlag:  40  Ex.  an  die  KUB  (davon  10 Ex. wie unter a), die weiteren Exemplare zum Tausch unter Bibliotheken);
+- c)   bei  Veröffentlichung  durch rero-doc :  10  Exemplare in  Buchform (kein A4Format) an die KUB (davon sind: 5 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 2 Ex. für die KUB, 1 Ex. für die BHT, 1 Ex. für die Nationalbibliothek Bern).
+
+Fortsetzung s. nächste Seite
+
+1 : s. unten Nr. 5 ; 2 Beschluss des Fakultätsrats vom 28.10.2014; 3 réro-doc ersetzt ethesis ab Januar 2015
+
+## 4. Habilitationsschriften
+
+Abgabe:
+
+Veröffentlichung:
+
+Pflichtexemplare:
+
+## 5. Einband
+
+Grundsätzlich gilt: Die zur Archivierung bestimmten Exemplare dürfen keine Spiralbindung haben.
+
+## 6. Ehrenwörtliche Erklärung
+
+Richtlinien der Universität Freiburg vom 13. Mai 2008 über das Verfahren für die Verhängung von Disziplinarstrafen nach Art. 101 der Statuten der Universität Freiburg vom 31. März 2000 im Falle des Verstosses gegen die Regeln guter wissenschaftlicher Praxis beim Verfassen schriftlicher Arbeiten während der Ausbildung: http://www.unifr.ch/rectorat/reglements/pdf/1\_1\_15.pdf.
+
+Gemäss diesen Richtlinien muss die 'Ehrenwörtlichen Erklärung' jeder öffentlich zugänglichen schriftlichen Arbeit (Master, Lizentiat, Doktorat, Habilitation) beigelegt sein. Ohne diese Erklärung gilt die Arbeit als nicht eingereicht. Das Dokument kann im Dekanat abgeholt werden und ist im Internet verfügbar unter dem folgenden Link:
+
+[http://www.unifr.ch/theo/assets/files/SP2015/ehrenwoertliche\_erklaerung.pdf](http://www.unifr.ch/theo/assets/files/SP2015/ehrenwoertliche_erklaerung.pdf)
+
+## 7. Prüfungs- und Diplomgebühren
+
+Beschluss der Fakultätsratssitzung vom 6.10.2015 - fällig bei der Abgabe der schriftlichen Arbeit, resp. per Banküberweisung zu bezahlen (EZ erhältlich im Dekanat)
+
+|                                           |   Vollprogramm Progr. unique |   Hauptprogramm Progr. principal | Nebenprogramm Progr. secondaire   |
+|-------------------------------------------|------------------------------|----------------------------------|-----------------------------------|
+| Bachelor                                  |                          180 |                              120 | 30 / 60                           |
+| Master                                    |                          240 |                              180 | 60                                |
+| Kirchliches Diplom Diplôme ecclésiastique |                          200 |                                0 | 0                                 |
+| Kanonisches Lizentiat Licence Canonique   |                          200 |                                0 | 0                                 |
+| Doktorat - Doctorat                       |                          400 |                                0 | 0                                 |
+| Habilitation                              |                          600 |                                0 | 0                                 |
+
+22.03.2016 / (* Änderung vom 4.11.08, 28.10.2014)
+
+- 4  *  gebundene  (oder  broschierte)  Exemplare  an  das  Dekanat  (vgl.  geltendes Habilitationsreglement).
+
+Als gedrucktes Buch.
+
+Gemäss Fakultätsbeschluss vom 3. Mai 2005, Tract. 16:
+
+- a) bei Veröffentlichung über einen Verlag: 8 Ex des gedruckten Buches an die KUB (davon sind: 3 Ex. für die Mitglieder der Jury, 1 Ex. für das Archiv der Fakultät, 2 Ex. für die KUB, 1 Ex. für die BHT, 1 Ex. für die Nationalbibliothek Bern);
+- b)   bei  einer  Veröffentlichung  im  Selbstverlag:  40  Ex.  an  die  KUB  (davon  10 Ex. wie unter a), die weiteren Exemplare zum Tausch unter Bibliotheken).

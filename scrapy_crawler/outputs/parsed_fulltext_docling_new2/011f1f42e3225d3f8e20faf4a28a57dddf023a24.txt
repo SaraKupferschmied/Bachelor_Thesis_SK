@@ -1,0 +1,160 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T20:52:19.957Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Branches_compl_mentaires_en_informatique_011f1f42e3225d3f8e20faf4a28a57dddf023a24",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "011f1f42e3225d3f8e20faf4a28a57dddf023a24",
+  "program_key": "faculty of science and medicine|bachelor|120|computer science",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_IN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Branches_compl_mentaires_en_informatique_011f1f42e3225d3f8e20faf4a28a57dddf023a24.pdf",
+  "sha256": "1842866e5fd695b4975cb41b1179065dc7e5c0433d74be4d62fae102e35c80f1",
+  "fetched_at": "2026-05-21T16:05:13.102Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_IN_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+s
+
+<!-- image -->
+
+## 3.2  Informatique
+
+Le département d ' informatique propose une branche complémentaire à 30 ECTS (BCo-INF30), une branche complémentaire à 60 ECTS (BCo-INF60), ainsi qu ' une branche complémentaire spécialisée  pour  le  diplôme  d ' enseignement pour les écoles de maturité (BCo-INF60 pour le DEEM). Ces plans d ' études sont relativement libres, mais il convient de bien se renseigner sur les prérequis de chacune des unités d ' enseignement.
+
+La branche complémentaire informatique n ' impose pas de choisir l ' informatique propédeutique, mais, en fonction de la branche principale, cette dernière peut être recommandée. Mais en aucun cas, un cours ne peut être validé deux fois.
+
+## 3.2.1 Unités d ' enseignement
+
+## 3.2.1.1 Unités d ' enseignement de la branche complémentaire BCo-INF30
+
+[Version 2022, paquet de validation : PV-SIN.0000059]
+
+La branche complémentaire BCoINF30 s'étale en principe sur 2 à 3 ans. Le plan d ' études est composé de  6  UE  de  5  ou  6  ECTS  chacune  dont  4  sont  obligatoires,  soit Introduction  à  la programmation (SIN.01023) du 1 er  semestre, Programmation proche du système (SIN.02020) et Programmation orientée objets (SIN.02023) du 2 ème  semestre et Algorithmique (SIN.03023) du 3 ème  semestre.
+
+Les crédits restants peuvent être acquis par un choix d'options. Tous les cours et tous les projets du plan d ' études de la branche principale informatique, niveau BSc, peuvent être choisis comme option. Exceptionnellement, et avec l'accord du conseiller aux études, les cours du MSc peuvent également être choisis en option.
+
+L ' offre des unités d ' enseignement est résumée dans les tableaux ci-dessous.
+
+## 3.2.1.2 Unités d ' enseignement de la branche complémentaire BCo-INF60
+
+[Version 2022, paquet de validation : PV-SIN.0000060]
+
+La branche complémentaire BCoINF60 s'étale en principe sur 2.5 à 3 ans. Le plan d' études est composé de 12 UE de 5 ou 6 ECTS chacune dont 4 sont obligatoires, soit Introduction  à  la programmation (SIN.01023) du 1 er  semestre, Programmation proche du système (SIN.02020) et Programmation orientée objets (SIN.02023) du 2 ème  semestre et Algorithmique (SIN.03023) du 3 ème  semestre.
+
+Les crédits restants peuvent être acquis par un choix d'options. Tous les cours et tous les projets du plan d ' études de la branche principale informatique, niveau BSc, peuvent être choisis comme option. Exceptionnellement, et avec l'accord du conseiller aux études, les cours du MSc peuvent également être choisis en option.
+
+L ' offre des unités d ' enseignement est résumée dans les tableaux ci-dessous.
+
+## Semestre 1 (automne)
+
+| Code      | Unité d ' enseignement                                    |   h. tot. |   ECTS |
+|-----------|-----------------------------------------------------------|-----------|--------|
+|           | UE obligatoire :                                          |           |        |
+| SIN.01023 | Introduction à la programmation (cours avec exercices)    |        56 |      6 |
+|           | UE optionnelles :                                         |           |        |
+| SIN.01021 | Réseaux (cours avec exercices)                            |        56 |      5 |
+| SIN.01022 | Architecture d'ordinateur (cours avec exercices)          |        56 |      5 |
+| SMA.00103 | Analyse propédeutique I (cours avec exercices) [A]        |        42 |      3 |
+| SMA.00202 | Algèbre linéaire propédeutique (cours avec exercices) [B] |        42 |      3 |
+
+[A, B, C] : Les UE avec la même lettre doivent être prises ensembles
+
+| UE obligatoires :           | UE obligatoires :                                                       | UE obligatoires :           | UE obligatoires :           |
+|-----------------------------|-------------------------------------------------------------------------|-----------------------------|-----------------------------|
+| SIN.02020                   | Programmation proche du système (cours avec exercices)                  | 56                          | 5                           |
+| SIN.02023                   | Programmation orientée objets (cours avec exercices)                    | 56                          | 6                           |
+| UE optionnelles :           | UE optionnelles :                                                       | UE optionnelles :           | UE optionnelles :           |
+| SIN.02022                   | Robotique (cours avec exercices)                                        | 56                          | 5                           |
+| SMA.00104                   | Analyse propédeutique II (cours avec exercices) [A]                     | 42                          | 3                           |
+| SMA.00402                   | Statistique propédeutique (cours avec exercices) [B]                    | 42                          | 3                           |
+| Semestre 3 ou 5 (automne)   | Semestre 3 ou 5 (automne)                                               | Semestre 3 ou 5 (automne)   | Semestre 3 ou 5 (automne)   |
+| SIN.03023                   | UE obligatoire (au semestre 3) : Algorithmique (cours avec exercices)   | 56                          | 6                           |
+| UE optionnelles :           | UE optionnelles :                                                       | UE optionnelles :           | UE optionnelles :           |
+| SIN.03024                   | Bases de données (cours avec exercices)                                 | 56                          | 6                           |
+| SIN.04028                   | Contrôle de processus (cours avec exercices)                            | 56                          | 5                           |
+| SIN.05020                   | Programmation fonctionnelle et logique (cours avec exercices)           | 56                          | 5                           |
+| SIN.05022                   | Systèmes concurrents et distribués (cours avec exercices)               | 56                          | 5                           |
+| SMA.07003                   | Méthodes mathématiques de l ' informatique I (cours avec exercices) [C] | 56                          | 5                           |
+| Semestre 4 ou 6 (printemps) | Semestre 4 ou 6 (printemps)                                             | Semestre 4 ou 6 (printemps) | Semestre 4 ou 6 (printemps) |
+| UE optionnelles :           | UE optionnelles :                                                       | UE optionnelles :           | UE optionnelles :           |
+| SIN.04023                   | Génie logiciel (cours avec exercices)                                   | 56                          | 6                           |
+| SIN.04022                   | Systèmes d'exploitation (cours avec exercices)                          | 56                          | 5                           |
+| EIG.00132                   | Information Systems Modeling (cours avec exercices)                     | 56                          | 6                           |
+| SIN.06021                   | Méthodes formelles (cours avec exercices)                               | 56                          | 5                           |
+| SIN.06022                   | Apprentissage automatique (cours avec exercices)                        | 56                          | 5                           |
+| SMA.07004                   | Méthodes mathématiques de l'informatique II (cours avec exercices) [C]  | 56                          | 5                           |
+
+## 3.2.1.3 Unités d ' enseignement de la branche complémentaire BCo-INF60 pour le DEEM
+
+[Version 2022, paquet de validation : PV-SIN.0000061]
+
+Le plan d ' études pour l ' enseignement de l ' informatique prévoit des cours obligatoires et des cours facultatifs pour un total d ' au minimum 60 ECTS. Ce plan suppose en prérequis des connaissances en mathématiques correspondant aux cours de mathématiques propédeutiques (12 ECTS). Dans le cas où les bases issues de la maturité fédérale seraient insuffisantes, il est recommandé de suivre les cours de mathématiques propédeutiques en parallèle aux cours de première année du programme ci-dessous.
+
+La branche complémentaire BCo-INF60-DEEM s'étend en principe sur 3 ans. Le plan d ' études est composé de 12 UE de 5 ou 6 ECTS chacune, dont 8 sont obligatoires. L ' offre des unités d ' enseignement est résumée dans les tableaux ci-dessous.
+
+| Code                                             | Unité d ' enseignement                                               | Semestr e   |   h. tot. |   ECTS |
+|--------------------------------------------------|----------------------------------------------------------------------|-------------|-----------|--------|
+| Cours obligatoires en première année             | Cours obligatoires en première année                                 |             |           |        |
+| SIN.01023                                        | Introduction à la programmation (cours avec exercices)               | SA          |        56 |      6 |
+| SIN.01021                                        | Réseaux (cours avec exercices)                                       | SA          |        56 |      5 |
+| SIN.01022                                        | Architecture d'ordinateurs (cours avec exercices)                    | SA          |        56 |      5 |
+| SIN.02020                                        | Programmation proche du système (cours avec exercices)               | SP          |        56 |      5 |
+| SIN.02023                                        | Programmation orientée objets (cours avec exercices)                 | SP          |        56 |      6 |
+| Cours facultatifs en première année              | Cours facultatifs en première année                                  |             |           |        |
+| SIN.02022                                        | Robotique (cours avec exercices)                                     | SP          |        56 |      5 |
+| Cours obligatoires à partir de la deuxième année | Cours obligatoires à partir de la deuxième année                     |             |           |        |
+| SIN.03023                                        | Algorithmique (cours avec exercices)                                 | SA          |        56 |      6 |
+| SIN.03024                                        | Bases de données (cours avec exercices)                              | SA          |        56 |      6 |
+| SIN.06021                                        | Méthodes formelles (cours avec exercices)                            | SP          |        56 |      5 |
+| Cours facultatifs à partir de la deuxième année  | Cours facultatifs à partir de la deuxième année                      |             |           |        |
+| SIN.04028                                        | Contrôle de processus (cours avec exercices)                         | SA          |        56 |      5 |
+| SIN.05020                                        | Programmation fonctionnelle et logique (cours avec exercices)        | SA          |        56 |      5 |
+| SIN.05022                                        | Systèmes concurrents et distribués (cours avec exercices)            | SA          |        56 |      5 |
+| SIN.04023                                        | Génie logiciel (cours avec exercices)                                | SP          |        56 |      6 |
+| SIN.04022                                        | Systèmes d'exploitation (cours avec exercices)                       | SP          |        56 |      5 |
+| EIG.00132                                        | Information Systems Modeling (cours avec exercices)                  | SP          |        56 |      6 |
+| SIN.06022                                        | Apprentissage automatique (cours avec exercices)                     | SP          |        56 |      5 |
+| SMA.07003                                        | Méthodes mathématiques de l ' informatique I (cours avec exercices)  | SA          |        56 |      5 |
+| SMA.07004                                        | Méthodes mathématiques de l ' informatique II (cours avec exercices) | SP          |        56 |      5 |
+
+## 3.2.2 Contenu des unités d ' enseignement des branches complémentaires
+
+## Les cours d ' informatique
+
+Toutes les unités d ' enseignement d ' informatique sont semestrielles et regroupent deux heures de  cours  et  une  ou  deux  heures  d ' exercices.  Les  cours  ont  pour  objectif  de  transmettre  les connaissances théoriques et les séances d ' exercices permettent aux étudiant-e-s de mettre en pratique ces connaissances. En d ' autres termes, les exercices constituent un excellent moyen pour l ' étudiant-e d ' évaluer l ' assimilation du cours.
+
+Les cours de première année sont organisés pour permettre à l'étudiant -e d'appréhender l'infor -matique selon des points de vue complémentaires.
+
+- Le cours Introduction à la programmation (SIN.01023) donne les bases de la programmation d'un ordina teur.
+- Le  cours Réseaux (SIN.01021)  traite  de  l ' architecture  des  réseaux,  des  services  et  des protocoles sur Internet et dans la sécurisation de la transmission des données.
+- Le cours Architecture d'ordinateur (SIN.01022) permet d ' étudier le fonctionnement des ordinateurs à partir de leur architecture, c ' est-à-dire avec une vue matérielle.
+- Le cours Programmation proche du système (SIN.02020) introduit à la programmation impérative de processus proches du système d'exploitation.
+- Le cours Robotique (SIN.02022) introduit aux concepts de base de la robotique autonome et de la simulation.
+- Le  cours Programmation  orientée  objets (SIN.02023)  introduit  à  la  programmation  en  se basant sur les fondements de la programmation dite orientée objets.
+
+Ainsi, dès la première année, les étudiant-e-s sont mis au contact avec des principaux modèles de programmation et des concepts d'informatique.
+
+Les cours de deuxième année complètent les connaissances de programmation acquises lors de la première année.
+
+- Le  cours Algorithmique (SIN.03023) est  dédié  à  l'étude  des  algorithmes,  c'est -à-dire  des méthodes de résolution de problèmes classiques à l'aide d'ordinateurs.
+- Le cours Bases de données (SIN.03024 ) est consacré à l'organisation des données dans les systèmes de gestion de bases de données.
+- Le  cours Information  Systems  Modeling (EIG.00132)  s'intéresse  à  la  modélisation  de systèmes d'information et des données qui y sont traitées, par exemple au moyen de XML .
+- Le  cours  G énie  logiciel (SIN.04023)  considère  le  développement  systématique  de  logiciel selon le principe de la programmation orientée objets.
+- Le cours Systèmes d'exploitation (SIN.04022) traite de manière spécifique du fonctionnement des systèmes d'exploitation, une composante majeure de tout ordinateur.
+- Le cours Contrôle de processus (SIN.04028) traite du développement de logiciels de contrôle pour un système physique, y compris l'interface entre ordinateur et monde physique .
+
+Les cours de troisième année comprennent exclusivement des cours d ' informatique.
+
+- Dans le cours Programmation fonctionnelle et logique (SIN.05020), on introduit les deux styles de programmation (fonctionnelle et logique).
+- Le  cours Systèmes  concurrents  et  distribués (SIN.05022)  aborde  quelques  modèles  de programmation concurrente et répartie.
+- Le cours Méthodes formelles (SIN.06021) considère des concepts mathématiques utiles pour le développement de programmes ainsi que les questions de solvabilité générale et efficace des problèmes.
+- Le  cours Apprentissage  automatique (SIN.06022)  introduit  des  méthodes  permettant  aux ordinateurs l'apprentissage autonome de résolution de problèmes.
+
+## 3.2.3 Évaluation des unités d ' enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de con sulter l'annexe de l'informatique et des mathématiques.

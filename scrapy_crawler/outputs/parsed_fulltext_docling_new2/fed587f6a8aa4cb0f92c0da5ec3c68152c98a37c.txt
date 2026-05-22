@@ -1,0 +1,59 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T03:07:19.731Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Religious_studies_Schema_BA_120_ECTS_fed587f6a8aa4cb0f92c0da5ec3c68152c98a37c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "fed587f6a8aa4cb0f92c0da5ec3c68152c98a37c",
+  "program_key": "faculty of humanities|bachelor|120|religious studies",
+  "source_url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120-2017-Schemata-DE.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Religious_studies_Schema_BA_120_ECTS_fed587f6a8aa4cb0f92c0da5ec3c68152c98a37c.pdf",
+  "sha256": "f50ce7549a27859c3401f0473944f75fa06cbc73235664b1fd89ca43fd622fcc",
+  "fetched_at": "2026-05-21T16:05:20.730Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120-2017-Schemata-DE.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Bachelor Religionswissenschaft
+
+## Studienprogramm zu 120 Kreditpunkten
+
+## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+VL: Einführung in die RW (3 ECTS)
+
+PS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)
+
+- 2 VL: Grundlagen Sozialwissenschaften (Sozialanthropologie und Soziologie (6 ECTS)
+
+Religiöse Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Theorie und Fachgeschichte der RW
+
+D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Modul Bachelorarbeit (18 ECTS): Bachelor-Arbeit (15 ECTS), Kolloquium (3 ECTS)
+
+Modul Bereichsübergreifende und komplementäre Kompetenzen (CTC) 12 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+Gesellschaft, Kultur und Religion D &amp; F - 15 ECTS
+
+- 5 Lehrveranstaltungen (15 ECTS)
