@@ -12,10 +12,137 @@ type DB = { query: (text: string, params?: any[]) => Promise<any> };
 function parseBoolJaNein(v: any): boolean | null {
   if (v == null) return null;
   const s = String(v).trim().toLowerCase();
-  if (s === "ja") return true;
-  if (s === "nein") return false;
+  if (["ja", "yes", "oui", "si", "sì", "true"].includes(s)) return true;
+  if (["nein", "no", "non", "false"].includes(s)) return false;
   return null;
 }
+
+function firstValue(obj: AnyObj, keys: string[]): any {
+  for (const key of keys) {
+    const value = obj?.[key];
+    if (value !== undefined && value !== null && String(value).trim() !== "") return value;
+  }
+  return null;
+}
+
+function firstArray(obj: AnyObj, keys: string[]): any[] {
+  for (const key of keys) {
+    const value = obj?.[key];
+    if (Array.isArray(value)) return value;
+    if (typeof value === "string" && value.trim()) {
+      return value.split(/[,;]|\band\b/i).map((x) => x.trim()).filter(Boolean);
+    }
+  }
+  return [];
+}
+
+function resolveInputPath(envName: string, candidates: string[]): string {
+  const envPath = process.env[envName];
+  const allCandidates = [envPath, ...candidates].filter(Boolean) as string[];
+
+  for (const candidate of allCandidates) {
+    const resolved = path.isAbsolute(candidate)
+      ? candidate
+      : path.resolve(process.cwd(), candidate);
+    if (fs.existsSync(resolved)) return resolved;
+  }
+
+  throw new Error(
+    `Input file not found. Tried ${allCandidates.map((x) => JSON.stringify(x)).join(", ")}`
+  );
+}
+
+const COURSE_TIME_KEYS = [
+  "Summary schedule",
+  "Vorlesungszeiten",
+  "Course times",
+  "Lecture times",
+  "Teaching times",
+  "Timetable",
+  "Schedule",
+  "Dates and rooms",
+  "Time and place",
+  "Course dates",
+  "Horaires des cours",
+];
+
+const STRUCTURE_KEYS = [
+  "Struct. of the schedule",
+  "Structure of the schedule",
+  "Strukturpläne",
+  "Structure plans",
+  "Structures",
+  "Plans de structure",
+];
+
+const CONTACT_HOUR_KEYS = [
+  "Kontaktstunden",
+  "Contact hours",
+  "Contact hours per week",
+  "Teaching hours",
+  "Heures de contact",
+];
+
+const DESCRIPTION_KEYS = [
+  "Beschreibung",
+  "Description",
+  "Content",
+  "Course content",
+  "Summary",
+  "Contenu",
+];
+
+const LEARNING_GOAL_KEYS = [
+  "Lernziele",
+  "Training objectives",
+  "Learning objectives",
+  "Learning goals",
+  "Objectives",
+  "Objectifs d’apprentissage",
+  "Objectifs d'apprentissage",
+];
+
+const ADMISSION_CONDITION_KEYS = [
+  "Condition of access",
+  "Admission conditions",
+  "Admission requirements",
+  "Prerequisites",
+  "Requirements",
+  "Zulassungsbedingungen",
+  "Voraussetzungen",
+  "Conditions d'accès",
+  "Conditions d’acces",
+];
+
+const REMARK_KEYS = [
+  "Bemerkungen",
+  "Comments",
+  "Comment",
+  "Descriptions of Exams",
+  "Remarks",
+  "Additional information",
+  "Remarques",
+];
+
+const EVALUATION_SCHEME_KEYS = [
+  "Bewertungsmodus",
+  "Assessments methods",
+  "Assessment methods",
+  "Assessment mode",
+  "Evaluation mode",
+  "Evaluation method",
+  "Mode d'évaluation",
+  "Mode d’évaluation",
+];
+
+const EVALUATION_DESCRIPTION_KEYS = [
+  "Beschreibung",
+  "Descriptions of Exams",
+  "Description",
+  "Assessment description",
+  "Evaluation description",
+  "Contenu",
+];
 
 function splitLanguages(raw: string | null | undefined): string[] {
   if (!raw) return [];
@@ -37,10 +164,20 @@ function parseSemester(
   semId: string | null | undefined
 ): { sem_id: string; year: number; type: "Spring" | "Autumn" } | null {
   if (!semId) return null;
-  const m = String(semId).trim().match(/^(FS|HS)-(\d{4})$/);
+
+  // German scrape used FS/HS, English scrape uses SS/AS. Normalize both
+  // to the existing DB convention FS/HS so downstream semester joins stay stable.
+  const raw = String(semId).trim();
+  const m = raw.match(/\b(FS|HS|SS|AS)-(\d{4})\b/);
   if (!m) return null;
-  const [, t, y] = m;
-  return { sem_id: `${t}-${y}`, year: Number(y), type: t === "FS" ? "Spring" : "Autumn" };
+
+  const [, rawType, y] = m;
+  const normalizedType = rawType === "SS" ? "FS" : rawType === "AS" ? "HS" : rawType;
+  return {
+    sem_id: `${normalizedType}-${y}`,
+    year: Number(y),
+    type: normalizedType === "FS" ? "Spring" : "Autumn",
+  };
 }
 
 function ddmmyyyyToIso(d: string): string | null {
@@ -56,9 +193,38 @@ function parseTimeRange(t: string): { start: string | null; end: string | null }
   return { start: m[1], end: m[2] };
 }
 
+function parseDateTimeRange(raw: any): { date: string | null; start: string | null; end: string | null } {
+  if (!raw) return { date: null, start: null, end: null };
+  const s = String(raw).trim();
+  const dateMatch = s.match(/(\d{2}\.\d{2}\.\d{4})/);
+  const { start, end } = parseTimeRange(s);
+  return { date: dateMatch ? ddmmyyyyToIso(dateMatch[1]) : null, start, end };
+}
+
+function uniqueStrings(values: any[]): string[] {
+  return Array.from(
+    new Set(
+      values
+        .filter((x) => typeof x === "string")
+        .map((x) => x.trim().replace(/\s+/g, " "))
+        .filter(Boolean)
+    )
+  );
+}
+
+function looksLikePersonName(value: string): boolean {
+  const s = value.trim();
+  if (!s || s.length > 90) return false;
+  if (/[<>{}@[\]\d]/.test(s)) return false;
+  if (/\b(room|raum|rue|route|avenue|building|moodle|office|address|http|www\.)\b/i.test(s)) return false;
+  // Timetable names are usually "Last First" and may contain accents, apostrophes or hyphens.
+  // Avoid addresses/free-text accidentally scraped into person tables.
+  return /^[A-Za-zÀ-ÖØ-öø-ÿ][A-Za-zÀ-ÖØ-öø-ÿ .,'’\-]+$/.test(s) && s.split(/\s+/).length <= 6;
+}
+
 function guessOfferingType(schedule: AnyObj, singleDates: AnyObj[]): "Weekly" | "Block" {
-  const vt = String(schedule?.["Vorlesungszeiten"] ?? "").toLowerCase();
-  if (vt.includes("wöchentlich") || vt.includes("weekly")) return "Weekly";
+  const vt = String(firstValue(schedule, COURSE_TIME_KEYS) ?? "").toLowerCase();
+  if (vt.includes("wöchentlich") || vt.includes("weekly") || vt.includes("hebdomadaire") || vt.includes("bi-mensuel")) return "Weekly";
   if (vt.includes("blockkurs") || vt.includes("bloc") || vt.includes("block")) return "Block";
   if (singleDates && singleDates.length > 0) return "Block";
   return "Weekly";
@@ -69,9 +235,9 @@ function buildDayTimeInfo(
   schedule: AnyObj,
   singleDates: AnyObj[] = []
 ): string | null {
-  const vt = String(schedule?.["Vorlesungszeiten"] ?? "").trim();
-  const struktur = String(schedule?.["Strukturpläne"] ?? "").trim();
-  const kontakt = String(schedule?.["Kontaktstunden"] ?? "").trim();
+  const vt = String(firstValue(schedule, COURSE_TIME_KEYS) ?? "").trim();
+  const struktur = String(firstValue(schedule, STRUCTURE_KEYS) ?? "").trim();
+  const kontakt = String(firstValue(schedule, CONTACT_HOUR_KEYS) ?? "").trim();
 
   const weekdayNames = [
     "Sunday",
@@ -115,10 +281,20 @@ function buildDayTimeInfo(
       Mittwoch: "Wednesday",
       Donnerstag: "Thursday",
       Freitag: "Friday",
+      Monday: "Monday",
+      Tuesday: "Tuesday",
+      Wednesday: "Wednesday",
+      Thursday: "Thursday",
+      Friday: "Friday",
+      Lundi: "Monday",
+      Mardi: "Tuesday",
+      Mercredi: "Wednesday",
+      Jeudi: "Thursday",
+      Vendredi: "Friday",
     };
 
     const slotRegex =
-      /(Montag|Dienstag|Mittwoch|Donnerstag|Freitag)\s+(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/g;
+      /(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Monday|Tuesday|Wednesday|Thursday|Friday|Lundi|Mardi|Mercredi|Jeudi|Vendredi)\s+(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/g;
 
     const slots: string[] = [];
     let match: RegExpExecArray | null;
@@ -176,6 +352,16 @@ const FACULTY_NAME_ALIASES: Record<string, string> = {
     "Wirtschafts- und Sozialwissenschaftliche Fakultät",
   "Fakultät für Erziehungs- und Bildungswissenschaften":
     "Fakultät für Erziehungs- und Bildungswissenschaften",
+  "Faculty of Humanities": "Philosophische Fakultät",
+  "Faculty of Law": "Rechtswissenschaftliche Fakultät",
+  "Faculty of Theology": "Theologische Fakultät",
+  "Faculty of Science and Medicine":
+    "Mathematisch-Naturwissenschaftliche und Medizinische Fakultät",
+  "Faculty of Management, Economics and Social Sciences":
+    "Wirtschafts- und Sozialwissenschaftliche Fakultät",
+  "Faculty of Education and Training":
+    "Fakultät für Erziehungs- und Bildungswissenschaften",
+  "Interfaculty": "Interfakultär",
 };
 
 function canonicalizeFacultyName(raw: any): string | null {
@@ -297,6 +483,7 @@ async function upsertCourse(
     ects?: number | null;
     description?: string | null;
     learning_goals?: string | null;
+    admission_conditions?: string | null;
     remarks?: string | null;
     soft_skills?: boolean | null;
     outside_domain?: boolean | null;
@@ -316,15 +503,16 @@ async function upsertCourse(
     )
     VALUES (
       $1, NULL, $2, $3,
-      $4, $5, NULL, $6,
-      $7, $8, $9, $10, $11,
-      $12, $13
+      $4, $5, $6, $7,
+      $8, $9, $10, $11, $12,
+      $13, $14
     )
     ON CONFLICT (code) DO UPDATE SET
       name = EXCLUDED.name,
       ects = EXCLUDED.ects,
       description = EXCLUDED.description,
       learning_goals = EXCLUDED.learning_goals,
+      admission_conditions = EXCLUDED.admission_conditions,
       remarks = EXCLUDED.remarks,
       soft_skills = EXCLUDED.soft_skills,
       outside_domain = EXCLUDED.outside_domain,
@@ -341,6 +529,7 @@ async function upsertCourse(
     args.ects ?? null,
     args.description ?? null,
     args.learning_goals ?? null,
+    args.admission_conditions ?? null,
     args.remarks ?? null,
     args.soft_skills ?? null,
     args.outside_domain ?? null,
@@ -392,15 +581,28 @@ async function insertSessions(db: DB, offering_id: number, sessions: AnyObj[]): 
 
 async function insertEvaluations(db: DB, offering_id: number, evals: AnyObj[]): Promise<void> {
   for (const e of evals || []) {
-    const title = e.title ?? null;
-    const scheme = e.kv?.["Bewertungsmodus"] ?? null;
-    const desc = e.kv?.["Beschreibung"] ?? null;
+    const kv = e.kv ?? {};
+    const title = e.title ?? e.name ?? e.heading ?? null;
+    const scheme = firstValue(kv, EVALUATION_SCHEME_KEYS);
+    const desc = firstValue(kv, EVALUATION_DESCRIPTION_KEYS);
+    const requirements = firstValue(kv, ["Requirements", "Conditions", "Voraussetzungen"]);
+    const examDate = parseDateTimeRange(firstValue(kv, ["Date", "Datum"]));
 
     const q = `
       INSERT INTO Evaluation (offering_id, date, start_time, end_time, description, requirements, evaluation_scheme, remarks)
-      VALUES ($1, NULL, NULL, NULL, $2, NULL, $3, $4);
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+      RETURNING eval_id;
     `;
-    await db.query(q, [offering_id, title, scheme, desc]);
+    await db.query(q, [
+      offering_id,
+      examDate.date,
+      examDate.start,
+      examDate.end,
+      title,
+      requirements,
+      scheme,
+      desc,
+    ]);
   }
 }
 
@@ -432,9 +634,13 @@ async function linkCourseProfessors(db: DB, code: string, profNames: string[]): 
 // Main runner (resilient import)
 // -----------------------------
 async function run() {
-  // adjust default to your output file if needed
-  const inputPath = process.argv[2] || path.resolve(process.cwd(), "scrapy_crawler/scrapy_crawler/spider_outputs/courses.json");
-  if (!fs.existsSync(inputPath)) throw new Error(`Input file not found: ${inputPath}`);
+  const crawlerRoot = process.env.CRAWLER_ROOT ?? path.resolve(process.cwd(), "scrapy_crawler");
+  const inputPath = process.argv[2] || resolveInputPath("COURSES_JSON_PATH", [
+    path.posix.join(crawlerRoot, "scrapy_crawler", "spider_outputs", "courses.json"),
+    path.posix.join(crawlerRoot, "spider_outputs", "courses.json"),
+    path.resolve(process.cwd(), "scrapy_crawler", "scrapy_crawler", "spider_outputs", "courses.json"),
+    path.resolve(process.cwd(), "scrapy_crawler", "spider_outputs", "courses.json"),
+  ]);
 
   const raw = fs.readFileSync(inputPath, "utf-8");
   const items: AnyObj[] = JSON.parse(raw);
@@ -475,8 +681,8 @@ async function run() {
         const details = item.details ?? {};
         const schedule = item.schedule ?? {};
         const teaching = item.teaching ?? {};
-        const singleDates = item.einzeltermine_raeume ?? [];
-        const evals = item.leistungskontrolle ?? [];
+        const singleDates = item.einzeltermine_raeume ?? item.dates ?? [];
+        const evals = item.leistungskontrolle ?? item.assessment ?? [];
 
         const code = String(course.code || details.Code || "").trim();
         if (!code) {
@@ -485,7 +691,7 @@ async function run() {
         }
 
         // ✅ faculty lookup (NO INSERTS)
-        const facultyName = details["Fakultät"] ?? null;
+        const facultyName = firstValue(details, ["Fakultät", "Faculty", "Faculté", "Facoltà"]);
         const faculty_id = await getFacultyIdByName(db, facultyName);
         if (!faculty_id) {
           throw new Error(
@@ -493,22 +699,23 @@ async function run() {
           );
         }
 
-        const domainName = details["Bereich"] ?? details["Domaine"] ?? null;
+        const domainName = firstValue(details, ["Bereich", "Domain", "Field of study", "Domaine", "Domaine d’études", "Domaine d'études"]);
         const domain_id = await upsertDomain(db, domainName, faculty_id);
 
-        const soft_skills = parseBoolJaNein(teaching["Soft Skills"]);
-        const outside_domain = parseBoolJaNein(teaching["ausserhalb des Bereichs"]);
-        const benefri = parseBoolJaNein(teaching["BeNeFri"]);
-        const mobility = parseBoolJaNein(teaching["Mobilität"]);
-        const unipop = parseBoolJaNein(teaching["UniPop"]);
+        const soft_skills = parseBoolJaNein(firstValue(teaching, ["Soft Skills", "Soft skills", "Softskills"]));
+        const outside_domain = parseBoolJaNein(firstValue(teaching, ["ausserhalb des Bereichs", "Outside the domain", "Outside field of study", "Off field"]));
+        const benefri = parseBoolJaNein(firstValue(teaching, ["BeNeFri"]));
+        const mobility = parseBoolJaNein(firstValue(teaching, ["Mobilität", "Mobility"]));
+        const unipop = parseBoolJaNein(firstValue(teaching, ["UniPop"]));
 
         await upsertCourse(db, {
           code,
-          name: course.name ?? details["Name"] ?? null,
+          name: course.name ?? firstValue(details, ["Name", "Title", "Course title"]) ?? null,
           ects: typeof course.ects === "number" ? course.ects : null,
-          description: teaching["Beschreibung"] ?? null,
-          learning_goals: teaching["Lernziele"] ?? null,
-          remarks: teaching["Bemerkungen"] ?? null,
+          description: firstValue(teaching, DESCRIPTION_KEYS) ?? null,
+          learning_goals: firstValue(teaching, LEARNING_GOAL_KEYS) ?? null,
+          admission_conditions: firstValue(teaching, ADMISSION_CONDITION_KEYS) ?? null,
+          remarks: firstValue(teaching, REMARK_KEYS) ?? null,
           soft_skills,
           outside_domain,
           benefri,
@@ -518,7 +725,7 @@ async function run() {
           domain_id,
         });
 
-        const sem = parseSemester(course.semester ?? details["Semester"]);
+        const sem = parseSemester(course.semester ?? course.semester_raw ?? details["Semester"]);
         if (!sem) {
           await db.query("RELEASE SAVEPOINT sp_item");
           continue;
@@ -533,20 +740,25 @@ async function run() {
             code,
             sem.sem_id,
             offering_type,
-            item.source?.detail_page_url ?? null,
+            item.source?.detail_page_url ?? item.source?.detail_url ?? null,
             dayTimeInfo
           );
 
-        const langs = splitLanguages(details["Sprachen"]);
+        const languageText = firstValue(details, ["Sprachen", "Languages", "Langues", "Lingue"]);
+        const langs = languageText
+          ? splitLanguages(languageText)
+          : uniqueStrings(Array.isArray(course.languages) ? course.languages : []);
         await linkOfferingLanguages(db, offering_id, langs);
 
         const profsRaw = [
-          ...(Array.isArray(teaching["Dozenten-innen"]) ? teaching["Dozenten-innen"] : []),
-          ...(Array.isArray(teaching["Verantwortliche"]) ? teaching["Verantwortliche"] : []),
+          ...firstArray(teaching, ["Dozenten-innen", "Lecturers", "Teachers", "Enseignant-e-s"]),
+          ...firstArray(teaching, ["Verantwortliche", "Responsibles", "Responsible lecturers", "Responsible", "Responsables"]),
+          ...firstArray(teaching, ["Assistants", "Assistenten-innen", "Assistant-e-s"]),
         ]
           .filter((x) => typeof x === "string")
           .map((x) => x.trim().replace(/\s+/g, " "))
-          .filter(Boolean);
+          .filter(Boolean)
+          .filter(looksLikePersonName);
 
         const profs = Array.from(new Set(profsRaw));
         await linkCourseProfessors(db, code, profs);
@@ -562,7 +774,7 @@ async function run() {
         await db.query("RELEASE SAVEPOINT sp_item");
 
         const code = item?.course?.code ?? item?.details?.Code ?? "UNKNOWN";
-        const url = item?.source?.detail_page_url ?? null;
+        const url = item?.source?.detail_page_url ?? item?.source?.detail_url ?? null;
 
         failures.push({
           index: i,

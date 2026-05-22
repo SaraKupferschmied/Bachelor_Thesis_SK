@@ -14,11 +14,10 @@
     "import:professors": "cross-env NODE_ENV=development ts-node --transpile-only src/import/update_professors_from_people.ts",
     "import:program_base": "cross-env NODE_ENV=development ts-node --transpile-only src/import/program_basedata_imports.ts",
     "import:program_new": "cross-env NODE_ENV=development ts-node --transpile-only src/import/new_program_imports_dockling.ts",
-    "prune:current_programs": "cross-env NODE_ENV=development ts-node --transpile-only src/import/prune_staging_to_current_program_documents.ts",
     "import:consist_of": "cross-env NODE_ENV=development ts-node --transpile-only src/import/import_consist_of.ts",
     "import:regulations": "cross-env NODE_ENV=development ts-node --transpile-only src/import/run_reglementation_import.ts",
 
-    "import:all": "npm run import:faculty && npm run import:courses && npm run import:professors && npm run import:program_base && npm run import:program_new && npm run prune:current_programs && npm run import:consist_of && npm run import:regulations",
+    "import:all": "npm run import:faculty && npm run import:courses && npm run import:professors && npm run import:program_base && npm run import:program_new && npm run import:consist_of && npm run import:regulations",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },

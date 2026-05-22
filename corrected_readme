@@ -4,9 +4,9 @@ As the whole project runs in docker so you don't need to locally install all the
 
 Copy the file called ".env.docker.example" inside the project source folder (BA_THESIS_DEV), rename it to ".env.docker" and fill it with variables of your choice  (because i didnt push the env variables to github)
 
-As first run, open a terminal and execute "docker compose --env-file .env.docker --profile jobs up --build" (it takes some time to load at the first run!)
+As first run, open a terminal and execute "docker compose --profile jobs up --build" (it takes some time to load at the first run!)
 
-for all later runs use the command: "docker compose --env-file .env.docker up --build" (the first call also filled the db initially, now this is done)
+for all later runs use the command: "docker compose up --build" (the first call also filled the db initially, now this is done)
 
 If you want to rerun the spiders scraping the university websites for the jsons that are used to import data to the database run "python scrapy_crawler\scripts\run_unifr_crawl_pipeline.py" 
 

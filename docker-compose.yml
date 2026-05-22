@@ -66,6 +66,8 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       CRAWLER_ROOT: /scrapy_crawler
+      DOCLING_PARSED_DIR: /scrapy_crawler/outputs/parsed_fulltext_docling_new2
+      COURSES_JSON_PATH: /scrapy_crawler/scrapy_crawler/spider_outputs/courses.json
     depends_on:
       db:
         condition: service_healthy
@@ -107,9 +109,10 @@ services:
         ollama serve &
         sleep 5 &&
         ollama pull llama3.1 &&
+        ollama pull nomic-embed-text &&
         wait
       "
- 
+
   chatbot:
     build:
       context: ./chatbot

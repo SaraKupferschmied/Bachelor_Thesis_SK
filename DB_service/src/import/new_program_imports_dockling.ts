@@ -28,6 +28,31 @@ function normalize(s: string | null | undefined): string {
   return (s ?? "").toLowerCase().replace(/\s+/g, " ").trim();
 }
 
+function normalizeComparable(s: string | null | undefined): string {
+  return (s ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-zA-Z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function uniqueNonEmpty(values: Array<string | null | undefined>): string[] {
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const value of values) {
+    const cleaned = String(value ?? "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
+    if (!cleaned) continue;
+    const key = normalizeComparable(cleaned);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(cleaned);
+  }
+  return out;
+}
+
 function stripNullBytes(s: string | null | undefined): string {
   return (s ?? "").replace(/\u0000/g, "");
 }
@@ -294,68 +319,114 @@ type ResolvedProgram = {
   total_ects: number | null;
 };
 
-async function resolveProgramIds(client: any, meta: any): Promise<ResolvedProgram[]> {
-  const programName = meta.program_name ?? meta.programme_name_en ?? meta.programme ?? meta.name ?? null;
-  const degree = normalizeDegree(meta.degree_level ?? meta.level);
-  const ectsValues = normalizeNumbers(meta.total_ects ?? meta.ects_points ?? meta.ects);
+function metadataProgramCandidates(meta: any): {
+  names: string[];
+  degree: "Bachelor" | "Master" | "Doctorate" | null;
+  ectsValues: number[];
+} {
+  const keyParts = String(meta.program_key ?? "")
+    .split("|")
+    .map((x) => x.trim())
+    .filter(Boolean);
 
-  if (!programName || !degree) return [];
+  const degreeFromKey = keyParts.length >= 2 ? normalizeDegree(keyParts[1]) : null;
+  const ectsFromKey = keyParts.length >= 3 ? normalizeNumber(keyParts[2]) : null;
+  const nameFromKey = keyParts.length >= 4 ? keyParts.slice(3).join(" ") : null;
+
+  const names = uniqueNonEmpty([
+    meta.program_name,
+    meta.programme_name_en,
+    meta.programme,
+    meta.name,
+    nameFromKey,
+  ]);
+
+  const degree = normalizeDegree(meta.degree_level ?? meta.level) ?? degreeFromKey;
+  const ectsValues = normalizeNumbers(meta.total_ects ?? meta.ects_points ?? meta.ects);
+  if (ectsFromKey != null && !ectsValues.includes(ectsFromKey)) ectsValues.push(ectsFromKey);
+
+  return { names, degree, ectsValues };
+}
+
+async function resolveProgramIds(client: any, meta: any): Promise<ResolvedProgram[]> {
+  const { names, degree, ectsValues } = metadataProgramCandidates(meta);
+  if (!names.length || !degree) return [];
 
   const out: ResolvedProgram[] = [];
   const seen = new Set<number>();
 
-  // total_ects can be an array, e.g. [30, 60]. In that case the same
-  // parsed document belongs to multiple StudyProgram rows.
-  for (const ects of ectsValues) {
-    const r = await client.query(
-      `SELECT program_id, total_ects
-       FROM StudyProgram
-       WHERE lower(name) = lower($1)
-         AND degree_level = $2
-         AND total_ects = $3
-       LIMIT 1;`,
-      [programName, degree, ects]
-    );
-
-    const row = r.rows[0];
-    if (!row?.program_id || seen.has(row.program_id)) continue;
-    seen.add(row.program_id);
-    out.push({
-      program_id: row.program_id,
-      total_ects: normalizeNumber(row.total_ects),
-    });
-  }
-
-  // Fallback for older metadata that does not contain ECTS. Do not use this
-  // fallback when ECTS were provided, otherwise a multi-ECTS document could
-  // silently be attached to only the first matching program.
-  if (out.length === 0) {
-    const r = await client.query(
-      `SELECT program_id, total_ects
-       FROM StudyProgram
-       WHERE lower(name) = lower($1)
-         AND degree_level = $2
-       ORDER BY program_id ASC
-       LIMIT 1;`,
-      [programName, degree]
-    );
-
-    const row = r.rows[0];
-    if (row?.program_id) {
+  const addRows = (rows: any[]) => {
+    for (const row of rows) {
+      if (!row?.program_id || seen.has(row.program_id)) continue;
+      seen.add(row.program_id);
       out.push({
         program_id: row.program_id,
         total_ects: normalizeNumber(row.total_ects),
       });
     }
+  };
+
+  // 1) Exact match against all stored program name columns.
+  for (const name of names) {
+    for (const ects of ectsValues) {
+      const r = await client.query(
+        `SELECT program_id, total_ects
+         FROM StudyProgram
+         WHERE degree_level = $2
+           AND total_ects = $3
+           AND (
+             lower(name) = lower($1)
+             OR lower(COALESCE(name_en, '')) = lower($1)
+             OR lower(COALESCE(name_de, '')) = lower($1)
+             OR lower(COALESCE(name_fr, '')) = lower($1)
+           )
+         ORDER BY program_id ASC;`,
+        [name, degree, ects]
+      );
+      addRows(r.rows);
+    }
   }
 
+  if (out.length > 0) return out;
+
+  // 2) Fuzzy fallback for Docling metadata generated from filenames, e.g.
+  //    program_key = "faculty of education|bachelor|180|special education".
+  //    Keep the degree/ECTS filters strict to avoid cross-program leakage.
+  const params: any[] = [degree];
+  let ectsSql = "";
+  if (ectsValues.length > 0) {
+    params.push(ectsValues);
+    ectsSql = `AND total_ects = ANY($${params.length}::float8[])`;
+  }
+
+  const candidates = await client.query(
+    `SELECT program_id, total_ects, name, name_en, name_de, name_fr
+     FROM StudyProgram
+     WHERE degree_level = $1
+       ${ectsSql}
+     ORDER BY program_id ASC;`,
+    params
+  );
+
+  const wanted = names.map(normalizeComparable).filter(Boolean);
+  const fuzzyRows = candidates.rows.filter((row: any) => {
+    const stored = [row.name, row.name_en, row.name_de, row.name_fr]
+      .map(normalizeComparable)
+      .filter(Boolean);
+
+    return wanted.some((w) =>
+      stored.some((s) => s === w || s.includes(w) || w.includes(s))
+    );
+  });
+
+  addRows(fuzzyRows);
   return out;
 }
 
 async function run() {
   const CRAWLER_ROOT = process.env.CRAWLER_ROOT ?? "/scrapy_crawler";
   const parsedDir = process.env.DOCLING_PARSED_DIR
-    ?? path.posix.join(CRAWLER_ROOT, "outputs", "parsed_fulltext_docling_new");
+    ?? path.posix.join(CRAWLER_ROOT, "outputs", "parsed_fulltext_docling_new2");
 
   const files = readTxtFiles(parsedDir);
   const client = await DataAccessController.pool.connect();
@@ -367,6 +438,7 @@ async function run() {
 
   try {
     await client.query("BEGIN;");
+    await client.query("TRUNCATE TABLE programCourseStaging RESTART IDENTITY;");
 
     for (const file of files) {
       const parsed = parseDocling(file);

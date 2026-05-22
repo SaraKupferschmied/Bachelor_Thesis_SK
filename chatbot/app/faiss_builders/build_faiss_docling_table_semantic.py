@@ -25,10 +25,13 @@ SOURCE_METADATA_WHITELIST = {
     "pages",
     "parser",
     "doc_key",
+    "program_key",
+    "faculty",
     "degree_level",
     "total_ects",
     "program_name",
     "doc_label",
+    "title",
     "source_url",
     "source_type",
     "curriculum_url",
@@ -42,11 +45,11 @@ SOURCE_METADATA_ALIASES = {
     "doc_lable": "doc_label",
     "doc_lable": "doc_label",
     "programme_url": None,   # intentionally dropped
-    "program_key": None,     # intentionally dropped
-    "faculty": None,         # intentionally dropped
+    "Programme_Key": "program_key",
+    "programKey": "program_key",
+    "Faculty": "faculty",
     "local_path": None,      # intentionally dropped
     "sha256": None,          # intentionally dropped
-    "title": None,           # intentionally dropped
     "notes": None,           # intentionally dropped
 }
 
@@ -80,7 +83,7 @@ def _index_dir_for(target: str, parser: str, suffix: str) -> Path:
     if target == "studyplans":
         return settings.vectorstore_dir / "faiss_studyplans_docling_table_semantic_new"
     if target in {"regulations", "reglementations"}:
-        return settings.vectorstore_dir / "faiss_reglementations_docling_table_semantic_new"
+        return settings.vectorstore_dir / "faiss_reglementations"
     raise ValueError(f"Unknown target: {target}")
 
 

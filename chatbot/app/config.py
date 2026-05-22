@@ -15,7 +15,7 @@ DEFAULT_REGULATIONS_PARSED = (
 DOCLING_STUDYPLANS_PARSED = Path(
     os.getenv(
         "DOCLING_STUDYPLANS_PARSED",
-        str(PROJECT_ROOT / "scrapy_crawler" / "outputs" / "parsed_fulltext_docling"),
+        str(PROJECT_ROOT / "scrapy_crawler" / "outputs" / "parsed_fulltext_docling_new2"),
     )
 )
 DOCLING_REGULATIONS_PARSED = Path(
