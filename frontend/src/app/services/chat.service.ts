@@ -9,6 +9,9 @@ export interface SourceSnippet {
   snippet: string;
   page?: number;
   source_type: 'pdf' | 'api';
+  doc_key?: string;
+  source_url?: string;
+  documents?: Record<string, any>[];
   metadata?: Record<string, any>;
 }
 

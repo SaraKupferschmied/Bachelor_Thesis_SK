@@ -65,7 +65,7 @@ export async function offeringsRoutes(app: FastifyInstance) {
 
       // If you only want offerings that have a matching course row, keep JOIN.
       // If you want offerings even when a course is missing, use LEFT JOIN.
-      const rows = await query(
+      const rows = await query<Record<string, any>>(
         `
         SELECT off.*, c.name
         FROM courseoffering off
@@ -75,6 +75,14 @@ export async function offeringsRoutes(app: FastifyInstance) {
         `,
         [sem_id]
       );
+
+      if (rows.length > 3) {
+        return rows.map((row) => ({
+          ...row,
+          link_course_catalogue: null,
+          link_note: "Course catalogue links are only returned when 3 or fewer offerings match.",
+        }));
+      }
 
       return rows;
     }

@@ -79,6 +79,47 @@ function parseNumericFilter(
   return { value: Number.isFinite(parsed) ? parsed : null, operator };
 }
 
+
+async function addCourseCatalogueLinksWhenSmall<T extends Record<string, any>>(rows: T[]): Promise<T[]> {
+  if (rows.length === 0 || rows.length > 3) return rows;
+
+  const codes = rows
+    .map((row) => row.code)
+    .filter((code): code is string => typeof code === "string" && code.length > 0);
+
+  if (codes.length === 0) return rows;
+
+  const linkRows = await query<{
+    code: string;
+    link_course_catalogue: string | null;
+    links: Array<{ offering_id: number; sem_id: string | null; link_course_catalogue: string | null }> | null;
+  }>(
+    `
+    SELECT
+      x.code,
+      (array_agg(x.link_course_catalogue ORDER BY x.sem_id DESC NULLS LAST, x.offering_id DESC)
+        FILTER (WHERE x.link_course_catalogue IS NOT NULL))[1] AS link_course_catalogue,
+      json_agg(json_build_object(
+        'offering_id', x.offering_id,
+        'sem_id', x.sem_id,
+        'link_course_catalogue', x.link_course_catalogue
+      ) ORDER BY x.sem_id DESC NULLS LAST, x.offering_id DESC)
+        FILTER (WHERE x.link_course_catalogue IS NOT NULL) AS links
+    FROM CourseOffering x
+    WHERE x.code = ANY($1::text[])
+    GROUP BY x.code
+    `,
+    [codes]
+  );
+
+  const byCode = new Map(linkRows.map((row) => [row.code, row]));
+  return rows.map((row) => ({
+    ...row,
+    link_course_catalogue: byCode.get(row.code)?.link_course_catalogue ?? null,
+    course_catalogue_links: byCode.get(row.code)?.links ?? [],
+  }));
+}
+
 function normalizeCourseCode(value: unknown): string | null {
   if (value === undefined || value === null) return null;
 
@@ -206,7 +247,7 @@ export async function coursesRoutes(app: FastifyInstance) {
       const normalizedCode = normalizeCourseCode(code);
       const looseCode = normalizeCourseCodeLoose(code);
 
-      return query(
+      const rows = await query<Record<string, any>>(
         `
         SELECT DISTINCT
           c.*,
@@ -320,6 +361,8 @@ export async function coursesRoutes(app: FastifyInstance) {
           q ? `%${String(q).trim()}%` : null,
         ]
       );
+
+      return addCourseCatalogueLinksWhenSmall(rows);
     }
   );
 
@@ -358,12 +401,21 @@ export async function coursesRoutes(app: FastifyInstance) {
         SELECT
           c.*,
           f.name_en AS faculty_name,
-          d.name AS domain_name
+          d.name AS domain_name,
+          recent_off.link_course_catalogue
         FROM Course c
         LEFT JOIN Faculty f
           ON f.faculty_id = c.faculty_id
         LEFT JOIN Domain d
           ON d.domain_id = c.domain_id
+        LEFT JOIN LATERAL (
+          SELECT off.link_course_catalogue
+          FROM CourseOffering off
+          WHERE off.code = c.code
+            AND off.link_course_catalogue IS NOT NULL
+          ORDER BY off.sem_id DESC NULLS LAST, off.offering_id DESC
+          LIMIT 1
+        ) recent_off ON true
         WHERE c.code = $1
            OR UPPER(REPLACE(c.code, 'UE-', '')) = $2
         ORDER BY c.code

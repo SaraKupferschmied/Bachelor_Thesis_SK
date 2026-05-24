@@ -398,6 +398,61 @@ def build_faiss_index(documents: list[Document], index_dir: Path, batch_size: in
     db.save_local(str(index_dir))
     return db
 
+def add_new_documents_to_faiss(
+    parsed_dir: Path,
+    index_dir: Path,
+    *,
+    target_chars: int = 1300,
+    max_chars: int = 1800,
+    overlap_chars: int = 180,
+    batch_size: int = 128,
+) -> FAISS:
+    embeddings = OllamaEmbeddings(
+        model=settings.ollama_embedding_model,
+        base_url=settings.ollama_host,
+    )
+
+    db = FAISS.load_local(
+        str(index_dir),
+        embeddings,
+        allow_dangerous_deserialization=True,
+    )
+
+    existing_doc_keys = {
+        doc.metadata.get("doc_key")
+        for doc in db.docstore._dict.values()
+        if doc.metadata.get("doc_key")
+    }
+
+    all_documents = load_documents_from_fulltext(
+        parsed_dir,
+        target_chars=target_chars,
+        max_chars=max_chars,
+        overlap_chars=overlap_chars,
+    )
+
+    new_documents = [
+        doc for doc in all_documents
+        if doc.metadata.get("doc_key") not in existing_doc_keys
+    ]
+
+    print(f"[info] existing doc_keys: {len(existing_doc_keys)}")
+    print(f"[info] new chunks to add: {len(new_documents)}")
+
+    if not new_documents:
+        print("[info] nothing new to add")
+        return db
+
+    for start in range(0, len(new_documents), batch_size):
+        end = min(start + batch_size, len(new_documents))
+        print(f"[embed] adding batch {start}-{end} / {len(new_documents)}")
+        db.add_documents(new_documents[start:end])
+
+    db.save_local(str(index_dir))
+    print(f"[done] updated index: {len(db.index_to_docstore_id)} vectors")
+
+    return db
+
 
 def build_index_for(target: str, parser: str = "docling", force_rebuild: bool = False, *, target_chars: int = 1300, max_chars: int = 1800, overlap_chars: int = 180) -> FAISS:
     parsed_dir = _parsed_dir_for(target, parser)
@@ -420,6 +475,7 @@ def main() -> None:
     parser.add_argument("--target-chars", type=int, default=1300)
     parser.add_argument("--max-chars", type=int, default=1800)
     parser.add_argument("--overlap-chars", type=int, default=180)
+    parser.add_argument("--incremental", action="store_true")
     args = parser.parse_args()
 
     targets: list[str] = []
@@ -430,8 +486,27 @@ def main() -> None:
 
     for target in targets:
         print(f"\n=== Building {target} table-aware semantic index ===")
-        db = build_index_for(target, parser=args.parser, force_rebuild=args.force, target_chars=args.target_chars, max_chars=args.max_chars, overlap_chars=args.overlap_chars)
-        print(f"[done] {target}: {len(db.index_to_docstore_id)} vectors")
+        parsed_dir = _parsed_dir_for(target, args.parser)
+        index_dir = _index_dir_for(target, args.parser, "table_semantic")
+
+        if args.incremental:
+            db = add_new_documents_to_faiss(
+                parsed_dir,
+                index_dir,
+                target_chars=args.target_chars,
+                max_chars=args.max_chars,
+                overlap_chars=args.overlap_chars,
+            )
+        else:
+            db = build_index_for(
+                target,
+                parser=args.parser,
+                force_rebuild=args.force,
+                target_chars=args.target_chars,
+                max_chars=args.max_chars,
+                overlap_chars=args.overlap_chars,
+            )
+    print(f"[done] {target}: {len(db.index_to_docstore_id)} vectors")
 
 
 if __name__ == "__main__":

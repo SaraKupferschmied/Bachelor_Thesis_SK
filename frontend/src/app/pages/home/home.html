@@ -105,6 +105,9 @@
                       @if (source.page) {
                         <span>(Page {{ source.page }})</span>
                       }
+                      @if (source.source_url) {
+                        <a [href]="source.source_url" target="_blank" rel="noopener noreferrer">Open source</a>
+                      }
                     </li>
                   }
                 </ul>

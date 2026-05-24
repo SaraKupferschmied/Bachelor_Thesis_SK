@@ -31,6 +31,53 @@ from .config import settings
 from .performance import timed_step
 
 
+
+_DOC_KEY_RESOLVE_CACHE: dict[str, list[dict[str, Any]]] = {}
+
+
+def _resolve_program_documents_for_doc_key(doc_key: Any) -> list[dict[str, Any]]:
+    """Resolve a RAG doc_key/source label to programDocument rows via backend API."""
+    cleaned = str(doc_key or "").strip()
+    if not cleaned:
+        return []
+    if cleaned in _DOC_KEY_RESOLVE_CACHE:
+        return _DOC_KEY_RESOLVE_CACHE[cleaned]
+
+    # Try the raw key and a few normalized variants commonly used by the FAISS builders.
+    candidates: list[str] = []
+    for value in [cleaned, Path(cleaned).stem, cleaned.replace("_", " ").replace("-", " ")]:
+        value = " ".join(str(value).split())
+        if value and value not in candidates:
+            candidates.append(value)
+
+    resolved: list[dict[str, Any]] = []
+    for candidate in candidates:
+        try:
+            response = requests.get(
+                f"{settings.backend_api_base}/docs-api/resolve-by-label",
+                params={"doc_key": candidate},
+                timeout=5,
+            )
+            response.raise_for_status()
+            rows = response.json()
+            if isinstance(rows, list) and rows:
+                resolved = rows
+                break
+        except Exception:
+            continue
+
+    _DOC_KEY_RESOLVE_CACHE[cleaned] = resolved
+    return resolved
+
+
+def _first_document_url(documents: list[dict[str, Any]]) -> str | None:
+    for doc in documents:
+        url = doc.get("url")
+        if isinstance(url, str) and url.strip():
+            return url
+    return None
+
+
 _SPLITTER = RecursiveCharacterTextSplitter(
     chunk_size=900,
     chunk_overlap=150,
@@ -1272,6 +1319,22 @@ def answer_question(
         metadata = dict(d.metadata)
         metadata["retrieval_debug"] = retrieval_debug
 
+        doc_key = (
+            d.metadata.get("doc_key")
+            or d.metadata.get("program_key")
+            or d.metadata.get("source")
+            or d.metadata.get("source_file")
+        )
+        resolved_documents = _resolve_program_documents_for_doc_key(doc_key)
+        source_url = (
+            d.metadata.get("source_url")
+            or d.metadata.get("pdf_url")
+            or d.metadata.get("document_page_url")
+            or _first_document_url(resolved_documents)
+        )
+        if resolved_documents:
+            metadata["resolved_program_documents"] = resolved_documents
+
         sources.append(
             {
                 "source": d.metadata.get("source") or d.metadata.get("source_file") or "document",
@@ -1280,6 +1343,9 @@ def answer_question(
                 "snippet": (d.page_content[:350] + "…") if len(d.page_content) > 350 else d.page_content,
                 "metadata": metadata,
                 "source_type": d.metadata.get("source_type", "pdf"),
+                "doc_key": doc_key,
+                "source_url": source_url,
+                "documents": resolved_documents,
             }
         )
 
