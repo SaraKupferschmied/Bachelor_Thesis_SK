@@ -4,7 +4,7 @@ import logging
 
 from .planner import plan_tool_usage
 from .backend_tools import TOOLS
-from .ollama_rag import answer_question as rag_answer
+from .ollama_rag import answer_question as rag_answer, detect_request_language, ensure_answer_language
 from .session_state import update_session_state
 from .hero_semester import is_plan_semester_hero, start_plan_semester_flow
 from .performance import timed_step
@@ -245,17 +245,16 @@ def _extract_semester_id(text: str) -> str | None:
 
 
 def _extract_semester_ids(text: str) -> list[str]:
-    matches = re.findall(r"\b(FS|HS|SS|AS)[-\s]?(\d{4})\b", text, re.IGNORECASE)
+    matches = re.findall(
+        r"\b(HS|AS|SA|FS|SS|SP)[-\s]?(\d{4})\b",
+        text,
+        re.IGNORECASE,
+    )
+
     result = []
 
     for prefix, year in matches:
-        prefix = prefix.upper()
-        if prefix == "SS":
-            prefix = "FS"
-        if prefix == "AS":
-            prefix = "HS"
-
-        sem = f"{prefix}-{year}"
+        sem = f"{_normalize_semester_prefix(prefix)}-{year}"
         if sem not in result:
             result.append(sem)
 
@@ -263,7 +262,12 @@ def _extract_semester_ids(text: str) -> list[str]:
 
 
 def _strip_semesters(text: str) -> str:
-    text = re.sub(r"\b(FS|HS|SS|AS)[-\s]?\d{4}\b", " ", text, flags=re.IGNORECASE)
+    text = re.sub(
+        r"\b(HS|AS|SA|FS|SS|SP)[-\s]?\d{4}\b",
+        " ",
+        text,
+        flags=re.IGNORECASE,
+    )
     text = re.sub(r"\s+", " ", text)
     return text.strip(" ,.-:")
 
@@ -305,6 +309,19 @@ def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, An
         "planning_errors": None,
     }
 
+SEMESTER_PREFIX_MAP = {
+    "HS": "HS",  # Herbstsemester
+    "AS": "HS",  # Autumn Semester
+    "SA": "HS",  # Semestre d'automne
+
+    "FS": "FS",  # Frühlingssemester
+    "SS": "FS",  # Spring Semester
+    "SP": "FS",  # Semestre de printemps / Spring
+}
+
+
+def _normalize_semester_prefix(prefix: str) -> str:
+    return SEMESTER_PREFIX_MAP[prefix.upper()]
 
 def _normalize_course_code(value: str | None) -> str:
     if not value:
@@ -352,12 +369,6 @@ def _extract_requested_extra_course_count(question: str) -> int | None:
     if not match:
         return None
     return int(match.group(1) or match.group(2))
-
-
-def _strip_semesters(text: str) -> str:
-    text = re.sub(r"\b(FS|HS|SS|AS)[-\s]?\d{4}\b", " ", text, flags=re.IGNORECASE)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip(" ,.-:")
 
 
 def is_plan_study_program_hero(question: str) -> bool:
@@ -1060,6 +1071,7 @@ def answer_question(
     session_state: Dict[str, Any] | None = None,
     run_mode: str | None = None,
 ) -> Dict[str, Any]:
+    language = detect_request_language(question, language)
     session_state = session_state or {}
     final_answer = ""
 
@@ -1670,15 +1682,15 @@ def answer_question(
     # Normal tool/RAG behavior
     # ---------------------------------------------------------------------
     if run_mode and run_mode != "auto":
-        if run_mode == "tool":
+        if run_mode == "api":
             try:
                 with timed_step("planner.total"):
                     plan = plan_tool_usage(question, session_state=session_state)
-                plan["mode"] = "tool"
-                plan["reason"] = "Forced mode: tool, planner used for tool calls"
+                plan["mode"] = "api"
+                plan["reason"] = "Forced mode: api, planner used for API calls"
                 planning_errors = None
             except Exception as e:
-                plan = {"mode": "tool", "tool_calls": [], "reason": "Forced tool mode, planner failed"}
+                plan = {"mode": "api", "tool_calls": [], "reason": "Forced api mode, planner failed"}
                 planning_errors = str(e)
         else:
             plan = {
@@ -1702,7 +1714,7 @@ def answer_question(
     answer_parts: List[str] = []
     debug_tool_calls = []
 
-    if mode in ("tool", "hybrid"):
+    if mode in ("api", "hybrid"):
         for call in plan.get("tool_calls", []):
             tool_name = call.get("tool")
             raw_args = call.get("args", {}) or {}
@@ -1831,7 +1843,7 @@ def answer_question(
         if not x.get("error")
     )
 
-    should_run_rag = mode in ("rag", "hybrid") or (mode == "tool" and not tool_mode_found_anything)
+    should_run_rag = mode in ("rag", "hybrid") or (mode == "api" and not tool_mode_found_anything)
 
     if should_run_rag:
         db = _select_rag_db(question, db_study=db_study, db_regl=db_regl)
@@ -1845,22 +1857,24 @@ def answer_question(
                 )
             sources.extend(rag_sources)
 
-            if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
+            if mode == "rag" or (mode == "api" and not tool_mode_found_anything):
                 final_answer = rag_text
             else:
                 answer_parts.append("Document answer:\n" + rag_text)
         else:
-            if mode == "rag" or (mode == "tool" and not tool_mode_found_anything):
+            if mode == "rag" or (mode == "api" and not tool_mode_found_anything):
                 final_answer = "The document index is not loaded."
             else:
                 answer_parts.append("The document index is not loaded.")
 
-    if mode == "tool" and not final_answer:
+    if mode == "api" and not final_answer:
         final_answer = "\n".join(answer_parts) if answer_parts else "No matching result found."
     elif mode == "hybrid":
         final_answer = "\n\n".join(part for part in answer_parts if part) or "No answer available."
     elif mode == "rag" and not final_answer:
         final_answer = "No answer available."
+
+    final_answer = ensure_answer_language(final_answer, language)
 
     with timed_step("session.update_state"):
         new_session_state = update_session_state(session_state, tool_results)

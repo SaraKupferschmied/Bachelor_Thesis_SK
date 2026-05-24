@@ -1,0 +1,112 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T14:53:57.672Z",
+  "title": "1ba0534c8f0571414b0a437583895774e9d00d87",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1ba0534c8f0571414b0a437583895774e9d00d87",
+  "program_key": "faculty of management, economics and social sciences|bachelor|60|communication studies",
+  "programme_name_en": "Communication Studies",
+  "programme_name_de": "Kommunikationswissenschaft",
+  "programme_name_fr": "Sciences de la communication",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "source_url": "https://fr.calameo.com/read/0036591156691d801b615",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/com/mediacommunicationfrench",
+  "programme_url_en": "https://studies.unifr.ch/en/bachelor/com/mediacommunicationfrench",
+  "programme_url_de": "https://studies.unifr.ch/de/bachelor/com/mediacommunicationfrench",
+  "programme_url_fr": "https://studies.unifr.ch/fr/bachelor/com/mediacommunicationfrench",
+  "curriculum_url": "http://studies.unifr.ch/go/Pc4M3",
+  "curriculum_de_url": null,
+  "curriculum_fr_url": "http://studies.unifr.ch/go/Pc4M3",
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\1ba0534c8f0571414b0a437583895774e9d00d87.pdf",
+  "sha256": "d768c5d9ee846f4eb21d89ccfa3db1e684a35f9b74e9e4d86ddbe42996fd74f1",
+  "fetched_at": "2026-05-21T16:05:28.221Z",
+  "notes": "calameo downloaded (id=0036591156691d801b615, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260303121445-a09869f2aa01c556d4c7975496d3b2d6/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160527Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=5951a76ac77229b3b5133850b2f8b35b160c7486cbee70bbfb0414ad6ee4a29d, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## Bachelornebenfächer 60 ECTS
+
+Die grosen Nebnfächer zeign die Ausdehng des Studienbr chs auf und sind ein Grundlage für ein Master in der gleichn Studienrchg.
+
+## Betriebswirtschaftslehre
+
+## Pflichtkurse (28.5 ECTS)
+
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Unternehmensrechnung (6 ECTS)
+-  Mikroökonomie I + II (12 ECTS)
+-  Zur Wahl :
+- Statistik II (4.5 ECTS)
+- Vertiefungskurs Statistik (4.5 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 31.5 ECTS)
+
+Falls im BA-Studiengang keine Statistikkurse vorgesehen sind, müssen Stat I + Stat II belegt werden. Ansonsten muss der Vertiefungskurs Statistik belegt werden
+
+## Wirtschaftsinformatik   Zweisprachig
+
+## Pflichtkurse (42 ECTS)
+
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Wirtschaftsinformatik II (6 ECTS)
+-  Information Systems Modeling (6 ECTS)
+-  Operations Management (6 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 18 ECTS)
+
+Anmerkung für Hauptfächer mit propädeutischer Informatik: Anstelle von 'Introduction to programming' ist 'Object-oriented programming' Pflicht.
+
+## Volkswirtschaftslehre
+
+## Pflichtkurse (24 ECTS)
+
+-  Mikroökonomie I (6 ECTS)
+-  Makroökonomie I (6 ECTS)
+-  Mikroökonomie II (6 ECTS)
+-  Makroökonomie II (6 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans
+
+Sechs Kurse müssen aus einem Angebot von zwölf Kursen ausgewählt werden.
+
+## Wahlkurse
+
+Studenten wählen Semesterkurse aus dem Angebot der Bachelorkurse (ausser die Sprachkurse) der Wirtschafts- und Sozialwissenschaftlichen Fakultät bis sie auf ein Total von mindestens 60 ECTS Kreditpunkte kommen.
+
+Um zum Master in Volkswirtschaftslehre zugelassen zu werden, sind als Wahlkurse verpflichtend Statistik I + Statistik II oder Statistik I + Statistik: Vertiefung zu belegen, falls im BA-Studiengang kein Statistikkurs vorgesehen ist.
+
+## Kommunikationswissenschaft und Medienforschung
+
+## Pflichtkurse (42 ECTS)
+
+-  Einführung in die Kommunikationswissenschaft (3 ECTS)
+-  Methoden der empirischen Sozialforschung: Einführung (3 ECTS)
+-  Methoden der empirischen Sozialforschung: Vertiefung (3 ECTS)
+-  Methoden der empirischen Sozialforschung: Übung (3 ECTS)
+-  Proseminar «Medien, Kommunikation und wissenschaftliches Arbeiten» mit Proseminararbeit (3 + 3 ECTS)
+-  Hauptseminar nach Wahl mit Hauptseminararbeit (3+6 ECTS)
+-  Forschungsseminar mit Forschungsseminararbeit, zweisemestrig (6+9 ECTS)
+
+## Wahlkurse (18 ECTS)
+
+Falls im BA-Studiengang keine Statistikkurse vorgesehen sind, wird dringend empfohlen, Stat I + Stat II zu belegen.  Dies ist auch eine Voraussetzung für das Masterprogramm in «Digital Media and Communication for Social Impact».
+
+-  Introduction to programming (6 ECTS)
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Unternehmensrechnung (6 ECTS)

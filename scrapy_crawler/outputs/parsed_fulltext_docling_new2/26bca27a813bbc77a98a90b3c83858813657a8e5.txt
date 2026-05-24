@@ -1,0 +1,600 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T15:00:39.214Z",
+  "title": "26bca27a813bbc77a98a90b3c83858813657a8e5",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "26bca27a813bbc77a98a90b3c83858813657a8e5",
+  "program_key": "fakultät für erziehungs- und bildungswissenschaften|master|106|teacher education for secondary level i and baccalaureate schools",
+  "programme_name_en": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I und an Maturitätsschulen",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I et les écoles de maturité",
+  "level": "Master",
+  "ects_points": 106,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%2520etudes/Plan_DAESI_2019.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_en": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_de": "https://studies.unifr.ch/de/master/teach/teacheredu1-2",
+  "programme_url_fr": "https://studies.unifr.ch/fr/master/teach/teacheredu1-2",
+  "curriculum_url": null,
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\26bca27a813bbc77a98a90b3c83858813657a8e5.pdf",
+  "sha256": "6d4096f39d820bbd0ff7f20dcffd10b7a05920d528538385a1de35c8cd4b0f98",
+  "fetched_at": "2026-05-21T16:05:16.087Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%2520etudes/Plan_DAESI_2019.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Diplôme d'aptitude à l'enseignement pour le degré secondaire I (DAES I)
+
+| Généralités                                          |   2 |
+|------------------------------------------------------|-----|
+| Organisation générale des études                     |   2 |
+| Plan d'études Bachelor                               |   3 |
+| 1. Bases légales                                     |   3 |
+| 2. Description du programme                          |   3 |
+| 3. Objectifs de formation                            |   5 |
+| 4. Début des études, inscription et durée des études |   5 |
+| 5. Langue d'études                                   |   5 |
+| 6. Organisation générale de la formation             |   5 |
+| 7. Description et structure des modules              |   6 |
+| Plan francophone                                     |   6 |
+| Plan bilingue à dominante francophone                |   7 |
+| 8. Modalités d'évaluation                            |  10 |
+| 8.1. Modalités générales d'évaluation                |  10 |
+| 8.2. Tentatives et échec définitif                   |  10 |
+| 8.3. Note finale                                     |  10 |
+
+| Plan d'études Master                                  |   11 |
+|-------------------------------------------------------|------|
+| 1. Bases légales                                      |   11 |
+| 2. Description du programme et conditions d'admission |   11 |
+| 3. Objectifs de formation                             |   11 |
+| 4. Début des études, inscription et durée des études  |   11 |
+| 5. Langue d'études                                    |   12 |
+| 6. Organisation générale de la formation              |   12 |
+| 7. Description et structure des modules               |   13 |
+| Modules et unités d'enseignement                      |   13 |
+| Tableaux synoptiques                                  |   15 |
+| 8. Modalités d'évaluation                             |   18 |
+| 8.1. Modalités générales d'évaluation                 |   18 |
+| 8.2. Tentatives et échec définitif                    |   18 |
+| 8.3. Note finale                                      |   18 |
+
+## Généralités
+
+Cette voie d'études s'adresse aux personnes qui souhaitent enseigner, en Suisse, dans les classes des écoles du secondaire I, au cycle 3 de la scolarité obligatoire. Elle les prépare à enseigner de 3 à 4 disciplines d'enseignement figurant au programme de ces écoles.
+
+Le cursus (variante partiellement intégrée) vise à doter le/la candidat ∙ e de connaissances scientifiques fondamentales dans les disciplines d'enseignement choisies (formation disciplinaire) ainsi que des compétences professionnelles requises pour la formation et l'éducation des élèves du cycle 3 qui comprend les trois dernières années de la scolarité obligatoire (formation professionnelle, didactique, pédagogique et pratique).
+
+D'une manière générale, la formation disciplinaire relève des différentes facultés (l'étudiant ∙ e suit donc les programmes d'études relatifs aux disciplines d'enseignement choisies) alors que la formation professionnelle, pédagogique, didactique et pratique s'effectue auprès du Centre d'enseignement et de recherche pour la formation à l'enseignement au secondaire (CERF).
+
+Cette formation est reconnue par le décret de la CDIP du 22 juin 2012, en conformité avec le règlement du 26 août 1999 concernant la reconnaissance des diplômes de hautes écoles pour les enseignantes et enseignants du degré secondaire I.
+
+## Organisation générale des études
+
+Cette formation comprend au moins 270 crédits ECTS répartis comme suit :
+
+- 150 crédits ECTS (minimum) de formation disciplinaire (3 à 4 disciplines offertes en Faculté de théologie, des lettres et des sciences humaines, des sciences et de médecine ou prestée par la HEP -Fribourg). Voir les exigences des différentes facultés.
+- 120 crédits ECTS de formation professionnelle, pédagogique, didactique et pratique accomplis auprès du CERF.
+
+<!-- image -->
+
+L'organisation des études implique l'acquisition successive d'un bachelor spécifique (BA\_SI en Faculté de théologie ou des lettres et des sciences humaines ; BSc\_SI en Faculté des sciences et de médecine) de 180 crédits ECTS suivie d'un master de 90 crédits ECTS. Elle prépare à l'enseignement de 3 ou 4 disciplines. La formation professionnelle, pédagogique, didactique et pratique est accomplie partiellement au bachelor (30 crédits ECTS + 3 à 5 crédits ECTS par didactique de discipline prestés par le CERF mais comptabilisés dans les Départements) dans le cadre du programme « Formation pédagogique, didactique et introduction à la formation pratique » et se poursuit au master dans le cadre du programme d'études approfondies «Préparation à l'enseignement secondaire I» (90 crédits ECTS).
+
+## BACHELOR en enseignement pour le degré secondaire I
+
+## 1. Bases légales
+
+Ce plan d'études est subordonné au Règlement du 14 juin 2007 pour l'obtention du titre de Bachelor of Arts pour la formation scientifique dans les disciplines enseignables au degré secondaire I à la Faculté des lettres et des sciences humaines, au Règlement du 19 mars 2007 pour l'obtention du Bachelor of Science en enseignement pour le degré secondaire I de la Faculté des sciences et de médecine, et au Règlement du 25 mai 2010 pour l'obtention des diplômes universitaires et ecclésiastique à la Faculté de théologie de l'Université de Fribourg (Suisse).
+
+L'octroi des titres de « Bachelor of arts en enseignement pour le degré secondaire I » et de « Bachelor of science en enseignement pour le degré secondaire I » supposent la validation des 180 crédits ECTS dans les programmes d'études correspondants. Ces diplômes n'habilitent pas à enseigner.
+
+## 2. Description du programme
+
+## 2.1. Description générale du programme
+
+Ce programme de bachelor s'insère dans la voie d'études de l'une des trois facultés (Lettres et sciences humaines, Sciences et médecine, Théologie) en fonction de la combinaison de disciplines choisies par l'étudiant ∙ e. Il offre une formation disciplinaire prestée au sein de l'Université ainsi qu'à la Haute école pédagogique Fribourg et pose en parallèle les premiers jalons de la formation à l'enseignement.
+
+Ce programme s'adresse donc exclusivement à des candidat ∙ e ∙ s visant l'enseignement dans les écoles du secondaire I. Toutefois, ce diplôme ne permet pas d'enseigner puisqu'il est une première étape à réaliser avant la formation de niveau master.
+
+## 2.2. Structure générale du programme
+
+Trois Facultés -ainsi que la Haute école pédagogique Fribourg -offrent la formation disciplinaire. Selon la combinaison de leurs domaines d'études, les étudiant ∙ e ∙ s visent l'obtention du Bachelor of Arts en enseignement pour le degré secondaire I (BA\_SI), respectivement du Bachelor of Science en enseignement pour le degré secondaire I (BSc\_SI).
+
+## Choix des disciplines enseignables
+
+-  Bachelor en Faculté des lettres et des sciences humaines (BA\_SI)
+
+Les candidat ∙ e ∙ s à cette voie d'études doivent choisir 3 à 4 programmes d'études dans le tableau, dont au minimum 100 crédits ECTS dans le groupe A et au maximum 70 crédits ECTS dans les groupes B et C.
+
+- 
+- 
+- Bachelor en Faculté des sciences et de médecine (BSc\_SI)
+
+Les candidat ∙ e ∙ s à cette voie d'études doivent choisir 3 à 4 programmes d'études dans le tableau, dont au minimum 100 crédits ECTS dans le groupe B et au maximum 70 crédits ECTS dans les groupes A et C.
+
+- Bachelor en Faculté de théologie (BA\_SI)
+
+Les candidat ∙ e ∙ s à cette voie d'études doivent choisir le programme d'études « Enseignement religieux » ainsi que 2 à 3 autres programmes dans le tableau avec au maximum 100 crédits ECTS dans le groupe A (à l'exclusion de Sciences des religions), au maximum 70 crédits ECTS dans le groupe B et au maximum 50 crédits ECTS supplémentaires dans le groupe C.
+
+Outre les crédits à valider dans le cadre de la formation disciplinaire (au total 150 crédits ECTS minimum) -dont la description est détaillée dans des plans d'études ad hoc -les 30 crédits ECTS de la formation professionnelle, didactique, pédagogique et pratique sont insérés dans 4 modules obligatoires. L'étudiant ∙ e a cependant le choix de suivre deux des modules en langue allemande (voir plus loin).
+
+La durée minimale du cursus bachelor est de six semestres. La formation pédagogique et didactique ne prévoit pas de limitation de durée ; les programmes relatifs à la formation disciplinaire peuvent cependant prévoir une durée maximale des études
+
+## 2.3. Conditions d'admission
+
+Aucune restriction particulière ne s'ajoute aux conditions d'une admission régulière à l'Université.
+
+| Discipline d'enseignement                    | Groupe                                       | Programme d'études                           | Langue                                       | ECTS                                         | Domaine                                             |
+|----------------------------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|-----------------------------------------------------|
+| Faculté des lettres et des sciences humaines | Faculté des lettres et des sciences humaines | Faculté des lettres et des sciences humaines | Faculté des lettres et des sciences humaines | Faculté des lettres et des sciences humaines | Faculté des lettres et des sciences humaines        |
+| Français                                     | A                                            | Français                                     | FR                                           | 50                                           | Français                                            |
+| Deutsch                                      | A                                            | Germanistik                                  | DE                                           | 50                                           | Germanistik                                         |
+| Italien                                      | A                                            | Italien                                      | IT                                           | 50                                           | Italien                                             |
+| Anglais                                      | A                                            | Langue et littérature anglaises              | EN                                           | 50                                           | Anglais                                             |
+| Latin                                        | A                                            | Langue et culture latines                    | FR,DE,BI                                     | 50                                           | Philologie classique                                |
+| Grec                                         | A                                            | Langue et culture grecques                   | FR,DE,BI                                     | 50                                           | Philologie classique                                |
+| Français langue étrangère                    | A                                            | Français langue étrangère                    | FR                                           | 50                                           |                                                     |
+| Deutsch als Fremdsprache                     | A                                            | Deutsch als Fremdsprache                     | DE                                           | 50                                           | Plurilinguisme et didactique des langues étrangères |
+| Italien langue étrangère                     | A                                            | Italien langue étrangère                     | IT (FR, DE)                                  | 50                                           | Plurilinguisme et didactique des langues étrangères |
+| Rhéto - romanche                             | A                                            | Rhéto - roman                                | RH (DE)                                      | 30/50                                        |                                                     |
+| Histoire                                     | A                                            | Histoire                                     | FR, BI                                       | 50                                           | Histoire                                            |
+| Musique                                      | A                                            | Musicologie et histoire du théâtre musical   | BI                                           | 30/50                                        | Histoire de l'art et musicologie                    |
+| Arts visuels                                 | A                                            | Arts visuels                                 | BI                                           | 50                                           | Histoire de l'art et musicologie                    |
+| Ethique et cultures religieuses              | A                                            | Science des religions                        | FR,DE,BI                                     | 30/50                                        | Sciences sociales                                   |
+| Faculté des sciences et de médecine          | Faculté des sciences et de médecine          | Faculté des sciences et de médecine          | Faculté des sciences et de médecine          | Faculté des sciences et de médecine          | Faculté des sciences et de médecine                 |
+| Géographie                                   | B                                            | Géosciences                                  | BI                                           | 30/50                                        | Géographie et Sciences de la terre                  |
+| Mathématiques                                | B                                            | Mathématiques                                | BI                                           | 30/50                                        | Mathématiques                                       |
+| Informatique                                 | B                                            | Informatique                                 | BI                                           | 30/50                                        | Informatique                                        |
+| Sciences de la nature                        | B                                            | Sciences naturelles                          | BI                                           | 70                                           | Biologie, Chimie et Physique                        |
+| Education physique                           | B                                            | Sciences du sport et de la motricité         | BI                                           | 70                                           | Sport                                               |
+| Faculté de théologie                         | Faculté de théologie                         | Faculté de théologie                         | Faculté de théologie                         | Faculté de théologie                         | Faculté de théologie                                |
+| Ethique et cultures religieuses              | C                                            | Enseignement religieux                       | FR, DE                                       | 50                                           | Théologie                                           |
+| Haute Ecole Pédagogique Fribourg             | Haute Ecole Pédagogique Fribourg             | Haute Ecole Pédagogique Fribourg             | Haute Ecole Pédagogique Fribourg             | Haute Ecole Pédagogique Fribourg             | Haute Ecole Pédagogique Fribourg                    |
+| Economie familiale                           | C                                            | Economie familiale                           | BI                                           | 50                                           |                                                     |
+| Activités créatrices                         | C                                            | Activités créatrices                         | BI                                           | 30/50                                        |                                                     |
+
+Il convient de tenir compte de deux particularités : il n'y a pas une concordance exacte entre les intitulés des disciplines d'enseignement telles qu'elles existent dans les écoles du secondaire I et les domaines d'études du bachelor ; toutes les combinaisons des domaines d'études ne sont pas autorisées.
+
+La formation disciplinaire est placée sous la responsabilité des différentes Facultés. Il convient donc de se référer aux exigences spécifiques de chaque domaine d'études.
+
+## 3. Objectifs de formation
+
+Le programme bachelor en enseignement pour le degré secondaire I poursuit deux objectifs complémentaires :
+
+- 1) la formation dans les différentes disciplines enseignables choisies par le/la candidat ∙ e (avec un total de 150 crédits ECTS minimum) dans lesquelles des crédits de didactique disciplinaire sont déjà prévus ;
+- 2) les premières bases de la formation au métier d'enseignant ∙ e (30 crédits ECTS) abordées par le biais de cours et de stages. L'accent principal est ainsi placé sur une introduction aux savoirs issus des sciences contributives à la pratique de l'enseignement (sciences de l'éducation, psychologie, didactiques) sous forme de cours et une sensibilisation aux aspects pratiques de la formation sous forme de stages dans les Cycles d'orientation (CO) du canton de Fribourg.
+
+Si les objectifs d'apprentissage spécifiques des programmes disciplinaires sont détaillés dans les plans d'études des départements concernés, en ce qui concerne ce second objectif, le référentiel de compétence de la formation DAES I (disponible sur le site Internet du CERF) précise, dans les six domaines de compétences les objectifs spécifiques qui doivent être acquis (respectivement en voie d'acquisition) en fin de cursus bachelor.
+
+## 4. Début des études et inscription
+
+Les étudiant · e · s peuvent débuter ce cursus bachelor au semestre d'automne ou au semestre de printemps.
+
+Outre les formalités d'admission et d'inscription à l'Université et dans les différentes facultés, les étudiant ∙ e ∙ s sont tenu ∙ e ∙ s de s'adresser au secrétariat du CERF au cours de leur premier semestre d'études afin de remplir un formulaire d'inscription (interne au CERF). Leur programme doit obligatoirement contenir 3 à 4 disciplines enseignables.
+
+## 5. Langue d'études
+
+La Formation professionnelle, pédagogique, didactique et pratique (30 crédits ECTS) réalisée au bachelor peut s'effectuer en français, en allemand ou de manière bilingue (français -allemand) selon les plans ad hoc . Ce document présente le plan francophone ainsi que le plan bilingue à dominante francophone. Un échec définitif dans l'un des quatre modules de la formation pédagogique et didactique (à 30 crédits ECTS) en français ne peut être compensé par la validation des modules germanophones correspondants.
+
+## 6. Organisation générale de la formation professionnelle, pédagogique, didactique et pratique (30 crédits ECTS)
+
+Le programme « Formation pédagogique, didactique et introduction à la formation pratique » au bachelor s'accomplit auprès du CERF (et du ZELF pour le programme bilingue) et comprend l'équivalent de 30 crédits ECTS. En plus des crédits à accomplir dans ce programme, les étudiant ∙ e ∙ s doivent valider 3 à 5 crédits ECTS de didactique pour chacune des disciplines d'enseignement choisies. Ces cours sont prestés par le CERF, mais les crédits ECTS sont comptabilisés dans les plans d'études de la formation disciplinaire. Les didactiques de disciplines sont à suivre parallèlement au Stage en responsabilité partagée -B3 ( i.e. la même année).
+
+| Plan francophone (30 crédits ECTS)   | Plan francophone (30 crédits ECTS)   | Plan francophone (30 crédits ECTS)   |
+|--------------------------------------|--------------------------------------|--------------------------------------|
+| Code                                 | Module                               | Crédits ECTS                         |
+| L24.00005                            | Pédagogie générale                   | 6                                    |
+| L24.00006                            | Psychopédagogie                      | 6                                    |
+| L24.00007                            | Didactique                           | 6                                    |
+| L24.00008                            | Stages                               | 12                                   |
+
+## 7. Description et structure des modules
+
+## Plan francophone
+
+Modules et cours
+
+Pédagogie générale
+
+L23.00003
+
+Introduction
+
+-
+
+aux
+
+L23.00099
+
+Anthropologie
+
+-
+
+Psychopédagogie
+
+L23.00077
+
+Apprentissage,
+
+-
+
+L24.00413
+
+Didactique
+
+L24.00001
+
+L23.00175
+
+Relations
+
+-
+
+sciences de l'éducation
+
+de l'éducation
+
+mémoire
+
+et motivation et affectivité
+
+-
+
+Multimédias
+
+-
+
+Education en classe pour la pratique interculturelle Semestre SA
+
+SA
+
+SA
+
+SA
+
+AA
+
+SP
+
+| Plan bilingue à dominante francophone (30 crédits ECTS)   | Plan bilingue à dominante francophone (30 crédits ECTS)   | Plan bilingue à dominante francophone (30 crédits ECTS)   |
+|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| Code                                                      | Module                                                    | Crédits ECTS                                              |
+| L24.00001                                                 | Allgemeine Pädagogik, Sek I                               | 6                                                         |
+| L24.00003                                                 | Pädagogische Psychologie, Sek I                           | 6                                                         |
+| L24.00007                                                 | Didactique                                                | 6                                                         |
+| L24.00008                                                 | Stages                                                    | 12                                                        |
+
+ECTS
+
+6
+
+3
+
+3
+
+6
+
+3
+
+3
+
+6
+
+3
+
+3
+
+Remarques
+
+Peut être
+
+Peut
+
+Peut être être
+
+Peut être
+
+(pour
+
+suivi en
+
+suivi
+
+suivi
+
+suivi
+
+Priorité
+
+en
+
+en le cursus ère
+
+1
+
+,
+
+2
+
+e
+
+bachelor)
+
+ou
+
+ère
+
+1
+
+ère
+
+1
+
+en
+
+1
+
+ère
+
+aux
+
+Prérequis étudiant
+
+:
+
+cours
+
+«
+
+,
+
+,
+
+,
+
+2
+
+e
+
+e
+
+2
+
+e
+
+2
+
+e
+
+année
+
+3
+
+ou
+
+ou
+
+ou
+
+3
+
+e
+
+e
+
+3
+
+e
+
+3
+
+année
+
+année
+
+année
+
+∙
+
+e
+
+∙
+
+s
+
+de
+
+3
+
+e
+
+année
+
+Anthropologie de l'éducation
+
+»
+
+| Stages                                                              | L24.00008                                                           | L24.00008              |   12 | 12                                                                |
+|---------------------------------------------------------------------|---------------------------------------------------------------------|------------------------|------|-------------------------------------------------------------------|
+| L24.00002 - Stage d'observation - B2 (3 semaines) (SA/SP)           | L24.00002 - Stage d'observation - B2 (3 semaines) (SA/SP)           | Intersemestres         |    6 | Si possible à l'intersemestre de la 2 e année (janvier - février) |
+| L24.00003 - Stage en responsabilité partagée - B3 (3 semaines) (SA) | L24.00003 - Stage en responsabilité partagée - B3 (3 semaines) (SA) | Intersemestre SA - SP  |    5 | A suivre l'année précédant l'entrée en master                     |
+| L24.00381 - Didactique générale - Bachelor                          | (SA)                                                                | Bloc (début septembre) |    1 | Précède le stage de didactique                                    |
+
+scolaire
+
+à
+
+L24.00005
+
+L24.00006
+
+l'école
+
+L24.00007
+
+## Plan bilingue à dominante francophone
+
+Modules et cours
+
+Allgemeine Pädagogik,
+
+L23.00520
+
+Sek
+
+-
+
+Allgemeine
+
+L23.00540
+
+-
+
+I
+
+Erziehungswissenschaft
+
+Erziehungs
+
+Pädagogische
+
+-
+
+Psychologie,
+
+L24.00446
+
+-
+
+L24.00449
+
+Didactique
+
+L24.00001
+
+L23.00175
+
+und Bildungssoziologie
+
+Sek
+
+Einführung
+
+-
+
+Einführung
+
+I
+
+in die
+
+in
+
+-
+
+Multimédias
+
+-
+
+Education Pädagogische die Pädagogische pour la pratique L24.00003
+
+Psychologie
+
+I
+
+Psychologie II
+
+L24.00007
+
+scolaire
+
+interculturelle Semestre HS
+
+FS
+
+HS
+
+FS
+
+AA
+
+SP
+
+Langue
+
+D
+
+D
+
+D
+
+D
+
+F
+
+F
+
+ECTS
+
+6
+
+3
+
+3
+
+6
+
+3
+
+3
+
+6
+
+3
+
+3
+
+Remarques
+
+Priorité
+
+aux étudiant
+
+Prérequis
+
+:
+
+cours
+
+«
+
+∙
+
+e
+
+∙
+
+s
+
+qui entrent
+
+Anthropologie en de master au l'éducation SA
+
+»
+
+| Stages                                                              | L24.00008             |    |   12 |                                                                   |
+|---------------------------------------------------------------------|-----------------------|----|------|-------------------------------------------------------------------|
+| L24.00002 - Stage d'observation - B2 (3 semaines) (SA/SP)           | Intersemestres        | F  |    6 | Si possible à l'intersemestre de la 2 e année (janvier - février) |
+| L24.00003 - Stage en responsabilité partagée - B3 (3 semaines) (SA) | Intersemestre SA - SP | F  |    5 | A suivre l'année précédant l'entrée en master                     |
+| L24.00381 - Didactique générale - Bachelor                          | Bloc                  | F  |    1 | Précède le stage de didactique                                    |
+
+L24.00001

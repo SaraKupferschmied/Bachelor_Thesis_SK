@@ -9,6 +9,7 @@ from .performance import get_timer, log_timing, reset_request_timer, start_reque
 
 from .config import settings
 from .orchestrator import answer_question
+from .ollama_rag import detect_request_language
 from .ollama_rag import _retrieve_metadata_aware
 from .schemas import AskRequest, AskResponse
 from .session_state import empty_session_state
@@ -201,16 +202,18 @@ def ask(payload: AskRequest) -> AskResponse:
     use_study = selected_db
     use_regl = None
 
-    if payload.run_mode == "tool":
+    if payload.run_mode == "api":
         use_study = None
         use_regl = None
+
+    effective_language = detect_request_language(payload.question, payload.language)
 
     with timed_step("ask.answer_question"):
         result = answer_question(
             question=payload.question,
             db_study=use_study,
             db_regl=use_regl,
-            language=payload.language,
+            language=effective_language,
             session_state=session_state,
             run_mode=payload.run_mode,
         )

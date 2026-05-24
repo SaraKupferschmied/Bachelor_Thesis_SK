@@ -1,0 +1,306 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T15:44:08.969Z",
+  "title": "626c234e03c02097d79a1de13dd8721978a223b8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "626c234e03c02097d79a1de13dd8721978a223b8",
+  "program_key": "faculty of humanities|master|90|digital society",
+  "programme_name_en": "Digital Society",
+  "programme_name_de": "Digital Society",
+  "programme_name_fr": "Digital Society",
+  "level": "Master",
+  "ects_points": 90,
+  "source_url": "https://human-ist.unifr.ch/en/assets/public/files/StudyPlan_Digital_Society_250225_ENGL.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/int/digitalsociety",
+  "programme_url_en": "https://studies.unifr.ch/en/master/int/digitalsociety",
+  "programme_url_de": "https://studies.unifr.ch/de/master/int/digitalsociety",
+  "programme_url_fr": "https://studies.unifr.ch/fr/master/int/digitalsociety",
+  "curriculum_url": "https://studies.unifr.ch/go/1x",
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": "https://studies.unifr.ch/go/1x",
+  "local_path": "pdfs\\626c234e03c02097d79a1de13dd8721978a223b8.pdf",
+  "sha256": "8839431b4816311d7ab6758943a916608eff43b385042d3068dfa9df3f2783b8",
+  "fetched_at": "2026-05-21T16:05:15.879Z",
+  "notes": "downloaded pdf (final=https://human-ist.unifr.ch/en/assets/public/files/StudyPlan_Digital_Society_250225_ENGL.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+## Study Plan
+
+## Master
+
+## Digital Society
+
+## Master major of 90 ECTS-Kreditpunkten 2025
+
+(non-binding English translation)
+
+## Inhaltsverzeichnis
+
+| 1.                                                                                                                                                  | Legal basis......................................................................................................................................2                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.                                                                                                                                                  | Description of the study programme...............................................................................................2                                                                                                                                  |
+|                                                                                                                                                     | 2.1 General description............................................................................................................2                                                                                                                                |
+|                                                                                                                                                     | 2.2 Professional perspectives...................................................................................................3                                                                                                                                   |
+|                                                                                                                                                     | 2.3 General structure................................................................................................................3                                                                                                                              |
+| 3.                                                                                                                                                  | Admission.......................................................................................................................................4                                                                                                                   |
+| 4.                                                                                                                                                  | Educational goals............................................................................................................................5                                                                                                                      |
+| 5.                                                                                                                                                  | Begin and duration of studies.........................................................................................................6                                                                                                                             |
+| 6.                                                                                                                                                  | Language.........................................................................................................................................6                                                                                                                  |
+| 7.                                                                                                                                                  | Structure of the programme............................................................................................................7                                                                                                                             |
+| 8.                                                                                                                                                  | Description of the modules.............................................................................................................7                                                                                                                            |
+|                                                                                                                                                     | 8.1 Module DSS 1: Interdisciplinary Perspectives on Digital Transformation of Society......7                                                                                                                                                                        |
+|                                                                                                                                                     | 8.2 Module DSS 2: Theories and Case Studies.......................................................................8                                                                                                                                                 |
+|                                                                                                                                                     | 8.3 Module DSS 3: Methods, Skills and Applications............................................................9                                                                                                                                                     |
+|                                                                                                                                                     | 8.4 Module DSS 4: Digital Society in the Making: Analyses and Debates...........................10                                                                                                                                                                  |
+|                                                                                                                                                     | 8.5 Master exam (30 ECTS)..................................................................................................11                                                                                                                                       |
+| 9.                                                                                                                                                  | Evaluation of achievements..........................................................................................................11                                                                                                                              |
+|                                                                                                                                                     | 9.1 General modalities...........................................................................................................11                                                                                                                                 |
+|                                                                                                                                                     | 9.2 Modalities of evaluation and repeat attempts of learning units of the Faculty of                                                                                                                                                                                |
+| Humanities.......................................................................................................................................12 | Humanities.......................................................................................................................................12                                                                                                                 |
+|                                                                                                                                                     | 9.3 Modalities of evaluation and repeat attempts of learning units of other faculties...........13                                                                                                                                                                  |
+|                                                                                                                                                     | 9.4 Definitive failure..............................................................................................................13                                                                                                                              |
+| 9.5 10.                                                                                                                                             | Grades of modules and overall grade....................................................................................14 BeNeFri and mobility...................................................................................................................14 |
+
+<!-- image -->
+
+## 1. Legal basis
+
+This study plan is based on the Reglement vom 8 März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät (Regulations for obtaining Bachelors and Masters degrees at the Faculty of Humanities) .
+
+## 2. Description of the study programme
+
+## 2.1    General description
+
+The Digital Society master major programme of 90 ECTS credits is an interdisciplinary study programme. It is offered in cooperation with the Department of Social Sciences, the Department of Social Work, Social Policy and Global Development, and the interfaculty Human-IST Institute of the University of Fribourg.
+
+The master major programme focuses on the social dimensions of digital technologies in contemporary societies. In today's connected world, the impact of these technologies is multi-layered and influences profoundly how we communicate, work, and participate in society:  The ubiquity of smartphones, social media platforms and Artificial Intelligence shapes social interactions, workplace dynamics and civic engagement. The digital society comprises social media, online fandom, hackatons, global activist networks, gig work, online platforms, digital twins and much more. There is no domain of contemporary society that has not been affected by digital transformation. Digital technologies influence private and institutional fields of action, including personal interactions, work domains and political processes. They transform field such as education, health, trade and consumption, media, prosecution, farming or mobility. They deeply impact processes of communication, work and economics and shape social structures and hierarchies.
+
+Conversely, social factors influence the development and introduction of digital technologies from the outset. Cultural norms and values, practices and collective behaviors as well as institutions   and   power   structures   play   a   decisive   role   in   which   technologies   become established, how they are controlled and regulated, and also how they evolve. We can observe the emergence of new, digitally-driven professional groups (software engineers, influencers)   and   social   milieus   (hackers,   gamers)   and   even   movements   that   position themselves against digital technologies ( digital detox ). New digital technologies influence the formation of communities and collective identities, which illustrates further the complex interplay between digital and social spheres.
+
+To understand these phenomena and mutual infleunces, the Digital Society master major programme combines perspectives from sociology, anthropology, as well as science and technology studies (STS) with foundations of computer science to focus on issues and challenges of the digital societies. This entails the exploration of digital technologies as social objects being shaped by economy, policy, and culture, but also of the role digital technologies play in shaping social processes and structures.
+
+Students   will   gain   knowledge   in   the   domains   of   culture,   political   economy,   digital technologies   and   epistemology,   which   will   empower   them   to   critically   analyze   and understand the ongoing digital transformation, including political and cultural changes. The Digital   Society master   major   programme   will   also   advance   the   study   of   theoretical competences and development of empirical and analytical methods needed to understand these transformations. It will examine the emergence, as well as the uses and impacts of digital technologies on societies from diverse social science perspectives and expand the students' understanding of digital technologies and digital skills.
+
+<!-- image -->
+
+## 2.2    Professional perspectives
+
+The study programme prepares students for employment in various professional fields such as:
+
+- public sector and administrative institutions;
+- private sector and consultancies, particularly in roles of digital transformation and AI governance;
+- media and communication sector;
+- cultural projects and institutions;
+- civil society organisations and foundations;
+- professional societies, unions and advocacy groups;
+- humanitarian organisations;
+- academic career with doctoral studies or applied research in social sciences, STS and some branches of cultural studies.
+
+## 2.3    General structure
+
+The Digital Society master major consists of four study modules plus one master exam module. The four study module are 15 ECTS credits each and consist usually of units of 3 or   6   ECTS   credits   per   learning   unit.   In   the   case   of   courses   outside   the   Faculty   of Humanities, these may also consist of a different number of ECTS credits. The learning units   can   be   completed   out   of   order   and   at   an   individual   pace   within   the   stipulated maximum duration of studies. However, it is recommended to complete the learning units of the module DSS 1 in the first year of study if possible. The master exam comprises the Master thesis and its defence. The defence can only take place after all course units of the four study modules have been validated.
+
+The Master's degree programme of 90 ECTS credits consists of two core modules, two specialization modules and the Master's examination. The core module 'Interdisciplinary Perspectives on Digital Transformation of Society' provides an interdisciplinary foundation and introduces the digital transformation and its interdependence with society and culture through   introductory   lectures   and   seminars   on   computer   science,   the   Internet   and methodology. It also includes a public lecture series on digital transformation with invited experts. This first core module is complemented by a second core module called 'Theories and Case Studies', which focuses on particular areas of transformation related to specific social groups, specific disciplines or different theoretical approaches.
+
+<!-- image -->
+
+In addition, the Master major programme of 90 ECTS credits consists of two specialization modules: Firstly, the specialization module 'Methods, Skills and Applications' deepens methods and applications of digital studies and empirical social research in the digital society and combines science and practice. Analytical skills are acquired and deepened in methodological learning units on relevant approaches. The application of these skills and methods in practice and in situ includes science, the working environment, companies, politics,   administration   or   cultural   institutions.   Therefore,   the   specialization   module 'Methods, Skills and Applications' includes an internship or workshop in these areas. The second specialization module, 'Society in the Making: Analyses and Debates', focuses on key debates, critical analyses and conceptualizations in relation to the digital society. It provides   students   with   extensive   expertise   and   specialized   analytical   knowledge   on relevant topics and issues in the field of the Master. Taken together, both specialization modules prepare students for the Master thesis, which can cover a specific empirical field, concrete applications or a theoretical debate.
+
+The Master major program of 90 ECTS credits can be supplemented by a minor program of 30 ECTS credits from the Faculty of Humanities or another faculty. It is not possible to combine the Digital Society Master major programme with the Digital Society Master minor program.
+
+## 3. Admission
+
+## 3.1    Admission without condition
+
+Holders of a bachelor's degree from a Swiss or recognized foreign university or university of applied sciences in one of the following fields (minimum 60 ECTS credits) are admitted to this specialization programme without conditions:
+
+- Political   Science,   Sociology,   Social   Policy   and   Social   Work,   Social   and   Cultural Anthropology/Ethnology, Religious Studies, Cultural Studies*, Educational Sciences
+- STS (Science and Technology Studies)*
+- Computer Science, Software Systems*
+- Business Administration (BWL), Economics (VWL), Business Informatics
+- Bachelor's degrees from universities of applied sciences in Business Informatics, Business Administration, Economics, Social Work, Communication
+- Communication and Media Studies, Communication Systems
+- Geography, Environmental Sciences
+- Applicants with bachelor's degrees from the University of Fribourg in the following programmes   are   also   admitted   to   the   programme   without   conditions:   Eastern European   Studies   (Unifr   and   Unibe),   Business   Communication,   Environmental Sciences and Environmental Humanities, Contemporary History.
+
+<!-- image -->
+
+*Not listed among the fields of study recognized by Swissuniversities.
+
+## 3.2    Admission With Conditions
+
+Holders of a bachelor's degree from a Swiss or recognized foreign university or university of applied sciences in one of the following fields (minimum 60 ECTS credits) are admitted with a supplementary programme of up to 30 ECTS credits:
+
+- Law and legal studies
+- Philosophy, History, Art History, Musicology, all Language and Literature Studies (e.g., English Studies, German Studies), Theology
+- Human Medicine, Sports Sciences and Motor Control, Psychology
+- Applicants with bachelor's degrees from the University of Fribourg in the following programs: Biomedical Sciences*, Economic and Legal Studies*
+
+*Not listed among the fields of study recognized by Swissuniversities.
+
+All other CRUS fields of study not listed in the above sections may be admitted with a preparatory programme of up to 60 ECTS credits.
+
+## 4. Educational goals
+
+The educational goals of the interdisciplinary Digital Society master major study programme consist in the transmission of knowledge about digital phenomena and the skills to critically analyse, understand and situate these phenomena. Due to the particular combination of sociological, anthropological and computational approaches, the study programme fosters the unique abilities to understand the digital transformation holistically. The content of the learning units enables an iterative analytical understanding of digital technologies as social phenomena that are embedded in practices and cultures, which in turn are simultaneously influenced by these technologies.
+
+The emphasis of the study programme lies on the acquisition of knowledge about the digital entanglement between materiality and meaning, and the related power dynamics. This provides a broad theoretical and practical understanding of digital transformation in terms of methodology,   project   management,   analysis   and   intervention. By   completing   the programme,   students   will   have   acquired   topical,   specialized,   transversal   and   applied competencies that enhance their profile on the job market or allow them to continue their (doctoral) studies. They will be able to inform and support stakeholders on the impact and opportunities of digital technologies in our networked societies based on empirical research. The study programme addresses the following fields and topics:
+
+- the social dimensions of technology;
+- the complex interplay between science, technology, and society;
+
+<!-- image -->
+
+- the history of computer science and the Internet;
+- knowledge, information and disinformation in the digital age;
+- the evolution and impact of social media;
+- challenges in policy, governance and ethics of Artificial Intelligence;
+- how to research digital practices, artifacts, and infrastructures;
+- methodologies for studying and analyzing the digital society;
+- foundations of science and technology studies.
+
+In terms of practical skills acquisition, the study programme covers the following areas:
+
+- Ability to analyse complex social issues;
+- Mastery   of   coherent   research   designs   (quantitative   analyses,   qualitative investigations, digital methods etc.);
+- Communication skills (oral and written);
+- Project management and scholarly activities.
+
+## 5. Begin and duration of studies
+
+The Digital Society master major programme can be taken up in the autumn semester or in the spring semester. The minimal duration for the study programme is usually 3 semesters for students in the master major of 90 ECTS credits, and 4 semesters for students in a master programme of 120 ECTS credits (master major of 90 ECTS credits and a master minor of 30 ECTS credits). The maximum duration of the programme is 9 semesters for students in a 90 ECTS programme and 12 semesters for students in a 120 ECTS credits programme.
+
+Master-Vertiefungsprogramm   kann   im   Herbst-   oder   im   Frühjahrssemester   begonnen werden. Die Mindestdauer des Studienprogramms beträgt in der Regel 3 Semester für die Studierenden im Master-Studiengang mit 90-ECTS-Kreditpunkten und 4 Semester für die Studierenden im Master-Studiengang mit 120 ECTS-Kreditpunkten (Vertiefungsprogramm zu   90   ECTS-Kreditpunkten   plus   Nebenprogramm   von   30   ECTS-Kreditpunkten).   Die Höchstdauer   des   Studiums   beträgt   9   Semester   für   die   Studierenden   im   MasterStudiengang mit 90 ECTS-Kreditpunkten und 12 Semester für die Studierenden im MasterStudiengang mit 120 ECTS-Kreditpunkten.
+
+## 6. Language
+
+In principle, the courses are held in English. Exams and written work are also to be conducted and done in English. Students should have good written and oral English skills and can express themselves and communicate orally and in writing in this language. There is   no   distinction   'Bilingual   curriculum".   In   exceptional   cases,   supplementary   courses  in German or French will be integrated into the course programme.
+
+<!-- image -->
+
+## 7. Structure of the programme
+
+The four study modules are structured according to their learning goals. The description of the teaching units (courses, seminars, seminar papers etc.) specify the addressed topics, the specific pedagogical aims, and the corresponding form of evaluation.
+
+| Master major programme Digital Society 90 ECTS credits 4 modules of 15 ECTS credits + Master exam   | Master major programme Digital Society 90 ECTS credits 4 modules of 15 ECTS credits + Master exam   | Master major programme Digital Society 90 ECTS credits 4 modules of 15 ECTS credits + Master exam   |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| DSS 1                                                                                               | Interdisciplinary Perspectives on Digital Transformation of Society                                 | 15 ECTS credits                                                                                     |
+| DSS 2                                                                                               | Theories and Case Studies                                                                           | 15 ECTS credits                                                                                     |
+| DSS 3                                                                                               | Methods, Skills and Applications                                                                    | 15 ECTS credits                                                                                     |
+| DSS 4                                                                                               | Digital Society in the Making: Analyses and Debates                                                 | 15 ECTS credits                                                                                     |
+| Exam                                                                                                | Master exam (Master thesis and defence)                                                             | 30 ECTS credits                                                                                     |
+
+## 8. Description of the modules
+
+## 8.1 Module   DSS   1: Interdisciplinary   Perspectives   on   Digital Transformation of Society
+
+All lectures and the seminar in module DSS 1 are compulsory. They are offered once per academic year. The type of evaluation is determined by the respective lecturer at the beginning of the semester. The examination modalities are described in section 9.
+
+## Description:
+
+The main objective of this module is to provide a conceptual and practical introduction to the digital society from an interdisciplinary perspective. It combines social sciences, history, and computer sciences so that students can understand the foundations of the digital society and its transformation. In addition, the module introduces digital research methods.
+
+| Lecture 1   | Social History of Computing and the Internet (3 ECTS credits) General outline of technical innovations and their social impact .                                                                                                               |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lecture 2   | Foundations of Informatics (3 ECTS credits) Introduction to the fundamentals of informatics that enables students from diverse backgrounds to have a general understanding of program- ming, the function of algorithms and their application. |
+| Lecture 3   | Perspectives in the Social Studies of Technology (3 ECTS credits) Introduction to the main theoretical and analytical perspectives and ap- proaches in social studies of technology with special emphasis on their                             |
+
+<!-- image -->
+
+interdisciplinary dimensions. What are the main research programmes and domains of study? How have they evolved?
+
+- Lecture 4 Digital Transformation in Society and Culture (3 ECTS credits)
+
+Using a lecture series format, interdisciplinary introduction to diverse issues and areas of research. What are the major contemporary challenges in terms of changes in the economy, work, politics, culture, sports, religion, and society as a whole? Who are the major players and their roles, what are the stakes? The lecture series is based on diverse contributors from the University of Fribourg and external experts.
+
+Seminar 1 Methods in Studies of the Digital Society (3 ECTS credits) This seminar provides the students with an introduction to the methodological skills required to successfully engage with the program and be adequately prepared for specific case studies in the module. This includes digital ethnography, network analysis, video analysis, and communication analysis of social media in relation to established social science methods.
+
+## 8.2 Module DSS 2: Theories and Case Studies
+
+Module DSS 2 offers a range of courses that allow students to engage with specific topics, case studies and theories that correspond to current trends and public debates. They offer a wide range of topics to appeal to different student groups. More importantly, given the rapid development of digital technologies, the aim is to keep the courses open and flexible. For this reason, the titles of the courses in module DSS 2 change, allowing new topics to be introduced at any time. The exact titles are communicated each year. The type of evaluation is determined by the respective lecturer at the beginning of the semester. The examination modalities are described in section 9.
+
+## Description:
+
+The objective of module DSS 2 is to allow students to deepen their knowledge of certain theories, case studies and issues related to the digital society using empirical research methods. The module focuses on the macro level (society), the meso level (institutions) and how these influence the micro level of digital   practices.   Some   courses   focus   on   the transformation of society from a longitudinal perspective and how this affects and is driven by different social groups and institutions. Further courses consider how individual practices are embedded in higher level contexts. Students are required to prepare a research paper on a specific issue that has been covered in one of the courses.
+
+- 3 lectures or seminars (to follow at least one seminar is mandatory) focusing on specific   transformations/social   groups   or   on   specific   theoretical   approaches (with at least a total of 9 ECTS credits).
+
+These lectures and seminars may deal specifically with digital law; the ethics of robotics and artificial intelligence; hacking and cybersecurity; digital infrastructures; democracy and digital media; digital religion; the digital   divide   and   social   participation;   digital   communication; surveil- lance, control, and censorship; computer games; ethnography of software engineers and hackers; education and digital inequality and so on.
+
+<!-- image -->
+
+1 research paper related to a seminar (6 ECTS credits)
+
+## 8.3     Module DSS 3: Methods, Skills and Applications
+
+All   lectures,   workshops,   internships   and   seminars   in   module   DSS   3   are   individually proposed and/or approved by the study advisor. They allow for personalised enrichment depending on individual backgrounds, motivations and interests.  The exact titles of the workshops, lectures and seminars are communicated every year.
+
+While lectures and seminars in the DSS 3 module can be found in the usual university timetable, the workshops, internships and study weeks within the science-practice link are individually   suggested   or   approved   by   the   study   advisor.   They   enable   personalised enrichment depending on individual background, motivation, interests and career plans. The exact titles of the pre-approved workshops, lectures and seminars are announced each year. The science-practice link is not graded. For the other courses and the research work, the type of evaluation is determined by the respective lecturer at the beginning of the semester. The examination modalities are described in section 9.
+
+## Description:
+
+The   objective   of   module   DSS   3   is   to   enhance   students'   digital   competencies   and methodological expertise through personalized and practice-oriented learning experiences. This module is designed to provide students with an in-depth understanding of the digital society by integrating theoretical knowledge with practical skills and empirical research methods. The module consists of individual teaching units and a science-practice link that, taken together, foster the students' critical thinking, analytical skills, and practical application abilities.
+
+| Workshop        | Digital skills workshops offered by Fribourg University, cumulative, as defined in the annual list of courses for Digital Society (usually 3 x 1 ECTS credits) T his series of cumulative workshops, typically structured as 3 sessions of 1 ECTS credit each, focuses on building a baseline of literacy essen- tial for navigating and analyzing the digital landscape. Students engage in hands-on activities on their level, including computational data analy- sis, online communication tools, and cybersecurity. These workshops aim to equip students with the technical skills necessary for effective digital engagement and research.   |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lecture/seminar | Digital methods (at least 3 ECTS credits) A dedicated lecture or seminar on a specific methodological approach pertinent to investigating the digital society. This course allows students to enhance their practical and analytical skills in advanced methodolo- gies such as social network analysis, digital ethnography, big data ana- lytics, or machine learning. Students gain a thorough understanding of                                                                                                                                                                                                                                  |
+
+<!-- image -->
+
+1 research paper the chosen method, enabling them to conduct rigorous empirical research in the field of Digital Society .
+
+Science-practice link: Study week, workshop or internship (3 ECTS credits)
+
+The science-practice link requires students to follow the Digital Society study week usually offered by Fribourg University (collectively), external workshops or an internship (individually) with a focus on applying theoretical knowledge to real-world issues. External workshops and the study week are defined in the annual list of courses for Digital Society . The science-practice link fosters collaboration with practitioners, enhancing students' understanding of the practical implications of their research. It provides students with the opportunity to bridge the gap between academic learning and practical application. The modalities of the specific activity for this learning unit must be approved by the study advisor.
+
+related to the seminar, lecture or to the science-practice link (6 ECTS credits)
+
+This paper allows students to demonstrate their ability to situate their research project or practical activity within the broader context of Digital Society studies. The paper also showcases students' reflective capabilities.
+
+## 8.4   Module DSS 4: Digital Society in the Making: Analyses and Debates
+
+The titles of the lectures/seminars in module DSS 4 are announced each year. The type of evaluation is determined by the respective lecturer at the beginning of the semester. The examination modalities are described in section 9.
+
+## Description:
+
+In module DSS 4, students explore the contemporary landscape of the digital society through   one   lecture   and   one   seminar   that   address   current   issues   and   theoretical perspectives. Topics may include the governance of artificial intelligence, the challenges of dealing with information and misinformation in the digital age, and critical social media studies.   Additional   areas   of   focus   might   involve   the   impact   of   digital   platforms   on democracy, the role of social media in shaping cultural identities, censorship in the digital age, or the ethical implications of data privacy and surveillance. Through these learning units, students gain specialized analytical knowledge and develop expertise in addressing key debates and concerns within the evolving digital society.
+
+As   part   of   this   module,   students   must   also   participate   in   the   Master's   colloquium. Successful participation in the Master's colloquium is mandatory before submitting the Master's thesis; it is not graded. Students receive information about the formal requirements for the Master's thesis and develop their own concept for their Master's thesis. The mode of evaluation will be announced by the supervisor at the beginning of the colloquium.
+
+Lecture Digital Society lecture (3 ECTS credits)
+
+<!-- image -->
+
+| Seminar          | Digital Society seminar (3 ECTS credits)               |
+|------------------|--------------------------------------------------------|
+| 1 MAcolloquium   | Master colloquium (3 ECTS credits)                     |
+| 1 research paper | related to the seminar of this module (6 ECTS credits) |
+
+## 8.5    Master exam (30 ECTS)
+
+The Master exam (30 ECTS credits) includes the Master thesis and its defence. The Master thesis is based on approaches covered in the study programme and combines these with empirical research. The choice of topic is made in consultation with the supervisor of the Master thesis. The Master thesis is defended. The Master thesis and its defence are assessed by two individual grades.
+
+## 9. Evaluation of achievements
+
+## 9.1    General modalities
+
+The examination modalities (non-attendance, number of repeat attempts, etc.) are set by the faculty offering the respective course. The general principles for the evaluation of academic performance are therefore stipulated in the following documents:
+
+- Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät of the University of Fribourg;
+- Reglement vom 27. September 2021 für den Erwerb der Master an der Wirtschaftsund Sozialwissenschaftlichen Fakultät of the University of Fribourg;
+- Reglement vom 6. April 2020 für die Erlangung des Bachelor of Science und des Master of Science of   the   Faculty   of   Science   and   Medicine  of   the   University   of Fribourg.
+- Fakultät
+
+In general, the provisions on the charging of examination fees and the exam deadlines of the faculty in which the exams are taken apply. The relevant information can be found on the websites of the respective faculty:
+
+Faculty of Humanities (in French or German):
+
+https://www.unifr.ch/lettres/de/studium/kurse-und-examen/kurs-und-examenseinschreibung/

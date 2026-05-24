@@ -1,13 +1,13 @@
 {
-  "manifest_path": "./scrapy_crawler/outputs/faculty_docs_v3/_faculty_docs_manifest.json",
-  "out_root": "./scrapy_crawler/outputs/faculty_docs_v3",
-  "parsed_dir": "./scrapy_crawler/outputs/parsed_fulltext_docling_new2",
-  "helper_path": "./DB_service/src/import/parse_with_docling_robust.py",
+  "manifest_path": ".\\_faculty_docs_manifest.json",
+  "out_root": ".",
+  "parsed_dir": "..\\parsed_fulltext_docling_new2",
+  "helper_path": "C:\\Users\\Sara\\Bachelor_thesis_sk\\DB_service\\src\\import\\parse_with_docling_robust.py",
   "python": "python",
-  "generated_at": "2026-05-22T03:08:36.523Z",
+  "generated_at": "2026-05-24T16:50:14.778Z",
   "total_manifest_rows": 595,
   "unique_doc_keys": 532,
-  "ok": 453,
-  "skipped_existing": 0,
-  "failed": 79
+  "ok": 65,
+  "skipped_existing": 453,
+  "failed": 14
 }

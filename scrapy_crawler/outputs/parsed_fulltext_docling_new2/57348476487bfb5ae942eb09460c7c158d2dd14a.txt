@@ -1,0 +1,106 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T15:39:40.243Z",
+  "title": "57348476487bfb5ae942eb09460c7c158d2dd14a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "57348476487bfb5ae942eb09460c7c158d2dd14a",
+  "program_key": "faculty of management, economics and social sciences|bachelor|30|business informatics",
+  "programme_name_en": "Business Informatics",
+  "programme_name_de": "Wirtschaftsinformatik",
+  "programme_name_fr": "Informatique de gestion",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "source_url": "https://fr.calameo.com/read/003659115db40a2129930",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/digitinf/businessinformatics",
+  "programme_url_en": "https://studies.unifr.ch/en/bachelor/digitinf/businessinformatics",
+  "programme_url_de": "https://studies.unifr.ch/de/bachelor/digitinf/businessinformatics",
+  "programme_url_fr": "https://studies.unifr.ch/fr/bachelor/digitinf/businessinformatics",
+  "curriculum_url": "http://studies.unifr.ch/go/i5uLu",
+  "curriculum_de_url": "http://studies.unifr.ch/go/i5uLu",
+  "curriculum_fr_url": "https://studies.unifr.ch/go/i",
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\57348476487bfb5ae942eb09460c7c158d2dd14a.pdf",
+  "sha256": "ecb8e34412aa20dc125fe689d1644f1b932c9ddf7d2e0d0795a523edf1956536",
+  "fetched_at": "2026-05-21T16:05:14.098Z",
+  "notes": "calameo downloaded (id=003659115db40a2129930, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260303121318-0cd5abc2cc5f255f2baad01757c05d4f/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=b491373ed1fb2d37ec367e7ffd0d58d6bc0060e5772acca063cb481f63eacc0e, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## Bachelornebenfächer 30 ECTS
+
+Die Wirtschaf- und Sozialwsenchft Fakultät biet insgeamt  klein Nebnfächer zu 30 ECTS Kreditpunk an. Die klein Nebnfächer vermitln Grundketis in der gewählten Studienrchg.
+
+## Betriebswirtschaftslehre
+
+## Pflichtkurse (18 ECTS)
+
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Unternehmensrechnung (6 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 12 ECTS)
+
+-  Bilanzierung (4.5 ECTS)
+-  Controlling (4.5 ECTS)
+-  Investitions- und Finanzierungstheorie (6 ECTS)
+-  Marketing (4.5 ECTS)
+-  Operations Management (6 ECTS)
+
+## Wirtschaftsinformatik   Zweisprachig
+
+## Pflichtkurse (30 ECTS)
+
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Wirtschaftsinformatik II (6 ECTS)
+-  Information Systems Modeling  (6 ECTS)
+
+## Volkswirtschaftslehre
+
+## Pflichtkurse (24 ECTS)
+
+-  Mikroökonomie I (6 ECTS)
+-  Makroökonomie I (6 ECTS)
+-  Operations Management (6 ECTS)
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Mikroökonomie II (6 ECTS)
+-  Makroökonomie II (6 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 6 ECTS)
+
+Studenten wählen Semesterkurse aus dem Angebot der Bachelorkurse der Wirtschafts- und Sozialwissenschaftlichen Fakultät bis sie auf ein Total von mindestens 30 ECTS Kreditpunkte kommen.
+
+## Kommunikationswissenschaft und Medienforschung
+
+-  Einführung in die Kommunikationswissenschaft (3 ECTS)
+-  Proseminar mit Proseminararbeit in Medien, Kommunikation und wissenschaftliches Arbeiten (3+3 ECTS)
+-  Hauptseminar nach Wahl mit Hauptseminararbeit (3+6 ECTS)
+-  4 Wahlvorlesungen aus dem folgenden Angebot (12 ECTS):
+- Medien und Politik
+- PR-Forschung und Kommunikationsmanagement
+- Einführung in die (Sozial-)Psychologie
+- Journalismusforschung
+- Medienökonomie
+- Medienrecht
+- Einführung in die Mediensoziologie
+- Kommunikations- und Mediengeschichte
+- Mediennutzungs- und Medienwirkungsforschung
+- Kommunikations- und Medienethik
+- Weitere Wahlvorlesungen aus dem Angebot DCM für das Nebenfach KM 30 ECTS
+-  Human Resource Management (4.5 ECTS)
+-  Strategisches Management (4.5 ECTS)
+-  Marketingforschung (6 ECTS)
+-  Unternehmensfinanzierung (4.5 ECTS)
+-  Mikroökonomie I (6 ECTS)

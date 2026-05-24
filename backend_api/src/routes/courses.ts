@@ -249,7 +249,13 @@ export async function coursesRoutes(app: FastifyInstance) {
           AND ($9::text IS NULL OR d.name ILIKE '%' || $9 || '%')
           AND ($10::text IS NULL OR c.name ILIKE '%' || $10 || '%')
           AND ($11::int IS NULL OR p.program_id = $11)
-          AND ($12::text IS NULL OR p.name ILIKE '%' || $12 || '%')
+          AND (
+            $12::text IS NULL
+            OR p.name ILIKE '%' || $12 || '%'
+            OR p.name_en ILIKE '%' || $12 || '%'
+            OR p.name_de ILIKE '%' || $12 || '%'
+            OR p.name_fr ILIKE '%' || $12 || '%'
+          )
           AND (
             $13::text IS NULL
             OR EXISTS (

@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any, Literal
 
 LanguageCode = Literal["de", "en", "fr"]
-RunMode = Literal["auto", "rag", "tool", "hybrid"]
+RunMode = Literal["auto", "rag", "api", "hybrid"]
 RagSource = Literal["auto", "studyplans", "reglementations", "base_data"]
 
 class AskRequest(BaseModel):

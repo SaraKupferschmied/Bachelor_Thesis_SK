@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "b887299cb895a4762caac3050c5feb0fecc72342",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\n## Bachelornebenfächer\n\nSpezialprogramm für Studierende im Bachelor-Hauptfach Informatik\n\n## Wirtschaftsinformatik 30 ECTS Zweisprachig\n\n## Pflichtkurse (33 ECTS)\n\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Operations Management (6 ECTS)\n-  Information Systems Development Project (4.5 ECTS)\n-  Requirements Engineering for Information Systems (4.5 ECTS)\n-  Einführung in die Betriebswirtschaftslehre (6 ECTS)\n-  Unternehmensrechnung (6 ECTS)\n\n## Wirtschaftsinformatik 60 ECTS Zweisprachig\n\n## Pflichtkurse (33 ECTS)\n\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Operations Management (6 ECTS)\n-  Information Systems Development Project (4.5 ECTS)\n-  Requirements Engineering for Information Systems (4.5 ECTS)\n-  Einführung in die Betriebswirtschaftslehre (6 ECTS)\n-  Unternehmensrechnung (6 ECTS)\n\n## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 27 ECTS)\n\n-  Sécurité Informatique (4.5 ECTS)\n-  Decision support I (4.5 ECTS)\n-  Decision support II (4.5 ECTS)\n-  Strategisches Management (4.5 ECTS)\n-  Investitions- und Finanzierungstheorie  (6 ECTS)\n-  Marketing (4.5 ECTS)\n-  Human Resource Management (4.5 ECTS)\n\n<!-- image -->\n\n## Kontakt\n\nWirtschafts- und Sozialwissenschaftliche Fakultät\n\nBd de Pérolles 90 CH-1700 Freiburg\n\n<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\n/phone\n\n+41 (0) 26 300 82 00\n\nat\n\ndecanat-ses@unifr.ch\n\n/paper-plane\n\nwww.unifr.ch/ses",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\n## Bachelornebenfächer\n\nSpezialprogramm für Studierende im Bachelor-Hauptfach Informatik\n\n## Wirtschaftsinformatik 30 ECTS Zweisprachig\n\n## Pflichtkurse (33 ECTS)\n\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Operations Management (6 ECTS)\n-  Information Systems Development Project (4.5 ECTS)\n-  Requirements Engineering for Information Systems (4.5 ECTS)\n-  Einführung in die Betriebswirtschaftslehre (6 ECTS)\n-  Unternehmensrechnung (6 ECTS)\n\n## Wirtschaftsinformatik 60 ECTS Zweisprachig\n\n## Pflichtkurse (33 ECTS)\n\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Operations Management (6 ECTS)\n-  Information Systems Development Project (4.5 ECTS)\n-  Requirements Engineering for Information Systems (4.5 ECTS)\n-  Einführung in die Betriebswirtschaftslehre (6 ECTS)\n-  Unternehmensrechnung (6 ECTS)\n\n## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 27 ECTS)\n\n-  Sécurité Informatique (4.5 ECTS)\n-  Decision support I (4.5 ECTS)\n-  Decision support II (4.5 ECTS)\n-  Strategisches Management (4.5 ECTS)\n-  Investitions- und Finanzierungstheorie  (6 ECTS)\n-  Marketing (4.5 ECTS)\n-  Human Resource Management (4.5 ECTS)\n\n<!-- image -->\n\n## Kontakt\n\nWirtschafts- und Sozialwissenschaftliche Fakultät\n\nBd de Pérolles 90 CH-1700 Freiburg\n\n<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\n/phone\n\n+41 (0) 26 300 82 00\n\nat\n\ndecanat-ses@unifr.ch\n\n/paper-plane\n\nwww.unifr.ch/ses"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Bachelornebenfächer",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Wirtschaftsinformatik 30 ECTS Zweisprachig",
+      "line_index": 10,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Pflichtkurse (33 ECTS)",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Wirtschaftsinformatik 60 ECTS Zweisprachig",
+      "line_index": 21,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Pflichtwahlkurse des detaillierten Studienplans (Mindestens 27 ECTS)",
+      "line_index": 32,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Kontakt",
+      "line_index": 44,
+      "source": "markdown_regex"
+    }
+  ]
+}

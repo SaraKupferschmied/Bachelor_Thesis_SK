@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { query } from "../db.js";
 
 type ProgramsListQuery = {
+  name?: string;
   name_en?: string;
   name_de?: string;
   name_fr?: string;
@@ -113,6 +114,7 @@ export async function programsRoutes(app: FastifyInstance) {
         querystring: {
           type: "object",
           properties: {
+            name: { type: "string", description: "Generic name search across EN/DE/FR/default program names" },
             name_en: { type: "string" },
             name_de: { type: "string" },
             name_fr: { type: "string" },
@@ -149,6 +151,7 @@ export async function programsRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
+        name,
         name_en,
         name_de,
         name_fr,
@@ -187,9 +190,16 @@ export async function programsRoutes(app: FastifyInstance) {
         FROM StudyProgram p
         LEFT JOIN Faculty f
           ON f.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
-          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%' OR p.name ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%' OR p.name ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%' OR p.name ILIKE '%' || $3 || '%')
+          AND (
+            $11::text IS NULL
+            OR p.name ILIKE '%' || $11 || '%'
+            OR p.name_en ILIKE '%' || $11 || '%'
+            OR p.name_de ILIKE '%' || $11 || '%'
+            OR p.name_fr ILIKE '%' || $11 || '%'
+          )
           AND ($4::text IS NULL OR p.degree_level = $4)
           AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (
@@ -233,6 +243,7 @@ export async function programsRoutes(app: FastifyInstance) {
           totalEctsFilter.value,
           totalEctsFilter.operator,
           program_type ?? null,
+          name ?? null,
         ]
       );
     }
@@ -382,9 +393,9 @@ export async function programsRoutes(app: FastifyInstance) {
           ON d.domain_id = c.domain_id
         LEFT JOIN Faculty pf
           ON pf.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
-          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%' OR p.name ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%' OR p.name ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%' OR p.name ILIKE '%' || $3 || '%')
           AND ($4::text IS NULL OR p.degree_level = $4)
           AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (

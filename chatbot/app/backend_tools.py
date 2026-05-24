@@ -3,6 +3,17 @@ from typing import Any, Optional, Callable
 from .config import settings
 
 
+def _looks_like_language_code(value: str | None, code: str) -> bool:
+    if not value:
+        return False
+    v = value.strip().lower()
+    if code == "de":
+        return any(x in v for x in ["de", "deutsch", "german", "allemand"])
+    if code == "fr":
+        return any(x in v for x in ["fr", "français", "francais", "french"])
+    return any(x in v for x in ["en", "english", "anglais", "englisch"])
+
+
 def _get(path: str, params: Optional[dict[str, Any]] = None) -> Any:
     r = requests.get(f"{settings.backend_api_base}{path}", params=params, timeout=8)
     r.raise_for_status()
@@ -650,6 +661,7 @@ TOOL_SPECS: list[dict[str, Any]] = [
         "parameters": {
             "type": "object",
             "properties": {
+                "q": {"type": "string", "description": "Broad localized search across program names, course names/descriptions and domains"},
                 "program_en": {"type": "string"},
                 "program_de": {"type": "string"},
                 "program_fr": {"type": "string"},

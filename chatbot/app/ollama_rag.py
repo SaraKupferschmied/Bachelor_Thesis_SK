@@ -64,6 +64,111 @@ LANGUAGE_NAMES = {
 }
 
 
+def detect_request_language(text: str | None, explicit_language: str | None = None) -> str:
+    """Return the answer language for a request.
+
+    The API's explicit language parameter wins.  If it is missing, use a
+    small deterministic detector for the languages relevant to this thesis
+    project.  This avoids depending on the LLM for routing and keeps German
+    and French questions from silently falling back to English.
+    """
+    explicit = _normalize_language_code(explicit_language)
+    if explicit in {"de", "fr", "en", "it", "es"}:
+        return explicit
+
+    normalized = _normalize_text(text or "")
+    tokens = set(normalized.split())
+
+    german_markers = {
+        "bitte", "gib", "mir", "liste", "aller", "alle", "welche", "welcher", "welches",
+        "kurs", "kurse", "modul", "module", "studiengang", "studienplan", "wirtschaftsinformatik",
+        "bachelor", "master", "deutsch", "deutsche", "auf", "und", "oder", "im", "im", "der",
+        "die", "das", "des", "für", "fuer", "semester", "jahr", "studienjahr", "angeboten",
+        "unterrichtet", "prüfungen", "pruefungen", "ects", "zeige", "nenne", "erkläre", "erklaere",
+    }
+    french_markers = {
+        "donne", "moi", "liste", "tous", "toutes", "quels", "quelles", "quel", "quelle",
+        "cours", "module", "modules", "programme", "bachelor", "master", "français", "francais",
+        "en", "et", "ou", "du", "de", "des", "la", "le", "les", "pour", "semestre", "annee",
+        "année", "enseigné", "enseignes", "enseignés", "examen", "examens", "montre", "explique",
+        "informatique", "gestion",
+    }
+    english_markers = {
+        "please", "give", "show", "list", "all", "which", "what", "course", "courses",
+        "module", "modules", "program", "programme", "study", "plan", "semester", "year",
+        "bachelor", "master", "english", "taught", "offered", "explain",
+    }
+
+    scores = {
+        "de": len(tokens & german_markers),
+        "fr": len(tokens & french_markers),
+        "en": len(tokens & english_markers),
+    }
+
+    # Umlauts and common French accents are strong signals.
+    raw = text or ""
+    if re.search(r"[äöüßÄÖÜ]", raw):
+        scores["de"] += 2
+    if re.search(r"[àâçéèêëîïôùûüÿœÀÂÇÉÈÊËÎÏÔÙÛÜŸŒ]", raw):
+        scores["fr"] += 2
+
+    best = max(scores, key=scores.get)
+    return best if scores[best] > 0 else "en"
+
+
+def _looks_english(text: str | None) -> bool:
+    if not text:
+        return False
+    normalized = _normalize_text(text)
+    tokens = set(normalized.split())
+    english_markers = {
+        "based", "provided", "appears", "there", "are", "several", "students", "pursuing",
+        "degree", "here", "summary", "information", "references", "note", "answer", "question",
+        "found", "matching", "results", "course", "courses", "program", "programme", "section",
+    }
+    return len(tokens & english_markers) >= 3
+
+
+def ensure_answer_language(answer: str, language: str | None) -> str:
+    """Final safety guard: translate accidental English answers back to the requested UI language.
+
+    The RAG prompt already asks the model to answer in the requested language,
+    but local models sometimes ignore that instruction when the context is
+    multilingual.  This guard only performs a second LLM call when it detects
+    the common broken case: target German/French but answer is visibly English.
+    Citations, course codes, ECTS values, and bullet structure are preserved.
+    """
+    code = _normalize_language_code(language)
+    if code not in {"de", "fr"}:
+        return answer
+    if not _looks_english(answer):
+        return answer
+
+    target_language = _language_name(code)
+    llm = ChatOllama(
+        model=settings.ollama_model,
+        temperature=0,
+        base_url=settings.ollama_host,
+    )
+    prompt = ChatPromptTemplate.from_messages([
+        (
+            "system",
+            f"Translate the assistant answer into natural {target_language}. "
+            "Preserve markdown formatting, bullets, course codes, ECTS values, semesters, proper names, and citations exactly. "
+            "Do not add new facts and do not remove any factual information.",
+        ),
+        ("human", "Answer to translate:\n{answer}"),
+    ])
+    try:
+        with timed_step("answer.language_guard"):
+            resp = llm.invoke(prompt.format_messages(answer=answer))
+        translated = str(resp.content or "").strip()
+        return translated or answer
+    except Exception as exc:
+        print(f"[warn] answer language guard failed for {code}: {exc}")
+        return answer
+
+
 _QUERY_STOPWORDS = {
     "what", "which", "who", "when", "where", "how", "are", "is", "the", "a", "an", "of", "in", "for", "to",
     "and", "or", "with", "without", "offered", "taught", "thaught", "courses", "course", "modules", "module",
@@ -129,11 +234,11 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
         [
             (
                 "system",
-                "You are a careful assistant for university regulations and study plans. "
-                "Answer ONLY using the provided context. "
+                "You are a careful assistant for university regulations and study plans from the University of Friburg (CH). "
+                "Answer ONLY using the provided context, do not invent or speculate anything that is not in the context. "
                 "If the answer is not in the context, say you cannot find it in the documents. "
-                f"Always answer in {target_language}. "
-                f"Use natural, clear {target_language}. "
+                f"CRITICAL: The final answer must be written in {target_language}, because this is the user interface/request language. "
+                f"Do not answer in English unless the requested language is English. Use natural, clear {target_language}. "
                 "The retrieved documents may be in German, French, English, Italian, or Spanish; use them all if relevant. "
                 "Even if the documents are written in another language, the final answer must be in the requested language. "
                 "For study-plan questions, treat metadata as authoritative. "
@@ -141,7 +246,8 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
                 "Ignore chunks from other programmes or degree levels, even if their wording is similar. But please note that context in other languages is still relevant, only metadata are english, headers can be german, french or italian. "
                 "When course rows are present, extract the course code, course title, semester, language, assessment, ECTS, "
                 "and teacher if available. Do not invent missing course data. "
-                "Always cite sources as [filename p.X].",
+                "If the question is about courses for a certain studyprogram and the backend api does not help search the rag for the tables containing the courses and answer with the course names you find."
+                "Always cite sources if there are any but dont invent exemplary sources.",
             ),
             ("human", "Question: {question}\n\nContext:\n{context}\n\nAnswer with citations:"),
         ]
@@ -1097,6 +1203,7 @@ def answer_question(
     k: int | None = None,
     language: str | None = None,
 ) -> Tuple[str, List[dict]]:
+    language = detect_request_language(question, language)
     final_k = k or settings.k
 
     with timed_step("rag.retrieve", k=final_k):
@@ -1176,7 +1283,8 @@ def answer_question(
             }
         )
 
-    return resp.content, sources
+    answer = ensure_answer_language(str(resp.content or ""), language)
+    return answer, sources
 
 
 def debug_find_chunks_for_doc(

@@ -1,0 +1,113 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T14:42:25.789Z",
+  "title": "unmatched_SCIMED_Bachelor_UNK_Introduction_aux_branches_compl_mentaires_Introduction_aux_branches_compl_mentaires_bfd17a3bbed1492e9684dffa4141dcd918b35a35",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "bfd17a3bbed1492e9684dffa4141dcd918b35a35",
+  "program_key": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "level": null,
+  "ects_points": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": null,
+  "programme_url_en": null,
+  "programme_url_de": null,
+  "programme_url_fr": null,
+  "curriculum_url": null,
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_Bachelor_UNK_Introduction_aux_branches_compl_mentaires_Introduction_aux_branches_compl_mentaires_bfd17a3bbed1492e9684dffa4141dcd918b35a35.pdf",
+  "sha256": "47d3f9291fd2092de5dc866e7158e727efe850d19426f2fb263600f6b42037a8",
+  "fetched_at": "2026-05-21T16:05:41.001Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Généralités
+
+Ce plan d ' études contient toutes les informations nécessaires aux étudiant·e·s qui choisissent ou doivent suivre une ou des branches propédeutiques et/ou une ou des branches complémentaires dans le cadre de leurs études de Bachelor of Science [ci-après Bachelor ou BSc] à la Faculté des sciences et de médecine ou dans le cadre d ' autres voies d ' études dans lesquelles ces branches sont reconnues. Ils sont soumis aux conditions du Règlement du 30 mai 2022 pour l ' obtention des  Bachelor  of  Science  et  des  Master  of  Science  de  la  Faculté  des  sciences  et  de médecine [ci-après Règlement].
+
+Le Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science prévoit une limitation de la durée des études de Bachelor et de Master, ainsi que des branches complémentaires (voir articles 11, 13 et 14) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1 Structure générale des voies d ' études de Bachelor
+
+Les Bachelor en Mathématiques , en Informatique et en Géographie ont la structure suivante, dans laquelle une branche propédeutique [ci-après Bprop] de 12 crédits ECTS est incluse dans la branche principale et 1 branche complémentaire [ci-après BCo] de 60 crédits ECTS ou 2 BCo de 30 crédits ECTS sont demandées :
+
+<!-- image -->
+
+Les  plans  d ' études  des  Bachelor  en Physique , Chimie , Sciences  de  la  Terre , Biologie , Biochimie , Sciences  biomédicales et Sciences  du  sport  et  de  la  motricité  (option enseignement) ont une structure dans laquelle une à trois Bprop sont intégrées dans la branche principale de la 1 e  année. Lorsque la branche principale est de 150 crédits ECTS, les plans d ' études prévoient une BCo de 30 crédits ECTS. Par contre, lorsque la branche principale est de 120 crédits ECTS, ils prévoient soit une BCo de 60, soit 2 BCo de 30 crédits ECTS. La structure générale est :
+
+Le  plan  d ' études  du  Bachelor  en Sciences  du  sport  et  de  la  motricité  (option  santé -performance -recherche) ne contient pas de BCo et a la structure suivante :
+
+<!-- image -->
+
+La Faculté offre au total 9 branches propédeutiques : en mathématiques, informatique, physique, chimie (variantes A et B), géosciences, biologie (variantes I et II) et sciences de l ' environnement.
+
+Le choix, libre ou imposé, et le nombre de branches propédeutiques à suivre sont définis dans les plans d ' études de chaque cursus.
+
+Il  y  a  33  branches  complémentaires  à  choix  en  Faculté  des  sciences  et  de  médecine.  Leurs conditions d ' accès varient en fonction des pré-requis. En cas d ' hésitation, il est recommandé de s ' adresser à la conseillère ou au conseiller d ' études de sa branche principale ou de la branche complémentaire envisagée.
+
+## 1.1.1 Autres branches complémentaires
+
+Il est possible de choisir une branche complémentaire hors de la Faculté. Une liste des branches complémentaires offertes par les autres Facultés de l ' Université de Fribourg est publiée sur la page web http://studies.unifr.ch/fr. Pour d ' autres branches complémentaires, veuillez-vous adresser à la conseillère ou au conseiller d ' études de votre branche principale.
+
+## 1.1.2 Horaires
+
+Il existe des combinaisons classiques de branche principale -branche complémentaire, fréquemment choisies par les étudiant·e·s. Dans la mesure du possible, les horaires ont été établis de façon à en faciliter l ' accès. Pour d ' autres combinaisons, plus rarement retenues, il est possible que des conflits  d ' horaires  apparaissent.  Il  appartient  à  l ' étudiant·e  de  s ' organiser  pour  surmonter  cette difficulté.
+
+## 1.1.3 Unités d ' enseignement (UE)
+
+Aussi bien les branches propédeutiques que les branches complémentaires sont constituées d ' UE. Ce sont des cours, les exercices, les travaux pratiques, des proséminaires, les workshops, les projets, etc., auxquels sont associés un nombre de crédits ECTS ( European Credit Transfer System ).
+
+## 1.2 Compétences acquises
+
+Avec chaque branche propédeutique réussie, l ' étudiant·e aura acquis des connaissances de base dans une discipline autre que sa branche principale, facilitant la compréhension de celle-ci. Elle lui offrira de plus une culture scientifique élargie.
+
+Avec l ' acquisition d ' une branche complémentaire dans le cadre de son BSc, l ' étudiant·e aura développé une ouverture à l ' interdisciplinarité, lui facilitant à l ' avenir le dialogue et la collaboration avec des spécialistes d ' autres disciplines.
+
+Grâce à une formation bilingue intégrée, l ' étudiant·e aura enrichi son vocabulaire spécifique dans deux langues et acquis la capacité de dialoguer, dans ses branches d ' études, avec des spécialistes aussi bien en français qu ' en allemand.
+
+## 1.3 Évaluations des unités d ' enseignement et acquisition des crédits ECTS
+
+L ' acquisition des crédits ECTS passe par trois étapes : l ' évaluation des UE, le regroupement des UE en paquets de validation et la validation des crédits ECTS.
+
+L ' évaluation des exercices, des travaux pratiques, des workshops et des proséminaires se  fait  suivant  des  critères  (nombre  de  séries  d ' exercices  rendues,  nombre  d ' expériences réussies, rapports ou travaux écrits, etc.) énoncés en début de semestre. La prestation peut être sanctionnée  par  une  note,  ou  par  « réussie »  ou  « échouée ».  Satisfaire  aux  conditions  de réussite des exercices peut être un pré-requis pour accéder à l ' épreuve du cours correspondant.
+
+L ' évaluation des cours et des cours avec travaux pratiques se fait par des épreuves orales, écrites ou pratiques dont la durée est fixée dans des annexes (une par domaine) disponibles à http://www.unifr.ch/scimed/plans. Les épreuves se déroulent, en général, durant trois sessions d ' examens (hiver, été, automne), à l ' exception des épreuves pratiques en sport, évaluées en principe à la fin du cours. Pour chaque épreuve, l ' étudiant·e s ' inscrit dans les délais prescrits par la Faculté selon la procédure on-line sur le portail d ' étudiant·e·s MyUniFR (https://my.unifr.ch), accessible avec le compte personnel. L ' épreuve porte sur la matière de l ' UE telle qu ' elle a été enseignée la dernière fois. En cas d ' exception, celle-ci sera communiquée par le Département voir  par  la  Section  et/ou  par  l ' enseignant·e  responsable. L ' échelle  des  notes  s ' étend  de  6 (meilleure note) à 1 (plus mauvaise note). Seule une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément. Le nombre de paquets est fixé par l 'a rt. 24 et 27 du Règlement et le contenu est précisé par ces plans d ' études. Les branches propédeutiques sont intégrées dans le paquet de validation de la branche  principale.  Par  contre,  chaque  branche  complémentaire  fait  l ' objet  d ' un  paquet  de validation indépendant.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement
+
+Après validation, sur demande de l ' étudiant·e et après acquittement de la taxe d ' examen, un relevé des prestations indiquant les résultats des évaluations et le nombre de crédits acquis sera délivré par le Décanat (art. 28 et 30 du Règlement).
+
+## 1.4 Langues d ' enseignement
+
+Les enseignements des études de branches propédeutiques et de branches complémentaires sont  bilingues  français-allemand.  Cela  signifie  que  certains  enseignements  sont  donnés  en français et d'autres en allemand, au choix de l'enseignant ·e. Toutefois, l ' étudiant·e a toujours la possibilité de s ' exprimer dans l ' une ou l ' autre de ces langues. Les enseignements de 3 e  année peuvent parfois être donnés en anglais.
+
+## 1.5 Éthique scientifique
+
+Les principes d ' éthique font partie intégrante de la formation scientifique. Les règles internationalement admises doivent être respectées lors de l ' élaboration  et  la  rédaction  de  tout  travail scientifique (projet, séminaire, travail de Bachelor et de Master, rapport, etc.). En particulier, toute source  externe  d ' information  (articles,  communications  orales,  page  web,  etc.)  doit  être correctement citée.
+
+Dans ce cadre, la Faculté a mis en place la formation obligatoire ci-dessous : Vous trouvez la description détaillée à l'adresse : https://www.unifr.ch/scimed/fr/integrity
+
+## Orientation de base et recherche à la bibliothèque
+
+Le but est de connaître les objectifs et les méthodes spécifiques de la recherche documentaire.
+
+Cette formation est à suivre durant le premier semestre d'études. Vous pourrez consulter vos résultats  seulement  après  avoir  réussi  cette  formation  et  soumis  le  formulaire  « Déclaration d'intégrité scientifique » signé.
+
+## 1.6 Règlements et informations complémentaires
+
+De plus amples informations concernant les études en Faculté des sciences et de médecine sont contenues  dans  les documents  accessibles  sur http://www.unifr.ch/scimed/plans,  également disponibles  à  la  réception  du  Décanat  de  la  Faculté,  chemin  du  Musée  8,  CH-1700  Fribourg.

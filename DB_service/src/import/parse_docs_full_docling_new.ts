@@ -137,6 +137,10 @@ function resolvePdfPath(item: ProgramDocManifestItem, outRoot: string): string |
     candidates.push(path.join(outRoot, 'pdfs', path.basename(normalizeCandidatePath(item.local_path))));
   }
 
+  if (item.doc_key) {
+    candidates.push(path.join(outRoot, 'pdfs', `${item.doc_key}.pdf`));
+  }
+
   if (item.sha256) {
     candidates.push(path.join(outRoot, 'pdfs', `${item.sha256}.pdf`));
   }

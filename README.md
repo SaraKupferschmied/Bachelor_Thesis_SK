@@ -222,3 +222,5 @@ requirement:
 python -m pip install langchain-core langchain-community langchain-ollama faiss-cpu
 set RAG_PARSER=docling_table_semantic
 python -m chatbot.app.faiss_builders.build_faiss_docling_table_semantic --target studyplans --force
+
+npx.cmd tsx C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_docs_full_docling_new.ts --root . --manifest .\_faculty_docs_manifest.json --parsed-dir .\parsed_fulltext_docling_new --docling-helper C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_with_docling_robust.py

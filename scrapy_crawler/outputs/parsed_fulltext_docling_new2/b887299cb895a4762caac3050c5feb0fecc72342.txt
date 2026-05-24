@@ -1,0 +1,99 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T16:11:12.535Z",
+  "title": "b887299cb895a4762caac3050c5feb0fecc72342",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "b887299cb895a4762caac3050c5feb0fecc72342",
+  "program_key": "faculty of management, economics and social sciences|bachelor|60|business informatics",
+  "programme_name_en": "Business Informatics",
+  "programme_name_de": "Wirtschaftsinformatik",
+  "programme_name_fr": "Informatique de gestion",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "source_url": "https://fr.calameo.com/read/0036591159d2066725c13",
+  "source_type": "calameo",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/digitinf/businessinformatics",
+  "programme_url_en": "https://studies.unifr.ch/en/bachelor/digitinf/businessinformatics",
+  "programme_url_de": "https://studies.unifr.ch/de/bachelor/digitinf/businessinformatics",
+  "programme_url_fr": "https://studies.unifr.ch/fr/bachelor/digitinf/businessinformatics",
+  "curriculum_url": "http://studies.unifr.ch/go/i5uLu",
+  "curriculum_de_url": "http://studies.unifr.ch/go/i5uLu",
+  "curriculum_fr_url": "https://studies.unifr.ch/go/i",
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\b887299cb895a4762caac3050c5feb0fecc72342.pdf",
+  "sha256": "5707c5e6a19804fee24040ef76d2cdecf8b4e26a27293a8880ca6a70824e36f9",
+  "fetched_at": "2026-05-21T16:05:14.462Z",
+  "notes": "calameo downloaded (id=0036591159d2066725c13, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260303121619-4ec4443fc84bfc8d5974cd7138596af6/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160514Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=94a55ae0f172176e9897c03b187adff80cbaa98836e5f538e81c2b6408760e20, ct=application/octet-stream)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## Bachelornebenfächer
+
+Spezialprogramm für Studierende im Bachelor-Hauptfach Informatik
+
+## Wirtschaftsinformatik 30 ECTS Zweisprachig
+
+## Pflichtkurse (33 ECTS)
+
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Operations Management (6 ECTS)
+-  Information Systems Development Project (4.5 ECTS)
+-  Requirements Engineering for Information Systems (4.5 ECTS)
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Unternehmensrechnung (6 ECTS)
+
+## Wirtschaftsinformatik 60 ECTS Zweisprachig
+
+## Pflichtkurse (33 ECTS)
+
+-  Wirtschaftsinformatik I (6 ECTS)
+-  Operations Management (6 ECTS)
+-  Information Systems Development Project (4.5 ECTS)
+-  Requirements Engineering for Information Systems (4.5 ECTS)
+-  Einführung in die Betriebswirtschaftslehre (6 ECTS)
+-  Unternehmensrechnung (6 ECTS)
+
+## Pflichtwahlkurse des detaillierten Studienplans (Mindestens 27 ECTS)
+
+-  Sécurité Informatique (4.5 ECTS)
+-  Decision support I (4.5 ECTS)
+-  Decision support II (4.5 ECTS)
+-  Strategisches Management (4.5 ECTS)
+-  Investitions- und Finanzierungstheorie  (6 ECTS)
+-  Marketing (4.5 ECTS)
+-  Human Resource Management (4.5 ECTS)
+
+<!-- image -->
+
+## Kontakt
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Bd de Pérolles 90 CH-1700 Freiburg
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+/phone
+
++41 (0) 26 300 82 00
+
+at
+
+decanat-ses@unifr.ch
+
+/paper-plane
+
+www.unifr.ch/ses
