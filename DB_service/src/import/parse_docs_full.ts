@@ -3,7 +3,6 @@ import "../environments/environment";
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
-import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 
 type ProgramDocManifestItem = {
   program_key: string;
@@ -166,42 +165,63 @@ async function extractPdfTextAndTitle(
   title: string | null;
   pagesText: string[];
 }> {
+
+  const pdfjsLib = await import("pdfjs-dist/legacy/build/pdf.mjs");
+
   const data = new Uint8Array(fs.readFileSync(filePath));
+
   const loadingTask = pdfjsLib.getDocument({ data });
   const doc = await loadingTask.promise;
 
   // Metadata title (best-effort)
   let metaTitle: string | null = null;
+
   try {
     const meta = await doc.getMetadata();
+
     const infoAny = (meta as any)?.info ?? {};
     const pdfTitle = (infoAny.Title ?? "") as string;
-    const dcTitle = (meta as any)?.metadata?.get?.("dc:title") ?? "";
+
+    const dcTitle =
+      (meta as any)?.metadata?.get?.("dc:title") ?? "";
+
     const t = String(pdfTitle || dcTitle).trim();
-    if (t && !isJunkTitle(t)) metaTitle = collapseWs(t);
+
+    if (t && !isJunkTitle(t)) {
+      metaTitle = collapseWs(t);
+    }
   } catch {
     // ignore metadata failures
   }
 
   const pagesText: string[] = [];
+
   for (let pageNo = 1; pageNo <= doc.numPages; pageNo++) {
     const page = await doc.getPage(pageNo);
+
     const content = await page.getTextContent();
 
-    const strings = content.items.map((it: any) => (it?.str ?? "").toString());
+    const strings = content.items.map(
+      (it: any) => (it?.str ?? "").toString()
+    );
+
     const pageText = collapseWs(strings.join(" "));
+
     pagesText.push(pageText);
   }
 
   const coverTitle = titleFromCoverText(pagesText[0] ?? "");
 
   let title: string | null = null;
+
   if (coverTitle) title = coverTitle;
   else if (metaTitle) title = metaTitle;
   else if (sourceUrl) title = titleFromSourceUrl(sourceUrl);
-  else title = null;
 
-  return { title, pagesText };
+  return {
+    title,
+    pagesText,
+  };
 }
 
 function renderHeader(m: ProgramDocManifestItem, title: string | null, pages: number) {

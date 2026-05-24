@@ -26,10 +26,20 @@ SOURCE_METADATA_WHITELIST = {
     "parser",
     "doc_key",
     "program_key",
+
+    # New clean programme metadata produced by the updated parser/backfill.
+    "programme_name_en",
+    "programme_name_de",
+    "programme_name_fr",
+    "level",
+    "ects_points",
+
+    # Legacy fallbacks kept intentionally so old indexes / old parsed files still work.
     "faculty",
     "degree_level",
     "total_ects",
     "program_name",
+
     "doc_label",
     "title",
     "source_url",
@@ -81,7 +91,7 @@ def _parsed_dir_for(target: str, parser: str) -> Path:
 
 def _index_dir_for(target: str, parser: str, suffix: str) -> Path:
     if target == "studyplans":
-        return settings.vectorstore_dir / "faiss_studyplans_docling_table_semantic_new"
+        return settings.vectorstore_dir / "faiss_studyplans_docling_table_semantic_new2"
     if target in {"regulations", "reglementations"}:
         return settings.vectorstore_dir / "faiss_reglementations"
     raise ValueError(f"Unknown target: {target}")

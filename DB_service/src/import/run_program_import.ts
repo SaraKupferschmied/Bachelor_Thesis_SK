@@ -28,7 +28,6 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import axios from "axios";
-import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 
 import { DataAccessController } from "../control/data_access_controller";
 
@@ -302,16 +301,24 @@ function tryExtractTitle(line: string, code: string | null): string | null {
 }
 
 async function pdfToPagesText(filePath: string): Promise<string[]> {
+  const pdfjsLib = await import("pdfjs-dist/legacy/build/pdf.mjs");
+
   const data = new Uint8Array(fs.readFileSync(filePath));
   const doc = await pdfjsLib.getDocument({ data }).promise;
 
   const pages: string[] = [];
+
   for (let pageNo = 1; pageNo <= doc.numPages; pageNo++) {
     const page = await doc.getPage(pageNo);
     const content = await page.getTextContent();
-    const strings = content.items.map((it: any) => (it.str ?? "").toString());
+
+    const strings = content.items.map((it: any) =>
+      (it.str ?? "").toString()
+    );
+
     pages.push(strings.join(" "));
   }
+
   return pages;
 }
 
