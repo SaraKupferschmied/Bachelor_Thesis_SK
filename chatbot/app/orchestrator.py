@@ -4,7 +4,7 @@ import logging
 
 from .planner import plan_tool_usage
 from .backend_tools import TOOLS
-from .ollama_rag import answer_question as rag_answer, detect_request_language, ensure_answer_language
+from .ollama_rag import answer_question as rag_answer
 from .session_state import update_session_state
 from .hero_semester import is_plan_semester_hero, start_plan_semester_flow
 from .performance import timed_step
@@ -21,6 +21,49 @@ def _has_tool_result(result: Any) -> bool:
     if isinstance(result, str):
         return bool(result.strip())
     return True
+
+def _pick_doc_url(docs: list[dict[str, Any]]) -> str | None:
+    if not docs:
+        return None
+
+    for wanted in ("study_plan", "brochure"):
+        for doc in docs:
+            if doc.get("doc_type") == wanted and doc.get("url"):
+                return doc["url"]
+
+    for doc in docs:
+        if doc.get("url"):
+            return doc["url"]
+
+    return None
+
+
+def _program_source_snippets(result: Any) -> list[dict[str, Any]]:
+    if not isinstance(result, dict):
+        return []
+
+    program_documents = result.get("program_documents") or []
+    if not isinstance(program_documents, list) or len(program_documents) > 4:
+        return []
+
+    sources = []
+    for entry in program_documents:
+        docs = entry.get("program_documents") or []
+        url = _pick_doc_url(docs)
+        if not url:
+            continue
+
+        sources.append({
+            "source": "Program document",
+            "snippet": "Program source document",
+            "metadata": {
+                "program_id": entry.get("program_id"),
+                "source_url": url,
+            },
+            "source_type": "api",
+        })
+
+    return sources
 
 
 def _program_type(item: dict[str, Any]) -> str | None:
@@ -48,7 +91,7 @@ def _program_type(item: dict[str, Any]) -> str | None:
 
 def _question_asks_first_year(question: str) -> bool:
     q = question.lower()
-    return any(x in q for x in ["first study year", "first year", "1st year", "1. year", "1st study year", "erstes studienjahr", "1. studienjahr"])
+    return any(x in q for x in ["first study year", "first year", "1st year", "1. year", "1st study year", "erstes studienjahr", "1. studienjahr", "1ère année", "première année"])
 
 
 def _looks_like_first_year_description(text: str | None) -> bool:
@@ -80,6 +123,17 @@ def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
     if isinstance(result, dict):
         if not result:
             return f"{tool_name}: no result found."
+
+        if tool_name in {"get_program_courses", "get_program_courses_by_metadata"}:
+            courses = result.get("courses")
+            if isinstance(courses, list):
+                return _format_tool_result(tool_name, courses, question=question)
+
+        if tool_name == "get_program_course_sections":
+            sections = result.get("course_sections")
+            if isinstance(sections, list):
+                return _format_tool_result(tool_name, sections, question=question)
+
         return _format_dict_result(tool_name, result)
 
     if isinstance(result, list):
@@ -192,12 +246,12 @@ def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
 
     return str(result)
 
-def _select_rag_db(question: str, db_study=None, db_regl=None):
+def _select_rag_db(question: str, db_study=None, db_regl=None, db_base=None):
     q = question.lower()
 
     study_keywords = [
-        "course", "courses", "module", "modules", "semester", "study plan", "program", "ects",
-        "kurs", "kurse", "modul", "module", "semester", "studienplan", "bachelor", "master",
+        "course", "courses", "module", "modules", "semester", "study plan", "program", "programme", "ects",
+        "kurs", "kurse", "modul", "module", "studienplan", "bachelor", "master",
         "wirtschaftsinformatik", "business informatics", "pflichtfach", "wahlfach",
     ]
 
@@ -205,12 +259,21 @@ def _select_rag_db(question: str, db_study=None, db_regl=None):
         "reglement", "regulation", "regulations", "ordnung", "article", "artikel", "paragraph", "§",
     ]
 
-    if any(k in q for k in study_keywords):
-        return db_study or db_regl
-    if any(k in q for k in regl_keywords):
-        return db_regl or db_study
-    return db_study or db_regl
+    base_keywords = [
+        "faculty", "faculties", "domain", "degree", "university", "department",
+        "study program", "study programme", "programmes", "base data",
+    ]
 
+    if any(k in q for k in regl_keywords):
+        return db_regl or db_study or db_base
+
+    if any(k in q for k in base_keywords):
+        return db_base or db_study or db_regl
+
+    if any(k in q for k in study_keywords):
+        return db_study or db_base or db_regl
+
+    return db_study or db_base or db_regl
 
 def _extract_semester_count(text: str) -> int | None:
     match = re.search(r"\b(\d{1,2})\s*(semester|semesters|semestri|semestren)?\b", text.lower())
@@ -1067,11 +1130,11 @@ def answer_question(
     question: str,
     db_study=None,
     db_regl=None,
+    db_base=None,
     language: str | None = None,
     session_state: Dict[str, Any] | None = None,
     run_mode: str | None = None,
 ) -> Dict[str, Any]:
-    language = detect_request_language(question, language)
     session_state = session_state or {}
     final_answer = ""
 
@@ -1799,6 +1862,7 @@ def answer_question(
                 # Empty results are still kept in tool_results for debugging and session state.
                 if _has_tool_result(result):
                     answer_parts.append(_format_tool_result(tool_name, result, question=question))
+                    sources.extend(_program_source_snippets(result))
 
                 debug_entry["result_type"] = type(result).__name__
 
@@ -1846,7 +1910,7 @@ def answer_question(
     should_run_rag = mode in ("rag", "hybrid") or (mode == "api" and not tool_mode_found_anything)
 
     if should_run_rag:
-        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl)
+        db = _select_rag_db(question, db_study=db_study, db_regl=db_regl, db_base=db_base)
 
         if db is not None:
             with timed_step("rag.total"):
@@ -1873,8 +1937,6 @@ def answer_question(
         final_answer = "\n\n".join(part for part in answer_parts if part) or "No answer available."
     elif mode == "rag" and not final_answer:
         final_answer = "No answer available."
-
-    final_answer = ensure_answer_language(final_answer, language)
 
     with timed_step("session.update_state"):
         new_session_state = update_session_state(session_state, tool_results)

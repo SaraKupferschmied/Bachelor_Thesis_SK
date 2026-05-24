@@ -167,7 +167,7 @@ function inferType(section: string | null, row: string): CourseType | null {
   const t = normalize(`${section ?? ""} ${row}`);
 
   const elective = /\b(wahlkurs(?:e|en)?|wahlfach|wahlbereich|wahlmodul|wahlpflicht|elective|electives|optional|optionnel|optionnels|cours?\s+(?:à|a)\s+choix|module\s+(?:à|a)\s+choix|choix)\b/i.test(t);
-  const mandatory = /\b(pflicht(?:modul)?|pflichtkurse?|pflichtveranstaltungen?|obligatorisch|obligatoire|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i.test(t);
+  const mandatory = /\b(pflicht(?:modul)?|pflichtkurse?|pflichtveranstaltungen?|obligatorisch|obligatoire|obligatoires|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i.test(t);
 
   if (elective && !mandatory) return "Elective";
   if (mandatory && !elective) return "Mandatory";
@@ -236,7 +236,7 @@ function extractCoursesFromPage(page: string, pageNo: number): StagingCourse[] {
 
       if (!codes.length && rowType) {
         const headingCandidate =
-          cells.find((c) => rowType === "Elective" ? /wahl|elective|choix|option/i.test(c) : /pflicht|obligatoire|mandatory|compulsory|required/i.test(c))
+          cells.find((c) => rowType === "Elective" ? /wahl|elective|choix|option/i.test(c) : /pflicht|obligatoire|obligatoires|mandatory|compulsory|required/i.test(c))
           ?? cells.find((c) => c.trim().length > 0)
           ?? rowText;
         section = headingCandidate.trim();

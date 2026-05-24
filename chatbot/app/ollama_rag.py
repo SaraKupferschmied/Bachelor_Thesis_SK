@@ -111,111 +111,6 @@ LANGUAGE_NAMES = {
 }
 
 
-def detect_request_language(text: str | None, explicit_language: str | None = None) -> str:
-    """Return the answer language for a request.
-
-    The API's explicit language parameter wins.  If it is missing, use a
-    small deterministic detector for the languages relevant to this thesis
-    project.  This avoids depending on the LLM for routing and keeps German
-    and French questions from silently falling back to English.
-    """
-    explicit = _normalize_language_code(explicit_language)
-    if explicit in {"de", "fr", "en", "it", "es"}:
-        return explicit
-
-    normalized = _normalize_text(text or "")
-    tokens = set(normalized.split())
-
-    german_markers = {
-        "bitte", "gib", "mir", "liste", "aller", "alle", "welche", "welcher", "welches",
-        "kurs", "kurse", "modul", "module", "studiengang", "studienplan", "wirtschaftsinformatik",
-        "bachelor", "master", "deutsch", "deutsche", "auf", "und", "oder", "im", "im", "der",
-        "die", "das", "des", "für", "fuer", "semester", "jahr", "studienjahr", "angeboten",
-        "unterrichtet", "prüfungen", "pruefungen", "ects", "zeige", "nenne", "erkläre", "erklaere",
-    }
-    french_markers = {
-        "donne", "moi", "liste", "tous", "toutes", "quels", "quelles", "quel", "quelle",
-        "cours", "module", "modules", "programme", "bachelor", "master", "français", "francais",
-        "en", "et", "ou", "du", "de", "des", "la", "le", "les", "pour", "semestre", "annee",
-        "année", "enseigné", "enseignes", "enseignés", "examen", "examens", "montre", "explique",
-        "informatique", "gestion",
-    }
-    english_markers = {
-        "please", "give", "show", "list", "all", "which", "what", "course", "courses",
-        "module", "modules", "program", "programme", "study", "plan", "semester", "year",
-        "bachelor", "master", "english", "taught", "offered", "explain",
-    }
-
-    scores = {
-        "de": len(tokens & german_markers),
-        "fr": len(tokens & french_markers),
-        "en": len(tokens & english_markers),
-    }
-
-    # Umlauts and common French accents are strong signals.
-    raw = text or ""
-    if re.search(r"[äöüßÄÖÜ]", raw):
-        scores["de"] += 2
-    if re.search(r"[àâçéèêëîïôùûüÿœÀÂÇÉÈÊËÎÏÔÙÛÜŸŒ]", raw):
-        scores["fr"] += 2
-
-    best = max(scores, key=scores.get)
-    return best if scores[best] > 0 else "en"
-
-
-def _looks_english(text: str | None) -> bool:
-    if not text:
-        return False
-    normalized = _normalize_text(text)
-    tokens = set(normalized.split())
-    english_markers = {
-        "based", "provided", "appears", "there", "are", "several", "students", "pursuing",
-        "degree", "here", "summary", "information", "references", "note", "answer", "question",
-        "found", "matching", "results", "course", "courses", "program", "programme", "section",
-    }
-    return len(tokens & english_markers) >= 3
-
-
-def ensure_answer_language(answer: str, language: str | None) -> str:
-    """Final safety guard: translate accidental English answers back to the requested UI language.
-
-    The RAG prompt already asks the model to answer in the requested language,
-    but local models sometimes ignore that instruction when the context is
-    multilingual.  This guard only performs a second LLM call when it detects
-    the common broken case: target German/French but answer is visibly English.
-    Citations, course codes, ECTS values, and bullet structure are preserved.
-    """
-    code = _normalize_language_code(language)
-    if code not in {"de", "fr"}:
-        return answer
-    if not _looks_english(answer):
-        return answer
-
-    target_language = _language_name(code)
-    llm = ChatOllama(
-        model=settings.ollama_model,
-        temperature=0,
-        base_url=settings.ollama_host,
-    )
-    prompt = ChatPromptTemplate.from_messages([
-        (
-            "system",
-            f"Translate the assistant answer into natural {target_language}. "
-            "Preserve markdown formatting, bullets, course codes, ECTS values, semesters, proper names, and citations exactly. "
-            "Do not add new facts and do not remove any factual information.",
-        ),
-        ("human", "Answer to translate:\n{answer}"),
-    ])
-    try:
-        with timed_step("answer.language_guard"):
-            resp = llm.invoke(prompt.format_messages(answer=answer))
-        translated = str(resp.content or "").strip()
-        return translated or answer
-    except Exception as exc:
-        print(f"[warn] answer language guard failed for {code}: {exc}")
-        return answer
-
-
 _QUERY_STOPWORDS = {
     "what", "which", "who", "when", "where", "how", "are", "is", "the", "a", "an", "of", "in", "for", "to",
     "and", "or", "with", "without", "offered", "taught", "thaught", "courses", "course", "modules", "module",
@@ -281,11 +176,11 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
         [
             (
                 "system",
-                "You are a careful assistant for university regulations and study plans from the University of Friburg (CH). "
-                "Answer ONLY using the provided context, do not invent or speculate anything that is not in the context. "
+                "You are a careful assistant for university regulations and study plans for the university of fribourg (Unifr). "
+                "Answer ONLY using the provided context. "
                 "If the answer is not in the context, say you cannot find it in the documents. "
-                f"CRITICAL: The final answer must be written in {target_language}, because this is the user interface/request language. "
-                f"Do not answer in English unless the requested language is English. Use natural, clear {target_language}. "
+                f"Always answer in {target_language}. "
+                f"Use natural, clear {target_language}. "
                 "The retrieved documents may be in German, French, English, Italian, or Spanish; use them all if relevant. "
                 "Even if the documents are written in another language, the final answer must be in the requested language. "
                 "For study-plan questions, treat metadata as authoritative. "
@@ -293,8 +188,7 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
                 "Ignore chunks from other programmes or degree levels, even if their wording is similar. But please note that context in other languages is still relevant, only metadata are english, headers can be german, french or italian. "
                 "When course rows are present, extract the course code, course title, semester, language, assessment, ECTS, "
                 "and teacher if available. Do not invent missing course data. "
-                "If the question is about courses for a certain studyprogram and the backend api does not help search the rag for the tables containing the courses and answer with the course names you find."
-                "Always cite sources if there are any but dont invent exemplary sources.",
+                "Always cite sources as [filename p.X].",
             ),
             ("human", "Question: {question}\n\nContext:\n{context}\n\nAnswer with citations:"),
         ]
@@ -338,9 +232,6 @@ def _program_key_parts(program_key: Any) -> Dict[str, Any]:
         "total_ects": ects,
         "program_name": parts[3] or None,
     }
-
-
-
 
 
 def _metadata_program_names(metadata: Dict[str, Any]) -> list[str]:
@@ -429,89 +320,6 @@ def _program_aliases_from_api(program: Dict[str, Any]) -> list[str]:
     return aliases
 
 
-def _fetch_programs_from_backend() -> list[Dict[str, Any]]:
-    try:
-        response = requests.get(f"{settings.backend_api_base}/programs/", timeout=5)
-        response.raise_for_status()
-        data = response.json()
-        return data if isinstance(data, list) else []
-    except Exception as exc:
-        print(f"[warn] backend programme resolver unavailable: {exc}")
-        return []
-
-
-def _score_api_program(question: str, program_query: str, degree: str | None, ects: int | None, program: Dict[str, Any]) -> float:
-    q_norm = _normalize_text(program_query or question)
-    q_tokens = _tokens(program_query or question)
-    aliases = _program_aliases_from_api(program)
-    alias_norms = [_normalize_text(a) for a in aliases if a]
-    alias_tokens = set().union(*(_tokens(a) for a in aliases)) if aliases else set()
-
-    score = 0.0
-    if any(a and a == q_norm for a in alias_norms):
-        score += 100.0
-    if any(a and (a in q_norm or q_norm in a) for a in alias_norms):
-        score += 55.0
-
-    overlap = q_tokens & alias_tokens
-    score += len(overlap) * 12.0
-    for token in overlap:
-        if len(token) >= 8:
-            score += 5.0
-
-    if degree and str(program.get("degree_level", "")).lower() == degree.lower():
-        score += 20.0
-    elif degree and program.get("degree_level"):
-        score -= 25.0
-
-    if ects is not None:
-        try:
-            if int(float(program.get("total_ects"))) == ects:
-                score += 25.0
-            else:
-                score -= 8.0
-        except Exception:
-            pass
-    else:
-        # If the user says simply "Bachelor in X" or "Master in X", prefer the main programme.
-        ptype = str(program.get("program_type") or "").lower()
-        total = program.get("total_ects")
-        if degree == "Bachelor" and (ptype == "mono" or total == 180):
-            score += 8.0
-        if degree == "Master" and ptype in {"major", "mono"}:
-            score += 6.0
-
-    return score
-
-
-def _resolve_program_via_backend(question: str, degree: str | None, ects: int | None) -> Dict[str, Any] | None:
-    programs = _fetch_programs_from_backend()
-    if not programs:
-        return None
-
-    program_query = _program_query_text(question, degree=degree, ects=ects)
-    scored = [(_score_api_program(question, program_query, degree, ects, p), p) for p in programs]
-    scored.sort(key=lambda item: item[0], reverse=True)
-    best_score, best = scored[0]
-
-    if best_score < 40.0:
-        return None
-
-    faculty = best.get("faculty_name")
-    canonical_key = _canonical_program_key(faculty, best.get("degree_level"), best.get("total_ects"), best.get("name_en") or best.get("name"))
-    return {
-        "program_id": best.get("program_id"),
-        "program_name": best.get("name_en") or best.get("name"),
-        "program_aliases": _program_aliases_from_api(best),
-        "program_key": canonical_key,
-        "degree_level": best.get("degree_level"),
-        "total_ects": best.get("total_ects"),
-        "faculty": faculty,
-        "resolver": "backend_api",
-        "resolver_score": best_score,
-        "program_query": program_query,
-    }
-
 def _metadata_value_as_text(value: Any) -> str:
     if isinstance(value, (list, tuple, set)):
         return " ".join(str(v) for v in value)
@@ -523,14 +331,23 @@ def _iter_docstore_docs(db: FAISS) -> Iterable[Document]:
     return docstore_dict.values()
 
 
-def _program_identity(metadata: Dict[str, Any]) -> str | None:
+def _program_identity(metadata):
     program_key = metadata.get("program_key")
     if program_key:
         return f"key::{program_key}"
 
-    name = _metadata_program_name(metadata)
-    degree = _metadata_degree(metadata)
-    ects = _metadata_ects(metadata)
+    name = first_non_empty_string(
+        metadata.get("programme_name_en"),
+        metadata.get("programme_name_de"),
+        metadata.get("programme_name_fr"),
+        metadata.get("program_name"),
+    )
+    degree = first_non_empty_string(
+        metadata.get("level"),
+        metadata.get("degree_level"),
+    )
+    ects = metadata.get("ects_points") or metadata.get("total_ects")
+
     if name:
         return f"name::{name}::{degree}::{ects}"
 
@@ -639,116 +456,59 @@ def _score_program_match(
     ects: int | None,
 ) -> float:
     q_norm = _normalize_text(question)
-    q_program = _program_query_text(question, degree=degree, ects=ects)
-    q_program_norm = _normalize_text(q_program)
-    q_tokens = _tokens(q_program or question)
-    alias_text = entry.get("alias_text", "")
+    q_tokens = _tokens(question)
+
     alias_tokens = entry.get("alias_tokens", set())
+    aliases = entry.get("program_aliases", [])
 
     score = 0.0
 
-    program_key_norm = _normalize_text(entry.get("program_key"))
-    key_parts = _program_key_parts(entry.get("program_key"))
-    candidate_names = {
-        *(_normalize_text(name) for name in entry.get("program_aliases", []) if name),
-        _normalize_text(entry.get("program_name")),
-        _normalize_text(key_parts.get("program_name")),
-    }
+    candidate_names = [
+        entry.get("program_name"),
+        entry.get("program_key"),
+        *aliases,
+    ]
 
-    # Treat structured multilingual programme-name metadata as authoritative.
-    for candidate_name in candidate_names:
-        if not candidate_name:
+    for name in candidate_names:
+        name_norm = _normalize_text(name)
+        if not name_norm:
             continue
-        if candidate_name == q_program_norm:
-            score += 120.0
-        elif candidate_name in q_program_norm or q_program_norm in candidate_name:
-            score += 70.0
+
+        if name_norm == q_norm:
+            score += 60.0
+        elif name_norm in q_norm:
+            score += 40.0
         else:
-            name_tokens = set(candidate_name.split()) - _QUERY_STOPWORDS
+            name_tokens = set(name_norm.split()) - _QUERY_STOPWORDS
             overlap = q_tokens & name_tokens
-            if overlap:
-                score += len(overlap) * 18.0
-                if name_tokens and len(overlap) / max(len(name_tokens), 1) >= 0.7:
-                    score += 35.0
+            score += len(overlap) * 8.0
 
-    if program_key_norm and program_key_norm in q_norm:
-        score += 40.0
+            if name_tokens and len(overlap) / len(name_tokens) >= 0.7:
+                score += 20.0
 
-    # Low-weight fallback: content/title overlap. This should not beat exact key-name matches.
-    overlap = q_tokens & alias_tokens
-    score += float(len(overlap) * 2)
+    important_query_tokens = q_tokens - _QUERY_STOPWORDS - {"bachelor", "master", "ects"}
+    overlap = important_query_tokens & alias_tokens
+    score += len(overlap) * 2.0
+
+    for token in overlap:
+        if len(token) >= 8:
+            score += 2.0
 
     if degree and str(entry.get("degree_level") or "").lower() == degree.lower():
-        score += 20.0
+        score += 12.0
     elif degree and entry.get("degree_level"):
-        score -= 25.0
+        score -= 12.0
 
     if ects is not None:
         try:
-            if int(float(entry.get("total_ects"))) == ects:
-                score += 25.0
+            if int(float(entry.get("total_ects"))) == int(ects):
+                score += 12.0
             else:
-                score -= 6.0
-        except Exception:
-            pass
-    else:
-        # When no ECTS are given, prefer the main programme over minors.
-        try:
-            total = int(float(entry.get("total_ects")))
-            if degree == "Bachelor" and total == 180:
-                score += 8.0
-            if degree == "Master" and total in {90, 120}:
-                score += 6.0
+                score -= 4.0
         except Exception:
             pass
 
     return score
-
-def _find_catalog_entry_for_resolved_program(
-    catalog: List[Dict[str, Any]],
-    resolved: Dict[str, Any],
-) -> Dict[str, Any] | None:
-    wanted_name = _normalize_text(resolved.get("program_name"))
-    wanted_degree = str(resolved.get("degree_level") or "").lower()
-    wanted_ects = resolved.get("total_ects")
-    wanted_key = _normalize_text(resolved.get("program_key"))
-
-    scored: list[tuple[float, Dict[str, Any]]] = []
-    for entry in catalog:
-        key_parts = _program_key_parts(entry.get("program_key"))
-        entry_names = [_normalize_text(n) for n in entry.get("program_aliases", []) if n]
-        key_name = _normalize_text(key_parts.get("program_name"))
-        if key_name:
-            entry_names.append(key_name)
-        entry_name = entry_names[0] if entry_names else ""
-        entry_degree = str(entry.get("degree_level") or key_parts.get("degree_level") or "").lower()
-        entry_ects = entry.get("total_ects") if entry.get("total_ects") is not None else key_parts.get("total_ects")
-        entry_key = _normalize_text(entry.get("program_key"))
-
-        score = 0.0
-        if wanted_key and entry_key == wanted_key:
-            score += 120.0
-        if wanted_name and any(name == wanted_name for name in entry_names):
-            score += 80.0
-        elif wanted_name and any(wanted_name in name or name in wanted_name for name in entry_names):
-            score += 45.0
-        if wanted_degree and entry_degree == wanted_degree:
-            score += 25.0
-        elif wanted_degree and entry_degree:
-            score -= 40.0
-        try:
-            if wanted_ects is not None and entry_ects is not None and int(float(wanted_ects)) == int(float(entry_ects)):
-                score += 30.0
-            elif wanted_ects is not None and entry_ects is not None:
-                score -= 8.0
-        except Exception:
-            pass
-        scored.append((score, entry))
-
-    if not scored:
-        return None
-    scored.sort(key=lambda item: item[0], reverse=True)
-    return scored[0][1] if scored[0][0] >= 70.0 else None
 
 
 def _detect_program(
@@ -761,23 +521,6 @@ def _detect_program(
     if not catalog:
         return None
 
-    # Preferred path: resolve multilingual programme names through the structured backend API,
-    # then map the resolved programme to the programme_key in FAISS.
-    resolved = _resolve_program_via_backend(question, degree=degree, ects=ects)
-    if resolved:
-        matched_entry = _find_catalog_entry_for_resolved_program(catalog, resolved)
-        if matched_entry:
-            merged = dict(matched_entry)
-            merged.update({
-                "resolver": resolved.get("resolver"),
-                "resolver_score": resolved.get("resolver_score"),
-                "program_id": resolved.get("program_id"),
-                "program_aliases": resolved.get("program_aliases"),
-                "program_query": resolved.get("program_query"),
-            })
-            return merged
-
-    # Fallback: use FAISS metadata only. The programme-name part of program_key is authoritative.
     scored = [
         (_score_program_match(question, entry, degree, ects), entry)
         for entry in catalog
@@ -1060,12 +803,17 @@ def _retrieve_metadata_and_language_aware(
 
     requested_language = _normalize_language_code(language)
 
+    # Always search with the original question first.
     queries: list[tuple[str, str | None]] = [(question, requested_language)]
 
-    for code in _available_language_codes(db):
-        translated = _translate_query(question, code, llm)
-        if translated and translated.lower().strip() != question.lower().strip():
-            queries.append((translated, code))
+    # Translation is enabled by default via config.py.
+    # Do NOT skip translation for course-code/program questions.
+    if settings.enable_query_translation:
+        for code in _available_language_codes(db):
+            translated = _translate_query(question, code, llm)
+
+            if translated and translated.lower().strip() != question.lower().strip():
+                queries.append((translated, code))
 
     merged: list[Document] = []
     seen: set[str] = set()
@@ -1100,6 +848,7 @@ def _retrieve_metadata_and_language_aware(
                 return merged, {
                     "retrieval_mode": "metadata_and_language_aware",
                     "requested_language": requested_language,
+                    "translation_enabled": settings.enable_query_translation,
                     "runs": debug_runs,
                     "returned_count": len(merged),
                 }
@@ -1107,6 +856,7 @@ def _retrieve_metadata_and_language_aware(
     return merged, {
         "retrieval_mode": "metadata_and_language_aware",
         "requested_language": requested_language,
+        "translation_enabled": settings.enable_query_translation,
         "runs": debug_runs,
         "returned_count": len(merged),
     }
@@ -1215,6 +965,8 @@ def build_or_load_index_for(subfolder: str, index_dir: Path, force_rebuild: bool
         parsed_folder = settings.studyplans_parsed
     elif subfolder == "reglementations":
         parsed_folder = settings.reglementations_parsed
+    elif subfolder == "base_data":
+        parsed_folder = settings.base_data_parsed
     else:
         raise ValueError(f"Unknown subfolder: {subfolder}")
 
@@ -1250,7 +1002,7 @@ def answer_question(
     k: int | None = None,
     language: str | None = None,
 ) -> Tuple[str, List[dict]]:
-    language = detect_request_language(question, language)
+#   language = detect_request_language(question, language)
     final_k = k or settings.k
 
     with timed_step("rag.retrieve", k=final_k):
@@ -1266,8 +1018,6 @@ def answer_question(
             "de": "Ich habe in den Dokumenten keine passenden Quellen zur Frage gefunden.",
             "fr": "Je n'ai trouvé aucune source pertinente dans les documents pour répondre à la question.",
             "en": "I could not find matching sources in the documents for this question.",
-            "it": "Non ho trovato fonti pertinenti nei documenti per rispondere alla domanda.",
-            "es": "No encontré fuentes relevantes en los documentos para responder a la pregunta.",
         }
         code = _normalize_language_code(language) or "en"
         return fallback_by_language.get(code, fallback_by_language["en"]), []
@@ -1349,8 +1099,8 @@ def answer_question(
             }
         )
 
-    answer = ensure_answer_language(str(resp.content or ""), language)
-    return answer, sources
+    #answer = ensure_answer_language(str(resp.content or ""), language)
+    return resp.content, sources
 
 
 def debug_find_chunks_for_doc(

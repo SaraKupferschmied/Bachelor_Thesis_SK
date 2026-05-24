@@ -38,7 +38,6 @@ DOCLING_LANGUAGE_AWARE_REGULATIONS_PARSED = Path(
     )
 )
 
-
 class Settings(BaseModel):
     vectorstore_dir: Path = Path(os.getenv("VECTORSTORE_DIR", str(ROOT_DIR / "vectorstore")))
     ollama_host: str = os.getenv("OLLAMA_HOST", "http://localhost:11434")
@@ -48,6 +47,8 @@ class Settings(BaseModel):
     vectorstore_variant: str = os.getenv("VECTORSTORE_VARIANT", "")
     k: int = int(os.getenv("RETRIEVAL_K", "8"))
     backend_api_base: str = os.getenv("BACKEND_API_BASE", "http://localhost:3000")
+    enable_query_translation: bool = (os.getenv("ENABLE_QUERY_TRANSLATION", "1").lower() in {"1", "true", "yes", "on"})
+
 
     @property
     def studyplans_parsed(self) -> Path:

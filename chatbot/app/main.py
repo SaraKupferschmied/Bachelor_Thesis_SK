@@ -9,7 +9,7 @@ from .performance import get_timer, log_timing, reset_request_timer, start_reque
 
 from .config import settings
 from .orchestrator import answer_question
-from .ollama_rag import detect_request_language
+#from .ollama_rag import detect_request_language
 from .ollama_rag import _retrieve_metadata_aware
 from .schemas import AskRequest, AskResponse
 from .session_state import empty_session_state
@@ -172,7 +172,7 @@ def rebuild_reglementations():
 
 @app.post("/rebuild")
 def rebuild():
-    global db_study, db_regl
+    global db_study, db_regl, db_base
 
     result = {"parser": settings.rag_parser}
 
@@ -190,6 +190,13 @@ def rebuild():
         db_regl = None
         result["reglementations"] = f"failed: {e}"
 
+    try:
+        db_base = build_index_for("base_data", parser=settings.rag_parser, force_rebuild=True)
+        result["base_data"] = "rebuilt"
+    except Exception as e:
+        db_base = None
+        result["base_data"] = f"failed: {e}"
+
     return result
 
 
@@ -199,21 +206,24 @@ def ask(payload: AskRequest) -> AskResponse:
     session_state = SESSION_STORE.get(session_id, empty_session_state())
 
     selected_db = choose_db(payload.question, db_study, db_regl, db_base, payload.rag_source or "auto")
-    use_study = selected_db
-    use_regl = None
+    use_study = db_study if selected_db == db_study else None
+    use_regl = db_regl if selected_db == db_regl else None
+    use_base = db_base if selected_db == db_base else None
 
     if payload.run_mode == "api":
         use_study = None
         use_regl = None
+        use_base = None
 
-    effective_language = detect_request_language(payload.question, payload.language)
+#    effective_language = detect_request_language(payload.question, payload.language)
 
     with timed_step("ask.answer_question"):
         result = answer_question(
             question=payload.question,
             db_study=use_study,
             db_regl=use_regl,
-            language=effective_language,
+            db_base=use_base,
+            language=payload.language,
             session_state=session_state,
             run_mode=payload.run_mode,
         )
