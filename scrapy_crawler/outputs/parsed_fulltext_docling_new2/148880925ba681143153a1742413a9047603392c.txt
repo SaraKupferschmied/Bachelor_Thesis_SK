@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_120_International_and_European_Business_Brosch_re_148880925ba681143153a1742413a9047603392c.pdf",
   "sha256": "09b872c4494b1086bf4d0222c3a858d0393159e7429b112fc44cc99b409d0ab7",
   "fetched_at": "2026-05-21T16:05:31.177Z",
-  "notes": "calameo downloaded (id=003659115121784738f7c, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110505-553fb92486453aad1718c9c0d93febd3/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=f02b27952ec9e370ead02abd4e78afa31d994653f1e29006119d23238225e797, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115121784738f7c, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110505-553fb92486453aad1718c9c0d93febd3/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=f02b27952ec9e370ead02abd4e78afa31d994653f1e29006119d23238225e797, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "International and European Business",
+  "programme_name_de": "International and European Business",
+  "programme_name_fr": "International and European Business",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/europeanbusiness",
+  "curriculum_url": "http://studies.unifr.ch/go/2ihyy"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

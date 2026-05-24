@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Slavic_Studies_Vorlesungsverzeichnis_FS_2026_3702dfaff4c1e98bdd38af1a778550f5a6ca730c.pdf",
   "sha256": "b993ca29a4f22bd4c8b006af5d2b81e9b8dca411b32a39618e326c870ab85464",
   "fetched_at": "2026-05-21T16:05:25.402Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/Programme%20des%20cours/KVV_FS2026_29.01.2026.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/Programme%20des%20cours/KVV_FS2026_29.01.2026.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Slavic Studies",
+  "programme_name_de": "Slavistik",
+  "programme_name_fr": "Slavistique",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/IZ758"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

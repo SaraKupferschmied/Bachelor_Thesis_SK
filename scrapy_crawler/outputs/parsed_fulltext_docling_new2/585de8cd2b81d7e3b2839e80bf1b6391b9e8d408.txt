@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_English_Language_and_Literature_Studienplan_MA_Vertiefungsprogramm_90_ECTS__585de8cd2b81d7e3b2839e80bf1b6391b9e8d408.pdf",
   "sha256": "5a10cce46bccdd4f27eba47c5e2971d111b18e693c3875504019621625e4f626",
   "fetched_at": "2026-05-21T16:05:26.784Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20MALET%20MAJOR%20GERMAN_21072020.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20MALET%20MAJOR%20GERMAN_21072020.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "English Language and Literature",
+  "programme_name_de": "Englische Sprache und Literatur",
+  "programme_name_fr": "Langue et littérature anglaises",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

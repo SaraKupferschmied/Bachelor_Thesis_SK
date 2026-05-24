@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Mathematics_Branche_compl_mentaire_en_math_matiques_30_6168921b598bb5d12d3d0c5e1ee0689f3b9e9031.pdf",
   "sha256": "233ebd9036c2e6776e2c8e7eca00aea8f48a5d9cfe8412462552f88009b75e3a",
   "fetched_at": "2026-05-21T16:05:17.431Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_MA_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_MA_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Mathematics",
+  "programme_name_de": "Mathematik",
+  "programme_name_fr": "Mathématiques",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/mathematics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

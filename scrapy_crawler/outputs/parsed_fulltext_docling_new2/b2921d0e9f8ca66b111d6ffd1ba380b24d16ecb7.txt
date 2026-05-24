@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_30_Business_Informatics_Wirtschaftsinformatik_b2921d0e9f8ca66b111d6ffd1ba380b24d16ecb7.pdf",
   "sha256": "8ed6a43ccbfbf87b0a5c01aa67f61bb16a290caa1e987510876876640f3f50f0",
   "fetched_at": "2026-05-21T16:05:14.307Z",
-  "notes": "calameo downloaded (id=003659115dfc08655250f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251006152427-f9a6745e2178c9708c63e55ecd30d865/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d0967c1a5828227ea683e3c77114c85ea24a153220c206309106ca28a4d61c3c, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115dfc08655250f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251006152427-f9a6745e2178c9708c63e55ecd30d865/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d0967c1a5828227ea683e3c77114c85ea24a153220c206309106ca28a4d61c3c, ct=application/octet-stream)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Business Informatics",
+  "programme_name_de": "Wirtschaftsinformatik",
+  "programme_name_fr": "Informatique de gestion",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/digitinf/businessinformatics",
+  "curriculum_url": "http://studies.unifr.ch/go/i5uLu"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

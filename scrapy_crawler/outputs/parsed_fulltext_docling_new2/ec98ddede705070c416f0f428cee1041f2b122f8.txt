@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_German_as_a_Foreign_Language_German_as_a_Second_Language_R_toromanisch_ec98ddede705070c416f0f428cee1041f2b122f8.pdf",
   "sha256": "c5ff41c2a92418e0769c62f9d51a58147f661e3cdbeb05be38f3c27f2d67cbbb",
   "fetched_at": "2026-05-21T16:05:24.170Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/2024Pluri_rhetoroman_90-fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/2024Pluri_rhetoroman_90-fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "German as a Foreign Language / German as a Second Language",
+  "programme_name_de": "Deutsch als Fremdsprache / Deutsch als Zweitsprache",
+  "programme_name_fr": "Allemand langue étrangère / Allemand langue seconde",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/germanforeignlanguage",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

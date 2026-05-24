@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Spanish_Studienplan_BA_60_ECTS_80fa44ba22532b399881d65a199bcc0842dcac91.pdf",
   "sha256": "1eb8d47efcc1b10b61f0b614198d92f1b775ea9bddeb3809ccfbf9a79982470c",
   "fetched_at": "2026-05-21T16:05:25.024Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Alem%C3%A1n/PLE_Espagnol_BA60_230301_DE.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Alem%C3%A1n/PLE_Espagnol_BA60_230301_DE.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_90_Interreligious_Studies_Master_of_Arts_in_interreligi_se_Studien_Hauptprogramm_90_ECTS__dd88136cd6a99bf3ac1f2b8371b771bdb57f2a46.pdf",
   "sha256": "09902e862d29e6670dcfe5fd3cdedef6a7e3ed28f41e71292fbf00bd349775d0",
   "fetched_at": "2026-05-21T16:05:39.937Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_90_sp%C3%A9cial.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_90_sp%C3%A9cial.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Interreligious Studies",
+  "programme_name_de": "Interreligiöse Studien",
+  "programme_name_fr": "Études interreligieuses",
+  "programme_url": "https://studies.unifr.ch/en/master/theo/interreligiousstudies",
+  "curriculum_url": "https://studies.unifr.ch/go/29"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Master of Arts en études interreligieuses (Éthique, spiritualité et dialogue interreligieux)

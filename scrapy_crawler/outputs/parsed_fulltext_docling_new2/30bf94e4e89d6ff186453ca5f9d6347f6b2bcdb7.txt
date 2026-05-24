@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SES_Master_120_Doppelabschl_sse_Brosch_re_DD_INT_EUB__30bf94e4e89d6ff186453ca5f9d6347f6b2bcdb7.pdf",
   "sha256": "09b872c4494b1086bf4d0222c3a858d0393159e7429b112fc44cc99b409d0ab7",
   "fetched_at": "2026-05-21T16:05:41.813Z",
-  "notes": "calameo downloaded (id=003659115121784738f7c, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110505-553fb92486453aad1718c9c0d93febd3/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=2bfa29ab77e10c227e56b5a26c9af8e9e6c49da92689627117d97fbc594f0f67, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115121784738f7c, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110505-553fb92486453aad1718c9c0d93febd3/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=2bfa29ab77e10c227e56b5a26c9af8e9e6c49da92689627117d97fbc594f0f67, ct=application/octet-stream)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

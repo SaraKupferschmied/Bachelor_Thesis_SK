@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Spanish_Studienplan_BA_60_ECTS_07598bdf9b236c7e10afb9589693671d96c92087.pdf",
   "sha256": "c81936831bc39ba6af25bbd9012673e6ac8eaeb2c06d3ce558fad2f9297a5200",
   "fetched_at": "2026-05-21T16:05:25.052Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/DE_60_ba_espagnol.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/DE_60_ba_espagnol.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## UNIVERSITÄT FREIBURG - SCHWEIZ

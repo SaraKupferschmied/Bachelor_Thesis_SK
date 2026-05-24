@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_30_Law_Flyer_53277e6e7c3c8a89b21f7ba38047649adf0fc808.pdf",
   "sha256": "3617945cc588e11612530a06675b078fa6906ed1d9998eedf860198de81b7417",
   "fetched_at": "2026-05-21T16:05:34.591Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/A5_Flyer_MLaw-mit-Passerelle-Interdisziplinaer-DE_2026.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/A5_Flyer_MLaw-mit-Passerelle-Interdisziplinaer-DE_2026.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/lawparttime",
+  "curriculum_url": "https://studies.unifr.ch/go/x"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

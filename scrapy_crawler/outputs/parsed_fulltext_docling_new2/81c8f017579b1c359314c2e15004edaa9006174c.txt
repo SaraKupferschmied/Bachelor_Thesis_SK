@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Religious_studies_Studienplan_BA_120_ECTS_81c8f017579b1c359314c2e15004edaa9006174c.pdf",
   "sha256": "4afb43a6286a5ec4d844ea4250cf26d04598ad100279206e1981b38962714f7f",
   "fetched_at": "2026-05-21T16:05:20.786Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120_Religionswissenschaft_2017_Version_15.09.2022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120_Religionswissenschaft_2017_Version_15.09.2022.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Religious studies",
+  "programme_name_de": "Religionswissenschaft",
+  "programme_name_fr": "Science des religions",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/religiousstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/A0cJ8"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

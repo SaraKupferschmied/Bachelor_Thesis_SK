@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Art_History_Kunstgeschichte_Bereich_I_Kunstgeschicte_option_Archa_logie_Bereich_I_0283c43b2c73a7a9106b6fe004a660ae7f7afa3f.pdf",
   "sha256": "fbb6debdb6e62fc0098454419630f5edc69b00898c747b549d8702d6ef0c97b7",
   "fetched_at": "2026-05-21T16:05:22.858Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA120_de_230329.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA120_de_230329.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Art History",
+  "programme_name_de": "Kunstgeschichte",
+  "programme_name_fr": "Histoire de l'art",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/6TFjB"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_120_Accounting_and_Finance_Brosch_re_b53d685d7b95e258321b88f1c1891c550cba8a84.pdf",
   "sha256": "ba4d2398e561bc3b16c865b005dddb92d4eea8c48ccc27308991d768379b1ec2",
   "fetched_at": "2026-05-21T16:05:31.769Z",
-  "notes": "calameo downloaded (id=003659115cd2481432079, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226104405-9cf6165e8f21745d92fa1d2dc5b35865/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=e39e2d9468cc69ac3da21e8d25f3d97b92a82487ca1d6c1f062560c16003fd63, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115cd2481432079, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226104405-9cf6165e8f21745d92fa1d2dc5b35865/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=e39e2d9468cc69ac3da21e8d25f3d97b92a82487ca1d6c1f062560c16003fd63, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Accounting and Finance",
+  "programme_name_de": "Accounting and Finance",
+  "programme_name_fr": "Accounting and Finance",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/accountingfinance",
+  "curriculum_url": "http://studies.unifr.ch/go/dSl9g"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

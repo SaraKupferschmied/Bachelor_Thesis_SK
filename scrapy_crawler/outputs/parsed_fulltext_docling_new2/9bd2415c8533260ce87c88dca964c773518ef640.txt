@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SES_Master_120_Doppelabschl_sse_Studienplan_DD_ECO_POL__9bd2415c8533260ce87c88dca964c773518ef640.pdf",
   "sha256": "22567c34ba7ff33222687dad4109654eb57f5235704970b9d40e989d7d3d0ac3",
   "fetched_at": "2026-05-21T16:05:41.546Z",
-  "notes": "calameo downloaded (id=003659115583ddd17da50, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223112319-c4a1f77c54f49bde302d051b5b744b4b/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=82d4467e39d0a61f30225163f56d725d86c41d63b6a1e93cc4eb667769df10dd, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115583ddd17da50, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223112319-c4a1f77c54f49bde302d051b5b744b4b/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=82d4467e39d0a61f30225163f56d725d86c41d63b6a1e93cc4eb667769df10dd, ct=application/octet-stream)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

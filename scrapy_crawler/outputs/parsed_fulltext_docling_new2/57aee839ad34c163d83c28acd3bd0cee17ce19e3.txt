@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_International_and_Comparative_Social_Policy_MA_Gender_Gesellschaft_Sozialpolitik_zu_30_ECTS_57aee839ad34c163d83c28acd3bd0cee17ce19e3.pdf",
   "sha256": "a19162386a754860d03ed9528d8363969cdf46747f9b48b2a052e4ff35a981cd",
   "fetched_at": "2026-05-21T16:05:20.871Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/MA_Gender_NP_SP30_de_4112020.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/MA_Gender_NP_SP30_de_4112020.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "International and Comparative Social Policy",
+  "programme_name_de": "International and Comparative Social Policy",
+  "programme_name_fr": "International and Comparative Social Policy",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/internationalcomparativesocialpolicy30",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

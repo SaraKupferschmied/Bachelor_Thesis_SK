@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_60_Special_Education_Bachelor_Minor_60_ECTS-Kreditpunkte__4ba1d705d27c2e4674b8e2a2ce6d4284cfd2b8ba.pdf",
   "sha256": "caff77053f971a9e1783864e6900ea619bcdde79a0c403dfefd4521edace627c",
   "fetched_at": "2026-05-21T16:05:19.958Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_SP_60%20(1198)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_SP_60%20(1198)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Special Education",
+  "programme_name_de": "Sonderpädagogik",
+  "programme_name_fr": "Pédagogie spécialisée",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/specialeduminor",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

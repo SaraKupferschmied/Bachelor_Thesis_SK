@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Samuel_Heinzen__Bachelor_180_Teacher_Education_for_Primary_Level_Fach_50_ECTS-Kreditpunkte__c13f006c4ec56808906f51f520c5a70badc25e51.pdf",
   "sha256": "1eac2938b2bc62caf0dcac1c030cab863e7737b92a5c14762c3bd3b3b56fe655",
   "fetched_at": "2026-05-21T16:05:16.408Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Fach_BG_50%20(1533)%2028%2003%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Fach_BG_50%20(1533)%2028%2003%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Teacher Education for Primary Level",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Primarstufe",
+  "programme_name_fr": "Formation à l'enseignement pour le degré primaire",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu0",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

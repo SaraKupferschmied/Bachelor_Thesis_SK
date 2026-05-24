@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Klinische_Kinder-_und_Jugendpsychologie_30_ECTS__5f3fac4d465a16de10c3068caf69d4ddf71b9aa3.pdf",
   "sha256": "5d5b9dd3ec194d9eff12c0ca555a5fb0b772309fd47bf87c4d49b7e0b330e49f",
   "fetched_at": "2026-05-21T16:05:19.291Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_CCP_de_250225_SA25.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_CCP_de_250225_SA25.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Psychology",
+  "programme_name_de": "Psychologie",
+  "programme_name_fr": "Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

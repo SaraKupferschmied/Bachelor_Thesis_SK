@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biomedical_Sciences_Branches_compl_mentaires_en_sciences_biom_dicales_0bb482e118ac4e9c77f864e5fddaab1e559ec0d5.pdf",
   "sha256": "3117c7e3398925d3aac725e4aa5c030481691432037108b4026330fb510433ff",
   "fetched_at": "2026-05-21T16:05:15.122Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ME_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_ME_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biomedical Sciences",
+  "programme_name_de": "Biomedizinische Wissenschaften",
+  "programme_name_fr": "Sciences biomédicales",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/medspo/biomedicalsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

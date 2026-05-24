@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Musicology_and_History_of_Opera_Vertiefungsprogramm_c98268302fcc2bacd38954545e75919452dbb406.pdf",
   "sha256": "83f812daed7d83189da247964fab97b05ccff87e12f7b218f3dbcc3328c4396f",
   "fetched_at": "2026-05-21T16:05:22.515Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20d%27%C3%A9tudes%202020/Master%2020%20DE/MUS_MA_90_DE_13112019.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20d%27%C3%A9tudes%202020/Master%2020%20DE/MUS_MA_90_DE_13112019.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Musicology and History of Opera",
+  "programme_name_de": "Musikwissenschaft und Geschichte des Musiktheaters",
+  "programme_name_fr": "Musicologie et histoire du théâtre musical",
+  "programme_url": "https://studies.unifr.ch/en/master/artmus/musicology",
+  "curriculum_url": "https://studies.unifr.ch/go/q"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

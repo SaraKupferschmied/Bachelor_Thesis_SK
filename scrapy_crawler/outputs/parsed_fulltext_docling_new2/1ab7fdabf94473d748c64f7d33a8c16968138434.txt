@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_30_Education_Sciences_Master_Major_Minor_90_30_ECTS-Kreditpunkte__1ab7fdabf94473d748c64f7d33a8c16968138434.pdf",
   "sha256": "03a85ce2b7b6eded25f5248d4b5a28168d59a1a4a119967b031725f56dbf148e",
   "fetched_at": "2026-05-21T16:05:19.657Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_Erzw_90_30%20(1524%201527)%2013%2002%202026.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_Erzw_90_30%20(1524%201527)%2013%2002%202026.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Education Sciences",
+  "programme_name_de": "Erziehungswissenschaften",
+  "programme_name_fr": "Sciences de l'éducation",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/educationalsciences",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Spanish_Plan_de_estudios_BA_30_ECTS_a1a9fceb02dbec4d5890a4681f9b0df9fddc7e63.pdf",
   "sha256": "fd52075db2c6567701defab152c0aa4882e308e905bc4e48ff8f2b89a425b38c",
   "fetched_at": "2026-05-21T16:05:24.727Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/ES_30_bachelor.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/ES_30_bachelor.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## UNIVERSIDAD DE FRIBURGO - SUIZA FACULTAD DE LETRAS DEPARTEMENTO DE LENGUAS Y LITERATURAS Departamento de Español PLAN DE ESTUDIOS BACHELOR A 30 CRÉDITOS

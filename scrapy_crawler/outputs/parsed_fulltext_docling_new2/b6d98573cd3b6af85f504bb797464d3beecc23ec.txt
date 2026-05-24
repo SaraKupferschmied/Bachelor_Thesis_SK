@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_150_Teacher_Education_for_Secondary_Level_I_Introduction_aux_branches_choix_BSc_SI_b6d98573cd3b6af85f504bb797464d3beecc23ec.pdf",
   "sha256": "edc20246460f670beeba8c6744e89f379683aa0260651dbe895c883514482e4b",
   "fetched_at": "2026-05-21T16:05:16.616Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_Intro_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_Intro_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 150,
+  "programme_name_en": "Teacher Education for Secondary Level I",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu1",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

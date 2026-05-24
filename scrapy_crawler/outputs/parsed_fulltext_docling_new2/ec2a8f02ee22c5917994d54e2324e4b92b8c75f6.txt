@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Philosophy_Studienplan_BA_Programm_zu_30_ECTS_ec2a8f02ee22c5917994d54e2324e4b92b8c75f6.pdf",
   "sha256": "a3edce45320248848beb9fcb0c8a737ea2fb021ec019a2f0b75c05698d6652f5",
   "fetched_at": "2026-05-21T16:05:27.206Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_30_de_2010.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_30_de_2010.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

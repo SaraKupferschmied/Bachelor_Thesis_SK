@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Philosophy_Studienplan_MA_Vertiefungsprogramm_60_ECTS_98b69b9838614b56ea0fa94c7f7e9e9344387390.pdf",
   "sha256": "dc2c7b922eba31b292de599a9ae2a83c538fd3cd124c12fb372c603d444971dc",
   "fetched_at": "2026-05-21T16:05:27.145Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/MA_Philosophie_Vertiefungsprogramm_2009.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/MA_Philosophie_Vertiefungsprogramm_2009.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/master/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 Achtung : alte Version vom 28.04.2009. Die aktuellen Studienpläne finden Sie auf folgendem Link: http://lettres.unifr.ch/de/philosophie/philosophie/ma-reglements.html

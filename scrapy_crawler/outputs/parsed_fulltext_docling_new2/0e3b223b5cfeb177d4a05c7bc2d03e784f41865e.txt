@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Philosophy_Studienplan_BA_Bereich_II_60_ECTS__0e3b223b5cfeb177d4a05c7bc2d03e784f41865e.pdf",
   "sha256": "4e270149575c132e06f5ae9d13d13d17adc39b6c7180af1d0a028d22c1f777f1",
   "fetched_at": "2026-05-21T16:05:27.338Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_60_de_2008.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_60_de_2008.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

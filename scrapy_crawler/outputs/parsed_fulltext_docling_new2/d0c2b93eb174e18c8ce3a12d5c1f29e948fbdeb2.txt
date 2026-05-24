@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_naturelles_Transitions_en_sciences_naturelles_-_SN_d0c2b93eb174e18c8ce3a12d5c1f29e948fbdeb2.pdf",
   "sha256": "26f6735c7395001ec1d7ef5daff9235e5d6f0afeb170a4ba8cd298ffaaace7f9",
   "fetched_at": "2026-05-21T16:05:41.019Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

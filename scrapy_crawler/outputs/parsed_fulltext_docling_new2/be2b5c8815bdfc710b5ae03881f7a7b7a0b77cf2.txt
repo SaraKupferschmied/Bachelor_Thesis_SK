@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Bachelor_180_Law_Studienplan_be2b5c8815bdfc710b5ae03881f7a7b7a0b77cf2.pdf",
   "sha256": "ce80774d844f12abeed8a5b8edfa5f6ee56a223db3409ef87a696d9b1e3f2c86",
   "fetched_at": "2026-05-21T16:05:37.958Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_Studienplan.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_Studienplan.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/ius/law",
+  "curriculum_url": "http://studies.unifr.ch/go/jPgcg"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

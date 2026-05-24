@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_180_Speech-Language_Therapy_Bachelor_Mono_180_ECTS-Kreditpunkte__6cc7940e7156975d3c11bd0b59ef64af7e453dbf.pdf",
   "sha256": "e4e27d740ff7ca2000675b09b8fa5c19e24d65fc559bc9b6fe1d55d78d0f20bd",
   "fetched_at": "2026-05-21T16:05:20.186Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_LOG_180%20(1496)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_LOG_180%20(1496)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Speech-Language Therapy",
+  "programme_name_de": "Logopädie",
+  "programme_name_fr": "Logopédie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/speechtherapy",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

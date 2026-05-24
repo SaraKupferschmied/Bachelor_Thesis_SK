@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import re
+import requests
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
@@ -165,6 +166,199 @@ def _tokens(value: Any) -> set[str]:
     }
 
 
+
+def _program_key_parts(program_key: Any) -> Dict[str, Any]:
+    """Parse new parser key: faculty|level|ects|program name."""
+    raw = str(program_key or "").strip()
+    parts = [part.strip() for part in raw.split("|")]
+    if len(parts) < 4:
+        return {}
+    ects: int | None = None
+    try:
+        ects = int(float(parts[2]))
+    except Exception:
+        ects = None
+    degree = parts[1].strip().title() if parts[1].strip() else None
+    return {
+        "faculty": parts[0] or None,
+        "degree_level": degree,
+        "total_ects": ects,
+        "program_name": parts[3] or None,
+    }
+
+
+
+
+
+def _metadata_program_names(metadata: Dict[str, Any]) -> list[str]:
+    """Return all programme-name variants stored in metadata, including legacy names."""
+    names: list[str] = []
+    for key in ("programme_name_en", "programme_name_de", "programme_name_fr", "program_name"):
+        value = metadata.get(key)
+        if value and str(value).strip() and str(value) not in names:
+            names.append(str(value))
+
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    key_name = key_parts.get("program_name")
+    if key_name and str(key_name) not in names:
+        names.append(str(key_name))
+
+    return names
+
+
+def _metadata_program_name(metadata: Dict[str, Any]) -> str | None:
+    names = _metadata_program_names(metadata)
+    return names[0] if names else None
+
+
+def _metadata_degree(metadata: Dict[str, Any]) -> str | None:
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    return first_non_empty_string(metadata.get("level"), metadata.get("degree_level"), key_parts.get("degree_level"))
+
+
+def _metadata_ects(metadata: Dict[str, Any]) -> int | float | str | None:
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    return metadata.get("ects_points") if metadata.get("ects_points") is not None else (
+        metadata.get("total_ects") if metadata.get("total_ects") is not None else key_parts.get("total_ects")
+    )
+
+
+def first_non_empty_string(*values: Any) -> str | None:
+    for value in values:
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+        if value is not None and not isinstance(value, str):
+            text = str(value).strip()
+            if text:
+                return text
+    return None
+
+
+def _canonical_program_key(faculty: Any, degree: Any, ects: Any, program_name: Any) -> str | None:
+    if not program_name:
+        return None
+    degree_norm = _normalize_text(degree)
+    program_norm = _normalize_text(program_name)
+    faculty_norm = _normalize_text(faculty)
+    try:
+        ects_norm = str(int(float(ects))) if ects is not None else ""
+    except Exception:
+        ects_norm = ""
+    if not degree_norm or not ects_norm or not program_norm:
+        return None
+    return f"{faculty_norm}|{degree_norm}|{ects_norm}|{program_norm}"
+
+
+def _program_query_text(question: str, degree: str | None = None, ects: int | None = None) -> str:
+    """Remove common question scaffolding so fuzzy matching sees the programme name."""
+    text = _normalize_text(question)
+    # Remove degree/ECTS and common question/action words in supported languages.
+    removable = set(_QUERY_STOPWORDS) | {
+        "bachelors", "masters", "bachelorstudiengang", "masterstudiengang",
+        "unterrichten", "unterricht", "belegen", "belegt", "lernen", "enthält", "enthaelt",
+        "taught", "teach", "teaches", "included", "contain", "contains", "available",
+        "etudier", "enseigne", "enseignes", "enseignes", "proposes", "propose",
+    }
+    tokens = [t for t in text.split() if t not in removable]
+    if degree:
+        tokens = [t for t in tokens if t != degree.lower()]
+    if ects is not None:
+        tokens = [t for t in tokens if t != str(ects) and t != "ects"]
+    return " ".join(tokens).strip()
+
+
+def _program_aliases_from_api(program: Dict[str, Any]) -> list[str]:
+    aliases: list[str] = []
+    for key in ("name", "name_en", "name_de", "name_fr"):
+        value = program.get(key)
+        if value and str(value) not in aliases:
+            aliases.append(str(value))
+    return aliases
+
+
+def _fetch_programs_from_backend() -> list[Dict[str, Any]]:
+    try:
+        response = requests.get(f"{settings.backend_api_base}/programs/", timeout=5)
+        response.raise_for_status()
+        data = response.json()
+        return data if isinstance(data, list) else []
+    except Exception as exc:
+        print(f"[warn] backend programme resolver unavailable: {exc}")
+        return []
+
+
+def _score_api_program(question: str, program_query: str, degree: str | None, ects: int | None, program: Dict[str, Any]) -> float:
+    q_norm = _normalize_text(program_query or question)
+    q_tokens = _tokens(program_query or question)
+    aliases = _program_aliases_from_api(program)
+    alias_norms = [_normalize_text(a) for a in aliases if a]
+    alias_tokens = set().union(*(_tokens(a) for a in aliases)) if aliases else set()
+
+    score = 0.0
+    if any(a and a == q_norm for a in alias_norms):
+        score += 100.0
+    if any(a and (a in q_norm or q_norm in a) for a in alias_norms):
+        score += 55.0
+
+    overlap = q_tokens & alias_tokens
+    score += len(overlap) * 12.0
+    for token in overlap:
+        if len(token) >= 8:
+            score += 5.0
+
+    if degree and str(program.get("degree_level", "")).lower() == degree.lower():
+        score += 20.0
+    elif degree and program.get("degree_level"):
+        score -= 25.0
+
+    if ects is not None:
+        try:
+            if int(float(program.get("total_ects"))) == ects:
+                score += 25.0
+            else:
+                score -= 8.0
+        except Exception:
+            pass
+    else:
+        # If the user says simply "Bachelor in X" or "Master in X", prefer the main programme.
+        ptype = str(program.get("program_type") or "").lower()
+        total = program.get("total_ects")
+        if degree == "Bachelor" and (ptype == "mono" or total == 180):
+            score += 8.0
+        if degree == "Master" and ptype in {"major", "mono"}:
+            score += 6.0
+
+    return score
+
+
+def _resolve_program_via_backend(question: str, degree: str | None, ects: int | None) -> Dict[str, Any] | None:
+    programs = _fetch_programs_from_backend()
+    if not programs:
+        return None
+
+    program_query = _program_query_text(question, degree=degree, ects=ects)
+    scored = [(_score_api_program(question, program_query, degree, ects, p), p) for p in programs]
+    scored.sort(key=lambda item: item[0], reverse=True)
+    best_score, best = scored[0]
+
+    if best_score < 40.0:
+        return None
+
+    faculty = best.get("faculty_name")
+    canonical_key = _canonical_program_key(faculty, best.get("degree_level"), best.get("total_ects"), best.get("name_en") or best.get("name"))
+    return {
+        "program_id": best.get("program_id"),
+        "program_name": best.get("name_en") or best.get("name"),
+        "program_aliases": _program_aliases_from_api(best),
+        "program_key": canonical_key,
+        "degree_level": best.get("degree_level"),
+        "total_ects": best.get("total_ects"),
+        "faculty": faculty,
+        "resolver": "backend_api",
+        "resolver_score": best_score,
+        "program_query": program_query,
+    }
+
 def _metadata_value_as_text(value: Any) -> str:
     if isinstance(value, (list, tuple, set)):
         return " ".join(str(v) for v in value)
@@ -181,9 +375,9 @@ def _program_identity(metadata: Dict[str, Any]) -> str | None:
     if program_key:
         return f"key::{program_key}"
 
-    name = metadata.get("program_name")
-    degree = metadata.get("degree_level")
-    ects = metadata.get("total_ects")
+    name = _metadata_program_name(metadata)
+    degree = _metadata_degree(metadata)
+    ects = _metadata_ects(metadata)
     if name:
         return f"name::{name}::{degree}::{ects}"
 
@@ -199,25 +393,39 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
         if not identity:
             continue
 
+        key_parts = _program_key_parts(md.get("program_key"))
+        derived_program_names = _metadata_program_names(md)
+        derived_program_name = derived_program_names[0] if derived_program_names else None
+        derived_degree = _metadata_degree(md)
+        derived_ects = _metadata_ects(md)
+        derived_faculty = md.get("faculty") or key_parts.get("faculty")
+
         entry = grouped.setdefault(
             identity,
             {
                 "identity": identity,
-                "program_name": md.get("program_name"),
+                "program_name": derived_program_name,
+                "program_aliases": derived_program_names,
                 "program_key": md.get("program_key"),
-                "degree_level": md.get("degree_level"),
-                "total_ects": md.get("total_ects"),
+                "degree_level": derived_degree,
+                "total_ects": derived_ects,
+                "faculty": derived_faculty,
                 "metadata_texts": [],
                 "content_samples": [],
             },
         )
 
         for field in (
+            "programme_name_en",
+            "programme_name_de",
+            "programme_name_fr",
             "program_name",
             "program_key",
             "title",
             "doc_label",
             "faculty",
+            "level",
+            "ects_points",
             "degree_level",
             "total_ects",
             "source_file",
@@ -228,6 +436,10 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
         ):
             if md.get(field) is not None:
                 entry["metadata_texts"].append(_metadata_value_as_text(md.get(field)))
+
+        for derived in (*derived_program_names, derived_degree, derived_ects, derived_faculty):
+            if derived is not None:
+                entry["metadata_texts"].append(_metadata_value_as_text(derived))
 
         if len(entry["content_samples"]) < 8:
             entry["content_samples"].append(doc.page_content[:1800])
@@ -274,38 +486,116 @@ def _score_program_match(
     ects: int | None,
 ) -> float:
     q_norm = _normalize_text(question)
-    q_tokens = _tokens(question)
+    q_program = _program_query_text(question, degree=degree, ects=ects)
+    q_program_norm = _normalize_text(q_program)
+    q_tokens = _tokens(q_program or question)
     alias_text = entry.get("alias_text", "")
     alias_tokens = entry.get("alias_tokens", set())
 
     score = 0.0
 
-    program_name_norm = _normalize_text(entry.get("program_name"))
     program_key_norm = _normalize_text(entry.get("program_key"))
+    key_parts = _program_key_parts(entry.get("program_key"))
+    candidate_names = {
+        *(_normalize_text(name) for name in entry.get("program_aliases", []) if name),
+        _normalize_text(entry.get("program_name")),
+        _normalize_text(key_parts.get("program_name")),
+    }
 
-    if program_name_norm and program_name_norm in q_norm:
-        score += 12.0
+    # Treat structured multilingual programme-name metadata as authoritative.
+    for candidate_name in candidate_names:
+        if not candidate_name:
+            continue
+        if candidate_name == q_program_norm:
+            score += 120.0
+        elif candidate_name in q_program_norm or q_program_norm in candidate_name:
+            score += 70.0
+        else:
+            name_tokens = set(candidate_name.split()) - _QUERY_STOPWORDS
+            overlap = q_tokens & name_tokens
+            if overlap:
+                score += len(overlap) * 18.0
+                if name_tokens and len(overlap) / max(len(name_tokens), 1) >= 0.7:
+                    score += 35.0
 
     if program_key_norm and program_key_norm in q_norm:
-        score += 12.0
+        score += 40.0
 
-    important_query_tokens = q_tokens - {"bachelor", "master", "ects"}
-    overlap = important_query_tokens & alias_tokens
-    score += float(len(overlap) * 3)
+    # Low-weight fallback: content/title overlap. This should not beat exact key-name matches.
+    overlap = q_tokens & alias_tokens
+    score += float(len(overlap) * 2)
 
-    for token in overlap:
-        if len(token) >= 8:
-            score += 2.0
+    if degree and str(entry.get("degree_level") or "").lower() == degree.lower():
+        score += 20.0
+    elif degree and entry.get("degree_level"):
+        score -= 25.0
 
-    if degree and entry.get("degree_level") == degree:
-        score += 3.0
-    elif degree and entry.get("degree_level") and entry.get("degree_level") != degree:
-        score -= 2.0
-
-    if ects is not None and entry.get("total_ects") == ects:
-        score += 2.0
+    if ects is not None:
+        try:
+            if int(float(entry.get("total_ects"))) == ects:
+                score += 25.0
+            else:
+                score -= 6.0
+        except Exception:
+            pass
+    else:
+        # When no ECTS are given, prefer the main programme over minors.
+        try:
+            total = int(float(entry.get("total_ects")))
+            if degree == "Bachelor" and total == 180:
+                score += 8.0
+            if degree == "Master" and total in {90, 120}:
+                score += 6.0
+        except Exception:
+            pass
 
     return score
+
+def _find_catalog_entry_for_resolved_program(
+    catalog: List[Dict[str, Any]],
+    resolved: Dict[str, Any],
+) -> Dict[str, Any] | None:
+    wanted_name = _normalize_text(resolved.get("program_name"))
+    wanted_degree = str(resolved.get("degree_level") or "").lower()
+    wanted_ects = resolved.get("total_ects")
+    wanted_key = _normalize_text(resolved.get("program_key"))
+
+    scored: list[tuple[float, Dict[str, Any]]] = []
+    for entry in catalog:
+        key_parts = _program_key_parts(entry.get("program_key"))
+        entry_names = [_normalize_text(n) for n in entry.get("program_aliases", []) if n]
+        key_name = _normalize_text(key_parts.get("program_name"))
+        if key_name:
+            entry_names.append(key_name)
+        entry_name = entry_names[0] if entry_names else ""
+        entry_degree = str(entry.get("degree_level") or key_parts.get("degree_level") or "").lower()
+        entry_ects = entry.get("total_ects") if entry.get("total_ects") is not None else key_parts.get("total_ects")
+        entry_key = _normalize_text(entry.get("program_key"))
+
+        score = 0.0
+        if wanted_key and entry_key == wanted_key:
+            score += 120.0
+        if wanted_name and any(name == wanted_name for name in entry_names):
+            score += 80.0
+        elif wanted_name and any(wanted_name in name or name in wanted_name for name in entry_names):
+            score += 45.0
+        if wanted_degree and entry_degree == wanted_degree:
+            score += 25.0
+        elif wanted_degree and entry_degree:
+            score -= 40.0
+        try:
+            if wanted_ects is not None and entry_ects is not None and int(float(wanted_ects)) == int(float(entry_ects)):
+                score += 30.0
+            elif wanted_ects is not None and entry_ects is not None:
+                score -= 8.0
+        except Exception:
+            pass
+        scored.append((score, entry))
+
+    if not scored:
+        return None
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return scored[0][1] if scored[0][0] >= 70.0 else None
 
 
 def _detect_program(
@@ -318,6 +608,23 @@ def _detect_program(
     if not catalog:
         return None
 
+    # Preferred path: resolve multilingual programme names through the structured backend API,
+    # then map the resolved programme to the programme_key in FAISS.
+    resolved = _resolve_program_via_backend(question, degree=degree, ects=ects)
+    if resolved:
+        matched_entry = _find_catalog_entry_for_resolved_program(catalog, resolved)
+        if matched_entry:
+            merged = dict(matched_entry)
+            merged.update({
+                "resolver": resolved.get("resolver"),
+                "resolver_score": resolved.get("resolver_score"),
+                "program_id": resolved.get("program_id"),
+                "program_aliases": resolved.get("program_aliases"),
+                "program_query": resolved.get("program_query"),
+            })
+            return merged
+
+    # Fallback: use FAISS metadata only. The programme-name part of program_key is authoritative.
     scored = [
         (_score_program_match(question, entry, degree, ects), entry)
         for entry in catalog
@@ -326,44 +633,67 @@ def _detect_program(
 
     best_score, best_entry = scored[0]
 
-    if best_score < 8.0:
+    if best_score < 40.0:
         return None
 
-    return best_entry
-
+    result = dict(best_entry)
+    result["resolver"] = "faiss_metadata"
+    result["resolver_score"] = best_score
+    result["program_query"] = _program_query_text(question, degree=degree, ects=ects)
+    return result
 
 def _metadata_matches_program(metadata: Dict[str, Any], program: Dict[str, Any]) -> bool:
     if not program:
         return True
 
-    wanted_key = program.get("program_key")
-    wanted_name = program.get("program_name")
-    wanted_degree = program.get("degree_level")
-    wanted_ects = program.get("total_ects")
+    md_parts = _program_key_parts(metadata.get("program_key"))
+    wanted_parts = _program_key_parts(program.get("program_key"))
 
-    if wanted_key and metadata.get("program_key") == wanted_key:
+    wanted_key = _normalize_text(program.get("program_key"))
+    md_key = _normalize_text(metadata.get("program_key"))
+
+    if wanted_key and md_key and md_key == wanted_key:
         return True
 
-    if wanted_name and metadata.get("program_name") == wanted_name:
-        if wanted_degree and metadata.get("degree_level") not in (None, wanted_degree):
+    wanted_names = [_normalize_text(n) for n in program.get("program_aliases", []) if n]
+    wanted_primary = _normalize_text(program.get("program_name") or wanted_parts.get("program_name"))
+    if wanted_primary:
+        wanted_names.append(wanted_primary)
+    md_names = [_normalize_text(n) for n in _metadata_program_names(metadata)]
+
+    wanted_degree = str(program.get("degree_level") or wanted_parts.get("degree_level") or "").lower()
+    md_degree = str(_metadata_degree(metadata) or "").lower()
+
+    wanted_ects = program.get("total_ects") if program.get("total_ects") is not None else wanted_parts.get("total_ects")
+    md_ects = _metadata_ects(metadata)
+
+    if wanted_names and md_names and set(wanted_names) & set(md_names):
+        if wanted_degree and md_degree and wanted_degree != md_degree:
             return False
-        if wanted_ects and metadata.get("total_ects") not in (None, wanted_ects):
-            return False
+        try:
+            if wanted_ects is not None and md_ects is not None and int(float(wanted_ects)) != int(float(md_ects)):
+                return False
+        except Exception:
+            pass
         return True
 
     return False
 
-
 def _metadata_matches_degree(metadata: Dict[str, Any], degree: str | None) -> bool:
     if not degree:
         return True
-    return metadata.get("degree_level") in (None, degree)
+    md_degree = _metadata_degree(metadata)
+    return md_degree in (None, degree)
 
 
 def _metadata_matches_ects(metadata: Dict[str, Any], ects: int | None) -> bool:
     if ects is None:
         return True
-    return metadata.get("total_ects") in (None, ects)
+    md_ects = _metadata_ects(metadata)
+    try:
+        return md_ects is None or int(float(md_ects)) == int(float(ects))
+    except Exception:
+        return True
 
 
 def _doc_matches_year(doc: Document, year: str | None) -> bool:
@@ -399,14 +729,17 @@ def _enrich_query(
 
     if program:
         hints.append(f"program_name: {program.get('program_name')}")
+        aliases = program.get("program_aliases") or []
+        if aliases:
+            hints.append("program_aliases: " + " | ".join(str(a) for a in aliases))
         if program.get("program_key"):
             hints.append(f"program_key: {program.get('program_key')}")
 
     if degree:
-        hints.append(f"degree_level: {degree}")
+        hints.append(f"level: {degree}")
 
     if ects is not None:
-        hints.append(f"total_ects: {ects}")
+        hints.append(f"ects_points: {ects}")
 
     if year:
         hints.append(f"section: {year}. Jahr {year}. Studienjahr first year second year third year")
@@ -423,6 +756,9 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
     debug_info = {
         "detected_program_name": program.get("program_name") if program else None,
         "detected_program_key": program.get("program_key") if program else None,
+        "detected_program_resolver": program.get("resolver") if program else None,
+        "detected_program_score": program.get("resolver_score") if program else None,
+        "detected_program_query": program.get("program_query") if program else None,
         "detected_degree": degree,
         "detected_ects": ects,
         "detected_year": year,
@@ -475,11 +811,17 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
         if program and _metadata_matches_program(md, program):
             score += 100.0
 
-        if degree and md.get("degree_level") == degree:
+        md_degree = _metadata_degree(md)
+        md_ects = _metadata_ects(md)
+
+        if degree and md_degree == degree:
             score += 20.0
 
-        if ects is not None and md.get("total_ects") == ects:
-            score += 10.0
+        try:
+            if ects is not None and md_ects is not None and int(float(md_ects)) == int(float(ects)):
+                score += 10.0
+        except Exception:
+            pass
 
         if year and _doc_matches_year(doc, year):
             score += 40.0
@@ -506,7 +848,7 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
 
     debug_info["returned_count"] = len(docs)
     debug_info["returned_programs"] = sorted({
-        str((d.metadata or {}).get("program_name"))
+        str(_metadata_program_name(d.metadata or {}) or _program_key_parts((d.metadata or {}).get("program_key")).get("program_name"))
         for d in docs
     })
 
@@ -656,8 +998,13 @@ def _load_parsed_file(path: str, category: str) -> List[Document]:
                     # Preserve richer metadata if your parser generated it.
                     "language": meta.get("language"),
                     "language_name": meta.get("language_name"),
+                    "programme_name_en": meta.get("programme_name_en"),
+                    "programme_name_de": meta.get("programme_name_de"),
+                    "programme_name_fr": meta.get("programme_name_fr"),
                     "program_name": meta.get("program_name"),
                     "program_key": meta.get("program_key"),
+                    "level": meta.get("level"),
+                    "ects_points": meta.get("ects_points"),
                     "degree_level": meta.get("degree_level"),
                     "total_ects": meta.get("total_ects"),
                     "doc_label": meta.get("doc_label"),
@@ -782,10 +1129,13 @@ def answer_question(
         md = d.metadata or {}
         metadata_header = (
             "Metadata: "
+            f"programme_name_en={md.get('programme_name_en')}; "
+            f"programme_name_de={md.get('programme_name_de')}; "
+            f"programme_name_fr={md.get('programme_name_fr')}; "
             f"program_name={md.get('program_name')}; "
             f"program_key={md.get('program_key')}; "
-            f"degree_level={md.get('degree_level')}; "
-            f"total_ects={md.get('total_ects')}; "
+            f"level={md.get('level') or md.get('degree_level')}; "
+            f"ects_points={md.get('ects_points') if md.get('ects_points') is not None else md.get('total_ects')}; "
             f"section={md.get('section')}; "
             f"chunk_type={md.get('chunk_type')}; "
             f"language={md.get('language')}; "

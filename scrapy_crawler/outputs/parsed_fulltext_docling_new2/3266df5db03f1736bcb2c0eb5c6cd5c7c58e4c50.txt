@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Business_Communication_Betriebswirtschaftslehre_3266df5db03f1736bcb2c0eb5c6cd5c7c58e4c50.pdf",
   "sha256": "e972b0502c36467f65da2c386d0463b7096204c49b7cabe7466f09035d8dedf0",
   "fetched_at": "2026-05-21T16:05:29.302Z",
-  "notes": "calameo downloaded (id=003659115f93fa5ceba6a, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223110758-3f2574fb82f8bed983912ff2c83ccf6c/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d7f165cd5eabac0e088fa41f697811b8a83243c0caa12cada3d73ff6e009b77c, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115f93fa5ceba6a, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223110758-3f2574fb82f8bed983912ff2c83ccf6c/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d7f165cd5eabac0e088fa41f697811b8a83243c0caa12cada3d73ff6e009b77c, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Business Communication",
+  "programme_name_de": "Business Communication",
+  "programme_name_fr": "Business Communication",
+  "programme_url": "https://studies.unifr.ch/en/master/com/businesscommunication",
+  "curriculum_url": "https://studies.unifr.ch/go/2b"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

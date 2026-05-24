@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_180_Human_Medicine__valuation_en_m_decine_humaine_MH_6a42f89bd28ccbe66d1f7b3034dca0ccb592a99e.pdf",
   "sha256": "7939b7afb740d5ae200348574dfb59ae0b52a157658dd148eb4689b3c3ebea12",
   "fetched_at": "2026-05-21T16:05:15.103Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MH_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MH_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 180,
+  "programme_name_en": "Human Medicine",
+  "programme_name_de": "Humanmedizin",
+  "programme_name_fr": "Médecine humaine",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/humanmedicine",
+  "curriculum_url": "http://studies.unifr.ch/go/xZPll"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

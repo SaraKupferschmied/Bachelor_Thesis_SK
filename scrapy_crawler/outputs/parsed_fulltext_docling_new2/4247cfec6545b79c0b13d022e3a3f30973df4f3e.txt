@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Classics_Klassische_Philologie_4247cfec6545b79c0b13d022e3a3f30973df4f3e.pdf",
   "sha256": "af9fe29112b84677a036e3130d59a62519b18db1fddb77250b0eb5fefd25c91a",
   "fetched_at": "2026-05-21T16:05:27.037Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_VP_60_Klassische_Philologie_DE_27012017_v2.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_VP_60_Klassische_Philologie_DE_27012017_v2.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Classics",
+  "programme_name_de": "Klassische Philologie",
+  "programme_name_fr": "Philologie classique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/classics",
+  "curriculum_url": "http://studies.unifr.ch/go/gpUA1"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

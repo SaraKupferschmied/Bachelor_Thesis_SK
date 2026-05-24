@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Comparative_Literature_Lekt_re-Empfehlungen_3fbd2fc762514cefbef59b3108dd1265af2b05e2.pdf",
   "sha256": "6f91fe73515a0469238b1433551d540a400c0d5e1d9d9b94e892dd6197508784",
   "fetched_at": "2026-05-21T16:05:27.023Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/Lektuere-Empfehlungen.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/Lektuere-Empfehlungen.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Comparative Literature",
+  "programme_name_de": "Allgemeine und vergleichende Literaturwissenschaft",
+  "programme_name_fr": "Littérature générale et comparée",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/comparativeliterature",
+  "curriculum_url": "http://studies.unifr.ch/go/Gu8KZ"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Lektüre-Empfehlungen

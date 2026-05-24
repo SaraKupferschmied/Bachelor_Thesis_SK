@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_Schema_Module_2016__dd4b12d5e9a07ac89fc23eae8eac25fdd91608ba.pdf",
   "sha256": "f00f60c34751b6a644fbad427d13b328c651d221086f3b331eaeee073bcf0e3f",
   "fetched_at": "2026-05-21T16:05:23.654Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/Schema%202021_Geschichte%20120_2016_2.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/Schema%202021_Geschichte%20120_2016_2.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "History",
+  "programme_name_de": "Geschichte",
+  "programme_name_fr": "Histoire",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/history",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

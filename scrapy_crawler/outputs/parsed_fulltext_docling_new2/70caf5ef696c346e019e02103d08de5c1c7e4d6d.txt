@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Schema_BA_60_ECTS_70caf5ef696c346e019e02103d08de5c1c7e4d6d.pdf",
   "sha256": "0f1ee368d4140c2e11580b43960d2b878324a1ad2caf9f3fd2af52f5c475f4d7",
   "fetched_at": "2026-05-21T16:05:20.563Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Religious studies",
+  "programme_name_de": "Religionswissenschaft",
+  "programme_name_fr": "Science des religions",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/religiousstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/A0cJ8"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Bachelor Religionswissenschaft

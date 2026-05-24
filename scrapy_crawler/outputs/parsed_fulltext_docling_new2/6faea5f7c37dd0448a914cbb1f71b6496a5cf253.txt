@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_60_Business_Communication_Berufsaussichten_6faea5f7c37dd0448a914cbb1f71b6496a5cf253.pdf",
   "sha256": "de153fd299e6c476868444b8d38befeead37a56b74549a70da3f890c0b2d8bdc",
   "fetched_at": "2026-05-21T16:05:29.815Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ses/de/assets/public/files/2025/Placement_report_MBC_2023-2025_04.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ses/de/assets/public/files/2025/Placement_report_MBC_2023-2025_04.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 60,
+  "programme_name_en": "Business Communication",
+  "programme_name_de": "Business Communication",
+  "programme_name_fr": "Business Communication",
+  "programme_url": "https://studies.unifr.ch/en/master/com/businesscommunication",
+  "curriculum_url": "https://studies.unifr.ch/go/2b"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

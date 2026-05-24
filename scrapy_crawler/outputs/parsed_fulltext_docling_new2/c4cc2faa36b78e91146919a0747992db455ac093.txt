@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_90_Teacher_Education_for_Secondary_Level_I_Master_LDS_90_ECTS-Kreditpunte__c4cc2faa36b78e91146919a0747992db455ac093.pdf",
   "sha256": "29d3c9700b27cad5938a34eeec75a3a66e73578c5642022fa9d0ef09671e65eb",
   "fetched_at": "2026-05-21T16:05:16.285Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MA_LDS_90%20(1548)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MA_LDS_90%20(1548)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Teacher Education for Secondary Level I",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu1",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

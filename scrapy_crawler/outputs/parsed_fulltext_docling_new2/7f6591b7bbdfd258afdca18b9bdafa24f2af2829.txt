@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_English_Language_and_Literature_Studienplan_BA_Bereich_I_120_ECTS__7f6591b7bbdfd258afdca18b9bdafa24f2af2829.pdf",
   "sha256": "cc5ff684b68bcac0e65d628c4aeb771bf2ad66cf7f43ab911b527cfab7b761f5",
   "fetched_at": "2026-05-21T16:05:26.976Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ba_major_as_2010_d.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/ba_major_as_2010_d.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "English Language and Literature",
+  "programme_name_de": "Englische Sprache und Literatur",
+  "programme_name_fr": "Langue et littérature anglaises",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## I. Allgemeines

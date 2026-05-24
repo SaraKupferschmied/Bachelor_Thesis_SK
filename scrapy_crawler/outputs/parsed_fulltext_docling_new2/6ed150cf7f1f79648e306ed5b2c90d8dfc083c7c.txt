@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_Master_30_Nebenprogramm_Nebenprogramm_30_ECTS_MA_in_interrelig_se_Studien_Nebenprogamm_30_ECTS_6ed150cf7f1f79648e306ed5b2c90d8dfc083c7c.pdf",
   "sha256": "7f4bd3922a240795e398aba8591646adf169d6e0f0be1e9d391ef68258f0754b",
   "fetched_at": "2026-05-21T16:05:42.166Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_30.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_30.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Master of Arts en études interreligieuses Programme secondaire 30 CP

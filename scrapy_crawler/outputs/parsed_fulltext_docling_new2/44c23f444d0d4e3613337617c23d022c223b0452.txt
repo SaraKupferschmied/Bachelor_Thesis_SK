@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_English_Language_and_Literature_Studienplan_BA_Bereich_II_60_ECTS__44c23f444d0d4e3613337617c23d022c223b0452.pdf",
   "sha256": "867e2b67825b43a5577593fd04e4f05f13b62405880b97e73ba2a439d100376a",
   "fetched_at": "2026-05-21T16:05:26.889Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BALET%20MINOR%20GERMAN_21072020.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BALET%20MINOR%20GERMAN_21072020.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "English Language and Literature",
+  "programme_name_de": "Englische Sprache und Literatur",
+  "programme_name_fr": "Langue et littérature anglaises",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

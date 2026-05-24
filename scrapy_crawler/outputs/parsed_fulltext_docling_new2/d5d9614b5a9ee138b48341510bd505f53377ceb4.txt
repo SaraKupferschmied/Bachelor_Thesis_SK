@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Experimental_Biomedical_Research_SpMSc_in_Experimental_Biomedical_Research_d5d9614b5a9ee138b48341510bd505f53377ceb4.pdf",
   "sha256": "565283faf6ef8237ed1ccf754d04dc6348928da4f95a921073c508e3c70609b4",
   "fetched_at": "2026-05-21T16:05:14.675Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MScSp_EBR_en.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MScSp_EBR_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Experimental Biomedical Research",
+  "programme_name_de": "Experimentelle biomedizinische Forschung",
+  "programme_name_fr": "Recherche biomédicale expérimentale",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/biomedicalresearch",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

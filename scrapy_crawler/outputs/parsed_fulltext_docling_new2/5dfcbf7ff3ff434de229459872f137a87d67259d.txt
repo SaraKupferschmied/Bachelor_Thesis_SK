@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Eastern_European_Studies_Studienplan_5dfcbf7ff3ff434de229459872f137a87d67259d.pdf",
   "sha256": "f377851fabad0d8fb5c0716f10aea752a2789b3e3886e5566a3fb8a7eb86aa91",
   "fetched_at": "2026-05-21T16:05:21.606Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/iicee/de/assets/public/files/BA-120-60-30-ETCS-OES-dt-112912.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/iicee/de/assets/public/files/BA-120-60-30-ETCS-OES-dt-112912.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Eastern European Studies",
+  "programme_name_de": "Osteuropa-Studien",
+  "programme_name_fr": "Études de l'Europe orientale",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/easterneuropeanstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/OKTj8"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Philosophische Fakultät der Universität Freiburg (Schweiz)

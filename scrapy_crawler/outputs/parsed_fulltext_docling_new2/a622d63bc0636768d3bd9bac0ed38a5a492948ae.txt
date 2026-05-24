@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_90_Pedagogy_Psychology_Master_Major_90_ECTS-Kreditpunkte__a622d63bc0636768d3bd9bac0ed38a5a492948ae.pdf",
   "sha256": "016679469c7b4bcbb2737c54a847fe549f78c60d9723bdeaa650660da7b0f592",
   "fetched_at": "2026-05-21T16:05:19.451Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_P%C3%A4dPsy_90%20(1490)%2005%2005%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_P%C3%A4dPsy_90%20(1490)%2005%2005%202025.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Pedagogy / Psychology",
+  "programme_name_de": "Pädagogik / Psychologie",
+  "programme_name_fr": "Pédagogie / Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/educationpsychology",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

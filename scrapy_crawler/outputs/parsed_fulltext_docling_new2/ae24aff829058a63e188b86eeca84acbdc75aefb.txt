@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_International_and_Comparative_Social_Policy_MA_Programme_bergangsbestimmungen_ae24aff829058a63e188b86eeca84acbdc75aefb.pdf",
   "sha256": "84140924d3203a572810fddfefb2c36a77d89ce0cb3a660d3a23f00bdb2560e9",
   "fetched_at": "2026-05-21T16:05:20.925Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS%2026/Master_Ausklingen_des_bisherigen_Master_260205.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS%2026/Master_Ausklingen_des_bisherigen_Master_260205.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "International and Comparative Social Policy",
+  "programme_name_de": "International and Comparative Social Policy",
+  "programme_name_fr": "International and Comparative Social Policy",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/internationalcomparativesocialpolicy30",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

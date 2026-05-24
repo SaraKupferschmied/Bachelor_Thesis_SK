@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Computer_Science_Branche_principale_en_informatique_1b1728be290abd105f20f013b6b365ae75714e89.pdf",
   "sha256": "5263e28516bdf7e0444b32733a77680c6f3a63f93650e06715ba2620658a185a",
   "fetched_at": "2026-05-21T16:05:13.213Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BSc_IN_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BSc_IN_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Computer Science",
+  "programme_name_de": "Informatik",
+  "programme_name_fr": "Informatique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/digitinf/informatics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

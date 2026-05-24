@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Contemporary_History_Studienplan_a0fafe0c746b43692ea0b32590a98c513c908f64.pdf",
   "sha256": "ee80361eae39943634fb5670bb036e92c302ceaf2c9c1c93ccfea9774dec754c",
   "fetched_at": "2026-05-21T16:05:22.984Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_PA_60_d_new_ratifiziert.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_PA_60_d_new_ratifiziert.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Contemporary History",
+  "programme_name_de": "Zeitgeschichte",
+  "programme_name_fr": "Histoire contemporaine",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/contemporaryhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/iaDtL"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## UNIVERSITÉ DE FRIBOURG SUISSE UNIVERSITÄT FREIBURG SCHWEIZ

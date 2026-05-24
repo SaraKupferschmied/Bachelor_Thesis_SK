@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_150_Teacher_Education_for_Secondary_Level_I_Erweiterungsdiplom_LDS_2ce0a9658eb5336ead7532f82ec923aa3fb14c59.pdf",
   "sha256": "f1042253fb5c573b9c324b116dbc13a13654679692f0254e33d2147ca51fd086",
   "fetched_at": "2026-05-21T16:05:16.293Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDS_9%20(1468)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDS_9%20(1468)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 150,
+  "programme_name_en": "Teacher Education for Secondary Level I",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu1",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

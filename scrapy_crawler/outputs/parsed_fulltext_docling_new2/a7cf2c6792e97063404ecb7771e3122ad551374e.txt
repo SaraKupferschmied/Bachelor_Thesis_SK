@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Italian_MA_90_-_versione_2015_a7cf2c6792e97063404ecb7771e3122ad551374e.pdf",
   "sha256": "7b34619dd1d24a2aaf7a1ec3a66e1325ee0e8d7167e25b29b6703bad6184443e",
   "fetched_at": "2026-05-21T16:05:25.842Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/MA%2090%20Italiano.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/MA%2090%20Italiano.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/yxwhB"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Master of Arts

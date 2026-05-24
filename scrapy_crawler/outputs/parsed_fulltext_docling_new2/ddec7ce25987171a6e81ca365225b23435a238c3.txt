@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Ethics_and_Economics_Ethik_und_Volkswirtschaftslehre_ddec7ce25987171a6e81ca365225b23435a238c3.pdf",
   "sha256": "1448b50a1b6127b8abeffcc467139aa73151e8caecd97e81ce1d5ef1882cc3ee",
   "fetched_at": "2026-05-21T16:05:30.642Z",
-  "notes": "calameo downloaded (id=003659115a83222167d30, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223104720-3321e84500d47a8ad8616d0c6823bb27/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=9dbae3a100d83c60992a2214c003f62ca6e256a9913ea2d80e15f470b64fc013, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115a83222167d30, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223104720-3321e84500d47a8ad8616d0c6823bb27/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=9dbae3a100d83c60992a2214c003f62ca6e256a9913ea2d80e15f470b64fc013, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Ethics and Economics",
+  "programme_name_de": "Ethik und Volkswirtschaftslehre",
+  "programme_name_fr": "Éthique et économie politique",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/ethicseco30",
+  "curriculum_url": "http://studies.unifr.ch/go/Q4-BC"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

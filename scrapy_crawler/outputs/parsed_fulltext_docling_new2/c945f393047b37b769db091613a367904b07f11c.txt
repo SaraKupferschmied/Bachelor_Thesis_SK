@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_60_BA_SI_50_-_SA_2025_c945f393047b37b769db091613a367904b07f11c.pdf",
   "sha256": "e8f6d30ccebea4c5db1de466bf7066df5cca11768aee74314979ef9aea9d7525",
   "fetched_at": "2026-05-21T16:05:26.742Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA60_BA_SI50.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Cours_examens/Presentazione_DipIT_SA2025_BA60_BA_SI50.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/aVOzt"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

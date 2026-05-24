@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Law_Studienplan_MLaw_2013_30fc1545d2ebbeead4d8362d4485f613a03ca706.pdf",
   "sha256": "9f3d4e1e48f3b6a21b4350c5160801f74b2f3dd97e121ef21d53bd1648a6e5f5",
   "fetched_at": "2026-05-21T16:05:36.275Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MLaw-2013-Studienplan.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MLaw-2013-Studienplan.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/lawparttime",
+  "curriculum_url": "https://studies.unifr.ch/go/x"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

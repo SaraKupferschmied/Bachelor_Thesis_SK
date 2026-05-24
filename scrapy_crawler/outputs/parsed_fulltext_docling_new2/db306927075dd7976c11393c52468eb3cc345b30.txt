@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_180_Theology_Informationen_zum_Erwerb_der_alten_Sprachen_Studienplan_ab_HS_2023__db306927075dd7976c11393c52468eb3cc345b30.pdf",
   "sha256": "e894814a2e2bc044863140f3d812433e8c5f561923b2ebb83281e3af96f0ce3b",
   "fetched_at": "2026-05-21T16:05:40.808Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/2025-2026/Informations%20Langues%20anciennes_02.09.2025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/2025-2026/Informations%20Langues%20anciennes_02.09.2025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Informations sur l'apprentissage des langues anciennes dans le nouveau programme d'études (dès SA 2023) et dispositions transitoires

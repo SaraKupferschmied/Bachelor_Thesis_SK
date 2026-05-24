@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_de_l_environnement_Transitions_en_sciences_de_l_environnement_-_SE_5dc2c6843839087a4cb453d6a2f0c1fb902d075d.pdf",
   "sha256": "8c40e489157ef80f234a06642c9ab0220478c3c64eb17e5b5c8752d05aa0663c",
   "fetched_at": "2026-05-21T16:05:40.980Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

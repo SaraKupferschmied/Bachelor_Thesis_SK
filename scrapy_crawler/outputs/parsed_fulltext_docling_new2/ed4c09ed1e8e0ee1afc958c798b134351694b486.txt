@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Sociology_Social_Policy_Social_Work_MA_Soziologie_Sozialpolitik_Sozialarbeit_zu_90_ECTS_ed4c09ed1e8e0ee1afc958c798b134351694b486.pdf",
   "sha256": "99b1cccd9cf2cc4fd04040079f893a034370ace16e0f9083e2b2f2b6c669063b",
   "fetched_at": "2026-05-21T16:05:21.757Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozialarbeit_Sozialpol_Globale_Entw_de_bil_10032021_HS24.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozialarbeit_Sozialpol_Globale_Entw_de_bil_10032021_HS24.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Sociology, Social Policy, Social Work",
+  "programme_name_de": "Soziologie, Sozialpolitik, Sozialarbeit",
+  "programme_name_fr": "Sociologie, politiques sociales, travail social",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialworkgerman",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

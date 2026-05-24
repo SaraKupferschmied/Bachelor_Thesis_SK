@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Slavic_Studies_Studienplan_8161b345466cca7567b7233a291c4cf8aa836f83.pdf",
   "sha256": "736e2fa2cfb6307215b14b3b0be0a155f6794b5f953e314cd9c26cadaa78eb51",
   "fetched_at": "2026-05-21T16:05:25.224Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_Slavistik_MA_30.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_Slavistik_MA_30.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Slavic Studies",
+  "programme_name_de": "Slavistik",
+  "programme_name_fr": "Slavistique",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/IZ758"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

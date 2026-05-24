@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Rhaeto-Romance_R_toromanisch_52fec04e9d8d3759aad88db924526f3a89db1a2e.pdf",
   "sha256": "ad23faca45724b8c6256b3ee1344e4b8549d60c63e75930961f00401125f0789",
   "fetched_at": "2026-05-21T16:05:25.530Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/Rumantsch_BA_SI30_5032015.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/Rumantsch_BA_SI30_5032015.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Rhaeto-Romance",
+  "programme_name_de": "Rätoromanisch",
+  "programme_name_fr": "Rhéto-roman",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/rhaetoromance",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

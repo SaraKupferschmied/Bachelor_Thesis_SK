@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Slavic_Studies_download_9937b1d0aef5893d777e58df0caee68d01d27e88.pdf",
   "sha256": "1e3d0325c441d8755ad047e3a89371d4f061efb88faa0b25e9e49ef77628a093",
   "fetched_at": "2026-05-21T16:05:25.361Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/dt_BA60_Studienplan%20Slavistik.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/dt_BA60_Studienplan%20Slavistik.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Slavic Studies",
+  "programme_name_de": "Slavistik",
+  "programme_name_fr": "Slavistique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/8S-ys"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

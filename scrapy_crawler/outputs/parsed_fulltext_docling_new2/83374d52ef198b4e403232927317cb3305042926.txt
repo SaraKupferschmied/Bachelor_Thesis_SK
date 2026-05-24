@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_General_and_Swiss_History_of_Modern_Times_Studienplan_2018__83374d52ef198b4e403232927317cb3305042926.pdf",
   "sha256": "3502a151e1acbd31ee9fc4f3b4c6bce08d2a19df859a5f30269c2139ceb69e3d",
   "fetched_at": "2026-05-21T16:05:23.026Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ma%202018/MA_Neuzeit%2090_VP_PA_20180523.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ma%202018/MA_Neuzeit%2090_VP_PA_20180523.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "General and Swiss History of Modern Times",
+  "programme_name_de": "Allgemeine und Schweizergeschichte der Neuzeit",
+  "programme_name_fr": "Histoire générale et suisse de l'époque moderne",
+  "programme_url": "https://studies.unifr.ch/en/master/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

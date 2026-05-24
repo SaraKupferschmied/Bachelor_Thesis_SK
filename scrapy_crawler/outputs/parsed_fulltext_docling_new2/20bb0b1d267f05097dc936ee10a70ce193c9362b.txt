@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Data_Analytics_Economics_Brosch_re_20bb0b1d267f05097dc936ee10a70ce193c9362b.pdf",
   "sha256": "34d48ef0ec1bbeb0d9196bbee9aa8b7e3c2748958dd312d1e8a517a0a20583cc",
   "fetched_at": "2026-05-21T16:05:17.387Z",
-  "notes": "calameo downloaded (id=003659115ee2a6f4f4ec7, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260325105740-bd53241195abcfb9410999f7b6a921b2/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160516Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=ed1f2385b3deb333dd0e5e677eb97e9440769f5b33c7a2749b116f33e9706fc4, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115ee2a6f4f4ec7, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260325105740-bd53241195abcfb9410999f7b6a921b2/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160516Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=ed1f2385b3deb333dd0e5e677eb97e9440769f5b33c7a2749b116f33e9706fc4, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Data Analytics & Economics",
+  "programme_name_de": "Data Analytics & Economics",
+  "programme_name_fr": "Data Analytics & Economics",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/dataeco",
+  "curriculum_url": "http://studies.unifr.ch/go/8knyG"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

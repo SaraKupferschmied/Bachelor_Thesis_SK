@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_90_Remedial_Education_at_School_DE__Master_Major_90_30_ECTS-Kreditpunkte__a5d9f914e61a5b4c54c8e6d8b4c33727486bf9ae.pdf",
   "sha256": "74baf3ba13baa4a1d396a0879336c4afeff7fb3294c3e190da07b8aaa0bdf53e",
   "fetched_at": "2026-05-21T16:05:19.987Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_SHP_90%20(1505)%2026%2002%202026%20(1).pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_SHP_90%20(1505)%2026%2002%202026%20(1).pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Remedial Education at School (DE)",
+  "programme_name_de": "Schulische Heilpädagogik",
+  "programme_name_fr": "Enseignement spécialisé (DE)",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/specialneedseducationgerman",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

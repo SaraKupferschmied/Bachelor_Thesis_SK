@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Philosophy_Studienplan_MA_Vertiefungsprogramm_60_ECTS__f7df0d0e1e6b8dc58800108d2a588f6942feb1b0.pdf",
   "sha256": "7a494b3903863cb98212d54f8002f305b51d495ec78d5d88245b1755a2d6eba9",
   "fetched_at": "2026-05-21T16:05:27.158Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/Masterreglement%20Vertiefungsprogramm%2012.6.2018.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/Masterreglement%20Vertiefungsprogramm%2012.6.2018.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/master/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

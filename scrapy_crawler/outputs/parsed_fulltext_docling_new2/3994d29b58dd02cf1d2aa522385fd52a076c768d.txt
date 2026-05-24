@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_120_Communication_and_Media_Research_Studienplan_3994d29b58dd02cf1d2aa522385fd52a076c768d.pdf",
   "sha256": "153e7252222779c79f7cdf1524b0fb363efff8a4ffc1934811776e6f0f7ee959",
   "fetched_at": "2026-05-21T16:05:29.231Z",
-  "notes": "calameo downloaded (id=003659115541abe10d7e2, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251120134614-75fbfc638ec0ecfe5ff6f9398c74bd01/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=76724d8afc8f79526238df8b48f99cf16040356eb19ce9c741f9b2e840e11b9a, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115541abe10d7e2, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/251120134614-75fbfc638ec0ecfe5ff6f9398c74bd01/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=76724d8afc8f79526238df8b48f99cf16040356eb19ce9c741f9b2e840e11b9a, ct=application/octet-stream)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Communication and Media Research",
+  "programme_name_de": "Kommunikationswissenschaft und Medienforschung",
+  "programme_name_fr": "Sciences de la communication et des médias",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/com/mediacommunicationgerman",
+  "curriculum_url": "https://studies.unifr.ch/go/1P"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

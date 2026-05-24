@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Management_Studienplan_Betriebswirtschaftslehre__08bd2c789c5e095323ce7edf2aed7b6d374d5f7d.pdf",
   "sha256": "67c74253596689de6941782d804eaf1eba9dac7c76beb2ea5e19bcb952d85e26",
   "fetched_at": "2026-05-21T16:05:33.528Z",
-  "notes": "calameo downloaded (id=003659115a7db135ae596, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250910140658-8c5c5d8611971a639d6b90d8eafc35f2/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d9985aa0c2413b2d59fd820b973b51d9c527fb9225840519b0ce05dafab95424, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115a7db135ae596, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250910140658-8c5c5d8611971a639d6b90d8eafc35f2/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d9985aa0c2413b2d59fd820b973b51d9c527fb9225840519b0ce05dafab95424, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Management",
+  "programme_name_de": "Betriebswirtschaftslehre",
+  "programme_name_fr": "Management",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/management",
+  "curriculum_url": "http://studies.unifr.ch/go/a-W2b"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

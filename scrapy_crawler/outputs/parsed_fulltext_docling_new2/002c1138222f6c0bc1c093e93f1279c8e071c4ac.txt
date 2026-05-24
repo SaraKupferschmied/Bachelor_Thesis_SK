@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_180_Special_Education_Bachelor_Mono_180_ECTS-Kreditpunkte__002c1138222f6c0bc1c093e93f1279c8e071c4ac.pdf",
   "sha256": "c70068c0c41f866a4efe75cb65bd4a725f0a5616a24f360e73149f471c4850e1",
   "fetched_at": "2026-05-21T16:05:20.173Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_SOP_180%20(1495)%2026%2002%202026.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_SOP_180%20(1495)%2026%2002%202026.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Special Education",
+  "programme_name_de": "Sonderpädagogik und Sozialpädagogik",
+  "programme_name_fr": "Éducation spécialisée",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/specialeducation",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Zusicherung_der_Dissertationsleitung_9a2e92869dbc5fbf9bcc6302e3857a68b6f6eacc.pdf",
   "sha256": "4c5d787e63d212dcacdcc61d90e28f9741133dd4ec1693da64d6955eb79a97bc",
   "fetched_at": "2026-05-21T16:05:39.885Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Zusicherung_Dissertationsleitung_AnhangI.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Zusicherung_Dissertationsleitung_AnhangI.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

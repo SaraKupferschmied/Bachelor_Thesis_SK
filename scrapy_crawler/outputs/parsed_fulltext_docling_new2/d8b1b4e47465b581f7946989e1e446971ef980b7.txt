@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Arbeits-_und_Gesundheitspsychologie_30_ECTS__d8b1b4e47465b581f7946989e1e446971ef980b7.pdf",
   "sha256": "001550800a208e8598a84a9647c75fac529cbf5e4245315e540f9dee12156ec3",
   "fetched_at": "2026-05-21T16:05:19.271Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_WHP_de_250225_SA25.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_WHP_de_250225_SA25.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Psychology",
+  "programme_name_de": "Psychologie",
+  "programme_name_fr": "Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

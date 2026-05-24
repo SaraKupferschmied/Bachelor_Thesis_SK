@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Italian_BA_30_-_versione_2015_0ddbcc5222ad6a331df2a32cf2dea703c4b3f45c.pdf",
   "sha256": "601844fbfa0d66996d185541a64f44676ba1d271b4a9f4b9fc7b429d7b8e859f",
   "fetched_at": "2026-05-21T16:05:25.903Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/BA%2030%20Italiano.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/BA%2030%20Italiano.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/aVOzt"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Bachelor of Arts

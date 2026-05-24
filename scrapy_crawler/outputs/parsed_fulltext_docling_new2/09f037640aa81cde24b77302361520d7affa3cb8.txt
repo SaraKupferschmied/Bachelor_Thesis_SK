@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Social_Work_and_Social_Policy_DE__BA_Soziologie_zu_60_ECTS_09f037640aa81cde24b77302361520d7affa3cb8.pdf",
   "sha256": "ad07459cfb0709ace9349189237baf56609a8b2c9fd92365f8e196837b2d1be1",
   "fetched_at": "2026-05-21T16:05:21.794Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_60_de_4112020_HS24.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Soziologie_60_de_4112020_HS24.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Social Work and Social Policy (DE)",
+  "programme_name_de": "Sozialarbeit und Sozialpolitik",
+  "programme_name_fr": "Travail social et politiques sociales (DE)",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/socialworkgerman",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

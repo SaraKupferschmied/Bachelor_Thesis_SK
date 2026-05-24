@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology_Biologie_prop_deutique_2c7b02cf69391596e241e9290559bed665da47fe.pdf",
   "sha256": "38e256e8b85fdd20c555e497ba4838563212abbdb7a343fefff15f542ded6012",
   "fetched_at": "2026-05-21T16:05:18.828Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_BL_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_BL_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biology",
+  "programme_name_de": "Biologie",
+  "programme_name_fr": "Biologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biology",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

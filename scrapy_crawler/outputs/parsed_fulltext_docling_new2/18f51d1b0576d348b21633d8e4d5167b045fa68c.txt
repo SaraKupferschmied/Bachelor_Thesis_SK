@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Culture_Politics_and_Religion_in_Pluralist_Societies_Studienplan_MA_90_ECTS_-_Version_2018_18f51d1b0576d348b21633d8e4d5167b045fa68c.pdf",
   "sha256": "b26d79dc0463b58e6a3e71ed46d6a0568f0b1691b39a604707920fc66b10aa5a",
   "fetched_at": "2026-05-21T16:05:20.387Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/MA90_SP_2018_DE_Versio_15.09.2022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/MA90_SP_2018_DE_Versio_15.09.2022.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Culture, Politics and Religion in Pluralist Societies",
+  "programme_name_de": "Kultur, Politik und Religion in der pluralistischen Gesellschaft",
+  "programme_name_fr": "Sociétés plurielles: cultures, politique et religions",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialanthropology",
+  "curriculum_url": "https://studies.unifr.ch/go/A0cJ8"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

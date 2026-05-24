@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Geography__valuation_en_g_ographie_et_g_osciences_GG_GS_97cf83126ca873a26bf7263c641bea08a847856d.pdf",
   "sha256": "6eb5d38728feb4fc9ea74ac015ee3de09f876f7bbf2155c8edd457e52ba51579",
   "fetched_at": "2026-05-21T16:05:17.924Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_GG-GS_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_GG-GS_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Geography",
+  "programme_name_de": "Geographie",
+  "programme_name_fr": "Géographie",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/geography",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

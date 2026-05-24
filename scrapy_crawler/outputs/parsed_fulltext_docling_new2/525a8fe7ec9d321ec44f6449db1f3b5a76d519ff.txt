@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Legal_Studies_Pr_sentation_MALS_525a8fe7ec9d321ec44f6449db1f3b5a76d519ff.pdf",
   "sha256": "92bb800ca1cfe6e5df67d24c8adac9843614c7f8c53b1b6727d6567be6ed46bd",
   "fetched_at": "2026-05-21T16:05:34.646Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS-presentation_2025.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Legal Studies",
+  "programme_name_de": "Rechtswissenschaftliche Studien",
+  "programme_name_fr": "Études juridiques",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/legalstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/heNo7"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

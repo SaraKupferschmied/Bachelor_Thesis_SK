@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Contemporary_History_Bachelor_Zeitgeschichte_30_ECTS_cc4280ac52b12d337d81247d090fc458e7486caf.pdf",
   "sha256": "9986229c2b776b265d403b8b64e14c941f096d5d36c7398692f01d97b2a72a1f",
   "fetched_at": "2026-05-21T16:05:22.999Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/histcont/de/assets/public/files/etudes/studienplaene2016/Zeitgeschichte_Histoire%20contemporaine_BA_30_201118.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/histcont/de/assets/public/files/etudes/studienplaene2016/Zeitgeschichte_Histoire%20contemporaine_BA_30_201118.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Contemporary History",
+  "programme_name_de": "Zeitgeschichte",
+  "programme_name_fr": "Histoire contemporaine",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/contemporaryhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/iaDtL"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 Université de Fribourg (Suisse) Faculté des Lettres Département des Sciences historiques

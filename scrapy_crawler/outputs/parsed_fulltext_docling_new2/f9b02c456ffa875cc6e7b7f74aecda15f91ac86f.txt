@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Sociology_Social_Policy_Social_Work_MA_Sozialpolitik_und_Sozialarbeit_zu_30_ECTS_f9b02c456ffa875cc6e7b7f74aecda15f91ac86f.pdf",
   "sha256": "dcc4f266802e26cd64508542ca5a65a8a066a81b3ae0ca34a2fb4faeee94249e",
   "fetched_at": "2026-05-21T16:05:21.768Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_SASP_NP_SP30_de_4112020_HS24.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_SASP_NP_SP30_de_4112020_HS24.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Sociology, Social Policy, Social Work",
+  "programme_name_de": "Soziologie, Sozialpolitik, Sozialarbeit",
+  "programme_name_fr": "Sociologie, politiques sociales, travail social",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/socialworkgerman",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

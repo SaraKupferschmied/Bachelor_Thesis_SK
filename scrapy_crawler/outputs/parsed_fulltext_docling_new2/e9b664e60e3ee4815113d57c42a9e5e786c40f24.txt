@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology__valuation_en_biologie_BL_e9b664e60e3ee4815113d57c42a9e5e786c40f24.pdf",
   "sha256": "2a600f598001020e5b179a22dd5d0baa335e38ba24f0f6bc1701ef67a2033eaa",
   "fetched_at": "2026-05-21T16:05:19.085Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_BL_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_BL_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biology",
+  "programme_name_de": "Biologie",
+  "programme_name_fr": "Biologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biology",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

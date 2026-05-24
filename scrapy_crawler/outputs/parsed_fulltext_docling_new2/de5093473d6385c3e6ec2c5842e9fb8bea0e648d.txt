@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_German_as_a_Foreign_Language_German_as_a_Second_Language_Master_Fremdsprachendidaktik_de5093473d6385c3e6ec2c5842e9fb8bea0e648d.pdf",
   "sha256": "3c9b3c0f11ccc9704aca0a5e5ccc3614e8b75112e35701bc9eacf2b4fa73ea76",
   "fetched_at": "2026-05-21T16:05:24.272Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-dle-DE_2025-8-19.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-dle-DE_2025-8-19.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "German as a Foreign Language / German as a Second Language",
+  "programme_name_de": "Deutsch als Fremdsprache / Deutsch als Zweitsprache",
+  "programme_name_fr": "Allemand langue étrangère / Allemand langue seconde",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/germanforeignlanguage",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

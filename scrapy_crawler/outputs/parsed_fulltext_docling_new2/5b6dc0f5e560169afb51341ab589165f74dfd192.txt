@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Chemistry_Master_of_Science_in_Chemistry_option_communication_and_innovation_5b6dc0f5e560169afb51341ab589165f74dfd192.pdf",
   "sha256": "708064d8084d32bd558833b0537c445b6fa9904f09bb5d4bbe156bff234b48d2",
   "fetched_at": "2026-05-21T16:05:18.442Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_CH120_en.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_CH120_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Chemistry",
+  "programme_name_de": "Chemie",
+  "programme_name_fr": "Chimie",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/chemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

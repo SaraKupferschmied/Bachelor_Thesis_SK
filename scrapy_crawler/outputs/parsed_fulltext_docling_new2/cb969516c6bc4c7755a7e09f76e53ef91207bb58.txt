@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_180_Theology_Reglement_Habilitation_Theologie_cb969516c6bc4c7755a7e09f76e53ef91207bb58.pdf",
   "sha256": "5efc24b8e8691f0e6edccb0e1d6043b959a3c144e0d697b7711bdcac75614b4a",
   "fetched_at": "2026-05-21T16:05:40.866Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/reg_habilitation_DF.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/reg_habilitation_DF.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## FACULTE DE THEOLOGIE / UNIVERSITE DE FRIBOURG (SUISSE)

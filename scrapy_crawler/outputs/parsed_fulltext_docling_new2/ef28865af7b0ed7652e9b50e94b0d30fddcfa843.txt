@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_History_Studienplan_2018__ef28865af7b0ed7652e9b50e94b0d30fddcfa843.pdf",
   "sha256": "879e2e0e2878c30f9c70e204a12df76c277e5268b58ca307ee0495e21259aa03",
   "fetched_at": "2026-05-21T16:05:23.466Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ma%202018/MA_Geschichte%2030_NP_P2_20180523.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ma%202018/MA_Geschichte%2030_NP_P2_20180523.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "History",
+  "programme_name_de": "Geschichte",
+  "programme_name_fr": "Histoire",
+  "programme_url": "https://studies.unifr.ch/en/master/hist/history",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

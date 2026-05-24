@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_120_Theology_Master_of_Theology_Vollprogramm_120_ECTS__3927086557712fbc143e04d9ae996c871aab92d5.pdf",
   "sha256": "a25fbae09eeb4f82d12af5f35bca4c76e1f8872e0a55caf6e7cc8241ba942f19",
   "fetched_at": "2026-05-21T16:05:40.603Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/theo_programme_MA_120.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/theo_programme_MA_120.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/master/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/20"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Theologie - Vollprogramm/Théologie - programme unique

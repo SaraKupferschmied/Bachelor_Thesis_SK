@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_Master_60_ANEC_Nebenprogramm_15_30_oder_60_ECTS_Anhang_Studieninhalte_3f1f145b47e33f2fc8f3d74b595e42efb4210524.pdf",
   "sha256": "fc1fc3ffdc6f88a85c3ac12fec437974045b3813b178cc7050b47fd64aac1071",
   "fetched_at": "2026-05-21T16:05:42.145Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Studienplan ANEC: Anhänge

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_180_Human_Medicine_Branche_principale_m_decine_humaine_0bf6556c21d4d4f204a1b05ecc8104df13c333b1.pdf",
   "sha256": "0685a6d85dff0beb80a3eda7b2b307b1c6eb35746e80bc91a763810ce3f86ac0",
   "fetched_at": "2026-05-21T16:05:15.253Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BMed_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BMed_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Human Medicine",
+  "programme_name_de": "Humanmedizin",
+  "programme_name_fr": "Médecine humaine",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/medspo/humanmedicine",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

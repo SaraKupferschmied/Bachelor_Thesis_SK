@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Spanish_Plan_de_estudios_secundarios_MA_30_ECTS_1c7a7f62508fe4710e827639d293c0451fd95ffa.pdf",
   "sha256": "ae779c3381efab902c3fdc75191c63285eb6365ca8d1fc2278c8e988b7f2f29a",
   "fetched_at": "2026-05-21T16:05:24.470Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_MA_30_secundario_2023.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_MA_30_secundario_2023.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/h2ehx"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

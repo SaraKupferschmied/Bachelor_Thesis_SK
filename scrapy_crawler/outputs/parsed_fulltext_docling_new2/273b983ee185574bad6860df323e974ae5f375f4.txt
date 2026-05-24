@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Multilingualism_Studies_R_toromanisch_273b983ee185574bad6860df323e974ae5f375f4.pdf",
   "sha256": "c5ff41c2a92418e0769c62f9d51a58147f661e3cdbeb05be38f3c27f2d67cbbb",
   "fetched_at": "2026-05-21T16:05:23.992Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/2024Pluri_rhetoroman_90-fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/2024Pluri_rhetoroman_90-fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Multilingualism Studies",
+  "programme_name_de": "Mehrsprachigkeitsforschung",
+  "programme_name_fr": "Sciences du plurilinguisme",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/multilingualism",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

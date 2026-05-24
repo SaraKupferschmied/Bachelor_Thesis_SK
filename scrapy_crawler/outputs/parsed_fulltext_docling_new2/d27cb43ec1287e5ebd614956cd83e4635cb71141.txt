@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biochemistry__valuation_en_biochimie_BC_d27cb43ec1287e5ebd614956cd83e4635cb71141.pdf",
   "sha256": "de10b23abec9c50cb7b6e170a9f2349c9d984fd885b0095defa072667aed9b64",
   "fetched_at": "2026-05-21T16:05:19.136Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_BC_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_BC_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biochemistry",
+  "programme_name_de": "Biochemie",
+  "programme_name_fr": "Biochimie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biochemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

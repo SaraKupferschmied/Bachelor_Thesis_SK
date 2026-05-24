@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Konkrete_Ans_tze_f_r_Doktorierende_und_Betreuungspersonen_232546fdc3eaf27a0b21f8f41209c4ce51e4b63c.pdf",
   "sha256": "11d1b0aebbd6047e232f85023a951977789786127b7cde81badfb23fdf84f7ff",
   "fetched_at": "2026-05-21T16:05:39.160Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Broschuere_BedingungenPhD_2020.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Broschuere_BedingungenPhD_2020.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

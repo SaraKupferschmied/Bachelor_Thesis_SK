@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Law_Leitfaden_Mein_MALS-Studium__bf587202aa747c89c965fe964c3006e9eef921f6.pdf",
   "sha256": "14b93e6e7779224416df44cf7751154034ca96411d610bd947e8e18a47f346dc",
   "fetched_at": "2026-05-21T16:05:35.654Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/lawparttime",
+  "curriculum_url": "https://studies.unifr.ch/go/x"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Mein MALS-Studium

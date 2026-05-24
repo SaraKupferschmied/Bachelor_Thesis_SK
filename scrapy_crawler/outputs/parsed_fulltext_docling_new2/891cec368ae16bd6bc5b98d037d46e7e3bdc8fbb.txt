@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Kirchliches_Diplom_Richtlinien_der_Theologischen_Fakult_t_betreffend_der_Zulassung_zum_Kirchlichen_Diplom_891cec368ae16bd6bc5b98d037d46e7e3bdc8fbb.pdf",
   "sha256": "2bff4d0a69de40df0d6e6b1b472b7d54df1e0f85e526ec76f867ff27fd79c38d",
   "fetched_at": "2026-05-21T16:05:42.034Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%202022/Richtlinien_kirchl.%20Diplom_20.11.2021.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%202022/Richtlinien_kirchl.%20Diplom_20.11.2021.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Directives

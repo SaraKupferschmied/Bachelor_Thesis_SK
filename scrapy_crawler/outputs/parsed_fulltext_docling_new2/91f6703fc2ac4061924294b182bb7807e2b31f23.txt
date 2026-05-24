@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_180_Theology_Bachelor_of_Theology_180_ECTS_ab_HS_2023__91f6703fc2ac4061924294b182bb7807e2b31f23.pdf",
   "sha256": "67c36803c6c4cbc0fc5923f688f9b6065d8be3fc0d52c39fff51310b515b231b",
   "fetched_at": "2026-05-21T16:05:40.754Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/2025-2026/Theologie%20BA%20180%2020250904.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/2025-2026/Theologie%20BA%20180%2020250904.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Theologie - Vollprogramm / Théologie - programme unique

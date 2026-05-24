@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Bachelor_180_Law_Brosch_re_herunterladen_a1541cc70f2fe44bf7f7a3180ae28770223caf01.pdf",
   "sha256": "5af7887842b1f5d2ec9baa0e5602ca232f56861e806dff9f3a86c7532f0f30ab",
   "fetched_at": "2026-05-21T16:05:38.055Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_DE.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/BAEco-Droit_DE.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/ius/law",
+  "curriculum_url": "http://studies.unifr.ch/go/jPgcg"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Prüfungen &amp; Bedingungen

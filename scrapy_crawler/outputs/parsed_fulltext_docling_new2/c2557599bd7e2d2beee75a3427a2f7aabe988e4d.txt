@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Law_RRS_vom_28.6.2006_Stand_am_4.10.2021__c2557599bd7e2d2beee75a3427a2f7aabe988e4d.pdf",
   "sha256": "499a5c4d30adaf9894c7371f2e8829f787686ade4dc663281ffd44f0441b5478",
   "fetched_at": "2026-05-21T16:05:35.267Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/reglements-directives/421-100_RED-RRS.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/reglements-directives/421-100_RED-RRS.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/lawparttime",
+  "curriculum_url": "https://studies.unifr.ch/go/x"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Règlement

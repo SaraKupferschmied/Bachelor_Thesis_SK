@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Multilingualism_Studies_Master_Mehrsprachigkeitsforschung_633eb256b0a85ebcbe2a71046dd3548e13c8cebc.pdf",
   "sha256": "c7753458dc014a7e4bd1f26a0c8ddfdb2471415fe69d23dff1dec8733292e796",
   "fetched_at": "2026-05-21T16:05:24.088Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-pluri-DE_2025-8-19.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/guides/guide-pluri-DE_2025-8-19.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Multilingualism Studies",
+  "programme_name_de": "Mehrsprachigkeitsforschung",
+  "programme_name_fr": "Sciences du plurilinguisme",
+  "programme_url": "https://studies.unifr.ch/en/master/multi/multilingualism",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

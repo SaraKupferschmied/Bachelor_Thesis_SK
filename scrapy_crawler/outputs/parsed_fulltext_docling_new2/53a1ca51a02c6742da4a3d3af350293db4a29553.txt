@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_60_Teacher_Education_for_Baccalaureate_Schools_Zusatzfach_LDM_53a1ca51a02c6742da4a3d3af350293db4a29553.pdf",
   "sha256": "d734b227ea00df64c5b5ab8c64d83f4d158c990cc66b3bd0b3087d20e29bbc8a",
   "fetched_at": "2026-05-21T16:05:16.230Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDM_14%20(1467)%2005%2005%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Erweiterungsdiplom_LDM_14%20(1467)%2005%2005%202025.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 60,
+  "programme_name_en": "Teacher Education for Baccalaureate Schools",
+  "programme_name_de": "Ausbildung für den Unterricht an Maturitätsschulen",
+  "programme_name_fr": "Formation à l'enseignement pour les écoles de maturité",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu2",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

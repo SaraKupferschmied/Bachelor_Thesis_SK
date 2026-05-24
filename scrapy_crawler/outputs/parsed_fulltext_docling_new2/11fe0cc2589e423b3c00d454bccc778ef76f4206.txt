@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Merkblatt_f_r_Doktoranden-innen_11fe0cc2589e423b3c00d454bccc778ef76f4206.pdf",
   "sha256": "774fd7547cba3de4b113b6afcc61bb72bfb775bacb9fc032d17cd56f7a882941",
   "fetched_at": "2026-05-21T16:05:39.380Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%25202022/Merkblatt_Doktoranden_2022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%25202022/Merkblatt_Doktoranden_2022.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

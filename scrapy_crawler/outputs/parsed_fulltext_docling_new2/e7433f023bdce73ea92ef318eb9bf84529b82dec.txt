@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Social_Anthropology_Studienplan_2017_BA_120_ECTS_e7433f023bdce73ea92ef318eb9bf84529b82dec.pdf",
   "sha256": "31bb28ea7b11a14a3ad9ae8f4baf0cf8c90717dcfd306e19222d613330f2ce44",
   "fetched_at": "2026-05-21T16:05:20.352Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/anthropos/de/assets/public/files/Reglements%20et%20directives/BA120_Sozialanthropologie_DE.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/anthropos/de/assets/public/files/Reglements%20et%20directives/BA120_Sozialanthropologie_DE.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Social Anthropology",
+  "programme_name_de": "Sozialanthropologie",
+  "programme_name_fr": "Anthropologie sociale",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/socialanthropology",
+  "curriculum_url": "http://studies.unifr.ch/go/jHFob"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

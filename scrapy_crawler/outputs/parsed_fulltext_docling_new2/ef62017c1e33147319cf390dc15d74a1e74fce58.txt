@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Eastern_European_Studies_MA_30_ECTS_Anhang_zum_Studienplan_ef62017c1e33147319cf390dc15d74a1e74fce58.pdf",
   "sha256": "cb06ae59d5a22f4ef65a96ea86afddab41bde32ce889e2789112768780aee46a",
   "fetched_at": "2026-05-21T16:05:21.455Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/iicee/de/assets/public/files/MA30Anhang.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/iicee/de/assets/public/files/MA30Anhang.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Eastern European Studies",
+  "programme_name_de": "Osteuropa-Studien",
+  "programme_name_fr": "Études de l'Europe orientale",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/easterneuropeanstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/OKTj8"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Anhang 4

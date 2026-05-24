@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_Reglement_Habilitation_Philosophie_a37deea3e660eb9a9b08ba568cfceaee631c3b32.pdf",
   "sha256": "e5e14791fbde8fe13c83ceecd3c8f40305bb558245d8dfe6d9fae54d07ae09ac",
   "fetched_at": "2026-05-21T16:05:41.873Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%202022/Habilitationsreglement%20Theologische%20Fakulta%CC%88t_Phil_2022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP%202022/Habilitationsreglement%20Theologische%20Fakulta%CC%88t_Phil_2022.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Règlement

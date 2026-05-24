@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Marketing_Brosch_re_e5a3d214923bfb73b36d883be1d019438b0786e2.pdf",
   "sha256": "4ccd4f6290d98b73d64b9670eb3e8ade642bc37344d8f0121073362196ff72e2",
   "fetched_at": "2026-05-21T16:05:30.894Z",
-  "notes": "calameo downloaded (id=00365911572d7cbc3768d, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226111025-3d65e1b150102e6113f02b32ef822fc8/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=b3927e16e1e073b11231a4d4e0b76bf1b7a7e2280f3befa2b0af7d4c7bb66a03, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=00365911572d7cbc3768d, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226111025-3d65e1b150102e6113f02b32ef822fc8/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=b3927e16e1e073b11231a4d4e0b76bf1b7a7e2280f3befa2b0af7d4c7bb66a03, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Marketing",
+  "programme_name_de": "Marketing",
+  "programme_name_fr": "Marketing",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/marketing",
+  "curriculum_url": "http://studies.unifr.ch/go/tO-8z"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Political_Science_Studienplan_g_ltig_seit_2021_60_ECTS__c6214392352fa4325b10a258b6d8f3777b27e569.pdf",
   "sha256": "c502e938058b1437ce548eecb9a0e3089072f78853ae2884ac707c7467ec6cd0",
   "fetched_at": "2026-05-21T16:05:20.758Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/politikwissenschaft/assets/public/files/Studienplan/BA_Politik_und_Gesellschaft_60_2021.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/politikwissenschaft/assets/public/files/Studienplan/BA_Politik_und_Gesellschaft_60_2021.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Political Science",
+  "programme_name_de": "Politikwissenschaft",
+  "programme_name_fr": "Science politique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/politicalscience",
+  "curriculum_url": "https://studies.unifr.ch/go/c"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

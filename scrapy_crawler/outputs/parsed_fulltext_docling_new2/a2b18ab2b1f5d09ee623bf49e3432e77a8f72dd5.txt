@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Art_History_Kunstgeschichte_Bereich_II_a2b18ab2b1f5d09ee623bf49e3432e77a8f72dd5.pdf",
   "sha256": "86eb3bc65669a6bc823f3633de9c45931cf06779b76bcb842b9dbbf2fdddf8dc",
   "fetched_at": "2026-05-21T16:05:22.752Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA60_de_230329.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA60_de_230329.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Art History",
+  "programme_name_de": "Kunstgeschichte",
+  "programme_name_fr": "Histoire de l'art",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/6TFjB"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

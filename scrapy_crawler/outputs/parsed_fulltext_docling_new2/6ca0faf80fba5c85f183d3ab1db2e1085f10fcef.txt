@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_European_Studies_Vertiefungsprogramm_90_ECTS__6ca0faf80fba5c85f183d3ab1db2e1085f10fcef.pdf",
   "sha256": "5cfbad8fa8b6c5e40024ddd2cf8172ef917e39e264775a39348a5c0a4c57f2f4",
   "fetched_at": "2026-05-21T16:05:21.432Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/europastudien/de/assets/public/Documents/Plan%20d%27%C3%A9tudes/2024/VP_Europastudien_20231107_HS24.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/europastudien/de/assets/public/Documents/Plan%20d%27%C3%A9tudes/2024/VP_Europastudien_20231107_HS24.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "European Studies",
+  "programme_name_de": "Europastudien",
+  "programme_name_fr": "Études européennes",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/europeanstudies",
+  "curriculum_url": "https://studies.unifr.ch/go/15"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

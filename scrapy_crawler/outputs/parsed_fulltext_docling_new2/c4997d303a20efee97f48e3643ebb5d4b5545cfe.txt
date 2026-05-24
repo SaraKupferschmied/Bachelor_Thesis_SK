@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_ehrenw_rtliche_Erkl_rung_c4997d303a20efee97f48e3643ebb5d4b5545cfe.pdf",
   "sha256": "3c885ec0105bbce965f0945c05621b9b66b0b358338441b716c9ad0d1612164b",
   "fetched_at": "2026-05-21T16:05:41.821Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

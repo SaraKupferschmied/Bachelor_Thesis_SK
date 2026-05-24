@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_30_Theology_MA_Theologie_Nebenprogramme_Optionsprogramme_30_ECTS_afd7d3df4916883a984932cef4cd9e674f963f1b.pdf",
   "sha256": "28bdd3bcd3ed64a360065d6478714c6f5ab203e687d59f052abddafd28b31df1",
   "fetched_at": "2026-05-21T16:05:40.509Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%2520etudes/Programmes%2520secondaires/theo_programme_BA_MA_30.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%2520etudes/Programmes%2520secondaires/theo_programme_BA_MA_30.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/master/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/20"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Nebenprogramme / Optionsprogramme 30 CP/ Programmes secondaires / Programmes à option à 30 CP

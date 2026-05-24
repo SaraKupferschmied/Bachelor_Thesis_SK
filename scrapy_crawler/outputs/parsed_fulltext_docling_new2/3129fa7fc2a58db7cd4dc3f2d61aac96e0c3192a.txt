@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_120_Education_Sciences_Bachelor_Major_120_ECTS-Kreditpunkte__3129fa7fc2a58db7cd4dc3f2d61aac96e0c3192a.pdf",
   "sha256": "fe3a4c0809b6f71f736a60a4a46a4600e5aa352e1d0bba38af0e3d3a5049946f",
   "fetched_at": "2026-05-21T16:05:19.786Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_120%20(1462)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_120%20(1462)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Education Sciences",
+  "programme_name_de": "Erziehungswissenschaften",
+  "programme_name_fr": "Sciences de l'éducation",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/educationalsciences",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

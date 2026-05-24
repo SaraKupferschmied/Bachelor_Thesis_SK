@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Comparative_Literature_Studienplan_967db5bac0544ad6812a1e3c0c15d4e3272db467.pdf",
   "sha256": "8326a460e13cda281f3e59fadc5ba06a1670ea921ad9c830392ebdf23bfc9858",
   "fetched_at": "2026-05-21T16:05:26.969Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_P2_30_d-new_ratifiziert.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/complit/de/assets/public/files/studium/MA_Complit_P2_30_d-new_ratifiziert.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Comparative Literature",
+  "programme_name_de": "Allgemeine und vergleichende Literaturwissenschaft",
+  "programme_name_fr": "Littérature générale et comparée",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/comparativeliterature",
+  "curriculum_url": "http://studies.unifr.ch/go/Gu8KZ"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## UNIVERSITÉ DE FRIBOURG SUISSE UNIVERSITÄT FREIBURG SCHWEIZ

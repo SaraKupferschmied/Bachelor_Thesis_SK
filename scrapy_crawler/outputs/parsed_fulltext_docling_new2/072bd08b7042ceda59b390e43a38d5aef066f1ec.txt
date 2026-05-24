@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Contemporary_History_Master_Zeitgeschichte_90_ECTS_072bd08b7042ceda59b390e43a38d5aef066f1ec.pdf",
   "sha256": "1d0f370abca63ee5eb35698fe4e706f30bcb6472e89f1ecd49becc3a9cfaf60c",
   "fetched_at": "2026-05-21T16:05:22.899Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/histcont/de/assets/public/files/etudes/studienplaene2016/HC_ZG_MA_PA_13062016_Modif01022022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/histcont/de/assets/public/files/etudes/studienplaene2016/HC_ZG_MA_PA_13062016_Modif01022022.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Contemporary History",
+  "programme_name_de": "Zeitgeschichte",
+  "programme_name_fr": "Histoire contemporaine",
+  "programme_url": "https://studies.unifr.ch/en/master/hist/contemporaryhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/iaDtL"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 Université de Fribourg (Suisse)

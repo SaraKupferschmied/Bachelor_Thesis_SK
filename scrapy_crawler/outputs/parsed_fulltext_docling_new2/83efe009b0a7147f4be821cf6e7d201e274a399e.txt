@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Doctorate_UNK_Geosciences_G_osciences_83efe009b0a7147f4be821cf6e7d201e274a399e.pdf",
   "sha256": "71d72f21bf340e6cebc2c203cae01bfa58c3989e7013b5b029a798b468f39e30",
   "fetched_at": "2026-05-21T16:05:17.805Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_GS_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_GS_fr.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Geosciences",
+  "programme_name_de": "Geowissenschaften",
+  "programme_name_fr": "Géosciences",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/sci/geosciences",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

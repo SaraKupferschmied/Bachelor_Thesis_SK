@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Greek_Studies_Griechische_Sprache_und_Kultur_040ffc0821680502e19cca82f4bf6ee2ed4147cb.pdf",
   "sha256": "fa746a9306aa9ee56ebe4664e7c6d1de185d377a028e8f02ce5acd4a2c1253b5",
   "fetched_at": "2026-05-21T16:05:26.189Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_60_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_60_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Greek Studies",
+  "programme_name_de": "Griechische Sprache und Kultur",
+  "programme_name_fr": "Langue et culture grecques",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/greekstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/gpUA1"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

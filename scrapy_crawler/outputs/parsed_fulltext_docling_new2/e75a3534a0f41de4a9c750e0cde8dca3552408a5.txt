@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_30_Teacher_Education_for_Secondary_Level_I_Bachelor_LDS_30_ECTS-Kreditpunte__e75a3534a0f41de4a9c750e0cde8dca3552408a5.pdf",
   "sha256": "825100529d53504f14f57d60c0041f40753cd35bb21d963a5965c05f1519051a",
   "fetched_at": "2026-05-21T16:05:16.260Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BA_LDS_30%20(1482)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BA_LDS_30%20(1482)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Teacher Education for Secondary Level I",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu1",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

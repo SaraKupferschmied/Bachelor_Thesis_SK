@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_30_Theology_Flyer_e6b09c291a066c92c8c66c0418692b4e8685549c.pdf",
   "sha256": "50f0cb813c4b8a093c96339898e23401cc3129b90dc665f868bd7d8857d0ad05",
   "fetched_at": "2026-05-21T16:05:40.650Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/brochures/A5_Theologie_30_Plus_D_BAT.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/brochures/A5_Theologie_30_Plus_D_BAT.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Informatie

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__36aa9afc30c4d6325740fc8a1a36ab1723fa1c48.pdf",
   "sha256": "13ce38a9c5321306e0bc99bb3430b197196cbb9939da6ad9a77b3f3c0113a885",
   "fetched_at": "2026-05-21T16:05:23.446Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "History of Modern Times",
+  "programme_name_de": "Geschichte der Moderne",
+  "programme_name_fr": "Histoire de la modernité",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

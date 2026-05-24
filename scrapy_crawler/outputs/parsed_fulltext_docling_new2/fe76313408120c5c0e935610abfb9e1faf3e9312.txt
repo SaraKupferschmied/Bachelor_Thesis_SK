@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_90_Special_Education_Master_Major_90_ECTS-Kreditpunkte__fe76313408120c5c0e935610abfb9e1faf3e9312.pdf",
   "sha256": "945fea29be1a73c193c35f3f7e2bc8063f3559ccff2f3e4ab63bfe6db7de0ee1",
   "fetched_at": "2026-05-21T16:05:19.822Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_SP_90%20(1504)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_SP_90%20(1504)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Special Education",
+  "programme_name_de": "Sonderpädagogik",
+  "programme_name_fr": "Pédagogie spécialisée",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/specialeduminor",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

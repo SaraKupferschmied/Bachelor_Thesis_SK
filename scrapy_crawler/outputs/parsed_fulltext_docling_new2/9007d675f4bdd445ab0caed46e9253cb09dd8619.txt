@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Art_History_Kunstgeschichte_im_Bereich_I_mit_Option_Arch_ologie__9007d675f4bdd445ab0caed46e9253cb09dd8619.pdf",
   "sha256": "d615ddcf9b8251194f21d190dbcdc0a3d3eaa8899a831ea71a8ac665c10ca923",
   "fetched_at": "2026-05-21T16:05:22.837Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/PE%20BA%20ARCH%20120.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/PE%20BA%20ARCH%20120.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Art History",
+  "programme_name_de": "Kunstgeschichte",
+  "programme_name_fr": "Histoire de l'art",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/6TFjB"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Histoire de l'Art Kunstgeschichte Art History Bachelor - 120 crédits ECTS

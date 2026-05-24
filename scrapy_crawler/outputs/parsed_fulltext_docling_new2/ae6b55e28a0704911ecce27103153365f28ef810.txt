@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Spanish_Plan_de_estudios_BA_120_ECTS_ae6b55e28a0704911ecce27103153365f28ef810.pdf",
   "sha256": "7eb45da051e8767c65db71dc8760f94462d16e0e7bf82d22c07946a0638257b8",
   "fetched_at": "2026-05-21T16:05:25.119Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/bachelor-es-120-ects-es.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2019/bachelor-es-120-ects-es.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## UNIVERSIDAD DE FRIBURGO - SUIZA FACULTAD DE LETRAS - DEPARTEMENTO DE LENGUAS Y LITERATURAS Departamento de Español

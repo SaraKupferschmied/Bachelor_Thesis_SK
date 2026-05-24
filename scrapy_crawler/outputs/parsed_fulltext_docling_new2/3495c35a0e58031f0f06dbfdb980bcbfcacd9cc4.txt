@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Art_History_Spezialisierungs-_oder_Nebenprogramme_in_Kunstgeschichte_3495c35a0e58031f0f06dbfdb980bcbfcacd9cc4.pdf",
   "sha256": "1b6d56562836e66dc509eae3b9bf49bd22564688960737a8556f899319cc6a62",
   "fetched_at": "2026-05-21T16:05:22.696Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20MA/HA_MA30_de_%2020140919_modif260521.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20MA/HA_MA30_de_%2020140919_modif260521.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Art History",
+  "programme_name_de": "Kunstgeschichte",
+  "programme_name_fr": "Histoire de l'art",
+  "programme_url": "https://studies.unifr.ch/en/master/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/nJ3Zw"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Histoire de l'art

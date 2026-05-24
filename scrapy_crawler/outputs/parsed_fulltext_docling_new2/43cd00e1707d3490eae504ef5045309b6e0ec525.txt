@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Sport_Sciences__valuation_en_sciences_du_sport_SP_SM_43cd00e1707d3490eae504ef5045309b6e0ec525.pdf",
   "sha256": "409a72e184b3b7f2a15f9e37d339adc687519f65903ef29e6fce522c896747d4",
   "fetched_at": "2026-05-21T16:05:14.872Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SP-SM_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SP-SM_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Sport Sciences",
+  "programme_name_de": "Sportwissenschaften",
+  "programme_name_fr": "Sciences du sport",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/z3FE1"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

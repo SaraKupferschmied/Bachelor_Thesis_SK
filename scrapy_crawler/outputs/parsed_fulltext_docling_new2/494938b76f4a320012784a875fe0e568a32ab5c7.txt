@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Musicology_and_History_of_Opera_Bereich_II_Bereich_II_494938b76f4a320012784a875fe0e568a32ab5c7.pdf",
   "sha256": "e164d0240e6f151cd570985d8b10758f8db02c26b5ddab8490b45bb07684dfa6",
   "fetched_at": "2026-05-21T16:05:22.462Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20d%27%C3%A9tudes%202020/Bachelor%2020%20DE/MUS_BA_60_DE_13112019.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20d%27%C3%A9tudes%202020/Bachelor%2020%20DE/MUS_BA_60_DE_13112019.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Musicology and History of Opera",
+  "programme_name_de": "Musikwissenschaft und Geschichte des Musiktheaters",
+  "programme_name_fr": "Musicologie et histoire du théâtre musical",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/musicology",
+  "curriculum_url": "https://studies.unifr.ch/go/q"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

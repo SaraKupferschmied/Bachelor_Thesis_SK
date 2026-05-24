@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Reglement_e1da441a2919562a106205f2e9beb81233fd9e2d.pdf",
   "sha256": "fd43e02b7cc09e6807adadc7be18fcfc9d59760b7d7af1b8ac0a5a834716f44f",
   "fetched_at": "2026-05-21T16:05:39.425Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/phd_philo.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/phd_philo.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Règlement

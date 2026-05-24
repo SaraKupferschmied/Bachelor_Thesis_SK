@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Archaeology_Programme_MA_secondaire_en_Arch_ologie_30_e11f75a8de9a5893acd309a993c210cdcd564dfc.pdf",
   "sha256": "4a108f13e05d167aef242ad598b01902ac9346a0df8814025261ecf65a227b12",
   "fetched_at": "2026-05-21T16:05:22.271Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Archeologie_MA_P2_30_16112021.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Archeologie_MA_P2_30_16112021.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Archaeology",
+  "programme_name_de": "Archäologie",
+  "programme_name_fr": "Archéologie",
+  "programme_url": "https://studies.unifr.ch/en/master/artmus/archaeology",
+  "curriculum_url": "http://studies.unifr.ch/go/nJ3Zw"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

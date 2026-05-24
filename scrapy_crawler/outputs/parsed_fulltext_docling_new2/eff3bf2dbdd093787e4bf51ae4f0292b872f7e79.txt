@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Doctorate_UNK_Geosciences_G_osciences_prop_deutiques_eff3bf2dbdd093787e4bf51ae4f0292b872f7e79.pdf",
   "sha256": "244bf60b6a937ce6da95de5d02cc4b216dbd4e28616727e6bdcd5f1cbc298d99",
   "fetched_at": "2026-05-21T16:05:17.683Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_GS_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_GS_fr.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Geosciences",
+  "programme_name_de": "Geowissenschaften",
+  "programme_name_fr": "Géosciences",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/sci/geosciences",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

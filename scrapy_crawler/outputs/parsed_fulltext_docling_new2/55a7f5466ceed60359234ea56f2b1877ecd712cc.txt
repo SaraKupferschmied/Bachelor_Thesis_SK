@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Reglement_bis_21.10.2024__55a7f5466ceed60359234ea56f2b1877ecd712cc.pdf",
   "sha256": "37a423af16578a93224e04f7a9cd5db11235dfaa6b51f8a93b85826245af762e",
   "fetched_at": "2026-05-21T16:05:39.545Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Dr_Theol_1996.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Dr_Theol_1996.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## FACULTE DE THEOLOGIE / UNIVERSITE DE FRIBOURG (SUISSE) THEOLOGISCHE FAKULTÄT / UNIVERSITÄT FREIBURG (SCHWEIZ)

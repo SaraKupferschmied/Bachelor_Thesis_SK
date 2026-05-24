@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Transition_in_Digital_Neuroscience_-_DN_3d4ef43d119935143f30a343d2b13f9f28576b9b.pdf",
   "sha256": "185cf99cd8d32397271de2696f1826b63d8fde7a0f34310aa083eea5a4b45169",
   "fetched_at": "2026-05-21T16:05:16.772Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_DN_en.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_DN_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Digital Neuroscience",
+  "programme_name_de": "Digitale Neurowissenschaft",
+  "programme_name_fr": "Neurosciences digitales",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/digitalneuroscience",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

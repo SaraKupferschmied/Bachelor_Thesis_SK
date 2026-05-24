@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Geography_Branche_compl_mentaire_en_g_ographie_30_2cfc8bb32527bda7fd959461260aaf28e592a582.pdf",
   "sha256": "74e4c3d9372858618b056aaecead17b59acd4c0c626c7a1b3e6dcb6bb5bfa225",
   "fetched_at": "2026-05-21T16:05:17.741Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_GG_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_GG_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Geography",
+  "programme_name_de": "Geographie",
+  "programme_name_fr": "Géographie",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/geography",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

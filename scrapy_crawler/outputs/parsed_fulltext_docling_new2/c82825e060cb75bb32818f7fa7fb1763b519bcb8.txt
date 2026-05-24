@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Swiss_Centre_for_Islam_and_Society_Master_90_Islam_and_Society_Studienplan_c82825e060cb75bb32818f7fa7fb1763b519bcb8.pdf",
   "sha256": "a93c357ba43f6ec2f09800e902d2c06a6f24bfe6ea38e481f38c05287a7008c2",
   "fetched_at": "2026-05-21T16:05:15.550Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/szig/de/assets/public/uploads/Cours/Studienplan%2520Vertiefungsmaster_SZIG.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/szig/de/assets/public/uploads/Cours/Studienplan%2520Vertiefungsmaster_SZIG.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Islam and Society",
+  "programme_name_de": "Islam und Gesellschaft",
+  "programme_name_fr": "Islam et société",
+  "programme_url": "https://studies.unifr.ch/en/master/int/islamsociety",
+  "curriculum_url": "https://studies.unifr.ch/go/1e"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

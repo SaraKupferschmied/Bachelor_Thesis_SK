@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Physics_Master_of_Science_in_Physics_d1a1bcdc34f223e1ed9ca3fe3b1adf0b0de0512f.pdf",
   "sha256": "75e6cd2767dd3221ccbbd6cb0c5c7c2144c447c5ef413589d895e1bdfcd06b81",
   "fetched_at": "2026-05-21T16:05:15.529Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_PH_en.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_PH_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Physics",
+  "programme_name_de": "Physik",
+  "programme_name_fr": "Physique",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

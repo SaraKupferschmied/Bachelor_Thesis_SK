@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SES_UNK_50_Lehrfach_Medien_und_Informatik_50_ECTS_Nebenfach_50_ECTS__Lehrfach_Medien_und_Informatik_50_ECTS_2fb02f96ab74f26e40d993f4de429b44228cc842.pdf",
   "sha256": "1fdf3364a077c714d61f1b5038ed3367e3d34d2f743b7a9cda03332db48bb284",
   "fetched_at": "2026-05-21T16:05:41.686Z",
-  "notes": "calameo downloaded (id=00365911584fdc46378f4, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/210423114444-e383d569ac32f229e763128f014d0e26/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=469a528fa685818dc8928a2191f79c5d36896d6c5d80155ac1d57ee62c23ee70, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=00365911584fdc46378f4, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/210423114444-e383d569ac32f229e763128f014d0e26/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=469a528fa685818dc8928a2191f79c5d36896d6c5d80155ac1d57ee62c23ee70, ct=application/octet-stream)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

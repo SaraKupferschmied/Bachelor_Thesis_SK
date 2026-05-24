@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Italian_MA_90_-_versione_2022_francese_MA_90_-_versione_2022_francese__15583c2de46ae13ba09264ef15adc60929a09776.pdf",
   "sha256": "8171f9ed30e9354396468ed30bb5cb03dd5b8832bacfb5fea456f5c231387733",
   "fetched_at": "2026-05-21T16:05:25.857Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Anciens_Plans_etudes_IT/Italien_MA90_2022.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Anciens_Plans_etudes_IT/Italien_MA90_2022.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/yxwhB"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

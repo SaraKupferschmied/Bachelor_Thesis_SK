@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Physics_Branche_compl_mentaire_en_physique_30_fe89695c77d8caf3cec31038c9c47439a3091ded.pdf",
   "sha256": "0eabd95ac3a2c7710ec7dc2b2534740d0135d5c45e87185be1529fff25b64c0e",
   "fetched_at": "2026-05-21T16:05:15.361Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_PH_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_PH_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Physics",
+  "programme_name_de": "Physik",
+  "programme_name_fr": "Physique",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

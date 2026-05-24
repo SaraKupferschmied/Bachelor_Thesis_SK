@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Swiss_Centre_for_Islam_and_Society_Master_90_Islam_and_Society_Flyer_8a1d66e85c9e356cc1ddf63a6420fe88e05fa429.pdf",
   "sha256": "0e8c84bd8d7e5c5c7ba7bc0758e5450280ac09fc1eb32d9f403c96f291789405",
   "fetched_at": "2026-05-21T16:05:15.346Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/szig/de/assets/public/uploads/Master/A5_Brochure_SZIG_2021_D_web.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/szig/de/assets/public/uploads/Master/A5_Brochure_SZIG_2021_D_web.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Islam and Society",
+  "programme_name_de": "Islam und Gesellschaft",
+  "programme_name_fr": "Islam et société",
+  "programme_url": "https://studies.unifr.ch/en/master/int/islamsociety",
+  "curriculum_url": "https://studies.unifr.ch/go/1e"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

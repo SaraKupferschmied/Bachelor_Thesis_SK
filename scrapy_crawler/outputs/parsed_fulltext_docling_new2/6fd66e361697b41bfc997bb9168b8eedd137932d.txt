@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Chemistry_Branche_compl_mentaire_en_chimie_30_6fd66e361697b41bfc997bb9168b8eedd137932d.pdf",
   "sha256": "cc1fa6c446e968540541489231574c713b5f05d1c0c24831309111b98e18c176",
   "fetched_at": "2026-05-21T16:05:18.385Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_CH_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_CH_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Chemistry",
+  "programme_name_de": "Chemie",
+  "programme_name_fr": "Chimie",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/chemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

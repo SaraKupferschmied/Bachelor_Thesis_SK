@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_Pr_fungs_-_und_Diplomgeb_ren_13aaf3d5cc6d2042a7b4ae8dadcff731f55bd8fb.pdf",
   "sha256": "99f5486881b8b674df5f21bf15d9742ef769fbd69d3fbaa47b6e2922154d518b",
   "fetched_at": "2026-05-21T16:05:41.832Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

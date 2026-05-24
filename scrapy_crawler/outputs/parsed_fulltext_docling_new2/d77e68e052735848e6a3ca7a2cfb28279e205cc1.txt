@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_30_Law_Informationsblatt_d77e68e052735848e6a3ca7a2cfb28279e205cc1.pdf",
   "sha256": "52dc01cf98512f31f35fb2e563db7c0b62cc4fb4904503aefdece91341ad5b75",
   "fetched_at": "2026-05-21T16:05:34.907Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/Passerelle-FH-Inter-MLaw-Informationsblatt.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/assets/public/documents/etudes/Passerelle-FH-Inter-MLaw-Informationsblatt.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Law",
+  "programme_name_de": "Rechtswissenschaft",
+  "programme_name_fr": "Droit",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/lawparttime",
+  "curriculum_url": "https://studies.unifr.ch/go/x"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

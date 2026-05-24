@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Legal_Studies_Studienplan_MALS_510ffdd3dbb531821916282e31d0497653d3c509.pdf",
   "sha256": "02bed6bb8d0d534bbee9af1bc0ae8158bd772bb179b4141aaa98ac6d47641489",
   "fetched_at": "2026-05-21T16:05:34.398Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Studienplan.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Legal Studies",
+  "programme_name_de": "Rechtswissenschaftliche Studien",
+  "programme_name_fr": "Études juridiques",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/legalstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/heNo7"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

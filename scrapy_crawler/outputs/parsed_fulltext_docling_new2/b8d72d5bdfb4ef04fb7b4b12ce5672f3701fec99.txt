@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_120_Economic_and_Legal_Studies_Studienplan_b8d72d5bdfb4ef04fb7b4b12ce5672f3701fec99.pdf",
   "sha256": "02717bd10c8c046f25206ebc8957498c3a0786c2db4115bac3410c73f98758f4",
   "fetched_at": "2026-05-21T16:05:31.636Z",
-  "notes": "calameo downloaded (id=0036591157101123db5da, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250909081025-c10a76531d49650bdfc598a347a0e300/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d291f9f455df9d430bda11c3229176bd58281e2acaa147bbfc2270a7a75af892, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=0036591157101123db5da, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250909081025-c10a76531d49650bdfc598a347a0e300/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d291f9f455df9d430bda11c3229176bd58281e2acaa147bbfc2270a7a75af892, ct=application/octet-stream)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Economic and Legal Studies",
+  "programme_name_de": "Wirtschafts- und Rechtswissenschaftliche Studien",
+  "programme_name_fr": "Études économiques et juridiques",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/ecoius",
+  "curriculum_url": "http://studies.unifr.ch/go/zhkE3"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

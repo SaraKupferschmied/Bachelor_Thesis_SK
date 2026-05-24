@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics_Master_of_Science_in_Mathematics_c089e121985fd892d85a16dde50c56d73264a260.pdf",
   "sha256": "62888ba79149dab2d1792bbcfcd505679643d19d37e75d955b2a91d30796f0c4",
   "fetched_at": "2026-05-21T16:05:17.459Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_MA_en.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MSc_MA_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Mathematics",
+  "programme_name_de": "Mathematik",
+  "programme_name_fr": "Mathématiques",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/mathematics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

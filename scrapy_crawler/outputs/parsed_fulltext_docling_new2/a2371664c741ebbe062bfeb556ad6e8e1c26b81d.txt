@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Philosophy_Studienplan_MA_Nebenprogramm_30_ECTS__a2371664c741ebbe062bfeb556ad6e8e1c26b81d.pdf",
   "sha256": "d8cf1f1c8281910dc6dbb4882ae2d0709b62c05aa62719b23abd4cdeeff6a0da",
   "fetched_at": "2026-05-21T16:05:27.088Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/MA-Philo%2C%20Nebenprog%2030%20ECTS%20%2012.6.2018%20-%20SA%202020.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/MA-Philo%2C%20Nebenprog%2030%20ECTS%20%2012.6.2018%20-%20SA%202020.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/master/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

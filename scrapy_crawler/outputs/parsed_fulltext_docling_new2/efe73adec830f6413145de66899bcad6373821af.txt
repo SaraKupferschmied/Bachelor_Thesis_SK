@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Physics_Physique_prop_deutique_efe73adec830f6413145de66899bcad6373821af.pdf",
   "sha256": "efbcc521644f37e28155ab67a034dc4953fff44214d230db0fa61762c6eec6c3",
   "fetched_at": "2026-05-21T16:05:17.194Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_PH_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_PH_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 150,
+  "programme_name_en": "Physics",
+  "programme_name_de": "Physik",
+  "programme_name_fr": "Physique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

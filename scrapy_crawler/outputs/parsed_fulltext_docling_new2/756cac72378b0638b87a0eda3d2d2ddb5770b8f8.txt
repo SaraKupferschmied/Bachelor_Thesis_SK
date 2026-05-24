@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Computer_Science_Branche_compl_mentaire_en_informatique_30_756cac72378b0638b87a0eda3d2d2ddb5770b8f8.pdf",
   "sha256": "6d6c41dd2faa2014527070f32136272b4193b581df74e9dfc7234ac65b46c731",
   "fetched_at": "2026-05-21T16:05:13.140Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_IN_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_IN_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Computer Science",
+  "programme_name_de": "Informatik",
+  "programme_name_fr": "Informatique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/digitinf/informatics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

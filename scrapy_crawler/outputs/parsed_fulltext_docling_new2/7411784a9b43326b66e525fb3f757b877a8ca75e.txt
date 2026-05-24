@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_30_Theology_MA_Theologie_Nebenprogramm_30_ECTS_7411784a9b43326b66e525fb3f757b877a8ca75e.pdf",
   "sha256": "03ac86e3fed2f00ecfc9a1e9517c26dde80bd27876691152ca920a97489ddbb1",
   "fetched_at": "2026-05-21T16:05:40.492Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/theo_programme_MA_30.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/theo_programme_MA_30.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/master/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/20"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## II. MASTER (30 CP)

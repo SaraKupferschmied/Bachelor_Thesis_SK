@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Gender_Society_Social_Policy_MA_Soziologie_zu_30_ECTS_8d7d9ddb328d59843bbd5d17c2893631bd5a1993.pdf",
   "sha256": "b644318f68109719c325d799ca9246bc7676b86ea12b8465ba307ffea8c957c4",
   "fetched_at": "2026-05-21T16:05:21.214Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozio_NP_SP30_de_4112020_HS24.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/MA_Sozio_NP_SP30_de_4112020_HS24.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Gender, Society, Social Policy",
+  "programme_name_de": "Gender, Gesellschaft, Sozialpolitik",
+  "programme_name_fr": "Genre, sociétés, politiques sociales",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/gendersocietysocialpolicy30",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

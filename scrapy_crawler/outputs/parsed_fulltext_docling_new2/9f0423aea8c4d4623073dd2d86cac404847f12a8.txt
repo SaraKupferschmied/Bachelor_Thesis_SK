@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Political_Science_Pr_sentation_des_Bachelorprogramms_g_ltig_ab_Herbst_2026__9f0423aea8c4d4623073dd2d86cac404847f12a8.pdf",
   "sha256": "908a529ec206c0fdf7b64a6c254a7261bc1c47c662154a2e3968b3d9c034f4a1",
   "fetched_at": "2026-05-21T16:05:21.097Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/politikwissenschaft/de/assets/public/files/Infodays2025DE.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/politikwissenschaft/de/assets/public/files/Infodays2025DE.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Political Science",
+  "programme_name_de": "Politikwissenschaft",
+  "programme_name_fr": "Science politique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/politicalscience",
+  "curriculum_url": "https://studies.unifr.ch/go/c"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 ## Politikwissenschaft

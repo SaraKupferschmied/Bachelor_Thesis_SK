@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Economics_Brosch_re_04a0517def36b26b40ce4df92df26bb888634601.pdf",
   "sha256": "a0187be2d7ff0577e2756fa66dccecd9d630389c2e78f6445307a97ece32465b",
   "fetched_at": "2026-05-21T16:05:32.405Z",
-  "notes": "calameo downloaded (id=003659115ef7a0f3012d8, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260325104435-fbc30729e5082a8596f0a7fe171f880a/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160532Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=30e60d696b50ad06febdc5dcfb680750cd20c076671f9a29cf37561853b3bbe5, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=003659115ef7a0f3012d8, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260325104435-fbc30729e5082a8596f0a7fe171f880a/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160532Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=30e60d696b50ad06febdc5dcfb680750cd20c076671f9a29cf37561853b3bbe5, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Economics",
+  "programme_name_de": "Volkswirtschaftslehre",
+  "programme_name_fr": "Économie politique",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/economics",
+  "curriculum_url": "http://studies.unifr.ch/go/8Snjt"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

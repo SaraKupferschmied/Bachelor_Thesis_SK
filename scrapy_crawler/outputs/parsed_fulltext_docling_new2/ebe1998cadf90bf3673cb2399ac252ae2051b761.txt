@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_180_Human_Medicine_Master_of_Medicine_in_Medicine_FR__ebe1998cadf90bf3673cb2399ac252ae2051b761.pdf",
   "sha256": "c40080bc09f80aa8daa64b1ae68e8f74529e08d548afa0783c8c5ad6cc2c8fd1",
   "fetched_at": "2026-05-21T16:05:15.306Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MMed_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MMed_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 180,
+  "programme_name_en": "Human Medicine",
+  "programme_name_de": "Humanmedizin",
+  "programme_name_fr": "Médecine humaine",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/humanmedicine",
+  "curriculum_url": "http://studies.unifr.ch/go/xZPll"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 2. Communicateur-trice :  En  tant  que  communicateur-trice,  les  médecins  développent  des relations professionnelles avec la/le patient·e, sa famille et ses proches aidants, ce qui permet l ' échange d ' informations essentielles à la prestation de soins de qualité.

@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_90_Communication_Studies_Stundenplan_de__83dbe21be110b9919da567aa6619511f48e3595e.pdf",
   "sha256": "2ca406815540e46f66cadbe8708bfca5d14c4e73ecbab696ccee7d56c1ec87c6",
   "fetched_at": "2026-05-21T16:05:28.456Z",
-  "notes": "calameo downloaded (id=00365911555d9975d500f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250924083244-b9cb6adc27114a36670898fd92c539ec/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d5dddd8ea481df7508cee76c04b050a9be9f3589a613f438ed886af15535b111, ct=application/octet-stream)"
+  "notes": "calameo downloaded (id=00365911555d9975d500f, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/250924083244-b9cb6adc27114a36670898fd92c539ec/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=d5dddd8ea481df7508cee76c04b050a9be9f3589a613f438ed886af15535b111, ct=application/octet-stream)",
+  "level": "Bachelor",
+  "ects_points": 90,
+  "programme_name_en": "Communication Studies",
+  "programme_name_de": "Kommunikationswissenschaft",
+  "programme_name_fr": "Sciences de la communication",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/com/mediacommunicationfrench",
+  "curriculum_url": "http://studies.unifr.ch/go/Pc4M3"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

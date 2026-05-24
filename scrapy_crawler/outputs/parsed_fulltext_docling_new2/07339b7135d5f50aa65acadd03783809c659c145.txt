@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Sport_Sciences_Preparation_or_complement_to_the_major_in_Sport_science_teaching_FR__07339b7135d5f50aa65acadd03783809c659c145.pdf",
   "sha256": "5e33b46a16dec54f413c87b27c66d19a054d6d85682fe1daaa328587396ff9da",
   "fetched_at": "2026-05-21T16:05:14.741Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MScPre-Com_SP-E_fr.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MScPre-Com_SP-E_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Sport Sciences",
+  "programme_name_de": "Sportwissenschaften",
+  "programme_name_fr": "Sciences du sport",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/z3FE1"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

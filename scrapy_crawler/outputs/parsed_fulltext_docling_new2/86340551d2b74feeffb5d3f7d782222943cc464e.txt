@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Greek_Studies_Griechische_Sprache_und_Kultur_86340551d2b74feeffb5d3f7d782222943cc464e.pdf",
   "sha256": "90dca890fb3261105edaa781ef7773c584d620ef18a1831bc462a61574700339",
   "fetched_at": "2026-05-21T16:05:26.076Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_NP_30_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_NP_30_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Greek Studies",
+  "programme_name_de": "Griechische Sprache und Kultur",
+  "programme_name_fr": "Langue et culture grecques",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/greekstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/jXVrf"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

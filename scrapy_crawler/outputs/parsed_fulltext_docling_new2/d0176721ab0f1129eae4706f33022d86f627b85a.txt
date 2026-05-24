@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Italian_BA_60_-_versione_2022_francese__d0176721ab0f1129eae4706f33022d86f627b85a.pdf",
   "sha256": "eb8b535b73acfa300f7fc2d670ac58f676acd286cad3d1e67244fefa9799aeea",
   "fetched_at": "2026-05-21T16:05:25.965Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_FR/Italien_BA60_211110_Modif221011.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_FR/Italien_BA60_211110_Modif221011.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/aVOzt"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

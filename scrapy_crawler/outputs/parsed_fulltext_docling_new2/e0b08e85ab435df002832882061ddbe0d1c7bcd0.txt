@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Latin_Studies_Griechische_Sprache_und_Kultur_e0b08e85ab435df002832882061ddbe0d1c7bcd0.pdf",
   "sha256": "c151ff79a8167bb1ee9c659747b4f83d702971e0696cd9ba45cde177e2cba456",
   "fetched_at": "2026-05-21T16:05:25.668Z",
-  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_30_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/BA_30_Griechisch_DE_27012017_v2.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Latin Studies",
+  "programme_name_de": "Lateinische Sprache und Kultur",
+  "programme_name_fr": "Langue et culture latines",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/latinstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/gpUA1"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->

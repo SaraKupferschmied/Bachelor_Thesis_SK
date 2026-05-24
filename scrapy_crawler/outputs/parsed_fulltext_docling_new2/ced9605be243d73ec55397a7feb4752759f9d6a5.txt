@@ -11,9 +11,17 @@
   "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_120_Pedagogy_Psychology_Bachelor_Major_120_ECTS-Kreditpunkte__ced9605be243d73ec55397a7feb4752759f9d6a5.pdf",
   "sha256": "3a1105bfe60ab051156c01ebf34fb294a61d0f95d5109ac7d5d69e8a2e44e0e2",
   "fetched_at": "2026-05-21T16:05:19.628Z",
-  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_120%20(1196)%2005%2006%202025.pdf, ct=application/pdf)"
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_P%C3%A9dPsy_120%20(1196)%2005%2006%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Pedagogy / Psychology",
+  "programme_name_de": "Pädagogik / Psychologie",
+  "programme_name_fr": "Pédagogie / Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/educationpsychology",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
 }
 ---/METADATA_JSON---
+
 
 ---PAGE 1---
 <!-- image -->
