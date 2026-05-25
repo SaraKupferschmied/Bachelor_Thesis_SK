@@ -11,8 +11,11 @@ export interface SourceSnippet {
   source_type: 'pdf' | 'api';
   doc_key?: string;
   source_url?: string;
+  metadata?: {
+    source_url?: string;
+    [key: string]: any;
+  };
   documents?: Record<string, any>[];
-  metadata?: Record<string, any>;
 }
 
 export interface AskResponse {

@@ -101,12 +101,20 @@
                 <ul>
                   @for (source of message.sources!; track $index) {
                     <li>
-                      {{ source.source_type }} · {{ source.source }}
+                      @if (source.source_url || source.metadata?.['source_url']) {
+                        <a
+                          [href]="source.source_url || source.metadata?.['source_url']"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ source.source || 'Open source' }}
+                        </a>
+                      } @else {
+                        {{ source.source_type }} · {{ source.source }}
+                      }
+
                       @if (source.page) {
                         <span>(Page {{ source.page }})</span>
-                      }
-                      @if (source.source_url) {
-                        <a [href]="source.source_url" target="_blank" rel="noopener noreferrer">Open source</a>
                       }
                     </li>
                   }

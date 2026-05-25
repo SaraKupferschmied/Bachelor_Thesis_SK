@@ -12,13 +12,11 @@ Typical folder-based command:
     --out validation\metrics\scores\json_integrity_score.json
 
 The folder mode scans recursively for *.json files and extracts known metrics from:
-  - compare_programs/program_comparison_metrics.json
   - validate_programs_docs/program_validation_metrics.json
   - validate_programs_curricula/program_validation_metrics.json
   - validate_courses/courses_metrics.json
 
-It is intentionally tolerant: if a metric is missing, the script reports it and also gives
-a renormalized score over the metrics that were available.
+compare_programs is no longer required and is intentionally ignored if old files are still present.
 """
 
 from __future__ import annotations
@@ -31,13 +29,11 @@ from typing import Any, Dict, List, Optional, Tuple
 
 
 DEFAULT_WEIGHTS = {
-    "program_coverage": 0.20,
-    "program_field_completeness": 0.20,
-    "academic_core_completeness": 0.15,
-    "curriculum_url_coverage": 0.10,
-    "document_coverage": 0.15,
+    "program_field_completeness": 0.30,
+    "academic_core_completeness": 0.20,
+    "curriculum_url_coverage": 0.15,
+    "document_coverage": 0.25,
     "deduplication": 0.10,
-    "manual_adjusted_ects_correctness": 0.10,
 }
 
 
@@ -80,8 +76,9 @@ def find_json_files(metrics_dir: Path) -> List[Path]:
 def classify_metrics_file(path: Path, data: Dict[str, Any]) -> str:
     path_text = str(path).replace("\\", "/").lower()
 
+    # compare_programs was removed from the validation pipeline. Ignore old files if present.
     if "program_comparison_metrics" in path.name.lower() or "compare_programs" in path_text:
-        return "program_comparison"
+        return "ignored_compare_programs"
 
     if "program_validation_metrics" in path.name.lower() and "validate_programs_docs" in path_text:
         return "program_validation_docs"
@@ -198,13 +195,14 @@ def merge_metric_sources(sources: List[Tuple[str, Path, Dict[str, float]]]) -> D
     """
     Prefer:
       - program_validation_docs over program_validation_curricula for document-related fields
-      - program_comparison for programme coverage and ECTS correctness
+
+    compare_programs is intentionally excluded from the score.
     """
     priority = {
-        "program_comparison": 4,
         "program_validation_docs": 3,
         "program_validation_curricula": 2,
         "course_validation": 1,
+        "ignored_compare_programs": -1,
         "unknown": 0,
     }
 
@@ -242,9 +240,7 @@ def collect_metrics_from_folder(metrics_dir: Path) -> Dict[str, Any]:
 
         extracted: Dict[str, float] = {}
 
-        if file_type == "program_comparison":
-            extracted = extract_from_program_comparison(data)
-        elif file_type in {"program_validation_docs", "program_validation_curricula"}:
+        if file_type in {"program_validation_docs", "program_validation_curricula"}:
             extracted = extract_from_program_validation(data)
 
         if extracted:
@@ -285,9 +281,7 @@ def collect_metrics_from_single_file(input_path: Path) -> Dict[str, Any]:
     file_type = classify_metrics_file(input_path, data)
     extracted: Dict[str, float] = {}
 
-    if file_type == "program_comparison":
-        extracted = extract_from_program_comparison(data)
-    elif file_type in {"program_validation_docs", "program_validation_curricula"}:
+    if file_type in {"program_validation_docs", "program_validation_curricula"}:
         extracted = extract_from_program_validation(data)
 
     for key, value in extracted.items():
@@ -355,9 +349,9 @@ def compute_score(selected_metrics: Dict[str, Dict[str, Any]]) -> Dict[str, Any]
         "weights": DEFAULT_WEIGHTS,
         "details": details,
         "interpretation_note": (
-            "The score is a weighted aggregation over programme coverage, programme field completeness, "
-            "academic core completeness, curriculum/document coverage, deduplication, and ECTS correctness. "
-            "If metrics are missing, use the renormalized score for comparison, but report missing metrics."
+            "The score is a weighted aggregation over programme field completeness, academic core completeness, "
+            "curriculum/document coverage, and deduplication. compare_programs is excluded because that "
+            "validation step is no longer part of the pipeline."
         ),
     }
 

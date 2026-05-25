@@ -188,7 +188,7 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
                 "Ignore chunks from other programmes or degree levels, even if their wording is similar. But please note that context in other languages is still relevant, only metadata are english, headers can be german, french or italian. "
                 "When course rows are present, extract the course code, course title, semester, language, assessment, ECTS, "
                 "and teacher if available. Do not invent missing course data. "
-                "Always cite sources as [filename p.X].",
+                "If you have access to source files always cite them but dont invent fictional or exemplary sources if there are none.",
             ),
             ("human", "Question: {question}\n\nContext:\n{context}\n\nAnswer with citations:"),
         ]

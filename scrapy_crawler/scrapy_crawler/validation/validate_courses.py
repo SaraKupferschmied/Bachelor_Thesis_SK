@@ -9,47 +9,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 DEFAULT_COURSES_PATH = BASE_DIR.parent / "spider_outputs" / "courses.json"
 METRICS_DIR = BASE_DIR / "metrics" / "validate_courses"
-METRICS_DIR.mkdir(exist_ok=True)
-
-REQUIRED_IDENTITY_FIELDS = {
-    "course.code": lambda x: get_path(x, "course", "code"),
-    "course.name": lambda x: get_path(x, "course", "name"),
-    "course.semester": lambda x: get_path(x, "course", "semester"),
-    "source.detail_page_url": lambda x: get_path(x, "source", "detail_page_url"),
-}
-
-METADATA_FIELDS = {
-    "course.ects": lambda x: get_path(x, "course", "ects"),
-    "course.degree_level": lambda x: get_path(x, "course", "degree_level"),
-    "details.Fakultät": lambda x: get_path(x, "details", "Fakultät"),
-    "details.Bereich": lambda x: get_path(x, "details", "Bereich"),
-    "details.Sprachen": lambda x: get_path(x, "details", "Sprachen"),
-    "schedule.Vorlesungszeiten": lambda x: get_path(x, "schedule", "Vorlesungszeiten"),
-    "teaching.Verantwortliche": lambda x: get_path(x, "teaching", "Verantwortliche"),
-    "teaching.Dozenten-innen": lambda x: get_path(x, "teaching", "Dozenten-innen"),
-    "teaching.Beschreibung": lambda x: get_path(x, "teaching", "Beschreibung"),
-    "teaching.Lernziele": lambda x: get_path(x, "teaching", "Lernziele"),
-    "einzeltermine_raeume": lambda x: x.get("einzeltermine_raeume"),
-    "leistungskontrolle": lambda x: x.get("leistungskontrolle"),
-    "zuordnung": lambda x: x.get("zuordnung"),
-}
-
-
-def load_json(path: Path):
-    with path.open("r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def write_json(path: Path, data):
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-
-def write_csv(path: Path, rows, fieldnames):
-    with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
 
 
 def get_path(item, *keys):
@@ -59,6 +18,14 @@ def get_path(item, *keys):
             return None
         current = current.get(key)
     return current
+
+
+def first_present(item, paths):
+    for path in paths:
+        value = get_path(item, *path)
+        if is_present(value):
+            return value
+    return None
 
 
 def is_present(value):
@@ -84,16 +51,69 @@ def normalize_text(value):
     return re.sub(r"\s+", " ", value)
 
 
-def course_code(item):
-    return normalize_text(get_path(item, "course", "code"))
+def normalized_semester(item):
+    """Prefer parsed semester, but fall back to semester_raw/details.Semester.
 
-
-def course_semester(item):
-    return normalize_text(get_path(item, "course", "semester"))
+    Current course output stores examples such as SS-2027 in course.semester_raw
+    while course.semester is often null.
+    """
+    return first_present(item, [
+        ("course", "semester"),
+        ("course", "semester_raw"),
+        ("details", "Semester"),
+    ])
 
 
 def detail_url(item):
-    return normalize_text(get_path(item, "source", "detail_page_url"))
+    return first_present(item, [
+        ("source", "detail_url"),
+        ("source", "detail_page_url"),
+    ])
+
+
+REQUIRED_IDENTITY_FIELDS = {
+    "course.code": lambda x: get_path(x, "course", "code"),
+    "course.name": lambda x: get_path(x, "course", "name"),
+    "course.semester_or_raw": normalized_semester,
+    "source.detail_url": detail_url,
+}
+
+METADATA_FIELDS = {
+    "course.ects": lambda x: get_path(x, "course", "ects"),
+    "course.degree_level": lambda x: first_present(x, [("course", "degree_level"), ("course", "degree_level_raw"), ("details", "Level")]),
+    "course.faculty": lambda x: first_present(x, [("course", "faculty"), ("details", "Faculty"), ("details", "Fakultät")]),
+    "course.domain": lambda x: first_present(x, [("course", "domain"), ("details", "Domain"), ("details", "Bereich")]),
+    "course.languages": lambda x: first_present(x, [("course", "languages"), ("details", "Languages"), ("details", "Sprachen")]),
+    "course.course_type": lambda x: first_present(x, [("course", "course_type"), ("details", "Type of lesson"), ("details", "Veranstaltungstyp")]),
+    "schedule.summary_schedule": lambda x: first_present(x, [("schedule", "Summary schedule"), ("schedule", "Vorlesungszeiten"), ("schedule", "Course dates")]),
+    "schedule.structure": lambda x: first_present(x, [("schedule", "Struct. of the schedule"), ("schedule", "Structure of the schedule")]),
+    "teaching.responsibles": lambda x: first_present(x, [("teaching", "Responsibles"), ("teaching", "Responsible"), ("teaching", "Verantwortliche")]),
+    "teaching.teachers": lambda x: first_present(x, [("teaching", "Teachers"), ("teaching", "Lecturers"), ("teaching", "Dozenten-innen")]),
+    "teaching.description": lambda x: first_present(x, [("teaching", "Description"), ("teaching", "Beschreibung")]),
+    "teaching.learning_outcomes": lambda x: first_present(x, [("teaching", "Learning outcomes"), ("teaching", "Learning Outcomes"), ("teaching", "Lernziele")]),
+    "dates": lambda x: get_path(x, "dates"),
+    "assessment": lambda x: get_path(x, "assessment"),
+    "affiliations": lambda x: get_path(x, "affiliations"),
+}
+
+
+def load_json(path: Path):
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def write_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def write_csv(path: Path, rows, fieldnames):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def compute_field_completeness(courses, fields):
@@ -123,7 +143,10 @@ def duplicate_rows(courses, key_func, key_name):
     groups = defaultdict(list)
     for item in courses:
         key = key_func(item)
-        if key:
+        if isinstance(key, tuple):
+            if all(key):
+                groups[key].append(item)
+        elif key:
             groups[key].append(item)
 
     rows = []
@@ -139,7 +162,7 @@ def duplicate_rows(courses, key_func, key_name):
             "count": len(items),
             "duplicate_surplus": len(items) - 1,
             "example_name": get_path(first, "course", "name"),
-            "example_url": get_path(first, "source", "detail_page_url"),
+            "example_url": detail_url(first),
         })
     return rows, duplicate_surplus
 
@@ -149,16 +172,27 @@ def count_by(courses, getter):
     return dict(sorted(c.items(), key=lambda kv: str(kv[0])))
 
 
+def course_code(item):
+    return normalize_text(get_path(item, "course", "code"))
+
+
+def course_semester(item):
+    return normalize_text(normalized_semester(item))
+
+
+def normalized_detail_url(item):
+    return normalize_text(detail_url(item))
+
+
 def main():
     parser = argparse.ArgumentParser(description="Validate scraped Unifr timetable course JSON.")
     parser.add_argument("--courses", type=Path, default=DEFAULT_COURSES_PATH)
-    parser.add_argument("--catalogue-found-count", type=int, default=None,
-                        help="Optional 'Gefunden' count copied from the catalogue at crawl time.")
-    parser.add_argument("--scrape-started-at", default=None,
-                        help="Optional ISO timestamp from the spider run/snapshot metadata.")
-    parser.add_argument("--output-prefix", default=None,
-                        help="Optional prefix for output files, e.g. courses_2026_05_04.")
+    parser.add_argument("--catalogue-found-count", type=int, default=None)
+    parser.add_argument("--scrape-started-at", default=None)
+    parser.add_argument("--output-prefix", default=None)
     args = parser.parse_args()
+
+    METRICS_DIR.mkdir(parents=True, exist_ok=True)
 
     courses = load_json(args.courses)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -167,15 +201,11 @@ def main():
     identity_metrics, identity_rows = compute_field_completeness(courses, REQUIRED_IDENTITY_FIELDS)
     metadata_metrics, metadata_rows = compute_field_completeness(courses, METADATA_FIELDS)
 
-    detail_duplicate_rows, detail_duplicate_surplus = duplicate_rows(
-        courses,
-        detail_url,
-        "source.detail_page_url",
-    )
+    detail_duplicate_rows, detail_duplicate_surplus = duplicate_rows(courses, normalized_detail_url, "source.detail_url")
     code_semester_duplicate_rows, code_semester_duplicate_surplus = duplicate_rows(
         courses,
         lambda item: (course_code(item), course_semester(item)),
-        "course.code + course.semester",
+        "course.code + semester_or_raw",
     )
     duplicate_report_rows = detail_duplicate_rows + code_semester_duplicate_rows
 
@@ -184,9 +214,7 @@ def main():
 
     report = {
         "validation_created_at": now,
-        "input_files": {
-            "courses": str(args.courses),
-        },
+        "input_files": {"courses": str(args.courses)},
         "snapshot": {
             "scrape_started_at": args.scrape_started_at,
             "catalogue_found_count": catalogue_found_count,
@@ -196,8 +224,8 @@ def main():
         },
         "counts": {
             "course_records": scraped_count,
-            "unique_detail_urls": len({detail_url(item) for item in courses if detail_url(item)}),
-            "unique_code_semester_pairs": len({(course_code(item), course_semester(item)) for item in courses if course_code(item)}),
+            "unique_detail_urls": len({normalized_detail_url(item) for item in courses if normalized_detail_url(item)}),
+            "unique_code_semester_pairs": len({(course_code(item), course_semester(item)) for item in courses if course_code(item) and course_semester(item)}),
         },
         "identity_field_completeness": identity_metrics,
         "metadata_field_completeness": metadata_metrics,
@@ -208,9 +236,9 @@ def main():
             "duplicate_code_semester_rate_percent": pct(code_semester_duplicate_surplus, scraped_count),
         },
         "breakdowns": {
-            "by_semester": count_by(courses, lambda x: get_path(x, "course", "semester")),
-            "by_degree_level": count_by(courses, lambda x: get_path(x, "course", "degree_level")),
-            "by_faculty": count_by(courses, lambda x: get_path(x, "details", "Fakultät")),
+            "by_semester_or_raw": count_by(courses, normalized_semester),
+            "by_degree_level": count_by(courses, lambda x: first_present(x, [("course", "degree_level"), ("course", "degree_level_raw"), ("details", "Level")])),
+            "by_faculty": count_by(courses, lambda x: first_present(x, [("course", "faculty"), ("details", "Faculty"), ("details", "Fakultät")])),
         },
     }
 
@@ -219,10 +247,8 @@ def main():
     duplicates_csv = METRICS_DIR / f"{prefix}_duplicates.csv"
 
     write_json(report_json, report)
-    write_csv(completeness_csv, identity_rows + metadata_rows,
-              ["field", "present", "missing", "total", "completeness_percent"])
-    write_csv(duplicates_csv, duplicate_report_rows,
-              ["duplicate_key_type", "duplicate_key", "count", "duplicate_surplus", "example_name", "example_url"])
+    write_csv(completeness_csv, identity_rows + metadata_rows, ["field", "present", "missing", "total", "completeness_percent"])
+    write_csv(duplicates_csv, duplicate_report_rows, ["duplicate_key_type", "duplicate_key", "count", "duplicate_surplus", "example_name", "example_url"])
 
     print("Course validation complete.")
     print(f"Metrics JSON: {report_json}")

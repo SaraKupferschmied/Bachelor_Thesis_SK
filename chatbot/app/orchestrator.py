@@ -1,7 +1,11 @@
 import re
 from typing import Any, Dict, List
 import logging
+#import json
+#from langchain_ollama import ChatOllama
+#from langchain_core.prompts import ChatPromptTemplate
 
+#from .config import settings
 from .planner import plan_tool_usage
 from .backend_tools import TOOLS
 from .ollama_rag import answer_question as rag_answer
@@ -115,6 +119,62 @@ def _format_dict_result(tool_name: str, item: dict[str, Any]) -> str:
         return "\n".join(lines)
     return "\n".join(f"- {k}: {v}" for k, v in item.items() if v is not None)
 
+### commented out because would make nice answer for concrete questionsbut takes way too much time...)
+#def _answer_from_tool_result(
+#    question: str,
+#    tool_name: str,
+#    result: Any,
+#    language: str | None = None,
+#) -> str:
+#    fallback = _format_tool_result(tool_name, result, question=question)
+#
+#    if not _has_tool_result(result):
+#        return fallback
+
+    # Avoid sending huge lists to the LLM.
+#    compact_result = result
+#    if isinstance(result, list):
+#        compact_result = result[:30]
+
+#    prompt = ChatPromptTemplate.from_messages([
+#        (
+#            "system",
+#            """
+#You answer student questions using ONLY the structured API result.
+
+#Rules:
+#- Answer the user's exact question, not the whole data dump.
+#- If the requested field exists, answer it directly.
+#- If the requested field is missing, say that you could not find it in the structured data.
+#- Then mention 1-3 useful facts that are available, such as title, ECTS, semester, time, language, or description.
+#- Do not invent teachers, dates, ECTS, course names, or metadata.
+#- Be concise and natural.
+#""".strip(),
+#        ),
+#        (
+#            "human",
+#            "Question:\n{question}\n\nTool used:\n{tool_name}\n\nStructured result JSON:\n{result_json}"
+#        ),
+#    ])
+
+#    llm = ChatOllama(
+#        model=settings.ollama_model,
+#        temperature=0,
+#        base_url=settings.ollama_host,
+#    )
+
+#    try:
+#        result_json = json.dumps(compact_result, ensure_ascii=False, indent=2, default=str)
+#        msg = prompt.format_messages(
+#            question=question,
+#            tool_name=tool_name,
+#            result_json=result_json,
+#        )
+#        response = llm.invoke(msg)
+#        text = str(response.content).strip()
+#        return text or fallback
+#    except Exception:
+#        return fallback
 
 def _format_tool_result(tool_name: str, result: Any, question: str = "") -> str:
     if result is None:
@@ -1862,6 +1922,16 @@ def answer_question(
                 # Empty results are still kept in tool_results for debugging and session state.
                 if _has_tool_result(result):
                     answer_parts.append(_format_tool_result(tool_name, result, question=question))
+                    ### instead of line avobe with nice formatting
+#                    with timed_step("answer.synthesize_tool_result", tool=tool_name):
+#                        answer_parts.append(
+#                            _answer_from_tool_result(
+#                                question=question,
+#                                tool_name=tool_name,
+#                                result=result,
+#                                language=language,
+#                            )
+#                        )
                     sources.extend(_program_source_snippets(result))
 
                 debug_entry["result_type"] = type(result).__name__

@@ -1,0 +1,251 @@
+{
+  "metric_scope": "document_acquisition_and_download_quality",
+  "stage_evolution": [
+    {
+      "stage": "15_merge_normalize_faculty_jsons",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\faculty_documents_normalized.json",
+      "records_total": 528,
+      "unique_program_keys": 327,
+      "duplicate_program_records": 201,
+      "program_duplicate_rate": 0.380682,
+      "records_with_curriculum_url": 0,
+      "curriculum_url_coverage": 0.0,
+      "records_with_documents_or_curriculum_links": 528,
+      "document_coverage": 1.0,
+      "total_document_references": 528,
+      "unique_document_urls": 464,
+      "duplicate_document_references": 64,
+      "document_reference_duplication_rate": 0.121212,
+      "shared_document_urls": 33,
+      "suspicious_shared_document_urls_more_than_3_programs": 9,
+      "average_document_refs_per_record": 1.0,
+      "match_type_counts": {
+        "missing_match_type": 528
+      },
+      "matched_records": 0,
+      "unmatched_records": 0,
+      "match_success_rate": null,
+      "delta_from_previous_stage": null
+    },
+    {
+      "stage": "16_merge_studyplans",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\program_links_with_ects_and_docs.json",
+      "records_total": 367,
+      "unique_program_keys": 331,
+      "duplicate_program_records": 36,
+      "program_duplicate_rate": 0.098093,
+      "records_with_curriculum_url": 286,
+      "curriculum_url_coverage": 0.779292,
+      "records_with_documents_or_curriculum_links": 289,
+      "document_coverage": 0.787466,
+      "total_document_references": 1014,
+      "unique_document_urls": 384,
+      "duplicate_document_references": 630,
+      "document_reference_duplication_rate": 0.621302,
+      "shared_document_urls": 238,
+      "suspicious_shared_document_urls_more_than_3_programs": 52,
+      "average_document_refs_per_record": 2.762943,
+      "match_type_counts": {
+        "exact_name": 38,
+        "missing_match_type": 72,
+        "exact_level_name_ects": 135,
+        "unmatched": 51,
+        "exact_name_ects": 14,
+        "exact_level_name": 53,
+        "fuzzy_level_name_ects": 3,
+        "fuzzy_name_ects": 1
+      },
+      "matched_records": 0,
+      "unmatched_records": 51,
+      "match_success_rate": 0.0,
+      "delta_from_previous_stage": {
+        "curriculum_url_coverage": 0.779292,
+        "document_coverage": -0.212534,
+        "total_document_references": 486,
+        "unique_document_urls": -80,
+        "duplicate_document_references": 566,
+        "document_reference_duplication_rate": 0.50009,
+        "shared_document_urls": 205,
+        "suspicious_shared_document_urls_more_than_3_programs": 43,
+        "average_document_refs_per_record": 1.762943
+      }
+    },
+    {
+      "stage": "17_unmatched_patch",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\programmes_with_faculty_documents_patched.json",
+      "records_total": 367,
+      "unique_program_keys": 331,
+      "duplicate_program_records": 36,
+      "program_duplicate_rate": 0.098093,
+      "records_with_curriculum_url": 286,
+      "curriculum_url_coverage": 0.779292,
+      "records_with_documents_or_curriculum_links": 295,
+      "document_coverage": 0.803815,
+      "total_document_references": 1024,
+      "unique_document_urls": 546,
+      "duplicate_document_references": 478,
+      "document_reference_duplication_rate": 0.466797,
+      "shared_document_urls": 162,
+      "suspicious_shared_document_urls_more_than_3_programs": 34,
+      "average_document_refs_per_record": 2.790191,
+      "match_type_counts": {
+        "missing_match_type": 367
+      },
+      "matched_records": 0,
+      "unmatched_records": 0,
+      "match_success_rate": null,
+      "delta_from_previous_stage": {
+        "curriculum_url_coverage": 0.0,
+        "document_coverage": 0.016349,
+        "total_document_references": 10,
+        "unique_document_urls": 162,
+        "duplicate_document_references": -152,
+        "document_reference_duplication_rate": -0.154505,
+        "shared_document_urls": -76,
+        "suspicious_shared_document_urls_more_than_3_programs": -18,
+        "average_document_refs_per_record": 0.027248
+      }
+    }
+  ],
+  "audit_summaries": {
+    "document_program_match_audit": {
+      "label": "document_program_match_audit",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\document_program_match_audit.json",
+      "records_total": 532,
+      "unique_programmes": 89,
+      "total_document_references": 532,
+      "unique_document_urls": 420,
+      "duplicate_document_references": 112,
+      "average_score": 18.112782,
+      "min_score": 9.0,
+      "max_score": 28.0,
+      "reason_counts": {
+        "level": 439,
+        "ects": 335,
+        "exact_or_near_name": 490,
+        "faculty": 527,
+        "selected_no_doc_ects_highest_main_ects": 197,
+        "strong_name_overlap": 22,
+        "curriculum_url": 230,
+        "soft_faculty_cross": 4,
+        "ects_conflict": 30,
+        "abbrev:ch": 8,
+        "abbrev:ha": 5,
+        "weak_name_overlap": 11,
+        "abbrev:dn": 3,
+        "abbrev:sp": 10,
+        "abbrev:st": 3,
+        "medium_name_overlap": 1,
+        "abbrev:ebr": 1,
+        "abbrev:nsp": 1,
+        "abbrev:mh": 2,
+        "abbrev:bc": 9
+      },
+      "faculty_counts": {
+        "Samuel Heinzen (": 1,
+        "Faculty of Education": 30,
+        "Fakultät für Erziehungs- und Bildungswissenschaften": 1,
+        "Institute for Family Research and Counseling": 1,
+        "Swiss Centre for Islam and Society": 3,
+        "Faculty of Humanities": 240,
+        "Faculty of Law": 41,
+        "Faculty of Science and Medicine": 81,
+        "Faculty of Management, Economics and Social Sciences": 87,
+        "Faculty of Theology": 47
+      },
+      "status_counts": {}
+    },
+    "document_program_patch_audit": {
+      "label": "document_program_patch_audit",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\document_program_patch_audit.json",
+      "records_total": 33,
+      "unique_programmes": 9,
+      "total_document_references": 33,
+      "unique_document_urls": 22,
+      "duplicate_document_references": 11,
+      "average_score": null,
+      "min_score": null,
+      "max_score": null,
+      "reason_counts": {
+        "patch_teacher_education_generic": 5,
+        "patch_law_fallback": 9,
+        "patch_teacher_education_secondary_i": 3,
+        "patch_environmental_sciences_smallest": 3,
+        "patch_environmental_humanities": 8,
+        "patch_human_medicine": 1,
+        "patch_teacher_education_combined": 3,
+        "patch_interreligious_studies": 1
+      },
+      "faculty_counts": {},
+      "status_counts": {}
+    },
+    "unmatched_faculty_documents_remaining": {
+      "label": "unmatched_faculty_documents_remaining",
+      "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\unmatched_faculty_documents_remaining.json",
+      "records_total": 30,
+      "unique_programmes": 13,
+      "total_document_references": 30,
+      "unique_document_urls": 26,
+      "duplicate_document_references": 4,
+      "average_score": null,
+      "min_score": null,
+      "max_score": null,
+      "reason_counts": {},
+      "faculty_counts": {
+        "SCIMED": 7,
+        "SES": 7,
+        "THEO": 16
+      },
+      "status_counts": {
+        "downloaded": 6
+      }
+    }
+  },
+  "final_download_quality": {
+    "file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\_faculty_docs_manifest.json",
+    "metric_scope": "final_document_download_quality",
+    "description": "Measures final document reference actionability, download success, programme-level document availability, deduplication, and manifest metadata completeness. It does not measure PDF parsing correctness.",
+    "total_refs": 595,
+    "programs": 207,
+    "status": {
+      "downloaded": 581,
+      "failed": 9,
+      "skipped_non_pdf": 5
+    },
+    "source_type": {
+      "pdf": 497,
+      "unknown": 5,
+      "calameo": 93
+    },
+    "valid_downloads": 581,
+    "attempted_pdf_or_calameo": 590,
+    "skipped_non_pdf": 5,
+    "failed": 9,
+    "programs_with_valid_download": 206,
+    "unique_docs": 543,
+    "duplicate_doc_refs": 52,
+    "components": {
+      "download_success_all_refs": 0.976471,
+      "download_success_attempted_pdf_or_calameo": 0.984746,
+      "program_doc_availability": 0.995169,
+      "actionable_source_type": 0.991597,
+      "deduplication_by_doc_key": 0.912605,
+      "metadata_completeness": 0.707083
+    },
+    "weights": {
+      "download_success_all_refs": 0.3,
+      "program_doc_availability": 0.25,
+      "actionable_source_type": 0.15,
+      "deduplication_by_doc_key": 0.1,
+      "metadata_completeness": 0.2
+    },
+    "score": 0.92315
+  },
+  "missing_stage_files": [],
+  "notes": [
+    "Stage evolution captures the current merge pipeline: normalized faculty JSONs, merged study plans, and unmatched patch output.",
+    "Final download quality captures whether the resulting references were actually downloadable.",
+    "High duplicate document references can be expected when one study plan is valid for multiple programme variants, but very high sharing is useful as a manual-review signal.",
+    "PDF parsing correctness should be evaluated separately in the next validation layer."
+  ]
+}

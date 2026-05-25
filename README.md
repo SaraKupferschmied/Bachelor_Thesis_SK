@@ -108,6 +108,9 @@ cd scrapy_crawler
 scrapy crawl expected_programs -O scrapy_crawler/validation/metrics/compare_programs/programs.json
 
 cd scrapy_crawler\validation
+
+python run_all_validations.py
+
 - python compare_programs.py
 - python validate_courses.py ^  --courses ../spider_outputs/courses.json ^  --output-prefix courses
 - python validate_programs.py ^  --programs-file ../spider_outputs/programmes_with_curricula_enriched.json ^  --output-dir ./metrics/validate_programs_curricula
