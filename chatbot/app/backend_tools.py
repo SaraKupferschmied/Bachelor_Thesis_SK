@@ -357,6 +357,18 @@ def _dedupe_course_rows(rows: list[dict[str, Any]], limit: int) -> list[dict[str
     return deduped
 
 
+def _as_row_list(value: Any) -> list[dict[str, Any]]:
+    if isinstance(value, list):
+        return [row for row in value if isinstance(row, dict)]
+
+    if isinstance(value, dict):
+        for key in ("courses", "results", "items", "data"):
+            rows = value.get(key)
+            if isinstance(rows, list):
+                return [row for row in rows if isinstance(row, dict)]
+
+    return []
+
 def get_mobility_courses(
     semesters: list[str],
     interest: str,
@@ -405,7 +417,8 @@ def get_mobility_courses(
         ]
 
         for search_fn in search_attempts:
-            rows = search_fn()
+            rows = _as_row_list(search_fn())
+
             for row in rows:
                 item = dict(row)
                 item["requested_semester"] = sem

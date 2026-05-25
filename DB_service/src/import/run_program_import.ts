@@ -69,9 +69,8 @@ type ProgramIdentity = {
   name: string;
   degree_level: DegreeLevel;
   total_ects: number | null;
-  source_faculty_key: string | null;
+  faculty_key_or_name: string | null;
   source_last_page_url: string | null;
-  source_hints: any;
 };
 
 type ProgramDocRow = {
@@ -358,22 +357,20 @@ async function parsePdfToStagingRows(localPath: string): Promise<ProgramDocRow[]
 // -----------------------------
 
 async function upsertStudyProgram(db: DB, ident: ProgramIdentity, fallbackFacultyId: number): Promise<number> {
-  const facultyId = ident.source_faculty_key
-    ? (await resolveFacultyId(db, ident.source_faculty_key))
+  const facultyId = ident.faculty_key_or_name
+    ? (await resolveFacultyId(db, ident.faculty_key_or_name))
     : null;
   const effectiveFacultyId = facultyId ?? fallbackFacultyId;
 
   const r = await db.query(
     `
     INSERT INTO StudyProgram
-      (name, degree_level, total_ects, faculty_id, source_hints, source_faculty_key, source_last_page_url)
+      (name, degree_level, total_ects, faculty_id, source_last_page_url)
     VALUES
-      ($1, $2, $3, $4, $5, $6, $7)
+      ($1, $2, $3, $4, $5)
     ON CONFLICT (name, degree_level, total_ects)
     DO UPDATE SET
       faculty_id = EXCLUDED.faculty_id,
-      source_hints = COALESCE(StudyProgram.source_hints, '{}'::jsonb) || EXCLUDED.source_hints,
-      source_faculty_key = COALESCE(EXCLUDED.source_faculty_key, StudyProgram.source_faculty_key),
       source_last_page_url = COALESCE(EXCLUDED.source_last_page_url, StudyProgram.source_last_page_url)
     RETURNING program_id;
     `,
@@ -382,8 +379,6 @@ async function upsertStudyProgram(db: DB, ident: ProgramIdentity, fallbackFacult
       ident.degree_level,
       ident.total_ects,
       effectiveFacultyId,
-      JSON.stringify(ident.source_hints ?? {}),
-      ident.source_faculty_key,
       ident.source_last_page_url,
     ]
   );
@@ -441,11 +436,10 @@ async function insertStagingRows(db: DB, programId: number, docId: number, rows:
     await db.query(
       `
       INSERT INTO programCourseStaging
-        (program_id, raw_text, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
+        (program_id, raw_text, reference_type, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
       VALUES
-        ($1,$2,$3,$4,$5,$6,$7,$8)
-      ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
-      DO NOTHING;
+        ($1,$2,'course',$3,$4,$5,$6,$7,$8)
+      ON CONFLICT DO NOTHING;
       `,
       [
         programId,
@@ -522,19 +516,8 @@ async function run() {
         name,
         degree_level,
         total_ects,
-        source_faculty_key: pickFacultyKey(p),
+        faculty_key_or_name: pickFacultyKey(p),
         source_last_page_url: pickSourceLastPageUrl(p),
-        source_hints: {
-          programme_url_en: p.programme_url_en ?? null,
-          programme_url_de: p.programme_url_de ?? null,
-          programme_url_fr: p.programme_url_fr ?? null,
-          programme_url: p.programme_url ?? null,
-          curriculum_de_url: p.curriculum_de_url ?? null,
-          curriculum_fr_url: p.curriculum_fr_url ?? null,
-          curriculum_en_url: p.curriculum_en_url ?? null,
-          curriculum_unspecified_url: p.curriculum_unspecified_url ?? null,
-          faculties: p.faculties ?? [],
-        },
       };
 
       const programId = await upsertStudyProgram(db, ident, defaultFacultyId);

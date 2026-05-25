@@ -332,7 +332,7 @@ async function main() {
         `INSERT INTO StudyProgram (
           name,
           degree_level,
-          max_duration_semesters,
+          semesters,
           total_ects,
           study_start,
           faculty_id,
@@ -344,7 +344,7 @@ async function main() {
         ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)
         ON CONFLICT (name, degree_level, total_ects)
         DO UPDATE SET
-          max_duration_semesters = EXCLUDED.max_duration_semesters,
+          semesters = EXCLUDED.semesters,
           study_start = EXCLUDED.study_start,
           faculty_id = EXCLUDED.faculty_id,
           director = COALESCE(EXCLUDED.director, StudyProgram.director),

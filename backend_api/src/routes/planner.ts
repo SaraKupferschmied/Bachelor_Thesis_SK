@@ -1197,8 +1197,7 @@ export async function plannerRoutes(app: FastifyInstance) {
         display_name: string | null;
         degree_level: string | null;
         total_ects: number | null;
-        min_elective_ects: number | null;
-        max_elective_ects: number | null;
+        elective_ects: string | null;
       }>(
         `
         SELECT
@@ -1206,8 +1205,7 @@ export async function plannerRoutes(app: FastifyInstance) {
           ${nameExpr} AS display_name,
           p.degree_level,
           p.total_ects,
-          p.min_elective_ects,
-          p.max_elective_ects
+          p.elective_ects
         FROM StudyProgram p
         WHERE p.program_id = $1
         `,
