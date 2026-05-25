@@ -1,236 +1,159 @@
-# BA_Thesis_Dev
-This Repo is the development environment for the web crawling and DB population for my bachelor thesis. 
+# Semester Planning Chatbot
 
---------------Web crawling and DB creation------------------------------------------------------------------------------------
+This repository contains the implementation developed as part of a bachelor thesis on **Structured Data for Reliable Chatbots**.
 
-Start Docker and initiate the schema
-1. .venv\Scripts\activate
-2. cd DB_Service
-3. npm install
-4. cd ..
-5. docker compose --env-file .env.docker up --build
-6. npm run schema
+The project provides a locally hosted chatbot system designed to help university students plan their studies and upcoming semesters at the UniFr. The chatbot combines:
 
-Run the Spiders to create json data
-1. cd scrapy_crawler\scrapy_crawler
-2. scrapy crawl curricula_links_level2_ects -O spider_outputs\program_links_with_ects.json
-2.1 scrapy crawl curricula_links_level2_enriched -O programmes_with_curricula_enriched.json
-3. scrapy crawl download_links_level3 -O spider_outputs\download_links.json -a input_json_path=spider_outputs\program_links_with_ects.json
-4. scrapy crawl faculty_links -O spider_outputs\faculties.json
-5. scrapy crawl unifr_edu_studyplans -O spider_outputs\faculty_programs\edu.json
-6. scrapy crawl unifr_scimed_studyplans -O spider_outputs\faculty_programs\scimed.json
-7. scrapy crawl unifr_interfaculty_studyplans -O spider_outputs\faculty_programs\interfaculty.json
-8. scrapy crawl unifr_ius_studyplans -O spider_outputs\faculty_programs\law.json
-9. scrapy crawl unifr_phil_studyplans -O spider_outputs\faculty_programs\philo.json
-10. scrapy crawl unifr_ses_studyplans -O spider_outputs\faculty_programs\ses.json
-11. scrapy crawl unifr_theo_studyplans -O spider_outputs\faculty_programs\theo.json
-12. scrapy crawl timetable_courses -O spider_outputs\courses.json
-13. scrapy crawl unifr_directory -a courses_file=spider_outputs\courses.json -O spider_outputs\unifr_people.jsonl
-14. scrapy crawl reglementation -O spider_outputs\reglementation_docs.json
+- Structured backend APIs
+- Tool-based chatbot architecture
+- Retrieval-Augmented Generation (RAG)
+- Vector databases
+- Relational data storage
 
-Merge crawled docs
-1. python DB_service\src\import\normalize_faculty_jsons.py ^  --input-dir scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs_normalized.json
- 
-2. python DB_service\src\import\merge_studyplans.py ^  --base scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects.json ^  --inputs scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs_normalized.json ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json
+to provide reliable information about university courses, including:
 
-3. python DB_service\src\import\unmatched_patch.py ^  --in "scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs.json" ^  --out "scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json"
+- Course schedules and timeslots
+- Study program information
+- Course descriptions and metadata
+- Semester planning support
 
-Download and parse
-1. npm i axios tough-cookie axios-cookiejar-support
-2. npx ts-node DB_service\src\import\01_download_program_docs_v2.ts --input scrapy_crawler\scrapy_crawler\spider_outputs\program_links_with_ects_and_docs_enriched.json --out scrapy_crawler/outputs
-3. npx ts-node DB_service/src/import/parse_docs_full.ts --root scrapy_crawler/outputs
-4. npx ts-node DB_service/src/import/reglementation_download_docs.ts   --input scrapy_crawler/scrapy_crawler/spider_outputs/reglementation_docs.json \  --out scrapy_crawler/outputs/reglementation_docs
-5. npx ts-node DB_service/src/import/parse_reglementation_docs_full.ts --root scrapy_crawler/outputs/reglementation_docs
+In addition to the chatbot interface, the project also includes a **semester planner UI**, which directly communicates with backend services to visualize and organize semester plans.
 
+---
 
-Do the imports (from root)
-1. npx ts-node DB_sercive/src/import/run_faculty_import.ts
-2. npx ts-node DB_service/src/import/run_courses_import.ts
-3. npx ts-node DB_service/src/import/update_professors_from_people.ts
-4. npx ts-node DB_service/src/import/program_name_imports.ts
-4.1 npx ts-node DB_service/src/import/program_basedata_imports.ts
-5. npx ts-node DB_service/src/import/new_program_import.ts
-5.1 docker compose --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
-5.1 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/prune_staging_to_current_program_documents.ts"
-6. npx ts-node DB_service/src/import/import_consist_of.ts
-7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
+# Features
 
---------------BACKEND API------------------------------------------------------------------------------------
-Start the server
-- cd backend_api
-- npm run dev
-- (see swagger at http://localhost:3000/docs)
+- AI-powered chatbot for semester planning
+- Tool-based architecture for improved reliability
+- Structured course and study program data
+- RAG-based semantic retrieval
+- Semester visualization and planning UI
+- Dockerized multi-service setup
+- Swagger documentation
 
-start chatbot from folder
-- uvicorn app.main:app --reload
+---
 
-docker compose --env-file .env.docker restart chatbot
-docker compose --env-file .env.docker logs -f chatbot
+# System Architecture
 
-npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py
+The system consists of multiple services running in Docker containers:
 
-python -m app.build_faiss_docling --target studyplans --parser docling --force
-python -m app.build_faiss_docling --target regulations --parser docling --force
+| Service | Description | Default Port |
+|---|---|---|
+| Frontend | Angular-based user interface | `4200` |
+| Backend API | Main application backend | `3000` |
+| Chatbot Service | AI chatbot & RAG pipeline | `8000` |
 
-when already some exist: npx ts-node DB_service/src/import/parse_docs_full_docling.ts --root scrapy_crawler/outputs --docling-helper DB_service/src/import/parse_with_docling.py --append-index
+Swagger/OpenAPI documentation is available at:
 
-npx tsx DB_service\src\import\validate_docling_metadata.ts --dir "C:\Users\Sara\OneDrive\Uni\Bachelor thesis\BA_Thesis_Dev\scrapy_crawler\outputs\parsed_fulltext_docling" --verbose
+- `http://localhost:3000/docs`
+- `http://localhost:8000/docs`
 
+---
 
-python scrapy_crawler\outputs\infer_metadata_staging.py scrapy_crawler\outputs\parsed_fulltext_docling\_index.jsonl --input-dir scrapy_crawler\outputs\parsed_fulltext_docling --staging-dir scrapy_crawler\outputs\metadata_staging
+# Technologies Used
 
-npx tsx DB_service\src\import\parse_docs_full_docling_new.ts --root scrapy_crawler/outputs --manifest scrapy_crawler/outputs/_program_docs_manifest.json --parsed-dir scrapy_crawler/outputs/parsed_fulltext_docling_new --docling-helper DB_service\src\import\parse_with_docling_robust.py --python python
+- Angular
+- FastAPI
+- PostgreSQL
+- Docker & Docker Compose
+- Vector Databases
+- Retrieval-Augmented Generation (RAG)
+- Tool-based LLM Architecture
 
-python propose_program_metadata_corrections_manifest_scoped.py .
+---
 
-python scrapy_crawler\outputs\apply_program_metadata_to_parsed_files.py scrapy_crawler\outputs scrapy_crawler\outputs\program_metadata_correction_proposal.json
-
-docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
-
-set RAG_PARSER=docling_parent_child
-python -m chatbot.app.build_faiss_docling_parent_child --target studyplans --force
-
-set RAG_PARSER=docling_table_semantic
-python -m chatbot.app.build_faiss_docling_table_semantic --target studyplans --force
-
-docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/prune_staging_to_current_program_documents.ts"
-
-docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/import_consist_of.ts"
-
-python scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\cleanup_historical_unifr_docs.py ^  --index scrapy_crawler\outputs\parsed_fulltext_docling_new_clean\_index.jsonl ^  --parsed-dir scrapy_crawler\outputs\parsed_fulltext_docling_new_clean ^  --apply
-
-set RAG_PARSER=docling_language_aware
-python -m chatbot.app.build_faiss_docling_language_aware --target studyplans --force
-
-validation 
-1. programs
-cd scrapy_crawler
-scrapy crawl expected_programs -O scrapy_crawler/validation/metrics/compare_programs/programs.json
-
-cd scrapy_crawler\validation
-
-python run_all_validations.py
-
-- python compare_programs.py
-- python validate_courses.py ^  --courses ../spider_outputs/courses.json ^  --output-prefix courses
-- python validate_programs.py ^  --programs-file ../spider_outputs/programmes_with_curricula_enriched.json ^  --output-dir ./metrics/validate_programs_curricula
-- python validate_programs.py ^  --programs-file ../spider_outputs/program_links_with_ects_and_docs.json ^  --output-dir ./metrics/validate_programs_docs
-- python validation\validate_doc_downloads.py ^  --spider-outputs spider_outputs ^  --manifest ..\outputs\_program_docs_manifest.json ^  --out validation\metrics\documents_downloads\document_download_quality.json
-- python validation\integrity_score.py ^  --metrics-dir validation\metrics ^  --out validation\metrics\scores\json_integrity_score.json
-- python validation\validate_doc_parsing.py ^  --outputs-root ..\outputs ^  --manifest ..\outputs\_program_docs_manifest.json ^  --out validation\metrics\documents_parsing\document_parsing_quality.json
-
-- npx ts-node DB_service\src\import\validate_database_quality.ts ^
-  --out scrapy_crawler\scrapy_crawler\validation\metrics\database\database_quality.json
-
-Timeout for too long questions
-- python eval_runner_chatbot.py ^
-  --input thesis_chatbot_evaluation_template.xlsx ^
-  --output test_results.xlsx ^
-  --timeout 2000 ^
-  --limit 2 ^
-  --systems ^
-    rag=http://localhost:8000/ask:rag ^
-    auto=http://localhost:8000/ask:auto ^
-    hybrid=http://localhost:8000/ask:hybrid ^
-    tool=http://localhost:8000/ask:tool
-
-    python eval_runner_chatbot.py ^
-  --input thesis_chatbot_evaluation_template.xlsx ^
-  --output test_results.xlsx ^
-  --timeout 2000 ^
-  --limit 2 ^
-  --systems ^
-    auto=http://localhost:8000/ask:auto ^
-    tool=http://localhost:8000/ask:tool ^
-    rag=http://localhost:8000/ask:rag
-
-    python eval_runner_chatbot.py ^
-  --input thesis_chatbot_evaluation_template.xlsx ^
-  --output test_results.xlsx ^
-  --timeout 2000 ^
-  --systems ^
-    auto=http://localhost:8000/ask:auto ^
-    tool=http://localhost:8000/ask:tool ^
-    rag=http://localhost:8000/ask:rag
-
-    python evaluation\eval_runner_chatbot.py ^
-  --input evaluation\thesis_chatbot_evaluation_template.xlsx ^
-  --output test_results.xlsx ^
-  --timeout 2400 ^
-  --systems ^
-    auto=http://localhost:8000/ask:auto 
-    
-
-# Run locally
+# Run Locally
 
 ## Requirements
 
-- Docker Desktop
-- Git
+Before starting, make sure the following tools are installed:
 
-## Setup
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Git](https://git-scm.com/)
+
+---
+
+# Setup
+
+## 1. Clone the Repository
 
 ```bash
-git clone <repo>
-cd <repo>
-
-cp .env.example .env
-
-docker compose up --build
+git clone https://github.com/SaraKupferschmied/semester-planning-chatbot
+cd semester-planning-chatbot
 ```
 
-Backend:
-http://localhost:3000
+---
 
-Chatbot:
-http://localhost:8000
+## 2. Configure Environment Variables
 
+Copy the example environment file:
 
-cd scrapy_crawler
-cd scrapy_crawler
-scrapy crawl structure_of_studies -O spider_outputs/base_info/structure_of_studies.json
-scrapy crawl student_advice_and_information -O spider_outputs/base_info/student_advice_and_information.json
-scrapy crawl languages_of_study -O spider_outputs/base_info/languages_of_study.json
-scrapy crawl unifr_examinations_faculty_rules -O spider_outputs/base_info/unifr_examinations_faculty_rules.json
-scrapy crawl unifr_elite_sports -O spider_outputs/base_info/unifr_elite_sports.json
-scrapy crawl unifr_studies_disability -O spider_outputs/base_info/unifr_studies_disability.json
-scrapy crawl unifr_studies_army -O spider_outputs/base_info/unifr_studies_army.json
+```bash
+cp .env.example .env
+```
 
-scrapy crawl unifr_infrastructures -O spider_outputs/base_info/unifr_infrastructures.json
-scrapy crawl unifr_activities -O spider_outputs/base_info/unifr_activities.json
-scrapy crawl unifr_living_in_fribourg -O spider_outputs/base_info/unifr_living_in_fribourg.json
-scrapy crawl unifr_life_in_fribourg -O spider_outputs/base_info/unifr_life_in_fribourg.json
+Then edit the `.env` file and provide your own configuration values.
 
+> Note: Sensitive environment variables are intentionally not included in the repository for security.
 
-python chatbot/app/create_base_faiss_vectorstore.py
+---
 
+## 3. Start the Application
 
-python run_rag_retrieval_eval.py --input thesis_chatbot_evaluation_template.xlsx --output rag_retrieval_eval_results.xlsx --base-url http://localhost:8000 --limit 15
+For the initial startup, run:
 
+```bash
+docker compose --profile jobs up --build
+```
 
-python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results.xlsx --base-url http://localhost:8000 
+The initial startup may take up to 30 minutes because:
 
-python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new6.xlsx --base-url http://localhost:8000 
+- Docker images are built
+- Ollama models are downloaded 
+- Project dependencies are installed
+- The database is initialized and seeded
 
-python run_ask_answer_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_ask_only_possible_results.xlsx --base-url http://localhost:8000 
+> Note: Subsequent startups are significantly faster and usually only take a few minutes.
 
-python DB_service\src\import\normalize_faculty_documents.py ^  --input-dir scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json
+---
 
-python DB_service\src\import\match_faculty_docs_to_programs.py ^ 
-  --programmes scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_curricula_enriched.json ^
-  --docs scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json ^
-  --out scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_faculty_documents.json ^
-  --audit-out scrapy_crawler\scrapy_crawler\spider_outputs\document_program_match_audit.json ^
-  --unmatched-docs-out scrapy_crawler\scrapy_crawler\spider_outputs\unmatched_faculty_documents.json
+## 4. Subsequent Runs
 
-npx tsx DB_service/src/import/01_download_faculty_docs_v3.ts ^  --matched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/programmes_with_faculty_documents_patched.json ^  --unmatched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/unmatched_faculty_documents_remaining.json ^  --out ./scrapy_crawler/outputs/faculty_docs_v3 ^  --concurrency 6
+After the initial setup, the application can be started with:
 
-npx tsx DB_service/src/import/parse_docs_full_docling_new.ts ^  --root ./scrapy_crawler/outputs/faculty_docs_v3 ^  --manifest ./scrapy_crawler/outputs/faculty_docs_v3/_faculty_docs_manifest.json ^  --parsed-dir ./scrapy_crawler/outputs/parsed_fulltext_docling_new2 ^  --docling-helper ./DB_service/src/import/parse_with_docling_robust.py ^  --python python
+```bash
+docker compose up
+```
 
+---
 
-requirement: 
-python -m pip install langchain-core langchain-community langchain-ollama faiss-cpu
-set RAG_PARSER=docling_table_semantic
-python -m chatbot.app.faiss_builders.build_faiss_docling_table_semantic --target studyplans --force
+# Access the Application
 
-npx.cmd tsx C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_docs_full_docling_new.ts --root . --manifest .\_faculty_docs_manifest.json --parsed-dir .\parsed_fulltext_docling_new --docling-helper C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_with_docling_robust.py
+Once all services are running the application can be tested by opening http://localhost:4200 in a browser of your choice. 
+
+---
+
+# Research Context
+
+This project was developed in the context of a bachelor thesis investigating how **structured data and tool-based architectures can improve chatbot reliability** in educational planning systems.
+
+The focus of the work is on reducing hallucinations and improving response accuracy by combining:
+
+- Structured APIs
+- Deterministic tool usage
+- Semantic retrieval
+- Database-backed information systems
+
+The system explores how LLM-based assistants can provide more trustworthy and reliable responses when grounded in structured educational data sources.
+
+---
+
+# Future Improvements
+
+Potential future extensions include:
+
+- Integration with real university systems
+- Reduced Latency for RAG flows
+- Authentication and personalized study plans
+- Multi-university support
+- Advanced recommendation systems
