@@ -872,49 +872,6 @@ export async function programsRoutes(app: FastifyInstance) {
   );
 
   // ============================
-  // GET /programs/:id/docs
-  // ============================
-  app.get(
-    "/:id/docs",
-    {
-      schema: {
-        summary: "Get documents for a specific program id",
-        params: {
-          type: "object",
-          required: ["id"],
-          properties: {
-            id: { type: "integer" },
-          },
-        },
-        querystring: {
-          type: "object",
-          properties: {
-            doc_type: {
-              type: "string",
-              enum: ["study_plan", "regulation", "brochure", "other"],
-            },
-          },
-        },
-      },
-    },
-    async (req) => {
-      const { id } = req.params as { id: string };
-      const { doc_type } = (req.query as { doc_type?: string }) ?? {};
-
-      return query(
-        `
-        SELECT *
-        FROM programDocument
-        WHERE program_id = $1
-          AND ($2::text IS NULL OR doc_type = $2)
-        ORDER BY fetched_at DESC NULLS LAST
-        `,
-        [toInt(id), doc_type ?? null]
-      );
-    }
-  );
-
-  // ============================
   // GET /programs/:id
   // ============================
   app.get(

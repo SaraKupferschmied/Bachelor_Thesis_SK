@@ -15,9 +15,13 @@ type ParsedDocling = {
   sourceUrl: string | null;
 };
 
+type ReferenceType = "course" | "module";
+
 type StagingCourse = {
   raw_text: string;
-  extracted_code: string;
+  reference_type: ReferenceType;
+  extracted_code: string | null;
+  extracted_module: string | null;
   extracted_title: string | null;
   inferred_type: CourseType | null;
   page_no: number;
@@ -175,6 +179,65 @@ function inferType(section: string | null, row: string): CourseType | null {
   return null;
 }
 
+function hasElectiveSignal(text: string): boolean {
+  return /\b(wahl|wahlkurs|wahlkurse|wahlbereich|wahlmodul|wahlpflicht|optionnel|optionnelle|options?|cours?\s+(?:à|a)\s+choix|ue\s+(?:à|a)\s+choix|module\s+(?:à|a)\s+choix|choix|elective|optional)\b/i.test(text);
+}
+
+function extractElectiveEctsText(pages: string[], totalEcts: number | null): string | null {
+  const candidates: string[] = [];
+  const seen = new Set<string>();
+
+  for (const page of pages) {
+    for (const rawLine of page.split(/\r?\n/)) {
+      const line = rawLine
+        .replace(/^#{1,6}\s+/, "")
+        .replace(/\|/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (!line || !/\bECTS(?:-Kreditpunkte)?\b/i.test(line)) continue;
+      if (!hasElectiveSignal(line)) continue;
+
+      const nums = [...line.matchAll(/\b\d+(?:[.,]\d+)?\b/g)]
+        .map((m) => Number(m[0].replace(",", ".")))
+        .filter(Number.isFinite);
+
+      // Avoid storing broad programme totals like 180 ECTS as elective requirements.
+      if (totalEcts != null && nums.length === 1 && nums[0] === totalEcts) continue;
+      if (/\bpour\s+un\s+total\s+de\b/i.test(line) && nums.some((n) => totalEcts != null && n === totalEcts)) continue;
+
+      const key = normalizeComparable(line);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      candidates.push(line.slice(0, 240));
+    }
+  }
+
+  return candidates.length ? candidates.join(" | ") : null;
+}
+
+function extractModuleReference(text: string): string | null {
+  const cleaned = text
+    .replace(/\s+/g, " ")
+    .replace(/^[\s:–—-]+|[\s:–—-]+$/g, "")
+    .trim();
+
+  if (!cleaned) return null;
+
+  // Capture module-only references such as:
+  // - Modul 1 (15 ECTS) Grundlagen...
+  // - Module 4 (21 ECTS) Sonderpädagogische Unterrichtspraxis
+  // - Environmental Humanities Module / Geosciences Module
+  // Keep this deliberately broad for staging; consist_of will still only import real Course matches.
+  const hasModuleWord = /\b(module|modul|module\s+(?:à|a)\s+choix)\b/i.test(cleaned);
+  const hasEctsOrNumber = /\b\d+(?:[.,]\d+)?\s*(?:ects|ects-kreditpunkte)\b/i.test(cleaned) || /\b(module|modul)\s*\d+/i.test(cleaned);
+
+  if (!hasModuleWord || !hasEctsOrNumber) return null;
+  if (extractCodes(cleaned).length > 0) return null;
+
+  return cleaned.slice(0, 240);
+}
+
 function titleFromCells(cells: string[], code: string): string | null {
   const idx = cells.findIndex((c) => extractCodes(c).includes(code));
   if (idx < 0) return null;
@@ -206,6 +269,21 @@ function extractCoursesFromPage(page: string, pageNo: number): StagingCourse[] {
     if (heading) {
       section = heading[1].trim();
       carryType = inferType(section, "") ?? carryType;
+
+      const headingModule = extractModuleReference(section);
+      if (headingModule) {
+        results.push({
+          raw_text: line,
+          reference_type: "module",
+          extracted_code: null,
+          extracted_module: headingModule,
+          extracted_title: headingModule,
+          inferred_type: carryType,
+          page_no: pageNo,
+          section,
+        });
+      }
+
       continue;
     }
 
@@ -241,15 +319,46 @@ function extractCoursesFromPage(page: string, pageNo: number): StagingCourse[] {
           ?? rowText;
         section = headingCandidate.trim();
         carryType = rowType;
+
+        const moduleRef = extractModuleReference(rowText);
+        if (moduleRef) {
+          results.push({
+            raw_text: tableLine,
+            reference_type: "module",
+            extracted_code: null,
+            extracted_module: moduleRef,
+            extracted_title: moduleRef,
+            inferred_type: rowType ?? carryType,
+            page_no: pageNo,
+            section,
+          });
+        }
         continue;
       }
 
-      if (!codes.length) continue;
+      if (!codes.length) {
+        const moduleRef = extractModuleReference(rowText);
+        if (moduleRef) {
+          results.push({
+            raw_text: tableLine,
+            reference_type: "module",
+            extracted_code: null,
+            extracted_module: moduleRef,
+            extracted_title: moduleRef,
+            inferred_type: rowType ?? carryType,
+            page_no: pageNo,
+            section,
+          });
+        }
+        continue;
+      }
 
       for (const code of codes) {
         results.push({
           raw_text: tableLine,
+          reference_type: "course",
           extracted_code: code,
+          extracted_module: null,
           extracted_title: titleFromCells(cells, code),
           inferred_type: rowType ?? carryType,
           page_no: pageNo,
@@ -268,7 +377,7 @@ function extractCourses(pages: string[]): StagingCourse[] {
 
   for (let i = 0; i < pages.length; i++) {
     for (const c of extractCoursesFromPage(pages[i], i + 1)) {
-      const key = `${c.page_no}|${c.extracted_code}|${c.raw_text}`;
+      const key = `${c.page_no}|${c.reference_type}|${c.extracted_code ?? ''}|${c.extracted_module ?? ''}|${c.raw_text}`;
       if (seen.has(key)) continue;
       seen.add(key);
       out.push(c);
@@ -456,6 +565,17 @@ async function run() {
 
       for (const program of programs) {
         const programId = program.program_id;
+        const electiveEcts = extractElectiveEctsText(parsed.pages, program.total_ects);
+
+        if (electiveEcts) {
+          await client.query(
+            `UPDATE StudyProgram
+             SET elective_ects = $2
+             WHERE program_id = $1
+               AND (elective_ects IS NULL OR elective_ects = '' OR elective_ects <> $2);`,
+            [programId, stripNullBytes(electiveEcts)]
+          );
+        }
 
         const docRes = await client.query(
           `INSERT INTO programDocument (program_id, label, url, doc_type, fetched_at, parse_status, parse_notes)
@@ -485,26 +605,23 @@ async function run() {
         const seen = new Set<string>();
 
         for (const c of courses) {
-          const key = `${programId}|${docId}|${c.page_no}|${c.extracted_code}`;
+          const key = `${programId}|${docId}|${c.page_no}|${c.reference_type}|${c.extracted_code ?? ''}|${c.extracted_module ?? ''}|${c.raw_text}`;
           if (seen.has(key)) continue;
           seen.add(key);
 
           stagingAttempted++;
           const res = await client.query(
             `INSERT INTO programCourseStaging
-               (program_id, raw_text, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
+               (program_id, raw_text, reference_type, extracted_code, extracted_module, extracted_title, inferred_type, source_doc_id, page_no, section)
              VALUES
-               ($1, $2, $3, $4, $5, $6, $7, $8)
-             ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
-             DO UPDATE SET
-               raw_text = EXCLUDED.raw_text,
-               extracted_title = COALESCE(EXCLUDED.extracted_title, programCourseStaging.extracted_title),
-               inferred_type = COALESCE(EXCLUDED.inferred_type, programCourseStaging.inferred_type),
-               section = COALESCE(EXCLUDED.section, programCourseStaging.section);`,
+               ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+             ON CONFLICT DO NOTHING;`,
             [
               programId,
               stripNullBytes(c.raw_text),
+              c.reference_type,
               c.extracted_code,
+              c.extracted_module ? stripNullBytes(c.extracted_module) : null,
               c.extracted_title ? stripNullBytes(c.extracted_title) : null,
               c.inferred_type,
               docId,

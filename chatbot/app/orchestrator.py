@@ -408,7 +408,51 @@ def is_plan_mobility_hero(question: str) -> bool:
     return question.strip().lower() == "__hero__:plan_mobility"
 
 
-def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
+def _localized_plan_study_program_intro(language: str | None) -> str:
+    if language == "de":
+        return (
+            "Gerne — welches Studienprogramm soll ich planen?\n\n"
+            "Bitte sag mir:\n"
+            "1. dein Studienprogramm, zum Beispiel **Bachelor Wirtschaftsinformatik**\n"
+            "2. in wie vielen Semestern du abschliessen möchtest, zum Beispiel **6 Semester**"
+        )
+
+    if language == "fr":
+        return (
+            "Bien sûr — quel programme d’études dois-je planifier ?\n\n"
+            "Indique-moi s’il te plaît :\n"
+            "1. ton programme d’études, par exemple **Bachelor Informatique de gestion**\n"
+            "2. en combien de semestres tu souhaites terminer, par exemple **6 semestres**"
+        )
+
+    return (
+        "Sure — which study program would you like to plan?\n\n"
+        "Please tell me:\n"
+        "1. the study program, for example **Business Informatics Bachelor**\n"
+        "2. in how many semesters you would like to finish, for example **8 semesters**"
+    )
+
+
+def _localized_plan_mobility_intro(language: str | None) -> str:
+    if language == "de":
+        return (
+            "Gerne — für welche(s) Austauschsemester bist du hier, "
+            "und welche Kursrichtung interessiert dich?"
+        )
+
+    if language == "fr":
+        return (
+            "Bien sûr — pour quel(s) semestre(s) de mobilité es-tu ici, "
+            "et quel domaine de cours t’intéresse ?"
+        )
+
+    return (
+        "Sure — which exchange semester(s) are you here for, "
+        "and what course direction are you interested in?"
+    )
+
+
+def start_plan_study_program_flow(session_state: Dict[str, Any], language: str | None = None) -> Dict[str, Any]:
     session_state["hero_flow"] = {
         "name": "plan_study_program",
         "program_id": None,
@@ -419,12 +463,7 @@ def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, An
     }
 
     return {
-        "answer": (
-            "Sure — which study program would you like to plan?\n\n"
-            "Please tell me:\n"
-            "1. the study program, for example **Business Informatics Bachelor**\n"
-            "2. in how many semesters you would like to finish, for example **8 semesters**"
-        ),
+        "answer": _localized_plan_study_program_intro(language),
         "sources": [],
         "used_tools": [],
         "session_state": session_state,
@@ -507,7 +546,7 @@ def is_plan_mobility_hero(question: str) -> bool:
     return question.strip().lower() == "__hero__:plan_mobility"
 
 
-def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, Any]:
+def start_plan_study_program_flow(session_state: Dict[str, Any], language: str | None = None) -> Dict[str, Any]:
     session_state["hero_flow"] = {
         "name": "plan_study_program",
         "program_id": None,
@@ -518,12 +557,7 @@ def start_plan_study_program_flow(session_state: Dict[str, Any]) -> Dict[str, An
     }
 
     return {
-        "answer": (
-            "Sure — which study program would you like to plan?\n\n"
-            "Please tell me:\n"
-            "1. the study program, for example **Business Informatics Bachelor**\n"
-            "2. in how many semesters you would like to finish, for example **8 semesters**"
-        ),
+        "answer": _localized_plan_study_program_intro(language),
         "sources": [],
         "used_tools": [],
         "session_state": session_state,
@@ -1088,7 +1122,7 @@ def format_study_program_plan(result: Dict[str, Any]) -> str:
             number = slot.get("semester_number") or slot.get("index") or "?"
             sem_type = slot.get("semester_type") or slot.get("type") or "semester"
             planned = slot.get("planned_ects")
-            header = f"\n### Semester {number} ({sem_type})"
+            header = f"\n## Semester {number} ({sem_type})"
             if planned is not None:
                 header += f" — {_fmt_ects(planned)}"
             lines.append(header)
@@ -1214,10 +1248,10 @@ def answer_question(
         }
 
     if is_plan_semester_hero(question):
-        return start_plan_semester_flow(session_state)
+        return start_plan_semester_flow(session_state, language)
 
     if is_plan_study_program_hero(question):
-        return start_plan_study_program_flow(session_state)
+        return start_plan_study_program_flow(session_state, language)
 
     flow = session_state.get("hero_flow")
 
@@ -1229,10 +1263,7 @@ def answer_question(
         }
 
         return {
-            "answer": (
-                "Sure — which exchange semester(s) are you here for, "
-                "and what course direction are you interested in?"
-            ),
+            "answer": _localized_plan_mobility_intro(language),
             "sources": [],
             "used_tools": [],
             "session_state": session_state,
