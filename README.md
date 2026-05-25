@@ -129,7 +129,7 @@ docker compose up
 
 # Access the Application
 
-Once all services are running the application can be tested by opening http://localhost:4200 in a browser of your choice. 
+Once all services are running, the application can be accessed by opening http://localhost:4200 in a browser of your choice.
 
 ---
 
