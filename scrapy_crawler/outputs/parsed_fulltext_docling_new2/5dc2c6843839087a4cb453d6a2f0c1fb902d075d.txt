@@ -1,0 +1,67 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:04:38.431Z",
+  "title": "unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_de_l_environnement_Transitions_en_sciences_de_l_environnement_-_SE_5dc2c6843839087a4cb453d6a2f0c1fb902d075d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5dc2c6843839087a4cb453d6a2f0c1fb902d075d",
+  "program_key": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_de_l_environnement_Transitions_en_sciences_de_l_environnement_-_SE_5dc2c6843839087a4cb453d6a2f0c1fb902d075d.pdf",
+  "sha256": "8c40e489157ef80f234a06642c9ab0220478c3c64eb17e5b5c8752d05aa0663c",
+  "fetched_at": "2026-05-21T16:05:40.980Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Dispositions de transition 2025-2026
+
+Ces dispositions de transition concernent les étudiant-e-s dont le programme de référence est dans un plan d'études antérieur au semestre d'automne 202 5, soit :
+
+- Branches complémentaires (BCo) en sciences de l'environnement
+- Master of Science in Environmental Sciences and Humanities (MSc)
+
+## UE au niveau BSc
+
+Aucune modification.
+
+## UE au niveau MSc
+
+La révision 2025/26 des programmes d'études en sciences de l'environnement comprend des modifications des codes, des intitulés et des modifications dans le Environmental Biology Module et le Humanities, Theology and Education Module.
+
+| Unité dans l'ancien plan d'études   | Unité dans l'ancien plan d'études   | Unité dans l'ancien plan d'études   | Unité dans le nouveau plan d'études   | Unité dans le nouveau plan d'études   | Unité dans le nouveau plan d'études   |
+|-------------------------------------|-------------------------------------|-------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+| Code                                | Titre                               | ECT S                               | Code                                  | Titre                                 | ECT S                                 |
+| SSE.00460                           | Master thesis colloquia             | 6                                   | SSE.00462                             | Environmental Humanities Colloquium I | 6                                     |
+
+Les crédits pour les cours suivis avec succès avant le SA25 sont pris en compte comme indiqués dans les plans d'études précédents. Les étudiants qui ont obtenu une note insuffisante lors d'une première tentative dans une ancienne UE s'inscrivent pour la deuxième tentative dans l'ancienne UE.
+
+## Changement de voie d'études du Master of Science in Environmental Sciences and Humanities (120 ECTS) au Master of Science in Environmental Humanities and Ethics in Interdisciplinary Contexts (90 ECTS)
+
+Les étudiant-e-s qui souhaitent changer de voie d'études et passer du Master of Science in Environmental Sciences and Humanities (120 ECTS) au Master of Science in Environmental Humanities and Ethics in Interdisciplinary Contexts (90 ECTS) doivent acquérir les UE obligatoires (ou les UE correspondantes antérieures) du nouveau programme. Les délais pour la réussite restent inchangés, la date de début des études dans l'ancien programme faisant foi pour la fixation des délais.
+
+Les UE obligatoires dans le nouveau programme qui ont déjà été acquises dans l'ancien programme sont obligatoirement transférées dans le nouveau programme.
+
+Les UE optionnelles de l'ancien programme ne sont pas obligatoirement transférées dans le nouveau programme.
+
+## Changement de voie d'études du Master Minor in Environmental Sciences and Humanities (30 ECTS) au Master Minor in Environmental Humanities and Ethics (30 ECTS)
+
+Les étudiant-e-s qui souhaitent changer de voie d'études et passer du Master Minor in Environmental Sciences and Humanities (30 ECTS) au Master Minor in Environmental Humanities and Ethics (30 ECTS) doivent acquérir les UE obligatoires (ou les UE correspondantes antérieures) du nouveau programme. Les délais pour la réussite restent inchangés, la date de début des études dans l'ancien cursus faisant foi pour la fixation des délais.
+
+Les UE obligatoires dans le nouveau programme qui ont déjà été acquises dans l'ancien programme sont obligatoirement transférées dans le nouveau programme.
+
+Les UE optionnelles de l'ancien programme ne sont pas obligatoirement transférées dans le nouveau programme.

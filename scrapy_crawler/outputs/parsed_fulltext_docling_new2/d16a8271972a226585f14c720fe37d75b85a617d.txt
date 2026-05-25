@@ -1,0 +1,49 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:58:38.897Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Management_MA_30_ECTS_Betriebswirtschaftslehre_d16a8271972a226585f14c720fe37d75b85a617d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d16a8271972a226585f14c720fe37d75b85a617d",
+  "program_key": "faculty of management, economics and social sciences|master|30|management",
+  "source_url": "https://fr.calameo.com/read/00365911581e6ffa24626",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Management_MA_30_ECTS_Betriebswirtschaftslehre_d16a8271972a226585f14c720fe37d75b85a617d.pdf",
+  "sha256": "225e83489f6969b5db79edb1912c2cfb361a4f375c2657c075b05ba53bb09383",
+  "fetched_at": "2026-05-21T16:05:33.496Z",
+  "notes": "calameo downloaded (id=00365911581e6ffa24626, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260304101308-c3326558ec1037f0ffc4c95c1c440457/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=75b0c002801a55dbf2c07e713665d022bfa9054b5236f66039b78a1e0a3dae5f, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Management",
+  "programme_name_de": "Betriebswirtschaftslehre",
+  "programme_name_fr": "Management",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/management",
+  "curriculum_url": "http://studies.unifr.ch/go/a-W2b"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+septembre 2024
+
+## Masternebenfach 30 ECTS
+
+## Betriebswirtschaftslehre
+
+<!-- image -->
+
+## ZULASSUNGSBEDINGUNGEN
+
+Mindestens 60 ECTS in Kursen der Betriebswirtschaftslehre, welche dem BA-Nebenfach der Fakultät entsprechen. Studenten, die im Master in Betriebswirtschaftslehre (90 ECTS) eingeschrieben sind, können nicht zu diesem MA-Nebenfach zugelassen werden.
+
+## KURSANGEBOT
+
+Informationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.
+
+## WEITERE INFO
+
+Wenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.

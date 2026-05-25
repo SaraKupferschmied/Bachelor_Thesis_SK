@@ -1,0 +1,108 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:14:35.036Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_30_Italian_BA_30_-_versione_2015_0ddbcc5222ad6a331df2a32cf2dea703c4b3f45c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0ddbcc5222ad6a331df2a32cf2dea703c4b3f45c",
+  "program_key": "faculty of humanities|bachelor|30|italian",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/BA%2030%20Italiano.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Italian_BA_30_-_versione_2015_0ddbcc5222ad6a331df2a32cf2dea703c4b3f45c.pdf",
+  "sha256": "601844fbfa0d66996d185541a64f44676ba1d271b4a9f4b9fc7b429d7b8e859f",
+  "fetched_at": "2026-05-21T16:05:25.903Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/BA%2030%20Italiano.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/aVOzt"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Bachelor of Arts
+
+## BA Lingua e Letteratura Italiane 30 crediti
+
+## 1. Descrizione generale del programma
+
+Gli studi d'Italiano che conducono al Diploma universitario in Lettere (BA) - Dominio III (materia complementare) hanno una durata di tre anni (6 semestri) e propongono una formazione congiunta  in  letteratura,  filologia  e  linguistica  italiane.  Gli  studi  possono  iniziare  dal  semestre autunnale o dal semestre primaverile.
+
+Questo programma di studi fornisce una formazione focalizzata sui metodi specifici di analisi della produzione letteraria. Un'introduzione alla filologia italiana e alla storia della lingua italiana permette di acquisire le conoscenze necessarie per affrontare l'insieme dei testi letterari.
+
+L'apprendimento  di  nozioni  di  metrica,  retorica,  stilistica,  narratologia  e  storia  della  lingua assicura la base di ogni successivo sviluppo. Sin dal primo semestre l'approccio didattico valorizza la forma del seminario, stimolando la partecipazione e l'apprendimento attivo degli studenti, per consentire loro di sviluppare le proprie competenze attraverso il lavoro individuale o in piccoli gruppi.
+
+I collaboratori del Dominio Italiano sono attenti, tanto nell'insegnamento quanto nella ricerca, a discutere e storicizzare il ruolo svolto in Svizzera dalla lingua e dalla cultura italiane e la loro appartenenza  al  patrimonio  letterario  e  intellettuale  del  Paese,  nonché  a  mettere  in  luce  il contributo degli autori svizzeri alla cultura di lingua italiana.
+
+Il  piano  di  studi  di  questo  programma  di  Bachelor  è  composto  da  un  modulo  M1  (corsi  e seminari propedeutici di analisi della poesia e del racconto, di filologia e di storia letteraria) e da un modulo d'orientamento letterario M2 (storia letteraria e storia della lingua).
+
+Il  presente documento regola l'organizzazione degli studi di Italiano all'interno del Dominio Italiano.  Per  le  disposizioni  regolamentari  generali  si  rinvia  ai  regolamenti  dell'Università  di Friburgo,  in  particolare  al  regolamento  del  23  giugno  2005  della  Facoltà  di  Lettere  per  il conseguimento del Diploma universitario (livello Bachelor europeo) in Lettere.
+
+## 2. Struttura del programma
+
+Un valore espresso in crediti ECTS, corrispondente a una stima quantitativa del lavoro svolto, viene attribuito a ciascun modulo al momento della convalida. Questo valore è indivisibile e non sono  possibili  attribuzioni  parziali  di  crediti  all'interno  di  un  modulo.  Conformemente  alle disposizioni della Facoltà, il Dominio III (materia complementare) vale 30 crediti.
+
+Il  piano di studi prevede 2 moduli da 15 crediti, per un totale di 30 crediti. Ogni modulo è costituito  da  3  corsi  (3  crediti)  e  1  (pro)seminario  (6  crediti).  La  conoscenza  del  latino  non  è obbligatoria.
+
+## Università di Friburgo - Facoltà di Lettere Dipartimento di Lingue e Letterature
+
+## BA Lingua e Letteratura Italiane 30 crediti ECTS
+
+| Moduli                                           | Corsi e seminari                                                                                                                                                                                                                       | ECTS    |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |   Per modulo |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+| M1 Introduzione all'analisi del testo letterario | C Introduzione all'analisi del testo poetico C Introduzione all'analisi del testo narrativo C Introduzione alla filologia italiana o Grammatica storica o Dante I Proseminario di analisi del testo poetico o di analisi del narrativo | 3 3 3 6 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |
+|                                                  | corso testo                                                                                                                                                                                                                            |         |              |              |              |              |              |              |              |              |              |              |              |
+| M2                                               | C Corso di letteratura (a scelta)                                                                                                                                                                                                      | 3       |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |           15 |
+| Letteratura                                      | C Storia della lingua o Filologia e critica C Lingua contemporanea I S Seminario di letteratura (a scelta) o Lessicografia moderna                                                                                                     | 3       |              |              |              |              |              |              |              |              |              |              |              |
+|                                                  | e contemporanea o Esercizi e applicazioni su testi narrativi                                                                                                                                                                           | 6       |              |              |              |              |              |              |              |              |              |              |              |
+|                                                  | 3                                                                                                                                                                                                                                      |         |              |              |              |              |              |              |              |              |              |              |              |
+
+## 3. Moduli
+
+## M1 Introduzione all'analisi del testo letterario (15 crediti)
+
+Il modulo comprende tre corsi e un proseminario. Il corso di introduzione all'analisi del testo poetico (esame orale di 30 minuti) offre nozioni di base di metrica, retorica, semantica, stilistica, ...;  il  corso  di  introduzione  all'analisi  del  testo  narrativo  (esame  scritto  di  2  ore)  offre  invece  le nozioni  di  base  di  narratologia.  Lo  studente  ha  poi  la  possibilità  di  mettere  in  pratica  le conoscenze teoriche acquisite nei corsi introduttivi scegliendo uno dei due proseminari di analisi del testo letterario (presentazione orale in classe e redazione di un lavoro scritto).
+
+Lo studente deve inoltre seguire un corso (esame orale di 30 minuti) a scelta fra i seguenti tre: un corso di introduzione alla filologia italiana, la quale fornisce le basi per lo studio scientifico delle opere antiche e moderne, attraverso l'analisi della trasmissione (manoscritta e a stampa) dei testi  e  della  loro  edizione;  oppure  un  corso  di  grammatica  storica,  che  offre  conoscenze  di fonetica, morfologia e sintassi indispensabili per l'analisi dei testi; oppure, infine, il corso Dante I, che propone la lettura di una delle tre cantiche della Comedía di Dante.
+
+## M2 Letteratura (15 crediti)
+
+Il  modulo comprende tre corsi e un seminario. Lo studente è libero di scegliere, all'interno dell'offerta del Dominio Italiano, un corso monografico di letteratura oppure un corso di storia letteraria (esame orale di 30 minuti). È ugualmente libero di scegliere tra un corso di storia della lingua (esame orale di 30 minuti), concepito come un percorso attraverso l'evoluzione della lingua tra il XVI e il XX secolo, e un corso di filologia e critica, che mostra le applicazioni della filologia all'interpretazione  letteraria  (esame  orale  di  30  minuti).  Il  corso  di  lingua  contemporanea  I (valutazione  tramite  analisi  guidate  durante  il  corso)  approfondisce  un  aspetto  particolare  della lingua  (lingua  settoriale,  di  un  autore  specifico,  ...).  Il  modulo  prevede  infine  un  seminario  di letteratura o di lessicografia moderna e contemporanea (presentazione orale in classe e redazione di un lavoro scritto); lo studente ha anche la possibilità di seguire, in sostituzione del seminario, il corso Esercizi e applicazioni su testi narrativi (valutazione tramite analisi guidate durante il corso).
+
+## 4. Valutazione delle prestazioni
+
+Gli insegnamenti contenuti nei vari moduli vengono valutati con una nota compresa tra 1 e 6: a partire da 4 una nota è considerata sufficiente e l'insegnamento superato. Ciascun modulo viene convalidato  una  volta  che  siano  state  superate  le  prove  di  valutazione  relative  a  tutti  gli insegnamenti che lo compongono, e a esso è attribuita una nota derivante dalla media delle note riportate nei singoli insegnamenti. È esclusa la compensazione tra note sufficienti e insufficienti di  insegnamenti diversi di uno stesso modulo. Lo studente che desidera seguire un corso o un seminario deve iscriversi al relativo insegnamento tramite il portale  GESTENS;  questa disposizione si applica ugualmente agli altri insegnamenti dispensati dalla Facoltà di Lettere. Lo studente  intenzionato  a  presentarsi  a  un  esame  è  tenuto  a  iscrivervisi  via  GESTENS  entro  il termine  annunciato  dalla  Facoltà.  Non  sono  ammesse  iscrizioni  tardive.  Gli  esami  giudicati insufficienti possono essere ripetuti al massimo 2 volte (per un totale complessivo di 3 tentativi); l'esame deve inoltre essere superato entro 4 sessioni calcolate a partire dalla data d'iscrizione al corso; in caso contrario viene assegnata una bocciatura nel relativo insegnamento e lo studente dovrà seguire un nuovo corso o seminario. La mancata presenza a un esame al quale lo studente si è iscritto comporta l'assegnazione di una nota insufficiente, salvo casi di forza maggiore.
+
+Gli insegnamenti del modulo M1 sono considerati fondamentali e non possono essere seguiti due volte. Lo studente che non supera con esito positivo le prove d'esame di questi insegnamenti o che non rispetta i termini previsti si espone a una bocciatura definitiva e non può proseguire gli studi di Italiano.
+
+Se la valutazione consiste in un esame, quest'ultimo ha luogo alla fine del semestre o all'inizio del  semestre  successivo;  se  necessario  può  essere  organizzata  una  sessione  di  recupero.  Ogni anno vengono organizzate tre sessioni d'esame (inizio gennaio-metà febbraio; ultima settimana di maggio-prime due settimane di giugno; fine agosto-metà settembre) prima della data di convalida dei programmi stabilita dalla Facoltà.
+
+Il termine ultimo per la convalida (con esito positivo) di un lavoro scritto di seminario è la terza sessione d'esame successiva alla fine del semestre durante il quale si è tenuto il seminario in questione. In pratica: per il SA il termine ultimo è il 31 agosto; per il SP è il 31 gennaio. Fanno eccezione i proseminari del modulo  M1  (riferirsi alle informazioni e ai termini forniti dall'insegnante).
+
+Nel corso degli studi, gli studenti possono convertire il Dominio III (materia complementare) in Dominio I (materia principale) o Dominio II (materia secondaria), conformandosi alle esigenze del  nuovo  piano  di  studi.  Questo  passaggio  non  è  consentito  in  seguito  a  una  bocciatura definitiva.  Gli  insegnamenti  seguiti  e  gli  esami  superati  vengono  riconosciuti  quando  sono presenti anche nel nuovo piano di studi.
+
+Gli insegnanti si riservano la possibilità di rifiutare l'iscrizione di uno studente, specialmente nel caso dei (pro)seminari, qualora questi non sia stato in grado di seguire un certo numero di lezioni  o  sia  stato  assente  alle  lezioni  introduttive  (piú  di  tre  assenze  arbitrarie  comportano l'esclusione); in tal caso lo studente dovrà seguire una seconda volta l'insegnamento in questione per poterlo convalidare.
+
+## 5. Lingue
+
+Tutti i corsi e i seminari, i lavori scritti e gli esami del Dominio Italiano sono tenuti in lingua italiana. Non è prevista la menzione bilingue.
+
+Il  Centro  di  Lingue  offre  corsi  di  perfezionamento  per  gli  studenti  che  non  sono  di madrelingua italiana.
+
+Approvato dal Dominio Italiano dell'Università di Friburgo il 14 aprile 2014.
+
+Approvato dal Consiglio del Dipartimento di Lingue e Letterature il 18 settembre 2014.
+
+## Università di Friburgo - Facoltà di Lettere Dipartimento di Lingue e Letterature
+
+## Disposizioni transitorie
+
+Il nuovo piano di studi entra in vigore all'inizio del semestre autunnale 2015. Gli studenti che iniziano gli studi in tale data devono uniformarsi senza eccezioni al nuovo piano di studi.
+
+Gli studenti che hanno iniziato i propri studi presso l'Università di Friburgo tra il SA 2014 e il SP 2015 possono scegliere di proseguire col vecchio piano di studi o di passare a quello nuovo; ciò  deve  avvenire  al  piú  tardi  prima  dell'inizio  del  SP  2016.  Il  Dominio  Italiano  si  occupa  di verificare le equivalenze e i riconoscimenti.
+
+Gli studenti iscritti prima del SA 2014 non hanno la possibilità di cambiare piano di studi.

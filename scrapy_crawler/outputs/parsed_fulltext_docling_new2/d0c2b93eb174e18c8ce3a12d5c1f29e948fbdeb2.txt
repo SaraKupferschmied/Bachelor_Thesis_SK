@@ -1,0 +1,39 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:57:54.038Z",
+  "title": "unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_naturelles_Transitions_en_sciences_naturelles_-_SN_d0c2b93eb174e18c8ce3a12d5c1f29e948fbdeb2",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d0c2b93eb174e18c8ce3a12d5c1f29e948fbdeb2",
+  "program_key": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_UNK_Transitions_en_sciences_naturelles_Transitions_en_sciences_naturelles_-_SN_d0c2b93eb174e18c8ce3a12d5c1f29e948fbdeb2.pdf",
+  "sha256": "26f6735c7395001ec1d7ef5daff9235e5d6f0afeb170a4ba8cd298ffaaace7f9",
+  "fetched_at": "2026-05-21T16:05:41.019Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Annexe aux plans d'études de la F aculté des sciences et de médecine
+
+Dispositions de transition pour la branche enseignable Sciences naturelles pour le BSc\_SI/BA\_SI
+
+applicables dès l'année académique 2025/26
+
+Accepté par la Faculté des sciences et de médecine le 14.04.2025
+
+## Dispositions de transition 2025/2026
+
+Pour les étudiant-es  du  BSc\_SI ou du BA\_SI qui souhaitent passer du programme d'études Sciences naturelles à 70 crédits ECTS au programme d'études Sciences naturelles à 50 crédits ECTS , rien ne change en ce qui concerne les unités d'enseignement obligatoires. (Celles -ci sont identiques  dans  les  deux  programmes.)  En  ce  qui  concerne  les  UE  à  choix,  le  programme Sciences naturelles à 50 crédits ECTS permet la validation d'unités d'enseignement entre un minimum de 7 et un maximum de 17 crédits ECTS. (En effet, le nombre maximal de crédits ECTS possibles dans le programme Sciences naturelles à 50 crédits ECTS est de 60.) La validation de ces UE se fait dans l'ordre chronologique des résultats obtenus.

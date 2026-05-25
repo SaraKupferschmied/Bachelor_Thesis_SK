@@ -1,0 +1,143 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:08:07.119Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Klinische_Kinder-_und_Jugendpsychologie_30_ECTS__5f3fac4d465a16de10c3068caf69d4ddf71b9aa3",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5f3fac4d465a16de10c3068caf69d4ddf71b9aa3",
+  "program_key": "faculty of humanities|master|30|psychology",
+  "source_url": "https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_CCP_de_250225_SA25.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Klinische_Kinder-_und_Jugendpsychologie_30_ECTS__5f3fac4d465a16de10c3068caf69d4ddf71b9aa3.pdf",
+  "sha256": "5d5b9dd3ec194d9eff12c0ca555a5fb0b772309fd47bf87c4d49b7e0b330e49f",
+  "fetched_at": "2026-05-21T16:05:19.291Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_CCP_de_250225_SA25.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Psychology",
+  "programme_name_de": "Psychologie",
+  "programme_name_fr": "Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+|   1. | Gesetzliche Grundlagen ........................................................................................................... 2               |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Zulassungsvoraussetzungen .................................................................................................. 2                     |
+|   3. | Unterrichtssprachen .................................................................................................................. 2           |
+|   4. | Beginn und Dauer des Studiums ........................................................................................... 2                        |
+|   5. | Beschreibung des Programms ............................................................................................... 2                       |
+|   6. | Prüfunfsmodalitäten .................................................................................................................. 4           |
+|   7. | ECTS-Anerkennung ................................................................................................................... 5             |
+|   8. | Inkrafttreten .................................................................................................................................. 5 |
+
+## Studienplan Master
+
+Master of Science in Psychologie (MSc) Spezialisierungsprogramm in Klinische Kinder- und Jugendpsychologie (30 ECTS)
+
+## 2025
+
+## 1. Gesetzliche Grundlagen
+
+Der vorliegende Studienplan basiert auf dem Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät (BA/MA Studienreglement) und auf  den Richtlinien  des  7.  November  2019  über  die  Anerkennung  bereits  erbrachter Studienleistungen (Anerkennungsrichtlinien) der Philosophischen Fakultät.
+
+## 2.  Zulassungsvoraussetzungen
+
+Zum Vertiefungsprogramm (90 ECTS) des Studiengangs Master of Science in Psychologie zugelassen worden sein.
+
+## 3. Unterrichtssprachen
+
+Die  Unterrichtseinheiten  werden  auf  Deutsch,  Französisch  oder  Englisch  angeboten.  Die Prüfung einer Unterrichtseinheit erfolgt in ihrer Unterrichtssprache. Daher wird ein gutes Leseund  Hörverständnis  sowie  die  Fähigkeit,  sich  in  dieser  Sprache  schriftlich  und  mündlich auszudrücken, im Hinblick auf die Prüfung der Unterrichtseinheit empfohlen.
+
+## 4.  Beginn und Dauer des Studiums
+
+Die Studierenden können diesen Masterstudiengang entweder im Herbstoder im Frühlingssemester beginnen. Wir empfehlen jedoch, den Studiengang im Herbstsemester zu beginnen. Er dauert als Vollzeitstudium mindestens vier Semester. Die Studiendauer ist auf das  Dreifache  der  im  Studienplan  geforderten  Semesterzahl  beschränkt,  d.h.  maximal  12 Semester.  Wenn  Sie  diesen  Studiengang  im  Frühjahrssemester  beginnen,  kann  sich  das Studium um mindestens ein Semester verlängern.
+
+## 5.  Beschreibung des Programms
+
+## 5.1. Allgemeine Beschreibung
+
+Ziel dieses Spezialisierungsprogramms  ist es, den  Studierenden  breite und  vertiefte Kenntnisse, Fähigkeiten und Kompetenzen  in der Entwicklungspsychologie mit  dem Schwerpunkt Kinder- und Jugendpsychologie zu vermitteln. Das Studienprogramm deckt die gesamte Lebensspanne ab (Kindheit, Jugend und Erwachsenenalter) und entwickelt dabei die grundlegenden Kenntnisse und Prinzipien des Bereichs der klinischen Familienpsychologie. In den Modulen wird der aktuelle Stand des Wissens über die psychologische Funktionsweise von  Kindern  dargestellt.  Dies  umfasst  insbesondere  die  Untersuchung  der  kognitiven Entwicklung von der Geburt bis zur Adoleszenz sowie die Berücksichtigung von emotionalen, sozialen  und  elterlichen  Aspekten.  Die  Studierenden  erwerben  auch  die  methodischen Fähigkeiten, die für die Durchführung von psychologischen Gesprächen mit Kindern und ihren Eltern erforderlich sind. In Kombination mit dem Vertiefungsprogramm in Psychologie bereitet dieses  Spezialisierungsprogramm  die  Studierenden  auf  berufliche  Laufbahnen  in  einem forschungsorientierten Kontext, aber auch in der Schulpsychologie und in einem klinischen Rahmen vor.
+
+Das  Programm  besteht  aus  zwei  Modulen,  Faktoren  und  Prozesse  in  der  klinischen  und Gesundheitspsychologie (15 ECTS) und Entwicklungspsychologie (15 ECTS).
+
+| Spezialisierungsprogramm in Klinische Kinder- und Jugendpsychologie 30 ECTS   | Spezialisierungsprogramm in Klinische Kinder- und Jugendpsychologie 30 ECTS   | Spezialisierungsprogramm in Klinische Kinder- und Jugendpsychologie 30 ECTS   |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| L25.00397                                                                     | Faktoren und Prozesse in der klinischen und Gesundheitspsychologie            | 15 ECTS                                                                       |
+| L25.00403                                                                     | Entwicklungspsychologie                                                       | 15 ECTS                                                                       |
+
+Die  Hauptunterrichtssprachen  dieses  Programms  sind  Französisch,  Deutsch  und/oder Englisch.
+
+## 5.2. Beschreibung der Module
+
+Die Unterrichtseinheiten sind in Form von Modulen organisiert. Sie können wöchentlich oder komprimiert (in Form von Blockkursen) durchgeführt werden. Die Wahl der Unterrichtseinheiten in den einzelnen Lehrmodulen ist frei. Das Angebot an Unterrichtseinheiten pro Modul  wird jedes Jahr auf der Website des  Departements veröffentlicht.
+
+## Faktoren und Prozesse in der klinischen und Gesundheitspsychologie (L25.00397)
+
+Dieses Modul umfasst eine breite Palette von Unterrichtseinheiten. In diesen Einheiten werden Prozesse und Faktoren behandelt, die für die Entstehung, Aufrechterhaltung oder Behandlung von psychischen Störungen oder für verschiedene Aspekte der psychischen oder somatischen Gesundheit sowie deren Veränderung, Aufrechterhaltung oder Förderung in verschiedenen Lebensphasen wichtig sind.
+
+Das Modul besteht aus frei wählbaren Unterrichtseinheiten zu 3 ECTS. Um dieses Modul zu validieren,  müssen  die  Studierenden  Unterrichtseinheiten  im  Umfang  von  mindestens  15 ECTS absolvieren. Die Unterrichtseinheiten werden auf Deutsch, Französisch oder Englisch angeboten.
+
+## Entwicklungspsychologie (L25.00403)
+
+Ziel dieses Moduls ist es, die Kenntnisse der Studierenden in der Entwicklungspsychologie zu vertiefen  und  zu  erweitern.  Durch  die  in  diesem  Modul  angebotenen  Kurse  erwerben  die Studierenden  grundlegende  Kenntnisse  über  die  typische  und  atypische  Entwicklung  des Kindes. Sowohl die aktuellen Theorien der allgemeinen Entwicklung als auch das spezifische Lernen und seine Mechanismen werden in den verschiedenen Unterrichtseinheiten behandelt. Es wird auch eingeführt, wie verschiedene Beeinträchtigungen diese Lernprozesse beeinflussen.  Einige  methodische  Unterrichtseinheiten  fokussieren  auf  psychometrische Tests, die von Psychologen in diesem Bereich am häufigsten verwendet werden, und werden von praktischen Übungen begleitet.
+
+Das  Modul  besteht  aus  wählbaren  Unterrichtseinheiten  zu  3  ECTS.  Um  dieses  Modul  zu validieren,  müssen  die  Studierenden  Unterrichtseinheiten  im  Umfang  von  mindestens  15 ECTS absolvieren. Die Unterrichtseinheiten werden auf Französisch oder Englisch angeboten.
+
+## 6. Prüfungsmodalitäten
+
+## 6.1. Allgemeine Prüfungsmodalitäten
+
+Die  Bewertung  der  Unterrichtseinheiten  der  verschiedenen  im  Studienplan  vorgesehenen Module erfolgt in erster Linie durch benotete Prüfungen, in der Regel in Form von schriftlichen oder mündlichen Prüfungen. Es kann sich jedoch auch um Prüfungen in Form von schriftlichen Arbeiten oder Präsentationen handeln. Zusätzlich zu den Prüfungen ist eine Anwesenheit von mindestens  80  %  der  Zeit  erforderlich,  um  einen  Blockkurs  zu  validieren.  Wenn  diese Bedingung nicht erfüllt wird (aus welchem Grund auch immer), wird die Einschreibung für diese Unterrichtseinheit gelöscht und kein Misserfolg festgestellt.
+
+Nicht benotete Prüfungen werden nur als 'bestanden' oder 'nicht bestanden' bewertet. Die Prüfungsmodalitäten bestehen in der Regel aus regelmässiger Anwesenheit, aktiver Teilnahme und einer (oder mehreren) mündlichen Präsentation(en). Diese Modalitäten werden in der Beschreibung der Unterrichtseinheit angegeben und bis zum Ende der Anmeldefrist für die Unterrichtseinheiten präzisiert.
+
+## Die folgenden Regeln gelten für alle Evaluationen (benotet und unbenotet):
+
+- Evaluationen können einmal wiederholt werden.
+- Die Leistung müssen innerhalb von vier Prüfungssitzungen nach Einschreibung zur jeweiligen Unterrichtseinheit bestanden werden.
+- Wenn  eine  schriftliche  Arbeit  im  ersten  Validierungsversuch  nicht  bestanden  wird, muss sie überarbeitet und in einer folgenden Prüfungssession unter Einhaltung der vier Prüfungssessionen erneut eingereicht werden. Die für die Unterrichtseinheit verantwortliche Person legt die Frist für die Einreichung fest.
+- Wenn eine Präsentation im ersten Validierungsversuch nicht bestanden wird, legt die für  die  Unterrichtseinheit  verantwortliche  Person  in  Absprache  mit  den  betroffenen Personen einen neuen Termin für die Präsentation fest.
+
+## 6.2. Definitiver Misserfolg
+
+Wird  die  Evaluation  beim  zweiten  Versuch  nicht  bestanden,  wird  ein  definitiver  Misserfolg erklärt und die entsprechende Unterrichtseinheit gilt als definitiv nicht erworben.
+
+Bei definitivem Misserfolg in mehr als einer Wahlunterrichtseinheit kann der/die Studierende sein/ihr Studium  im  Spezialisierungsprogramm  nicht fortsetzen. Bei einem  definitiven Misserfolg im Spezialisierungsprogramm kann der/die Studierende einmalig das Spezialisierungsprogramm wechseln. Wenn er/sie bereits ein anderes Spezialisierungsprogramm in Verbindung mit dem Vertiefungsprogramm in Psychologie nicht bestanden  hat,  wird  er/sie  vom  Studiengang  zum  Master  of  Science  in  Psychologie ausgeschlossen.
+
+## 6.3. Modulnote und Gesamtnote
+
+Die Note eines validierten Moduls ist das Ergebnis des ungerundeten arithmetischen Mittels der Noten dieses Moduls. Die Note des Moduls wird auf zwei Nachkommastellen gerundet.
+
+Die Gesamtnote des Spezialisierungsprogramms ergibt sich aus dem arithmetischen Mittel der Noten der Module.
+
+## 7.  ECTS-Anerkennung
+
+Für  das  gesamte  Spezialisierungsprogramm  können  maximal  12  ECTS  auf  Masterniveau (maximum 6 ECTS pro Modul) anerkannt werden. Anträge auf Anerkennung von Leistungen, die im Rahmen der Mobilität erbracht wurden, werden von der für die Master-Studienberatung zuständigen  Person  bearbeitet.  Das  Anerkennungsverfahren  ist  auf  der  Website  des Departements detailliert beschrieben.
+
+ECTS können unter folgenden bestimmten Voraussetzungen anerkannt werden.
+
+## 7.1. Anerkennung der bereits erbrachten Studienleistungen
+
+Anträge  auf  Anerkennung  von  bereits  erbrachten  Studienleistungen  müssen  vor  oder  zu Beginn des Studiums beim Dekanat der Philosophischen Fakultät eingereicht werden. Nur ECTS, die nicht zum Erwerb eines Diploms geführt haben, können anerkannt werden.
+
+## 7.2. Anerkennung von Studienleistungen, die an anderen Universitäten erbracht wurden (Mobilität)
+
+## Studienleistungen, die an einer anderen Schweizer Universität erworben wurden
+
+Es ist möglich, 12 ECTS, die an anderen Schweizer Universitäten erworben wurden, für das Spezialisierungsprogramm anerkennen zu lassen. Die Studierenden müssen sich mindestens vier Wochen vor Ablauf der Anmeldefrist der Gastuniversität mit der für die Studienberatung zuständigen Person in Verbindung setzen.
+
+## Studienleistungen, die im Rahmen eines Mobilitätsprogramms erworben wurden
+
+Nur die im 'Learning agreement' aufgeführten Unterrichtseinheiten können anerkannt werden. Die  Bewerberin  oder  der  Bewerber  für  ein  Mobilitätsprogramm  muss  sich  die  für  die Studienberatung  zuständige  Person  in  Verbindung  setzen,  um  das  'Learning  agreement' mindestens zwei Monate vor Ablauf der Frist für die Einreichung des Dossiers (die auf der Website der Dienststelle für internationale Beziehungen - DIB angegeben ist) zu planen.
+
+## 8. Inkrafttreten
+
+Der vorliegende Studienplan gilt ab dem Herbstsemester 2025. Studierenden, die vor diesem Datum begonnen haben, können durch schriftliche Mitteilung an das Sekretariat des Departements und vor dem 05.06.2026 ihren Studienplan ändern. Zudem müssen sie angeben, welches Spezialisierungsprogramm sie belegen möchten. Ab dem 1. September 2028 wechselt jede/r Studierende automatisch in den vorliegenden Studienplan. Die Übergangsmassnahmen werden vom Präsidenten / von der Präsidentin des Departements geregelt.

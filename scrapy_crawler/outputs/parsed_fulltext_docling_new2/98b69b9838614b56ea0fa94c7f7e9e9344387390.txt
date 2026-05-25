@@ -1,0 +1,200 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:39:34.738Z",
+  "title": "matched_Faculty_of_Humanities_Master_90_Philosophy_Studienplan_MA_Vertiefungsprogramm_60_ECTS_98b69b9838614b56ea0fa94c7f7e9e9344387390",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "98b69b9838614b56ea0fa94c7f7e9e9344387390",
+  "program_key": "faculty of humanities|master|90|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/MA_Philosophie_Vertiefungsprogramm_2009.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Philosophy_Studienplan_MA_Vertiefungsprogramm_60_ECTS_98b69b9838614b56ea0fa94c7f7e9e9344387390.pdf",
+  "sha256": "dc2c7b922eba31b292de599a9ae2a83c538fd3cd124c12fb372c603d444971dc",
+  "fetched_at": "2026-05-21T16:05:27.145Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/MA_Philosophie_Vertiefungsprogramm_2009.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/master/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+Achtung : alte Version vom 28.04.2009. Die aktuellen Studienpläne finden Sie auf folgendem Link: http://lettres.unifr.ch/de/philosophie/philosophie/ma-reglements.html
+
+<!-- image -->
+
+## STUDIENFÜHRER DES DEPARTEMENTS DER PHILOSOPHIE
+
+## Studienordnung zur Erlangung des Master of Arts in Philosophie (MA)
+
+Dieses  Reglement  betrifft  Studierende,  welche  ihr  Masterstudium  im Wintersemester 2006/2007 begonnen haben.
+
+## Master of Arts in Philosophie
+
+Die Verleihung des Titels « Master of Arts in Philosophie » setzt die Validierung von  60  ECTS-Punkten  im  Vertiefungsprogramm  sowie  das  Verfassen  und Verteidigen einer Masterarbeit voraus, die ein Thema aus der Geschichte der Philosophie (HPH) oder aus der systematischen Philosophie (PHS) behandelt. Das Verfassen und die Verteidigung der Masterarbeit entsprechen zusammen einem Arbeitsaufwand von 30 ECTS-Punkten.
+
+Die  Studierenden  können  (und  werden  ermutigt)  ihre  Ausbildung  ausserdem durch die Validierung von 30 zusätzlichen ECTS-Punkten in einem Nebenprogramm vervollständigen, gemäss den Bestimmungen im Anhang zum Masterreglement  vom  11.  Mai  2006.  Studierenden,  die  ein  LDS  II  erlangen möchten, wird das Nebenprogramm empfohlen.
+
+Dieses Dokument beschreibt den Aufbau des Studiums im Vertiefungsprogramm « Philosophie ». Für die Nebenprogramme wurden besondere  Studienpläne  erstellt,  die  bei  den  betreffenden  Departementen erhältlich sind.
+
+## I. Allgemeines
+
+## I.1 Studium
+
+Das Vertiefungsprogramm zielt darauf ab, das Verständnis philosophischer Probleme zu vertiefen, die philosophische Argumentation zu beherrschen und sich ein möglichst breites Wissen in Geschichte der Philosophie anzueignen.
+
+Der Studierende vertieft sein Verständnis der philosophischen Texte und Themen,  indem  er  Seminare  und  Vorlesungen  besucht,  in  welchen verschiedene  Texte  und  Autoren,  insbesondere  der  abendländischen philosophischen Tradition, behandelt werden. Er erweitert seine argumentativen Fähigkeiten, indem er Seminararbeiten verfasst und sich im Rahmen der Seminare an der Diskussion beteiligt.
+
+Durch  das  Verfassen  einer  Masterarbeit  wird  der  Studierende  mit  der wissenschaftlichen  Forschungsarbeit  vertraut  gemacht,  indem  er  die Fähigkeit entwickelt, selbständig ein philosophisches Problem zu definieren  und  dieses  im  gegebenen  philosophischen  und  historischen Kontext  zu  situieren.  Der  Masterstudiengang  in  Philosophie  soll  die Fähigkeit  zur  Kritik  und  die  intellektuelle  Selbständigkeit  fördern.  Er vermittelt ausserdem zukünftigen Philosophielehrern eine Grundausbildung und das notwendig Handwerkszeug.
+
+## I.2  Zulassungsbedingungen
+
+Folgende  Personen  werden  zum  Vertiefungsprogramm  « Philosophie » zugelassen:
+
+## Studierende eines Bachelordiploms einer Schweizer Universität :
+
+## Zulassung ohne Bedingungen
+
+Bachelordiplom in Philosophie (mindestens 90 ECTS in Philosophie)
+
+## Zulassung mit Vorbedingungen
+
+Studierende  mit  einem  Bachelordiplom  einer  Schweizer  Universität  mit weniger als 90 ECTS in Philosophie oder in einer anderen Studienrichtung sind zum Masterstudium zugelassen, wobei mindestens ein Anpassungsprogramm  und/oder,  je nach erledigtem Studium, eine Passerelle absolviert werden muss.
+
+## Studierende eine Bachelordiploms einer ausländischen Universität :
+
+Nach Überprüfung des Dossiers
+
+Das Erlangen eines Masters in Philosophie verlangt Kenntnisse in  Latein oder Altgriechisch (gemäss den Bestimmungen der Fakultät). Studierende,  die  nicht  über  Kenntnisse  in  einer  der  beiden  Sprachen verfügen, müssen dies während dem Masterstudiengang nachholen.
+
+## I.3 Examen und Validierung der ECTS-Punkte
+
+Die ECTS-Punkte werden ausschliesslich auf der Grundlage von evaluierten  und  für  genügend  befundenen  Studienleistungen  vergeben. Die Evaluation bezieht sich auf Leistungen, die im  Rahmen  von Unterrichtseinheiten in den verschiedenen Modulen  erbracht wurden.
+
+Das Vertiefungsprogramm ist bestanden, wenn 60 ECTS-Punkte validiert wurden.  Die  ECTS-Punkte,  die  für  ein  Modul  verlangt  werden  (siehe unten  §  II.1),  werden  angerechnet,  sobald  nachgewiesen  ist,  dass  der Studierende  alle  Anforderungen  erfüllt  hat,  die  im  Studienplan  für  das entsprechende Modul vorgesehen sind.
+
+## Unterrichtseinheiten
+
+Die ECTS-Punkte messen die gesamte investierte Arbeit des Studierenden (einschliesslich Präsenzzeiten in Vorlesungen / Seminaren, sowie die verlangte selbständige Arbeit ausserhalb der Veranstaltungen). 1 ECTS-Punkt entspricht ungefähr 30 Arbeitsstunden.
+
+| Unterrichtseinheit                                                                                                             | Erhaltene ECTS Punkte   | Unterrichtseinheit                                                                | Erhaltene ECTS Punkte   |
+|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------|-------------------------|
+| Vorlesung wird nach Wahl entweder durch eine schriftliche Arbeit oder durch eine mündliche Prüfung von 30-40 Minuten evaluiert | 6 Pkt.                  |                                                                                   |                         |
+| Aktive Teilnahme* an einem Masterseminar                                                                                       | 3 Pkt.                  | Aktive Teilnahme* an einem Masterseminar und Verfassen einer schriftlichen Arbeit | 9 Pkt.                  |
+| Seminararbeit im Rahmen eines Masterseminars                                                                                   | 6 Pkt.                  | Aktive Teilnahme* an einem Masterseminar und Verfassen einer schriftlichen Arbeit | 9 Pkt.                  |
+| Seminararbeit im Gebiet der Masterarbeit                                                                                       | 6 Pkt.                  |                                                                                   |                         |
+| Evaluierte selbständige schriftliche Forschungsarbeit                                                                          | 6 Pkt.                  |                                                                                   |                         |
+
+## Notenskala
+
+Eine  Evaluation  ist  bestanden,  wenn  die  Unterrichtsperson  zum  Urteil gelangt, dass der Kandidat die verlangten Kenntnisse erworben hat. Die Notenskala sieht wie folgt aus:
+
+- 6 = Summa cum laude
+
+- 5.5 = Insigni cum laude
+
+- 5 = Magna cum laude
+
+- 4.5 = Cum laude
+
+- 4 = Rite
+
+Alle  schriftlichen  Arbeiten  und  mündliche  Prüfungen  werden benotet. Aktive Teilnahmen werden nicht benotet. Alle  erhaltenen Noten müssen genügend sein, Kompensation ist also nicht möglich. Eine ungenügende schriftliche Arbeit oder mündliche Prüfung kann höchstens zwei Mal wiederholt werden.
+
+## I.4 Unterrichtssprache
+
+Der Unterricht findet auf Französisch und  auf Deutsch  statt. Der Masterstudiengang kann auf Deutsch, Französisch oder in beiden Sprachen studiert werden.
+
+Um ein Diplom mit dem Vermerk « zweisprachig » zu erhalten, ist eine sprachlich ausgeglichene Verteilung der Unterrichtseinheiten notwendig, das heisst es werden mindestens 1 evaluierte Vorlesung mit schriftlicher Arbeit oder mündliche Prüfung; 1 Masterseminar in  HPH  mit  schriftlicher  Arbeit;  1  Masterseminar  in  PHS  mit schriftlicher Arbeit; 1 Masterseminar im Gebiet der Masterarbeit mit schriftlicher Arbeit oder eine selbständige evaluierte schriftliche Forschungsarbeit in der zweiten Sprache benötigt, also 30 ECTS im Minimum.
+
+Englisch wird ab und zu als Unterrichtssprache in Kolloquien, Graduiertenprogramm  und  anderen  Forschungsaktivitäten  benutzt.  Die Verleihung  des  Vermerks  « zweisprachig »  betrifft  nur  Französisch  und Deutsch.
+
+## II. Aufbau des Studiums
+
+Folgende Gebiete können im Rahmen des Vertiefungsprogramms « Philosophie » studiert werden: antike Philosophie, mittelalterliche Philosophie, neuzeitliche und zeitgenössische Philosophie, Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften, Epistemologie und Metaphysik, Ethik und politische Philosophie, Kulturphilosophie und Ästhetik.
+
+| Schwerpunkt                | Abk.   | Gebiete                                                                | Abk.   |
+|----------------------------|--------|------------------------------------------------------------------------|--------|
+| Geschichte der Philosophie | HPH    | Antike Philosophie                                                     | pan    |
+| Geschichte der Philosophie | HPH    | Mittelalterliche Philosophie                                           | pme    |
+| Geschichte der Philosophie | HPH    | Neuzeitliche und zeitgenössische Philosophie                           | pmc    |
+| Systematische Philosophie  | PHS    | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh    |
+| Systematische Philosophie  | PHS    | Epistemologie und Metaphysik                                           | eme    |
+| Systematische Philosophie  | PHS    | Ethik und politische Philosophie                                       | epp    |
+| Systematische Philosophie  | PHS    | Kulturphilosophie und Ästhethik                                        | pce    |
+
+Das  Vertiefungsprogramm  umfasst 60 ECTS-Punkte .  Ein  Studierender muss folgende Regel beachten:
+
+1. 30 ECTS-Punkte müssen in den andern Gebieten als im Gebiet der  Masterarbeit  erworben  werden. Beispiel:  Ein  Studierender möchte  seine  Masterarbeit  im  Gebiet epp ( Ethik und  politische Philosophie) abschliessen. Somit muss er darauf achten, dass die 30 ECTS im Grundlagenmodul I und II in  den  andern  Gebieten,  d.h  in pan, pme, pmc, leh, eme oder pce erworben werden. Er darf somit keine epp Veranstaltungen  in  den  Grundlagenmodulen  anrechnen lassen (siehe Seite 8: Schematische Zusammenfassung der Module ).
+2. 30 ECTS-Punkte müssen im Schwerpunkt (HPH oder PHS) der Masterarbeit  im Fortgeschrittenen  Modul  I und II erworben werden. Beispiel:  Ein  Studierender  möchte  seine  Masterarbeit  im Schwerpunkt Systematische  Philosophie (PHS)  im  Gebiet Ethik  und politische Philosophie (epp) abschliessen. Kann in diesen zwei Modulen alles im Gebiet epp anrechnen lassen. Wenn ein Studierender dies nicht möchte, muss er aber darauf achten, dass er im Fortgeschrittenen  Modul  I Veranstaltungen  in  Systematischer Philosophie  besucht  und  dass  er  die  erworbenen  ECTS-Punkte  im Fortgeschrittenen Modul II nur im Gebiet epp anrechnen kann (siehe Seite 8: Schematische Zusammenfassung der Module ).
+
+## II.1  Obligatorische Module
+
+## Grundlagenmodul I (HPH und PHS) - 18 ECTS-Punkte
+
+Unterrichtssprache:
+
+Französisch und/oder Deutsch
+
+- a)  1  Masterseminar  mit  aktiver  Teilnahme  und  schriftlicher  Arbeit  im Schwerpunkt HPH [ S ] . 2 Wochenstunden/Semester. Wert: 9 ECTS-Punkte (aktive Teilnahme 3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+- b)  1  Masterseminar  mit  aktiver  Teilnahme  und  schriftlicher  Arbeit  im Schwerpunkt PHS [ S ] . 2 Wochenstunden/Semester. Wert: 9 ECTS-Punkte (aktive Teilnahme 3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+
+## Grundlagenmodul II (HPH und/oder PHS) - 12 ECTS-Punkte
+
+## Unterrichtssprache: Französisch und/oder Deutsch
+
+Die Validierung dieses Moduls verlangt den Erwerb von 12 ECTS-Punkten. Der  Studierende  kann  frei  aus  den  verschiedenen  Unterrrichtseinheiten auswählen, die unten aufgelistet sind:
+
+- o 1  Semestervorlesung  evaluiert  nach  Wahl  durch  eine  schriftliche Arbeit oder durch eine mündliche Prüfung [ C ]. 2 Wochenstunden/Semester. Wert: 6 ECTS-Punkte. Schriftliche Arbeit 6 ECTS-Punkte (Thema der schriftlichen Arbeit im Zusammenhang  mit  der  Vorlesung  in  Vereinbarung  mit  dem betreffenden Professor) oder durch eine mündliche Prüfung von 3040 Minuten. Wert: 6 ECTS-Punkte . Wenn die gleiche Vorlesung für BAund für MA-Studierende angeboten wird, sind die Anforderungen der mündlichen Prüfung für MA-Studierende höher als für BA-Studierende.
+- o Masterseminar nur mit aktiver Teilnahme [ S ] . 2 Wochenstunden/Semester. Wert: 3 ECTS-Punkte.
+- o Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit [ S ] . 2 Wochenstunden/Semester. Wert: 9 ECTS-Punkte (aktive Teilnahme 3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+
+## Fortgeschrittenes Modul I (gemäss dem Schwerpunkt der
+
+## Masterarbeit: HPH oder PHS) - 18 ECTS-Punkte
+
+## Unterrichtssprache:
+
+Französisch und/oder Deutsch
+
+- a) 1 Semestervorlesung evaluiert nach Wahl durch eine schriftliche Arbeit oder  durch  eine  mündliche  Prüfung [ C ]. 2  Wochenstunden/Semester. Wert:  6  ECTS-Punkte.  Schriftliche  Arbeit  6  ECTS-Punkte (Thema  der schriftlichen Arbeit im Zusammenhang mit der Vorlesung in Vereinbarung mit dem betreffenden Professor) oder durch eine mündliche Prüfung von 30-40 Minuten 6 ECTS-Punkte. Wenn die gleiche Vorlesung für BA- und für MA-Studierende angeboten wird, sind die Anforderungen der mündlichen Prüfung für MA-Studierende höher als für BA-Studierende.
+- b) 1 Masterseminar nur mit aktiver Teilnahme [ S ] . 2 Wochenstunden/Semester. Wert: 3 ECTS-Punkte.
+- c) 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit [ S ] . 2 Wochenstunden/Semester.  Wert:  9  ECTS-Punkte  (aktive  Teilnahme  3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+
+## Fortgeschrittenes Modul II (im Gebiet der Masterarbeit HPH [pan, pme oder pmc] oder PHS [leh, epp, pce oder eme]) - 12 ECTSPunkte
+
+## Unterrichtssprache:
+
+Französisch und/oder Deutsch
+
+- a) 1 Masterseminar im Gebiet der Masterarbeit mit schriftlicher Arbeit [ A ]. 2 Wochenstunden/Semester. Wert: 6 ECTS-Punkte. Schriftliche Arbeit 6 ECTS-Punkte.
+
+Der Studierende muss an 1 einsemestrigen Masterseminar im Gebiet der Masterarbeit aktiv teilnehmen und 1 schriftliche Arbeit verfassen. Diese Masterseminare sind für Studierende organisiert, die im gleichen Schwerpunkt  (HPH  oder  PHS)  ihre  Masterarbeit  verfassen.  Da  diese Masterseminare nicht jedes Semester angeboten werden können, ist es möglich,  sie  durch  ein  gewöhnliches  Masterseminar  im  Gebiet  der Masterarbeit oder durch die Teilnahme an einem Graduiertenprogramm zu ersetzen, wenn vom Departements der Philosophie ein solches angeboten wird .
+
+- b)  1  evaluierte  selbständige  schriftliche  Forschungsarbeit [A]. Wert:  6 ECTS-Punkte. Schriftliche Arbeit 6 ECTS-Punkte.
+
+Der Studierende soll sich im Gebiet der Masterarbeit spezifische Kompetenzen  aneignen.  Dazu  verfasst  er  eine  selbständige  schriftliche Forschungsarbeit,  die  mit  dem  Leiter  der  Masterarbeit  vereinbart  und durch diesen evaluiert wird.
+
+## Schematische Zusammenfassung der Module:
+
+Die Durchschnittsnote der 4 Module sind auf dem Masterdiplom ersichtlich:
+
+| Module                                                                                                       | Unterrichtseinheiten                                                                                                                                                                                                                                        | Gesamte ECTS- Punkte pro Modul   | Teilnoten                                                     |
+|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------|
+| Grundlagenmodul I (HPH und PHS) (in den Gebieten: pan, pme oder pmc)                                         | 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit                                                                                                                                                                                              | 18 ects                          | Durch- schnitt aus den 2 erhaltenen Noten                     |
+| (in den Gebieten: leh, epp, pce oder eme)                                                                    | 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit                                                                                                                                                                                              | 18 ects                          | Durch- schnitt aus den 2 erhaltenen Noten                     |
+| Grundlagenmodul II (PHS und/oder HPH (in den Gebieten: pan, pme, pmc und/oder leh, epp, pce oder eme)        | Zusammenstellung nach Wahl: • Semestervorlesung wird nach Wahl entweder durch eine schriftliche Arbeit oder durch eine mündliche Prüfung evaluiert • Masterseminar nur mit aktiver Teilnahme • Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit | 12 ects                          | Erhaltene Note oder Durch- schnitt aus den 2 erhaltenen Noten |
+| Fortgeschrittenes Modul I (HPH oder PHS) (gemäss Schwerpunkt des Masters: HPH oder PHS)                      | 1 Semestervorlesung wird nach Wahl entweder durch eine schriftliche Arbeit oder durch eine mündliche Prüfung evaluiert 1 Masterseminar nur mit aktiver Teilnahme 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit                             | 18 ects                          | Durch- schnitt aus den 2 erhaltenen Noten                     |
+| Fortgeschrittenes Modul II (HPH oder PHS) (im Gebiet des Masters: pan, pme, pmc oder leh, epp, pce oder eme) | 1 Masterseminar im Gebiet der Masterarbeit mit schriftlicher Arbeit 1 selbständige schriftliche Forschungsarbeit                                                                                                                                            | 12 ects                          | Durch- schnitt aus den 2 erhaltenen Noten                     |
+| Gesamt 60 ects                                                                                               | Gesamt 60 ects                                                                                                                                                                                                                                              | Gesamt 60 ects                   | Gesamt 60 ects                                                |
+
+## III. Masterarbeit
+
+Die Masterarbeit soll zeigen, dass der Kandidat sich im Bereich auskennt, in  dem  er  für  den  Master  eingeschrieben  ist.  Er  muss  fähig  sein,    ein Problem zu formulieren, seine verschiedenen Aspekte zu umreissen und es an den ausgewählten Quellentexten zu untersuchen. Er muss darüber hinaus  die  zur  Fragestellung  gehörige  Literatur  zusammenstellen  und diese  kritisch  bearbeiten.  Die  Verteidigung  gibt  ihm  die  Möglichkeit, Methode  und  Vorgehen,  die  gewählt  wurden,  zu  rechtfertigen    und allgemeiner  die  Fragen  zu  beantworten,  die  durch  die  Masterarbeit aufgeworfen werden. Sie erlaubt es auch, die Kenntnisse des Kandidaten im entsprechenden Fachgebiet zu überprüfen.
+
+N.B.  Für  die  allgemeinen  Bedingungen  im  Bezug  auf  das  Masterstudium müssen sich die Studierenden auf das Reglement der Philosophischen Fakultät vom 11. Mai 2006 beziehen.

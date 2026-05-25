@@ -1,0 +1,104 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:07:43.251Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology_Transition_en_biologie_biochimie_bioinformatique_-_BL-BC-BI_5f26e615f3c40d23c41fe03f357c4afce626a3ea",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "5f26e615f3c40d23c41fe03f357c4afce626a3ea",
+  "program_key": "faculty of science and medicine|bachelor|120|biology",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_BC-BL-BI_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology_Transition_en_biologie_biochimie_bioinformatique_-_BL-BC-BI_5f26e615f3c40d23c41fe03f357c4afce626a3ea.pdf",
+  "sha256": "956b4322853ce57a8bb34ac86e561d110dd76fae69192122a4ba0e9f4ad2756a",
+  "fetched_at": "2026-05-21T16:05:18.932Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_BC-BL-BI_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biology",
+  "programme_name_de": "Biologie",
+  "programme_name_fr": "Biologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biology",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Dispositions de transition 2025-2026
+
+Ces dispositions de transition concernent les étudiant·e·s dont le programme de référence (branche principale, branche complémentaire, Master) est dans un plan d'études antérieur à 2025, soit :
+
+- Bachelor of Science en BIOCHIMIE
+- Bachelor of Science en BIOLOGIE
+- Master in MOLECULAR LIFE AND HEALTH SCIENCES (5 options, 90-120 ECTS)
+- Master in ENVIRONMENTAL BIOLOGY (4 options, 90-120 ECTS)
+- Master in BIOINFORMATICS AND COMPUTATIONAL BIOLOGY (UniFr et UniBe),   120 ECTS
+- Branches complémentaires (BCo) en Biologie
+- BCo SCIENCES MEDICALES ET MOLECULAIRES DE LA VIE (30 ECTS)
+- BCo BIOLOGIE - DES GENES AUX ECOSYSTEMES (30 ECTS)
+- BCo BIOLOGIE A (30 ECTS)
+- BCo BIOLOGIE B (60 ECTS)
+- BCo BIOLOGIE E pour le DEEM (60 ECTS)
+- BCo BIOLOGIE +30 pour le DEEM (30 ECTS)
+- Branches complémentaires (BCo) en Biochimie
+- BCo BIOCHIMIE (30 ECTS)
+- BCo BIOCHIMIE (60 ECTS)
+- BCo BIOCHIMIE pour étudiant·e·s en BMS (60 ECTS)
+- Bachelor en enseignement pour le degré secondaire I (BSc-SI ou BA-SI)
+- Branches propédeutiques en biologie
+- Branches propédeutiques en biochimie
+- Branches complémentaires en sciences biomédicales
+
+## Nouveaux paquets de validation (rappel de la transition 2023-24)
+
+Les plans d'études 2023-24 du Bachelor en Biologie et du Bachelor en Biochimie introduisent des paquets de validation supplémentaires. Au lieu de deux paquets de validation (1 paquet pour la 1 ère année et un paquet pour la branche principale en 2 ème  et 3 ème  années), la branche principale comporte désormais 4 paquets de validation :
+
+## Biologie :
+
+- -1 ère  année du BSc de Biologie : au lieu d'un paquet de validation de 60 ECTS, la première année comporte deux paquets de validation séparés :
+
+```
+Branches propédeutiques générales, 36 ECTS
+```
+
+Branches propédeutiques du domaine, 24 ECTS
+
+- -2 ème  et 3 ème  années du BSc de Biologie : au lieu d'un paquet de validation de 60 ECTS, deux paquets de validation séparés doivent être réussis :
+
+Organismes et travail de Bachelor, 38.5 ECTS
+
+Molécules et travaux pratiques 21.5 ECTS
+
+## Biochimie :
+
+- -1 ère   année du BSc de Biochimie :  au  lieu  d'un  paquet  de  validation  de  6 2  ECTS, la première année comporte deux paquets de validation séparés :
+
+Branches propédeutiques générales, 38 ECTS Branches propédeutiques du domaine, 24 ECTS
+
+- -2 ème  et 3 ème  années du BSc de Biochimie : au lieu d'un paquet de validation de 59 ECTS, deux paquets de validation séparés doivent être réussis :
+
+Cours, 41 ECTS
+
+Travaux pratiques, 18 ECTS
+
+Les étudiant·e·s ayant débuté leurs études de Bachelor de Biologie ou de Biochimie avant le semestre d'automne 2023 seront transféré·e·s dans le nouveau plan d'études à 4 paquets de validation.  Si un  échec  survenait  en  conséquence  de  ce  transfert,  ces  étudiant·e·s  seraient retourné·e·s dans un programme à 2 paquets de validations, tels que décrits dans la version précédente du plan d'études. Le cas échéant, veuillez informer le décanat (scimed@unifr.ch).
+
+## Changements dans les unités d'enseignement
+
+La  révision  2025-2026  des  plans  d'études  en  biologie,  biochimie,  et  bioinformatique  a  pour conséquence des changements de codes, de dénomination et de nombre de crédits par UE. Celle-ci  conduit  à  des  démarches  particulières notamment  pour  l'inscription  aux  cours  et  aux examens pour chacune des unités d'enseignement ci-dessous.
+
+## UEs au niveau BSc et MSc :
+
+L'étudiant·e qui doit suivre selon son plan d'études une UE du tableau ci-dessous la remplace par l'UE correspondante. L'étudiant·e qui a fait un premier essai insuffisant s'inscrira pour le 2 ème essai dans l'ancienne UE, sur demande auprès du conseiller d'études.
+
+| UE selon l'ancien plan d'études   | UE selon l'ancien plan d'études                                |   ECTS | UE selon le nouveau plan d'études   | UE selon le nouveau plan d'études                              |   ECTS |
+|-----------------------------------|----------------------------------------------------------------|--------|-------------------------------------|----------------------------------------------------------------|--------|
+| SBL.10010                         | Altered carbohydrate metabolism in disease                     |      1 | SBL.10014                           | Cancer immunology                                              |      1 |
+| SBL.20036                         | Global change                                                  |      3 | SBL.20041                           | Global change biology                                          |      3 |
+| UniBe                             | Molecular biology and genetics for non- biologists (lecture)   |    2.5 | SBL.30005                           | Molecular biology and genetics for non- biologists (lecture)   |      3 |
+| UniBe                             | Molecular biology and genetics for non- biologists (practical) |    4.5 | SBL.30006                           | Molecular biology and genetics for non- biologists (practical) |      3 |
+| New UE                            |                                                                |        | UniBe                               | Deep learning                                                  |      5 |

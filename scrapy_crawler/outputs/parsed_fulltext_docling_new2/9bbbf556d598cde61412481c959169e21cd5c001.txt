@@ -1,0 +1,124 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:40:59.383Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_30_Spanish_Plan_de_estudios_BA_30_ECTS_9bbbf556d598cde61412481c959169e21cd5c001",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "9bbbf556d598cde61412481c959169e21cd5c001",
+  "program_key": "faculty of humanities|bachelor|30|spanish",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_BA_30_2023.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Spanish_Plan_de_estudios_BA_30_ECTS_9bbbf556d598cde61412481c959169e21cd5c001.pdf",
+  "sha256": "68ae00dd021f3168894080e75e72b3d8f98e0c740c0f7785f1a08cc4fa0fc69d",
+  "fetched_at": "2026-05-21T16:05:24.691Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_BA_30_2023.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/ghIdR"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## 1. Base legal
+
+El presente plan de estudios sigue el Reglamento del 8 de marzo de 2018 para la obtención del diploma de Bachelor y de Máster de la Facultad de Letras y de Ciencias Humanas [Reglamento de bachelor/máster del 8 de marzo de 2018].
+
+## 2. Descripción del programa
+
+El Departamento de Español ofrece asignaturas que abarcan tanto las diversas literaturas de la América  hispanófona  (incluyendo  Estados  Unidos)  como  de  la  Península  Ibérica.  Se  presta  una atención  particular  a  las  relaciones  entre  literaturas  y  ciencias  humanas,  así  como  al  aporte  de  los estudios  interdisciplinarios.  La  filología  hispánica  estudia  la  lengua,  la  literatura  y  la  cultura  de  la España medieval e igualmente la tradición manuscrita de las obras y su lugar en la historia de la cultura occidental. La formación propuesta corresponde así a las bases locales de la cultura hispana y también al contexto internacional (incluso transcontinental) que ha configurado su historia y su realidad actual.
+
+## 3. Objetivos de la formación
+
+El programa de estudios de bachelor de 30 crédits ECTS tiene por objetivo ofrecer un panorama de  la  literatura,  la  lengua  y  la  cultura  hispánicas,  tomando  en  cuenta  las  diferentes  regiones  que  la componen y sus relaciones seculares. Privilegia un acercamiento histórico a través de cursos generales y cursos monográficos (sobre grandes periodos y regiones o sobre temas más específicos). Gracias a los diferentes (pro)seminarios el estudiante empezará a desarrollar las competencias técnicas y analíticas, de comunicación escrita y oral, así como de investigación individual y en grupo.
+
+Versión francesa aprobada por la Comisión de estudios el 01.03.2023 1 En caso de problemas legales, solo será válida la versión francesa o alemana aprobada por la Comisión de estudios.
+
+## FACULTAD DE LETRAS Y CIENCIAS HUMANAS Departamento de Español
+
+## PLAN DE ESTUDIOS BACHELOR ESPAÑOL PROGRAMA DE ESTUDIOS DE 30 CRÉDITOS ECTS
+
+2023 1
+
+## 4. Inicio y duración de los estudios
+
+Los estudios de lengua y literaturas españolas, como rama de 30 créditos ECTS, pueden ser seguidos por los estudiantes inscritos en un programa principal en una facultad distinta a la de Letras y Ciencias Humanas de la Universidad, o como estudios opcionales. Los estudios tienen una duración mínima de 6 semestres. El programa puede empezarse tanto en el semestre de otoño como en el de primavera.
+
+## 5. Lengua de enseñanza
+
+La lengua de enseñanza es el español. No existe la posibilidad de obtener una mención bilingüe.
+
+## 6. Esctructura del plan de estudios
+
+El  plan  de  estudios  se  compone  de  dos  módulos: un  módulo  de  12  créditos ECTS, con asignaturas obligatorias (M1: Módulo de base ), y un módulo de 18 créditos ECTS, dentro del cual se ofrecen distintas posibilidades (M2 : Módulo combinado ). En efecto, el M2 está estructurado en tres  bloques,  cada  uno  con  un  contenido  diferente  y  complementario  de  los  otros  dos:  cursos  de literatura ( Bloque A ), cursos de historia de la lengua y lingüística ( Bloque B ) y (pro)seminarios de literatura y filología ( Bloque C ).
+
+El estudiante debe seguir las cuatro unidades de enseñanza que integran el módulo M1 dado su  contenido:  conocimientos  fundamentales  sobre  la  historia  literaria  y  cultural  del  mundo hispánico. En cambio, dispone de una gran libertad en el módulo M2: el estudiante elegirá unidades de enseñanza hasta la obtención de 18 créditos ECTS. El programa combina así una estructura clara y  cierta  flexibilidad  que  permite  satisfacer  los  intereses  y  las  necesidades  de  formación  del estudiante.
+
+Salvo excepción particular, la duración de los cursos y (pro)seminarios es de un semestre. Las unidades de enseñanza de un mismo módulo pueden ser seguidas en semestres diferentes. Los créditos ECTS correspondientes a la carga de trabajo prevista para un módulo quedan validados cuando el estudiante ha cumplido con las exigencias requeridas en dicho módulo.
+
+## Cuadro recapitulativo
+
+Lista de abreviaciones :
+
+M = módulo, C = curso, PS = proseminario, E = ejercicio
+
+| Nombre del módulo    | Unidad de enseñanza (UE)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | ECTS UE             | ECTS Módulo   |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|---------------|
+| M1: Módulo de base   | C: Introducción a la literatura española C: Introducción a las literaturas latinoamericanas PS: Introducción al análisis literario E: Gramática y redacción I                                                                                                                                                                                                                                                                                                                                                                         | 3 3 3 3             | 12 ECTS       |
+| M2: Módulo combinado | Elegir las UE deseadas hasta la obtención de 18 créditos ECTS Bloque A: Cursos de Literatura -Literatura de la Edad Media - Literatura de los Siglos de Oro - Literaturas latinoamericanas Bloque B: Cursos de Lengua - Historia de la lengua: orígenes - sigloXV - Historia de la lengua: siglos XVI-XXI - Lingüística contemporánea Bloque C: (Pro)seminarios - Textos literarios latinoamericanos - Literatura medieval y/o de los Siglos de Oro - Filología/Lingüística contemporánea - Literaturas latinoamericanas y/o española | 3 3 3 3 3 3 6 6 6 6 | 18 ECTS       |
+
+## 7. Descripción de los módulos
+
+## M1: Módulo de base (12 créditos ECTS)
+
+Tres formas de enseñanza componen este módulo: dos cursos, un proseminario y un ejercicio. El primer curso, Introducción a la literatura española , ofrece un conocimiento básico del desarrollo de la literatura española inserta en la historia general de España. El segundo curso, Introducción a las literaturas  latinoamericanas , ofrece un  conocimiento  básico  del  desarrollo  de  las literaturas latinoamericanas  insertas  en  la  historia  general  de  América  Latina  y  el  Caribe.  El  proseminario, Introducción al análisis literario , permite adquirir los útiles de crítica literaria indispensables para los análisis del discurso que tendrán lugar a lo largo de los estudios. El ejercicio, Gramática y redacción I , está enfocado en mejorar la expresión oral y escrita (corrección gramatical, léxico, estilo, propiedad de  lenguaje,  prosa  académica),  cuyo  dominio  deberá  mostrar  el  estudiante  en  los  trabajos  de (pro)seminario y en los exámenes que seguirán más tarde. Ya en este nivel se ponen de relieve las relaciones entre literatura, cultura y sociedad.
+
+## M2: Módulo combinado (18 créditos ECTS)
+
+El estudiante elige libremente las unidades de enseñanza que desea realizar al interior de los tres bloques. El primero de los tres bloques que componen este módulo, bloque A : Cursos de Literatura , ofrece tres cursos a elección, Literatura de la Edad Media , Literatura de los Siglos de Oro y Literaturas latinoamericanas ,  que  tienen  por  finalidad  el  conocimiento  de  un  gran  capítulo  de  la  literatura latinoamericana, de la España medieval o de la moderna.
+
+El segundo, bloque B: Cursos de Lengua ,  igualmente compuesto de tres cursos a elección, Historia  de  la  lengua:  orígenes  -  siglo  XV , Historia  de  la  lengua:  siglos  XVI-XXI y Lingüística contemporánea , permite conocer un periodo de la historia de la lengua española o de sus estructuras y variantes actuales.
+
+El objetivo del tercero, bloque C: (Pro)seminarios ,  es  adquirir  las  competencias técnicas y críticas necesarias para el análisis de los documentos representativos de la tradición literaria hispánica o de su realidad lingüística actual. Es el estudiante quien decide hacia dónde quiere orientar sus estudios eligiendo entre los (pro)seminarios propuestos: Textos  literarios  latinoamericanos , Literatura medieval y/o de los Siglos de Oro , Filología/Lingüística contemporánea , Literaturas latinoamericanas y/o española y Teoría y crítica .
+
+## 8. Mobilidad
+
+Un estudiante inscrito en este plan de estudios podrá obtener un máximo de 9 créditos ECTS en otra universidad (ya sea por medio del programa BeNeFri u otro). En relación con los cursos que podrá seguir durante una estancia de movilidad o en el marco de BeNeFri, será necesario el acuerdo previo del responsable del programa de español bajo la forma de un contrato pedagógico (Learning agreement). Con base al contrato pedagógico y a las prestaciones realizadas, el departamento validará los créditos ECTS obtenidos.
+
+## 9. Evaluación de las prestaciones
+
+## 9.1 Evaluaciones y validación
+
+Todas las evaluaciones reciben una nota. Generalmente, la evaluación de los cursos se hace mediante un examen escrito de una duración de 2 horas aproximadamente. Sin embargo, el docente tiene la posibilidad de proponer una evaluación continua u oral; en este caso, el docente informará a los estudiantes al inicio del periodo de cursos.
+
+Según la unidad de enseñanza o la temática tratada, los (pro)seminarios y los ejercicios admiten distintas  posibilidades  de  validación  (ejemplos:  presentación  oral  +  trabajo  escrito,  dosier  de ejercicios). Durante todos los (pro)seminarios y los ejercicios se requiere una participación activa. Las evaluaciones serán por unidad de enseñanza: no se admitirá ninguna compensación.
+
+Es  obligatoria  la  presencia  regular  en  (pro)seminarios  y  ejercicios:  más  de  tres  ausencias injustificadas provocan el suspenso de la unidad de enseñanza en cuestión (en dicho caso, el estudiante deberá cursar una nueva unidad de enseñanza equivalente). El responsable del programa decide sobre el carácter justificado de las ausencias.
+
+La validación de un módulo presupone que el estudiante ha aprobado cada una de las unidades de enseñanza que forman parte de él. La nota del módulo será calculada a partir de la media aritmética de las notas de cada unidad de enseñanza validada en el módulo.
+
+La inscripción  a  los  cursos  y  a  los  exámenes  mediante  el  sistema  informático  en  vigor  es obligatoria  para  seguir  una  unidad  de  enseñanza,  lo  mismo  que  para  presentarse  a  un  examen, respetando  siempre  los  plazos  indicados  por  el  Decanato.  A  propósito  de  los  (pro)seminarios,  se recomienda, además, anunciarse al docente antes del inicio del semestre para tener la posibilidad de elegir anticipadamente una obra y de adquirir su propio ejemplar del libro.
+
+Se  puede  repetir  una  vez  el  examen  que  ha  dado  lugar  a  un  suspenso;  el  estudiante  debe inscribirse para cada una de las tentativas. El no aprobar una evaluación en la segunda tentativa conlleva a un suspenso definitivo de la unidad de enseñanza. A más tardar y bajo pena de suspenso definitivo de la unidad de enseñanza, el examen debe ser aprobado en la cuarta sesión que sigue a la fecha de la inscripción en el curso. En ambos casos, un suspenso definitivo de la unidad de enseñanza implica que el estudiante deberá seguir un nuevo curso o (pro)seminario equivalente a la unidad de enseñanza en cuestión (exceptuando los casos citados en el punto 9.2). La ausencia a un examen para el que el estudiante se ha inscrito equivale a un suspenso, salvo en casos de fuerza mayor. En este caso, se debe informar por escrito al secretariado del Departamento a más tardar una semana después de la fecha del examen. El Departamento decide sobre el carácter justificado de la ausencia (art. 19, párrafos 1 y 2 del Reglamento de bachelor/máster del 8 de marzo de 2018).
+
+El plazo para la validación (con un resultado positivo) de los trabajos escritos de (pro)seminario es, para los (pro)seminarios seguidos en el SO, el 31 de enero del año académico siguiente; y para los del SP, el 30 de junio del año académico siguiente.
+
+## 9.2 Suspenso definitivo
+
+Un suspenso definitivo a alguna de las unidades de enseñanza del M1 conduce a un suspenso definitivo del programa de estudios.
+
+El  no  respeto  de  la  duración  máxima  de  los  estudios,  prevista  en  los  artículos  7  y  34  del Reglamento de bachelor/máster del 8 de marzo de 2018, conlleva igualmente el suspenso definitivo del programa. En caso de suspenso definitivo, el estudiante no podrá inscribirse más a los programas de bachelor del Departamento de Español.
+
+## 9.3 Nota final
+
+La nota del módulo es el resultado de la media aritmética de las notas de cada unidad de enseñanza validada en el módulo. La nota final del programa corresponde a la media aritmética de las notas de cada módulo.
+
+## 10. Entrada en vigor y disposiciones transitorias
+
+El presente plan de estudios entra en vigor desde el inicio del semestre de otoño de 2023: los estudiantes que comienzan entonces sus estudios en la Universidad de Friburgo están sometidos a él sin excepción. Los que han empezado sus estudios universitarios en el semestre de otoño de 2022 o en el de primavera de 2023 tienen la posibilidad de continuar en el plan anterior o adoptar el nuevo antes del comienzo del semestre de primavera de 2024. En el semestre de otoño de 2026, todos los estudiantes sometidos a una antigua versión del plan de estudios deberán, obligatoriamente, hacer la transición al nuevo plan de estudios.

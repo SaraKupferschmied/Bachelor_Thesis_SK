@@ -15,9 +15,13 @@ type ParsedDocling = {
   sourceUrl: string | null;
 };
 
+type ReferenceType = "course" | "module";
+
 type StagingCourse = {
   raw_text: string;
-  extracted_code: string;
+  reference_type: ReferenceType;
+  extracted_code: string | null;
+  extracted_module: string | null;
   extracted_title: string | null;
   inferred_type: CourseType | null;
   page_no: number;
@@ -26,6 +30,31 @@ type StagingCourse = {
 
 function normalize(s: string | null | undefined): string {
   return (s ?? "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function normalizeComparable(s: string | null | undefined): string {
+  return (s ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-zA-Z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function uniqueNonEmpty(values: Array<string | null | undefined>): string[] {
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const value of values) {
+    const cleaned = String(value ?? "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
+    if (!cleaned) continue;
+    const key = normalizeComparable(cleaned);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(cleaned);
+  }
+  return out;
 }
 
 function stripNullBytes(s: string | null | undefined): string {
@@ -142,12 +171,71 @@ function inferType(section: string | null, row: string): CourseType | null {
   const t = normalize(`${section ?? ""} ${row}`);
 
   const elective = /\b(wahlkurs(?:e|en)?|wahlfach|wahlbereich|wahlmodul|wahlpflicht|elective|electives|optional|optionnel|optionnels|cours?\s+(?:à|a)\s+choix|module\s+(?:à|a)\s+choix|choix)\b/i.test(t);
-  const mandatory = /\b(pflicht(?:modul)?|pflichtkurse?|pflichtveranstaltungen?|obligatorisch|obligatoire|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i.test(t);
+  const mandatory = /\b(pflicht(?:modul)?|pflichtkurse?|pflichtveranstaltungen?|obligatorisch|obligatoire|obligatoires|mandatory|compulsory|required|core|tronc\s+commun|cours?\s+obligatoires?)\b/i.test(t);
 
   if (elective && !mandatory) return "Elective";
   if (mandatory && !elective) return "Mandatory";
   if (elective && mandatory) return /wahlpflicht/i.test(t) ? "Elective" : "Mandatory";
   return null;
+}
+
+function hasElectiveSignal(text: string): boolean {
+  return /\b(wahl|wahlkurs|wahlkurse|wahlbereich|wahlmodul|wahlpflicht|optionnel|optionnelle|options?|cours?\s+(?:à|a)\s+choix|ue\s+(?:à|a)\s+choix|module\s+(?:à|a)\s+choix|choix|elective|optional)\b/i.test(text);
+}
+
+function extractElectiveEctsText(pages: string[], totalEcts: number | null): string | null {
+  const candidates: string[] = [];
+  const seen = new Set<string>();
+
+  for (const page of pages) {
+    for (const rawLine of page.split(/\r?\n/)) {
+      const line = rawLine
+        .replace(/^#{1,6}\s+/, "")
+        .replace(/\|/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (!line || !/\bECTS(?:-Kreditpunkte)?\b/i.test(line)) continue;
+      if (!hasElectiveSignal(line)) continue;
+
+      const nums = [...line.matchAll(/\b\d+(?:[.,]\d+)?\b/g)]
+        .map((m) => Number(m[0].replace(",", ".")))
+        .filter(Number.isFinite);
+
+      // Avoid storing broad programme totals like 180 ECTS as elective requirements.
+      if (totalEcts != null && nums.length === 1 && nums[0] === totalEcts) continue;
+      if (/\bpour\s+un\s+total\s+de\b/i.test(line) && nums.some((n) => totalEcts != null && n === totalEcts)) continue;
+
+      const key = normalizeComparable(line);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      candidates.push(line.slice(0, 240));
+    }
+  }
+
+  return candidates.length ? candidates.join(" | ") : null;
+}
+
+function extractModuleReference(text: string): string | null {
+  const cleaned = text
+    .replace(/\s+/g, " ")
+    .replace(/^[\s:–—-]+|[\s:–—-]+$/g, "")
+    .trim();
+
+  if (!cleaned) return null;
+
+  // Capture module-only references such as:
+  // - Modul 1 (15 ECTS) Grundlagen...
+  // - Module 4 (21 ECTS) Sonderpädagogische Unterrichtspraxis
+  // - Environmental Humanities Module / Geosciences Module
+  // Keep this deliberately broad for staging; consist_of will still only import real Course matches.
+  const hasModuleWord = /\b(module|modul|module\s+(?:à|a)\s+choix)\b/i.test(cleaned);
+  const hasEctsOrNumber = /\b\d+(?:[.,]\d+)?\s*(?:ects|ects-kreditpunkte)\b/i.test(cleaned) || /\b(module|modul)\s*\d+/i.test(cleaned);
+
+  if (!hasModuleWord || !hasEctsOrNumber) return null;
+  if (extractCodes(cleaned).length > 0) return null;
+
+  return cleaned.slice(0, 240);
 }
 
 function titleFromCells(cells: string[], code: string): string | null {
@@ -181,6 +269,21 @@ function extractCoursesFromPage(page: string, pageNo: number): StagingCourse[] {
     if (heading) {
       section = heading[1].trim();
       carryType = inferType(section, "") ?? carryType;
+
+      const headingModule = extractModuleReference(section);
+      if (headingModule) {
+        results.push({
+          raw_text: line,
+          reference_type: "module",
+          extracted_code: null,
+          extracted_module: headingModule,
+          extracted_title: headingModule,
+          inferred_type: carryType,
+          page_no: pageNo,
+          section,
+        });
+      }
+
       continue;
     }
 
@@ -211,20 +314,51 @@ function extractCoursesFromPage(page: string, pageNo: number): StagingCourse[] {
 
       if (!codes.length && rowType) {
         const headingCandidate =
-          cells.find((c) => rowType === "Elective" ? /wahl|elective|choix|option/i.test(c) : /pflicht|obligatoire|mandatory|compulsory|required/i.test(c))
+          cells.find((c) => rowType === "Elective" ? /wahl|elective|choix|option/i.test(c) : /pflicht|obligatoire|obligatoires|mandatory|compulsory|required/i.test(c))
           ?? cells.find((c) => c.trim().length > 0)
           ?? rowText;
         section = headingCandidate.trim();
         carryType = rowType;
+
+        const moduleRef = extractModuleReference(rowText);
+        if (moduleRef) {
+          results.push({
+            raw_text: tableLine,
+            reference_type: "module",
+            extracted_code: null,
+            extracted_module: moduleRef,
+            extracted_title: moduleRef,
+            inferred_type: rowType ?? carryType,
+            page_no: pageNo,
+            section,
+          });
+        }
         continue;
       }
 
-      if (!codes.length) continue;
+      if (!codes.length) {
+        const moduleRef = extractModuleReference(rowText);
+        if (moduleRef) {
+          results.push({
+            raw_text: tableLine,
+            reference_type: "module",
+            extracted_code: null,
+            extracted_module: moduleRef,
+            extracted_title: moduleRef,
+            inferred_type: rowType ?? carryType,
+            page_no: pageNo,
+            section,
+          });
+        }
+        continue;
+      }
 
       for (const code of codes) {
         results.push({
           raw_text: tableLine,
+          reference_type: "course",
           extracted_code: code,
+          extracted_module: null,
           extracted_title: titleFromCells(cells, code),
           inferred_type: rowType ?? carryType,
           page_no: pageNo,
@@ -243,7 +377,7 @@ function extractCourses(pages: string[]): StagingCourse[] {
 
   for (let i = 0; i < pages.length; i++) {
     for (const c of extractCoursesFromPage(pages[i], i + 1)) {
-      const key = `${c.page_no}|${c.extracted_code}|${c.raw_text}`;
+      const key = `${c.page_no}|${c.reference_type}|${c.extracted_code ?? ''}|${c.extracted_module ?? ''}|${c.raw_text}`;
       if (seen.has(key)) continue;
       seen.add(key);
       out.push(c);
@@ -294,68 +428,114 @@ type ResolvedProgram = {
   total_ects: number | null;
 };
 
-async function resolveProgramIds(client: any, meta: any): Promise<ResolvedProgram[]> {
-  const programName = meta.program_name ?? meta.programme_name_en ?? meta.programme ?? meta.name ?? null;
-  const degree = normalizeDegree(meta.degree_level ?? meta.level);
-  const ectsValues = normalizeNumbers(meta.total_ects ?? meta.ects_points ?? meta.ects);
+function metadataProgramCandidates(meta: any): {
+  names: string[];
+  degree: "Bachelor" | "Master" | "Doctorate" | null;
+  ectsValues: number[];
+} {
+  const keyParts = String(meta.program_key ?? "")
+    .split("|")
+    .map((x) => x.trim())
+    .filter(Boolean);
 
-  if (!programName || !degree) return [];
+  const degreeFromKey = keyParts.length >= 2 ? normalizeDegree(keyParts[1]) : null;
+  const ectsFromKey = keyParts.length >= 3 ? normalizeNumber(keyParts[2]) : null;
+  const nameFromKey = keyParts.length >= 4 ? keyParts.slice(3).join(" ") : null;
+
+  const names = uniqueNonEmpty([
+    meta.program_name,
+    meta.programme_name_en,
+    meta.programme,
+    meta.name,
+    nameFromKey,
+  ]);
+
+  const degree = normalizeDegree(meta.degree_level ?? meta.level) ?? degreeFromKey;
+  const ectsValues = normalizeNumbers(meta.total_ects ?? meta.ects_points ?? meta.ects);
+  if (ectsFromKey != null && !ectsValues.includes(ectsFromKey)) ectsValues.push(ectsFromKey);
+
+  return { names, degree, ectsValues };
+}
+
+async function resolveProgramIds(client: any, meta: any): Promise<ResolvedProgram[]> {
+  const { names, degree, ectsValues } = metadataProgramCandidates(meta);
+  if (!names.length || !degree) return [];
 
   const out: ResolvedProgram[] = [];
   const seen = new Set<number>();
 
-  // total_ects can be an array, e.g. [30, 60]. In that case the same
-  // parsed document belongs to multiple StudyProgram rows.
-  for (const ects of ectsValues) {
-    const r = await client.query(
-      `SELECT program_id, total_ects
-       FROM StudyProgram
-       WHERE lower(name) = lower($1)
-         AND degree_level = $2
-         AND total_ects = $3
-       LIMIT 1;`,
-      [programName, degree, ects]
-    );
-
-    const row = r.rows[0];
-    if (!row?.program_id || seen.has(row.program_id)) continue;
-    seen.add(row.program_id);
-    out.push({
-      program_id: row.program_id,
-      total_ects: normalizeNumber(row.total_ects),
-    });
-  }
-
-  // Fallback for older metadata that does not contain ECTS. Do not use this
-  // fallback when ECTS were provided, otherwise a multi-ECTS document could
-  // silently be attached to only the first matching program.
-  if (out.length === 0) {
-    const r = await client.query(
-      `SELECT program_id, total_ects
-       FROM StudyProgram
-       WHERE lower(name) = lower($1)
-         AND degree_level = $2
-       ORDER BY program_id ASC
-       LIMIT 1;`,
-      [programName, degree]
-    );
-
-    const row = r.rows[0];
-    if (row?.program_id) {
+  const addRows = (rows: any[]) => {
+    for (const row of rows) {
+      if (!row?.program_id || seen.has(row.program_id)) continue;
+      seen.add(row.program_id);
       out.push({
         program_id: row.program_id,
         total_ects: normalizeNumber(row.total_ects),
       });
     }
+  };
+
+  // 1) Exact match against all stored program name columns.
+  for (const name of names) {
+    for (const ects of ectsValues) {
+      const r = await client.query(
+        `SELECT program_id, total_ects
+         FROM StudyProgram
+         WHERE degree_level = $2
+           AND total_ects = $3
+           AND (
+             lower(name) = lower($1)
+             OR lower(COALESCE(name_en, '')) = lower($1)
+             OR lower(COALESCE(name_de, '')) = lower($1)
+             OR lower(COALESCE(name_fr, '')) = lower($1)
+           )
+         ORDER BY program_id ASC;`,
+        [name, degree, ects]
+      );
+      addRows(r.rows);
+    }
   }
 
+  if (out.length > 0) return out;
+
+  // 2) Fuzzy fallback for Docling metadata generated from filenames, e.g.
+  //    program_key = "faculty of education|bachelor|180|special education".
+  //    Keep the degree/ECTS filters strict to avoid cross-program leakage.
+  const params: any[] = [degree];
+  let ectsSql = "";
+  if (ectsValues.length > 0) {
+    params.push(ectsValues);
+    ectsSql = `AND total_ects = ANY($${params.length}::float8[])`;
+  }
+
+  const candidates = await client.query(
+    `SELECT program_id, total_ects, name, name_en, name_de, name_fr
+     FROM StudyProgram
+     WHERE degree_level = $1
+       ${ectsSql}
+     ORDER BY program_id ASC;`,
+    params
+  );
+
+  const wanted = names.map(normalizeComparable).filter(Boolean);
+  const fuzzyRows = candidates.rows.filter((row: any) => {
+    const stored = [row.name, row.name_en, row.name_de, row.name_fr]
+      .map(normalizeComparable)
+      .filter(Boolean);
+
+    return wanted.some((w) =>
+      stored.some((s) => s === w || s.includes(w) || w.includes(s))
+    );
+  });
+
+  addRows(fuzzyRows);
   return out;
 }
 
 async function run() {
   const CRAWLER_ROOT = process.env.CRAWLER_ROOT ?? "/scrapy_crawler";
   const parsedDir = process.env.DOCLING_PARSED_DIR
-    ?? path.posix.join(CRAWLER_ROOT, "outputs", "parsed_fulltext_docling_new");
+    ?? path.posix.join(CRAWLER_ROOT, "outputs", "parsed_fulltext_docling_new2");
 
   const files = readTxtFiles(parsedDir);
   const client = await DataAccessController.pool.connect();
@@ -367,6 +547,7 @@ async function run() {
 
   try {
     await client.query("BEGIN;");
+    await client.query("TRUNCATE TABLE programCourseStaging RESTART IDENTITY;");
 
     for (const file of files) {
       const parsed = parseDocling(file);
@@ -384,6 +565,17 @@ async function run() {
 
       for (const program of programs) {
         const programId = program.program_id;
+        const electiveEcts = extractElectiveEctsText(parsed.pages, program.total_ects);
+
+        if (electiveEcts) {
+          await client.query(
+            `UPDATE StudyProgram
+             SET elective_ects = $2
+             WHERE program_id = $1
+               AND (elective_ects IS NULL OR elective_ects = '' OR elective_ects <> $2);`,
+            [programId, stripNullBytes(electiveEcts)]
+          );
+        }
 
         const docRes = await client.query(
           `INSERT INTO programDocument (program_id, label, url, doc_type, fetched_at, parse_status, parse_notes)
@@ -413,26 +605,23 @@ async function run() {
         const seen = new Set<string>();
 
         for (const c of courses) {
-          const key = `${programId}|${docId}|${c.page_no}|${c.extracted_code}`;
+          const key = `${programId}|${docId}|${c.page_no}|${c.reference_type}|${c.extracted_code ?? ''}|${c.extracted_module ?? ''}|${c.raw_text}`;
           if (seen.has(key)) continue;
           seen.add(key);
 
           stagingAttempted++;
           const res = await client.query(
             `INSERT INTO programCourseStaging
-               (program_id, raw_text, extracted_code, extracted_title, inferred_type, source_doc_id, page_no, section)
+               (program_id, raw_text, reference_type, extracted_code, extracted_module, extracted_title, inferred_type, source_doc_id, page_no, section)
              VALUES
-               ($1, $2, $3, $4, $5, $6, $7, $8)
-             ON CONFLICT (program_id, extracted_code, source_doc_id, page_no)
-             DO UPDATE SET
-               raw_text = EXCLUDED.raw_text,
-               extracted_title = COALESCE(EXCLUDED.extracted_title, programCourseStaging.extracted_title),
-               inferred_type = COALESCE(EXCLUDED.inferred_type, programCourseStaging.inferred_type),
-               section = COALESCE(EXCLUDED.section, programCourseStaging.section);`,
+               ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+             ON CONFLICT DO NOTHING;`,
             [
               programId,
               stripNullBytes(c.raw_text),
+              c.reference_type,
               c.extracted_code,
+              c.extracted_module ? stripNullBytes(c.extracted_module) : null,
               c.extracted_title ? stripNullBytes(c.extracted_title) : null,
               c.inferred_type,
               docId,

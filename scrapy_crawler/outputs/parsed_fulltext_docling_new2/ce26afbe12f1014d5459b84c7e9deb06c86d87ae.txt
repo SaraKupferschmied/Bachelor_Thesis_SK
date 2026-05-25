@@ -1,0 +1,95 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:53:31.659Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Economics_Ethik_und_Volkswirtschaftslehre_ce26afbe12f1014d5459b84c7e9deb06c86d87ae",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ce26afbe12f1014d5459b84c7e9deb06c86d87ae",
+  "program_key": "faculty of management, economics and social sciences|master|30|economics",
+  "source_url": "https://www.calameo.com/read/003659115a83222167d30",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Economics_Ethik_und_Volkswirtschaftslehre_ce26afbe12f1014d5459b84c7e9deb06c86d87ae.pdf",
+  "sha256": "1448b50a1b6127b8abeffcc467139aa73151e8caecd97e81ce1d5ef1882cc3ee",
+  "fetched_at": "2026-05-21T16:05:31.590Z",
+  "notes": "calameo downloaded (id=003659115a83222167d30, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223104720-3321e84500d47a8ad8616d0c6823bb27/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=09b3ce41467212ec6f2c7108c8b19166a37cb2945d5c84edbc11f538a4ccbec4, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Economics",
+  "programme_name_de": "Volkswirtschaftslehre",
+  "programme_name_fr": "Économie politique",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/economics",
+  "curriculum_url": "http://studies.unifr.ch/go/8Snjt"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+1209 : Ethik und Volkswirtschaftslehre 30 [MA]
+
+Programm
+
+2023-SA\_V01
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+## Wichtiger Hinweis
+
+Das Organisationsreglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 11 und 12) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg , abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiendauer
+
+Ein Nebenfach ist zeitlich durch die Dauer seines Hauptprogramms begrenzt. Es muss spätestens mit dem gleichen Zeitaufwand erworben werden wie der Studiengang, dem es untergeordnet ist.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870304)
+
+Möglichkeit zum Ausgleich von maximal 6 ECTS
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Sie müssen mindestens 12 ECTS in jedem Modul validieren und insgesamt mindestens 30 ECTS erreichen.
+
+| Code                               | Lehreinheit                                           | Lehrer(innen)                      | Semester                           | Niveau                             | Sprache                            | Bewertung                                        | ECTS                               |
+|------------------------------------|-------------------------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|--------------------------------------------------|------------------------------------|
+| Modul I - Ethik und Menschenrechte | Modul I - Ethik und Menschenrechte                    | Modul I - Ethik und Menschenrechte | Modul I - Ethik und Menschenrechte | Modul I - Ethik und Menschenrechte | Modul I - Ethik und Menschenrechte | Modul I - Ethik und Menschenrechte               | Modul I - Ethik und Menschenrechte |
+| EEP.00127                          | Business and Human Rights                             | Umlas                              | HS-2025                            | MA                                 | en                                 | Fortlaufende Evaluation                          | 3                                  |
+| DDR.00579                          | Droit international et européen des droits de l'homme | Besson                             | HS-2025                            | MA                                 | fr                                 | Schriftliche Prüfung                             | 5                                  |
+| SGG.00473                          | Seminar in global change, development and ethics      | Fautras                            | FS-2026                            | MA                                 | en                                 | Projekt                                          | 3                                  |
+| EEP.00331                          | The Ethics of Economics as a Profession               | Gläser                             | FS-2026                            | MA                                 | en                                 | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                                |
+
+<!-- image -->
+
+| Code                                             | Lehreinheit                                                        | Lehrer(innen)                                    | Semester                                         | Niveau                                           | Sprache                                          | Bewertung                                        | ECTS                                             |
+|--------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| EEP.00334                                        | Global Economic Justice                                            | Roser                                            | FS-2026                                          | MA                                               | en                                               | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                                              |
+| EKM.00421                                        | Séminaire: Communication, médias et éthique                        | Van Hove                                         | FS-2026                                          | BA                                               | fr                                               | Fortlaufende Evaluation                          | 3                                                |
+| Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik                   | Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik | Modul II - Wirtschaftliche Entwicklung und Ethik |
+| EEP.00321                                        | Aide, microcrédit et autres instruments de développement           | Dumas                                            | FS-2026                                          | MA                                               | fr                                               | Fortlaufende Evaluation                          | 4.5                                              |
+| EEP.00125                                        | Sustainable Globalization                                          | Grossmann                                        | HS-2025                                          | MA                                               | en                                               | Fortlaufende Evaluation                          | 4.5                                              |
+| EEP.00495                                        | Advanced Microeconomics                                            | Büchel, Valvassori Bolgè                         | HS-2025                                          | MA                                               | en                                               | Schriftliche Prüfung                             | 6                                                |
+| EEP.00496                                        | Econometric Methods and Applications                               | Huber                                            | HS-2025                                          | MA                                               | en                                               | Schriftliche Prüfung                             | 6                                                |
+| EEP.00532                                        | Changement climatique dans les pays en développement               | Gautrain                                         | FS-2026                                          | MA                                               | fr                                               | Fortlaufende Evaluation und mündliche Prüfung    | 4.5                                              |
+| EEP.00063                                        | Evaluation des dommages et Politiques environnementales            | Maradan                                          | FS-2026                                          | MA                                               | fr                                               | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                                              |
+| EGE.00108                                        | Marketing Durable                                                  | Furrer                                           | FS-2026                                          | MA                                               | fr                                               | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                                              |
+| EEP.00559                                        | Energieökonomik in der Praxis: Fallstudien für Experten von morgen | Deuchert                                         | FS-2026                                          | MA                                               | de                                               | Schriftliche Arbeit und Vortrag                  | 3                                                |
+
+## Rechtsgrundlage
+
+Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg

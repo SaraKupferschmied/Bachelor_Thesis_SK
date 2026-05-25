@@ -1,0 +1,62 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:39:02.146Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Economics_MA_30_ECTS_Volkswirtschaftslehre_75a4c004f1042ed6b8b2ddf4f82ed00b44fc80e0",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "75a4c004f1042ed6b8b2ddf4f82ed00b44fc80e0",
+  "program_key": "faculty of management, economics and social sciences|master|30|economics",
+  "source_url": "https://fr.calameo.com/read/00365911527a1f031dd57",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Economics_MA_30_ECTS_Volkswirtschaftslehre_75a4c004f1042ed6b8b2ddf4f82ed00b44fc80e0.pdf",
+  "sha256": "57527677b5694230a642b76c5467ce244c5606ff194a2afedc7b5c3c6ba3a24b",
+  "fetched_at": "2026-05-21T16:05:32.150Z",
+  "notes": "calameo downloaded (id=00365911527a1f031dd57, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260304101132-4d4533cd675ed7303c07bdddf0f1b6c9/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=357bcb8adc6df2adec834b403fe600a1775b845ff52499e3d962504524a5e84d, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Economics",
+  "programme_name_de": "Volkswirtschaftslehre",
+  "programme_name_fr": "Économie politique",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/economics",
+  "curriculum_url": "http://studies.unifr.ch/go/8Snjt"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+septembre 2024
+
+## Masternebenfach 30 ECTS
+
+## Volkswirtschaftslehre
+
+<!-- image -->
+
+## ZULASSUNGSBEDINGUNGEN
+
+Mindestens 30 ECTS in Kursen der Volkswirtschaftslehre, welche dem BA-Nebenfach der Fakultät entsprechen :
+
+## Pflichtkurse
+
+-  Mikroökonomie I (6 ECTS)
+-  Makroökonomie I (6 ECTS)
+-  Mikroökonomie II (6 ECTS)
+-  Makroökonomie II (6 ECTS)
+
+## Wahlkurse
+
+Die Studenten wählen Semesterkurse aus dem Angebot der Bachelorkurse der Wirtschafts- und Sozialwissenschaftlichen Fakultät, bis sie auf ein Total von mindestens 30 ECTS Kreditpunkten kommen. Um zum 30-ECTS-Master-Nebenfach in Volkswirtschaftslehre zugelassen zu werden, ist (mindestens) das Äquivalent der Kurse Statistik I + Statistik II im BA-Studiengang nachzuweisen. Diese Statistikkurse können aus den oben genannten Wahlkursen gewählt werden.
+
+Studenten, die im Master in Volkswirtschaftslehre (90 ECTS) eingeschrieben sind, können nicht zu diesem MA-Nebenfach zugelassen werden.
+
+## KURSANGEBOT
+
+Informationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.
+
+## WEITERE INFO
+
+Wenn Sie dieses P2 im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.

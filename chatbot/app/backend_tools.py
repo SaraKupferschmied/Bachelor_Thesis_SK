@@ -3,6 +3,17 @@ from typing import Any, Optional, Callable
 from .config import settings
 
 
+def _looks_like_language_code(value: str | None, code: str) -> bool:
+    if not value:
+        return False
+    v = value.strip().lower()
+    if code == "de":
+        return any(x in v for x in ["de", "deutsch", "german", "allemand"])
+    if code == "fr":
+        return any(x in v for x in ["fr", "français", "francais", "french"])
+    return any(x in v for x in ["en", "english", "anglais", "englisch"])
+
+
 def _get(path: str, params: Optional[dict[str, Any]] = None) -> Any:
     r = requests.get(f"{settings.backend_api_base}{path}", params=params, timeout=8)
     r.raise_for_status()
@@ -346,6 +357,18 @@ def _dedupe_course_rows(rows: list[dict[str, Any]], limit: int) -> list[dict[str
     return deduped
 
 
+def _as_row_list(value: Any) -> list[dict[str, Any]]:
+    if isinstance(value, list):
+        return [row for row in value if isinstance(row, dict)]
+
+    if isinstance(value, dict):
+        for key in ("courses", "results", "items", "data"):
+            rows = value.get(key)
+            if isinstance(rows, list):
+                return [row for row in rows if isinstance(row, dict)]
+
+    return []
+
 def get_mobility_courses(
     semesters: list[str],
     interest: str,
@@ -394,7 +417,8 @@ def get_mobility_courses(
         ]
 
         for search_fn in search_attempts:
-            rows = search_fn()
+            rows = _as_row_list(search_fn())
+
             for row in rows:
                 item = dict(row)
                 item["requested_semester"] = sem
@@ -650,6 +674,7 @@ TOOL_SPECS: list[dict[str, Any]] = [
         "parameters": {
             "type": "object",
             "properties": {
+                "q": {"type": "string", "description": "Broad localized search across program names, course names/descriptions and domains"},
                 "program_en": {"type": "string"},
                 "program_de": {"type": "string"},
                 "program_fr": {"type": "string"},

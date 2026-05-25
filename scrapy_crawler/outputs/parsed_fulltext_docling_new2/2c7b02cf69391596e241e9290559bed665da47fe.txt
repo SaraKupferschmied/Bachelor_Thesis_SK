@@ -1,0 +1,75 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:01:01.717Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology_Biologie_prop_deutique_2c7b02cf69391596e241e9290559bed665da47fe",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2c7b02cf69391596e241e9290559bed665da47fe",
+  "program_key": "faculty of science and medicine|bachelor|120|biology",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_BL_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biology_Biologie_prop_deutique_2c7b02cf69391596e241e9290559bed665da47fe.pdf",
+  "sha256": "38e256e8b85fdd20c555e497ba4838563212abbdb7a343fefff15f542ded6012",
+  "fetched_at": "2026-05-21T16:05:18.828Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_BL_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biology",
+  "programme_name_de": "Biologie",
+  "programme_name_fr": "Biologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biology",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.6 Biologie propédeutique
+
+[Version 2020, modules : MO-SBL.00001, MO-SBL.00057]
+
+La  biologie  propédeutique  offre  les  unités  d ' enseignement de première année pour plusieurs voies d ' études de la Faculté des sciences et de médecine. Elle regroupe des cours et travaux pratiques d ' une valeur totale de 12 ECTS pour la biologie générale. Une variante particulière (II) est  offerte  aux  étudiant·e·s  en  BSc  de  chimie,  BSc  en  sciences  biomédicales  et  en  BSc  en sciences du sport et de la motricité, option santé -performance -recherche.
+
+## 2.6.1 Unités d ' enseignement des branches propédeutiques en Biologie
+
+## 2.6.1.1 Variante I
+
+Cette variante s'adresse aux étudiant -e-s qui ne sont pas concernés par la variante II.
+
+## Semestre 1 (automne)
+
+| Code                   | Unité d ' enseignement                   | h. tot.                | ECTS                   |
+|------------------------|------------------------------------------|------------------------|------------------------|
+| SBL.00001              | Biologie générale I (cours)              | 46                     | 5                      |
+| SBL.00003              | Biologie générale I (travaux pratiques)  | 12                     | 1                      |
+| SBL.00003              | Biologie générale I (travaux pratiques)  | 12                     | 6                      |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                   | Semestre 2 (printemps) | Semestre 2 (printemps) |
+| SBL.00002              | Biologie générale II (cours)             | 46                     | 5                      |
+| SBL.00004              | Biologie générale II (travaux pratiques) | 12                     | 1                      |
+| SBL.00004              | Biologie générale II (travaux pratiques) | 12                     | 6                      |
+
+## 2.6.1.2 Variante II pour étudiant-e-s en chimie, sciences biomédicales et sciences du sport et de la motricité, option santé -performance -recherche,
+
+| Semestre 1 (automne)   | Semestre 1 (automne)                    |         |      |
+|------------------------|-----------------------------------------|---------|------|
+| Code                   | Unité d ' enseignement                  | h. tot. | ECTS |
+| SBL.00001              | Biologie générale I (cours)             | 46      | 5    |
+| SBL.00003              | Biologie générale I (travaux pratiques) | 12      | 1    |
+|                        |                                         |         | 6    |
+| Semestre 2 (printemps) | Semestre 2 (printemps)                  |         |      |
+| SBC.00119              | Fondements de biochimie                 | 52      | 6    |
+|                        |                                         |         | 6    |
+
+## 2.6.2 Contenu des unités d ' enseignement
+
+· Les cours de Biologie générale I et II (SBL.00001, SBL.00002) donnent une introduction à la biologie (Biologie cellulaire et moléculaire, Génétique, Écologie, Biologie végétale, Biologie de l'évolution )  et  traitent  des structures et fonctions biologiques du niveau moléculaire à celui de l'organisme. Les travaux pratiques de Biologie générale I et II (SBL.00003, SBL.00004) illustrent des notions de biologie fondamentale touchant les cellules, les organismes, la génétique et les bases de microbiologie.
+
+· Le cours Fondements de biochimie (SBC.00119) offre une introduction à la biochimie; il décrit la  composition,  la  structure  et  le  métabolisme  des  principaux  composés  de  la  cellule  et  des organismes (acides nucléiques, acides aminés, glucides et lipides).
+
+## 2.6.3 Évaluation des branches propédeutiques de la biologie
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter les annexes de la biologie et de la biochimie.

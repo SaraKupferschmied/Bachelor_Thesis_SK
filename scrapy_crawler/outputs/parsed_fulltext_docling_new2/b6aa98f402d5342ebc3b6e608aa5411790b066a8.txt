@@ -1,0 +1,644 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:13:09.546Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_120_International_and_European_Business_Studienplan_Pavia__b6aa98f402d5342ebc3b6e608aa5411790b066a8",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "b6aa98f402d5342ebc3b6e608aa5411790b066a8",
+  "program_key": "faculty of management, economics and social sciences|master|120|international and european business",
+  "source_url": "https://www.calameo.com/read/003659115424310c5acb9",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_120_International_and_European_Business_Studienplan_Pavia__b6aa98f402d5342ebc3b6e608aa5411790b066a8.pdf",
+  "sha256": "ff59b5c3d5be08892e41d4975b57db22a41ea32a244ada8efcd744b85d0ceb94",
+  "fetched_at": "2026-05-21T16:05:31.208Z",
+  "notes": "calameo downloaded (id=003659115424310c5acb9, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260129145425-011c1560596060302acdb7b80cfa58a5/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160530Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=c975025d3ee24dec58c4376c442b2e62df77058fc929cb38b3e7b57aa92d2ba5, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "International and European Business",
+  "programme_name_de": "International and European Business",
+  "programme_name_fr": "International and European Business",
+  "programme_url": "https://studies.unifr.ch/en/master/eco/europeanbusiness",
+  "curriculum_url": "http://studies.unifr.ch/go/2ihyy"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+318 : Master of Arts in International and European Business
+
+Studiengang
+
+1027 : International and European Business 120 [MA\_DD]
+
+Programm
+
+2021-SA\_V01 - DD Pavia OUT dès SA-2025
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+Das Double-Degree-Programm zwischen der Universität Pavia und der Universität Freiburg ermöglicht es den Studierenden, zwei Masterabschlüsse zu erwerben - je einen von jeder Institution - nach Abschluss eines integrierten Studienprogramms im Umfang von 120 ECTS.
+
+Studierende aus Freibourg absolvieren im ersten Jahr 60 ECTS aus Lehrveranstaltungen in Freiburg. Im zweiten Jahr studieren sie in Pavia, wo sie 36 ECTS aus Lehrveranstaltungen sowie 24 ECTS für die Masterarbeit unter der Betreuung einer Professorin oder eines Professors der Universität Pavia erbringen müssen.
+
+## WICHTIGER HINWEISS
+
+Das Master-Reglement (Artikel und 7) gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 6 und 7) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg , abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiendauer
+
+Die maximale Studiendauer beträgt 8 Semester . Das Programm kann je nach Studienrhythmus in 3 bis 4 Semestern abgeschlossen werden.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss Artikel 6 des Reglement vom 27. September 2021 für den Erwerb der Master an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an
+
+(https://webapps.unifr.ch/legal/de/document/2870310).
+
+Seminararbeiten und die Masterarbeit müssen zwingend bestanden werden : sie können nicht kompensiert werden.
+
+In Freiburg basiert die Kompensation auf den insgesamt 60 ECTS aus den Kursen des ersten Jahres.
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Code Lehreinheit
+
+## Courses in Fribourg
+
+Mindestens zwei Pflichtkurse des Moduls 'European and Global Business' (EUGB) absolvieren.
+
+Ein Wahlmodul auswählen und mindestens zwei seiner Pflichtkurse absolvieren. Die Wahlmodule decken verschiedene Bereiche des Managements ab, sodass Sie sich entsprechend Ihren akademischen Interessen und Karrierezielen spezialisieren können.
+
+## Mandatory module
+
+## EUGB: European and Global Business
+
+Lehrer(innen)
+
+Semester Niveau Sprache Bewertung ECTS
+
+<!-- image -->
+
+Code
+
+Kernkurse
+
+EGE.00101
+
+EGE.00049
+
+EGE.00048
+
+EGE.00262
+
+EGE.00194
+
+EEP.00095
+
+## Wahlkurse
+
+EEP.00175
+
+EGE.00250
+
+EGE.00470
+
+EGE.00030
+
+EEP.00125
+
+EGE.00487
+
+EGE.00486
+
+Lehreinheit
+
+Case studies in international strategy
+
+International Marketing
+
+Fundamentals of International Management
+
+International Services Marketing
+
+Intercultural Management
+
+Microeconomics of Competitiveness (MOC)
+
+Intégration européenne
+
+Intercultural Business Projects
+
+International Negotiations - Success stories from
+
+an intercultural background
+
+Strategic Value Creation
+
+Sustainable Globalization
+
+Organizational Resilience of Multinational
+
+Corporations
+
+Advanced Seminar in Strategic International
+
+Management
+
+## One complete module taken from the following list
+
+## STR: Strategy
+
+## Kernkurse
+
+| EGE.00101   | Case studies in international strategy                 | Jenisch, Morschett   | HS-2025   | MA   | en   | Fortlaufende Evaluation                          |   4.5 |
+|-------------|--------------------------------------------------------|----------------------|-----------|------|------|--------------------------------------------------|-------|
+| EGE.00473   | Developing an Innovation Strategy                      | Nüesch               | HS-2025   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung |   4.5 |
+| EGE.00048   | Fundamentals of International Management               | Flankova             | HS-2025   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung |   4.5 |
+| EGE.00107   | Marketing Strategy                                     | Furrer               | HS-2025   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung |   4.5 |
+| EGE.00030   | Strategic Value Creation                               | Hilb                 | HS-2025   | MA   | en   | Fortlaufende Evaluation                          |     3 |
+| EGE.00486   | Advanced Seminar in Strategic International Management | Morschett            | FS-2026   | MA   | en   | Schriftliche Arbeit und Vortrag                  |   4.5 |
+| EGE.00489   | Business & Sustainable Development                     | Mena                 | HS-2025   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung |   4.5 |
+
+Lehrer(innen)
+
+Jenisch,
+
+Morschett
+
+Morschett
+
+Flankova
+
+Bambauer-Sachse
+
+Davoine
+
+Gugler
+
+Madiès
+
+Furrer, Morschett
+
+Audebert
+
+Hilb
+
+Grossmann
+
+Flankova
+
+Morschett Semester HS-2025
+
+HS-2025
+
+HS-2025
+
+FS-2026
+
+HS-2025
+
+FS-2026
+
+FS-2026
+
+FS-2026
+
+HS-2025
+
+HS-2025
+
+HS-2025
+
+FS-2026
+
+FS-2026
+
+Niveau
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+MA
+
+Sprache
+
+en
+
+en
+
+en
+
+en
+
+en
+
+en
+
+fr
+
+en
+
+en
+
+en
+
+en
+
+en
+
+en Bewertung Fortlaufende Evaluation Schriftliche Prüfung Fortlaufende Evaluation und schriftliche Prüfung Fortlaufende Evaluation und schriftliche Prüfung Schriftliche Prüfung Fortlaufende Evaluation Schriftliche Prüfung Fortlaufende Evaluation Fortlaufende Evaluation Fortlaufende Evaluation Fortlaufende Evaluation Fortlaufende Evaluation und schriftliche Prüfung Schriftliche Arbeit und Vortrag ECTS
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+4.5
+
+3
+
+4.5
+
+4.5
+
+4.5
+
+<!-- image -->
+
+| Code                                    | Lehreinheit                                               | Lehrer(innen)            | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------------------------------------|-----------------------------------------------------------|--------------------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00490                               | La stratégie au-delà du marché                            | Mena                     | HS-2025    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00491                               | Strategic Management of privately-owned Family Businesses | Bertschi                 | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| Wahlkurse                               | Wahlkurse                                                 |                          |            |          |           |                                                  |        |
+| EEP.00495                               | Advanced Microeconomics                                   | Büchel, Valvassori Bolgè | HS-2025    | MA       | en        | Schriftliche Prüfung                             |      6 |
+| EIG.00031                               | Advanced Topics in Decision Support                       | Ries                     | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00250                               | Intercultural Business Projects                           | Furrer, Morschett        | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00332                               | Märkte und Strategien                                     | Büchel                   | HS-2025    | MA       | de        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00453                               | Collaborative Value Creation in Ecosystems                | Hilb                     | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00095                               | Microeconomics of Competitiveness (MOC)                   | Gugler                   | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00518                               | Organisational Economics                                  | Herz                     | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EEP.00098                               | Politiques des marchés et de la concurrence               | Gugler                   | HS-2025    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00257                               | Winning Consulting Projects                               | Thom                     | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00283                               | MAN08F: Management stratégique                            | Mena                     | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00485                               | MAN08E: Strategic Management                              | Mena                     | FS-2026    | BA       | en        | Schriftliche Prüfung                             |    4.5 |
+| INNO-ENT: Innovation & Entrepreneurship | INNO-ENT: Innovation & Entrepreneurship                   |                          |            |          |           |                                                  |        |
+| Kernkurse                               | Kernkurse                                                 |                          |            |          |           |                                                  |        |
+| EGE.00254                               | Advanced Entrepreneurship                                 | Fauchart, Tang           | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00472                               | Customer-Centric Innovation                               | Nüesch                   | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00473                               | Developing an Innovation Strategy                         | Nüesch                   | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00306                               | Seminar in Social Entrepreneurship                        | Erpf                     | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00255                               | Nouveaux trends de l'innovation                           | Fauchart                 | FS-2026    | MA       | fr        | Fortlaufende Evaluation                          |    4.5 |
+| Wahlkurse                               | Wahlkurse                                                 |                          |            |          |           |                                                  |        |
+| EGE.00453                               | Collaborative Value Creation in Ecosystems                | Hilb                     | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00471                               | Leadership styles, contexts and success factors           | Erpf, Lang               | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00030                               | Strategic Value Creation                                  | Hilb                     | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+
+## OHRM: Organisation and Human Resource Management
+
+## Kernkurse
+
+<!-- image -->
+
+| Code           | Lehreinheit                                                                                 | Lehrer(innen)   | Semester       | Niveau         | Sprache        | Bewertung                                        | ECTS           |
+|----------------|---------------------------------------------------------------------------------------------|-----------------|----------------|----------------|----------------|--------------------------------------------------|----------------|
+| EGE.00060      | Compétences managériales                                                                    | Davoine         | FS-2026        | MA             | fr             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00194      | Intercultural Management                                                                    | Davoine         | HS-2025        | MA             | en             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00471      | Leadership styles, contexts and success factors                                             | Erpf, Lang      | FS-2026        | MA             | en             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00251      | Organisational Change and Crisis Management in Nonprofit Organisations                      | Gmür            | FS-2026        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+| EGE.00045      | Organization Behavior                                                                       | von Wittich     | HS-2025        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+| Wahlkurse      | Wahlkurse                                                                                   | Wahlkurse       | Wahlkurse      | Wahlkurse      | Wahlkurse      | Wahlkurse                                        | Wahlkurse      |
+| EEP.00127      | Business and Human Rights                                                                   | Umlas           | HS-2025        | MA             | en             | Fortlaufende Evaluation                          | 3              |
+| EGE.00281      | MAN05F: Gestion des ressources humaines                                                     | Davoine         | HS-2025        | BA             | fr             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00282      | MAN05D: Human Resource Management                                                           | Gmür            | HS-2025        | BA             | de             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00072      | Ressourcenmanagement in Nonprofit-Organisationen                                            | Gmür            | HS-2025        | MA             | de             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00475      | Management des ressources humaines et matérielles dans les organisations à but non lucratif | Gmür            | HS-2025        | MA             | fr             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00470      | International Negotiations - Success stories from an intercultural background               | Audebert        | HS-2025        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+| EGE.00257      | Winning Consulting Projects                                                                 | Thom            | FS-2026        | MA             | en             | Fortlaufende Evaluation                          | 3              |
+| EGE.00483      | Ethical Leadership and Organizational Culture                                               | Gonin           | FS-2026        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+| EGE.00487      | Organizational Resilience of Multinational Corporations                                     | Flankova        | FS-2026        | MA             | en             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00480      | Business Ethics                                                                             | Roser           | HS-2025        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+| MAR: Marketing | MAR: Marketing                                                                              | MAR: Marketing  | MAR: Marketing | MAR: Marketing | MAR: Marketing | MAR: Marketing                                   | MAR: Marketing |
+| Kernkurse      | Kernkurse                                                                                   | Kernkurse       | Kernkurse      | Kernkurse      | Kernkurse      | Kernkurse                                        | Kernkurse      |
+| EGE.00083      | Customer orientation and complaint management                                               | Bambauer-Sachse | HS-2025        | MA             | en             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00108      | Marketing Durable                                                                           | Furrer          | FS-2026        | MA             | fr             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| EGE.00107      | Marketing Strategy                                                                          | Furrer          | HS-2025        | MA             | en             | Fortlaufende Evaluation und schriftliche Prüfung | 4.5            |
+| Wahlkurse      | Wahlkurse                                                                                   | Wahlkurse       | Wahlkurse      | Wahlkurse      | Wahlkurse      | Wahlkurse                                        | Wahlkurse      |
+| EGE.00269      | Digital Commerce in B2C and B2B Markets                                                     | Schu            | FS-2026        | MA             | en             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00049      | International Marketing                                                                     | Morschett       | HS-2025        | MA             | en             | Schriftliche Prüfung                             | 4.5            |
+| EGE.00470      | International Negotiations - Success stories from an intercultural background               | Audebert        | HS-2025        | MA             | en             | Fortlaufende Evaluation                          | 4.5            |
+
+<!-- image -->
+
+| Code                                     | Lehreinheit                                                            | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|------------------------------------------|------------------------------------------------------------------------|-----------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00262                                | International Services Marketing                                       | Bambauer-Sachse | FS-2026    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00255                                | Nouveaux trends de l'innovation                                        | Fauchart        | FS-2026    | MA       | fr        | Fortlaufende Evaluation                          |    4.5 |
+| FIN: Finance                             | FIN: Finance                                                           |                 |            |          |           |                                                  |        |
+| Kernkurse                                | Kernkurse                                                              |                 |            |          |           |                                                  |        |
+| EGE.00267                                | Asset Management                                                       | Wallmeier       | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00016                                | Corporate governance                                                   | Isakov          | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00020                                | Gestion de portefeuille                                                | Isakov          | HS-2025    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| Wahlkurse                                | Wahlkurse                                                              |                 |            |          |           |                                                  |        |
+| EGE.00484                                | CFA Research Challenge                                                 | Wallmeier       | HS-2025    | MA       | en        | Fortlaufende Evaluation und mündliche Prüfung    |      6 |
+| EGE.00090                                | Mergers & Acquisitions                                                 | Masset          | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| ACC: Accounting and Control              | ACC: Accounting and Control                                            |                 |            |          |           |                                                  |        |
+| Kernkurse                                | Kernkurse                                                              |                 |            |          |           |                                                  |        |
+| EGE.00068                                | Advanced Group Accounting                                              | Kunz            | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00119                                | International Accounting Standards                                     | Missonier-Piera | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00113                                | Management control systems                                             | Burkert         | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| Wahlkurse                                | Wahlkurse                                                              |                 |            |          |           |                                                  |        |
+| EGE.00016                                | Corporate governance                                                   | Isakov          | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00112                                | Seminar in advanced management accounting and control                  | Burkert         | HS-2025    | MA       | de        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00027                                | The audit profession and the public interest                           | Nösberger       | FS-2026    | MA       | en        | Mündliche Prüfung                                |    4.5 |
+| EGE.00114                                | Théorie de l'information comptable                                     | Missonier-Piera | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| NPO-SUST: NPO and Sustainable Management | NPO-SUST: NPO and Sustainable Management                               |                 |            |          |           |                                                  |        |
+| Kernkurse                                | Kernkurse                                                              |                 |            |          |           |                                                  |        |
+| EEP.00127                                | Business and Human Rights                                              | Umlas           | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00108                                | Marketing Durable                                                      | Furrer          | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00251                                | Organisational Change and Crisis Management in Nonprofit Organisations | Gmür            | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+
+<!-- image -->
+
+| Code                         | Lehreinheit                                                                                 | Lehrer(innen)                | Semester                     | Niveau                       | Sprache                      | Bewertung                                        | ECTS                         |
+|------------------------------|---------------------------------------------------------------------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|--------------------------------------------------|------------------------------|
+| EGE.00072                    | Ressourcenmanagement in Nonprofit-Organisationen                                            | Gmür                         | HS-2025                      | MA                           | de                           | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                          |
+| EGE.00475                    | Management des ressources humaines et matérielles dans les organisations à but non lucratif | Gmür                         | HS-2025                      | MA                           | fr                           | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                          |
+| EGE.00306                    | Seminar in Social Entrepreneurship                                                          | Erpf                         | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation                          | 3                            |
+| EEP.00125                    | Sustainable Globalization                                                                   | Grossmann                    | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation                          | 4.5                          |
+| EGE.00489                    | Business & Sustainable Development                                                          | Mena                         | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                          |
+| Wahlkurse                    | Wahlkurse                                                                                   | Wahlkurse                    | Wahlkurse                    | Wahlkurse                    | Wahlkurse                    | Wahlkurse                                        | Wahlkurse                    |
+| EGE.00483                    | Ethical Leadership and Organizational Culture                                               | Gonin                        | FS-2026                      | MA                           | en                           | Fortlaufende Evaluation                          | 4.5                          |
+| EKM.00989                    | Corporate Social Responsibility and Social Impact                                           | Illia Manzan                 | FS-2026                      | MA                           | en                           | Fortlaufende Evaluation                          | 3                            |
+| EGE.00055                    | Das Freiburger Management-Modell                                                            | Lichtsteiner                 | HS-2025                      | MA                           | de                           | Schriftliche Prüfung                             | 3                            |
+| EGE.00476                    | Management des organisations à but non lucratif - l'approche fribourgeoise                  | Lichtsteiner                 | HS-2025                      | MA                           | fr                           | Schriftliche Prüfung                             | 3                            |
+| EGE.00483                    | Ethical Leadership and Organizational Culture                                               | Gonin                        | FS-2026                      | MA                           | en                           | Fortlaufende Evaluation                          | 4.5                          |
+| EGE.00471                    | Leadership styles, contexts and success factors                                             | Erpf, Lang                   | FS-2026                      | MA                           | en                           | Schriftliche Prüfung                             | 4.5                          |
+| EGE.00098                    | Strategische Neuausrichtung einer NPO                                                       | Lichtsteiner                 | FS-2026                      | MA                           | de                           | Schriftliche Arbeit und Vortrag                  | 4.5                          |
+| EGE.00477                    | Renouvellement stratégique d'une organisation à but non lucratif                            | Lichtsteiner                 | FS-2026                      | MA                           | fr                           | Schriftliche Arbeit und Vortrag                  | 4.5                          |
+| EGE.00480                    | Business Ethics                                                                             | Roser                        | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation                          | 4.5                          |
+| EKM.01486                    | Designs, Data Access, Data Collection and Data Analysis                                     | Rohrbach                     | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation                          | 3                            |
+| DIG: Managing Digitalisation | DIG: Managing Digitalisation                                                                | DIG: Managing Digitalisation | DIG: Managing Digitalisation | DIG: Managing Digitalisation | DIG: Managing Digitalisation | DIG: Managing Digitalisation                     | DIG: Managing Digitalisation |
+| Kernkurse                    | Kernkurse                                                                                   | Kernkurse                    | Kernkurse                    | Kernkurse                    | Kernkurse                    | Kernkurse                                        | Kernkurse                    |
+| EGE.00269                    | Digital Commerce in B2C and B2B Markets                                                     | Schu                         | FS-2026                      | MA                           | en                           | Schriftliche Prüfung                             | 4.5                          |
+| EIG.00131                    | Digitalization and Information Systems                                                      | Fill                         | FS-2026                      | MA                           | en                           | Fortlaufende Evaluation und schriftliche Prüfung | 4.5                          |
+| EGE.00255                    | Nouveaux trends de l'innovation                                                             | Fauchart                     | FS-2026                      | MA                           | fr                           | Fortlaufende Evaluation                          | 4.5                          |
+| Wahlkurse                    | Wahlkurse                                                                                   | Wahlkurse                    | Wahlkurse                    | Wahlkurse                    | Wahlkurse                    | Wahlkurse                                        | Wahlkurse                    |
+| EGE.00453                    | Collaborative Value Creation in Ecosystems                                                  | Hilb                         | FS-2026                      | MA                           | en                           | Fortlaufende Evaluation                          | 4.5                          |
+| EKM.00064                    | Communication, organisation et transformation digitale (I)                                  | Asdourian                    | FS-2026                      | MA                           | fr                           | Schriftliche Prüfung                             | 3                            |
+| EGE.00473                    | Developing an Innovation Strategy                                                           | Nüesch                       | HS-2025                      | MA                           | en                           | Fortlaufende Evaluation und                      | 4.5                          |
+| EEP.00328                    | Network Science & Economics                                                                 | Büchel                       | FS-2026                      | MA                           | en                           | Schriftliche Prüfung                             | 4.5                          |
+
+<!-- image -->
+
+| Code                                                 | Lehreinheit                                                 | Lehrer(innen)                                        | Semester                                             | Niveau                                               | Sprache                                              | Bewertung                                            | ECTS                                                 |
+|------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| EKM.01306                                            | Nouveaux médias, médias et usagers                          | von Pape                                             | FS-2026                                              | MA                                                   | fr                                                   | Fortlaufende Evaluation und schriftliche Prüfung     | 3                                                    |
+| DAT: Data Analytics                                  | DAT: Data Analytics                                         | DAT: Data Analytics                                  | DAT: Data Analytics                                  | DAT: Data Analytics                                  | DAT: Data Analytics                                  | DAT: Data Analytics                                  | DAT: Data Analytics                                  |
+| Kernkurse                                            | Kernkurse                                                   | Kernkurse                                            | Kernkurse                                            | Kernkurse                                            | Kernkurse                                            | Kernkurse                                            | Kernkurse                                            |
+| SIN.08022                                            | Maschinelles Lernen                                         | Grossenbacher                                        | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 5                                                    |
+| EEP.00496                                            | Econometric Methods and Applications                        | Huber                                                | HS-2025                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 6                                                    |
+| SIN.03024                                            | Datenbanken                                                 | Fill                                                 | HS-2025                                              | BA                                                   | en                                                   | Schriftliche Prüfung                                 | 6                                                    |
+| EEP.00143                                            | Policy and Impact Evaluation                                | Huber                                                | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| Wahlkurse                                            | Wahlkurse                                                   | Wahlkurse                                            | Wahlkurse                                            | Wahlkurse                                            | Wahlkurse                                            | Wahlkurse                                            | Wahlkurse                                            |
+| EEP.00358                                            | ECO08E: Applied Econometrics                                | Huber                                                | HS-2025                                              | BA                                                   | en                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| SME.07700                                            | Data analysis and statistics with the Rprogramming language | Bresciani                                            | HS-2025                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 3                                                    |
+| SBL.30002                                            | Machine learning                                            | Wegmann                                              | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 5                                                    |
+| SIN.00120                                            | Wissenschaftliches Programmieren                            | Hennebert                                            | HS-2025                                              | BA                                                   | fr                                                   | Schriftliche Prüfung                                 | 6                                                    |
+| I09.00005                                            | Python Programming                                          |                                                      | HS-2025                                              | BA, MA                                               | en                                                   | Prüfung                                              | 3                                                    |
+| SIN.08609                                            | Social media analytics                                      | Cudré-Mauroux, Khayati                               | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 5                                                    |
+| EIG.00027                                            | Statistique bayésienne                                      | Donzé                                                | FS-2026                                              | MA                                                   | fr                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| EIG.00029                                            | Thèmes choisis de statistique multivariée                   | Donzé                                                | HS-2025                                              | MA                                                   | fr                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| Elective courses in the management modules           | Elective courses in the management modules                  | Elective courses in the management modules           | Elective courses in the management modules           | Elective courses in the management modules           | Elective courses in the management modules           | Elective courses in the management modules           | Elective courses in the management modules           |
+| Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre        | Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre | Wahlkurse für den Master in Betriebswirtschaftslehre |
+| EEP.00495                                            | Advanced Microeconomics                                     | Büchel, Valvassori Bolgè                             | HS-2025                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 6                                                    |
+| EIG.00031                                            | Advanced Topics in Decision Support                         | Ries                                                 | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| EGE.00254                                            | Advanced Entrepreneurship                                   | Fauchart, Tang                                       | HS-2025                                              | MA                                                   | en                                                   | Fortlaufende Evaluation                              | 4.5                                                  |
+| EGE.00068                                            | Advanced Group Accounting                                   | Kunz                                                 | HS-2025                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+| EGE.00267                                            | Asset Management                                            | Wallmeier                                            | HS-2025                                              | MA                                                   | en                                                   | Fortlaufende Evaluation und schriftliche Prüfung     | 4.5                                                  |
+| EEP.00127                                            | Business and Human Rights                                   | Umlas                                                | HS-2025                                              | MA                                                   | en                                                   | Fortlaufende Evaluation                              | 3                                                    |
+| EGE.00101                                            | Case studies in international strategy                      | Jenisch, Morschett                                   | HS-2025                                              | MA                                                   | en                                                   | Fortlaufende Evaluation                              | 4.5                                                  |
+| EGE.00453                                            | Collaborative Value Creation in Ecosystems                  | Hilb                                                 | FS-2026                                              | MA                                                   | en                                                   | Fortlaufende Evaluation                              | 4.5                                                  |
+| EKM.00064                                            | Communication, organisation et transformation digitale (I)  | Asdourian                                            | FS-2026                                              | MA                                                   | fr                                                   | Schriftliche Prüfung                                 | 3                                                    |
+| EGE.00060                                            | Compétences managériales                                    | Davoine                                              | FS-2026                                              | MA                                                   | fr                                                   | Fortlaufende Evaluation und                          | 4.5                                                  |
+| EGE.00016                                            | Corporate governance                                        | Isakov                                               | FS-2026                                              | MA                                                   | en                                                   | Schriftliche Prüfung                                 | 4.5                                                  |
+
+<!-- image -->
+
+| Code      | Lehreinheit                                                                                 | Lehrer(innen)     | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|---------------------------------------------------------------------------------------------|-------------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EKM.00989 | Corporate Social Responsibility and Social Impact                                           | Illia Manzan      | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00083 | Customer orientation and complaint management                                               | Bambauer-Sachse   | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00472 | Customer-Centric Innovation                                                                 | Nüesch            | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00055 | Das Freiburger Management-Modell                                                            | Lichtsteiner      | HS-2025    | MA       | de        | Schriftliche Prüfung                             |      3 |
+| EGE.00473 | Developing an Innovation Strategy                                                           | Nüesch            | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00269 | Digital Commerce in B2C and B2B Markets                                                     | Schu              | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EIG.00131 | Digitalization and Information Systems                                                      | Fill              | FS-2026    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EEP.00496 | Econometric Methods and Applications                                                        | Huber             | HS-2025    | MA       | en        | Schriftliche Prüfung                             |      6 |
+| EEP.00358 | ECO08E: Applied Econometrics                                                                | Huber             | HS-2025    | BA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00049 | International Marketing                                                                     | Morschett         | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00048 | Fundamentals of International Management                                                    | Flankova          | HS-2025    | MA       | en        | Fortlaufende Evaluation und                      |    4.5 |
+| EGE.00020 | Gestion de portefeuille                                                                     | Isakov            | HS-2025    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EEP.00175 | Intégration européenne                                                                      | Madiès            | FS-2026    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00250 | Intercultural Business Projects                                                             | Furrer, Morschett | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00194 | Intercultural Management                                                                    | Davoine           | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00119 | International Accounting Standards                                                          | Missonier-Piera   | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00470 | International Negotiations - Success stories from an intercultural background               | Audebert          | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00262 | International Services Marketing                                                            | Bambauer-Sachse   | FS-2026    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00471 | Leadership styles, contexts and success factors                                             | Erpf, Lang        | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00113 | Management control systems                                                                  | Burkert           | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00476 | Management des organisations à but non lucratif - l'approche fribourgeoise                  | Lichtsteiner      | HS-2025    | MA       | fr        | Schriftliche Prüfung                             |      3 |
+| EGE.00475 | Management des ressources humaines et matérielles dans les organisations à but non lucratif | Gmür              | HS-2025    | MA       | fr        | Fortlaufende Evaluation und                      |    4.5 |
+| EGE.00282 | MAN05D: Human Resource Management                                                           | Gmür              | HS-2025    | BA       | de        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00281 | MAN05F: Gestion des ressources humaines                                                     | Davoine           | HS-2025    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00283 | MAN08F: Management stratégique                                                              | Mena              | FS-2026    | BA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00108 | Marketing Durable                                                                           | Furrer            | FS-2026    | MA       | fr        | Fortlaufende Evaluation und                      |    4.5 |
+| EGE.00107 | Marketing Strategy                                                                          | Furrer            | HS-2025    | MA       | en        | Fortlaufende Evaluation und                      |    4.5 |
+| EEP.00332 | Märkte und Strategien                                                                       | Büchel            | HS-2025    | MA       | de        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00090 | Mergers & Acquisitions                                                                      | Masset            | HS-2025    | MA       | en        | Fortlaufende Evaluation und                      |    4.5 |
+
+schriftliche Prüfung
+
+<!-- image -->
+
+| Code      | Lehreinheit                                                            | Lehrer(innen)          | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|------------------------------------------------------------------------|------------------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EEP.00095 | Microeconomics of Competitiveness (MOC)                                | Gugler                 | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00328 | Network Science & Economics                                            | Büchel                 | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EKM.01306 | Nouveaux médias, médias et usagers                                     | von Pape               | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |      3 |
+| EGE.00255 | Nouveaux trends de l'innovation                                        | Fauchart               | FS-2026    | MA       | fr        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00251 | Organisational Change and Crisis Management in Nonprofit Organisations | Gmür                   | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00518 | Organisational Economics                                               | Herz                   | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00045 | Organization Behavior                                                  | von Wittich            | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EEP.00143 | Policy and Impact Evaluation                                           | Huber                  | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EEP.00098 | Politiques des marchés et de la concurrence                            | Gugler                 | HS-2025    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00477 | Renouvellement stratégique d'une organisation à but non lucratif       | Lichtsteiner           | FS-2026    | MA       | fr        | Schriftliche Arbeit und Vortrag                  |    4.5 |
+| EGE.00072 | Ressourcenmanagement in Nonprofit-Organisationen                       | Gmür                   | HS-2025    | MA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00112 | Seminar in advanced management accounting and control                  | Burkert                | HS-2025    | MA       | de        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00306 | Seminar in Social Entrepreneurship                                     | Erpf                   | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EIG.00027 | Statistique bayésienne                                                 | Donzé                  | FS-2026    | MA       | fr        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00030 | Strategic Value Creation                                               | Hilb                   | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00098 | Strategische Neuausrichtung einer NPO                                  | Lichtsteiner           | FS-2026    | MA       | de        | Schriftliche Arbeit und Vortrag                  |    4.5 |
+| EEP.00125 | Sustainable Globalization                                              | Grossmann              | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00114 | Théorie de l'information comptable                                     | Missonier-Piera        | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00257 | Winning Consulting Projects                                            | Thom                   | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| SME.07700 | Data analysis and statistics with the Rprogramming language            | Bresciani              | HS-2025    | MA       | en        | Schriftliche Prüfung                             |      3 |
+| SIN.03024 | Datenbanken                                                            | Fill                   | HS-2025    | BA       | en        | Schriftliche Prüfung                             |      6 |
+| SBL.30002 | Machine learning                                                       | Wegmann                | FS-2026    | MA       | en        | Schriftliche Prüfung                             |      5 |
+| SIN.08022 | Maschinelles Lernen                                                    | Grossenbacher          | FS-2026    | MA       | en        | Schriftliche Prüfung Schriftliche Prüfung        |      5 |
+| SIN.00120 | Wissenschaftliches Programmieren                                       | Hennebert              | HS-2025    | BA       | fr        |                                                  |      6 |
+| I09.00005 | Python Programming                                                     |                        | HS-2025    | BA, MA   | en        | Prüfung                                          |      3 |
+| SIN.08609 | Social media analytics                                                 | Cudré-Mauroux, Khayati | FS-2026    | MA       | en        | Schriftliche Prüfung                             |      5 |
+| EGE.00483 | Ethical Leadership and Organizational Culture                          | Gonin                  | FS-2026    | MA       | en        | Fortlaufende                                     |    4.5 |
+| EGE.00484 | CFA Research Challenge                                                 | Wallmeier              | HS-2025    | MA       | en        | Fortlaufende Evaluation und                      |      6 |
+| EGE.00486 | Advanced Seminar in Strategic International Management                 | Morschett              | FS-2026    | MA       | en        | Schriftliche Arbeit und Vortrag                  |    4.5 |
+
+<!-- image -->
+
+| Code      | Lehreinheit                                             | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|---------------------------------------------------------|-----------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00489 | Business & Sustainable Development                      | Mena            | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EKM.01486 | Designs, Data Access, Data Collection and Data Analysis | Rohrbach        | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00480 | Business Ethics                                         | Roser           | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+
+## Additional courses: if accepted in the learning agreement
+
+## SES-Wahlkurse auf Masterstufe
+
+## Wahlkurse WISO auf Master-Niveau in Volkswirtschaftslehre
+
+| EEP.00052   | Monetary theory and policy IV: Recent developments in monetary analysis   | Rossi-Pedruzzi   | FS-2026   | MA   | en   | Mündliche Prüfung                                  |   4.5 |
+|-------------|---------------------------------------------------------------------------|------------------|-----------|------|------|----------------------------------------------------|-------|
+| EEP.00063   | Evaluation des dommages et Politiques environnementales                   | Maradan          | FS-2026   | MA   | fr   | Fortlaufende Evaluation und schriftliche Prüfung   |   4.5 |
+| EEP.00068   | Régionalisme commercial et nouvelle économie géographique                 | Madiès           | HS-2025   | MA   | fr   | Mündliche Prüfung                                  |   4.5 |
+| EEP.00095   | Microeconomics of Competitiveness (MOC)                                   | Gugler           | FS-2026   | MA   | en   | Fortlaufende Evaluation                            |   4.5 |
+| EEP.00098   | Politiques des marchés et de la concurrence                               | Gugler           | HS-2025   | MA   | fr   | Schriftliche Prüfung                               |   4.5 |
+| EEP.00099   | Steuerpolitik - Theorie und Anwendung auf die Schweiz                     | Jeitziner        | FS-2026   | MA   | de   | Schriftliche Prüfung                               |   4.5 |
+| EEP.00101   | Ökonomische Reformen der wirtschaftlichen und politischen Institutionen   | Eichenberger     | HS-2025   | MA   | de   | Schriftliche Arbeit und Vortrag                    |   4.5 |
+| EEP.00125   | Sustainable Globalization                                                 | Grossmann        | HS-2025   | MA   | en   | Fortlaufende Evaluation                            |   4.5 |
+| EEP.00127   | Business and Human Rights                                                 | Umlas            | HS-2025   | MA   | en   | Fortlaufende Evaluation                            |     3 |
+| EEP.00131   | Demography, Immigration and Labor Markets                                 | Fernandes        | HS-2025   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung   |   4.5 |
+| EEP.00321   | Aide, microcrédit et autres instruments de développement                  | Dumas            | FS-2026   | MA   | fr   | Fortlaufende Evaluation                            |   4.5 |
+| EEP.00328   | Network Science & Economics                                               | Büchel           | FS-2026   | MA   | en   | Schriftliche Prüfung                               |   4.5 |
+| EEP.00331   | The Ethics of Economics as a Profession                                   | Gläser           | FS-2026   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung   |   4.5 |
+| EEP.00334   | Global Economic Justice                                                   | Roser            | FS-2026   | MA   | en   | Fortlaufende Evaluation und schriftliche Prüfung   |   4.5 |
+| EEP.00143   | Policy and Impact Evaluation                                              | Huber            | FS-2026   | MA   | en   | Schriftliche Prüfung                               |   4.5 |
+| EEP.00150   | Empirical Public Economics                                                | Schelker         | FS-2026   | MA   | en   | Mündliche Prüfung, Schriftliche Arbeit und Vortrag |   4.5 |
+| EEP.00154   | Politiques publiques suisses                                              | Schelker         | HS-2025   | MA   | fr   | Schriftliche Arbeit und Vortrag                    |   4.5 |
+| EEP.00175   | Intégration européenne                                                    | Madiès           | FS-2026   | MA   | fr   | Schriftliche Prüfung                               |   4.5 |
+| EEP.00351   | History of Economic Thought                                               | Fritz            | HS-2025   | MA   | en   | Fortlaufende Evaluation                            |   4.5 |
+| EEP.00495   | Advanced Microeconomics                                                   | Büchel,          | HS-2025   | MA   | en   | Schriftliche Prüfung                               |     6 |
+| EEP.00496   | Econometric Methods and Applications                                      | Huber            | HS-2025   | MA   | en   | Schriftliche Prüfung                               |     6 |
+
+<!-- image -->
+
+| Code                                                      | Lehreinheit                                                                              | Lehrer(innen)                                             | Semester                                                  | Niveau                                                    | Sprache                                                   | Bewertung                                                 | ECTS                                                      |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| EEP.00532                                                 | Changement climatique dans les pays en développement                                     | Gautrain                                                  | FS-2026                                                   | MA                                                        | fr                                                        | Fortlaufende Evaluation und mündliche Prüfung             | 4.5                                                       |
+| EEP.00517                                                 | Advanced Topics in Data Analytics and Machine Learning                                   | Kauth                                                     | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 1.5                                                       |
+| EEP.00518                                                 | Organisational Economics                                                                 | Herz                                                      | FS-2026                                                   | MA                                                        | en                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EEP.00554                                                 | Aktuelle Probleme der Finanz- und Wirtschaftspolitik (FS 26)                             | Eichenberger                                              | FS-2026                                                   | MA                                                        | de                                                        | Fortlaufende Evaluation                                   | 4.5                                                       |
+| EEP.00555                                                 | Topics in Philosophy and Economics (AS-2025) - Externalities: Concept, Economics, Ethics | Gläser                                                    | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation und schriftliche Prüfung          | 4.5                                                       |
+| EEP.00557                                                 | Economic Growth: For and Against                                                         | Roser                                                     | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation und schriftliche Prüfung          | 4.5                                                       |
+| WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik                                | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik | WISO-Wahlkurse auf Master-Niveau in Wirtschaftsinformatik |
+| EIG.00020                                                 | Travail de séminaire                                                                     | Décanat                                                   | HS-2025                                                   | MA                                                        | fr                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00020                                                 | Travail de séminaire                                                                     | Décanat                                                   | FS-2026                                                   | MA                                                        | fr                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00021                                                 | Seminararbeit                                                                            | Décanat                                                   | HS-2025                                                   | MA                                                        | de                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00021                                                 | Seminararbeit                                                                            | Décanat                                                   | FS-2026                                                   | MA                                                        | de                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00022                                                 | Seminar Paper                                                                            | Décanat                                                   | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00022                                                 | Seminar Paper                                                                            | Décanat                                                   | FS-2026                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EIG.00027                                                 | Statistique bayésienne                                                                   | Donzé                                                     | FS-2026                                                   | MA                                                        | fr                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EIG.00029                                                 | Thèmes choisis de statistique multivariée                                                | Donzé                                                     | HS-2025                                                   | MA                                                        | fr                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EIG.00031                                                 | Advanced Topics in Decision Support                                                      | Ries                                                      | FS-2026                                                   | MA                                                        | en                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EIG.00125                                                 | Metamodeling                                                                             | Curty                                                     | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation und schriftliche Prüfung          | 4.5                                                       |
+| EIG.00131                                                 | Digitalization and Information Systems                                                   | Fill                                                      | FS-2026                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation und schriftliche Prüfung          | 4.5                                                       |
+| EIG.00244                                                 | Choice-based optimization and its application to revenue management                      | Pacheco Paneque                                           | FS-2026                                                   | MA                                                        | en                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EIG.00294                                                 | Foundations of Spatial Computing and Applications in Augmented and Virtual Reality       | Muñoz Cadiz, Vasic                                        | FS-2026                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 4.5                                                       |
+| WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft                                 | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  | WISO-Wahlfachkurse auf Masterstufe in Betriebswirtschaft  |
+| EGE.00016                                                 | Corporate governance                                                                     | Isakov                                                    | FS-2026                                                   | MA                                                        | en                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EGE.00020                                                 | Gestion de portefeuille                                                                  | Isakov                                                    | HS-2025                                                   | MA                                                        | fr                                                        | Schriftliche Prüfung                                      | 4.5                                                       |
+| EGE.00027                                                 | The audit profession and the public interest                                             | Nösberger                                                 | FS-2026                                                   | MA                                                        | en                                                        | Mündliche Prüfung                                         | 4.5                                                       |
+| EGE.00030                                                 | Strategic Value Creation                                                                 | Hilb                                                      | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 3                                                         |
+| EGE.00045                                                 | Organization Behavior                                                                    | von Wittich                                               | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation                                   | 4.5                                                       |
+| EGE.00048                                                 | Fundamentals of International Management                                                 | Flankova                                                  | HS-2025                                                   | MA                                                        | en                                                        | Fortlaufende Evaluation und                               | 4.5                                                       |
+
+<!-- image -->
+
+| Code      | Lehreinheit                                                            | Lehrer(innen)      | Semester   | Niveau   | Sprache   | Bewertung                                        |   ECTS |
+|-----------|------------------------------------------------------------------------|--------------------|------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00049 | International Marketing                                                | Morschett          | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00055 | Das Freiburger Management-Modell                                       | Lichtsteiner       | HS-2025    | MA       | de        | Schriftliche Prüfung                             |      3 |
+| EGE.00060 | Compétences managériales                                               | Davoine            | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00083 | Customer orientation and complaint management                          | Bambauer-Sachse    | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00068 | Advanced Group Accounting                                              | Kunz               | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00072 | Ressourcenmanagement in Nonprofit-Organisationen                       | Gmür               | HS-2025    | MA       | de        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00090 | Mergers & Acquisitions                                                 | Masset             | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00098 | Strategische Neuausrichtung einer NPO                                  | Lichtsteiner       | FS-2026    | MA       | de        | Schriftliche Arbeit und Vortrag                  |    4.5 |
+| EGE.00101 | Case studies in international strategy                                 | Jenisch, Morschett | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00107 | Marketing Strategy                                                     | Furrer             | HS-2025    | MA       | en        | Fortlaufende Evaluation und                      |    4.5 |
+| EGE.00108 | Marketing Durable                                                      | Furrer             | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00194 | Intercultural Management                                               | Davoine            | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00112 | Seminar in advanced management accounting and control                  | Burkert            | HS-2025    | MA       | de        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00113 | Management control systems                                             | Burkert            | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00114 | Théorie de l'information comptable                                     | Missonier-Piera    | FS-2026    | MA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00119 | International Accounting Standards                                     | Missonier-Piera    | HS-2025    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00250 | Intercultural Business Projects                                        | Furrer, Morschett  | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00251 | Organisational Change and Crisis Management in Nonprofit Organisations | Gmür               | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00257 | Winning Consulting Projects                                            | Thom               | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00262 | International Services Marketing                                       | Bambauer-Sachse    | FS-2026    | MA       | en        | Fortlaufende Evaluation und                      |    4.5 |
+| EGE.00267 | Asset Management                                                       | Wallmeier          | HS-2025    | MA       | en        | Fortlaufende Evaluation und schriftliche Prüfung |    4.5 |
+| EGE.00269 | Digital Commerce in B2C and B2B Markets                                | Schu               | FS-2026    | MA       | en        | Schriftliche Prüfung                             |    4.5 |
+| EGE.00254 | Advanced Entrepreneurship                                              | Fauchart, Tang     | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00255 | Nouveaux trends de l'innovation                                        | Fauchart           | FS-2026    | MA       | fr        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00306 | Seminar in Social Entrepreneurship                                     | Erpf               | HS-2025    | MA       | en        | Fortlaufende Evaluation                          |      3 |
+| EGE.00453 | Collaborative Value Creation in Ecosystems                             | Hilb               | FS-2026    | MA       | en        | Fortlaufende Evaluation                          |    4.5 |
+| EGE.00470 | International Negotiations - Success stories from                      | Audebert           | HS-2025    | MA       | en        | Fortlaufende                                     |    4.5 |
+
+an intercultural background Evaluation

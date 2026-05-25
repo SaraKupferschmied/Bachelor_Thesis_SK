@@ -1,0 +1,82 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:45:32.425Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_180_Human_Medicine__valuation_en_m_decine_humaine_MH_50ba34adb12e944f98a91cb8994a9e65e1f6c8ec",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "50ba34adb12e944f98a91cb8994a9e65e1f6c8ec",
+  "program_key": "faculty of science and medicine|bachelor|180|human medicine",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_180_Human_Medicine__valuation_en_m_decine_humaine_MH_50ba34adb12e944f98a91cb8994a9e65e1f6c8ec.pdf",
+  "sha256": "7939b7afb740d5ae200348574dfb59ae0b52a157658dd148eb4689b3c3ebea12",
+  "fetched_at": "2026-05-21T16:05:15.326Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_MH_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Human Medicine",
+  "programme_name_de": "Humanmedizin",
+  "programme_name_fr": "Médecine humaine",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/medspo/humanmedicine",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Introduction
+
+Cette  annexe  décrit  les  conditions  d'évaluation  des  unités  d'enseignement  (UE)  relatives  au Bachelor en médecine. Les UE sont regroupées en modules correspondant aux épreuves selon les modalités décrites dans le plan d'études mentionné et soumises au Règlement du BMed.
+
+## 2 Évaluations des unités d'enseignement
+
+L'évaluation des UE se fait en règle générale par des épreuves dont les modalités sont fixées dans  la  présente  annexe.  Seules  les  UEs Introduction  à  la  pratique  de  la  médecine et Compétences cliniques BMed2 font uniquement l'objet d'une évaluation continue, en cours de semestre. Les épreuves se déroulent, en général, durant trois sessions d'examens : hiver (HIV), été (ETE), automne (AUT). Pour chaque épreuve, l'étudiant -e s'inscrit dans les délais prescrits par la Faculté des sciences et de médecine selon la procédure online sur le portail d'étudiant -es MyUniFR (https://my.unifr.ch), accessible avec le compte personnel et le mot de passe fournis par l'Université . L'étudiant -e peut librement choisir la session à laquelle il ou elle se présente . L'épreuve  porte  sur  la  matière  des  UE  telle  qu'elle  a  été  enseignée  la  dernière  fois.  En  cas d'exception,  celle -ci  sera  communiquée  par  la  Section  et/ou  par  l'enseignant  responsable. L'échelle des notes s'étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée deux fois (3 essais au maximum).
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe au plan d'études pour l'obtention du Bachelor of Medicine en médecine humaine. Il est soumis au Règlement pour l'obtention du Bachelor of medicine . Tous ces  documents  sont  accessibles  sur  le  site  web  de  la  Faculté  de  sciences  et  de  médecine (https://www.unifr.ch/scimed/fr/rules).
+
+## 4 Modalités d'évaluation
+
+Les unités d'enseignement sont examinées dans les épreuves et aux sessions indiquées dans le tableau ci-dessous. La participation aux travaux pratiques et aux colloques, aux APP et aux ARP, aux séminaires Medical Humanities ainsi  qu'aux  « Compétences cliniques » est obligatoire et constitue une condition requise pour être admis-e aux examens.
+
+Des informations détaillées relatives à chacune des épreuves sont publiées dans les différents cours Moodle du BMed.
+
+| Code épreuve   | Code UE                                                     | Unité d'épreuve                                                                   |   ECTS | Sessions d'examens   | Modalités d'évaluation                                  |
+|----------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------|--------|----------------------|---------------------------------------------------------|
+| SMH.0110E      | SPH.01500 SCH.01500                                         | Physique et chimie pour étudiant - e-s en médecine                                |     12 | HIV+AUT              | épreuve écrite de 240 min.                              |
+| SMH.0122E      | SMH.01203 SBL.01500 SBL.01501 SMH.01211 SMH.01221 SMH.01231 | Bases biomédicales Ia - Introduction aux systèmes                                 |   13.5 | HIV+AUT              | épreuve écrite de ≤240 min.                             |
+|                | SMH.01301                                                   | Introduction à la pratique de la médecine                                         |      2 |                      | réussi/échec (évaluation continue en cours de semestre) |
+| SMH.0213E      | SMH.02111 SMH.02121 SMH.02131 SMH.02141 SMH.02151 SMH.02161 | Bases biomédicales Ib - Systèmes I                                                |  10.75 | ETE+AUT              | épreuve écrite de ≤ 180 min.                            |
+| SMH.0223E      | SBC.02104 SMH.02211 SMH.02221                               | Bases biomédicales Ic - Santé publique I - Pensée et méthodologie scientifiques I |      9 | ETE+AUT              | épreuve écrite de ≤180 min.                             |
+
+| SMH.0236E   | SMH.02305 SMH.02308                                                                     | Medical Humanities I - Médecine psychosociale I                            |   5.5 | ETE+AUT   | épreuve écrite ≤ 120 min.                                                                                                                             |
+|-------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------|-------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMH.0241E   | SMH.02403 SMH.02404                                                                     | Anatomie - Histologie                                                      |  7.25 | ETE+AUT   | « Parcours », selon informations détaillées en début de semestre                                                                                      |
+| SMH.0311E   | SMH.03101                                                                               | Systèmes IIa                                                               |    10 | HIV+AUT   | épreuve écrite de ≤180 min.                                                                                                                           |
+| SMH.0320E   | SMH.03102 SMH.03201 SMH.03202                                                           | Systèmes IIb                                                               |     9 | HIV+AUT   | épreuve écrite de ≤180 min.                                                                                                                           |
+| SMH.0332E   | SMH.03303 SBC.03303 SMH.03302                                                           | Anatomie, biochimie et physiologie systémique I (travaux pratiques)        |    10 | HIV+AUT   | épreuve orale d'anatomie (≤30 min.), épreuve pratique de biochimie (135 min.), épreuve écrite de physiologie (60 min.). Détails en début de semestre. |
+| SMH.0416E   | SMH.04112 SBC.04503 SMH.04110                                                           | Bases biomédicales II - Pensée et méthodologie scientifiques II            |   6.5 | ETE+AUT   | épreuve écrite de ≤1 20 min.                                                                                                                          |
+| SMH.0417E   | SMH.04111 SMH.04113                                                                     | Medical Humanities II - Médecine psychosociale II                          |     6 | ETE+AUT   | épreuve écrite de ≤ 100 min.                                                                                                                          |
+| SMH.0421E   | SMH.04201 SMH.04204 SMH.04203                                                           | Systèmes IIc                                                               |  12.5 | ETE+AUT   | épreuve écrite de ≤210 min .                                                                                                                          |
+| SMH.0433E   | SMH.04302 SMH.04304                                                                     | Histologie et physiologie systémique II (travaux pratiques)                |   4.5 | ETE+AUT   | épreuve pratique et orale d'histologie (90 min.), épreuve écrite de physiologie (60 min.). Détails en début de semestre.                              |
+|             | SMH.04403                                                                               | Compétences cliniques BMed2                                                |     1 |           | réussi/échec (évaluation continue en cours de semestre)                                                                                               |
+|             | SMH.04901 ou SMH.04902 ou SMH.04903 ou SMH.04906 ou SMH.04907 ou SMH.04908 ou SMH.04909 | Cours à option                                                             |   1.5 | ETE+AUT   | Evaluations notées en cours de semestre, et épreuve écrite de ≤ 60 min. ou Epreuve écrite de max. 60 min.                                             |
+| SMH.0513E   | SMH.05111 SMH.05112 SMH.05105 SMH.05106 SMH.05107                                       | Disciplines cliniques fonda- mentales I et Cliniques I - Santé publique II | 11.75 | HIV+AUT   | épreuve écrite de ≤210 min.                                                                                                                           |
+| SMH.0522E   | SMH.05108 SMH.05201 SMH.05207 SMH.05203 SMH.05206                                       | Cliniques II                                                               |    12 | HIV+AUT   | épreuve écrite de ≤210 min.                                                                                                                           |
+| SMH.0612E   | SMH.06101 SMH.06102 SMH.06104 SMH.06105 SMH.06107                                       | Disciplines cliniques fonda- mentales II et Cliniques III                  |  10.5 | ETE+AUT   | épreuve écrite de ≤210 min.                                                                                                                           |
+| SMH.0622E   | SMH.06108 SMH.06201 SMH.06202 SMH.06208 SMH.06209                                       | Clinique IV                                                                | 11.25 | ETE+AUT   | épreuve écrite de ≤210 min.                                                                                                                           |
+
+| SMH.0634E   | SMH.06303 SMH.06403   | Medical Humanities III et introduction à la médecine de famille   |   5.5 | ETE+AUT   | évaluation écrite de ≤120 min. et évaluation notée en cours de semestre   |
+|-------------|-----------------------|-------------------------------------------------------------------|-------|-----------|---------------------------------------------------------------------------|
+| SMH.0642E   | SMH.05402 SMH.06402   | Compétences cliniques                                             |    10 | ETE       | voir paragraphe 5                                                         |
+
+## 5 Évaluation des compétences cliniques
+
+L'évaluation  des  compétences  cliniques  de  base,  acquises  par  les  étudiant -e-s  pendant  le Bachelor en médecine, se fait avec la méthode ECOS (examen clinique objectif structuré).
+
+Un  examen  ECOS  est  composé  d'une  séquence  de  situations  cliniques  présentées  dans différentes « stations » de quelques minutes chacune, constituant un « circuit ». Les candidat-es interagissent avec un patient simulé et standardisé ou effectuent divers gestes et tâches à l'aide de  matériel,  comme  par  exemple  des  mannequins.  Leur  performance  est  évaluée  par  un observateur-examinateur qui utilise une grille d'observation spécifique au contenu de la situation et aux tâches demandées.

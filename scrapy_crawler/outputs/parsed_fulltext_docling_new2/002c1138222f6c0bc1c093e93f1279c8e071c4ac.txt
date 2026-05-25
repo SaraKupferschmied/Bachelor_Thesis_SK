@@ -1,0 +1,172 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T20:49:15.293Z",
+  "title": "matched_Faculty_of_Education_Bachelor_180_Special_Education_Bachelor_Mono_180_ECTS-Kreditpunkte__002c1138222f6c0bc1c093e93f1279c8e071c4ac",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "002c1138222f6c0bc1c093e93f1279c8e071c4ac",
+  "program_key": "faculty of education|bachelor|180|special education",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/BSc_SOP_180%20(1495)%2026%2002%202026.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Bachelor_180_Special_Education_Bachelor_Mono_180_ECTS-Kreditpunkte__002c1138222f6c0bc1c093e93f1279c8e071c4ac.pdf",
+  "sha256": "c70068c0c41f866a4efe75cb65bd4a725f0a5616a24f360e73149f471c4850e1",
+  "fetched_at": "2026-05-21T16:05:20.173Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/BSc_SOP_180%20(1495)%2026%2002%202026.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Special Education",
+  "programme_name_de": "Sonderpädagogik und Sozialpädagogik",
+  "programme_name_fr": "Éducation spécialisée",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/pedpsy/specialeducation",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR SONDERPÄDAGOGIK
+
+## STUDIENPLAN
+
+## Sonderpädagogik und Sozialpädagogik
+
+Studienprogramm Bachelor Mono 180 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen  Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm Mono in Sonderpädagogik und Sozialpädagogik umfasst 180 ECTS-Kreditpunkte und ist in den Bachelor of Science in Sonderpädagogik (Diplom in Sonderpädagogik und Sozialpädagogik) (180 ECTS-Kreditpunkte) integriert.
+
+Im  Rahmen  dieses  Studienprogramms  werden  wissenschaftliche  und  praxisorientierte  Kenntnisse  und Kompetenzen für den Einsatz in verschiedenen Berufsfeldern der Sonderpädagogik bzw. Heilpädagogik und Sozialpädagogik erworben. Im Zentrum steht die Beschäftigung mit Lebenslagen, Entwicklungskontexten und Lernsituationen von Kindern, Jugendlichen und Erwachsenen, deren Erziehung, Bildung und selbstständige Lebensführung erschwert sind. Schwerpunkte sind intellektuelle Behinderung bzw. kognitive Beeinträchtigung sowie emotionale und soziale Entwicklungsstörungen bzw. Verhaltensauffälligkeiten.
+
+Das Studienprogramm ist schweizweit das einzige universitäre Angebot zur Qualifikation für wissenschaftliche und berufspraktische Tätigkeiten in diesen Themenfeldern.
+
+Die  Studierenden  entwickeln  im  Rahmen  dieses  Studienprogramms  fundierte  Kenntnisse  zu  sonder-  und sozialpädagogischen Themen und Fragestellungen und erwerben Grundkenntnisse aus Nachbardisziplinen wie Erziehungswissenschaften, Soziologie, Psychologie, Medizin und Rechtswissenschaften, um der Komplexität und Interdisziplinarität  der  Themenfelder  gerecht  zu  werden.  Weitere  zentrale  Ziele  des  Studiums  sind  der Erwerb praktischer Kompetenzen sowie die reflexive Verknüpfung von Theorie und Praxis.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Sonderpädagogik und Sozialpädagogik (180  ECTS-Kreditpunkte)  kann  auf  Deutsch oder Französisch absolviert werden. Nachfolgend wird der deutschsprachige Studienplan vorgestellt.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität Freiburg (Reglement vom 26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen der Fakultät (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Ein Studienbeginn ist lediglich im Herbstsemester möglich. Eine verspätete Anmeldung ist nicht möglich.
+
+## 2.4 Verliehener Titel
+
+Der verliehene Titel lautet Bachelor of Science in Sonderpädagogik (Diplom in Sonderpädagogik und Sozialpädagogik) .
+
+## 2.5 Mobilität
+
+Das Studienprogramm Sonderpädagogik und Sozialpädagogik unterstützt Mobilitätsaufenthalte im folgenden Rahmen:
+
+- Absolvierung des Vorpraktikums im Ausland, unter der Einhaltung der für das Vorpraktikum geltenden Rahmenbedingungen (siehe Dokument Informationen zum Vorpraktikum)
+
+- Absolvierung des Studienintegrierten Praktikums I  (SiP  I) im Ausland unter Einhaltung der für das SiP I geltenden Rahmenbedingungen (siehe Dokument Leitfaden und Vorgaben für die Praktika).
+
+Weitere Mobilitätsaufenthalte sind im StudienprogrammBSc Sonderpädagogik und Sozialpädagogik nicht vorgesehen (oder nur in Rücksprache mit der Studienprogrammleitung allenfalls möglich. Dabei kann eine Studienzeitverlängerung nicht ausgeschlossen werden.)
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 180 ECTS-Kreditpunkte, die in 11 Pflichtmodule aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Das  Studienprogramm  richtet  sich  an  Studierende,  die  sich  für  die  professionelle Arbeit  in  verschiedenen Bereichen  der  Sonderpädagogik  und  Sozialpädagogik  qualifizieren  wollen.  Neben  theoretisch  fundierten Tätigkeiten  in  Praxisfeldern  gehören  dazu  der  Erwerb  weiterführender  Abschlüsse  in  wissenschaftlichen Handlungsfeldern oder im schulischen Kontext. Die Lernziele umfassen die folgenden drei Bereiche:
+
+- Theoretisch-inhaltliche Kenntnisse :
+- o Kenntnisse über Beeinträchtigung, Behinderung sowie emotionale und soziale Entwicklungsstörungen in ihren Facetten, Komplexitäten und Wechselwirkungen
+- o Kenntnisse über die Lebenslagen, Entwicklungskontexte und Lernsituation von Menschen mit Behinderung und Beeinträchtigung sowie emotionale und soziale Entwicklungsstörungen über die gesamte Lebensspanne
+- o Kenntnisse über Bedarfe, die sich im Zusammenhang mit Behinderung, Beeinträchtigung sowie emotionale und soziale Entwicklungsstörungen ergeben können und adäquaten Umgang im Rahmen sonder- und sozialpädagogischer Tätigkeiten
+- o Kenntnisse von relevanten theoretischen Grundlagen aus Nachbardisziplinen
+- Wissenschaftliche Kompetenzen :
+- o Wissenschaftsmethodische Grundkenntnisse und -kompetenzen
+- o Wissenschaftstheoretische Grundkenntnisse
+- Professionelle Kompetenzen :
+- o Handlungskompetenzen
+- o Persönliche und soziale Kompetenzen
+
+## 3.1.1 Theoretisch-inhaltliche Kenntnisse
+
+Die Studierenden erwerben Kenntnisse über die Lebenslagen, Entwicklungskontexte und Lernsituationen von Menschen mit Behinderung und Beeinträchtigung  sowie  emotionalen  und  sozialen  Entwicklungsstörungen. Dazu zählen auch Kenntnisse zu spezifischen Behinderungsursachen und Behinderungsformen unter Einbezug von (sozialen) Kontext- und Entwicklungsbedingungen. Die Konzeption des Studienprogramms geht von der Prämisse  aus,  dass  allgemeine  Kenntnisse  über  die  menschliche  Entwicklung,  Erziehung,  Bildung  und Sozialisation sowie gesellschaftsbezogene Bedingungen grundlegend für das Verständnis von Behinderung sind.  Die  Kenntnisse  werden  weiter  vertieft  und  kontextualisiert  durch  Bezugnahmen  auf  medizinische, rechtliche, gesellschaftliche und kulturelle Themen.
+
+Aufbauend auf diesen Grundlagen setzen sich die Studierenden mit relevanten theoretischen Grundlagen und Fragestellungen vertieft auseinander. Dazu gehören Kenntnisse grundlegender Begrifflichkeiten der Sonderpädagogik  (z.B.  Selbstbestimmung,  Partizipation,  Inklusion)  wie  auch  die  Auseinandersetzung  mit normativen und ethischen Themen, die der Sonderpädagogik und Sozialpädagogik inhärent sind.
+
+## 3.1.2 Wissenschaftliche Kompetenzen
+
+Die Studierenden erwerben Fähigkeiten, wissenschaftliche Inhalte zu verstehen und kritisch zu diskutieren. In schriftlichen Arbeiten  generieren  sie  Fragestellungen  und  bearbeiten  sie  mit  adäquaten  wissenschaftlichen Methoden. Hierzu eignen sie sich Grundkenntnisse wissenschaftlichen Arbeitens, von empirischen Forschungsmethoden und statistischen Verfahren an.
+
+Zum Erwerb wissenschaftlicher Kompetenzen gehört die Auseinandersetzung mit grundlegenden wissenschaftstheoretischen  Fragen,  die  der  Einordnung  und  Verknüpfung  sonderpädagogisch  relevanter Themen dienen.
+
+## 3.1.3 Professionelle Kompetenzen
+
+Das Studienprogramm zielt auf eine berufspraktische Qualifikation. Diese befähigt für die Erziehung, Bildung, Unterstützung, Begleitung, Beratung, Betreuung und Pflege von Kindern, Jugendlichen und Erwachsenen mit Behinderung, Beeinträchtigung oder unter erschwerten Entwicklungsbedingungen und ihrem sozialen Umfeld. Im Fokus stehen dabei intellektuelle Behinderung, schwere und mehrfache Behinderung sowie emotionale und soziale  Entwicklungsstörungen.  Die  sonderpädagogischen  und  sozialpädagogischen  Tätigkeiten  können stationär, teilstationär oder ambulant stattfinden.
+
+Im Rahmen  verschiedener Praktika erwerben die Studierenden Erfahrungen in mehreren sonderpädagogischen  und  sozialpädagogischen  Handlungsfeldern.  Verbunden  mit  dem  Prozess  der  Aneignung theoretischer und wissenschaftlicher Kompetenzen werden diese Erfahrungen reflektiert.
+
+Der Erwerb der Handlungskompetenz wird durch die Verknüpfung mit theoretischen Inhalten verankert. Die Reflexion  der  eigenen  praktischen  Tätigkeit  fördert  die  Entwicklung  der  professionellen  Identität  und  der persönlichen und sozialen Kompetenz.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Die 11 Module verteilen sich auf drei Studienjahre und müssen alle bestanden werden.
+
+Alle Unterrichtseinheiten werden  jedes Jahr angeboten. Die Beschreibungen sowie die detaillierten Informationen zu den Unterrichtseinheiten des laufenden akademischen Jahres sind jeweils im Vorlesungsverzeichnis der Universität Freiburg zu finden.
+
+Auf Antrag beim Sekretariat des Departements für Sonderpädagogik können die Studierenden bei Evaluationen Zugang zu einem dritten Versuch erhalten. Dieser Antrag kann sich nur auf eine einzige Evaluation über den gesamten  Studienplan  beziehen.  Von  der  Möglichkeit  eines  dritten  Versuches  ausgeschlossen  sind  die folgenden Unterrichtseinheiten:
+
+- Bachelorarbeit
+- Studienintegriertes Praktikum I (SiP I)
+- Studienintegriertes Praktikum II (SiP II)
+- Berufspraktikum (BeP)
+- Praktische Prüfung
+
+| Bachelor of Science in Sonderpädagogik Mono : «Sonderpädagogik und Sozialpädagogik» 180 ECTS (Diplom in Sonderpädagogik und Sozialpädagogik)   | Bachelor of Science in Sonderpädagogik Mono : «Sonderpädagogik und Sozialpädagogik» 180 ECTS (Diplom in Sonderpädagogik und Sozialpädagogik)   | Bachelor of Science in Sonderpädagogik Mono : «Sonderpädagogik und Sozialpädagogik» 180 ECTS (Diplom in Sonderpädagogik und Sozialpädagogik)   | Bachelor of Science in Sonderpädagogik Mono : «Sonderpädagogik und Sozialpädagogik» 180 ECTS (Diplom in Sonderpädagogik und Sozialpädagogik)   |
+|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Jahr                                                                                                                                        | Modul 1 (21 ECTS) Grundlagen Sonderpädagogik und Sozialpädagogik                                                                               | Modul 2 (18 ECTS) Grundlagen Sonderpädagogik und Nachbardisziplinen 1 Modul 3 (15 ECTS) Grundlagen Wissenschaft und Forschung                  |                                                                                                                                                |
+| 1. Jahr                                                                                                                                        | Modul 4 (12 ECTS) Fokus Theorie-Praxis-Transfer 1                                                                                              |                                                                                                                                                |                                                                                                                                                |
+| 2. Jahr                                                                                                                                        | Modul 5 (12 ECTS) Fokus Theorie-Praxis-Transfer 2                                                                                              | Modul 6 (12 ECTS) Grundlagen Sonderpädagogik und Nachbardisziplinen 2 Modul 7 (15 ECTS) Sonderpädagogische und sozialpädagogische Themen 1     |                                                                                                                                                |
+| 2. Jahr                                                                                                                                        | Modul 8 (12 ECTS) Sonderpädagogische und sozialpädagogische Themen 2                                                                           | Modul 9 (15 ECTS) Bachelorarbeit                                                                                                               |                                                                                                                                                |
+| 3. Jahr                                                                                                                                        | Modul 10 (18 ECTS) Fokus Theorie-Praxis-Transfer 3                                                                                             | Modul 11 (30 ECTS) Berufspraktikum                                                                                                             |                                                                                                                                                |
+
+## 3.3 Struktur der Module
+
+## Modul 1 - Grundlagen Sonderpädagogik und Sozialpädagogik
+
+21 ECTS
+
+Die  Studierenden  werden  in  verschiedene  Bereiche  der  Sonderpädagogik  und  Sozialpädagogik eingeführt,  wobei  die  beiden  für  das  Studienprogramm  wesentlichen  Bereiche  der  Pädagogik  bei intellektueller Behinderung sowie der Pädagogik bei emotionalen und sozialen Entwicklungsstörungen bzw. Verhaltensauffälligkeiten besonders gewichtet werden:
+
+- Grundlegende Kenntnisse über verschiedene Behinderungsformen
+- Grundlegende Kenntnisse sonderpädagogischer Fragestellungen bezogen auf verschiedene Behinderungsformen
+- Grundlegende  Kenntnisse  über  sonderpädagogische  und  sozialpädagogische Angebote  im Bildungssystem
+- Kenntnisse über Integration, Inklusion und Partizipation
+- Kenntnisse über die Bedeutung von Behinderung über die Lebensspanne
+- Kenntnisse über verschiedene Kontexte von Behinderungen
+
+| Unterrichtseinheiten:   | Unterrichtseinheiten:                                                            | Unterrichtseinheiten:                                                            |
+|-------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| F22.00200               | Differentielle Sonderpädagogik                                                   | 3 ECTS                                                                           |
+| F22.00201               | Inklusion und Partizipation                                                      | 3 ECTS                                                                           |
+| F22.00199               | Einführung in die Pädagogik bei intellektueller Behinderung                      | 6 ECTS                                                                           |
+| F22.00198               | Einführung in die Pädagogik bei emotionalen und sozialen Entwicklungsstörungen   | 6 ECTS                                                                           |
+| F22.00140               | Grundlagen zu Autismus-Spektrum                                                  | 3 ECTS                                                                           |
+| Evaluationsmodalitäten: | Evaluationsmodalitäten:                                                          | Evaluationsmodalitäten:                                                          |
+| F22.00200               | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) |
+| F22.00201               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00199               | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) |
+| F22.00198               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00140               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           |

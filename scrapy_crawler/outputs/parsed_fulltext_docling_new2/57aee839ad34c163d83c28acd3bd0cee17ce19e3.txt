@@ -1,0 +1,179 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:58:43.978Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_International_and_Comparative_Social_Policy_MA_Gender_Gesellschaft_Sozialpolitik_zu_30_ECTS_57aee839ad34c163d83c28acd3bd0cee17ce19e3",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "57aee839ad34c163d83c28acd3bd0cee17ce19e3",
+  "program_key": "faculty of humanities|master|30|international and comparative social policy",
+  "source_url": "https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/MA_Gender_NP_SP30_de_4112020.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_International_and_Comparative_Social_Policy_MA_Gender_Gesellschaft_Sozialpolitik_zu_30_ECTS_57aee839ad34c163d83c28acd3bd0cee17ce19e3.pdf",
+  "sha256": "a19162386a754860d03ed9528d8363969cdf46747f9b48b2a052e4ff35a981cd",
+  "fetched_at": "2026-05-21T16:05:20.871Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/MA_Gender_NP_SP30_de_4112020.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "International and Comparative Social Policy",
+  "programme_name_de": "International and Comparative Social Policy",
+  "programme_name_fr": "International and Comparative Social Policy",
+  "programme_url": "https://studies.unifr.ch/en/master/soc/internationalcomparativesocialpolicy30",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung
+
+## Studienplan
+
+Master-Programm «Gender, Gesellschaft, Sozialpolitik» Spezialisierungs-/Nebenprogramm zu 30 ECTS
+
+Dieser «Studienplan 2021» ist ab Herbstsemester 2021 gültig.
+
+|   1. | Gesetzliche Grundlagen......................................................................................................... 2                                                                                                                        |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Beschreibung des Programms................................................................................................ 2                                                                                                                             |
+|      | Ausbildungsziele ................................................................................................................... 2                                                                                                                   |
+|      | 2.3 Zulassungsbedingungen............................................................................................................2                                                                                                                   |
+|   3. |                                                                                                                                                                                                                                                          |
+|   4. | Studienbeginn und -dauer ..................................................................................................... 3                                                                                                                         |
+|   5. | Studiensprache ..................................................................................................................... 3                                                                                                                   |
+|   6. | Allgemeine Organisation ....................................................................................................... 3                                                                                                                        |
+|   7. | Beschreibung der Module...................................................................................................... 4 MAgen01: Gender und soziale Wohlfahrt (15 ECTS)........................................................................4 |
+|      | Prüfungsmodalitäten............................................................................................................. 4                                                                                                                       |
+|   8. | 8.1 Allgemeine Prüfungsmodalitäten .............................................................................................4                                                                                                                        |
+|      | 8.2 Endgültiger Misserfolg..............................................................................................................5                                                                                                                |
+|   9. | Inkrafttreten und Übergangsbestimmungen .......................................................................... 5                                                                                                                                     |
+|      | Anhang: Übersicht aller Module und Kurse des Programms....................................................                                                                                                                                               |
+|  10. | 6 Tabelle 2: Kurse und Module des Programms «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS....6                                                                                                                                                        |
+
+## 1. Gesetzliche Grundlagen
+
+Das Master-Studienprogramm «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS ist der Philosophischen Fakultät der Universität Fribourg angegliedert. Der Studienplan stützt sich auf:
+
+- das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät
+- die BEFRI-Vereinbarung für Studierende in den Gender-Programmen auf Masterstufe
+
+## 2. Beschreibung des Programms
+
+## 2.1  Allgemeine Beschreibung des Programms
+
+Das Spezialisierungsprogramm (als Ergänzung zu einem Vertiefungsprogramm des Departements Sozialarbeit, Sozialpolitik und globale Entwicklung) bzw. Nebenprogramm (in Verbindung mit einem anderen  Vertiefungsprogramm  ausserhalb  des  Departements)  mit  dem  thematischen  Schwerpunkt «Gender, Gesellschaft, Sozialpolitik» hat zum Ziel, den Studierenden die theoretischen und methodischen Grundlagen der Geschlechterstudien zu vermitteln und sie zu befähigen, das Geschlechterverhältnis in seinem sozialen und kulturellen Kontext zu analysieren. Für die spätere Berufspraxis bedeutet dies, dass die Studierenden gesellschaftliche Entwicklungen mit Blick auf das Geschlechterverhältnis kritisch verfolgen und hinterfragen können. Zudem lernen sie Forschungsarbeiten in Bezug auf die Kategorie Geschlecht kritisch zu hinterfragen und Konzepte der Geschlechterstudien selbständig in der eigenen wissenschaftlichen Arbeit anzuwenden.
+
+## 2.2  Allgemeine Struktur des Programms
+
+Das Spezialisierungs- bzw. Nebenprogramm «Gender, Gesellschaft, Sozialpolitik» umfasst 30 ECTS (Minor) und besteht aus zwei Modulen zu je 15 ECTS. Ein Modul wird am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung der Universität Fribourg angeboten, ein Modul am Zentrum für Geschlechterforschung der Universität Bern.
+
+Das Spezialisierungsprogramm «Gender, Gesellschaft, Sozialpolitik» ergänzt das Master-Vertiefungsprogramm  «Soziologie,  Sozialpolitik,  Sozialarbeit» sinnvoll.  Das  Nebenprogramm  «Gender,  Gesellschaft, Sozialpolitik» erweitert oder bietet andere Perspektiven für Vertiefungsprogramme ausserhalb des Departements für Sozialarbeit, Sozialpolitik und globale Entwicklung.
+
+## 2.3  Zulassungsbedingungen
+
+Für die Zulassung gilt das Reglement über die Zulassung der Universität Fribourg. Die Zulassung zum Masterstudium setzt grundsätzlich einen Bachelorabschluss im Umfang von 180 ECTS-Punkte einer von der Universität Fribourg anerkannten Hochschule voraus.
+
+Masterstudierende mit Vertiefungsprogramm «Soziologie, Sozialpolitik, Sozialarbeit», die im Rahmen ihres Studiums das Modul «Gender und soziale Wohlfahrt» belegen, können dieses Spezialisierungsprogramm nicht wählen.
+
+## 3. Ausbildungsziele
+
+1.  Das  Angebot  in  Geschlechterstudien  (Gender  Studies)  mit  dem  thematischen  Schwerpunkt «Gender, Gesellschaft, Sozialpolitik» hat zum Ziel, den Studierenden die theoretischen und methodischen Grundlagen der Geschlechterstudien zu vermitteln und sie zu befähigen, das Geschlechterverhältnis in seinem sozialen und kulturellen Kontext zu analysieren.
+
+2.  Die Studierenden sollen nach Abschluss des Neben- bzw. Spezialisierungsprogramms in der Lage sein, Forschungsarbeiten in Bezug auf die Kategorie Geschlecht kritisch zu hinterfragen und Konzepte der Geschlechterstudien selbständig in der eigenen wissenschaftlichen Arbeit anzuwenden.
+
+## 4. Studienbeginn und -dauer
+
+Studierende können ihr Masterstudium im Herbst- oder Frühjahrssemester aufnehmen. Das Modul «Gender und soziale Wohlfahrt» wird in der Regel alle zwei Jahre angeboten, das Modul des Interdisziplinären Zentrums für Geschlechterforschung der Universität Bern jedes Jahr.
+
+Je nach Angebot der Module und Kurse kann das Studienprogramm in zwei bis vier Semestern abgeschlossen werden. Für die Studienplanung wird empfohlen, das aktuelle Kursangebot auf der Website des Departements zu konsultieren.
+
+## 5. Studiensprache
+
+Das Spezialisierungs- bzw. Nebenprogramm «Gender, Gesellschaft, Sozialpolitik» wird auf Deutsch angeboten. Einzelne Veranstaltungen können in englischer Sprache durchgeführt werden.
+
+Sehr gute Deutsch- und gute Englischkenntnisse sind für das Studium notwendig. Es wird vorausgesetzt, dass die Studierenden die Kurse in Deutsch und Englisch verstehen und die Leistungsanforderungen und Prüfungen erfüllen können.
+
+## 6. Allgemeine Organisation
+
+Das Masterprogramm setzt sich aus zwei Modulen zusammen. Ein Modul wird in der Regel alle zwei Jahre angeboten und ein Modul jährlich. Tabelle 1 gibt die Übersicht über die Module des Spezialisierungs- bzw. Nebenprogramms «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS. Die Studierenden absolvieren beide Pflichtmodule.
+
+Die aktuell angebotenen Unterrichtseinheiten werden auf der Website des Departements und im universitären Vorlesungsverzeichnis bekannt gegeben.
+
+Tabelle 1: Modulstruktur des Programms «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS
+
+| Gender, Gesellschaft, Sozialpolitik   | Master-Spezialisierungs- bzw.   | * jährlich / ungerade   |
+|---------------------------------------|---------------------------------|-------------------------|
+| MAgen01                               | Gender und soziale Wohlfahrt    | u                       |
+| MAgen02                               | Berner Modul                    | j                       |
+
+Im Folgenden werden die Module des Studienprogramms beschrieben. Die Lehrveranstaltungen und Leistungen, die innerhalb der einzelnen Module zu erbringen sind, werden tabellarisch zusammen mit den entsprechenden JWS (= Jahreswochenstunden), den ECTS-Kreditpunkten und dem Jahresrhythmus, in welchem die Veranstaltungen angeboten werden, dargestellt. Ein Kurs à zwei Lektionen Präsenzunterricht in einem Semester entspricht 1 JWS; ein Jahreskurs à zwei Lektionen entspricht 2 JWS. Für die Studierenden entspricht 1 ECTS einem zeitlichen Arbeitsaufwand von durchschnittlich ca. 30 Arbeitsstunden.  Für  Präsenzkurse  mit  1  JWS  entsteht  in  der  Regel  einen  Aufwand  von  3  ECTS.
+
+Abweichend davon ist der Aufwand für den Kurs «Vortragsreihe» (6 ECTS), der neben der Prüfung eine umfangreiche individuelle Leistung im Laufe des Semesters erfordert.
+
+## 7. Beschreibung der Module
+
+## MAgen01: Gender und soziale Wohlfahrt (15 ECTS)
+
+In diesem Modul werden sozialwissenschaftliche Theorien und Konzepte aus der Geschlechterperspektive untersucht. Sie werden auf der Grundlage der in der Geschlechterforschung geführten Debatten - wie Gerechtigkeit und Sorge, Gleichheit und Differenzen, öffentliche und private Wohlfahrt - auf aktuelle Fragestellungen bezogen, z.B. Feminisierung von Armut und Migration, Sorgekrisen in Nord und Süd, Verteilung der bezahlten und unbezahlten Arbeit, Gender und gesellschaftlicher Wandel, Gender und Gewalt. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+Ziel des Moduls ist es, dass die Studierenden die Bedeutung der Kategorie Geschlecht und der Geschlechterverhältnisse  in  den  Sozialwissenschaften  kennenlernen  und  verstehen,  wodurch  geschlechtsspezifische Ungleichheiten reproduziert werden und wie soziale Institutionen geschlechtssensibel gestaltet werden können.
+
+| MAgen01   | Gender und soziale Wohlfahrt     |   JWS |   ECTS | * jährlich / ungerade   |
+|-----------|----------------------------------|-------|--------|-------------------------|
+| MAgen01a  | Gender und soziale Gerechtigkeit |     1 |      3 | u                       |
+| MAgen01b  | Gender und Sozialpolitik         |     1 |      3 | u                       |
+| MAgen01c  | Gender und soziale Wohlfahrt     |     1 |      3 | u                       |
+| MAgen01d  | Vortragsreihe                    |     1 |      6 | j                       |
+
+## MAgen02: Berner Modul (15 ECTS)
+
+Dieses Modul wird jährlich angeboten. Unterrichtssprache ist Deutsch, gelegentlich Englisch. Die Liste der zur Auswahl stehenden Kurse wird auf der Website www.unifr.ch/gender vor Beginn des jeweiligen Semesters veröffentlicht. Die Form der Evaluation ist den Syllabi der entsprechenden Veranstaltungen zu entnehmen. Verantwortlich für dieses Kursangebot ist das Interdisziplinäre Zentrum für Geschlechterforschung der Universität Bern. Die Studierenden melden sich im BeNeFri-Netzwerk an. Es werden nur ECTS-Punkte verliehen, die in den Syllabi der einzelnen Kurse angegeben sind.
+
+## 8. Prüfungsmodalitäten
+
+## 8.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Jede Unterrichtseinheit wird evaluiert. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer Unterrichtseinheit erbracht werden. Es gibt unterschiedliche Evaluationsmodalitäten: schriftliche/mündliche Prüfung, das Verfassen einer schriftlichen Arbeit, der Nachweis erbrachter Leistungen während des Semesters oder laufende Lernkontrollen. Sie werden in den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt dies als endgültiger Misserfolg und damit die Unterrichtseinheit als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder andere schriftliche Arbeit) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Laufende Lernkontrollen (z.B. Essays, Protokolle etc., die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind) finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der Unterrichtseinheit  und  werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Die vorliegende Beschreibung der Evaluation der Leistungen bezieht sich auf das an der Universität Fribourg angebotene Modul «Gender und soziale Wohlfahrt». Die genauen Inhalte und die Validierungsmodalitäten der Kurse des Berner Moduls richten sich nach den entsprechenden Bestimmungen an der Universität Bern.
+
+Sämtliche  Plagiatsverdachte  (beispielsweise  in  Leistungsanforderungen  oder  schriftliche  Arbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die Unterrichtseinheit muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 8.2 Endgültiger Misserfolg
+
+Alle  Unterrichtseinheiten  sind  einem  Modul  angeschlossen.  Alle  Unterrichtseinheiten  des  Moduls «Gender und soziale Wohlfahrt» müssen erfolgreich absolviert werden. In Berner Modul kann eine Unterrichtseinheit mit einem definitiven Misserfolg durch eine andere ersetzt werden.
+
+Wird ein Modul definitiv nicht bestanden, führt dies zum definitiven Misserfolg im Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium im Spezialisierung- bzw. Nebenprogramm «Gender, Gesellschaft, Sozialpolitik» an der Universität Fribourg fortzusetzen.
+
+Ein Wechsel in das Master-Vertiefungsprogramm «Soziologie, Sozialpolitik, Sozialarbeit» am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist möglich. Die definitiv nicht bestandenen Module stehen im Vertiefungsprogramm nicht mehr zur Verfügung.
+
+## 8.3  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten Unterrichtseinheiten. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die  Abschlussnote  des  Spezialisierungs-/Nebenprogramms  ist  der  ungewichtete  Mittelwert  beider Modulnoten. Die Gesamtnote wird auf zwei Nachkommastellen gerundet.
+
+## 9. Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Master-Spezialisierungs- bzw. Nebenprogramm «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS aufnehmen.
+
+Ab Frühjahrsemester 2022 ersetzt dieser Studienplan «2021» den früheren Masterstudienplan «Gender, Gesellschaft, Sozialpolitik» (Studienplan 2017).
+
+## 10.  Anhang: Übersicht aller Module und Kurse des Programms
+
+Tabelle 2: Kurse und Module des Programms «Gender, Gesellschaft, Sozialpolitik» zu 30 ECTS
+
+| Gender, Gesellschaft, Sozialpolitik Master-Spezialisierungs- bzw. Nebenprogramm zu 30 ECTS   | Gender, Gesellschaft, Sozialpolitik Master-Spezialisierungs- bzw. Nebenprogramm zu 30 ECTS   |   JWS |   ECTS | * jährlich / ungerade   |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------|--------|-------------------------|
+| MAgen01                                                                                      | Gender und soziale Wohlfahrt                                                                 |    15 |     15 | 15                      |
+| MAgen01a                                                                                     | Gender und soziale Gerechtigkeit                                                             |     1 |      3 | u                       |
+| MAgen01b                                                                                     | Gender und Sozialpolitik                                                                     |     1 |      3 | u                       |
+| MAgen01c                                                                                     | Gender und soziale Wohlfahrt                                                                 |     1 |      3 | u                       |
+| MAgen01d                                                                                     | Vortragsreihe                                                                                |     1 |      6 | j                       |
+| MAgen02                                                                                      | Berner Modul                                                                                 |    15 |     15 | 15                      |
+|                                                                                              | Kurse des IZFG (Interdisziplinäre Zentrum für Geschlechterforschung) an der Universität Bern |       |        | j                       |

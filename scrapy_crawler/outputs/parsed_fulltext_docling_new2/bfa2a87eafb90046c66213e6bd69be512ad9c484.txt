@@ -1,0 +1,53 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:32:22.420Z",
+  "title": "matched_Faculty_of_Theology_Doctorate_UNK_Theology_Ehrenw_rtliche_Erkl_rung_bfa2a87eafb90046c66213e6bd69be512ad9c484",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "bfa2a87eafb90046c66213e6bd69be512ad9c484",
+  "program_key": "faculty of theology|doctorate||theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/SP2024/ehrenw%C3%B6rtliche_Erkl%C3%A4rung-dt_Version_2024_def.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Ehrenw_rtliche_Erkl_rung_bfa2a87eafb90046c66213e6bd69be512ad9c484.pdf",
+  "sha256": "11541fd8262739cd8b37b2ebd630b853d233528fa6ad046c819e1a5996303d09",
+  "fetched_at": "2026-05-21T16:05:39.091Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/SP2024/ehrenw%C3%B6rtliche_Erkl%C3%A4rung-dt_Version_2024_def.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Ehrenwörtliche Erklärung
+
+(Beilage zu den schriftlichen Abschlussarbeiten im Kirchlichen Diplom, Bachelor, Master, Kanonischen Lizentiat, Doktorat, Habilitation)
+
+Hiermit bestätige ich mit meiner Unterschrift, dass ich die hier vorgelegte Arbeit persönlich verfasst und dabei nur die angeführten Quellen und Hilfsmittel verwendet habe; wörtliche Zitate und Paraphrasen sind als solche gekennzeichnet. Jene Textpassagen, zu deren Erarbeitung automatisierte Programme zur Texterstellung (bspw. ChatGPT) verwendet wurden, sind als solche gekennzeichnet.
+
+Ich habe zur Kenntnis genommen, dass wissenschaftliches Fehlverhalten nach den Richtlinien der Universität Freiburg* geahndet wird.
+
+Vorname:
+
+Name:
+
+Nr. SIUS :
+
+Ort und Datum:
+
+Unterschrift:
+
+* Richtlinien der Universität Freiburg vom 13. Mai 2008 über das Verfahren für die Verhängung von Disziplinarstrafen nach Art. 101 der Statuten der Universität Freiburg vom 31. März 2000 im Falle des Verstosses gegen die Regeln guter wissenschaftlicher Praxis beim Verfassen schriftlicher Arbeiten während der Ausbildung: https://webapps.unifr.ch/legal/de/document/274672
+
+Art. 2: 'Wissenschaftliches Fehlverhalten liegt vor, wenn gegen die Regeln guter wissenschaftlicher Praxis verstossen wird, namentlich wenn in einer schriftlichen Arbeit fremde Arbeitsergebnisse und Erkenntnisse unter eigenem Namen verfasst werden (Plagiat), wenn eine Arbeit eingereicht wird, die von einer Drittperson verfasst worden ist (Ghostwriting), oder wenn vorsätzlich oder grob fahrlässig Falschangaben gemacht werden'.
+
+Diese Erklärung muss jeder schriftlichen Abschlussarbeit (Kirchliches Diplom, Bachelor, Master, Lizentiat, Doktorat, Habilitation) beigelegt sein. Ohne diese Erklärung gilt die Arbeit als nicht eingereicht.
+
+Beschluss des Fakultätsrats vom 12.03.2024

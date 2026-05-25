@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "3b53b5f6a891724eb3f3491eaddf7cce64143304",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Master's minor 30 ECTS\n\n## Digital Media and Communication for Social Impact\n\n<!-- image -->\n\n## ADMISSION REQUIREMENTS\n\nThe same admission requirements apply as for the Master's in Digital Media and Communication for Social Impact.\n\n## COURSES\n\nInformation on the courses offered by the Faculty of Management, Economics and Social Sciences as part of the modules is published at the beginning of the academic year in the detailed study plan and on the Internet.\n\n## FURTHER INFO\n\nIf you are completing this minor as part of a Master's degree in the Faculty of Philosophy, you must earn 30 ECTS in this programme before defending your Master's thesis.",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Master's minor 30 ECTS\n\n## Digital Media and Communication for Social Impact\n\n<!-- image -->\n\n## ADMISSION REQUIREMENTS\n\nThe same admission requirements apply as for the Master's in Digital Media and Communication for Social Impact.\n\n## COURSES\n\nInformation on the courses offered by the Faculty of Management, Economics and Social Sciences as part of the modules is published at the beginning of the academic year in the detailed study plan and on the Internet.\n\n## FURTHER INFO\n\nIf you are completing this minor as part of a Master's degree in the Faculty of Philosophy, you must earn 30 ECTS in this programme before defending your Master's thesis."
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Master's minor 30 ECTS",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Digital Media and Communication for Social Impact",
+      "line_index": 8,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "ADMISSION REQUIREMENTS",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "COURSES",
+      "line_index": 16,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "FURTHER INFO",
+      "line_index": 20,
+      "source": "markdown_regex"
+    }
+  ]
+}

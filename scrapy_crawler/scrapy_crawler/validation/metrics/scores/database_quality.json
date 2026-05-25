@@ -1,0 +1,3050 @@
+{
+  "generated_at": "2026-05-06T14:02:23.112Z",
+  "metric_scope": "database_quality",
+  "description": [
+    "Final database validation layer for the thesis pipeline.",
+    "Runs read-only SQL checks against the Docker/Postgres database using the same DataAccessController as the schema/import scripts.",
+    "The score estimates database readiness for reliable chatbot/backend usage, not full manual semantic correctness."
+  ],
+  "table_counts": {
+    "faculty": 8,
+    "room": 185,
+    "language": 18,
+    "professor": 1472,
+    "domain": 51,
+    "studyprogram": 345,
+    "course": 3563,
+    "has_lang": 597,
+    "teaches": 4984,
+    "consist_of": 4551,
+    "semester": 4,
+    "courseoffering": 3588,
+    "session": 35560,
+    "is_taught_in": 4365,
+    "evaluation": 7631,
+    "examined_in": 0,
+    "programdocument": 1310,
+    "programcoursestaging": 7018
+  },
+  "score": {
+    "score": 0.865834,
+    "normalized_score": 0.865834,
+    "weights": {
+      "schema_completeness": 0.1,
+      "relational_integrity": 0.2,
+      "studyprogram_quality": 0.2,
+      "document_quality": 0.15,
+      "parser_import_quality": 0.15,
+      "final_program_course_quality": 0.15,
+      "course_catalogue_quality": 0.05
+    },
+    "details": {
+      "schema_completeness": {
+        "value": 1,
+        "weight": 0.1,
+        "contribution": 0.1
+      },
+      "relational_integrity": {
+        "value": 1,
+        "weight": 0.2,
+        "contribution": 0.2
+      },
+      "studyprogram_quality": {
+        "value": 0.661159,
+        "weight": 0.2,
+        "contribution": 0.132232
+      },
+      "document_quality": {
+        "value": 0.896097,
+        "weight": 0.15,
+        "contribution": 0.134415
+      },
+      "parser_import_quality": {
+        "value": 0.970205,
+        "weight": 0.15,
+        "contribution": 0.145531
+      },
+      "final_program_course_quality": {
+        "value": 0.705507,
+        "weight": 0.15,
+        "contribution": 0.105826
+      },
+      "course_catalogue_quality": {
+        "value": 0.956624,
+        "weight": 0.05,
+        "contribution": 0.047831
+      }
+    }
+  },
+  "components": {
+    "schema_completeness": 1,
+    "relational_integrity": 1,
+    "studyprogram_quality": 0.6611594202898552,
+    "document_quality": 0.8960969133753732,
+    "parser_import_quality": 0.9702051866628669,
+    "final_program_course_quality": 0.7055072463768117,
+    "course_catalogue_quality": 0.9566236317709795
+  },
+  "summary": {
+    "total_checks": 208,
+    "passed": 196,
+    "failed": 12,
+    "failed_errors": 2,
+    "failed_warnings": 6,
+    "failed_info": 4,
+    "by_category": {
+      "schema": {
+        "total": 113,
+        "passed": 113,
+        "failed": 0
+      },
+      "primary_keys": {
+        "total": 41,
+        "passed": 41,
+        "failed": 0
+      },
+      "foreign_keys": {
+        "total": 23,
+        "passed": 23,
+        "failed": 0
+      },
+      "studyprogram": {
+        "total": 10,
+        "passed": 5,
+        "failed": 5
+      },
+      "documents": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0
+      },
+      "staging": {
+        "total": 6,
+        "passed": 3,
+        "failed": 3
+      },
+      "consist_of": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1
+      },
+      "courses": {
+        "total": 4,
+        "passed": 1,
+        "failed": 3
+      }
+    },
+    "by_severity": {
+      "error": {
+        "total": 191,
+        "passed": 189,
+        "failed": 2
+      },
+      "info": {
+        "total": 7,
+        "passed": 3,
+        "failed": 4
+      },
+      "warning": {
+        "total": 10,
+        "passed": 4,
+        "failed": 6
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "faculty: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "room: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "language: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "domain: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "has_lang: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "teaches: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "semester: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "is_taught_in: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "examined_in: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging: table exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.faculty_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.name_de: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.name_fr: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.name_en: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.url: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty.faculty_key: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "room.room_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "language.lang_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "language.description: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.prof_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.title: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.first_name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.last_name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.email: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "professor.office: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "domain.domain_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "domain.name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "domain.faculty_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.program_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.degree_level: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.total_ects: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.study_start: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.faculty_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.director: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.source_hints: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.source_faculty_key: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.source_last_page_url: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.name_en: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.name_de: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "studyprogram.name_fr: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.alternative_code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.ects: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.description: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.learning_goals: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.faculty_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "course.domain_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "has_lang.program_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "has_lang.lang_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "teaches.code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "teaches.prof_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of.program_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of.code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of.course_name: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of.course_type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "consist_of.description: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "semester.sem_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "semester.year: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "semester.type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.offering_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.sem_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.offering_type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.day_time_info: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "courseoffering.link_course_catalogue: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.session_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.offering_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.date: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.start_time: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.end_time: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.room_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "session.unit_type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "is_taught_in.offering_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "is_taught_in.lang_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.eval_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.offering_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.date: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.start_time: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.end_time: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.description: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.requirements: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.evaluation_scheme: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "evaluation.remarks: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "examined_in.room_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "examined_in.eval_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.doc_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.program_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.label: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.url: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.doc_type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.fetched_at: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.parse_status: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programdocument.parse_notes: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.staging_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.program_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.raw_text: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.extracted_code: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.extracted_title: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.inferred_type: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.source_doc_id: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.page_no: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.section: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "programcoursestaging.created_at: column exists",
+      "category": "schema",
+      "severity": "error",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "faculty: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 8,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "faculty_id"
+        ]
+      }
+    },
+    {
+      "name": "faculty.faculty_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 8,
+      "rate": 1
+    },
+    {
+      "name": "room: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 185,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "room_id"
+        ]
+      }
+    },
+    {
+      "name": "room.room_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 185,
+      "rate": 1
+    },
+    {
+      "name": "language: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 18,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "lang_id"
+        ]
+      }
+    },
+    {
+      "name": "language.lang_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 18,
+      "rate": 1
+    },
+    {
+      "name": "professor: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1472,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "prof_id"
+        ]
+      }
+    },
+    {
+      "name": "professor.prof_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1472,
+      "rate": 1
+    },
+    {
+      "name": "domain: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 51,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "domain_id"
+        ]
+      }
+    },
+    {
+      "name": "domain.domain_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 51,
+      "rate": 1
+    },
+    {
+      "name": "studyprogram: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "program_id"
+        ]
+      }
+    },
+    {
+      "name": "studyprogram.program_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1
+    },
+    {
+      "name": "course: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3563,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "code"
+        ]
+      }
+    },
+    {
+      "name": "course.code: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3563,
+      "rate": 1
+    },
+    {
+      "name": "has_lang: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 597,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "program_id",
+          "lang_id"
+        ]
+      }
+    },
+    {
+      "name": "has_lang.program_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 597,
+      "rate": 1
+    },
+    {
+      "name": "has_lang.lang_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 597,
+      "rate": 1
+    },
+    {
+      "name": "teaches: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4984,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "code",
+          "prof_id"
+        ]
+      }
+    },
+    {
+      "name": "teaches.code: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4984,
+      "rate": 1
+    },
+    {
+      "name": "teaches.prof_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4984,
+      "rate": 1
+    },
+    {
+      "name": "consist_of: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4551,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "program_id",
+          "code"
+        ]
+      }
+    },
+    {
+      "name": "consist_of.program_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4551,
+      "rate": 1
+    },
+    {
+      "name": "consist_of.code: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4551,
+      "rate": 1
+    },
+    {
+      "name": "semester: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "sem_id"
+        ]
+      }
+    },
+    {
+      "name": "semester.sem_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4,
+      "rate": 1
+    },
+    {
+      "name": "courseoffering: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3588,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "offering_id"
+        ]
+      }
+    },
+    {
+      "name": "courseoffering.offering_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3588,
+      "rate": 1
+    },
+    {
+      "name": "session: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 35560,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "session_id"
+        ]
+      }
+    },
+    {
+      "name": "session.session_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 35560,
+      "rate": 1
+    },
+    {
+      "name": "is_taught_in: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4365,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "offering_id",
+          "lang_id"
+        ]
+      }
+    },
+    {
+      "name": "is_taught_in.offering_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4365,
+      "rate": 1
+    },
+    {
+      "name": "is_taught_in.lang_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4365,
+      "rate": 1
+    },
+    {
+      "name": "evaluation: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7631,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "eval_id"
+        ]
+      }
+    },
+    {
+      "name": "evaluation.eval_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7631,
+      "rate": 1
+    },
+    {
+      "name": "examined_in: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 0,
+      "rate": null,
+      "details": {
+        "pk": [
+          "eval_id",
+          "room_id"
+        ]
+      }
+    },
+    {
+      "name": "examined_in.eval_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 0,
+      "rate": null
+    },
+    {
+      "name": "examined_in.room_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 0,
+      "rate": null
+    },
+    {
+      "name": "programdocument: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "doc_id"
+        ]
+      }
+    },
+    {
+      "name": "programdocument.doc_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1
+    },
+    {
+      "name": "programcoursestaging: primary key uniqueness",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7018,
+      "rate": 1,
+      "details": {
+        "pk": [
+          "staging_id"
+        ]
+      }
+    },
+    {
+      "name": "programcoursestaging.staging_id: primary key not null",
+      "category": "primary_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7018,
+      "rate": 1
+    },
+    {
+      "name": "Domain.faculty_id -> Faculty",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 51,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM domain f\n    LEFT JOIN faculty t ON f.faculty_id = t.faculty_id\n    WHERE f.faculty_id IS NOT NULL\n      AND t.faculty_id IS NULL;\n  "
+    },
+    {
+      "name": "StudyProgram.faculty_id -> Faculty",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram f\n    LEFT JOIN faculty t ON f.faculty_id = t.faculty_id\n    WHERE f.faculty_id IS NOT NULL\n      AND t.faculty_id IS NULL;\n  "
+    },
+    {
+      "name": "StudyProgram.director -> Professor",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram f\n    LEFT JOIN professor t ON f.director = t.prof_id\n    WHERE f.director IS NOT NULL\n      AND t.prof_id IS NULL;\n  "
+    },
+    {
+      "name": "Course.faculty_id -> Faculty",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3563,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM course f\n    LEFT JOIN faculty t ON f.faculty_id = t.faculty_id\n    WHERE f.faculty_id IS NOT NULL\n      AND t.faculty_id IS NULL;\n  "
+    },
+    {
+      "name": "Course.domain_id -> Domain",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3563,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM course f\n    LEFT JOIN domain t ON f.domain_id = t.domain_id\n    WHERE f.domain_id IS NOT NULL\n      AND t.domain_id IS NULL;\n  "
+    },
+    {
+      "name": "has_lang.program_id -> StudyProgram",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 597,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM has_lang f\n    LEFT JOIN studyprogram t ON f.program_id = t.program_id\n    WHERE f.program_id IS NOT NULL\n      AND t.program_id IS NULL;\n  "
+    },
+    {
+      "name": "has_lang.lang_id -> Language",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 597,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM has_lang f\n    LEFT JOIN language t ON f.lang_id = t.lang_id\n    WHERE f.lang_id IS NOT NULL\n      AND t.lang_id IS NULL;\n  "
+    },
+    {
+      "name": "teaches.code -> Course",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4984,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM teaches f\n    LEFT JOIN course t ON f.code = t.code\n    WHERE f.code IS NOT NULL\n      AND t.code IS NULL;\n  "
+    },
+    {
+      "name": "teaches.prof_id -> Professor",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4984,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM teaches f\n    LEFT JOIN professor t ON f.prof_id = t.prof_id\n    WHERE f.prof_id IS NOT NULL\n      AND t.prof_id IS NULL;\n  "
+    },
+    {
+      "name": "consist_of.program_id -> StudyProgram",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4551,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM consist_of f\n    LEFT JOIN studyprogram t ON f.program_id = t.program_id\n    WHERE f.program_id IS NOT NULL\n      AND t.program_id IS NULL;\n  "
+    },
+    {
+      "name": "consist_of.code -> Course",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4551,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM consist_of f\n    LEFT JOIN course t ON f.code = t.code\n    WHERE f.code IS NOT NULL\n      AND t.code IS NULL;\n  "
+    },
+    {
+      "name": "CourseOffering.code -> Course",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3588,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM courseoffering f\n    LEFT JOIN course t ON f.code = t.code\n    WHERE f.code IS NOT NULL\n      AND t.code IS NULL;\n  "
+    },
+    {
+      "name": "CourseOffering.sem_id -> Semester",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 3588,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM courseoffering f\n    LEFT JOIN semester t ON f.sem_id = t.sem_id\n    WHERE f.sem_id IS NOT NULL\n      AND t.sem_id IS NULL;\n  "
+    },
+    {
+      "name": "Session.offering_id -> CourseOffering",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 35560,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM session f\n    LEFT JOIN courseoffering t ON f.offering_id = t.offering_id\n    WHERE f.offering_id IS NOT NULL\n      AND t.offering_id IS NULL;\n  "
+    },
+    {
+      "name": "Session.room_id -> Room",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 35560,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM session f\n    LEFT JOIN room t ON f.room_id = t.room_id\n    WHERE f.room_id IS NOT NULL\n      AND t.room_id IS NULL;\n  "
+    },
+    {
+      "name": "is_taught_in.offering_id -> CourseOffering",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4365,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM is_taught_in f\n    LEFT JOIN courseoffering t ON f.offering_id = t.offering_id\n    WHERE f.offering_id IS NOT NULL\n      AND t.offering_id IS NULL;\n  "
+    },
+    {
+      "name": "is_taught_in.lang_id -> Language",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 4365,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM is_taught_in f\n    LEFT JOIN language t ON f.lang_id = t.lang_id\n    WHERE f.lang_id IS NOT NULL\n      AND t.lang_id IS NULL;\n  "
+    },
+    {
+      "name": "Evaluation.offering_id -> CourseOffering",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7631,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM evaluation f\n    LEFT JOIN courseoffering t ON f.offering_id = t.offering_id\n    WHERE f.offering_id IS NOT NULL\n      AND t.offering_id IS NULL;\n  "
+    },
+    {
+      "name": "examined_in.room_id -> Room",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 0,
+      "rate": null,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM examined_in f\n    LEFT JOIN room t ON f.room_id = t.room_id\n    WHERE f.room_id IS NOT NULL\n      AND t.room_id IS NULL;\n  "
+    },
+    {
+      "name": "examined_in.eval_id -> Evaluation",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 0,
+      "rate": null,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM examined_in f\n    LEFT JOIN evaluation t ON f.eval_id = t.eval_id\n    WHERE f.eval_id IS NOT NULL\n      AND t.eval_id IS NULL;\n  "
+    },
+    {
+      "name": "programDocument.program_id -> StudyProgram",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programdocument f\n    LEFT JOIN studyprogram t ON f.program_id = t.program_id\n    WHERE f.program_id IS NOT NULL\n      AND t.program_id IS NULL;\n  "
+    },
+    {
+      "name": "programCourseStaging.program_id -> StudyProgram",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7018,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging f\n    LEFT JOIN studyprogram t ON f.program_id = t.program_id\n    WHERE f.program_id IS NOT NULL\n      AND t.program_id IS NULL;\n  "
+    },
+    {
+      "name": "programCourseStaging.source_doc_id -> programDocument",
+      "category": "foreign_keys",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 7018,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging f\n    LEFT JOIN programdocument t ON f.source_doc_id = t.doc_id\n    WHERE f.source_doc_id IS NOT NULL\n      AND t.doc_id IS NULL;\n  "
+    },
+    {
+      "name": "StudyProgram.name: completeness",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1
+    },
+    {
+      "name": "StudyProgram.degree_level: completeness",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1
+    },
+    {
+      "name": "StudyProgram.total_ects: completeness",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": false,
+      "value": 62,
+      "total": 345,
+      "rate": 0.8202898550724638
+    },
+    {
+      "name": "StudyProgram.faculty_id: completeness",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1
+    },
+    {
+      "name": "StudyProgram: at least one multilingual name field present",
+      "category": "studyprogram",
+      "severity": "info",
+      "passed": true,
+      "value": 345,
+      "total": 345,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram\n    WHERE name_en IS NOT NULL OR name_de IS NOT NULL OR name_fr IS NOT NULL;\n  "
+    },
+    {
+      "name": "StudyProgram.degree_level: valid values",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 345,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram\n    WHERE degree_level NOT IN ('Bachelor','Master','Doctorate');\n  "
+    },
+    {
+      "name": "StudyProgram.total_ects: plausible range",
+      "category": "studyprogram",
+      "severity": "error",
+      "passed": false,
+      "value": 62,
+      "total": 345,
+      "rate": 0.8202898550724638,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram\n    WHERE total_ects IS NULL OR total_ects <= 0 OR total_ects > 300;\n  "
+    },
+    {
+      "name": "StudyProgram: not assigned to default faculty",
+      "category": "studyprogram",
+      "severity": "warning",
+      "passed": false,
+      "value": 1,
+      "total": 345,
+      "rate": 0.9971014492753624,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM studyprogram\n    WHERE faculty_id = 100;\n  "
+    },
+    {
+      "name": "StudyProgram: programmes with at least one ProgramDocument",
+      "category": "studyprogram",
+      "severity": "warning",
+      "passed": false,
+      "value": 214,
+      "total": 345,
+      "rate": 0.6202898550724638,
+      "sql": "\n    SELECT COUNT(DISTINCT sp.program_id)::int AS n\n    FROM studyprogram sp\n    JOIN programdocument pd ON pd.program_id = sp.program_id;\n  "
+    },
+    {
+      "name": "StudyProgram: programmes with at least one final course link",
+      "category": "studyprogram",
+      "severity": "warning",
+      "passed": false,
+      "value": 91,
+      "total": 345,
+      "rate": 0.263768115942029,
+      "sql": "\n    SELECT COUNT(DISTINCT sp.program_id)::int AS n\n    FROM studyprogram sp\n    JOIN consist_of co ON co.program_id = sp.program_id;\n  "
+    },
+    {
+      "name": "programDocument.program_id: completeness",
+      "category": "documents",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1
+    },
+    {
+      "name": "programDocument.url: completeness",
+      "category": "documents",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1
+    },
+    {
+      "name": "programDocument.doc_type: completeness",
+      "category": "documents",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "total": 1310,
+      "rate": 1
+    },
+    {
+      "name": "programDocument.doc_type: valid values",
+      "category": "documents",
+      "severity": "error",
+      "passed": true,
+      "value": 1310,
+      "total": 1310,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programdocument\n    WHERE doc_type IN ('study_plan','regulation','brochure','other');\n  "
+    },
+    {
+      "name": "programDocument.parse_status: ok-like or NULL",
+      "category": "documents",
+      "severity": "warning",
+      "passed": true,
+      "value": 1310,
+      "total": 1310,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programdocument\n    WHERE parse_status IS NULL\n       OR lower(parse_status) IN ('ok','parsed','downloaded','already_present','success');\n  "
+    },
+    {
+      "name": "programDocument.label: completeness",
+      "category": "documents",
+      "severity": "info",
+      "passed": true,
+      "value": 1310,
+      "total": 1310,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programdocument\n    WHERE label IS NOT NULL AND btrim(label) <> '';\n  "
+    },
+    {
+      "name": "programDocument: unique per program/url/doc_type",
+      "category": "documents",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "details": {
+        "first_25": []
+      }
+    },
+    {
+      "name": "programCourseStaging.raw_text: present",
+      "category": "staging",
+      "severity": "error",
+      "passed": true,
+      "value": 7018,
+      "total": 7018,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging\n    WHERE raw_text IS NOT NULL AND btrim(raw_text) <> '';\n  "
+    },
+    {
+      "name": "programCourseStaging.source_doc_id: present",
+      "category": "staging",
+      "severity": "warning",
+      "passed": true,
+      "value": 7018,
+      "total": 7018,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging\n    WHERE source_doc_id IS NOT NULL;\n  "
+    },
+    {
+      "name": "programCourseStaging.extracted_code: present",
+      "category": "staging",
+      "severity": "warning",
+      "passed": true,
+      "value": 7018,
+      "total": 7018,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging\n    WHERE extracted_code IS NOT NULL AND btrim(extracted_code) <> '';\n  "
+    },
+    {
+      "name": "programCourseStaging.extracted_code: exists in Course",
+      "category": "staging",
+      "severity": "warning",
+      "passed": false,
+      "value": 6468,
+      "total": 7018,
+      "rate": 0.9216300940438872,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging s\n    JOIN course c ON c.code = btrim(s.extracted_code)\n    WHERE s.extracted_code IS NOT NULL AND btrim(s.extracted_code) <> '';\n  "
+    },
+    {
+      "name": "programCourseStaging.extracted_title: present",
+      "category": "staging",
+      "severity": "info",
+      "passed": false,
+      "value": 6691,
+      "total": 7018,
+      "rate": 0.9534055286406383,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging\n    WHERE extracted_title IS NOT NULL AND btrim(extracted_title) <> '';\n  "
+    },
+    {
+      "name": "programCourseStaging.inferred_type: present",
+      "category": "staging",
+      "severity": "info",
+      "passed": false,
+      "value": 5690,
+      "total": 7018,
+      "rate": 0.810772299800513,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM programcoursestaging\n    WHERE inferred_type IN ('Mandatory','Elective');\n  "
+    },
+    {
+      "name": "consist_of.course_type: valid",
+      "category": "consist_of",
+      "severity": "warning",
+      "passed": true,
+      "value": 4551,
+      "total": 4551,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM consist_of\n    WHERE course_type IN ('Mandatory','Elective');\n  "
+    },
+    {
+      "name": "consist_of.course_name: present",
+      "category": "consist_of",
+      "severity": "info",
+      "passed": true,
+      "value": 4551,
+      "total": 4551,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM consist_of\n    WHERE course_name IS NOT NULL AND btrim(course_name) <> '';\n  "
+    },
+    {
+      "name": "StudyProgram: programmes with final consist_of links",
+      "category": "consist_of",
+      "severity": "warning",
+      "passed": false,
+      "value": 91,
+      "total": 345,
+      "rate": 0.263768115942029,
+      "sql": "\n    SELECT COUNT(DISTINCT program_id)::int AS n\n    FROM consist_of;\n  "
+    },
+    {
+      "name": "consist_of: no duplicate program/course links",
+      "category": "consist_of",
+      "severity": "error",
+      "passed": true,
+      "value": 0,
+      "details": {
+        "first_25": []
+      }
+    },
+    {
+      "name": "Course.name: present",
+      "category": "courses",
+      "severity": "error",
+      "passed": true,
+      "value": 3563,
+      "total": 3563,
+      "rate": 1,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM course\n    WHERE name IS NOT NULL AND btrim(name) <> '';\n  "
+    },
+    {
+      "name": "Course.ects: plausible",
+      "category": "courses",
+      "severity": "warning",
+      "passed": false,
+      "value": 3561,
+      "total": 3563,
+      "rate": 0.9994386752736458,
+      "sql": "\n    SELECT COUNT(*)::int AS n\n    FROM course\n    WHERE ects IS NOT NULL AND ects >= 0 AND ects <= 60;\n  "
+    },
+    {
+      "name": "Course: has CourseOffering",
+      "category": "courses",
+      "severity": "info",
+      "passed": false,
+      "value": 3197,
+      "total": 3563,
+      "rate": 0.8972775750771822,
+      "sql": "\n    SELECT COUNT(DISTINCT c.code)::int AS n\n    FROM course c\n    JOIN courseoffering o ON o.code = c.code;\n  "
+    },
+    {
+      "name": "Course: has teacher relation",
+      "category": "courses",
+      "severity": "info",
+      "passed": false,
+      "value": 3146,
+      "total": 3563,
+      "rate": 0.8829637945551502,
+      "sql": "\n    SELECT COUNT(DISTINCT c.code)::int AS n\n    FROM course c\n    JOIN teaches t ON t.code = c.code;\n  "
+    }
+  ],
+  "samples": {
+    "studyprogram_default_faculty_first_25": [
+      {
+        "program_id": 46,
+        "name": "Teacher Education for Primary Level",
+        "degree_level": "Bachelor",
+        "total_ects": 180,
+        "source_faculty_key": null,
+        "source_last_page_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu0"
+      }
+    ],
+    "studyprogram_without_course_links_first_25": [
+      {
+        "program_id": 321,
+        "name": "Accounting and Finance",
+        "degree_level": "Master",
+        "total_ects": 120,
+        "faculty": "Faculty of Management, Economics and Social Sciences"
+      },
+      {
+        "program_id": 187,
+        "name": "Archaeology",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 188,
+        "name": "Archaeology",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 189,
+        "name": "Archaeology",
+        "degree_level": "Master",
+        "total_ects": 90,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 199,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 30,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 200,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 201,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 120,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 196,
+        "name": "Art History",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 197,
+        "name": "Art History",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 198,
+        "name": "Art History",
+        "degree_level": "Master",
+        "total_ects": 90,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 104,
+        "name": "Biochemistry",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 100,
+        "name": "Biochemistry",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 48,
+        "name": "Bioinformatics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 98,
+        "name": "Biology",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 93,
+        "name": "Biology",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 312,
+        "name": "Business Communication",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Management, Economics and Social Sciences"
+      },
+      {
+        "program_id": 310,
+        "name": "Business Communication",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "faculty": "Faculty of Management, Economics and Social Sciences"
+      },
+      {
+        "program_id": 90,
+        "name": "Chemistry",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 85,
+        "name": "Chemistry",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 86,
+        "name": "Chemistry",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "faculty": "Faculty of Science and Medicine"
+      },
+      {
+        "program_id": 287,
+        "name": "Classics",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 288,
+        "name": "Classics",
+        "degree_level": "Bachelor",
+        "total_ects": 120,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 284,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 245,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Humanities"
+      },
+      {
+        "program_id": 257,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "faculty": "Faculty of Humanities"
+      }
+    ],
+    "studyprogram_duplicate_name_degree_ects_first_25": [
+      {
+        "name_norm": "special education",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 5
+      },
+      {
+        "name_norm": "classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 3
+      },
+      {
+        "name_norm": "geography",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 3
+      },
+      {
+        "name_norm": "education sciences",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      },
+      {
+        "name_norm": "environmental humanities",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      },
+      {
+        "name_norm": "history",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      },
+      {
+        "name_norm": "law",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      },
+      {
+        "name_norm": "social work and social policy",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      },
+      {
+        "name_norm": "theology",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "n": 2
+      }
+    ],
+    "programdocument_parse_status_distribution": [
+      {
+        "parse_status": "ok",
+        "n": 1310
+      }
+    ],
+    "programdocument_doc_type_distribution": [
+      {
+        "doc_type": "other",
+        "n": 1067
+      },
+      {
+        "doc_type": "study_plan",
+        "n": 207
+      },
+      {
+        "doc_type": "brochure",
+        "n": 23
+      },
+      {
+        "doc_type": "regulation",
+        "n": 13
+      }
+    ],
+    "programdocument_shared_urls_top_25": [
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA30_Religionswissenschaft_2017_Version_15.09.2022.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA30-2017-Schemata_DE.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60_Religionswissenschaft_2017_Version_15.09.2022.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60-2017-Schemata-DE.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120_Religionswissenschaft_2017_Version_15.09.2022.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA120-2017-Schemata-DE.pdf",
+        "refs": 5,
+        "programmes": 5
+      },
+      {
+        "url": "https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ba-2016/Histoire_BA_60_250216.pdf",
+        "refs": 4,
+        "programmes": 4
+      },
+      {
+        "url": "https://www.unifr.ch/hist/de/assets/public/files/studium/studienplaene-ba-2016/Histoire_BA_120_250216.pdf",
+        "refs": 4,
+        "programmes": 4
+      },
+      {
+        "url": "https://www.unifr.ch/musicologie/de/assets/public/Documents/Plans%20d%27%C3%A9tudes%202020/Master%2020%20DE/MUS_MA_30_DE_13112019.pdf",
+        "refs": 4,
+        "programmes": 4
+      },
+      {
+        "url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BSc-MSc_MA_de.pdf",
+        "refs": 4,
+        "programmes": 4
+      },
+      {
+        "url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BSc_CH_de.pdf",
+        "refs": 4,
+        "programmes": 4
+      },
+      {
+        "url": "https://www.calameo.com/read/003659115121784738f7c",
+        "refs": 4,
+        "programmes": 2
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_60%20%281197%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_P%C3%A4dPsy_120%20%281196%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BA_LDS_30%20%281482%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_LOG_180%20%281496%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/MA_DEDS_90%20%281497%29%2028%2003%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/MA_LDS_90%20%281548%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/MSc_Erzw_30%20%281492%29%2013%2002%202026.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_SdE_120%20%281462%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_SP_60%20%281198%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BA_LDP_180_%281539%29%2023%2010%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_Erzw_SdE_60%20%281463%29%2005%2006%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/LDSM_106%20%281517%29%2028%2003%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      },
+      {
+        "url": "https://cdn.unifr.ch/eduform/plans/current/BSc_SdE_60%20%281463%29%2021%2002%202025.pdf",
+        "refs": 3,
+        "programmes": 3
+      }
+    ],
+    "staging_invalid_course_codes_first_25": [
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.00074",
+        "extracted_title": "Inorganic chemistry module, consisting of",
+        "inferred_type": "Mandatory",
+        "section": "Compulsory",
+        "raw_text_sample": "| MO-SCH.00074 | Inorganic chemistry module, consisting of:      |           |        |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.04141",
+        "extracted_title": "Organic chemistry module, consisting of",
+        "inferred_type": "Mandatory",
+        "section": "Compulsory",
+        "raw_text_sample": "| MO-SCH.04141 | Organic chemistry module, consisting of:        |           |        |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.00075",
+        "extracted_title": "Physical chemistry module, consisting of",
+        "inferred_type": "Mandatory",
+        "section": "Compulsory",
+        "raw_text_sample": "| MO-SCH.00075 | Physical chemistry module, consisting of:       |           |        |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.04320",
+        "extracted_title": "Materials chemistry module, consisting of",
+        "inferred_type": "Mandatory",
+        "section": "Compulsory",
+        "raw_text_sample": "| MO-SCH.04320 | Materials chemistry module, consisting of:      |           |        |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.04901",
+        "extracted_title": "Research module, consisting of",
+        "inferred_type": "Mandatory",
+        "section": "Compulsory",
+        "raw_text_sample": "| MO-SCH.04901 | Research module, consisting of:                 |           |        |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.04703",
+        "extracted_title": "MO-Advanced inorganic chemistry module, consisting of",
+        "inferred_type": "Elective",
+        "section": "Elective at the Chemistry Department 1",
+        "raw_text_sample": "| MO-SCH.04703 Advanced inorganic chemistry module, consisting of: | MO-SCH.04703 Advanced inorganic chemistry module, consisting of: | MO-SCH.04703 Advanced inorganic chemistry module, consisting of: | MO-SCH.04703 Advanced inorganic chemistry module, consisting of: |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.04013",
+        "extracted_title": "MO-Advanced organic chemistry module, consisting of",
+        "inferred_type": "Elective",
+        "section": "Elective at the Chemistry Department 1",
+        "raw_text_sample": "| MO-SCH.04013 Advanced organic chemistry module, consisting of:   | MO-SCH.04013 Advanced organic chemistry module, consisting of:   | MO-SCH.04013 Advanced organic chemistry module, consisting of:   | MO-SCH.04013 Advanced organic chemistry module, consisting of:   |"
+      },
+      {
+        "program_id": 14,
+        "extracted_code": "UE-SCH.00077",
+        "extracted_title": "MO-Polymers module, consisting of",
+        "inferred_type": "Elective",
+        "section": "Elective at the Chemistry Department 1",
+        "raw_text_sample": "| MO-SCH.00077 Polymers module, consisting of:                     | MO-SCH.00077 Polymers module, consisting of:                     | MO-SCH.00077 Polymers module, consisting of:                     | MO-SCH.00077 Polymers module, consisting of:                     |"
+      },
+      {
+        "program_id": 119,
+        "extracted_code": "UE-F23.00140",
+        "extracted_title": "Policy Forschung*",
+        "inferred_type": "Mandatory",
+        "section": "Modul 4: Forschungsperspektiven in der Erziehungswissenschaft",
+        "raw_text_sample": "| F23.00140              | Policy Forschung*                                                    | 3 ECTS    |"
+      },
+      {
+        "program_id": 119,
+        "extracted_code": "UE-F23.00141",
+        "extracted_title": "Ungleichheitsforschung*",
+        "inferred_type": "Mandatory",
+        "section": "Modul 4: Forschungsperspektiven in der Erziehungswissenschaft",
+        "raw_text_sample": "| F23.00141              | Ungleichheitsforschung*                                              | 3 ECTS    |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01477",
+        "extracted_title": "Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01477   | Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance | Puppis    | HS-2025   | MA   |      | Fortlaufende Evaluation   |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01276",
+        "extracted_title": "Travail de séminaire : Communication en contexte politique",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01276   | Travail de séminaire : Communication en contexte politique                                | Feddersen | HS-2025   | MA   |      | Fortlaufende Evaluation   |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01480",
+        "extracted_title": "Masterseminararbeit: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01480 | Masterseminararbeit: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien | Hänggli Fricker, Zai | FS-2026    | MA       |           | Fortlaufende Evaluation |      9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01278",
+        "extracted_title": "Travail de séminaire Master : Digitalisation et communication",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01278   | Travail de séminaire Master : Digitalisation et communication                                                                       | Asdourian            | FS-2026   | MA   |      | Fortlaufende Evaluation   |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01309",
+        "extracted_title": "Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era?",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01309   | Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era? | Giorgi, Illia Manzan | HS-2025   | MA   |      | Fortlaufende Evaluation   |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01076",
+        "extracted_title": "Master Seminar Paper : (Digitized) Crisis Communication and Reputation Building for Companies and Nation States",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01076   | Master Seminar Paper : (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                     | Ingenhoff            | HS-2025   | MA   |      | Fortlaufende Evaluation   |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01474",
+        "extracted_title": "Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts",
+        "inferred_type": "Elective",
+        "section": "Kurse",
+        "raw_text_sample": "| EKM.01474   | Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts | Fahr   | FS-2026   | MA   | de   | Fortlaufende Evaluation |   9 |"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01476",
+        "extracted_title": null,
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01476                                                                                                                                                                                                                               | EKM.01476                                                       "
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01075",
+        "extracted_title": null,
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01075                                                                                                                                                                                                                               | EKM.01075                                                       "
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01479",
+        "extracted_title": "Masterseminararbeit: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien",
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01479                                                                                                                                                                                                                               | Masterseminararbeit: Politische Skandale und Krisen: Journalisti"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01074",
+        "extracted_title": "Travail de séminaire Master : Digitalisation et communication",
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01074                                                                                                                                                                                                                               | Travail de séminaire Master : Digitalisation et communication   "
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01308",
+        "extracted_title": "Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era?",
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01308                                                                                                                                                                                                                               | Master Seminar paper : Strategic Digital Communication: discursi"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01077",
+        "extracted_title": "Master Seminar Paper : (Digitized) Crisis Communication and Reputation Building for",
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01077                                                                                                                                                                                                                               | Master Seminar Paper : (Digitized) Crisis Communication and Repu"
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01473",
+        "extracted_title": "Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts",
+        "inferred_type": "Elective",
+        "section": "Wahlkurse in die Forschungsbereiche",
+        "raw_text_sample": "| EKM.01473                             | Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts     | Fahr                                  | FS-2026                               | MA                                    | de  "
+      },
+      {
+        "program_id": 299,
+        "extracted_code": "UE-EKM.01416",
+        "extracted_title": "Ma - Stage pratique avec rapport de stage - 3 ECTS",
+        "inferred_type": "Elective",
+        "section": "Ma - Wahlveranstaltungen Kommunikationswissenschaft",
+        "raw_text_sample": "| EKM.01416   | Ma - Stage pratique avec rapport de stage - 3 ECTS                                                                        |              | FS-2026   | MA   |      | Fortlaufende Evaluation                          |   3 |"
+      }
+    ],
+    "staging_rows_per_program_top_25": [
+      {
+        "program_id": 318,
+        "name": "International and European Business",
+        "staging_rows": 460,
+        "distinct_codes": 116
+      },
+      {
+        "program_id": 17,
+        "name": "Sport Sciences and Motor Control",
+        "staging_rows": 434,
+        "distinct_codes": 124
+      },
+      {
+        "program_id": 19,
+        "name": "Sport Sciences and Motor Control",
+        "staging_rows": 366,
+        "distinct_codes": 124
+      },
+      {
+        "program_id": 311,
+        "name": "Business Communication",
+        "staging_rows": 364,
+        "distinct_codes": 159
+      },
+      {
+        "program_id": 41,
+        "name": "Teacher Education for Baccalaureate Schools",
+        "staging_rows": 247,
+        "distinct_codes": 116
+      },
+      {
+        "program_id": 317,
+        "name": "International and European Business",
+        "staging_rows": 230,
+        "distinct_codes": 116
+      },
+      {
+        "program_id": 320,
+        "name": "Accounting and Finance",
+        "staging_rows": 215,
+        "distinct_codes": 110
+      },
+      {
+        "program_id": 323,
+        "name": "Economic and Legal Studies",
+        "staging_rows": 142,
+        "distinct_codes": 71
+      },
+      {
+        "program_id": 120,
+        "name": "Education Sciences",
+        "staging_rows": 136,
+        "distinct_codes": 76
+      },
+      {
+        "program_id": 119,
+        "name": "Education Sciences",
+        "staging_rows": 128,
+        "distinct_codes": 82
+      },
+      {
+        "program_id": 8,
+        "name": "Business Informatics",
+        "staging_rows": 123,
+        "distinct_codes": 123
+      },
+      {
+        "program_id": 299,
+        "name": "Digital Media & Communication for Social Impact",
+        "staging_rows": 122,
+        "distinct_codes": 122
+      },
+      {
+        "program_id": 315,
+        "name": "Marketing",
+        "staging_rows": 117,
+        "distinct_codes": 117
+      },
+      {
+        "program_id": 7,
+        "name": "Business Informatics",
+        "staging_rows": 113,
+        "distinct_codes": 113
+      },
+      {
+        "program_id": 326,
+        "name": "Economics",
+        "staging_rows": 112,
+        "distinct_codes": 112
+      },
+      {
+        "program_id": 82,
+        "name": "Earth Sciences",
+        "staging_rows": 104,
+        "distinct_codes": 52
+      },
+      {
+        "program_id": 327,
+        "name": "Economics",
+        "staging_rows": 101,
+        "distinct_codes": 101
+      },
+      {
+        "program_id": 308,
+        "name": "Communication and Media Research",
+        "staging_rows": 100,
+        "distinct_codes": 100
+      },
+      {
+        "program_id": 328,
+        "name": "Economics",
+        "staging_rows": 99,
+        "distinct_codes": 99
+      },
+      {
+        "program_id": 115,
+        "name": "Pedagogy / Psychology",
+        "staging_rows": 98,
+        "distinct_codes": 68
+      },
+      {
+        "program_id": 43,
+        "name": "Teacher Education for Secondary Level I",
+        "staging_rows": 95,
+        "distinct_codes": 84
+      },
+      {
+        "program_id": 329,
+        "name": "Economics",
+        "staging_rows": 92,
+        "distinct_codes": 92
+      },
+      {
+        "program_id": 14,
+        "name": "Experimental Biomedical Research",
+        "staging_rows": 92,
+        "distinct_codes": 92
+      },
+      {
+        "program_id": 75,
+        "name": "Environmental Sciences and Humanities",
+        "staging_rows": 87,
+        "distinct_codes": 87
+      },
+      {
+        "program_id": 16,
+        "name": "Sport Sciences",
+        "staging_rows": 86,
+        "distinct_codes": 43
+      }
+    ],
+    "programs_with_fewest_final_course_links_first_30": [
+      {
+        "program_id": 321,
+        "name": "Accounting and Finance",
+        "degree_level": "Master",
+        "total_ects": 120,
+        "course_count": 0
+      },
+      {
+        "program_id": 188,
+        "name": "Archaeology",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 189,
+        "name": "Archaeology",
+        "degree_level": "Master",
+        "total_ects": 90,
+        "course_count": 0
+      },
+      {
+        "program_id": 187,
+        "name": "Archaeology",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 200,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 198,
+        "name": "Art History",
+        "degree_level": "Master",
+        "total_ects": 90,
+        "course_count": 0
+      },
+      {
+        "program_id": 199,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 197,
+        "name": "Art History",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 196,
+        "name": "Art History",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 201,
+        "name": "Art History",
+        "degree_level": "Bachelor",
+        "total_ects": 120,
+        "course_count": 0
+      },
+      {
+        "program_id": 104,
+        "name": "Biochemistry",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 100,
+        "name": "Biochemistry",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 48,
+        "name": "Bioinformatics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 98,
+        "name": "Biology",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 93,
+        "name": "Biology",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 310,
+        "name": "Business Communication",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 312,
+        "name": "Business Communication",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 85,
+        "name": "Chemistry",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 90,
+        "name": "Chemistry",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 86,
+        "name": "Chemistry",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 286,
+        "name": "Classics",
+        "degree_level": "Master",
+        "total_ects": 90,
+        "course_count": 0
+      },
+      {
+        "program_id": 287,
+        "name": "Classics",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 284,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 285,
+        "name": "Classics",
+        "degree_level": "Master",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 257,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 245,
+        "name": "Classics",
+        "degree_level": "Doctorate",
+        "total_ects": null,
+        "course_count": 0
+      },
+      {
+        "program_id": 288,
+        "name": "Classics",
+        "degree_level": "Bachelor",
+        "total_ects": 120,
+        "course_count": 0
+      },
+      {
+        "program_id": 301,
+        "name": "Communication Studies",
+        "degree_level": "Bachelor",
+        "total_ects": 60,
+        "course_count": 0
+      },
+      {
+        "program_id": 300,
+        "name": "Communication Studies",
+        "degree_level": "Bachelor",
+        "total_ects": 30,
+        "course_count": 0
+      },
+      {
+        "program_id": 302,
+        "name": "Communication Studies",
+        "degree_level": "Bachelor",
+        "total_ects": 90,
+        "course_count": 0
+      }
+    ],
+    "consist_of_course_type_distribution": [
+      {
+        "course_type": "Elective",
+        "n": 2384
+      },
+      {
+        "course_type": "Mandatory",
+        "n": 2167
+      }
+    ],
+    "courses_without_offering_first_25": [
+      {
+        "code": "UE-DDR.00174",
+        "name": "Introduction à la langue juridique française A (niveau objectif B2) / Einführung in die französische juristische Fachsprache A (Zielniveau B2)",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00177",
+        "name": "Einführung in die deutsche juristische Fachsprache A (Zielniveau B2) / Introduction à la langue juridique allemande A (niveau objectif B2)",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00183",
+        "name": "Tutorat droit commercial",
+        "ects": 6
+      },
+      {
+        "code": "UE-DDR.00184",
+        "name": "Tutorat Intensivwoche",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00186",
+        "name": "Tutorat Privatrecht",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00196",
+        "name": "Moot Court ICC Mediation Competition",
+        "ects": 6
+      },
+      {
+        "code": "UE-DDR.00202",
+        "name": "Skilex (D)",
+        "ects": 2
+      },
+      {
+        "code": "UE-DDR.00204",
+        "name": "Summer School European Private Law",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00213",
+        "name": "Moot Court Concours René Cassin",
+        "ects": 10
+      },
+      {
+        "code": "UE-DDR.00219",
+        "name": "Moot Court Willem C. Vis International Commercial Arbitration Moot",
+        "ects": 15
+      },
+      {
+        "code": "UE-DDR.00222",
+        "name": "European Law Moot Court (ELMC)",
+        "ects": 10
+      },
+      {
+        "code": "UE-DDR.00228",
+        "name": "Moot Court ELSA",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00232",
+        "name": "Swiss Moot Court (F)",
+        "ects": 8
+      },
+      {
+        "code": "UE-DDR.00281",
+        "name": "Privatissimum (Cours d'approfondissement en droit romain)",
+        "ects": 5
+      },
+      {
+        "code": "UE-DDR.00287",
+        "name": "NATIUR - Bourse de consultation juridique Epfl-Unifr",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00291",
+        "name": "Survey on International Organizations (American College)",
+        "ects": 10
+      },
+      {
+        "code": "UE-DDR.00292",
+        "name": "Tutorat semaine intensive",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00298",
+        "name": "Swiss Moot Court (D)",
+        "ects": 8
+      },
+      {
+        "code": "UE-DDR.00299",
+        "name": "Tutorat Verfassungsrecht",
+        "ects": 4
+      },
+      {
+        "code": "UE-DDR.00302",
+        "name": "Skilex (F)",
+        "ects": 2
+      },
+      {
+        "code": "UE-DDR.00322",
+        "name": "Sommerakademie der Schweizer Studienstiftung",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00323",
+        "name": "Moot Court Concours d'arbitrage international de Paris",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00324",
+        "name": "Europäisches Strafrecht",
+        "ects": 2
+      },
+      {
+        "code": "UE-DDR.00329",
+        "name": "Académie d'été Fondation suisse d'études",
+        "ects": 3
+      },
+      {
+        "code": "UE-DDR.00333",
+        "name": "Praxisseminar Körpersprache und Sprechkunst",
+        "ects": 2
+      }
+    ]
+  },
+  "thesis_interpretation": [
+    "Database quality is evaluated after JSON acquisition, document acquisition, document parsing, and import.",
+    "This layer verifies that the final relational state is complete, connected, and usable by backend APIs.",
+    "Strong signals are StudyProgram completeness, programme-document coverage, parsed/staged course extraction quality, and final consist_of programme-course links.",
+    "Warnings should be discussed as data limitations or extraction/import limitations rather than application runtime failures."
+  ]
+}

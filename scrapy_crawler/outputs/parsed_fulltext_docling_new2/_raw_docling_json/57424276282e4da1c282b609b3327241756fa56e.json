@@ -1,0 +1,149 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Chemistry_Branche_compl_mentaire_en_chimie_30_57424276282e4da1c282b609b3327241756fa56e",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## 2.4  Chimie +30\n\n[Version 2022, paquet de validation : PV-SCH.0000046]\n\nLe programme de formation supplémentaire en chimie CHD+30 peut être suivi après la réussite de la branche complémentaire CH-60 ou CHD-60. Ce programme est enseigné en anglais.\n\n## 2.4.1 Unités d'enseignement\n\n| Code      | Unité d'enseignement                                        |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------------------|-----------|--------|\n| SCH.04011 | Bioorganic chemistry (lecture)                              |        28 |      3 |\n| SCH.04251 | Analytical chemistry I (lecture)                            |        28 |      3 |\n| SCH.04252 | Analytical chemistry II (lecture)                           |        28 |      3 |\n| SCH.04254 | Analytical chemistry III (lecture)                          |        28 |      3 |\n| SCH.04021 | Inorganic chemistry I (lecture)                             |        28 |      3 |\n| SCH.04705 | Crystallography and crystal growth and technology (lecture) |        28 |      3 |\n| SCH.04824 | Polymer Engineering (lectures)                              |        28 |      3 |\n| SCH.04825 | Advanced polymer chemistry (lecture and exercices)          |        42 |    4.5 |\n| SCH.04806 | Selected topics in polymer science (seminar)                |        14 |    1.5 |\n| SCH.04701 | Nanomaterials (lecture)                                     |        28 |      3 |\n|           |                                                             |           |     30 |\n\n## 2.4.2 Contenu des unités d'enseignement\n\n## Les cours\n\n- Bioorganic  chemistry :  in  depth  presentation  of  subjects  from  the  interface  of  organic chemistry with biology and medicine.\n- Inorganic chemistry I : in depth presentation of subjects from inorganic chemistry.\n- Analytical chemistry I , II and III : Statistics, sample preparation, analytical methods, analytics in industry, validation.\n- Polymer Engineering, Advanced polymer chemistry, and Selected topics in polymer science : Polymer synthesis, analysis and properties; biopolymers, hybrid materials.\n- Nanomaterials , Crystallography  and  crystal  growth  and  technology :  Nanoparticles,  properties and applications; typical methods for solid state analysis.\n\n## 2.4.3 Évaluation des unités d'enseignement\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie (http://www.unifr.ch/scimed/plans/eval).",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## 2.4  Chimie +30\n\n[Version 2022, paquet de validation : PV-SCH.0000046]\n\nLe programme de formation supplémentaire en chimie CHD+30 peut être suivi après la réussite de la branche complémentaire CH-60 ou CHD-60. Ce programme est enseigné en anglais.\n\n## 2.4.1 Unités d'enseignement\n\n| Code      | Unité d'enseignement                                        |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------------------|-----------|--------|\n| SCH.04011 | Bioorganic chemistry (lecture)                              |        28 |      3 |\n| SCH.04251 | Analytical chemistry I (lecture)                            |        28 |      3 |\n| SCH.04252 | Analytical chemistry II (lecture)                           |        28 |      3 |\n| SCH.04254 | Analytical chemistry III (lecture)                          |        28 |      3 |\n| SCH.04021 | Inorganic chemistry I (lecture)                             |        28 |      3 |\n| SCH.04705 | Crystallography and crystal growth and technology (lecture) |        28 |      3 |\n| SCH.04824 | Polymer Engineering (lectures)                              |        28 |      3 |\n| SCH.04825 | Advanced polymer chemistry (lecture and exercices)          |        42 |    4.5 |\n| SCH.04806 | Selected topics in polymer science (seminar)                |        14 |    1.5 |\n| SCH.04701 | Nanomaterials (lecture)                                     |        28 |      3 |\n|           |                                                             |           |     30 |\n\n## 2.4.2 Contenu des unités d'enseignement\n\n## Les cours\n\n- Bioorganic  chemistry :  in  depth  presentation  of  subjects  from  the  interface  of  organic chemistry with biology and medicine.\n- Inorganic chemistry I : in depth presentation of subjects from inorganic chemistry.\n- Analytical chemistry I , II and III : Statistics, sample preparation, analytical methods, analytics in industry, validation.\n- Polymer Engineering, Advanced polymer chemistry, and Selected topics in polymer science : Polymer synthesis, analysis and properties; biopolymers, hybrid materials.\n- Nanomaterials , Crystallography  and  crystal  growth  and  technology :  Nanoparticles,  properties and applications; typical methods for solid state analysis.\n\n## 2.4.3 Évaluation des unités d'enseignement\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie (http://www.unifr.ch/scimed/plans/eval)."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Code      | Unité d'enseignement                                        |   h. tot. |   ECTS |\n|-----------|-------------------------------------------------------------|-----------|--------|\n| SCH.04011 | Bioorganic chemistry (lecture)                              |        28 |      3 |\n| SCH.04251 | Analytical chemistry I (lecture)                            |        28 |      3 |\n| SCH.04252 | Analytical chemistry II (lecture)                           |        28 |      3 |\n| SCH.04254 | Analytical chemistry III (lecture)                          |        28 |      3 |\n| SCH.04021 | Inorganic chemistry I (lecture)                             |        28 |      3 |\n| SCH.04705 | Crystallography and crystal growth and technology (lecture) |        28 |      3 |\n| SCH.04824 | Polymer Engineering (lectures)                              |        28 |      3 |\n| SCH.04825 | Advanced polymer chemistry (lecture and exercices)          |        42 |    4.5 |\n| SCH.04806 | Selected topics in polymer science (seminar)                |        14 |    1.5 |\n| SCH.04701 | Nanomaterials (lecture)                                     |        28 |      3 |\n|           |                                                             |           |     30 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SCH.04011",
+            "Unité d'enseignement": "Bioorganic chemistry (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SCH.04251",
+            "Unité d'enseignement": "Analytical chemistry I (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SCH.04252",
+            "Unité d'enseignement": "Analytical chemistry II (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SCH.04254",
+            "Unité d'enseignement": "Analytical chemistry III (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SCH.04021",
+            "Unité d'enseignement": "Inorganic chemistry I (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SCH.04705",
+            "Unité d'enseignement": "Crystallography and crystal growth and technology (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SCH.04824",
+            "Unité d'enseignement": "Polymer Engineering (lectures)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SCH.04825",
+            "Unité d'enseignement": "Advanced polymer chemistry (lecture and exercices)",
+            "h. tot.": "42",
+            "ECTS": "4.5"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SCH.04806",
+            "Unité d'enseignement": "Selected topics in polymer science (seminar)",
+            "h. tot.": "14",
+            "ECTS": "1.5"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SCH.04701",
+            "Unité d'enseignement": "Nanomaterials (lecture)",
+            "h. tot.": "28",
+            "ECTS": "3"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "",
+            "Unité d'enseignement": "",
+            "h. tot.": "",
+            "ECTS": "30"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "2.4 Chimie +30",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.4.1 Unités d'enseignement",
+      "line_index": 10,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.4.2 Contenu des unités d'enseignement",
+      "line_index": 26,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Les cours",
+      "line_index": 28,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.4.3 Évaluation des unités d'enseignement",
+      "line_index": 36,
+      "source": "markdown_regex"
+    }
+  ]
+}

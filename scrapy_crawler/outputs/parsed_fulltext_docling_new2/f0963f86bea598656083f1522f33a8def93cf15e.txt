@@ -1,0 +1,357 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:53:27.704Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biochemistry_Branches_compl_mentaires_en_biochimie_f0963f86bea598656083f1522f33a8def93cf15e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f0963f86bea598656083f1522f33a8def93cf15e",
+  "program_key": "faculty of science and medicine|bachelor|120|biochemistry",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_BC_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biochemistry_Branches_compl_mentaires_en_biochimie_f0963f86bea598656083f1522f33a8def93cf15e.pdf",
+  "sha256": "dab475e147cf0b555c87d7b66c30dcc9e5b828a62a2adcd304cee349b877425c",
+  "fetched_at": "2026-05-21T16:05:19.119Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_BC_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biochemistry",
+  "programme_name_de": "Biochemie",
+  "programme_name_fr": "Biochimie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biochemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.8  Biochimie
+
+La biochimie offre la possibilité de choisir trois branches complémentaires différentes :
+
+- Branche complémentaire Biochimie-30
+- Branche complémentaire Biochimie-60
+- Branche complémentaire Biochimie-60
+
+pour étudiant·e·s en sciences biomédicales BC-60BMS comprenant 60 ECTS
+
+Ces branches complémentaires de biochimie ne sont pas accessibles aux étudiant·e·s de BSc en Biochimie.
+
+Prérequis: pour  la  branche  complémentaire BC-30 ,  12  crédits  ECTS d'un des  programmes propédeutiques, soit de chimie, soit de biologie, est requis. La branche complémentaire BC-60 est prévue pour des étudiant·e·s qui n'ont aucune de ces branches propédeutiques. Les unités d'enseignement qui doivent avoir été suivies préalablement pour bénéficier avec profit d'un cours donné sont énumérées sous 3.8.2.
+
+BC-60BMS est prise par les étudiant·e·s en BSc en sciences biomédicales qui souhaitent, au terme de leur 2 e année, un approfondissement en biochimie en vue d'un MSc in Molecular Life and Health Sciences, Option Biochemistry and Cell Biology.
+
+Liberté de choix dans BC-30 et BC-60. Les unités d'enseignement (UE) indiquées dans la liste obligatoire cidessous ne doivent être suivies que dans la mesure où elles n'ont pas déjà été prises dans le cadre de la branche principale, car une UE ne peut pas être comptabilisée deux fois. Également les branches non-propédeutiques ne peuvent être suivies que si elles ne sont pas incluses dans la branche principale ou dans une autre branche secondaire. Parmi les UE à choix, l'é tudiant·e peut sélectionner des unités de manière que le nombre de points ECTS total exigé de la branche complémentaire choisie soit atteint.
+
+## 3.8.1 Branches complémentaires
+
+## 3.8.1.1 Unités d'enseignement de la branche complémentaire Biochimie -30
+
+[Version 2022, paquet de validation : PV-SBC.0000045]
+
+Prérequis :  cette  variante  s'adresse  aux  é tudiant·e·s  qui  ont  achevé  au  moins  une  branche propédeutique (soit en chimie soit en biologie).
+
+## Remarques:
+
+- 1) Certaines unités d'enseignement requièrent d'avoir suivi certains cours au préalable ou du moins de les suivre en parallèle. Une liste des conditions se trouve au chapitre 3.8.2.
+- 2) Les  UE  de  la  branche  principale  ne  peuvent  pas  être  prises  dans  la  branche complémentaire.  Si  elles  figurent  en  branche  principale,  les  UEs  obligatoires  de  la branche complémentaire sont remplacées par des UEs à choix.
+- 3) Le nombre total de crédits ECTS pour cette branche complémentaire peut se situer entre 30  et  36  crédits.  Une  fois  le  nombre  de  36  atteint,  les  éventuels  crédits  ECTS supplémentaires  sont  mis  hors  plan  d'études  et  ne  comptent  pas  dans  la  moyenne pondérée (Art.24, al.6).
+
+## Branches propédeutiques obligatoires
+
+| Code      | Unités d'enseignement                       | Semestre   |   h. tot. |   ECTS |
+|-----------|---------------------------------------------|------------|-----------|--------|
+| SCH.01014 | Chimie générale (avec exercices)            | SA         |        84 |      6 |
+| SBL.00001 | Biologie générale I (cours) (A)             | SA         |        46 |      5 |
+| SBL.00003 | Biologie générale I (travaux pratiques) (A) | SA         |        12 |      1 |
+
+BC-30 comprenant 30 ECTS
+
+BC-60 comprenant 60 ECTS
+
+| plus une des UE suivantes   | plus une des UE suivantes            |    |    |       |
+|-----------------------------|--------------------------------------|----|----|-------|
+| SCH.01024                   | Chimie générale (travaux pratiques)  | SP | 84 | 3     |
+| SCH.01054                   | Chimie analytique (avec exercices)   | SP | 42 | 3     |
+| SCH.01067                   | Chimie des éléments (avec exercices) | SP | 42 | 3     |
+| SCH.01072                   | Chimie organique de base             | SP | 42 | 3     |
+|                             |                                      |    |    | 15-18 |
+
+## Biochimie obligatoire
+
+| Code      | Unités d'enseignement               | Semestre   |   h. tot. |   ECTS |
+|-----------|-------------------------------------|------------|-----------|--------|
+| SBC.00119 | Fondements de biochimie             | SP         |        52 |      6 |
+| SBC.00113 | Compléments de biologie moléculaire | SP         |        28 |      3 |
+| SBC.00114 | Biochimie générale                  | SA         |        32 |    3.5 |
+|           |                                     |            |           |   12.5 |
+
+## À choix (jusqu'à 30 ECTS)
+
+A-C les UE qui ont les mêmes lettres entre parenthèses doivent être prises ensemble.
+
+| Code         | Unités d'enseignement                                                        | Semestre   |   h. tot. |   ECTS |
+|--------------|------------------------------------------------------------------------------|------------|-----------|--------|
+| SBC.00047    | Biochimie pour débutants (travaux pratiques)                                 | SP         |        60 |      3 |
+| SBC.00106    | Biologie cellulaire                                                          | SP         |        39 |      4 |
+| SBC.00009    | Méthodes de biochimie                                                        | SP         |        14 |    1.5 |
+| SBC.00125    | Génétique de la levure, biologie cellulaire et moléculaire                   | SP         |        12 |    1.5 |
+| SBC.07003 ou | Introduction à la bioinformatique et à la génomique (cours avec exercices) # | SA         |        56 |    4.5 |
+| SBC.07005    | Bioinformatique et génomique avancées #                                      | SA         |        32 |    2.5 |
+| SME.05305    | Immunologie I                                                                | SP         |        14 |    1.5 |
+| SME.06312    | Immunologie avancée                                                          | SP         |        16 |      2 |
+| SBC.00115    | Génétique moléculaire humaine                                                | SP         |        13 |    1.5 |
+| SBC.00120 ou | Stage de laboratoire en Biochimie I 1                                        | SA         |       120 |      5 |
+| SBC.00121    | Stage de laboratoire en Biochimie II 1                                       | SP         |       120 |      5 |
+| SCH.01024    | Chimie générale (travaux pratiques)                                          | SP         |        84 |      3 |
+| SCH.01054    | Chimie analytique (avec exercices)                                           | SP         |        42 |      3 |
+| SCH.01067    | Chimie des éléments (avec exercices)                                         | SP         |        42 |      3 |
+| SCH.01072    | Chimie organique de base                                                     | SP         |        42 |      3 |
+| SCH.02212    | Méthodes synthétiques (cours) (C) 2                                          | SA         |        42 |      3 |
+| SCH.02222    | Méthodes synthétiques (exercices) (C) 2                                      | SA         |        14 |      2 |
+| SCH.00244    | Analyse instrumentale (travaux pratiques)                                    | SP         |       140 |      5 |
+| SCH.02252    | Analyse instrumentale organique (avec exercices)                             | SP         |        56 |      5 |
+| SBL.00002    | Biologie générale II (cours) (B)                                             | SP         |        46 |      5 |
+| SBL.00004    | Biologie générale II (travaux pratiques) (B)                                 | SP         |        12 |      1 |
+| SBL.00014    | Biologie moléculaire                                                         | SA         |        28 |      3 |
+| SBL.00019    | Méthodes de biologie moléculaire                                             | SA         |        28 |      3 |
+| SBL.00020    | Neurobiologie                                                                | SA         |        20 |      2 |
+| SBL.00057    | Biologie du développement                                                    | SP         |        16 |    1.5 |
+| SME.05103    | Microbiologie générale et médicale                                           | SA         |        24 |      3 |
+| SME.06104    | Microbiologie clinique spécialisée 3                                         | SP         |        24 |    2.5 |
+| SME.06309    | Microbiologie (travaux pratiques) 3                                          | SP         |         8 |      1 |
+
+## 3.8.1.2 Unités d'enseignement de la branche complémentaire Biochimie -60
+
+[Version 2022, paquet de validation : PV-SBC.0000046]
+
+Prérequis : Pour cette variante, aucune branche propédeutique n'est prérequise.
+
+# Prérequis SBC.07004 pour SBC.07005. SBC.07005 ne peut pas être pris avec SBC.07003
+
+1 Un seul stage (SBC.00120 ou SBC.00121) peut être choisi. SBC.00047 est prérequis.
+
+2 Prérequis SCH.01072
+
+3     Prérequis SME.05103 (doit être suivi en parallèle ou avoir été suivi)
+
+## Remarques:
+
+- 1) Certaines unités d'enseignement de biochimie requièrent d'avoir suivi certains cours au préalable. Une liste des conditions se trouve au chapitre 3.8.2.
+- 2) Les  UE  de  la  branche  principale  ne  peuvent  pas  être  prises  dans  la  branche complémentaire.
+- 3) Le nombre total de crédits ECTS pour cette branche complémentaire peut se situer entre 60  et  72  crédits.  Une  fois  le  nombre  de  72  atteint,  les  éventuels  crédits  ECTS supplémentaires  sont  mis  hors  plan  d'études  et  ne  comptent  pas  dans  la  moyenne pondérée (Art.24, al.6).
+
+## Branches propédeutiques obligatoires
+
+| Code      | Unités d'enseignement                         | Semestre   |   h. tot. |   ECTS |
+|-----------|-----------------------------------------------|------------|-----------|--------|
+| SCH.01014 | Chimie générale (avec exercices)*             | SA         |        84 |      6 |
+| SBL.00001 | Biologie générale I (cours)* (A)              | SA         |        46 |      5 |
+| SBL.00002 | Biologie générale II (cours)* (B)             | SP         |        46 |      5 |
+| SBL.00003 | Biologie générale I (travaux pratiques)* (A)  | SA         |        12 |      1 |
+| SBL.00004 | Biologie générale II (travaux pratiques)* (B) | SP         |        12 |      1 |
+|           |                                               |            |           |     18 |
+
+## Biochimie obligatoire
+
+| Code         | Unités d'enseignement                                                        | Semestre   |   h. tot. |   ECTS |
+|--------------|------------------------------------------------------------------------------|------------|-----------|--------|
+| SBC.00119    | Fondements de biochimie*                                                     | SP         |        52 |      6 |
+| SBC.00113    | Compléments de biologie moléculaire                                          | SP         |        28 |      3 |
+| SBC.00114    | Biochimie générale                                                           | SA         |        32 |    3.5 |
+| SBC.00106    | Biologie cellulaire                                                          | SP         |        39 |      4 |
+| SBC.00125    | Génétique de la levure, biologie cellulaire et moléculaire                   | SP         |        12 |    1.5 |
+| SBC.07003 ou | Introduction à la bioinformatique et à la génomique (cours avec exercices) # | SA         |        56 |    4.5 |
+| SBC.07005    | Bioinformatique et génomique avancées #                                      | SA         |        32 |    2.5 |
+| SBC.00047    | Biochimie pour débutants (travaux pratiques)                                 | SP         |        60 |      3 |
+| SBC.00120 ou | Stage de laboratoire en Biochimie I 1                                        | SA         |       120 |      5 |
+| SBC.00121    | Stage de laboratoire en Biochimie II 1                                       | SP         |       120 |      5 |
+|              |                                                                              |            |           |   30.5 |
+
+## Choix obligatoire de 6 ECTS de chimie parmi les Unités d'enseignement suivantes :
+
+| Code      | Unités d'enseignement                                                | Semestre   |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------------------------|------------|-----------|--------|
+| SCH.01054 | Chimie analytique                                                    | SP         |        42 |      3 |
+| SCH.01067 | Chimie des éléments (avec exercices)*                                | SP         |        42 |      3 |
+| SCH.01072 | Chimie organique de base*                                            | SP         |        42 |      3 |
+| SCH.02212 | Méthodes synthétiques (cours) (C) 2                                  | SA         |        42 |      3 |
+| SCH.02222 | Méthodes synthétiques (exercices) (C) 2                              | SA         |        14 |      2 |
+| SCH.02252 | Analyse instrumentale organique (avec exercices)                     | SP         |        56 |      5 |
+| SCH.02312 | Thermodynamique classique (avec exercices)                           | SA         |        28 |      3 |
+| SCH.03219 | Caractéristiques photophysiques de la matière (cours avec exercices) | SP         |        28 |      3 |
+|           |                                                                      |            |           |      6 |
+
+## À choix (jusqu'à 60 ECTS)
+
+| Code      | Unités d'enseignement         | Semestre   |   h. tot. |   ECTS |
+|-----------|-------------------------------|------------|-----------|--------|
+| SBC.00009 | Méthodes de biochimie         | SP         |        14 |    1.5 |
+| SBC.00115 | Génétique moléculaire humaine | SP         |        13 |    1.5 |
+
+| SCH.00234   | Chimie organique (travaux pratiques pour branche complémentaire)       | SA   |   140 |   5 |
+|-------------|------------------------------------------------------------------------|------|-------|-----|
+| SCH.01054   | Chimie analytique                                                      | SP   |    42 |   3 |
+| SCH.01067   | Chimie des éléments (avec exercices)                                   | SP   |    42 |   3 |
+| SCH.01072   | Chimie organique de base                                               | SP   |    42 |   3 |
+| SCH.01084   | Chimie analytique (travaux pratiques)                                  | SP   |   112 |   4 |
+| SCH.02120   | Introduction à la chimie des complexes                                 | SA   |    28 |   3 |
+| SCH.02212   | Méthodes synthétiques (cours) (C) 2                                    | SA   |    42 |   3 |
+| SCH.02222   | Méthodes synthétiques (exercices) (C) 2                                | SA   |    14 |   2 |
+| SCH.02235   | Synthèse organique (travaux pratiques pour chimistes)                  | SA   |   224 |   8 |
+| SCH.02252   | Analyse instrumentale organique (avec exercices)                       | SP   |    56 |   5 |
+| SCH.02274   | Analyse instrumentale (travaux pratiques)                              | SP   |   224 |   8 |
+| SCH.02312   | Thermodynamique classique (avec exercices)                             | SA   |    28 |   3 |
+| SCH.03219   | Caractéristiques photophysiques de la matière (cours avec exercices)   | SP   |    28 |   3 |
+| SBL.00014   | Biologie moléculaire                                                   | SA   |    28 |   3 |
+| SBL.00019   | Méthodes de biologie moléculaire                                       | SA   |    28 |   3 |
+| SBL.00020   | Neurobiologie                                                          | SA   |    20 |   2 |
+| SBL.00057   | Biologie du développement                                              | SP   |    16 | 1.5 |
+| SME.05305   | Immunologie I                                                          | SP   |    14 | 1.5 |
+| SME.06312   | Immunologie avancée                                                    | SP   |    16 |   2 |
+| SME.05103   | Microbiologie générale et médicale                                     | SA   |    24 |   3 |
+| SME.06309   | Microbiologie (travaux pratiques) 3                                    | SP   |     8 |   1 |
+| SPY.00110   | Physiologie et physiopathologie des grandes régulations, partie I (D)  | SA   |    28 |   3 |
+| SPY.00111   | Physiologie et physiopathologie des grandes régulations, partie II (D) | SP   |    28 |   3 |
+
+* Les UE prises en branche propédeutique dans le cadre d'un programme principal sont remplacées par des UE à choix.
+- # Prérequis SBC.07004 pour SBC.07005. SBC.07005 ne peut pas être pris avec SBC.07003
+- A-D les UE qui ont les mêmes lettres entre parenthèses doivent être prises ensemble.
+- 1 Un seul stage (SBC.00120 ou SBC.00121) peut être choisi. SBC.00047 est prérequis.
+- 2 Prérequis SCH.01072
+- 3 Prérequis SME.05103 (doit être suivi en parallèle ou avoir été suivi)
+
+## 3.8.1.3 Unités d'enseignement de la branche complémentaire Biochimie -60 pour étudiant·e·s en sciences biomédicales (BC-60BMS)
+
+[Version 2022, paquet de validation : PV-SBC.0000047]
+
+Prérequis : cette variante s'adresse aux é tudiant·e·s de la filière BSc en sciences biomédicales . Elle est fortement conseillée pour les étudiant·e·s qui souhaitent ensuite entreprendre un MSc in Molecular Life and Health Sciences, Option Biochemistry and Cell Biology .
+
+Le nombre total de crédits ECTS pour cette branche complémentaire peut se situer entre 60 et 72 crédits. Une fois le nombre de 72 atteint, les éventuels crédits ECTS supplémentaires sont mis hors plan d'études et ne comptent pas dans la moyenne pondérée (Art.24, al.6).
+
+## UEs obligatoires
+
+| Code      | Unités d'enseignement                                                      | Semestre   |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------------------------------|------------|-----------|--------|
+| SBC.07003 | Introduction à la bioinformatique et à la génomique (cours avec exercices) | SA         |        56 |    4.5 |
+| SBC.00009 | Méthodes de biochimie                                                      | SP         |        14 |    1.5 |
+| SBC.00125 | Génétique de la levure, biologie cellulaire et moléculaire                 | SP         |        12 |    1.5 |
+| SBC.00120 | Stage de laboratoire en Biochimie I 1                                      | SA         |       120 |      5 |
+| SBC.00121 | Stage de laboratoire en Biochimie II 1                                     | SP         |       120 |      5 |
+| SBL.00057 | Biologie du développement                                                  | SP         |        16 |    1.5 |
+| SCH.00244 | Analyse instrumentale (travaux pratiques)                                  | SP         |       140 |      5 |
+| SCH.02252 | Analyse instrumentale organique (avec exercices)                           | SP         |        56 |      5 |
+| SCH.02312 | Thermodynamique classique (avec exercices)                                 | SA         |        28 |      3 |
+| SCH.02339 | Cinétique (pour Biochimistes)                                              | SP         |        28 |      3 |
+| SME.05103 | Microbiologie générale et médicale                                         | SA         |        24 |      3 |
+|           |                                                                            |            |           |     33 |
+
+## UE à choix (jusqu'à 60 ECTS)
+
+| Code      | Unités d'enseignement                                                               | Semestre   |   h. tot. |   ECTS |
+|-----------|-------------------------------------------------------------------------------------|------------|-----------|--------|
+| SCH.00246 | Analyse instrumentale (complément de travaux pratiques pour branche complémentaire) | SP         |        84 |      3 |
+| SCH.01054 | Chimie analytique                                                                   | SP         |        42 |      3 |
+| SCH.01067 | Chimie des éléments                                                                 | SP         |        42 |      3 |
+| SCH.02120 | Introduction à la chimie des complexes                                              | SA         |        28 |      3 |
+| SCH.02212 | Méthodes synthétiques (cours) (A) 2                                                 | SA         |        42 |      3 |
+| SCH.02222 | Méthodes synthétiques (exercices) (A) 2                                             | SA         |        14 |      2 |
+| SBC.00106 | Biologie cellulaire                                                                 | SP         |        39 |      4 |
+| SBL.00002 | Biologie générale II (cours) (B)                                                    | SP         |        46 |      5 |
+| SBL.00004 | Biologie générale II (travaux pratiques) (B)                                        | SP         |        12 |      1 |
+| SBL.00015 | Physiologie animale                                                                 | SP         |        28 |      3 |
+| SBL.00019 | Méthodes de biologie moléculaire                                                    | SA         |        28 |      3 |
+| SBL.00020 | Neurobiologie                                                                       | SA         |        20 |      2 |
+| SBL.00058 | Mécanismes de régénération                                                          | SP         |        10 |      1 |
+| SME.06104 | Microbiologie clinique spécialisée 3                                                | SP         |        24 |    2.5 |
+| SME.06312 | Immunologie avancée 4                                                               | SP         |        16 |      2 |
+| SME.06309 | Microbiologie (travaux pratiques) 3                                                 | SP         |         8 |      1 |
+
+A-B les UE qui ont les mêmes lettres entre parenthèses doivent être prises ensemble.
+
+1 Un seul stage (SBC.00120 ou SBC.00121) peut être choisi. SBC.00047 est prérequis.
+
+2 Prérequis SCH.01072
+
+3 Prérequis SME.05103 (doit être suivi en parallèle ou avoir été suivi)
+
+4 Prérequis SME.04206
+
+## 3.8.2 Liste des conditions pour la fréquentation des unités d'enseignement de biochimie
+
+Les UEs suivantes requièrent d'avoir suivi SBL.00001 et SBL.00003, ainsi que les UEs figurant dans la table suivante.
+
+| UE          | Prérequis                                  |
+|-------------|--------------------------------------------|
+| SBC.00009   | : SBC.00119, SBC.00113, SBC.00114          |
+| SBC.07003 : | SBC.00119, SBL.00014                       |
+| SBC.07005 : | SBC.07004                                  |
+| SBC.00047 : | SBC.00119                                  |
+| SBC.00106 : | SBC.00119                                  |
+| SBC.00113 : | SBC.00119, SBL.00014                       |
+| SBC.00114 : | SBC.00119                                  |
+| SBC.00115 : | SBC.00119, SBC.00113, SBC.00114, SBL.00014 |
+| SBC.00125 : | SBC.00119, SBC.00106                       |
+| SBC.00120 : | SBC.00119, SBC.00047                       |
+| SBC.00121 : | SBC.00119, SBC.00047                       |
+| SME.06312 : | SME.05305 ou SME.04206                     |
+
+## 3.8.3 Contenu des unités d'enseignement des branches complémentaires
+
+## Cours
+
+- Le  cours Méthodes  de  biochimie (SBC.00009)  présente  des  développements  récents couvrant diverses technologies utilisées dans l'investigation des protéines et macromolécules et en biologie cellulaire.
+- Le cours de Biologie cellulaire (SBC.00106) porte sur l ' étude des mécanismes moléculaires utilisés  pour  maintenir  la  fonctionnalité  et  la  structure  de  la  cellule  individuelle  (trafic  des protéines, autophagie, cytosquelette, hérédité mitochondriale), ainsi que de l ' organisme en entier (cellules souches, apoptose, jonctions cellulaire, matrice extracellulaire).
+- Le cours Compléments de biologie moléculaire (SBC.00113) approfondit les concepts de la biologie moléculaire et est focalisé sur les mécanismes de la synthèse et réparation de l'ADN, la synthèse des ribosomes, et la régulation de la traduction. De plus, le cours présente une introduction  de  l'utilisation  d'un  logiciel  et  de  diverses  bases  de  données  permettant d'analyser et manipuler des séquences d'ADN par exemple en vue d'un clonage.
+- Le cours Fondements de biochimie (SBC.00119) donne une introduction à la biochimie; il décrit la composition, la structure et le métabolisme des principaux composés de la cellule et des organismes (acides nucléiques, acides aminés, les glucides et lipides).
+- Le cours de Biochimie générale II (SBC.00114) approfondit les concepts du cours SBC.00119 et décrit la structure et la fonction des composants de la cellule (acides aminés, protéines, sucres, et lipides) avec un accent sur les voies métaboliques correspondantes.
+- Le cours Génétique moléculaire humaine (SBC.0 0115) fournit d'une part des connaissances de  base  en  génétique  humaine  et  d'autre  part  un  aperçu  des  mécanismes  moléculaires impliqués  dans  des  pathologies  relevant  de  la  médecine.  De  plus,  ce  cours  inclut  des informations sur les méthodes de diagnostic et de thérapie de ces maladies.
+- Le cours Génétique de la levure, biologie cellulaire et moléculaire (SBC.00125) donne une introduction sur un modèle unicellulaire pour les études de génétique et biologie moléculaire. La  levure  est  couramment  utilisée  dans  le  développement de  nouvelles  méthodes  de génomique basées sur le criblage à haut débit. Dans ce cours, nous discuterons des bases de la génétique de levure ainsi que de la recherche actuelle dans ce domaine. L'objectif de ce cours est de donner à l'étudiant une vision générale sur la façon dont la combinaison entre méthodes de génétique et de biologie moléculaire permet d'ex aminer et de subdiviser les complexes réactions cellulaires qui ont lieu dans la levure.
+- Le  cours Introduction  à  la  bioinformatique  et  à  la  génomique (SBC.07003)  présente  les principes généraux de la bioinformatique leur application en génomique. Ce cours permet d ' acquérir  une  connaissance  de  base  des  outils  et  des  bases  de  données  utilisés  pour analyser et pour comparer des séquences de protéines ou d ' acides nucléiques. Il présente
+
+les  nouvelles  technologies  de  séquençage  à  haut  débit  et  leur  utilisation  dans  l ' étude du génome de différents organismes et dans la recherche biomédicale actuelle.
+
+- Le cours Bioinformatique et génomique avancées (SBC.07005) est une suite directe du cours de base SBC.07004. Il approfondit les méthodes d'application du séquençage de nouvelle génération, comme l'assemblage et l'annotation de novo du génome et du transcriptome, le remappage  et  l'identification  des  variants,  la  transcriptomique,  ChIPseq  et  les  méthodes similaires, l'épigénomique, le microbiome et la  métagénomique, la génomique  des populations. Ni SBC.07004, ni SBC.07005 ne peuvent être pris avec SBC.07003.
+
+Chaque semaine, un concept principal est détaillé, expliquant les algorithmes des méthodes les  plus  importantes avec un regard particulier sur leurs avantages et inconvénients.  Des exercices pratiques hebdomadaires et directement liés aux cours théoriques sont utilisés pour renforcer l'apprentissage en s'appuyant sur des outils web simples lorsque cela est possible.
+
+- Les cours Biologie générale I (SBL.00001) et II (SBL.00002) sont une introduction à la biologie (biologie cellulaire, génétique, écologie, biologie des plantes, biologie du développement) et décrivent les structures et fonctions biologiques des organismes ainsi que leur processus génétiques et moléculaires correspondants.
+- Le  cours Biologie  moléculaire (SBL.00014) décrit  les mécanismes  moléculaires  liés  aux acides nucléiques et à la régulation génique chez les eucaryotes et les procaryotes. Ce cours se base sur les concepts acquis lors du cours d'introduction SBL.00001. Les thèmes traités sont entre autres la structure de la chromatine, la transcription, la régulation transcriptionnelle et posttranscriptionnelle, et les mécanismes liés à l'épigénétique.
+- Le cours Physiologie animale (SBL.00015) porte sur les bases de la physiologie animale et des thèmes choisis de la physiologie comparée des animaux.
+- Le cours Méthodes de biologie moléculaire (SBL.00019) est une introduction aux méthodes de biologie moléculaire.
+- Le  cours Neurobiologie (SBL.00020)  porte  sur  des  chapitres  choisis  de  neurobiologie avancée, avec des facettes allant des molécules aux cellules et aux fonctions neuronales y compris le comportement.
+- Le cours Biologie du développement (SBL.00057) introduit les principaux phénomènes qui conduisent à la formation d ' un organisme multicellulaire. Ce cours donne aussi un aperçu sur les stratégies et techniques utilisées dans ce domaine.
+- Le cours Mécanismes de régénération (SBL.00058) décrit les bases de la régénération chez les Invertébrés, les Vertébrés et l'Homme.
+- Les  cours Immunologie  I et Immunologie  avancée (SME.05305  et  SME.06312)  sont  une introduction puis un approfondissement des fondements de l'immunologie. SME.05305 est un prérequis obligatoire pour SME.06312.
+- Le cours de Microbiologie générale et médicale (SME.05103) traite des grands principes de la microbiologie (bactéries, virus, parasites) ; historique, classification, structure, facteurs de pathogénicité, génétique, interactions hôte-pathogène, antibiotiques et antiviraux ; résistances aux antibiotiques et aux antiviraux, microbiologie chez l ' Homme et chez l ' animal et microbiologie de l ' environnement.
+- Dans le cours de Microbiologie clinique spécialisée (SME.06104), les principaux pathogènes humains (bactéries, virus, parasites) sont exposés, les maladies qui leur sont associées, leur diagnostic et le principe de leur traitement. Il s ' agit d ' un cours de microbiologie clinique dont l ' application directe est étroitement liée aux maladies infectieuses.
+- Le cours Physiologie et physiopathologie des grandes régulations, parties I et II (SPY.00110, SPY.00111), donné sur deux semestres, traite des grands systèmes fonctionnels du corps humain (généralités, cardiovasculaire, rénal, respiratoire, digestif et endocrinien) sous l ' angle des  mécanismes  de  régulation  physiologique,  avec  une  introduction  à  des  situations physiopathologiques.
+- Le cours Chimie générale (SCH.01014) établit les bases de la chimie et complète les connaissances acquises au gymnase pour les amener au niveau universitaire.
+- Le cours Chimie analytique (SCH.01054) transmet les connaissances théoriques correspondant aux travaux pratiques du même nom.
+- Le cours de Chimie des éléments (SCH.01067) présente une introduction sur la structure chimique des matériaux ainsi que leurs propriétés et réactivité.
+
+- Le cours sur la Chimie organique de base (SCH.01072) donne une introduction aux réactions organiques et aux mécanismes réactionnels.
+- Le  cours Introduction  à  la  chimie  des  complexes (SCH.02120)  offre  une  formation approfondie en chimie inorganique.
+- Les cours Méthodes synthétiques (cours, SCH.02212 et exercices, SCH.02222) fournissent les connaissances théoriques nécessaires pour les travaux pratiques correspondants.
+- Le  cours Analyse  instrumentale organique (SCH.02252)  est  un  approfondissement  de  la chimie  organique  destiné  à  comprendre  les  méthodes  expérimentales  de  la  chimie  de synthèse, notamment les diverses méthodes spectroscopiques et l'interprétation d'un spectre NMR.
+- Les cours Thermodynamique classique (SCH.02312) et Cinétique (SCH.02339) présentent les bases de chimie biophysique importantes pour comprendre les mécanismes réactionnels des transporteurs et des enzymes et les méthodes d'investigation les concernant.
+
+## Travaux pratiques
+
+- Biochimie pour débutants (travaux pratiques) (2 e  année, SBC.00047) : ces travaux pratiques sont une brève introduction aux méthodes biochimiques simples utilisées au laboratoire de recherche et en chimie clinique.
+- Le Stage de laboratoire en Biochimie I ou II (SBC.00120 ou SBC.0 0121) s'effectue au sein d'une  équipe  de  recherche  durant  six  semaines.  Il  consiste  en  un  travail  de  recherche personnel dirigé par un chercheur ou une chercheuse expérimenté· e. L'é tudiant·e choisit un groupe  de  recherche  en  contactant  le  chef  de  groupe.  Il/elle  a  l'occasion  d'apprendre  et d'utiliser des techniques modernes de laboratoire. Quelques exemples parmi d'autres sont le clonage et des techniques générales de biologie moléculaire, la biochimie des protéines, la biochimie de lipides et sucres, la génétique moléculaire. L'é tudiant·e écrit un rapport sur le travail  effectué  et  présente  ses  résultats  lors  d'une  réunion  du  groupe  de  recherche. SBC.00047 est un prérequis obligatoire pour ces stages.
+- Les Travaux  pratiques  de  biologie  générale  I (SBL.00003)  et II (SBL.00004)  sont  une illustration des connaissances de la biologie des cellules, des organismes et de l'évolution.
+- Dans  les  travaux  pratiques  en Microbiologie (SME.06309),  les  techniques  habituelles  de l ' identification, de la culture et de la sensibilité aux antibiotiques des bactéries sont exposées. L ' étudiant·e participe également à des expériences de génétique et de biochimie bactériennes permettant de mettre en évidence des caractères de résistance aux antibiotiques émergents.
+- Les  travaux  pratiques  de Chimie  organique (SCH.00234  et  SCH.0 2235)  s'adressent  aux étudiant·e·s d'une branche complémentaire et présentent une version abrégée des travaux pratiques de synthèse organique. Les travaux pratiques donnent un aperçu de la synthèse organique.
+- Les travaux pratiques de Chimie générale (SCH.01024) illustrent divers concepts du cours sur la base d'expériences concrètes et sont suivis par presque tous -tes les étudiant·e·s de ce cours.
+- Les  travaux  pratiques  de Chimie  analytique (SCH.01084)  présentent  les  principales techniques classiques d'analyse.
+- Les travaux pratiques d' Analyse instrumentale (SCH.00244 et SCH.00246) présentent une introduction pratique aux principales méthodes spectroscopiques de la chimie.
+
+## 3.8.4 Évaluation et validation des unités d'enseignement
+
+Selon l'article 25, al.1 du Règlement pour l'obtention des BSc et MSc, il n'est pas possible de transférer ou éliminer une UE, une fois qu'elle a été évaluée.
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter les annexes de la biochimie, de la biologie, des sciences médicales, morphologie et physiologie et de la chimie.

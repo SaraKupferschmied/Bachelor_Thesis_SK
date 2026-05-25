@@ -1,0 +1,699 @@
+[
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "trans",
+    "level": null,
+    "year": 2025,
+    "program_name": "Transitions en sciences de l'environnement",
+    "program_name_variants": [
+      "Transitions en sciences de l'environnement",
+      "Curricula 2025 – Transition disposition"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/trans",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf",
+    "document_label": "Transitions en sciences de l'environnement - SE",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SE_fr.pdf",
+    "path": "full/7106b3e24a045caeacbe72e126d09b7b09ee4220.pdf",
+    "checksum": "905c1908b0efc27842f98d8a0a58b7d9",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 2
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "trans",
+    "level": null,
+    "year": 2025,
+    "program_name": "Transitions en sciences naturelles",
+    "program_name_variants": [
+      "Transitions en sciences naturelles",
+      "Curricula 2025 – Transition disposition"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/trans",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf",
+    "document_label": "Transitions en sciences naturelles - SN",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Trans_SN_fr.pdf",
+    "path": "full/70a5b3435968a33ecd4bf2d4c9c0cbf23a11be85.pdf",
+    "checksum": "dee3f63695a37c8c9ce004dea3a64311",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 3
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "Propädeutika",
+    "level": null,
+    "year": 2025,
+    "program_name": "Introduction branches propédeutiques",
+    "program_name_variants": [
+      "Introduction branches propédeutiques",
+      "Curricula 2025 - propaedeutics"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/prop",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf",
+    "document_label": "Introduction branches propédeutiques",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf",
+    "path": "full/2ef76ea701e0c8931b03730221ffc8542068cd54.pdf",
+    "checksum": "f848185217b8ae4f548c3224cd6c59a4",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 13
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "Zusatzfächer",
+    "level": "B",
+    "year": 2025,
+    "program_name": "Introduction aux branches complémentaires",
+    "program_name_variants": [
+      "Introduction aux branches complémentaires",
+      "Curricula 2025 – Minors at Bachelor level"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/minor",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf",
+    "document_label": "Introduction aux branches complémentaires",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop-BCo_Intro_fr.pdf",
+    "path": "full/2ef76ea701e0c8931b03730221ffc8542068cd54.pdf",
+    "checksum": "f848185217b8ae4f548c3224cd6c59a4",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 14
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "plus30",
+    "level": null,
+    "year": 2025,
+    "program_name": "Introduction aux branches complémentaires +30",
+    "program_name_variants": [
+      "Introduction aux branches complémentaires +30",
+      "Curricula 2025 – Minors +30"
+    ],
+    "ects": 30,
+    "ects_values": [
+      30
+    ],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/plus30",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_Intro_fr.pdf",
+    "document_label": "Introduction aux branches complémentaires +30",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_Intro_fr.pdf",
+    "path": "full/3b8954e8c1d8aa3e409cf22760517b1524fc7920.pdf",
+    "checksum": "66326f8fc007c3d9279f2691a8909114",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 22
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "eval",
+    "level": null,
+    "year": 2025,
+    "program_name": "Évaluation en sciences naturelles",
+    "program_name_variants": [
+      "Évaluation en sciences naturelles",
+      "Curricula 2025 – Assessment modalities in Sciences"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/eval",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_FS_fr.pdf",
+    "document_label": "Évaluation en sciences naturelles – FS",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_FS_fr.pdf",
+    "path": "full/0abec1f29071159f64a48d526443d396bc5f8bf7.pdf",
+    "checksum": "03c1239e0ab47650dbe38923e16e41dd",
+    "file_status": "downloaded",
+    "source_file": "scimed.json",
+    "source_index": 72
+  },
+  {
+    "faculty": "SCIMED",
+    "language": "en",
+    "category": "eval",
+    "level": null,
+    "year": 2025,
+    "program_name": "Assessment modalities in Environmental sciences",
+    "program_name_variants": [
+      "Assessment modalities in Environmental sciences",
+      "Curricula 2025 – Assessment modalities in Sciences"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/scimed/en/plans/eval",
+    "document_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SE_en.pdf",
+    "document_label": "Assessment modalities in Environmental sciences – SE",
+    "file_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SE_en.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "scimed.json",
+    "source_index": 73
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "nebenfach",
+    "level": null,
+    "year": null,
+    "program_name": "Lehrfach « Medien und Informatik » 50 ECTS (Nebenfach 50 ECTS)",
+    "program_name_variants": [
+      "Lehrfach « Medien und Informatik » 50 ECTS (Nebenfach 50 ECTS)"
+    ],
+    "ects": 50,
+    "ects_values": [
+      50
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/nebenfaecher/",
+    "document_url": "https://en.calameo.com/read/00365911584fdc46378f4",
+    "document_label": "Lehrfach « Medien und Informatik » 50 ECTS",
+    "file_url": "https://en.calameo.com/read/00365911584fdc46378f4",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 10
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/003659115121784738f7c",
+    "document_label": "Broschüre (DD, INT EUB)",
+    "file_url": "https://www.calameo.com/read/003659115121784738f7c",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/003659115b2c59bc67c05",
+    "document_label": "Studienplan (DD, INT EUB)",
+    "file_url": "https://www.calameo.com/read/003659115b2c59bc67c05",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/003659115ef7a0f3012d8",
+    "document_label": "Broschüre (DD, ECO POL)",
+    "file_url": "https://www.calameo.com/read/003659115ef7a0f3012d8",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/003659115583ddd17da50",
+    "document_label": "Studienplan (DD, ECO POL)",
+    "file_url": "https://www.calameo.com/read/003659115583ddd17da50",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/003659115cd2481432079",
+    "document_label": "Broschüre (DD, AF)",
+    "file_url": "https://www.calameo.com/read/003659115cd2481432079",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "SES",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Doppelabschlüsse",
+    "program_name_variants": [
+      "Doppelabschlüsse"
+    ],
+    "ects": 120,
+    "ects_values": [
+      120
+    ],
+    "page_url": "https://www.unifr.ch/ses/de/studium/master/doppelabschluesse.html",
+    "document_url": "https://www.calameo.com/read/00365911554810c2c4429",
+    "document_label": "Studienplan (DD, AF)",
+    "file_url": "https://www.calameo.com/read/00365911554810c2c4429",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "ses.json",
+    "source_index": 29
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": 2016,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/directives_%202016.pdf",
+    "document_label": "Direktiven",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/directives_%202016.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "http://sr-sc-8f00.unifr.ch/theo/assets/files/SA2016/ehrenwoertliche_Erklaerung-dt.doc.pdf",
+    "document_label": null,
+    "file_url": "http://sr-sc-8f00.unifr.ch/theo/assets/files/SA2016/ehrenwoertliche_Erklaerung-dt.doc.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf",
+    "document_label": "ehrenwörtliche Erklärung",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/ehrenwoertliche_Erklaerung-dt.doc.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf",
+    "document_label": "Prüfungs - und Diplomgebüren",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungs_Diplomgebuehren_06102015.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": 2022,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/SP%202022/Habilitationsreglement%20Theologische%20Fakulta%CC%88t_Phil_2022.pdf",
+    "document_label": "Reglement Habilitation Philosophie",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/SP%202022/Habilitationsreglement%20Theologische%20Fakulta%CC%88t_Phil_2022.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Habilitation",
+    "program_name_variants": [
+      "Habilitation"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/forschung/habilitation.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Ausfu%CC%88hrungsbestimmungen_Habilitationsreglement%2014032023.pdf",
+    "document_label": "Ausführungsbestimmungen",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Ausfu%CC%88hrungsbestimmungen_Habilitationsreglement%2014032023.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 1
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Kirchliches Diplom",
+    "program_name_variants": [
+      "Kirchliches Diplom"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/studiengaenge/diplom.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungsund_StudienreglementTheo2015.pdf",
+    "document_label": "Reglement",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/Pruefungsund_StudienreglementTheo2015.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 3
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": 2022,
+    "program_name": "Kirchliches Diplom",
+    "program_name_variants": [
+      "Kirchliches Diplom"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/studiengaenge/diplom.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/SP%202022/Richtlinien_kirchl.%20Diplom_20.11.2021.pdf",
+    "document_label": "Richtlinien der Theologischen Fakultät betreffend der Zulassung zum Kirchlichen Diplom",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/SP%202022/Richtlinien_kirchl.%20Diplom_20.11.2021.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 3
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "weitere",
+    "level": null,
+    "year": null,
+    "program_name": "Kirchliches Diplom",
+    "program_name_variants": [
+      "Kirchliches Diplom"
+    ],
+    "ects": null,
+    "ects_values": [],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/studiengaenge/diplom.html",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/docfac/Formular_Kirchliches_Diplom_2022.pdf",
+    "document_label": "Anmeldeformular",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/docfac/Formular_Kirchliches_Diplom_2022.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 3
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/master/anec/",
+    "document_url": "http://www.unifr.ch/benefri/doc4benefri/Studienplan%2520ANEC.pdf",
+    "document_label": "Nebenprogramm ANEC Bachelor und Master",
+    "file_url": "http://www.unifr.ch/benefri/doc4benefri/Studienplan%2520ANEC.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 11
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/master/anec/",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf",
+    "document_label": "Anhang: Studieninhalte",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 11
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": 2024,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/master/anec/",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/SA2024/240916_ANEC_Programm60.pdf",
+    "document_label": "ANEC Veranstaltungen 2024-2025",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/SA2024/240916_ANEC_Programm60.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 11
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "master",
+    "level": "M",
+    "year": null,
+    "program_name": "Nebenprogramm Nebenprogramm 30 ECTS",
+    "program_name_variants": [
+      "Nebenprogramm Nebenprogramm 30 ECTS"
+    ],
+    "ects": 30,
+    "ects_values": [
+      30
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/master/minors/",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_30.pdf",
+    "document_label": "MA in interreligöse Studien Nebenprogamm 30 ECTS",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_30.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 12
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "bachelor",
+    "level": "M",
+    "year": null,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/bachelor/anec/",
+    "document_url": "http://www.unifr.ch/benefri/doc4benefri/Studienplan%2520ANEC.pdf",
+    "document_label": "Nebenprogramm ANEC Bachelor und Master",
+    "file_url": "http://www.unifr.ch/benefri/doc4benefri/Studienplan%2520ANEC.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 16
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "bachelor",
+    "level": "B",
+    "year": null,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/bachelor/anec/",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf",
+    "document_label": "Anhang: Studieninhalte",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/studienplan-anec_anhang.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 16
+  },
+  {
+    "faculty": "THEO",
+    "language": "de",
+    "category": "bachelor",
+    "level": "B",
+    "year": 2024,
+    "program_name": "ANEC Nebenprogramm 15, 30 oder 60 ECTS",
+    "program_name_variants": [
+      "ANEC Nebenprogramm 15, 30 oder 60 ECTS"
+    ],
+    "ects": 60,
+    "ects_values": [
+      60
+    ],
+    "page_url": "https://www.unifr.ch/theo/de/ausbildung/bachelor/anec/",
+    "document_url": "https://www.unifr.ch/theo/de/assets/public/SA2024/240916_ANEC_Programm60.pdf",
+    "document_label": "ANEC Veranstaltungen 2024-2025",
+    "file_url": "https://www.unifr.ch/theo/de/assets/public/SA2024/240916_ANEC_Programm60.pdf",
+    "path": null,
+    "checksum": null,
+    "file_status": null,
+    "source_file": "theo.json",
+    "source_index": 16
+  }
+]

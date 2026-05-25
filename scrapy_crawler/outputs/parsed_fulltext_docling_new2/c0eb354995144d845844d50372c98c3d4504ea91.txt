@@ -1,0 +1,153 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:35:07.818Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Business_Communication_Sciences_de_la_communication_et_des_m_dias_c0eb354995144d845844d50372c98c3d4504ea91",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c0eb354995144d845844d50372c98c3d4504ea91",
+  "program_key": "faculty of management, economics and social sciences|master|30|business communication",
+  "source_url": "https://www.calameo.com/read/003659115b8da83a5423a",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Business_Communication_Sciences_de_la_communication_et_des_m_dias_c0eb354995144d845844d50372c98c3d4504ea91.pdf",
+  "sha256": "6f945cf5b375e6e35a07bc7867aa4fc528f4c71fd890dbcd99a0df7a94634323",
+  "fetched_at": "2026-05-21T16:05:29.314Z",
+  "notes": "calameo downloaded (id=003659115b8da83a5423a, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223110206-c1ba8fd1c5c7f4e4bc3375b29f52d515/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=4eb14057caf2b3cd512d466c737b3470d6f7ea01ff5bf18fbf228b282b3050e2, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Business Communication",
+  "programme_name_de": "Business Communication",
+  "programme_name_fr": "Business Communication",
+  "programme_url": "https://studies.unifr.ch/en/master/com/businesscommunication",
+  "curriculum_url": "https://studies.unifr.ch/go/2b"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Synthèse du plan d'études
+
+Faculté des sciences économiques et sociales et du management
+
+Faculté
+
+1262 : Sciences de la communication et des médias 30 [MA]
+
+Programme
+
+2015-SA\_V01
+
+Version
+
+SA-2025/SP-2026
+
+Période de validité
+
+## Remarque importante
+
+Le Règlement d'organisation s'applique pleinement et fait foi en toutes circonstances. Les informations présentées ci-dessous (tirées des articles 11 et 12) sont fournies à titre indicatif pour faciliter la compréhension, mais ne remplacent pas le règlement et n'ont pas de valeur normative. En cas de doute, le texte du règlement prévaut ( Règlement du 27 septembre 2021 sur l'organisation des études et des examens à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg, disponible sur le site unifr.ch/ses/fr/etudes/reglements.html).
+
+## Durée des études
+
+Une branche complémentaire est limitée dans la durée par la durée de son programme principal.
+
+Elle doit être acquise au plus tard avec le même délai que son programme principal.
+
+## Principe de compensation
+
+La Faculté applique un principe de compensation dans l'évaluation des résultats selon le règlement du 27 septembre 2021 sur l'organisation des études et des examens à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg (https://webapps.unifr.ch/legal/fr/document/2870304) .
+
+Possibilité de compenser maximum 6 ECTS
+
+## Etat de l'offre de cours
+
+Ce document présente l'offre de cours telle qu'elle est publiée pour la période indiquée. Les enseignements peuvent varier d'une année académique à l'autre. Pour obtenir les informations les plus récentes, veuillez consulter le site officiel de l'Université de Fribourg ou votre portail étudiant. Les données incluses dans ce document sont celles disponibles au moment de l'impression.
+
+| Code      | Unité d'enseignement                                                  | Enseignant·e(s)   | Semestre   | Niveau   | Langue   | Evaluation          | ECTS   |
+|-----------|-----------------------------------------------------------------------|-------------------|------------|----------|----------|---------------------|--------|
+| Cours     | Cours                                                                 | Cours             | Cours      | Cours    | Cours    | Cours               | Cours  |
+| EKM.01249 | Klassiker revisited: Mythen, Pionierstudien, Schlüsselwerke           | Fürst             | SP-2026    | MA       | de       | Examen oral         | 3      |
+| EKM.01250 | Comparing Media Structures                                            | Puppis            | SP-2026    | MA       | en       | Evaluation continue | 3      |
+| EKM.00957 | Democracy, media, and technology                                      | Hänggli Fricker   | SA-2025    | MA       | en       | Evaluation continue | 3      |
+| EKM.00989 | Corporate Social Responsibility and Social Impact                     | Illia Manzan      | SP-2026    | MA       | en       | Evaluation continue | 3      |
+| EKM.00715 | Lecture Business Communication and Strategic Communication Management | Chariatte         | SP-2026    | MA       | en       | Evaluation continue | 3      |
+| EKM.01068 | Communication et Business                                             | Illia Manzan      | SA-2025    | MA       | fr       | Evaluation continue | 3      |
+| EKM.00596 | Master lecture Media Use and Effects                                  | Fahr              | SA-2025    | MA       | en       | Examen écrit        | 3      |
+
+## Séminaire et travail de séminaire à choix
+
+<!-- image -->
+
+| Code      | Unité d'enseignement                                                                                                                | Enseignant·e(s)      | Semestre   | Niveau   | Langue   | Evaluation          |   ECTS |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------|----------------------|------------|----------|----------|---------------------|--------|
+| EKM.00696 | Séminaire Master : Digitalisation et communication                                                                                  | Asdourian            | SP-2026    | MA       | fr       | Evaluation continue |      3 |
+| EKM.00934 | Master Seminar: (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                            | Ingenhoff            | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.01307 | Master Seminar: Strategic Digital Communication                                                                                     | Illia Manzan         | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.01472 | Master seminar: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts           | Fahr                 | SP-2026    | MA       | en       | Evaluation continue |      3 |
+| EKM.01025 | Séminaire Master : Communication en contexte politique                                                                              | Feddersen            | SA-2025    | MA       | fr       | Evaluation continue |      3 |
+| EKM.01475 | Master Seminar: Rage Against the Machine? Algorithms, Platform Power and Governance                                                 | Puppis               | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.01478 | Masterseminar: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien                               | Hänggli Fricker      | SP-2026    | MA       | de       | Evaluation continue |      3 |
+| EKM.01472 | Master seminar: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts           | Fahr                 | SP-2026    | MA       | en       | Evaluation continue |      3 |
+| EKM.01025 | Séminaire Master : Communication en contexte politique                                                                              | Feddersen            | SA-2025    | MA       | fr       | Evaluation continue |      3 |
+| EKM.01307 | Master Seminar: Strategic Digital Communication                                                                                     | Illia Manzan         | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.00934 | Master Seminar: (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                            | Ingenhoff            | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.00696 | Séminaire Master : Digitalisation et communication                                                                                  | Asdourian            | SP-2026    | MA       | fr       | Evaluation continue |      3 |
+| EKM.01475 | Master Seminar: Rage Against the Machine? Algorithms, Platform Power and Governance                                                 | Puppis               | SA-2025    | MA       | en       | Evaluation continue |      3 |
+| EKM.01075 | Travail de séminaire : Communication en contexte politique                                                                          | Feddersen            | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01476 | Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance                                           | Puppis               | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01479 | Masterseminararbeit: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien                         | Hänggli Fricker, Zai | SP-2026    | MA       |          | Evaluation continue |      6 |
+| EKM.01276 | Travail de séminaire : Communication en contexte politique                                                                          | Feddersen            | SA-2025    | MA       |          | Evaluation continue |      9 |
+| EKM.01477 | Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance                                           | Puppis               | SA-2025    | MA       |          | Evaluation continue |      9 |
+| EKM.01480 | Masterseminararbeit: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien                         | Hänggli Fricker, Zai | SP-2026    | MA       |          | Evaluation continue |      9 |
+| EKM.01077 | Master Seminar Paper : (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                     | Ingenhoff            | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01075 | Travail de séminaire : Communication en contexte politique                                                                          | Feddersen            | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01476 | Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance                                           | Puppis               | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01308 | Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era? | Giorgi, Illia Manzan | SA-2025    | MA       |          | Evaluation continue |      6 |
+| EKM.01076 | Master Seminar Paper : (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                     | Ingenhoff            | SA-2025    | MA       |          | Evaluation continue |      9 |
+| EKM.01276 | Travail de séminaire : Communication en contexte                                                                                    | Feddersen            | SA-2025    | MA       |          | Evaluation continue |      9 |
+
+politique
+
+<!-- image -->
+
+| Code            | Unité d'enseignement                                                                                                                | Enseignant·e(s)      | Semestre        | Niveau          | Langue          | Evaluation          | ECTS            |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------|-----------------|-----------------|---------------------|-----------------|
+| EKM.01309       | Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era? | Giorgi, Illia Manzan | SA-2025         | MA              |                 | Evaluation continue | 9               |
+| EKM.01278       | Travail de séminaire Master : Digitalisation et communication                                                                       | Asdourian            | SP-2026         | MA              |                 | Evaluation continue | 9               |
+| EKM.01477       | Master Seminar Paper: Rage Against the Machine? Algorithms, Platform Power and Governance                                           | Puppis               | SA-2025         | MA              |                 | Evaluation continue | 9               |
+| EKM.01473       | Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts     | Fahr                 | SP-2026         | MA              | de              | Evaluation continue | 6               |
+| EKM.01474       | Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts     | Fahr                 | SP-2026         | MA              | de              | Evaluation continue | 9               |
+| EKM.01474       | Master seminar paper: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts     | Fahr                 | SP-2026         | MA              | de              | Evaluation continue | 9               |
+| EKM.01075       | Travail de séminaire : Communication en contexte politique                                                                          | Feddersen            | SA-2025         | MA              |                 | Evaluation continue | 6               |
+| EKM.01308       | Master Seminar paper : Strategic Digital Communication: discursive spaces, new media idiocy and artificial intelligence, a new era? | Giorgi, Illia Manzan | SA-2025         | MA              |                 | Evaluation continue | 6               |
+| EKM.01074       | Travail de séminaire Master : Digitalisation et communication                                                                       | Asdourian            | SP-2026         | MA              |                 | Evaluation continue | 6               |
+| ASDOURIAN Bruno | ASDOURIAN Bruno                                                                                                                     | ASDOURIAN Bruno      | ASDOURIAN Bruno | ASDOURIAN Bruno | ASDOURIAN Bruno | ASDOURIAN Bruno     | ASDOURIAN Bruno |
+| EKM.01074       | Travail de séminaire Master : Digitalisation et communication                                                                       | Asdourian            | SP-2026         | MA              |                 | Evaluation continue | 6               |
+| Cours à choix   | Cours à choix                                                                                                                       | Cours à choix        | Cours à choix   | Cours à choix   | Cours à choix   | Cours à choix       | Cours à choix   |
+| EKM.00696       | Séminaire Master : Digitalisation et communication                                                                                  | Asdourian            | SP-2026         | MA              | fr              | Evaluation continue | 3               |
+| EKM.00934       | Master Seminar: (Digitized) Crisis Communication and Reputation Building for Companies and Nation States                            | Ingenhoff            | SA-2025         | MA              | en              | Evaluation continue | 3               |
+| EKM.01025       | Séminaire Master : Communication en contexte politique                                                                              | Feddersen            | SA-2025         | MA              | fr              | Evaluation continue | 3               |
+| EKM.01075       | Travail de séminaire : Communication en contexte politique                                                                          | Feddersen            | SA-2025         | MA              |                 | Evaluation continue | 6               |
+| EKM.01307       | Master Seminar: Strategic Digital Communication                                                                                     | Illia Manzan         | SA-2025         | MA              | en              | Evaluation continue | 3               |
+| EKM.01472       | Master seminar: Rethinking Mental Health Representations in Entertainment Media-The Perspective of Caregivers and Experts           | Fahr                 | SP-2026         | MA              | en              | Evaluation continue | 3               |
+| EKM.01475       | Master Seminar: Rage Against the Machine? Algorithms, Platform Power and Governance                                                 | Puppis               | SA-2025         | MA              | en              | Evaluation continue | 3               |
+| EKM.01478       | Masterseminar: Politische Skandale und Krisen: Journalistische Praktiken und Kommunikationsstrategien                               | Hänggli Fricker      | SP-2026         | MA              | de              | Evaluation continue | 3               |
+| EKM.00402       | Communications spécialisées                                                                                                         | Illia Manzan         | SA-2025         | MA              | fr              | Evaluation continue | 3               |
+| EKM.00047       | Vorlesung Journalismusforschung                                                                                                     | Beck                 | SA-2025         | BA              | de              | Examen écrit        | 3               |
+| EKM.00064       | Communication, organisation et transformation digitale (I)                                                                          | Asdourian            | SP-2026         | MA              | fr              | Examen écrit        | 3               |
+| EKM.00989       | Corporate Social Responsibility and Social Impact                                                                                   | Illia Manzan         | SP-2026         | MA              | en              | Evaluation continue | 3               |
+| EKM.01243       | Vorlesung Medienpolitik                                                                                                             | Puppis               | SA-2025         | BA              | de              | Evaluation continue | 3               |
+| EKM.01331       | Digital Wellbeing und Medienkompetenz - für ein «gutes» Leben in der digitalen Gesellschaft                                         | Raemy                | SA-2025         | BA              | de              | Examen écrit        | 3               |
+
+<!-- image -->
+
+| Code      | Unité d'enseignement                                    | Enseignant·e(s)   | Semestre   | Niveau   | Langue   | Evaluation                          |   ECTS |
+|-----------|---------------------------------------------------------|-------------------|------------|----------|----------|-------------------------------------|--------|
+| EKM.01066 | Mobilisation digitale et persuasion                     | Feddersen         | SA-2025    | MA       | fr       | Evaluation continue et examen écrit |      3 |
+| EKM.01463 | Medien- und Kommunikationsrecht                         | Sidler            | SP-2026    | BA       | de       | Examen écrit                        |      3 |
+| EKM.01486 | Designs, Data Access, Data Collection and Data Analysis | Rohrbach          | SA-2025    | MA       | en       | Evaluation continue                 |      3 |
+
+## Référence base légale
+
+Règlement du 27 septembre 2021 sur l'organisation des études et des examens à la Faculté des sciences économiques et sociales et du management de l'Université de Fribourg

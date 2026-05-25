@@ -1,0 +1,141 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:44:50.367Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Earth_Sciences__valuation_en_sciences_de_la_Terre_ST_7846491ad58ab29691665649876904c89c559a6c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "7846491ad58ab29691665649876904c89c559a6c",
+  "program_key": "faculty of science and medicine|bachelor|150|earth sciences",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_ST_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Earth_Sciences__valuation_en_sciences_de_la_Terre_ST_7846491ad58ab29691665649876904c89c559a6c.pdf",
+  "sha256": "17ffb98824ea7586781a1a8f1854cd3c3688a13187253b0b5f90a8dda49487af",
+  "fetched_at": "2026-05-21T16:05:18.254Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_ST_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 150,
+  "programme_name_en": "Earth Sciences",
+  "programme_name_de": "Erdwissenschaften",
+  "programme_name_fr": "Sciences de la Terre",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/earthsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+23513
+
+<!-- image -->
+
+## 1 Introduction
+
+Cette  annexe  décrit  les conditions  d'évaluation  des  Unités  d'enseignement  (UE)  sous  la responsabilité de l'Unité des sciences de la Terre. Elle complète les différents plans d'études où apparaissent des UE avec le code ' SST.0 nnnn'.
+
+## 2 Évaluations des unités d'enseignement
+
+L'évaluation des travaux pratiques, des cours-bloc, des excursions et des stages de terrain se fait suivant des critères énoncés en début de semestre. L'évaluation satisfaisante des exercices est un prérequis pour accéder à l'épreuve du cours correspondant. L'évaluation des cours se fait  par  des  épreuves  orales  ou  écrites  dont  la durée  est fixée  dans  la présente  annexe.  Les épreuves se déroulent, en général, durant trois sessions d'examens (hiver, été, automne). Pour chaque  épreuve,  l'étudiant ·e  s'inscrit  dans  les  délais  prescrits  sur  le portail  d'étudiant ·e·s MyUniFR  (https://my.unifr.ch), avec  le  compte  personnel  et  le  mot  de  passe  fournis  par l'Université. L'épreuve porte sur la matière de l'UE telle qu'elle a été enseignée la dernière fois. En  cas  d'exception,  celle -ci  sera  communiquée  par  le  Département  et/ou  par  l'enseignant ·e responsable. L'échelle des notes s'étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d'examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants 1 :
+
+- Plan d'études pour l'obtention du Bachelor of Science en sciences de la Terre et du Master of Science in Earth Sciences.
+- Plan d'études des branches propédeutiques et complémentaires offertes par la Faculté des sciences et de médecine dans le cadre du Bachelor of Science ou d'autres formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d'études des branches complémentaires +30 ECTS  en  Physique, Biologie, Mathématiques,  Informatique,  Chimie,  Géographie,  Sciences  du  sport  offertes  par  la Faculté des sciences et de médecine.
+- Plan d'études pour l'obtention du Bachelor of Science pour la formation scientifique dans les branches enseignables au degré secondaire I (BSc\_SI)
+- Plan d'études  des  branches Géosciences,  Mathématiques,  Informatique, Sciences naturelles et Sciences du sport et de la motricité pour les étudiant·e·s de la Faculté des lettres  et  des  sciences  humaines ,  de  la  Faculté  des  sciences  de  l'éducation  et  de  la formation  et  de  la  Faculté  de  théologie  souhaitant  obtenir  le  Bachelor  of  Arts  pour  la formation scientifique dans les branches enseignables au degré secondaire I (BA\_SI).
+
+Il est soumis au règlement Règlement pour l'obtention des Bachelor of science et des Master of science.
+
+Tous ces documents sont accessibles à partir de http://www.unifr.ch/scimed/plans.
+
+1 Des UE des sciences de la Terre peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+## 4 Modalités d'évaluation
+
+Les excursions et les stages sont, si ce n'est pas spécifié ci -dessous, évalués à l'aide de critères fixés et communiqués en début de semestre. Ils sont sanctionnés par « réussi » ou « échec ». Les exercices et les travaux pratiques peuvent aussi être examinés lors de l'épreuve du cours correspondant.
+
+Avec l'accord écrit de l'étudiant ·e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite.  Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code                  | Unité d'enseignement                                                 | ECTS    | Modalités d'évaluation                                                                                                                                                                                         |
+|-----------------------|----------------------------------------------------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SST.01815             | Excursions de géologie I                                             | 1.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.01816             | Stage de terrain I                                                   | 1.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.01831             | Excursion de géologie IB                                             | 0.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.01832             | Excursion de géologie IC                                             | 0.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.01833             | Excursion de géologie ID                                             | 0.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.00201             | Géologie régionale (cours)                                           | 3       | Epreuve orale 20 min ou épreuve écrite 60 min.                                                                                                                                                                 |
+| SST.00203             | Paléontologie (cours)                                                | 3       | Epreuve écrite 60 min ou épreuve orale 20 min.                                                                                                                                                                 |
+| SST.00218             | Paléontologie (travaux pratiques)                                    | 2       | Présence obligatoire. La note est calculée sur la base des exercices hebdomadaires.                                                                                                                            |
+| SST.00205             | Sédimentologie (cours)                                               | 3       | Épreuve orale 20 min ou épreuve écrite 60 min                                                                                                                                                                  |
+| SST.02210             | Sédimentologie (cours + travaux pratiques)                           | 2. 5    | Exercices hebdomadaires obligatoires. Epreuve orale 20 min. ou épreuve écrite 60 min.                                                                                                                          |
+| SST.00206             | Tectonique (cours)                                                   | 3       | Épreuve orale 20 min ou épreuve écrite 60 min                                                                                                                                                                  |
+| SST.02211             | Tectonique (cours + travaux pratiques)                               | 2.5     | Rapport écrit, réussi/échec                                                                                                                                                                                    |
+| SST.02207 &SST.0221 2 | Minéralogie-Cristallographie I Minéralogie-Cristallographie II       | 2. 5 2. | Épreuve orale 20 min ou épreuve écrite 60 min, la même note est donnée pour les deux cours.                                                                                                                    |
+| SST.02208             | Pétrologie des magmatites                                            | 2. 5    | Épreuve orale 20 min ou épreuve écrite 60 min                                                                                                                                                                  |
+| SST.02213 &SST.0221 4 | Microscopie optique I : Minéraux Microscopie optique II : Magmatites | 1 1     | Examen écrit pratique avec le microscope 240 min, la même note est donnée pour les deux cours. Selon le plan d'étude , SST.02213 peut être examinée seule. Dans ce cas, la durée de l' épreuve est de 120 min. |
+| SST.00224             | Cartes et profils I (travaux pratiques)                              | 2       | Test écrit en fin de semestre, réussi/échec                                                                                                                                                                    |
+| SST.00225             | Cartes et profils II (travaux pratiques)                             | 2       | Test écrit en fin de semestre, réussi/échec                                                                                                                                                                    |
+| SST.02801             | Excursion de géologie IIA                                            | 2.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.02802             | Excursion de géologie IIB                                            | 1.5     | Participation obligatoire et rapport écrit, réussi/échec                                                                                                                                                       |
+| SST.02803             | Stage de terrain II                                                  | 2.5     | Participation obligatoire et rapport écrit,                                                                                                                                                                    |
+
+réussi/échec
+
+| SST.03302           | Microscopie optique III : roches sédimentaires                                  | 1       | Examen écrit pratique avec le microscope 120 min                          |
+|---------------------|---------------------------------------------------------------------------------|---------|---------------------------------------------------------------------------|
+| SST.00303           | Micropaléontologie                                                              | 3       | Épreuve orale 20 min ou épreuve                                           |
+| &SST.0030           | générale (cours) Micropaléontologie générale (travaux                           | 2       | écrite 60 min., la même note est donnée pour les deux cours.              |
+| 4                   | pratiques) Géologie appliquée I : Terrains                                      | 3       | Épreuve orale 20 min ou épreuve écrite 60                                 |
+| SST.03305 SST.03307 | instables Géologie appliquée II : Géologie de                                   |         | min Épreuve orale 20 min ou épreuve écrite 60                             |
+| SST.03308           | l'ingénieur Hydrogéologie                                                       | 3 3     | min Épreuve orale 20 min ou épreuve écrite 60 min                         |
+|                     | Méthodes de sédimentologie (cours-                                              |         | Rapport écrit, réussi/échec                                               |
+| SST.00311           | bloc)                                                                           | 2.5     | Épreuve orale 20 min ou épreuve écrite 60                                 |
+| SST.03312           | Pétrologie des métamorphites                                                    | 2.5     | min                                                                       |
+| SST.03313           | Microscopie optique IV : métamorphites                                          | 1       | Examen écrit pratique avec le microscope 240 min                          |
+| SST.03801           | Excursion de géologie IIIA                                                      | 2.5     | Participation obligatoire et rapport écrit, réussi/échec                  |
+| SST.03802           | Excursion de géologie IIIB                                                      | 2.5     | Participation obligatoire et rapport écrit, réussi/échec                  |
+| SST.03803           | Excursion de géologie IIIC                                                      | 1       | Participation obligatoire et rapport écrit, réussi/échec                  |
+| SST.03805           | Excursion de géologie IIID                                                      | 0.5     | Participation obligatoire, réussi/échec                                   |
+| SST.03807           | Excursion de géologie IIIE                                                      | 0.5     | Participation obligatoire, réussi/échec                                   |
+| SST.03808           | Stage de terrain III                                                            | 2.5 0.5 | Participation obligatoire et rapport écrit, réussi/échec                  |
+| SST.00324 SST.03901 | Colloques de géosciences Travail de Bachelor                                    | 9       | Participation obligatoire, réussi/échec Travail écrit, avec note.         |
+| SST.03902           | (Bilan)                                                                         | 1       |                                                                           |
+|                     | Travail de Bachelor                                                             |         | Travail écrit, réussi/échec.                                              |
+| SST.00403           | Marine geology                                                                  | 3 3     | Oral exam 20 min or written exam 2h                                       |
+| SST.00407           | Applied sedimentology                                                           |         | Oral presentation during the semester, with mark                          |
+| SST.00408           | Dynamic Alps: the Swiss geotraverse Vertebrate palaeontology and                | 3       | Presence obligatory, excursion report, with mark                          |
+| SST.00504           | evolution                                                                       | 3       | Oral exam 20 min or written exam 1h                                       |
+| SST.00508           | Advanced carbonate sedimentology                                                | 2. 5    | Test during the semester, with mark                                       |
+| SST.00524           | Electron microbeam techniques                                                   | 1       | Presence obligatory, practical                                            |
+| SST.00531           | (laboratory) Fossil Lagerstätten of Southern                                    | 2.      | test, passed/failed Presence obligatory, written report,                  |
+|                     | Germany Scientific methods in sedimentology and paleontology                    | 5 3     | Written report, with mark                                                 |
+| SST.00534           |                                                                                 |         | passed/failed                                                             |
+| SST.00536           | Taxonomy, nomenclature and morphological systematics                            | 3       | Oral presentation and written report, passed/failed                       |
+| SST.00538           | Paleoclimatology and paleoecology                                               | 3       | Oral exam 20 min or written exam 2h                                       |
+| SST.00541           | Internship in paleontology or sedimentology                                     | 3       | Two weeks internship followed by written report.                          |
+| SST.00542           | Seminar in paleontology                                                         | 1       | Participation, discussion and oral presentation                           |
+| SST.00545 SST.00546 | Paleontology of mammals Quantifying paleobiology                                | 3 3     | Oral exam 20 min or written exam 1h Oral exam 20 min or written exam 2h   |
+| SST.00547           | Interpretation of seismic profiles in the Alpine foreland                       | 1. 5    | control of presence, all exercises have to                                |
+| SST.00548           | Interpretation of seismic profiles                                              | 1.      | be handed in, passed/failed control of presence, all exercises have to be |
+|                     | around the world                                                                | 5       | handed in, passed/failed Oral presentation and written report, with       |
+| SST.00551           | Fluid-solid interactions and diagenesis: processes and sustainable applications | 3       | mark                                                                      |
+
+| SST.00552   | Hydrothermal processes in oceanic settings   | 3    | Written essay or oral presentation, with mark                                                                                                                |
+|-------------|----------------------------------------------|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SST.00589   | Excursion master Fribourg VII                | 0. 5 | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00590   | Excursion master Fribourg I                  | 1    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00591   | Excursion master Fribourg II                 | 2    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00592   | Excursion master Fribourg III                | 3    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00593   | Excursion master Fribourg IV                 | 4    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00594   | Excursion master Fribourg V                  | 6    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00595   | Excursion master Fribourg VI                 | 8    | Presence obligatory, written report, passed/failed                                                                                                           |
+| SST.00598   | Softskills 2                                 | 1. 5 | 15 min. presentation, mandatory attendance for full seminar, presentation of a poster with attendance of poster event                                        |
+| SST.00911   | Archéométrie I : Minéraux et roches          | 2. 5 | Épreuve écrite 60 min ou épreuve orale 20 min                                                                                                                |
+| SST.00912   | Archéométrie II : Le fer                     | 2. 5 | Épreuve écrite 60 min ou épreuve orale 20 min                                                                                                                |
+| SST.00913   | Archéométrie III : Céramique                 | 2. 5 | Épreuve écrite 60 min ou épreuve orale 20 min                                                                                                                |
+| SST.00914   | Archéométrie IV : Métaux non ferreux         | 2. 5 | Épreuve écrite 60 min ou épreuve orale 20 min                                                                                                                |
+| SST.05000   | Travail de master/Master thesis              | 60   | Manuscript in a form of a scientific paper, public presentation (30 min) and discussion (30 min); assessed with a mark (80% manuscript and 20% presentation) |

@@ -3,6 +3,25 @@ import path from 'path';
 import os from 'os';
 import { spawnSync } from 'child_process';
 
+type ProgramMetadata = {
+  degree_level?: 'Bachelor' | 'Master' | 'Doctorate' | string | null;
+  raw_level?: string | null;
+  total_ects?: number | null;
+  programme_name_en?: string | null;
+  programme_name_de?: string | null;
+  programme_name_fr?: string | null;
+  programme_url?: string | null;
+  programme_url_en?: string | null;
+  programme_url_de?: string | null;
+  programme_url_fr?: string | null;
+  curriculum_url?: string | null;
+  curriculum_de_url?: string | null;
+  curriculum_fr_url?: string | null;
+  curriculum_en_url?: string | null;
+  curriculum_unspecified_url?: string | null;
+  [key: string]: unknown;
+};
+
 type ProgramDocManifestItem = {
   program_key: string;
   doc_key: string;
@@ -20,6 +39,8 @@ type ProgramDocManifestItem = {
   fetched_at: string | null;
   status: 'downloaded' | 'already_present' | 'skipped_non_pdf' | 'calameo_no_direct_pdf' | 'failed';
   notes?: string | null;
+  program_metadata?: ProgramMetadata | null;
+  document_metadata?: Record<string, unknown> | null;
 };
 
 type DoclingJson = {
@@ -47,10 +68,13 @@ type ParsedDocIndexRow = {
   source_url: string | null;
   source_type: string | null;
   program_key: string | null;
-  total_ects: number | null;
-  faculty: string | null;
-  degree_level: string | null;
-  program_name: string | null;
+
+  level: string | null;
+  ects_points: number | null;
+  programme_name_en: string | null;
+  programme_name_de: string | null;
+  programme_name_fr: string | null;
+
   doc_label: string | null;
   programme_url: string | null;
   curriculum_url: string | null;
@@ -111,6 +135,10 @@ function resolvePdfPath(item: ProgramDocManifestItem, outRoot: string): string |
     candidates.push(item.local_path);
     candidates.push(normalizeCandidatePath(item.local_path));
     candidates.push(path.join(outRoot, 'pdfs', path.basename(normalizeCandidatePath(item.local_path))));
+  }
+
+  if (item.doc_key) {
+    candidates.push(path.join(outRoot, 'pdfs', `${item.doc_key}.pdf`));
   }
 
   if (item.sha256) {
@@ -177,29 +205,63 @@ function groupManifest(manifest: ProgramDocManifestItem[], outRoot: string): Doc
   return groups;
 }
 
-function renderHeader(group: DocGroup, title: string | null, pages: number) {
+function getProgramMeta(item: ProgramDocManifestItem): ProgramMetadata {
+  return item.program_metadata ?? {};
+}
+
+function firstString(...values: unknown[]): string | null {
+  for (const value of values) {
+    if (typeof value === 'string' && value.trim().length > 0) return value.trim();
+  }
+  return null;
+}
+
+function firstNumber(...values: unknown[]): number | null {
+  for (const value of values) {
+    if (typeof value === 'number' && Number.isFinite(value)) return value;
+  }
+  return null;
+}
+
+function buildCleanMetadata(group: DocGroup, title: string | null, pages: number) {
   const rep = group.representative;
-  const headerObj = {
+  const pm = getProgramMeta(rep);
+
+  return {
     parsed_at: new Date().toISOString(),
     title,
     pages,
     parser: 'docling',
     doc_key: group.doc_key,
     program_key: rep.program_key,
-    faculty: rep.faculty,
-    degree_level: rep.degree_level,
-    total_ects: rep.total_ects,
-    program_name: rep.program_name,
+
+    programme_name_en: firstString(pm.programme_name_en),
+    programme_name_de: firstString(pm.programme_name_de),
+    programme_name_fr: firstString(pm.programme_name_fr),
+    level: firstString(pm.degree_level, rep.degree_level),
+    ects_points: firstNumber(pm.total_ects, rep.total_ects),
+
     doc_label: rep.doc_label,
     source_url: rep.source_url,
     source_type: rep.source_type,
-    programme_url: rep.programme_url,
-    curriculum_url: rep.curriculum_url,
+    programme_url: firstString(pm.programme_url, rep.programme_url),
+    programme_url_en: firstString(pm.programme_url_en),
+    programme_url_de: firstString(pm.programme_url_de),
+    programme_url_fr: firstString(pm.programme_url_fr),
+    curriculum_url: firstString(pm.curriculum_url, rep.curriculum_url),
+    curriculum_de_url: firstString(pm.curriculum_de_url),
+    curriculum_fr_url: firstString(pm.curriculum_fr_url),
+    curriculum_en_url: firstString(pm.curriculum_en_url),
+    curriculum_unspecified_url: firstString(pm.curriculum_unspecified_url),
     local_path: group.resolved_pdf_path,
     sha256: rep.sha256,
     fetched_at: rep.fetched_at,
     notes: rep.notes ?? null,
   };
+}
+
+function renderHeader(group: DocGroup, title: string | null, pages: number) {
+  const headerObj = buildCleanMetadata(group, title, pages);
 
   return `---METADATA_JSON---\n${JSON.stringify(headerObj, null, 2)}\n---/METADATA_JSON---\n\n`;
 }
@@ -209,7 +271,8 @@ function renderParsedText(group: DocGroup, parsed: DoclingJson) {
     ? parsed.pages
     : [parsed.markdown ?? ''];
 
-  const title = collapseWs(parsed.title || '') || group.representative.program_name || null;
+  const pm = getProgramMeta(group.representative);
+  const title = collapseWs(parsed.title || '') || firstString(pm.programme_name_en, pm.programme_name_de, pm.programme_name_fr, group.representative.program_name) || null;
   const header = renderHeader(group, title, pagesArr.length);
   const body = pagesArr
     .map((pageText, i) => `---PAGE ${i + 1}---\n${pageText ?? ''}\n`)
@@ -285,32 +348,49 @@ function loadExistingIndex(indexPath: string): Map<string, ParsedDocIndexRow> {
   return map;
 }
 
-function buildRowFromExisting(group: DocGroup, outputPath: string, rawJsonPath: string): ParsedDocIndexRow {
+function buildIndexRow(
+  group: DocGroup,
+  parseStatus: ParsedDocIndexRow['parse_status'],
+  parseNotes: string | null,
+  outputPath: string,
+  rawJsonPath: string,
+  title: string | null,
+  pages: number,
+): ParsedDocIndexRow {
   const rep = group.representative;
-  const summary = tryReadExistingSummary(outputPath);
+  const pm = getProgramMeta(rep);
+
   return {
     doc_key: group.doc_key,
-    parse_status: 'skipped_existing',
-    parse_notes: 'already_parsed',
+    parse_status: parseStatus,
+    parse_notes: parseNotes,
     parsed_at: new Date().toISOString(),
     local_path: group.resolved_pdf_path,
     output_path: outputPath,
     raw_json_path: rawJsonPath,
-    title: summary.title,
-    pages: summary.pages,
+    title,
+    pages,
     sha256: rep.sha256,
     source_url: rep.source_url,
     source_type: rep.source_type,
     program_key: rep.program_key,
-    total_ects: rep.total_ects,
-    faculty: rep.faculty,
-    degree_level: rep.degree_level,
-    program_name: rep.program_name,
+
+    programme_name_en: firstString(pm.programme_name_en),
+    programme_name_de: firstString(pm.programme_name_de),
+    programme_name_fr: firstString(pm.programme_name_fr),
+    level: firstString(pm.degree_level, rep.degree_level),
+    ects_points: firstNumber(pm.total_ects, rep.total_ects),
+
     doc_label: rep.doc_label,
-    programme_url: rep.programme_url,
-    curriculum_url: rep.curriculum_url,
+    programme_url: firstString(pm.programme_url, rep.programme_url),
+    curriculum_url: firstString(pm.curriculum_url, rep.curriculum_url),
     fetched_at: rep.fetched_at,
   };
+}
+
+function buildRowFromExisting(group: DocGroup, outputPath: string, rawJsonPath: string): ParsedDocIndexRow {
+  const summary = tryReadExistingSummary(outputPath);
+  return buildIndexRow(group, 'skipped_existing', 'already_parsed', outputPath, rawJsonPath, summary.title, summary.pages);
 }
 
 function saveRowMap(indexPath: string, rowMap: Map<string, ParsedDocIndexRow>) {
@@ -341,12 +421,19 @@ async function run() {
   const rowMap = loadExistingIndex(indexPath);
 
   ensureDir(rawDir);
-  atomicWriteJson(dedupManifestPath, groups.map((g) => ({
-    doc_key: g.doc_key,
-    resolved_pdf_path: g.resolved_pdf_path,
-    program_key: g.representative.program_key,
-    total_ects: g.representative.total_ects,
-  })));
+  atomicWriteJson(dedupManifestPath, groups.map((g) => {
+    const pm = getProgramMeta(g.representative);
+    return {
+      doc_key: g.doc_key,
+      resolved_pdf_path: g.resolved_pdf_path,
+      program_key: g.representative.program_key,
+      programme_name_en: firstString(pm.programme_name_en),
+      programme_name_de: firstString(pm.programme_name_de),
+      programme_name_fr: firstString(pm.programme_name_fr),
+      level: firstString(pm.degree_level, g.representative.degree_level),
+      ects_points: firstNumber(pm.total_ects, g.representative.total_ects),
+    };
+  }));
 
   const needsParse = groups.some((g) => {
     const out = path.join(parsedDir, `${g.doc_key}.txt`);
@@ -363,35 +450,18 @@ async function run() {
   for (const group of groups) {
     const outputPath = path.join(parsedDir, `${group.doc_key}.txt`);
     const rawJsonPath = path.join(rawDir, `${group.doc_key}.json`);
-    const rep = group.representative;
-
-    let row: ParsedDocIndexRow;
 
     if (!group.resolved_pdf_path) {
       failed += 1;
-      row = {
-        doc_key: group.doc_key,
-        parse_status: 'failed',
-        parse_notes: 'PDF not found via manifest local_path or outputs/pdfs basename fallback',
-        parsed_at: new Date().toISOString(),
-        local_path: null,
-        output_path: outputPath,
-        raw_json_path: rawJsonPath,
-        title: null,
-        pages: 0,
-        sha256: rep.sha256,
-        source_url: rep.source_url,
-        source_type: rep.source_type,
-        program_key: rep.program_key,
-        total_ects: rep.total_ects,
-        faculty: rep.faculty,
-        degree_level: rep.degree_level,
-        program_name: rep.program_name,
-        doc_label: rep.doc_label,
-        programme_url: rep.programme_url,
-        curriculum_url: rep.curriculum_url,
-        fetched_at: rep.fetched_at,
-      };
+      const row = buildIndexRow(
+        group,
+        'failed',
+        'PDF not found via manifest local_path or outputs/pdfs basename fallback',
+        outputPath,
+        rawJsonPath,
+        null,
+        0,
+      );
       rowMap.set(group.doc_key, row);
       saveRowMap(indexPath, rowMap);
       console.warn(`⚠️ Missing PDF for doc_key=${group.doc_key}`);
@@ -400,7 +470,7 @@ async function run() {
 
     if (!reparseExisting && fs.existsSync(outputPath)) {
       skippedExisting += 1;
-      row = buildRowFromExisting(group, outputPath, rawJsonPath);
+      const row = buildRowFromExisting(group, outputPath, rawJsonPath);
       rowMap.set(group.doc_key, row);
       saveRowMap(indexPath, rowMap);
       console.log(`⏭️  Existing parse kept: ${group.doc_key}`);
@@ -414,57 +484,21 @@ async function run() {
       atomicWriteText(outputPath, rendered.text);
 
       ok += 1;
-      row = {
-        doc_key: group.doc_key,
-        parse_status: 'ok',
-        parse_notes: null,
-        parsed_at: new Date().toISOString(),
-        local_path: group.resolved_pdf_path,
-        output_path: outputPath,
-        raw_json_path: rawJsonPath,
-        title: rendered.title,
-        pages: rendered.pages,
-        sha256: rep.sha256,
-        source_url: rep.source_url,
-        source_type: rep.source_type,
-        program_key: rep.program_key,
-        total_ects: rep.total_ects,
-        faculty: rep.faculty,
-        degree_level: rep.degree_level,
-        program_name: rep.program_name,
-        doc_label: rep.doc_label,
-        programme_url: rep.programme_url,
-        curriculum_url: rep.curriculum_url,
-        fetched_at: rep.fetched_at,
-      };
+      const row = buildIndexRow(group, 'ok', null, outputPath, rawJsonPath, rendered.title, rendered.pages);
       rowMap.set(group.doc_key, row);
       saveRowMap(indexPath, rowMap);
       console.log(`✅ Parsed ${path.basename(group.resolved_pdf_path)} -> ${group.doc_key}.txt`);
     } catch (e: any) {
       failed += 1;
-      row = {
-        doc_key: group.doc_key,
-        parse_status: 'failed',
-        parse_notes: e?.message ?? String(e),
-        parsed_at: new Date().toISOString(),
-        local_path: group.resolved_pdf_path,
-        output_path: outputPath,
-        raw_json_path: rawJsonPath,
-        title: null,
-        pages: 0,
-        sha256: rep.sha256,
-        source_url: rep.source_url,
-        source_type: rep.source_type,
-        program_key: rep.program_key,
-        total_ects: rep.total_ects,
-        faculty: rep.faculty,
-        degree_level: rep.degree_level,
-        program_name: rep.program_name,
-        doc_label: rep.doc_label,
-        programme_url: rep.programme_url,
-        curriculum_url: rep.curriculum_url,
-        fetched_at: rep.fetched_at,
-      };
+      const row = buildIndexRow(
+        group,
+        'failed',
+        e?.message ?? String(e),
+        outputPath,
+        rawJsonPath,
+        null,
+        0,
+      );
       rowMap.set(group.doc_key, row);
       saveRowMap(indexPath, rowMap);
       console.warn(`⚠️ Failed parsing ${group.resolved_pdf_path}: ${row.parse_notes}`);

@@ -1,0 +1,62 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:52:12.105Z",
+  "title": "matched_Faculty_of_Humanities_Master_90_Italian_Disposizioni_MA_valide_dal_2019__a49a1d8da244d1accb9b4593f1883b65a85e6660",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a49a1d8da244d1accb9b4593f1883b65a85e6660",
+  "program_key": "faculty of humanities|master|90|italian",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Dispositions_transitoires%282019%29/Master_des%20SA19_dispositions%20transitoires_Fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Italian_Disposizioni_MA_valide_dal_2019__a49a1d8da244d1accb9b4593f1883b65a85e6660.pdf",
+  "sha256": "8663f05c7b53f372aee2656bec6dfd55bc4a11904256bfee6ade3b13e82e5631",
+  "fetched_at": "2026-05-21T16:05:25.793Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Dispositions_transitoires%282019%29/Master_des%20SA19_dispositions%20transitoires_Fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/yxwhB"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Dispositions transitoires : plans d'études de Master
+
+Suite à l'entrée en vigueur du Règlement du 8 mars 2018 pour l'obtention du bachelor et du master à la Faculté des lettres et des sciences humaines , sont abrogés :
+
+- le Règlement pour l'obtention du Master à la Faculté des lettres de l'Université de Fribourg (Suisse) du 11 mai 2006 ;
+- les Directives  concernant  l'évaluation  des  prestations  d'études,  l'attribution  des crédits ECTS et la validation des modules à la Faculté des lettres de l'Université de Fribourg (Suisse) du 23 avril 2009 .
+
+Un certain nombre d'aspects liés des études est modifié à partir du semestre d'automne 2019.
+
+## Durée des études
+
+- « La durée minimale d'un master à 90 crédits ECTS est en principe de 3 semestres » (art. 7 al. 2)
+- « La durée minimale d'un master à 120 crédits ECTS est en principe de 4 semestres (art. 7 al. 3)
+- « La durée des études de master est limitée au triple du nombre de semestre prévu dans le plan d'études » (art. 48 al. 1)
+- « En cas de non-respect de ce délai, l'étudiant-e n'est plus autorisé-e à poursuivre les études dans le programme d'études concerné » (art. 49 al. 2)
+
+Dispositions transitoires : Pour les ancien-ne-s étudiant-e-s le décompte des semestres démarre dès le SA 19 (Art. 74).
+
+## Mention bilingue
+
+La mention est attribuée si dans le programme d'études approfondies (90 crédits ECTS) au moins 40% des crédits ECTS ont été obtenus dans chacune des langues (art. 50 al. 2).
+
+Disposition transitoire : Pour les étudiant-e-s ayant débuté les études de master dans un programme de master avant le SA 2019, le calcul de la mention bilingue, si celle-ci est prévue dans le plan d'études, se fait selon l'ancien règlement.
+
+## Modalités d'évaluation
+
+- a) Répétitions des évaluations : en cas d'échec une évaluation peut être répétée une fois (= 2 tentatives au total).
+2. Dispositions transitoires : pour les unités d'enseignement auxquelles l'inscription a été faite avant le SA 19, une troisième tentative reste possible.
+
+- b) Echec définitif après quatre sessions d'examens sans inscription : Si l'étudiant-e ne s'inscrit jamais à l'évaluation liée à une unité d'enseignement à laquelle il/elle est inscrite dans une durée de quatre sessions d'examen, l'étudiant-e est en échec définitif à l'unité d'enseignement ou au module correspondant (art. 24 al. 5)
+
+Dispositions transitoires : Si l'inscription à une unité d'enseignement a été faite avant le SA 19, sans inscription à l'évaluation, l'obligation de se présenter à une évaluation durant les quatre sessions ne s'applique pas et ces inscriptions ne mènent pas à un échec définitif.
+
+Si l'inscription à une unité d'enseignement a été faite avant le SA 19, avec inscription à une évaluation avant ou après le semestre d'automne 2019, le nombre de session d'examen est décompté normalement, à partir du semestre d'inscription à l'unité d'enseignement.

@@ -1,0 +1,69 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:22:24.835Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__36aa9afc30c4d6325740fc8a1a36ab1723fa1c48",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "36aa9afc30c4d6325740fc8a1a36ab1723fa1c48",
+  "program_key": "faculty of humanities|bachelor|120|history of modern times",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__36aa9afc30c4d6325740fc8a1a36ab1723fa1c48.pdf",
+  "sha256": "13ce38a9c5321306e0bc99bb3430b197196cbb9939da6ad9a77b3f3c0113a885",
+  "fetched_at": "2026-05-21T16:05:23.446Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2060_2016.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "History of Modern Times",
+  "programme_name_de": "Geschichte der Moderne",
+  "programme_name_fr": "Histoire de la modernité",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENAUFBAU: BA GESCHICHTE 60
+
+(STUDIENPLAN 2016)
+
+## P F L C H T L
+
+## L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)
+
+- 1 Überblicksvorlesung (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Epoche I (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Epoche II (3 ECTS)
+- 2 Vorlesungen oder 1 Proseminar ausserhalb der Epochen I / II (2x3 / 6 ECTS)
+
+## W  A H L P F L C H T T E L
+
+## BASISMODUL EPOCHE I (15 ECTS)   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+- 2 Vorlesungen (2x3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach I festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot
+
+## BASISMODUL EPOCHE II (15 ECTS) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+- 2 Vorlesungen (2x3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach II festgelegte Veranstaltung (3 ECTS)
+- -&gt; Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot
+
+## VERTIEFUNGSMODUL EPOCHE I (15 ECTS)
+
+- 1 Vorlesung (3 ECTS)
+- 1 Seminar mit schriftlicher Arbeit (9 ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung (3 ECTS)
+- -&gt; Methodenkurs II
+
+## NOTA BENE
+
+- Wahl und Kombination der Epochenfächer im Wahlpflichtteil sind der / dem Studierenden überlassen. Es gilt eine Einschränkung:
+- Zur Wahl für das Vertiefungsmodul stehen nur die beiden Epochenfächer, die im Rahmen der Basismodule belegt wurden.
+- Codes und konkreter Aufbau der Basis- und Vertiefungsmodule im Dokument: Ü bersicht Module

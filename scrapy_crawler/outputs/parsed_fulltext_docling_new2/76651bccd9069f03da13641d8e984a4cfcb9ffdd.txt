@@ -1,0 +1,64 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:39:42.445Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics_Math_matiques_prop_deutiques_76651bccd9069f03da13641d8e984a4cfcb9ffdd",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "76651bccd9069f03da13641d8e984a4cfcb9ffdd",
+  "program_key": "faculty of science and medicine|master|90|mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_MA_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics_Math_matiques_prop_deutiques_76651bccd9069f03da13641d8e984a4cfcb9ffdd.pdf",
+  "sha256": "f687b4c261432a5f89f861a03c23893dc43cb79925ad9d9f529b4cdc798e7b0b",
+  "fetched_at": "2026-05-21T16:05:17.716Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_MA_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Mathematics",
+  "programme_name_de": "Mathematik",
+  "programme_name_fr": "Mathématiques",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/mathematics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.1  Mathématiques propédeutiques
+
+[Version 2020, module : MO-SMA.00057]
+
+C'est une branche propédeutique obligatoire pour la plupart des filières d'études de la Faculté des sciences et de médecine. Les mathématiques propédeutiques comprennent des cours et des exercices d'un volume de 12 ECTS.
+
+## 2.1.1 Unités d'enseignement des mathématiques propédeutiques
+
+## 1 er  semestre (automne)
+
+| Code                   | Unité d'enseignement                                  | h. tot.   | ECTS   |
+|------------------------|-------------------------------------------------------|-----------|--------|
+| SMA.00103              | Analyse propédeutique I (cours avec exercices)        | 42        | 3      |
+| SMA.00202              | Algèbre linéaire propédeutique (cours avec exercices) | 42        | 3      |
+|                        | Total                                                 |           | 6      |
+| e semestre (printemps) | e semestre (printemps)                                |           |        |
+| Code                   | Unité d'enseignement                                  | h. tot.   | ECTS   |
+| SMA.00104              | Analyse propédeutique II (cours avec exercices)       | 42        | 3      |
+| SMA.00402              | Statistique propédeutique (cours avec exercices)      | 42        | 3      |
+| Total                  | Total                                                 |           | 6      |
+
+## 2.1.2 Contenu des unités d'enseignement
+
+Les cours Analyse propédeutique I et II rafraîchissent et élargissent les connaissances sur les fonctions réelles (calcul différentiel et intégral) acquises au gymnase, avant tout dans le domaine des équations différentielles, dont le traitement conduit à l'introduction des nombres complexes.
+
+Partant  de  la  résolution  des  systèmes  d'équations  linéaires,  l' Algèbre  linéaire  propédeutique introduit à un domaine d'importance fondamentale pour toute discipline mathématique.
+
+La Statistique propédeutique introduit aux méthodes statistiques indispensables à tout scientifique.
+
+Les exercices accompagnant ces cours permettent d'une part de comprendre et approfondir leur contenu ; ils encouragent par ailleurs un travail mathématique personnel. La participation aux exercices est obligatoire.
+
+## 2.1.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des mathématiques (http://www.unifr.ch/scimed/plans/eval).

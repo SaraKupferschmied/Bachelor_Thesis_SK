@@ -1,0 +1,129 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:23:21.864Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_30_Sport_Sciences_Branche_compl_mentaire_en_sciences_du_sport_30_36b49c0fbd92f7ae8af8c04ca88d524acf44f13c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "36b49c0fbd92f7ae8af8c04ca88d524acf44f13c",
+  "program_key": "faculty of science and medicine|master|30|sport sciences",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_SP_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_30_Sport_Sciences_Branche_compl_mentaire_en_sciences_du_sport_30_36b49c0fbd92f7ae8af8c04ca88d524acf44f13c.pdf",
+  "sha256": "fecfbc6bd4a5a4559f78f49452ba3c3294b1b9849a054e811bf0baba010132c2",
+  "fetched_at": "2026-05-21T16:05:14.583Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_SP_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Sport Sciences",
+  "programme_name_de": "Sportwissenschaften",
+  "programme_name_fr": "Sciences du sport",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/z3FE1"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.7  Sciences du sport et de la motricité +30
+
+[Version 2022, paquet de validation : PV-SSP.0000063]
+
+Selon  les  directives  fédérales/intercantonales  le  sport  peut  être  reconnu  comme  branche secondaire  d'enseignement  au  niveau  II  pour  autant  que  l'étudiant -e  atteste  d'une  formation minimale de 90 crédits ECTS. Dès lors, il ou elle est invité-e à compléter la BCo-Sport 60 ECTS par le programme BCo-Sport +30 ECTS. Ce programme de formation supplémentaire peut être suivi  durant  les  études de  bachelor  déjà.  Dans ce cas,  il  est  considéré comme des « études optionnelles », suivies en parallèle avec les études de bachelor.
+
+Le programme BCo-Sport +30 ECTS peut également, selon les cas, être choisi dans le cadre d'un Master of Arts.
+
+## 2.7.1 Structure de la branche complémentaire BCo-Sport+30
+
+Le plan d'études se compose pour un total de 30 ECTS des unités d'enseignement (UE) de la formation pratique -méthodologique marquées d'un astérisque (*). Celle s qui ont déjà été suivies dans la BCo-Sport-60 sont rempla cées par d'autres UE.
+
+Pour les UE à choix, si le nombre de participants est jugé insuffisant, la direction des sciences du mouvement et du sport se réserve le droit d'annuler le cours.
+
+## 2.7.2 Unités d'enseignement (UE)
+
+## Formation pratique -méthodologique
+
+| Code      | Unité d'enseignement                           | Semestre   |   h. tot. |   ECTS |
+|-----------|------------------------------------------------|------------|-----------|--------|
+| F22.00213 | Inclusion et sports §                          | SP         |        28 |      3 |
+| SSP.00788 | * Approche sécuritaire des pratiques sportives | SP         |        28 |      2 |
+|           | Domaine des sports collectifs et jeux          |            |           |        |
+| SSP.00780 | * Approche systémique du jeu                   | SA         |        14 |      1 |
+| SSP.00800 | Badminton §§                                   | SA         |        28 |      2 |
+| SSP.00801 | * Basketball I                                 | SA         |        28 |      1 |
+| SSP.00807 | * Basketball II                                | SP         |        28 |      2 |
+| SSP.00802 | Uni-hockey §§                                  | SP         |        28 |      2 |
+| SSP.00803 | Football §§                                    | SP         |        28 |      2 |
+| SSP.00804 | * Volleyball I                                 | SA         |        28 |      1 |
+| SSP.00805 | * Volleyball II                                | SP         |        28 |      2 |
+| SSP.00808 | Futsal                                         | SA         |        28 |      2 |
+| SSP.00809 | Handball §§                                    | SP         |        28 |      2 |
+| SSP.00816 | * Patinage et initiation au hockey sur glace   | SA         |        28 |      2 |
+| SSP.00817 | Hockey sur glace                               | SA         |        28 |      2 |
+| SSP.00818 | Tennis de table §§                             | SA         |        28 |      2 |
+| SSP.00838 | Jeux d'autres cultures §§                      | SP         |        28 |      2 |
+|           | Domaine de l'expression corporelle             |            |           |        |
+| SSP.00819 | * Danse populaire I                            | SA/SP      |        28 |      2 |
+| SSP.00824 | Danse populaire II                             | SP         |        28 |      2 |
+| SSP.00826 | * Expression par le mouvement                  | SA/SP      |        28 |      2 |
+| SSP.00858 | * Fitness I                                    | SA         |        28 |      1 |
+| SSP.00859 | * Fitness II                                   | SP         |        28 |      2 |
+
+|           | Domaine de la gymnastique aux agrès           |           |      |    |
+|-----------|-----------------------------------------------|-----------|------|----|
+| SSP.00812 | * Gymnastique aux agrès I                     | SA        | 28   |  1 |
+| SSP.00813 | * Gymnastique aux agrès II                    | SP        | 28   |  2 |
+| SSP.00815 | * Gymnastique aux agrès III                   | SA        | 28   |  2 |
+| SSP.00857 | Équilibre et acrosport                        | SP        | 28   |  2 |
+|           | Domaine de l'athlétisme                       |           |      |    |
+| SSP.00831 | * Athlétisme I                                | SA        | 34   |  1 |
+| SSP.00832 | * Athlétisme II                               | SP        | 34   |  2 |
+| SSP.00839 | * Athlétisme III                              | SP        | 28   |  2 |
+|           | Domaine de la natation                        |           |      |    |
+| SSP.00825 | * Natation sportive I                         | SA        | 28   |  1 |
+| SSP.00821 | * Natation sportive II §§§                    | SP        | 28   |  2 |
+| SSP.00822 | * Natation sportive III                       | SA        | 28   |  2 |
+|           | Domaine des sports de neige                   |           |      |    |
+| SSP.00789 | * Approche théorique des sports de neige §§§§ | SA        | 14   |  1 |
+| SSP.00834 | * Ski alpin §§§§§                             | Hors sem. | 7 j. |  2 |
+| SSP.00836 | * Snowboard §§§§§                             | Hors sem. | 7 j. |  2 |
+| SSP.00837 | * Ski de fond §§§§§                           | Hors sem. | 7 j. |  2 |
+|           | Activités outdoor                             |           |      |    |
+| SSP.00833 | Course d'orientation                          | SP        | 28   |  2 |
+| SSP.00835 | Excursions à ski §§                           | Hors sem. | 7 j. |  2 |
+| SSP.00844 | Triathlon §§                                  | Hors sem. | 7 j. |  2 |
+| SSP.00846 | Trekking §§                                   | Hors sem. | 7 j. |  2 |
+| SSP.00855 | Inline-skating §§                             | SP        | 28   |  2 |
+|           | Autres                                        |           |      |    |
+| SSP.00814 | Escalade sportive §§                          | SP        | 28   |  2 |
+| SSP.00845 | Massage sportif §§                            | SA        | 28   |  2 |
+| SSP.00854 | Judo                                          | SA        | 28   |  2 |
+
+§ Le nombre de places pour cette UE est limité à 10 pour les étudiant-e-s en sciences du sport et de la  motricité.  Les  examens  se  font  uniquement  dans  la  langue  du  cours  (français)  et  le  mode d'évaluation est par « réussi/échec ». A ttention, la période d'inscription aux cours de la Faculté des Lettres  est  différente  de  celle  de  la  FacSciMed  :  https://www.unifr.ch/lettres/fr/etudes/cours-etexamens/inscription-aux-cours-et-examens/.
+
+§§ Le nombre de places pour ces UE est limité.
+
+§§§ L'obtention  du  Brevet  I  ou  du  « Brevet  plus  pool »  de  la  société  suisse  de  sauvetage  est  une condition requise pour se présenter aux épreuves d'examens de l'UE SSP.00821.
+
+§§§§ La  validation  du  cours  SSP.00789  est  une  condition  d'accès  à  l'examen  théorique  des  cours SSP.00834 et SSP.00836. Il est donc vivement conseillé de suivre ce cours en parallèle des cours SSP.00834 ou SSP.00836.
+
+§§§§§ L'étudiant -e choisit 2 engins sur les 3 ( Ski alpin, Snowboard, Ski de fond ) comme UE obligatoires pour le DEDS ou le DEEM.
+
+## 2.7.3 Contenu des unités d'enseignement de la branche complémentaire
+
+Les cours avec travaux pratiques portent sur l'étude et la pratique des activités physique et sportive (APS) appartenant aux différents domaines d'action.
+
+Les objectifs prioritaires d'apprentissage sont :
+
+- le développement de la relation à soi, aux autres et à l'environnement par la pratique des activités physiques et sportives ;
+- l'analyse des habiletés motrices par l'utilisation de concepts, de modèles d'analyse ;
+- l'acquisition de compétences technique s, tactiques, sociales et personnelles propre à chaque APS ;
+- la  connaissance  des  règlements,  des  mesures  de  prévention  et  de  sécurité  régissant  la pratique des sports étudiés.
+- Pour chaque UE, un descriptif détaillé est disponible dans le programme de cours avec en particulier un descriptif des objectifs d'apprentis sage (http://www.unifr.ch/timetable).
+
+## 2.7.4 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l ' annexe des sciences du sport et de la motricité (http://www.unifr.ch/scimed/plans/eval).

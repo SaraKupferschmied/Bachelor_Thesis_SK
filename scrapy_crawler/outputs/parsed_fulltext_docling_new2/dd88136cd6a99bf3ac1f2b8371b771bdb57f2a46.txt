@@ -1,0 +1,317 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:23:16.618Z",
+  "title": "matched_Faculty_of_Theology_Master_90_Interreligious_Studies_Master_of_Arts_in_interreligi_se_Studien_Hauptprogramm_90_ECTS__dd88136cd6a99bf3ac1f2b8371b771bdb57f2a46",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "dd88136cd6a99bf3ac1f2b8371b771bdb57f2a46",
+  "program_key": "faculty of theology|master|90|interreligious studies",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_90_sp%C3%A9cial.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Master_90_Interreligious_Studies_Master_of_Arts_in_interreligi_se_Studien_Hauptprogramm_90_ECTS__dd88136cd6a99bf3ac1f2b8371b771bdb57f2a46.pdf",
+  "sha256": "09902e862d29e6670dcfe5fd3cdedef6a7e3ed28f41e71292fbf00bd349775d0",
+  "fetched_at": "2026-05-21T16:05:39.937Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Master%20of%20Arts%20en%20%C3%A9tudes%20interreligieuses_90_sp%C3%A9cial.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Interreligious Studies",
+  "programme_name_de": "Interreligiöse Studien",
+  "programme_name_fr": "Études interreligieuses",
+  "programme_url": "https://studies.unifr.ch/en/master/theo/interreligiousstudies",
+  "curriculum_url": "https://studies.unifr.ch/go/29"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Master of Arts en études interreligieuses (Éthique, spiritualité et dialogue interreligieux)
+
+## Aperçu des modules
+
+Dauer / Durée :
+
+4 Semester / 6 semestres
+
+Summe CP / Total CP : 90
+
+| MODUL / MODULE                                                                                                                                                                               | MODUL / MODULE                                                                                                                                                                               | SWS / HSS                                                                                           | Evaluation                                                                                          |   CP |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------|
+| M - 1                                                                                                                                                                                        | Religion und Gesellschaft / Religion et société                                                                                                                                              | Religion und Gesellschaft / Religion et société                                                     | Religion und Gesellschaft / Religion et société                                                     |   13 |
+| V/C Vergleichende Religionsgeschichte / Histoire comparée des religions                                                                                                                      | V/C Vergleichende Religionsgeschichte / Histoire comparée des religions                                                                                                                      | 2                                                                                                   | Ev                                                                                                  |    3 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | 2                                                                                                   | Ev                                                                                                  |    3 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | 2                                                                                                   | Schriftliche Arbeit Seminar / Travail écrit de séminaire, ca. 25 Seiten / environ 25 pages          |    7 |
+| M - 2                                                                                                                                                                                        | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux                                                                                          | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux |   13 |
+| V/C Kirchengeschichte / Histoire de l'Église                                                                                                                                                 | V/C Kirchengeschichte / Histoire de l'Église                                                                                                                                                 | 2                                                                                                   | Ev                                                                                                  |    3 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | 2                                                                                                   | Ev                                                                                                  |    3 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | 2                                                                                                   | Schriftliche Arbeit Seminar / Travail écrit de séminaire, ca. 25 Seiten / environ 25 pages          |    7 |
+| M - 3                                                                                                                                                                                        | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique                                                                                                                      | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique                             | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique                             |   13 |
+| V/C Interreligiöse Ethik / Éthique interreligieuse                                                                                                                                           | V/C Interreligiöse Ethik / Éthique interreligieuse                                                                                                                                           | 2                                                                                                   | Ev                                                                                                  |    3 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | 2                                                                                                   | Ev                                                                                                  |    3 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module   | 2                                                                                                   | Schriftliche Arbeit Seminar / Travail écrit de séminaire, ca. 25 Seiten / environ 25 pages          |    7 |
+| M - 4                                                                                                                                                                                        | Spiritualität und Praxis / Spiritualité et pratique                                                                                                                                          | Spiritualität und Praxis / Spiritualité et pratique                                                 | Spiritualität und Praxis / Spiritualité et pratique                                                 |   13 |
+| V/C Pastoraltheologie oder Religionspädagogik / Théologie pastorale ou pédagogie                                                                                                             | V/C Pastoraltheologie oder Religionspädagogik / Théologie pastorale ou pédagogie                                                                                                             | 2                                                                                                   | Ev                                                                                                  |    3 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | 2                                                                                                   | Ev                                                                                                  |    3 |
+| Seminar nach Wahl in allen beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module | Seminar nach Wahl in allen beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module | 2                                                                                                   | Schriftliche Arbeit Seminar / Travail écrit de séminaire, ca. 25 Seiten / environ 25 pages          |    7 |
+| M - 5                                                                                                                                                                                        | Wahlbereich / Option                                                                                                                                                                         | Wahlbereich / Option                                                                                | Wahlbereich / Option                                                                                |   18 |
+| Nach Wahl / À choix                                                                                                                                                                          | Nach Wahl / À choix                                                                                                                                                                          | Nach Wahl / À choix                                                                                 | Nach Wahl / À choix                                                                                 |   18 |
+| M - 6                                                                                                                                                                                        | Masterarbeit / Travail de Master                                                                                                                                                             | Masterarbeit / Travail de Master                                                                    | Masterarbeit / Travail de Master                                                                    |   20 |
+| Selbststudium und schriftliche Arbeit /                                                                                                                                                      | Selbststudium und schriftliche Arbeit /                                                                                                                                                      |                                                                                                     | ca. 80 Seiten / env. 80 pages                                                                       |   20 |
+
+## Master of Arts en études interreligieuses Spécialisations
+
+## Spezialisierungen im Master / Spécialisation du Master :
+
+-  Spezialisierung Islam und Gesellschaft / Spécialisation en islam et société :
+
+setzt sich wie folgt zusammen / se compose comme suit :
+
+- 30 CP Schwerpunktbildung in diesem Bereich / formation avec accent dans ce domaine
+
+30 CP Masterarbeit / Travail de Master
+
+30 CP aus 3 Modulen / choisis dans 3 modules
+
+-  Spezialisierung interreligiöser Dialog / Spécialisation en dialogue interreligieux :
+
+setzt sich wie folgt zusammen / se compose comme suit :
+
+30 CP Schwerpunktbildung in diesem Bereich / formation avec accent dans ce domaine
+
+30 CP Masterarbeit / Travail de Master
+
+30 CP aus 3 Modulen / choisis dans 3 modules
+
+Das Programm ist mit dem/der jeweiligen Fachverantwortlichen festzulegen. Le programme est à établir avec le ou la responsable du domaine.
+
+## Descriptifs des modules
+
+| M - 1                   | Religion und Gesellschaft / Religion et société   | Religion und Gesellschaft / Religion et société   | Religion und Gesellschaft / Religion et société   |                                 |
+|-------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------|
+| Arbeitsaufwand          | CP                                                | Studiensemester                                   | Dauer                                             | Turnus: jährlich                |
+| Charge de travail 300 h | 13                                                | Semestres d'études 1 - 4                          | Durée 4 Sem.                                      | Cycle : annuel ab HS / début SA |
+
+## Modulverantwortliche -r / Responsable du module :
+
+Professor -in für Vergleichende Religionsgeschichte und interreligiöser Dialog / Professeur -e d'histoire comparée des religions et dialogue interreligieux
+
+## Beteiligte Disziplinen bzw. Institutionen / Disciplines et institutions rattachées :
+
+-  Vergleichende Religionsgeschichte und interreligiöser Dialog / Histoire comparée des religions et dialogue interreligieux
+-  Fundamentaltheologie / Théologie fondamentale
+-  Kirchengeschichte / Histoire de l'Église
+-  Institut für das Studium der Religionen und den Interreligiösen Dialog / Institut pour l'étude des religions et le dialogue interreligieux (IRD)
+-  Schweizerisches Zentrum für Islam und Gesellschaft (SZIG) / Centre Suisse Islam et Société (CSIS)
+
+Voraussetzungen / Conditions
+
+## : keine / aucune
+
+## Zu vermittelnde Kompetenzen / Compétences transmises :
+
+Die Studierenden werden an konkreten Feldern mit theoretischen Zugängen zur Analyse des Wechselverhältnisses von Ethik, Spiritualität und interreligiösem Dialog vertraut gemacht. Sie sollen in die Lage versetzt werden, 1. die Grammatik kultureller Deutungsmuster zu erkennen und eigenständig Theorien in ihren eigenen Forschungen anzuwenden und 2. mit Hilfe dieser Theorien die Module des Studiengangs zu verbinden.
+
+Les étudiant -e -s se familiarisent à l'aide de champs concrets avec des approches théoriques pour analyser l'interaction de l'éthique, de la spiritualité et du dialogue interreligieux. Ils devront être capables 1. de reconnaître les différentes grammaires culturelles propres à différents modèles d'interprétations et de développer de manière autonome des instruments théoriques de recherche. 2. De relier entre eux les différents modules de ce cours.
+
+## Inhalt / Contenu :
+
+Kenntnis ausgewählter theoretischer Dimension des Wechselverhältnisses von Ethik, Spiritualität und interreligiösem Dialog an konkreten historischen oder gegenwartsbezogenen Beispielen aus dem Feld von Religionswissenschaft und Religionsgeschichte: Epistemologische Fragen des Studiengangs unter Einbeziehung einer nicht -christlichen Tradition, Konzepte des Religionsvergleichs, des interreligiösen Dialogs, kultureller Interferenzen, sozialer Machtbeziehungen und gesellschaftlicher Transformation (etwa: Genese von Religionen, religiöse Identitätsbildung durch Austausch und Abgrenzung, Hybridisierung religiöser Überzeugungen, Veränderungen durch Beziehungen zwischen hegemonialen / nichthegemonialen Gruppen). Connaissances de certaines théories choisies concernant les rapports entre éthique, spiritualité et sciences des religions, appliquées à des exemples concrets, historiques ou contemporains, tirés des sciences des religions ou de l'histoire des religions. Questions épistémologiques propres au parcours d'études et sous la perspective d'une religion non -chrétienne, concepts pour la comparaison des religions, le dialogue interreligieux, les interférences culturelles, les rapports sociaux de pouvoir et les transformations sociales (comme par exemple : la genèse des religions, la construction d'une identité religieuse à partir d'échanges sociaux et de créations de frontières, l'hybridation des convictions religieuses, les transformations de ces convictions au travers des relations entre groupes hégémoniques et non -hégémoniques).
+
+| Bestandteile des Moduls Éléments essentiels du module                                                                                                                                            | Präsenzzeit Temps de présence   | Selbststudium Étude personnelle   |   Credits Crédits |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-----------------------------------|-------------------|
+| V/C Vergleichende Religionsgeschichte / Histoire comparée des religions                                                                                                                          | 2 SWS / HSS                     | 30 h                              |                 2 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                     | 2 SWS / HSS                     | 30 h                              |                 2 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwer - punkt / Séminaire à choix dans les disciplines con - cernées avec un accent correspondant au module | 2 SWS / HSS                     | 60 h                              |                 3 |
+
+| Prüfungen / Examens                                                 | Aufwand / Engagement                    |    |
+|---------------------------------------------------------------------|-----------------------------------------|----|
+| Total                                                               | 180 h                                   |  6 |
+| Vergleichende Religionsgeschichte / Histoire comparée des religions | 30 h                                    |  1 |
+| V/C Nach Wahl / À choix                                             | 30 h                                    |  1 |
+| Schriftliche Arbeit Seminar / Travail écrit de séminaire            | 120 h, ca. 25 Seiten / environ 25 pages |  4 |
+
+| M - 2             | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux   | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux   | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux   | Konvivenz, Konflikt und interreligiöser Dialog / Vivre ensemble, conflit et dialogue interreligieux   |
+|-------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Arbeitsaufwand    | CP                                                                                                    | Studiensemester                                                                                       | Dauer                                                                                                 | Turnus: jährlich                                                                                      |
+| Charge de travail |                                                                                                       | Semestres d'études                                                                                    | Durée                                                                                                 | Cycle : annuel                                                                                        |
+| 300 h             | 13                                                                                                    | 1 - 4                                                                                                 | 4 Sem.                                                                                                | ab HS / début SA                                                                                      |
+
+## Modulverantwortliche -r / Responsable du module :
+
+Direktor -in des IRD / (Institut für das Studium der Religionen und den Interreligiösen Dialog) / Directeur -trice de l'Institut pour l'étude des religions et le dialogue interreligieux (IRD)
+
+## Beteiligte Disziplinen bzw. Institutionen / Disciplines et institutions rattachées :
+
+-  Kirchengeschichte / Histoire de l'Église
+-  Vergleichende Religionsgeschichte und Interreligiöser Dialog / Histoire comparée des religions et dialogue interreligieux
+-  Theologische Ethik / Éthique théologique
+-  Theologie der Ökumene / Théologie de l'œcuménisme
+-  Fundamentaltheologie / Théologie fondamentale
+
+Voraussetzungen / Conditions
+
+: keine / aucune
+
+## Zu vermittelnde Kompetenzen / Compétences transmises :
+
+Die Studierenden werden mit Konvivenz -, Konflikt -und Friedens -Erfahrungen(Situationen) im Christentum und anderen Religionen (unter besonderer Berücksichtigung der europäischen Religionsgeschichte) in Geschichte und Gegenwart vertraut gemacht. Sie kennen wichtige Traditionen spiritueller Reflexion in ihrer Bedeutung für ethische Reflexionen in unterschiedlichen Religionen. Sie können die Rolle/Bedeutung des Christentums und anderer Religionen bei der Förderung der Konvivenz und bei der Entstehung und Bewältigung von Konflikten sowie zur Friedensförderung in interkonfessioneller, interreligiöser und interkultureller Perspektive erarbeiten, ihre spezifischen Denkformen darstellen und vertieft analysieren, und eigene, nach wissenschaftlichen Methoden begründete Positionen vertreten.
+
+Les étudiant -e -s auront dans ce cours à réfléchir sur des thématiques telles que le vivre -ensemble et la cohésion sociale. Certaines expériences de conflits et de paix dans le christianisme ainsi que dans d'autres religions seront aussi étudiées. Le point focal de ce cours portera néanmoins sur l'histoire des religions en Europe. Les étudiant -e -s seront invités à penser à la question de savoir ce que la religion peut ou ne peut pas apporter à la résolution des conflits et au vivre -ensemble et à la cohésion sociale. L'étude des rapports interconfessionnels, interreligieux et interculturels seront privilégiés afin de mieux comprendre les formes de pensées de différents groupes religieux considérés et de permettre aux étudiants de défendre leur propre position basée sur des méthodes scientifiques.
+
+## Inhalt / Contenu :
+
+Zentrale Themen und Probleme der Konvivenz -, Konflikt -und Friedens -Erfahrungen(Situationen) im Wirkungsbereich des Christentums und anderer Religionen (unter besonderer Berücksichtigung der europäischen Religionsgeschichte); spirituelle Reflexionen, insbesondere in Christentum und Islam; Fragen der Toleranz und Formen interkonfessionellen und interreligiösen Zusammenlebens zwischen Mehrheiten und Minderheiten; Beitrag des interreligiösen Dialogs zur Konfliktbewältigung und Friedensförderung.
+
+Les thèmes principaux du vivre -ensemble entre différents groupes religieux ou confessionnels, l'étude des situations de paix et de conflits dans le christianisme et les autres religions, les questions de la tolérance et des études sur les conflits et la paix.
+
+| Bestandteile des Moduls Éléments du module                                                                                                                                                       | Präsenzzeit Temps de présence            | Selbststudium und aktive Mitarbeit / Étude personnelle avec participation active   |   Credits Crédits |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|------------------------------------------------------------------------------------|-------------------|
+| V/C Kirchengeschichte / Histoire de l'Église                                                                                                                                                     | 2 SWS / HSS                              | 30 h                                                                               |                 2 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                     | 2 SWS / HSS                              | 30 h                                                                               |                 2 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwer - punkt / Séminaire à choix dans les disciplines con - cernées avec un accent correspondant au module | 2 SWS / HSS                              | 60 h                                                                               |                 3 |
+| Prüfungen / Evaluationen Examens / Évaluations                                                                                                                                                   | Aufwand / Engagement                     | Aufwand / Engagement                                                               |                   |
+| Total                                                                                                                                                                                            | 180 h                                    | 180 h                                                                              |                 6 |
+| Kirchengeschichte / Histoire de l'Église                                                                                                                                                         | 30 h                                     | 30 h                                                                               |                 1 |
+| V/C Nach Wahl / À choix                                                                                                                                                                          | 30 h                                     | 30 h                                                                               |                 1 |
+| Schriftliche Arbeit Seminar / Travail écrit de séminaire                                                                                                                                         | 120 h / ca. 25 Seiten / environ 25 pages | 120 h / ca. 25 Seiten / environ 25 pages                                           |                 4 |
+
+| M - 3             | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique   | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique   | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique   | Interreligiöse Ethik und Politik / Éthique interreligieuse et politique   |
+|-------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Arbeitsaufwand    | CP                                                                        | Studiensemester                                                           | Dauer                                                                     | Turnus: jährlich                                                          |
+| Charge de travail |                                                                           | Semestres d'études                                                        | Durée                                                                     | Cycle : annuel                                                            |
+| 300 h             | 13                                                                        | 1 - 4                                                                     | 4 Sem.                                                                    | ab HS / début SA                                                          |
+
+## Modulverantwortliche -r / Responsable du module :
+
+Professor -in für Interreligiöse Ethik / Professeur -e d'éthique interreligieuse
+
+## Beteiligte Disziplinen bzw. Institutionen / Disciplines et institutions rattachées :
+
+-  Departement für Moraltheologie und Ethik / Département de théologie morale et d'éthique
+
+Voraussetzungen / Conditions
+
+: keine / aucune
+
+## Inhalt / contenu :
+
+Zentrale ethische Fragen der Politik im Blick auf individuelles Handeln, Institutionen und Systeme mit exemplarischen Konkretisierungen wie Religionen und Politik, religionsbezogene Auseinandersetzungen, Demokratie, Migration, Armut und soziale Gerechtigkeit.
+
+Les questions éthiques principales qui ont trait au politique tel que l'agir individuel, la nature des institutions et des systèmes seront étudiés dans le cadre de ce cours. Des exemples concrets seront scrutés de très près. Tous les exemples appartiendront au domaine des relations entre la politique et le religieux tels que la démocratie, les migrations des peuples et des individus, la justice sociale.
+
+## Zu vermittelnde Kompetenzen / Compétences transmises :
+
+Die Studierenden erwerben die Kompetenz, unterschiedliche politische Problemstellungen in einem Dialog zwischen Empirie, sozialwissenschaftlicher Theorie und philosophischer wie theologischer Ethik vertieft zu analysieren. Dabei können sie Sichtweisen verschiedener Religionen in Bezug auf das Verhältnis von Religion und Politik bewerten und miteinander vergleichen.
+
+Les étudiant -e -s vont acquérir des compétences d'analyse de questions politiques majeures. Le cours veut instituer un véritable dialogue entre l'analyse empirique, les sciences sociales, les discours philosophiques et enfin l'éthique théologique. Ce dialogue permettra de comprendre différentes visions que les religions considérées ont sur la relation entre la religion et le politique.
+
+| Bestandteile des Moduls Éléments du module                                                                                                                                                 | Präsenzzeit Temps de présence              | Selbststudium und aktive Mitarbeit / Étude personnelle avec participation active   |   Credits Crédits |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|------------------------------------------------------------------------------------|-------------------|
+| V/C Interreligiöse Ethik / Éthique interreligieuse                                                                                                                                         | 2 SWS / HSS                                | 30 h                                                                               |                 2 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module               | 2 SWS / HSS                                | 30 h                                                                               |                 2 |
+| Seminar nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module | 2 SWS / HSS                                | 60 h                                                                               |                 3 |
+| Prüfungen / Evaluationen Examens / Évaluations                                                                                                                                             | Aufwand / Engagement                       | Aufwand / Engagement                                                               |                   |
+| Total                                                                                                                                                                                      | 180 h                                      | 180 h                                                                              |                 6 |
+| Interreligiöse Ethik / Éthique interreligieuse                                                                                                                                             | 30 h                                       | 30 h                                                                               |                 1 |
+| V / C Nach Wahl / À choix                                                                                                                                                                  | 30 h                                       | 30 h                                                                               |                 1 |
+| Schriftliche Arbeit Seminar / Travail écrit de séminaire                                                                                                                                   | 120 h / ca. 25 Seiten / environ 25 pages h | 120 h / ca. 25 Seiten / environ 25 pages h                                         |                 4 |
+
+| M - 4                   | Spiritualität und Praxis / Spiritualité et pratique   | Spiritualität und Praxis / Spiritualité et pratique   | Spiritualität und Praxis / Spiritualité et pratique   |                                 |
+|-------------------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|---------------------------------|
+| Arbeitsaufwand          | CP                                                    | Studiensemester                                       | Dauer                                                 | Turnus: jährlich                |
+| Charge de travail 270 h | 13                                                    | Semestres d'études 1 - 4                              | Durée 4 Sem.                                          | Cycle : annuel ab HS / début SA |
+
+## Modulverantwortliche -r / Responsable du module :
+
+Professor -in für Pastoraltheologie, Religionspädagogik und Homiletik / Professeur -e de théologie pastorale, pédagogie religieuse et homilétique
+
+Professor -in für Patristik / Professeur -e en patristique
+
+## Beteiligte Disziplinen bzw. Institutionen / Disciplines rattachées resp. institutions :
+
+-  Pastoraltheologie, Religionspädagogik / Théologie pastorale, Pédagogie religieuse
+-  Liturgiewissenschaft, Kirchengeschichte / Sciences liturgiques, Histoire de l'Église
+-  Bibelwissenschaften, Religionswissenschaft, Islamische Studien / Études bibliques, Sciences des religions, Études islamiques
+-  Musik -und Literaturwissenschaft, Kunst -und Theaterwissenschaft / Musicologie, littérature, théâtre et arts
+
+Voraussetzungen / Conditions
+
+: Keine / aucune
+
+## Zu vermittelnde Kompetenzen / Compétences transmises :
+
+Die Studierenden werden mit der Kultur -und Spiritualitätsbedeutung des Christentums und anderer Religionen in Geschichte und Gegenwart vertraut gemacht. Sie können die spirituelle und kulturelle Bedeutung des Christentums und anderer Religionen erarbeiten, ihre Inhalte und ästhetische Ausdrucksformen darstellen und eigene, nach wissenschaftlichen Methoden begründete Positionen vertreten.
+
+Les étudiant -e -s vont pouvoir s'approcher intellectuellement du sens spirituel du christianisme et d'autres religions dans des contextes historiques et esthétiques variés. Chaque étudiant pourra construire son propre accès méthodologique au long du semestre.
+
+## Inhalt / Contenu :
+
+Zentrale Themen der kulturellen, spirituellen und ästhetischen Eigentraditionen im Christentum und anderer Religionen sowie deren gegenseitige Bereicherung und Abgrenzung in Bezug auf: Feierkulturen (gottesdienstlich und aussergottesdienstlich), Musik, Literatur (Dramatik und Lyrik), darstellende Künste (Theater und Film), bildende Künste (Architektur, Malerei, Bildhauerei).
+
+Les thèmes centraux des aspects culturels, spirituels et esthétiques de la tradition chrétienne et d'autres religions ainsi que des rencontres entre différentes religions seront présentés ici. Les thèmes choisis seront les suivants : le déroulement des fêtes religieuses, la musique, la littérature, les arts tels que l'architecture, la peinture et la sculpture, le théâtre et le cinéma.
+
+| Bestandteile des Moduls Éléments du module                                                                                                                                                   | Präsenzzeit Temps de présence           | Selbststudium und aktive Mitarbeit / Étude personnelle avec participation active   |   Credits Crédits |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------|-------------------|
+| V/C Pastoraltheologie oder Religionspädagogik / Théologie pastorale ou pédagogie religieuse                                                                                                  | 2 SWS / HSS                             | 30 h                                                                               |                 2 |
+| V/C nach Wahl in den beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / à choix dans les disciplines concernées avec un accent correspondant au module                 | 2 SWS / HSS                             | 30 h                                                                               |                 2 |
+| Seminar nach Wahl in allen beteiligten Disziplinen mit einem dem Modul entsprechendem Schwerpunkt / Séminaire à choix dans les disciplines concernées avec un accent correspondant au module | 2 SWS / HSS                             | 30 h                                                                               |                 3 |
+| Prüfungen / Evaluationen Examens / Évaluations                                                                                                                                               | Aufwand / Engagement                    | Aufwand / Engagement                                                               |                   |
+| Total                                                                                                                                                                                        | 180 h                                   | 180 h                                                                              |                 6 |
+| Pastoraltheologie bzw. Religionspädagogik / Théologie pastorale ou pédagogie religieuse                                                                                                      | 30 h                                    | 30 h                                                                               |                 1 |
+| V / C Nach Wahl / À choix                                                                                                                                                                    | 30 h                                    | 30 h                                                                               |                 1 |
+| Schriftliche Arbeit Seminar / Travail écrit de séminaire                                                                                                                                     | 120 h, ca. 25 Seiten / environ 25 pages | 120 h, ca. 25 Seiten / environ 25 pages                                            |                 4 |
+
+| M - 5                   | Wahlbereich / Option   | Wahlbereich / Option     | Wahlbereich / Option   | Wahlbereich / Option   |
+|-------------------------|------------------------|--------------------------|------------------------|------------------------|
+| Arbeitsaufwand          | CP                     | Studiensemester          | Dauer                  | Turnus / Cycle :       |
+| Charge de travail 540 h | 18                     | Semestres d'études 1 - 4 | Durée 4 Sem.           | kein / aucun           |
+
+## Möglichkeiten / Possibilités
+
+-  Vorlesung / Cours 1 SWS / HSS = 1,5 CP
+-  Vorlesung (Zusatzvorlesung) / Cours (complémentaire) 1 SWS / HSS = 1 CP
+-  Seminar / Séminaire 2 SWS / HSS = 3 CP
+-  Schriftliche Arbeit Seminar MA / Travail écrit de séminaire MA = 4 CP
+-  Lektürekurs oder Übung oder Kolloquium / Lecture de textes ou exercice ou colloque 1 SWS / HSS = 1 CP
+-  Lernkontrakt / Contrat pédagogique = 1 CP
+-  Teilnahme Tagung oder Exkursion / Participation à un colloque ou excursion 2 SWS / HSS = 1,5 CP
+-  Teilnahme Studienreise / Participation à un voyage d'études = 4 CP
+
+## Verantwortlich / Responsable :
+
+Lehrende des jeweiligen Kurses / Enseignant -e -s des cours concernés
+
+## Beteiligte Disziplinen bzw. Institutionen / Disciplines et institutions rattachées :
+
+Alle Disziplinen bzw. Institutionen / Toutes les disciplines et institutions
+
+## Inhalt aus dem Wahlbereich / Contenu selon l'option :
+
+- Alle wählbaren Lehrveranstaltungen / Toutes les offres d'enseignement susceptibles d'être choisies durant le semestre concerné
+
+| Bestandteile des Moduls   | Aufwand / Engagement   |   CP |
+|---------------------------|------------------------|------|
+| Éléments du module        |                        |      |
+| Nach Wahl / À choix       | 540 h                  |   18 |
+
+| M - 6                          | Masterarbeit / Travail de Master   | Masterarbeit / Travail de Master   | Masterarbeit / Travail de Master   |                  |
+|--------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------|
+| Arbeitsaufwand Charge de 600 h | CP                                 | Studiensemester Semestres d'études | Dauer Durée                        | Turnus / Cycle : |
+| travail                        | 20                                 | 3 - 4                              | 2 Sem.                             | keiner / aucun   |
+
+## Verantwortlich / Responsable :
+
+Lehrperson des Fachs der Masterarbeit / Enseignant -e -s du domaine du travail de Master
+
+Beteiligte Disziplinen bzw. Institutionen / Disciplines et institutions rattachées :
+
+Alle Disziplinen bzw. Institutionen / Toutes les disciplines et institutions
+
+## Voraussetzungen / Conditions :
+
+Rechtzeitige Themenabsprache mit dem/der Lehrperson der gewählten Disziplin / Accord établi en temps opportun sur la thématique choisie avec l'enseignant -e de la discipline retenue.
+
+| Bestandteile des Moduls module          | Aufwand / Engagement   |   CP |
+|-----------------------------------------|------------------------|------|
+| Selbststudium und schriftliche Arbeit / | Éléments du            |   20 |
+
+09.11.2018

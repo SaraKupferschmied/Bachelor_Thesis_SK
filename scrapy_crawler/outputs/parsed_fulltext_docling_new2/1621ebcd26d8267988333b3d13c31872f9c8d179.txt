@@ -1,0 +1,181 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:30:24.201Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Geography_Branches_compl_mentaires_en_g_ographie_1621ebcd26d8267988333b3d13c31872f9c8d179",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1621ebcd26d8267988333b3d13c31872f9c8d179",
+  "program_key": "faculty of science and medicine|bachelor|120|geography",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_GG_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Geography_Branches_compl_mentaires_en_g_ographie_1621ebcd26d8267988333b3d13c31872f9c8d179.pdf",
+  "sha256": "a55c8d85cfd45ec612d8a2a582d4c3df0c79dc21769f4cde7ea0166dcaa90948",
+  "fetched_at": "2026-05-21T16:05:17.946Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCo_GG_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Geography",
+  "programme_name_de": "Geographie",
+  "programme_name_fr": "Géographie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/geography",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 3.6  Géographie
+
+Le Département de géosciences propose deux branches complémentaires en géographie, une branche à 30 crédits ECTS (GEOG-30) et une à 60 crédits ECTS (GEOG-60). Le choix d ' une de ces branches complémentaires n'implique pas de connaissances préalables dans le domaine de la géographie.
+
+Le programme de la branche à 60 crédits ECTS (GEOG-60) a été élaboré pour le choix de la géographie comme seconde branche d'enseignement dans le cadre du « Diplôme d' enseignement pour les écoles de maturité » (DEEM). Cette branche peut cependant aussi être choisie dans le cadre général d'une branche complémentaire à 60 crédits ECTS.
+
+## 3.6.1 Unités d'enseignement (UE)
+
+## 3.6.1.1 Unités d'enseignement de la branche complémentaire GEOG-30 à 30 ECTS
+
+[Version 2023, paquet de validation : PV-SGG.0000078]
+
+La branche complémentaire GEOG-30 s ' adresse aux étudiant-e-s de toute Faculté qui souhaitent acquérir une formation élémentaire en géographie.
+
+Toutes les UE sont regroupées dans un seul paquet de validation.
+
+Pour des raisons de contraintes horaires, il est possible de remplacer certaines UE conseillées par des UE de géographie humaine, de géographie physique ou de géomatique, pour autant que les prérequis § aient été réalisés.
+
+Les UE marquées d'un astérisque (*) et déjà suivies dans le cadre d'un autre programme (p. ex. propédeutique)  sont  remplacées  par  d'autres  UE  proposées  dans  le  cadre  de  la  branche complémentaire.
+
+## UE obligatoires (semestre 1)
+
+| Code                                                                    | Unité d'enseignement                                                    | Semestre                                                                | h. tot.                                                                 | ECTS                                                                    |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| SGS.01001                                                               | Introduction aux géosciences 1 - Espace et Société *                    | SA                                                                      | 28                                                                      | 3                                                                       |
+| SGS.01002                                                               | Introduction aux géosciences 2 - Atmosphère, Hydrosphère et Climat *    | SA                                                                      | 28                                                                      | 3                                                                       |
+| SGS.01003                                                               | Introduction aux géosciences 3 - Géologie générale *                    | SA                                                                      | 28                                                                      | 3                                                                       |
+| SGS.01004                                                               | Introduction aux géosciences 4 - Roches et Minéraux *                   | SA                                                                      | 28                                                                      | 3                                                                       |
+| SGS.01005                                                               | Introduction aux géosciences 1 + 2 - Travaux pratiques *                | SA                                                                      | 28                                                                      | 2                                                                       |
+| SGS.01006                                                               | Introduction aux géosciences 3 + 4 - Travaux pratiques *                | SA                                                                      | 28                                                                      | 2                                                                       |
+| UE conseillées (semestres 2 ou 4)                                       | UE conseillées (semestres 2 ou 4)                                       |                                                                         |                                                                         |                                                                         |
+| SGS.00105                                                               | Epistémologie des géosciences (cours) *                                 | SP                                                                      | 28                                                                      | 3                                                                       |
+| SGS.00106                                                               | Histoire de la Terre (cours) *                                          | SP                                                                      | 28                                                                      | 3                                                                       |
+| SGS.00156                                                               | Cartographie et introduction aux SIG (cours) *                          | SP                                                                      | 28                                                                      | 3                                                                       |
+| SGS.00157                                                               | Cartographie et introduction aux SIG (travaux pratiques) *              | SP                                                                      | 28                                                                      | 2                                                                       |
+| SGS.01301                                                               | Géologie et Société : défis appliqués *                                 | SP                                                                      | 14                                                                      | 1,5                                                                     |
+| SGS.01201                                                               | Ecologie politique de l'eau *                                           | SP                                                                      | 14                                                                      | 1,5                                                                     |
+| UE de remplacement en géographie humaine (attention aux prérequis ! § ) | UE de remplacement en géographie humaine (attention aux prérequis ! § ) | UE de remplacement en géographie humaine (attention aux prérequis ! § ) | UE de remplacement en géographie humaine (attention aux prérequis ! § ) | UE de remplacement en géographie humaine (attention aux prérequis ! § ) |
+| SGG.00205                                                               | Géographie urbaine                                                      | SP                                                                      | 28                                                                      | 3                                                                       |
+| SGG.00210                                                               | Géographie économique                                                   | SP                                                                      | 28                                                                      | 3                                                                       |
+| SGG.00256                                                               | Excursion en géographie I                                               | SA/SP                                                                   | 8                                                                       | 0.5                                                                     |
+| SGG.00257                                                               | Excursion en géographie II                                              | SA/SP                                                                   | 8                                                                       | 0.5                                                                     |
+
+| SGG.02301                                                       | S ciences de l'atmosphère                                       | SA                                                              | 28                                                              | 3                                                               |
+|-----------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
+| SGG.00262                                                       | Géomorphologie - Quaternaire, partie 1 (cours)                  | SA                                                              | 36                                                              | 3                                                               |
+| SGG.00263                                                       | Géomorphologie - Quaternaire, partie 2 (cours)                  | SP                                                              | 20                                                              | 3                                                               |
+| SGG.00283                                                       | Géomorphologie - Quaternaire, travaux pratiques I               | SA                                                              | 28                                                              | 3                                                               |
+| SGG.00284                                                       | Géomorphologie - Quaternaire, travaux pratiques II              | SP                                                              | 36                                                              | 3                                                               |
+| SGG.03301                                                       | Cryosphère (cours) **                                           | SA                                                              | 28                                                              | 3                                                               |
+| SGG.03302                                                       | Cryosphère (travaux pratiques) **                               | SA                                                              | 28                                                              | 2                                                               |
+| SGG.00256                                                       | Excursion en géographie I                                       | SA/SP                                                           | 8                                                               | 0.5                                                             |
+| SGG.00257                                                       | Excursion en géographie II                                      | SA/SP                                                           | 8                                                               | 0.5                                                             |
+| UE de remplacement en géomatique (attention aux prérequis ! § ) | UE de remplacement en géomatique (attention aux prérequis ! § ) | UE de remplacement en géomatique (attention aux prérequis ! § ) | UE de remplacement en géomatique (attention aux prérequis ! § ) | UE de remplacement en géomatique (attention aux prérequis ! § ) |
+| SGS.01101                                                       | Géostatistique *                                                | SP                                                              | 28                                                              | 3                                                               |
+| SGG.02101                                                       | Analyse spatiale et statistique descriptive                     | SA                                                              | 28                                                              | 3                                                               |
+| SGG.00312                                                       | Traitement de l'information géographique (SIG)                  | SA                                                              | 28                                                              | 3                                                               |
+| SGG.00319                                                       | Télédétection                                                   | SP                                                              | 28                                                              | 3                                                               |
+
+- § Voir les informations relatives dans le programme de cours (https://www.unifr.ch/timetable ) ou dans le portail d'étudiant -e-s MyUniFR (https://my.unifr.ch)
+* L'étudiant -e qui suit ces UE dans le cadre d'un autre programme (branche propédeutique ou bachelor en sciences de la Terre) doit les remplacer par des UE à choix du tableau ci-dessus.
+
+** Cours avancés, recommandés en fin de programme de la branche complémentaire
+
+## 3.6.1.2 Unités d ' enseignement de la branche complémentaire GEOG-60 à 60 ECTS
+
+[Version 2025, paquet de validation : PV-SGG.0000085]
+
+La branche complémentaire GEOG-60 s ' adresse  aux  étudiant-e-s  de  toute  Faculté  qui  souhaitent acquérir une formation approfondie en géographie dans le cadre de leur voie d ' études et qui envisagent l ' obtention  d 'un  "Diplôme  d' enseignement  pour  les  écoles  de  maturité"  (DEEM).  Le  programme d 'études correspond à celui d'une seconde branche d' enseignement. La première partie propose un programme d' UE obligatoires, tandis que la seconde partie comprend à la fois des UE obligatoires et une liste d'UE en option.
+
+Toutes les UE sont regroupées dans un seul paquet de validation.
+
+Il  est  important  de  suivre  la séquence d'enseignement proposée :  d'abord  les  cours  de  la première partie, ensuite seulement ceux de la deuxième partie . En cas de conflit horaire, les UE de la branche complémentaire peuvent être réparties sur les 6 semestres du Bachelor.
+
+## 1 e  partie (30 ECTS) : UE obligatoires (semestres 1 et 2)
+
+| Code      | Unité d'enseignement                                                 | Semestre   |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------------------------|------------|-----------|--------|
+| SGS.01001 | Introduction aux géosciences 1 - Espace et Société                   | SA         |        28 |      3 |
+| SGS.01002 | Introduction aux géosciences 2 - Atmosphère, Hydrosphère et Climat * | SA         |        28 |      3 |
+| SGS.01003 | Introduction aux géosciences 3 - Géologie générale *                 | SA         |        28 |      3 |
+| SGS.01004 | Introduction aux géosciences 4 - Roches et Minéraux *                | SA         |        28 |      3 |
+| SGS.01005 | Introduction aux géosciences 1 + 2 - Travaux pratiques*              | SA         |        28 |      2 |
+| SGS.01006 | Introduction aux géosciences 3 + 4 - Travaux pratiques*              | SA         |        28 |      2 |
+| SGS.00105 | Epistémologie des géosciences (cours)*                               | SP         |        28 |      3 |
+| SGS.00106 | Histoire de la Terre (cours)*                                        | SP         |        28 |      3 |
+| SGS.00156 | Cartographie et introduction aux SIG (cours)*                        | SP         |        28 |      3 |
+| SGS.00157 | Cartographie et introduction aux SIG (travaux pratiques)*            | SP         |        28 |      2 |
+| SGS.01101 | Géostatistique                                                       | SP         |        28 |      3 |
+
+## 2 e  partie (30 ECTS) : UE obligatoires (6 ECTS) et optionnelles (24 ECTS) (semestre 3 et suivants)
+
+## UE obligatoires, pour un total de 6 ECTS :
+
+| Code      | Unité d ' enseignement                                   | Semestre   |   h. tot. |   ECTS |
+|-----------|----------------------------------------------------------|------------|-----------|--------|
+| SGG.02111 | Recherche empirique en sciences sociales I : Conceptions | SA         |        28 |      3 |
+| SGG.02101 | Analyse spatiale et statistique descriptive              | SA         |        28 |      3 |
+
+## UE optionnelles, pour un total de 24 ECTS :
+
+Parmi les UE optionnelles, il est impératif de réaliser au minimum 7 ECTS dans le domaine de la géographie humaine et au minimum 7 ECTS dans celui de la géographie physique.
+
+Les  travaux  pratiques  SGG.03302  et  SGG.00283,  SGG.00284  ne  peuvent  pas  être  choisis indépendamment des cours respectifs auxquels ils se rapportent (SGG.03301 et SGG.00262/263) et ne peuvent pas être suivis avant ceux-ci.
+
+Si le cours SGG.02112 est choisi, il doit être suivi durant le même semestre que SGG.02111.
+
+a) en géographie humaine (minimum 7 ECTS) :
+
+| Code                                         | Unité d ' enseignement                                                 | Semestre   | h. tot.   | ECTS   |
+|----------------------------------------------|------------------------------------------------------------------------|------------|-----------|--------|
+| SGG.02112                                    | Recherche empirique en sciences sociales II : Production des données § | SA         | 28        | 3      |
+| SGS.01201                                    | Ecologie politique de l'eau                                            | SP         | 14        | 1,5    |
+| SGG.00205                                    | Géographie urbaine                                                     | SP         | 28        | 3      |
+| SGG.02201                                    | Géographie rurale                                                      | SP         | 28        | 3      |
+| SGG.00210                                    | Géographie économique                                                  | SP         | 28        | 3      |
+| SGG.00305                                    | Géographie politique **                                                | SP         | 28        | 3      |
+| SGG.00318                                    | Géographie de l'environnement **                                       | SA         | 28        | 3      |
+| b) en géographie physique (minimum 7 ECTS) : | b) en géographie physique (minimum 7 ECTS) :                           |            |           |        |
+| Code                                         | Unité d ' enseignement                                                 | Semestre   | h. tot.   | ECTS   |
+| SGG.02301                                    | S ciences de l'atmosphère                                              | SA         | 28        | 3      |
+| SGG.03301                                    | Cryosphère **                                                          | SA         | 28        | 3      |
+| SGG.03302                                    | Cryosphère (travaux pratiques) **                                      | SA         | 28        | 2      |
+| SGG.00262                                    | Géomorphologie - Quaternaire, partie 1 (cours)                         | SA         | 36        | 3      |
+| SGG.00263                                    | Géomorphologie - Quaternaire, partie 2 (cours)                         | SP         | 20        | 3      |
+| SGG.00283                                    | Géomorphologie - Quaternaire, travaux pratiques I                      | SA         | 28        | 3      |
+| c) autres :                                  | c) autres :                                                            |            |           |        |
+| Code                                         | Unité d ' enseignement                                                 | Semestre   | h. tot.   | ECTS   |
+| SGG.00312                                    | Traitement de l'information géographique (SIG)                         | SA         | 28        | 3      |
+| SGG.00319                                    | Télédétection                                                          | SP         | 28        | 3      |
+| SST.00201                                    | Géologie régionale                                                     | SP         | 28        | 3      |
+| SGS.01301                                    | Géologie et Société : défis appliqués                                  | SP         | 14        | 1,5    |
+| SGG.00256                                    | Excursion en géographie I                                              | SA/SP      | 8         | 0.5    |
+| SGG.00257                                    | Excursion en géographie II                                             | SA/SP      | 8         | 0.5    |
+
+** Cours avancés, recommandés en fin de programme de la branche complémentaire
+
+§ A suivre impérativement durant le même semestre que SGG.02111
+
+## 3.6.2 Contenu des unités d ' enseignement des branches complémentaires
+
+- Les  cours : Les  cours  de  base  d' introduction  aux  géosciences  (SGS.01001,  SGS.01002, SGS.01003 et SGS.01004) sont destinés à donner un aperçu général des caractéristiques principales  du  système  Terre  (Espace  et  Société ;  Atmosphère,  Hydrosphère  et  Climat ; Géodynamiques  interne  et  externe ;  Roches  et  Minéraux)  et  des  interactions  entre  les différentes disciplines qui composent les géosciences. Le cours Cartographie et introduction aux SIG (SGS.00156) présente les bases de lecture et de réalisation de cartes thématiques et  les  principes  des  systèmes  d'information  géog raphique  (SIG).  Le  cours Géostatistique (SGS.01101) présente  les  outils  de  traitement  et  d'exploration  de  géodonnées. Le  cours Histoire  de  la  Terre (SGS.00106)  retrace l' évolution  de  notre  planète  à  travers  le  temps géologique.  Le  cours Géographie  urbaine (SGG.00205)  porte  sur  la  compréhension  des principales problématiques urbaines qui ont cours aujourd ' hui, tout en s ' appuyant aussi sur la dimension historique du fait urbain. Le cours Ecologie politique de l ' eau (SGS.01201) présente les dimensions  politiques  et  sociales  de  l'accès  à  l'eau  aujourd'hui .  Le  cours Géologie  et Société :  défis  appliqués (SGS.01301) présente des exemples d'enjeux ou de réalisations concrètes  dans  le  domaine  de  la  géologie. Le  cours  d' Epistémologie  des  géosciences (SGS.0 0105) retrace l'histoire des idées et des méthodes mises en œuvre dans le domaine des  géosciences.  Le  cours  de Géologie  régionale (SST.00201)  donne  un  aperçu  des principales unités tectoniques de la Suisse. Les cours de Géomorphologie - Quaternaire en deux  parties  (SGG.00262  et  SGG.00263)  constituent  une  approche  visant  à  décrire  et  à expliquer les formes du relief de la Terre, en tant que fondements de la compréhension des paysages naturels et  anthropisés ;  ils  proposent  une  approche  pluridisciplinaire  de  la  plus récente des périodes de l'histoire de la Terre. Les deux parties ne peuvent pas être validées individuellement. Le cours Cryosphère (SGG.03301) introduit les notions de base concernant
+
+le fonctionnement physique des milieux froids (neige, glace, permafrost). Le cours Analyse spatiale  et  statistique  descriptive (SGG.02101) comprend  des  périodes  d'enseignement complétées par des exercices qui portent sur l'application pratique des statistiques dans un contexte  géographique.  Le  cours Sciences de  l'atmosphère (SGG.02301)  comprend  des périodes d'enseignement complétées par des exercices qui  permettent  de  comprendre les systèmes  climatiques  et  météorologiques  et  leur  évolution  future.  Le  cours  de Géographie économique (SGG.00210) met  l'accent  sur  les relations entre  l'économie,  la  société  et l'écosystème.  La  construction  des  bases  de  données  géographiques  et  leur  exploitation  en analyse  spatiale  est  le  sujet  du  cours  de Traitement  de  l'information  géographique  (SIG) ( SGG.00312). Le cours de Télédétection (SGG.00319) présente les principes et les méthodes qui permettent de déterminer à distance les propriétés d'objets naturels ou artificiels . Le cours de Géographie de l'environnement (SGG.00318)  présente  les  concepts  géographiques  et  les notions nécessaires à la compréhension des relations Homme-Environnement. En Géographie politique (SGG.00305) on étudiera le s relations entre l'espace et les rapports de pouvoir . Le cours  de Géographie  rurale (SGG.02201)  présente  les  différents  aspects  des  nouvelles ruralités, en particulier l'agriculture, les paysages agraires et les nouveaux enjeux sociaux et économiques ruraux. Le cours de Recherche empirique en sciences sociales I : Conceptions (SGG.02111)  vise  à  donner  les bases  théoriques nécessaires à l ' élaboration  d ' une méthodologie de recherche. Dans l'enseignement Recherche empirique en sciences sociales II : Production des  données (SGG.02112), les méthodes  de  recherches empiriques qualitatives et quantitatives de bases (interviews, questionnaires, cartes, analyses de contenu) sont introduites et appliquées à l ' aide de petites études réalisées par les étudiant-e-s. Si le cours SGG.02112 est choisi, il doit être suivi durant le même semestre que SGG.02111.
+
+- Les travaux pratiques : Les travaux pratiques de géosciences (SGS.01005 et SGS.01006) et de cartographie  et  introduction  aux  SIG (SGS.00157)  proposent  une  initiation  aux  calculs  et  aux techniques  de  mesures  en  géosciences,  aux  méthodes  cartographiques,  de  même  qu'une sensibilisation  aux  méthodes  qualitatives  en  géographie  humaine.  Ils  offrent  une  approche complémentaire, à la fois méthodologique et appliquée, aux thèmes traités dans le cadre des cours. Les travaux pratiques de Géomorphologie -Quaternaire I et II (SGG.00283 et SGG.00284) et de Cryosphère (SGG.03302) accompagnent et approfondissent les enseignements des cours y relatifs (SGG.00262/263, SGG.03301). Il n'est pas possible de participer aux travaux pratiques sans suivre ou avoir déjà suivi le cours auquel ils se rapportent.
+- Les excursions : Les Excursions en géographie I et II (SGG.00256 et SGG.00257) ont pour but  d'illustrer  et  d'approfondir  des  notions  de  géographie  humaine  et/ou  physique  traitées durant les cours.
+
+## 3.6.3 Évaluation des unités d ' enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la géographie-géosciences et des sciences de la Terre.

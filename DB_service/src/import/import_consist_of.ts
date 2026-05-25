@@ -151,7 +151,9 @@ async function run() {
     where.push(`s.program_id = $${params.length}`);
   }
 
-  // Only rows with a non-empty code
+  // Only real course rows are eligible for consist_of.
+  // Module-only references remain in programCourseStaging for inspection/future matching.
+  where.push(`COALESCE(s.reference_type, 'course') = 'course'`);
   where.push(`s.extracted_code IS NOT NULL AND btrim(s.extracted_code) <> ''`);
 
   const whereSql = where.length ? `WHERE ${where.join(" AND ")}` : "";
@@ -183,11 +185,6 @@ async function run() {
     // 1) Fetch newest distinct (program_id, code) from staging, but ONLY if code exists in Course.
     //    We normalize code using btrim(s.extracted_code).
     //    If matchAlternativeCode=true, allow match on Course.alternative_code and select canonical Course.code.
-    const joinSql = matchAlternativeCode
-      ? `JOIN Course c ON (c.code = r.code OR c.alternative_code = r.code)`
-      : `JOIN Course c ON (c.code = r.code)`;
-
-    const selectCodeSql = `c.code AS code`;
 
     const q = `
       WITH ranked AS (
@@ -239,9 +236,16 @@ async function run() {
     }>;
 
     if (!rows.length) {
+      const moduleStats = await client.query(
+        `SELECT COUNT(*)::int AS count
+         FROM programCourseStaging s
+         ${programId != null ? "WHERE s.program_id = $1 AND COALESCE(s.reference_type, 'course') = 'module'" : "WHERE COALESCE(s.reference_type, 'course') = 'module'"};`,
+        programId != null ? [programId] : []
+      );
       console.log(
         "ℹ️ Nothing to import (no staging rows with codes that exist in Course)."
       );
+      console.log(`ℹ️ Module-only staging rows kept: ${moduleStats.rows[0]?.count ?? 0}`);
       await client.query(dryRun ? "ROLLBACK;" : "COMMIT;");
       return;
     }
@@ -320,10 +324,34 @@ async function run() {
       upserted += ins.rowCount ?? 0;
     }
 
+    const moduleStats = await client.query(
+      `SELECT COUNT(*)::int AS count
+       FROM programCourseStaging s
+       ${programId != null ? "WHERE s.program_id = $1 AND COALESCE(s.reference_type, 'course') = 'module'" : "WHERE COALESCE(s.reference_type, 'course') = 'module'"};`,
+      programId != null ? [programId] : []
+    );
+
+    const unmatchedStats = await client.query(
+      `SELECT COUNT(*)::int AS count
+       FROM programCourseStaging s
+       LEFT JOIN Course c
+         ON ${matchAlternativeCode
+           ? "(c.code = btrim(s.extracted_code) OR c.alternative_code = btrim(s.extracted_code))"
+           : "c.code = btrim(s.extracted_code)"}
+       ${programId != null ? "WHERE s.program_id = $1 AND" : "WHERE"}
+         COALESCE(s.reference_type, 'course') = 'course'
+         AND s.extracted_code IS NOT NULL
+         AND btrim(s.extracted_code) <> ''
+         AND c.code IS NULL;`,
+      programId != null ? [programId] : []
+    );
+
     console.log(`✅ Prepared ${toInsert.length} rows for consist_of.`);
     console.log(
       dryRun ? `🧪 Dry-run: would upsert ~${upserted} rows.` : `✅ Upserted ${upserted} rows.`
     );
+    console.log(`ℹ️ Module-only staging rows kept: ${moduleStats.rows[0]?.count ?? 0}`);
+    console.log(`⚠️ Course-code staging rows without Course match: ${unmatchedStats.rows[0]?.count ?? 0}`);
 
     await client.query(dryRun ? "ROLLBACK;" : "COMMIT;");
   } catch (e) {

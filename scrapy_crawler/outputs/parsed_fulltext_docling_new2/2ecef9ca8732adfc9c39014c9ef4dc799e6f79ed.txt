@@ -1,0 +1,137 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:05:50.797Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_30_Philosophy_Studienplan_BA_Programm_zu_30_ECTS_2ecef9ca8732adfc9c39014c9ef4dc799e6f79ed",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2ecef9ca8732adfc9c39014c9ef4dc799e6f79ed",
+  "program_key": "faculty of humanities|bachelor|30|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/BA_Philosophie_30_de_2017.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_30_Philosophy_Studienplan_BA_Programm_zu_30_ECTS_2ecef9ca8732adfc9c39014c9ef4dc799e6f79ed.pdf",
+  "sha256": "37c6a78ef2b18f32ed211d02d2a8ad8b65347a157a9c98c279f3acdbc34c30f9",
+  "fetched_at": "2026-05-21T16:05:27.182Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/BA_Philosophie_30_de_2017.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## I. Allgemeines
+
+Der  vorliegende  Studienplan  wird  ergänzt  durch  das  gültige  Bachelorreglement  der  Philosophischen Fakultät  der  Universität  Freiburg  vom  23.  Juni  2005  bezüglich  des  Erhalts  des  universitären  Diploms (europäische Bachelor-Stufe).
+
+Das  Lehrangebot  in  Philosophie  führt  die  Studierenden  möglichst  umfassend  in  das  weite  Gebiet philosophischer  Probleme  und  Methoden  ein.  Das  Studium  bietet  den  Studierenden  zwei  sich  ergänzende Perspektiven  auf  die  Philosophie:  Eine  Einführung  in  die  Hauptströmungen  der  Geschichte  der  Philosophie (HPH) und eine systematische Herangehensweise an die grundlegenden philosophischen Fragen (PHS). Über diese  beiden  Zugänge  erarbeiten  sich  die  Studierenden  die  Fähigkeit  zur  selbständigen  philosophischen Überlegung, entwickeln sie ihre Fähigkeiten zur Forschung, zur kritischen Auseinandersetzung,  zum dialogischen Austausch und zur Wissensvermittlung.
+
+## II. Unterrichtsformen und Aufteilung der ECTS-Kreditpunkte
+
+Der Unterricht gliedert sich in zwei Schwerpunkte : Systematische Philosophie (PHS) und Geschichte der Philosophie (HPH) und ist in sieben Gebiete unterteilt:
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Antike Philosophie                                                     | pan         |
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+Es werden die folgenden zwei Unterrichtsformen angeboten:
+
+- Die Vorlesungen bieten einen Überblick über die angebotenen Gebiete.
+- Die Proseminare setzen  eine aktive Teilnahme der Studierenden voraus und führen über selbstständiges Arbeiten und Lernen  in die Strömungen und Methoden der Philosophie ein.
+
+## Bachelor Philosophie
+
+## Programm zu 30 ECTS-Punkten
+
+## Studienplan
+
+(Studienplan gültig ab Herbstsemester 2017)
+
+| Aufteilung der ECTS Kreditpunkte*                             | Aufteilung der ECTS Kreditpunkte*   |
+|---------------------------------------------------------------|-------------------------------------|
+| Vorlesung mit Prüfung                                         | 3 ECTS                              |
+| Aktive Teilnahme an einem Proseminar mit schriftlicher Arbeit | 6 ECTS                              |
+
+*1 ECTS-Kreditpunkt (European Credit Transfer System) entspricht etwa 30 Arbeitsstunden, einschliesslich der Anwesenheit im Unterricht.
+
+## III. Ablauf des Studiums
+
+Das  Studienprogramm  zu  30  ECTS  bietet  eine  Übersicht  über  die  verschiedenen  Gebieten  der Philosophie.  Dabei  bilden  die  Studierenden  auch  ihre  redaktionellen  Fähigkeiten  aus  sowie  die  Fähigkeit, spezifische philosophische Probleme zu erörtern. Das Studium gliedert sich in zwei Module:
+
+| Grundlagenmodul   | 18 ECTS   |
+|-------------------|-----------|
+| Ergänzungsmodul   | 12 ECTS   |
+|                   | 30 ECTS   |
+
+## Grundlagenmodul
+
+Das Grundlagenmodul bietet  eine Einführung in die verschiedenen philosophischen Themenbereiche und  in  die  zentralen  Fragestellungen  der  Philosophie.  Didaktisch  unterstützt  erhalten  die  Studierenden  die Hilfsmittel zur Auslegung und Analyse philosophischer Texte und bilden ihre redaktionellen Fähigkeiten aus. Dieses Modul setzt sich aus dem Textanalyse-Proseminar und 2 Proseminaren nach Wahl zusammen.
+
+| Modul           | Unterrichtseinheiten                                                                                                                                                                                                | ECTS    | Noten                    |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| Grundlagenmodul | - Textanalyse-Proseminar (inkl. schriftlicher Arbeit) - 2 Proseminare zur Auswahl (inkl. schriftlichen Arbeiten) oder 1 Proseminar nach Wahl (inkl. schritlicher Arbeit) und Logik-Proseminar (Übungen und Prüfung) | 18 ECTS | Durchschnitt der 2 Noten |
+
+## Ergänzungsmodul
+
+Im Ergänzungsmodul werden  Kenntnisse  und  Kompetenzen  vermittelt,  die  den  Studierenden  eine fundierte Orientierung in den verschiedenen Gebieten und Epochen der Philosophie ermöglichen.
+
+| Modul           | Unterrichtseinheiten   | ECTS    | Noten                    |
+|-----------------|------------------------|---------|--------------------------|
+| Ergänzungsmodul | 4 Semestervorlesungen  | 12 ECTS | Durchschnitt der 4 Noten |
+
+## IV. Unterrichtssprachen
+
+Die  Studierenden  können  Veranstaltungen  auf  Deutsch,  auf  Französisch  oder  in  beiden  Sprachen besuchen. Die Validierung kann nach Wahl in einer der beiden Sprachen erfolgen, sofern die Lehrperson die Sprache  beherrscht.  Es  ist  allerdings  nicht  möglich,  hiermit  den  Vermerk zweisprachig für  das   Diplom  zu erhalten.
+
+## V. Evaluation
+
+Die  Prüfungen  und  die  schriftlichen  Arbeiten  werden  benotet.  Die  Endnote  ergibt  sich  aus  dem Durchschnitt  der  Teilnoten,  welche  in  den  zwei  Modulen  erlangt  wurden.  Jede  Note  muss  genügend  sein (mindestens Note: 4).
+
+## Proseminare:
+
+- Aktive Teilnahme bedingt regelmässige Anwesenheit, Vorbereitung jeder Sitzung, rege Teilnahme an der Diskussion und mindestens eine mündliche Präsentation (oder möglicherweise einen schriftlichen Beitrag).
+- Die schriftliche Arbeit besteht entweder aus einem einzelnen Text von ungefähr zehn A4-Seiten oder aus  mehreren  kleineren  Arbeiten.  Die  schriftlichen  Arbeiten  müssen  gemäss  den  Vorgaben  der einzelnen  Lehrpersonen,  aber  spätestens  zwei Semester nach  dem Proseminar, abgegeben werden. Eine schriftliche Proseminararbeit kann maximal zwei Mal überarbeitet werden.
+
+## Vorlesung:
+
+Die  Evaluationsmodi  von  Vorlesungen  werden  jeweils  durch  die  Dozierenden  festgelegt.  Es  sind  im Allgemeinen zwei Arten von Evaluationen möglich:
+
+- Mündliche Prüfung : 15 Minuten pro Semestervorlesung.
+- Schriftliche Prüfung: Die dozierende Person legt den Modus der Prüfung fest.
+
+## Nichtbestandene Prüfung
+
+Eine nicht bestandene Prüfung muss über dieselbe Veranstaltung bei derselben Lehrperson geprüft werden. Sie kann höchstens zweimal wiederholt werden. Die drei Versuche finden im Rahmen der vier Prüfungssessionen statt, die auf die Einschreibeperiode für die entsprechende Veranstaltung folgen.
+
+## Endgültiges Nichtbestehen
+
+Eine Prüfung oder eine schriftliche Arbeit, die beim dritten Versuch nicht bestanden ist, gilt als endgültig nicht bestanden. Beim endgültigen Nichtbestehen kann der Studierende in seinem gewählten Studienprogramm nicht weiterstudieren.
+
+(Siehe  auch  die  Richtlinien: Über  die  Evaluation  der  Studienleistungen,  die  Vergabe  der  ECTS-Punkte  und  die  Validierung  der  Module  an  der Philosophischen Fakultät , vom 23. April 2009, Stand am 26. September 2013).
+
+## Übergangsbestimmungen
+
+- a) Studierende, die im Bachelorstudienreglement des Wintersemesters 2005/2006 begonnen haben oder diejenigen, die ihr Studium zu einem früheren Zeitpunkt angefangen und sich für das Bachelorreglement der Philosophischen Fakultät vom 23. Juni 2005 (Art. 26,Abs.3) entschieden haben, haben  die Möglichkeit, einen Übergangsantrags  einzureichen um   ihr Studium  im  aktuellen Studienplan weiterzuführen.
+- b) Ein Übergangsantrag muss dem Departement für Philosophie unterbreitet werden. Das Departement legt die Einreichfristen für die Übergangsanträge fest und publiziert diese vor dem akademischen Jahr 2017/18.
+- c) Jeder  Antrag  wird  durch  die  Studienberatung  geprüft  und  die  Übergangsbestimmungen  werden  für jeden Antrag separat festgelegt.
+- d) Nach dem akademischen Jahr 2017/18 ist kein Übergang mehr möglich.
+
+## Übersicht: Programm zu 30 ECTS-Punkten
+
+| Module          | Unterrichtseinheiten                                                                                                                                                                                                 | ECTS    | Noten                          |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------------|
+| Grundlagenmodul | - Textanalyse-Proseminar (inkl. schriftlicher Arbeit) - 2 Proseminare zur Auswahl (inkl. schriftlichen Arbeiten) oder 1 Proseminar nach Wahl (inkl. schriftlicher Arbeit) und Logik-Proseminar (Übungen und Prüfung) | 18 ECTS | Durchschnitt der 2 Noten       |
+| Ergänzungsmodul | 4 Semestervorlesungen                                                                                                                                                                                                | 12 ECTS | Durchschnitt der 4 Noten       |
+| Total           | Total                                                                                                                                                                                                                | 30ECTS  | Notendruchschnitt der 2 Module |

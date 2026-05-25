@@ -1,0 +1,165 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:36:48.342Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Spanish_Plan_de_estudios_secundarios_MA_30_ECTS_1c7a7f62508fe4710e827639d293c0451fd95ffa",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1c7a7f62508fe4710e827639d293c0451fd95ffa",
+  "program_key": "faculty of humanities|master|30|spanish",
+  "source_url": "https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_MA_30_secundario_2023.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Spanish_Plan_de_estudios_secundarios_MA_30_ECTS_1c7a7f62508fe4710e827639d293c0451fd95ffa.pdf",
+  "sha256": "ae779c3381efab902c3fdc75191c63285eb6365ca8d1fc2278c8e988b7f2f29a",
+  "fetched_at": "2026-05-21T16:05:24.470Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/esp/es/assets/public/Plan_etudes_2023/Espa%C3%B1ol/ESP_MA_30_secundario_2023.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Spanish",
+  "programme_name_de": "Spanisch",
+  "programme_name_fr": "Espagnol",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/spanish",
+  "curriculum_url": "http://studies.unifr.ch/go/h2ehx"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## FACULTAD DE LETRAS Y CIENCIAS HUMANAS Departamento de Español
+
+## PLAN DE ESTUDIOS MÁSTER ESPAÑOL PROGRAMA DE ESTUDIOS SECUNDARIOS (30 CRÉDITOS ECTS)
+
+2023 1
+
+## 1. Base legal
+
+El presente plan de estudios sigue el Reglamento del 8 de marzo de 2018 para la obtención del diploma de Bachelor y de Máster de la Facultad de Letras y de Ciencias Humanas [Reglamento de bachelor/máster del 8 de marzo de 2018].
+
+## 2. Condiciones de admisión
+
+Las condiciones aplicables para la admisión a los estudios de máster se encuentran descritas en el reglamento de admisión a la Universidad de Friburgo.
+
+Los titulares de un diploma universitario de bachelor expedido por una institución universitaria suiza son admitidos al programa de estudios secundarios sin ninguna condición previa, siempre y cuando hayan adquirido un mínimo de 60 créditos ECTS en una de las ramas de estudio siguientes: Lenguas y literaturas  iberorromanas,  Lengua  y  literatura  alemanas,  Lengua  y  literatura  francesas,  Lengua  y literatura  italianas,  Lenguas  y  literaturas  retorrománicas,  Lenguas  y  literaturas  inglesas,  Lenguas  y literaturas eslavas, Filología clásica, Filología romana (por ejemplo portugués, catalán, rumano, etc.). El  mismo  principio  se  aplica  para  los  titulares  de  un  diploma  universitario  extranjero  de  bachelor reconocido por la Universidad de Friburgo.
+
+## 3. Máster anticipado
+
+Los  estudiantes  que  están  a  punto  de  terminar  sus  estudios  de  bachelor  en  español  en  la Universidad  de  Friburgo  pueden  obtener  anticipadamente  un  máximo  de  30  créditos  ECTS, correspondientes a las prestaciones necesarias para el otorgamiento del diploma de máster, de acuerdo con las condiciones descritas en el Reglamento bachelor/máster del 8 de marzo de 2018, art. 46.
+
+Versión francesa aprobada por la Comisión de estudios el 01.03.2023 1 En caso de problemas legales, solo será válida la versión francesa o alemana aprobada por la Comisión de estudios.
+
+## 4. Descripción del programa
+
+Este plan de estudios se compone de dos módulos a elegir: el primero propone una perspectiva literaria y el segundo se concentra en la lingüística. Como especificidad de la Universidad de Friburgo, la  enseñanza  posee  una  orientación  intercultural  que  enfatiza  las  relaciones  trasatlánticas  entre  la literatura española y las literaturas latinoamericanas.  La Universidad de Friburgo es igualmente la única universidad suiza especializada en una doble perspectiva lingüística y filológica.
+
+Para culminar este plan de estudios secundarios se precisa la validación de 30 créditos ECTS que completan el programa de estudios profundizados de 90 créditos ECTS en otro dominio.
+
+En función de la trayectoria anterior de los estudiantes, el máster en español (con nivel de lengua C2 documentado) puede dar acceso a la formación para obtener el DEEM/LDM (Diploma de Enseñanza para las Escuelas de Madurez) 2 .
+
+Además, la formación aquí propuesta abre la vía a otras múltiples posibilidades profesionales: docencia en las escuelas y academias privadas y en  las empresas; profesiones de la escritura como periodismo,  publicidad,  traducción  literaria  y  técnica,  industria  del  libro  (edición,  administración, comercio), biblioteconomía. Asimismo, el dominio del español constituye una ventaja para la obtención de puestos en el ámbito de la diplomacia, banca, hostelería y turismo, relaciones públicas, interpretación, gestión  cultural,  museografía,  organizaciones  internacionales,  administración  pública  y  privada, empresas de nuevas tecnologías, etc.
+
+## 5. Objetivos de la formación
+
+Este plan de estudios tiene por objetivo:
+
+- -proponer un panorama de las diversas literaturas hispánicas en su evolución histórica y cultural, así como en sus relaciones mutuas.
+- -promover el dominio de la lengua española en su desarrollo histórico y en sus variedades (en España, en América Latina, en Estados Unidos y en África); la perspectiva es doble y complementaria: filológica y lingüística.
+- -desarrollar competencias técnicas en documentación e investigación a fin de prolongar en la vida profesional la formación recibida durante los estudios universitarios.
+
+Se pone así un acento particular en los múltiples aspectos de la investigación derivados de la complejidad y de la variedad de un campo de estudios que se extiende por tres continentes poniendo en contacto tradiciones, culturas y modalidades lingüísticas muy diversas. A este respecto se considera fundamental el papel de los seminarios de cada módulo.
+
+Es al interior de este marco -que procura una formación tanto literaria como lingüística- donde  el  estudiante  efectúa  su  selección  de  materias  privilegiando:  el  aspecto  histórico  o  el contemporáneo, la profundización en un terreno particular o la extensión de perspectivas, el análisis circunscrito a la esfera local o la puesta en relación de espacios diversos y diferentes.
+
+2 Para conocer las condiciones precisas, favor de consultar el Reglamento del 29 de abril de 2021 para la obtención del Diploma de enseñanza para las escuelas de Madurez (DEEM/LDM) y el Reglamento de ejecución del 4 de noviembre de 2021.
+
+## 6. Inicio y duración de los estudios
+
+Los estudios pueden empezarse tanto en el semestre de otoño como en el de primavera. Los estudios  de  este  programa  secundario  tienen  una  duración  mínima  de  3  semestres  y  máxima  de  9 semestres.
+
+## 7. Lengua de enseñanza
+
+La lengua de enseñanza es el español. No existe la posibilidad de obtener una mención bilingüe.
+
+## 8. Estructura del plan de estudios
+
+Este plan de estudios se compone de dos secciones complementarias; una pone el acento en la problemática literaria y la otra en la lingüística y la historia de la lengua. Cada una comprende dos módulos. El estudiante elige un módulo dentro de la sección literaria (M1 Literaturas hispánicas en su contexto global o  M2 Historia de las literaturas hispánicas ) y otro dentro de la lingüística (M3 Historia de la lengua o M4 Lingüística española actual ). Los dos primeros módulos (M1 y M2) se componen de dos cursos (3 créditos ECTS cada uno) y un seminario (9 créditos ECTS) a elegir entre tres unidades de enseñanza. El tercer módulo (M3) se compone igualmente de dos cursos y un seminario. Finalmente, el cuarto módulo (M4) se compone de un seminario y brinda la posibilidad de elegir entre dos cursos o un ejercicio (6 créditos ECTS). Cada módulo permite así validar 15 créditos ECTS.
+
+Las unidades de enseñanza de un mismo módulo pueden seguirse en semestres diferentes. Los créditos ECTS correspondientes a la carga de trabajo prevista para un módulo quedan validados cuando el estudiante ha cumplido con las exigencias requeridas en dicho módulo. Salvo excepción particular, la duración de las unidades de enseñanza es de un semestre.
+
+## Cuadro recapitulativo
+
+Lista de abreviaciones :
+
+M = módulo, C = curso, S = seminario, E = ejercicio
+
+| Nombre del módulo   | Unidad de enseñanza (UE)   | ECTS UE   | ECTS Módulo   |
+|---------------------|----------------------------|-----------|---------------|
+
+## Módulos de estudios literarios: elegir entre el M1 o el M2
+
+| M1: Literaturas hispánicas en su contexto global   | C: Literaturas iberoamericanas en relación I C: Literaturas iberoamericanas en relación II Elegir entre: S: Problemas transnacionales en las letras hispanas S: Problemas de teoría y crítica S: Problemas de literatura   | 3 3 9   | 15 ECTS   |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
+
+| M2: Historia de las literaturas hispánicas   | C: Literatura española/latinoamericana en su contexto histórico I C: Literatura española/latinoamericana en su contexto histórico II Elegir entre:   |   3 3 | 15 ECTS   |
+|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-----------|
+| M2: Historia de las literaturas hispánicas   | S: El autor en su obra: estudio de textos S: Problemas de teoría y crítica S: Problemas de literatura                                                |     9 | 15 ECTS   |
+
+## Módulos de estudios lingüísticos: elegir entre el M3 o el M4
+
+| M3: Historia de la lengua   | C: La lengua española en su evolución I C: La lengua española en su evolución II S: Prácticas de crítica textual   | 3 3 9   | 15 ECTS   |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------|---------|-----------|
+
+| M4: Lingüística española actual   | S: Análisis lingüístico del discurso Elegir: C: El sistema lingüístico: teorías y praxis I C: El sistema lingüístico: teorías y praxis II o E: Investigación aplicada   | 9 3 3 6   | 15 ECTS   |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|
+
+## 9. Descripción de los módulos
+
+## M1: Literaturas hispánicas en su contexto global (15 créditos ECTS)
+
+El módulo, compuesto de dos cursos y de un seminario a elegir entre tres unidades de enseñanza, tiene por objetivo reflexionar sobre problemáticas comunes a España (y más ampliamente a la Península Ibérica)  y  a  América  Latina:  relatos  ficcionales  y  factuales,  ensayos,  corrientes  de  pensamiento, metrópolis  y  otros  lugares  de  cultura  constituyen  los  principales  centros  de  interés  de  los  cursos Literaturas iberoamericanas en relación I y II . El seminario Problemas transnacionales en las letras hispanas se  propone  estudiar  una  selección  precisa  de  textos  relacionados  con  esta  problemática, extremadamente  rica  y  compleja,  para  intentar  comprenderla  con  rigor  y  precisión.  El  seminario Problemas de teoría y crítica (que se ofrece una vez cada dos años) está diseñado para familiarizar a los estudiantes con los principales métodos críticos y las discusiones teóricas más actuales en torno a las letras  hispánicas.  En el  seminario Problemas de literatura los  estudiantes  pueden abordar temáticas específicas de la literatura española o de las literaturas latinoamericanas que no han sido aún tratadas en otros módulos.
+
+## M2: Historia de las literaturas hispánicas (15 créditos ECTS)
+
+El módulo se compone por dos cursos y un seminario a elegir entre tres unidades de enseñanza. El objetivo de los cursos Literatura española/latinoamericana en su contexto histórico I y II es obtener un conocimiento suficientemente vasto y sólido de la literatura española y de la latinoamericana en lo referente a los periodos, movimientos, géneros literarios, escuelas y generaciones más destacados de su historia. El seminario El autor en su obra: estudio de textos permite adquirir los útiles necesarios para examinar la significación real de la obra de un autor determinado en el interior de dicha historia. El seminario Problemas  de  teoría  y  crítica (que  se  ofrece  una  vez  cada  dos  años)  está  diseñado  para familiarizar a los estudiantes con los principales métodos críticos y las discusiones teóricas más actuales en torno a las letras hispánicas. En el seminario Problemas de literatura los estudiantes pueden abordar temáticas específicas de la literatura española o de las literaturas latinoamericanas que no han sido aún tratadas en otros módulos.
+
+## M3: Historia de la lengua (15 créditos ECTS)
+
+En este módulo se aborda la lengua española bajo una perspectiva diacrónica y comparatista a través de las relaciones del español con las otras lenguas romanas desde la Edad Media hasta nuestros días. El estudiante obtiene en los cursos La lengua española en su evolución I y II una información abundante y detallada  sobre  las  diferentes  etapas,  niveles  y  relaciones  múltiples  que  han  forjado  la historia  de  esta  lengua.  El  seminario Prácticas  de  crítica  textual tiene  como  objetivo  brindar  a  los estudiantes todas las competencias necesarias para el análisis de textos medievales.
+
+## M4: Lingüística española actual (15 créditos ECTS)
+
+Siendo muy vasto el campo de estudio y múltiples las perspectivas para abordarlo, el estudiante debe seguir un seminario y elegir entre: dos cursos o el ejercicio de Investigación aplicada . Sin olvidar la evolución de la lengua española a lo largo de los siglos pasados, este módulo (y en primer lugar los cursos El sistema lingüístico: teorías y praxis I y II ) ponen el acento en sus estructuras y variaciones actuales en el conjunto de los países hispanófonos. El módulo toma particularmente en cuenta que el conocimiento del contexto cultural e histórico es necesario para la comprensión y la explicación de los fenómenos lingüísticos observados.
+
+El seminario Análisis lingüístico del discurso trata el estudio de un tipo o de una variante del discurso  a  partir  de  documentos  actuales  y  apoyándose  en  el  utillaje  técnico  adquirido  durante  el semestre. Si el estudiante opta por el ejercicio, presentará al responsable de la unidad de enseñanza un proyecto  de  investigación  aplicada  y  redactará,  de  manera  autónoma,  un  trabajo  escrito  sobre  su investigación. Este deberá estar vinculado con una práctica lingüística del español actual: lingüística contrastiva,  lexicología  contemporánea,  lenguas  en  contacto,  neologismos,  lengua  y  medios  de comunicación, entre otras. El docente fijará el plazo para la entrega del trabajo una vez aprobado el proyecto de la pesquisa.
+
+## 10. Mobilidad
+
+Un estudiante inscrito en este plan de estudios podrá obtener un máximo de 9 créditos ECTS en otra universidad (ya sea por medio del programa BeNeFri u otro). En relación con los cursos que podrá seguir durante una estancia de movilidad o en el marco de BeNeFri, será necesario el acuerdo previo del responsable del programa de español bajo la forma de un contrato pedagógico (Learning agreement). Con base al contrato pedagógico y a las prestaciones realizadas, el departamento validará los créditos ECTS obtenidos.
+
+## 11. Evaluación de las prestaciones
+
+## 11.1 Evaluaciones y validación
+
+Todas las evaluaciones reciben una nota. Generalmente, la evaluación de los cursos se hace mediante un examen escrito de una duración de 2 horas aproximadamente. Sin embargo, el docente tiene la  posibilidad  de  proponer  una  evaluación  continua u  oral; en  este caso,  el  docente  informará  a  los estudiantes al inicio del periodo de cursos.
+
+Según la unidad de enseñanza o la temática tratada, los seminarios y los ejercicios admiten distintas posibilidades de validación (ejemplos: presentación oral + trabajo escrito, dosier de ejercicios). Durante todos los seminarios y los ejercicios se requiere una participación activa. Las evaluaciones serán por unidad de enseñanza: no se admitirá ninguna compensación.
+
+La  presencia  regular  en  los  seminarios  es  obligatoria:  más  de  tres  ausencias  injustificadas provocan el suspenso de la unidad de enseñanza en cuestión (en dicho caso, el estudiante deberá cursar una  nueva  unidad  de  enseñanza  equivalente).  El  responsable  del  programa  decide  sobre  el  carácter justificado de las ausencias.
+
+La  inscripción  a  los  cursos  y  a  los  exámenes  mediante  el  sistema  informático  en  vigor  es obligatoria para seguir una unidad de enseñanza, lo mismo que para presentarse a un examen, respetando siempre los plazos indicados por el Decanato. A propósito de los seminarios, se recomienda, además, anunciarse al docente antes del inicio del semestre para tener la posibilidad de elegir anticipadamente una obra y de adquirir su propio ejemplar del libro.
+
+Se  puede  repetir  una  vez  el  examen  que  ha  dado  lugar  a  un  suspenso;  el  estudiante  debe inscribirse para cada una de las tentativas. El no aprobar una evaluación en la segunda tentativa conlleva a un suspenso definitivo de la unidad de enseñanza. A más tardar y bajo pena de suspenso definitivo de la  unidad de enseñanza, el examen debe ser aprobado en la cuarta sesión que sigue a la fecha de la inscripción en el curso. En ambos casos, un suspenso definitivo de la unidad de enseñanza implica que el estudiante deberá seguir un nuevo curso o seminario equivalente a la unidad de enseñanza en cuestión. La ausencia a un examen para el que el estudiante se ha inscrito equivale a un suspenso, salvo en casos de fuerza mayor. En este caso, se debe informar por escrito al secretariado del Departamento a más tardar una semana después de la fecha del examen. El Departamento decide sobre el carácter justificado de la ausencia (art. 19, párrafos 1 y 2 del Reglamento de bachelor/máster del 8 de marzo de 2018).
+
+El plazo para la validación (con un resultado positivo) de los trabajos escritos de seminario es, para los seminarios seguidos en el SO, el 31 de enero del año académico siguiente; y para los del SP, el 30 de junio del año académico siguiente.
+
+## 11.2 Suspenso definitivo
+
+No hay suspenso definitivo en este programa de estudios secundarios, excepto en caso de no respetar la duración máxima de los estudios, como ha sido señalado en el punto 6.
+
+## 11.3 Nota final
+
+La validación de un módulo presupone que el estudiante ha aprobado cada una de las unidades de enseñanza que forman parte de él. La nota del módulo será calculada a partir de la media aritmética de las notas de cada unidad de enseñanza validada en el módulo. La nota final del programa corresponde a la media aritmética de las dos notas de cada módulo.
+
+## 12. Entrada en vigor y disposiciones transitorias
+
+El presente plan de estudios entra en vigor desde el inicio del semestre de otoño de 2023: los estudiantes que comienzan entonces sus estudios en la Universidad de Friburgo están sometidos a él sin excepción. Los que han empezado sus estudios universitarios en el semestre de otoño de 2022 o en el de primavera de 2023 tienen la posibilidad de continuar en el plan anterior o adoptar el nuevo antes del comienzo del semestre de primavera de 2024. En el semestre de otoño de 2026, todos los estudiantes sometidos a una antigua versión del plan de estudios deberán, obligatoriamente, hacer la transición al nuevo plan de estudios.

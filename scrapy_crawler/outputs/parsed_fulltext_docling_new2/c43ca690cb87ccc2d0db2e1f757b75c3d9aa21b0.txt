@@ -1,0 +1,264 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:39:11.528Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Social_Work_and_Social_Policy_DE__BA_Sozialarbeit_und_Sozialpolitik_zu_60_ECTS_c43ca690cb87ccc2d0db2e1f757b75c3d9aa21b0",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c43ca690cb87ccc2d0db2e1f757b75c3d9aa21b0",
+  "program_key": "faculty of humanities|bachelor|60|social work and social policy (de)",
+  "source_url": "https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Sozialarbeit_Sozialpolitik_60_de_4112020_HS24.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Social_Work_and_Social_Policy_DE__BA_Sozialarbeit_und_Sozialpolitik_zu_60_ECTS_c43ca690cb87ccc2d0db2e1f757b75c3d9aa21b0.pdf",
+  "sha256": "1ea398f99fbc03ec51cd30cfefaa9cf06bf7f4083eb861857461ed2a82e0de09",
+  "fetched_at": "2026-05-21T16:05:21.782Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sopa/de/assets/public/files/studienplaene/Aenderungen%20HS24/BA_Sozialarbeit_Sozialpolitik_60_de_4112020_HS24.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Social Work and Social Policy (DE)",
+  "programme_name_de": "Sozialarbeit und Sozialpolitik",
+  "programme_name_fr": "Travail social et politiques sociales (DE)",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/socialworkgerman",
+  "curriculum_url": "http://studies.unifr.ch/go/qsdGc"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung
+
+## Studienplan
+
+Bachelor-Programm «Sozialarbeit und Sozialpolitik» Bereich II zu 60 ECTS
+
+Dieser «Studienplan 2021» ist ab Herbstsemester 2021 gültig (Stand HS 2024).
+
+|   1. | Gesetzliche Grundlagen......................................................................................................... 2                                                                                                                                    |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Beschreibung des Programms................................................................................................ 2                                                                                                                                         |
+|      | 2.1 Allgemeine Beschreibung des Programms ...............................................................................2                                                                                                                                           |
+|      | 2.2 Allgemeine Struktur des Programms........................................................................................2                                                                                                                                       |
+|      | 2.3 Zulassungsbedingungen............................................................................................................2                                                                                                                               |
+|   3. | Ausbildungsziele ................................................................................................................... 2                                                                                                                               |
+|   4. | Studienbeginn und -dauer ..................................................................................................... 3                                                                                                                                     |
+|   5. | Studiensprache ..................................................................................................................... 3                                                                                                                               |
+|   6. | Allgemeine Organisation ....................................................................................................... 3                                                                                                                                    |
+|      | Tabelle 1: Modulstruktur des Programms «Sozialarbeit und Sozialpolitik» zu 60 ECTS ..................3                                                                                                                                                               |
+|   7. | Beschreibung der Module...................................................................................................... 4                                                                                                                                      |
+|   8. | BAsasp01: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik (15 ECTS)....................................4                                                                                                                                                       |
+|      | BAsasp02: Vertiefung Sozialarbeit und Sozialpolitik (15 ECTS)........................................................4                                                                                                                                               |
+|      | BAsasp03: Organisationen und Gesellschaft (15 ECTS)....................................................................5                                                                                                                                             |
+|      | BAsasp04: Sozialstaat und Wohlfahrtsregime (15 ECTS)..................................................................6                                                                                                                                              |
+|      | BAsasp05: Felder der Sozialarbeit und Sozialpolitik (15 ECTS).........................................................6                                                                                                                                              |
+|      | Prüfungsmodalitäten............................................................................................................. 7 8.1 Allgemeine Prüfungsmodalitäten .............................................................................................7 |
+|      | Inkrafttreten und Übergangsbestimmungen ..........................................................................                                                                                                                                                   |
+|   9. | 8                                                                                                                                                                                                                                                                    |
+|      | Anhang: Übersicht aller Module und Kurse des Programms....................................................                                                                                                                                                           |
+|  10. | 9 Tabelle 2: Kurse und Module des Programms «Sozialarbeit und Sozialpolitik» zu 60 ECTS............9                                                                                                                                                                 |
+
+## 1. Gesetzliche Grundlagen
+
+Das Bachelor-Studienprogramm «Sozialarbeit und Sozialpolitik» zu 60 ECTS ist der Philosophischen Fakultät der Universität Fribourg angegliedert. Der Studienplan stützt sich auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät.
+
+## 2. Beschreibung des Programms
+
+## 2.1  Allgemeine Beschreibung des Programms
+
+Das Studium in «Sozialarbeit und Sozialpolitik» an der Universität Fribourg ist aus dreierlei Gründen einzigartig: Nur in Fribourg kann ein universitäres Studium der Sozialarbeit belegt werden. Die Verknüpfung von Sozialpolitik und Sozialarbeit innerhalb eines Studienprogramms erlaubt es, sowohl die politische als auch die sozialarbeiterische Seite gemeinsam zu betrachten. Das Studium legt Wert auf eine Perspektive, die lokale und nationale Themen und Strukturen mit transnationalen Bedingungen in Bezug setzt. Im Fokus stehen dabei soziale Probleme und Herangehensweisen an diese. Soziale Probleme  können  milieuspezifisch  oder  in  verschiedensten  politischen,  ökonomischen  oder  kulturellen Strukturen angelegt sein. Zur Bearbeitung von gesellschaftlichen Problemen dieser Art bedarf es einer fundierten Analyse der vielfältigen Ursachen, der kritischen Auseinandersetzung mit den Handlungsfeldern der Sozialarbeit und Sozialpolitik sowie ihrer intendierten und unitendierten Konsequenzen.
+
+## 2.2  Allgemeine Struktur des Programms
+
+Das Bachelorprogramm setzt sich zusammen aus Pflichtmodulen (P) und Wahlpflichtmodulen (WP) und umfasst 60 ECTS im Bereich II (Minor). Die Studierende besuchen die Pflichtmodule und wählen aus dem Angebot der Wahlpflichtmodule die für das Studienprogramm entsprechende Anzahl aus.
+
+In jedem Modul werden 15 ECTS-Punkte erworben.
+
+## 2.3  Zulassungsbedingungen
+
+Für die Zulassung gilt das Reglement über die Zulassung der Universität Fribourg.
+
+## 3. Ausbildungsziele
+
+1.  Das Studium vermittelt adaptierbare Kompetenzen im Hinblick auf unterschiedliche problembezogene Anforderungen einer sich stetig ändernden sozialen Lebenswelt. Es soll für reale oder vermeintliche Veränderungen in gesellschaftlichen Problemfeldern sensibilisieren.
+2.  Das Studium vermittelt ein fundiertes Verständnis über schweizerische und internationale politische, ökonomische und kulturelle Institutionen. Zudem vermittelt es vertiefte Kenntnisse allgemeiner wie spezieller soziologischer Theorien. Damit werden soziale Probleme und aktuelle Debatten über soziale Probleme analysiert.
+3.  Die Studierenden werden durch das Studium in «Sozialarbeit und Sozialpolitik» befähigt, wissenschaftliche Literatur kritisch zu resümieren und zu kommentieren sowie gezielte Literaturrecherchen zu wissenschaftlichen Fragestellungen durchzuführen.
+
+## 4. Studienbeginn und -dauer
+
+Studierende können das Studienprogramm im Herbst- oder Frühjahrssemester aufnehmen. Empfohlen wird ein Beginn im Herbstsemester; der Beginn im Frühjahrssemester verlängert das Studienprogramm um ein Semester. Das Studium dauert mindestens vier Semester.
+
+## 5. Studiensprache
+
+Das Studienprogramm «Sozialarbeit und Sozialpolitik» wird auf Deutsch angeboten. Einzelne Veranstaltungen können in englischer Sprache durchgeführt werden.
+
+## 6. Allgemeine Organisation
+
+Das Bachelorprogramm setzt sich zusammen aus Pflichtmodulen (P) und Wahlpflichtmodulen (WP). Die Module werden jährlich oder im Zweijahresrhythmus angeboten. Tabelle 1 gibt die Übersicht über die Module des Bachelorprogramms zu 60 ECTS.
+
+Studierende absolvieren die Pflichtmodule und wählen zwei Wahlpflichtmodule. Studierende, die das Programm «Soziologie» zu 120 ECTS belegen, absolvieren nur das Pflichtmodul «Vertiefung Sozialarbeit und Sozialpolitik» (BAsasp02) und alle drei Wahlpflichtmodule.
+
+Im ersten Jahr ist das Modul «Grundlagen Soziologie, Sozialarbeit und Sozialpolitik» (BAsasp01) und allenfalls  das  Modul  «Vertiefung  Sozialarbeit  und  Sozialpolitik»  (BAsasp02)  vorgesehen.  Die  Wahlpflichtmodule im zweiten und/oder dritten Jahr sind darauf aufbauend.
+
+Tabelle 1: Modulstruktur des Programms «Sozialarbeit und Sozialpolitik» zu 60 ECTS
+
+| Sozialarbeit und Sozialpolitik Bachelor-Programm zu 60 ECTS       | Sozialarbeit und Sozialpolitik Bachelor-Programm zu 60 ECTS       |   ECTS | * jährlich / ungerade / gerade   |
+|-------------------------------------------------------------------|-------------------------------------------------------------------|--------|----------------------------------|
+| 2 Pflichtmodule (P) 2 Wahlpflichtmodule (WP), aus 3 WPzur Auswahl | 2 Pflichtmodule (P) 2 Wahlpflichtmodule (WP), aus 3 WPzur Auswahl |        |                                  |
+| BAsasp01                                                          | °P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik         |     15 | j                                |
+| BAsasp02                                                          | P: Vertiefung Sozialarbeit und Sozialpolitik                      |     15 | j                                |
+| BAsasp03                                                          | WP: Organisationen und Gesellschaft                               |     15 | g                                |
+| BAsasp04                                                          | WP: Sozialstaat und Wohlfahrtsregime                              |     15 | u                                |
+| BAsasp05                                                          | WP: Felder der Sozialarbeit und Sozialpolitik                     |     15 | g                                |
+
+Einige Kurse im Studienprogramm sind aufbauend. Die Zulassung zu den mit «II» bezeichneten Kursen ist erst nach Besuch des Kurses «I» möglich (vgl. Tabelle 2 im Anhang mit der Übersicht aller Module und Kurse).
+
+Die aktuell angebotenen Unterrichtseinheiten werden auf der Website des Departements und im universitären Vorlesungsverzeichnis bekannt gegeben.
+
+Im Folgenden werden die Module des Studienprogramms beschrieben. Die Lehrveranstaltungen und Leistungen, die innerhalb der einzelnen Module zu erbringen sind, werden tabellarisch zusammen mit den entsprechenden JWS (= Jahreswochenstunden), den ECTS-Kreditpunkten und dem Jahresrhythmus,  in  welchem  die  Veranstaltungen  angeboten  werden,  dargestellt.  Ein  Kurs  à  zwei  Lektionen Präsenzunterricht in einem Semester entspricht 1 JWS; ein Jahreskurs à zwei Lektionen entspricht 2 JWS. Für die Studierenden entspricht 1 ECTS einem zeitlichen Arbeitsaufwand von durchschnittlich ca. 30 Arbeitsstunden. Für Präsenzkurse mit 1 JWS entsteht in der Regel einen Aufwand von 3 ECTS. Einige Veranstaltungen erfordern eine zusätzliche individuelle Leistung (z.B. Essay, schriftliche Arbeit, Interview) im Laufe des Semesters, wofür insgesamt 6 ECTS vergeben werden. Proseminare beinhalten neben dem Präsenzkurs eine Proseminararbeit, wofür insgesamt 9 ECTS angerechnet werden.
+
+## 7. Beschreibung der Module
+
+## BAsasp01: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik (15 ECTS)
+
+Das Modul führt in die wichtigsten theoretischen Perspektiven, zentralen Konzepte und Arbeiten der Soziologie, Sozialarbeit und Sozialpolitik ein. «Soziologie I» präsentiert ausgewählte theoretische Ansätze und zentrale Konzepte und gibt einen Überblick über einige klassische Werke der Fachgeschichte. Die Lehrveranstaltung «Soziale Probleme» vermittelt zentrale theoretische Perspektiven der sozialwissenschaftlichen Analyse latenter und manifester sozialer Probleme, deren Bearbeitung unter anderem mittels Massnahmen in der Sozialarbeit und der Sozialpolitik erfolgt. Ausgewählte Felder der Sozialpolitik  stehen im Mittelpunkt des Kurses «Sozialpolitik I», der auch in die Sozialpolitikanalyse und die Geschichte der Sozialpolitik einführt. Der Kurs «Sozialstaat und Wohlfahrtsregime I» befasst sich mit den Sicherungssystemen des schweizerischen Sozialstaates, die historisch und theoretisch eingebettet werden, und mit weiteren prominenten Wohlfahrtsstaatstypologien und Theorien zur Erklärung der Unterschiede in den sozialstaatlichen Profilen. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten ein spezifisches, jährlich wechselndes Thema aus der Soziologie, Sozialpolitik oder Sozialarbeit aus unterschiedlichen theoretischen und empirischen Perspektiven.
+
+Studierende kennen nach dem Besuch dieses Moduls die wichtigsten theoretischen Perspektiven auf soziale Probleme, aus der Soziologie und der Sozialpolitik, über den Sozialstaat und das Wohlfahrtsregime und können diese auf konkrete Beispiele anwenden.
+
+Das Modul sollte im ersten Studienjahr absolviert werden. Studierende mit «Soziologie» im Bereich I absolvieren nicht dieses Grundlagenmodul, sondern stattdessen ein drittes WP-Modul.
+
+| BAsasp01   | P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik   |   JWS |   ECTS | * jährlich   |
+|------------|------------------------------------------------------------|-------|--------|--------------|
+| BAsasp01a  | Soziologie I                                               |     1 |      3 | j            |
+| BAsasp01b  | Soziale Probleme                                           |     1 |      3 | j            |
+| BAsasp01c  | Sozialpolitik I                                            |     1 |      3 | j            |
+| BAsasp01d  | Sozialstaat und Wohlfahrtsregime I                         |     1 |      3 | j            |
+| BAsasp01e  | Vortragsreihe                                              |     1 |      3 | j            |
+
+## BAsasp02: Vertiefung Sozialarbeit und Sozialpolitik (15 ECTS)
+
+Das Modul «Vertiefung Sozialarbeit und Sozialpolitik» führt in die Sozialarbeit ein und bietet eine Erweiterung der Kenntnisse des Grundlagenmoduls «Soziologie, Sozialarbeit und Sozialpolitik» in Bezug auf Sozialpolitik. «Sozialarbeit I» geht der Entstehung der sozialen Frage und der Geschichte der Unterstützung nach und fragt, wann und wie soziale Probleme (staatlich) bearbeitet werden. Die Lehrveranstaltung «Sozialarbeit II» thematisiert die wichtigsten theoretischen Begründungen der Sozialen Arbeit im 20. und 21. Jahrhundert. Dabei werden auch Ansätze der «Sozialen Arbeit» behandelt, die abseits des Mainstreams liegen. In der Veranstaltung «Sozialpolitik II» werden aktuelle Themen und Debatten der Sozialpolitik behandelt. Die «Hausarbeit: Sozialarbeit und Sozialpolitik» ist eine kleine schriftliche Vertiefungsarbeit, die wahlweise zu einem der drei Kurse «Sozialarbeit I», «Sozialarbeit II»
+
+oder «Sozialpolitik II» geschrieben wird. Im Kurs «Vortragsreihe» beleuchten verschiedene Referentinnen und Referenten aus unterschiedlichen Perspektiven ein spezifisches, jährlich wechselndes Thema der Soziologie, Sozialpolitik oder Sozialarbeit.
+
+Der Besuch des Moduls ermöglicht es den Studierenden, die sozialpolitischen und sozialarbeiterischen Fragen der Gegenwart in Beziehung zu setzen mit der Geschichte der sozialen Frage und der Unterstützung. Studierende, die dieses Modul besuchen, erwerben ein vertieftes Verständnis der Sozialarbeit und Sozialpolitik und können Zusammenhänge zwischen diesen Elementen darlegen, herstellen und kritisch reflektieren.
+
+Das Modul sollte im ersten Studienjahr gewählt werden. Die Vortragsreihe im Vertiefungsmodul wird im zweiten oder dritten Studienjahr absolviert.
+
+| BAsasp02   | P: Vertiefung Sozialarbeit und Sozialpolitik   |   JWS |   ECTS | * jährlich   |
+|------------|------------------------------------------------|-------|--------|--------------|
+| BAsasp02a  | Sozialarbeit I                                 |     1 |      3 | j            |
+| BAsasp02b  | Sozialarbeit II                                |     1 |      3 | j            |
+| BAsasp02c  | Sozialpolitik II                               |     1 |      3 | j            |
+| BAsasp02d  | Hausarbeit: Sozialarbeit und Sozialpolitik     |       |      3 | j            |
+| BAsasp02e  | Vortragsreihe                                  |     1 |      3 | j            |
+
+## BAsasp03: Organisationen und Gesellschaft (15 ECTS)
+
+Man kann mit Fug und Recht behaupten, dass wir in einer Organisationsgesellschaft leben. In Organisationen werden wir erzogen und ausgebildet. Fast alle Produkte und Dienstleistungen, die wir erwerben, stammen von Organisationen. Organisationen bestimmen weitgehend, welche Leistungen uns zur Verfügung stehen, und sie legen auch fest, zu welchen Bedingungen wir diese Leistungen in Anspruch nehmen können. Dies hat sowohl ganz konkrete, unmittelbare Konsequenzen für unser persönliches Verhalten als auch weiter reichende gesamtgesellschaftliche Implikationen. Der Kurs «Vertiefung Soziale Probleme» vertieft die theoretische Auseinandersetzung mit sozialen Problemen und deren Bearbeitung. Es werden Theorien mit konkreten Beispielen von sozialen Problemen aus der Schweiz veranschaulicht und angewandt. Im Rahmen der Vorlesung «Organisationssoziologie» lernen die Studierenden grundsätzliche Konzepte und theoretische Zugänge zum Verständnis von Organisationen kennen. Im Rahmen des «Proseminars: Organisationen und Gesellschaft» wird dieses Wissen anhand der Analyse spezifischer Organisationsformen vertieft. Es wird mit einer schriftlichen Proseminararbeit abgeschlossen.
+
+Das Modul trägt zum tieferen theoretischen Verständnis von Organisationen, ihrer Rolle innerhalb von Gesellschaften und ihrer gesellschaftlichen Wirkungsweise bei. Studierende, die dieses Modul erfolgreich abschliessen, haben vertiefte Kenntnisse über soziale Probleme und Basiskenntnisse über Funktions- und Wirkungsweisen von Organisationen erworben und eine eigenständige Analyse zu Organisationen durchgeführt.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsasp03   | WP: Organisationen und Gesellschaft         |   JWS |   ECTS | * gerade   |
+|------------|---------------------------------------------|-------|--------|------------|
+| BAsasp03a  | Vertiefung Soziale Probleme                 |     1 |      3 | g          |
+| BAsasp03b  | Organisationssoziologie                     |     1 |      3 | g          |
+| BAsasp03c  | Proseminar: Organisationen und Gesellschaft |     1 |      9 | g          |
+
+## BAsasp04: Sozialstaat und Wohlfahrtsregime (15 ECTS)
+
+Das Modul vertieft und erweitert Kenntnisse aus dem Grundlagenmodul «Soziologie, Sozialarbeit und Sozialpolitik». Im Kurs «Sozialstaat und Wohlfahrtsregime II» werden international prominente Wohlfahrtsstaatstypologien und Theorien zur Erklärung der Unterschiede in den sozialstaatlichen Profilen (Funktionalismus,  Konflikttheorie,  weltwirtschaftliche  Integration)  sowie  die  Auswirkungen  sozialstaatlicher Leistungen und Regulierung auf die Armut, die wirtschaftliche Entwicklung und die sozioökonomische Ungleichheit (Einkommensungleichheit/Redistribution) bearbeitet. Dabei stehen international vergleichende Analysen im Vordergrund. Ausgehend von der Prämisse, dass an der Produktion der sozialen Wohlfahrt nicht nur der Sozialstaat, sondern auch Unternehmen, freiwillige Assoziationen (soziale Bewegungen, Verbände, Parteien, Hilfswerke) und die Familie beteiligt sind, werden im Kurs «Soziale Wohlfahrt» die Beiträge verschiedener Wohlfahrtsproduzenten analysiert, miteinander verglichen und Konzepte präsentiert, die zur Erfassung sozialer Wohlfahrt auf gesellschaftlicher oder individueller Ebene (wie z.B. Lebensqualität oder Zufriedenheit) verwendet werden. Das komplementäre Proseminar mit Proseminararbeit bietet den Studierenden die Gelegenheit, sich vertieft mit ausgewählten Themen auseinanderzusetzen.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsasp04   | WP: Sozialstaat und Wohlfahrtsregime         |   JWS |   ECTS | * ungerade   |
+|------------|----------------------------------------------|-------|--------|--------------|
+| BAsasp04a  | Sozialstaat und Wohlfahrtsregime II          |     1 |      3 | u            |
+| BAsasp04b  | Soziale Wohlfahrt                            |     1 |      3 | u            |
+| BAsasp04c  | Proseminar: Sozialstaat und Wohlfahrtsregime |     1 |      9 | u            |
+
+## BAsasp05: Felder der Sozialarbeit und Sozialpolitik (15 ECTS)
+
+Das Modul widmet sich der Rolle und den Herausforderungen der Sozialarbeit und Sozialpolitik in der aktuellen Gesellschaft und deren vielfältigen, sich verändernden sozialen Kontexten. Im Kurs «Aktuelle Themen» setzen sich die Studierenden mit relevanten Themen wie Migration und Vielfalt, die Grenzen organisierter  Unterstützung,  Sozialarbeit  und  Sozialpolitik  in  unterschiedlichen  sozialen  Kontexten oder die gesellschaftliche Rolle von Sozialarbeit und Sozialpolitik inhaltlich auseinander. Wissenschaftliche Grundlagen und eine vertiefte Reflexion mit der sozialen Konstruktion der Geschlechterverhältnisse werden im Rahmen einer Einführung in die «Genderstudies» vermittelt. Darüber hinaus bietet das Modul den Studierenden die Möglichkeit, sich mit selbst gewählten Praxisfeldern der Sozialarbeit auf der Grundlage behandelter Theorien der Sozialen Arbeit vertieft zu befassen und diese kritisch zu reflektieren: Im Kurs «Kritische Sozialarbeit» wird der Begriff und die Arbeitsweise der Sozialarbeit kritisch hinterfragt. Als Basis für diese Auseinandersetzung führen die Studierenden Interviews mit Sozialarbeitenden oder arbeiten die Inhalte verschiedener Dokumente auf, die sich mit dem Begriff bzw. der praktischen Arbeit und ihren Rahmenbedingungen befassen. Die Studierenden präsentieren ihre Ergebnisse und erstellen einen Bericht.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BAsasp05   | WP: Felder der Sozialarbeit und Sozialpolitik   |   JWS |   ECTS | * gerade   |
+|------------|-------------------------------------------------|-------|--------|------------|
+| BAsasp05a  | Aktuelle Themen                                 |     1 |      6 | g          |
+| BAsasp05b  | Genderstudies                                   |     1 |      3 | g          |
+| BAsasp05c  | Kritische Sozialarbeit                          |     1 |      6 | g          |
+
+## 8. Prüfungsmodalitäten
+
+## 8.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Jede Unterrichtseinheit wird evaluiert. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer Unterrichtseinheit erbracht werden. Es gibt unterschiedliche Evaluationsmodalitäten:  schriftliche/mündliche  Prüfung,  das  Verfassen einer Proseminar- oder  schriftlichen  Arbeit,  der Nachweis erbrachter Leistungen während des Semesters oder laufende Lernkontrollen. Sie werden in den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt dies als endgültiger Misserfolg und damit die Unterrichtseinheit als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder andere schriftliche Arbeit) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Proseminararbeiten werden an vier verbindlich vorgeschriebenen, dem Kurs nachfolgenden Terminen eingereicht. Wird die Proseminararbeit als ungenügend beurteilt, wird ein Misserfolg erfasst. Eine Proseminararbeit, die nach der ersten Abgabe als ungenügend bewertet wird, kann einmal überarbeitet werden , sofern dies innerhalb der ersten drei Abgabetermine erfolgt. Wird die Proseminararbeit beim vierten Termin nicht fristgerecht eingereicht oder als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Laufende Lernkontrollen (z.B. Essays, Protokolle, Vorträge, etc.), die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind, finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der Unterrichtseinheit und werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Sämtliche Plagiatsverdachte (beispielsweise in Leistungsanforderungen, schriftliche Arbeiten oder Proseminararbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die Unterrichtseinheit muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 8.2 Endgültiger Misserfolg
+
+Alle Unterrichtseinheiten sind einem Modul angeschlossen. Es gibt Pflichtmodule (mit «P» bezeichnet) und Wahlpflichtmodule (mit «WP» bezeichnet). Alle Unterrichtseinheiten der Pflichtmodule und der gewählten Wahlpflichtmodule müssen erfolgreich absolviert werden. Wird in einer Unterrichtseinheit eines Wahlpflichtmoduls ein definitiver Misserfolg erzielt, ist ein einmaliger Wechsel in ein anderes Wahlpflichtmodul möglich. Die bereits absolvierten Leistungen des ursprünglichen Wahlpflichtmoduls können dabei nicht im neuen Wahlpflichtmodul angerechnet werden.
+
+Wird ein Pflichtmodul definitiv nicht bestanden, führt dies zum definitiven Misserfolg im Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium in «Sozialarbeit und Sozialpolitik» an der Universität Fribourg fortzusetzen.
+
+Ein Wechsel in das Bachelorprogramm «Soziologie» am Departement für Sozialarbeit, Sozialpolitik und globale Entwicklung ist nur unter der Voraussetzung möglich, dass keine Unterrichtseinheit des Moduls BAsasp01 «Grundlagen Soziologie, Sozialarbeit und Sozialpolitik» im Rahmen des bisherigen Studiums in Sozialarbeit und Sozialpolitik definitiv nicht bestanden ist.
+
+## 8.3  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten Unterrichtseinheiten. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die Abschlussnote des Programms ist der ungewichtete Mittelwert aller Modulnoten. Die Gesamtnote wird auf zwei Nachkommastellen gerundet.
+
+## 9. Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Bachelor-Studienprogramm «Sozialarbeit und Sozialpolitik» im Bereich II zu 60 ECTS aufnehmen.
+
+Studierende nach Studienplan 2017 (d.h. mit Studienbeginn vor dem Herbstsemester 2021) können beim Departement einen Wechsel des Studienplans beantragen. Die bereits erbrachten Leistungen im Studienprogramm nach Studienplan 2017 werden ins neue Studienprogramm (nach Studienplan 2021) übertragen.
+
+Ab Herbstsemester 2025 ersetzt dieser Studienplan (2021) der frühere Bachelorstudienplan «Sozialarbeit und Sozialpolitik» (2017) im Bereich II.
+
+## 10.  Anhang: Übersicht aller Module und Kurse des Programms
+
+Das Modul «Grundlagen Soziologie, Sozialarbeit und Sozialpolitik» ist im ersten Studienjahr vorgesehen. Das Modul «Vertiefung Sozialarbeit und Sozialpolitik» (ohne zweite Vortragsreihe) wird ebenfalls für das erste Studienjahr empfohlen. Die Wahlpflichtmodule im zweiten und/oder dritten Jahr sind darauf aufbauend. Die Vortragsreihe des Vertiefungsmoduls wird im zweiten oder dritten Jahr besucht.
+
+Studierende mit «Soziologie» im Bereich I absolvieren im ersten Jahr das Vertiefungsmodul (ohne Vortragsreihe). Das Grundlagenmodul entfällt. Im zweiten und dritten Jahr werden alle drei Wahlpflichtmodule belegt. Die Vortragsreihe des Vertiefungsmoduls ist im dritten Jahr vorgesehen.
+
+Bei Tabelle 2 ist zu beachten, dass die Zulassung zu den mit «II» bezeichneten Kursen erst nach Besuch des Kurses «I» möglich ist (aufbauende Kurse).
+
+Tabelle 2: Kurse und Module des Programms «Sozialarbeit und Sozialpolitik» zu 60 ECTS
+
+| Sozialarbeit und Sozialpolitik Bachelor-Programm zu 60 ECTS   | Sozialarbeit und Sozialpolitik Bachelor-Programm zu 60 ECTS   |   JWS |   ECTS | * jährlich / ungerade / gerade   |
+|---------------------------------------------------------------|---------------------------------------------------------------|-------|--------|----------------------------------|
+| BAsasp01                                                      | °P: Grundlagen Soziologie, Sozialarbeit und Sozialpolitik     |    15 |     15 | 15                               |
+| BAsasp01a                                                     | Soziologie I                                                  |     1 |      3 | j                                |
+| BAsasp01b                                                     | Soziale Probleme                                              |     1 |      3 | j                                |
+| BAsasp01c                                                     | Sozialpolitik I                                               |     1 |      3 | j                                |
+| BAsasp01d                                                     | Sozialstaat und Wohlfahrtsregime I                            |     1 |      3 | j                                |
+| BAsasp01e                                                     | Vortragsreihe                                                 |     1 |      3 | j                                |
+| BAsasp02                                                      | P: Vertiefung Sozialarbeit und Sozialpolitik                  |    15 |     15 | 15                               |
+| BAsasp02a                                                     | Sozialarbeit I                                                |     1 |      3 | j                                |
+| BAsasp02b                                                     | Sozialarbeit II                                               |     1 |      3 | j                                |
+| BAsasp02c                                                     | Sozialpolitik II                                              |     1 |      3 | j                                |
+| BAsasp02d                                                     | Hausarbeit: Sozialarbeit und Sozialpolitik                    |       |      3 | j                                |
+| BAsasp02e                                                     | Vortragsreihe                                                 |     1 |      3 | j                                |
+| BAsasp03                                                      | WP: Organisationen und Gesellschaft                           |    15 |     15 | 15                               |
+| BAsasp03a                                                     | Vertiefung Soziale Probleme                                   |     1 |      3 | g                                |
+| BAsasp03b                                                     | Organisationssoziologie                                       |     1 |      3 | g                                |
+| BAsasp03c                                                     | Proseminar: Organisationen und Gesellschaft                   |     1 |      9 | g                                |
+| BAsasp04                                                      | WP: Sozialstaat und Wohlfahrtsregime                          |    15 |     15 | 15                               |
+| BAsasp04a                                                     | Sozialstaat und Wohlfahrtsregime II                           |     1 |      3 | u                                |
+| BAsasp04b                                                     | Soziale Wohlfahrt                                             |     1 |      3 | u                                |
+| BAsasp04c                                                     | Proseminar: Sozialstaat und Wohlfahrtsregime                  |     1 |      9 | u                                |
+| BAsasp05                                                      | WP: Felder der Sozialarbeit und Sozialpolitik                 |    15 |     15 | 15                               |
+| BAsasp05a                                                     | Aktuelle Themen                                               |     1 |      6 | g                                |
+| BAsasp05b                                                     | Genderstudies                                                 |     1 |      3 | g                                |
+| BAsasp05c                                                     | Kritische Sozialarbeit                                        |     1 |      6 | g                                |

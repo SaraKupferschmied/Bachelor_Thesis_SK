@@ -1,0 +1,273 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:38:42.820Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_180_Human_Medicine_Master_of_Medicine_in_Medicine_FR__ebe1998cadf90bf3673cb2399ac252ae2051b761",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ebe1998cadf90bf3673cb2399ac252ae2051b761",
+  "program_key": "faculty of science and medicine|master|180|human medicine",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MMed_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_180_Human_Medicine_Master_of_Medicine_in_Medicine_FR__ebe1998cadf90bf3673cb2399ac252ae2051b761.pdf",
+  "sha256": "c40080bc09f80aa8daa64b1ae68e8f74529e08d548afa0783c8c5ad6cc2c8fd1",
+  "fetched_at": "2026-05-21T16:05:15.306Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MMed_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 180,
+  "programme_name_en": "Human Medicine",
+  "programme_name_de": "Humanmedizin",
+  "programme_name_fr": "Médecine humaine",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/humanmedicine",
+  "curriculum_url": "http://studies.unifr.ch/go/xZPll"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+2. Communicateur-trice :  En  tant  que  communicateur-trice,  les  médecins  développent  des relations professionnelles avec la/le patient·e, sa famille et ses proches aidants, ce qui permet l ' échange d ' informations essentielles à la prestation de soins de qualité.
+3. Collaborateur-trice :  En tant que collaborateur-trice, les médecins travaillent efficacement en équipe avec d ' autres professionnel·le·s de la santé afin de pouvoir prodiguer des soins sûrs et de grande qualité, centrés sur les besoins de la/ du patient·e.
+4. Leader / Manager : En tant que leader, les médecins veillent à assurer l ' excellence des soins, à titre  de clinicien·e·s, d ' administrateur·e·s, d ' érudit·e·s ou d ' enseignant·e·s et contribuent ainsi, avec d ' autres intervenant·e·s, à l ' évolution d ' un système de santé de grande qualité.
+5. Promoteur-trice de la santé : En tant que promoteur-trice de la santé, les médecins mettent à profit leur expertise et leur influence en œuvrant avec des collectivités et/ou des populations de patient·e·s en vue d ' améliorer la santé. Ils et elles collaborent avec ceux et celles qu ' ils aident afin d ' établir et de comprendre leurs besoins, d ' être si nécessaire leur porte-parole, et de soutenir l ' allocation des ressources leur permettant de procéder à des changements le cas échéant.
+6. Erudit-e : En tant qu ' érudit·e·s, les médecins font preuve d ' un engagement constant envers l ' excellence dans la pratique médicale par un processus de formation continue, en enseignant à des tiers, en évaluant les données probantes et en contribuant à l ' avancement de la science.
+7. Professionnel-le : En tant que professionnel·le·s, les médecins ont le devoir de promouvoir et de protéger la santé et le bien-être d ' autrui, tant sur le plan individuel que collectif, tout en veillant à la préservation de leur santé. Ils et elles exercent leur profession selon les normes médicales actuelles, en étant garant-e·s des codes de conduite quant aux comportements qui sont exigés d ' eux. Les médecins assument leurs responsabilités envers la profession et la société et contribuent à l ' autoréglementation de la profession.
+
+.
+
+## 1.4  Évaluations des unités d ' enseignement (UE) et acquisition des crédits ECTS
+
+Les études de MMed sont composées d ' unités d ' enseignement (UE), regroupées en paquets de validation  (PV).  Chaque  paquet  de  validation  est  associé  à  une  procédure  d ' évaluation  qui transforme la somme des points acquis pour chaque UE en crédits ECTS. Les études de MMed requièrent l ' acquisition de 180 crédits ECTS au minimum (6 semestres d ' études à plein temps).
+
+Le  dispositif  global  de  suivi  et  d ' évaluation  (voir  Chapitre  3)  est  conçu  pour  accompagner  le développement de compétences telles que présentées dans le référentiel PROFILES et favoriser la  pratique  réflexive  en  stimulant  l ' autonomie  des  étudiant·e·s, afin  d'offrir  une préparation adaptée aux conditions rencontrées durant la formation clinique post-graduée.
+
+## 1.5  Langues d ' enseignement
+
+Le MMed est une formation bilingue intégrant le français et l ' allemand. Les enseignements sont donnés dans l'une ou l'autre langue , selon le choix de l ' enseignant-e. À l'issue du programme, l'étudiant·e aura enrichi ses compétences en français et en allemand et aquis une capacité de communiquer  avec  les  patient·e·s  et  d'autres  professionnel·le·s  de  la  santé  dans  ces  deux langues.
+
+## 1.6  Intégrité et éthique scientifique
+
+Les principes éthiques font partie intégrante de la formation médicale. Les règles internationalement admises doivent être respectées lors de l ' élaboration et de la rédaction de tout travail scientifique (projet, séminaire, rapport, etc.). Le plagiat est proscrit et toute source externe d ' information (articles, communications orales, pages web, etc.) doit être correctement citée selon les directives en vigueur dans la discipline et au sein de l'Université :
+
+- Académie Suisse des Sciences Médicales https://www.samw.ch/fr/Ethique/Directives/actualite.html
+- Directives du 13 mai 2008 concernant la procédure de prononcé des sanctions disciplinaires selon l'art. 101 des Statuts du 31 mars 2000 de l'Université de Fribourg dans les cas de violation des règles de l'intégrité scien -tifique lors de la rédaction de travaux pendant la durée de la formation
+
+https://webapps.unifr.ch/legal/fr/document/274672
+
+La  déontologie  clinique,  ensemble  des  règles  de  conduite  destinées  à  organiser  la  pratique clinique selon des normes, pour le bénéfice des patient·e·s et de la profession médicale ellemême, fait également partie intégrante de la formation médicale, comme indiqué plus haut.
+
+La Faculté a mis en place la formation obligatoire suivante :
+
+## Orientation de base et recherche à la bibliothèque
+
+Le but est de connaître les objectifs et les méthodes spécifiques de la recherche documentaire.
+
+Cette formation est à suivre durant le premier semestre d'études. Vous pourrez consulter vos résultats  seulement  après  avoir  réussi  cette  formation  et  soumis  le  formulaire  « Déclaration d'intégrité scientifique » signé.
+
+Vous trouvez la description détaillée à l'adresse : https://www.unifr.ch/scimed/fr/integrity
+
+## 1.7  Règlements et informations complémentaires
+
+De plus amples informations concernant le MMed sont disponibles sur le site web de la section Médecine de la Faculté des sciences et de médecine
+
+(https://www.unifr.ch/med/fr/studies/msc/med/).
+
+## 2 Curriculum du Master of Medicine
+
+Les 180 crédits ECTS du programme du MMed sont répartis sur les trois ans d ' études. Chaque année du programme correspond à un paquet de validation (PV).
+
+Le Master en médecine comprend quatre PVs (version 2024) :
+
+- -Le premier PV correspond à la 1 e  année d ' études du Master [PV-SMH.0000279]
+- -Le deuxième PV correspond à la 2 e  année d ' études du Master [PV-SMH.0000280]
+- -Le troisième PV correspond à la 3 e  année d ' études du Master [PV-SMH.0000281]
+- -Le quatrième PV correspond au travail de Master [PV-SMH.0000282]
+
+## 2.1  La première année d ' études (1 er  PV)
+
+La première année d ' études (MMEd1) s'étalant sur une période allant de septembre à juin de l'année qui suit , englobe (voir aussi Chapitre 1.2) :
+
+- la Phase 1 au premier semestre (enseignements structurés), et
+- la Phase 2.1 au deuxième semestre (début des rotations cliniques)
+
+Les UE sont regroupées en un seul paquet de validation. Les crédits ECTS sont acquis après réussite de l ' évaluation sommative SMH.7003E (sous forme de rapport d'apprentissage réflexif, voir ch. 3.4). Celle-ci a lieu une fois par année, à la fin de la période concernée.
+
+## 2.1.1 Programme d ' études et évaluation de la première année
+
+| Code      |                                                        |   ECTS pour le PV |   ECTS par UE |
+|-----------|--------------------------------------------------------|-------------------|---------------|
+| SMH.7003E | PV 1 : rapport d'apprentissage de fin de 1 e année     |                47 |               |
+| SMH.07002 | Transition 1 - Introduction aux études de Master       |                   |           1.0 |
+| SMH.07003 | De la pathophysiologie à la maladie                    |                   |           6.0 |
+| SMH.07004 | Du symptôme au diagnostique                            |                   |           8.0 |
+| SMH.07005 | Cycles de la vie                                       |                   |           4.5 |
+| SMH.07112 | Transition 2 - Introduction aux rotations cliniques    |                   |           4.5 |
+| SMH.07101 | Rotation clinique I                                    |                   |           8.0 |
+| SMH.07102 | Rotation clinique II                                   |                   |           8.0 |
+| SMH.07203 | Stage longitudinal en médecine de famille (1 e partie) |                   |           2.0 |
+| SMH.07602 | Ophtalmologie - Dermatologie - ORL (1 e partie)        |                   |           1.0 |
+| SMH.07403 | Journées et semaines thématiques (1 e partie)          |                   |           4.0 |
+|           |                                                        |                   |          47.0 |
+
+## 2.1.2 Contenu des UE de la première année (MMed1)
+
+## Phase 1 du MMed
+
+Des médecins généralistes et des médecins spécialisés sont impliqués dans l'enseignement de tous les modules. La présence des médecins de famille permet d' aborder les pathologies et les thèmes  sous  des  perspectives  spécifiques  et d'offrir une  présentation  équilibrée  de  l ' activité médicale, du point de vue de l'hôpital et du point de vue de l'ambulatoire .
+
+## Transition 1 -Introduction aux études de Master
+
+Cette  unité  d'enseignement,  d'une  durée  d'une  semaine  engloble  des  thèmes  tels  que : Introduction aux formats d ' enseignement, informations sur le programme, culture de la réflexion et  du  feedback,  dynamique  de  groupe, réalisation  de  présentations. Elle  vise  les  objectifs suivants :
+
+1. La socialisation -reconnaître et appliquer les principes d ' une bonne collaboration.
+2. Apprendre  à  utiliser  des  stratégies  pour  mobiliser  le  potentiel  de  développement individuel.
+3. Développer  une  compréhension  commune  du  professionnalisme  dans  la  profession médicale et s ' engager activement dans le développement et l 'i ntégration de sa propre identité professionnelle
+
+## Module 1 : « De la physiopathologie à la maladie »
+
+Cette  unité  d'enseignement,  d'une  durée de  quatre  semaines  porte  sur : les  maladies infectieuses, néoplasiques, immunologiques, métaboliques, cardiovasculaires et les traumatismes. Les objectifs sont :
+
+1. Physiopathologie et sémiologie des différentes familles nosologiques
+2. Raisonnement par analogie -du général au particulier
+3. Préparation au diagnostic différentiel
+4. Communication intra-professionnelle (synthèse d ' une situation clinique)
+5. Principes d ' investigation et de prise en charge
+
+## Module 2 : « Du symptôme au diagnostic »
+
+Cette unité d'enseignement, d'une durée de cinq semaines traite de céphalée, dyspnée, douleur abdominale, douleur articulaire, fièvres. Elle vise les objectifs suivants :
+
+1. Processus  diagnostique : raisonnement  clinique à partir  d ' une  plainte, diagnostic différentiel, notions de probabilité, biais, erreurs de diagnostic
+2. Recueil des informations pertinentes (anamnèse, status, examens complémentaires)
+3. Prise  en  charge :  principes  des  red-flags  et  exemple  d ' application  (urgent, aigu, chronique ; mono-, pluridisciplinaire)
+4. L'é volution de la maladie : suivi, transition, déroulement, plan de traitement et résultats (pronostic, complication, maladies silencieuses)
+5. La gestion est traitée conjointement du point de vue de la médecine familiale et des autres spécialités.
+
+## Module 3 : « Cycle de la vie »
+
+Le dernier module de la phase 1 dure trois semaines et cible les thèmes suivants : grossesse, enfance, âge adulte, grand âge, conditions de vie. Les objectifs sont :
+
+1. Raisonnement  à  partir  du  contexte  bio-psycho-socio-culturel  (génétique,  âge,  famille, métier, statut socio-économique)
+2. Pathologies propres aux différents âges
+3. Développement normal et étapes de la vie
+4. Populations à risque, populations vulnérables ou discriminées
+
+## Phase 2.1 du MMed (1 e  partie de la Phase 2)
+
+## Transition 2 -Introduction aux rotations cliniques
+
+Cette unité d ' enseignement, d ' une durée de trois semaines, vise les objectifs suivants :
+
+1. Consolider les connaissances et les compétences des étudiant·e·s à partir de l ' étude de cas cliniques. Le lien entre l ' anamnèse ciblée, l ' examen physique et la formulation d ' un diagnostic de présomption est au centre de cette démarche
+2. Approfondir les compétences communicatives telles que le résumé structuré d ' un cas clinique et les techniques de la communication centrée sur la/le patient·e
+3. Être sensibilisé-e au traitement des données des patient·e·s
+4. Se préparer aux structures organisationnelles et du personnel d ' un hôpital
+5. Acquérir une formation pratique de base en ultrasons et autres techniques d'imagerie
+
+## Rotations cliniques I &amp; II
+
+Au 2 e  semestre de la 1 e  année, les étudiant·e·s effectuent, selon un système de tournus, deux des cinq rotations cliniques prévues pour la Phase 2. Elle durent six semaines chacune. Ces immersions cliniques s ' effectuent en principe dans les structures de l ' HFR, respectivement du RFSM, dans les domaines suivants :
+
+- Médecine interne générale et spécialités / sous-spécialités
+- Chirurgie générale / Chirurgie orthopédique et Rhumatologie
+- Pédiatrie / Gynécologie et Obstétrique
+- Gériatrie / Médecine d'urgence
+- Psychiatrie
+
+Durant les rotations cliniques, les étudiant·e·s prennent part activement à la vie des services cliniques  pendant  quatre  jours  par  semaine.  Le  cinquième  jour  est  consacré  soit  au  stage longitudinal en médecine de famille soit à de l'enseignement thématique (FocusDay).
+
+## Stage longitudinal en médecine de famille (1 e  partie)
+
+Durant la période de leurs rotations cliniques, les étudiants passent, toutes les trois semaines environ, une journée en cabinet de médecine de famille dans le cadre d ' un stage longitudinal. Ce stage des « quatre saisons de la médecine famille » représente environ quinze jours au total, dont  environ  six  sont  planifiés  en  première  année  (2 e semestre  d'études,  phase  2.1)  et une dizaine durant la deuxième année d'études (3 e  semestre, phase 2.2).
+
+## Journées et semaines thématiques (1 e  partie)
+
+Le  cinquième  jour  de  la  semaine  durant  les  rotations  cliniques,  ainsi  que  pendant  quatres semaines (dont une en première année) intercalées entre les tournus, les étudiant·e·s participent à des séquences d'enseignement structurées ciblant des sujets spécifique sous l'angle de la médecine de famille et d'autres domaines spécialisés. Ces cours couvrent diverses spécialités, telles  que  la  médecine de famille, la médecine légale, les humanités médicales, la médecine d'urgence, etc. ainsi que des cours à option .
+
+## Ophtalmologie -Dermatologie -ORL (1 e  partie)
+
+Durant trois semaines (dont une dans le courant de la première année), les bases théoriques et pratiques nécessaires à la compréhension des pathologies centrales en ophtalmologie, oto-rhinolaryngologie  et  dermatologie  seront  enseignées.  À  travers  différents  tableaux  cliniques,  les étudiant·e·s apprennent à reconnaître la physiopathologie sous-jacente, à établir des diagnostics différentiels à partir de leurs observations et à proposer des traitements possibles.
+
+## 2.2  La deuxième année d ' études (2 e  PV)
+
+La  deuxième  année  d ' études (MMed2),  qui  s'étale  sur  la  période  allant  de juin  à  février correspond à la deuxième partie de la Phase 2 du Master (voir Chapitre 1.2).
+
+Les UE sont regroupées en un seul paquet de validation. Les crédits ECTS sont acquis après réussite de l ' évaluation sommative SMH.8003E. Celle-ci a lieu une fois par année, à la fin de la période concernée.
+
+## 2.2.1 Programme d ' études et évaluation de la 2 e  année
+
+| Code      |                                                        |   ECTS pour le PV | ECTS par UE   |
+|-----------|--------------------------------------------------------|-------------------|---------------|
+| SMH.8003E | PV 2 : rapport d'apprentissage de fin de 2 e année     |                48 |               |
+| SMH.08103 | Rotation clinique III                                  |                   | 8.0           |
+| SMH.08104 | Rotation clinique IV                                   |                   | 8.0           |
+| SMH.08105 | Rotation clinique V                                    |                   | 8.0           |
+| SMH.08203 | Stage longitudinal en médecine de famille (2 e partie) |                   | 4.0           |
+| SMH.08306 | Santé communautaire                                    |                   | 8.0           |
+| SMH.08602 | Ophtalmologie - Dermatologie - ORL (2 e partie)        |                   | 5.0           |
+| SMH.08404 | Journées et semaines thématiques (2 e partie)          |                   | 7.0           |
+| SMH.0850x | Project of Excellence (facultatif)                     |                   | Selon portée  |
+|           |                                                        |                   | 48            |
+
+## 2.2.2 Contenu des UE de la 2 e  année (MMed2)
+
+## Phase 2.2 du MMed (2 e  partie de la Phase 2)
+
+## Rotations cliniques III-V
+
+Au 3 e   semestre,  les  étudiant·e·s  effectuent,  selon  un  système  de  rotations,  les  trois  rotations cliniques restantes de la Phase 2, d ' une durée de six semaines chacune (voir Chapitre 2.1.2).
+
+## Stage longitudinal en médecine de famille (2 e  partie)
+
+Voir Chapitre 2.1.2. -9-10 jours en 2 e  année.
+
+## Journées et semaines thématiques (2 e  partie)
+
+Voir Chapitre 2.1.2 -3 semaines + 8 vendredis dans la 2 e  année.
+
+## Santé communautaire
+
+Cinq  semaines  sont  spécifiquement  dédiées  à  la  thématique  de  la  santé  communautaire  en intégrant les dimensions sociales, sociétales, économiques, juridiques et politiques de la santé et de la maladie. Les étudiant·e·s sont également sensibilisé·e·s aux défis de la relation médecinpatient·e. Ils et elles acquièrent des connaissances et une compréhension de la santé publique (Public Health) et de l'épidémiologie des maladies en relation avec leur environnement local et les déterminants socio-économiques de la santé, ainsi que de la prévention et de la promotion de la santé. D'autres aspects sont abordés tels que l'organisation et le financement du système de soins de santé et l'éducation à la santé (Health Literacy) de la population suisse.
+
+## Ophtalmologie -Dermatologie -ORL (2 e  partie)
+
+Voir Chapitre 2.1.2. -2 semaines en 2 e  année.
+
+## Project of Excellence
+
+Une unité d' enseignement facultative supplémentaires (voir Chapitre 2.6).
+
+## 2.3  La troisième année d ' études (3 e  PV)
+
+La troisième année d ' études (MMed3) (mars -avril de l'année suivante ) correspond à la Phase 3  du  Master (voir  chapitre  1.2  Structure  des  études).  Elle  comprend  11  mois  de  stages,  que l ' étudiant·e organise sur une période de 13 mois (inclut 2 mois de vacances).
+
+Les stages de troisième année sont regroupés en un seul paquet de validation. Les crédits ECTS sont acquis après réussite de l ' évaluation sommative SMH.9002E. Celle-ci a lieu une fois par année, à la fin de la période concernée.
+
+## 2.3.1 Programme d ' études et évaluation de la 3 e  année
+
+| Code      | ECTS pour le PV                                       |   ECTS par UE |
+|-----------|-------------------------------------------------------|---------------|
+| SMH.9002E | PV 3 : rapport d'apprentissage de fin de 3 e année 70 |               |
+| SMH.09003 | Stages                                                |          64.0 |
+|           |                                                       |            70 |
+
+## 2.3.2 Contenu de la 3 e  année (MMed3)
+
+## Phase 3 du MMed
+
+## Transition 3 -Introduction à l'année de stages
+
+La  Transition  3  est  dédiée  à  la  préparation  spécifique  des  étudiant·e·s  à  l ' année de stages. L 'a ccent est mis sur les points suivants :
+
+1. Le traitement de la/du patient·e sur la base des informations obtenues par l ' anamnèse, l ' examen  physique  et  les  tests  de  diagnostic,  en  tenant  compte  des  besoins  et  des souhaits spécifiques de la/du patient·e ;
+2. La planification d ' une approche thérapeutique appropriée, comprenant la médication, la prévention, la situation familiale, etc. ;
+3. La définition du rôle du stagiaire et de la/ du médecin, sur la base des connaissances tirées de la pratique clinique, et un examen critique des modèles de rôle perçus.
+
+## Stages
+
+L ' étudiant·e est responsable de l ' élaboration de son programme de stages, en respectant les conditions suivantes :
+
+- -au minimum deux mois de stage en médecine de premier recours en Suisse (y.c. pédiatrie)
+- -au minimum deux disciplines FMH, en plus de la médecine de premier recours
+- -Au  minimum  deux  mois  de  stage  continu  dans  un  même  service  hospitalier  (trois  mois conseillés) au minimum deux mois de stages en région francophone
+- -au minimum deux mois de stages en région germanophone
+- -au maximum cinq mois à l ' étranger
+- -au maximum deux mois non-cliniques (p. ex. pour un projet de recherche)

@@ -1,0 +1,53 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:49:50.928Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__240abb82af53a6df49e4c519c522184a3f628e28",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "240abb82af53a6df49e4c519c522184a3f628e28",
+  "program_key": "faculty of humanities|bachelor|120|history of modern times",
+  "source_url": "https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2030_2016.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_History_of_Modern_Times_Schema_2016__240abb82af53a6df49e4c519c522184a3f628e28.pdf",
+  "sha256": "817cbc60ff0906dd7b630127437b3a0f29f682b0619767ce55c209de8d05d476",
+  "fetched_at": "2026-05-21T16:05:23.122Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/hist/de/assets/public/v2Geschichte%2030_2016.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "History of Modern Times",
+  "programme_name_de": "Geschichte der Moderne",
+  "programme_name_fr": "Histoire de la modernité",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/hist/modernhistory",
+  "curriculum_url": "http://studies.unifr.ch/go/l7ufr"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## STUDIENAUFBAU: BA GESCHICHTE 30
+
+(STUDIENPLAN 2016)
+
+## P F L C H T L
+
+## L14.00243 GRUNDLAGENMODUL GESCHICHTE (15 ECTS)
+
+- 1 Überblicksvorlesung (3 ECTS)
+- 1 Methodenkurs (I) Grundkurs Epoche I (3 ECTS)
+- 1 Vorlesung ausserhalb der Epoche I (3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit ausserhalb der Epoche I (6 ECTS)
+
+## W  A H L P F L C H T T E L
+
+## BASISMODUL EPOCHE I (15 ECTS)
+
+- 2 Vorlesungen (2x3 ECTS)
+- 1 Proseminar mit schriftlicher Arbeit (6 ECTS)
+- 1 vom Epochenfach festgelegte Veranstaltung der Epoche I (3 ECTS) Siehe Infos unter: Geschichte / Teilbereich / Lehrangebot
+
+## NOTA BENE
+
+- Die Wahl des Epochenfaches im Wahlpflichtteil ist der / dem Studierenden überlassen.
+- Codes und konkreter Aufbau der Basismodule im Dokument: Ü bersicht Module

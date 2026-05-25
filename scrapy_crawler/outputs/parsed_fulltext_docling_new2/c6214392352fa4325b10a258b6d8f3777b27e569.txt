@@ -1,0 +1,262 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:43:19.991Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Political_Science_Studienplan_g_ltig_seit_2021_60_ECTS__c6214392352fa4325b10a258b6d8f3777b27e569",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c6214392352fa4325b10a258b6d8f3777b27e569",
+  "program_key": "faculty of humanities|bachelor|60|political science",
+  "source_url": "https://www.unifr.ch/politikwissenschaft/assets/public/files/Studienplan/BA_Politik_und_Gesellschaft_60_2021.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Political_Science_Studienplan_g_ltig_seit_2021_60_ECTS__c6214392352fa4325b10a258b6d8f3777b27e569.pdf",
+  "sha256": "c502e938058b1437ce548eecb9a0e3089072f78853ae2884ac707c7467ec6cd0",
+  "fetched_at": "2026-05-21T16:05:20.758Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/politikwissenschaft/assets/public/files/Studienplan/BA_Politik_und_Gesellschaft_60_2021.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Political Science",
+  "programme_name_de": "Politikwissenschaft",
+  "programme_name_fr": "Science politique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/politicalscience",
+  "curriculum_url": "https://studies.unifr.ch/go/c"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Departement für Europastudien und Slavistik
+
+## Studienplan
+
+Bachelor-Programm «Politik und Gesellschaft»
+
+Bereich II zu 60 ECTS
+
+Dieser Studienplan ist ab Herbstsemester 2021 gültig.
+
+|   1. | Gesetzliche Grundlagen......................................................................................................... 2                                                                                                                                   |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Beschreibung des Programms................................................................................................ 2                                                                                                                                        |
+|      | 2.1 Allgemeine Beschreibung des Programms ..............................................................................2                                                                                                                                           |
+|      | 2.2 Allgemeine Struktur des Programms .......................................................................................2                                                                                                                                      |
+|      | 2.3 Zulassungsbedingungen ...........................................................................................................2                                                                                                                              |
+|   3. | Ausbildungsziele ................................................................................................................... 2                                                                                                                              |
+|   4. | Studienbeginn und -dauer ..................................................................................................... 2                                                                                                                                    |
+|   5. | Studiensprache ..................................................................................................................... 2                                                                                                                              |
+|   6. | Allgemeine Organisation ....................................................................................................... 3                                                                                                                                   |
+|   7. | Beschreibung der Module...................................................................................................... 3                                                                                                                                     |
+|      | BApol01: Basismodul (15 ECTS) .......................................................................................................3                                                                                                                              |
+|      | BApol02: Politische Systeme I: Grundlagen (15 ECTS) ...................................................................4                                                                                                                                            |
+|      | BApol03: Politische Systeme II: Länder - Ost und Westeuropa (15 ECTS) .....................................5                                                                                                                                                        |
+|   8. | Prüfungsmodalitäten............................................................................................................. 6 8.1 Allgemeine Prüfungsmodalitäten ............................................................................................6 |
+|      | 8.2 Endgültiger Misserfolg .............................................................................................................7                                                                                                                           |
+|      | 8.3 Modulnoten und Gesamtnote .................................................................................................7                                                                                                                                    |
+|      | Anhang: Übersicht aller Module und Unterrichtseinheiten des Programms............................. 8                                                                                                                                                                |
+|  10. |                                                                                                                                                                                                                                                                     |
+
+## Philosophische Fakultät
+
+## 1. Gesetzliche Grundlagen
+
+Das Bachelor-Studienprogramm «Politik und Gesellschaft» zu 60 ECTS ist der Philosophischen Fakultät der Universität Fribourg angegliedert. Der Studienplan stützt sich auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät.
+
+## 2. Beschreibung des Programms
+
+## 2.1  Allgemeine Beschreibung des Programms
+
+Das Bachelorprogramm «Politik und Gesellschaft» zu 60 ECTS ist vor allem politikwissenschaftlich ausgerichtet. Es ist in erster Linie auf Themen fokussiert, die das politische System der Gesellschaft betreffen. Dazu gehört die Analyse von Regierungssystemen und ihrer Staaten genauso wie die Diskussion zentraler Akteure des politischen Systems. Die Studierenden werden dazu mit den wichtigsten politischen Theorien und empirischen Befunden vertraut gemacht. In vergleichenden Analysen werden die diesbezüglich unterschiedlichen Entwicklungen in West- und Osteuropa analysiert.
+
+## 2.2  Allgemeine Struktur des Programms
+
+Das  Bachelorprogramm setzt sich  zusammen aus vier  Pflichtmodulen  und  umfasst  60 ECTS  im  Bereich II. In jedem Modul werden 15 ECTS-Punkte erworben.
+
+## 2.3  Zulassungsbedingungen
+
+Für die Zulassung gilt das Reglement über die Zulassung der Universität Fribourg.
+
+## 3. Ausbildungsziele
+
+Das Studium vermittelt Kenntnisse sowohl genereller wie auch aktueller politologischen Themen. Es verbindet politikwissenschaftliche Analysen mit der kritischen Beschreibung regionaler politischer Systeme in Ost- und Westeuropa.
+
+Die Studierenden werden durch das Studium in «Politik und Gesellschaft» befähigt, politische Systeme und deren Akteure im jeweiligen gesellschaftlichen Kontext zu analysieren. Sie sollen darüber hinaus in der Lage sein, wissenschaftliche Literatur kritisch zu resümieren und zu kommentieren sowie gezielte Literaturrecherchen zu wissenschaftlichen Fragestellungen durchzuführen.
+
+## 4. Studienbeginn und -dauer
+
+Studierende können das Studienprogramm im Herbst- oder Frühjahrssemester aufnehmen. Empfohlen wird ein Beginn im Herbstsemester; der Beginn im Frühjahrssemester verlängert das Studienprogramm um ein Semester. Das Studium dauert mindestens sechs Semester.
+
+## 5. Studiensprache
+
+Das Studienprogramm «Politik und Gesellschaft» wird auf Deutsch und zum Teil auf Französisch angeboten. Mit diesem Programm ist es nicht möglich, den Zusatz «zweisprachiges Studium» zu erhalten. Einzelne Veranstaltungen können in englischer Sprache durchgeführt werden.
+
+## 6. Allgemeine Organisation
+
+Das Bachelorprogramm setzt sich zusammen aus vier Pflichtmodulen. Die Module werden jährlich oder im Zweijahresrhythmus angeboten. Tabelle 1 gibt die Übersicht über die Module des Bachelorprogramms zu 60 ECTS. Studierende absolvieren alle Module.
+
+Im ersten Jahr ist das Modul «Basismodul» (BApol01) vorgesehen. Je nach individueller Studienplanung werden das Modul « Politische Systeme I: Grundlagen » (BApol02) im ersten Jahr und die weiteren Module (BApol3 und BApol4) im zweiten und dritten Jahr belegt.
+
+## Modulstruktur des Programms «Politik und Gesellschaft» zu 60 ECTS
+
+| Politik und Gesellschaft Bachelor-Programm zu 60 ECTS   | Politik und Gesellschaft Bachelor-Programm zu 60 ECTS   |   ECTS | * jährlich / un- gerade / ge- rade   |
+|---------------------------------------------------------|---------------------------------------------------------|--------|--------------------------------------|
+| 4 Pflichtmodule                                         | 4 Pflichtmodule                                         |        |                                      |
+| BApol01                                                 | Basismodul                                              |     15 | j                                    |
+| BApol02                                                 | Politische Systeme I: Grundlagen                        |     15 | j                                    |
+| BApol03                                                 | Politische Systeme II: Länder - Ost- und Westeuropa     |     15 | g                                    |
+| BApol04                                                 | Politische Systeme III: Spezifische Themen              |     15 | u                                    |
+
+Die aktuell angebotenen Unterrichtseinheiten (UE) werden im universitären Vorlesungsverzeichnis bekannt gegeben.
+
+Innerhalb des Studienplans können ECTS-Punkte von anderen (schweizerischen und ausländischen) Universitäten anerkannt werden. Um die Validierung der im Rahmen der Mobilität geplanten UE sicherzustellen, muss vorher die Studienberatung konsultiert werden.
+
+Pflichtleistungen, die an anderen Universitäten bereits absolviert wurden, können nach einer Äquivalenzprüfung des Bewerbungsdossiers anerkannt werden. Diese Studienleistungen dürfen nicht Teil von abgeschlossenen Studiengängen sein. Der Antrag auf Anerkennung ist an das Dekanat der Philosophischen Fakultät zu richten.
+
+## 7. Beschreibung der Module
+
+## BApol01: Basismodul (15 ECTS)
+
+Das Modul führt in die wichtigsten theoretischen Perspektiven, zentralen Konzepte und Arbeiten der Sozialwissenschaften ein. Es werden auch UE aus den Geisteswissenschaften angeboten. In diesem Modul werden folgende Vorlesungen auf Deutsch bzw. auf Französisch angeboten:
+
+- Die Vorlesung « Einführung in die Politikwissenschaft » führt in die Grundbegriffe der Politikwissenschaft und der politischen Soziologie ein. Im Vordergrund steht die Analyse des politischen Systems der Gesellschaft und dessen Akteure.
+
+- Die Vorlesung « Sociologie des problèmes publics » wird auf Französisch angeboten : Le cours familiarise avec les principales perspectives des sciences sociales qui analysent les conditions d'émergence, de mise à l'agenda et de circulation des problèmes publics.
+- Die Einführung in die Soziologie kann ebenfalls auf Französisch oder auf Deutsch belegt werden:
+- -Le cours « Introduction à la sociologie » brosse un panorama général de la discipline sociologique. Commençant par un bref historique contextualisé de la naissance de la sociologie, le cours se poursuit avec l'approfondissement des principaux courants, écoles et approches théoriques qui se sont développés dans les différents contextes nationaux.
+- -Die deutschsprachige Vorlesung «Soziologie I» präsentiert ausgewählte theoretische Ansätze und zentrale Konzepte und gibt einen Überblick über einige klassische Werke der Fachgeschichte.
+- Die Vorlesung « Einführung in Sozialanthropologie» kann auf Französisch oder auf Deutsch belegt werden:
+- -L'anthropologie analyse les sociétés humaines. Ce cours d'introduction présentera les principales démarches et méthodes de la discipline ainsi qu'un ensemble choisi de concepts fondamentaux qui la traversent, de sa constitution à nos jours.
+- -In der Einführung in die Sozialanthropologie wird anhand von Schlüsselbegriffen untersucht, wie sich Geschichte und Denken des Fachs entwickelt haben. Diese Einführungsvorlesung gibt damit den Studierenden einen ersten Überblick über die Disziplin. Die Auseinandersetzung mit der Fachgeschichte führt hin zu den aktuellen Debatten, welche die Sozialanthropologie heute umtreiben.
+- Frei wählbare UE (mit je 3 ECTS) in den Bereichen Politikwissenschaft, Politische Geographie, Sozialanthropologie,  Kommunikationswissenschaft,  Zeitgeschichte und politische  Philosophie .  Die frei wählbaren UE werden aus einer Liste gewählt, die jährlich erneuert wird und zu Beginn des akademischen Jahres den Studierenden zur Verfügung gestellt wird.
+
+Das Modul ist im ersten Studienjahr vorgesehen.
+
+| BApol01   | Basismodul                                                                                                  |   JWS |   ECTS | * jährlich   |
+|-----------|-------------------------------------------------------------------------------------------------------------|-------|--------|--------------|
+| BApol01a  | Einführung in die Politikwissenschaft                                                                       |     1 |      3 | j            |
+| BApol01b  | Sociologie des problèmes publics                                                                            |     1 |      3 | j            |
+| BApol01c  | Introduction à la sociologie / Soziologie 1 (französisch oder deutsch)                                      |     1 |      3 | j            |
+| BApol01d  | Introduction à l'anthropologie sociale / Einführung in die Sozialanth- ropologie (französisch oder deutsch) |     1 |      3 | j            |
+| BApol01e  | Frei wählbare Vorlesung                                                                                     |     1 |      3 | j            |
+
+Falls einzelne Unterrichtseinheiten des Basismoduls schon in einem anderen Studienprogramm belegt werden, dann werden sie in Absprache mit dem für dieses Programm verantwortlichen Dozierenden, durch die in BApol01e genannten Unterrichtseinheiten ersetzt.
+
+## BApol02: Politische Systeme I: Grundlagen (15 ECTS)
+
+In diesem Modul geht es vor allem darum, die Studierenden mit den Grundlagen der vergleichenden Politikwissenschaft bekannt zu machen
+
+- Die zwei sich ergänzenden Vorlesungen «Institutionen und Akteure I und II» in diesem Modul beschäftigen sich mit den institutionellen Grundlagen der Analyse von politischen Systemen. Sie beschäftigen sich aber auch mit den weltweiten Entwicklungen von politischen Systemen und insbesondere mit den Staaten Mittel- und Osteuropas, die u.a. auch in einem Blockkurs vertieft werden können.
+- Die Hausarbeit ergänzt die Vorlesung «Institutionen und Akteure II: Demokratien und Autokratien» und bietet den Studierenden die Gelegenheit, die aufgeworfenen Themen sowohl konzeptuell als auch anhand konkreter Beispiele zu diskutieren.
+
+Das Modul sollte im ersten Studienjahr gewählt werden.
+
+| BApol02   | Politische Systeme I: Grundlagen                                |   JWS |   ECTS | * jährlich   |
+|-----------|-----------------------------------------------------------------|-------|--------|--------------|
+| BApol02a  | Institutionen und Akteure I: Staaten, Regime, Regierungssysteme |     1 |      3 | j            |
+| BApol02b  | Institutionen und Akteure II: Demokratien und Autokratien       |     1 |      3 | j            |
+| BApol02c  | Hausarbeit (min. zwei Essays)                                   |       |      6 | j            |
+| BApol02d  | Blockkurs zu politischen Entwicklungen in Osteuropa             |       |      3 | j            |
+
+## BApol03: Politische Systeme II: Länder - Ost und Westeuropa (15 ECTS)
+
+In diesem Modul geht es vor allem um die konkrete und vergleichende Analyse von einzelnen Regierungssystemen und ihren Staaten.
+
+- Eine erste Vorlesung « Fallstudien I: Russland» beschäftigt sich mit dem politischen System Russlands und dessen Entwicklung im innen- wie aussenpolitischen Kontext.
+- Eine zweite Vorlesung « Fallstudien II: Ost- und westeuropäische politische Systeme im Vergleich» ist auf eine vergleichende Analyse von Regierungssystemen in Ost- und Westeuropa fokussiert. Dabei werden v.a. einzelne Institutionen bzw. Akteure betrachtet.
+- Ein Seminar soll den Studierenden die Möglichkeit geben, Aspekte eines Regierungssystems in einer Einzelfall- oder vergleichenden Studie zu analysieren. Die Leistungskontrolle in diesem Seminar umfasst neben der schriftlichen Arbeit mindestens zwei mündliche Vorträge.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BApol03   | Politische Systeme II: Länder - Ost und Westeuropa                         |   JWS |   ECTS | * gerade   |
+|-----------|----------------------------------------------------------------------------|-------|--------|------------|
+| BApol03a  | Fallstudien I: Russland - Analyse des politischen Systems                  |     1 |      3 | g          |
+| BApol03b  | Fallstudien II: Ost- und westeuropäische politische Systeme im Ver- gleich |     1 |      3 | g          |
+| BApol03c  | Fallstudien III: Seminar                                                   |     1 |      9 | g          |
+
+## BApol04: Politische Systeme III: Spezifische Themen (15 ECTS)
+
+Das Modul setzt sich mit Themen auseinander, die in der vergleichenden Analyse von politischen Systemen zum Teil unter der Rubrik politische Kultur behandelt werden oder zu den Bereichen politische Akteure und Regieren oder Governance zu zählen sind.
+
+- Die beiden Vorlesungen «Regieren, Akteure, Ressourcen I und II» beschäftigen sich mit so unterschiedlichen Themen wie Governance (inkl. informeller Governance), politischem Leadership, politischen Akteuren (Parteien, Zivilgesellschaft), mit politischem Vertrauen, Sozialkapital, politischer Freundschaft, Klientelismus sowie Korruption.
+- Im Seminar wird den Studierenden die Möglichkeit geboten, jeweils ein Hauptthema einer Vorlesung z.B. Klientelismus, Vertrauen oder Korruption über Fallstudien zu analysieren. Die Leistungskontrolle in diesem Seminar umfasst neben der schriftlichen Arbeit mindestens zwei mündliche Vorträge.
+
+Das Modul kann im zweiten oder dritten Studienjahr absolviert werden (Zweijahresrhythmus).
+
+| BApol04   | Politische Systeme III: Spezifische Themen   |   JWS |   ECTS | * ungerade   |
+|-----------|----------------------------------------------|-------|--------|--------------|
+| BApol04a  | Regieren, Akteure, Ressourcen I              |     1 |      3 | u            |
+| BApol04b  | Regieren, Akteure, Ressourcen II             |     1 |      3 | u            |
+| BApol04c  | Regieren, Akteure, Ressourcen III: Seminar   |     1 |      9 | u            |
+
+## 8. Prüfungsmodalitäten
+
+## 8.1  Allgemeine Prüfungsmodalitäten
+
+Die ECTS-Punkte werden ausschliesslich für evaluierte und für als genügend befundene Studienleistungen vergeben. Die Evaluation bezieht sich auf Leistungen, die im Rahmen einer einzelnen UE erbracht werden. Jede UE wird evaluiert.
+
+Im Einzelnen werden die UE wie folgt evaluiert:
+
+| UE         | Evaluation während dem Semester                                     | Evaluation am Schluss des Semesters                                      |
+|------------|---------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Vorlesung  | Laufende Lernkontrolle durch mindes- tens zwei schriftliche Übungen | Schriftliche Prüfung in Form eines Essays und / oder mit mehreren Fragen |
+| Seminar    | Mindestens zwei mündliche Vorträge                                  | Seminararbeit (Umfang min. 20 Seiten)                                    |
+| Hausarbeit | ---                                                                 | Schriftliche Arbeit (Umfang min. 10 Seiten)                              |
+| Blockkurs  | Evaluation nach Vorgaben des Lehrbe- auftragten                     | Evaluation nach Vorgaben des Lehrbeauftragten                            |
+
+Die Evaluationsmodalitäten werden in den von den Lehrpersonen verfassten Syllabi präzisiert. Wenn ein Leistungsnachweis beim zweiten Mal nicht bestanden wird, gilt das als endgültiger Misserfolg und damit die UE als nicht bestanden.
+
+In schriftlichen Prüfungen (vor Ort, als Hausarbeit oder im Falle anderer schriftlichen Arbeiten) oder mündlichen Prüfungen können maximal zwei Versuche innerhalb von vier möglichen Prüfungssessionen absolviert werden.
+
+Seminararbeiten (inkl. der Hausarbeit) werden an drei verbindlich vorgeschriebenen dem Kurs nachfolgenden Terminen eingereicht. Wird die Seminararbeit als ungenügend beurteilt, wird ein Misserfolg erfasst. Die Seminararbeit kann einmal überarbeitet werden (zweiter Versuch). Wird die Seminararbeit auch beim zweiten Versuch als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Laufende Lernkontrollen (z.B. schriftliche Übungen, Vorträge usw.), die im Laufe der Veranstaltung gemäss Syllabus erforderlich sind, finden während des Semesters statt. Sie dienen als Grundlage für die Validierung der UE und werden benotet oder als bestanden/nicht bestanden beurteilt. Werden die Leistungen der laufenden Lernkontrolle als ungenügend beurteilt (erster Versuch), können sie einmal überarbeitet werden (zweiter Versuch). Werden die zwei Versuche bei der laufenden Lernkontrolle als ungenügend beurteilt, wird ein definitiver Misserfolg erfasst.
+
+Sämtliche  Plagiatsverdachte  (beispielsweise  in  Leistungsanforderungen,  schriftlichen  Arbeiten  oder Seminararbeiten) werden dem Dekanat gemeldet. Bei begründetem Verdacht werden Studierende neben dem erfassten Misserfolg aus der entsprechenden Veranstaltung ausgetragen. Die UE muss neu belegt und mit dem verbleibenden Versuch erfolgreich abgeschlossen werden.
+
+## 8.2 Endgültiger Misserfolg
+
+Für alle UE ausser der im Basismodul genannten frei wählbaren UE (BApol01e) gilt: Wird eine UE definitiv nicht bestanden, führt dies zum definitiven Misserfolg im Studienprogramm. In diesem Fall ist es nicht mehr möglich, das Studium in «Politik und Gesellschaft» an der Universität Fribourg fortzusetzen.
+
+Wird die frei wählbare UE des Basismoduls definitiv nicht bestanden, kann im nachfolgenden Semester eine andere UE gewählt werden.
+
+## 8.3  Modulnoten und Gesamtnote
+
+Die Note eines einzelnen Moduls ist der ungewichtete Mittelwert aller im Modul benoteten UE. Die Modulnote wird auf zwei Nachkommastellen gerundet.
+
+Die Abschlussnote des Programms ist der ungewichtete Mittelwert aller Modulnoten. Die Gesamtnote wird auf zwei Nachkommastellen gerundet.
+
+## 9. Inkrafttreten und Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2021 das Bachelor-Studienprogramm «Politik und Gesellschaft» im Bereich II zu 60 ECTS aufnehmen.
+
+Studierende nach Studienplan 2017 (d.h. mit Studienbeginn vor dem Herbstsemester 2021) können beim Departement einen Wechsel des Studienplans beantragen. Die bereits erbrachten Leistungen im Studienprogramm nach Studienplan 2017 werden ins neue Studienprogramm (nach Studienplan 2021) übertragen.
+
+Ab dem Herbstsemester 2023 unterliegen alle Studierenden diesem Studienplan.
+
+## 10.  Anhang: Übersicht aller Module und Unterrichtseinheiten des Programms
+
+Im ersten Studienjahr ist das Modul «Grundlagen Sozialwissenschaften» vorgesehen. Das Modul «Politische Systeme I» wird ebenfalls für das erste Studienjahr empfohlen. Die weiteren Module im zweiten und dritten Jahr sind darauf aufbauend.
+
+## Kurse und Module des Programms «Politik und Gesellschaft» zu 60 ECTS
+
+| Politik und Gesellschaft Bachelor-Programm zu 60 ECTS   | Politik und Gesellschaft Bachelor-Programm zu 60 ECTS                                                                                                                    | HS / FS   |   ECTS | * jährlich / un- gerade / ge- rade   |
+|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|--------|--------------------------------------|
+| BApol01                                                 | Basismodul                                                                                                                                                               | 15        |     15 | 15                                   |
+| BApol01a                                                | Einführung in die Politikwissenschaft                                                                                                                                    | HS        |      3 | j                                    |
+| BApol01b                                                | Sociologie des problèmes publics                                                                                                                                         | FS        |      3 | j                                    |
+| BApol01c                                                | Introduction à la sociologie / Soziologie I (französisch oder deutsch)                                                                                                   | HS/FS     |      3 | j                                    |
+| BApol01d                                                | Introduction à l'anthropologie sociale / Einführung in die Sozialanth- ropologie (französisch oder deutsch)                                                              | HS/FS     |      3 | j                                    |
+| BApol01e                                                | Frei wählbarer Kurs in den Bereichen Politikwissenschaft, Politische Geographie, Sozialanthropologie, Kommunikationswissenschaft, Zeitgeschichte, politische Philosophie | HS/FS     |      3 | j                                    |
+| BApol02                                                 | Politische Systeme I: Grundlagen                                                                                                                                         | 15        |     15 | 15                                   |
+| BApol02a                                                | Institutionen und Akteure I: Staaten, Regime, Regierungssysteme                                                                                                          | HS        |      3 | j                                    |
+| BApol02b                                                | Institutionen und Akteure II: Demokratien und Autokratien                                                                                                                | FS        |      3 | j                                    |
+| BApol02c                                                | Hausarbeit                                                                                                                                                               | FS        |      6 | j                                    |
+| BApol02d                                                | Blockkurs zu politischen Entwicklungen in Osteuropa                                                                                                                      | FS        |      3 | j                                    |
+| BApol03                                                 | Politische Systeme II: Länder - Ost und Westeuropa                                                                                                                       | 15        |     15 | 15                                   |
+| BApol03a                                                | Fallstudien I: Russland - Analyse des politischen Systems                                                                                                                | HS        |      3 | g                                    |
+| BApol03b                                                | Fallstudien II: Ost- und westeuropäische politische Systeme im Ver- gleich                                                                                               | FS        |      3 | g                                    |
+| BApol03c                                                | Fallstudien III: Seminar                                                                                                                                                 | FS        |      9 | g                                    |
+| BApol04                                                 | Politische Systeme III: Spezifische Themen                                                                                                                               | 15        |     15 | 15                                   |
+| BApol04a                                                | Regieren, Akteure, Ressourcen I                                                                                                                                          | HS        |      3 | u                                    |
+| BApol04b                                                | Regieren, Akteure, Ressourcen II                                                                                                                                         | FS        |      3 | u                                    |
+| BApol04c                                                | Regieren, Akteure, Ressourcen III: Seminar                                                                                                                               | FS        |      9 | u                                    |

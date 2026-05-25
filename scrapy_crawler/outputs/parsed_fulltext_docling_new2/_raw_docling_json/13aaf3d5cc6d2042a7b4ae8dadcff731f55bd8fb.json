@@ -1,0 +1,86 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "unmatched_THEO_UNK_UNK_Habilitation_Pr_fungs_-_und_Diplomgeb_ren_13aaf3d5cc6d2042a7b4ae8dadcff731f55bd8fb",
+  "markdown": "<!-- image -->\n\n## Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm\n\nFrais d'examen et de diplôme de la Faculté de Théologie pour les voies d'études uniques, principales et secondaires.\n\n(angenommen durch den Fakultätsrat am - approuvé par le Conseil de Faculté le 6.10.2015)\n\n## * Prix/Preis CHF\n\n|                                           | Vollprogramm Progr. unique   | Hauptprogramm Progr. principal   | Nebenprogramm Progr. secondaire   |\n|-------------------------------------------|------------------------------|----------------------------------|-----------------------------------|\n| Bachelor                                  | 180 .-                       | 120 .-                           | 30 .- / 60 .-                     |\n| Master                                    | 240 .-                       | 180 .-                           | 60 .-                             |\n| Kirchliches Diplom Diplôme ecclésiastique | 200 .-                       | 0 .-                             | 0 .-                              |\n| Kanonisches Lizentiat Licence Canonique   | 200 .-                       | 0 .-                             | 0 .-                              |\n| Doktorat - Doctorat                       | 400 .-                       | 0 .-                             | 0 .-                              |\n| Habilitation                              | 600 .-                       | 0 .-                             | 0 .-                              |\n\nLes frais d'examens et de diplôme sont perçus au moment du dépôt du travail final. Les frais d'examens pour un programme secondaire sont perçus au moment de l'établissement de l'attestation finale.\n\nDie Prüfungs- und Diplomgebühren werden fällig bei der Abgabe der Abschlussarbeit. Die Prüfungsgebühren für ein Nebenprogramm werden bei der Ausstellung der Schlussbestätigung fällig.\n\nFreiburg/Fribourg, 6.10.2015",
+  "pages": [
+    "<!-- image -->\n\n## Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm\n\nFrais d'examen et de diplôme de la Faculté de Théologie pour les voies d'études uniques, principales et secondaires.\n\n(angenommen durch den Fakultätsrat am - approuvé par le Conseil de Faculté le 6.10.2015)\n\n## * Prix/Preis CHF\n\n|                                           | Vollprogramm Progr. unique   | Hauptprogramm Progr. principal   | Nebenprogramm Progr. secondaire   |\n|-------------------------------------------|------------------------------|----------------------------------|-----------------------------------|\n| Bachelor                                  | 180 .-                       | 120 .-                           | 30 .- / 60 .-                     |\n| Master                                    | 240 .-                       | 180 .-                           | 60 .-                             |\n| Kirchliches Diplom Diplôme ecclésiastique | 200 .-                       | 0 .-                             | 0 .-                              |\n| Kanonisches Lizentiat Licence Canonique   | 200 .-                       | 0 .-                             | 0 .-                              |\n| Doktorat - Doctorat                       | 400 .-                       | 0 .-                             | 0 .-                              |\n| Habilitation                              | 600 .-                       | 0 .-                             | 0 .-                              |\n\nLes frais d'examens et de diplôme sont perçus au moment du dépôt du travail final. Les frais d'examens pour un programme secondaire sont perçus au moment de l'établissement de l'attestation finale.\n\nDie Prüfungs- und Diplomgebühren werden fällig bei der Abgabe der Abschlussarbeit. Die Prüfungsgebühren für ein Nebenprogramm werden bei der Ausstellung der Schlussbestätigung fällig.\n\nFreiburg/Fribourg, 6.10.2015"
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "|                                           | Vollprogramm Progr. unique   | Hauptprogramm Progr. principal   | Nebenprogramm Progr. secondaire   |\n|-------------------------------------------|------------------------------|----------------------------------|-----------------------------------|\n| Bachelor                                  | 180 .-                       | 120 .-                           | 30 .- / 60 .-                     |\n| Master                                    | 240 .-                       | 180 .-                           | 60 .-                             |\n| Kirchliches Diplom Diplôme ecclésiastique | 200 .-                       | 0 .-                             | 0 .-                              |\n| Kanonisches Lizentiat Licence Canonique   | 200 .-                       | 0 .-                             | 0 .-                              |\n| Doktorat - Doctorat                       | 400 .-                       | 0 .-                             | 0 .-                              |\n| Habilitation                              | 600 .-                       | 0 .-                             | 0 .-                              |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "col_1": "Bachelor",
+            "Vollprogramm Progr. unique": "180 .-",
+            "Hauptprogramm Progr. principal": "120 .-",
+            "Nebenprogramm Progr. secondaire": "30 .- / 60 .-"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "col_1": "Master",
+            "Vollprogramm Progr. unique": "240 .-",
+            "Hauptprogramm Progr. principal": "180 .-",
+            "Nebenprogramm Progr. secondaire": "60 .-"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "col_1": "Kirchliches Diplom Diplôme ecclésiastique",
+            "Vollprogramm Progr. unique": "200 .-",
+            "Hauptprogramm Progr. principal": "0 .-",
+            "Nebenprogramm Progr. secondaire": "0 .-"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "col_1": "Kanonisches Lizentiat Licence Canonique",
+            "Vollprogramm Progr. unique": "200 .-",
+            "Hauptprogramm Progr. principal": "0 .-",
+            "Nebenprogramm Progr. secondaire": "0 .-"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "col_1": "Doktorat - Doctorat",
+            "Vollprogramm Progr. unique": "400 .-",
+            "Hauptprogramm Progr. principal": "0 .-",
+            "Nebenprogramm Progr. secondaire": "0 .-"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "col_1": "Habilitation",
+            "Vollprogramm Progr. unique": "600 .-",
+            "Hauptprogramm Progr. principal": "0 .-",
+            "Nebenprogramm Progr. secondaire": "0 .-"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Diplom- und Prüfungsgebühren der Theologischen Fakultät für Studiengänge im Voll-, Haupt- und Nebenprogramm",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "* Prix/Preis CHF",
+      "line_index": 8,
+      "source": "markdown_regex"
+    }
+  ]
+}

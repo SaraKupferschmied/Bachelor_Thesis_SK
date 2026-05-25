@@ -1,0 +1,73 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:40:35.193Z",
+  "title": "matched_Faculty_of_Theology_Doctorate_UNK_Theology_Zusicherung_der_Dissertationsleitung_9a2e92869dbc5fbf9bcc6302e3857a68b6f6eacc",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "9a2e92869dbc5fbf9bcc6302e3857a68b6f6eacc",
+  "program_key": "faculty of theology|doctorate||theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Zusicherung_Dissertationsleitung_AnhangI.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Zusicherung_der_Dissertationsleitung_9a2e92869dbc5fbf9bcc6302e3857a68b6f6eacc.pdf",
+  "sha256": "4c5d787e63d212dcacdcc61d90e28f9741133dd4ec1693da64d6955eb79a97bc",
+  "fetched_at": "2026-05-21T16:05:39.885Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Zusicherung_Dissertationsleitung_AnhangI.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Faculté de Théologie Theologische Fakultät Décanat - Dekanat
+
+Av. de l'Europe 20 CH-1700 FRIBOURG-FREIBURG SUISSE-SCHWEIZ
+
+T +41 26 300 73 70 decanat-theol@unifr.ch www.unifr.ch/theo
+
+FACULTÉ DE THÉOLOGIE DÉCANAT
+
+Reglement für den Erwerb des Doktorates der Philosophie (Anhang I)
+
+## Zusicherung der Dissertationsleitung
+
+Die von der Theologischen Fakultät der Universität Freiburg/Schweiz zur Leitung einer Dissertation befähigte Lehrperson
+
+Name
+
+sichert hiermit zu, dass sie die wissenschaftliche Leitung des Dissertations- projektes der folgenden Person gemäss Reglement für den Erwerb des Doktorates der Philosophie, Artikel 5, übernimmt
+
+Name
+
+Vorname
+
+## Arbeitstitel der Dissertation
+
+Option :
+
+Religionsstudien / Theologische Studien (Nichtzutreffendes ist zu streichen)
+
+Ort und Datum
+
+Dissertationsleiter/in
+
+……………………………….
+
+…………………………………
+
+Gegebenenfalls, gemäss Art 2 al 4, Zusicherung der Ko-Leitung
+
+Ort und Datum
+
+Ko-Leiter/in
+
+……………………………….
+
+…………………………………

@@ -1,0 +1,176 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:12:30.304Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_SpMSc_in_Digital_Neuroscience_0cb824db883f562e3ba611bb03c07d87e718b4e9",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0cb824db883f562e3ba611bb03c07d87e718b4e9",
+  "program_key": "faculty of science and medicine|master|120|digital neuroscience",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_MScSp_DN_en.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_SpMSc_in_Digital_Neuroscience_0cb824db883f562e3ba611bb03c07d87e718b4e9.pdf",
+  "sha256": "ef26bbc153260064e1d19db9e3b32761bbc56f198a39bf604274ebc7c2805643",
+  "fetched_at": "2026-05-21T16:05:16.832Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_MScSp_DN_en.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 120,
+  "programme_name_en": "Digital Neuroscience",
+  "programme_name_de": "Digitale Neurowissenschaft",
+  "programme_name_fr": "Neurosciences digitales",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/digitalneuroscience",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+0
+
+Curriculum for the award of the Degree of
+
+## Specialised Master of Science in Digital Neuroscience
+
+Accepted by the Faculty of Science and Medicine on 30.05.2022 Revised version of 14.04.2025
+
+8
+
+## TABLE OF CONTENTS
+
+|   1 |     | GENERAL REMARKS.................................................................................................3                                                                                                                                                                                                                                                                                                                       |
+|-----|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     | 1.1 | Academic title and study plan ................................................................................................... 3                                                                                                                                                                                                                                                                                                     |
+|     | 1.2 | Course structure ......................................................................................................................... 4                                                                                                                                                                                                                                                                                            |
+|     | 1.3 | Acquired skills............................................................................................................................. 4                                                                                                                                                                                                                                                                                          |
+|     | 1.4 | Course assessment (UE) and accreditation of ECTS credits................................................. 4                                                                                                                                                                                                                                                                                                                             |
+|     | 1.5 | Teaching languages.................................................................................................................... 5                                                                                                                                                                                                                                                                                                |
+|     | 1.6 | Ethics and science...................................................................................................................... 5                                                                                                                                                                                                                                                                                              |
+|     | 1.7 | Regulations and additional Information ................................................................................... 5                                                                                                                                                                                                                                                                                                            |
+|   2 |     | SPECIALISED MASTER OF SCIENCE (SP-MSC) ......................................................6                                                                                                                                                                                                                                                                                                                                          |
+|     | 2.1 | Teaching units............................................................................................................................. 6                                                                                                                                                                                                                                                                                           |
+|     | 2.2 | Content of the teaching units .................................................................................................... 7 2.2.1 Compulsory teaching units ............................................................................................................7 2.2.2 Elective teaching units......................................................................................................................9 |
+|     | 2.3 | Exams and assessment............................................................................................................ 11                                                                                                                                                                                                                                                                                                     |
+|     | 2.4 | Master thesis and exam............................................................................................................ 11                                                                                                                                                                                                                                                                                                   |
+|     | 2.5 | Admission regulations for the Master's programme ............................................................ 11                                                                                                                                                                                                                                                                                                                        |
+
+## 1 General remarks
+
+This  curriculum  describes  all  regulations  concerning  the  study  of  digital  neuroscience  at  the Master level at the University of Fribourg. It is based on the regulations of the Faculty of Science and Medicine as defined in the Règlement pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine , which entered into force on 30 May 2022 (hereafter called the Regulation in short).
+
+The Regulation of 30 May 2022 for the award of the Bachelor of Science and Master of Science degrees establishes a limit on the duration of Bachelor's and Master's studies, as well as of the minor study program (see articles 11, 13 and 14) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1  Academic title and study plan
+
+The Faculty of Science and Medicine of the University of Fribourg confers the academic title of Specialised  Master  of  Science  in  Digital  Neuroscience  (sp-MSc),  University  of  Fribourg  to students who successfully complete the program.
+
+The  sp-MSc  study  program  offers  an  interdisciplinary  curriculum  that  integrates  advanced neuroscience with cutting-edge digitalization skills, including data analytics, machine learning, computational modeling, and multimodal interface design. This combination prepares students for diverse career pathways:
+
+Academic and Research Careers, such as PhD programs, research institutions, and labs focused on neurotechnology and brain-computer interfaces.
+
+Industry  Roles  in  healthcare,  technology,  gaming,  education,  and  creative  fields,  including developing  adaptive  systems,  immersive  VR/AR  environments,  or  personalized  learning platforms.
+
+Creative  and  Innovative  Fields,  driving  AI-based  art,  interactive  design,  and  neurofeedbackintegrated experiences.
+
+Policy  and  Ethics  roles,  shaping  governance  frameworks  for  AI,  neuroscience,  and  adaptive systems.
+
+Entrepreneurship, founding startups in healthtech, edtech, or creative AI solutions.
+
+By equipping graduates with expertise at the nexus of neuroscience, AI, and interface design, the sp-MSc opens doors to careers that shape the future of technology, creativity, and human-centric systems.
+
+The sp-MSc study programme in Digital Neuroscience (subsequently referred to as sp-MSc) is open to graduates holding a Bachelor's degree from a university, an education or teacher training college  (Pädagogische  Hochschule  /  Haute  école  pédagogique),  or  a  university  of  applied sciences (Fachhochschule / Haute école spécialisée) in the following disciplines: Psychology, Informatics, Physics, Economics, Engineering, Computer  Science,  Business Informatics, Software Systems, Human Medicine, Sports Science, Business Administration, Communication and Media Sciences, Communication Systems, Geography, and Environmental Sciences.
+
+Graduates with a Bachelor's degree from the University of Fribourg or other Swiss universities are eligible to apply to the sp-MSc programme (see Section 2.5). Applicants with a BSc degree from foreign institutions or in a related but different field may also be considered for admission based on an individual evaluation by the Faculty of Science and Medicine. Provisional admission may be granted subject to the fulfilment of additional requirements specified by the Faculty (see Section 2.5).
+
+## 1.2  Course structure
+
+The course work leading to the spMSc degree is subdivided into ' UE ' (= teaching units, from 'unité d 'enseignement'  or  'Unterrichtseinheit'),  consisting  of  formal  lectures,  exercise  classes,  practical courses, laboratory work, seminars, and specialised projects. To each UE, a number of ECTS credits (European Credit Transfer System) is assigned.
+
+The  sp-MSc  degree  requires  a  minimum  of  120  ECTS  credits  over  four  semesters.  The programme is subdivided into three Validation Packages as follows:
+
+- Compulsory courses (41 ECTS credits) including formal lectures, practical courses, projects, seminars
+- Elective courses (19 ECTS credits), including formal lectures, practical courses, projects, seminars
+- Master thesis and related activities (60 ECTS credits), including production of the Master thesis, related work and presentation.
+
+The purpose of the different UE types is as follows:
+
+- Lectures give  a  formal  introduction  to  the  scientific  methods  in  basic  and  experimental biomedical research and encourage advanced scientific thinking. They help acquiring the basic knowledge and understanding of the fundamental concepts in specific disciplines.
+- Laboratory  work ,  be  it  experimental  or  theoretical,  is  the  basis  of  scientific  research.  It provides a supervised environment for the hands-on realization of biological and medical measurements. It is during this work that the student will encounter and learn many of the techniques and instruments used in biological and medical research.
+- Seminar presentations are used to expand the student's knowledge in speciali sed domains, often  neglected  in  the  formal  courses,  as  well  as  to  begin  the  development  of  oral presentation skills for communication of scientific results.
+- Student projects are  a  first  step  towards  applying  the  skills  learned  in  the  lectures  and exercise classes to address and solve appropriate research questions.
+- The preparation of the Master thesis , under the supervision of an experienced researcher, is the actual starting point of scientific research.
+
+## 1.3  Acquired skills
+
+The spMSc in Digital Neuroscience aims to advance students' expertise in neuroscience, digital technologies,  and  interdisciplinary  problem-solving  while  honing  essential  skills  in technical communication,  scientific  writing,  and  computational  methodologies .  By  the  end  of  the programme,  students  will  demonstrate  their  capabilities  through  a comprehensive research project and thesis , which they will compile into a personal GitHub portfolio to showcase their work. They will present their findings and innovations during the Annual Day of Cognition at the University  of  Fribourg,  learning  to  communicate  effectively  with  both specialized  and  nonspecialized audiences . Emphasizing practical computational skills and innovative thinking , the programme equips students for academic careers, PhD pursuits, or impactful roles in industry and entrepreneurial ventures. Success in the programme requires a combination of creativity, critical thinking, and strategic communication skills , ensuring graduates are prepared to lead in dynamic, global environments.
+
+## 1.4  Course assessment (UE) and accreditation of ECTS credits
+
+Acquisition of ECTS credits occurs via three steps: assessment of individual UE, grouping of UE into a validation package, and awarding the respective ECTS credits for the completed package.
+
+Assessment of lectures is made by an oral and/or written exam, whose type and duration are specified in an appendix to this curriculum. Exams occur during the official exam sessions in winter, summer, or autumn, and are subject to a fee. Students register for each exam via the students' web portal MyUniFR ( https://my.unifr.ch), within the stipulated deadlines according to the online procedure and using their University-provided account and password. The marks range from 6 (highest mark) to 1 (lowest mark). An exam marked below 4 can be repeated, but only once, and at earliest during the next exam session.
+
+A Validation package comprises multiple, separately assessed, UE. Article 24 and 27 of the Regulation  determine  the  number  of  these  packages  whereas  this  curriculum  defines  their content.
+
+The conditions for validation of ECTS credits are described in Art. 25 of the Regulation.
+
+After the validation, upon request ,  the  Dean's office will issue Transcripts of records in which exam results and awarded credits are acknowledged (Art. 28 and 30 of the Regulation), provided the exam fee has been paid.
+
+## 1.5  Teaching languages
+
+Courses are generally taught in English, although selected courses may be conducted in German or French. Written work (project reports, Master thesis, etc.) will preferably be in English. Texts in French or in German can be accepted in selected courses , but only at the lecturer's discretion .
+
+## 1.6  Ethics and science
+
+Ethical principles are an integral part of a scientific education. Accepted international conventions must be respected during research and  while documenting all scientific work whether it be a project, a lecture, a thesis, or a report. In particular, every external source of information (articles, lectures, web pages, etc.) must be correctly cited.
+
+In  this  context,  the  Faculty  has  established  two  compulsory  courses  that  must  be  completed during the course of study in order to validate the degree. These courses are listed below: Detailed descriptions can be found at: https://www.unifr.ch/scimed/en/integrity
+
+## 1. Basic orientation and research in the library (part 1)
+
+The aim is to learn about the specific objectives and methods of documentary research.
+
+This course must be completed during the first semester of study. You will only be able to view your  results  after  you  have  successfully  completed  this  course  and  submitted  the  signed 'Declaration of Scientific Integrity' form.
+
+## 2. Systematic research and document management (part 2)
+
+The aim is to prepare and carry out documentary research in a systematic and comprehensive manner.
+
+This  training  must  be  completed  before  or  during  your  Bachelor's  or  Master's  degree.  It  is compulsory in order to validate your Bachelor's or Master's degree.
+
+## 1.7  Regulations and additional Information
+
+Detailed  information  about  studying  Digital  Neuroscience  can  be  found  in  the  documents referenced on the web page http://www.unifr.ch/scimed/plans as well as from the Office of the Department of Informatics.
+
+## 2 Specialised Master of Science (sp-MSc)
+
+[Version 2023, validation packages: PV-SNS.000004, PV-SNS.000005, PV-SNS.000006]
+
+The sp-MSc programme in Digital Neuroscience requires 120 ECTS credits to be completed and is expected to take 24 months. The first year consists primarily of courses and seminars, designed to strengthen and complete the student's foundational knowledge in neuroscience and computer science, as well as the proper scientific conduct and skills to communicate research. The second year will broaden the student's education while introducing the preparation of the Master work. As members of a research team, the Master students are expected to take part in various activities such as research group meetings, seminars, and literature study/journal clubs, throughout the duration  of  the  study.  The  sp-MSc  degree  course  is  completed  by  a  research  project,  which includes the writing of a Master thesis and its successful presentation.
+
+## 2.1  Teaching units
+
+In the two years of the study programme, sp-MSc students follow a set of compulsory teaching units  (Validation  Package  1:  41  ECTS),  a  custom  selection  of  elective  courses  (Validation Package 2: 19 ECTS), and the Master thesis work (Validation Package 3: 60 ECTS). These aim at  providing  the  student  with  strong  foundations  in  the  fields  of  Neuroscience  and  Computer Science oriented towards Data Analytics and Machine Learning, while allowing the students to complete their curriculum towards further breadth or specialisation following their personal career aspirations.
+
+The student is responsible for submitting their selection of elective courses for Validation Package 2 for approval to the Study Advisor. Each selection is evaluated on a per-case basis: for this reason,  the  selection  needs  to  be  submitted  at  least  2  months  before  the  beginning  of  each semester, to allow time for validation and potentially iterative corrections.
+
+Eligible courses are subject to the regulations of the teaching body issuing the course. The list of Elective Teaching Units below (expanded in Section 2.2.2) offers a choice of pre-approved and recommended courses from the University of Fribourg.
+
+## Compulsory Teaching Units
+
+| Code       | Title of UE                                               | Semestertot.   |   h. |   ECTS |
+|------------|-----------------------------------------------------------|----------------|------|--------|
+| SDN.00001  | Introduction to neuroscience                              | AS             |   28 |      3 |
+| SDN.00002  | Foundations of informatics                                | AS             |   28 |      3 |
+| SDN.00003  | Current topics in digital neuroscience                    | AS             |   28 |      3 |
+| I09.00005  | Python programming online                                 | AS             |   28 |      3 |
+| SDN.00006  | Cybernetic Systems: Bridging Brains, Machines and society | AS             |   42 |      5 |
+| L25.01822* | Neural Decoding of EEG signals                            | SS             |   28 |      3 |
+| L25.01585* | Analysing health data from wearable biosensors            | SS             |   28 |      3 |
+| SME.07502  | Advanced scientific writing                               | SS             |   28 |      3 |
+| SIN.08022  | Machine learning                                          | SS             |   56 |      5 |
+| SIN.08609  | Social media analytics                                    | SS             |   42 |      5 |
+| SIN.08612  | Multimodal user interfaces                                | SS             |   42 |      5 |
+| Total      | Total                                                     |                |      |        |
+
+Students already qualified in these domains can request to take extra Elective courses for the same number of ECTS instead in agreement with the study advisor. These will be part of the Compulsory validation package

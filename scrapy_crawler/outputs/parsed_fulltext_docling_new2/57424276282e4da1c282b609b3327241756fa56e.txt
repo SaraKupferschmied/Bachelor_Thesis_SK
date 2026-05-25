@@ -1,0 +1,65 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:57:42.643Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Chemistry_Branche_compl_mentaire_en_chimie_30_57424276282e4da1c282b609b3327241756fa56e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "57424276282e4da1c282b609b3327241756fa56e",
+  "program_key": "faculty of science and medicine|bachelor|30|chemistry",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_CH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Chemistry_Branche_compl_mentaire_en_chimie_30_57424276282e4da1c282b609b3327241756fa56e.pdf",
+  "sha256": "cc1fa6c446e968540541489231574c713b5f05d1c0c24831309111b98e18c176",
+  "fetched_at": "2026-05-21T16:05:18.508Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_CH_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Chemistry",
+  "programme_name_de": "Chemie",
+  "programme_name_fr": "Chimie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/chemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.4  Chimie +30
+
+[Version 2022, paquet de validation : PV-SCH.0000046]
+
+Le programme de formation supplémentaire en chimie CHD+30 peut être suivi après la réussite de la branche complémentaire CH-60 ou CHD-60. Ce programme est enseigné en anglais.
+
+## 2.4.1 Unités d'enseignement
+
+| Code      | Unité d'enseignement                                        |   h. tot. |   ECTS |
+|-----------|-------------------------------------------------------------|-----------|--------|
+| SCH.04011 | Bioorganic chemistry (lecture)                              |        28 |      3 |
+| SCH.04251 | Analytical chemistry I (lecture)                            |        28 |      3 |
+| SCH.04252 | Analytical chemistry II (lecture)                           |        28 |      3 |
+| SCH.04254 | Analytical chemistry III (lecture)                          |        28 |      3 |
+| SCH.04021 | Inorganic chemistry I (lecture)                             |        28 |      3 |
+| SCH.04705 | Crystallography and crystal growth and technology (lecture) |        28 |      3 |
+| SCH.04824 | Polymer Engineering (lectures)                              |        28 |      3 |
+| SCH.04825 | Advanced polymer chemistry (lecture and exercices)          |        42 |    4.5 |
+| SCH.04806 | Selected topics in polymer science (seminar)                |        14 |    1.5 |
+| SCH.04701 | Nanomaterials (lecture)                                     |        28 |      3 |
+|           |                                                             |           |     30 |
+
+## 2.4.2 Contenu des unités d'enseignement
+
+## Les cours
+
+- Bioorganic  chemistry :  in  depth  presentation  of  subjects  from  the  interface  of  organic chemistry with biology and medicine.
+- Inorganic chemistry I : in depth presentation of subjects from inorganic chemistry.
+- Analytical chemistry I , II and III : Statistics, sample preparation, analytical methods, analytics in industry, validation.
+- Polymer Engineering, Advanced polymer chemistry, and Selected topics in polymer science : Polymer synthesis, analysis and properties; biopolymers, hybrid materials.
+- Nanomaterials , Crystallography  and  crystal  growth  and  technology :  Nanoparticles,  properties and applications; typical methods for solid state analysis.
+
+## 2.4.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie (http://www.unifr.ch/scimed/plans/eval).

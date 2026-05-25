@@ -1,0 +1,162 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:20:00.799Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Geography_Branche_compl_mentaire_en_g_ographie_30_6915f692692799d4fca2d6d73f3e851dc86af509",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6915f692692799d4fca2d6d73f3e851dc86af509",
+  "program_key": "faculty of science and medicine|bachelor|30|geography",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_GG_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Geography_Branche_compl_mentaire_en_g_ographie_30_6915f692692799d4fca2d6d73f3e851dc86af509.pdf",
+  "sha256": "74e4c3d9372858618b056aaecead17b59acd4c0c626c7a1b3e6dcb6bb5bfa225",
+  "fetched_at": "2026-05-21T16:05:17.846Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_GG_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Geography",
+  "programme_name_de": "Geographie",
+  "programme_name_fr": "Géographie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/geography",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.5  Géographie +30
+
+[Version 2023, paquet de validation : PV-SGG.0000080]
+
+Le programme de formation supplémentaire en géographie GEOG+30 peut être suivi après la réussite de la branche complémentaire BCo-60 en géographie (GEOG-60).
+
+Le programme est constitué d'un ensemble d'unités d'enseignement choisies par l'étudiant -e en fonction de ses intérêts de spécialisation en géosciences. Cet ensemble doit correspondre à un volume minimal de 30 ECTS et ne peut pas inclure d'unités d'enseignement déjà validées dans le cadre du programme BCo-60 en géographie . Le tableau suivant liste les unités d'enseignement à choix, organisées selon les quatre orientations : géographie humaine, physique, géomatique et sciences  de  la  Terre.  Il  est  évidemment possible  de  choisir  des  unités  d'enseignement  dans plusieurs orientations. Les UE dont le titre est en anglais sont enseignées en langue anglaise.
+
+## 2.5.1 Unités d ' enseignement
+
+| Orientation : Géographie humaine **   | Orientation : Géographie humaine **              |          |         |      |
+|---------------------------------------|--------------------------------------------------|----------|---------|------|
+| Code                                  | Unité d ' enseignement                           | semestre | h. tot. | ECTS |
+| SGG.00205                             | Géographie urbaine                               | SP       | 28      | 3    |
+| SGG.00210                             | Géographie économique                            | SP       | 28      | 3    |
+| SGS.01201                             | Ecologie politique de l'eau                      | SP       | 14      | 1,5  |
+| SGG.02201                             | Géographie rurale                                | SP       | 28      | 3    |
+| SGG.00305                             | Géographie politique                             | SP       | 28      | 3    |
+| SGG.00318                             | Géographie de l'environnement                    | SA       | 28      | 3    |
+| SGG.03113                             | Recherche empirique en sciences sociales III :   | SA       | 28      | 2    |
+|                                       | Analyse et interprétation                        |          |         |      |
+| SGG.00471                             | New approaches in human geography 1              | SP       | 28      | 3    |
+| SGG.00473                             | Seminar in global change, development and ethics | SP       | 28      | 3    |
+| SGG.00477                             | Political ecology                                | SP       | 28      | 3    |
+| SGG.00484                             | Social theories (seminar)                        | SA       | 28      | 3    |
+| SGG.00485                             | Environmental History                            | SP       | 28      | 3    |
+| SGG.00486                             | Advanced social research methods                 | SA       | 28      | 3    |
+
+1  Ce cours est donné tous les deux ans.
+
+Orientation : Géographie physique **
+
+| Orientation : Géographie physique   | Orientation : Géographie physique                  | semestre   | h. tot.   | ECTS   |
+|-------------------------------------|----------------------------------------------------|------------|-----------|--------|
+| Code                                | Unité d ' enseignement                             | semestre   | h. tot.   | ECTS   |
+| SGG.02301                           | S ciences de l'atmosphère                          | SA         | 28        | 3      |
+| SGG.03301                           | Cryosphère (cours)                                 | SA         | 28        | 3      |
+| SGG.03302                           | Cryosphère (travaux pratiques)                     | SA         | 28        | 2      |
+| SGG.00262                           | Géomorphologie - Quaternaire, partie 1 (cours)     | SA         | 36        | 3      |
+| SGG.00263                           | Géomorphologie - Quaternaire, partie 2 (cours)     | SP         | 20        | 3      |
+| SGG.00283                           | Géomorphologie - Quaternaire, travaux pratiques I  | SA         | 28        | 3      |
+| SGG.00284                           | Géomorphologie - Quaternaire, travaux pratiques II | SP         | 36        | 3      |
+| SGG.00441                           | Applied geophysical methods                        | SP         | 30        | 3      |
+| SGG.00444                           | Alpine cryosphere                                  | SA         | 28        | 3      |
+| SGG.00445                           | Mountain geomorphology                             | SP         | 28        | 3      |
+| SGG.00448                           | Modelling of glaciers and permafrost               | SP         | 28        | 3      |
+
+| Orientation : Géographie humaine et physique **   | Orientation : Géographie humaine et physique **   |          |         |      |
+|---------------------------------------------------|---------------------------------------------------|----------|---------|------|
+| Code                                              | Unité d'enseignement                              | semestre | h. tot. | ECTS |
+| SGG.00256                                         | Excursion en géographie I                         | SA/SP    | 8       | 0.5  |
+| SGG.00257                                         | Excursion en géographie II                        | SA/SP    | 8       | 0.5  |
+| SGG.00409                                         | Models, modelling and representations             | SA       | 28      | 3    |
+| SGG.00424                                         | Hazards, risks and vulnerability                  | SA       | 28      | 3    |
+| SGG.00426                                         | Climate change: state of the art and debates      | SA       | 28      | 3    |
+| SGG.00512                                         | Geocolloquium 1                                   | SA/SP    | 28      | 3    |
+
+## Orientation : Géomatique **
+
+| Code      | Unité d ' enseignement                           | semestre   |   h. tot. |   ECTS |
+|-----------|--------------------------------------------------|------------|-----------|--------|
+| SGG.00312 | Traitement de l ' information géographique (SIG) | SA         |        28 |      3 |
+| SGG.00319 | Télédétection                                    | SP         |        28 |      3 |
+| SGG.00425 | Data and methods for environmental analysis      | SA         |        28 |      3 |
+
+## Orientation : Sciences de la Terre **
+
+| Code      | Unité d ' enseignement                          | semestre   | h. tot.   | ECTS   |
+|-----------|-------------------------------------------------|------------|-----------|--------|
+| SGS.01301 | Géologie et Société : défis appliqués           | SP         | 14        | 1,5    |
+| SST.01816 | Stage de terrain I                              | SP         | 3 jours   | 1.5    |
+| SST.01831 | Excursion de géologie IB                        | SA/SP      | 1 jour    | 0.5    |
+| SST.01832 | Excursion de géologie IC                        | SA/SP      | 1 jour    | 0.5    |
+| SST.01833 | Excursion de géologie ID                        | SA/SP      | 1 jour    | 0.5    |
+| SST.00201 | Géologie régionale (cours)                      | SP         | 28        | 3      |
+| SST.00203 | Paléontologie (cours) A                         | SA         | 28        | 3      |
+| SST.00205 | Sédimentologie (cours) B                        | SA         | 28        | 3      |
+| SST.00206 | Tectonique (cours) C                            | SA         | 28        | 3      |
+| SST.02208 | Pétrologie des magmatites D                     | SA         | 28        | 2.5    |
+| SST.02210 | Sédimentologie (cours et travaux pratiques) B   | SP         | 28        | 2.5    |
+| SST.02211 | Tectonique (cours et travaux pratiques) C       | SP         | 28        | 2.5    |
+| SST.02213 | Microscopie optique I : Minéraux D              | SA         | 14        | 1      |
+| SST.02214 | Microscopie optique II : Magmatites D           | SA         | 14        | 1      |
+| SST.00218 | Paléontologie (travaux pratiques) A             | SA         | 28        | 2      |
+| SST.00224 | Cartes et profils I (travaux pratiques) C       | SA         | 28        | 2      |
+| SST.03305 | Géologie appliquée I : Terrains instables       | SA         | 28        | 3      |
+| SST.03307 | Géologie appliquée II : Géologie de l'ingénieur | SP         | 28        | 3      |
+
+Remarque : Il n'est pas possible de participer aux travaux pratiques sans suivre ou avoir déjà suivi le cours auquel ils se rapportent. Les UE liées en sciences de la Terre sont indiquées par une lettre majuscule italique ( A , B , C, D ) à la suite du titre.
+
+## 2.5.2 Contenu des unités d ' enseignement
+
+## En Géographie
+
+Les unités d'enseignement de géographie offertes pour les trois orientations sont structurées en deux  niveaux.  Celles  du  niveau  de  spécialisation  sont  affectées  des  codes  SGG.02nn  et SGG.03nn ; elles proposent des thèmes de spécialisation dans chacune des trois orientations. Les  unités  d'enseignement  d'approfondissement (SGG.004nn  et  SGG.005nn)  proposent  une vision intégrative de ces orientations ; elles sont dispensées en langue anglaise.
+
+Unités d'enseignement de niveau de spécialisation (code SGG.02nn et SGG.03nn) :
+
+- Le  cours Géographie  urbaine (SGG.00205)  porte  sur  la  compréhension  des  principales problématiques urbaines qui ont cours aujourd ' hui, tout en s ' appuyant aussi sur la dimension historique du fait urbain.
+- Le  cours  de Géographie  économique (SGG.00210)  met  l'accent  sur  les  relations  entre l'économie, la société et l'écosystème .
+- Le cours Ecologie politique de l ' eau (SGS.01201) présente les dimensions politiques et sociales de l'accès à l'eau aujourd'hui.
+- Le cours de Géographie rurale (SGG.02201) présente les différents aspects des nouvelles ruralités, en particulier l'agriculture, les paysages agraires et les nouveaux enjeux sociaux et économiques ruraux.
+- En Géographie politique (SGG.00305) on étudiera le s relations entre l'espace et les rapports de pouvoir.
+- Le cours de Géographie de l'environnement (SGG.00318) présente les concepts géographiques  et  les  notions  nécessaires  à  la  compréhension  des  relations  HommeEnvironnement.
+- Le cours Recherche  empirique en sciences sociales III : Analyse et interprétation (SGG.03113) complète les deux premiers cours de la séquence (SGG.02111 et SGG.02112) par l'analyse et l'interprétation des données.
+- Le cours Sciences de l'atmosphère (SGG.02301) comprend des périodes d'enseignement complétées  par  des  exercices  qui  permettent  de  comprendre  le  fonctionnement  de l'atmosphère et du climat.
+- Le cours Cryosphère (SGG.03301) introduit les notions de base concernant le fonctionnement physique des milieux froids (neige, glace, permafrost).
+- Les cours de Géomorphologie - Quaternaire en deux parties (SGG.00262 et SGG.00263) constituent une approche visant à décrire et à expliquer les formes du relief de la Terre, en tant  que  fondements  de  la  compréhension  des  paysages  naturels  et  anthropisés ;  ils proposent une approche pluridisciplinaire de la plus récente des périodes de l'histoire de la Terre. Les deux parties ne peuvent pas être validées individuellement.
+- Les travaux pratiques de Géomorphologie - Quaternaire I et II (SGG.00283 et SGG.00284) , et  de Cryosphère (SGG.03302) accompagnent et approfondissent les enseignements des cours y relatifs (SGG.00262 et SGG.00263, SGG.03301). Ils ne peuvent pas être suivis avant les cours sur lesquels ils s'appuient .
+- La construction des bases de données géographiques et leur exploitation en analyse spatiale est le sujet du cours de Traitement de l ' information géographique (SIG) (SGG.00312) .
+- Le  cours  de Télédétection (SGG.00319)  présente  les  principes  et  les  méthodes  qui permettent de déterminer à distance les propriétés d'objets naturels ou artificiels .
+
+Unités d'enseignement de niveau d'approfondissement (code SGG.004nn) :
+
+- La description détaillée du contenu de ces unités d'enseignement figure sur le programme des cours (www.unifr.ch/timetable/). Il est à rappeler que ces enseignements sont dispensés en langue anglaise.
+
+## En Sciences de la Terre
+
+- Le cours Géologie et Société : défis appliqués (SGS.01301) présente des exemples d'enjeux ou de réalisations concrètes dans le domaine de la géologie.
+- Le cours Géologie régionale (SST.00201) décrit la structure géologique de la Suisse.
+- Le cours Paléontologie (SST.00203) présente la systématique des fossiles et leur signification environnementale, ainsi que l'évolution de la vie.
+- La Sédimentologie (SST.00205) s'occupe des processus d'érosion, de transport et de dépôt de sédiments aujourd'hui et dans le passé.
+- Le cours Tectonique (SST.00206) décrit la déformation de la croûte terrestre et les méthodes d'analyse structurale.
+- Le  cours  de Pétrologie  des  magmatites (SST.02208)  étudie  les  roches  volcaniques  et plutoniques qui résultent de la solidification d'un magma.
+
+- Les cours de Géologie appliquée I et II (SST.03305 et SST.03307) traitent des instabilités de terrain et de la géologie de l'ingénieur .
+- Les travaux pratiques (TP) de Paléontologie (SST.00218), de Sédimentologie (SST.02210), de Tectonique (SST.02211 et SST.00224), de Microscopie optique (SST.02213 et SST.02214) permettent  à  l'étudiant -e  d'approfondir  les  sujets  traités  dans  les  cours correspondants par des observations et des interprétations personnelles. Il n'est pas possible de  participer  aux  travaux  pratiques  sans  suivre  ou  avoir  déjà  suivi  le  cours  auquel  ils  se rapportent.
+- Les  excursions  (SST.01831  à  SST.01833)  et  le  stage  de  terrain  (SST.01816)  permettent d'appréhender  sur  le  terrain  la  complexité  des  phénomènes  géologiques  traités  dans  les cours et les travaux pratiques.
+
+## 2.5.3 Évaluation des unités d ' enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter les annexes de la géographie et des sciences de la Terre (https://www.unifr.ch/scimed/fr/plans/eval).

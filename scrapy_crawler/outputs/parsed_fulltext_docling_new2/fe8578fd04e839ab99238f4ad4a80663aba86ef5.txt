@@ -1,0 +1,78 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T16:50:14.576Z",
+  "title": "fe8578fd04e839ab99238f4ad4a80663aba86ef5",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "fe8578fd04e839ab99238f4ad4a80663aba86ef5",
+  "program_key": "fakultät für erziehungs- und bildungswissenschaften|master|106|teacher education for secondary level i and baccalaureate schools",
+  "programme_name_en": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I und an Maturitätsschulen",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I et les écoles de maturité",
+  "level": "Master",
+  "ects_points": 106,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufeII_studienplan.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_en": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_de": "https://studies.unifr.ch/de/master/teach/teacheredu1-2",
+  "programme_url_fr": "https://studies.unifr.ch/fr/master/teach/teacheredu1-2",
+  "curriculum_url": null,
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\fe8578fd04e839ab99238f4ad4a80663aba86ef5.pdf",
+  "sha256": "35910858573b3373f3f32c1f70fcbfcd7a640ea5563f6f3f8cf4f807db120a0b",
+  "fetched_at": "2026-05-21T16:05:16.057Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufeII_studienplan.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Lehrdiplom für die Sekundarstufe II für das Fach Religionslehre (LDS II) Diplôme d'enseignement aux écoles de maturité en Enseignement religieux (DEEM)
+
+Alle Masterstudiengänge der Theologischen Fakultät geben Zugang zu den Studien zur Erlangung des  Lehrdiploms  für  die  Sekundarstufe  II  für  das  Fach  Religionslehre.  Für  Studierende  mit Theologie  als  Hauptprogramm  ist  das  folgende  Programm  empfohlen  (für  Studierende  mit Theologie als Nebenprogramm: siehe das Programm 'Interreligiöse Studien'). s. auch: http://www3.unifr.ch/zelf/de/
+
+Toutes les  voies  d'études  de  Master  de  la  Faculté  de  théologie  donnent  accès  aux  études  pour l'obtention  du  Diplôme  d'enseignement  aux  écoles  de  maturité  pour  la  branche  d'enseignement «Enseignement  religieux».  Pour les étudiant-e-s de théologie en  programme principal, le programme  suivant  est  recommandé (pour les étudiant-e-s de théologie en programme secondaire, voir le programme « Études interreligieuses ») cf : http://www3.unifr.ch/cerf/fr/enseignement-au-secondaire-2/
+
+## I. MASTER (90 CP)
+
+| Gebiet/Matière                                                                                         |   SWS | Evaluation/   |   CP |
+|--------------------------------------------------------------------------------------------------------|-------|---------------|------|
+| 1. Judentum und Christentum/Judaïsme et Christianisme                                                  |       |               |   22 |
+| 1.1. Judentum/Judaïsme                                                                                 |       |               |    4 |
+| Judentum/Judaïsme                                                                                      |     2 | Ev            |    3 |
+| Wahlpflichtgebiet/Matière au choix                                                                     |     1 | Ev            |    1 |
+| 1.2. Christentum/Christianisme                                                                         |       |               |   18 |
+| Exegese AT oder NT/Exégèse AT ou NT                                                                    |     2 | Ev            |    3 |
+| Kirchengeschichte/Histoire de l'Église                                                                 |     2 | Ev            |    3 |
+| Dogmatik /Théologie dogmatique                                                                         |     2 | Ev            |    3 |
+| Moraltheologie/Théologie morale                                                                        |     2 | Ev            |    3 |
+| Ökumenische Theologie/Théologie œcuménique                                                             |     2 | Ev            |    3 |
+| Liturgiewissenschaft/Science liturgique                                                                |     2 | Ev            |    3 |
+| 2. Weltreligionen/Grandes religions                                                                    |       |               |   16 |
+| Islam                                                                                                  |     4 | Ev            |    6 |
+| Buddhismus/Bouddhisme                                                                                  |     4 | Ev            |    6 |
+| Hinduismus/Hindouisme                                                                                  |     2 | Ev            |    3 |
+| Andere Religionen/Autres religions                                                                     |     1 | Ev            |    1 |
+| 3. Religionswissenschaft und interreligiöser Dialog/ Science des religions et dialogue interreligieux7 |       |               |    7 |
+| Vergleichende Religionswissenschaft/Sc. comparée des religions                                         |     2 | Ev            |    3 |
+| Interreligiöser Dialog/Dialogue interreligieux                                                         |     2 | Ev            |    3 |
+| Missiologie                                                                                            |     1 | Ev            |    1 |
+
+| 4. Religionspädagogik und Humanwissenschaften/Pédagogie religieuse et sciences humaines                                                     | 4. Religionspädagogik und Humanwissenschaften/Pédagogie religieuse et sciences humaines                                                     | 4. Religionspädagogik und Humanwissenschaften/Pédagogie religieuse et sciences humaines                                                     |   8 |
+|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----|
+| Religionspädagogik/Pédagogie religieuse oder/ou Didaktische Übungen/Exercices didactiques                                                   | 4                                                                                                                                           | Ev                                                                                                                                          |   6 |
+| Humanwissenschaften/Sciences humaines                                                                                                       | 2                                                                                                                                           | Ev                                                                                                                                          |   2 |
+| 5. Wahlpflichtgebiet(e)/Matière(s) au choix                                                                                                 | 5. Wahlpflichtgebiet(e)/Matière(s) au choix                                                                                                 | 5. Wahlpflichtgebiet(e)/Matière(s) au choix                                                                                                 |   7 |
+| Seminar/Séminaire                                                                                                                           | 2                                                                                                                                           | schriftl. Arbeit/tr. écrit                                                                                                                  |   4 |
+| Wahlbereich/Programme d'option                                                                                                              |                                                                                                                                             | Ev                                                                                                                                          |   3 |
+| Masterarbeit (einschliesslich zugehöriger Vertiefungsstudien)/ Travail de Master (y compris les études d'approfondissement correspondantes) | Masterarbeit (einschliesslich zugehöriger Vertiefungsstudien)/ Travail de Master (y compris les études d'approfondissement correspondantes) | Masterarbeit (einschliesslich zugehöriger Vertiefungsstudien)/ Travail de Master (y compris les études d'approfondissement correspondantes) |  30 |
+| Insgesamt/en tout :                                                                                                                         | Insgesamt/en tout :                                                                                                                         | Insgesamt/en tout :                                                                                                                         |  90 |
+
+Eine  Anpassung  des  Studienprogramms  an  besondere  Erfordernisse  verschiedener  Kantone oder  Anstellungsträger ist in Absprache mit dem Studienberater möglich.
+
+L'adaptation  du  programme  d'études  selon  les  exigences  spécifiques  des  différents  cantons  et des  futurs employeurs est possible en accord avec le conseiller aux études.
+
+Stand/Etat : 21.8.2019

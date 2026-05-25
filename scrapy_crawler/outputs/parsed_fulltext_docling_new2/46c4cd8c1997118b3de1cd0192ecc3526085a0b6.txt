@@ -1,0 +1,134 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:36:49.345Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Business_Informatics_Brosch_re_46c4cd8c1997118b3de1cd0192ecc3526085a0b6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "46c4cd8c1997118b3de1cd0192ecc3526085a0b6",
+  "program_key": "faculty of management, economics and social sciences|master|90|business informatics",
+  "source_url": "https://fr.calameo.com/read/003659115a94794c74d11",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_90_Business_Informatics_Brosch_re_46c4cd8c1997118b3de1cd0192ecc3526085a0b6.pdf",
+  "sha256": "b5a42e9ac448259ead28987b4181c9d4f8b777c96342b96360273af254d5fe67",
+  "fetched_at": "2026-05-21T16:05:13.947Z",
+  "notes": "calameo downloaded (id=003659115a94794c74d11, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260226110307-0e7b64ea566a6ab0a610a96da090c6e9/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=c9a4b9187318a296e29b6670d9c9689daeb5ea55fa4a18ed465c551645563577, ct=application/octet-stream)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Business Informatics",
+  "programme_name_de": "Wirtschaftsinformatik",
+  "programme_name_fr": "Informatique de gestion",
+  "programme_url": "https://studies.unifr.ch/en/master/digitinf/businessinformatics",
+  "curriculum_url": "http://studies.unifr.ch/go/CEsEp"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Master of Science Wirtschaftsinformatik
+
+## Die Stärken des Programms
+
+Meistern Sie die Informations- und Kommunikationstechnologien dank einem praxisorientierten Master.
+
+Über den Swiss Joint Master of Science in Computer Science (JMCS), gemeinsam angeboten von den Universitäten Freiburg, Bern und Neuenburg, haben Sie Zugang zu mehr als 60 Kursen. Gestalten Sie Ihren Studienplan individuell und absolvieren Sie ein Praktikum, um wertvolle Praxiserfahrung zu sammeln. Ein flexibles, innovatives Programm, direkt verbunden mit den Anforderungen des Arbeitsmarktes.
+
+<!-- image -->
+
+## Mobilität
+
+Nutzen Sie die Chance, Ihren Master individuell zu gestalten und Ihr Studium durch ein oder zwei Auslandssemester zu bereichern! Entdecken Sie neue Kulturen, bauen Sie ein internationales Netzwerk auf und erweitern Sie Ihren Lebenslauf mit Anerkennung der erworbenen ECTS.
+
+Empfohlenes Semester: ab dem 2. Semester Vermerk Mobilität: ab 30 validierten ECTS
+
+<!-- image -->
+
+<!-- image -->
+
+/comment
+
+## STUDIENSPRACHEN
+
+Drei Sprachen - ein klarer Vorteil: Englisch als Hauptsprache, ergänzt durch Kurse auf Deutsch und Französisch. Mit einem zweisprachigen Diplom stärken Sie Ihr Profil und eröffnen sich beste Chancen für eine internationale Karriere.
+
+## Studienplan
+
+<!-- image -->
+
+## ZULASSUNGSBEDINGUNGEN
+
+- → Bachelor einer Schweizer Universität in Wirtschaftsinformatik oder mit mindestens 60 ECTS im Fachbereich: direkte Zulassung
+- → FH -Bachelor in Wirtschaftsinformatik oder Betriebsökonomie: Zulassung mit einem Zusatzprogramm von maximal 30 ECTS
+- → Für alle anderen Profile wird jedes Dossier einzeln geprüft. Ausländische Bewerber werden nicht automatisch zugelassen. Falls eine Aufnahme möglich ist, kann die Fakultät Zusatzleistungen auf Bachelorebene bis 60 ECTS verlangen.
+- → Diplome älter als 8 Jahre berechtigen in Prinzip nicht zur Zulassung.
+
+Personen, die an Unifr eingeschrieben sind, müssen sich über das Portal MyUnifr bewerben.
+
+## WEITERE INFOS
+
+Die Informatikmodule des JMCS werden von der Mathematisch-Naturwissenschaftlichen und Medizinischen Fakultät im Rahmen der BeNeFri-Vereinbarung mit den Universitäten Neuenburg und Bern koordiniert. Das Praktikum in einem Unternehmen oder einer Institution ist obligatorisch. ECTS einen Master mit insgesamt 120 ECTS zu
+
+Master mit 120 ECTS Es besteht die Möglichkeit, durch ein zusätzliches Master-Nebenfach im Umfang von 30 erwerben, sofern die Zulassungsbedingungen erfüllt sind.
+
+<!-- image -->
+
+## Testimonials
+
+Fabian Hostettler Head of Information Security Consulting bei Ruag
+
+<!-- image -->
+
+Der Master in Wirtschaftsinformatik hat mir geholfen, technisches Verständnis mit ökonomischem Denken zu verbinden. Ich habe gelernt, analytisch, methodisch und strukturiert vorzugehen - genau jene Fähigkeiten, die in der Beratung besonders gefragt sind. So konnte ich mich in meiner Rolle in der Unternehmensberatung gezielt weiterentwickeln.
+
+Kesigan Thavarajasingam Fondateur &amp; Directeur
+
+<!-- image -->
+
+bei ABASOFT SA
+
+Der Master in Wirtschaftsinformatik vermittelt eine doppelte Kompetenz: Er bereitet sowohl auf die Herausforderungen des Business und des Projektmanagements vor als auch auf solide Grundlagen in Programmierung und Softwareentwicklung. Dadurch werden Fachleute ausgebildet, die in der Lage sind, Geschäftsanforderungen zu verstehen und passende technische Lösungen zu konzipieren.
+
+<!-- image -->
+
+## STUDIENBERATUNG UND INFORMATIONEN
+
+Wirtschafts- und sozialwissenschaftliche Fakultät
+
+Bd de Pérolles 90 CH-1700 Fribourg
+
+/phone
+
+<!-- image -->
+
+<!-- image -->
+
+at
+
+<!-- image -->
+
+/paper-plane
+
++41 (0) 26 300 82 00
+
+decanat-ses@unifr.ch
+
+www.unifr.ch/ses
+
+Fabian Muff IT Innovation Architect bei Information Service Center WBF ISCeco
+
+<!-- image -->
+
+Die Uni Fribourg bot mir grosse Freiheit, eigene Schwerpunkte zu setzen. In den kleinen Klassen schätzte ich den direkten Austausch mit den Dozierenden sehr. Das Studium vermittelte mir nicht nur Fachwissen, sondern ein tiefes Verständnis für Konzepte. Dieses vernetzte Denken hilft mir heute, Probleme schnell zu verstehen und zu lösen.
+
+## Berufsperspektiven
+
+Informatik, Betriebswirtschaftslehre, Innovation: Dieser Master bereitet Sie darauf vor, Schlüsselpositionen in Organisationen zu übernehmen, die sich in der digitalen Transformation befinden. Nutzen Sie Chancen in den Bereichen Informations- und Kommunikationstechnologien, Finanzwesen, Spitzentechnologien, Automatisierung, Gaming, Sport, Ingenieurwesen, Wissensmanagement, Kultur und Unterhaltung, Verwaltung oder Forschung.
+
+<!-- image -->
+
+## ANMELDUNG
+
+<!-- image -->

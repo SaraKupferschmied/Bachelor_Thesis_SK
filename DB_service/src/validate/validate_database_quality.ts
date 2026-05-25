@@ -71,8 +71,6 @@ const REQUIRED_COLUMNS: Record<string, string[]> = {
     "study_start",
     "faculty_id",
     "director",
-    "source_hints",
-    "source_faculty_key",
     "source_last_page_url",
     "name_en",
     "name_de",
@@ -489,7 +487,7 @@ async function studyProgramChecks(client: any) {
   }));
 
   samples["studyprogram_default_faculty_first_25"] = (await q(client, `
-    SELECT program_id, name, degree_level, total_ects, source_faculty_key, source_last_page_url
+    SELECT program_id, name, degree_level, total_ects, source_last_page_url
     FROM studyprogram
     WHERE faculty_id = 100
     ORDER BY name

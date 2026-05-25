@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_120_Digital_Neuroscience_Transition_in_Digital_Neuroscience_-_DN_3d4ef43d119935143f30a343d2b13f9f28576b9b",
+  "markdown": "<!-- image -->\n\nAnnexe to the study plans of the Faculty of Science and Medicine\n\nTransitional provisions\n\nSpecialised Master of Science in Digital Neuroscience\n\nApplicable from the academic year 2025-2026\n\nAccepted by the Faculty of Science and Medicine on 14.04.2025\n\nAccepted by the Faculty of Science and Medicine on 30.05.2022\n\n0\n\nO\n\n## Transitional provisions 2025-2026\n\nThese transitional provisions concern students whose reference programme is in a study plan prior to 2025, namely:\n\n- Specialised Master of Science in Digital Neuroscience (120 ECTS)\n\nThe following transitional provisions apply.\n\n## Cybernetic Systems: Bridging Brains, Machines and society (SDN.00006):\n\n- Students who have already made an attempt at exam of the course ' Data analytics in Python (I09.00013) ' and got an insufficient grade, can undergo the repetition exam of this course during the next exam session.\n- Students who have not yet attempted the exam of the course ' Data analytics in Python (I09.00013) ' , must follow the course ' Cvbernetic Systems: Bridging Brains, Machines and society (SDN.00006) ' .\n\n## Neural Decoding of EEG signals (L25.01822):\n\n- Students who have already succeeded at exam of the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' do not have to take the course ' Neural Decoding of EEG signals (L25.01822) ' .\n- Students who have not taken the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' , must follow the course ' Neural Decoding of EEG signals (L25.01822) ' .",
+  "pages": [
+    "<!-- image -->\n\nAnnexe to the study plans of the Faculty of Science and Medicine\n\nTransitional provisions\n\nSpecialised Master of Science in Digital Neuroscience\n\nApplicable from the academic year 2025-2026\n\nAccepted by the Faculty of Science and Medicine on 14.04.2025\n\nAccepted by the Faculty of Science and Medicine on 30.05.2022\n\n0\n\nO\n\n## Transitional provisions 2025-2026\n\nThese transitional provisions concern students whose reference programme is in a study plan prior to 2025, namely:\n\n- Specialised Master of Science in Digital Neuroscience (120 ECTS)\n\nThe following transitional provisions apply.\n\n## Cybernetic Systems: Bridging Brains, Machines and society (SDN.00006):\n\n- Students who have already made an attempt at exam of the course ' Data analytics in Python (I09.00013) ' and got an insufficient grade, can undergo the repetition exam of this course during the next exam session.\n- Students who have not yet attempted the exam of the course ' Data analytics in Python (I09.00013) ' , must follow the course ' Cvbernetic Systems: Bridging Brains, Machines and society (SDN.00006) ' .\n\n## Neural Decoding of EEG signals (L25.01822):\n\n- Students who have already succeeded at exam of the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' do not have to take the course ' Neural Decoding of EEG signals (L25.01822) ' .\n- Students who have not taken the course ' Advanced EEG workshop on Brain Decoding (L25.01590) ' , must follow the course ' Neural Decoding of EEG signals (L25.01822) ' ."
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Transitional provisions 2025-2026",
+      "line_index": 18,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Cybernetic Systems: Bridging Brains, Machines and society (SDN.00006):",
+      "line_index": 26,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Neural Decoding of EEG signals (L25.01822):",
+      "line_index": 31,
+      "source": "markdown_regex"
+    }
+  ]
+}

@@ -144,10 +144,10 @@ export class HomeComponent {
         error: (err) => {
           console.error('[Home] subscribe ERROR', err);
 
-          this.errorMessage = 'The chatbot request failed.';
+          this.errorMessage = this.dictionary().requestFailed;
           this.messages.push({
             role: 'assistant',
-            text: 'Sorry, I could not generate an answer right now.'
+            text: this.dictionary().answerFailed
           });
 
           this.cdr.detectChanges();
@@ -259,7 +259,7 @@ export class HomeComponent {
     const semesters = Number(this.studyProgramForm.semesters);
 
     if (!studyProgram || !Number.isInteger(semesters) || semesters < 1) {
-      this.errorMessage = 'Please enter a study program and a valid number of semesters.';
+      this.errorMessage = this.dictionary().studyProgramValidationError;
       return;
     }
 
@@ -299,10 +299,10 @@ export class HomeComponent {
         error: (err) => {
           console.error('[Home] study program planner ERROR', err);
 
-          this.errorMessage = 'The study program planning request failed.';
+          this.errorMessage = this.dictionary().studyProgramPlanningFailed;
           this.messages.push({
             role: 'assistant',
-            text: 'Sorry, I could not create the study program plan right now.'
+            text: this.dictionary().studyProgramPlanningFallback
           });
 
           this.cdr.detectChanges();

@@ -38,14 +38,73 @@ def _extract_json(text: str) -> dict[str, Any]:
     raise ValueError("No valid JSON found in planner output")
 
 
+LANGUAGE_WORDS = {
+    "en": ["english", "anglais", "englisch"],
+    "de": ["german", "deutsch", "allemand"],
+    "fr": ["french", "français", "francais", "franzoesisch", "französisch"],
+}
+
+STRUCTURED_SYNONYMS = {
+    "course": ["course", "courses", "module", "modules", "kurs", "kurse", "cours", "enseignement", "enseignements"],
+    "program": ["program", "programs", "programme", "programmes", "study program", "study programmes", "studiengang", "studiengänge", "studiengaenge", "studienprogramm", "programme d'études", "programme d’etudes"],
+    "mandatory": ["mandatory", "required", "pflicht", "pflichtfach", "obligatorisch", "obligatoire"],
+    "elective": ["elective", "wahl", "wahlfach", "optionnel", "à option", "a option"],
+    "autumn": ["autumn", "fall", "herbst", "herbstsemester", "automne", "semestre d'automne"],
+    "spring": ["spring", "frühling", "fruehling", "frühlingssemester", "fruehlingssemester", "printemps", "semestre de printemps"],
+    "bachelor": ["bachelor", "bachelorstudium", "baccalauréat", "baccalaureat"],
+    "master": ["master", "masterstudium", "maîtrise", "maitrise"],
+    "doctorate": ["doctorate", "phd", "doktorat", "doctorat"],
+}
+
+
+def _contains_any(text: str, words: list[str]) -> bool:
+    return any(w in text for w in words)
+
+
+def _detect_query_language(question: str) -> str:
+    q = question.lower()
+    if any(x in q for x in ["welche", "welcher", "studiengang", "kurse", "pflicht", "wahl", "deutsch", "herbst", "frühling", "fruehling"]):
+        return "de"
+    if any(x in q for x in ["quels", "quelles", "programme", "cours", "obligatoire", "optionnel", "français", "francais", "automne", "printemps"]):
+        return "fr"
+    return "en"
+
+
+def _localized_program_args(program_name: str | None, question: str) -> dict[str, str]:
+    if not program_name:
+        return {}
+    lang = _detect_query_language(question)
+    key = {"de": "program_de", "fr": "program_fr"}.get(lang, "program_en")
+    # q is a broad OR search in the backend. Keeping the language-specific field
+    # preserves precision while q makes mixed-language metadata robust.
+    return {key: program_name, "q": program_name}
+
+
+def _extract_requested_course_language(question: str) -> str | None:
+    q = question.lower()
+    if _contains_any(q, LANGUAGE_WORDS["en"]):
+        return "English"
+    if _contains_any(q, LANGUAGE_WORDS["de"]):
+        return "German"
+    if _contains_any(q, LANGUAGE_WORDS["fr"]):
+        return "French"
+    return None
+
+
 def _extract_course_code(question: str) -> str | None:
     match = re.search(r"\b[A-Z]{2}-[A-Z]\d{2}\.\d{5}\b", question)
     return match.group(0) if match else None
 
 
 def _clean_program_name(value: str) -> str | None:
-    value = re.sub(r"\b(with|having)?\s*\d{2,3}\s*ects\b.*$", "", value, flags=re.IGNORECASE)
-    value = re.sub(r"\b(program|programme|courses?|modules?|mandatory|elective|include|includes|including|first study year|first year|study year)\b.*$", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"\b(with|having|mit|avec)?\s*\d{2,3}\s*ects\b.*$", "", value, flags=re.IGNORECASE)
+    value = re.sub(
+        r"\b(program|programme|studiengang|studiengänge|studiengaenge|courses?|modules?|kurse?|cours|mandatory|elective|pflicht|wahl|obligatoire|optionnel|include|includes|including|first study year|first year|study year|studienjahr|année|annee)\b.*$",
+        "",
+        value,
+        flags=re.IGNORECASE,
+    )
+    value = re.sub(r"^(im|in|dans|dans le|dans la|du|de la|des|für|fuer|for|of)\s+", "", value, flags=re.IGNORECASE)
     value = value.strip(" ?.,;:-")
     if not value or value.lower() in {"level", "program", "programs", "course", "courses"}:
         return None
@@ -71,10 +130,19 @@ def _extract_program_name(question: str) -> str | None:
     if strong and "level" not in strong.group(1).lower():
         return _clean_program_name(strong.group(1))
 
-    # Fallback for "courses in Business Informatics".
-    fallback = re.search(r"\b(?:courses?|modules?)\s+(?:in|for|of)\s+(.+?)(?:\?|$)", question, flags=re.IGNORECASE)
-    if fallback:
-        return _clean_program_name(fallback.group(1))
+    # Fallbacks for English/German/French phrasing.
+    fallback_patterns = [
+        r"\b(?:courses?|modules?)\s+(?:in|for|of)\s+(.+?)(?:\?|$)",
+        r"\b(?:kurse?|module?)\s+(?:im|in|für|fuer)\s+(.+?)(?:\?|$)",
+        r"\b(?:cours|enseignements?)\s+(?:dans|du|de la|des|en|pour)\s+(.+?)(?:\?|$)",
+        r"\b(?:studiengang|studienprogramm|programme d['’]études|programme d['’]etudes)\s+(.+?)(?:\?|$)",
+    ]
+    for pattern in fallback_patterns:
+        fallback = re.search(pattern, question, flags=re.IGNORECASE)
+        if fallback:
+            cleaned = _clean_program_name(fallback.group(1))
+            if cleaned:
+                return cleaned
 
     return None
 
@@ -106,20 +174,20 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
     code = _extract_course_code(question)
     if code:
         return {
-            "mode": "tool",
+            "mode": "api",
             "tool_calls": [{"tool": "get_course_by_code", "args": {"code": code}}],
             "reason": "Fast structured rule: exact course code",
         }
 
-    wants_programs = any(word in q for word in ["program", "programs", "study programs", "studienprogramme", "studiengang"])
-    wants_courses = any(word in q for word in ["course", "courses", "module", "modules", "kurs", "kurse"])
+    wants_programs = _contains_any(q, STRUCTURED_SYNONYMS["program"])
+    wants_courses = _contains_any(q, STRUCTURED_SYNONYMS["course"])
 
     degree_level = None
-    if "bachelor" in q:
+    if _contains_any(q, STRUCTURED_SYNONYMS["bachelor"]):
         degree_level = "Bachelor"
-    elif "master" in q:
+    elif _contains_any(q, STRUCTURED_SYNONYMS["master"]):
         degree_level = "Master"
-    elif "doctorate" in q or "phd" in q:
+    elif _contains_any(q, STRUCTURED_SYNONYMS["doctorate"]):
         degree_level = "Doctorate"
 
     program_type = None
@@ -136,40 +204,36 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
         program_name = _extract_program_name(question)
 
         # Generic course list by course ECTS, not program total ECTS.
-        if not program_name and not degree_level and not program_type and total_ects is not None and not any(x in q for x in ["mandatory", "elective", "pflicht", "wahl"]):
+        if not program_name and not degree_level and not program_type and total_ects is not None and not (_contains_any(q, STRUCTURED_SYNONYMS["mandatory"]) or _contains_any(q, STRUCTURED_SYNONYMS["elective"])):
             return {
-                "mode": "tool",
+                "mode": "api",
                 "tool_calls": [{"tool": "get_courses", "args": {"ects": total_ects, "limit": 500}}],
                 "reason": "Fast structured rule: course ECTS filter",
             }
 
         args: dict[str, Any] = {"limit": 500}
-        if program_name:
-            args["program_en"] = program_name
+        args.update(_localized_program_args(program_name, question))
         if degree_level:
             args["degree_level"] = degree_level
         if total_ects is not None:
             args["total_ects"] = total_ects
         if program_type:
             args["program_type"] = program_type
-        if "mandatory" in q or "pflicht" in q:
+        if _contains_any(q, STRUCTURED_SYNONYMS["mandatory"]):
             args["course_type"] = "Mandatory"
-        elif "elective" in q or "wahl" in q:
+        elif _contains_any(q, STRUCTURED_SYNONYMS["elective"]):
             args["course_type"] = "Elective"
-        if "autumn" in q or "fall" in q or "herbst" in q:
+        if _contains_any(q, STRUCTURED_SYNONYMS["autumn"]):
             args["semester_type"] = "Autumn"
-        elif "spring" in q or "frühling" in q or "printemps" in q:
+        elif _contains_any(q, STRUCTURED_SYNONYMS["spring"]):
             args["semester_type"] = "Spring"
-        if "english" in q:
-            args["language"] = "English"
-        elif "german" in q or "deutsch" in q:
-            args["language"] = "German"
-        elif "french" in q or "français" in q:
-            args["language"] = "French"
+        requested_language = _extract_requested_course_language(question)
+        if requested_language:
+            args["language"] = requested_language
 
         if program_name or degree_level or total_ects is not None or program_type or args.get("course_type"):
             return {
-                "mode": "tool",
+                "mode": "api",
                 "tool_calls": [{"tool": "get_program_courses_by_metadata", "args": args}],
                 "reason": "Fast structured rule: program-course query by metadata",
             }
@@ -183,7 +247,7 @@ def _fast_structured_plan(question: str) -> dict[str, Any] | None:
         if total_ects is not None:
             args["total_ects"] = total_ects
         return {
-            "mode": "tool",
+            "mode": "api",
             "tool_calls": [{"tool": "get_programs", "args": args}],
             "reason": "Fast structured rule: program listing/filter query",
         }
@@ -220,7 +284,7 @@ User question:
 
 Return ONLY valid JSON in this exact format:
 {{
-  "mode": "tool" | "rag" | "hybrid",
+  "mode": "api" | "rag" | "hybrid",
   "tool_calls": [
     {{
       "tool": "tool_name",
@@ -231,7 +295,7 @@ Return ONLY valid JSON in this exact format:
 }}
 
 Rules:
-- Use "tool" when backend tools can answer the question with structured data.
+- Use "api" when backend tools can answer the question with structured data.
 - Use "rag" for regulations, policy, explanatory document questions, or questions about rules.
 - Use "hybrid" when both structured backend data and document context are needed.
 - Use get_course_by_code for one exact course code or a follow-up about one known course.
@@ -240,6 +304,8 @@ Rules:
 - Use get_program_by_id when the id is known.
 - Use get_program_courses when the user asks for courses of a known program id. For ECTS comparisons pass ects as strings like ">6" or "<3".
 - Use get_program_courses_by_metadata when the user asks for courses in a named program but no id is known. This is the best DB tool for mandatory/elective courses in Bachelor/Master X with Y ECTS.
+- For German/French user questions, keep the original program name in the matching localized argument: program_de for German wording, program_fr for French wording, program_en for English wording. Also set q to the same program text when useful.
+- Normalize requested teaching-language filters: Deutsch/allemand -> German, français/francais -> French, Englisch/anglais -> English.
 - Use get_program_course_sections when the user asks for section headings, proposed study year, or consists-of table metadata for a known program id.
 - Use get_program_docs when the user asks for official documents of a known program.
 - Use get_offerings when the user asks what is offered in a given semester.
@@ -264,8 +330,8 @@ Rules:
         plan["mode"] = plan.pop("decision")
 
     for call in plan.get("tool_calls", []):
-        if "name" in call and "tool" not in call:
-            call["tool"] = call.pop("name")
+        if "name" in call and "api" not in call:
+            call["api"] = call.pop("name")
         if "arguments" in call and "args" not in call:
             call["args"] = call.pop("arguments")
 

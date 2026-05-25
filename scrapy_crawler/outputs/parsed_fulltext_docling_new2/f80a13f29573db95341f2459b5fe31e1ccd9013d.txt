@@ -1,0 +1,70 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T16:49:19.366Z",
+  "title": "f80a13f29573db95341f2459b5fe31e1ccd9013d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f80a13f29573db95341f2459b5fe31e1ccd9013d",
+  "program_key": "fakultät für erziehungs- und bildungswissenschaften|master|106|teacher education for secondary level i and baccalaureate schools",
+  "programme_name_en": "Teacher Education for Secondary Level I and Baccalaureate Schools",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Sekundarstufe I und an Maturitätsschulen",
+  "programme_name_fr": "Formation à l'enseignement pour le degré secondaire I et les écoles de maturité",
+  "level": "Master",
+  "ects_points": 106,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufe%20I_studienplan%20.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_en": "https://studies.unifr.ch/en/master/teach/teacheredu1-2",
+  "programme_url_de": "https://studies.unifr.ch/de/master/teach/teacheredu1-2",
+  "programme_url_fr": "https://studies.unifr.ch/fr/master/teach/teacheredu1-2",
+  "curriculum_url": null,
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\f80a13f29573db95341f2459b5fe31e1ccd9013d.pdf",
+  "sha256": "ecbbc0939013d1ce507a9630dfeaaeebaa8f63478db6490f1e879eec343ce411",
+  "fetched_at": "2026-05-21T16:05:16.115Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Lehrdiplom_stufe%20I_studienplan%20.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+## Lehrdiplom für die Sekundarstufe I für das Fach 'Ethik, Religionen, Gemeinschaft (mit Lebenskunde)' (LDS I) Studienprogramm 'Religionslehre' Diplôme d'aptitude à l'enseignement au sec. I en « Ethique et cultures religieuses » (DAES I) Programme d'études « Enseignement religieux »
+
+BACHELOR OF ARTS FÜR DIE WISSENSCHAFTLICHE AUSBILDUNG IN UNTERRICHTSFÄCHERN DER SEKUNDARSTUFE I BACHELOR  OF  ARTS  POUR  LA  FORMATION  SCIENTIFIQUE  DANS  LES  BRANCHES ENSEIGNABLES AU DEGRÉ SECONDAIRE I (50 CP ** ) http://www3.unifr.ch/zelf/de/ und/et http://www3.unifr.ch/cerf/fr/
+
+## **8 ECTS en didactique / 8 ECTS in Didaktik
+
+| Gebiet/Matière                                                                                                                                              | SWS                                                                    | Evaluation   |   CP |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------|------|
+| 1. Propädeutik/Propédeutique                                                                                                                                |                                                                        |              |    6 |
+| Einführung in das Studium der Theologie und das christliche Glaubensbekenntnis/Introduction à la foi et aux études de théol.                                | 2                                                                      | Ev           |    3 |
+| Fundamentaltheologie/Théologie fondamentale: Theologie der Religionen - Interreligiöser Dialog/Théologie des religions - dialogue interreligieux            | 2                                                                      | Ev           |    3 |
+| 2. Biblische Studien/Études bibliques                                                                                                                       |                                                                        |              |    6 |
+| Einführung/Introduction AT                                                                                                                                  | 2                                                                      | Ev           |    3 |
+| Einführung/Introduction NT                                                                                                                                  | 2                                                                      | Ev           |    3 |
+| 3. Patristik und Kirchengeschichte/Patristique et Histoire de l'Église                                                                                      | 3. Patristik und Kirchengeschichte/Patristique et Histoire de l'Église |              |    6 |
+| Das Christentum in Antike und Spätantike/Le christianisme dans l'antiquité et dans l'antiquité tardive                                                      | 2                                                                      | Ev           |    3 |
+| Mittelalter, Neuzeit und Zeitgeschichte/Époque médiévale, moderne et contemporaine                                                                          | 2                                                                      | Ev           |    3 |
+| 4. Christlicher Glaube und christliche Ethik/Foi et éthique chrétienne                                                                                      | 4. Christlicher Glaube und christliche Ethik/Foi et éthique chrétienne |              |    9 |
+| Einführung in die Ökumene/Introduction à l'œcuménisme                                                                                                       | 1                                                                      | Ev           |    1 |
+| Dogmatik (vorzugsweise Gottes-/Trinitätslehre oder Christolo- gie)/Théol. dogmatique (de préférence Trinité ou christologie)                                | 3                                                                      | Ev           |    4 |
+| Theologische Ethik/Théologie morale                                                                                                                         | 3                                                                      | Ev           |    4 |
+| 5. Religionswissenschaft/Science des religions                                                                                                              |                                                                        |              |    5 |
+| Einführung in die grossen Religionen (Judentum, Islam, Buddhismus, Hinduismus)/Introduction aux grandes religions (judaïsme, islam, bouddhisme, hindouisme) | 2                                                                      | Ev           |    3 |
+| Exemplarische Vertiefung einer Religion/Approfondissement exemplaire d'une religion                                                                         | 1                                                                      | Ev           |    2 |
+| 7. Praktische Theologie/Théologie pratique                                                                                                                  |                                                                        |              |    9 |
+| Einführung in die Liturgiewissenschaft/Introduction aux sciences liturgiques                                                                                | 2                                                                      | Ev           |    3 |
+
+| Einführung in die Pastoraltheologie/Introd. à la théol.pastorale                                                                                                                                         | 2                                           | Ev                                          |   3 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------|-----|
+| Religionspädagogik/Pédagogie religieuse oder/ou Didaktische Übungen/Exercices didactiques*                                                                                                               | 2                                           | Ev                                          |   3 |
+| 8. Didaktik/Didactique*                                                                                                                                                                                  | 8. Didaktik/Didactique*                     | 8. Didaktik/Didactique*                     |   3 |
+| Cours didactiques* (CERF)/Didaktik*LDS                                                                                                                                                                   | 2                                           | Ev                                          |   3 |
+| 9. Wahlpflichtgebiet(e)/Matière(s) au choix                                                                                                                                                              | 9. Wahlpflichtgebiet(e)/Matière(s) au choix | 9. Wahlpflichtgebiet(e)/Matière(s) au choix |   6 |
+| Seminar/Séminaire davon 2 ECTS Didaktik* mit einem didaktischen/pädagogi- schen Zugang in der Seminararbeit/dont 2 ECTS didactique* par une approche didactique/pédagogique dans le travail de séminaire | 2                                           | schriftl. Arbeit/tr. écrit                  |   4 |
+| Wahlbereich/programme d'option                                                                                                                                                                           |                                             | Ev                                          |   2 |
+| Insgesamt/en tout :                                                                                                                                                                                      | Insgesamt/en tout :                         | Insgesamt/en tout :                         |  50 |
+
+Stand/Etat : 21.8.2019

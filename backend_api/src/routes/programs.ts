@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { query } from "../db.js";
 
 type ProgramsListQuery = {
+  name?: string;
   name_en?: string;
   name_de?: string;
   name_fr?: string;
@@ -38,6 +39,7 @@ type ProgramCoursesQuery = {
   name_contains?: string;
   mobility?: string;
   soft_skills?: string;
+  section_contains?: string;
   limit?: string;
 };
 
@@ -99,6 +101,30 @@ function toFloat(value: unknown): number | null {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
+async function getProgramDocuments(programIds: number[]) {
+  const uniqueIds = [...new Set(programIds.filter((id) => Number.isInteger(id)))];
+  if (uniqueIds.length === 0) return [];
+
+  return query(
+    `
+    SELECT
+      pd.program_id,
+      COALESCE(jsonb_agg(jsonb_build_object(
+        'doc_id', pd.doc_id,
+        'label', pd.label,
+        'url', pd.url,
+        'doc_type', pd.doc_type,
+        'fetched_at', pd.fetched_at
+      ) ORDER BY pd.fetched_at DESC NULLS LAST, pd.doc_id DESC), '[]'::jsonb) AS program_documents
+    FROM programDocument pd
+    WHERE pd.program_id = ANY($1::int[])
+    GROUP BY pd.program_id
+    ORDER BY pd.program_id
+    `,
+    [uniqueIds]
+  );
+}
+
 export async function programsRoutes(app: FastifyInstance) {
   // ============================
   // GET /programs
@@ -113,6 +139,7 @@ export async function programsRoutes(app: FastifyInstance) {
         querystring: {
           type: "object",
           properties: {
+            name: { type: "string", description: "Generic name search across EN/DE/FR/default program names" },
             name_en: { type: "string" },
             name_de: { type: "string" },
             name_fr: { type: "string" },
@@ -149,6 +176,7 @@ export async function programsRoutes(app: FastifyInstance) {
     },
     async (req) => {
       const {
+        name,
         name_en,
         name_de,
         name_fr,
@@ -183,13 +211,31 @@ export async function programsRoutes(app: FastifyInstance) {
           END AS program_type,
           p.study_start,
           p.faculty_id,
-          f.name_en AS faculty_name
+          f.name_en AS faculty_name,
+          COALESCE((
+            SELECT jsonb_agg(jsonb_build_object(
+              'doc_id', d.doc_id,
+              'label', d.label,
+              'url', d.url,
+              'doc_type', d.doc_type,
+              'fetched_at', d.fetched_at
+            ) ORDER BY d.fetched_at DESC NULLS LAST, d.doc_id DESC)
+            FROM programDocument d
+            WHERE d.program_id = p.program_id
+          ), '[]'::jsonb) AS program_documents
         FROM StudyProgram p
         LEFT JOIN Faculty f
           ON f.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
-          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%' OR p.name ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%' OR p.name ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%' OR p.name ILIKE '%' || $3 || '%')
+          AND (
+            $11::text IS NULL
+            OR p.name ILIKE '%' || $11 || '%'
+            OR p.name_en ILIKE '%' || $11 || '%'
+            OR p.name_de ILIKE '%' || $11 || '%'
+            OR p.name_fr ILIKE '%' || $11 || '%'
+          )
           AND ($4::text IS NULL OR p.degree_level = $4)
           AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (
@@ -233,6 +279,7 @@ export async function programsRoutes(app: FastifyInstance) {
           totalEctsFilter.value,
           totalEctsFilter.operator,
           program_type ?? null,
+          name ?? null,
         ]
       );
     }
@@ -347,7 +394,7 @@ export async function programsRoutes(app: FastifyInstance) {
       const totalEctsFilter = parseNumericFilter(total_ects, total_ects_operator);
       const courseEctsFilter = parseNumericFilter(ects, ects_operator);
 
-      return query(
+      const rows = await query(
         `
         SELECT DISTINCT
           c.*,
@@ -382,9 +429,9 @@ export async function programsRoutes(app: FastifyInstance) {
           ON d.domain_id = c.domain_id
         LEFT JOIN Faculty pf
           ON pf.faculty_id = p.faculty_id
-        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%')
-          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%')
-          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%')
+        WHERE ($1::text IS NULL OR p.name_en ILIKE '%' || $1 || '%' OR p.name ILIKE '%' || $1 || '%')
+          AND ($2::text IS NULL OR p.name_de ILIKE '%' || $2 || '%' OR p.name ILIKE '%' || $2 || '%')
+          AND ($3::text IS NULL OR p.name_fr ILIKE '%' || $3 || '%' OR p.name ILIKE '%' || $3 || '%')
           AND ($4::text IS NULL OR p.degree_level = $4)
           AND ($5::int IS NULL OR p.faculty_id = $5)
           AND (
@@ -516,6 +563,15 @@ export async function programsRoutes(app: FastifyInstance) {
           q ? `%${String(q).trim()}%` : null,
         ]
       );
+
+      const program_documents = await getProgramDocuments(
+        rows.map((row: any) => Number(row.program_id))
+      );
+
+      return {
+        program_documents,
+        courses: rows,
+      };
     }
   );
 
@@ -586,11 +642,11 @@ export async function programsRoutes(app: FastifyInstance) {
         soft_skills,
         section_contains,
         limit,
-      } = (req.query as ProgramCoursesQuery & { section_contains?: string }) ?? {};
+      } = (req.query as ProgramCoursesQuery) ?? {};
 
       const courseEctsFilter = parseNumericFilter(ects, ects_operator);
 
-      return query(
+      const rows = await query(
         `
         SELECT DISTINCT
           c.*,
@@ -619,7 +675,7 @@ export async function programsRoutes(app: FastifyInstance) {
           )
           AND (
             $4::float IS NULL
-            OR CASE $15::text
+            OR CASE $16::text
               WHEN 'lt' THEN c.ects < $4
               WHEN 'lte' THEN c.ects <= $4
               WHEN 'gt' THEN c.ects > $4
@@ -667,8 +723,9 @@ export async function programsRoutes(app: FastifyInstance) {
                 AND l.description ILIKE $13
             )
           )
+          AND ($14::text IS NULL OR co.description ILIKE $14)
         ORDER BY c.code
-        LIMIT COALESCE($14::int, 100)
+        LIMIT COALESCE($15::int, 100)
         `,
         [
           toInt(id),
@@ -689,6 +746,13 @@ export async function programsRoutes(app: FastifyInstance) {
           courseEctsFilter.operator,
         ]
       );
+
+      const program_documents = await getProgramDocuments([toInt(id) ?? -1]);
+
+      return {
+        program_documents: program_documents[0]?.program_documents ?? [],
+        courses: rows,
+      };
     }
   );
 
@@ -763,7 +827,7 @@ export async function programsRoutes(app: FastifyInstance) {
 
       const sectionExpression = `co.${sectionColumn}`;
 
-      return query(
+      const rows = await query(
         `
         SELECT
           co.program_id,
@@ -797,49 +861,13 @@ export async function programsRoutes(app: FastifyInstance) {
           toInt(limit) ?? 100,
         ]
       );
-    }
-  );
 
-  // ============================
-  // GET /programs/:id/docs
-  // ============================
-  app.get(
-    "/:id/docs",
-    {
-      schema: {
-        summary: "Get documents for a specific program id",
-        params: {
-          type: "object",
-          required: ["id"],
-          properties: {
-            id: { type: "integer" },
-          },
-        },
-        querystring: {
-          type: "object",
-          properties: {
-            doc_type: {
-              type: "string",
-              enum: ["study_plan", "regulation", "brochure", "other"],
-            },
-          },
-        },
-      },
-    },
-    async (req) => {
-      const { id } = req.params as { id: string };
-      const { doc_type } = (req.query as { doc_type?: string }) ?? {};
+      const program_documents = await getProgramDocuments([toInt(id) ?? -1]);
 
-      return query(
-        `
-        SELECT *
-        FROM programDocument
-        WHERE program_id = $1
-          AND ($2::text IS NULL OR doc_type = $2)
-        ORDER BY fetched_at DESC NULLS LAST
-        `,
-        [toInt(id), doc_type ?? null]
-      );
+      return {
+        program_documents: program_documents[0]?.program_documents ?? [],
+        course_sections: rows,
+      };
     }
   );
 
@@ -867,7 +895,18 @@ export async function programsRoutes(app: FastifyInstance) {
         `
         SELECT 
           p.*,
-          f.name_en AS faculty_name
+          f.name_en AS faculty_name,
+          COALESCE((
+            SELECT jsonb_agg(jsonb_build_object(
+              'doc_id', d.doc_id,
+              'label', d.label,
+              'url', d.url,
+              'doc_type', d.doc_type,
+              'fetched_at', d.fetched_at
+            ) ORDER BY d.fetched_at DESC NULLS LAST, d.doc_id DESC)
+            FROM programDocument d
+            WHERE d.program_id = p.program_id
+          ), '[]'::jsonb) AS program_documents
         FROM StudyProgram p
         LEFT JOIN Faculty f
           ON f.faculty_id = p.faculty_id

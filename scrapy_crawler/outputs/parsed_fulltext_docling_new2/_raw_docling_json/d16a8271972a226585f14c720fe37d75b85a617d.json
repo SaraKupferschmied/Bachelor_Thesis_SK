@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Management_MA_30_ECTS_Betriebswirtschaftslehre_d16a8271972a226585f14c720fe37d75b85a617d",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Masternebenfach 30 ECTS\n\n## Betriebswirtschaftslehre\n\n<!-- image -->\n\n## ZULASSUNGSBEDINGUNGEN\n\nMindestens 60 ECTS in Kursen der Betriebswirtschaftslehre, welche dem BA-Nebenfach der Fakultät entsprechen. Studenten, die im Master in Betriebswirtschaftslehre (90 ECTS) eingeschrieben sind, können nicht zu diesem MA-Nebenfach zugelassen werden.\n\n## KURSANGEBOT\n\nInformationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.\n\n## WEITERE INFO\n\nWenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Masternebenfach 30 ECTS\n\n## Betriebswirtschaftslehre\n\n<!-- image -->\n\n## ZULASSUNGSBEDINGUNGEN\n\nMindestens 60 ECTS in Kursen der Betriebswirtschaftslehre, welche dem BA-Nebenfach der Fakultät entsprechen. Studenten, die im Master in Betriebswirtschaftslehre (90 ECTS) eingeschrieben sind, können nicht zu diesem MA-Nebenfach zugelassen werden.\n\n## KURSANGEBOT\n\nInformationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.\n\n## WEITERE INFO\n\nWenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden."
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Masternebenfach 30 ECTS",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Betriebswirtschaftslehre",
+      "line_index": 8,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "ZULASSUNGSBEDINGUNGEN",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "KURSANGEBOT",
+      "line_index": 16,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "WEITERE INFO",
+      "line_index": 20,
+      "source": "markdown_regex"
+    }
+  ]
+}

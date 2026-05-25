@@ -9,7 +9,13 @@ export interface SourceSnippet {
   snippet: string;
   page?: number;
   source_type: 'pdf' | 'api';
-  metadata?: Record<string, any>;
+  doc_key?: string;
+  source_url?: string;
+  metadata?: {
+    source_url?: string;
+    [key: string]: any;
+  };
+  documents?: Record<string, any>[];
 }
 
 export interface AskResponse {

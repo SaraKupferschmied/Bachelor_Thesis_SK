@@ -1197,8 +1197,7 @@ export async function plannerRoutes(app: FastifyInstance) {
         display_name: string | null;
         degree_level: string | null;
         total_ects: number | null;
-        min_elective_ects: number | null;
-        max_elective_ects: number | null;
+        elective_ects: string | null;
       }>(
         `
         SELECT
@@ -1206,8 +1205,7 @@ export async function plannerRoutes(app: FastifyInstance) {
           ${nameExpr} AS display_name,
           p.degree_level,
           p.total_ects,
-          p.min_elective_ects,
-          p.max_elective_ects
+          p.elective_ects
         FROM StudyProgram p
         WHERE p.program_id = $1
         `,
@@ -1485,153 +1483,6 @@ export async function plannerRoutes(app: FastifyInstance) {
           ...session,
           weekday: new Date(session.date).toLocaleDateString("de-CH", { weekday: "long" })
         }))
-      };
-    }
-  );
-
-  app.post(
-    "/context",
-    {
-      schema: {
-        tags: ["Planner"],
-        summary: "Get DB-backed context for semester planning",
-        description:
-          "Returns program info, program requirements, course master data, offerings for the given semester, and sessions (for block-time data).",
-        body: {
-          type: "object",
-          required: ["program_id", "sem_id"],
-          properties: {
-            program_id: { type: "integer" },
-            sem_id: { type: "string" },
-            include_types: {
-              type: "array",
-              items: { type: "string", enum: ["Mandatory", "Elective"] },
-              default: ["Mandatory", "Elective"],
-            },
-            include_flags: {
-              type: "object",
-              properties: {
-                mobility: { type: "boolean" },
-                soft_skills: { type: "boolean" },
-                outside_domain: { type: "boolean" },
-                benefri: { type: "boolean" },
-                unipop: { type: "boolean" },
-              },
-              additionalProperties: false,
-              default: {},
-            },
-          },
-          additionalProperties: false,
-        },
-        response: {
-          200: { type: "object" },
-          404: {
-            type: "object",
-            properties: { error: { type: "string" } },
-          },
-        },
-      },
-    },
-    async (req, rep) => {
-      const b = PlannerContextBody.parse(req.body);
-
-      const programRows = await query<ProgramRow>(
-        `SELECT program_id, name, degree_level, total_ects, faculty_id, study_start
-         FROM StudyProgram
-         WHERE program_id = $1`,
-        [b.program_id]
-      );
-      if (programRows.length === 0) {
-        return rep.code(404).send({ error: "Program not found" });
-      }
-      const program = programRows[0]!;
-
-      const reqs = await query<RequirementRow>(
-        `SELECT program_id, code, course_type
-         FROM consist_of
-         WHERE program_id = $1
-           AND course_type = ANY($2::text[])
-         ORDER BY course_type, code`,
-        [b.program_id, b.include_types]
-      );
-
-      const codes = reqs.map((r) => r.code);
-      if (codes.length === 0) {
-        return {
-          program,
-          semester: b.sem_id,
-          requirements: [],
-          courses: [],
-          offerings: [],
-          sessions: [],
-        };
-      }
-
-      const f = b.include_flags;
-      const courses = await query<CourseRow>(
-        `
-        SELECT code, name, ects, faculty_id, domain_id,
-               mobility, soft_skills, outside_domain, benefri, unipop
-        FROM Course
-        WHERE code = ANY($1::text[])
-          AND ($2::boolean IS NULL OR mobility = $2)
-          AND ($3::boolean IS NULL OR soft_skills = $3)
-          AND ($4::boolean IS NULL OR outside_domain = $4)
-          AND ($5::boolean IS NULL OR benefri = $5)
-          AND ($6::boolean IS NULL OR unipop = $6)
-        ORDER BY code
-        `,
-        [
-          codes,
-          f.mobility ?? null,
-          f.soft_skills ?? null,
-          f.outside_domain ?? null,
-          f.benefri ?? null,
-          f.unipop ?? null,
-        ]
-      );
-
-      const filteredCodes = courses.map((c) => c.code);
-
-      const offerings = await query<OfferingRow>(
-        `
-        SELECT offering_id, code, sem_id, offering_type, day_time_info, link_course_catalogue
-        FROM CourseOffering
-        WHERE sem_id = $1
-          AND code = ANY($2::text[])
-        ORDER BY code, offering_id
-        `,
-        [b.sem_id, filteredCodes]
-      );
-
-      const offeringIds = offerings.map((o) => o.offering_id);
-
-      const sessions = offeringIds.length
-        ? await query<SessionRow>(
-            `
-            SELECT offering_id,
-                   date::text AS date,
-                   start_time::text AS start_time,
-                   end_time::text AS end_time,
-                   room_id,
-                   unit_type
-            FROM Session
-            WHERE offering_id = ANY($1::int[])
-            ORDER BY date, start_time
-            `,
-            [offeringIds]
-          )
-        : [];
-
-      const filteredReqs = reqs.filter((r) => filteredCodes.includes(r.code));
-
-      return {
-        program,
-        semester: b.sem_id,
-        requirements: filteredReqs,
-        courses,
-        offerings,
-        sessions,
       };
     }
   );

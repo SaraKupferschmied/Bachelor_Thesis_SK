@@ -1,0 +1,78 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:32:25.483Z",
+  "title": "matched_Faculty_of_Theology_Bachelor_30_Theology_Flyer_e6b09c291a066c92c8c66c0418692b4e8685549c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e6b09c291a066c92c8c66c0418692b4e8685549c",
+  "program_key": "faculty of theology|bachelor|30|theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/brochures/A5_Theologie_30_Plus_D_BAT.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_30_Theology_Flyer_e6b09c291a066c92c8c66c0418692b4e8685549c.pdf",
+  "sha256": "50f0cb813c4b8a093c96339898e23401cc3129b90dc665f868bd7d8857d0ad05",
+  "fetched_at": "2026-05-21T16:05:40.650Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/brochures/A5_Theologie_30_Plus_D_BAT.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Informatie
+
+www.unifr.ch/theo
+
+Dekanat der Theologischen Fakultät +41 26 300 73 70
+
+email : decanat­theol@unifr.ch
+
+Mo-Di-Do-: ganztägig
+
+Mi-: morgens
+
+Empfang-: Di 13---15-Uhr, Mi---Do 9.30---11-Uhr oder nach Vereinbarung
+
+MIS 1225 Av. de l'Europe 20 1700 Freiburg
+
+<!-- image -->
+
+<!-- image -->
+
+## Zulassung 30+
+
+Sie haben den Wunsch, über den Sinn Ihrer Existenz nachzudenken oder über eine berufliche oder persönliche Umorientierung; oder Sie möchten einfach Ihren Ruhe­ stand intellektuell aufwerten. Dafür bietet Freiburg eine besondere Möglichkeit: sich nach dem Ablegen einer Zulassungsprüfung auch ohne Matura als ordentliche Stu­ dentin oder ordentlicher Student einschreiben zu können, unter der Bedingung, dass Sie mindestens 30 Jahre alt sind.
+
+## Sich für ein Studium an der Theologischen Fakultät in Freiburg entscheiden, um sich selbst zu bereichern, weil:
+
+- Eine Besonderheit von Freiburg für Personen über 30 Jahre: Möglichkeit zur Ein­ schreibung in der Theologischen Fakultät als ordentliche Studentin oder ordentli­ cher Student in Theologie oder Interreligiöse Studien, nach Ablegung eines Zulas­ sungstests (Analyse eines theologischen Textes und Überprüfung der Kenntnisse in deutscher Sprache).
+- Der Studienablauf für die Studierenden 30+ ist anpassungsfähig: er kann «à la carte» gestaltet werden und zu den üblichen akademischen Diplomen führen.
+- Eine  gute  Gelegenheit, nach einer ersten beruflichen Ausbildung und Erfahrung einige Jahre dem Studium der Theologie oder den Interreligiösen Studien zu wid­ men, zum Nachdenken über den Sinn des Lebens oder zur Neuorientierung des Berufslebens.
+- Die  Theologie  und  die  Interreligiösen  Studien  können  mit  anderen  Disziplinen kombiniert werden.
+- Die Studierenden 30+ profitieren von der Präsenz jüngerer Studierender und können diese ihrerseits mit ihrer Erfahrung und Lebensweisheit bereichern. So entsteht zwischen  den  Alterstufen  ein  Austausch,  der  dem  Studium  eine  wohltuende menschliche und existentielle Tiefe verleiht.
+
+## Anmeldefrist: 1. März!
+
+## Kirchliches Diplom
+
+Das Studium der Theologie als Vollprogramm, das mit dem Kirchlichen Diplom nach 5 Jahren abgeschlossen wird, ist ein von der Schweizer Bischofskonferenz anerkannter nicht­akademischer Studiengang, der auf den kirchlichen Dienst vorbereitet.
+
+Das Studienprogramm orientiert sich eng an den akademischen Studiengängen Ba­ chelor of Theology und Master of Theology, stellt allerdings geringere Anforderungen in  den  Studienleistungen  und  den  Leistungsüberprüfungen und ist ausgerichtet auf Kenntnisse und Fähigkeiten im Bereich kirchlichen Handelns.
+
+Studierende  im  Studiengang  Kirchliches  Diplom,  die  ihr  Zwischenexamen  mit  einer Gesamtnote  von  mindestens  5,5  abschliessen,  können  zum  Studiengang  Bachelor of  Theology  zugelassen werden. Zur Erlangung des Studienabschlusses Bachelor of Theology ist normalerweise ein zusätzliches Studienjahr erforderlich sowie der Nach­ weis über die geforderten alten Sprachen.
+
+## Anmeldeverfahren für das Kirchliche Diplom:
+
+- Motivationsschreiben des Kandidaten/der Kandidatin
+- Empfehlungsschreiben einer kirchlichen Institution
+- Curriculum vitae
+- Kandidaten/Kandidatinnen mit einer anderen Muttersprache als Deutsch und Französisch: Nachweis über Sprachniveau B2 für die gewünschte Studiensprache
+
+## Anmeldefrist: 30. April!
+
+<!-- image -->

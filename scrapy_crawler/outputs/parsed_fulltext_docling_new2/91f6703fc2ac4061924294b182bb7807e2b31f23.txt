@@ -1,0 +1,95 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:24:09.250Z",
+  "title": "matched_Faculty_of_Theology_Bachelor_180_Theology_Bachelor_of_Theology_180_ECTS_ab_HS_2023__91f6703fc2ac4061924294b182bb7807e2b31f23",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "91f6703fc2ac4061924294b182bb7807e2b31f23",
+  "program_key": "faculty of theology|bachelor|180|theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/2025-2026/Theologie%20BA%20180%2020250904.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Bachelor_180_Theology_Bachelor_of_Theology_180_ECTS_ab_HS_2023__91f6703fc2ac4061924294b182bb7807e2b31f23.pdf",
+  "sha256": "67c36803c6c4cbc0fc5923f688f9b6065d8be3fc0d52c39fff51310b515b231b",
+  "fetched_at": "2026-05-21T16:05:40.754Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/2025-2026/Theologie%20BA%20180%2020250904.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/theo/theology",
+  "curriculum_url": "https://studies.unifr.ch/go/1Y"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Theologie - Vollprogramm / Théologie - programme unique
+
+## I. BACHELOR (6 SEMESTER / SEMESTRES, 180 CP)
+
+| Gebiet /Matière                                                                                                  | HSS                                                                             | Evaluation                                                                      | CP            |
+|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------|
+| 1. Theologische Propädeutik / Théologie propédeutique                                                            | 1. Theologische Propädeutik / Théologie propédeutique                           | 1. Theologische Propädeutik / Théologie propédeutique                           | 35            |
+| Theologische Propädeutik / Théologie propédeutique                                                               | 4                                                                               | Ev                                                                              | 6             |
+| 2 Proseminare / 2 proséminaires Theologische Propädeutik / Théologie propédeutique                               | 2                                                                               | schriftl. Arbeit / tr. écrit                                                    | 4             |
+| 2 Proseminare / 2 proséminaires Philosophie                                                                      | 4                                                                               | schriftl. Arbeit / tr. écrits                                                   | 8             |
+| Proseminar / proséminaire AT                                                                                     | 2                                                                               | schriftl. Arbeit / tr. écrits                                                   | 4             |
+| Proseminar / proséminaire NT                                                                                     | 2                                                                               | schriftl. Arbeit / tr. écrit                                                    | 4             |
+| Proseminar Alte KG - Patristik / proséminaire HAEg - Patristique                                                 | 1                                                                               | schriftl. Arbeit / tr. écrit                                                    | 2             |
+| Proseminar Kirchengeschichte / proséminaire Hist. de l'Église                                                    | 1                                                                               | schriftl. Arbeit / tr. écrit                                                    | 2             |
+| Einführung in die Liturgiewissenschaft / Introduction aux sciences liturgiques                                   | 2                                                                               | E v                                                                             | 3             |
+| Einführung in die Theol. der Ökumene / Introd. à l'œcuménisme                                                    | 2                                                                               | Ev                                                                              | 2             |
+| 2. Biblische Studien / Études bibliques                                                                          | 2. Biblische Studien / Études bibliques                                         | 2. Biblische Studien / Études bibliques                                         | 39            |
+| Einführung / Introduction NT I-III                                                                               | 6                                                                               | Ev                                                                              | 9             |
+| Einführung AT I-IV / Introduction AT I-III                                                                       | 8 (d) 6 (f)                                                                     | Ev                                                                              | 12 (d) 9 (f)  |
+| Biblische Umwelt AT / Milieu biblique AT                                                                         | 1 (d) 2 (f)                                                                     | Ev                                                                              | 1.5 (d) 3 (f) |
+| Biblische Umwelt / Milieu biblique NT                                                                            | 2                                                                               | Ev                                                                              | 3             |
+| Theologie AT I-II / Théologie AT I-II                                                                            | 3 (d) 4 (f)                                                                     | Ev                                                                              | 4.5 (d) 6 (f) |
+| Theologie / Théologie NT                                                                                         | 4                                                                               | Ev                                                                              | 6             |
+| Wahlpflichtbereich Vertiefung Biblische Studien / Cours à option obligatoires approfondissement Études Bibliques | 2                                                                               | Ev                                                                              | 3             |
+| 3. Patristik und Kirchengeschichte / Patristique et histoire de l'Église                                         | 3. Patristik und Kirchengeschichte / Patristique et histoire de l'Église        | 3. Patristik und Kirchengeschichte / Patristique et histoire de l'Église        | 18            |
+| Patristik / Patristique                                                                                          | 4                                                                               | Ev                                                                              | 6             |
+| Geschichte der Alten Kirche / Histoire de l'Église ancienne                                                      | 4                                                                               | Ev                                                                              | 6             |
+| Kirchengeschichte / Histoire de l'Église                                                                         | 4                                                                               | Ev                                                                              | 6             |
+| 4. Philosophie und Religionswissenschaft / Philosophie et science des religions                                  | 4. Philosophie und Religionswissenschaft / Philosophie et science des religions | 4. Philosophie und Religionswissenschaft / Philosophie et science des religions | 14            |
+| Einführungen in die Philosophie / Introductions à la philosophie                                                 | 4                                                                               | Ev                                                                              | 6             |
+| Einführung in die Religionswissenschaft. / Introduction aux sciences des religions                               | 2                                                                               | Ev                                                                              | 2             |
+| Philosophie                                                                                                      | 4                                                                               | Ev                                                                              | 6             |
+
+| 5. Glaubenswissenschaft / Science de la foi                                                  | 5. Glaubenswissenschaft / Science de la foi                                                  | 5. Glaubenswissenschaft / Science de la foi                                                  | 24   |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------|
+| Fundamentaltheologie / Théologie fondamentale                                                | 4                                                                                            | Ev                                                                                           | 6    |
+| Proseminar Fundamentaltheologie / proséminaire Théologie fondamentale                        | 1                                                                                            | schriftl. Arbeit / tr. écrit                                                                 | 2    |
+| Dogmatik / Théologie dogmatique                                                              | 12                                                                                           | Ev                                                                                           | 16   |
+| 6. Theologische Ethik / Théologie morale                                                     | 6. Theologische Ethik / Théologie morale                                                     | 6. Theologische Ethik / Théologie morale                                                     | 18   |
+| Grundlagen Theologischer Ethik / Théol. morale fondamentale                                  | 6                                                                                            | Ev                                                                                           | 8    |
+| Theologische Ethik / Théologie morale                                                        | 6                                                                                            | Ev                                                                                           | 8    |
+| Proseminar Theologische Ethik / proséminaire Théol. morale                                   | 1                                                                                            | schriftl. Arbeit / tr. écrit                                                                 | 2    |
+| 7. Praktische Theologie / Théologie pratique                                                 | 7. Praktische Theologie / Théologie pratique                                                 | 7. Praktische Theologie / Théologie pratique                                                 | 24   |
+| Einführungen Praktische Theologie / Introductions théol. pastorale                           | 4                                                                                            | Ev                                                                                           | 6    |
+| Pastoraltheologie / Théologie pastorale                                                      | 2                                                                                            | Ev                                                                                           | 3    |
+| Liturgiewissenschaft / Sciences liturgiques                                                  | 2                                                                                            | Ev                                                                                           | 3    |
+| Religionspädagogik / Pédagogie religieuse                                                    | 2                                                                                            | Ev                                                                                           | 3    |
+| Kirchenrecht / Droit canonique                                                               | 4                                                                                            | Ev                                                                                           | 6    |
+| Humanwissenschaften / Sciences humaines                                                      | 2                                                                                            | Ev                                                                                           | 3    |
+| 8. Weitere Studien- und Prüfungsverpflichtungen / D'autres obligations d'études et d'éxamens | 8. Weitere Studien- und Prüfungsverpflichtungen / D'autres obligations d'études et d'éxamens | 8. Weitere Studien- und Prüfungsverpflichtungen / D'autres obligations d'études et d'éxamens | 8    |
+| Seminar / Séminaire                                                                          | 2                                                                                            | schriftl. Arbeit / tr. écrit                                                                 | 4    |
+| Bachelor-Arbeit / Travail de bachelor                                                        |                                                                                              | schriftl. Arbeit / tr. écrit                                                                 | 4    |
+| Alte Sprachen* / Langues anciennes*                                                          |                                                                                              |                                                                                              |      |
+| Latein / Latin I+II, Latein (Vertiefung) I + II / Latin (Approfondissement) I+II             | (6)                                                                                          |                                                                                              | (8)  |
+| Griechisch / Grec I+II** / ***                                                               | (4)                                                                                          |                                                                                              | (6)  |
+| Hebräisch / Hébreu I+II** / ***                                                              | (4)                                                                                          |                                                                                              | (6)  |
+| Insgesamt / en tout :                                                                        | Insgesamt / en tout :                                                                        | Insgesamt / en tout :                                                                        | 180  |
+
+Alte Sprachen / Langues anciennes (im Vollprogramm Theologie / pour la théologie en programme unique)
+
+* Die Sprachkurse werden mit CP bewertet. Die CP können mit Ausnahme der Vertiefungsstunde (vgl. **) nicht für den Bachelor-Studiengang validiert werden, der die entsprechenden Sprachkenntnisse voraussetzt. Fehlende Sprachkenntnisse  können  während  des Studiums  nachgeholt werden; die erforderlichen Examina  sollten  im  Normalfall  spätestens bis  zum  Abschluss  des 3. Studienjahres bestanden sein.
+
+Les  cours  de  langue  reçoivent  des  CP,  mais  les  CP  ne  sont  pas  validés  pour  les  voies  d'études  pour lesquelles  la  connaissance  de  ces  langues  est  une  condition  d'admission.  La  connaissance  des langues  manquantes  peut  être  rattrapée  pendant  les  études  ;  les  examens  obligatoires  devraient  être normalement faits au plus tard à la fin de la 3 e année.
+
+**  Für  die  Studierenden,  die  die  Kurse  Griechisch  oder  Hebräisch  belegen,  ist  der  Besuch  einer  dritten, Griechisch- bzw. Hebräisch-Vertiefung genannten Stunde, die in den regulären Sprachkurs integriert ist, in beiden Semestern verpflichtend. Ein Teil der für die Vertiefungskurse Hebräisch und Griechisch vergebenen CP  (insgesamt  3  CP)  kann  über  den  Wahlpflichtbereich  Biblische  Studien  im  Studienplan  angerechnet werden.
+
+Pour les étudiants qui suivent les cours de grec ou d'hébreu, la participation à une troisième heure de cours appelé  approfondissement  grec  ou  hébreu  qui  est  integrée  dans  le  cours  est  obligatoire  pendant  deux semestres. Une partie des CP attribués pour les cours d'approfondissement (en total 3 CP) peuvent être pris en compte pour l'hébreu et le grec dans le plan d'études au travers les cours à option obligatoires Etudes bibliques.
+
+*** Für diejenigen, die mit dem Master-Studium Theologie fortfahren wollen (verpflichtend für das BachelorStudium:  Latein  und Griechisch oder Hebräisch). / Pour  ceux  qui  désirent  continuer  leurs études  par  le programme de « Master » (obligatoire pour les études en bachelor : latin et grec ou hébreu).

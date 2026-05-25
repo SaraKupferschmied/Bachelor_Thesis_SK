@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_180_Sport_Sciences_and_Motor_Control_Transitions_en_sport_-_SP_5eb9fa45fa45dd9c2ed3b8a87e0dc19d8df80ec8",
+  "markdown": "<!-- image -->\n\nAnnexe aux plans d'études en sciences du sport et de la motricité\n\n## Dispositions de transition en sciences du sport et de la motricité\n\napplicables dès l'année académique 2025/26\n\nAccepté par la Faculté des sciences et de médecine le 14.04.2025\n\n迈花\n\n## Dispositions de transition 2025/26\n\nCes  dispositions  de  transition  concernent  les  étudiant-e-s  dont  le  programme  de  référence (branche principale ou branche complémentaire) est dans un plan d'études antérieur au semestre d'automne 2025, soit :\n\n- Bachelor of Science en sciences du sport et de la motricité, option  enseignement (BSc-Sport-E)\n- Bachelor  of  Science  en  sciences  du  sport  et  de  la  motricité,  option  santé -performance -recherche (BSc-Sport-SPR)\n- Branches complémentaires (BCo) en sciences du sport et de la motricité\n- o BCo-Sport60\n- o BCo-Sport30\n- o BCo-Sport+30\n- Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\\_SI] ou Bachelor of Arts [BA\\_SI])\n\nLa  révision  2025/26 des  plans  d'études  en  sciences  du  sport  et  de  la  motricité  a  pour conséquence des changements de codes, de dénomination ou de nombre de crédits ECTS par UE. Celleci conduit à des démarches particulières notamment pour l'inscription au cours et à l'examen pour l'unité d'enseignement ci -dessous.\n\nL'étudiant -e qui doit suivre selon son plan d'études l'UE du tableau ci -dessous la remplace par l'UE  correspondante.  L'étudiant -e  qui  a  fait  un  premier  essai  insuffisant sur  l'ancienne  UE s'inscrira pour le 2 e  essai dans la même UE (ancienne UE).\n\n## Correspondance entre les anciennes et les nouvelles UE, niveau Bachelor\n\n| UE selon l'ancien plan d'études   | UE selon l'ancien plan d'études   |   ECTS | UE selon le nouveau plan d'études   | UE selon le nouveau plan d'études   |   ECTS |\n|-----------------------------------|-----------------------------------|--------|-------------------------------------|-------------------------------------|--------|\n| SSP.00851                         | Fitness en musique I              |      1 | SSP.00858                           | Fitness I                           |      1 |\n| SSP.00852                         | Fitness en musique II             |      2 | SSP.00859                           | Fitness II                          |      2 |",
+  "pages": [
+    "<!-- image -->\n\nAnnexe aux plans d'études en sciences du sport et de la motricité\n\n## Dispositions de transition en sciences du sport et de la motricité\n\napplicables dès l'année académique 2025/26\n\nAccepté par la Faculté des sciences et de médecine le 14.04.2025\n\n迈花\n\n## Dispositions de transition 2025/26\n\nCes  dispositions  de  transition  concernent  les  étudiant-e-s  dont  le  programme  de  référence (branche principale ou branche complémentaire) est dans un plan d'études antérieur au semestre d'automne 2025, soit :\n\n- Bachelor of Science en sciences du sport et de la motricité, option  enseignement (BSc-Sport-E)\n- Bachelor  of  Science  en  sciences  du  sport  et  de  la  motricité,  option  santé -performance -recherche (BSc-Sport-SPR)\n- Branches complémentaires (BCo) en sciences du sport et de la motricité\n- o BCo-Sport60\n- o BCo-Sport30\n- o BCo-Sport+30\n- Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\\_SI] ou Bachelor of Arts [BA\\_SI])\n\nLa  révision  2025/26 des  plans  d'études  en  sciences  du  sport  et  de  la  motricité  a  pour conséquence des changements de codes, de dénomination ou de nombre de crédits ECTS par UE. Celleci conduit à des démarches particulières notamment pour l'inscription au cours et à l'examen pour l'unité d'enseignement ci -dessous.\n\nL'étudiant -e qui doit suivre selon son plan d'études l'UE du tableau ci -dessous la remplace par l'UE  correspondante.  L'étudiant -e  qui  a  fait  un  premier  essai  insuffisant sur  l'ancienne  UE s'inscrira pour le 2 e  essai dans la même UE (ancienne UE).\n\n## Correspondance entre les anciennes et les nouvelles UE, niveau Bachelor\n\n| UE selon l'ancien plan d'études   | UE selon l'ancien plan d'études   |   ECTS | UE selon le nouveau plan d'études   | UE selon le nouveau plan d'études   |   ECTS |\n|-----------------------------------|-----------------------------------|--------|-------------------------------------|-------------------------------------|--------|\n| SSP.00851                         | Fitness en musique I              |      1 | SSP.00858                           | Fitness I                           |      1 |\n| SSP.00852                         | Fitness en musique II             |      2 | SSP.00859                           | Fitness II                          |      2 |"
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| UE selon l'ancien plan d'études   | UE selon l'ancien plan d'études   |   ECTS | UE selon le nouveau plan d'études   | UE selon le nouveau plan d'études   |   ECTS |\n|-----------------------------------|-----------------------------------|--------|-------------------------------------|-------------------------------------|--------|\n| SSP.00851                         | Fitness en musique I              |      1 | SSP.00858                           | Fitness I                           |      1 |\n| SSP.00852                         | Fitness en musique II             |      2 | SSP.00859                           | Fitness II                          |      2 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "UE selon l'ancien plan d'études": "Fitness en musique I",
+            "ECTS": "1",
+            "UE selon le nouveau plan d'études": "Fitness I"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "UE selon l'ancien plan d'études": "Fitness en musique II",
+            "ECTS": "2",
+            "UE selon le nouveau plan d'études": "Fitness II"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Dispositions de transition en sciences du sport et de la motricité",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Dispositions de transition 2025/26",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Correspondance entre les anciennes et les nouvelles UE, niveau Bachelor",
+      "line_index": 28,
+      "source": "markdown_regex"
+    }
+  ]
+}

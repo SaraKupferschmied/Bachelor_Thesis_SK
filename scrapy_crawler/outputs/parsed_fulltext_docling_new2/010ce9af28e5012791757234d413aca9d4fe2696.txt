@@ -1,0 +1,56 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T20:50:38.406Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Physics_Branche_compl_mentaire_en_physique_30_010ce9af28e5012791757234d413aca9d4fe2696",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "010ce9af28e5012791757234d413aca9d4fe2696",
+  "program_key": "faculty of science and medicine|bachelor|30|physics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_PH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_30_Physics_Branche_compl_mentaire_en_physique_30_010ce9af28e5012791757234d413aca9d4fe2696.pdf",
+  "sha256": "0eabd95ac3a2c7710ec7dc2b2534740d0135d5c45e87185be1529fff25b64c0e",
+  "fetched_at": "2026-05-21T16:05:16.980Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_PH_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Physics",
+  "programme_name_de": "Physik",
+  "programme_name_fr": "Physique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.3  Physique +30
+
+[Version 2022, paquet de validation : PV-SPH.0000042]
+
+Les unités d ' enseignement de la branche complémentaire PHYS+30 sont distribuées dans un ordre approprié à la branche principale physique. Toutefois, en respectant l ' ordre chronologique, l ' étudiant-e a la possibilité de les répartir différemment dans le temps suivant ses disponibilités.
+
+Les 90 crédits ECTS de la combinaison PHYS3 ou PHYS4 à 60 ECTS avec PHYS+30 sont reconnus comme branche II pour l ' enseignement au niveau secondaire supérieur (DEEM).
+
+## 2.3.1 Unités d ' enseignement
+
+| Code      | Unité d ' enseignement                                                                           | semestre   | h. tot.   |   ECTS |
+|-----------|--------------------------------------------------------------------------------------------------|------------|-----------|--------|
+| SPH.02001 | Physique A (travaux pratiques pour avancé-e-s)                                                   | SA         | 56        |      4 |
+| SPH.02801 | Méthodes mathématiques de la physique (cours et exercices)                                       | SP         | 84        |      7 |
+| SPH.04xxx | 2 cours avec exercices choisis parmi les cours obligatoires du plan d ' étude du MSc en physique | SA/SP      | 2x42      |      7 |
+| SPH.04nnn | 4 cours à choix parmi les cours de spécialisation proposés dans le cadre du MSc en physique      | SA/SP      | 4x28      |     12 |
+| Total     | Total                                                                                            | Total      | Total     |     30 |
+
+## 2.3.2 Contenu des unités d ' enseignement
+
+- Les Travaux pratiques pour avancé-e-s A (Physique) permettent de perfectionner l ' habileté dans l ' utilisation des techniques expérimentales et dans l ' analyse des données.
+- Les Méthodes  mathématiques  de  la  physique apportent  les  éléments  de  techniques mathématiques utiles dans plusieurs cours de physique.
+
+## 2.3.3 Évaluation des unités d ' enseignement
+
+Les conditions d ' évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l ' annexe de la physique (http://www.unifr.ch/scimed/plans/eval).

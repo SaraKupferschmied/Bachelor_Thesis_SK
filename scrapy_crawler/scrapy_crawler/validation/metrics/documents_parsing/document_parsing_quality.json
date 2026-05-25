@@ -1,0 +1,147 @@
+{
+  "metric_scope": "document_parsing_quality",
+  "description": "Evaluates parser output folders against the unique downloaded document baseline. It measures parse coverage, metadata presence/completeness, doc_key consistency, text usability, heading extraction, ECTS signal extraction, and deduplication. It also summarizes optional import/metadata correction reports when present.",
+  "manifest_baseline": {
+    "manifest_file": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\_faculty_docs_manifest.json",
+    "downloaded_references": 581,
+    "downloaded_unique_doc_keys": 532,
+    "reused_doc_keys": 43,
+    "max_references_per_doc_key": 3,
+    "mean_references_per_doc_key": 1.092105,
+    "metadata_loss_risk_note": "If parsing is deduplicated by document key, one parsed text file may represent multiple programme references. The current pipeline can derive this key either from old doc_key values or from faculty_docs_v3 FilesPipeline paths like full/<sha1>.pdf."
+  },
+  "parsed_directory_results": [
+    {
+      "parsed_dir": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\parsed_fulltext_docling_new2",
+      "files_total": 518,
+      "parsed_unique_doc_keys": 518,
+      "expected_unique_doc_keys": 532,
+      "missing_expected_doc_keys": 14,
+      "extra_doc_keys_not_in_manifest": 0,
+      "duplicate_doc_key_files": 0,
+      "metadata_present_files": 518,
+      "read_error_files": 0,
+      "doc_key_consistent_files": 518,
+      "text_quality_buckets": {
+        "high": 398,
+        "medium": 107,
+        "very_low": 4,
+        "low": 9
+      },
+      "parser_counts": {
+        "docling": 518
+      },
+      "manual_fix_flag_counts": {},
+      "content_statistics": {
+        "median_chars": 17318.5,
+        "mean_chars": 23675.02,
+        "median_words": 1722.0,
+        "mean_words": 1945.94,
+        "median_headings": 16.0,
+        "mean_headings": 17.28,
+        "median_ects_mentions": 12.0,
+        "mean_ects_mentions": 18.73
+      },
+      "components": {
+        "unique_doc_parse_coverage": 0.973684,
+        "file_to_expected_unique_ratio": 0.973684,
+        "metadata_block_coverage": 1.0,
+        "doc_key_consistency": 1.0,
+        "metadata_completeness": 0.723236,
+        "core_metadata_completeness": 0.5,
+        "usable_text_rate": 0.974903,
+        "heading_detection_rate": 0.996139,
+        "ects_signal_rate": 0.857143,
+        "deduplicated_doc_key_rate": 1.0
+      },
+      "weights": {
+        "unique_doc_parse_coverage": 0.25,
+        "metadata_block_coverage": 0.15,
+        "doc_key_consistency": 0.1,
+        "core_metadata_completeness": 0.15,
+        "usable_text_rate": 0.15,
+        "heading_detection_rate": 0.1,
+        "ects_signal_rate": 0.05,
+        "deduplicated_doc_key_rate": 0.05
+      },
+      "score": 0.907128,
+      "examples": {
+        "missing_expected_doc_keys_first_20": [
+          "07de9a375addd5df6f245ff1f49d4aa3fc14c884",
+          "253565f83afce4fda588422cf6890d6e1125c8fa",
+          "27d233ca33c750a8cf8c77b500088d1a58ff0003",
+          "2b210b79e15809b39cce729bb9e822b0e2f78aaa",
+          "3305abfbeadae713437ab5aa1061d2491c3a8878",
+          "5ea1e4872691c7ce9b5e0818d12374a428895ba7",
+          "73b1522a22253684da6ebc157116bc818fca920f",
+          "7adc6c7ecd131b195756def017302d407e3c466e",
+          "91a6293f1721a7201b854ae97c1eb3f6994b4186",
+          "aa874e2d14459253ca6f62b0cd1b84ff73ebb310",
+          "b6909d2404cce917f7124324dc953ea1d9bea750",
+          "b9d255e1d094ad2d3b8529ef014220da50de20aa",
+          "bdbd7179178194c78def33f96ae7042d5ef86b21",
+          "ddd2f6485003a630d0bd79405ca4b22ebde82edc"
+        ],
+        "extra_doc_keys_first_20": [],
+        "very_low_text_files_first_20": [
+          "2251c75bf15e62c6f1d27db01cb5c825402bebe9.txt",
+          "61dfe76bf4cfabae0f77fde05f06012b20b3c92b.txt",
+          "b1d68e4048b8954cac889f8a7552bc5676a0be63.txt",
+          "df9a9bbdcc29aad712191e3a8350ddacaee9e4d9.txt"
+        ],
+        "metadata_missing_files_first_20": [],
+        "read_error_files_first_20": []
+      }
+    }
+  ],
+  "best_directory_by_score": {
+    "parsed_dir": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\parsed_fulltext_docling_new2",
+    "score": 0.907128
+  },
+  "optional_reports": {
+    "docling_import_skipped": {
+      "name": "docling_import_skipped",
+      "available": true,
+      "rows": 23,
+      "reasons": {
+        "Could not resolve any StudyProgram from Docling metadata": 23
+      }
+    },
+    "docs_matched": {
+      "name": "docs_matched",
+      "available": false
+    },
+    "docs_skipped_low_score": {
+      "name": "docs_skipped_low_score",
+      "available": false
+    },
+    "docs_skipped_missing_txt": {
+      "name": "docs_skipped_missing_txt",
+      "available": false
+    },
+    "docs_skipped_not_eligible": {
+      "name": "docs_skipped_not_eligible",
+      "available": false
+    },
+    "metadata_validation_report": {
+      "name": "metadata_validation_report",
+      "available": false
+    },
+    "program_metadata_correction_summary": {
+      "name": "program_metadata_correction_summary",
+      "available": false
+    },
+    "program_metadata_correction_proposal": {
+      "name": "program_metadata_correction_proposal",
+      "available": false
+    }
+  },
+  "missing_parsed_dirs": [],
+  "thesis_interpretation": [
+    "Parsing should be evaluated on unique doc_key coverage, because the same document may be linked to many programmes.",
+    "A lower number of parsed files is not automatically worse if the parser deduplicates correctly by doc_key.",
+    "However, deduplication creates metadata-loss risk when one doc_key belongs to multiple programme contexts.",
+    "Therefore this script separates content parsing quality from programme-metadata correctness.",
+    "Manual metadata correction should be reported as a post-processing step, not hidden inside the parser score."
+  ]
+}

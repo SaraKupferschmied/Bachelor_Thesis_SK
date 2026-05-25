@@ -1,0 +1,298 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:30:33.765Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_English_Language_and_Literature_Studienplan_BA_SI_50_ECTS__6e58d8583f22d2cd07de1b3b23e2530c7077d17b",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "6e58d8583f22d2cd07de1b3b23e2530c7077d17b",
+  "program_key": "faculty of humanities|bachelor|120|english language and literature",
+  "source_url": "https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BASI%20GERMAN_250708.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_English_Language_and_Literature_Studienplan_BA_SI_50_ECTS__6e58d8583f22d2cd07de1b3b23e2530c7077d17b.pdf",
+  "sha256": "2f193466cb65e18c861a6c66af3efc34e7ad46af03226987d0545ddbdf77bff8",
+  "fetched_at": "2026-05-21T16:05:27.006Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/english/en/assets/public/plans_detudes/Latest%20versions/ENGLISH%20BASI%20GERMAN_250708.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "English Language and Literature",
+  "programme_name_de": "Englische Sprache und Literatur",
+  "programme_name_fr": "Langue et littérature anglaises",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/english",
+  "curriculum_url": "http://studies.unifr.ch/go/TaufR"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Universität Fribourg Departement für Englisch
+
+## in Zusammenarbeit mit dem Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik
+
+## Studienplan Bachelor LDS Englische Sprache und Literatur, 50 ECTS
+
+## I. ALLGEMEINES
+
+Die  Regelstudienzeit  für  das  Studienprogramm  Bachelor  LDS  I  in  Englischer  Sprache  und  Literatur beträgt  3  Jahre.  Ziel  des  Studienprogramms  ist  der  Erwerb  von  sprachlichen  Fähigkeiten  und wissenschaftlichen Kenntnissen für Englischlehrpersonen der Sekundarstufe 1.
+
+Lehrveranstaltungen werden in den folgenden vier Studiengebieten angeboten:
+
+- 1) English and American Literature
+- 2) Linguistics and Applied Linguistics
+- 3) Language learning: Instruction and Assessment
+- 4) Reflective language study
+
+Das Studienprogramm in Englischer Sprache und Literatur richtet sich an Nicht- Muttersprachler. Für Muttersprachler, die das Programm absolvieren wollen, gelten Sonderregelungen.
+
+Das Sprachkompetenzniveau C1 in Englisch wird zu Studienbeginn dringend empfohlen (Niveaus nach der Kompetenzskala des europäischen Referenzrahmens).
+
+## ECTS Kreditpunkte
+
+Der  erfolgreiche  Abschluss  individueller  Lehrveranstaltungen  und  der  vorgeschriebenen  Prüfungen führt zur Erlangung von ECTS Kreditpunkten. Ein Kreditpunkt entspricht ca. 30 Studienstunden.
+
+Das Studienprogramm  in Englischer Sprache und Literatur besteht aus insgesamt 50 ECTS Kreditpunkten, darunter 3 aus englischer Fachdidaktik.
+
+## II. STRUKTUR DES STUDIENGANGS
+
+Die  vorgeschriebenen  Lehrveranstaltungen  sind  modular  strukturiert.  Studierende  müssen  alle Pflichtveranstaltungen  belegen  und  alle  notwendigen  ECTS  Kreditpunkte  in  jedem  der  Module erlangen.
+
+## Die vier Module sind:
+
+| Modul 1:   | English and American Literature English Department                                                                           | 15 ECTS     |
+|------------|------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Modul 2:   | Linguistics and Applied Linguistics English Department, Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik | 12 ECTS     |
+| Modul 3:   | Language learning: Instruction and Assessment English Department, Departement für Mehrsprachigkeitsforschung                 | 12 ECTS und |
+| Modul 4:   | Reflective language study English Department                                                                                 | 11 ECTS     |
+|            | Total:                                                                                                                       | 50 ECTS     |
+
+Modul 1:
+
+English and American Literature English Department
+
+## Studienziele:
+
+- Die Studierenden werden in das Wesen des Literaturstudiums eingeführt und entwickeln ein Verständnis für die literarischen Gattungen und deren Beziehungen.
+- Sie machen sich mit den wichtigsten Autoren und Themen der englischen / amerikanischen Literatur vertraut, indem sie eine umfassende Auswahl von modernen und zeitgenössischen Texten  kritisch  lesen  und  dabei  lernen,  diese  mit  Hilfe  wissenschaftlicher  Methoden  zu interpretieren.  Dies  setzt  ein  Verständn i s  für  den  Zusammen h ang  zwischen  den  formalen Elementen  der  einzelnen  Gattungen  (Lyrik,  Drama,  Prosa)  und  der  Aussage  des j eweiligen Textes voraus. Darüber hinaus müssen die Studierenden in der Lage sein, literarische Werke in einen historischen, sozialen und politischen Kontext einzuordnen.
+- Die Studierenden lernen während ihres Literaturstudiums verschiedene kritische Denkansätze und Methoden kennen und wenden ihre Kenntnisse darüber in Diskussionen und schriftlichen Arbeiten an.
+
+## Kurse:
+
+Die Studierenden können die Kurse aus dem Lehrangebot des Bereichs frei wählen.
+
+HS erstes Studienjahr
+
+## English or American literature
+
+Lecture course
+
+English Department
+
+## FS erstes Studienjahr
+
+## English or American literature
+
+Lecture course
+
+English Department
+
+50 ECTS
+
+3 ECTS
+
+3 ECTS
+
+## English or American literature
+
+BA proseminar English Department
+
+Zweites Studienjahr
+
+## English or American literature
+
+BA proseminar with paper English Department
+
+3 ECTS
+
+6 ECTS
+
+Total
+
+15 ECTS
+
+Modul 2:
+
+Linguistics and Applied Linguistics
+
+English Department, Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik
+
+## Studienziele:
+
+- Kenntnis von Strömungen, Methoden und Grundbegriffen der Linguistik
+- Sprachsystematisches  Wissen  als  Voraussetzung  für  die  Fähigkeit  zur  Beschreibung  und Erklärung  der  Zielsprache  (Phonologie/Phonetik,  Morphologie,  Syntax,  Lexis/Semantik  und Pragmatik)
+- Grundkenntnisse von Theorien der Kommunikation
+- Kenntnisse der Merkmale des ungesteuerten und gesteuerten Spracherwerbs, der Spracherwerbsund Sprachlerntheorien sowie der Methoden zur Erforschung und Beschreibung des Spracherwerbs bzw. Sprachenlernens
+- Kenntnisse von Theorien und Merkmalen individueller Mehrsprachigkeit und zwischensprachlichem Transfer
+- Beurteilungsfähigkeit in Bezug auf Lernerleistungen in der Fremdsprache: Fähigkeit, interimssprachliche Texte zu analysieren, Fehler zu erkennen, zu erklären und zu korrigieren
+
+## Kurse:
+
+## Second language acquisition
+
+Studierende wählen entweder den Kurs in französischer Sprache oder den Kurs in deutscher Sprache (eventuell auch Selbststudium in englischer Sprache, siehe unten)*.
+
+Departement  für  Mehrsprachigkeitsforschung  und  Fremdsprachendidaktik  DaF :  Deutsch  als Fremdsprache / Deutsch als Zweitsprache: Gesteuerter und ungesteuerter Spracherwerb Département de plurilinguisme et didactique des langues étrangères FLE : Linguistique appliquée et acquisition / apprentissage des langues
+
+* English Department : Second language acquisition
+
+## Evaluation and assessment
+
+Studenten wählen entweder den Kurs in französischer Sprache oder den Kurs in deutscher Sprache (eventuell auch Selbststudium in englischer Sprache, siehe unten)*.
+
+Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik DaF : Leistungsbeurteilung im Fremdsprachenunterricht
+
+Département de plurilinguisme et didactique des langues étrangères FLE : Evaluation, certifications et cadre européen
+
+* English Department
+
+: Evaluation and assessment
+
+3 ECTS
+
+3 ECTS
+
+*  In  der  Regel  müssen die Studierenden einen Kurs in französischer oder deutscher Sprache besuchen. Selbststudium in englischer Sprache wird denjenigen Studierenden angeboten, die den entsprechenden deutsch- oder französischsprachigen Kurs für einen anderen Studiengang haben validieren lassen.
+
+## English linguistics
+
+BA proseminar or lecture course Free choice English Department
+
+## Phonetics and Linguistics for English Language Teachers
+
+BA proseminar (2 semesters)
+
+The two courses 'Phonetics for English Language Teaching' and 'Linguistics for English Language Teaching' can be taken in any order, but it is recommended that students start
+
+with  the  'Phonetics'  course.  While  it  is  possible  to  attend  the  second  course  without  having passed  the  assessment  of  the  first  yet,  both  courses  (and  their  assessments)  need  to  be successfully completed eventually.
+
+Part I: Phonetics for English Language Teaching (1.5 ECTS) Part II: Linguistics for English Language Teaching 1.5 ECTS)
+
+English Department
+
+## Wichtig:
+
+Unter den Kursen des Bachelor-LDS Programms, die vom Departement für Mehrsprachigkeitsforschung  und  Fremdsprachendidaktik  durchgeführt  werden,  gibt  es  einige,  die nicht jedes Jahr angeboten werden. Die Studierenden sind deshalb verpflichtet, sich über die Semester zu informieren, in welchen Pflichtkurse angeboten werden.
+
+## Modul 3:
+
+Language learning: Instruction and Assessment Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik, Departement für Lehrpersonenbildung English Department
+
+## Studienziele:
+
+- Fremdsprachendidaktische  und  -methodische  Kenntnisse  und  Handlungsfähigkeit  für  die Planung, Durchführung und Evaluation von Fremdsprachenunterricht auf der Sekundarstufe I im Sinne des Schweizer Gesamtsprachenkonzepts
+- Kenntnis der Zielsetzungen und Curricula für Englisch als Fremdsprache sowie die Fähigkeit zur Analyse und Beurteilung curricularer Entscheidungen zum Fremdsprachenunterricht
+- Fähigkeit  zur  Anwendung  von  Verfahren  zur  Feststellung  von  Lernfortschritten  und  zur Leistungsbeurteilung
+- Erfahrung  mit  unterschiedlichen  und  neuen  Lernformen  (z.B.  Phasen  autonomen  Lernens, Projektarbeit, Arbeit im Internet)
+- Kenntnisse von Möglichkeiten zur Planung, Durchführung und Auswertung von Austauschprojekten
+
+3 ECTS
+
+3 ECTS
+
+Total:
+
+12 ECTS
+
+- Fähigkeit, die Sprachlernerfahrungen der Schülerinnen und Schüler sowie die Kenntnis anderer Sprachen zu berücksichtigen und zu nutzen
+- Fähigkeit zur Reflexion der eigenen Sprachlernbiographie und subjektiver Theorien
+- Fähigkeit  zu  Analyse,  Beschreibung  und  Bewertung  fremdsprachlichen  Unterrichts  und Kenntnis von relevantem Lehr-/Lernmaterial und Beurteilungskompetenz in Bezug auf Lehrund Lernmaterialien
+
+## Kurse:
+
+## Language teaching methodologies
+
+Studenten wählen entweder den Kurs in französischer Sprache oder den Kurs in deutscher Sprache (eventuell auch Selbststudium in englischer Sprache, siehe unten)*
+
+Departement für Mehrsprachigkeitsforschung und Fremdsprachendidaktik DaF. Ziele und Methoden des Fremdsprachenunterrichts
+
+Département de plurilinguisme et didactique des langues étrangères FLE. Courants méthodologiques ou Analyse des outils pédagogiques et des méthodologies
+
+* English Department : Language teaching methods
+
+3 ECTS
+
+*  In  der  Regel  müssen die Studierenden einen Kurs in französischer oder deutscher Sprache besuchen. Selbststudium in englischer Sprache wird denjenigen Studierenden angeboten, die den entsprechenden deutsch- oder französischsprachigen Kurs für einen anderen Studiengang haben validieren lassen.
+
+## The language learning classroom I
+
+| Culture and discourse of English language teaching   |        |
+|------------------------------------------------------|--------|
+| BA proseminar                                        |        |
+| English Department                                   |        |
+|                                                      | 3 ECTS |
+| The language learning classroom II                   |        |
+| Learning activities and assessment practices         |        |
+| BA proseminar                                        |        |
+| English Department                                   |        |
+|                                                      | 3 ECTS |
+| Fachdidaktik/didactique de branche                   |        |
+| Departement für Lehrpersonenbildung                  | 3 ECTS |
+|                                                      | 12     |
+
+## Wichtig:
+
+Unter den Kursen des Bachelor-LDS Programms-Studiengangs, die vom Departement für Mehrsprachigkeitsforschung  und  Fremdsprachendidaktik  durchgeführt  werden,  gibt  es  einige,  die nicht jedes Jahr angeboten werden. Die Studierenden sind deshalb verpflichtet, sich über die Semester zu informieren, in welchen Pflichtkurse angeboten werden.
+
+Modul 4:
+
+Reflective language study English Department
+
+## Studienziele:
+
+- Die sichere Beherrschung der Zielsprache Englisch: Niveau C1 in Produktion und Interaktion, C1+  im  Bereich  der  Rezeption  (Niveaus  nach  der  Kompetenzskala  des  europäischen Referenzrahmens)
+
+12 ECTS
+
+- Fähigkeit,  die  eigenen  Sprachkompetenzen  einzuschätzen  und  Sprachlernerfahrungen  zu reflektieren
+- Fachsprachliche Kompetenz für die Sprache im Unterricht
+- Fähigkeit, in Lernertexten Fehler zu erkennen und zu korrigieren
+- Interkulturell angemessene Kommunikationsfähigkeit; Fähigkeit, am Alltagsleben, am kulturellen Leben und am Berufsalltag in der Zielsprache teilzunehmen
+- Praktische  Erfahrung  in  und  mit  der  Kultur  in  englischsprachigen  Regionen  (z.B.  durch Auslandsaufenthalte, landeskundliche Projekte)
+- Wissen um die soziokulturellen/politischen Kontexte und um die historischen und ökonomischen Bedingungen der englischsprachigen Länder
+- Kenntnisse von relevanten Medien und ihren besonderen Merkmalen in den zielsprachlichen Region
+
+## Kurse:
+
+## Advanced English Programme
+
+| Year One (two semesters) Part I: Year One - Part One (1.5 ECTS) Part II: Year One - Part Two (1.5 ECTS) English Department                                                                                | 3 ECTS   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Year Two (two semesters) Part I: Year Two - Part One (1.5 ECTS) Part II: Year Two - Part Two (1.5 ECTS)                                                                                                   |          |
+| Guided autonomous study (4 semesters) Part I: Year One - Part One (0.75 ECTS) Part II: Year One - Part Two (0.75 ECTS) Part III: Year Two - Part One (0.75 ECTS) Part IV: Year Two - Part Two (0.75 ECTS) | 3 ECTS   |
+| # Sprachaufenthalt Written report English Department                                                                                                                                                      | 3 ECTS   |
+
+## Mündliche Prüfung der praktischen Englischkenntnisse
+
+Diese mündliche Prüfung ist ein Bestandteil des Advanced English Programme im Modul 4: Reflective language study. Studierende sind zur mündlichen Prüfung in Praktischem Englisch zugelassen, wenn sie  die  Lehrveranstaltungen  im  Advanced  English  Programme  erfolgreich  bestanden  haben.  Die Prüfung dauert mindestens 15 und maximal 30 Minuten. Ziel der Prüfung ist zu gewährleisten, dass die Studierenden über das notwendige Mass an Sprachkenntnis und Sprachverständnis verfügen, um Englisch zu unterrichten.
+
+## Sprachaufenthalt im Ausland
+
+Studierende müssen während ihres Studiums einen Sprachaufenthalt von mindestens 3 Monaten in einem  englischsprachigen  Land  verbringen.  Dies  kann  entweder  durch  Sprachkurse  während  der Semesterferien oder durch ein Studiensemester an einer geeigneten Universität im englischsprachigen
+
+11 ECTS
+
+Raum  geschehen.  Studierende  müssen  einen  schriftlichen  Bericht  über  diesen  Auslandsaufenthalt verfassen. Der Bericht dient dazu, die Erweiterung der sprachlichen und kulturellen Kenntnisse der Studierenden auf Grund des Auslandsaufenthalts zu belegen. Wird dieser Bericht angenommen (d.h. als 'bestanden' bewertet), erhält der Studierende 2 ECTS Kreditpunkte.
+
+Auslandaufenthalte in einem englischsprachigen Land, die vor Studienbeginn stattgefunden haben, können vom Programmdirektor angerechnet werden, sofern die Studierenden eine angemessen lange Zeit  in  einem  englischsprachigen  Raum  bzw.  in  der  'Zielkultur'  verbracht  haben  und  über  gute Englischkenntnisse verfügen. Die Richtlinien des Departements für Englisch sind massgebend für den Sprachaufenthalt sowie für einen etwaigen Dispens.
+
+Der / die Programmverantwortliche ist für die Validierung des Auslandsaufenthaltes und des Berichtes verantwortlich.
+
+## III. EVALUATION UND BEWERTUNG
+
+Die Dozentin/der Dozent einer Lehrveranstaltung ist für die Bewertung der Studierenden durch Tests, schriftliche  Studienleistungen  oder  andere  Formen  der  Bewertung  verantwortlich.  Bei  jedem  Kurs werden die Evaluationsformen in MyUnifr angegeben.
+
+Nach dem ersten Versuch, ein Examen zu einer Unterrichtseinheit oder einem Modul zu absolvieren sind Studierende verpflichtet, die Evaluation dieser Unterrichtseinheit bzw. dieses Moduls entweder mit Erfolg oder Misserfolg zu Ende zu führen.
+
+Alle evaluierten Leistungen im Departement für Englisch werden auf einer Skala von 1 bis 6 benotet. 6 ist  die  höchste  Note;  4  ist  eine  genügende  Note.  Studierende,  die  in  der  Validierung  einer Unterrichtseinheit einen Misserfolg erleiden, haben eine zweite Möglichkeit zur Validierung derselben. Ein  etwaiger  zweiter  Misserfolg  innerhalb  von  maximal  vier  Prüfungssessionen  gilt  als  endgültiger Misserfolg. Das Studium in einem Bachelor-Programm in Englisch darf in diesem Fall nicht fortgesetzt werden.
+
+Die Schlussnote des Programms entspricht dem Mittel der Mittel aller Module. Die Note eines Moduls entspricht dem Mittel aller darin enthaltenen Noten.

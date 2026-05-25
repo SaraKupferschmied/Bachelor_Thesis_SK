@@ -1,0 +1,94 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_30_Physics_Branche_compl_mentaire_en_physique_30_010ce9af28e5012791757234d413aca9d4fe2696",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## 2.3  Physique +30\n\n[Version 2022, paquet de validation : PV-SPH.0000042]\n\nLes unités d ' enseignement de la branche complémentaire PHYS+30 sont distribuées dans un ordre approprié à la branche principale physique. Toutefois, en respectant l ' ordre chronologique, l ' étudiant-e a la possibilité de les répartir différemment dans le temps suivant ses disponibilités.\n\nLes 90 crédits ECTS de la combinaison PHYS3 ou PHYS4 à 60 ECTS avec PHYS+30 sont reconnus comme branche II pour l ' enseignement au niveau secondaire supérieur (DEEM).\n\n## 2.3.1 Unités d ' enseignement\n\n| Code      | Unité d ' enseignement                                                                           | semestre   | h. tot.   |   ECTS |\n|-----------|--------------------------------------------------------------------------------------------------|------------|-----------|--------|\n| SPH.02001 | Physique A (travaux pratiques pour avancé-e-s)                                                   | SA         | 56        |      4 |\n| SPH.02801 | Méthodes mathématiques de la physique (cours et exercices)                                       | SP         | 84        |      7 |\n| SPH.04xxx | 2 cours avec exercices choisis parmi les cours obligatoires du plan d ' étude du MSc en physique | SA/SP      | 2x42      |      7 |\n| SPH.04nnn | 4 cours à choix parmi les cours de spécialisation proposés dans le cadre du MSc en physique      | SA/SP      | 4x28      |     12 |\n| Total     | Total                                                                                            | Total      | Total     |     30 |\n\n## 2.3.2 Contenu des unités d ' enseignement\n\n- Les Travaux pratiques pour avancé-e-s A (Physique) permettent de perfectionner l ' habileté dans l ' utilisation des techniques expérimentales et dans l ' analyse des données.\n- Les Méthodes  mathématiques  de  la  physique apportent  les  éléments  de  techniques mathématiques utiles dans plusieurs cours de physique.\n\n## 2.3.3 Évaluation des unités d ' enseignement\n\nLes conditions d ' évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l ' annexe de la physique (http://www.unifr.ch/scimed/plans/eval).",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## 2.3  Physique +30\n\n[Version 2022, paquet de validation : PV-SPH.0000042]\n\nLes unités d ' enseignement de la branche complémentaire PHYS+30 sont distribuées dans un ordre approprié à la branche principale physique. Toutefois, en respectant l ' ordre chronologique, l ' étudiant-e a la possibilité de les répartir différemment dans le temps suivant ses disponibilités.\n\nLes 90 crédits ECTS de la combinaison PHYS3 ou PHYS4 à 60 ECTS avec PHYS+30 sont reconnus comme branche II pour l ' enseignement au niveau secondaire supérieur (DEEM).\n\n## 2.3.1 Unités d ' enseignement\n\n| Code      | Unité d ' enseignement                                                                           | semestre   | h. tot.   |   ECTS |\n|-----------|--------------------------------------------------------------------------------------------------|------------|-----------|--------|\n| SPH.02001 | Physique A (travaux pratiques pour avancé-e-s)                                                   | SA         | 56        |      4 |\n| SPH.02801 | Méthodes mathématiques de la physique (cours et exercices)                                       | SP         | 84        |      7 |\n| SPH.04xxx | 2 cours avec exercices choisis parmi les cours obligatoires du plan d ' étude du MSc en physique | SA/SP      | 2x42      |      7 |\n| SPH.04nnn | 4 cours à choix parmi les cours de spécialisation proposés dans le cadre du MSc en physique      | SA/SP      | 4x28      |     12 |\n| Total     | Total                                                                                            | Total      | Total     |     30 |\n\n## 2.3.2 Contenu des unités d ' enseignement\n\n- Les Travaux pratiques pour avancé-e-s A (Physique) permettent de perfectionner l ' habileté dans l ' utilisation des techniques expérimentales et dans l ' analyse des données.\n- Les Méthodes  mathématiques  de  la  physique apportent  les  éléments  de  techniques mathématiques utiles dans plusieurs cours de physique.\n\n## 2.3.3 Évaluation des unités d ' enseignement\n\nLes conditions d ' évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l ' annexe de la physique (http://www.unifr.ch/scimed/plans/eval)."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Code      | Unité d ' enseignement                                                                           | semestre   | h. tot.   |   ECTS |\n|-----------|--------------------------------------------------------------------------------------------------|------------|-----------|--------|\n| SPH.02001 | Physique A (travaux pratiques pour avancé-e-s)                                                   | SA         | 56        |      4 |\n| SPH.02801 | Méthodes mathématiques de la physique (cours et exercices)                                       | SP         | 84        |      7 |\n| SPH.04xxx | 2 cours avec exercices choisis parmi les cours obligatoires du plan d ' étude du MSc en physique | SA/SP      | 2x42      |      7 |\n| SPH.04nnn | 4 cours à choix parmi les cours de spécialisation proposés dans le cadre du MSc en physique      | SA/SP      | 4x28      |     12 |\n| Total     | Total                                                                                            | Total      | Total     |     30 |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SPH.02001",
+            "Unité d ' enseignement": "Physique A (travaux pratiques pour avancé-e-s)",
+            "semestre": "SA",
+            "h. tot.": "56",
+            "ECTS": "4"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SPH.02801",
+            "Unité d ' enseignement": "Méthodes mathématiques de la physique (cours et exercices)",
+            "semestre": "SP",
+            "h. tot.": "84",
+            "ECTS": "7"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SPH.04xxx",
+            "Unité d ' enseignement": "2 cours avec exercices choisis parmi les cours obligatoires du plan d ' étude du MSc en physique",
+            "semestre": "SA/SP",
+            "h. tot.": "2x42",
+            "ECTS": "7"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SPH.04nnn",
+            "Unité d ' enseignement": "4 cours à choix parmi les cours de spécialisation proposés dans le cadre du MSc en physique",
+            "semestre": "SA/SP",
+            "h. tot.": "4x28",
+            "ECTS": "12"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "Total",
+            "Unité d ' enseignement": "Total",
+            "semestre": "Total",
+            "h. tot.": "Total",
+            "ECTS": "30"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "2.3 Physique +30",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.3.1 Unités d ' enseignement",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.3.2 Contenu des unités d ' enseignement",
+      "line_index": 22,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "2.3.3 Évaluation des unités d ' enseignement",
+      "line_index": 27,
+      "source": "markdown_regex"
+    }
+  ]
+}

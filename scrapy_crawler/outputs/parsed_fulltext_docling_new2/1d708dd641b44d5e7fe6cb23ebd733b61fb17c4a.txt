@@ -1,0 +1,66 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:37:45.985Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Philosophy__bergangsbestimmungen_ab_HS_2019_1d708dd641b44d5e7fe6cb23ebd733b61fb17c4a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "1d708dd641b44d5e7fe6cb23ebd733b61fb17c4a",
+  "program_key": "faculty of humanities|bachelor|120|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/Bachelor_ab%20HS19_Uebergangsbestimmungen_De.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Philosophy__bergangsbestimmungen_ab_HS_2019_1d708dd641b44d5e7fe6cb23ebd733b61fb17c4a.pdf",
+  "sha256": "4da2756ae0f2976a4328432fff7101b3ed8fe37f412e376583118527e07fd379",
+  "fetched_at": "2026-05-21T16:05:27.532Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/Bachelor_ab%20HS19_Uebergangsbestimmungen_De.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Übergangsbestimmungen: Bachelor-Studienplänen
+
+Mit dem Inkrafttreten des Reglements vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät sind folgende Reglemente aufgehoben:
+
+- das Reglement  zur  Erlangung  des  universitären  Diploms  (Niveau  europäischer Bachelor) an der Philosophischen Fakultät vom 23. Juni 2005 ;
+- die Richtlinien  über  die  Evaluation  der  Studienleistungen,  die  Vergabe  der  ECTSPunkten  und  die  Validierung  der  Module  an  der  Philosophischen  Fakultät  der Universität Freiburg (Schweiz) vom 23. April 2009 .
+
+Gewisse Aspekte in Bezug  auf die Studien erfahren Veränderungen, die  ab  dem Herbstsemester 2019 gelten:
+
+## Studiendauer
+
+- « Die  Mindestdauer  eines  Bachelors  zu  180  ECTS-Punkten  beträgt  in  der  Regel  6 Semester » (art. 7 al. 1)
+- « Die Studiendauer in einem Studiengang des Bachelors ist auf das Dreifache der Anzahl Semester begrenzt, welche im Studienplan vorgesehen ist » (art. 34 al. 1)
+- « Falls  diese  Dauer  nicht  eingehalten  wird,  darf  die  oder  der  Studierende  ihr  oder  sein Studium im betreffenden Studiengang nicht mehr weiterführen […]» (art. 34 al. 2)
+
+Übergangsbestimmungen : Für  Studierende,  die  bereits  vor  dem  Herbstsemester  2019  in einen  Bachelor-Studiengang  der  Philosophischen  Fakultät  eingeschrieben  waren,  wird  die maximale Studiendauer ab dem HS 19 berechnet (Art. 74).
+
+## Vermerk « zweisprachig »
+
+Der Vermerk «zweisprachig» kann für Gesamtbereiche zu 180 ECTS-Punkten, für Bereiche I zu 120 ECTS-Punkten und für Bereiche II zu 60 ECTS-Punkten vergeben werden, wenn der Studienplan den Vermerk vorsieht. Es gibt keinen Vermerk «zweisprachig» für Bachelorprogramme zu 30 ECTS. (art. 36 al. 3)
+
+Übergangsbestimmungen : Für Bachelor Studienprogramme zu 30 ECTS Kreditpunkten, für welche der Vermerk « zweisprachig » vorgesehen war, können die Studierenden, die sich vor  dem  Herbstsemester  2019  in  das  jeweilige  Programm  eingeschrieben  haben,  den Vermerk  « zweisprachig  erhalten »,  wenn  sie  die  spezifischen  Voraussetzungen  dafür erfüllen.
+
+## Prüfungsmodalitäten
+
+- a) Prüfungswiederholungen:  Im  Fall  eines  Misserfolgs  an  einer  Prüfung  kann  diese einmal wiederholt werden (= insgesamt 2 Prüfungsantritte).
+
+Übergangsbestimmungen : Für Unterrichtseinheiten, in die sich die Studierenden vor dem Herbstsemester 2019 eingeschrieben haben (zB Kurs des Frühlingssemesters 2019), bleibt noch die Möglichkeit eines dritten Prüfungsantritts.
+
+- b) Definitiver Misserfolg nach vier Prüfungssession ohne Prüfungseinschreibung : Studierenden, die sich nie in die Prüfung einer Unterrichtseinheit einschreiben, für die sie  sich  angemeldet  haben,  wird  nach  vier  Sessionen  ein  endgültiger Misserfolg  in der  entsprechenden  Unterrichtseinheit  oder  im  entsprechenden  Modul  verzeichnet (art. 24 al. 5)
+
+Übergangsbestimmungen: Für Unterrichtseinheiten, in die sich Studierende vor dem Herbstsemester 2019 eingeschrieben haben, ohne sich für die Prüfung einzuschreiben, gilt diese Regel nicht. Es wird kein definitiver Misserfolg verzeichnet, wenn keine Prüfung zur Unterrichtseinheit abgelegt wird.
+
+Für  Unterrichtseinheiten,  in  die  sich  Studierende  vor  den  Herbstsemester  2019 eingeschrieben haben und sich auch zur Prüfung eingeschrieben haben, werden die Sessionen wie üblich gezählt; Das heisst, ab dem Semester der Einschreibung die die Unterrichtseinheit.
+
+## Berechnung der Schlussnote
+
+Bei allen Studierenden, die sich ab dem Herbstsemester 2019 in ein Studienprogramm zu 180 oder 120 ECTS Kreditpunkten eingeschrieben haben, wird das Modul der Softskills in die Schlussnote miteinbezogen. (art. 28 al.3)

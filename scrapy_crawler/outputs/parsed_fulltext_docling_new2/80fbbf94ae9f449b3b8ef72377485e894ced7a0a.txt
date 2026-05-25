@@ -1,0 +1,211 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:54:38.053Z",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_30_Economics_Volkswirtschaftslehre_80fbbf94ae9f449b3b8ef72377485e894ced7a0a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "80fbbf94ae9f449b3b8ef72377485e894ced7a0a",
+  "program_key": "faculty of management, economics and social sciences|bachelor|30|economics",
+  "source_url": "https://www.calameo.com/read/0036591157a7a1d6d4e57",
+  "source_type": "calameo",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Management_Economics_and_Social_Sciences_Bachelor_30_Economics_Volkswirtschaftslehre_80fbbf94ae9f449b3b8ef72377485e894ced7a0a.pdf",
+  "sha256": "1ddedec1435a5f89de705490f03df0b41dba8c674ae91e91b0749018919aaeca",
+  "fetched_at": "2026-05-21T16:05:32.922Z",
+  "notes": "calameo downloaded (id=0036591157a7a1d6d4e57, final=https://s3.eu-west-1.amazonaws.com/book-aws.calameo.com/260223102739-b23bdac3afc48b8be1eaa298bf1c6a18/book.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF6YZGEBAKPCW6UQ%2F20260521%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T160532Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=f713bf6bc01a69d3e2e74af2a11a95287bb9245ac8fa81ea30de52d81944418d, ct=application/octet-stream)",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "programme_name_en": "Economics",
+  "programme_name_de": "Volkswirtschaftslehre",
+  "programme_name_fr": "Économie politique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/eco/economics",
+  "curriculum_url": "http://studies.unifr.ch/go/QLgAu"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Zusammenfassung des Studienplans
+
+Wirtschafts- und Sozialwissenschaftliche Fakultät
+
+Fakultät
+
+29 : Volkswirtschaftslehre 30
+
+Programm
+
+2009-SA\_V01
+
+Version
+
+HS-2025/FS-2026
+
+Gültigkeitsdauer
+
+## Wichtiger Hinweis
+
+Das Organisationsreglement gilt uneingeschränkt und ist unter allen Umständen verbindlich. Die nachstehend aus dem Reglement abgeleiteten Informationen (basierend auf den Artikeln 11 und 12) dienen lediglich der Orientierung und dem besseren Verständnis; sie ersetzen das Reglement nicht und haben keine rechtsverbindliche Wirkung. Im Zweifelsfall gilt der Wortlaut des Reglements ( Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg , abrufbar unter unifr.ch/ses/de/studium/reglemente.html).
+
+## Studiendauer
+
+Ein Nebenfach ist zeitlich durch die Dauer seines Hauptprogramms begrenzt. Es muss spätestens mit dem gleichen Zeitaufwand erworben werden wie der Studiengang, dem es untergeordnet ist.
+
+## Kompensationsprinzip
+
+Die Fakultät wendet ein Kompensationsprinzip bei der Bewertung der Studienleistungen gemäss dem Reglement vom 28. Mai 2018 (Stand am 27. September 2021) für den Erwerb der Bachelor an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg an (https://webapps.unifr.ch/legal/de/document/2870304)
+
+Möglichkeit zum Ausgleich von maximal 6 ECTS
+
+## Stand des Kursangebots
+
+Dieses Dokument enthält das Kursangebot, wie es für den angegebenen Zeitraum veröffentlicht wurde. Die Lehrveranstaltungen können von einem akademischen Jahr zum anderen variieren. Die aktuellsten Informationen finden Sie auf der offiziellen Website der Universität Freiburg oder auf Ihrem Studentenportal.
+
+Die in diesem Dokument enthaltenen Angaben entsprechen dem Stand zum Zeitpunkt der Drucklegung.
+
+Die meisten Bachelor-Kurse werden parallel auf Französisch und Deutsch angeboten und sind gleichwertig.
+
+Im Falle einer Gleichwertigkeit kann nur einer der Kurse ausgewählt werden.
+
+| Code                 | Lehreinheit          | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |
+|----------------------|----------------------|-----------------|------------|----------|-----------|----------------------|--------|
+| Obligatorische Kurse | Obligatorische Kurse |                 |            |          |           |                      |        |
+| ESE.00040            | Microéconomie I      | Gugler          | HS-2025    | BA       | fr        | Schriftliche Prüfung |      6 |
+| ESE.00041            | Mikroökonomie I      | Büchel          | HS-2025    | BA       | de        | Schriftliche Prüfung |      6 |
+| EEP.00160            | Microéconomie II     | Gugler          | FS-2026    | BA       | fr        | Schriftliche Prüfung |      6 |
+| EEP.00161            | Mikroökonomie II     | Herz, Staubli   | FS-2026    | BA       | de        | Schriftliche Prüfung |      6 |
+| EEP.00220            | Macroéconomie I      | Massonnet       | HS-2025    | BA       | fr        | Mündliche Prüfung    |      6 |
+| EEP.00221            | Makroökonomie I      | Grossmann       | HS-2025    | BA       | de        | Schriftliche Prüfung |      6 |
+| EEP.00229            | Macroéconomie II     | Rossi-Pedruzzi  | FS-2026    | BA       | fr        | Mündliche Prüfung    |      6 |
+
+<!-- image -->
+
+| Code             | Lehreinheit                                    | Lehrer(innen)             | Semester         | Niveau           | Sprache          | Bewertung               | ECTS             |
+|------------------|------------------------------------------------|---------------------------|------------------|------------------|------------------|-------------------------|------------------|
+| EEP.00230        | Makroökonomie II                               | Grossmann                 | FS-2026          | BA               | de               | Schriftliche Prüfung    | 6                |
+| Wahlkurse        | Wahlkurse                                      | Wahlkurse                 | Wahlkurse        | Wahlkurse        | Wahlkurse        | Wahlkurse               | Wahlkurse        |
+| Wahlkurse BA SES | Wahlkurse BA SES                               | Wahlkurse BA SES          | Wahlkurse BA SES | Wahlkurse BA SES | Wahlkurse BA SES | Wahlkurse BA SES        | Wahlkurse BA SES |
+| EIG.00081        | Info II: Decision Support I (f)                | Ries                      | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EKM.00034        | Sciences et théories de la communication       | Asdourian                 | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 3                |
+| EKM.00495        | Communication orale                            | Cauhépé                   | FS-2026          | BA               | fr               | Fortlaufende            | 3                |
+| EGE.00139        | Droit I                                        | Dubey, Fournier           | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EGE.00149        | Droit II                                       | Dubey, Fournier           | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EGE.00136        | Einführung in die Betriebswirtschaftslehre     | Barmettler, Milosavljevic | HS-2025          | BA               | de               | Schriftliche Prüfung    | 6                |
+| ESE.00028        | Einführung in die Statistik II                 | Huber                     | FS-2026          | BA               | de               | Schriftliche Prüfung    | 4.5              |
+| EIG.00049        | Info I: Sécurité informatique (f)              | Abou Khaled               | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EIG.00089        | Info V: Decision support II (f)                | Schindl                   | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EIG.00036        | Informatique de gestion I                      | Fischer                   | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EIG.00038        | Informatique de gestion II                     | Fischer                   | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EGE.00137        | Introduction à la comptabilité                 | Missonier-Piera           | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EGE.00135        | Introduction à la gestion d'entreprise         | Davoine                   | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EEP.00341        | ECO06D: Wirtschaftspolitik: Schwerpunktthemen  | Eichenberger              | HS-2025          | BA               | de               | Fortlaufende Evaluation | 4.5              |
+| EEP.00340        | ECO05F: Économie publique - Approfondissements | Schelker                  | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| ESE.00027        | Introduction à la statistique II               | Kauth, Kauth              | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EEP.00339        | ECO03D: Internationaler Handel                 | Grossmann                 | FS-2026          | BA               | de               | Schriftliche Prüfung    | 4.5              |
+| EEP.00338        | ECO03F: Commerce international                 | Madiès                    | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EEP.00337        | ECO02D: Wirtschafts- und Finanzpolitik         | Eichenberger              | FS-2026          | BA               | de               | Schriftliche Prüfung    | 6                |
+| EEP.00336        | ECO02F: Économie publique                      | Schelker                  | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EEP.00357        | ECO07F: Économie du développement              | Dumas                     | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EEP.00356        | ECO01D: Wirtschaftsgeschichte                  | Herz                      | HS-2025          | BA               | de               | Schriftliche Prüfung    | 6                |
+| EEP.00355        | ECO01F: Histoire des faits économiques         | Dumas, Schrey             | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 6                |
+| EEP.00361        | ECO11D: Ökonomische Analyse des Rechts         | Büchel                    | FS-2026          | BA               | de               | Schriftliche Prüfung    | 4.5              |
+| EEP.00360        | ECO09D: Arbeitsökonomie                        | Gerfin                    | FS-2026          | BA               | de               | Schriftliche Prüfung    | 4.5              |
+| EEP.00359        | ECO09F: Économie du travail                    | Fernandes                 | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EEP.00358        | ECO08E: Applied Econometrics                   | Huber                     | HS-2025          | BA               | en               | Schriftliche Prüfung    | 4.5              |
+| EEP.00343        | ECO10F: Relations Financières Internationales  | Madiès                    | FS-2026          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+| EGE.00274        | MAN01D: Investitions- und Finanzierungstheorie | Wallmeier                 | HS-2025          | BA               | de               | Schriftliche Prüfung    | 6                |
+| EGE.00273        | MAN01F: Investissement et financement          | Isakov                    | HS-2025          |                  | fr               | Schriftliche Prüfung    |                  |
+| EGE.00276        | MAN02D: Marketing (d, 4.5 ECTS)                | Bambauer-Sachse           | HS-2025          | BA               |                  |                         | 6                |
+|                  | MAN02F: Marketing (f, 4.5 ECTS)                | Furrer                    |                  | BA               | de               | Schriftliche Prüfung    | 4.5              |
+| EGE.00275        |                                                |                           | HS-2025          | BA               | fr               | Schriftliche Prüfung    | 4.5              |
+
+<!-- image -->
+
+| Code                | Lehreinheit                                                                                       | Lehrer(innen)                   | Semester        | Niveau   | Sprache   | Bewertung                                        | ECTS   |
+|---------------------|---------------------------------------------------------------------------------------------------|---------------------------------|-----------------|----------|-----------|--------------------------------------------------|--------|
+| EGE.00278           | MAN03D: Marketingforschung                                                                        | Bambauer-Sachse                 | FS-2026         | BA       | de        | Fortlaufende Evaluation und                      | 6      |
+| EEP.00229           | Macroéconomie II                                                                                  | Rossi-Pedruzzi                  | FS-2026         | BA       | fr        | Mündliche Prüfung                                | 6      |
+| EEP.00221           | Makroökonomie I                                                                                   | Grossmann                       | HS-2025         | BA       | de        | Schriftliche Prüfung                             | 6      |
+| EEP.00230           | Makroökonomie II                                                                                  | Grossmann                       | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 6      |
+| EGE.00277           | MAN03F: Recherche Marketing                                                                       | Furrer                          | FS-2026         | BA       | fr        | Fortlaufende Evaluation und schriftliche Prüfung | 6      |
+| EGE.00280           | MAN04D: Bilanzierung                                                                              | Kunz                            | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00279           | MAN04F: Comptabilité financière                                                                   | Missonier-Piera                 | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00282           | MAN05D: Human Resource Management                                                                 | Gmür                            | HS-2025         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00281           | MAN05F: Gestion des ressources humaines                                                           | Davoine                         | HS-2025         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| ESE.00048           | Mathematik I                                                                                      | Leuenberger                     | HS-2025         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00263           | MAN06E: Introductory course in Entrepreneurship                                                   | Fauchart                        | HS-2025         | BA       | en        | Fortlaufende                                     | 4.5    |
+| ESE.00052           | Mathematik II                                                                                     | Leuenberger                     | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| ESE.00047           | Mathématiques I                                                                                   | Schindl                         | HS-2025         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| ESE.00051           | Mathématiques II                                                                                  | Kunz                            | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00283           | MAN08F: Management stratégique                                                                    | Mena                            | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00286           | MAN09D: Controlling (d)                                                                           | Burkert                         | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00285           | MAN09F: Comptabilité de gestion                                                                   | Oyon                            | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00288           | MAN10D: Unternehmensfinanzierung                                                                  | Affolter, Wilding               | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| EGE.00287           | MAN10F: Finance d'Entreprise                                                                      | Isakov                          | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| ESE.00040           | Microéconomie I                                                                                   | Gugler                          | HS-2025         | BA       | fr        | Schriftliche Prüfung                             | 6      |
+| EIG.00122           | Introduction à la statistique I                                                                   | Donzé                           | HS-2025         | BA       | fr        | Schriftliche Prüfung                             | 4.5    |
+| EEP.00160           | Microéconomie II                                                                                  | Gugler                          | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 6      |
+| EIG.00123           | Einführung in die Statistik I                                                                     | Leuenberger                     | HS-2025         | BA       | de        | Schriftliche Prüfung                             | 4.5    |
+| ESE.00041           | Mikroökonomie I                                                                                   | Büchel                          | HS-2025         | BA       | de        | Schriftliche Prüfung                             | 6      |
+| EEP.00161           | Mikroökonomie II                                                                                  | Herz, Staubli                   | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 6      |
+| EKM.00646           | Praxiskurs Film und Fernsehen                                                                     | Schmid                          | HS-2025         | BA       | de        | Fortlaufende Evaluation                          | 3      |
+| EKM.00695           | Praxiskurs Radio                                                                                  | Krauthammer                     | HS-2025         | BA       | de        | Fortlaufende Evaluation                          | 3      |
+| EKM.00794           | Praxiskurs Onlinejournalismus                                                                     | Balmer, Deuber, Kömle, Salzmann | HS-2025         | BA       | de        | Fortlaufende Evaluation                          | 3      |
+| EKM.00851           | Identität, Gender und Medien                                                                      | Lauber                          | FS-2026         | BA       | de        | Fortlaufende Evaluation                          | 3      |
+| EKM.00943           | Praxiskurs Grundlagen Journalismus I                                                              | Dippel                          | HS-2025         | BA       | de        | Fortlaufende Evaluation                          | 3      |
+| EIG.00015           | Operations Management (d)                                                                         | Trautmann                       | FS-2026         | BA       | de        | Schriftliche Prüfung                             | 6      |
+| EIG.00014           | Operations Management (f)                                                                         | Kunz                            | FS-2026         | BA       | fr        | Schriftliche Prüfung                             | 6      |
+| EKM.01235 EKM.01237 | Vorlesung Methoden der empirischen Sozialforschung: Vertiefung Vorlesung Methoden der empirischen | Pedrazzi Helfer,                | FS-2026 HS-2025 | BA       | de de     | Schriftliche Prüfung Schriftliche Prüfung        | 3 3    |
+|                     | Sozialforschung: Einführung                                                                       | Hänggli Fricker                 |                 | BA       |           |                                                  |        |
+
+<!-- image -->
+
+| Code      | Lehreinheit                                                                                     | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung                       |   ECTS |
+|-----------|-------------------------------------------------------------------------------------------------|-----------------|------------|----------|-----------|---------------------------------|--------|
+| EKM.01243 | Vorlesung Medienpolitik                                                                         | Puppis          | HS-2025    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EGE.00253 | Organisation (f)                                                                                | Fauchart        | FS-2026    | BA       | fr        | Schriftliche Prüfung            |      6 |
+| EGE.00258 | Organisation (d)                                                                                | Gmür            | FS-2026    | BA       | de        | Schriftliche Prüfung            |      6 |
+| EKM.01305 | Effets et usages des médias et nouveaux médias                                                  | von Pape        | HS-2025    | BA       | fr        | Schriftliche Prüfung            |      3 |
+| EKM.00037 | Vorlesung Mediennutzungs- und Medienwirkungsforschung                                           | Fahr            | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.01310 | Conception Web                                                                                  | Dumont          | FS-2026    | BA       | fr        | Fortlaufende Evaluation         |      3 |
+| EKM.01329 | Vorlesung Politische Kommunikation                                                              | Hänggli Fricker | FS-2026    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EKM.01330 | Praxiskurs Innovation im Journalismus                                                           | Stark           | HS-2025    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EKM.01331 | Digital Wellbeing und Medienkompetenz - für ein «gutes» Leben in der digitalen Gesellschaft     | Raemy           | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00510 | Communication stratégique                                                                       | Illia Manzan    | FS-2026    | BA       | fr        | Schriftliche Prüfung            |      3 |
+| EKM.01414 | Vorlesung PR-Forschung und                                                                      | Ingenhoff       | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EEP.00526 | Kommunikationsmanagement ECO12D: Wirtschaftspolitik: Theorie und Anwendungen                    | Jeitziner       | HS-2025    | BA       | de        | Schriftliche Prüfung            |    4.5 |
+| EEP.00531 | ECO13F: Introduction à l'économie des migrations                                                | Gautrain        | HS-2025    | BA       | fr        | Schriftliche Prüfung            |    4.5 |
+| EKM.01410 | Médias de masse et société                                                                      | Van Hove        | HS-2025    | BA       | fr        | Schriftliche Prüfung            |      3 |
+| EKM.01409 | Ethique de la communication et des médias à l'ère numérique : fondements et questions actuelles | Van Hove        | FS-2026    | BA       | fr        | Schriftliche Prüfung            |      3 |
+| EKM.01463 | Medien- und Kommunikationsrecht                                                                 | Sidler          | FS-2026    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00756 | Praxiskurs Kommunikationsstrategien Gruppe 1                                                    | Dippel          | HS-2025    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EGE.00485 | MAN08E: Strategic Management                                                                    | Mena            | FS-2026    | BA       | en        | Schriftliche Prüfung            |    4.5 |
+| EKM.01468 | Writing with the camera, telling with images                                                    | Notaro          | FS-2026    | BA       | en        | Fortlaufende Evaluation         |      3 |
+| EKM.00648 | Praxiskurs Presse                                                                               | Wattenhofer     | FS-2026    | BA       | de        | Schriftliche Arbeit und Vortrag |      3 |
+| EKM.00590 | Praxiskurs Public Relations                                                                     | Grewe           | FS-2026    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EGE.00140 | Recht I                                                                                         | Güngerich       | HS-2025    | BA       | de        | Schriftliche Prüfung            |    4.5 |
+| EGE.00150 | Recht II                                                                                        | Güngerich       | FS-2026    | BA       | de        | Schriftliche Prüfung            |    4.5 |
+| ESE.00029 | Statistique: approfondissement                                                                  | Donzé           | FS-2026    | BA       | fr        | Schriftliche Prüfung            |    4.5 |
+| EGE.00138 | Unternehmensrechnung                                                                            | Burkert         | HS-2025    | BA       | de        | Schriftliche Prüfung            |      6 |
+| ESE.00030 | Vertiefungskurs Statistik                                                                       | Leuenberger     | FS-2026    | BA       | de        | Schriftliche Prüfung            |    4.5 |
+| EKM.00044 | Vorlesung Einführung in die (Sozial-) Psychologie                                               | Gemmiti         | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00035 | Vorlesung Einführung in die                                                                     | Chariatte       | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00463 | Vorlesung Einführung in die Mediensoziologie                                                    | Scholtz         | FS-2026    | BA       | de        | Fortlaufende Evaluation und     |      3 |
+| EKM.00047 | Vorlesung Journalismusforschung                                                                 | Beck            | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00430 | Kommunikations- und Medienethik: Auf der Suche nach einem Kompass                               | Prinzing        | HS-2025    | BA       | de        | Fortlaufende Evaluation         |      3 |
+| EKM.00039 | Vorlesung Kommunikations- und Mediengeschichte                                                  | Beck            | FS-2026    | BA       | de        | Schriftliche Prüfung            |      3 |
+| EKM.00037 | Vorlesung Mediennutzungs- und                                                                   | Fahr            | HS-2025    | BA       | de        | Schriftliche Prüfung            |      3 |
+
+Medienwirkungsforschung
+
+<!-- image -->
+
+| Code      | Lehreinheit              | Lehrer(innen)   | Semester   | Niveau   | Sprache   | Bewertung            |   ECTS |
+|-----------|--------------------------|-----------------|------------|----------|-----------|----------------------|--------|
+| EIG.00037 | Wirtschaftsinformatik I  | Fill            | HS-2025    | BA       | de        | Schriftliche Prüfung |      6 |
+| EIG.00039 | Wirtschaftsinformatik II | Fill            | FS-2026    | BA       | de        | Schriftliche Prüfung |      6 |
+
+## Rechtsgrundlage
+
+Reglement vom 27. September 2021 über die Organisation des Studiums und der Examina an der Wirtschafts- und Sozialwissenschaftlichen Fakultät der Universität Freiburg

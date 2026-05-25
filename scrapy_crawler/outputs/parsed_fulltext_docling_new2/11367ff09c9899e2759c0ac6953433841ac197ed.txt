@@ -1,0 +1,296 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:17:12.075Z",
+  "title": "matched_Faculty_of_Humanities_Master_90_Slavic_Studies_Studienplan_11367ff09c9899e2759c0ac6953433841ac197ed",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "11367ff09c9899e2759c0ac6953433841ac197ed",
+  "program_key": "faculty of humanities|master|90|slavic studies",
+  "source_url": "https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_MA90_2025_de.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Slavic_Studies_Studienplan_11367ff09c9899e2759c0ac6953433841ac197ed.pdf",
+  "sha256": "bfbb04210ea987954aaec571e6e8fc5525de43724f074ff697c54762ae1ec115",
+  "fetched_at": "2026-05-21T16:05:25.279Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_MA90_2025_de.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Slavic Studies",
+  "programme_name_de": "Slavistik",
+  "programme_name_fr": "Slavistique",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/IZ758"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Philosophische Fakultät Departement für Europastudien und Slavistik Studienbereich Slavistik
+
+## Slavistik Master of Arts (90 ECTS-Kreditpunkte, Vertiefungsprogramm) Studienplan
+
+## 5. November 2024 [gültig ab Studienbeginn HS 2025]
+
+## Inhaltsverzeichnis
+
+|   1. | Gesetzliche Grundlagen ......................................................................................................... 1        |
+|------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Beschreibung des Programms ............................................................................................... 1              |
+|   3. | Ausbildungsziele ..................................................................................................................... 3  |
+|   4. | Studienbeginn ......................................................................................................................... 3 |
+|   5. | Studiensprache ....................................................................................................................... 3  |
+|   6. | Allgemeine Organisation ......................................................................................................... 3       |
+|   7. | Beschreibung der Module ....................................................................................................... 3         |
+|   8. | Studienreisen und Exkursionen .............................................................................................. 9            |
+|   9. | Prüfungsmodalitäten ............................................................................................................ 10       |
+|  10. | Inkrafttreten und Übergangsmassnahmen .......................................................................... 10                       |
+
+## 1. Gesetzliche Grundlagen
+
+Der vorliegende Studienplan basiert auf dem Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät und auf der Fachkonvention BEFRI vom 15. November 2011 in Slavistik.
+
+## 2. Beschreibung des Programms
+
+## 2.1. Allgemeine Beschreibung des Programms
+
+Gemeinsam  mit  der  Universität  Bern  bieten  wir  ein  reichhaltiges  Angebot,  das  es  den Studierenden erlaubt, ihre zuvor erworbenen slavistischen Kompetenzen auf der Master-Stufe auszubauen und zu vertiefen. Die Lehrveranstaltungen umfassen Literaturund
+
+K:
+
+Kolloquium.
+
+P:
+
+Praktikum.
+
+PP:
+
+Praktisches Projekt
+
+.  SA:
+
+Kulturwissenschaften,  Sprachwissenschaften  sowie  Sprachkurse.  In  unseren  Kursen  stehen Fragen des interkulturellen Austauschs sowie der gesellschaftlichen Präsenz und Relevanz von Sprache und Literatur im Vordergrund. In einem 'Transfer-Modul' haben die Studierenden die Gelegenheit,  aktuelle,  forschungsbezogene  Fragestellungen  interdisziplinär  zu  bearbeiten und/oder durch ein Praktikum Einblick in Slavistik-bezogene Berufsfelder zu gewinnen.
+
+## 2.2. Allgemeine Struktur des Programms
+
+Das Studium im Vertiefungsprogramm ist in  6 Module  aufgeteilt.  In  den  Modulen  1  und  2 (jeweils  12  ECTS-Kreditpunkte,  im  Weiteren: ECTS)  erweitern  die Studierenden  ihre Kenntnisse  der  slavistischen  Literatur-  und  Sprachwissenschaft  sowie  der  Methoden  des wissenschaftlichen Arbeitens in den beiden Bereichen im Rahmen einer Vorlesung und eines Seminars, und vertiefen eine eigene Fragestellung im Rahmen eines Selbstlernkurses (einer Übung, eines Essays oder einer Exkursion). Im Modul 3 (12 ECTS) spezialisieren sie sich auf einen  dieser  beiden Bereiche  durch  den  Besuch eines Seminars  und  das Verfassen  einer Seminararbeit. Im Modul 4 (12 ECTS) widmen sich die Studierenden entweder dem Transfer zwischen den beiden Disziplinen (Seminar, praktisches Projekt, Kolloquium), dem Transfer zwischen Wissenschaft und Berufsleben (Praktikum, Praktikumsbericht, Kolloquium) oder der Ideengeschichte Ostmittelund Osteuropas (Seminar oder Vorlesung, Seminararbeit, Kolloquium). Im Modul 5 erweitern die Studierenden ihre Sprachkenntnisse (12 ECTS); das Modul 6 umfasst die Masterarbeit und die Verteidigung (30 ECTS). Die Studierenden können ein Nebenprogramm im Umfang von 30 ECTS wählen.
+
+## 2.3. Zulassungsbedingungen
+
+Masterstudiengänge bauen auf die im Bachelorstudium erworbenen Kenntnisse und Fähigkeiten auf.
+
+Inhaber:innen eines universitären Bachelorabschlusses einer Schweizer Universitären Hochschule werden ohne Bedingungen zum Masterstudium zugelassen, wenn sie mindestens 60  ECTS  in  derselben  Studienrichtung  (Slawische  Sprach-  und  Literaturwissenschaften) erworben haben und über Kenntnisse mindestens einer slavischen Sprache auf dem Niveau A2 nach dem Europäischen Referenzrahmen verfügen. Es können jedoch Auflagen verfügt werden. Dasselbe Prinzip gilt für Inhaber:innen eines ausländischen universitären Bachelorabschlusses,  der  von  der  Universität  Freiburg  anerkannt  und  als  gleichwertig eingestuft wird.
+
+Inhaber:innen  eines  Schweizer oder ausländischen universitären Bachelorabschlusses, der von der Universität Freiburg anerkannt wird, welche diese Bedingung nicht erfüllen, können mit  Auflagen  (Ergänzungsprogramm,  während  des  Masterstudiums  zu  erbringen)  oder Bedingungen (Vorstufe, vor Beginn des Masterstudiums zu erbringen) oder zum Masterstudium zugelassen werden. Diese  zusätzlichen  Studienleistungen  dürfen  30  ECTS (Ergänzungsprogramm)  bzw.  60  ECTS  (Vorstufe)  nicht  überschreiten.  Dasselbe  gilt  für Inhaber:innen eines Bachelorabschlusses einer Schweizer Fachhochschule.
+
+Für Inhaber:innen eines universitären Bachelorabschlusses in folgenden Studienrichtungen ist der Zugang mit Ergänzungsprogramm möglich: Ägyptologie, Deutsche SLW, Englische SLW, Französische SLW, Geschichte, Global Studies, Iberoromanische SLW, Indologie, Internationale Beziehungen, Islamund Nahoststudien, Italienische SLW, Judaistik, Klassische Philologie, Kommunikationsund Medienwissenschaften, Kunstgeschichte, Linguistik,  Moderne  griechische  SLW,  Nordische  SLW,  Ostasienwissenschaft,  OsteuropaStudien 1 ,  Philosophie,  Politikwissenschaft,  Rätoromanische  SLW,  Religionswissenschaft,
+
+1 Universitäten Freiburg und Bern, nicht auf der 'Liste der Studienrichtungen' von Swissuniversities
+
+Verwendete Abkürzungen:
+
+BE: Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester. HS: Herbstsemester. K: Kolloquium. P: Praktikum. PP :  Praktisches Projekt .  SA: Seminararbeit. SE: Seminar. SLK: Selbstlernkurs. SWS: Semesterwochenstunde. VL: Vorlesung.
+
+Sozialund Kulturanthropologie / Ethnologie, Soziologie, Theater-, Tanzund Filmwissenschaft, Theologie, Vergleichende Literaturwissenschaft, Zentralasiatische Kulturwissenschaft.
+
+Alle übrigen Studienprogramme gemäss Liste von Swissuniversities erlauben einen Zugang mit Vorstufe.
+
+## 3. Ausbildungsziele
+
+Unseren  Absolvent:innen  stehen  vielfältige  Berufsperspektiven  offen.  Die  Länder  Ost-, Ostmittel-  und  Südosteuropas  haben  in  den  letzten  Jahren  immer  mehr  an  Bedeutung gewonnen.  Das  gilt  für  verschiedene  Bereiche  von  Wirtschaft  über  Politik  bis  Kultur  und Forschung. Die erworbenen Sprachund Kulturkenntnisse sowie wissenschaftliche Arbeitsweisen  befähigen  unsere  Absolvent:innen  beispielsweise  in  einen  der  folgenden Bereiche  einzusteigen:  Forschung  und  Wissenschaft,  Medien,  kulturelle  Zusammenarbeit, diplomatischer Dienst, Bundesverwaltung, internationale Behörden und Unternehmen, internationale Organisationen und NGOs. Durch das Praktikumsmodul können die Studierenden bereits während des Masterstudiums Berufserfahrungen sammeln.
+
+## 4. Studienbeginn und Studiendauer
+
+Das Studium kann im Herbst- oder Frühlingssemester aufgenommen werden. Wir empfehlen den Beginn im Herbstsemester. Die Studiendauer beträgt in der Regel 4 Semester.
+
+## 5. Studiensprache
+
+Das  Studium  der  Slavistik  ist  zweisprachig  integriert,  das  heisst,  die  wissenschaftlichen Veranstaltungen werden in der Regel zweisprachig deutsch/französisch angeboten. In den Sprachkursen  wird  möglichst  früh  schon  in  der  Zielsprache  unterrichtet.  Die  Studierenden können ihre Prüfungen in deutscher, französischer, englischer oder - nach Absprache mit den Dozierenden - in einer slavischen Sprache nach Wahl ablegen. Ein 'Vermerk zweisprachig' wird nicht angeboten.
+
+## 6. Allgemeine Organisation
+
+Das Studium umfasst 6 Module:
+
+1. Literaturwissenschaft (12 ECTS)
+2. Sprachwissenschaft (12 ECTS)
+3. Spezialisierung (12 ECTS)
+4. Transferbereich (12 ECTS)
+5. Sprachmodul (12 ECTS)
+6. Masterexamen (30 ECTS)
+
+## 7. Beschreibung der Module
+
+Modul 1: Literaturwissenschaft
+
+|     |                                                         | Ort   | SWS   |   ECTS |
+|-----|---------------------------------------------------------|-------|-------|--------|
+| SE  | Seminar                                                 | FR    | 2     |      6 |
+| VL  | Vorlesung                                               | FR    | 2     |      3 |
+| SLK | Selbstlernkurs (Übung/Essay/Exkursion, gekoppelt an VL) | FR    | -/2   |      3 |
+|     |                                                         |       |       |     12 |
+
+Inhalt und Lernziele : Das Modul besteht aus einer Vorlesung, einem Seminar und einem Selbstlernkurs  (Übung/Essay  bzw.  kurze  schriftliche  Arbeit/Exkursion)  mit  thematischem Bezug zur Vorlesung. Die Studierenden befassen sich mit ausgewählten forschungsrelevanten Themen aus dem Bereich der russischen, polnischen, ukrainischen oder bosnisch/kroatisch/montenegrinisch/serbischen  Literatur- und Kulturgeschichte (19.21.  Jh.).  Im  Vordergrund  stehen  Wechselbeziehungen  zwischen  der  Literatur  und  dem sozialund kulturgeschichtlichen Kontext (Philosophie, Kunst, Religion), Transferbeziehungen slavischer Kulturen/Literaturen untereinander sowie solche zwischen West-  und  Osteuropa.  Die  Studierenden  lernen,  wissenschaftliche  Fragestellungen  zu entwickeln  und  zu  bearbeiten.  Ausserdem  vermittelt  das  Modul  Kompetenzen  in  der mündlichen und schriftlichen Präsentation literaturwissenschaftlicher Forschungsergebnisse. Im Rahmen der Übung bzw. des Selbstlernkurses befassen sich die Studierenden unter Anleitung der/des Dozierenden der Vorlesung mit einem Thema, das in inhaltlichem Zusammenhang zur Vorlesung steht. Die Übung kann auch die Form einer regelmässig stattfindenden Präsenzveranstaltung annehmen.
+
+Evaluation: Seminar:  aktive  Teilnahme,  Kurzvortrag,  schriftliches  Exposé.  Vorlesung: schriftliche  Prüfung.  Übung/Essay/Exkursion:  Selbstlernkurs  mit  mündlicher  Prüfung  / schriftlicher Essay zur Thematik der Vorlesung / Exkursion im fachlichen Zusammenhang mit der Vorlesung (Kurzpräsentation im Rahmen der Exkursion oder schriftlicher Bericht) ('bestanden/nicht bestanden').
+
+## Modul 2: Sprachwissenschaft
+
+|     |                                                         | Ort   | SWS   |   ECTS |
+|-----|---------------------------------------------------------|-------|-------|--------|
+| SE  | Seminar                                                 | BE    | 2     |      6 |
+| VL  | Vorlesung                                               | BE    | 2     |      3 |
+| SLK | Selbstlernkurs (Übung/Essay/Exkursion, gekoppelt an VL) | BE    | -/2   |      3 |
+|     |                                                         |       |       |     12 |
+
+Inhalt und Lernziele: Das Modul besteht aus einer Vorlesung, einem Seminar und einem Selbstlernkurs  (Übung/Essay/Exkursion)  mit  thematischem  Bezug  zur  Vorlesung.  Die Studierenden befassen sich mit ausgewählten aktuellen forschungsrelevanten Themen aus dem Bereich der russischen, polnischen, ukrainischen oder bosnisch/kroatisch/montenegrinisch/serbischen  Sprachwissenschaft.  Sie  setzen  sich  mit Theorien,  Methoden  und  Desiderata  auseinander  und  lernen,  diese  wissenschaftlich einzuordnen,  zu  reflektieren  und  darauf  aufbauend  eigene  Forschungsinteressen  und  fragen zu entwickeln. Diese können sowohl im Bereich systemlinguistischer,
+
+Verwendete Abkürzungen:
+
+soziolinguistischer als auch empirischer Fragestellungen und Analysen liegen und z.B. die Mehrsprachigkeitsforschung,  den  Sprachwandel,  die  Sprachgeschichte  oder  auch  die Korpuslinguistik umfassen.
+
+Ausserdem  vermittelt  das  Modul  Kompetenzen  in  der  mündlichen  und  schriftlichen Präsentation sprachwissenschaftlicher Forschungsergebnisse. Im Rahmen der Übung bzw. des Selbstlernkurses befassen sich die Studierenden unter Anleitung der/des Dozierenden der  Vorlesung  mit  einem  Thema,  das  in  inhaltlichem  Zusammenhang  zu  der  in  der Vorlesung behandelten Problematik steht. Die Übung kann auch die Form einer regelmässig stattfindenden Präsenzveranstaltung annehmen.
+
+Evaluation: Seminar: aktive Teilnahme, Vortrag, schriftliche Leistung. Vorlesung: schriftliche oder mündliche Prüfung. Übung/Essay/Exkursion: Selbstlernkurs mit mündlicher Prüfung  /  schriftlicher  Leistung  zur  Thematik  der  Vorlesung  /  Exkursion  im  fachlichen Zusammenhang  mit  der  Vorlesung  (Kurzpräsentation  im  Rahmen  der  Exkursion  oder schriftlicher Bericht) ('bestanden/nicht bestanden').
+
+## Modul 3: Spezialisierung
+
+Die Studierenden belegen das Spezialisierungsmodul in demjenigen Fachgebiet, in dem sie die Masterarbeit verfassen möchten. Das Modul dient der inhaltlichen und methodischen Vorbereitung und Begleitung dieser eigenständigen Forschungsarbeit.
+
+## 3A: Literaturwissenschaft
+
+|    |               | Ort   | SWS   |   ECTS |
+|----|---------------|-------|-------|--------|
+| SE | Seminar       | FR    | 2     |      6 |
+| SA | Seminararbeit | FR    | -     |      6 |
+|    |               |       |       |     12 |
+
+Inhalt und Lernziele : Das Modul besteht aus einem Seminar und einer Seminararbeit. Das Seminar behandelt aus historischer oder systematischer Sicht eine  Problematik oder ein Themengebiet  aus  dem  Bereich  der  russischen,  polnischen,  ukrainischen  oder  der bosnisch/kroatisch/montenegrinisch/serbischen Literatur und  Kultur. Es  verbindet  die Analyse von Texten oder Filmen mit der Diskussion theoretischer Konzepte und aktueller Forschungspositionen.
+
+Evaluation: Seminar:  aktive  Teilnahme, Vortrag, schriftliche Leistung.  Umfang  der Seminararbeit: ca. 40.000 Zeichen (inkl. Anmerkungen, Leerzeichen, Bibliographie).
+
+## 3B: Sprachwissenschaft
+
+|    |               | Ort   | SWS   |   ECTS |
+|----|---------------|-------|-------|--------|
+| SE | Seminar       | BE    | 2     |      6 |
+| SA | Seminararbeit | BE    | -     |      6 |
+|    |               |       |       |     12 |
+
+Inhalt und Lernziele : Das Modul besteht aus einem Seminar und einer Seminararbeit. Im Seminar vertiefen die Studierenden ihr linguistisches Theorie- und Methodenwissen, indem
+
+Verwendete Abkürzungen:
+
+BE: Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester. HS: Herbstsemester. K: Kolloquium. P: Praktikum. PP :  Praktisches Projekt .  SA: Seminararbeit. SE: Seminar. SLK: Selbstlernkurs. SWS: Semesterwochenstunde. VL: Vorlesung.
+
+sie in einem exemplarischen Themenfeld der slavistischen Linguistik eigene Fragestellungen entwickeln und ihnen mit dem geeigneten Instrumentarium nachgehen. Die Erhebung,  Beschreibung  und  Analyse  originalsprachiger  Sprachdaten  steht  dabei  im Zentrum der Auseinandersetzung. Die Ausrichtung kann dabei sowohl auf systemlinguistischen, soziolinguistischen als auch empirischen Fragestellungen und Analysen liegen und z.B. die Mehrsprachigkeitsforschung, den Sprachwandel, die Sprachgeschichte, einzelne sprachliche Kategorien (bspw. grammatische) oder auch die Korpuslinguistik  umfassen.  Die eigene Tätigkeit wird dabei  systematisch  vor  dem Hintergrund der aktuellen Forschungslage reflektiert und in diese eingebettet.
+
+Evaluation : Seminar:  aktive Teilnahme,  Vortrag, schriftliche Leistung.  Umfang  der Seminararbeit: ca. 40.000 Zeichen (inkl. Anmerkungen, Leerzeichen, Bibliographie).
+
+## Modul 4: Transferbereich
+
+Der  Transferbereich dient der Vermittlung  zwischen den  Disziplinen Literatur-  und Sprachwissenschaft, zwischen Wissenschaft und Berufsleben (im Rahmen eines Praktikums)  oder  der  Vermittlung  zwischen  Slavistik  und  Philosophie  (Ideengeschichte Ostmittel- und Osteuropas).
+
+## 4A: Transfer interdisziplinär
+
+|    |                     | Ort   | SWS   |   ECTS |
+|----|---------------------|-------|-------|--------|
+| SE | Seminar             | BE/FR | 2     |      6 |
+| K  | Kolloquium          | BE/FR | 2     |      3 |
+| PP | Praktisches Projekt | -     | -     |      3 |
+|    |                     |       |       |     12 |
+
+Inhalt  und  Lernziele :  Das  Modul  besteht  aus  einem  Seminar  plus  dazugehörigem praktischen Projekt und einem Kolloquium. Das Seminar bringt Ansätze von slavistischer Literaturund Sprachwissenschaft und gegebenenfalls anderen Disziplinen (z.B. Politikwissenschaft,  Osteuropäische  Geschichte,  Sozialanthropologie)  zusammen  und führt die Studierenden an konkrete Forschungsthemen  heran. Die behandelten Fragestellungen  sind  im  Bereich  der  russischen,  polnischen,  ukrainischen  oder  der bosnisch/kroatisch/montenegrinisch/serbischen Literatur, Kultur und Sprache angesiedelt,  mit  einem  Schwerpunkt  auf  Gegenwartsproblematiken.  Die  Studierenden führen in Absprache mit den Dozierenden und gegebenenfalls unter deren Anleitung ein praktisches Projekt durch, das mit dem Seminar in einem inhaltlichen Zusammenhang steht. Dies kann etwa das Verfassen eines Essays, die Übersetzung eines Textes, ein Transkript oder die Erstellung eines Podcasts sein.
+
+Kolloquium: Die Studierenden nehmen während eines Semesters an den Treffen des slavistischen Forschungskolloquiums teil.  An  einem  der  Treffen  stellen  sie  ein  Outline ihrer geplanten Masterarbeit vor.
+
+Evaluation: Seminar:  aktive  Teilnahme,  Vortrag,  schriftliche  Leistung.  Kolloquium: Vorlage  eines  Outlines  der  Masterarbeit  ('bestanden/nicht  bestanden').  Praktisches Projekt: in Absprache mit den Dozierenden ('bestanden/nicht bestanden').
+
+## 4B: Transfer Beruf (Praktikum)
+
+|    |                       | Ort   |   SWS |   ECTS |
+|----|-----------------------|-------|-------|--------|
+| P  | Praktikum und Bericht |       |       |      9 |
+| K  | Kolloquium            | BE/FR |     2 |      3 |
+|    |                       |       |       |     12 |
+
+Inhalt und Lernziele : Praktikum: Die Studierenden absolvieren ein Praktikum mit einem Zeitaufwand  von  ca.  225-270  Stunden  (9  ECTS).  Mindestdauer:  210  Stunden.  Das Praktikum  dient  dazu,  Einblick  in  Berufsfelder  zu  gewinnen,  die  für  Slavist:innen offenstehen.  Die  Studierenden  suchen  sich  selbst  einen  Praktikumsplatz;  sie  klären vorgängig  mit  der  Studienberatung,  ob  das  gewählte  Praktikum  angerechnet  werden kann. Ein inhaltlicher Bezug zum Slavistik-Studium ist nicht zwingend erforderlich. Die Studierenden erstellen nach Abschluss  ihres  Praktikums einen  Bericht (Umfang ca. 5 Seiten). Er soll die Institution/Organisation/Firma, bei der das Praktikum absolviert wurde, vorstellen, einen Überblick über die erledigten Aufgaben und Tätigkeiten geben und eine Reflexion über den Bezug des Praktikums zum Studium liefern. Der Bericht wird von einer Dozentin oder einem Dozenten des Masterprogramms bewertet.
+
+Kolloquium: Die Studierenden nehmen während eines Semesters an den Treffen des slavistischen Forschungskolloquiums teil.  An  einem  der  Treffen  stellen  sie  ein  Outline ihrer geplanten Masterarbeit vor.
+
+Evaluation: Praktikum: Bestätigung der Institution/Firma/Organisation, Bericht der/des Studierende:n  (ca.  9.000  Zeichen,  inkl.  Leerzeichen)  ('bestanden/nicht  bestanden'). Kolloquium: Vorlage eines Outlines der Masterarbeit ('bestanden/nicht bestanden').
+
+## 4C: Transfer Ideengeschichte
+
+|       |                        | Ort   |   SWS |   ECTS |
+|-------|------------------------|-------|-------|--------|
+| VL/SE | Vorlesung oder Seminar | BE    |     2 |      3 |
+| SA    | Seminararbeit          | FR    |     2 |      6 |
+| K     | Kolloquium             | BE/FR |     2 |      3 |
+|       |                        |       |       |     12 |
+
+Inhalt und Lernziele: Das Modul besteht aus einer Vorlesung oder einem Seminar, einer Seminararbeit und einem Kolloquium. Die Studierenden befassen sich mit ausgewählten forschungsrelevanten  Themen  aus  dem  Bereich  der  verflochtenen  russischen  und mitteleuropäischen (Kultur-)philosophie und Ideengeschichte (19.-21. Jh.). Im Vordergrund stehen intellektuelle Transfers und Verflechtungen zwischen West und Ost, insbesondere  zwischen  Russland,  Böhmen,  Deutschland/Österreich  und  Frankreich, sowie die Wechselbeziehungen  zwischen  Disziplinen  wie  Philosophie,  Philologie (Sprach- und Literaturwissenschaft), Soziologie und Sozialanthropologie einerseits und kulturellen Bewegungen (Romantik, Moderne, Post-Moderne) andererseits. Die Studierenden lernen, wissenschaftliche Fragestellungen zu entwickeln und zu bearbeiten.  Ausserdem  vermittelt  das  Modul  Kompetenzen  in  der  mündlichen  und schriftlichen Präsentation philosophischer und ideengeschichtlicher Forschungsergebnisse.
+
+Kolloquium: Die Studierenden nehmen während eines Semesters an den Treffen des
+
+Verwendete Abkürzungen:
+
+slavistischen Forschungskolloquiums teil. An einem der Treffen stellen sie ein Outline ihrer geplanten Masterarbeit vor.
+
+Evaluation: Seminar: aktive Teilnahme, Kurzvortrag, schriftliches Exposé ('bestanden/nicht bestanden'). Vorlesung: schriftliche Prüfung. Kolloquium: Vorlage eines Outlines der Masterarbeit ('bestanden/nicht bestanden'). Umfang der Seminararbeit: ca. 40.000 Zeichen inkl. Leerzeichen, Anmerkungen, Bibliographie).
+
+## Modul 5: Sprachmodul
+
+Die  Studierenden  erlernen  slavische  Sprachen  und/oder  erweitern  ihre  Kenntnisse  in diesen Sprachen (Umfang: 12 ECTS). Innerhalb eines sprachspezifischen Moduls (5A und 5B) können keine Kurse einer anderen Sprache angerechnet werden.
+
+Bei sprachlichen Vorkenntnissen, die den Lernzielen des Moduls entsprechen, können in Absprache mit der/dem Dozierenden Kompensationsleistungen (Übung, Tandem, Mitgestaltung des Sprachunterrichts) festgelegt werden.
+
+Je nach Angebot und nach Absprache mit der/dem Dozierenden kann ein Semesterkurs durch eine Studienreise/Exkursion ersetzt werden (3 ECTS).
+
+## 5A: Basismodul
+
+Die Studierenden erlernen eine neue slavische Sprache. Im Regelfall umfasst dies den Jahreskurs Russisch I (6 ECTS  pro Semester) oder die Jahreskurse  BKMS (Bosnisch/Kroatisch/Montenegrinisch/Serbisch),  Polnisch  oder  Ukrainisch  I  und  II  (3 ECTS pro Semester).
+
+Inhalt und Lernziele: Nach erfolgreichem Abschluss des Moduls haben die Studierenden  die  Grundlagen  der  gewählten  Sprache  gelernt.  Sie  sind  fähig,  sich  zu vertrauten Themen verständlich zu äussern, alltägliche sowie einige studienbezogene und berufliche  Sprachsituationen  zu  bewältigen,  einfache  (schriftliche  und  mündliche) Texte zu verstehen und eigene Texte zu verfassen.
+
+Evaluation: Die Evaluation erfolgt in Form von Prüfungen im Laufe des Semesters oder durch eine Abschlussprüfung am Ende jedes Semesters (HS und FS).
+
+## 5B: Aufbaumodul
+
+Im Aufbaumodul werden bereits vorhandene Grundkenntnisse einer slavischen Sprache im Umfang von 12 ECTS vertieft. Im Regelfall umfasst dies die Jahreskurse Russisch II und/oder  Russisch  III  (a/b/c/d;  3  ECTS  pro  Semester)  oder  die  Jahreskurse  BKMS, Polnisch oder Ukrainisch II und III (3 ECTS pro Semester).
+
+Inhalt  und  Lernziele :  Die  Studierenden  haben  bestehende  Kenntnisse  vertieft  und gelernt, Inhalte komplexer (schriftlicher und mündlicher) Texte zu verstehen, sich in allen Alltagssituationen spontan und fliessend zu verständigen, sich ohne Mühe  an Diskussionen zu beteiligen und sich zu einem breiten Themenspektrum in mündlicher und schriftlicher Form klar und detailliert auszudrücken.
+
+Evaluation: Die Evaluation erfolgt in Form von Prüfungen im Laufe des Semesters oder durch eine Abschlussprüfung am Ende jedes Semesters (HS und FS).
+
+## 5C: Komplementärmodul
+
+Im Sprachmodul komplementär werden die Sprachkenntnisse aus einem Basismodul im
+
+BE: Bern. ECTS: 'European Credit Transfer and Accumulation System'. FR : Freiburg. FS: Frühjahrssemester. HS: Herbstsemester. K: Kolloquium. P: Praktikum. PP :  Praktisches Projekt .  SA: Seminararbeit. SE: Seminar. SLK: Selbstlernkurs. SWS: Semesterwochenstunde. VL: Vorlesung.
+
+Umfang von 12 ECTS erweitert oder Grundkenntnisse einer weiteren Sprache erworben. Üblicherweise umfasst dies 4 Semester à 3 ECTS. Je nach Angebot an den Universitäten Freiburg  und  Bern  können  nach  vorheriger  Absprache  mit  der  Studienberatung  auch Kurse anderer osteuropäischer Sprachen als der oben genannten besucht werden.
+
+Inhalt und Lernziele : Nach erfolgreichem Abschluss des Moduls haben die Studierenden gelernt,  in  der/den  gewählten  Sprache/n  Inhalte  komplexer  (schriftlicher und  mündlicher)  Texte  zu  verstehen,  sich  in  allen  Alltagssituationen  spontan  und fliessend zu verständigen, sich ohne Mühe an Diskussionen zu beteiligen und sich zu einem breiten Themenspektrum in mündlicher und schriftlicher Form klar und detailliert auszudrücken. Falls eine neue Sprache begonnen wurde, haben die Studierenden deren Grundlagen gelernt. Sie sind fähig, sich zu vertrauten Themen verständlich zu äussern, alltägliche sowie einige studienbezogene und berufliche Sprachsituationen zu bewältigen, einfache (schriftliche und mündliche) Texte zu verstehen und eigene Texte zu verfassen.
+
+Evaluation : Die Evaluation erfolgt in Form von Prüfungen im Laufe des Semesters oder durch eine Abschlussprüfung am Ende jedes Semesters (HS und FS).
+
+## Modul 6: Masterexamen
+
+Inhalt: Mit der Masterarbeit legen die Studierenden eine eigenständige wissenschaftliche Forschungsarbeit  vor.  In  der  Verteidigung  stellen  sie  die  Ergebnisse  ihrer  Arbeit  zur Diskussion. Die Verteidigung umfasst einen Vortrag der Kandidatin oder des Kandidaten über  die  Hauptthesen  der  Masterarbeit  (20  Minuten),  an  den  sich  eine  40-minütige Diskussion mit der Jury anschliesst.
+
+Evaluation : Die Masterarbeit umfasst ca. 150.000 Zeichen (inkl. Anmerkungen, Leerzeichen, Bibliographie). Verteidigung: Vortrag mit Diskussion.
+
+## 8. Studienreisen und Exkursionen
+
+Je nach Angebot und in Absprache mit den Dozierenden können Seminare oder Sprachkurse (3 ECTS) durch Studienreisen (FR) oder Exkursionen (BE) ersetzt werden. Wir unterscheiden zwischen  Studienreisen/Exkursionen  im  Rahmen  von  wissenschaftlichen  Modulen  und solchen,  die im Rahmen von Sprachmodulen  angerechnet werden. Studierende können in ihrem Studium mehrere Studienreisen/Exkursionen absolvieren.
+
+- 8.1. Bedingungen  für  Studienreisen/Exkursionen  im  Rahmen  von  wissenschaftlichen Modulen
+
+Eine Studienreise/Exkursion dauert in der Regel zwischen 3 und 14 Tagen. Sie umfasst eine thematische Vor- und Nachbereitung sowie aktive Mitarbeit vor Ort, etwa in Form von Referat plus Handout. Im Falle eines Misserfolgs kann die Leistung durch eine schriftliche  Arbeit  nach  Abschluss  der  Studienreise  erbracht  werden  (Umfang  und Abgabefrist  werden  von  den  verantwortlichen  Dozierenden  im  Vorfeld  der  Reise bekanntgegeben).
+
+- 8.2. Bedingungen für Studienreisen/Exkursionen im Rahmen von Sprachmodulen
+
+Die Studienreise/Exkursion dauert in der Regel zwischen 7 und 21 Tagen. Sie umfasst eine thematische Vorbereitung sowie aktive Mitarbeit vor Ort, das heisst regelmässige und aktive Teilnahme am angebotenen Sprachunterricht (inkl. schriftliche Übungen) sowie am kulturellen Rahmenprogramm (in Form von Projektarbeit, Kurzpräsentationen).  Im  Falle  eines  Misserfolgs  kann die  Leistung  durch  eine schriftliche Arbeit nach Abschluss der Studienreise erbracht werden (Umfang und
+
+Verwendete Abkürzungen:

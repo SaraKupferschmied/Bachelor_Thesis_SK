@@ -1,0 +1,79 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:21:24.734Z",
+  "title": "unmatched_THEO_UNK_UNK_Habilitation_Ausf_hrungsbestimmungen_13aed0d8b276f5cd7460ff01795dda0dd8003afa",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "13aed0d8b276f5cd7460ff01795dda0dd8003afa",
+  "program_key": null,
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Ausfu%CC%88hrungsbestimmungen_Habilitationsreglement%2014032023.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_THEO_UNK_UNK_Habilitation_Ausf_hrungsbestimmungen_13aed0d8b276f5cd7460ff01795dda0dd8003afa.pdf",
+  "sha256": "0edc33f7d9f8630719336c562c958ddfe2942e3ef93bbf01ae32184e3512a437",
+  "fetched_at": "2026-05-21T16:05:41.944Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/doc%20etudes/Ausfu%CC%88hrungsbestimmungen_Habilitationsreglement%2014032023.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Directives d'application
+
+du 14 mars 2023
+
+de la Faculté de Théologie du règlement d'habilitation en Théologie et du règlement d'habilitation ès Lettres
+
+## Le Conseil de faculté de théologie
+
+selon le règlement  d'habilitation  du  30 juillet  2002  ainsi  que  le  règelemnt  du  9 novembre 2021 relatif à la procédure pour l'obtention d'une  habilitation ès Lettres dans  le  domaine  des  études  religieuses  ou des  études  théologiques  à  la  Faculté  de théologie de l'Université de Fribourg ;
+
+Arrête:
+
+## Art. 1
+
+- 1 Les candidat-e-s dont la procédure d'habilitation a été ouverte doivent, dans la mesure du possible, se présenter à la faculté (idéalement en personne, le cas échéant par voie numérique).
+- 2 Selon l'art. 6.2 du règlement d'habilitation en  Théologie  resp  l'art.  7.2  du  règlement d'habilitation ès Lettres, l'aptitude à l'enseignement académique et les capacités didactiques doivent notamment être démontrées. Par ailleurs, le niveau scientifique  de  l'exposé,  la  clarté  dans  les méthodes utilisées et la capacité à aborder des aspects interdisciplinaires, au moins lors de  la  discussion,  jouent  un  rôle  important dans l'évaluation.
+- 3 Les étudiant-e-s sont expressément invités aux  colloques d'habilitation et priés de donner à leur tour une évaluation de la leçon d'essai du candidat et de la candidate.
+
+4 Dans le cas d'une habilitation cumulative, les travaux individuels soumis doivent être
+
+## Ausführungsbestimmungen
+
+vom 14. März 2023
+
+der Theologischen Fakultät zum Habilitationsreglement Theologie und zum Habilitationsreglement Philosophie
+
+## Der Fakultätsrat der Theologischen Fakultät
+
+gemäss dem Habilitationsreglement der Theologischen Fakultät vom 30. Juli 2002 sowie  dem  Reglement  vom  9.  November 2021  über  das  Verfahren  für  den  Erwerb einer Habilitation in Philosophie im Bereich von  Religionsstudien  oder  theologischen Studien an der Theologischen Fakultät der Universität Freiburg;
+
+beschliesst:
+
+## Art. 1
+
+- 1 Kandidatinnen und Kandidaten, deren Habilitationsverfahren eröffnet wurde, sollen  sich  nach  Möglichkeit  der  Fakultät vorstellen (idealerweise persönlich, ggf. digital).
+- 2  Gemäss Art. 6.2 des Habilitationsreglements Theologie resp. Art. 7.2 des Habilitationsreglements Philosophie sollen insbesondere die Eignung zum akademischen Unterricht und die  didaktischen  Fähigkeiten  unter  Beweis gestellt werden. In diesem Rahmen spielen auch das wissenschaftliche Niveau des Vortrags, die Klarheit in den verwendeten Methoden und die Fähigkeit, mindestens in der  Diskussion  auch  auf  interdisziplinäre Aspekte einzugehen, eine wichtige Rolle für die Evaluation.
+- 3 Die Studierenden sind zu den Habilitationskolloquien ausdrücklich eingeladen und gebeten, ihrerseits eine Einschätzung der Probevorlesung der Kandidatin oder des Kandidaten abzugeben.
+
+4 Wird eine kumulative Habilitation angestrebt, so ist zu den eingereichten accompagnés d'un texte cadre qui présente le cadre commun  des  écrits  soumis  et explicite le lien entre leurs contenus.
+
+5 En règle générale, les colloques d'habilitation ont lieu au cours du semestre à des dates fixées par la Faculté.
+
+6 Si la majorité des professeur-e-s refuse la leçon d'essai, celle-ci peut être répétée une fois.  Le  candidat  et  la  candidate  doit  être informé-e des raisons du refus.
+
+Approuvé  par  le  Conseil  de  la  Faculté  de théologie le 14 mars 2023
+
+Einzelarbeiten ein Manteltext zu verfassen, der den gemeinsamen Rahmen der eingereichten Texte darstellt und ihren inhaltlichen Zusammenhang expliziert.
+
+5 Die Habilitationskolloquien finden in der Regel  an von  der Fakultät festgelegten Terminen im Semester statt.
+
+6 Wenn  die  Mehrheit  der  Professorinnen und Professoren die Probevorlesung ablehnt, kann sie einmal wiederholt werden. Die Kandidatin oder der Kandidat ist über die Gründe der Ablehnung zu informieren.
+
+Genehmigt vom Fakultätsrat der Theologischen Fakultät am 14. März 2023.

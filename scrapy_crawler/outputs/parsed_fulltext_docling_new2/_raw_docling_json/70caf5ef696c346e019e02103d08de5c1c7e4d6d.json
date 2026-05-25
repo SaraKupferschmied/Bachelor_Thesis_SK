@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Schema_BA_60_ECTS_70caf5ef696c346e019e02103d08de5c1c7e4d6d",
+  "markdown": "## Bachelor Religionswissenschaft\n\n## Studienprogramm zu 60 Kreditpunkten\n\n## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)*\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n2 VL: Einführung in zentrale\n\nThemen der RW (6 ECTS)\n\n- *Ggf. VL Einführung in zentrale\n\nThemen der RW (3 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Religionsgeschichte D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Empirische Methoden D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)",
+  "pages": [
+    "## Bachelor Religionswissenschaft\n\n## Studienprogramm zu 60 Kreditpunkten\n\n## Einführung in die Religionswissenschaft D &amp; F - 15 ECTS\n\nVL: Einführung in die RW (3 ECTS)*\n\nPS: Einführung in die RW (3 ECTS) PS-Arbeit (3 ECTS)\n\n2 VL: Einführung in zentrale\n\nThemen der RW (6 ECTS)\n\n- *Ggf. VL Einführung in zentrale\n\nThemen der RW (3 ECTS)\n\nReligiöse Gegenwartskulturen D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Religionsgeschichte D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)\n\n## Empirische Methoden D &amp; F - 15 ECTS\n\n- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)\n- 1 Seminararbeit (6 ECTS)"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Bachelor Religionswissenschaft",
+      "line_index": 0,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Studienprogramm zu 60 Kreditpunkten",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Einführung in die Religionswissenschaft D &amp; F - 15 ECTS",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Religionsgeschichte D &amp; F - 15 ECTS",
+      "line_index": 23,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Empirische Methoden D &amp; F - 15 ECTS",
+      "line_index": 28,
+      "source": "markdown_regex"
+    }
+  ]
+}

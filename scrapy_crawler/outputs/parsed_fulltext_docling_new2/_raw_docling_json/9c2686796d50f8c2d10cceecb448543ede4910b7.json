@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Management_Economics_and_Social_Sciences_Master_30_Data_Analytics_Economics_MA_30_ECTS_Data_Analytics_9c2686796d50f8c2d10cceecb448543ede4910b7",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Masternebenfach 30 ECTS\n\n## Data Analytics\n\n## Kurse\n\n## 27 ECTS an folgenden Semesterwahlkursen:\n\n-  Mindestens 18 ECTS aus dem folgendem Kursangebot:\n- Databases\n- Inférence, évaluation et sélection de modèles\n- Méthodes de classification\n- Thèmes choisis de statistique multivariée\n- Statistique bayésienne\n- Applied Econometrics\n- Econometric Methods and Applications\n- Big Data Methods\n- Machine Learning\n-  Maximum 9 ECTS im Kursangebot der Liste A und/oder im Kursangebot des Moduls T6 (Data Science) des Masters in Informatik und/oder im Kursangebot der Module «Data Analytics and Decision Support» (DADS) und «Technologies and Modelling for Digitaliza-\n\n## Seminarbeit\n\nDie Seminararbeit muss im Rahmen eines Semesterkurses der Gruppe A verfasst werden.\n\nTotal\n\n## ZULASSUNGSBEDINGUNGEN\n\nInhaber/Innen eines Bachelors müssen folgende Kurse der Universität Freiburg oder gleichwertige Kurse absolviert haben:\n\n-  Mathematik I (4.5 ECTS)\n-  Mathematik II (4.5 ECTS)\n-  Statistik I (4.5 ECTS)\n-  Statistik II (4.5 ECTS)\n-  Statistik III (4.5 ECTS)\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Wirtschaftsinformatik II (6 ECTS)\n\n## KURSANGEBOT\n\nInformationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.\n\n## WEITERE INFO\n\nWenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.\n\nECTS\n\n27\n\n18 - 27\n\n0 - 9\n\n3\n\n30",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\nseptembre 2024\n\n## Masternebenfach 30 ECTS\n\n## Data Analytics\n\n## Kurse\n\n## 27 ECTS an folgenden Semesterwahlkursen:\n\n-  Mindestens 18 ECTS aus dem folgendem Kursangebot:\n- Databases\n- Inférence, évaluation et sélection de modèles\n- Méthodes de classification\n- Thèmes choisis de statistique multivariée\n- Statistique bayésienne\n- Applied Econometrics\n- Econometric Methods and Applications\n- Big Data Methods\n- Machine Learning\n-  Maximum 9 ECTS im Kursangebot der Liste A und/oder im Kursangebot des Moduls T6 (Data Science) des Masters in Informatik und/oder im Kursangebot der Module «Data Analytics and Decision Support» (DADS) und «Technologies and Modelling for Digitaliza-\n\n## Seminarbeit\n\nDie Seminararbeit muss im Rahmen eines Semesterkurses der Gruppe A verfasst werden.\n\nTotal\n\n## ZULASSUNGSBEDINGUNGEN\n\nInhaber/Innen eines Bachelors müssen folgende Kurse der Universität Freiburg oder gleichwertige Kurse absolviert haben:\n\n-  Mathematik I (4.5 ECTS)\n-  Mathematik II (4.5 ECTS)\n-  Statistik I (4.5 ECTS)\n-  Statistik II (4.5 ECTS)\n-  Statistik III (4.5 ECTS)\n-  Wirtschaftsinformatik I (6 ECTS)\n-  Wirtschaftsinformatik II (6 ECTS)\n\n## KURSANGEBOT\n\nInformationen zu den Kursen, die von der Wirtschafts- und Sozialwissenschaftlichen Fakultät im Rahmen der Module angeboten werden, werden zu Beginn des akademischen Jahres im detaillierten Studienplan und im Internet veröffentlicht.\n\n## WEITERE INFO\n\nWenn Sie dieses NP im Rahmen eines Masters der Philosophischen Fakultät absolvieren, muss dieses Programm zu 30 ECTS vor der Verteidigung Ihrer Masterarbeit erworben werden.\n\nECTS\n\n27\n\n18 - 27\n\n0 - 9\n\n3\n\n30"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Masternebenfach 30 ECTS",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Data Analytics",
+      "line_index": 8,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Kurse",
+      "line_index": 10,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "27 ECTS an folgenden Semesterwahlkursen:",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Seminarbeit",
+      "line_index": 26,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "ZULASSUNGSBEDINGUNGEN",
+      "line_index": 32,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "KURSANGEBOT",
+      "line_index": 44,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "WEITERE INFO",
+      "line_index": 48,
+      "source": "markdown_regex"
+    }
+  ]
+}

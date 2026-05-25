@@ -9,21 +9,24 @@ from .performance import get_timer, log_timing, reset_request_timer, start_reque
 
 from .config import settings
 from .orchestrator import answer_question
+#from .ollama_rag import detect_request_language
 from .ollama_rag import _retrieve_metadata_aware
 from .schemas import AskRequest, AskResponse
 from .session_state import empty_session_state
 from .ollama_rag import _retrieve_metadata_and_language_aware
+from langchain_community.vectorstores import FAISS
+from langchain_ollama import OllamaEmbeddings
 
 if settings.rag_parser == "docling_language_aware":
-    from .build_faiss_docling_language_aware import build_index_for
+    from .faiss_builders.build_faiss_docling_language_aware import build_index_for
 elif settings.rag_parser == "docling":
-    from .build_faiss_docling import build_index_for
+    from .faiss_builders.build_faiss_docling import build_index_for
 elif settings.rag_parser == "docling_table_semantic":
-    from .build_faiss_docling_table_semantic import build_index_for
+    from .faiss_builders.build_faiss_docling_table_semantic import build_index_for
 elif settings.rag_parser == "docling_parent_child":
-    from .build_faiss_docling_parent_child import build_index_for
+    from .faiss_builders.build_faiss_docling_parent_child import build_index_for
 else:
-    from .build_faiss import build_index_for
+    from .faiss_builders.build_faiss import build_index_for
 
 app = FastAPI(title="Regulations & Studyplan Chatbot (Ollama RAG)")
 
@@ -58,53 +61,54 @@ async def timing_middleware(request: Request, call_next):
 
 db_study = None
 db_regl = None
+db_base = None
 
 
-def choose_db(question: str, db_study, db_regl):
+def load_existing_faiss(index_dir):
+    embeddings = OllamaEmbeddings(model=settings.ollama_embedding_model, base_url=settings.ollama_host)
+    return FAISS.load_local(str(index_dir), embeddings, allow_dangerous_deserialization=True)
+
+
+def choose_db(question: str, db_study, db_regl, db_base=None, rag_source: str = "auto"):
+    if rag_source == "studyplans":
+        return db_study
+    if rag_source == "reglementations":
+        return db_regl
+    if rag_source == "base_data":
+        return db_base
+
     q = question.lower()
 
     study_keywords = [
-        "studienplan",
-        "study plan",
-        "module",
-        "modul",
-        "kurs",
-        "course",
-        "ects",
-        "pflicht",
-        "mandatory",
-        "bachelor",
-        "master",
-        "semester",
-        "wirtschaftsinformatik",
-        "business informatics",
-        "program",
+        "studienplan", "study plan", "module", "modul", "kurs", "course",
+        "ects", "pflicht", "mandatory", "bachelor", "master", "semester",
+        "wirtschaftsinformatik", "business informatics", "program", "programme",
         "curriculum",
     ]
 
     regl_keywords = [
-        "reglement",
-        "regulation",
-        "regulations",
-        "ordnung",
-        "article",
-        "artikel",
-        "paragraph",
-        "§",
+        "reglement", "regulation", "regulations", "ordnung", "article",
+        "artikel", "paragraph", "§",
     ]
 
-    if any(k in q for k in study_keywords):
-        return db_study or db_regl
+    base_keywords = [
+        "faculty", "faculties", "domain", "study program", "study programme",
+        "programmes", "degree", "university", "department", "base data",
+    ]
 
     if any(k in q for k in regl_keywords):
-        return db_regl or db_study
+        return db_regl or db_study or db_base
+    if any(k in q for k in base_keywords):
+        return db_base or db_study or db_regl
+    if any(k in q for k in study_keywords):
+        return db_study or db_base or db_regl
 
-    return db_study or db_regl
+    return db_study or db_base or db_regl
 
 
 @app.on_event("startup")
 def startup():
-    global db_study, db_regl
+    global db_study, db_regl, db_base
 
     print("🚀 Chatbot API started")
     print("📄 Swagger UI: http://localhost:8000/docs")
@@ -124,6 +128,13 @@ def startup():
         db_regl = None
         print(f"[startup] failed to load reglementations index: {e!r}")
 
+    try:
+        db_base = load_existing_faiss(settings.base_data_index)
+        print("[startup] loaded base-data index")
+    except Exception as e:
+        db_base = None
+        print(f"[startup] failed to load base-data index: {e!r}")
+
 
 @app.get("/health")
 def health():
@@ -132,8 +143,10 @@ def health():
         "vectorstore_dir": str(settings.vectorstore_dir),
         "study_index": str(settings.studyplans_index),
         "regl_index": str(settings.reglementations_index),
+        "base_data_index": str(settings.base_data_index),
         "study_loaded": db_study is not None,
         "regl_loaded": db_regl is not None,
+        "base_data_loaded": db_base is not None,
     }
 
 
@@ -159,7 +172,7 @@ def rebuild_reglementations():
 
 @app.post("/rebuild")
 def rebuild():
-    global db_study, db_regl
+    global db_study, db_regl, db_base
 
     result = {"parser": settings.rag_parser}
 
@@ -177,6 +190,13 @@ def rebuild():
         db_regl = None
         result["reglementations"] = f"failed: {e}"
 
+    try:
+        db_base = build_index_for("base_data", parser=settings.rag_parser, force_rebuild=True)
+        result["base_data"] = "rebuilt"
+    except Exception as e:
+        db_base = None
+        result["base_data"] = f"failed: {e}"
+
     return result
 
 
@@ -185,18 +205,24 @@ def ask(payload: AskRequest) -> AskResponse:
     session_id = payload.session_id or "default"
     session_state = SESSION_STORE.get(session_id, empty_session_state())
 
-    use_study = db_study
-    use_regl = db_regl
+    selected_db = choose_db(payload.question, db_study, db_regl, db_base, payload.rag_source or "auto")
+    use_study = db_study if selected_db == db_study else None
+    use_regl = db_regl if selected_db == db_regl else None
+    use_base = db_base if selected_db == db_base else None
 
-    if payload.run_mode == "tool":
+    if payload.run_mode == "api":
         use_study = None
         use_regl = None
+        use_base = None
+
+#    effective_language = detect_request_language(payload.question, payload.language)
 
     with timed_step("ask.answer_question"):
         result = answer_question(
             question=payload.question,
             db_study=use_study,
             db_regl=use_regl,
+            db_base=use_base,
             language=payload.language,
             session_state=session_state,
             run_mode=payload.run_mode,
@@ -213,7 +239,7 @@ def ask(payload: AskRequest) -> AskResponse:
 
 @app.post("/debug/retrieve")
 def debug_retrieve(payload: AskRequest):
-    db = choose_db(payload.question, db_study, db_regl)
+    db = choose_db(payload.question, db_study, db_regl, db_base, payload.rag_source or "auto")
 
     if db is None:
         return JSONResponse(

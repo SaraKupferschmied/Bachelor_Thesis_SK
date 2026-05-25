@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 Validate parsing quality for downloaded programme documents.
 
 Place this file here:
@@ -43,12 +43,10 @@ META_RE = re.compile(
 )
 
 DEFAULT_PARSED_DIRS = [
-    "parsed_fulltext",
-    "parsed_fulltext_docling",
+    "parsed_fulltext_docling_new2",
     "parsed_fulltext_docling_new",
-    "parsed_fulltext_docling_new_clean",
-    "parsed_fulltext_docling_new_clean_language_suffixed",
-    "parsed_fulltext_docling_new_metadata_backup",
+    "parsed_fulltext_docling",
+    "parsed_fulltext",
 ]
 
 REQUIRED_METADATA_FIELDS = [
@@ -186,26 +184,63 @@ def median(values: Iterable[float]) -> float:
 # Manifest baseline
 # ----------------------------
 
+def manifest_doc_key(row: Dict[str, Any]) -> Optional[str]:
+    """Return the identifier used by parsed .txt filenames.
+
+    Old manifests used `doc_key`. The current faculty-docs pipeline stores
+    downloaded PDFs as Scrapy FilesPipeline paths such as `full/<sha1>.pdf`;
+    the parsed Docling text files use that 40-char stem as filename.
+    """
+    for key in ("doc_key", "sha1", "sha256"):
+        value = row.get(key)
+        if present(value):
+            text = str(value).strip().lower()
+            m = re.search(r"[0-9a-f]{40}", text, flags=re.I)
+            if m:
+                return m.group(0).lower()
+            if key == "doc_key":
+                return text
+
+    for key in ("path", "local_path", "file_path"):
+        value = row.get(key)
+        if present(value):
+            found = get_doc_key_from_filename(Path(str(value)))
+            if found:
+                return found
+
+    return None
+
+
+def row_downloaded(row: Dict[str, Any]) -> bool:
+    status = str(row.get("status") or row.get("file_status") or "").lower()
+    if status in {"downloaded", "already_present", "uptodate", "ok", "success"}:
+        return True
+
+    # Some current normalized faculty-doc rows do not have a status, but a
+    # FilesPipeline path/checksum means the document exists in faculty_docs_v3.
+    return bool(present(row.get("path")) or present(row.get("local_path")))
+
+
 def summarize_manifest_baseline(manifest_path: Path) -> Dict[str, Any]:
     rows = load_json(manifest_path)
     if not isinstance(rows, list):
         raise ValueError(f"Manifest must be a JSON list: {manifest_path}")
 
-    successful_statuses = {"downloaded", "already_present"}
-    downloaded = [
-        r for r in rows
-        if isinstance(r, dict)
-        and r.get("status") in successful_statuses
-        and present(r.get("doc_key"))
-    ]
-
-    all_doc_keys = [str(r.get("doc_key")).lower() for r in downloaded if present(r.get("doc_key"))]
-    unique_doc_keys = sorted(set(all_doc_keys))
-
+    downloaded = []
     refs_by_doc_key: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
-    for row in downloaded:
-        refs_by_doc_key[str(row.get("doc_key")).lower()].append(row)
 
+    for row in rows:
+        if not isinstance(row, dict) or not row_downloaded(row):
+            continue
+        doc_key = manifest_doc_key(row)
+        if not doc_key:
+            continue
+        normalized = dict(row)
+        normalized["_resolved_doc_key"] = doc_key
+        downloaded.append(normalized)
+        refs_by_doc_key[doc_key].append(normalized)
+
+    unique_doc_keys = sorted(refs_by_doc_key)
     multiplicities = [len(v) for v in refs_by_doc_key.values()]
     reused_docs = {k: v for k, v in refs_by_doc_key.items() if len(v) > 1}
 
@@ -218,9 +253,9 @@ def summarize_manifest_baseline(manifest_path: Path) -> Dict[str, Any]:
         "max_references_per_doc_key": max(multiplicities) if multiplicities else 0,
         "mean_references_per_doc_key": round(mean(multiplicities), 6),
         "metadata_loss_risk_note": (
-            "If parsing is deduplicated by doc_key, one parsed text file may represent multiple "
-            "programme references. Metadata must therefore be validated against all manifest rows, "
-            "not only the first row for a doc_key."
+            "If parsing is deduplicated by document key, one parsed text file may represent multiple "
+            "programme references. The current pipeline can derive this key either from old doc_key "
+            "values or from faculty_docs_v3 FilesPipeline paths like full/<sha1>.pdf."
         ),
     }
 
@@ -486,7 +521,19 @@ def main() -> None:
     args = parser.parse_args()
 
     if not args.manifest.exists():
-        raise FileNotFoundError(f"Manifest not found: {args.manifest}")
+        fallback_manifests = [
+            args.outputs_root / "faculty_docs_v3" / "_faculty_docs_manifest.json",
+            args.outputs_root / "_faculty_docs_manifest.json",
+            args.outputs_root / "faculty_docs_v3" / "_program_docs_manifest.backup.json",
+        ]
+        for candidate in fallback_manifests:
+            if candidate.exists():
+                print(f"Manifest not found at {args.manifest}; using {candidate}")
+                args.manifest = candidate
+                break
+        else:
+            searched = [str(args.manifest), *[str(p) for p in fallback_manifests]]
+            raise FileNotFoundError("Manifest not found. Searched: " + "; ".join(searched))
 
     baseline = summarize_manifest_baseline(args.manifest)
     expected_doc_keys = set(baseline["unique_doc_keys"])

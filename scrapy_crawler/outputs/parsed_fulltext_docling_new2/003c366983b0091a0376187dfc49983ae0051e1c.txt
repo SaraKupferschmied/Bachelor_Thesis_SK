@@ -1,0 +1,320 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T20:50:02.174Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Slavic_Studies_download_003c366983b0091a0376187dfc49983ae0051e1c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "003c366983b0091a0376187dfc49983ae0051e1c",
+  "program_key": "faculty of humanities|bachelor|60|slavic studies",
+  "source_url": "https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_Slavistik_60_05032015__2_.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Slavic_Studies_download_003c366983b0091a0376187dfc49983ae0051e1c.pdf",
+  "sha256": "adf6a5e7d21c3f5002873498df41c68c4ad2b3061c4e8f0d4324eba04600595d",
+  "fetched_at": "2026-05-21T16:05:25.336Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/slavistik/de/assets/public/files/studium/Studienplan_Slavistik_60_05032015__2_.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Slavic Studies",
+  "programme_name_de": "Slavistik",
+  "programme_name_fr": "Slavistique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/slavicstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/8S-ys"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Philosophische Fakultät Departement für Sprachen und Literaturen Studienbereich Slavistik
+
+## Slavistik Bachelor of Arts im Nebenbereich (60 Kreditpunkte) Studienplan
+
+Gestützt  auf  das  Reglement  vom  23.  Juni  2005  zur  Erlangung  des  universitären  Diploms  (Niveau europäischer Bachelor) an der Philosophischen Fakultät der Universität Freiburg und die Fachkonvention BEFRI vom 15. November 2011 in Slavistik.
+
+## Inhaltsverzeichnis
+
+| Beschreibung des Programms ...............................................................................................1               |
+|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprachen................................................................................................................................2 |
+| Aufbau des Studiums .............................................................................................................2        |
+| Evaluation, Modulnoten und Abschlussnote ...........................................................................2                     |
+| Endgültiger Misserfolg............................................................................................................2       |
+| Die Module: Aufbau, Inhalt, Lernziele, Evaluation...................................................................3                     |
+| Ratifikation, Inkrafttreten, Übergangsbestimmungen ..............................................................5                        |
+
+Tabellarische Übersicht   .........................................................................................................  6
+
+## Beschreibung des Programms
+
+## Profil
+
+Das Studium der Slavistik erschliesst einen äusserst vielfältigen und lebendigen Kulturraum, der von Mitteleuropa bis nach Ostasien reicht. Die russische und die polnische Kultur bilden die Schwerpunkte  der Freiburger Slavistik. In unseren Seminaren  und Vorlesungen vermitteln  wir  die  Grundlagen  der  Literatur-  und  Kulturgeschichte  dieser  beiden  Länder. Besonders  interessieren  wir  uns  für  die  Wechselbeziehungen  zwischen  den  Kulturen. Literatur und Sprache betrachten wir im Kontext von Philosophie, Religion, bildender Kunst, Film und Populärkultur.
+
+Gemeinsam  mit  dem  Institut  für  slavische  Sprachen  und  Literaturen  der  Universität  Bern bieten  wir  ein  volles  Slavistik-Programm.  Es  umfasst  Literatur-  bzw.  Kulturwissenschaft (Freiburg)  und  Sprachwissenschaft  (Bern)  sowie  Kurse  des  Russischen  (Freiburg  oder Bern), Polnischen (Freiburg), Bosnischen/Kroatischen/Montenegrinischen/Serbischen (Bern) und weiterer slavischer Sprachen. Die Fahrtkosten der Studierenden zwischen den beiden Universitäten werden aus den Mitteln des BENEFRI-Netzwerks ersetzt.
+
+Die  Studierenden  im  BA-Nebenbereich  lernen  eine  slavische  Sprache:  Russisch,  Polnisch oder  Bosnisch/Kroatisch/Montenegrinisch/Serbisch.  Je  nach  Angebot  sind  auch  andere slavische Sprachen möglich: z.B. Tschechisch (Freiburg), Bulgarisch (Bern) oder Slowenisch (Bern). Die Sprachkurse erlauben den Einstieg ohne Vorkenntnisse.
+
+## Ausbildungsziele
+
+Die  Studierenden,  die  das  Nebenprogramm  Slavistik  abgeschlossen  haben,  beherrschen eine  slavische  Sprache.  Sie  kennen  die  Grundlagen  der  literatur-  und  kultur-  sowie  der
+
+HS:
+
+Herbstsemester.
+
+SA:
+
+Seminararbeit.
+
+sprachwissenschaftlichen Slavistik und haben Techniken und Verfahren der wissenschaftlichen  Informationsbeschaffung  und  -vermittlung  erlernt.  Sie  verfügen  über interkulturelle Kompetenz  und orientieren sich in der Gesellschaft und Alltagskultur Russlands, Polens oder Bosniens/Kroatiens/Montenegros/Serbiens.
+
+## Berufsperspektiven
+
+Die Länder Ost-, Ostmittel- und Südosteuropas haben in den letzten Jahren immer mehr an Bedeutung gewonnen. Das gilt für Wirtschaft und Politik genauso wie für die Kultur. Konkret können sich Arbeitsmöglichkeiten in folgenden Bereichen ergeben: Forschung und Wissenschaft, Medien, kulturelle Zusammenarbeit, diplomatischer Dienst, Bundesverwaltung, internationale Behörden  und Unternehmen,  internationale Organisationen, darunter NGOs.
+
+## Sprachen
+
+Das  Studium  der  Slavistik  ist  zweisprachig  integriert,  das  heisst  die  wissenschaftlichen Veranstaltungen werden zweisprachig deutsch/französisch angeboten. In den Sprachkursen wird  möglichst  früh  schon  in  der  Zielsprache  unterrichtet.  Die  Studierenden  können  ihre Prüfungen  in  deutscher,  französischer,  englischer  oder  -  nach  Absprache  mit  der/dem Dozierenden - in einer slavischen Sprache nach Wahl ablegen. Ein 'Vermerk zweisprachig' wird nicht angeboten.
+
+## Aufbau des Studiums, Studienbeginn
+
+Das Studium umfasst 4 Module:
+
+1. Einführung in die slavistische Literatur- und Sprachwissenschaft
+2. Aufbaumodul Literatur/Kultur- oder Sprachwissenschaft
+3. Wahlmodul
+4. Slavische Sprache
+
+Es wird  empfohlen,  das  Studium mit  den  Kursen  des  Moduls  'Einführung'  sowie  mit  dem Modul Slavische Sprache zu beginnen. Die Sprachkurse beginnen jeweils im Herbstsemester.  Das  Studium  kann  im  Herbst-  oder  Frühlingssemester  aufgenommen werden. Wir empfehlen den Beginn im Herbstsemester.
+
+## Evaluation, Modulnoten und Abschlussnote
+
+Wenn  nicht  anders  angegeben,  werden  die  Lehrveranstaltungen  mit  Noten  evaluiert.  Die Modulnoten ergeben sich jeweils aus dem Mittel der mit Note evaluierten Lehrveranstaltungen der Module. Die Abschlussnote ergibt sich aus dem Mittel der Modulnoten.
+
+## Endgültiger Misserfolg
+
+Das dreimalige Nichtbestehen eines obligatorischen Kurses führt zum Ausschluss aus dem Studienprogramm Slavistik Bachelor (Haupt- und Nebenbereich).
+
+Die obligatorischen Kurse sind:
+
+Seminar Einführung in die Literaturwissenschaft Einführungsseminar Laut+Schrift
+
+## Die Module: Aufbau, Inhalt, Lernziele, Evaluation
+
+## Modul 1: Einführung in die slavistische Literatur- und Sprachwissenschaft
+
+|    |                                                   | Ort   |   SWS |   CR |
+|----|---------------------------------------------------|-------|-------|------|
+| SE | Seminar Einführung in die Literaturwissenschaft   | FR    |     2 |    6 |
+| SE | Einführungsseminar Laut+Schrift                   | BE    |     2 |    6 |
+| VL | Vorlesung Überblick russische Literaturgeschichte | FR    |     2 |    3 |
+| VL | Einführungsvorlesung Laut+Schrift                 | BE    |     2 |    3 |
+|    |                                                   |       |       |   18 |
+
+Inhalt  und  Lernziele Das Modul macht die Studierenden mit den methodischen und theoretischen Grundlagen der literaturwissenschaftlichen Slavistik vertraut und vermittelt  Grundkenntnisse  der  Geschichte der russischen Literatur unter Berücksichtigung  kultureller  und  historischer  Kontexte. Nach erfolgreichem Abschluss sind die Studierenden  mit  den  Grundbegriffen  der Phonetik  und  der  Phonologie  vertraut  und können  das  Laut-  und  das  Schriftbild  einer slavischen Sprache (in der Regel des Russischen) analysieren. Sie erwerben Kompetenzen  in  der  Informationsbeschaffung und in der Präsentation von Wissen.
+
+Evaluation Seminare: aktive Teilnahme und erfolgreiche Bearbeitung der seminarbegleitenden Aufgaben und Tests.
+
+Vorlesungen: schriftliche oder mündliche Prüfung.
+
+## Modul 2: Aufbaumodul Literatur/Kultur- oder Sprachwissenschaft
+
+Die Studierenden wählen eines der vier folgenden Module:
+
+- 2A: Russische Literatur und Kultur
+- 2B: Polnische Literatur und Kultur
+- 2C: Geschichte und Gegenwart (Sprachwissenschaft)
+- 2D: Grammatik und Wörterbuch
+
+## 2A: Russische Literatur und Kultur
+
+|    |                                                     | Ort   | SWS   |   CR |
+|----|-----------------------------------------------------|-------|-------|------|
+| SE | Russische Literatur/Kultur                          | FR    | 2     |    3 |
+| SA | Schriftliche Arbeit                                 | -     | -     |    6 |
+| VL | Russische Literatur/Kultur des 19.-21. Jahrhunderts | FR    | 2     |    3 |
+|    |                                                     |       |       |   12 |
+
+Inhalt  und  Lernziele Anhand ausgewählter Themenkomplexe erlernen die Studierenden die Analyse und Deutung literarischer Texte. Phänomene  und  Konstellationen  der  russischen Kultur des 19.-21. Jahrhunderts (Texte,  visuelle  Medien)  werden  dabei  im historischen  und  gesellschaftlichen  Kontext betrachtet.  Im  Fokus  steht  dabei  die  Rolle von Literatur und Kunst im kulturellen Selbstverständnis Russlands. Die Studierenden werden mit Positionen der Literatur- und Kulturtheorie vertraut. Sie erlernen den
+
+## 2B: Polnische Literatur und Kultur
+
+|    |                                                        | Ort   | SWS   |   CR |
+|----|--------------------------------------------------------|-------|-------|------|
+| SE | Polnische Literatur/Kultur                             | FR    | 2     |    3 |
+| SA | Schriftliche Arbeit                                    | -     | -     |    6 |
+| VL | Epochen und Autoren der polnischen Literaturgeschichte | FR    | 2     |    3 |
+|    |                                                        |       |       |   12 |
+
+Bern. CR: Credit  Points nach 'European Credit Transfer and Accumulation System'. FR :  Freiburg.
+
+HS:
+
+Herbstsemester.
+
+SA:
+
+Seminararbeit.
+
+Seminar.
+
+SK:
+
+Sprachkurs.
+
+Umgang  mit  Forschungsliteratur und das Verfassen wissenschaftlicher Arbeiten im Bereich der literaturwissenschaftlichen Slavistik.
+
+Evaluation Seminar: aktive  Teilnahme  und Kurzpräsentation (das Seminar wird mit 'bestanden/nicht  bestanden'  bewertet). Seminararbeit: wissenschaftliche Arbeit im Umfang  von  ca.  3.000-4.000  Wörtern  (incl. Anmerkungen und Bibliographie). Vorlesung: schriftliche Prüfung.
+
+Inhalt und Lernziele Die Studierenden erwerben Kenntnisse über Schlüsselepochen  und/oder  -autoren  der  polnischen Literaturgeschichte des 19.-21. Jahrhunderts.  Sie  lernen,  kulturelle  Phänomene  im historischen und politischen Kontext zu analysieren  und  zu  deuten.  Der  Fokus  liegt insbesondere auf den literarisch-künstlerischen  Repräsentationen  historischer  und kultureller Umbrüche. Die Studierenden erlernen  den  Umgang  mit  Forschungslite- ratur  und  das  Verfassen  wissenschaftlicher Arbeiten im Bereich der literaturwissenschaftlichen Slavistik.
+
+Evaluation Seminar: aktive  Teilnahme  und Kurzpräsentation (das Seminar wird mit 'bestanden/nicht bestanden' bewertet). Seminararbeit: wissenschaftliche  Arbeit  im Umfang  von  ca.  3.000-4.000  Wörtern  (incl. Anmerkungen und Bibliographie). Vorlesung: schriftliche Prüfung.
+
+## 2C: Geschichte und Gegenwart (Sprachwissenschaft)
+
+|    |                                   | Ort   | SWS   |   CR |
+|----|-----------------------------------|-------|-------|------|
+| SE | Sprachwissenschaftliches Seminar  | BE    | 2     |    3 |
+| SA | Schriftliche Arbeit               | -     | -     |    6 |
+| VL | Sprachwissenschaftliche Vorlesung | BE    | 2     |    3 |
+|    |                                   |       |       |   12 |
+
+Inhalt und Lernziele Die Studierenden sind mit den wichtigsten Stadien der Entwicklung einer  slavischen  Sprache  (in  der  Regel  des Russischen) vertraut und können Wortformen  nach  historisch-vergleichenden Gesichtspunkten analysieren.
+
+## 2D: Grammatik und Wörterbuch
+
+|    |                                   | Ort   | SWS   |   CR |
+|----|-----------------------------------|-------|-------|------|
+| SE | Sprachwissenschaftliches Seminar  | BE    | 2     |    3 |
+| SA | Schriftliche Arbeit               | -     | -     |    6 |
+| VL | Sprachwissenschaftliche Vorlesung | BE    | 2     |    3 |
+|    |                                   |       |       |   12 |
+
+Inhalt und Lernziele Die Studierenden sind mit den Methoden der Beschreibung lexikalischer  und  grammatischer  Bedeutungen vertraut und können sie auf eine slavische Sprache (in der Regel das Russische) anwenden.
+
+## Modul 3: Wahlmodul
+
+Die Studierenden können ein weiteres literatur-/kulturwissenschaftliches oder sprachwissenschaftliches  Modul  belegen,  das  Sie  unter  Modul  2  noch  nicht  belegt  haben. Oder sie belegen das folgende Modul:
+
+## Gesellschaften und Kulturen Osteuropas
+
+|    |                     | Ort   | SWS   |   CR |
+|----|---------------------|-------|-------|------|
+| SE | Seminar             | FR/BE | 2     |    3 |
+| SA | Schriftliche Arbeit | -     | -     |    6 |
+| VL | Vorlesung           | FR/BE | 2     |    3 |
+|    |                     |       |       |   12 |
+
+Inhalt  und  Lernziele Im  Rahmen  dieses Moduls  machen  sich  die  Studierenden  mit Russlandund osteuropabezogenen For- schungsansätzen und Wissensbeständen im Bereich der Philosophie,  der  Geschichtswissenschaft,  der  Sozialanthropologie  oder
+
+Bern. CR: Credit  Points nach 'European Credit Transfer and Accumulation System'. FR :  Freiburg.
+
+HS:
+
+Herbstsemester.
+
+SA:
+
+Seminararbeit.
+
+Seminar.
+
+SK:
+
+Sprachkurs.
+
+Evaluation Seminar: aktive  Teilnahme (das Seminar  wird  mit  'bestanden/nicht  bestanden' bewertet). Seminararbeit: wissenschaftliche Arbeit im Umfang von ca. 3.000-4.000 Wörtern (incl. Anmerkungen und Bibliographie). Vorlesung: schriftliche oder mündliche Prüfung.
+
+Evaluation Seminar: aktive  Teilnahme (das Seminar wird mit 'bestanden/nicht bestanden'  bewertet). Seminararbeit: wissenschaftliche  Arbeit  im  Umfang  von  ca. 3.000-4.000 Wörtern (incl. Anmerkungen und Bibliographie). Vorlesung: schriftliche oder mündliche Prüfung.
+
+der Politologie vertraut. Ziel ist die interdisziplinäre  Erweiterung  des  Blicks  auf kulturelle Phänomene.
+
+Evaluation Seminar: aktive  Teilnahme (das Seminar  wird  mit  'bestanden/nicht  bestan-
+
+## Modul 4: Sprachmodul
+
+Die Studierenden wählen eines der 3 Module aus:
+
+Russisch Minor
+
+Polnisch Minor
+
+Bosnisch/Kroatisch/Montenegrinisch/Serbisch Minor
+
+Die  Kursstruktur  der  Module  Polnisch  Minor  und  Bosnisch/Kroatisch/Montenegrinisch/Serbisch Minor ist identisch. Daher werden sie unten gemeinsam aufgeführt.
+
+## Modul Russisch Minor
+
+|    |                         | Ort   |   SWS | CR              |
+|----|-------------------------|-------|-------|-----------------|
+| SK | Russisch I (HS und FS)  | FR    |     6 | 12 (6/Semester) |
+| SK | Russisch II (HS und FS) | FR    |     4 | 6 (3/Semester)  |
+|    |                         |       |       | 18              |
+
+Die Kurse Russisch I und II beginnen jeweils im Herbstsemester und umfassen zwei Semester.
+
+Inhalt  und  Lernziele Nach  erfolgreichem Abschluss  des  Moduls  haben  die  Studierenden  gelernt,  sich  zu  diversen  Themen differenziert zu äussern und auf die Aussagen Anderer spontan zu reagieren. Sie können die meisten Alltagssituationen sprachlich angemessen bewältigen, komplexere authentische Texte verstehen und selbstständig  verschiedene  Textsorten  verfassen.
+
+Evaluation Die  Evaluation  erfolgt  in  Form einer Abschlussprüfung am Ende jedes Semesters (HS u. FS).
+
+## Modul Polnisch oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch Minor
+
+|    |                                                                                       | Ort   |   SWS | CR             |
+|----|---------------------------------------------------------------------------------------|-------|-------|----------------|
+| SK | Polnisch I oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch I (jeweils HS und FS)     | FR/BE |     3 | 6 (3/Semester) |
+| SK | Polnisch II oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch II (jeweils HS und FS)   | FR/BE |     3 | 6 (3/Semester) |
+| SK | Polnisch III oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch III (jeweils HS und FS) | FR/BE |     2 | 6 (3/Semester) |
+|    |                                                                                       |       |       | 18             |
+
+Das  Modul  besteht  aus  drei  Jahreskursen der gewählten slavischen Sprache. Die Kurse  beginnen  jeweils  im  Herbstsemester und  umfassen  zwei  Semester.  Die  Studierenden legen sich auf eine der angebotenen Sprachen fest.
+
+Inhalt und Lernziele Die Studierenden sind mit den grammatischen Strukturen der jeweiligen Sprache vertraut. Sie können sich in verschiedenen kommunikativen Kontexten in Wort und Schrift adäquat ausdrücken und sind in der Lage, literarische und Sachtexte unterschiedlicher Komplexität zu verstehen.
+
+Evaluation Die  Evaluation  erfolgt  in  Form einer Abschlussprüfung am Ende jedes Semesters (HS u. FS).
+
+## Ratifikation, Inkrafttreten, Übergangsbestimmungen
+
+Studienplan ratifiziert durch die Examens- und Studienkommission am 5.03.2015. Er tritt mit dem Herbstsemester 2015 in Kraft. Studierende, die zuvor ihr Studium im Bereich Slavistik
+
+Herbstsemester.
+
+den' bewertet). Seminararbeit: wissenschaftliche Arbeit im Umfang von ca. 3.000-4.000 Wörtern (incl. Anmerkungen und Bibliographie). Vorlesung: schriftliche oder mündliche Prüfung.
+
+aufgenommen haben, können es nach den Regelungen des neuen Studienplans fortzusetzen. Es genügt ein schriftlicher Antrag, zu richten an den/die Verantwortliche/n des Studienbereichs.
+
+## Tabellarische Übersicht
+
+| Modul 1: Einführung in die slavistische Literatur- und Sprachwissenschaft          | Modul 1: Einführung in die slavistische Literatur- und Sprachwissenschaft                                            |                                                                                                                      | 18 CR             |
+|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-------------------|
+| SE                                                                                 | Seminar Einführung in die Literaturwissenschaft                                                                      | Seminar Einführung in die Literaturwissenschaft                                                                      | 6                 |
+| SE                                                                                 | Einführungsseminar Laut+Schrift                                                                                      | Einführungsseminar Laut+Schrift                                                                                      | 6                 |
+| VL                                                                                 | Vorlesung Überblick russische Literaturgeschichte                                                                    | Vorlesung Überblick russische Literaturgeschichte                                                                    | 3                 |
+| VL                                                                                 | Einführungsvorlesung Laut+Schrift                                                                                    | Einführungsvorlesung Laut+Schrift                                                                                    | 3                 |
+| Modul 2: Aufbaumodul Literatur/Kultur- oder Sprachwissenschaft (eines auszuwählen) | Modul 2: Aufbaumodul Literatur/Kultur- oder Sprachwissenschaft (eines auszuwählen)                                   | Modul 2: Aufbaumodul Literatur/Kultur- oder Sprachwissenschaft (eines auszuwählen)                                   | 12 CR             |
+|                                                                                    | 2A: Russische Literatur /Kultur                                                                                      | 2B: Polnische Literatur/Kultur                                                                                       |                   |
+| SE                                                                                 | Russische Literatur/Kultur                                                                                           | Polnische Literatur/Kultur                                                                                           | 3                 |
+| SA                                                                                 | Schriftliche Arbeit                                                                                                  | Schriftliche Arbeit                                                                                                  | 6                 |
+| VL                                                                                 | Überblick russische Literaturgeschichte                                                                              | Epochen und Autoren der polnischen Literaturgeschichte                                                               | 3                 |
+|                                                                                    | 2C: Geschichte und Gegenwart (Sprachwissenschaft)                                                                    | 2D: Grammatik und Wörterbuch                                                                                         |                   |
+| SE                                                                                 | Sprachwissenschaftliches Seminar                                                                                     | Sprachwissenschaftliches Seminar                                                                                     | 3                 |
+| SA                                                                                 | Schriftliche Arbeit                                                                                                  | Schriftliche Arbeit                                                                                                  | 6                 |
+| VL                                                                                 | Sprachwissenschaftliche Vorlesung                                                                                    | Sprachwissenschaftliche Vorlesung                                                                                    | 3                 |
+| Modul 3: Wahlmodul                                                                 | Modul 3: Wahlmodul                                                                                                   | Modul 3: Wahlmodul                                                                                                   | 12 CR             |
+|                                                                                    | gewählt werden können: - die unter Modul 2 nicht gewählten Module - das Modul Gesellschaften und Kulturen Osteuropas | gewählt werden können: - die unter Modul 2 nicht gewählten Module - das Modul Gesellschaften und Kulturen Osteuropas | 3                 |
+| SE                                                                                 | Seminar                                                                                                              | Seminar                                                                                                              | 3                 |
+| SA                                                                                 | Schriftliche Arbeit                                                                                                  | Schriftliche Arbeit                                                                                                  | 6                 |
+| VL                                                                                 | Vorlesung                                                                                                            | Vorlesung                                                                                                            | 3                 |
+| Modul 4: Slavische Sprache (eines auszuwählen)                                     | Modul 4: Slavische Sprache (eines auszuwählen)                                                                       | Modul 4: Slavische Sprache (eines auszuwählen)                                                                       | 18 CR             |
+|                                                                                    | Modul Russisch Minor                                                                                                 | Modul Russisch Minor                                                                                                 |                   |
+| SK                                                                                 | Russisch I (HS und FS)                                                                                               | Russisch I (HS und FS)                                                                                               | 12 (6/Se- mester) |
+| SK                                                                                 | Russisch II (HS und FS)                                                                                              | Russisch II (HS und FS)                                                                                              | 6 (3/Se- mester)  |
+|                                                                                    | Modul Polnisch oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch Minor                                                | Modul Polnisch oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch Minor                                                |                   |
+| SK                                                                                 | Polnisch I oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch I                                                        | Polnisch I oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch I                                                        | 6 (3/Se- mester)  |
+| SK                                                                                 | Polnisch II oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch II                                                      | Polnisch II oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch II                                                      | 6 (3/Se- mester)  |
+| SK                                                                                 | Polnisch III oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch III                                                    | Polnisch III oder Bosnisch/Kroatisch/Montenegrinisch/Serbisch III                                                    | 6 (3/Se- mester)  |
+|                                                                                    |                                                                                                                      |                                                                                                                      | 60 CR             |
+
+Herbstsemester.
+
+Sprachkurs.

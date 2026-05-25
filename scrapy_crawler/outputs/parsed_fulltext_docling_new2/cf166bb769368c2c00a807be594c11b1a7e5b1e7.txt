@@ -1,0 +1,106 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:55:35.964Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Latin_Studies_Lateinische_Sprache_und_Kultur_cf166bb769368c2c00a807be594c11b1a7e5b1e7",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "cf166bb769368c2c00a807be594c11b1a7e5b1e7",
+  "program_key": "faculty of humanities|master|30|latin studies",
+  "source_url": "https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_NP_30_Latein_DE_27012017_v2.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Latin_Studies_Lateinische_Sprache_und_Kultur_cf166bb769368c2c00a807be594c11b1a7e5b1e7.pdf",
+  "sha256": "301e5d38b9b99c186b80d3c024a97e0dfd9e77ab785507041c27ba7b0493dd55",
+  "fetched_at": "2026-05-21T16:05:25.594Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philclass/de/assets/public/files/etudes/MA_NP_30_Latein_DE_27012017_v2.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Latin Studies",
+  "programme_name_de": "Lateinische Sprache und Kultur",
+  "programme_name_fr": "Langue et culture latines",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/latinstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/jXVrf"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## UNIVERSITÄT FREIBURG SCHWEIZ Departement für Klassische Philologie
+
+## Master: Lateinische Sprache und Kultur Nebenprogramm (30 ECTS Punkte)
+
+Dieser Studienplan stützt sich auf das Reglement zur Erlangung des universitären Diploms (Niveau europäischer Master) an der Philosophischen Fakultät. Er tritt am 1. September 2017 in Kraft. Für Studierende,  die  ihr  Masterstudium  zu  diesem  Zeitpunkt  aufnehmen,  gilt  dieser  Studienplan ausnahmslos.
+
+Studienbeginn im Herbstsemester (September) oder im Frühlingssemester (Februar).
+
+## Studienplan
+
+Im  Nebenprogramm  Lateinische  Sprache  und  Kultur  werden  die  Kenntnisse  der  lateinischen Sprache und Literatur sowie der antiken Kultur vertieft und erweitert. Das Programm umfasst auch das Nachleben der römischen Antike in Spätantike, Mittelalter und Renaissance.
+
+## Zulassungsbedingungen
+
+Zum Nebenprogramm Lateinische Sprache und Kultur wird unmittelbar zugelassen:
+
+- -wer den Grad eines BA in der Studienrichtung ,Klassische Philologie' erworben hat;
+- -wer den Grad eines BA erworben hat, welcher mindestens 60 ECTS Punkte im Gebiet ,Lateinische Sprache und Kultur'.
+
+## Unterrichtssprachen
+
+Der Unterricht wird in Deutsch und in Französisch erteilt. Die Studierenden können in einer der beiden Sprachen ihre Seminararbeiten abfassen und ihre schriftlichen wie mündlichen Prüfungen ablegen. Mit Zustimmung der Lehrperson kann auch eine andere Sprache gewählt werden.
+
+## Studienaufbau
+
+Dieser Studiengang bietet eine Ausbildung in lateinischer Sprache und Literatur an. Er dauert zwei Jahre und besteht aus zwei Modulen (30 ECTS Punkte), die ein Vertiefungsmodul in Latein (15 ECTS Punkte) sowie ein Forschungsmodul (15 ECTS Punkte) umfassen.
+
+## DIE MODULE
+
+|    |                                     |   PUNKTE |
+|----|-------------------------------------|----------|
+| 1. | VERTIEFUNG LATEIN                   |       15 |
+|    | Vorlesung in lateinischer Literatur |        3 |
+|    | Lateinische Lektüre Master          |        3 |
+|    | Seminar Latein                      |        9 |
+| 2. | FORSCHUNG                           |       15 |
+|    | Seminar Latein                      |        9 |
+|    | Atelier                             |        6 |
+
+| MODUL1: VERTIEFUNG (15 ECTS)   | MODUL1: VERTIEFUNG (15 ECTS)                                                                                                                                                                                                                                                                                             |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 15 PUNKTE                      | Das Modul (15 ECTS Punkte) bietet Gelegenheit, die Kenntnisse in lateinischer Sprache und Literatur zu vertiefen sowie im Rahmen eines Seminars die Methoden der literarischen Interpretation zu schulen.                                                                                                                |
+| 3 PUNKTE                       | Vorlesung in lateinischer Literatur Diese Vorlesung ermöglicht es den Studierenden, Autoren und Textsorten sowie einschlägige Themen und Motive der lateinischen Literatur kennenzulernen.                                                                                                                               |
+| 3 PUNKTE                       | Lateinische Lektüre In diesem für Master-Studierende reservierten Lektürekurs lesen die Studierenden Texte in der Originalsprache (Latein). Linguistische und literarische Erläuterungen von Seiten der Lehrperson fördern und vertiefen das Verständnis.                                                                |
+| 9 PUNKTE                       | Seminar Latein In diesem Seminar werden die Studierenden durch die Lektüre und Interpretation von lateinischen Texten angeleitet, ihre eigene Reflexion über die Texte zu entwickeln und diese unter Anwendung der wissenschaftlichen Hilfsmittel der Klassischen Philologie in einer schriftlichen Arbeit zu vertiefen. |
+
+## MODUL 2: FORSCHUNG (15 ECTS)
+
+| 15     | Das Forschungsmodul (15 ECTS Punkte) leitet die Studierenden zu       |
+|--------|-----------------------------------------------------------------------|
+| PUNKTE | selbständiger philologischer und/oder interdisziplinärer Forschungan. |
+
+- 9 Seminar Latein PUNKTE Die Studierenden belegen ein lateinisches Seminar.
+
+## 6 Atelier
+
+PUNKTE
+
+Wissenschaftliches und interdisziplinäres Atelier mit aktiver Teilnahme und schriftlicher Arbeit.
+
+## DIE EVALUATION
+
+Dieser  Studienplan  stützt  sich  auf  die  Richtlinien  über  die  Evaluation  der  Studienleistungen,  die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz). In jeder Lehrveranstaltung wird die Studienleistung schriftlich oder mündlich entweder während des Semesters oder an dessen Ende evaluiert. Die Evaluationsart wird zu Beginn des Semesters bekannt gegeben.
+
+1. Jede Veranstaltung kann nur einmal validiert werden.
+2. Die  Gesamtnote  eines  Moduls  setzt  sich  aus  den  Teilnoten  der  Einzelveranstaltungen zusammen, welche ein Modul konstituieren. Alle Teilnoten müssen genügend sein.
+3. Der Durchschnitt der zwei Modulgesamtnoten ergibt die Schlussnote.
+4. Nicht  bestandene  Prüfungen  können  höchstens  zwei  Mal  wiederholt  werden.  Die Sessionen zur Wiederholung stehen nur den Studierenden offen, welche eine ungenügende Note erhalten haben.
+5. Jede Veranstaltung wird mit einer Note bewertet.
+6. 5.1. In den Vorlesungen zur Literatur werden  die Studienleistungen durch eine Semesterendprüfung evaluiert und benotet.
+7. 5.2. In den Lektüren werden die Studienleistungen durch eine schriftliche Übersetzungsprüfung evaluiert und benotet.
+8. 5.3. In den Seminaren werden die Studienleistungen durch einen mündlichen Vortrag und eine schriftliche Seminararbeit (eine literarische Interpretation) von mindestens zwanzig Seiten evaluiert und benotet.
+9. 5.4. Im Atelier werden die Studienleistungen durch einen mündlichen Vortrag und eine schriftliche Arbeit von mindestens fünfzehn Seiten evaluiert und benotet.
+
+## ÜBERGANGSBESTIMMUNGEN
+
+1. Studierende, die ihr Studium im Herbstsemester 2016 im Studienplan vom 28. April 2009 begonnen haben, können bis zum Beginn des Herbstsemesters 2017 in den vorliegenden Studienplan wechseln.
+2. Die Modalitäten des Wechsels zum vorliegenden Studienplan werden vom/von der Studienberater/in auf der Basis der bisherigen Studienleistungen festgelegt.

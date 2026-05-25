@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_History_Schema_Module_2019__96df2e31ae9e58e9235a0716a5bb102994232953",
+  "markdown": "<!-- image -->\n\n## STUDIENAUFBAU: BASI GESCHICHTE 50 (STUDIENPLAN 2019)\n\n## L P F LIC H HTTE\n\n## L14.00221 | GRUNDLAGENMODUL BASI 50 (12 ECTS)\n\n- 1 Überblicksvorlesung (3 ECTS)\n- 1 Vorlesung vor oder nach 1500 (3 ECTS)\n- 1 Grundkurs Neuzeit (3 ECTS)\n- 1 Grundkurs Zeitgeschichte (3 ECTS)\n- Einen Grundkurs kann durch einen Grundkurs vor 1500 ersetzt werden\n\n## L14.00236 | BERUFSPRAKTISCHES MODUL (9 ECTS)\n\n- Fachdidaktik Geschichte (3 ECTS)\n- 1 Proseminar zum politischen System der Schweiz mit schriftlicher Arbeit (6 ECTS)\n\n## L w A\n\n## OPTION A\n\n## L14.00223 | BASISMODUL VOR 1500 (15 ECTS)\n\n- 1 Vorlesung (3 ECTS)\n- 2 Proseminare mit schriftlichen Arbeiten (2x6 ECTS)\n\n## L14.00226 | VERTIEFUNGSMODUL NACH 1500 (15 ECTS)\n\n- 2 Vorlesungen (6 ECTS)\n- 1 Seminar mit schriftlicher Arbeit (9 ECTS)\n\n## OPTION B\n\n## L14.00224 | BASISMODUL NACH 1500 (15 ECTS)\n\n- 1 Vorlesung (3 ECTS)\n- 2 Proseminare mit schriftlichen Arbeiten (2x6 ECTS)\n\n## L14.00225 | VERTIEFUNGSMODUL VOR 1500 (15 ECTS)\n\n- 2 Vorlesungen (6 ECTS)\n- 1 Seminar mit schriftlicher Arbeit (9 ECTS)\n\n·",
+  "pages": [
+    "<!-- image -->\n\n## STUDIENAUFBAU: BASI GESCHICHTE 50 (STUDIENPLAN 2019)\n\n## L P F LIC H HTTE\n\n## L14.00221 | GRUNDLAGENMODUL BASI 50 (12 ECTS)\n\n- 1 Überblicksvorlesung (3 ECTS)\n- 1 Vorlesung vor oder nach 1500 (3 ECTS)\n- 1 Grundkurs Neuzeit (3 ECTS)\n- 1 Grundkurs Zeitgeschichte (3 ECTS)\n- Einen Grundkurs kann durch einen Grundkurs vor 1500 ersetzt werden\n\n## L14.00236 | BERUFSPRAKTISCHES MODUL (9 ECTS)\n\n- Fachdidaktik Geschichte (3 ECTS)\n- 1 Proseminar zum politischen System der Schweiz mit schriftlicher Arbeit (6 ECTS)\n\n## L w A\n\n## OPTION A\n\n## L14.00223 | BASISMODUL VOR 1500 (15 ECTS)\n\n- 1 Vorlesung (3 ECTS)\n- 2 Proseminare mit schriftlichen Arbeiten (2x6 ECTS)\n\n## L14.00226 | VERTIEFUNGSMODUL NACH 1500 (15 ECTS)\n\n- 2 Vorlesungen (6 ECTS)\n- 1 Seminar mit schriftlicher Arbeit (9 ECTS)\n\n## OPTION B\n\n## L14.00224 | BASISMODUL NACH 1500 (15 ECTS)\n\n- 1 Vorlesung (3 ECTS)\n- 2 Proseminare mit schriftlichen Arbeiten (2x6 ECTS)\n\n## L14.00225 | VERTIEFUNGSMODUL VOR 1500 (15 ECTS)\n\n- 2 Vorlesungen (6 ECTS)\n- 1 Seminar mit schriftlicher Arbeit (9 ECTS)\n\n·"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "STUDIENAUFBAU: BASI GESCHICHTE 50 (STUDIENPLAN 2019)",
+      "line_index": 2,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L P F LIC H HTTE",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00221 | GRUNDLAGENMODUL BASI 50 (12 ECTS)",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00236 | BERUFSPRAKTISCHES MODUL (9 ECTS)",
+      "line_index": 14,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L w A",
+      "line_index": 19,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "OPTION A",
+      "line_index": 21,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00223 | BASISMODUL VOR 1500 (15 ECTS)",
+      "line_index": 23,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00226 | VERTIEFUNGSMODUL NACH 1500 (15 ECTS)",
+      "line_index": 28,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "OPTION B",
+      "line_index": 33,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00224 | BASISMODUL NACH 1500 (15 ECTS)",
+      "line_index": 35,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "L14.00225 | VERTIEFUNGSMODUL VOR 1500 (15 ECTS)",
+      "line_index": 40,
+      "source": "markdown_regex"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:56:28.609Z",
+  "title": "matched_Samuel_Heinzen__Bachelor_180_Teacher_Education_for_Primary_Level_Fach_50_ECTS-Kreditpunkte__a9bb1728ba761f6c3eac49c91cd7102425fc8dd6",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a9bb1728ba761f6c3eac49c91cd7102425fc8dd6",
+  "program_key": "samuel heinzen (|bachelor|180|teacher education for primary level",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/Fach_WAH_50%20(1534)%2028%2003%202025.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Samuel_Heinzen__Bachelor_180_Teacher_Education_for_Primary_Level_Fach_50_ECTS-Kreditpunkte__a9bb1728ba761f6c3eac49c91cd7102425fc8dd6.pdf",
+  "sha256": "69583e832bfabb2865606385fdd59abca59d8baf9529cfbbc5ee88943e59af8b",
+  "fetched_at": "2026-05-21T16:05:16.556Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/Fach_WAH_50%20(1534)%2028%2003%202025.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Teacher Education for Primary Level",
+  "programme_name_de": "Ausbildung für den Unterricht auf der Primarstufe",
+  "programme_name_fr": "Formation à l'enseignement pour le degré primaire",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/teach/teacheredu0",
+  "curriculum_url": "https://studies.unifr.ch/go/1J"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR LEHRPERSONENBILDUNG
+
+## STUDIENPLAN
+
+## Wirtschaft, Arbeit, Haushalt
+
+Bachelor-Studienprogramm Fach 50 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement vom 19. September 2024 über das Studium an der Fakultät für Erziehungsund Bildungswissenschaften (Studienreglement)
+- Richtlinien vom 17. Oktober 2024 über die Anerkennung bereits erbrachter Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses Studienprogramm Bachelor ist eine fachwissenschaftliche Ausbildung, die entweder in den Studiengang Bachelor  of  Arts  für  den  Unterricht  auf  der  Sekundarstufe  I einer  der  drei  Fakultäten  (Fakultät  für Erziehungs- und Bildungswissenschaften, Philosophischen Fakultät oder Theologischen Fakultät) oder in den Bachelor of Science für den Unterricht auf der Sekundarstufe I der Mathematisch-Naturwissenschaftlichen und der Medizinischen Fakultät integriert ist.
+
+Dieses Studienprogramm Fach richtet sich ausschliesslich an Personen, die das Unterrichtsfach WirtschaftArbeit-Haushalt an Schulen der Sekundarstufe I unterrichten wollen. Dieses Studienprogramm muss zwingend mit dem Studienprogramm Bachelor Erziehungswissenschaften und Didaktik (LDS) (30  ECTS-Kreditpunkte) sowie  mit  zwei  bis  drei  weiteren  Studienprogrammen Fach im  Umfang  von  insgesamt  100  bis  120  ECTSKreditpunkte abgeschlossen werden.
+
+## 2.2 Ausbildungssprache
+
+Das  Studienprogramm Wirtschaft, Arbeit,  Haushalt (50  ECTS-Kreditpunkte)  kann  nur  zweisprachig  studiert werden. Die Übungen und Prüfungen werden in der Unterrichtssprache des Kurses abgehalten, jedoch können die Studierenden sie frei auf Deutsch oder Französisch beantworten.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Ein  Studienbeginn  ist  sowohl  im  Herbstsemester  wie  auch  im  Frühlingssemester  möglich.  Eine  verspätete Anmeldung ist möglich.
+
+## 3 Studienprogramm
+
+## 3.1 Ziele der Ausbildung
+
+Dieses Studienprogramm verfolgt folgende Ziele:
+
+- Kochtechniken beherrschen: Fachwissen über Kochtechniken erwerben, um diese auf klare, praktische und angemessene Weise an Schülerinnen und Schüler des dritten Zyklus weitergeben zu können, wobei die Selbstständigkeit der Schülerinnen und Schüler in der Küche gefördert wird.
+- Ernährung verstehen: Die Nährwerte von Lebensmitteln erkennen können und die spezifische Rolle jedes Nährstoffs für eine ausgewogene Ernährung verstehen, um dieses Wissen interaktiv und verbindlich an die Schülerinnen  und  Schüler  des  dritten  Zyklus  weiterzugeben.  Gleichzeitig  kann  das  Wissen  über  die Nährwerte  im  kochpraktischen  Unterricht  für  das  schonende,  nahrungsmittelgerechte  Verarbeiten  und Zubereitungen eingesetzt werden.
+- Verantwortungsbewusstes Verbraucherverhalten: Entwicklung der Fähigkeit, fundierte Entscheidungen über Lebensmittel  unter  Berücksichtigung  von  ökologischen,  gesellschaftlichen  und  finanziellen Aspekten  zu treffen, um Schülerinnen und Schüler des dritten Zyklus für einen nachhaltigen Konsum zu sensibilisieren.
+
+- Ressourcenschonung  praktizieren:  Nachhaltige  und  ressourcenschonende  Praktiken  fördern,  indem praktische Aktivitäten und kollaborative Projekte integriert werden, die die Schülerinnen und Schüler dazu ermutigen,  bei  der  Zubereitung  von  Mahlzeiten  und  der  Organisation  von Aktivitäten  im  Klassenzimmer umweltbewusste Verhaltensweisen anzunehmen.
+- Organisation:  Dynamische  und  interaktive  Stunden  planen  und  strukturieren,  indem  eine  inklusive  und anregende  Lernumgebung  geschaffen  wird,  die  auf  die  individuellen  Bedürfnisse  und  das  Tempo  der Schülerinnen und Schüler des Zyklus 3 zugeschnitten ist und die Lehrpläne und Lehrmittel berücksichtigt.
+- Kulturelle  und  erzieherische  Werte  einbeziehen:  Systematische  Einbeziehung  kultureller,  ethischer  und erzieherischer Dimensionen in den Unterricht unter Verwendung interdisziplinärer Ansätze und verschiedener Ressourcen, um Themen im Zusammenhang mit Gesundheit, Wohlbefinden, Ernährungsgewohnheiten und kultureller Vielfalt zu behandeln und so einen ganzheitlichen und inklusiven Unterricht zu fördern.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Die  50  ECTS-Kreditpunkte  des  Studienprogramms  sind  in  Pflicht-  und  Wahlmodulen  strukturiert.  Für  die Wahlmodule stehen mindestens 8 ECTS-Kreditpunkte zur Verfügung. Die Einschränkungen des Studienprogramms werden in Kapitel 3.3 näher erläutert.
+
+| Module                                      |   Crédits ECTS |
+|---------------------------------------------|----------------|
+| Module 1: Fachpraktische Kompetenzen        |             13 |
+| Module 2: Fachwissenschaftliche Kompetenzen |             15 |
+| Module 3: Didaktische Kompetenzen           |             14 |
+| Module 4: Wahlfächer                        |              8 |
+
+## 3.3 Struktur der Module
+
+| Module und Unterrichtseinheiten                      | Sprache   | Semester   |   ECTS |
+|------------------------------------------------------|-----------|------------|--------|
+| Module 1: Fachpraktische Kompetenzen                 |           |            |     13 |
+| F24.00952 - Hygiene                                  | DE        | HS         |      2 |
+| F24.00823 - Techniques culinaires 1                  | FR        | FS         |      4 |
+| F24.00957 - Connaissance des aliments                | FR        | FS         |      2 |
+| * F24.00954 - Techniques culinaires 2                | FR        | HS         |      3 |
+| F24.00958 - Fit und leistungsfähig                   | DE        | HS+FS      |      2 |
+| Module 2: Fachwissenschaftliche Kompetenzen          |           |            |     15 |
+| F24.00953 - Globale Ernährung                        | DE        | HS         |      3 |
+| F24.00929 - Produktion- und Arbeitswelten            | DE        | HS         |      2 |
+| F24.00956 - Konsum und Lebensstil                    | DE        | HS         |      2 |
+| * F24.00824 - Biochimie et physiologie alimentaire 1 | FR        | HS         |      3 |
+| * F24.00825 - Biochimie et physiologie alimentaire 2 | FR        | FS         |      3 |
+| F24.00928 - Märkte und Handel                        | DE        | FS         |      2 |
+
+| Module 3: Didaktische Kompetenzen                                |     |       |   14 |
+|------------------------------------------------------------------|-----|-------|------|
+| F24.00178 - Fachdidaktik Wirtschaft, Arbeit, Haushalt - Bachelor | DE  | HS+FS |    4 |
+| F24.00247 - Berufspraktische Kompetenzen 1                       | DE  | HS    |    2 |
+| F24.00828 - Schriftliche Facharbeit                              | BIL | HS+FS |    4 |
+| F24.00249 - Berufspraktische Kompetenzen 2                       | DE  | FS    |    4 |
+| Module 4: Wahlfächer                                             |     |       |    8 |
+| F24.00930 - Biochimie et physiologie alimentaire 3               | FR  | HS    |    2 |
+| F24.00931 - Lagerküche                                           | BIL | HS-FS |    2 |
+| F24.00955 - Techniques culinaires 3                              | FR  | FS    |    4 |
+| F24.00932 - Medien und Informatik                                | DE  | FS    |    2 |
+| F24.00933 - Mode und ihre Kehrseiten                             | DE  | FS    |    2 |
+
+Hinweis: * Unterrichtseinheiten, die Gegenstand eines dritten Versuchs sind (Art. 24 Abs. 4 Studienreglement)
+
+## Dringend empfohlener Bildungsweg und Anforderungen des Studienplans
+
+## 1. Studienjahr Herbstsemester
+
+- -Hygiene → Voraussetzung für Techniques culinaires 1
+- -Biochimie et physiologie alimentaire 1 → Voraussetzung für Biochimie et physiologie alimentaire 2 et 3
+- -Produktion und Arbeitswelten → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Konsum und Lebens stil → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+
+## 1. Studienjahr Frühlingssemester
+
+- -Techniques culinaires 1 → Voraussetzung für Techniques culinaires 2
+- -Märkte und Handel → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Connaissance des aliments → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Biochimie et physiologie alimentaire 2 → Voraussetzung ist Biochimie et physiologie alimentaire 1
+
+## 2. Studienjahr Herbstsemester
+
+- -Fit und leistungsfähig → Blockkurs, der in den Zwischensemestern gegeben wird
+- -Techniques culinaires 2 → Voraussetzung ist Techniques culinaires 1 et Hygiene
+- -Globale Ernährung → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Biochimie et physiologie alimentaire 3 (Wahlfach ) → Voraussetzung ist Biochimie et physiologie alimentaire 1 + 2
+- -Fachdidaktik Wirtschaft, Arbeit, Haushalt - Bachelor
+
+## 2. Studienjahr Frühlingssemester
+
+- -Techniques culinaires 3 (Wahlfach) → Voraussetzung ist Techniques culinaires 1 et 2
+- -Mode und ihre Kehrseiten → empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Cuisine collective (Wahlfach) → Blockunterricht ausserhalb des Campus
+- -Fachdidaktik Wirtschaft, Arbeit, Haushalt - Bachelor
+
+## 3. Studienjahr
+
+- -Medien und Informatik (Wahlfach) empfohlen, kann aber auch zu einem anderen Zeitpunkt belegt werden
+- -Berufspraktische Kompetenzen 1 → obligatorisch im 3. Studienjahr / Voraussetzung für Berufspraktische Kompetenzen 2 . Diese beiden Kurse ergänzen die Fachdidaktik und werden aufeinanderfolgend und über das ganze Jahr verteilt angeboten
+- -Schriftliche Facharbeit → nicht vor dem 3. Studienjahr / Anmeldung im Herbstsemester
+
+## 3.3.1 Formation professionnelle pratique
+
+Die  praktische  Berufsbildung  in  den  OS-Klassen  ist  integraler  Bestandteil  der  Seminare Berufspraktische Kompetenzen 1 (3  Lektionen)  und Berufspraktische  Kompetenzen  2 (4  Lektionen).  Sie  wird  von  den Kursleitenden in Zusammenarbeit mit den verschiedenen OS des Kantons organisiert und findet nicht unbedingt am Tag der Seminare statt.
+
+Die  berufspraktische  Ausbildung  hat  zum  Ziel,  schrittweise  zu  lernen,  wie  man  kulinarische  Techniken demonstriert, Schülerinnen und Schüler bei ihrer Arbeit begleitet, Lernziele festlegt, eine theoretische Lektion einführt und Arbeitsplätze überwacht.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Die auf dem  Internetportal der Universität verfügbaren  Informationen enthalten die Modalitäten des Leistungsnachweise für jede Unterrichtseinheit.
+
+In diesem Studienprogramm werden verschiedene Arten von Leistungsnachweisen angeboten. Je nach Kurs oder Seminar werden praktische und/oder theoretische Bewertungen sowie Validierungsarbeiten verlangt. Die Bewertungen können entweder punktuell oder kontinuierlich während des Semesters durchgeführt werden.
+
+## 4.2 Anerkennung
+
+Die Unterrichtseinheit Fachdidaktik Wirtschaft, Arbeit, Haushalt - Bachelor kann nicht im Sinne von Art. 3 Abs. 5 Anerkennungsrichtlinien angerechnet werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Nicht eingeschriebene Studierenden haben keinen Anspruch auf eine Bewertung.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Seminare Berufspraktische Kompetenzen 1 und Berufspraktische Kompetenzen 2 , sowie Lagerküche sind drei Unterrichtseinheiten, die ausserhalb der Prüfungssessionen stattfinden.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise bestehende Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben, die Noten unterhalb von 4 für nicht bestandene Leistungsnachweise (Art. 22 und 23 Studienreglement).
+
+Alle Unterrichtseinheiten dieses Studienprogramms werden einzeln bewertet. Jeder Leistungsnachweis muss genügend sein.
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die oder  der Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie  oder er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel 3.3  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht  bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Abschlussnote
+
+Für dieses Studienprogramm wird keine Abschlussnote vergeben.
+
+## 5 In Kraft treten und Übergangsbestimmungen
+
+Der  vorliegende  Studienplan  tritt  im  Herbstsemester  2025  in  Kraft.  Er  gilt  für  alle  Studierenden,  die  ihre Ausbildung ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum Zeitpunkt  des Inkrafttretens dieses Studienplans bereits  in  diesem  Studienprogramm eingeschrieben waren, sind dem vorliegenden Studienplan unterstellt. Eine vollständige Berücksichtigung der erworbenen Kreditpunkte ist gewährleistet.

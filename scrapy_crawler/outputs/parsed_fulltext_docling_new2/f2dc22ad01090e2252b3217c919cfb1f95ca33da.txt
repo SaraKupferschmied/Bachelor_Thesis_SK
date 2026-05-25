@@ -1,0 +1,57 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:55:59.226Z",
+  "title": "unmatched_SCIMED_UNK_UNK__valuation_en_sciences_naturelles__valuation_en_sciences_naturelles_FS_f2dc22ad01090e2252b3217c919cfb1f95ca33da",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f2dc22ad01090e2252b3217c919cfb1f95ca33da",
+  "program_key": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_FS_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_UNK__valuation_en_sciences_naturelles__valuation_en_sciences_naturelles_FS_f2dc22ad01090e2252b3217c919cfb1f95ca33da.pdf",
+  "sha256": "717f41ec9d8fd4d78e3f42b5864ac2e03adff3ca219bc739b8fe7767c84ff394",
+  "fetched_at": "2026-05-21T16:05:41.113Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_FS_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des Unités d'enseignement (UE) qui ne sont pas directement sous la responsabilité d'un département de la Faculté. Elle complète les différents plans d'études où apparaissent des UE avec le code ' SFS.0 nnnn'.
+
+## 2 Évaluations des unités d ' enseignement
+
+L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans la présente annexe. Les épreuves se déroulent, en général, durant trois sessions d ' examens (hiver, été,  automne).  Pour chaque  épreuve,  l'étudiant ·e  s ' inscrit  dans  les  délais  prescrits  selon  la procédure on-line dans le portail d'étudiant ·e·s MyUniFR (https://my.unifr.ch) accessible avec le compte personnel et le mot de passe fournis par l'Université. Dans le cas d'épreuve en fin de cours, des consignes sont communiquées durant le semestre. L ' épreuve porte sur la matière de l'UE telle qu'elle a été enseignée la dernière fois. En cas d'exception, celle -ci sera communiquée par  le  Département  et/ou  par  l'enseignant ·e  responsable.  L ' échelle  des  notes  s'étend  de  6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants :
+
+- Plan d ' études des branches propédeutiques et complémentaires offertes par la Faculté des sciences  et  de  médecine dans  le  cadre  du  Bachelor  of  Science  ou  d'autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Autres plans d'étude s dans lesquels les UE listées dans ce document apparaissent.
+
+Il est soumis au Règlement pour l ' obtention des Bachelor of Science et des Master of Science.
+
+Tous ces documents sont accessibles à partir de http://www.unifr.ch/scimed/plans.
+
+## 4 Modalités d'évaluation
+
+Avec l'accord écrit de l'étudiant ·e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite.  Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code      | Unité d'enseignement                |   ECTS | Modalités d'évaluation   |
+|-----------|-------------------------------------|--------|--------------------------|
+| SFS.00001 | Philosophie et éthique des sciences |      3 | Épreuve orale de 15 min. |
+| SFS.00002 | Sciences et société                 |      3 | Épreuve orale de 15 min. |

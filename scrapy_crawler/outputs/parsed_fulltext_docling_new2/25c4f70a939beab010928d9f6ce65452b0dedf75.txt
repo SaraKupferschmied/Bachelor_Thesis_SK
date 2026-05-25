@@ -1,0 +1,301 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:54:25.277Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biochemistry_Branche_principale_en_biochimie_25c4f70a939beab010928d9f6ce65452b0dedf75",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "25c4f70a939beab010928d9f6ce65452b0dedf75",
+  "program_key": "faculty of science and medicine|bachelor|120|biochemistry",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BSc_BC_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_120_Biochemistry_Branche_principale_en_biochimie_25c4f70a939beab010928d9f6ce65452b0dedf75.pdf",
+  "sha256": "d4eb61a8c604f499ff172e10925c2f070a84921a97c450913bd055d84d9e01cb",
+  "fetched_at": "2026-05-21T16:05:19.173Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BSc_BC_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Biochemistry",
+  "programme_name_de": "Biochemie",
+  "programme_name_fr": "Biochimie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/biochemistry",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Table des matières
+
+|   1 | GENERALITES...................................................................................................................3                      | GENERALITES...................................................................................................................3                                                                                                                                                                                                       |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1 | Titres universitaires et voies d'études ............................................................................................. 3              | Titres universitaires et voies d'études ............................................................................................. 3                                                                                                                                                                                               |
+| 1.2 | Structure générale des études .......................................................................................................... 4           | Structure générale des études .......................................................................................................... 4                                                                                                                                                                                            |
+| 1.3 | Compétences acquises...................................................................................................................... 5         | Compétences acquises...................................................................................................................... 5                                                                                                                                                                                          |
+| 1.4 | Évaluations des UE et acquisition des crédits ECTS ..................................................................... 5                           | Évaluations des UE et acquisition des crédits ECTS ..................................................................... 5                                                                                                                                                                                                            |
+| 1.5 | Langues d'enseignement ................................................................................................................... 6         | Langues d'enseignement ................................................................................................................... 6                                                                                                                                                                                          |
+| 1.6 | Éthique scientifique............................................................................................................................ 6   | Éthique scientifique............................................................................................................................ 6                                                                                                                                                                                    |
+| 1.7 | Règlements et informations complémentaires................................................................................ 7                         | Règlements et informations complémentaires................................................................................ 7                                                                                                                                                                                                          |
+|   2 | BACHELOR OF SCIENCE (BSC).......................................................................................8                                    | BACHELOR OF SCIENCE (BSC).......................................................................................8                                                                                                                                                                                                                     |
+| 2.1 | La première année d'études .............................................................................................................. 8          | La première année d'études .............................................................................................................. 8                                                                                                                                                                                           |
+|     | 2.1.1                                                                                                                                                | Unités d'enseignement de la première année .......................................................................................8                                                                                                                                                                                                   |
+|     | 2.1.2                                                                                                                                                | Contenu des UE de la première année...................................................................................................9 Les cours de chimie, de biologie et de biochimie......................................................................................................... 9                                   |
+|     |                                                                                                                                                      | Les autres branches propédeutiques........................................................................................................................... 9                                                                                                                                                                       |
+| 2.2 | Les deuxième et troisième années ................................................................................................... 9               | Les deuxième et troisième années ................................................................................................... 9                                                                                                                                                                                                |
+| 2.3 | La deuxième année d'études ........................................................................................................... 10            | La deuxième année d'études ........................................................................................................... 10                                                                                                                                                                                             |
+| 2.4 | La troisième année d'études ........................................................................................................... 10           | La troisième année d'études ........................................................................................................... 10                                                                                                                                                                                            |
+|     | 2.4.1                                                                                                                                                | Unités d'enseignement de la 3 e année.................................................................................................10                                                                                                                                                                                              |
+|     | 2.4.2                                                                                                                                                | Contenu des UE de la 2 e et de la 3 e année...........................................................................................11                                                                                                                                                                                              |
+|     | Les cours                                                                                                                                            | .................................................................................................................................................................. 11 pratiques...................................................................................................................................................... |
+|     | Travaux                                                                                                                                              | 12                                                                                                                                                                                                                                                                                                                                    |
+| 2.5 | Les examens ..................................................................................................................................... 12 | Les examens ..................................................................................................................................... 12                                                                                                                                                                                  |
+| 2.6 | Pré- requis pour l'accès aux programmes de Master .................................................................... 13                            | Pré- requis pour l'accès aux programmes de Master .................................................................... 13                                                                                                                                                                                                             |
+
+## 1 Généralités
+
+Ce plan d ' études contient toutes les informations nécessaires aux étudiant·e·s qui souhaitent entreprendre des études de biochimie à l ' Université de Fribourg. Il est soumis aux conditions du Règlement  du  30  mai  2022  pour  l ' obtention  des  Bachelor  of  Science  et  des  Master  of Science de la Faculté des sciences et de médecine (appelé ci-après Règlement).
+
+Le Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science prévoit une limitation de la durée des études de Bachelor et de Master, ainsi que des branches complémentaires (voir articles 11, 13 et 14) (https://www.unifr.ch/scimed/fr/rules/regulations).
+
+## 1.1  Titres universitaires et voies d ' études
+
+La Faculté des sciences décerne, aux étudiant·e·s qui ont accompli avec succès leurs études, les titres officiels suivants :
+
+- Bachelor of Science en biochimie, appelé ci-après BSc
+- MSc in Molecular Life and Health Sciences, appelé ci-après MSc
+
+La voie d ' études du BSc en biochimie offre une formation de base en biochimie. Les connaissances théoriques et de méthodes qu ' elle apporte constituent un bagage solide pour des orientations professionnelles variées. Le BSc en biochimie dispense aussi la formation indispensable pour  la  poursuite  des  études  scientifiques  plus  approfondies  conduisant  au  MSc.  Tous  les titulaires d ' un diplôme de maturité fédérale ou d ' un titre jugé équivalent sont admis aux études de BSc en biochimie (voir Art. 7 du règlement). Les titulaires d ' un titre de BSc en biochimie de l ' Université de Fribourg ou d ' une autre Haute École suisse sont admis aux études de MSc in Molecular Life and Health Sciences pour autant que les cours nécessaires pour la compréhension des sciences moléculaires aient été acquis.
+
+Tout·e étudiant· e qui change de voie d'études doit accomplir tout le programme de la nouvelle voie.  Les  résultats  déjà  acquis,  qui  font  partie  du  programme  de  cette  nouvelle  voie,  sont automatiquement transférés.
+
+La voie  d ' études  du  MSc  in  Molecular  Life  and  Health  Sciences offre  la  possibilité d ' approfondir la formation en biochimie ainsi que de se spécialiser dans un domaine particulier. Ce MSc donne une ouverture vers la recherche et ouvre la voie aux études doctorales.
+
+Le BSc en biochimie donne également accès à différentes options du MSc in Environmental Biology . Les conditions d'accès à ces options, sont décrites ci-dessous.
+
+Le  schéma  ciaprès  montre  les  différentes  voies  pour  l'obtention  du  BSc  en  Biologie  ou  en Biochimie,  ainsi  que  les  voies  d'accès  au MSc  in  Environmental  Biology et  au MSc  in Molecular Life and Health Sciences :
+
+<!-- image -->
+
+## accessible sans complement:
+
+## MSc in Bioinformatics and Computational Biology (120 ECTS)
+
+- Le BSc en Biochimie est indépendant du BSc en Biologie et est offert en parallèle. Il  n'est toutefois pas possible d'acquérir les deux Bachelor ensemble.
+- Avec  la  branche  principale  de  biochimie  (120  ECTS),  un  complément  est  nécessaire (passerelle 1 ) pour l'accès à certaines options du MSc in Molecular Life and Health Sciences (voir chapitre 2.6).
+- Avec 120 ECTS de branche principale de  biochimie,  i l  est  possible  d'accéder  au MSc in Environmental Biology avec un BSc en Biochimie et un complément spécifique (passerelle 4 voir chapitre 2.6).
+- Les étudiant·e·s avec un BSc en Biologie peuvent accéder au MSc Molecular Life and Health Sciences, à condition d'avoir acquis suffisamment de connaissances en sciences moléculaires, p. ex. dans le cadre de la branche complémentaire (passerelle 2 , voir chapitre 2.6).
+- Les étudiant·e·s avec un BSc en Biologie peuvent accéder au MSc in Environmental Biology à condition d'avoir acquis suffisamment de connaissances en biologie des organismes, p. ex. dans le cadre de la branche complémentaire (passerelle 3 , voir chapitre 2.6).
+- Le MSc in Bioinformatics and Computational Biology est ouvert aux étudiant·e·s provenant de chacune des deux orientations.
+- Il est possible d'effectuer consécutivement deux programmes de Master.
+
+## 1.2  Structure générale des études
+
+Les  études  de  BSc  sont  composées d ' unités  d ' enseignement  (UE) telles  que  les  cours,  les exercices,  les  travaux  pratiques,  etc.  À  chaque  UE  est  associé  un  nombre  de crédits  ECTS (European Credit Transfer System) . Les études de BSc requièrent l ' acquisition de 180 crédits ECTS (correspondant à 6 semestres d'études à plein temps) .
+
+Les études de BSc en biochimie se composent de la branche principale de 120 ECTS et d ' une ou deux branches complémentaires au choix pour un total de 60 ECTS. La branche principale se compose des UE des branches propédeutiques comprenant la biologie générale, la chimie, la physique et les mathématiques ainsi que les UE obligatoires de biochimie, biologie et chimie.
+
+La branche complémentaire de 60 ECTS ou les deux branches complémentaires de 30 ECTS chacune doivent être choisies dans une autre discipline que la branche principale. Parmi les branches complémentaires au choix, les « Sciences médicales et moléculaires de la vie » ainsi que  la  « chimie  pour  biochimistes » constituent  la  branche  complémentaire  naturelle  pour  le biochimiste. L ' informatique, la chimie, ou « la biologie-des gènes aux écosystèmes » sont aussi des  branches  complémentaires  qui  conviennent  aux  études  de  biochimie.  L ' étudiant·e  qui souhaite choisir une autre branche complémentaire peut consulter la ou le conseiller·ère aux études de biochimie/biologie.
+
+Pour mener l ' étudiant·e au Bachelor, le plan d ' études prévoit des UE sous diverses formes :
+
+- Les cours initient à la rigueur et à la démarche scientifique. Ils aident à acquérir les connaissances essentielles et à comprendre les concepts fondamentaux.
+- Les exercices accompagnent les cours en contribuant à la compréhension et à l ' assimilation du  contenu.  Ils  donnent  l ' occasion  d ' appliquer  les  principes  généraux,  techniques  et méthodes à des problèmes concrets.
+- Les travaux pratiques permettent l ' apprentissage de la base de la démarche scientifique, la biochimie  étant  en  premier  lieu  une  science  expérimentale.  Ils  donnent  à  l'étudiant ·e l ' occasion d ' utiliser diverses techniques spécifiques, d ' être confronté·e à des expériences de biochimie qui durent plusieurs jours, d 'exercer le sens de l'observation, et de l'interprétation critique des résultats.
+- Les séminaires sont  des  exposés  suivis  d'une  discussion  sur  un  thème  de  recherche spécifi que. Ils sont donnés soit par l'é tudiant·e qui doit présenter un travail de littérature, soit par un spécialiste du domaine provenant souvent d'une autre université suisse ou d'un autre pays. Ils permettent de s ' exercer à l ' assimilation de données scientifiques et à la présentation orale d ' un sujet scientifique préalablement étudié.
+
+## 1.3  Compétences acquises
+
+Avec l'obtention d'un BSc en biochimie , l'étudiant ·e aura consolidé ses bases scientifiques et acquis une connaissance générale et une vision large de sa branche principale. Il aura développé une  faculté  de  synthèse  et  une  pensée  critique  qui  lui  permettront  d'aborder  des  études approfondies ou une spécialisation dans son domaine.
+
+Avec chaque branche propédeutique, l'étudiant ·e aura acquis des connaissances de base dans une discipline autre que sa branche principale, facilitant la compréhension de celle-ci. Elle lui offrira de plus une culture scientifique élargie.
+
+Avec l'acquisition d'une branche complémentaire dans le cadre de son BSc, l'étudiant ·e aura approfondi ses connaissances de base en biologie et en biochimie ou/et, selon le choix de la branche complémentaire, développé une ouverture à l'interdisciplinarité, lui facilitant à l'avenir le dialogue et la colla boration avec des spécialistes d'autres disciplines .
+
+Grâce à une formation bilingue intégrée, l'étudiant ·e aura enrichi son vocabulaire spécifique dans deux langues et acquis la capacité de dialoguer, dans ses branches d'études, avec des spé cialistes aussi bien en français qu'en allemand.
+
+## 1.4  Évaluations des UE et acquisition des crédits ECTS
+
+L ' acquisition des crédits ECTS passe par trois étapes : l 'évaluation des unités d'enseignement (UE), le regroupement des UE en paquets de validation et la validation des crédits ECTS.
+
+L ' évaluation  des  exercices,  des  travaux  pratiques  et  des  séminaires se  fait  suivant  des critères (nombre de séries  d ' exercices rendues, nombre  d ' expériences réussies, etc.) communiqués en début de semestre. L ' évaluation des exercices et des travaux pratiques se fait durant le semestre. Une évaluation satisfaisante est un prérequis pour accéder à l ' épreuve du cours correspondant. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans une annexe à ce plan d ' études. Les modalités d'examen et la durée des épreuves  sont  fixées  dans  des  annexes  aux  plans  d ' études.  Les  épreuves  se  déroulent,  en général, durant trois sessions d ' examens (hiver, été, automne). Pour chaque épreuve, l ' étudiant·e s ' inscrit dans les délais prescrits par la Faculté des sciences et de médecine selon la procédure on-line dans le portail d ' étudiant·e·s MyUniFR (https://my.unifr.ch). L ' épreuve porte sur la matière de  l'UE  telle  qu'elle  a  été  enseignée  la  dernière  fois.  En  cas  d'exception,  celle -ci  sera communiquée par  le  Département  et/ou  par  l'enseignant ·e  responsable. L ' échelle  des  notes s ' étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois au plus tôt lors de la session d ' examens suivante.
+
+Les paquets de validation regroupent plusieurs UE qui peuvent être évaluées séparément, lors de sessions d ' examens différentes. Le nombre de paquets est fixé par l ' Art. 24 et 27 du règlement et leur contenu est précisé dans ce plan d ' études.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement
+
+Après validation, sur demande de l ' étudiant· e et après acquittement de la taxe d'examen, un relevé de prestations indiquant les résultats des évaluations et le nombre de crédits acquis sera délivré par le Décanat (Art. 28 et 30 du règlement).
+
+## 1.5  Langues d ' enseignement
+
+Les études de BSc sont bilingues français-allemand. Cela signifie que certains enseignements sont  donnés  en  français  et  d'autres  en  allemand,  au  choix  de  l'enseignant ·e.  Toutefois, l ' étudiant·e  a  toujours  la  possibilité  de  s ' exprimer  dans  l ' une  ou  l ' autre  de  ces  langues.  En troisième année, afin d'en permettre l'apprentissage, certains cours sont donnés en anglais. Au niveau Bachelor, les examens ainsi que les travaux écrits (rapports de travaux pratiques, rapport de stage, etc.) peuvent être effectués, au choix, en français, en allemand ou éventuellement en anglais.
+
+Les enseignements des études de MSc sont donnés exclusivement en anglais. Au niveau master, tous les travaux sont effectués en anglais, à l'exception de quelques examens.
+
+## 1.6  Éthique scientifique
+
+Les principes d'éthique scientifique font partie intégrante de la formation scientifique. Les règles internatio nalement admises doivent être respectées lors de l'élaboration et la rédaction de tout travail scientifique (projet, séminaire, travail et rapport de laboratoire, travail de Bachelor et thèse de  Master,  etc.).  En  particulier,  toute  source  externe  d'information  (articles,  communications orales, page web, etc.) doit être correctement citée.
+
+Dans ce cadre, la Faculté a mis en place 2 formations obligatoires à suivre durant son cursus et nécessaire pour valider ses études. Il s'agit des formations ci -dessous :
+
+Vous trouvez les descriptions détaillées à l'adresse : https://www.unifr.ch/scimed/fr/integrity
+
+## 1. Orientation de base et recherche à la bibliothèque (partie 1)
+
+Le but est de connaître les objectifs et les méthodes spécifiques de la recherche documentaire.
+
+Cette formation est à suivre durant le premier semestre d'études. Vous pourrez consulter vos résultats  seulement  après  avoir  réussi  cette  formation  et  soumis  le  formulaire  « Déclaration d'intégrité scientifique » signé.
+
+## 2. Recherche systématique et gestion des documents (partie 2)
+
+Le but est de préparer et d'effectuer une recherche documentaire d'une manière systématique et exhaustive.
+
+Cette formation doit être suivie avant ou pendant votre travail de Bachelor ou de Master. Elle est obligatoire pour valider le travail de Bachelor ou de Master.
+
+## 1.7  Règlements et informations complémentaires
+
+De  plus  amples  informations  concernant  les  études  en  biochimie  sont  contenues  dans  les documents  cités  sur  la  page  web  à  l'adresse https://www.unifr.ch/scimed/plans.  Ils  sont disponibles au Secrétariat du Département de Biologie, Université de Fribourg, Ch. du Musée 10, CH-1700 Fribourg.
+
+Etant  donné  que  les  deux  domaines  d'études  sont  relativement  proches,  le  Département  de Biologie n'autorise un changement de voie d'études du BSc en Biochimie au BSc en Biologie uniquement si les conditions suivantes sont remplies au moment de la demande :
+
+1. la moyenne de tous les paquets de validation de la branche principale doit être égale ou supérieure à 4.0 ;
+2. un échec définitif n'a pas été prononcé en BSc biologie ou en BSc biochimie ;
+3. l'é tudiant·e n'a pas encore entamé son sixième semestre d'études .
+
+## 2 Bachelor of Science (BSc)
+
+[Version 2023, paquets de validation : PV-SBC.0000048, PV-SBC.0000049, PV-SBC.0000050, PVSBC.0000051]
+
+Le programme du BSc s ' étend sur 3 ans d ' études et équivaut à 180 crédits ECTS. Il comprend la branche principale à 120 ECTS et une branche complémentaire à 60 ECTS ou deux branches complémentaires à 30 ECTS. Les cours de biochimie des trois premiers semestres couvrent, dans une vision large, les domaines de la biochimie et de la biologie moléculaire et cellulaire. Durant  les  semestres  suivants,  les  étudiant·e·s  aborderont  de  manière  plus  systématique différents domaines avancés de la biochimie et de la biologie moléculaire et cellulaire ainsi que des  compléments  dans  des  disciplines  associées  à  la  biochimie  (chimie  organique  et biophysique, bioinformatique, immunologie, microbiologie). La branche principale du Bachelor de Biochimie comprend quatre paquets de validation (1-4) répartis sur trois ans.
+
+## 2.1  La première année d ' études
+
+La première année d ' études en biochimie s ' efforce d ' assurer la meilleure transition possible entre le  gymnase et l ' université.  Afin  de  permettre  à  l ' étudiant·e  de  pouvoir mesurer  assez tôt  ses capacités  et  bien  discerner  son  intérêt  pour  la  biochimie,  les  UE  de  cette  année  ont  été regroupées en deux paquets de validation :
+
+- 1) Branches propédeutiques générales (38 ECTS ; PV-SBC.0000048)
+- 2) Branches propédeutiques du domaine (24 ECTS ; PV-SBC.000049)
+
+## 2.1.1 Unités d ' enseignement de la première année
+
+## Branches propédeutiques générales
+
+|                                    |                                                    | Semestre   | h. tot.   | ECTS   |
+|------------------------------------|----------------------------------------------------|------------|-----------|--------|
+| Chimie                             |                                                    |            |           |        |
+| SCH.01014                          | Chimie générale (avec exercices)                   | SA         | 84        | 6      |
+| SCH.01031                          | Chimie générale et inorganique (travaux pratiques) | SA         | 112       | 3      |
+| SCH.01033                          | Problem solving en chimie générale                 | SA         | 28        | 2      |
+| SCH.01072                          | Chimie organique de base                           | SP         | 42        | 3      |
+| Branches                           | propédeutiques                                     |            |           |        |
+|                                    | Mathématiques propédeutiques                       | SA/SP      | 168       | 12     |
+|                                    | Physique propédeutique                             | SA/SP      | 164       | 12     |
+|                                    |                                                    |            |           | 38     |
+| Branches propédeutiques du domaine | Branches propédeutiques du domaine                 |            |           |        |
+| Code                               | Unité d'enseignement                               | Semestre   | h. tot.   | ECTS   |
+|                                    | Biochimie et chimie                                |            |           |        |
+| SCH.01067                          | Chimie des éléments                                | SP         | 42        | 3      |
+| SCH.01054                          | Chimie analytique                                  | SP         | 42        | 3      |
+| SBC.00119                          | Fondements de biochimie                            | SP         | 52        | 6      |
+| Branches propédeutiques            | Branches propédeutiques                            |            |           |        |
+|                                    | Biologie propédeutique (variante I)                | SA/SP      | 116       | 12     |
+|                                    |                                                    |            |           | 24     |
+
+## 2.1.2 Contenu des UE de la première année
+
+## Les cours de chimie, de biologie et de biochimie
+
+Les études de Biochimie requièrent en premier lieu des connaissances de base en biologie et en chimie, surtout en chimie organique. C'est pourquoi le premier cours de biochimie ne commence qu'au semestre de printemps.
+
+- Le cours Fondements de biochimie (SBC.00119) présente une introduction à la biochimie et décrit  la  composition,  la  structure  et  les  voies  métaboliques  principales  des  composants cellulaires les plus importants et des organismes (sucres, acides nucléiques, acides aminés et lipides).
+- Le cours de Chimie générale (SCH.01014) établit les bases de la chimie et complète les connaissances acquises au gymnase pour les amener au niveau universitaire.
+- Le cours Chimie organique de base (SCH.01072) donne un aperçu détaillé aux réactions organiques et aux mécanismes réactionnels
+- Les travaux pratiques de Chimie générale et inorganique (SCH.01031) illustrent les concepts principaux  exposés  dans  le  cours  de Chimie générale (SCH.01014) par des expériences concrètes  et  constituent  ainsi  un  complément  important  pour  les  travaux  pratiques  des années suivantes.
+- Le cours de Problem solving en Chimie générale (SCH.01033) complète les sujets traités dans le cours Chimie Générale en accentuant l'importance du processus de résolution de problèmes.
+- La Chimie  analytique (SCH.01054) , donne  une  introduction  à  l'étude  des  systèmes complexes  (équilibres  multiples)  et  aux  méthodes  analytiques  classiques  (gravimétrie, volumétrie, …) .
+- Le  cours Chimie  des  éléments (SCH.01067) apporte  une  introduction  sur  la  structure chimique des matériaux ainsi que leurs propriétés et réactivité.
+- Les cours de Biologie générale I et II (SBL.00001, SBL.00002) donnent une introduction à la biologie (Biologie cellulaire, Génétique, Écologie, Biologie végétale, Biologie du développement) et traitent des structures et fonctions biologiques du niveau moléculaire à celui  de  l'organisme.  Les travaux  pratiques  de  Biologie  générale  I et II (SBL.00003, SBL.00004) illustrent  des  notions  de  biologie  fondamentale  touchant  les  cellules,  la génétique, les organismes et l'évolution.
+
+## Les autres branches propédeutiques
+
+Les autres branches propédeutiques offrent une formation élémentaire dans les disciplines qui sont indispensables pour la compréhension de la biochimie et ses champs d ' application. Ces branches  comportent  la  physique  et  les  mathématiques.  Les  UE,  sous  la  responsabilité  des Départements concernés, sont définies dans le Plan d'études des branches propédeutiques et des branches complémentaires de la Faculté des sciences et de médecine de l'Université de Fribourg.
+
+## 2.2  Les deuxième et troisième années
+
+Durant la 2 e et la 3 e  année d ' études, à côté des unités d ' enseignement de la branche principale, l ' étudiant·e devra aussi suivre les UE de la ou des branches complémentaires qu ' il/elle a choisie (30+30 ou 60 ECTS). Ces UE proposées par le département concerné sont spécifiées dans le Plan d ' études des branches propédeutiques et complémentaires de la Faculté des sciences et de médecine de l ' Université de Fribourg . Il appartient à l'étudiant·e de les répartir régulièrement dans le temps, afin de pouvoir terminer les études de BSc dans les 3 ans prévus. Les évaluations de toutes ces UE sont réparties sur les 2 années.
+
+La deuxième et la troisième années sont réparties en deux paquets de validation comprenant des UEs  de  la  deuxième  et  de  la  troisième  années,  mais  qui  se  distinguent par le  type d'enseignement:
+
+- 3) Cours (41 ECTS ; PV-SBC.00000050)
+- 4) Travaux pratiques (18 ECTS ; PV-SBC.00000051)
+
+## 2.3 La deuxième année d'études
+
+## 2.3.1 Unités d ' enseignement de la 2 e  année
+
+| Cours Code                   | Unité d'enseignement                                         | Semestre   | h. tot.   | ECTS   |
+|------------------------------|--------------------------------------------------------------|------------|-----------|--------|
+|                              | Biologie                                                     |            |           |        |
+| SBL.00014                    | Biologie moléculaire                                         | SA         | 28        | 3      |
+| SBC.00113                    | Compléments de biologie moléculaire                          | SP         | 28        | 3      |
+| SBC.00106                    | Biologie cellulaire                                          | SP         | 39        | 4      |
+| SME.05103                    | Microbiologie générale et médicale                           | SA         | 24        | 3      |
+|                              | Biochimie                                                    |            |           |        |
+| SBC.00114                    | Biochimie générale                                           | SA         | 32        | 3.5    |
+|                              | Chimie                                                       |            |           |        |
+| SCH.02312                    | Thermodynamique classique (cours avec exercices)             | SA         | 28        | 3      |
+| SCH.02339                    | Cinétique (pour Biochimistes)                                | SP         | 28        | 3      |
+| SCH.02252                    | Analyse instrumentale organique (cours avec exercices)       | SP         | 56        | 5      |
+|                              |                                                              |            |           | 27.5   |
+| Travaux pratiques            | Travaux pratiques                                            |            |           |        |
+| Code                         | Unité d'enseignement                                         | Semestre   | h. tot.   | ECTS   |
+| SBC.00047                    | Biochimie pour débutants (travaux pratiques)                 | SP         | 60        | 3      |
+| SCH.00244                    | Analyse instrumentale (travaux pratiques)                    | SP         | 140       | 5      |
+|                              |                                                              |            |           | 8      |
+| Branche(s) complémentaire(s) | Branche(s) complémentaire(s)                                 |            |           |        |
+| -                            | (voir les UE proposées par le ou les départements concernés) | SA/SP      |           | 30     |
+
+## 2.4 La troisième année d'études
+
+## 2.4.1 Unités d ' enseignement de la 3 e  année
+
+| Cours Code   | Unité d'enseignement                                                       | Semestre   |   h. tot. |   ECTS |
+|--------------|----------------------------------------------------------------------------|------------|-----------|--------|
+|              | Biologie                                                                   |            |           |        |
+| SBL.00019    | Méthodes de biologie moléculaire                                           | SA         |        28 |      3 |
+| SBL.00057    | Biologie du développement                                                  | SP         |        16 |    1.5 |
+|              | Biochimie                                                                  |            |           |        |
+| SBC.07003    | Introduction à la bioinformatique et à la génomique (cours avec exercices) | SA         |        56 |    4.5 |
+| SBC.00009    | Méthodes de biochimie                                                      | SP         |        14 |    1.5 |
+| SBC.00115    | Génétique moléculaire humaine                                              | SP         |        16 |    1.5 |
+| SBC.00125    | Génétique de la levure, biologie cellulaire et moléculaire                 | SP         |        12 |    1.5 |
+|              |                                                                            |            |           |   13.5 |
+
+## Travaux pratiques
+
+| Code      | Unité d'enseignement                 | Semestre h.   |   tot. |   ECTS |
+|-----------|--------------------------------------|---------------|--------|--------|
+| SBC.00120 | Stage de laboratoire en biochimie I  | SA            |    120 |      5 |
+| SBC.00121 | Stage de laboratoire en biochimie II | SP            |    120 |      5 |
+|           |                                      |               |        |     10 |
+
+| Branche(s) complémentaire(s)                                   | SA/SP   | 30   |
+|----------------------------------------------------------------|---------|------|
+| - (voir les UE proposées par le ou les départements concernés) |         |      |
+
+## 2.4.2 Contenu des UE de la 2 e  et de la 3 e  année
+
+## Les cours
+
+- Le  cours Méthodes  de  biochimie (SBC.00009)  présente  des  développements  récents couvrant diverses technologies utilisées dans l'investigation des protéines et macromolécules et en biologie cellulaire.
+- Le cours de Biologie cellulaire (SBC.00106) porte sur l ' étude des mécanismes moléculaires utilisés  pour  maintenir  la  fonctionnalité  et  la  structure  de  la  cellule  individuelle  (trafic  des protéines, autophagie, cytosquelette, hérédité mitochondriale), ainsi que de l ' organisme en entier (cellules souches, apoptose, jonctions cellulaire, matrice extracellulaire).
+- Le cours Compléments de biologie moléculaire (SBC.00113) approfondit les concepts de la biologie moléculaire et est focalisé sur les mécanismes de la synthèse et réparation de l'ADN, la synthèse des ribosomes, et la régulation post-transcriptionnelle. De plus, le cours présente une  introduction  de  l'utilisation  d'un  logiciel  et  de  diverses  bases  de  données  permettant d'analyser et manipuler des séquences d'ADN, par exemple en vue d'un clonage.
+- Le cours de Biochimie générale (SBC.00114) approfondit les concepts du cours Fondements de biochimie (SBC.00119) et décrit la structure et la fonction des composants de la cellule (acides aminés, protéines, sucres, et lipides) avec un accent sur les voies métaboliques correspondantes.
+- Le cours Génétique moléculaire humaine (SBC.0 0115) fournit d'une part des connaissances de  base  en  génétique  humaine  et  d'autre  part  un  aperçu  des  mécanismes  moléculaires impliqués  dans  des  pathologies  relevant  de  la  médecine.  De  plus,  ce  cours  inclut  des informations sur les méthodes de diagnostic et de thérapie de ces maladies.
+- Le cours Génétique de la levure, biologie cellulaire et moléculaire (SBC.00125) donne une introduction sur un modèle unicellulaire pour les études de génétique et biologie moléculaire. La  levure  est  couramment  utilisée  dans  le  développement de  nouvelles  méthodes  de génomique basées sur le criblage à haut débit. Dans ce cours, nous discuterons des bases de la génétique de levure ainsi que de la recherche actuelle dans ce domaine. L'objectif de ce cours est de donner à l'étudiant une vision générale sur la fa çon dont la combinaison entre méthodes de génétique et de biologie moléculaire permet d'examiner et de subdiviser les complexes réactions cellulaires qui ont lieu dans la levure.
+- Le  cours Introduction  à  la  bioinformatique  et  à  la  génomique (SBC.07003)  présente  les principes généraux de la bioinformatique leur application en génomique. Ce cours permet d ' acquérir  une  connaissance  de  base  des  outils  et  des  bases  de  données  utilisés  pour analyser et pour comparer des séquences de protéines ou d ' acides nucléiques. Il présente les  nouvelles  technologies  de  séquençage  à  haut  débit  et  leur  utilisation  dans  l ' étude du génome de différents organismes et dans la recherche biomédicale actuelle.
+- Le  cours Biologie  moléculaire (SBL.00014) décrit  les mécanismes  moléculaires  liés  aux acides nucléiques et à la régulation génique chez les eucaryotes et les procaryotes. Ce cours se base sur les concepts acquis lors du cours d'introduction SBL.00001. Les thèmes traités sont entre autres la structure de la chromatine, la transcription, la régulation transcriptionnelle et posttranscriptionnelle, et les mécanismes liés à l'épigénétique.
+- Le cours Méthodes de biologie moléculaire (SBL.00019) est une introduction aux méthodes de biologie moléculaire.
+- Le cours Biologie du développement (SBL.00057) introduit les principaux phénomènes qui conduisent à la formation d ' un organisme multicellulaire. Ce cours donne aussi un aperçu sur les stratégies et techniques utilisées dans ce domaine.
+- Le cours de Microbiologie générale et médicale (SME.05103) traite des grands principes de la microbiologie (bactéries, virus, parasites) ; historique, classification, structure, facteurs de pathogénicité, génétique, interactions hôte-pathogène, antibiotiques et antiviraux ; résistances aux antibiotiques et aux antiviraux, microbiologie chez l ' Homme et chez l ' animal et microbiologie de l ' environnement.

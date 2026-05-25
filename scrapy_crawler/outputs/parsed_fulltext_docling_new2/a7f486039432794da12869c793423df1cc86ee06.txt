@@ -1,0 +1,102 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:55:53.079Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics_Math_matiques_a7f486039432794da12869c793423df1cc86ee06",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a7f486039432794da12869c793423df1cc86ee06",
+  "program_key": "faculty of science and medicine|master|90|mathematics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_MA_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Mathematics_Math_matiques_a7f486039432794da12869c793423df1cc86ee06.pdf",
+  "sha256": "3348c8b84ec5199be44336c9988886c4d1053970d37ced4b600c85c96abc916a",
+  "fetched_at": "2026-05-21T16:05:17.526Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_MA_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Mathematics",
+  "programme_name_de": "Mathematik",
+  "programme_name_fr": "Mathématiques",
+  "programme_url": "https://studies.unifr.ch/en/master/sci/mathematics",
+  "curriculum_url": "http://studies.unifr.ch/go/vBvMa"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Plan d'études pour l'obtention du
+
+## Bachelor en enseignement pour le degré secondaire I
+
+- Géosciences
+- Mathématiques
+- Informatique
+- Sciences naturelles
+- Sciences du sport et de la motricité
+
+## Mathématiques
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+## Mathématiques
+
+[Version 2025, paquets de validation : PV-SMA.0000060, PV-SMA.0000061]
+
+Dans le cadre d'un Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\_SI] ou Bachelor of Arts [BA\_SI]), la discipline Mathématiques propose deux programmes, soit  à  30  ou  à  50  crédits  ECTS.  Le  premier  est  constitué  de  27  crédits  ECTS  d ' unités d'enseignement (UE) obligatoires de mathématiques et de 3 crédits ECTS de didactique de la discipline. Le programme à 50 crédits ECTS est composés d'unités d'enseignements obligatoires (30 ECTS) et d'UE à choix (20 ECTS).
+
+La Faculté des sciences de l'éducation et  de  la formation est en charge de la didactique des mathématiques.
+
+## 1 Unités d'enseignement
+
+## 1.1 UE obligatoires de la 1 e  année (12 ECTS)
+
+Dans le cadre du BSc\_SI, ces UE font partie du paquet de validation de 1 e  année et doivent être validées au plus tard à la fin du 4 e  semestre.
+
+| Code          | Titre                                                | Semestre   |   h. tot. |   ECTS |
+|---------------|------------------------------------------------------|------------|-----------|--------|
+| ESE.00047     | Mathématiques I (cours avec exercices) §             | SA         |        56 |    4.5 |
+| ESE.00051     | Mathématiques II (cours avec exercices) §            | SP         |        56 |    4.5 |
+| SMA.00402     | Statistique propédeutique (cours avec exercices)     | SP         |        42 |      3 |
+| 1.2 Autres UE | obligatoires (1 e à 3 e année, 18 ECTS)              |            |           |        |
+| SMA.02705     | Mathématiques I pour BSc_SI (cours avec exercices)*  | SA         |        84 |      8 |
+| SMA.02706     | Mathématiques II pour BSc_SI (cours avec exercices)* | SP         |        84 |      7 |
+| F24.00765     | Didactique Mathématiques - Bachelor §                | SA/SP      |        56 |      3 |
+
+* Unités d'enseignement contenant de la « pratique de la branche »
+
+## 1.3 Unités d'enseignement supplémentairesUE à choix pour le programme de 50 ECTS (20 ECTS)
+
+| SMA.00103   | Analyse propédeutique I (cours avec exercices)            | SA    | 42   |   3 |
+|-------------|-----------------------------------------------------------|-------|------|-----|
+| SMA.00202   | Algèbre linéaire propédeutique (cours avec exercices)     | SA    | 42   |   3 |
+| SMA.00104   | Analyse propédeutique II (cours avec exercices)           | SP    | 42   |   3 |
+| ESE.00027   | Introduction à la statistique II (cours avec exercices) § | SP    | 56   | 4.5 |
+| SMA.07003   | Méthodes mathématiques de l ' informatique I              | SA    | 56   |   5 |
+| SMA.07004   | Méthodes mathématiques de l ' informatique II             | SP    | 56   |   5 |
+| ESE.00029   | Statistique: approfondissement §                          | SP    | 56   | 4.5 |
+| SMA.03820   | Travail écrit I (pour secondaire I)                       | SA/SP | -    |   1 |
+| SMA.03821   | Travail écrit II (pour secondaire I)                      | SA/SP | -    |   1 |
+| SMA.02331   | Introduction à l'analyse numérique I (cours avec ex.)     | SA    | 56   |   5 |
+| SMA.02332   | Introduction à l'analyse numérique II (cours avec ex.)    | SP    | 56   |   5 |
+
+§  Diese UE kann auch auf Deutsch besucht werden (sehe die deutsche Version des Studienplanes)
+
+## 2 Description des unités d'enseignement
+
+- Le  cours Mathématiques  I (ESE.00047)  a  pour  but  de  présenter  les  outils  essentiels  de mathématiques utilisés en Economie. Rappel de quelques notions de base. Calcul différentiel. Applications des dérivées. Optimisation univariée. Calcul intégral.
+- Le  cours Mathématiques  II (ESE.00051)  a  pour  but  de  présenter  les  outils  essentiels  de mathématiques utilisés en Economie. Aperçu sur les équations de récurrence. Fonctions à plusieurs  variables.  Mesures  comparatives,  Optimisation  multivariée.  Optimisation  sous contraintes. Matrices. Programmation linéaire.
+- La statistique propédeutique (SMA.00402) donne une introduction aux méthodes statistiques indispensables à chaque scientifique.
+- Les cours Mathématiques I, II pour le BSc\_SI (SMA.02705, SMA.02706) présentent les fondements de certains domaines importants des mathématiques du degré secondaire I.
+- Le cours Analyse propédeutique I, II (SMA.00103, SMA.00104) rappelle certaines notions acquises au gymnase sur les fonctions réelles (calcul différentiel et intégral) et les élargit avant  tout  dans  le  domaine  des  équations  différentielles.  Cet  élargissement  comprendra également une introduction aux nombres complexes.
+- L'Algèbre linéaire propédeutique (SMA.00202) introduit les étudiant-e-s à un domaine capital de toute discipline mathématique, à savoir le traitement de systèmes d'équations linéaires. Les exercices aident d'une part à comprendre le contenu de chaque cours et offrent d'autre part  la  poss ibilité  de  développer  l'esprit  mathématique.  La  participation  aux  exercices  est obligatoire.  Durant  les  cours  d' Introduction à l'Analyse numérique  I,  II (SMA.02331, SMA.02332),  les  étudiant-e-s  acquièrent  des  connaissances  de  base  dans  un  domaine important des Mathématiques appliquées.
+- Les  cours Méthodes mathématiques de l'informatique I et II (SMA.07003  et  SMA.07004) s'adressent spécifiquement aux informaticiens. Ils couvrent des chapitres de mathématiques discrètes qui constituent les fonde ments théoriques de l'informatique. L'étudiant -e apprend surtout à formaliser les problèmes, puis à les résoudre de manière rigoureuse.
+- Le Travail écrit (SMA.03820 ou SMA.03821) offre l'opportunité d'une immersion plus pro fonde dans des chapitres choisis des mathématiques. Le but du cours Introduction à la statistique II (ESE.00027)  est  de  permettre  un  premier  contact  avec  des  modèles  et  méthodes économétriques et statistiques. Le cours permet d'acquérir une bonne compréhension des modèles et méthodes ainsi que de les appliquer.
+- Le  cours Statistique:  approfondissement (ESE.00029)  est  une  introduction  formelle  à  la statistique inférentielle. Le cours introduira les notions de base du calcul de probabilité, de variables aléatoires et de fonctions de distribution, de  moments,  de  corrélation et d'espérances conditionnelles, de distributions théoriques, d'échantillons aléatoires et théorèmes limites, d'estimation ponctuelle, d'inférence statistique.
+
+## 3 Évaluation
+
+Les conditions d'évaluation des UE avec code « SMA » sont indiquées dans les annexes des mathématiques.
+
+Les modalités d'évaluation des UE avec code « ESE » sont décrites dans https://www.unifr.ch/timetable/fr.

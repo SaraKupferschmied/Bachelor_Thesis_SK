@@ -1,0 +1,308 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T01:53:06.118Z",
+  "title": "matched_Faculty_of_Education_Master_90_Remedial_Education_at_School_FR__Master_Major_90_30_ECTS-Kreditpunkte__ccfd26fc5548713527dabd1eacb60b4266944a01",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "ccfd26fc5548713527dabd1eacb60b4266944a01",
+  "program_key": "faculty of education|master|90|remedial education at school (fr)",
+  "source_url": "https://cdn.unifr.ch/eduform/plans/current/MSc_SHP_90%20(1505)%2026%2002%202026%20(1).pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Education_Master_90_Remedial_Education_at_School_FR__Master_Major_90_30_ECTS-Kreditpunkte__ccfd26fc5548713527dabd1eacb60b4266944a01.pdf",
+  "sha256": "74baf3ba13baa4a1d396a0879336c4afeff7fb3294c3e190da07b8aaa0bdf53e",
+  "fetched_at": "2026-05-21T16:05:20.002Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/eduform/plans/current/MSc_SHP_90%20(1505)%2026%2002%202026%20(1).pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Remedial Education at School (FR)",
+  "programme_name_de": "Schulische Heilpädagogik (FR)",
+  "programme_name_fr": "Enseignement spécialisé",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/specialneedseducationfrench",
+  "curriculum_url": "https://studies.unifr.ch/go/1I"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## DEPARTEMENT FÜR SONDERPÄDAGOGIK
+
+## STUDIENPLAN
+
+## Schulische Heilpädagogik
+
+Studienprogramm Master Major 90 ECTS-Kreditpunkte
+
+Gültig ab dem Herbstsemester 2025
+
+## 1 Rechtliche Grundlagen
+
+Dieser Studienplan basiert auf folgenden rechtlichen Grundlagen:
+
+- Reglement vom 19. September 2024 über die zusätzlichen Zulassungsbedingungen an der Fakultät für Erziehungs- und Bildungswissenschaften.
+- Reglement  vom  19. September  2024  über  das  Studium  an  der  Fakultät  für  Erziehungs-  und Bildungswissenschaften (Studienreglement)
+- Richtlinien  vom  17. Oktober  2024  über  die  Anerkennung  bereits  erbrachter  Studienleistungen (Anerkennungsrichtlinien)
+
+## 2 Allgemeine Angaben zum Studium
+
+## 2.1 Beschreibung des Studienprogramms
+
+Dieses  Studienprogramm Major in Sonderpädagogik  umfasst  90  ECTS-Kreditpunkte  und  ist  in  den Spezialisierten Master of Science in Sonderpädagogik: Vertiefungsrichtung Schulische Heilpädagogik (90 ECTS-Kreditpunkte)  integriert. Mit diesem  Studienprogramm  ist  es  nicht  möglich,  zusätzlich ein Studienprogramm Minor zu 30 ECTS-Kreditpunkten auszuwählen.
+
+Dieses Masterstudienprogramm erlaubt es den Studierenden, fundierte theoretische und praktische Kompetenzen für die Unterrichtung und Förderung von Kindern und Jugendlichen mit sonderpädagogischem Förderbedarf  in  schulischen  Settings  zu  erwerben.  Ein  besonderer  Schwerpunkt  liegt  auf  der  Verknüpfung theoretischen  Wissens  mit  praktischen  Anwendungsfragen  und  dem  Verstehen  und  Durchführen  von Forschungsarbeiten im Bereich der Schulischen Heilpädagogik.
+
+## 2.2 Ausbildungssprache
+
+Das Studienprogramm Schulische Heilpädagogik (90 ECTS-Kreditpunkte) kann auf Deutsch oder Französisch absolviert werden. Der vorliegende Studienplan stellt den deutschsprachigen Studienplan vor.
+
+## 2.3 Zulassungsbedingungen und Zulassungsfristen
+
+Massgebend sind die Zulassungsbedingungen der Universität Freiburg (Reglement vom 26. März 2020 über die Zulassung und die Immatrikulation der Studierenden und Hörer und Hörerinnen an der Universität Freiburg) sowie die Zulassungsbedingungen der Fakultät (Reglement über die zusätzlichen Zulassungsbedingungen).
+
+Kandidatinnen  und  Kandidaten  mit  einem  von  der  EDK  anerkannten  Lehrdiplom  sowie  Personen,  die  im Rahmen  eines  integrierten  Studiengangs  für  das  Lehrdiplom  der  Sekundarstufe  I  den  Bachelorabschluss erlangt haben, sind mit einem «Zusatz» von 30 ECTS-Kreditpunkten ( Grundlagen der Sonderpädagogik ; siehe Anhang) zulassungsfähig.
+
+Kandidatinnen und Kandidaten mit einem Bachelor in Klinischer Heilpädagogik, Logopädie, Sonderpädagogik, Psychomotorik, Erziehungswissenschaften, Sozialpädagogik, Sozialarbeit oder Psychologie sind zulassungsfähig. Sie absolvieren während des Masterstudiums einen «Zusatz» von 30 ECTS-Kreditpunkten ( Grundlagen des Unterrichts in Regelklassen ; siehe Anhang) sowie, sofern dieses Programm nicht bereits in einem  früheren  Studium  vollständig  validiert  wurde,  einen  zweiten  «Zusatz»  von  30  ECTS-Kreditpunkten ( Grundlagen der Sonderpädagogik ; siehe Anhang).
+
+Ein Studienbeginn ist nur im Herbstsemester möglich. Eine verspätete Anmeldung ist nicht möglich.
+
+## 2.4 Vorgezogenes Masterstudium
+
+Es ist nicht möglich, dieses Studienprogramm im Rahmen eines vorgezogenen Masterstudiums zu absolvieren.
+
+## 2.5 Mobilität
+
+Aufgrund der während des gesamten Studiums organisierten Praktika ist ein Mobilitätsaufenthalt  i.d.R.  nur möglich, wenn die Studienzeit verlängert wird.
+
+## 2.6 Verliehener Titel
+
+Der verliehene  Titel  lautet Spezialisierter  Master  of  Science  in  Sonderpädagogik:  Vertiefungsrichtung Schulische Heilpädagogik .
+
+## 3 Studienprogramm
+
+Das Studienprogramm umfasst 90 ECTS-Kreditpunkte, die in 5 Pflichtmodule aufgeteilt sind.
+
+## 3.1 Ziele der Ausbildung
+
+Das Studienprogramm richtet sich an Personen, die eine Berufsqualifikation als Schulische/r Heilpädagogin/Heilpädagoge  und  gleichzeitig  eine  universitäre,  akademische  Qualifikation  in  Schulischer Heilpädagogik anstreben. Die Studierenden werden einerseits zu einer reflektierten Praxis des Unterrichtens und Förderns von Kindern und Jugendlichen mit sonderpädagogischem Förderbedarf in allen Angeboten des Bildungssystems  (d.h.  in  integrativen  und  separativen  Schulformen,  auf  allen  Schulstufen  (Zyklen),  der Sekundarstufe II sowie dem Übergang Schule-Beruf) befähigt. Andererseits erwerben sie wissenschaftliche Kompetenzen, die ihnen erlauben, sonderpädagogische Praxis zu evaluieren und weiterzuentwickeln sowie in wissenschaftlichen Arbeitsfeldern tätig zu werden. Das Erreichen dieser Ziele wird durch eine enge Verknüpfung theoretischer und praktischer Lern- und Anwendungsgelegenheiten im Studium angestrebt. Die vermittelten Kompetenzen berücksichtigen die im Reglement der Schweizerischen Konferenz der kantonalen Erziehungsdirektorinnen und -direktoren (EDK) vom 22. Juni 2023 über die Anerkennung von Hochschuldiplomen im Bereich der Sonderpädagogik (Vertiefungsrichtung Heilpädagogische Früherziehung und Vertiefungsrichtung Schulische Heilpädagogik) festgehaltenen Themenbereiche.
+
+## 3.1.1 Theoretische Kenntnisse
+
+Nach Absolvieren des Studienprogramms verfügen Studierende über fundierte theoretische Kenntnisse in u.a. folgenden Bereichen: Behinderung und besondere Bildungsbedürfnisse aus pädagogischen, psychologischen, medizinischen, soziologischen, historischen, ethischen und rechtlichen Blickwinkeln; diagnostische Merkmale und Entstehungsbedingungen unterschiedlicher Behinderungsformen und psychischer Auffälligkeiten; evidenzbasierte  Fördermethoden  bei  Kindern  und  Jugendlichen  mit  besonderen  Bildungsbedürfnissen; theoretische Modelle, Methoden  und empirische Forschungsbefunde zu/r Diagnostik, Förderplanung, Unterricht, Kooperation und Beratung im schulisch-heilpädagogischen Aufgabenfeld; Aufbau und Funktionsweise des Schulsystems und sonderpädagogischer Unterstützungsmassnahmen; Forschungsmethoden in der Sonderpädagogik.
+
+## 3.1.2 Wissenschaftliche Kompetenzen
+
+Nach Absolvieren des Studienprogramms verfügen Studierende über fundierte wissenschaftliche Kompetenzen in  u.a.  folgenden  Bereichen:  Identifizieren  relevanter  Forschungsfragen;  systematische  Suche  und  Analyse internationaler Forschungsliteratur; Einordnen und kritisches Betrachten von Forschungsliteratur; Berücksichtigung ethischer Richtlinien im Kontext sonderpädagogischer Forschung; Erstellen von Forschungsplänen und Auswahl von Methoden zur Beantwortung wissenschaftlicher Fragen; Rekrutierung von Forschungsteilnehmenden  und  angemessene  Durchführung  von  Untersuchungen;  Datenauswertung  und Ergebnisdarstellung; Interpretation von Ergebnissen vor dem Hintergrund des internationalen Forschungsstands; wissenschaftliches Schreiben unter Berücksichtigung internationaler Konventionen; Anwendung wissenschaftlicher Arbeitsprozesse auf schulpraktische Tätigkeitsfelder.
+
+## 3.1.3 Berufliche Kompetenzen
+
+Nach Absolvieren des Studienprogramms verfügen Studierende über fundierte berufliche Kompetenzen für die Erziehungs-  und  Bildungsarbeit  mit  Schülerinnen  und  Schülern  mit  besonderem  Bildungsbedarf  in  u.a. folgenden Bereichen: Befähigung zur kind- und umfeldbezogenen Diagnostik, insbesondere im Bereich der Erfassung  erschwerender  Entwicklungs-  und  Lernbedingungen  sowie  Ressourcen;  zur  individualisierten sonderpädagogischen Förderplanung  unter  Einbezug  des  schulischen,  familiären  und  familienergänzenden sowie des weiteren sozialen Umfelds; zur Formulierung und Umsetzung partizipativ ausgerichteter Förderziele; zum Planen, Durchführen und Auswerten von Unterricht und schulbezogener Fördermassnahmen gemäss dem besonderen  Bildungsbedarf  von  Schülerinnen  und  Schülern  in  integrativen  Regelschulklassen  und  in Sonderschulen;  zur  sonderpädagogischen  Beratungs-  und  Unterstützungstätigkeit  hinsichtlich  präventiver Massnahmen und zu sonderpädagogischen Fragestellungen; zur Kooperation und interdisziplinären Zusammenarbeit  mit  Fokus  Integration  und  Prävention;  zur  Reflexion  der  professionellen  Tätigkeit  und schulischer Praxis vor dem Hintergrund wissenschaftlicher Erkenntnisse und Arbeitsweisen; zur Überprüfung der  Wirksamkeit  der  eigenen  beruflichen  Tätigkeit;  zur  Reflexion  und  Weiterentwicklung  der  eigenen beruflichen, persönlichen und sozialen Fähigkeiten und zur Planung der eigenen Weiterbildung; zur Übernahme von Mitverantwortung bei der Gestaltung eines integrationsorientierten Bildungssystems in Zusammenarbeit mit relevanten Akteurinnen und Akteuren.
+
+## 3.2 Allgemeiner Aufbau der Ausbildung
+
+Das Studienprogramm umfasst 90 ECTS-Kreditpunkte, die in 5 Module aufgeteilt sind.
+
+Alle Unterrichtseinheiten werden  jedes Jahr angeboten. Die Beschreibungen sowie die detaillierten Informationen zu den Unterrichtseinheiten des laufenden akademischen Jahres sind jeweils im Vorlesungsverzeichnis der Universität Freiburg zu finden.
+
+Auf Antrag beim Sekretariat des Departements für Sonderpädagogik können die Studierenden bei Evaluationen Zugang zu einem dritten Versuch erhalten. Dieser Antrag kann sich nur auf eine einzige Evaluation über den gesamten Studienplan beziehen und ist nur für die folgenden Unterrichtseinheiten möglich:
+
+- Statistik I und II
+- Statistik III
+- Statistik IV
+- Forschungsprozess
+
+| Spezialisierter Master of Science in Sonderpädagogik: Vertiefungsrichtung Schulische Heilpädagogik Major : «Schulische Heilpädagogik» 90 ECTS   | Spezialisierter Master of Science in Sonderpädagogik: Vertiefungsrichtung Schulische Heilpädagogik Major : «Schulische Heilpädagogik» 90 ECTS   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Modul 1 (15 ECTS) Grundlagen der Schulischen Heilpädagogik 1                                                                                    | Modul 2 (12 ECTS) Grundlagen der Schulischen Heilpädagogik 2                                                                                    |
+| Modul 3 (12 ECTS) Forschungsgrundlagen                                                                                                          | Module 4 (21 ECTS) Sonderpädagogische Unterrichtspraxis                                                                                         |
+| Modul 5 (30 ECTS) Masterarbeit                                                                                                                  | Modul 5 (30 ECTS) Masterarbeit                                                                                                                  |
+
+## 3.3 Struktur der Module
+
+## Modul 1 -Grundlagen der Schulischen Heilpädagogik 1
+
+15 ECTS
+
+In dem Modul werden Kompetenzen in Kernfeldern der Schulischen Heilpädagogik erworben. Diese umfassen
+
+- Wissen und die Befähigung zur fachlich fundierten Planung, Durchführung und Dokumentation diagnostischer Tätigkeiten,
+- Wissen  und  die  Befähigung,  sonderpädagogische  Massnahmen  unter  Berücksichtigung individueller  Ausgangslagen  und  des  Umfelds  zu  konzipieren,  umzusetzen  und  auf  ihre Wirksamkeit zu prüfen,
+- Wissen zu rechtlichen Fragen der sonderpädagogischen Abklärung und Förderung,
+- Wissen und die Befähigung zur Kooperation mit Regelschullehrpersonen, anderen Fachpersonen und Eltern sowie zu beratenden Tätigkeiten hinsichtlich präventiver Massnahmen sowie sonderpädagogischer und integrationsbezogener Fragestellungen,
+- Wissen und die Befähigung zur wissenschaftlich fundierten sonderpädagogischen Unterstützung von Kindern und Jugendlichen mit einer geistigen Behinderung in integrativen Klassen und Sonderschulen,
+- Wissen und die Befähigung, mathematische Schwierigkeiten von Kindern und Jugendlichen zu erkennen  sowie  diesen  wissenschaftlich  fundiert  im  Rahmen  sonderpädagogischer Unterstützungsmassnahmen zu begegnen.
+
+| Unterrichtseinheiten:   | Unterrichtseinheiten:                                                            | Unterrichtseinheiten:                                                            |
+|-------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| F22.00037               | Diagnostik in der Schulischen Heilpädagogik                                      | 6 ECTS                                                                           |
+| F22.00059               | Unterricht mit Kindern und Jugendlichen mit einer geistigen Behinderung          | 3 ECTS                                                                           |
+| F22.00088               | Unterricht im Förderschwerpunkt Mathematik                                       | 3 ECTS                                                                           |
+| F22.00139               | Kooperation, Beratung und Gesprächsführung in der Schulischen Heilpädagogik      | 3 ECTS                                                                           |
+| Evaluationsmodalitäten: | Evaluationsmodalitäten:                                                          | Evaluationsmodalitäten:                                                          |
+| F22.00037               | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) |
+| F22.00059               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00088               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00139               | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           |
+
+## Modul 2 -Grundlagen der Schulischen Heilpädagogik 2
+
+12 ECTS
+
+In dem Modul werden Kompetenzen in Kernfeldern der Schulischen Heilpädagogik erworben. Diese umfassen
+
+- Wissen und die Befähigung zur wissenschaftlich fundierten sonderpädagogischen Unterstützung von Kindern und Jugendlichen mit Lern- und Verhaltensschwierigkeiten oder sprachlichen Problemen in integrativen Klassen und Sonderschulen,
+- Wissen  und Reflexionskompetenz zu sonderpädagogischen  Fragestellungen vor  dem Hintergrund  pädagogischer,  psychologischer,  medizinischer,  soziologischer,  historischer, ethischer und rechtlicher Perspektiven auf das Thema Behinderung,
+- Wissen  und  Reflexionskompetenz  zu  sonderpädagogischen  Fragestellungen  vor  dem Hintergrund von Erkenntnissen zu Migration und Bildungsungleichheiten,
+- Wissen  und  die  Befähigung  zur  Förderung  sprachlicher  Fähigkeiten  von  Kindern  und Jugendlichen mit sonderpädagogischem Förderbedarf und zum Einsatz einer angemessenen Unterrichtssprache,
+
+| Unterrichtseinheiten:                                                                                                                                                                           | Unterrichtseinheiten:                                                                                                                                                                           | Unterrichtseinheiten:                                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| F22.00114                                                                                                                                                                                       | Kinder und Jugendliche mit Lern- und Verhaltensschwierigkeiten: Grundlagen und sonderpädagogischer Unterricht                                                                                   | 6 ECTS                                                                                                                                                                                          |
+| F22.00055                                                                                                                                                                                       | Behindertensoziologie*                                                                                                                                                                          | 3 ECTS                                                                                                                                                                                          |
+| F22.00170                                                                                                                                                                                       | Migration und Bildungsungleichheiten*                                                                                                                                                           | 3 ECTS                                                                                                                                                                                          |
+| F22.00190                                                                                                                                                                                       | Sprachförderung im sonderpädagogischen Unterricht*                                                                                                                                              | 3 ECTS                                                                                                                                                                                          |
+| * Es werden nach freier Wahl zwei der drei Unterrichtseinheiten Behindertensoziologie , Migration und Bildungsungleichheiten oder Sprachförderung im sonderpädagogischen Unterricht absolviert. | * Es werden nach freier Wahl zwei der drei Unterrichtseinheiten Behindertensoziologie , Migration und Bildungsungleichheiten oder Sprachförderung im sonderpädagogischen Unterricht absolviert. | * Es werden nach freier Wahl zwei der drei Unterrichtseinheiten Behindertensoziologie , Migration und Bildungsungleichheiten oder Sprachförderung im sonderpädagogischen Unterricht absolviert. |
+| Evaluationsmodalitäten:                                                                                                                                                                         | Evaluationsmodalitäten:                                                                                                                                                                         | Evaluationsmodalitäten:                                                                                                                                                                         |
+| F22.00114                                                                                                                                                                                       | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN)                                                                                                                | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN)                                                                                                                |
+| F22.00055                                                                                                                                                                                       | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)                                                                                                                          | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)                                                                                                                          |
+| F22.00170                                                                                                                                                                                       | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)                                                                                                                          | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)                                                                                                                          |
+| F22.00190                                                                                                                                                                                       | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)                                                                                                                          | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)                                                                                                                          |
+
+## Modul 3 -Forschungsgrundlagen
+
+12 ECTS
+
+In dem Modul werden Kompetenzen im Bereich des Verstehens und Durchführens von Forschungsarbeiten im Bereich der Schulischen Heilpädagogik sowie der Integration dieser Erkenntnisse in schulpraktische Zusammenhänge erworben. Diese umfassen
+
+- Wissen zum  wissenschaftlichen Forschungsprozess und die Befähigung, bestehende Forschungsarbeiten  im  Gebiet  der  Schulischen  Heilpädagogik  auszuwerten,  kritisch  zu reflektieren und gewonnene  Erkenntnisse  in der Schulpraxis  zu  kommunizieren  und anzuwenden,
+- die Befähigung zur begründeten Wahl einer wissenschaftlichen Fragestellung im Gebiet der Schulischen  Heilpädagogik  sowie  zur  Planung,  Umsetzung  und  Verschriftlichung  eines Forschungsprojekts im Rahmen der Masterarbeit,
+- Wissen  zu  statistischen  Verfahren  und  die  Befähigung  zu  deren  Anwendung  im  Kontext diagnostischer  Testverfahren,  schulischer  Evaluationsprojekte  und  sonderpädagogischer Forschungsarbeiten.
+
+| Unterrichtseinheiten:   | Unterrichtseinheiten:                                   | Unterrichtseinheiten:   |
+|-------------------------|---------------------------------------------------------|-------------------------|
+| F22.00041               | Statistik I und II*                                     | 6 ECTS                  |
+| F22.00108               | Statistik III*                                          | 3 ECTS                  |
+| F22.00109               | Statistik IV*                                           | 3 ECTS                  |
+| F22.00060               | Forschungsprozess                                       | 3 ECTS                  |
+| F22.00191               | Forschungsseminar SHPI zur Begleitung der Masterarbeit  | 1,5 ECTS                |
+| F22.00192               | Forschungsseminar SHPII zur Begleitung der Masterarbeit | 1,5 ECTS                |
+
+*  Studierende,  die  keine  Unterrichtseinheit  in  Statistik  à  6  ECTS-Kreditpunkten  im  Rahmen  eines früheren Studiums validiert haben, besuchen die Unterrichtseinheit Statistik I und II . Studierende, die bereits eine Unterrichtseinheit in Statistik à 6 ECTS-Kreditpunkten im Rahmen eines früheren Studiums validiert haben, besuchen die Unterrichtseinheiten Statistik III und Statistik IV .
+
+| Evaluationsmodalitäten:   | Evaluationsmodalitäten:                                                          |
+|---------------------------|----------------------------------------------------------------------------------|
+| F22.00041                 | Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN) |
+| F22.00108                 | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00109                 | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00060                 | Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)           |
+| F22.00191                 | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           |
+| F22.00192                 | Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)           |
+
+## Modul 4 -Sonderpädagogische Unterrichtspraxis
+
+21 ECTS
+
+In  dem Modul werden unterrichtspraktische Kompetenzen im Arbeitsfeld Schulische Heilpädagogik erworben.  Diese  erlangen  die  Studierenden  im  Rahmen  begleiteter  Unterrichtspraktika  sowohl  in integrativen  Klassen  als  auch  in  spezialisierten  Förderklassen/Sonderschulen  (mindestens  ein Praktikum muss im jeweils anderen Setting absolviert werden) mit besonderem Fokus auf
+
+- Kinder und Jugendliche mit einer Lern- oder Sprachbehinderung oder mit Verhaltensauffälligkeiten,
+- Kinder und Jugendliche mit einer geistigen Behinderung,
+- Kinder und Jugendliche mit weiteren Behinderungsformen.
+
+Im Rahmen der Vorbereitung auf die Lehrpraktische Abschlussprüfung wird weiter die Befähigung zur Planung, Durchführung und Reflexion von fachlich fundiertem Unterricht mit Kindern und Jugendlichen mit sonderpädagogischem Förderbedarf vertieft. Neben dem Erwerb konkreter unterrichtspraktischer Fertigkeiten und der Übernahme von Verantwortung in einem integrationsorientierten Bildungssystem sollen  die  Studierenden  in  den  Praktika  befähigt  werden,  ihre  eigenen  Kompetenzen  kritisch  zu reflektieren und sich durch selbständige Spezialisierung und Fortbildung vertiefende Zusatzkenntnisse anzueignen.  Unterstützend  bei  diesen  Prozessen  wirkt  das  Kennenlernen  der  die  Praktika begleitenden Reflexions- und Beratungsgefässe (z.B. Videoanalysen, Kollegiale Fallberatung).
+
+## Zulassung zu Unterrichtseinheiten:
+
+Die Unterrichtseinheit Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl kann nur absolviert werden, wenn die Unterrichtseinheiten Ausbildungspraktikum (B) im Arbeitsgebiet Lern-, Sprachbehinderung oder Verhaltensauffälligkeiten sowie Ausbildungspraktikum (C) im Arbeitsgebiet geistige Behinderung bestanden wurden.
+
+| Unterrichtseinheiten:   | Unterrichtseinheiten:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Unterrichtseinheiten:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| F22.00075               | Ausbildungspraktikum (B) im Arbeitsgebiet Lern-, Sprachbehinderung oder Verhaltensauffälligkeiten                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 6 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F22.00076               | Ausbildungspraktikum (C) im Arbeitsgebiet geistige Behinderung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 6 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F22.00077               | Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 6 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| F22.00079               | Lehrpraktische Abschlussprüfung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 3 ECTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Evaluationsmodalitäten: | Evaluationsmodalitäten:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Evaluationsmodalitäten:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| F22.00075               | Das Ausbildungspraktikum B (17 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (B) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (B) im Arbeitsgebiet Lern-, Sprachbehinderung oder Verhaltensauffälligkeiten zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                     | Das Ausbildungspraktikum B (17 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (B) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (B) im Arbeitsgebiet Lern-, Sprachbehinderung oder Verhaltensauffälligkeiten zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                     |
+| F22.00076               | Das Ausbildungspraktikum C (20 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (C) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (C) im Arbeitsgebiet geistige Behinderung zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                                                        | Das Ausbildungspraktikum C (20 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (C) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (C) im Arbeitsgebiet geistige Behinderung zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                                                        |
+| F22.00077               | Das Ausbildungspraktikum D (25 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (C) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                                | Das Ausbildungspraktikum D (25 Tage) ist als «bestanden» oder «nicht bestanden» bewertet (I). Detaillierte Informationen zur Durchführung des Ausbildungspraktikums (C) sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.                                                                                                                                                |
+| F22.00079               | Die Unterrichtseinheit Lehrpraktische Abschlussprüfung wird im Rahmen der Unterrichtseinheit Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl absolviert, aber unabhängig vom Praktikum evaluiert. Die Lehrpraktische Abschlussprüfung wird mit einer Note bewertet (IN). Detaillierte Informationen zur Lehrpraktischen Prüfung sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl zu finden, welches auf der Webseite des | Die Unterrichtseinheit Lehrpraktische Abschlussprüfung wird im Rahmen der Unterrichtseinheit Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl absolviert, aber unabhängig vom Praktikum evaluiert. Die Lehrpraktische Abschlussprüfung wird mit einer Note bewertet (IN). Detaillierte Informationen zur Lehrpraktischen Prüfung sind im Dokument Leitfaden und Vorgaben zum Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl zu finden, welches auf der Webseite des |
+
+## Modul 5 -Masterarbeit
+
+30 ECTS
+
+Die Masterarbeit entspricht einem Arbeitsaufwand von 30 ECTS-Kreditpunkten. Es umfasst:
+
+- die Masterarbeit (schriftlicher Teil);
+- die Verteidigung der Masterarbeit (mündlicher Teil).
+
+## Evaluationsmodalitäten:
+
+Die Masterarbeit muss ein Thema  behandeln, das mit dem  Studienprogramm Major in Zusammenhang steht. Sie kann multidisziplinär ausgerichtet sein. Sie stellt die Ergebnisse einer persönlichen, nach wissenschaftlichen Grundsätzen durchgeführten Forschung dar. Das Verfassen der Masterarbeit ist eine individuelle Arbeit. Obwohl die Masterarbeit im Rahmen einer kollaborativen Forschung durchgeführt werden kann, muss die schriftliche Arbeit von einem einzelnen Kandidaten oder einer einzelnen Kandidatin verfasst werden.
+
+Detaillierte  Informationen  zur  Durchführung  der  Masterarbeit  sind  im  Dokument Wegleitung  zur Erstellung wissenschaftlicher Hausarbeiten zu finden, welches auf der Webseite des Departements für Sonderpädagogik verfügbar ist.
+
+Die  Beurteilung  der  Masterarbeit  erfolgt  durch  die  Betreuungsperson  und  es  wird  keine  weitere Gutachterin bzw. kein weiterer Gutachter herangezogen. Die Beisitzerin bzw. der Beisitzer für die Verteidigung  der  Masterarbeit  wird  durch  die  Verantwortliche  oder  den  Verantwortlichen  für  das Studienprogramm bestimmt.
+
+## 4 Leistungsnachweise
+
+## 4.1 Allgemeine Bestimmungen
+
+Ein  ECTS-Kreditpunkt  entspricht  durchschnittlich  dreissig  Arbeitsstunden  für  die  Studierenden.  ECTSKreditpunkte werden auf der Grundlage von als genügend bewerteten Unterrichtseinheiten vergeben (Art. 3 Ziff. 7 und 14 Studienreglement).
+
+Die  Evaluation  einer  Unterrichtseinheit  kann  während  des  Semesters  oder  während  einer  Prüfungssession durchgeführt  werden.  Die  geforderte  Leistung  kann  benotet  oder  als  «bestanden»  bzw.  «nicht  bestanden» beurteilt  werden.  Diese  Evaluationen  können  in  Form  einer  mündlichen  oder  schriftlichen  Prüfung,  einer schriftlichen  Arbeit,  eines  Vortrags,  eines  Berichts,  eines  Portfolios,  einer  komplexen  Aufgabe  oder  einer anderen  Validierungsaktivität  erfolgen.  Im  Rahmen  des  vorliegenden  Programms  sind  die  folgenden Evaluationsmodalitäten möglich:
+
+- Integrierte Evaluation im Rahmen der Unterrichtseinheit, mit Note (IN)
+- Integrierte Evaluation im Rahmen der Unterrichtseinheit, ohne Note (I)
+- Evaluation während der offiziellen Prüfungssessionen der Fakultät, mit Note (EN)
+
+Die  Evaluation  einer  Unterrichtseinheit  kann  aus  einem  oder  mehreren  Teilen  bestehen,  die  während  des Semesters  oder  während  einer  Prüfungssession  durchgeführt  werden.  Im  Falle  einer  Evaluation,  die  aus mehreren Teilen besteht, erhält die oder der Studierende, die oder der nicht an allen Teilen teilnimmt, das Resultat «nicht bestanden».
+
+Die Modalitäten für das Verfassen und die Abgabe der Masterarbeit sind im Dokument Wegleitung zur Erstellung wissenschaftlicher  Hausarbeiten enthalten,  das  auf  der  Website  des  Departements  für  Sonderpädagogik verfügbar ist.
+
+Die Unterrichtseinheiten sind in Modulen angeordnet. Ein Modul wird validiert, sobald alle Unterrichtseinheiten, aus  denen  es  sich  zusammensetzt,  erfolgreich  abgeschlossen  wurden.  Eine  Kompensation  für  eine  nicht bestandene Evaluation innerhalb des Moduls ist nicht möglich.
+
+## 4.2 Anerkennung
+
+Mit Ausnahme der Masterarbeit sowie der Unterrichtseinheiten Forschungsseminar SHP I zur Begleitung der Masterarbeit und Forschungsseminar SHP II zur Begleitung der Masterarbeit können alle Unterrichtseinheiten dieses Studienprogramms potenziell durch eine formale Anerkennung (Art. 3 Abs. 5 Anerkennungsrichtlinien) und  im  Rahmen  der  maximal  vorgesehenen  Anzahl  von  ECTS-Kreditpunkten  (Art.  3  Abs.  1)  angerechnet werden.
+
+Studienleistungen, die mehr als 10 Jahre vor der Einreichung des Antrags auf Anerkennung erbracht wurden, können nicht anerkannt werden.
+
+## 4.3 Einschreibung in die Unterrichtseinheiten und Leistungsnachweise
+
+Die  Studierenden  müssen  sich  für  jede  Unterrichtseinheit  und  jede  Evaluation  über  den  virtuellen  Schalter gemäss dem Kalender der Fakultät einschreiben (Art. 33 und 34 Studienreglement). Die Anmeldung zu einem Praktikum  ist  definitiv  und  kann  nicht  annulliert  werden.  Nicht  eingeschriebene  Studierende  haben  keinen Anspruch auf eine Evaluation.
+
+## 4.4 Unterrichtseinheiten ausserhalb der Prüfungssessionen
+
+Die Unterrichtseinheiten Ausbildungspraktikum (B) im Arbeitsgebiet Lern-, Sprachbehinderung oder Verhaltensauffälligkeiten , Ausbildungspraktikum (C) im Arbeitsgebiet geistige Behinderung, Ausbildungspraktikum (D) im schulisch-heilpädagogischen Arbeitsgebiet nach freier Wahl und die Lehrpraktische Abschlussprüfung sind als ausserhalb der Prüfungssessionen festgelegt.
+
+## 4.5 Benotung
+
+Die Leistungsnachweise werden benotet oder bilden Gegenstand eines Entscheids «bestanden» oder «nicht bestanden». Die für die benoteten Leistungsnachweise verwendete Notenskala besteht aus ganzen und halben Noten von 1 bis 6, wobei 6 die beste Note ist. Die Noten von 6 bis 4 werden für bestandene Leistungsnachweise vergeben,  die  Noten  unterhalb  von  4  gelten  für  nicht  bestandene  Leistungsnachweise  (Art.  22  und  23 Studienreglement).
+
+## 4.6 Versuche und endgültiger Misserfolg
+
+Ein nicht bestandener Leistungsnachweis entspricht einem Misserfolg. Ein nicht bestandener Leistungsnachweis kann einmal wiederholt werden. Gegebenenfalls muss sich die oder der Studierende für den  zweiten  Versuch  wieder  einschreiben.  Falls  sie  oder  er  den  zweiten  Versuch  nicht  besteht,  gilt  diese Unterrichtseinheit oder dieses Modul als definitiv nicht bestanden (endgültiger Misserfolg). Auf Antrag bei dem für  das  betreffende  Studienprogramm  zuständigen  Departementssekretariat  können  Studierende  in  jedem Studienprogramm der Fakultät für einen einzigen Leistungsnachweis und nur ein einziges Mal einen dritten Versuch erhalten. Falls notwendig wird für diesen dritten Versuch eine zusätzliche Prüfungssession gewährt. Besteht  die  oder  der  Studierende  diesen  einmaligen  dritten  Versuch  nicht,  so  hat  sie oder  er die Unterrichtseinheit oder das Modul endgültig nicht bestanden.
+
+Die  Unterrichtseinheiten,  für  die  ein  dritter  Versuch  erlaubt  ist,  sind  in  Kapitel  3.2  aufgeführt.  Wird  ein Studienprogramm endgültig nicht bestanden, können die Studierenden ihr Studium in diesem Studienprogramm während eines Zeitraums von fünf Jahren ab der betreffenden Prüfungssession nicht fortsetzen (Art. 24 des Studienreglements).
+
+Das Studium gilt als endgültig nicht bestanden und kann nicht fortgesetzt werden, wenn eines der folgenden Kriterien erfüllt ist:
+
+- die obligatorische UE wurde bei beiden Versuchen nicht validiert (mit Ausnahme eines möglichen dritten Versuchs);
+- die obligatorische UE  wurde  innerhalb von vier Prüfungssessionen nicht  bestanden  (Ausnahme: Verschiebung einer Prüfungssession aufgrund von Terminüberschneidungen oder gerechtfertigter Abwesenheit);
+- die maximal zulässige Studiendauer gemäss Art. 10 des Studienreglements ist überschritten.
+
+## 4.7 Masterarbeit
+
+Die Note des Moduls Masterarbeit berechnet sich aus dem Durchschnitt der Note für den schriftlichen Teil der Masterarbeit (mit doppelter Gewichtung) und der Note für die Verteidigung. Die Masterarbeit gilt als bestanden, wenn die Note für den schriftlichen Teil und die Note für die Verteidigung höher oder gleich 4 sind (Art. 75 Studienreglement). Eine abgegebene Masterarbeit darf in der Regel weder zurückgezogen noch abgeändert werden; falls doch, wird ein Misserfolg festgestellt (Art. 69 Abs. 2 Studienreglement).
+
+Wurde  einer  oder  einem  Studierenden  die  Zulassung  zur  Verteidigung  verweigert,  darf  sie  oder  er  die Masterarbeit  überarbeiten.  Die  Betreuerin  oder  der  Betreuer  teilt  ihr  oder  ihm  den  begründeten  Entscheid schriftlich mit und setzt ihr oder ihm eine angemessene Frist, um die Masterarbeit zu überarbeiten. Eine Kopie des Entscheids wird dem Dekanat zugestellt. Eine Masterarbeit darf nur einmal überarbeitet werden. Wenn die Zulassung zur Verteidigung ein zweites Mal verweigert wird, bedeutet dies den endgültigen Misserfolg. Ist die Note für die Verteidigung ungenügend, wird ein Misserfolg festgestellt. Die Betreuerin oder der Betreuer teilt der oder dem Studierenden den begründeten Entscheid schriftlich mit und beruft innerhalb von drei Monaten eine  neue  Verteidigung  ein.  Eine  Masterarbeit  kann  nicht  mehr  als  zweimal  verteidigt  werden.  Bei  einem endgültigen Misserfolg darf die oder der Studierende das Studium im betroffenen Studienprogramm Major nicht fortsetzen (Art. 76 Studienreglement).
+
+## 4.8 Abschlussnote
+
+Die Abschlussnote, die als Grundlage für die Vergabe des Prädikats dient, entspricht dem Durchschnitt der nicht gerundeten und nicht gewichteten Noten der Module des Studienprogramms Major ;  Die  Note eines Moduls ergibt sich aus dem ungerundeten und nicht gewichteten Durchschnitt der Noten der Unterrichtseinheiten, aus denen es sich zusammensetzt, ausser für das Modul Masterarbeit (Art. 77 des Studienreglement).
+
+## 5 Inkrafttreten und Übergangsbestimmungen
+
+Der  vorliegende  Studienplan  tritt  im  Herbstsemester  2025  in  Kraft.  Er  gilt  für  alle  Studierenden,  die  ihre Ausbildung ab dem Herbstsemester 2025 beginnen.
+
+Studierende, die zum  Zeitpunkt des Inkrafttretens dieses Studienplans bereits  im  Studienprogramm Spezialisierter Master  of Arts in  Sonderpädagogik:  Vertiefungsrichtung  Schulische  Heilpädagogik der Philosophischen Fakultät eingeschrieben sind, unterstehen dem vorliegenden Studienplan. Eine vollständige Anerkennung der bereits erworbenen Kreditpunkte ist gewährleistet. Während der Übergangszeit entscheidet die  oder  der  Studienprogrammverantwortliche,  welche  Unterrichtseinheiten  gemäss  dem  vorliegenden Studienplan die Unterrichtseinheiten ersetzen, die gegebenenfalls nicht mehr angeboten werden.

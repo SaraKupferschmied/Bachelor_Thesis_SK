@@ -87,7 +87,7 @@
         @for (message of messages; track $index) {
           <div class="chat-bubble" [class.chat-bubble--user]="message.role === 'user'">
             <div class="chat-bubble__role">
-              {{ message.role === 'user' ? 'You' : 'Chatbot' }}
+              {{ message.role === 'user' ? dictionary().chatRoleUser : dictionary().chatRoleAssistant }}
             </div>
 
             <div
@@ -101,9 +101,23 @@
                 <ul>
                   @for (source of message.sources!; track $index) {
                     <li>
-                      {{ source.source_type }} · {{ source.source }}
+                      @if (source.source_url || source.metadata?.['source_url']) {
+                        <a
+                          [href]="source.source_url || source.metadata?.['source_url']"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ source.source || 'Open source' }}
+                        </a>
+                      } @else {
+                        {{ source.source_type }} · {{ source.source }}
+                      }
+
                       @if (source.page) {
                         <span>(Page {{ source.page }})</span>
+                      }
+                      @if (source.source_url) {
+                        <a [href]="source.source_url" target="_blank" rel="noopener noreferrer">{{ dictionary().openSource }}</a>
                       }
                     </li>
                   }
@@ -113,7 +127,7 @@
 
             @if (message.usedTools?.length) {
               <div class="chat-bubble__tools">
-                <strong>Tools used:</strong>
+                <strong>{{ dictionary().toolsUsed }}</strong>
                 {{ message.usedTools?.join(', ') }}
               </div>
             }
@@ -122,8 +136,8 @@
 
         @if (isloading) {
           <div class="chat-bubble">
-            <div class="chat-bubble__role">Chatbot</div>
-            <div class="chat-bubble__text">Thinking...</div>
+            <div class="chat-bubble__role">{{ dictionary().chatRoleAssistant }}</div>
+            <div class="chat-bubble__text">{{ dictionary().thinking }}</div>
           </div>
         }
 
@@ -146,25 +160,23 @@
           ×
         </button>
 
-        <h2 id="study-program-dialog-title">Plan complete study program</h2>
-        <p>
-          Tell me your study program and target duration. The chatbot will use the backend planner and catalogue/RAG data to create the first draft.
-        </p>
+        <h2 id="study-program-dialog-title">{{ dictionary().studyProgramDialogTitle }}</h2>
+        <p>{{ dictionary().studyProgramDialogDescription }}</p>
 
         <form class="study-program-form" (ngSubmit)="submitStudyProgramDialog()">
           <label>
-            <span>Study program</span>
+            <span>{{ dictionary().studyProgramLabel }}</span>
             <input
               type="text"
               name="studyProgram"
               [(ngModel)]="studyProgramForm.studyProgram"
-              placeholder="e.g. Bachelor Business Informatics"
+              [placeholder]="dictionary().studyProgramPlaceholder"
               autocomplete="off"
               required>
           </label>
 
           <label>
-            <span>Target duration in semesters</span>
+            <span>{{ dictionary().targetDurationLabel }}</span>
             <input
               type="number"
               name="semesters"
@@ -176,10 +188,10 @@
 
           <div class="study-program-dialog__actions">
             <button type="button" class="secondary-action" (click)="closeStudyProgramDialog()">
-              Cancel
+              {{ dictionary().cancel }}
             </button>
             <button type="submit" class="primary-action" [disabled]="isloading">
-              Create study plan
+              {{ dictionary().createStudyPlan }}
             </button>
           </div>
         </form>
@@ -189,7 +201,7 @@
 
     <footer class="composer">
       <app-chat-input (sendMessage)="onSendMessage($event)"></app-chat-input>
-      <p class="disclaimer"> Disclaimer: This is a chatbot application. It may produce incorrect results, check the information and use your own brain. </p>
+      <p class="disclaimer">{{ dictionary().disclaimer }}</p>
     </footer>
   </main>
 </div>

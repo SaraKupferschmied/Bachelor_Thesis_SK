@@ -1,0 +1,199 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:20:14.229Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Philosophy_Studienplan_BA_Bereich_II_60_ECTS__8f907cb3c058f5b0517d55180177956c9755abe4",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "8f907cb3c058f5b0517d55180177956c9755abe4",
+  "program_key": "faculty of humanities|bachelor|60|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/BA_Philosophie_60_de_2017.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Philosophy_Studienplan_BA_Bereich_II_60_ECTS__8f907cb3c058f5b0517d55180177956c9755abe4.pdf",
+  "sha256": "bc861f0a7f99ca3baf4c93d13c0ec5c2e312f13a0598d73b2d3a733f76a4a75f",
+  "fetched_at": "2026-05-21T16:05:27.325Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Bachelor/BA_Philosophie_60_de_2017.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## I. Allgemeines
+
+Der  vorliegende  Studienplan  wird  ergänzt  durch  das  gültige  Bachelorreglement  der  Philosophischen Fakultät der Universität Freiburg bezüglich des Erhalts des universitären Diploms (europäische Bachelor-Stufe).
+
+Das  Lehrangebot  in  Philosophie  führt  die  Studierenden  möglichst  umfassend  in  das  weite  Gebiet philosophischer  Probleme  und  Methoden  ein.  Das  Studium  bietet  den  Studierenden  zwei  sich  ergänzende Perspektiven auf die Philosophie: Eine Einführung in die Hauptströmungen der Geschichte der Philosophie (HPH) und  eine  systematische  Herangehensweise  an  die  grundlegenden  philosophischen  Fragen  (PHS).  Über  diese beiden  Zugänge  erarbeiten  sich  die  Studierenden  die  Fähigkeit  zur  selbständigen  philosophischen  Überlegung, entwickeln  sie  ihre  Fähigkeiten  zur  Forschung,  zur  kritischen  Auseinandersetzung,  zum  dialogischen  Austausch und zur Wissensvermittlung.
+
+Das Studium im Bereich II auf Bachelorstufe berechtigt zum Studium im Nebenfach auf Masterstufe und danach zum DEEM (Lehrdiplom für Maturitätsschulen).
+
+## II. Unterrichtsformen und Aufteilung der ECTS-Kreditpunkte
+
+Der Unterricht gliedert sich in zwei Schwerpunkte :  Systematische Philosophie (PHS) und Geschichte der Philosophie (HPH) und ist in sieben Gebiete unterteilt:
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Antike Philosophie                                                     | pan         |
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+Es werden die folgenden drei Unterrichtsformen angeboten:
+
+- Die Vorlesungen bieten einen Überblick über die angebotenen Gebiete.
+- Die Proseminare setzen  eine aktive Teilnahme der Studierenden voraus und führen über selbstständiges Arbeiten und Lernen  in die Strömungen und Methoden der Philosophie ein.
+- Die Seminare verlangen von den Studierenden eine intensive Vorbereitung, kritisches Denken und aktive Mitarbeit.
+
+## Bachelor Philosophie
+
+## Bereich II: 60 ECTS-Kreditpunkte
+
+## Studienplan
+
+(Studienplan gültig ab Herbstsemester 2017)
+
+In der letzten Phase ihres Studiums vertiefen sich die Studierenden in eine gewisse Anzahl von vorgeschriebenen Texten, die in folgendem Rahmen evaluiert werden:
+
+- anhand mündlicher Prüfung (in drei Teilen) zur Lektüre grundlegender Texte .
+
+| Aufteilung der ECTS Kreditpunkte*                                                         |        |
+|-------------------------------------------------------------------------------------------|--------|
+| Vorlesung mit Prüfung                                                                     | 3 ECTS |
+| Aktive Teilnahme an einem Proseminar mit Übungen oder schriftlicher Arbeit                | 6 ECTS |
+| Aktive Teilnahme an einem BA-Seminar mit schriftlicher Arbeit und/oder anderer Evaluation | 9 ECTS |
+| Lektüre grundlegender Texte                                                               | 9 ECTS |
+
+## III. Ablauf des Studiums
+
+Der Aufbau des Studiums erlaubt eine graduelle Vertiefung des Wissens und eine stetige Erweiterung der Kompetenzen.  Zu  Beginn  des  Studiums  werden  die  methodologischen  Grundlagen  erarbeitet.  In  den  letzten Semestern wird der Akzent auf eine stärkere thematische Vertiefung gelegt. Der Ablauf des Studiums gliedert sich in drei Stufen, die in fünf Module unterteilt sind:
+
+| Einführungs- und Grundlagenmodul   | 2 Module   | 24 ECTS   |
+|------------------------------------|------------|-----------|
+| Fortgeschrittene Module (2 Module) | 2 Module   | 24 ECTS   |
+| Vertiefungsmodul                   | 1 Modul    | 12 ECTS   |
+|                                    |            | 60 ECTS   |
+
+## Einführungsmodul und Grundlagenmodul
+
+Die beiden ersten Module richten sich an Studierende im 1. Studienjahr.
+
+Das Einführungsmodul stattet die Studierenden mit dem notwendigen Werkzeug für das Studium und die Praxis der Philosophie aus, beispielsweise der (formalen) Logik und der Fähigkeit komplexe argumentative Texte zu analysieren.  Dieses Modul besteht aus 1 Textanalyse-Proseminar und  1 Logik-Proseminar oder 1 Proseminar nach Wahl.
+
+Das Grundlagenmodul bietet eine Einführung in die verschiedenen philosophischen Themenbereiche und in die zentralen Fragestellungen der Philosophie. Didaktisch unterstützt erhalten die Studierenden die Hilfsmittel zur Auslegung und Analyse philosophischer Texte und bilden ihre redaktionellen Fähigkeiten aus. Dazu schliessen die Studierenden zwei Proseminare ab: 1 in der historischen Ausrichtung HPH (Geschichte der Philosophie) und 1 in der systematischen Ausrichtung  PHS (Systematische Philosophie).
+
+Die  Studierenden  können  erst  dann  ein  Seminar  besuchen,  wenn  das  Textanalyse-Proseminar  sowie mindestens eines der  drei  anderen  Proseminare  validiert  worden  sind.  Die  Validierung  der  12  ECTS  muss vor Beginn des Semesters erfolgen.
+
+| Module           | Unterrichtseinheiten                                                                                                                                    | ECTS    | Noten                    |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| Einführungsmodul | - Textanalyse-Proseminar (inkl. schriftlicher Arbeit) - Logik-Proseminar (Übungen und Prüfung) oder 1 Proseminar nach Wahl (inkl. schriftlicher Arbeit) | 12 ECTS | Durchschnitt der 2 Noten |
+| Grundlagenmodul  | 2 Proseminare (inkl. schriftlicher Arbeiten) (1 in HPH und 1 in PHS)                                                                                    | 12 ECTS | Durchschnitt der 2 Noten |
+
+## Fortgeschrittene Module
+
+Die fortgeschrittenen Module bilden den Kern des Studiums. In ihnen werden vielfältige Kenntnisse und Kompetenzen vermittelt, die den Studierenden eine fundierte Orientierung in den verschiedenen Bereichen und Epochen der Philosophie ermöglichen. Jedes Modul setzt sich folgendermassen zusammen: (i) einer bewerteten Semestervorlesung (schriftliche oder mündliche Prüfung); (ii) einem bewerteten Seminar (aktive Teilnahme und schriftliche  Arbeit  oder  andere  Evaluation).  Um  ein  möglichst  breites  Spektrum  abzudecken,  wird  von  den Studierenden verlangt, dass ein Modul historisch (HPH Geschichte der Philosophie) und ein Modul systematisch (PHS systematische Philosophie) ausgerichtet ist.
+
+Der Schwerpunkt HPH widmet sich einer chronologischen Darstellung der Geschichte des philosophischen Denkens.  Der  Schwerpunkt  PHS  vertritt,  ausgehend  von  der  Zeitlosigkeit  gewisser  philosophischer  Ideen,  eine analytische Vorgehensweise. In der Lehre ergänzen sich diese beiden Schwerpunkte und werden interdisziplinär angeboten.
+
+Die Geschichte der Philosophie (HPH) schliesst die drei Gebiete antike Philosophie (pan), Philosophie des Mittelalters (pme) und die neuzeitliche und zeitgenössische Philosophie (pmc) ein. Die systematische Philosophie (PHS) beinhaltet die vier Gebiete Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften (leh), Epistemologie und Metaphysik (eme), Ethik und politische Philosophie (epp) sowie Kulturphilosophie und Ästhetik (pce).
+
+Die  Vorlesungen  und  Seminare  in  den  verschiedenen  Gebieten  behandeln spezifische  Themen  die jedes Semester variieren können.
+
+|                                              | Fortgeschrittene Module : 2 Module nach Wahl (1 in HPH und 1 in PHS)   | Unterrichtseinheiten                                     | ECTS    | Noten                                      |
+|----------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------|---------|--------------------------------------------|
+| Geschichte der Philosophie (HPH) Philosophie | Antike (pan)                                                           | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Geschichte der Philosophie (HPH) Philosophie | Mittelalterliche (pme)                                                 | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Geschichte der Philosophie (HPH) Philosophie | Neuzeitliche und Zeitgenössische (pmc)                                 | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Systematische (PHS)                          | Sprache, Geist und Humanwissenschaften (leh)                           | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Systematische (PHS)                          | Ethik und Politische (epp)                                             | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Systematische (PHS)                          | Kultur und Ästhetik (pce)                                              | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+| Systematische (PHS)                          | Erkenntnistheorie und Metaphysik (eme)                                 | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit | 12 ECTS | Jeweils Durchschnitt der 2 Noten           |
+|                                              |                                                                        |                                                          | 24ECTS  | Notendurch- schnitt der 2 gewählten Module |
+
+## Vertiefungsmodul
+
+Das Vertiefungsmodul richtet sich an die Studierenden im dritten Jahr.
+
+Im Vertiefungsmodul wird das erworbene Wissen durch die Lektüre grundlegender Texte der Geschichte der Philosophie gefestigt. Zur Validierung des Moduls müssen die Studierenden drei mündliche Prüfungen ablegen. Es werden in einer Prüfung jeweils zwei Gebiete geprüft: Philosophie der Antike und des Mittelalters (pan + pme); Neuzeitliche und zeitgenössische Philosophie und Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften (pmc + leh); Ethik und Politische Philosophie und Kulturphilosophie und Ästhetik (epp + pce). Eine Prüfung dauert jeweils 30 Minuten. Der Inhalt der Prüfung basiert auf einer Literaturliste, die auf der Webseite des Departements publiziert wird. Zusätzlich muss eine Vorlesung nach Wahl (HPH oder PHS) in einem in den fortgeschrittenen Modulen noch nicht abgedeckten Gebiet belegt werden.
+
+| Module           | Unterrichtseinheiten                                                                                                                                                                                                                                                                                                                                                                                                         | ECTS    | Noten                    |
+|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| Vertiefungsmodul | Lektüre grundlegender Texte der Philosophie (3 x 3 ECTS) - Philosophie der Antike und des Mittelalters - Neuzeitliche und zeitgenössische Philosophie und Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften - Ethik und Politische Philosophie und Kulturphilosophie und Ästhetik 1 Vorlesung nach Wahl (HPH oder PHS) (3 ECTS) in einem in den fortgeschrittenen Modulen noch nicht abgedeckten Gebiet | 12 ECTS | Durchschnitt der 4 Noten |
+
+## IV. Zweisprachiges Studium
+
+Das Philosophiestudium kann auf Deutsch, auf Französisch oder in beiden Sprachen absolviert werden. Um  das  Studium  in  Philosophie  im  Bereich  II  mit  einem  zweisprachigen  Vermerk  abzuschliessen,  müssen mindestens  40%  (24  ECTS)  der  60  ECTS-Kreditpunkte  des  Studienfachs  in  der  zweiten  Sprache  besucht  und evaluiert  worden  sein.  Die  Leistungen  in  einer  der  beiden  Sprachen  besuchten  Unterrichtseinheit  müssen  in derselben  Sprache  erbracht  werden.  Falls  eine  Unterrichtseinheit  in  einer  weiteren  Sprache  (z.B.  auf  Englisch) angeboten wird, kann sie nicht als Unterrichtseinheit in der zweiten Sprache angerechnet werden. Ein Teil der ECTS-Kreditpunkte  in  der  zweiten  Sprache  muss eine  schriftliche  Arbeit  für  ein  Proseminar und eine  für  ein Seminar beinhalten (15 ECTS).
+
+## V. Evaluation
+
+Die  Prüfungen  und  die  schriftlichen  Arbeiten  werden  benotet.  Die  Endnote  ergibt  sich  aus  dem Durchschnitt  der  Teilnoten,  welche  in  den  fünf  Modulen  erlangt  wurden.  Jede  Note  muss  genügend  sein (mindestens 4).
+
+## Proseminare :
+
+- Aktive Teilnahme bedingt regelmässige Anwesenheit, Vorbereitung jeder Sitzung, eine rege Teilnahme an der  Diskussion  und  mindestens  eine  mündliche  Präsentation  (oder  möglicherweise  einen  schriftlichen Beitrag).
+- Die schriftliche Arbeit besteht entweder aus einem einzelnen Text von ungefähr zehn A4-Seiten, oder aus mehreren  kleineren  Arbeiten.  Die  schriftlichen  Arbeiten  müssen  gemäss  den  Vorgaben  der  einzelnen Lehrpersonen, aber spätestens zwei Semester nach dem Proseminar, abgegeben werden. Eine schriftliche Proseminararbeit kann maximal zwei Mal überarbeitet werden.
+
+## Seminare :
+
+- Aktive Teilnahme bedingt regelmässige Anwesenheit, Vorbereitung jeder Sitzung, eine rege Teilnahme an der  Diskussion  und  mindestens  eine  mündliche  Präsentation  (oder  möglicherweise  einen  schriftlichen Beitrag oder eine Prüfung).
+- Die  schriftliche  Seminararbeit  besteht  entweder  aus  einem  einzelnen  Text  von  ungefähr  zwanzig  A4Seiten, oder aus mehreren kleineren Arbeiten. Die schriftlichen Arbeiten müssen gemäss den Vorgaben der einzelnen Lehrpersonen, aber spätestens sechs Semester nach dem Seminar, abgegeben werden. Eine schriftliche  Seminararbeit  kann  maximal  zwei  Mal  überarbeitet  werden.  Andere  Evaluationsmodi  sind möglich, falls es das jeweilige Gebiet verlangt.
+
+## Vorlesung :
+
+Die  Evaluationsmodi  von  Vorlesungen  werden  jeweils  durch  die  Dozierenden  festgelegt.  Es  sind  im Allgemeinen zwei Arten von Evaluationen möglich:
+
+- Mündliche Prüfung : 15 Minuten pro Semestervorlesung.
+- Schriftliche Prüfung: Die dozierende Person legt den Modus der Prüfung fest.
+
+## Lektüre grundlegender Texte der Philosophie :
+
+Besteht aus drei Prüfungsteilen: pan + pme , pmc + leh und epp + pce .  Jeder Teil wird separat geprüft und darf maximal zweimal wiederholt werden.
+
+- Mündliche Prüfung : 30  Minuten pro Teil.
+
+## Nichtbestandene Prüfung
+
+Eine  nicht  bestanden  Semesterprüfung  muss  über  dieselbe  Veranstaltung  bei  derselben  Lehrperson  geprüft werden (Ausnahme: Prüfungen zur Lektüre grundlegender Texte der Philosophie ). Alle Prüfungen können maximal zweimal wiederholt werden. Die drei Versuche finden im Rahmen der vier Prüfungssessionen statt, die auf die Einschreibeperiode für die entsprechende Veranstaltung folgen.
+
+## Endgültiges Nichtbestehen
+
+Eine Prüfung oder eine schriftliche Arbeit, die beim dritten Versuch nicht bestanden ist, gilt als endgültig nicht bestanden. Beim  endgültigen  Nichtbestehen  kann  der  Studierende  in  seinem  gewählten  Studienprogramm  nicht weiterstudieren.
+
+(Siehe auch die Richtlinien: Über die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät , vom 23. April 2009, Stand am 26. September 2013).
+
+## Übergangsbestimmungen
+
+- a) Studierende,  die  im  Bachelorstudienreglement  des  Wintersemesters  2005/2006  begonnen  haben  oder diejenigen, die ihr Studium zu einem früheren Zeitpunkt angefangen und sich für das Bachelorreglement der Philosophischen Fakultät vom 23. Juni 2005 (Art. 26,Abs.3) entschieden haben, haben die Möglichkeit, einen Übergangsantrags einzureichen um  ihr Studium im aktuellen Studienplan weiterzuführen.
+- b) Ein Übergangsantrag muss dem Departement für Philosophie unterbreitet werden. Das Departement legt die  Einreichfristen  für  die  Übergangsanträge fest  und  publiziert  diese  vor  dem  akademischen  Jahr 2017/18.
+- c) Jeder Antrag wird durch die Studienberatung geprüft und die Übergangsbestimmungen werden für jeden Antrag separat festgelegt.
+- d) Nach dem akademischen Jahr 2017/18 ist kein Übergang mehr möglich.
+
+## Übersicht: Bereich II (60  ECTS-Kreditpunkte)
+
+| Module           | Unterrichtsformen                                                                                                                                       | ECTS    | Noten                    |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| Einführungsmodul | - Textanalyse-Proseminar (inkl. schriftlicher Arbeit) - Logik-Proseminar (Übungen und Prüfung) oder 1 Proseminar nach Wahl (inkl. schriftlicher Arbeit) | 12 ECTS | Durchschnitt der 2 Noten |
+| Grundlagenmodul  | 2 Proseminare (inkl. schriftliche Arbeiten)                                                                                                             | 12 ECTS | Durchschnitt der 2 Noten |
+
+|                                  | Fortgeschrittene Module : 2 Module nach Wahl (1in HPHund 1 in PHS)   | Fortgeschrittene Module : 2 Module nach Wahl (1in HPHund 1 in PHS)   | 24 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+|----------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|-----------|------------------------------------|
+| Geschichte der Philosophie (HPH) | Antike (pan)                                                         | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Geschichte der Philosophie (HPH) | Mittelalterliche (pme)                                               | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Geschichte der Philosophie (HPH) | Neuzeitliche und Zeitgenössische (pmc)                               | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Systematische Philosophie (PHS)  | Sprache, Geist und Humanwissenschaften (leh)                         | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Systematische Philosophie (PHS)  | Ethik und Politische (epp)                                           | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Systematische Philosophie (PHS)  | Kultur und Ästhetik (pce)                                            | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+| Systematische Philosophie (PHS)  | Erkenntnistheorie und Metaphysik (eme)                               | 1 Semestervorlesung 1 Seminar inkl. schriftlicher Arbeit             | 12 ECTS   | Jeweils Durchschnitt der 2 Noten   |
+
+| Richtet sich an das 3. Jahr   | Vertiefungsmodul   | Lektüre grundlegender Texte der Philosophie (3 x 3 ECTS) - Philosophie der Antike und des Mittelalters - Neuzeitliche und zeitgenössische Philosophie und Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften - Ethik und Politische Philosophie und Kulturphilosophie und Ästhetik 1 Vorlesung nach Wahl (HPH ou PHS) (3 ECTS) in einem in den fortgeschrittenen Modulen noch nicht abgedeckten Gebiet   | 12 ECTS   | Durchschnitt der 4 Noten         |
+|-------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|----------------------------------|
+| Total                         | Total              | Total                                                                                                                                                                                                                                                                                                                                                                                                                        | 60 ECTS   | Notendurch- schnitt der 5 Module |

@@ -1,0 +1,196 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:06:41.251Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_180_Sport_Sciences_and_Motor_Control_Sciences_du_sport_et_de_la_motricit__0978df1ad7137f9d03ddb47b50a376e9df6c11bc",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "0978df1ad7137f9d03ddb47b50a376e9df6c11bc",
+  "program_key": "faculty of science and medicine|bachelor|180|sport sciences and motor control",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_SP_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_180_Sport_Sciences_and_Motor_Control_Sciences_du_sport_et_de_la_motricit__0978df1ad7137f9d03ddb47b50a376e9df6c11bc.pdf",
+  "sha256": "0b5c887ff85336c0cfd3374f176f69b7c103a890b73b6c693896a14e96aaeb50",
+  "fetched_at": "2026-05-21T16:05:15.037Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BScSI_SP_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 180,
+  "programme_name_en": "Sport Sciences and Motor Control",
+  "programme_name_de": "Sport- und Bewegungswissenschaften",
+  "programme_name_fr": "Sciences du sport et de la motricité",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## Sciences du sport et de la motricité (SSM)
+
+[Version 2025, paquets de validation : PV-SSP.0000099]
+
+Dans le cadre d'un Bachelor en enseignement pour le degré secondaire I (Bachelor of Science [BSc\_SI]  ou  Bachelor  of  Arts  [BA\_SI]),  la  formation  scientifique  et  pratique/méthodologique comprend  70  crédits  ECTS  et  s'étale  sur  6 semestres.  Le  programme  est  constitué  d'unités d'enseignement (UE)  obligatoires  (59  crédits  ECTS),  de  3  crédits  ECTS  de  didactique  de  la discipline, dispensés par l a Faculté des sciences de l'éducation et de la formation, ainsi que d'UE à choix (8 crédits ECTS).
+
+## 1 Concept des études
+
+Ces études traitent de l'impact des activités motrices sur le développement et l'entretien de la vie physique, mentale et sociale de l'individu et font du mouvement l'outil des professionnels de la santé et de la formation des jeunes.
+
+La  formation  scientifique  intègre notamment  l'anatomie  fonctionnelle  spécifique  au  sport,  la biomécanique  du  mouvement,  la  neurophysiologie  et  le  contrôle  moteur,  la  physiologie  de l'exercice physique, la psychologie du sport, les théories de l'apprentissage et de l'entraînement.
+
+La formation pratique -méthodologique comprend des disciplines sportives obligatoires ou à choix  dans  divers  domaines d'action  : les  sports  collectifs  et  jeux,  l'expression  corporelle,  la gymnastique aux agrès, l'athlétisme, la natation, les sports de neige et les activités outdoor.
+
+La formation didactique comprend :  l'étude des principales fonctions de l'intervention pédago -gique, l'intégration de notions didactiques spécifiques aux disciplines sportives, la connaissance des règlements, des mesures de prévention et de sécurité.
+
+## 2 Inscription
+
+L'inscription sous réserve se fait au Service d'admission et d'inscription ou au Décanat de la Faculté d'origine dans le respect des délais. L'inscription devient définitive après  le  test  des capacités physiques et motrices et avec la confirmation d'un bon état de santé.
+
+## 2.1 Test des capacités physiques et motrices
+
+L'étudiant -e qui choisit la discipline SSM est astreint à un test de ses capacités physiques et motrices  (voir :  http://www.unifr.ch/go/testsport).  La  réussite  de  ce  test  est  une  condition  à l'admission définitive dans ce programme d'études.
+
+Cependant, la capacité d'accueil des installations sportives étant limitée, le nombre de nouvelles places  d'études  est  fixé  à  50  par  année.  Conformément  à  l'ordonnance  cantonale  ( voir : https://webapps.unifr.ch/legal/fr/document/4972363), si le nombre de candidat-e-s ayant réussi le  test  des  capacités  physiques  et  motrices  est  supérieur  au  nombre  de  places  d'études disponibles, cellesci sont attribuées selon l'ordre des résultats obtenus au test.
+
+## 2.2 État de santé
+
+Lors des séances d'information avec le conseiller ou la conseillère d'études, l'étudiant -e sera orientée sur les exigences physiques de ces études. Il lui sera demandé d'attester de son état de santé et de fournir un certificat médical.
+
+## 3 Unités d'enseignement (UE)
+
+## 3.1 Programme obligatoire de la 1 e  année (12 ECTS)
+
+Dans le cadre du BSc\_SI, ces UE font partie du paquet de validation de 1 e  année et doivent être validées au plus tard à la fin du 4 e  semestre.
+
+| Code      | Titre                                                      | Semestre   |   h. tot. |   ECTS |
+|-----------|------------------------------------------------------------|------------|-----------|--------|
+|           | Formation scientifique                                     |            |           |        |
+| SPY.00623 | Bases neurophysiologiques                                  | SA         |         6 |      1 |
+| SSP.00610 | Physiologie de l'exercice physique (cours)                 | SA         |        28 |      3 |
+| SSP.00613 | # Physiologie de l'exercice physique (workshop)            | SA         |        14 |      2 |
+| SSP.00700 | Théorie de l'apprentissage et du contrôle moteur I (cours) | SA         |        28 |      3 |
+| SSP.00710 | Théorie des principes d'entraînement I (cours)             | SA         |        28 |      3 |
+|           |                                                            |            |           |     12 |
+
+# UE contenant de la « pratique de la discipline ».
+
+## 3.2 Autres UE obligatoires (1 e  à 3 e  année, 47 ECTS)
+
+| Code      | Titre                                                             | Semestre   | h. tot.   |   ECTS |
+|-----------|-------------------------------------------------------------------|------------|-----------|--------|
+|           | Formation scientifique                                            |            |           |        |
+| SSP.00600 | Psychologie du sport (cours) *                                    | SA         | 28        |      3 |
+| SSP.00640 | Introduction à la pédagogie du sport *                            | SA         | 28        |      3 |
+| SSP.00702 | Théorie de l'apprentissage et du contrôle moteur I (séminaire) ** | SP         | 28        |      3 |
+| SSP.00712 | Théorie des principes d'entraînement I (séminaire) **             | SP         | 28        |      3 |
+| SSP.00740 | Sociologie du sport (cours) *                                     | SP         | 28        |      3 |
+| SSP.00754 | Santé, traumatologie et prévention en sport                       | SA         | 28        |      3 |
+| SSP.00760 | Biomécanique du mouvement I (cours)                               | SP         | 28        |      3 |
+| SSP.00770 | Anatomie fonctionnelle spécifique au sport (cours)                | SP         | 28        |      3 |
+| SSP.00772 | Anatomie fonctionnelle spécifique au sport (workshop)             | SP         | 14        |      2 |
+|           | Formation pratique-méthodologique                                 |            |           |        |
+| SSP.00780 | # Approche systémique du jeu                                      | SA         | 14        |      1 |
+| SSP.00788 | Approche sécuritaire des pratiques sportives                      | SP         | 28        |      2 |
+| SSP.00789 | Approche théorique des sports de neige §                          | SA         | 14        |      1 |
+| SSP.00801 | Basketball I                                                      | SA         | 28        |      1 |
+| SSP.00807 | Basketball II                                                     | SP         | 28        |      2 |
+| SSP.00804 | Volleyball I                                                      | SA         | 28        |      1 |
+| SSP.00805 | Volleyball II                                                     | SP         | 28        |      2 |
+| SSP.00826 | Expression par le mouvement Ou                                    | SA/SP      | 28        |      2 |
+| SSP.00819 | Danse populaire I                                                 |            |           |        |
+| SSP.00812 | Gymnastique aux agrès I                                           | SA         | 28        |      1 |
+| SSP.00813 | # Gymnastique aux agrès II                                        | SP         | 28        |      2 |
+| SSP.00816 | Patinage et initiation au hockey sur glace                        | SA         | 28        |      2 |
+| SSP.00825 | Natation sportive I                                               | SA         | 28        |      1 |
+| SSP.00821 | # Natation sportive II §§                                         | SP         | 28        |      2 |
+| SSP.00831 | Athlétisme I                                                      | SA         | 34        |      1 |
+| SSP.00832 | # Athlétisme II                                                   | SP         | 34        |      2 |
+| SSP.00834 | Ski alpin §§§                                                     | Hors sem.  | 7 j       |      2 |
+| SSP.00836 | Snowboard §§§                                                     | Hors sem.  | 7 j       |      2 |
+| SSP.00837 | Ski de fond §§§                                                   | Hors sem.  | 7 j       |      2 |
+| SSP.00858 | Fitness I                                                         | SA         | 28        |      1 |
+| SSP.00859 | Fitness II                                                        | SP         | 28        |      2 |
+|           |                                                                   |            |           |     30 |
+
+* L'étudiant -e choisit 1 cours sur les 3.
+
+- ** L'étudiant -e choisit 1 séminaire sur les 2.
+- # UE contenant de la « pratique de la discipline ».
+- § La validation du cours SSP.0 0789 est une condition d'accès à l'examen théorique des cours SSP.00834 et SSP.00836. Il est donc vivement conseillé de suivre ce cours en parallèle des cours SSP.00834 ou SSP.00836.
+- §§ L'obtention du Brevet I ou du « Brevet plus pool » de la société suisse de sauvetage est  une  condition  requise  pour  se  présenter  aux  épreuves  d'examens  de  l'UE SSP.00821.
+- §§§ L ' étudiant-e choisit 2 engins sur les 3 ( Ski alpin, Snowboard, Ski de fond ) comme UE obligatoires pour le DEDS.
+
+## 3.3 Unités d'enseignement à choix ( 8 ECTS)
+
+L'étudiant -e  choisit 8  ECTS parmi  les  unités  d'enseignement  ci -dessous.  Pour  le  choix  des 8 ECTS,  l'étudiant -e  est  encouragé-e  à  prendre  des  UE  appartenant  à  différents  domaines d'action.
+
+Pour les UE à choix, si le nombre de participants est jugé insuffisant, la direction des sciences du mouvement et du sport se réserve le droit d'annuler le cours.
+
+| Code      | Titre                             | Semestre   | h. tot.   |   ECTS |
+|-----------|-----------------------------------|------------|-----------|--------|
+|           | Formation pratique-méthodologique |            |           |        |
+| F22.00213 | Inclusion et sports §             | SP         | 28        |      3 |
+| SSP.00800 | Badminton §§                      | SA         | 28        |      2 |
+| SSP.00802 | Uni-hockey §§                     | SP         | 28        |      2 |
+| SSP.00803 | Football §§, *                    | SP         | 28        |      2 |
+| SSP.00808 | Futsal *                          | SA         | 28        |      2 |
+| SSP.00809 | Handball §§                       | SP         | 28        |      2 |
+| SSP.00814 | Escalade sportive §§              | SP         | 28        |      2 |
+| SSP.00838 | Jeux d'autres cultures §§         | SP         | 28        |      2 |
+| SSP.00819 | Danse populaire I                 | SA/SP      | 28        |      2 |
+| SSP.00826 | Expression par le mouvement       | SA/SP      | 28        |      2 |
+| SSP.00833 | Course d'orientation              | SP         | 28        |      2 |
+| SSP.00835 | Excursions à ski §§               | Hors sem.  | 7 j       |      2 |
+| SSP.00844 | Triathlon §§                      | Hors sem.  | 7 j       |      2 |
+| SSP.00846 | Trekking §§                       | Hors sem.  | 7 j       |      2 |
+| SSP.00854 | Judo                              | SA         | 28        |      2 |
+| SSP.00855 | Inline-skating §§                 | SP         | 28        |      2 |
+|           |                                   |            |           |      8 |
+
+§ Le nombre de places pour cette UE est limité à 10 pour les étudiant-e-s en sciences du sport et de la motricité. Les examens se font uniquement dans la langue du cours (français) et le mode d'évaluation est par « réussi/échec ». Attention, la période d'ins cription aux cours de la Faculté des Lettres est différente de celle de la FacSciMed : https://www.unifr.ch/lettres/fr/etudes/cours-et-examens/inscription-aux-cours-et-examens/.
+
+§§ Le nombre de places pour ces UE est limité.
+
+* L'étudiant -e ne peut choisir qu'une seule des 2 UE SSP.00803 et SSP.00808 pour la validation des 8 ECTS à choix.
+
+## 3.4 Unités d'enseignement de la formation didactique spécifique (3 ECTS)
+
+| Code      | Titre                                    | Semestre h. tot.   |   ECTS |
+|-----------|------------------------------------------|--------------------|--------|
+| F24.00760 | Didactique Education physique - Bachelor | SA/SP              |      3 |
+|           |                                          |                    |      3 |
+
+## 4 Contenu des UE d'enseignement
+
+## 4.1 Formation scientifique
+
+- Le cours sur les Bases neurophysiologiques (SPY.0 0623) étudie principalement l'organisation de certains  grands  systèmes  fonctionnels  du  corps  humain,  sous  l'angle  des  mécanismes  de régulation.
+- La Psychologie du sport (SSP.00600) présente les déterminants motivationnels de la performance ainsi que les facteurs émotionnels susceptibles de l'altérer. Spécifiquement, l'objectif est  de  fournir  des  bases  théoriques  permettant  de  mieux  comprendre  les  origines  du comportement (besoins, désirs, buts, objectifs) et de savoir repérer et traiter les éventuels obstacles motivationnels et/ou émotionnels à l'apprentissage et à la performance.
+- Le cours de Physiologie de l'exercice physique (SSP.00610) traite du système neuromusculaire  et  des  principaux  facteurs  de  la  production  de  force,  du  métabolisme énergétique et de la régulation hormonale, des systèmes cardiovasculaire et respiratoire, et aborde leurs adaptations à l'exercice et à l'entraînem ent.
+- La pédagogie du sport porte sur les relations entre les activités physiques et sportives et l'éducation. Ce cours d' Introduction à la pédagogie du sport (SSP.0 0640) présente les bases théoriques d'une pratique sportive éducative. Il puise dans les sciences de l'éducation au sens large pour dégager des méthodes d'enseignement les plus pertinentes et les plus adaptées à l'éducation physique.
+- La Théorie  de  l'apprentissage  et  du  contrôle  moteur  I (SSP.00700)  traite  principalement  des différentes  catégories,  courants,  stades  et  stratégies  d'apprentissage,  des  conduites -types  des individus face à des situations sportives nouvelles, des facteurs influençant l'apprentissage moteur.
+- La Théorie des principes d'entraînement I (SSP.00710) aborde les notions de bases des déterminants de la performance en vue d'une planification générale d'entraînement.
+- La Sociologie du sport (SSP.00740) traite du sport et ses enjeux identitaires, des pratiques sportives en regard avec l'évolution des classes sociales, de l'histoire des jeux en sport, des valeurs  et  des  idéologies  dans  les  JO,  de  l'idéal  sportif  au  dopage  de  l'individu,  du  sport moderne et des pratiques « fun », des pratiques interculturelles, du processus d'identification au champion, du sport en regard avec nos civilisations.
+- Le  cours  de Santé,  traumatologie  et  prévention  en  sport (SSP.00754)  aborde  dans  une première partie la notion de santé, sa relation avec l'activité physique, et les recommandations actuelles en matière d'activité physique. Dans une deuxième partie, le cours présente les principales  blessures  inhérentes  à  la  pratique  sportive,  leurs  causes  et  les  traitements approprié (y compris les interventions d'urgence), et sensibilise sur les mesures générales de prévention à mettre en œuvre.
+- Le cours de Biomécanique du mouvement I (SSP.00760) comprend les notions fondamentales de la biomécanique relatives à l'étude des habiletés motrices dans différents sports. Les éléments de base de physique sont introduits selon les besoins.
+- Le cours d' Anatomie fonctionnelle spécifique au sport (SSP.00770) aborde l'étude fonction -nelle  (mobilité-stabilitécontraintes)  des  unités  corporelles  sollicitées  dans  l'exécution  de tâches motrices.
+
+## 4.2 Formation pratique -méthodologique
+
+Les  cours  avec  travaux  pratiques  portent  sur  l'étude  et  la  pratique  des  activités  physique  et sportive (APS) appartenant aux différents domaines d'action.
+
+Les objectifs prioritaires d'apprentissage sont :
+
+- le développement de la relation à soi, aux autres et à l'environnement par la pratique des activités physique et sportive ;
+- l'analyse des habiletés motrices par l'utilisation de concepts, de modèles d'analyse ;
+- l'acquisition de compétences technique, tactique, sociale et personnelle propre à chaque APS ;
+- la  connaissance  des  règlements,  des  mesures  de  prévention  et  de  sécurité  régissant  la pratique des sports étudiés ;
+- Pour chaque UE, un descriptif détaillé est disponible dans le programme de cours (http://www.unifr.ch/timetable ) avec en particulier un descriptif des objectifs d'apprentis sage.
+
+## 5 Examens et validation
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des sciences du sport et de la motricité et celle de la médecine.
+
+L'inscription  aux  examens  se  fait  électroniquement  par  le  portail  d'étudiant -e-s  MyUniFR (https://my.unifr.ch).

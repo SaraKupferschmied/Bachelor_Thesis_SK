@@ -1,0 +1,163 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:02:58.558Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Philosophy_Studienplan_BA_Bereich_I_120_ECTS__2d2262608f7a07de6fa017816dff20f062a65154",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "2d2262608f7a07de6fa017816dff20f062a65154",
+  "program_key": "faculty of humanities|bachelor|120|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_120_de_2005.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_120_Philosophy_Studienplan_BA_Bereich_I_120_ECTS__2d2262608f7a07de6fa017816dff20f062a65154.pdf",
+  "sha256": "1e6887dd03521843c9d88b11f15e43f461d015715d4d28b7fb73f65dabcef6ee",
+  "fetched_at": "2026-05-21T16:05:27.555Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/pdf/Plans-d-etudes_D/BA_Philosophie_120_de_2005.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 120,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Bachelor of Arts Philosophie
+
+Bereich I: 120 ECTS-Kreditpunkte
+
+Studienplan
+
+(Reglement gültig ab Wintersemester 2005/2006. Es gilt auch für Studierende, die ihr Studium im Zeitraum zwischen dem Wintersemester 2003/04 und dem Sommersemester 2005 begonnen und sich für das neue Reglement der Philosophischen Fakultät vom 23. Juni 2005 (siehe Art. 26, Abs. 3) entschieden haben.)
+
+## I. Allgemeines
+
+Das Lehrangebot in Philosophie soll den Studierenden eine möglichst umfassende Einführung in das weite Gebiet philosophischer Probleme und Methoden vermitteln. Angestrebt sind:
+
+-  eine breite philosophische Ausbildung, die eine Einführung in die Strömungen der Geschichte der Philosophie und ein systematisches Studium der grundlegenden philosophischen Probleme umfasst;
+-  die Entwicklung der Fähigkeit zu eigenständiger philosophischer Forschung.
+
+Das Studium der Philosophie ermöglicht die Abschlüsse BA (universitäres Diplom, europäisches Bachelor -Niveau) und MA (Lizentiat, europäisches Master -Niveau). Ausserdem können der Erwerb eines LDS II-Abschlusses (Lehrdiplom für die Sekundarstufe II), eines Doktorats und der Habilitation verfolgt werden.
+
+## II. Unterrichtsformen
+
+Vorlesungen : Die regelmässigen Grundvorlesungen geben einen Überblick über die in IV. aufgeführten Gebiete. Spezialvorlesungen, dienen der Vertiefung spezifischer Fragestellungen. Vorlesungen von Gastprofessoren sind integraler Bestandteil des Studienprogrammes.
+
+Proseminare werden von Assistierenden geleitet und unterstützen Studienrende beim Einstieg ins Philosophiestudium.
+
+Seminare verlangen von den Studierenden eine intensive Vorbereitung, kritische Reflexion und aktive Mitarbeit.
+
+## III. Aufteilung der ECTS-Kreditpunkte (European Credit Transfer System)
+
+Die ECTS-Punkte sind als Mass des Arbeitsaufwands zu verstehen (eingeschlossen ist die Zeit der Anwesenheit in der jeweiligen Veranstaltung). 1 ECTS-Punkt entspricht 30 Arbeitsstunden.
+
+| Aufteilung der ECTS-Kreditpunkte                                |        |
+|-----------------------------------------------------------------|--------|
+| Vorlesung mit Prüfung                                           | 3 ECTS |
+| aktiveTeilnahme an einem Proseminar                             | 3 ECTS |
+| schriftliche Arbeit zu einem Proseminar (ungefähr 10 A4 Seiten) | 3 ECTS |
+| aktiveTeilnahme an einem Seminar                                | 3 ECTS |
+| schriftliche Arbeit zu einem Seminar (ungefähr 20 A4 Seiten)    | 4 ECTS |
+
+## IV. Lehrangebot
+
+Der Unterricht gliedert sich in die Schwerpunkte Systematische Philosophie und Geschichte der Philosophie und ist  in 7 Gebiete unterteilt:
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+## V. Studienprogramm
+
+| Bezeichnung des Studienprogramms   |   ECTS-Kreditpunkte | Unterrichtssprachen                     | VerliehenerTitel   |
+|------------------------------------|---------------------|-----------------------------------------|--------------------|
+| Philosophie (Bereich I)            |                 120 | Französisch, Deutsch oder zweisprachig* | Bachelor of Arts   |
+
+## VI. Studienplan
+
+## Bereich I (120 ECTS-Punkte)
+
+(Reglement  gültig  ab Wintersemester  2005/2006.  Es  gilt  auch  für  Studierende,  die  ihr  Studium  im  Zeitraum  zwischen  dem Wintersemester  2003/04  und  dem Sommersemester 2005 begonnen und sich für das neue Reglement der Philosophischen Fakultät vom 23. Juni 2005 (siehe Art. 26, Abs. 3) entschieden haben.)
+
+|                                                                            | Module                                                                                                                                                                                                                                | Unterrichtsformen                                                                                                                                                          | ECTS     | Noten 1                               |
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------|
+| das 1. Jahr Zugangs erarbeitet.                                            | HPH I (in den Gebieten: pan , pme oder pmc ) Die Vorlesungen führen in die Geschichte der Philosophie ein. In den Proseminaren werden einschlägige Grundfähigkeiten des historischen                                                  |  3 Semestervorlesungen  2 Proseminare (mit aktiverTeilnahme und schriftlicher Arbeit)                                                                                    | 21 ECTS  | Durchschnitt aus 5 Noten              |
+| Richtet sich an                                                            | PHS I (in den Gebieten: leh , epp , pce oder eme ) Die Vorlesungen führen in die Philosophie aus systematischer Perspektive ein. In den Proseminaren werden die einschlägigen Grundfähigkeiten des systematischen Zugangs erarbeitet. |  3 Semestervorlesungen  1 Proseminar (mit aktiverTeilnahme und schriftlicher Arbeit)  1 Logikproseminar (Logik I) (mit schriftlichen Übungen und schriftlicher Prüfung) | 21 ECTS  | Durchschnitt aus 5 Noten              |
+| und 3. Jahr                                                                | HPH II (in den Gebieten: pan , pme oder pmc ) Die in HPH I angeeigneten Grundfähigkeiten werden im Rahmen von Seminaren vertieft.                                                                                                     |  3 Semestervorlesungen  1 Seminar (mit aktiverTeilnahme und schriftlicher Arbeit)                                                                                        | 16 ECTS  | Durchschnitt aus 4 Noten              |
+| an das 2. PHS II (in den Gebieten: leh , Die in PHS I werden im Rahmen von | epp , pce oder eme ) angeeigneten Grundfähigkeiten Seminaren vertieft.                                                                                                                                                                |  3 Semestervorlesungen  1 Seminar (mit aktiverTeilnahme und schriftlicher Arbeit)                                                                                        | 16 ECTS  | Durchschnitt aus 4 Noten              |
+| Richtet sich                                                               | Kombiniertes Modul nachWahl (HPH und /oder PHS) (in den Gebieten: pan , pme oder pmc und/oder in leh , epp , pce oder eme )                                                                                                           |  4 Semestervorlesungen  1 Seminar (mit aktiver Teilnahme)  1 Seminar (mit aktiverTeilnahme und schriftlicher Arbeit)                                                    | 22 ECTS  | Durchschnitt aus 5 Noten              |
+| 1. bis 3. Jahr                                                             | Freie Punkte Die Studierenden spezialisieren sich durch Vertiefung ihrer philosophischen Interessen im Rahmen des üblichen Angebots oder in Spezialvorlesungen                                                                        |  12 ECTS-Punkte können nach freier Wahl aus dem gesamten Lehrangebot des Departements ausgewählt werden. (Empfehlung: Logik II)                                           | 12 ECTS  | Durchschnitt aus mindes- tens 3 Noten |
+|                                                                            |                                                                                                                                                                                                                                       |                                                                                                                                                                            | 108 ECTS |                                       |
+| CTC Soft skills                                                            |                                                                                                                                                                                                                                       |                                                                                                                                                                            | 12 ECTS  |                                       |
+|                                                                            |                                                                                                                                                                                                                                       | Total                                                                                                                                                                      | 120 ECTS |                                       |
+
+1  Noten  gibt  es  für  geprüfte  Semestervorlesungen,  schriftliche  Proseminar-  oder  Seminararbeiten  und  Logikprüfungen.  Die  aktive Teilnahme  an  Proseminaren  und Seminaren werden nicht benotet. Die Schlussnote ergibt sich aus dem Durchschnitt der Teilnoten aus den sechs  Modulen. Alle Noten müssen genügend sein (Note 4).
+
+Siehe folgende Seite 
+
+## Zusatzregelungen für den Bereich I :
+
+-  Vorlesungen : Die Studierenden müssen mindestens 16 Semestervorlesungen besuchen und prüfen lassen, davon 6 im Schwerpunkt HPH und 6 im Schwerpunkt PHS. In allen 7 Gebieten ( pan , pme , pmc , leh , epp , pce und eme ) müssen mindestens eine Vorlesung besucht und eine Prüfung ablegt werden. Die restlichen 4 Vorlesungen sind in HPH oder PHS frei wählbar.
+-  Seminare sind  erst  ab  dem  3.  Semester  und  nur  nach  erfolgreichem Abschluss von mindestens 2 Proseminaren (aktive Teilnahme und schriftliche Arbeit bzw. Prüfung) zugänglich. Die Studierenden sind zu den Seminaren zugelassen, wenn die ECTS-Punkte der Proseminare vor Beginn des betreffenden Semesters in Gestens eingetragen sind.
+-  Modul: Freie Punkte : Die 12 ECTS-Punkte können nach freier Wahl aufgeteilt werden, sie dürfen aber nicht ausschliesslich in Vorlesungen erworben werden. Eine Proseminar- oder Seminararbeit kann nur geschrieben werden, wenn am entsprechenden Proseminar oder Seminar aktiv teilgenommen wurde. Das Proseminar Logik II kann nur in diesem Modul angerechnet werden und wird Studierenden im Bereich I sehr empfohlen .
+-  CTC/Soft skills: 12 ECTS-Punkte (10% Prozent des Studiengangs) müssen ausserhalb des Studienbereichs erworben werden.
+
+## Examen am Ende des ersten Jahres (Erstjahresexamen) :
+
+Es besteht aus zwei Prüfungen über je eine Semestervorlesung, die bei zwei verschiedenen Professoren in zwei verschiedenen Gebieten abgelegt werden. Es muss spätestens zu Beginn des 5. Studiensemesters bestanden sein. Gesuche um  Verlängerung der Frist müssen mindestens 14 Tage vor dem Beginn des 5. Studiensemesters an den Dekanatsrat gerichtet werden (vgl. BA-Reglement der Philosophischen Fakultät vom 23. Juni 2005, Art. 11).
+
+Latein-  oder  Altgriechischkenntnisse werden  verlangt.  Die  Ergänzungsprüfungen  in  Latein  oder  Altgriechisch  können  während  des Bachelorstudiums im Rahmen der CTC/Soft skills nachgeholt werden und ergeben 6 ECTS-Punkte.
+
+Zweisprachiges Studium: Wenn in einer der beiden Sprachen mindestens 40 % (45-55 ECTS) der 108 ECTS-Punkte (die 12 CTC/Soft skills sind nicht eingeschlossen) erworben wurden, wird das Bachelordiplom mit dem entsprechenden Vermerk versehen. Die Veranstaltungen müssen in der Sprache der betreffenden Veranstaltung validiert werden.  Ein Teil der ECTS-Punkte muss wie folgt aus schriftlichen Arbeiten stammen:
+
+| 2 Proseminare und 1 Seminar (aktiveTeilnahme und schriftliche Arbeit)      | 19 ECTS   |
+|----------------------------------------------------------------------------|-----------|
+| oder 2 Seminare und 1 Proseminar (aktiveTeilnahme und schriftliche Arbeit) | 20 ECTS   |
+
+## VII. Leistungskontrolle und Benotung
+
+## Proseminare und Seminare
+
+Der Besuch von Proseminaren und Seminaren wird angerechnet auf Grund von aktiver Teilnahme und schriftlichen Arbeiten:
+
+-  aktive Teilnahme:  sie  umschliesst  regelmässige  Anwesenheit,  Vorbereitung  auf  jede  Sitzung,  aktive Teilnahme  an  der  Diskussion  und mindestens eine mündliche Präsentation (oder eventuell eine schriftliche Bearbeitung);
+-  schriftliche Arbeiten: eine grössere oder mehrere kleinere schriftliche Arbeiten werden verlangt und benotet. Eine Überarbeitung ist höchstens zweimal möglich. Proseminararbeiten umfassen ungefähr 10 A4 Seiten und Seminararbeiten ungefähr 20 A4 Seiten.
+
+Die aktive Teilnahme an Logikproseminaren (Logik I und Logik II) erfolgt durch schriftliche Bearbeitung von Übungsaufgaben. Eine schriftliche Prüfung ersetzt die schriftliche Proseminararbeit. Die Prüfung wird benotet und kann höchstens zweimal wiederholt werden.
+
+## Vorlesungen
+
+Der Lehrende entscheidet über die Art der Prüfung. Grundsätzlich sind zwei Arten der Prüfung möglich:
+
+-  mündliche Prüfung: 15 Minuten pro Semestervorlesung;
+-  schriftliche Prüfung: Die Lehrperson bestimmt die Modalitäten der schriftlichen Prüfung.
+
+Andere Arten der Evaluation (Referat etc.) sind mit dem Einverständnis der Lehrperson möglich.
+
+## Notenskala
+
+<!-- image -->
+
+## Schlussnote
+
+-  Die Schlussnote ergibt sich aus dem Durchschnitt aller Noten, welche im Studienplan vorgesehen sind (geprüfte Vorlesungen, schriftliche Arbeiten der Proseminare und Seminare). Jede einzelne Note muss genügend sein.
+-  Studierende, welche ihr Studium im Zeitraum zwischen dem Wintersemester 2003/04 und dem Sommersemester 2005 begonnen haben und sich für das neue Reglement der Philosophischen Fakultät vom 23.06.2005 entschieden haben, sind den Bestimmungen unter den Artikeln 26, Abs. 3 und 27 des erwähnten Reglements unterstellt.
+
+## VIII. Nichtbestandene Prüfungen: Vorlesungen und Logikprüfung
+
+Eine nicht bestandene Prüfung muss über dieselbe Veranstaltung bei der selben Lehrperson geprüft werden. Sie kann höchstens zweimal wiederholt werden . Die drei Versuche finden im Rahmen der vier Prüfungssessionen statt, die auf die Einschreibeperiode für die entsprechende Veranstaltung folgen.
+
+## Endgültiges Nichtbestehen:
+
+Eine  Prüfung  oder  eine  schriftliche  Arbeit  kann  höchstens  zweimal  wiederholt  werden. Bei  einem  endgültigen  Nichtbestehen  kann  der Studierende in seinem gewählten Studienprogramm nicht weiterstudieren.
+
+(Siehe auch Richtlinien: Über die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät , vom 23. April 2009)

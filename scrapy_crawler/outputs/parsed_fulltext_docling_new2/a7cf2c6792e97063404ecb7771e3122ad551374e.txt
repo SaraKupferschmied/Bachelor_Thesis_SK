@@ -1,0 +1,296 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:55:09.340Z",
+  "title": "matched_Faculty_of_Humanities_Master_90_Italian_MA_90_-_versione_2015_a7cf2c6792e97063404ecb7771e3122ad551374e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "a7cf2c6792e97063404ecb7771e3122ad551374e",
+  "program_key": "faculty of humanities|master|90|italian",
+  "source_url": "https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/MA%2090%20Italiano.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_90_Italian_MA_90_-_versione_2015_a7cf2c6792e97063404ecb7771e3122ad551374e.pdf",
+  "sha256": "7b34619dd1d24a2aaf7a1ec3a66e1325ee0e8d7167e25b29b6703bad6184443e",
+  "fetched_at": "2026-05-21T16:05:25.842Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ital/it/assets/public/Documents/Plans_etudes_IT/MA%2090%20Italiano.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Italian",
+  "programme_name_de": "Italienisch",
+  "programme_name_fr": "Italien",
+  "programme_url": "https://studies.unifr.ch/en/master/lang/italian",
+  "curriculum_url": "http://studies.unifr.ch/go/yxwhB"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Master of Arts
+
+## MA Lingua e Letteratura Italiane 90 crediti Programma di studi Approfonditi: prima materia
+
+## 1. Descrizione generale del programma
+
+Il  conseguimento  del  titolo  di  « Master  of  Arts  in  Lingue  e  Letterature:  Italiano »  nel Programma di studi Approfonditi (PA: prima materia) richiede la convalida di 60 crediti ECTS piú la redazione e la difesa di un mémoire, incentrato su un argomento inerente questo ambito di studi (30 crediti ECTS), sotto la supervisione di uno dei professori del Dominio Italiano. Ulteriori 30 crediti ECTS possono essere ottenuti scegliendo un Programma di studi Secondari (PS).
+
+Gli studi hanno una durata di due anni (4 semestri) e possono iniziare dal semestre autunnale o dal semestre primaverile.
+
+Questo programma di Master in Lingua e Letteratura Italiane è incentrato sulla valorizzazione, in  sede  teorica  e  applicativa,  dei  metodi  di  ricerca  propri  della  filologia  e  della  linguistica,  della critica stilistica e della storiografia letteraria. Secondo  le  coordinate  epistemologiche  che contraddistinguono  il  Dominio  Italiano  di  Friburgo  dalla  sua  istituzione  (e  per  effetto  del magistero di G. Contini, G. Billanovich e G. Pozzi), sulla base di una formazione eminentemente letteraria  sono  consentite  aperture  verso  una  pluralità  di  fenomeni  artistici  e  culturali,  in  una prospettiva  interdisciplinare  che  favorisce  il  dialogo  con  i  Domini  di  Storia,  Storia  dell'arte, Filosofia  e  Musicologia.  Il  percorso  di  studio  si  sviluppa  dunque  su  due  fronti:  da  un  lato l'approfondimento letterario, attraverso ricerche testuali e analisi storiche; dall'altro la conoscenza dei molteplici aspetti della cultura umanistica italiana, secondo l'offerta formativa della Facoltà di Lettere. I testi e i temi del Medioevo e del Rinascimento cosí come quelli della modernità e della contemporaneità sono oggetto di riflessioni particolarmente approfondite.
+
+Le  competenze  acquisite  alla  fine  del  percorso  di  Master  consentono  di  intraprendere  una ricerca  personale  finalizzata  alla  redazione  del  mémoire,  spesso  nella  forma  di  edizione  e commento  di  testi  antichi  e  moderni;  a  questo  scopo  il  programma  prevede  una  stretta connessione tra storiografia letteraria, interpretazione critica e filologia testuale. L'acquisizione di conoscenze  critiche  e  di  avanzati  strumenti  d'analisi  conferisce  agli  studenti  una  esaustiva padronanza  dell'insieme  della  produzione  letteraria  in  lingua  italiana,  stimolando  l'autonoma capacità  di  proporne  un'interpretazione  critica  ponderata  e  originale.  Le  prospettive  teoriche prese  in  esame  durante  il  percorso  di  Master  permettono  inoltre  di  sviluppare  competenze ermeneutiche sugli approcci e i metodi tipici degli studi italiani, inserendosi nel dialogo scientifico attuale.
+
+I  titolari  di  un  Master  of  Arts  in  Lingua  e  Letteratura  Italiane  dell'Università  di  Friburgo possono  accedere  alla  Formazione  per  l'insegnamento  nelle  scuole  di  maturità  (DEEM);  le competenze acquisite li rendono inoltre adatti a ruoli di responsabilità nel mondo della cultura, del  giornalismo  scritto,  dei  media  audiovisivi  (radio,  TV,  internet),  dell'industria  libraria  e  del settore editoriale, degli archivi e delle biblioteche nonché nel campo  della traduzione, dell'amministrazione, ecc. Ottimi risultati a livello di Master possono inoltre condurre agli studi di dottorato,  nell'ambito  della  Scuola  dottorale  di  Studi  Italiani  creata  nel  2013,  in  collaborazione con le Università di Losanna e Ginevra (cfr. http://italiano.cuso.ch).
+
+Il  presente documento regola l'organizzazione degli studi di Italiano all'interno del Dominio Italiano.  Per  le  disposizioni  regolamentari  generali  si  rinvia  ai  regolamenti  dell'Università  di Friburgo,  in  particolare  al  regolamento  dell'11  maggio  2006  per  il  conseguimento  del  Master presso la Facoltà di Lettere.
+
+## 2. Struttura del programma
+
+Il  programma presenta due percorsi, i quali offrono due differenti profili formativi: il primo percorso,  in  Letteratura  e  Filologia,  conferisce  una  padronanza  completa  e  approfondita  nel campo della linguistica, della filologia e della letteratura italiane, in ambito sia antico sia moderno e  contemporaneo;  il  secondo  percorso,  in  Studi  Italiani,  spinge  gli  studenti  ad  aprire  la  loro formazione verso una prospettiva interdisciplinare, sviluppando un dialogo tra gli studi filologici e letterari e le discipline storiche, artistiche e filosofiche.
+
+È richiesta la conoscenza del latino; qualora tale conoscenza non fosse stata acquisita durante gli  studi  di  maturità  o  di  Bachelor,  gli  studenti  dovranno  seguire  due  corsi  di  latino  per 'debuttanti'  (morfologia  e  sintassi)  i  cui  crediti  verranno  contabilizzati  nel  piano  di  studi  in sostituzione di due corsi a scelta.
+
+Un valore espresso in crediti ECTS, corrispondente a una stima quantitativa del lavoro svolto, viene attribuito a ciascun modulo al momento della convalida. Questo valore è indivisibile e non sono  possibili  attribuzioni  parziali  di  crediti  all'interno  di  un  modulo.  Conformemente  alle disposizioni della Facoltà, il Programma di studi Approfonditi (PA: prima materia) vale 90 crediti.
+
+Il piano di studi prevede 4 moduli, in base al percorso scelto, di 12 o 18 crediti, per un totale di  60  crediti,  ai  quali  vanno  aggiunti  30  crediti  per  la  redazione  del  mémoire.  Ogni  modulo  è costituito da un numero variabile di corsi (3 crediti) e seminari (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto).
+
+## Università di Friburgo - Facoltà di Lettere Dipartimento di Lingue e Letterature
+
+## MA Lingua e Letteratura Italiane 90 crediti ECTS
+
+## Percorso Letteratura e Filologia
+
+| Moduli                            | Corsi e seminari                                                                                                                                                                                                                                                                                                      | ECTS                              |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| M0                                | Mémoire                                                                                                                                                                                                                                                                                                               | 30                                |
+| Moduli di letteratura e filologia | Moduli di letteratura e filologia                                                                                                                                                                                                                                                                                     | Moduli di letteratura e filologia |
+| M1                                | Letteratura antica                                                                                                                                                                                                                                                                                                    | 18                                |
+| S MA                              | Seminario di letteratura medioevale o Dante                                                                                                                                                                                                                                                                           | 3+6*                              |
+| S MA                              | Seminario di letteratura umanistico-rinascimentale                                                                                                                                                                                                                                                                    | 3+6*                              |
+| M2                                | Filologia                                                                                                                                                                                                                                                                                                             | 12                                |
+| S MA                              | Seminario di filologia italiana                                                                                                                                                                                                                                                                                       | 3+6*                              |
+| K                                 | Colloquio sul progetto di mémoire                                                                                                                                                                                                                                                                                     | 3                                 |
+| M3                                | Letteratura moderna e contemporanea                                                                                                                                                                                                                                                                                   | 18                                |
+| S MA                              | Seminario di letteratura moderna                                                                                                                                                                                                                                                                                      | 3+6*                              |
+| S MA                              | Seminario di letteratura contemporanea                                                                                                                                                                                                                                                                                | 3+6*                              |
+|                                   | Un modulo a scelta:                                                                                                                                                                                                                                                                                                   | Un modulo a scelta:               |
+| M4                                | Letteratura e filologia                                                                                                                                                                                                                                                                                               | 12                                |
+| S MA                              | Seminario di letteratura medioevale o Dante                                                                                                                                                                                                                                                                           | 3+6*                              |
+| C BA                              | Corso monografico di letteratura (a scelta) o Corso di letteratura latina del Medioevo o Corso di letteratura latina del Rinascimento                                                                                                                                                                                 | 3                                 |
+|                                   |                                                                                                                                                                                                                                                                                                                       | oppure                            |
+| M5                                | Studi umanistici                                                                                                                                                                                                                                                                                                      | 12                                |
+| C, S                              | A scelta : Storia dell'arte o Musicologia o Storia (antica, medioevale, moderna, contemporanea) o Filosofia (antica, medioevale, o moderna e contemporanea) o Letteratura latina del Medioevo o Letteratura latina del Rinascimento o Letteratura comparata (Weltliteratur) o Corso biblico o Didattica dell'italiano | 3+3+3+3 ou 3+3+6 ou 6+6**         |
+| M6                                | Linguistica italiana***                                                                                                                                                                                                                                                                                               | 12                                |
+| S MA                              | Seminario di linguistica italiana                                                                                                                                                                                                                                                                                     | 3+6*                              |
+| C                                 | Corso di linguistica italiana                                                                                                                                                                                                                                                                                         | 3                                 |
+
+Un seminario MA a scelta tra quelli indicati nei moduli M 1, M 2, M 3 o M 4 può essere sostituito con tre corsi monografici BA a scelta oppure con un corso monografico BA e il corso di Didattica dell'italiano.
+
+* 3 crediti sono attribuiti per la frequenza al seminario e la presentazione orale in classe, 6 per il lavoro scritto.
+
+** La cifra (3+3+3+3 ; 3+3+6 ; 6+6) si riferisce alle prestazioni (corso e/o seminario) la cui natura è stabilita dai responsabili delle rispettive materie.
+
+***  Gli  insegnamenti  di  Linguistica  italiana  sono  offerti  in  collaborazione  con  l'Istituto  di  Lingua  e  Letteratura italiana dell'Università di Berna.
+
+Moduli
+
+M 0
+
+Corsi e seminari
+
+Mémoire
+
+## Moduli di letteratura e filologia
+
+M 7
+
+S MA
+
+S MA
+
+M 2
+
+S MA
+
+K
+
+Letteratura
+
+Seminario di letteratura medioevale o umanistico-rinascimentale o Dante
+
+Seminario di letteratura moderna o contemporanea
+
+Filologia
+
+Seminario di filologia italiana
+
+Colloquio sul progetto di mémoire
+
+## Moduli interdisciplinari
+
+M 9
+
+Storia dell'arte, Musicologia e Studi neolatini
+
+C, S
+
+C
+
+M 6
+
+S MA
+
+C
+
+Musicologia o Storia dell'arte
+
+Letteratura latina del Medioevo o Letteratura latina del Rinascimento
+
+Linguistica italiana***
+
+Seminario di linguistica italiana
+
+Corso di linguistica italiana ECTS
+
+30
+
+18
+
+3+6*
+
+3+6*
+
+12
+
+3+6*
+
+3
+
+| M8   | Studi storici, filosofici e letterari                                                                          | 18                        |
+|------|----------------------------------------------------------------------------------------------------------------|---------------------------|
+| C, S | Storia (antica, medioevale, moderna, contemporanea) o Filosofia (antica, medioevale o moderna e contemporanea) | 3+3+3+3 ou 3+3+6 ou 6+6** |
+| C    | Didattica dell'italiano o Corso di letteratura comparata (Weltliteratur) o Corso biblico                       | 3+3 ou 6**                |
+
+## Un modulo a scelta:
+
+12
+
+3+ 3 ou
+
+3+3+3 ou
+
+3+6**
+
+3 ou 3+3**
+
+## oppure
+
+12
+
+3+6**
+
+3
+
+* 3 crediti sono attribuiti per la frequenza al seminario e la presentazione orale in classe, 6 per il lavoro scritto.
+
+** La cifra (3+3+3+3 ; 3+3+6 ; 6+6) si riferisce alle prestazioni (corso e/o seminario) la cui natura è stabilita dai responsabili delle rispettive materie.
+
+***  Gli  insegnamenti  di  Linguistica  italiana  sono  offerti  in  collaborazione  con  l'Istituto  di  Lingua  e  Letteratura italiana dell'Università di Berna.
+
+## Università di Friburgo - Facoltà di Lettere
+
+## Dipartimento di Lingue e Letterature
+
+## MA Lingua e Letteratura Italiane 90 crediti ECTS
+
+## Percorso interdisciplinare (Studi Italiani)
+
+## 3. Moduli
+
+## M 0 Mémoire (30 crediti)
+
+L'argomento del mémoire viene stabilito e concordato con uno dei professori del Programma di studi Avanzati in rapporto all'epoca, agli autori e alle problematiche trattate in uno dei seminari di  Master  seguiti  dallo  studente.  Nel  corso  della  stesura  sono  previsti  uno  o  piú  colloqui  (K, modulo M 2) per discutere le basi documentarie, l'impostazione metodologica, il calendario, gli scopi  e  le  tappe  della  ricerca.  Il  percorso  interdisciplinare  amplia  la  scelta  degli  argomenti  e favorisce la collaborazione interdisciplinare con altri docenti attorno al tema prescelto.
+
+La convenzione BENEFRI apre agli studenti di Friburgo la possibilità di redigere il proprio mémoire  con  i  professori  dell'Istituto  di  Lingua  e  Letteratura  italiana  dell'Università  di  Berna, specie per la branca della linguistica (M 6).
+
+La difesa permetterà allo studente di illustrare metodi e contenuti del lavoro, il procedimento seguito e, in generale, di rispondere ai quesiti suscitati dal mémoire; consentirà inoltre di verificare le sue conoscenze nell'ambito disciplinare in questione.
+
+## 3.1 Percorso Letteratura e Filologia
+
+## M 1 Letteratura antica (18 crediti)
+
+Il  modulo comprende due seminari di livello Master: un seminario di letteratura medioevale oppure su Dante e un seminario di letteratura umanistico-rinascimentale (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto).
+
+## M 2 Filologia (12 crediti)
+
+Il modulo comprende un seminario di livello Master di filologia italiana (9 crediti, di cui 3 per la  frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto) e uno o piú colloqui per la preparazione del mémoire (K, 3 crediti).
+
+## M 3 Letteratura moderna e contemporanea (18 crediti)
+
+Il modulo comprende due seminari di livello Master: un seminario di letteratura moderna e un seminario  di  letteratura  contemporanea  (9  crediti,  di  cui  3  per  la  frequenza  e  la  presentazione orale in classe e 6 per la stesura del lavoro scritto).
+
+Oltre ai moduli M 1, M 2 e M 3, gli studenti possono scegliere un modulo tra i tre seguenti:
+
+## M 4 Letteratura e Filologia (12 crediti)
+
+Il modulo comprende un seminario di letteratura medioevale oppure su Dante (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto) e un corso monografico  di  letteratura  (a  scelta)  oppure  un  corso  di  letteratura  latina  del  Medioevo  o  del Rinascimento (3 crediti, esame secondo le indicazioni dell'insegnante).
+
+## M 5 Studi umanistici (12 crediti)
+
+Il  modulo  comprende  corsi  e  seminari,  a  scelta,  nelle  discipline  della  Storia  dell'arte,  della Musicologia, della Storia (antica, medioevale, moderna o contemporanea), della Filosofia (antica, medioevale, moderna o contemporanea), della Didattica dell'italiano, della Letteratura latina del Medioevo o del Rinascimento, della Letteratura comparata (Weltliteratur) oppure corsi biblici. Un totale di 12 crediti ECTS (3+3+3+3; 3+3+6; 6+6) deve essere ottenuto nelle materie scelte. Le modalità di valutazione sono stabilite dai responsabili dei rispettivi Domini.
+
+## M 6 Linguistica italiana (12 crediti)
+
+Il modulo comprende un corso (3 crediti) e un seminario (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto) da seguire presso l'Università di Berna, all'interno dell'offerta proposta dall'Istituto di Lingua e Letteratura italiana. Le modalità di valutazione sono stabilite dai responsabili dell'Istituto.
+
+## 3.2 Percorso interdisciplinare (Studi Italiani)
+
+## M 7 Letteratura (18 crediti)
+
+Il  modulo  comprende  due  seminari  di  livello  Master:  un  seminario,  a  scelta,  di  letteratura medioevale o umanistico-rinascimentale oppure su Dante, e un seminario di letteratura moderna o contemporanea (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto).
+
+## M 2 Filologia (12 crediti)
+
+Il modulo comprende un seminario di livello Master di filologia italiana (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto) e un colloquio orale per la preparazione del mémoire (K, 3 crediti).
+
+## M 8 Studi storici, filosofici e letterari (18 crediti)
+
+Il modulo comprende una serie di corsi e seminari, a scelta, nelle discipline della Storia (antica, medioevale,  moderna  o  contemporanea)  e  della  Filosofia  (antica,  medioevale,  moderna  o contemporanea),  e  corsi,  pure  a  scelta,  nei  Domini  di  Didattica  dell'italiano  e  Letteratura comparata (Weltliteratur) oppure corsi biblici. Un totale di 18 crediti ECTS (3+3+3+3; 3+3+6; 6+6)  deve  essere  ottenuto  nelle  materie  scelte.  Le  modalità  di  valutazione  sono  stabilite  dai responsabili dei rispettivi Domini.
+
+## M 9 Storia dell'arte, Musicologia, Studi neolatini (12 crediti)
+
+Il  modulo  comprende  una  serie  di  corsi  e  seminari,  a  scelta,  nelle  discipline  della  Storia dell'arte  e  della  Musicologia,  e  corsi,  pure  a  scelta,  di  Letteratura  latina  del  Medioevo  o  del Rinascimento. Un totale di 12 crediti ECTS (3+3+3+3; 3+3+6; 6+6) deve essere ottenuto nelle materie scelte. Le modalità di valutazione sono stabilite dai responsabili dei rispettivi Domini.
+
+## M 6 Linguistica italiana (12 crediti)
+
+Il modulo comprende un corso (3 crediti) e un seminario (9 crediti, di cui 3 per la frequenza e la presentazione orale in classe e 6 per la stesura del lavoro scritto) da seguire presso l'Università di Berna all'interno dell'offerta proposta dall'Istituto di Lingua e Letteratura italiana. Le modalità di valutazione sono stabilite dai responsabili dell'Istituto.
+
+## 4. Valutazione delle prestazioni
+
+Gli insegnamenti contenuti nei vari moduli vengono valutati con una nota compresa tra 1 e 6: a partire da 4 una nota è considerata sufficiente e l'insegnamento superato. Ciascun modulo viene convalidato  una  volta  che  siano  state  superate  le  prove  di  valutazione  relative  a  tutti  gli insegnamenti che lo compongono, e a esso è attribuita una nota derivante dalla media delle note riportate nei singoli insegnamenti. È esclusa la compensazione tra note sufficienti e insufficienti di  insegnamenti diversi di uno stesso modulo. Lo studente che desidera seguire un corso o un seminario deve iscriversi al relativo insegnamento tramite il portale  GESTENS;  questa disposizione si applica ugualmente agli altri insegnamenti dispensati dalla Facoltà di Lettere. Lo studente  intenzionato  a  presentarsi  a  un  esame  è  tenuto  a  iscrivervisi  via  GESTENS  entro  il termine  annunciato  dalla  Facoltà.  Non  sono  ammesse  iscrizioni  tardive.  Gli  esami  giudicati insufficienti possono essere ripetuti al massimo 2 volte (per un totale complessivo di 3 tentativi); l'esame deve inoltre essere superato entro 4 sessioni calcolate a partire dalla data d'iscrizione al corso; in caso contrario viene assegnata una bocciatura nel relativo insegnamento e lo studente dovrà seguire un nuovo corso o seminario. La mancata presenza a un esame al quale lo studente si è iscritto comporta l'assegnazione di una nota insufficiente, salvo casi di forza maggiore.
+
+Gli insegnamenti dei primi due moduli di ogni percorso (M 1 e M 2 oppure M 7 e M 2) sono considerati fondamentali e non possono essere seguiti due volte. Lo studente che non supera con esito  positivo  le  prove  d'esame  di  questi  insegnamenti  o  che  non  rispetta  i  termini  previsti  si espone a una bocciatura definitiva e non può proseguire gli studi di Italiano.
+
+Se la valutazione consiste in un esame, quest'ultimo ha luogo alla fine del semestre o all'inizio del  semestre  successivo;  se  necessario  può  essere  organizzata  una  sessione  di  recupero.  Ogni anno vengono organizzate tre sessioni d'esame (inizio gennaio-metà febbraio; ultima settimana di maggio-prime due settimane di giugno; fine agosto-metà settembre) prima della data di convalida dei programmi stabilita dalla Facoltà.
+
+Il termine ultimo per la convalida (con esito positivo) di un lavoro scritto di seminario è la terza sessione d'esame successiva alla fine del semestre durante il quale si è tenuto il seminario in questione. In pratica: per il SA il termine ultimo è il 31 agosto; per il SP è il 31 gennaio.
+
+Nel corso degli studi, gli studenti possono cambiare il loro Programma di studi (da materia principale a secondaria), conformandosi alle esigenze del nuovo piano di studi. Questo passaggio non  è  consentito  in  seguito  a  una  bocciatura  definitiva.  Gli  insegnamenti  seguiti  e  gli  esami superati vengono riconosciuti quando sono presenti anche nel nuovo piano di studi.
+
+Gli insegnanti si riservano la possibilità di rifiutare l'iscrizione di uno studente, specialmente nel caso dei seminari, qualora questi non sia stato in grado di seguire un certo numero di lezioni o sia stato assente alle lezioni introduttive (piú di tre assenze arbitrarie comportano l'esclusione); in tal  caso  lo  studente  dovrà  seguire  una  seconda  volta  l'insegnamento  in  questione  per  poterlo convalidare.
+
+## 5. Lingue
+
+Tutti i corsi e i seminari, i lavori scritti e gli esami del Dominio Italiano sono tenuti in lingua italiana. Non è prevista la menzione bilingue. Gli insegnamenti al di fuori del Dominio previsti nei moduli interdisciplinari di Studi Italiani sono dispensati in francese o in tedesco (o secondo disposizioni particolari  delle  singole  materie);  gli  esami  e  i  lavori  di  seminario  possono  tuttavia essere effettuati in lingua italiana.
+
+Approvato dal Dominio Italiano dell'Università di Friburgo il 14 aprile 2014.
+
+Approvato dal Consiglio del Dipartimento di Lingue e Letterature il 18 settembre 2014.
+
+## Università di Friburgo - Facoltà di Lettere Dipartimento di Lingue e Letterature
+
+## Disposizioni transitorie
+
+Il nuovo piano di studi entra in vigore all'inizio del semestre autunnale 2015. Gli studenti che iniziano gli studi in tale data devono uniformarsi senza eccezioni al nuovo piano di studi.
+
+Gli studenti che hanno iniziato i propri studi presso l'Università di Friburgo tra il SA 2014 e il SP 2015 possono scegliere di proseguire col vecchio piano di studi o di passare a quello nuovo; ciò  deve  avvenire  al  piú  tardi  prima  dell'inizio  del  SP  2016.  Il  Dominio  Italiano  si  occupa  di verificare le equivalenze e i riconoscimenti.
+
+Gli studenti iscritti prima del SA 2014 non hanno per principio la possibilità di cambiare piano di studi; eccezioni motivate potranno tuttavia essere prese in considerazione.

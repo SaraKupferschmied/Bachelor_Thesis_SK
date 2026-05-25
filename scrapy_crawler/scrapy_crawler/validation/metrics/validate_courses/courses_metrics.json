@@ -1,0 +1,173 @@
+{
+  "validation_created_at": "2026-05-25T09:32:51+00:00",
+  "input_files": {
+    "courses": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\scrapy_crawler\\spider_outputs\\courses.json"
+  },
+  "snapshot": {
+    "scrape_started_at": null,
+    "catalogue_found_count": null,
+    "scraped_course_count": 4373,
+    "snapshot_course_coverage_percent": null,
+    "note": "Coverage is only valid for the catalogue state observed at crawl time. The online catalogue is dynamic."
+  },
+  "counts": {
+    "course_records": 4373,
+    "unique_detail_urls": 4373,
+    "unique_code_semester_pairs": 4373
+  },
+  "identity_field_completeness": {
+    "course.code": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "course.name": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "course.semester_or_raw": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "source.detail_url": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    }
+  },
+  "metadata_field_completeness": {
+    "course.ects": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "course.degree_level": {
+      "present": 4217,
+      "missing": 156,
+      "total": 4373,
+      "completeness_percent": 96.43
+    },
+    "course.faculty": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "course.domain": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "course.languages": {
+      "present": 4270,
+      "missing": 103,
+      "total": 4373,
+      "completeness_percent": 97.64
+    },
+    "course.course_type": {
+      "present": 4373,
+      "missing": 0,
+      "total": 4373,
+      "completeness_percent": 100.0
+    },
+    "schedule.summary_schedule": {
+      "present": 3482,
+      "missing": 891,
+      "total": 4373,
+      "completeness_percent": 79.62
+    },
+    "schedule.structure": {
+      "present": 1030,
+      "missing": 3343,
+      "total": 4373,
+      "completeness_percent": 23.55
+    },
+    "teaching.responsibles": {
+      "present": 3187,
+      "missing": 1186,
+      "total": 4373,
+      "completeness_percent": 72.88
+    },
+    "teaching.teachers": {
+      "present": 4016,
+      "missing": 357,
+      "total": 4373,
+      "completeness_percent": 91.84
+    },
+    "teaching.description": {
+      "present": 2915,
+      "missing": 1458,
+      "total": 4373,
+      "completeness_percent": 66.66
+    },
+    "teaching.learning_outcomes": {
+      "present": 0,
+      "missing": 4373,
+      "total": 4373,
+      "completeness_percent": 0.0
+    },
+    "dates": {
+      "present": 1503,
+      "missing": 2870,
+      "total": 4373,
+      "completeness_percent": 34.37
+    },
+    "assessment": {
+      "present": 4312,
+      "missing": 61,
+      "total": 4373,
+      "completeness_percent": 98.61
+    },
+    "affiliations": {
+      "present": 3954,
+      "missing": 419,
+      "total": 4373,
+      "completeness_percent": 90.42
+    }
+  },
+  "duplicate_metrics": {
+    "duplicate_detail_url_surplus_records": 0,
+    "duplicate_detail_url_rate_percent": 0.0,
+    "duplicate_code_semester_surplus_records": 0,
+    "duplicate_code_semester_rate_percent": 0.0
+  },
+  "breakdowns": {
+    "by_semester_or_raw": {
+      "AS-2025 , SS-2026": 366,
+      "AS-2026": 1193,
+      "AS-2026 , SS-2027": 65,
+      "AS-2027": 1,
+      "SS-2026": 1706,
+      "SS-2027": 1042
+    },
+    "by_degree_level": {
+      "Bachelor": 1936,
+      "Bachelor en enseignement pour le degré secondaire I": 106,
+      "DEEM": 116,
+      "Doctorat": 20,
+      "Master": 1967,
+      "Master DEDS": 34,
+      "Préalable": 25,
+      "Préalable DEEM": 10,
+      "Préalable master": 3,
+      "__missing__": 156
+    },
+    "by_faculty": {
+      "Faculty of Education": 519,
+      "Faculty of Humanities": 1495,
+      "Faculty of Law": 159,
+      "Faculty of Management, Economics and Social Sciences": 428,
+      "Faculty of Science and Medicine": 1288,
+      "Faculty of Theology": 291,
+      "Interfaculty": 193
+    }
+  }
+}

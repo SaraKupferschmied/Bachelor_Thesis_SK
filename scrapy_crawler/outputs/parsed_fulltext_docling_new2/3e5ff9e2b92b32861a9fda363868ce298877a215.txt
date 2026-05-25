@@ -1,0 +1,100 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T15:21:05.687Z",
+  "title": "3e5ff9e2b92b32861a9fda363868ce298877a215",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "3e5ff9e2b92b32861a9fda363868ce298877a215",
+  "program_key": "environmental sciences and humanities institute – unifr-esh|bachelor|30|environmental sciences and humanities",
+  "programme_name_en": "Environmental Sciences and Humanities",
+  "programme_name_de": "Umweltwissenschaften und Umweltgeisteswissenschaften",
+  "programme_name_fr": "Sciences de l'environnement et humanités environnementales",
+  "level": "Bachelor",
+  "ects_points": 30,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_SE_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/environmentalsciences",
+  "programme_url_en": "https://studies.unifr.ch/en/bachelor/sci/environmentalsciences",
+  "programme_url_de": "https://studies.unifr.ch/de/bachelor/sci/environmentalsciences",
+  "programme_url_fr": "https://studies.unifr.ch/fr/bachelor/sci/environmentalsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/DVvZG",
+  "curriculum_de_url": "http://studies.unifr.ch/go/DVvZG",
+  "curriculum_fr_url": "http://studies.unifr.ch/go/NW1tn",
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\3e5ff9e2b92b32861a9fda363868ce298877a215.pdf",
+  "sha256": "ea3b80b877c10523623c399bdb16cbead2389aa982b56fcaa82eee2a8173ee90",
+  "fetched_at": "2026-05-21T16:05:18.203Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Bprop_SE_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 2.7 Sciences de l'envi ronnement propédeutiques
+
+[Version 2020, Module: MO-SSE.00006, MO-SSE.00046]
+
+Les sciences de l'environnement propédeutiques se composent des quatre cours de base des sciences de l'environnement. Les cours de base introduisent la problématique et les approches de disciplines relatives aux défis environnementaux et présentent des pistes de solutions et des méthodes  spécifiques  aux  domaines.  Ils  comprennent  des  disciplines  choisies  des  sciences naturelles et sociales et des humanités. En complétant les quatre cours de base, vous aurez une vue  d'ensemble  des  sciences  de  l'environnement  et  connaîtrez  le s  défis  environnementaux principaux de notre temps.
+
+Une variante particulière (II) est prévue pour les étudiant·e·s en bachelor en sciences de la Terre ou en géographie.
+
+## 2.7.1 Unités d'enseignement des sciences de l'environnement propédeutiques
+
+## Premier et deuxième semestre :
+
+## 2.7.1.1 Variante I
+
+Cette variante s'adresse aux étudiant·e·s qui ne sont pas concernés par la variante II.
+
+| Code      | Unité d'enseignement                                                                |   h. tot. |   ECTS |
+|-----------|-------------------------------------------------------------------------------------|-----------|--------|
+| SSE.00101 | Cours de base en sciences de l'environnement : Écologie                             |        28 |      3 |
+| SSE.00102 | Cours de base en sciences de l'environnement : Économie et droit de l'environnement |        28 |      3 |
+| SSE.00103 | Cours de base en sciences de l'environnement : Ressources                           |        28 |      3 |
+| SSE.00104 | Cours de base en sciences de l'environnement : Éthique de l'environnement           |        28 |      3 |
+|           |                                                                                     |           |     12 |
+
+## 2.7.1.2 Variante II
+
+| Cette variante s'adresse aux étudiant·e·s en bachelor en sciences de la Terre ou en   | Cette variante s'adresse aux étudiant·e·s en bachelor en sciences de la Terre ou en   | géographie.   | géographie.   |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------|---------------|
+| Code                                                                                  | Unité d'enseignement                                                                  | h. tot.       | ECTS          |
+| SSE.00101                                                                             | Cours de base en sciences de l'environnement : Écologie                               | 28            | 3             |
+| SSE.00102                                                                             | Cours de base en sciences de l'environnement : Économie et droit de l'environnement   | 28            | 3             |
+| SSE.00144                                                                             | Les enjeux du développement durable I                                                 | 28            | 3             |
+| SSE.00104                                                                             | Cours de base en sciences de l'environnement : Éthique de l'environnement             | 28            | 3             |
+|                                                                                       |                                                                                       |               | 12            |
+
+## 2.7.2 Contenu des unités d'enseignement
+
+Les quatre UE du module de base proposent aux étudiant-e-s une introduction à la problématique et  aux  méthodes  de  disciplines  particulières.  Chaque  discipline  est  en  contact  avec  la problématique environnementale actuelle et présente ses pistes de solutions et ses méthodes. Dans  le  cadre  du  module  de  base,  des  façons  de  pensées  et  des  méthodes  de  travail  des sciences naturelles et sociales et des humanités sont présentées.
+
+## Cours de base : Écologie (SSE.00101)
+
+Ce cours de base interroge les conditions de l'environnement et leurs changements suite aux processus et interactions dans la géosphère, l'hydrosphère, l'atmosphère et la biosphère. Le cours  introduit  des  concepts  qu'il  illustre  à  l'aide  de  nombreux  exempl es,  et  discute  des possibilités de régulation.
+
+## Cours de base : Économie et droit de l'environnement (SSE.00102)
+
+Droit de l'environnement : Cette unité transmet à l'aide de cas particuliers les bases légales et les  instruments  du  droit  de  l'environnement  (protection  de  l'air,  protection  contre  le  bruit, traitement des déchets et des eaux usées, protection de la nature).
+
+Économie  de  l'environnement :  Cette  unité  aborde  les  relations  entre  environnement  et économie. Au centre, se trouvent le potentiel de régulation par les politiques environnementales et la théorie des externalités et de l' optimisation de la pollution.
+
+## Cours de base : Ressources (SSE.00103)
+
+Ce cours de base permet d'acquérir des connaissances de base en géosciences et en physique afin de comprendre la structure interne et la dynamique de la Terre, ainsi que les principales sources d'énergie, les transformateurs d'énergie et les flux d'énergie, et d'étudier leur influence sur l'environnement. Le but de ce cours est d'estimer les  limites  des  ressources  utilisées  aujourd'hui  et  de  montrer  d'éventuelles  alternatives  pour  les  systèmes énergétiques du futur.
+
+## Cours de base : Éthique de l'environnement (SSE.00104)
+
+Les défis environnementaux ont toujours des implications philosophiques et éthiques. Ce cours de base discute de l'interaction des humains avec la nature non -humaine et introduit des positions et théories de base.
+
+## Les enjeux du développement durable I (SSE.00144)
+
+Les étudiant·e·s apprennent les bases d'une réflexion critique sur les problèmes éthiques liés à l'environnement. Ils/Elles apprennent à analyser et à discuter de différentes situations actuelles problématiques sur le plan éthique, dans le cadre d'échanges avec des expert·e·s.
+
+## 2.7.3 Évaluation des unités d'enseignement
+
+Les conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe des sciences de l'environnement ainsi que de l' éthique et de la philosophie des sciences (http://www.unifr.ch/scimed/plans/eval).

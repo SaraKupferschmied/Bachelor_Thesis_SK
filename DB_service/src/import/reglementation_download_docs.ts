@@ -1,11 +1,11 @@
-import "../environments/environment";
+//import "../environments/environment";
 
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import axios from "axios";
 import { CookieJar } from "tough-cookie";
-import { wrapper } from "axios-cookiejar-support";
+import type { AxiosInstance } from "axios";
 
 type SpiderRow = {
   title?: string | null;
@@ -300,16 +300,22 @@ async function run() {
 
   if (!rows.length) throw new Error(`No usable rows found in ${inputPath}. Expected objects with at least {title, source}.`);
 
-  const jar = new CookieJar();
-  const http = wrapper(
-    axios.create({
-      jar,
-      withCredentials: true,
-      timeout: 60_000,
-      maxRedirects: 5,
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; UniFR-reglementation-downloader/1.0)" },
-    })
-  );
+
+const jar = new CookieJar();
+
+const { wrapper } = await import("axios-cookiejar-support");
+
+const http: AxiosInstance = wrapper(
+  axios.create({
+    jar,
+    withCredentials: true,
+    timeout: 60_000,
+    maxRedirects: 5,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; UniFR-reglementation-downloader/1.0)",
+    },
+  } as any)
+);
 
   const manifest: ReglementationDocManifestItem[] = [];
   const queue = rows.map((r) => ({ ...r }));

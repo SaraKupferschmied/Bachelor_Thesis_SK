@@ -50,7 +50,7 @@ Do the imports (from root)
 4. npx ts-node DB_service/src/import/program_name_imports.ts
 4.1 npx ts-node DB_service/src/import/program_basedata_imports.ts
 5. npx ts-node DB_service/src/import/new_program_import.ts
-5.1 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
+5.1 docker compose --profile jobs run --rm import_data sh -lc "npx ts-node src/import/new_program_imports_dockling.ts"
 5.1 docker compose --env-file .env.docker --profile jobs run --rm import_data sh -lc "npx ts-node src/import/prune_staging_to_current_program_documents.ts"
 6. npx ts-node DB_service/src/import/import_consist_of.ts
 7. npx ts-node DB_service/src/import/run_reglementation_import.ts --root scrapy_crawler/outputs/reglementation_docs
@@ -108,6 +108,9 @@ cd scrapy_crawler
 scrapy crawl expected_programs -O scrapy_crawler/validation/metrics/compare_programs/programs.json
 
 cd scrapy_crawler\validation
+
+python run_all_validations.py
+
 - python compare_programs.py
 - python validate_courses.py ^  --courses ../spider_outputs/courses.json ^  --output-prefix courses
 - python validate_programs.py ^  --programs-file ../spider_outputs/programmes_with_curricula_enriched.json ^  --output-dir ./metrics/validate_programs_curricula
@@ -149,6 +152,13 @@ Timeout for too long questions
     auto=http://localhost:8000/ask:auto ^
     tool=http://localhost:8000/ask:tool ^
     rag=http://localhost:8000/ask:rag
+
+    python evaluation\eval_runner_chatbot.py ^
+  --input evaluation\thesis_chatbot_evaluation_template.xlsx ^
+  --output test_results.xlsx ^
+  --timeout 2400 ^
+  --systems ^
+    auto=http://localhost:8000/ask:auto 
     
 
 # Run locally
@@ -203,3 +213,24 @@ python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template
 python run_rag_retrieval_only_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_retrieval_only_possible_results_new6.xlsx --base-url http://localhost:8000 
 
 python run_ask_answer_eval.py --input thesis_chatbot_evaluation_template_rag.xlsx --output rag_ask_only_possible_results.xlsx --base-url http://localhost:8000 
+
+python DB_service\src\import\normalize_faculty_documents.py ^  --input-dir scrapy_crawler\scrapy_crawler\spider_outputs\faculty_programs ^  --out scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json
+
+python DB_service\src\import\match_faculty_docs_to_programs.py ^ 
+  --programmes scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_curricula_enriched.json ^
+  --docs scrapy_crawler\scrapy_crawler\spider_outputs\faculty_documents_normalized.json ^
+  --out scrapy_crawler\scrapy_crawler\spider_outputs\programmes_with_faculty_documents.json ^
+  --audit-out scrapy_crawler\scrapy_crawler\spider_outputs\document_program_match_audit.json ^
+  --unmatched-docs-out scrapy_crawler\scrapy_crawler\spider_outputs\unmatched_faculty_documents.json
+
+npx tsx DB_service/src/import/01_download_faculty_docs_v3.ts ^  --matched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/programmes_with_faculty_documents_patched.json ^  --unmatched-input ./scrapy_crawler/scrapy_crawler/spider_outputs/unmatched_faculty_documents_remaining.json ^  --out ./scrapy_crawler/outputs/faculty_docs_v3 ^  --concurrency 6
+
+npx tsx DB_service/src/import/parse_docs_full_docling_new.ts ^  --root ./scrapy_crawler/outputs/faculty_docs_v3 ^  --manifest ./scrapy_crawler/outputs/faculty_docs_v3/_faculty_docs_manifest.json ^  --parsed-dir ./scrapy_crawler/outputs/parsed_fulltext_docling_new2 ^  --docling-helper ./DB_service/src/import/parse_with_docling_robust.py ^  --python python
+
+
+requirement: 
+python -m pip install langchain-core langchain-community langchain-ollama faiss-cpu
+set RAG_PARSER=docling_table_semantic
+python -m chatbot.app.faiss_builders.build_faiss_docling_table_semantic --target studyplans --force
+
+npx.cmd tsx C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_docs_full_docling_new.ts --root . --manifest .\_faculty_docs_manifest.json --parsed-dir .\parsed_fulltext_docling_new --docling-helper C:\Users\Sara\Bachelor_thesis_sk\DB_service\src\import\parse_with_docling_robust.py

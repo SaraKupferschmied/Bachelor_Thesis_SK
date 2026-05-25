@@ -1,0 +1,230 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:06:38.079Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Rhaeto-Romance_R_toromanisch_84d5f2a2556e771c2ab2cd474dd8da72af60eb91",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "84d5f2a2556e771c2ab2cd474dd8da72af60eb91",
+  "program_key": "faculty of humanities|bachelor|60|rhaeto-romance",
+  "source_url": "https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/Rumantsch_BA60_2019-09-23.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Rhaeto-Romance_R_toromanisch_84d5f2a2556e771c2ab2cd474dd8da72af60eb91.pdf",
+  "sha256": "87b513c83a70287bdf4ccdf0023f3740a128f66eed5e216bc70ceff7d1fe2c0a",
+  "fetched_at": "2026-05-21T16:05:25.562Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/pluriling/de/assets/public/dokumente/downloads/Rumantsch_BA60_2019-09-23.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Rhaeto-Romance",
+  "programme_name_de": "Rätoromanisch",
+  "programme_name_fr": "Rhéto-roman",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/lang/rhaetoromance",
+  "curriculum_url": "http://studies.unifr.ch/go/IaFd2"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Philosophische Fakultät Departement für Sprachen &amp; Literaturen
+
+Studienbereich Mehrsprachigkeitsforschung und Fremdsprachendidaktik
+
+## Bachelor of Arts in Sprachen und Literaturen: 'Rätoromanisch'
+
+Nebenbereich (60 ECTS)
+
+## 1.  Präsentation des Programms
+
+## 1.1. Studium
+
+Das Bachelor-Studienprogramm Rätoromanisch im Nebenbereich zu 60 ECTS befasst sich mit Sprach- und Literaturwissenschaft zum Rätoromanischen Graubündens. Das Schwergewicht liegt in der Sprachwissenschaft, wobei soziolinguistische und sprachkontaktbezogene Fragestellungen besondere Berücksichtigung finden. Für die theoretisch-methodische Ausbildung  werden  Synergien  innerhalb  des  Studienbereichs  Mehrsprachigkeitsforschung  und Fremdsprachendidaktik  sowie  mit  anderen  Studienbereichen  der  Philosophischen  Fakultät genutzt.
+
+Dieses Bachelor-Programm vermittelt den Studierenden Grundlagen der Linguistik und der literarischen Textanalyse und macht sie mit der historischen Entwicklung und den strukturellen  Eigenheiten  rätoromanischer  Mundarten  und  Regionalschriftsprachen,  mit  den  literarischen  Traditionen  Romanischbündens  sowie  mit  den  vielfältigen  Kontakten  zu  anderen Sprach-  und  Kulturräumen  vertraut.  Die  Studierenden  beschäftigen  sich  mit  einem  breiten Spektrum von Verwendungsarten des Rätoromanischen von der Gründung der regionalen Schrifttraditionen im 16. Jahrhundert bis in die Gegenwart. Weitere Gegenstände des Studiums sind die Bündner Sprachdebatten seit Beginn des 20. Jahrhunderts, die Mehrsprachigkeit  der  Rätoromanisch  Sprechenden,  die  überregionale  schriftsprachliche  Normierung  mit Rumantsch Grischun und der Status des Rätoromanischen als Minderheitensprache.
+
+Im  Bachelor-Programm  Rätoromanisch  zu  60  ECTS  erwerben  die  Studierenden  Grundlagenwissen  für  Tätigkeiten  in  rätoromanischen  Institutionen  sowie  im  Medien-  und  Unterrichtsbereich  bzw.  für  ein  weiterführendes  Studium  auf  Masterstufe  (in  Rätoromanisch,  in Mehrsprachigkeitsforschung mit Option Rätoromanisch und in weiteren sprachlichen Disziplinen).
+
+Der  erfolgreiche  Abschluss  dieses  Bachelor-Programms  erfordert  die  Validierung  von  60 ECTS-Punkten.  Die  Studierenden  müssen  ihre  Ausbildung  durch  die  Validierung  von  120 zusätzlichen  ECTS-Punkten  in  einem  Hauptprogramm  vervollständigen,  gemäss  den  Bestimmungen im Bachelorreglement der Philosophischen Fakultät.
+
+Mit  der  Absolvierung  dieses  Bachelor-Programms  im  Nebenbereich  und  des  MasterNebenprogramms Rätoromanisch sind die Anforderungen für die Zulassung zum Lehrdiplom für Maturitätsschulen (LDM) im Fach II oder III erfüllt.
+
+Das  vorliegende  Dokument  beschreibt  den  Aufbau  des  Rätoromanisch-Studiums  im  Bachelor-Nebenbereich zu 60 ECTS. Es wurde nach den Richtlinien vom 23. April 2009 über die Evaluation der Studienleistungen, die Vergabe der ECTS-Punkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg verfasst und berücksichtigt sowohl  die  Statuten  wie  auch  das  BA-Reglement  der  Philosophischen  Fakultät.  Für  die Hauptprogramme wurden besondere Studienpläne erstellt, die bei den betreffenden Studienbereichen erhältlich sind.
+
+## 1.2. Zulassungsbedingungen
+
+Die  ausschliesslich  auf  Rätoromanisch  durchgeführten  Seminare  machen  mindestens  das Kompetenzniveau B2 in einem rätoromanischen Idiom oder in Rumantsch Grischun erforderlich, sowohl rezeptiv (Lese- und Hörverstehen) als auch produktiv (mündlich und schriftlich), entsprechend der Skala des 'Gemeinsamen europäischen Referenzrahmens'.
+
+## 1.3. Prüfung und Validierung der ECTS-Punkte
+
+Die ECTS-Punkte werden ausschliesslich auf der Grundlage von evaluierten und für genügend befundenen Studienleistungen vergeben. Die Evaluation kann sich auf Leistungen beziehen, die im Rahmen einer einzelnen Unterrichtseinheit oder mehrerer Unterrichtseinheiten desselben Moduls erbracht wurden.
+
+Dieses  Bachelor-Programm  ist  bestanden,  wenn  60  ECTS-Punkte  validiert  wurden.  Die ECTS-Punkte,  die  für  ein  Modul  verlangt  werden  (siehe  unten  §  2),  werden  angerechnet, sobald nachgewiesen ist, dass der Studierende alle Anforderungen erfüllt hat, die im betreffenden  Studienplan  für  das  entsprechende  Modul  vorgesehen  sind.  Ungenügende  Noten können nicht kompensiert werden.
+
+Wenn eine Unterrichtseinheit dreimal als ungenügend evaluiert wird ('definitiver Misserfolg' gemäss den Prüfungsdirektiven der Philosophischen Fakultät), kann das Studium in diesem Bachelor-Programm nicht fortgesetzt werden.
+
+## 1.4. Unterrichtssprachen
+
+Die  Seminare  zur  rätoromanischen  Sprach-  und  Literaturwissenschaft  werden  auf  Rätoromanisch durchgeführt.
+
+Die Vorlesungen zur rätoromanischen Sprachwissenschaft, die auch Studierenden anderer Studienprogramme offen stehen, werden  auf Deutsch gehalten.
+
+Der  Wahlpflichtbereich  enthält  auf  Deutsch  und  Französisch  durchgeführte  Lehrveranstaltungen anderer Studienprogramme.
+
+## 2.  Aufbau des Studiums
+
+## 2.1. Struktur
+
+Das Programm umfasst vier Pflichtmodule (A-D) zu je 15 ECTS.
+
+Die Module A-C, deren Lehrveranstaltungen im Dreijahresturnus angeboten werden, widmen sich Teildisziplinen der Sprachwissenschaft und literaturwissenschaftlichen Fragestellungen. Diese  Module  enthalten  jeweils  eine  sprachwissenschaftliche  Vorlesung  und  einen  Wahlpflichtbereich, in dem entweder die vier in einem Studienjahr angebotenen Seminare (zwei sprachwissenschaftliche und zwei literaturwissenschaftliche) besucht werden oder neben nur drei besuchten Seminaren eine weitere Studienleistung erbracht wird. Als Optionen für diese weitere Studienleistung stehen in den Modulen A-C jeweils eine mündliche Prüfung zu einer sprachwissenschaftlichen Lektüreliste und eine mündliche Prüfung zu einer literarischen Lektüreliste  zur  Verfügung,  im  Modul  C  zusätzlich  die  Teilnahme  an  einer  Lehrveranstaltung ausserhalb des Studienprogramms. Die Lektürelisten werden mit dem/der Dozierenden abgesprochen und ergänzen die im Rahmen der besuchten Lehrveranstaltungen behandelte Literatur.
+
+Im Modul D erwerben die Studierenden fachübergreifende Grund- und Ergänzungskenntnisse  in  anderen  Studienprogrammen,  perfektionieren  ihre  schriftliche  Kompetenz  im  Rätoromanischen und vertiefen mit der Abfassung einer Seminararbeit ein Thema, das in einem Seminar behandelt wurde.
+
+| Nebenbereich Rätoromanisch                            |   ECTS |
+|-------------------------------------------------------|--------|
+| A) Modul tematic I: Istorgia e spazi                  |     15 |
+| B) Modul tematic II: Structuras e contacts            |     15 |
+| C) Modul tematic III: Varietads e plurilinguitad      |     15 |
+| D) Modul per cumpetenzas generalas ed approfundaziuns |     15 |
+| Total                                                 |     60 |
+
+In  jedem  Studienjahr  ist  eine  für  die  Gesamtnote  zählende  Teilnote,  d.h.  eine  Modulnote, erforderlich.  Die  Module  A-C,  deren  Lehrveranstaltungen  im  Dreijahresturnus  angeboten werden, sind daher jeweils auf den Abschluss eines Studienjahres hin zu validieren. Dabei ist insbesondere darauf zu achten, dass die sich auf diese Module beziehenden Prüfungen rechtzeitig abgelegt werden.
+
+Parallel zu den Studienleistungen für die drei jeweils an ein Studienjahr gebundenen Module A-C sind die Studienleistungen für das Modul D zu erbringen. Unter Berücksichtigung des beanspruchten Lehrangebotes sowie der Belastung durch die Module A-C sind diese Studienleistungen optimal über die BA-Studiendauer zu verteilen.
+
+## 2.2. Module
+
+## Verwendete Abkürzungen :
+
+Studienleistungen:
+
+S : Seminar, V : Vorlesung, SA : Schriftliche Arbeit
+
+R : Rätoromanisch;
+
+D : Deutsch; F : Französisch
+
+HS
+
+: Herbstsemester, FS : Frühlingssemester
+
+(n.)b. Leist.
+
+: (nicht) benoteter Leistungsnachweis (Referat oder schriftliche Arbeit)
+
+## 2.2.1.  A) Modul tematic I: Istorgia e spazi - 15 ECTS
+
+## Ziele:
+
+Der sprachwissenschaftliche Teil dieses Moduls widmet sich dem Rätoromanischen in seinem Wandel in der Geschichte und in seiner Variation im Raum. Die Studierenden machen sich mit den Grundlagen der internen und externen Sprachgeschichte sowie der Dialektologie vertraut. Die Vorlesung vermittelt einen Überblick über die Entwicklung vom Vulgärlatein zu  den  rätoromanischen  Mundarten  auf  der  lautlichen,  morphosyntaktischen  und  lexikalischen Ebene und beleuchtet die Umstände der Begründung der regionalen Schrifttraditionen. Ein Seminar befasst sich mit der historischen Entwicklung der Mundarten, ihrer Dokumentation in der dialektologischen Forschung seit den 1870er Jahren und der Frage nach ihrer Klassifikation und Abgrenzung gegenüber den norditalienischen Mundarten. Ein weiteres Seminar setzt sich mit der schriftsprachlichen Normierung vom 16. Jahrhundert bis in die Gegenwart und den diesbezüglichen Diskussionen auseinander.
+
+Im literaturwissenschaftlichen Teil des Moduls machen sich die Studierenden mit Aspekten der  regional  geprägten  literarischen  Traditionen  Romanischbündens vertraut  und  befassen sich mit Gattungsfragen, die mit diesen verbunden sind.
+
+Entweder werden alle vier angebotenen Seminare (zwei sprachwissenschaftliche und zwei literaturwissenschaftliche)  besucht,  oder  es  werden  nur  drei  Seminare  besucht  und  dafür eine Prüfung zu einer (nach Wahl sprachwissenschaftlichen oder literarischen) Lektüreliste abgelegt.
+
+Evaluation : Alle Studienleistungen werden benotet. Der Durchschnitt zählt als Modulnote.
+
+| A) Modul tematic I: Istorgia e spazi (15 ECTS)                                                  | A) Modul tematic I: Istorgia e spazi (15 ECTS)   | A) Modul tematic I: Istorgia e spazi (15 ECTS)   | A) Modul tematic I: Istorgia e spazi (15 ECTS)   | A) Modul tematic I: Istorgia e spazi (15 ECTS)   | A) Modul tematic I: Istorgia e spazi (15 ECTS)   |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|                                                                                                 | Typ                                              | ECTS                                             | Sprache                                          | Semester                                         | Evaluation                                       |
+| Obligatorisch                                                                                   |                                                  |                                                  |                                                  |                                                  |                                                  |
+| Rätoromanische Sprachgeschichte                                                                 | V                                                | 3                                                | D                                                | HS                                               | Prüfung                                          |
+| Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste |                                                  |                                                  |                                                  |                                                  |                                                  |
+| Seminari da linguistica: Ils dialects rumantschs                                                | S                                                | 3                                                | R                                                | HS                                               | b. Leist.                                        |
+| Seminari da linguistica: Las tradiziuns scrittas                                                | S                                                | 3                                                | R                                                | FS                                               | b. Leist.                                        |
+| Seminari da litteratura I                                                                       | S                                                | 3                                                | R                                                | HS                                               | b. Leist.                                        |
+| Seminari da litteratura II                                                                      | S                                                | 3                                                | R                                                | FS                                               | b. Leist.                                        |
+| Lectura individuala: linguistica I                                                              | S                                                | 3                                                |                                                  |                                                  | Prüfung                                          |
+| Lectura individuala: litteratura I                                                              | S                                                | 3                                                | R                                                |                                                  | Prüfung                                          |
+| Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten           | Evaluation/Note Durchschnitt der Noten           | Evaluation/Note Durchschnitt der Noten           | Evaluation/Note Durchschnitt der Noten           | Evaluation/Note Durchschnitt der Noten           |
+
+## 2.2.2.  B) Modul tematic II: Structuras e contacts - 15 ECTS
+
+## Ziele:
+
+Der sprachwissenschaftliche Teil dieses Moduls befasst sich mit der synchronen Beschreibung  des  Rätoromanischen,  einerseits  unter  einem  strukturellen  sprachinternen  Gesichtspunkt, andererseits im Hinblick auf den sich im Rätoromanischen manifestierenden Sprachkontakt  mit  dem  Deutschen.  Während  die  Vorlesung  einen  Überblick  über  beide  Aspekte vermittelt, behandelt jedes der Seminare vertieft einen Aspekt: Ein Seminar widmet sich der Beschreibung der Phonetik und Phonologie, der Morphosyntax und lexikalischer Bereiche in Varietäten des gegenwärtigen Rätoromanischen, das andere Seminar untersucht Phänomene  des  Sprachkontakts  auf  den  verschiedenen  sprachlichen  Ebenen  und  geht  der  Frage nach den durch den Sprachkontakt bewirkten Umstrukturierungen nach.
+
+Der literaturwissenschaftliche Teil des Moduls setzt sich mit Beziehungen zu den benachbarten Literaturen sowie mit Phänomenen des Sprach- und Kulturkontakts in literarischen Texten auseinander.
+
+Entweder werden alle vier angebotenen Seminare (zwei sprachwissenschaftliche und zwei literaturwissenschaftliche)  besucht,  oder  es  werden  nur  drei  Seminare  besucht  und  dafür eine Prüfung zu einer (nach Wahl sprachwissenschaftlichen oder literarischen) Lektüreliste abgelegt.
+
+Evaluation : Alle Studienleistungen werden benotet. Der Durchschnitt zählt als Modulnote.
+
+| B) Modul tematic II: Structuras e contacts (15 ECTS)                                            | B) Modul tematic II: Structuras e contacts (15 ECTS)                                            | B) Modul tematic II: Structuras e contacts (15 ECTS)                                            | B) Modul tematic II: Structuras e contacts (15 ECTS)                                            | B) Modul tematic II: Structuras e contacts (15 ECTS)                                            | B) Modul tematic II: Structuras e contacts (15 ECTS)   |
+|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+|                                                                                                 | Typ                                                                                             | ECTS                                                                                            | Sprache                                                                                         | Semester                                                                                        | Evaluation                                             |
+| Obligatorisch                                                                                   |                                                                                                 |                                                                                                 |                                                                                                 |                                                                                                 |                                                        |
+| Rätoromanisch heute                                                                             | V                                                                                               | 3                                                                                               | D                                                                                               | HS                                                                                              | Prüfung                                                |
+| Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste | Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste | Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste | Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste | Wahlpflichtbereich: - vier Seminare bzw. - drei Seminare und eine Prüfung zu einer Lektüreliste |                                                        |
+| Seminari da linguistica: Structuras rumantschas                                                 | S                                                                                               | 3                                                                                               | R                                                                                               | HS                                                                                              | b. Leist.                                              |
+| Seminari da linguistica: Il rumantsch en il contact cun il tu- destg                            | S                                                                                               | 3                                                                                               | R                                                                                               | FS                                                                                              | b. Leist.                                              |
+| Seminari da litteratura III                                                                     | S                                                                                               | 3                                                                                               | R                                                                                               | HS                                                                                              | b. Leist.                                              |
+| Seminari da litteratura IV                                                                      | S                                                                                               | 3                                                                                               | R                                                                                               | FS                                                                                              | b. Leist.                                              |
+| Lectura individuala: linguistica II                                                             | S                                                                                               | 3                                                                                               |                                                                                                 |                                                                                                 | Prüfung                                                |
+| Lectura individuala: litteratura II                                                             | S                                                                                               | 3                                                                                               | R                                                                                               |                                                                                                 | Prüfung                                                |
+| Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten                                                          | Evaluation/Note Durchschnitt der Noten                 |
+
+## 2.2.3.  C) Modul tematic III: Varietads e plurilinguitad - 15 ECTS
+
+## Ziele:
+
+Der sprachwissenschaftliche Teil dieses Moduls widmet sich der Soziolinguistik des Rätoromanischen. Die Vorlesung liefert einen Überblick über die Teilgebiete der Soziolinguistik und präsentiert  die  Forschungsliteratur  zu  verschiedenen  regionalen  und  lokalen  Situationen Graubündens, in  denen  Sprachrepertoires,  Sprachverwendungen  in  verschiedenen  Domänen und Situationen sowie Einstellungen zu den Sprachen dokumentiert sind. Ein Seminar befasst sich mit dem Erwerb des Rätoromanischen in Familie, Schule und lokaler Gemeinschaft unter den Bedingungen der Zwei- und Mehrsprachigkeit. Ein weiteres Seminar hat die aktuelle  gesprochene  Sprache  sowie  den  Sprach-  und  Varietätengebrauch  in  den  Medien zum Gegenstand (Radio/Fernsehen, Internet, SMS).
+
+Im literaturwissenschaftlichen Teil des Moduls setzen sich die Studierenden mit der Darstellung von Situationen der Mehrsprachigkeit und des Sprachkonflikts sowie mit der Mimesis sprachlicher Varietäten in der rätoromanischen Literatur auseinander.
+
+Entweder werden alle vier angebotenen Seminare (zwei sprachwissenschaftliche und zwei literaturwissenschaftliche)  besucht,  oder  es  werden  nur  drei  Seminare  besucht  und  dafür eine Prüfung zu einer (nach Wahl sprachwissenschaftlichen oder literarischen) Lektüreliste abgelegt,  oder  es  wird  neben  drei  rätoromanistischen  Seminaren  eine  Lehrveranstaltung eines  anderen Studienprogramms besucht, welche die zur Rätoromanistik erbrachten Studienleistungen ergänzt.
+
+Evaluation :  Alle  innerhalb  des  Studienprogramms  absolvierten  Studienleistungen  werden benotet. Bei der Teilnahme an Lehrveranstaltungen anderer Studienprogramme gilt die für diese festgelegte Art der Evaluation. Der Durchschnitt der erhaltenen Noten zählt als Modulnote.
+
+| C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   | C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   | C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   | C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   | C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   | C) Modul tematic III: Varietads e plurilinguitad (15 ECTS)   |
+|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
+|                                                              | Typ                                                          | ECTS                                                         | Sprache                                                      | Semester                                                     | Evaluation                                                   |
+| Obligatorisch                                                |                                                              |                                                              |                                                              |                                                              |                                                              |
+| Die Soziolinguistik des Rätoromani-                          | V                                                            | 3                                                            | D                                                            | HS                                                           | Prüfung                                                      |
+
+schen
+
+## Wahlpflichtbereich:
+
+- vier rätoromanistische Seminare bzw.
+- drei rätoromanistische Seminare und eine Prüfung zu einer Lektüreliste bzw.
+- drei rätoromanistische Seminare und eine Lehrveranstaltung ausserhalb des Studienprogramms
+
+| Seminari da linguistica: L'acquisiziun e la transmissiun dal rumantsch   | S   |   3 | R   | HS   | b. Leist.   |
+|--------------------------------------------------------------------------|-----|-----|-----|------|-------------|
+| Seminari da linguistica: La lingua discurrida e la lingua da las medias  | S   |   3 | R   | FS   | b. Leist.   |
+| Seminari da litteratura V                                                | S   |   3 | R   | HS   | b. Leist.   |
+| Seminari da litteratura VI                                               | S   |   3 | R   | FS   | b. Leist.   |
+| Lectura individuala: linguistica III                                     | S   |   3 |     |      | Prüfung     |
+
+| Lectura individuala: litteratura III                | S 3                    |                        | R                      |                        | Prüfung                               |
+|-----------------------------------------------------|------------------------|------------------------|------------------------|------------------------|---------------------------------------|
+| Lehrveranstaltung ausserhalb des Studienprogramms I | S                      | 3                      | R                      | HS/FS                  | Prüfung, b. Leist. oder n.b. Leist. 1 |
+| Evaluation/Note                                     | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten                |
+
+## 2.2.4.  D) Modul per cumpetenzas generalas ed approfundaziuns - 15 ECTS
+
+## Ziele:
+
+Im  Modul D ergänzen und vertiefen die Studierenden einerseits fachbezogene Kompetenzen. Sprachpraktisch ist ein Seminar ausgerichtet, das der Reflektion zu den Normen rätoromanischer Schriftvarietäten und der Perfektionierung des schriftlichen Ausdrucks dient. Mit dem  Verfassen  einer  Seminararbeit  vertiefen  die  Studierenden  ein  Thema,  das  in  einem Seminar behandelt wurde.
+
+Die  Lehrveranstaltungen  des  Wahlpflichtbereichs,  die  in  anderen  Studienprogrammen  besucht werden, sind je nach Studienprofil für den Erwerb von Grund- oder Ergänzungskompetenzen zu nutzen. Studierende, die im Hauptprogramm kein Sprachfach studieren, absolvieren  eine  Einführung  in  die  Linguistik,  möglichst  im  ersten  Studienjahr.  Wer  im  Hauptprogramm ein Sprachfach studiert, besucht im Wahlpflichtbereich andere Lehrveranstaltungen ausserhalb des  Studienprogramms, welche die zur  Rätoromanistik  erbrachten  Studienleistungen ergänzen. Eine bereits im Rahmen des Moduls C besuchte Lehrveranstaltung ausserhalb des Studienprogramms kann im Modul D nicht noch einmal belegt werden.
+
+Evaluation :  Alle  innerhalb  des  Studienprogramms  absolvierten  Studienleistungen  werden benotet. Bei der Teilnahme an Lehrveranstaltungen anderer Studienprogramme gilt die für diese festgelegte Art der Evaluation. Der Durchschnitt der erhaltenen Noten zählt als Modulnote.
+
+| D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  | D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  | D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  | D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  | D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  | D) Modul per cumpetenzas generalas ed approfundaziuns (15 ECTS)                                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                  | Typ                                                                                                                                              | ECTS                                                                                                                                             | Sprache                                                                                                                                          | Semester                                                                                                                                         | Evaluation                                                                                                                                       |
+| Obligatorisch                                                                                                                                    |                                                                                                                                                  |                                                                                                                                                  |                                                                                                                                                  |                                                                                                                                                  |                                                                                                                                                  |
+| Normas rumantschas en la pratica scritta                                                                                                         | S                                                                                                                                                | 3                                                                                                                                                | R                                                                                                                                                | FS                                                                                                                                               | b. Leist.                                                                                                                                        |
+| Seminararbeit                                                                                                                                    | SA                                                                                                                                               | 6                                                                                                                                                | R                                                                                                                                                |                                                                                                                                                  | b. Leist.                                                                                                                                        |
+| Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms | Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms | Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms | Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms | Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms | Wahlpflichtbereich: zwei Lehrveranstaltungen zu linguistischen Grundlagen oder zwei andere Lehrver- anstaltungen ausserhalb des Studienprogramms |
+| Einführung in die Linguistik I (Germanistik)                                                                                                     | S                                                                                                                                                | 3                                                                                                                                                | D                                                                                                                                                | HS                                                                                                                                               | Prüfung                                                                                                                                          |
+| Einführung in die Linguistik II (Germanistik)                                                                                                    | S                                                                                                                                                | 3                                                                                                                                                | D                                                                                                                                                | FS                                                                                                                                               | Prüfung                                                                                                                                          |
+| Linguistische Grundlagen I (DaF)                                                                                                                 | S                                                                                                                                                | 3                                                                                                                                                | D                                                                                                                                                | HS                                                                                                                                               | Prüfung                                                                                                                                          |
+| Linguistische Grundlagen II (DaF)                                                                                                                | S                                                                                                                                                | 3                                                                                                                                                | D                                                                                                                                                | FS                                                                                                                                               | Prüfung                                                                                                                                          |
+
+| Lehrveranstaltung ausserhalb des Studienprogramms II   | S                      | 3                      | D oder F               | HS/FS                  | Prüfung, b. Leist. oder n.b. Leist. 2   |
+|--------------------------------------------------------|------------------------|------------------------|------------------------|------------------------|-----------------------------------------|
+| Lehrveranstaltung ausserhalb des Studienprogramms III  | S                      | 3                      | D oder F               | HS/FS                  | Prüfung, b. Leist. oder n.b. Leist. 3   |
+| Evaluation/Note                                        | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten | Durchschnitt der Noten                  |

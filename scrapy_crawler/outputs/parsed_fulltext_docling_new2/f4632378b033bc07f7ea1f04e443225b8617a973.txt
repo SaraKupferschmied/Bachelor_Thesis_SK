@@ -1,0 +1,150 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T03:00:16.061Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Philosophy_Studienplan_MA_Nebenprogramm_30_ETCS__f4632378b033bc07f7ea1f04e443225b8617a973",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "f4632378b033bc07f7ea1f04e443225b8617a973",
+  "program_key": "faculty of humanities|master|30|philosophy",
+  "source_url": "https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/Masterreglement%20Nebenprogramm%2012.6.2018.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Philosophy_Studienplan_MA_Nebenprogramm_30_ETCS__f4632378b033bc07f7ea1f04e443225b8617a973.pdf",
+  "sha256": "1694c2b64d9219f417d3f04b18d84d472fdf32772e8262b43f0b9da01c3b6194",
+  "fetched_at": "2026-05-21T16:05:27.075Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/philosophie/de/assets/public/files/Reglemente/Master/Masterreglement%20Nebenprogramm%2012.6.2018.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Philosophy",
+  "programme_name_de": "Philosophie",
+  "programme_name_fr": "Philosophie",
+  "programme_url": "https://studies.unifr.ch/en/master/phi/philosophy",
+  "curriculum_url": "http://studies.unifr.ch/go/w99Kh"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Master of Arts
+
+## Philosophie
+
+## Nebenprogramm
+
+## Studienführer
+
+Dieses Reglement betrifft Studierende, welche ihr Masterstudium im Wintersmester 2006/07 begonnen haben. Die neuen Zulassungsregeln zum Master sind nur ab Herbstsemester 2018 gültig.
+
+Ratifiziert durch die Studien- und Examenskommission am 23.11.2006 / Stand am 07.08.2009 / abgeändert am 12.06.2018
+
+## NEBENPROGRAMM: PHILOSOPHIE
+
+Um das Nebenprogramm « Philosophie » zu bestehen, muss man 30 ECTS-Punkte validieren.
+
+Die Studierenden müssen weitere 60 ECTS-Punkte in einem Vertiefungsprogramm validieren, gemäss den Bestimmungen im Anhang zum Masterreglement vom 11. Mai 2006.
+
+Dieses Dokument beschreibt den Aufbau des Studiums im Nebenprogramm « Philosophie ». Für die Vertiefungsprogramme wurden besondere Studienpläne erstellt, die bei den betreffenden Departementen erhältlich sind.
+
+## I. ALLGEMEINES
+
+## I.1 Studium
+
+Das Nebenprogramm zielt darauf ab, das Verständnis philosophischer Probleme zu vertiefen, die philosophische Argumentation zu beherrschen und sich ein möglichst breites Wissen in Geschichte der Philosophie anzueignen. Der Studierende vertieft sein Verständnis der philosophischen Texte und Themen, indem er Seminare und Vorlesungen besucht, in welchen verschiedene Texte und Autoren, insbesondere der abendländischen philosophischen Tradition, behandelt werden. Er erweitert seine argumentativen Fähigkeiten, indem er Seminararbeiten verfasst und sich im Rahmen der Seminare an der Diskussion beteiligt.
+
+## I.2 Zulassungsbestimmungen
+
+Folgende Personen werden zum Nebenprogramm « Philosophie » zugelassen:
+
+Studierende eines Bachelordiploms einer Schweizer Universität:
+
+## Zulassung ohne Bedingungen
+
+Bachelordiplom in Philosophie im Hauptfach oder im Nebenfach (mindestens 60 ECTS müssen in Philosophie erworben sein)
+
+## Zulassung mit Vorbedingungen
+
+Studierende mit einem Bachelordiplom einer Schweizer Universität mit weniger als 60 ECTS in Philosophie oder Studierende mit einem Bachelordiplom in einer anderen Studienrichtung werden nach Prüfung des Dossiers 'mit Vorstufe' und/oder mit einer Ergänzung von maximal 60 ECTS zugelassen.
+
+## Studierende eines Bachelordiploms einer ausländischen Universität:
+
+Die Zulassung ist nach Überprüfung des Dossiers möglich
+
+## I.3 Examen und Validierung der ECTS-Punkte
+
+Die ECTS-Punkte werden ausschliesslich auf der Grundlage von evaluierten und für genügend befundenen Studienleistungen vergeben.  Die Evaluation kann sich auf Leistungen beziehen, die im Rahmen von Unterrichtseinheiten desselben Moduls erbracht wurden.
+
+Das Nebenprogramm ist bestanden, wenn 30 ECTS-Punkte validiert wurden. Die ECTS-Punkte, die für ein Modul verlangt werden (siehe unten § II.1), werden angerechnet, sobald nachgewiesen ist, dass der Studierende alle Anforderungen erfüllt hat, die im Studienplan für das entsprechende Modul vorgesehen sind.
+
+## Unterrichtseinheit
+
+Die  ECTS-Punkte  messen  die  gesamte  investierte  Arbeit  des  Studierenden  (einschliesslich  Präsenzzeiten  in  Vorlesungen/Seminare,  sowie  die  verlangte selbständige Arbeit ausserhalb der Veranstaltungen). 1 ECTS-Punkt entspricht ungefähr 30 Arbeitsstunden.
+
+| Unterrichtseinheit                                  | Erhaltene ECTS- Punkte   | Unterrichtseinheit                                           | Erhaltene ECTS-Punkte   |
+|-----------------------------------------------------|--------------------------|--------------------------------------------------------------|-------------------------|
+| Vorlesung evaluiert durch einen schriftliche Arbeit | 6 ECTS                   |                                                              |                         |
+| Aktive Teilnahme* an einem Masterseminar            | 3 ECTS                   | Aktive Teilnahme* an                                         |                         |
+| Seminararbeit im Rahmen eines Masterseminars        | 6 ECTS                   | einem Masterseminar und Verfassen einer schriftlichen Arbeit | 9 ECTS                  |
+
+## Notenskala
+
+Eine Evaluation ist bestanden, wenn die Unterrichtsperson zum Urteil gelangt, dass der Kandidat die verlangten Kenntnisse erworben hat. Die Notenskala sieht wie folgt aus:
+
+- 6 Summa cum laude
+- 5.5 Insigni cum laude
+- 5.0 Magna cum laue
+- 4.5 Cum laude
+- 4 Rite
+
+Alle schriftlichen Arbeiten werden benotet. Aktive Teilnahmen werden nicht benotet. Alle erhaltenen Noten müssen genügend sein, Kompensation ist also nicht möglich. Eine ungenügende schriftliche Arbeit kann höchstens zwei Mal wiederholt werden.
+
+## I.4 Unterrichtssprache
+
+Der Unterricht findet auf Französisch und auf Deutsch statt. Das Nebenprogramm kann auf Deutsch, Französisch oder in beiden Sprachen studiert werden. Es ist nicht möglich, im Nebenprogramm einen Vermerk « zweisprachig » zu erhalten.
+
+## II. AUFBAU DES STUDIUMS
+
+Folgende Gebiete können ihm Rahmen des Nebenprogramms « Philosophie » studiert werden: antike Philosophie, mittelalterliche Philosophie, moderne und zeitgenössische Philosophie, Sprachphilosophie, Philosophie des Geistes  und der Humanwissenschaften, Epistemologie und Metaphysik, Ethik und politische Philosophie, Kulturphilosophie und Ästhetik.
+
+| Schwerpunkte               | Abkürzung   | Gebiete                                                                | Abkürzung   |
+|----------------------------|-------------|------------------------------------------------------------------------|-------------|
+| Geschichte der Philosophie | HPH         | Antike Philosophie                                                     | pan         |
+| Geschichte der Philosophie | HPH         | Philosophie des Mittelalters                                           | pme         |
+| Geschichte der Philosophie | HPH         | Neuzeitliche und zeitgenössische Philosophie                           | pmc         |
+| Systematische Philosophie  | PHS         | Sprachphilosophie, Philosophie des Geistes und der Humanwissenschaften | leh         |
+| Systematische Philosophie  | PHS         | Erkenntnistheorie und Metaphysik                                       | eme         |
+| Systematische Philosophie  | PHS         | Ethik und politische Philosophie                                       | epp         |
+| Systematische Philosophie  | PHS         | Kulturphilosophie und Ästhetik                                         | pce         |
+
+## II.1 Obligatorische Module
+
+## Grundlagenmodul (HPH und PHS) - 12 ECTS-Punkte
+
+Unterrichtssprache: Französisch und/oder Deutsch
+
+- a) 1 Semestervorlesung evaluiert durch eine schriftliche Arbeit im Schwerpunkt HPH [C]. 2 Wochenstunden/Semester. Wert: 6 ECTS-Punkte. Schriftliche Arbeit 6 ECTS-Punkte. (Thema der schriftlichen Arbeit im Zusammenhang mit der Vorlesung in Vereinbarung mit dem betreffenden Professor).
+- b) 1 Semestervorlesung evaluiert durch eine schriftliche Arbeit im Schwerpunkt PHS [C]. 2 Wochenstunden/Semester. Wert: 6 ECTS-Punkte. Schriftliche Arbeit 6 ECTS-Punkte. (Thema der schriftlichen Arbeit im Zusammenhang mit der Vorlesung in Vereinbarung mit dem betreffenden Professor).
+
+## Fortgeschrittenes Modul (HPH und PHS) - 18 ECTS-Punkte
+
+Unterrichtssprache: Französisch und/oder Deutsch
+
+- a) 1  Masterseminar  mit  aktiver  Teilnahme  und  schriftlichen  Arbeit  im  Schwerpunkt  HPH  [S]. 2  Wochenstunden/Semester.  Wert:  9  ECTS-Punkte  (aktive Teilnahme 3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+- b) 1  Masterseminar  mit  aktiver  Teilnahme  und  schriftlichen  Arbeit  im  Schwerpunkt  PHS  [S]. 2  Wochenstunden/Semester.  Wert:  9  ECTS-Punkte  (aktive Teilnahme 3 ECTS-Punkte; schriftliche Arbeit 6 ECTS-Punkte).
+
+## Schematische Zusammenfassung der Module:
+
+Die Durchschnittsnote der 2 Module ist auf dem Masterdiplom ersichtlich:
+
+| Module                                                                     | Unterrichtseinheiten                                           | ECTS-Punkte pro Modul   | Teilnoten                               |
+|----------------------------------------------------------------------------|----------------------------------------------------------------|-------------------------|-----------------------------------------|
+| Grundlagenmodul (HPH und PHS) (in den Gebieten: pan, pme oder pmc)         | 1 Semestervorlesung evaluiert durch eine schriftlicher Arbeit  | 12 ECTS                 | Durchschnitt aus den 2 erhaltenen Noten |
+| (in den Gebieten: leh, epp, pce oder eme)                                  | 1 Semestervorlesung evaluiert durch eine schriftlicher Arbeit  | 12 ECTS                 | Durchschnitt aus den 2 erhaltenen Noten |
+| Fortgeschrittenes Modul (HPH und PHS) (in den Gebieten: pan, pme oder pmc) | 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit | 18 ECTS                 | Durchschnitt aus den 2 erhaltenen Noten |
+| (in den Gebieten: leh, epp, pce oder eme)                                  | 1 Masterseminar mit aktiver Teilnahme und schriftlicher Arbeit | 18 ECTS                 | Durchschnitt aus den 2 erhaltenen Noten |
+
+Total
+
+30 ECTS
+
+N.B. Für die allgemeinen Bedingungen in Bezug auf das Masterstudium müssen sich die Studierenden auf das Reglement der Philosophischen Fakultät vom 11. Mai 2006 beziehen.

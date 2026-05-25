@@ -29,6 +29,24 @@ interface TranslationDictionary {
   deletePlan: string;
   moreCourses: (count: number) => string;
   languageLabel: string;
+  chatRoleUser: string;
+  chatRoleAssistant: string;
+  thinking: string;
+  openSource: string;
+  toolsUsed: string;
+  requestFailed: string;
+  answerFailed: string;
+  studyProgramDialogTitle: string;
+  studyProgramDialogDescription: string;
+  studyProgramLabel: string;
+  studyProgramPlaceholder: string;
+  targetDurationLabel: string;
+  cancel: string;
+  createStudyPlan: string;
+  studyProgramValidationError: string;
+  studyProgramPlanningFailed: string;
+  studyProgramPlanningFallback: string;
+  disclaimer: string;
   options: OptionTranslation[];
   plans: PlanTranslation[];
 }
@@ -49,6 +67,24 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
     deletePlan: 'Plan löschen',
     moreCourses: (count) => `+${count} weitere Kurse`,
     languageLabel: 'Sprache',
+    chatRoleUser: 'Du',
+    chatRoleAssistant: 'Chatbot',
+    thinking: 'Denke nach...',
+    openSource: 'Quelle öffnen',
+    toolsUsed: 'Verwendete Tools:',
+    requestFailed: 'Die Chatbot-Anfrage ist fehlgeschlagen.',
+    answerFailed: 'Entschuldigung, ich konnte gerade keine Antwort generieren.',
+    studyProgramDialogTitle: 'Gesamten Studienplan planen',
+    studyProgramDialogDescription: 'Nenne mir dein Studienprogramm und die gewünschte Studiendauer und ich erstelle einen ersten Entwurf für dich.',
+    studyProgramLabel: 'Studienprogramm',
+    studyProgramPlaceholder: 'z.B. Wirtschaftsinformatik',
+    targetDurationLabel: 'Zieldauer in Semestern',
+    cancel: 'Abbrechen',
+    createStudyPlan: 'Studienplan erstellen',
+    studyProgramValidationError: 'Bitte gib ein Studienprogramm und eine gültige Anzahl Semester ein.',
+    studyProgramPlanningFailed: 'Die Anfrage zur Studienplan-Erstellung ist fehlgeschlagen.',
+    studyProgramPlanningFallback: 'Entschuldigung, ich konnte den Studienplan gerade nicht erstellen.',
+    disclaimer: 'Hinweis: Dies ist eine Chatbot-Anwendung. Sie kann falsche Ergebnisse erzeugen; überprüfe die Informationen und nutze deinen eigenen Verstand.',
     options: [
       {
         icon: '📅',
@@ -108,6 +144,24 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
     deletePlan: 'Supprimer le plan',
     moreCourses: (count) => `+${count} autres cours`,
     languageLabel: 'Langue',
+    chatRoleUser: 'Toi',
+    chatRoleAssistant: 'Chatbot',
+    thinking: 'Réflexion en cours...',
+    openSource: 'Ouvrir la source',
+    toolsUsed: 'Outils utilisés :',
+    requestFailed: 'La requête au chatbot a échoué.',
+    answerFailed: 'Désolé, je n’ai pas pu générer de réponse pour le moment.',
+    studyProgramDialogTitle: 'Planifier un programme d’études complet',
+    studyProgramDialogDescription: 'Indique ton programme d’études et la durée souhaitée, je vais créer une première proposition pour toi.',
+    studyProgramLabel: 'Programme d’études',
+    studyProgramPlaceholder: 'p. ex. Informatique de gestion',
+    targetDurationLabel: 'Durée cible en semestres',
+    cancel: 'Annuler',
+    createStudyPlan: 'Créer le plan d’études',
+    studyProgramValidationError: 'Indique un programme d’études et un nombre de semestres valide.',
+    studyProgramPlanningFailed: 'La demande de planification du programme d’études a échoué.',
+    studyProgramPlanningFallback: 'Désolé, je n’ai pas pu créer le plan d’études pour le moment.',
+    disclaimer: 'Remarque : ceci est une application de chatbot. Elle peut produire des résultats incorrects ; vérifie les informations et utilise ton propre jugement.',
     options: [
       {
         icon: '📅',
@@ -167,6 +221,24 @@ const TRANSLATIONS: Record<LanguageCode, TranslationDictionary> = {
     deletePlan: 'Delete plan',
     moreCourses: (count) => `+${count} more courses`,
     languageLabel: 'Language',
+    chatRoleUser: 'You',
+    chatRoleAssistant: 'Chatbot',
+    thinking: 'Thinking...',
+    openSource: 'Open source',
+    toolsUsed: 'Tools used:',
+    requestFailed: 'The chatbot request failed.',
+    answerFailed: 'Sorry, I could not generate an answer right now.',
+    studyProgramDialogTitle: 'Plan complete study program',
+    studyProgramDialogDescription: 'Tell me your study program and target duration and I will create a frist draft for you.',
+    studyProgramLabel: 'Study program',
+    studyProgramPlaceholder: 'e.g. Business Informatics',
+    targetDurationLabel: 'Target duration in semesters',
+    cancel: 'Cancel',
+    createStudyPlan: 'Create study plan',
+    studyProgramValidationError: 'Please enter a study program and a valid number of semesters.',
+    studyProgramPlanningFailed: 'The study program planning request failed.',
+    studyProgramPlanningFallback: 'Sorry, I could not create the study program plan right now.',
+    disclaimer: 'Disclaimer: This is a chatbot application. It may produce incorrect results; check the produced information and think for yourself.',
     options: [
       {
         icon: '📅',

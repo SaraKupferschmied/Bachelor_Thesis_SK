@@ -63,15 +63,12 @@ async function run() {
       program_id SERIAL PRIMARY KEY,
       name VARCHAR(255) NOT NULL,
       degree_level VARCHAR(20) NOT NULL CHECK (degree_level IN ('Bachelor','Master','Doctorate')),
-      max_duration_semesters INT,
+      semesters INT,
       total_ects FLOAT,
-      min_elective_ects FLOAT,
-      max_elective_ects FLOAT,
+      elective_ects TEXT,
       study_start VARCHAR(10) CHECK (study_start IN ('Autumn','Spring','Both')),
       faculty_id INT NOT NULL REFERENCES Faculty(faculty_id),
       director INT NULL REFERENCES Professor(prof_id),
-      source_hints	jsonb,
-      source_faculty_key	VARCHAR(32),	
       source_last_page_url	text,
       name_en TEXT,
       name_de TEXT,
@@ -81,12 +78,13 @@ async function run() {
     `CREATE UNIQUE INDEX IF NOT EXISTS uq_studyprogram_natural
       ON studyprogram (name, degree_level, total_ects);`,
 
-    `CREATE INDEX IF NOT EXISTS idx_studyprogram_source_faculty_key
-      ON studyprogram (source_faculty_key);`,
+    `ALTER TABLE StudyProgram
+      ADD COLUMN IF NOT EXISTS elective_ects TEXT;`,
 
-    `CREATE INDEX IF NOT EXISTS idx_studyprogram_source_hints_gin
-      ON studyprogram
-      USING GIN (source_hints);`,
+    `ALTER TABLE StudyProgram
+      DROP COLUMN IF EXISTS min_elective_ects,
+      DROP COLUMN IF EXISTS max_elective_ects,
+      DROP COLUMN IF EXISTS source_hints;`,
 
     // 4) Course depends on Faculty + Domain
     `CREATE TABLE IF NOT EXISTS Course (
@@ -207,7 +205,9 @@ async function run() {
       staging_id SERIAL PRIMARY KEY,
       program_id INT NOT NULL REFERENCES StudyProgram(program_id) ON DELETE CASCADE,
       raw_text TEXT NOT NULL,
+      reference_type VARCHAR(20) NOT NULL DEFAULT 'course' CHECK (reference_type IN ('course','module')),
       extracted_code VARCHAR NULL,
+      extracted_module TEXT NULL,
       extracted_title TEXT NULL,
       inferred_type VARCHAR(20) NULL CHECK (inferred_type IN ('Mandatory','Elective')),
       source_doc_id INT NULL,
@@ -216,8 +216,14 @@ async function run() {
       created_at TIMESTAMP DEFAULT now()
     );`,
 
+    `ALTER TABLE programCourseStaging
+      ADD COLUMN IF NOT EXISTS reference_type VARCHAR(20) NOT NULL DEFAULT 'course' CHECK (reference_type IN ('course','module')),
+      ADD COLUMN IF NOT EXISTS extracted_module TEXT;`,
+
+    `DROP INDEX IF EXISTS uq_programCourseStaging_conflict;`,
+
     `CREATE UNIQUE INDEX IF NOT EXISTS uq_programCourseStaging_conflict
-      ON programCourseStaging (program_id, extracted_code, source_doc_id, page_no);`
+      ON programCourseStaging (program_id, source_doc_id, page_no, md5(raw_text), COALESCE(extracted_code, ''), COALESCE(extracted_module, ''));`
 
   ];
 

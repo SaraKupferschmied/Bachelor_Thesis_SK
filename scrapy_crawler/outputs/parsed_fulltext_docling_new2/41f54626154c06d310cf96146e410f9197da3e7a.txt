@@ -1,0 +1,101 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:32:25.576Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Physics__valuation_en_physique_PH_41f54626154c06d310cf96146e410f9197da3e7a",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "41f54626154c06d310cf96146e410f9197da3e7a",
+  "program_key": "faculty of science and medicine|bachelor|150|physics",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_PH_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Bachelor_150_Physics__valuation_en_physique_PH_41f54626154c06d310cf96146e410f9197da3e7a.pdf",
+  "sha256": "9c01c9d8c97f690f7b4201ba37b5321332c512a270688034d155e079a03b1a1a",
+  "fetched_at": "2026-05-21T16:05:17.414Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_PH_fr.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 150,
+  "programme_name_en": "Physics",
+  "programme_name_de": "Physik",
+  "programme_name_fr": "Physique",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/sci/physics",
+  "curriculum_url": "http://studies.unifr.ch/go/0fTFn"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d ' évaluation des Unités d ' enseignement (UE) sous la responsabilité du Département de physique. Elle complète les différents plans d ' études où apparaissent des UE avec le code ' SPH.0 nnnn'.
+
+## 2 Évaluations des unités d ' enseignement
+
+L ' évaluation des exercices, des travaux pratiques et des proséminaires se fait suivant des critères (nombre de séries d ' exercices rendues, nombre d ' expériences réussies, etc.) énoncés en début de semestre. L ' évaluation satisfaisante des exercices est un prérequis pour accéder à l ' épreuve du cours correspondant. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée  dans  la  présente  annexe.  Les  épreuves  se  déroulent,  en  général,  durant  trois  sessions d ' examens (hiver, été, automne). Pour chaque épreuve, l ' étudiant · e s ' inscrit dans les délais prescrits selon la procédure on-line accessible dans le portail d ' étudiant·e·s MyUniFR (https://my.unifr.ch/). L ' épreuve  porte  sur  la  matière  de  l ' UE  telle  qu ' elle  a  été  enseignée  la  dernière  fois.  En  cas d ' exception, celle-ci sera communiquée par le Département et/ou par l ' enseignant · e responsable. L ' échelle des notes s ' étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d ' annexe aux plans d ' études suivants 1 :
+
+- Plan d ' études pour l ' obtention du Bachelor of Science en physique et du Master of Science in Physics
+- Plan  d ' études  des  branches  propédeutiques  et  complémentaires  offertes  par  la  Faculté  des sciences  et  de  médecine  dans  le  cadre  du  Bachelor  of  Science  ou  d ' autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d'études des branches complémentaires +30 ECTS en Physique, Biologie, Mathématiques, Informatique, Chimie, Géographie, Sciences du sport offertes par la Faculté des sciences et de médecine.
+- Plan d ' études pour l ' obtention du Bachelor of Science pour la formation scientifique dans les branches enseignables au degré secondaire I (BSc\_SI).
+- Plan d ' études de la branche Sciences naturelles, pour les étudiant · e · s de la Faculté des lettres et des sciences humaines, de la Faculté des sciences de l'éducation et de la formation et de la Faculté de théologie souhaitant obtenir le Bachelor of Arts pour la formation scientifique dans les branches enseignables au degré secondaire I (BA\_SI)
+
+Il est soumis au Règlement du 30 mai 2022 pour l ' obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine.
+
+Tous ces documents sont accessibles à partir de http://www.unifr.ch/scimed/plans.
+
+## 4 Modalités d ' évaluation
+
+Pour les UE de type « cours et exercices », l 'évaluation satisfaisante des exercices peut être exigée pour accéder à l'épreuve du cours correspondant. Dans ce cas, les exercices sont évalués selon les critères fixés et communiqués en début de semestre. Les exercices peuvent aussi être examinés lors de l ' épreuve du cours correspondant. Les travaux pratiques sont également évalués selon les critères fixés et communiqués en début de semestre. Avec l ' accord écrit de l ' étudiant · e, il peut être procédé à un changement des modalités d ' examen. Ceci s ' applique en particulier lorsqu ' un · e étudiant · e est seul · e à se présenter à une épreuve écrite. Le Département responsable peut proposer à l ' étudiant·e (réponse écrite requise) que l ' épreuve écrite soit remplacée par une épreuve orale.
+
+1 Des UE de la physique peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+| Code                  | Unité d ' enseignement                                               |   ECTS | Modalités d ' évaluation                                                                                                  |
+|-----------------------|----------------------------------------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------|
+| SPH.01001 à SPH.01016 | Travaux pratiques de physique pour débutant · e·s                    |        | critères d ' évaluation communiqués en début de semestre                                                                  |
+| SPH.01103             | Physique propédeutique I (cours et exercices)                        |      5 | épreuve écrite de 120 min. portant sur les unités SPH.01103 et SPH.01203, 1 seule note est                                |
+| SPH.01203             | Physique propédeutique II (cours et exercices)                       |        | 5 attribuée. Si le plan d'études le prévoit, épreuve écrite de 60 min. ou épreuve orale de 30 min. portant sur SPH.01103. |
+| SPH.01105             | Physique I (cours et exercices)                                      |        | 5 épreuve écrite de 120 min. portant sur les unités                                                                       |
+| SPH.01205             | Physique II (cours et exercices)                                     |      5 | SPH.01105 et SPH.01205, 1 seule note est attribuée                                                                        |
+| SPH.01301             | Aspects théoriques de physique fondamentale I                        |      4 | épreuve orale de 30 min.                                                                                                  |
+| SPH.01401             | Aspects théoriques de physique fondamentale II                       |      4 | épreuve orale de 30 min.                                                                                                  |
+| SPH.01500             | Physique pour médecins                                               |      6 | voir les Modalités d'évaluation des UE du Bachelor en médecine, épreuve SMH.110E                                          |
+| SPH.02001             | Travaux pratiques de physique pour avancé · e · s                    |        | rapports écrits. Le délai de remise du rapport écrit d'une expérience est de 6 mois à partir de                           |
+| à SPH.02007 SPH.02101 | Physique moderne                                                     |      7 | son attribution. épreuve écrite de 120 min. ou orale de 30 min. à fixer en début de semestre                              |
+| SPH.02203             | Introduction à la physique des particules et à la physique nucléaire |    3.5 | épreuve orale de 20 min.                                                                                                  |
+| SPH.02402             | Thermodynamique                                                      |    3.5 | épreuve orale de 20 min.                                                                                                  |
+| SPH.02501             | Electrodynamique (cours et exercices)                                |    3.5 | épreuve orale de 30 min.                                                                                                  |
+| SPH.02601             | Mécanique quantique                                                  |      7 | épreuve orale de 30 min.                                                                                                  |
+| SPH.02701             | Mécanique classique (cours et exercices)                             |    3.5 | épreuve orale de 30 min.                                                                                                  |
+| SPH.02801             | Méthodes mathématiques de la physique                                |      7 | épreuve orale de 30 min.                                                                                                  |
+| SPH.03003             | Proséminaire                                                         |      1 | participation obligatoire aux deux unités                                                                                 |
+| SPH.03004             | Proséminaire                                                         |      1 | SPH.03003, SPH.03004, 1 présentation orale                                                                                |
+| SPH.03008             | Initiation à la recherche                                            |      6 | son attribution. rapport écrit et présentation orale                                                                      |
+| SPH.03104             | Physique atomique (cours                                             |        | épreuve orale de 20 min.                                                                                                  |
+|                       | et exercices)                                                        |    3.5 |                                                                                                                           |
+| SPH.03106             | Méthodes numériques de la physique (cours et exercices)              |    3.5 | épreuve orale de 20 min.                                                                                                  |
+|                       | Mécanique statistique (cours et                                      |        | épreuve orale de 20                                                                                                       |
+| SPH.03505             | exercices)                                                           |    3.5 | min.                                                                                                                      |
+|                       | Physique du solide                                                   |        | min. min.                                                                                                                 |
+| SPH.03601             |                                                                      |      7 | épreuve orale de 30                                                                                                       |
+| SPH.04003             | Project                                                              |      5 | written report                                                                                                            |
+| SPH.04004             | Colloquia                                                            |    0.5 | compulsory attendance, written summary                                                                                    |
+| SPH.04007             | Proseminars                                                          |      1 | compulsory attendance, 1 oral presentation                                                                                |
+| SPH.04008             | Colloquia                                                            |    0.5 | compulsory attendance, written summary                                                                                    |
+| SPH.04009             | Proseminars                                                          |      1 | compulsory attendance, 1 oral presentation                                                                                |
+| SPH.04010             | Project presentations                                                |      1 | compulsory attendance, 1 oral presentation                                                                                |
+
+| SPH.04106   | X-ray spectroscopy with synchrotron radiation (lecture and exercises)   |   3.5 | 20 min. oral exam                                        |
+|-------------|-------------------------------------------------------------------------|-------|----------------------------------------------------------|
+| SPH.04204   | Modern optics (lecture and exercises)                                   |   3.5 | 20 min. oral exam                                        |
+| SPH.04303   | Magnetism and quantum fluids (lecture and exercises)                    |   3.5 | 20 min. oral exam                                        |
+| SPH.04405   | Soft condensed matter physics (lecture and exercises)                   |   3.5 | 20 min. oral exam                                        |
+| SPH.04608   | Many-body physics (lecture and exercises)                               |   3.5 | 20 min. oral exam                                        |
+| SPH.04609   | Quantum Field Theory (lecture and exercises)                            |   3.5 | 20 min. oral exam or 60 min. written exam                |
+| SPH.05001   | Master thesis                                                           |    36 | written report (thesis) and oral presentation of 30 min. |

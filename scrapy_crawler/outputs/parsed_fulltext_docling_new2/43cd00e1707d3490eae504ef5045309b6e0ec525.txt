@@ -1,0 +1,198 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:34:01.397Z",
+  "title": "matched_Faculty_of_Science_and_Medicine_Master_90_Sport_Sciences__valuation_en_sciences_du_sport_SP_SM_43cd00e1707d3490eae504ef5045309b6e0ec525",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "43cd00e1707d3490eae504ef5045309b6e0ec525",
+  "program_key": "faculty of science and medicine|master|90|sport sciences",
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SP-SM_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Science_and_Medicine_Master_90_Sport_Sciences__valuation_en_sciences_du_sport_SP_SM_43cd00e1707d3490eae504ef5045309b6e0ec525.pdf",
+  "sha256": "409a72e184b3b7f2a15f9e37d339adc687519f65903ef29e6fce522c896747d4",
+  "fetched_at": "2026-05-21T16:05:14.872Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_SP-SM_fr.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Sport Sciences",
+  "programme_name_de": "Sportwissenschaften",
+  "programme_name_fr": "Sciences du sport",
+  "programme_url": "https://studies.unifr.ch/en/master/medspo/sportsciences",
+  "curriculum_url": "http://studies.unifr.ch/go/z3FE1"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+Annexe aux plans d'études de la Faculté des sciences et de médecine
+
+Modalités d'évaluation des UE des sciences du sport
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+迈悦
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des Unités d'enseignement (UE) en sport sous la responsabilité de la section Médecine. Elle complète les différents plans d'études où apparaissent des UE avec le code ' SSP.0 nnnn' ou ' SSM.0 nnnn'.
+
+## 2 Évaluations des unités d'enseignement
+
+D 'une mani è re générale, chaque unité d'enseignement (UE) est évaluée individuellement. Les épreuves se déroulent durant trois sessions d'examens ( hiver , été, automne) à l'exception des épreuves  pratiques,  évaluées  en  principe  à  la  fin  du  cours.  L'étudiant ·e,  sauf  autorisation spéciale, doit s'être présenté · e à l'épreuve du cours de niveau II avant de suivre le cours de niveau III.
+
+Pour chaque épreuve, l'étudiant ·e s'inscrit dans les délais prescrits au Décanat de la Faculté des sciences et de médecine par le portail d'étudiant·e·s MyUniFR (https://my.unifr.ch) .  L'épreuve porte sur la matière de l'UE telle qu'elle a été enseignée la dernière fois. En cas d'exception, celleci sera communiquée par le Département et/ou par l'enseignant ·e responsable. L'échelle des notes s'étend de 6 (meilleure note) à 1 (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois au plus tôt lors de la session d'examens suivante.
+
+## Formation scientifique
+
+L'évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans la présente annexe. L'admission aux épreuves de chaque unité est conditionnée par des critères fixés et remis aux étudiant·e·s au début du cours. Une note sera attribuée.
+
+L'évaluation des séminaires se fait sous forme de présentation de travaux et d'épreuves écrites. Une note est attribuée.
+
+L'évaluation des workshops se fait suivant des critères (nombre de rapports rendus, travail écrit, présentation de travaux, etc.) communiqués en début de semestre. Les travaux de workshop seront remis pour évaluation aux dates fixées par les enseignant·e·s, mais au plus tard à la fin du semestre correspondant. Une note sera attribuée.
+
+Si la note finale d'une UE est composée de plusieurs épreuves d'évaluation, l'étudiant ·e doit se présenter à toutes les épreuves d'évaluation pour recevoir sa note finale. En cas d'absence non justifiée à l'une des épreuves d'évaluation ou en cas de non -remise d'un travail écrit aux dates fixées par les enseignant·e·s , l'étudiant ·e obtiendra la note finale de 1.
+
+## Formation pratique-méthodologique
+
+L'évaluation des cours  avec  travaux  pratiques se  fait  par  des  épreuves  orales,  écrites  ou pratiques dont la durée est fixée dans la présente annexe. Les épreuves pratiques portent sur des capacités motrices ou compétences sportives (une note partielle A sera attribuée).
+
+Les épreuves orales ou écrites portent sur la connaissance des outils d'analyse des habiletés motrices, des règlements ou des prescriptions de sécurité (une note partielle B sera attribuée).
+
+La note finale est calculée selon la formule : (4A + B)/5
+
+L'étudiant ·e doit se présenter à toutes les épreuves d'évaluation (pratiques et théoriques) pour recevoir  sa  note  finale.  En  cas  d'absence  non  justifiée  à  l'une  des  épreuves  d'évaluation, l'étudiant ·e obtiendra la note finale de 1.
+
+L'admission aux épreuves de chaque unité est conditionnée par des critères fixés et remis aux étudiant·e·s  au  début  du  cours.  Voir  les Directives  de  participation  aux  séminaires,  aux workshops et aux cours avec travaux pratiques accessibles dans le document https://www.unifr.ch/med/fr/assets/public/studies/sport/Directives%20de%20participation%20au x%20cours\_fr.pdf .
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants :
+
+- Plan d'études pour l'obtention du Bachelor of Science en sciences du sport et de la motricité, option SPR (Santé -Performance -Recherche).
+- Plan d'études pour l'obtention du Bachelor of Science en sciences du sport et de la motricité, option E (Enseignement).
+- Plan  d'études  pour  l'obtention  du  Master  of  Science  en  sciences  du  sport,  options  E (Enseignement) et SR (Santé -Recherche).
+- Plan d'études des branches propédeutiques et complémentaires (30 ou 60 ECTS) offertes par la Faculté des sciences et de médecine dans le cadre du Bachelor of Science ou d'autres formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d'études des branches complémentaires +30 ECTS en Physique, Biologie, Mathématiques, Informatique, Chimie, Géographie, Sciences du sport offertes par la Faculté des sciences et de médecine.
+- Plan  d'études  pour  l'obtention  du  Bachelor  of  Science  en  enseignemen t  pour  le  degré secondaire I (BSc\_SI).
+- Plan d'études des branches Géosciences, Mathématiques , Informatique, Sciences naturelles et Sciences du sport et de la motricité pour les étudiant·e·s de la Faculté des lettres et des sciences humaines, de la Faculté des sciences de l'éducation et de la formation et  de  la Faculté de théologie souhaitant obtenir le Bachelor of Arts en enseignement pour le degré secondaire I (BA\_SI).
+
+Il  est  soumis  au Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science de la Faculté des sciences et de médecine.
+
+Tous ces documents sont accessibles à partir de http://www.unifr.ch/scimed/fr/plans.
+
+## 4 Modalités d'évaluation
+
+Avec l'accord écrit de l'étudiant · e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite. Le Département responsable peut proposer à l'étudiant ·e (réponse écrite requise) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code      | Unité d'enseignement                                                       |   ECTS | Modalités d'évaluation                               |
+|-----------|----------------------------------------------------------------------------|--------|------------------------------------------------------|
+| SSP.00600 | Psychologie du sport (cours)                                               |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00603 | Psychologie du sport (workshop)                                            |      2 | Travail écrit ou présentation de travaux             |
+| SSP.00604 | Psychologie du sport (séminaire)                                           |      3 | Présentation de travaux et épreuve écrite de 60 min. |
+| SSP.00610 | Physiologie de l'exercice physique (cours)                                 |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00613 | Physiologie de l'exercice physique (workshop)                              |      2 | Travail écrit ou présentation de travaux             |
+| SSP.00625 | Systèmes sensoriels et perception (cours)                                  |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00626 | Systèmes sensoriels et perception (workshop)                               |      2 | Travail écrit ou présentation de travaux             |
+| SSP.00640 | Introduction à la pédagogie du sport                                       |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00650 | Santé-performance-recherche (stage)                                        |      2 | Travail écrit ou rapport de stage - réussi/échec     |
+| SSP.00660 | Introduction aux techniques de mesure de la recherche en sciences du sport |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00661 | Introduction à la thématique santé par l'activité physique                 |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00700 | Théorie de l'apprentissage et du contrôle moteur I (cours)                 |      3 | Épreuve écrite de 90 min.                            |
+| SSP.00702 | Théorie de l'apprentissage et du contrôle moteur I (séminaire)             |      3 | Présentation de travaux et épreuve écrite de 60 min. |
+
+| SSP.00710           | Théorie des principes d'entraînement I (cours)        | 3   | Épreuve écrite de 90 min.                                                                     |
+|---------------------|-------------------------------------------------------|-----|-----------------------------------------------------------------------------------------------|
+| SSP.00712           | Théorie des principes d'entraînement I (séminaire)    | 3   | Présentation de travaux et épreuve écrite de 60 min.                                          |
+| SSP.00740           | Sociologie du sport (cours)                           | 3   | Épreuve écrite de 90 min.                                                                     |
+| SSP.00741           | Sociologie du sport (séminaire)                       | 3   | Travail écrit et présentation de travaux                                                      |
+| SSP.00754           | Santé, traumatologie et prévention en sport           | 3   | Épreuve écrite de 90 min.                                                                     |
+| SSP.00760           | Biomécanique du mouvement I (cours)                   | 3   | Épreuve écrite de 90 min.                                                                     |
+| SSP.00765           | Biomécanique du mouvement I (workshop)                | 2   | Travail écrit ou présentation de travaux                                                      |
+| SSP.00770           | Anatomie fonctionnelle spécifique au sport (cours)    | 3   | Présentation de travaux et épreuve écrite de 90 min.                                          |
+| SSP.00772           | Anatomie fonctionnelle spécifique au sport (workshop) | 2   | Travail écrit ou présentation de travaux                                                      |
+| SSP.00780           | Approche systémique du jeu                            | 1   | Épreuve écrite de 60 min.                                                                     |
+| SSP.00788           | Approche sécuritaire des pratiques sportives          | 2   | Présentation de travaux et épreuve écrite de 60 min.                                          |
+| SSP.00789           | Approche théorique des sports de neige                | 1   | Présence obligatoire - réussi/échec.                                                          |
+| SSP.00792           | Méthodes quantitatives de recherche de base           | 3   | Épreuve écrite de 90 min.                                                                     |
+| SSP.00793           | Introduction au travail scientifique (séminaire)      | 3   | Travail écrit ou présentation de travaux et participation obligatoire à une étude             |
+| SSP.00800           | Badminton                                             | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00801 SSP.00807 | Basketball I Basketball II                            | 1 2 | Épreuve écrite de 60 min. + évaluation pratique Groupe d'épreuves, 1 seule note est           |
+| SSP.00802           | Uni-hockey                                            | 2   | attribuée Épreuve écrite de 60 min. + évaluation pratique                                     |
+| SSP.00803           | Football                                              | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00804 SSP.00805 | Volleyball I Volleyball II                            | 1 2 | Épreuve écrite de 60 min. + évaluation pratique Groupe d'épreuves, 1 seule note est attribuée |
+| SSP.00808           | Futsal                                                | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00809           | Handball                                              | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00812           | Gymnastique aux agrès I                               | 1   | Évaluation pratique - réussi/échec                                                            |
+| SSP.00813           | Gymnastique aux agrès II                              | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00814           | Escalade sportive                                     | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00815           | Gymnastique aux agrès III                             | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00816           | Patinage et initiation au hockey sur glace            | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00817           | Hockey sur glace                                      | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00818           | Tennis de table                                       | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+| SSP.00819           | Danse populaire I                                     | 2   | Évaluation pratique                                                                           |
+| SSP.00824           | Danse populaire II                                    | 2   | Évaluation pratique                                                                           |
+| SSP.00825           | Natation sportive I                                   | 1   | Évaluation pratique - réussi/échec                                                            |
+| SSP.00821           | Natation sportive II                                  | 2   | Épreuve écrite de 60 min. + évaluation pratique                                               |
+
+| SSP.00826   | Expression par le mouvement                                             |   2 | Évaluation pratique                                                                        |
+|-------------|-------------------------------------------------------------------------|-----|--------------------------------------------------------------------------------------------|
+| SSP.00831   | Athlétisme I                                                            |   1 | Épreuve écrite de 60 min. + évaluation pratique - réussi/échec                             |
+| SSP.00832   | Athlétisme II                                                           |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00833   | Course d'orientation                                                    |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00834   | Ski alpin                                                               |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00835   | Excursions à ski                                                        |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00836   | Snowboard                                                               |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00837   | Ski de fond                                                             |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00838   | Jeux d'autres cultures                                                  |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00839   | Athlétisme III                                                          |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00844   | Triathlon                                                               |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00845   | Massage sportif                                                         |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00846   | Trekking                                                                |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00858   | Fitness I                                                               |   1 | Épreuve écrite de 60 min. + évaluation                                                     |
+| SSP.00859   | Fitness II                                                              |   2 | pratique Groupe d'épreuves, 1 seule note est attribuée                                     |
+| SSP.00854   | Judo                                                                    |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00855   | Inline-skating                                                          |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.00857   | Equilibre et acrosport                                                  |   2 | Épreuve écrite de 60 min. + évaluation pratique                                            |
+| SSP.01006   | Méthodes quantitatives de recherche                                     |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.01009   | Médecine du sport                                                       |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.01010   | Comportement moteur selon les catégories d'individus                    |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.01011   | La prévention de la santé par l'activité physique et le sport           |   3 | Épreuve écrite de 60 min.                                                                  |
+| SSP.01012   | Neuropsychologie du sport                                               |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.01014   | Sciences du mouvement (cours)                                           |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.01015   | Psychologie du sport (cours)                                            |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.02001   | Psychologie du sport (séminaire)                                        |   4 | Évaluation continue                                                                        |
+| SSP.02002   | Sciences du mouvement (séminaire)                                       |   4 | Présentation de travaux et épreuve écrite de 60 min.                                       |
+| SSP.02006   | Biomécanique (séminaire)                                                |   4 | Travail écrit et présentation de travaux                                                   |
+| SSP.03001   | Psychologie du sport (workshop)                                         |   2 | Travail écrit ou présentation de travaux                                                   |
+| SSP.03002   | Sciences du mouvement (workshop)                                        |   2 | Travail écrit ou présentation de travaux                                                   |
+| SSP.03005   | Sciences du mouvement (workshop)                                        |   2 | Travail écrit ou présentation de travaux                                                   |
+| SSP.03006   | Psychologie du sport (workshop)                                         |   2 | Travail écrit ou présentation de travaux                                                   |
+| SSP.03008   | Stage en centre de prévention ou de réhabilitation                      |   3 | Travail écrit ou rapport de stage - réussi/échec                                           |
+| SSP.03009   | Méthodes quantitatives de recherche et analyse de données               |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.03010   | Analyse de données avec Matlab                                          |   3 | Épreuve écrite de 90 min.                                                                  |
+| SSP.04005   | Application des connaissances scientifiques en escalade sportive indoor |   4 | Épreuve écrite de 60 min. + évaluation pratique + travail écrit et présentation du travail |
+| SSP.04006   | Application des connaissances scientifiques en santé et APA, partie I   |   2 | Travail écrit et présentation de travaux                                                   |
+
+| SSP.04007   | Application des connaissances scientifiques en santé et APA, partie II                                          |   2 | Groupe d'épreuves, 1 seule note est attribuée                                                                  |
+|-------------|-----------------------------------------------------------------------------------------------------------------|-----|----------------------------------------------------------------------------------------------------------------|
+| SSP.05001   | Travail de master                                                                                               |  30 | Manuscrit, noté                                                                                                |
+| SSP.05002   | Travail de master                                                                                               |  30 | Manuscrit, noté                                                                                                |
+| SSM.01003   | Sciences de l'entraînement (cours)                                                                              |   3 | Épreuve écrite de 60 min.                                                                                      |
+| SSM.01005   | Communication (cours)                                                                                           |   3 | Travail écrit                                                                                                  |
+| SSM.01006   | Nutrition spécifique au sport                                                                                   |   3 | Épreuve écrite de 60 min.                                                                                      |
+| SSM.01008   | Scientific writing                                                                                              |   3 | Travaux écrits et présence                                                                                     |
+| SSM.01010   | Pédagogie du sport                                                                                              |   3 | Epreuve écrite de 90 min.                                                                                      |
+| SSM.01105   | Communication (séminaire)                                                                                       |   4 | Travail écrit et épreuve orale de 30 min.                                                                      |
+| SSM.02003   | Sciences de l'entraînement (séminaire)                                                                          |   4 | Présentation de travaux et remise d'une documentation                                                          |
+| SSM.02010   | Évolution du sport éducatif (séminaire)                                                                         |   4 | Présentation de travaux                                                                                        |
+| SSM.02011   | Professionnalisation pédagogique dans l'enseignement du sport (séminaire)                                       |   4 | Présentation de travaux                                                                                        |
+| SSM.03003   | Sciences de l'entraînement (workshop)                                                                           |   2 | Présentation de travaux et remise d'une documentation                                                          |
+| SSM.03005   | Sciences de l'entraînement (workshop)                                                                           |   2 | Présentation de travaux et remise d'une documentation                                                          |
+| SSM.03010   | Évolution du sport éducatif (workshop)                                                                          |   2 | Travail écrit                                                                                                  |
+| SSM.03011   | Professionnalisation pédagogique dans l'enseignement du sport (workshop)                                        |   2 | Travail écrit                                                                                                  |
+| SSM.03016   | Compétences numériques dans l'enseignement (workshop)                                                           |   2 | Travaux écrits                                                                                                 |
+| SSM.04003   | Application des connaissances scientifiques aux sports de neige (séminaire avec travaux pratiques)              |   4 | Travail écrit + application pratique + épreuve écrite de 60 min.                                               |
+| SSM.04005   | Application des connaissances scientifiques dans une approche poly- sportive (séminaire avec travaux pratiques) |   4 | Travail écrit (projet) et application pratique                                                                 |
+| SSM.04007   | Application des connaissances scientifiques en expression corporelle (séminaire avec travaux pratiques)         |   4 | Planification d'un enseignement ou création et analyse d'une chorégraphie ou analyse d'un processus artistique |

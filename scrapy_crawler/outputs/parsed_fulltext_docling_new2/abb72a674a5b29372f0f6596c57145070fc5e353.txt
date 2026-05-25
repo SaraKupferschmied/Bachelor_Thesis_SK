@@ -1,0 +1,208 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T00:58:56.341Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Studienplan_BA_60_ECTS_abb72a674a5b29372f0f6596c57145070fc5e353",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "abb72a674a5b29372f0f6596c57145070fc5e353",
+  "program_key": "faculty of humanities|bachelor|60|religious studies",
+  "source_url": "https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60_Religionswissenschaft_2017_Version_15.09.2022.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Religious_studies_Studienplan_BA_60_ECTS_abb72a674a5b29372f0f6596c57145070fc5e353.pdf",
+  "sha256": "534f43c651ac9bffa7b3a1ea7ce5c45958a2ea649f809b145cb6e67064d24eb9",
+  "fetched_at": "2026-05-21T16:05:20.657Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/sr/de/assets/public/Religionswissenschaft/Reglemente/BA60_Religionswissenschaft_2017_Version_15.09.2022.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Religious studies",
+  "programme_name_de": "Religionswissenschaft",
+  "programme_name_fr": "Science des religions",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/soc/religiousstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/A0cJ8"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Philosophische Fakultät der Universität Freiburg Departement für Sozialwissenschaften
+
+## Studienplan
+
+des Studienprogrammes zu
+
+## 60 Kreditpunkten ECTS Religionswissenschaft (Bachelor)
+
+vom 25.04.2017 (aktualisierte Version 23.8.2019,
+
+es gelten die «Übergangsbestimmungen: Bachelor-Studienpläne» der Philosophischen Fakultät)
+
+## Inhalt
+
+|   1. Allgemeines | 1. Allgemeines              | 1. Allgemeines                          |
+|------------------|-----------------------------|-----------------------------------------|
+|                  | 1.1                         | Titel des Diploms                       |
+|                  | 1.2                         | Rechtsgrundlage                         |
+|                  | 1.3                         | Beginn des Studiums                     |
+|                  | 1.4                         | Studieninhalte                          |
+|               2. | Struktur des Studiums       | Struktur des Studiums                   |
+|               3. | Evaluation der Leistungen 4 | Evaluation der Leistungen 4             |
+|                  | 3.1                         | Evaluationen                            |
+|                  | 3.2                         | Art der angebotenen Lehrveranstaltungen |
+|                  | 3.3                         | Schriftliche Arbeiten                   |
+|                  | 3.4                         | Misserfolge                             |
+|                  | 3.5                         | Schlussnote                             |
+|               4. | Sprachen 5                  | Sprachen 5                              |
+|               5. | Übergangsbestimmungen       | Übergangsbestimmungen                   |
+
+## 1. Allgemeines
+
+## 1.1 Titel des Diploms
+
+Das Programm in Religionswissenschaft zu 60 Kreditpunkten muss durch ein frei wählbares Hauptprogramm zu 120 Kreditpunkten (Bereich I) gemäss dem Reglement der Philosophischen Fakultät ergänzt werden.
+
+Der erfolgreiche Abschluss des Studienprogramms zu 60 Kreditpunkten in Religionswissenschaft  mit  dem  Hauptprogramm  führt  zur  Verleihung  des  Titels Bachelor .
+
+## 1.2 Rechtsgrundlage
+
+Der Studienplan stützt sich auf das Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät.
+
+## 1.3 Beginn des Studiums
+
+Das  Studium  kann  entweder  im  Herbstsemester  oder  im  Frühlingssemester begonnen werden.
+
+## 1.4 Studieninhalte
+
+Das Studium der Religionswissenschaft vermittelt Kenntnisse über
+
+- die Geschichte und Gegenwart der Religionen in europäischen und aussereuropäischen Gesellschaften,
+- die Theorien und die Fachgeschichte der Religionswissenschaft,
+- die Methoden der sozialempirischen Religionsforschung.
+
+## 2. Struktur des Studiums
+
+Das  Studium  ist  in  vier  Module  gegliedert.  Im  Rahmen  der  aufgeführten  Module müssen nachfolgende Lehrveranstaltungen absolviert werden, die den Erwerb von mindestens 60 Kreditpunkten ECTS erlauben.
+
+## Einfuhrung in die Religionswissenschaft D &amp; F - 15 ECTS
+
+VL: Einfuhrung in die RW (3 ECTS)* PS: Einfuhrung in die RW (3 ECTS) PS-Arbeit (3 ECTS) 2 VL: Einfuhrung in zentrale Themen der RW (6 ECTS) *Ggf. VL Einfuhrung in zentrale
+
+- Themen der RW (3 ECTS)
+
+## Religiose Gegenwartskulturen D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit(6 ECTS)
+
+## Religionsgeschichte D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit(6 ECTS)
+
+## Empirische Methoden D &amp; F - 15 ECTS
+
+- 3 Lehrveranstaltungen, mind. 1 Seminar (9 ECTS)
+- 1 Seminararbeit(6 ECTS)
+
+Inhalte:  Die  Vorlesung Einführung  in  die  Religionswissenschaft vermittelt  einen Überblick über die Fachgeschichte, die Subdisziplinen und wichtigsten thematischen Schwerpunkte der Religionswissenschaft. Das begleitende Proseminar vertieft diese Kenntnisse durch gemeinsame Textlektüre, Recherchen und Referate und vermittelt Grundlagen  wissenschaftlichen  Arbeitens.  Die  beiden  zusätzlichen  Vorlesungen behandeln  zentrale  Themen  der  Theorie-  und  Religionsgeschichte  sowie  religiöser Gegenwartskulturen.
+
+Studienleistungen:
+
+- 1 Vorlesung Einführung in die Religionswissenschaft (3 ECTS)*
+- 1 Proseminar Einführung in die Religionswissenschaft (3 ECTS)
+- 1 Proseminararbeit zum Proseminar Einführung in die RW (3 ECTS)
+- 2 Vorlesungen Einführung in zentrale Themen der Religionswissenschaft (6 ECTS)
+
+* Bei Doppelungen durch andere Studienprogramme ist dieser Kurs durch eine dritte Vorlesung Einführung in zentrale Themen der Religionswissenschaft (3 ECTS) zu ersetzen.
+
+## Modul Religionsgeschichte 15 ECTS
+
+## (2)
+
+Inhalte:  Die  Vorlesungen  dieses  Moduls  vermitteln  Grundlagen  der  Geschichte ausgewählter  grosser  und  kleiner  religiöser  Traditionen.  Seminare  behandeln Spezialaspekte  historischer  Religionskulturen.  Die  Vorlesungen  und  Seminare widmen  sich  dabei  einer  bestimmten  religiösen  Tradition  oder  verfolgen  einen systematisch-vergleichenden Ansatz unter einer spezifischen Fragestellung, die auf verschiedene Religionen angewendet wird.
+
+Studienleistungen:
+
+- 3 Lehrveranstaltungen, darunter mindestens ein Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## (3) Modul Religiöse Gegenwartskulturen
+
+15 ECTS
+
+Inhalte: Die Vorlesungen dieses Moduls vermitteln Grundlagen ausgewählter grosser und kleiner religiöser Traditionen in der Gegenwart. Seminare behandeln Spezialaspekte  gegenwärtiger  Religionskulturen.  Die  Vorlesungen  und  Seminare widmen sich dabei einer bestimmten religiösen Tradition oder verfolgen sozialwissenschaftliche  Ansätze  unter  einer  spezifischen  Fragestellung,  die  auf verschiedene Religionen angewendet wird.
+
+Studienleistungen:
+
+- 3 Lehrveranstaltungen, darunter mindestens ein Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## (4) Modul Empirische Methoden
+
+15 ECTS
+
+Inhalte: Die Vorlesungen dieses Moduls vermitteln Grundlagen der quantitativen und qualitativen  empirischen  Methoden  der  Sozialwissenschaften,  die  zur  kritischen Lektüre  empirischer  Studien  und  Anfertigung  begrenzter  empirischer  Studien befähigen  sollen.  Die  Seminare  dienen  der  Vertiefung  und  Spezialisierung  der Methodenkenntnisse und der Einübung der Methoden in ausgewählten Forschungszusammenhängen.
+
+Studienleistungen:
+
+- 3 Lehrveranstaltungen, darunter mindestens ein Seminar (9 ECTS)
+- 1 Seminararbeit (6 ECTS)
+
+## 3. Evaluation der Leistungen
+
+## 3.1 Evaluationen
+
+Die Vergabe von Kreditpunkten erfolgt gemäss dem europäischen Kredittransfersystem  (ECTS)  aufgrund  von  evaluierten  Studienleistungen. Ein Kreditpunkt  entspricht  einer  Studienleistung,  die  in  30  Arbeitsstunden  erbracht werden kann.
+
+Die Evaluation der Studienleistungen erfolgt durch die Leiterin bzw. den Leiter der Lehrveranstaltung. Alle Lehrveranstaltungen werden evaluiert. Die Evaluation der Studienleistungen erfolgt in der Regel pro Lehrveranstaltung.
+
+## 3.2 Art der angebotenen Lehrveranstaltungen
+
+Im Studium werden u.a. folgende Typen von Lehrveranstaltungen angeboten:
+
+(1) Vorlesungen (3 ECTS) dienen der Vermittlung von grösseren zusammenhängenden Wissensbeständen. Der Lernstil ist überwiegend rezeptiv. Die Evaluation von Vorlesungen findet in der Regel jeweils in der letzten Sitzung des Semesters durch ein Examen statt.
+
+(2)  Das Proseminar (3  ECTS)  dient  der  Vermittlung  von  Grundlagenwissen.  Der Lernstil erfordert die aktive Beteiligung der Studierenden durch Übungen, Referate oder schriftliche Arbeiten und mündliche Vorträge.
+
+(3) Seminare (3 ECTS)  dienen  der  Erarbeitung  spezieller  Themen.  Der  Lernstil erfordert die aktive Beteiligung der Studierenden. Die Evaluation von Seminaren und Blockkursen findet laufend während des Semesters und/oder im Anschluss an das Semester statt (z.B. durch mehrere kleine Prüfungen, Vortrag, Handout, Zusammenfassung,  Essay,  etc.).  In  Verbindung  mit  dem  Besuch  von  Seminaren können Seminararbeiten geschrieben werden.
+
+(4) In unregelmässigen Abständen werden Exkursionen (3 oder 6 ECTS) angeboten, die  -  je  nach  Thematik  -  in  den  Modulen  (2),  (3),  (5)  oder  (6)  eine  oder  zwei Unterrichtseinheiten ersetzen können. Die Modalitäten der Evaluation werden durch die  Lehrperson  festgelegt.  Eine  Seminararbeit  kann  nicht  durch  eine  Exkursion ersetzt werden.
+
+## 3.3 Schriftliche Arbeiten
+
+Proseminararbeiten (3 ECTS) und Seminararbeiten (6 ECTS) sind schriftliche Arbeiten, die im Zusammenhang mit dem Proseminar bzw. einem Seminar angefertigt werden und von den Dozierenden betreut und korrigiert werden.
+
+Die  Anforderungen  und  Fristen  für  schriftliche  Arbeiten  sind  im Leitfaden  zum Studium der Religionswissenschaft geregelt.
+
+## 3.4 Misserfolge
+
+Die Evaluation der folgenden Unterrichtseinheiten kann bei einem Misserfolg ein Mal wiederholt werden. Ein Misserfolg in der Wiederholungsprüfung ist endgültig und hat zur Folge, dass das Studium der Religionswissenschaft nicht mehr fortgesetzt werden kann (definitiver Misserfolg im Studienprogramm).
+
+- Vorlesung Einführung in die Religionswissenschaft
+- Proseminar Einführung in die Religionswissenschaft
+- Proseminararbeit Einführung in die Religionswissenschaft
+
+Bei allen anderen Unterrichtseinheiten kann bei einem Misserfolg die Evaluation ein Mal wiederholt werden. Ein Misserfolg in der Wiederholung ist endgültig und hat zur Folge,  dass eine  neue,  äquivalente Unterrichtseinheit erbracht werden muss (z.B. andere Vorlesung, anderes Seminar, andere Seminararbeit).
+
+## 3.6 Schlussnote
+
+Die Note jedes Moduls wird aus dem Durchschnitt der benoteten Studienleistungen des Moduls gebildet.
+
+Die Schlussnote wird aus dem Durchschnitt der Module berechnet.
+
+## 4. Sprachen
+
+Sprachkenntnisse im Unterricht und in Evaluationen
+
+Das  Studium  der  Religionswissenschaft  kann  vollständig  auf  Deutsch  oder  auf Französisch  oder  zweisprachig  absolviert  werden.  Passive  Kenntnisse  in  den Sprachen Deutsch, Französisch und Englisch sind für die Lektüre wissenschaftlicher Texte  notwendig.  Eine  Vertiefung  der  Fremdsprachenkenntnisse  während  des Studiums wird daher empfohlen.
+
+In  der  Regel  haben  die  Studierenden  nach  Absprache  mit  den  Dozierenden  die Möglichkeit, ihre mündlichen und schriftlichen Examen auf Deutsch, auf Französisch oder ausnahmsweise auf Englisch abzulegen und die Seminararbeiten und  Proseminararbeiten  auf  Deutsch,  auf  Französisch  oder  ausnahmsweise  auf Englisch zu verfassen.
+
+## 5. Übergangsbestimmungen
+
+Dieser Studienplan ist für alle Studierenden gültig, die ab Herbstsemester 2017 das Studium aufnehmen.
+
+Studierende mit Studienbeginn vor dem  Herbstsemester  2017  können  zum Herbstsemester 2017 in das Programm mit diesem Studienplan (Studienplan 2017) wechseln. Die bereits erbrachten Leistungen werden übertragen.
+
+Studierende, welche zum Zeitpunkt des Inkrafttretens des vorliegenden Studienplans bereits für ein Studienprogramm des Departements eingeschrieben waren, bleiben bis spätestens Ende des Herbstsemesters 2019 den zum Zeitpunkt ihres Ausbildungsbeginns geltenden Studienplänen unterworfen. Nach dem Herbstsemester 2019 ersetzt dieser Studienplan (2017) alle früheren Studienpläne der äquivalenten Studienprogramme.

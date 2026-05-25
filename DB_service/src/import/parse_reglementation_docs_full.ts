@@ -18,7 +18,6 @@ import "../environments/environment";
 
 import fs from "fs";
 import path from "path";
-import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 
 type ReglementationDocManifestItem = {
   reg_doc_key: string;
@@ -123,6 +122,9 @@ async function extractPdfTextAndTitle(
   sourceUrl?: string,
   fallbackTitle?: string
 ): Promise<{ title: string | null; pagesText: string[] }> {
+
+  const pdfjsLib = await import("pdfjs-dist/legacy/build/pdf.mjs");
+
   const data = new Uint8Array(fs.readFileSync(filePath));
 
   // Legacy build usually works without worker config in Node.
@@ -131,30 +133,53 @@ async function extractPdfTextAndTitle(
 
   // Metadata title
   let metaTitle: string | null = null;
+
   try {
     const meta = await doc.getMetadata();
+
     const infoAny = (meta as any)?.info ?? {};
     const pdfTitle = (infoAny.Title ?? "") as string;
-    const dcTitle = (meta as any)?.metadata?.get?.("dc:title") ?? "";
+
+    const dcTitle =
+      (meta as any)?.metadata?.get?.("dc:title") ?? "";
+
     const t = String(pdfTitle || dcTitle).trim();
-    if (t && !isJunkTitle(t)) metaTitle = collapseWs(t);
+
+    if (t && !isJunkTitle(t)) {
+      metaTitle = collapseWs(t);
+    }
   } catch {
     // ignore
   }
 
   const pagesText: string[] = [];
+
   for (let pageNo = 1; pageNo <= doc.numPages; pageNo++) {
     const page = await doc.getPage(pageNo);
+
     const content = await page.getTextContent();
-    const strings = content.items.map((it: any) => (it?.str ?? "").toString());
+
+    const strings = content.items.map(
+      (it: any) => (it?.str ?? "").toString()
+    );
+
     pagesText.push(collapseWs(strings.join(" ")));
   }
 
   const coverTitle = titleFromCoverText(pagesText[0] ?? "");
   const urlTitle = sourceUrl ? titleFromSourceUrl(sourceUrl) : null;
 
-  const title = coverTitle ?? metaTitle ?? fallbackTitle ?? urlTitle ?? null;
-  return { title: title ? collapseWs(title) : null, pagesText };
+  const title =
+    coverTitle ??
+    metaTitle ??
+    fallbackTitle ??
+    urlTitle ??
+    null;
+
+  return {
+    title: title ? collapseWs(title) : null,
+    pagesText,
+  };
 }
 
 function renderHeader(m: ReglementationDocManifestItem, inferredTitle: string | null, pages: number) {

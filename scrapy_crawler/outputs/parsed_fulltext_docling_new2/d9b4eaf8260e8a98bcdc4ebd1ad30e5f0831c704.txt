@@ -1,0 +1,253 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:17:56.771Z",
+  "title": "matched_Faculty_of_Law_Master_90_Legal_Studies_Leitfaden_Mein_MALS-Studium__d9b4eaf8260e8a98bcdc4ebd1ad30e5f0831c704",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "d9b4eaf8260e8a98bcdc4ebd1ad30e5f0831c704",
+  "program_key": "faculty of law|master|90|legal studies",
+  "source_url": "https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Law_Master_90_Legal_Studies_Leitfaden_Mein_MALS-Studium__d9b4eaf8260e8a98bcdc4ebd1ad30e5f0831c704.pdf",
+  "sha256": "14b93e6e7779224416df44cf7751154034ca96411d610bd947e8e18a47f346dc",
+  "fetched_at": "2026-05-21T16:05:34.542Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/ius/de/assets/public/documents/etudes/MALS_Leitfaden.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 90,
+  "programme_name_en": "Legal Studies",
+  "programme_name_de": "Rechtswissenschaftliche Studien",
+  "programme_name_fr": "Études juridiques",
+  "programme_url": "https://studies.unifr.ch/en/master/ius/legalstudies",
+  "curriculum_url": "http://studies.unifr.ch/go/heNo7"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Mein MALS-Studium
+
+Stundenpläne verstehen, Kurse wählen, Prüfungen absolvieren
+
+## Inhalt
+
+1. Aufbau MALS
+2. Stundenpläne verstehen
+- a. Bachelor
+- b. Master
+3. Kurse wählen
+- a. Aus dem Bachelorprogramm
+- b. Aus dem Masterprogramm
+- c. Einführung ins Rechts
+- d. Technische Einführung
+4. Arbeiten
+- a. Propädeutische Arbeit
+- b. Masterarbeit
+5. Prüfungen
+6. Studienbeispiel
+
+## Aufbau MALS
+
+## Studienplan
+
+| Kurs                                          | ECTS   |
+|-----------------------------------------------|--------|
+| Obligatorische Facher                         | 48/42  |
+| Einfuhrung in das Recht                       | 6      |
+| Zivilrecht I                                  | 6      |
+| Obligationenrecht I oder I                    | 9/12   |
+| Offentliches Recht I oder II                  | 12     |
+| Strafrecht I oder II                          | 12/9   |
+| Wahlfacher (aus Bachelor- und Masterprogramm) | 37/43  |
+| Masterarbeit                                  | 5      |
+| Zusatzliche Leistungen                        |        |
+| Total                                         | 90     |
+
+Diese Kurse finden Sie im Bachelorprogramm
+
+Infos zur Masterarbeit Link zum Vorlesungsverzeichnis
+
+## Die Stundenpläne (Bachelor)
+
+<!-- image -->
+
+Vorlesungen werden ex cathedra gehalten und finden in der Regel wöchentlich statt
+
+Übungen finden in einzelnen Gruppen (alphabetische Einteilung) und in der Regel alle 14 Tage statt. Beispiel: Übung Strafrecht I (Donnerstagnachmittag) wird alle 14 Tage entweder von 13:15 -15:00 oder von 15:15 -17:00 besucht.
+
+## Stundenpläne (Master)
+
+<!-- image -->
+
+| Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| ZEIT                                                                                                                                | MONTAG                                                                                                                              | DIENSTAG                                                                                                                            | MITTWOCH                                                                                                                            | DONNERSTAG                                                                                                                          | FREITAG                                                                                                                             |
+| 08.15-11.00                                                                                                                         |                                                                                                                                     | Internatlonal and European Cooperatlon In Crlmlnal Matters FIOLKA G.                                                                | Verwaltungsverfahren WALDMANN B.                                                                                                    | Strafprozessrecht MELUNOVIC K.                                                                                                      | Umweltrecht KAUFMANN M.                                                                                                             |
+| 08.15-11.00                                                                                                                         |                                                                                                                                     | Kindes-und Erwachsenenschutz JUNGOA./ BIDERBOST Y.                                                                                  |                                                                                                                                     |                                                                                                                                     |                                                                                                                                     |
+| 14.15- 15.00 (mlt elner Pause von 12.00 - 13.00)                                                                                    | Wlrtschaftsregullerung AMSTUTZ M. / DRENHAUS M.                                                                                     | SVG/BetmG FIOLKA G.                                                                                                                 | 12.15 - 15.00: Zlvllprozessrecht MABILLARD R.                                                                                       | 12.15 - 15.00: Konzernrecht AMSTUTZ M.                                                                                              | Internatlonales Prlvatrecht MABILLARD R.                                                                                            |
+| 11.15 - 15.00 (mlt elner Pause von 12.00- 13.00)                                                                                    | 12.15-15.00: European Antl-Dlscrlmlnatlon Law FREI N.                                                                               | Sozlalverslcherungsrecht CARDINAUX B.                                                                                               |                                                                                                                                     | 12.15-15.00: Introductlon to Swiss Law STOECKLI H.                                                                                  | Rellglonsrecht I: Rellglose Rechte PAHUD DE MORTANGES R. STOCKLIA.                                                                  |
+| 15.15-18.00                                                                                                                         | Intermatlonal Humanltarlan Law LA ROSAA.-M.                                                                                         | Verfassungsrecht der EU FREI N. MOSTERS R.                                                                                          | Law and the dlgltal economy: Data, Contract, Competitlon PICHONNAZ P. I DRENHAUS M.                                                 | Schuldbetrelbung und Konkurs MABILLARD R.                                                                                           | Methodenlehre und Argumentatlon BORS M.                                                                                             |
+| 15.15- 18.00                                                                                                                        |                                                                                                                                     |                                                                                                                                     | Vertrag und Sachenrecht STOCKLI H. HORLIMANN-KAUP B.                                                                                |                                                                                                                                     |                                                                                                                                     |
+| 18.15-21.00                                                                                                                         |                                                                                                                                     |                                                                                                                                     |                                                                                                                                     | 17.15-19.00: Europarecht ll -- Blnnenmarktrecht EPINEY A./ MOSTERS R.                                                               |                                                                                                                                     |
+| Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Sland am : 21.06.2023                                                                                                               |
+
+## Vorlesungen
+
+- -Blöcke à 3 Stunden
+- -Beginn jeweils ab 4. Semesterwoche
+- -Dauer jeweils 1 Semester
+- -Prüfungen nur im Juni oder Januar/ Februar
+
+<!-- image -->
+
+Die Mehrjahresplanung der Masterkurse finden Sie hier
+
+Infos zu: Blockkursen und Seminaren
+
+## Kurse wählen
+
+- Wahl aus dem gesamten Angebot der rechtswissenschaftlichen Fakultät: Bachelor und Master (Semester-, Blockkurse und Seminare)
+- Informationen zu den einzelnen Kursen finden Sie hier
+- Bachelorkurse sind Jahreskurse
+
+<!-- image -->
+
+Beginnen Sie zuerst mit den obligatorischen Kursen aus dem Bachelorprogramm und wählen Sie erst später Masterkurse, da Masterkurse Vorwissen aus dem Bachelor voraussetzen.
+
+## Kurswahl (Bachelor)
+
+<!-- image -->
+
+Bachelorkurse sind Jahreskurse (ausg. Einführung ins Recht ohne Rechtsdurchsetzung) Übungen (orange) finden i.d.R. während beiden Semestern statt.
+
+## Kurswahl (Master)
+
+<!-- image -->
+
+| Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   | Stundenplan der Rechtswissenschaftlichen Fakultat der Universitat Freiburg MASTER - HERBSTSEMESTER 2023 (09.10.2023 - 22.12.2023)   |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| ZEIT                                                                                                                                | MONTAG                                                                                                                              | DIENSTAG                                                                                                                            | MITTWOCH                                                                                                                            | DONNERSTAG                                                                                                                          | FREITAG                                                                                                                             |
+| 08.15-11.00                                                                                                                         |                                                                                                                                     | Internatlonal and European Cooperatlon In Crmlnal Matters FIOLKA G.                                                                 | Verwaltungsverfahren WALDMANN B.                                                                                                    | Strafprozessrecht MELUNOVIC K.                                                                                                      | Umweltrecht KAUFMANN M.                                                                                                             |
+| 08.15-11.00                                                                                                                         |                                                                                                                                     | Kindes-und Erwachsenenschutz JUNGOA./ BIDERBOST Y.                                                                                  |                                                                                                                                     |                                                                                                                                     |                                                                                                                                     |
+| 11.15 - 15.00 (mlt elner Pause von 12.00- 13.00)                                                                                    | Wlrtschaftsregullerung AMSTUTZ M. / DRENHAUS M.                                                                                     | SVG/BetmG FIOLKA G.                                                                                                                 | 12.15 - 15.00: Zlvllprozessrecht MABILLARD R.                                                                                       | 12.15 - 15.00: Konzernrecht AMSTUTZ M.                                                                                              | Internatlonales Privatrecht MABILLARD R.                                                                                            |
+| 11.15 - 15.00 (mlt elner Pause von 12.00- 13.00)                                                                                    | 12.15-15.00: European Antl-Dlscrlmlnatlon Law FREI N.                                                                               | Sozlalverslcherungsrecht CARDINAUX B.                                                                                               |                                                                                                                                     | 12.15 - 15.00: Introductlon to Swlss Law STOECKLI H.                                                                                | Relliglonsrecht I: Rellglose Rechte PAHUD DE MORTANGES R. STOCKLIA.                                                                 |
+| 15.15-18.00                                                                                                                         | Intermatlonal Humanltarlan Law LA ROSAA.-M.                                                                                         | Verfassungsrecht der EU FREI N. MOSTERS R.                                                                                          | Law and the dligltal economy: Data, Contract, Competitlon PICHONNAZ P.I DRENHAUS M.                                                 | Schuldbetrelbung und Konkurs MABILLARD R.                                                                                           | Methodenlehre und Argumentatlon BORS M.                                                                                             |
+| 15.15- 18.00                                                                                                                        |                                                                                                                                     |                                                                                                                                     | Vertrag und Sachenrecht STOCKLI H. HORLIMANN-KAUP B.                                                                                |                                                                                                                                     |                                                                                                                                     |
+| 18.15- 21.00                                                                                                                        |                                                                                                                                     |                                                                                                                                     |                                                                                                                                     | 17.15-19.00: Europarecht ll -- Blnnenmarktrecht EPINEY A./ MOSTERS R.                                                               |                                                                                                                                     |
+| Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Obllgatorlsche Kurse                                                                                                                | Sland am : 21.06.2023                                                                                                               |
+
+## Vorlesungen (Semesterkurse)
+
+- -Blöcke à 3 Stunden
+- -Beginn jeweils ab 4. Studienwoche
+- -Dauer jeweils 1 Semester
+- -Prüfungen nur im Juni oder Januar/ Februar
+
+## Blockkurse
+
+- -Jeweils zu Beginn des HS und FS
+- -Drei Wochen Intensivkurs
+- -Anwesenheitspflicht
+- -Prüfung
+
+## Seminare
+
+- -Finden während eines Semesters an untersch. Tagen (auch Wochenende statt)
+- -Schriftliche Arbeit
+- -Anwesenheitspflicht
+
+## Einführung in das Recht
+
+<!-- image -->
+
+<!-- image -->
+
+Vorlesung und Übungen nur im Herbstsemester In der ersten Vorlesungswoche wird der genaue Ablauf bekanntgegeben
+
+Prüfung: Teilprüfung nach einem Jahr (Juni oder September-Session) über «Einführung ins Recht» (6 ECTS); «Rechtsdurchsetzung» kann zusätzlich absolviert werden (freiwillig): 12 ECTS.
+
+Weitere Informationen zu diesem Kurs finden Sie hier:
+
+## Technische Einführung
+
+<!-- image -->
+
+| StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium                 | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium                 | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   | StundenplanderRechtswissenschaflichenFakultatderUniversitatFreiburg IURI-Herbstsemester2023(18.09.2023-22.12.2023)-Vollzeitstudium   |
+|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| ZEIT                                                                                                                                 | MONTAG                                                                                                                               | MONTAG                                                                                                                               | DIENSTAG                                                                                                                                           | MITTWOCH                                                                                                                                           | DONNERSTAG                                                                                                                           | DONNERSTAG                                                                                                                           | FREITAG                                                                                                                              | FREITAG                                                                                                                              |
+| 08.15 -09.00                                                                                                                         | Romisches Recht BORSM.                                                                                                               | Romisches Recht BORSM.                                                                                                               |                                                                                                                                                    | Offentliches RechtI BELSER E.M.                                                                                                                    | Europarecht/Volkerrecht                                                                                                              | Europarecht/Volkerrecht                                                                                                              | StrafrechtI                                                                                                                          | StrafrechtI                                                                                                                          |
+| 09.15-10.00                                                                                                                          |                                                                                                                                      |                                                                                                                                      |                                                                                                                                                    | Offentliches RechtI BELSER E.M.                                                                                                                    | PIRKER B.                                                                                                                            | PIRKER B.                                                                                                                            | N.N.                                                                                                                                 | N.N.                                                                                                                                 |
+| 10.15 -11.00                                                                                                                         | ZivilrechtI Personenrecht                                                                                                            | ZivilrechtI Personenrecht                                                                                                            |                                                                                                                                                    | Offentliches RechtI BELSER E.M.                                                                                                                    | Technische Einfuhrung WIDRIG M.                                                                                                      | Technische Einfuhrung WIDRIG M.                                                                                                      |                                                                                                                                      |                                                                                                                                      |
+|                                                                                                                                      | HURLIMANN-KAUP B.                                                                                                                    | HURLIMANN-KAUP B.                                                                                                                    |                                                                                                                                                    | EinfuhrungindasRecht/ Rechtsdurchsetzung Einfohrung in das Recht                                                                                   |                                                                                                                                      |                                                                                                                                      | 11.15 -12.00                                                                                                                         | 11.15 -12.00                                                                                                                         |
+|                                                                                                                                      |                                                                                                                                      |                                                                                                                                      | BEYELER M.                                                                                                                                         | EinfuhrungindasRecht/ Rechtsdurchsetzung Einfohrung in das Recht                                                                                   |                                                                                                                                      |                                                                                                                                      | 12.15 -13.00                                                                                                                         | 12.15 -13.00                                                                                                                         |
+| 13.15-14.00                                                                                                                          | EinfuhrungindasRecht/ Rechtsdurchsetzung Einfuhrung in das Recht BEYELERM. Vom 09.10.-11.12.23:                                      | RomischesRecht BORS M.                                                                                                               |                                                                                                                                                    | 13.45-15.00: Europarecht/Volkerrecht PIRKER B.                                                                                                     | OffentlichesRechtI MAZIDI S.                                                                                                         | StrafrechtI MUSKENS L. Ab 12.10.23:                                                                                                  | Technische Einfuhrung WIDRIG M.                                                                                                      | Volkerrecht MOSTERS R. Ab 13.10.2023:                                                                                                |
+| 14.15 - 15.00                                                                                                                        | EinfuhrungindasRecht/ Rechtsdurchsetzung Einfuhrung in das Recht BEYELERM. Vom 09.10.-11.12.23:                                      | RomischesRecht BORS M.                                                                                                               |                                                                                                                                                    | 13.45-15.00: Europarecht/Volkerrecht PIRKER B.                                                                                                     |                                                                                                                                      | StrafrechtI MUSKENS L. Ab 12.10.23:                                                                                                  | Technische Einfuhrung WIDRIG M.                                                                                                      | Volkerrecht MOSTERS R. Ab 13.10.2023:                                                                                                |
+| 15.15 -16.00                                                                                                                         | RomischesRecht BORSM.                                                                                                                | RomischesRecht BORSM.                                                                                                                |                                                                                                                                                    | Europarecht/ Vlkerrecht MOSTERS R. Ab 11.10.23:                                                                                                    | Offentliches Recht1 MAZIDIS                                                                                                          | StrafrechtI MUSKENS L. Ab 12.10.23:                                                                                                  | TechnischeEinfuhrung WIDRIG M.                                                                                                       | TechnischeEinfuhrung WIDRIG M.                                                                                                       |
+|                                                                                                                                      |                                                                                                                                      |                                                                                                                                      |                                                                                                                                                    | Europarecht/ Vlkerrecht MOSTERS R. Ab 11.10.23:                                                                                                    |                                                                                                                                      | StrafrechtI MUSKENS L. Ab 12.10.23:                                                                                                  | 16.15 - 17.00                                                                                                                        | 16.15 - 17.00                                                                                                                        |
+|                                                                                                                                      | ZivilrechtI Personenrecht                                                                                                            | ZivilrechtI Personenrecht                                                                                                            |                                                                                                                                                    |                                                                                                                                                    | Technische Europarecht/ Einfuhrung Volkerrecht MOSTERS R.                                                                            | Technische Europarecht/ Einfuhrung Volkerrecht MOSTERS R.                                                                            | 17.15 -18.00                                                                                                                         | 17.15 -18.00                                                                                                                         |
+|                                                                                                                                      | FANKHAUSER R.                                                                                                                        | FANKHAUSER R.                                                                                                                        |                                                                                                                                                    |                                                                                                                                                    | WIDRIG M. Ab 12.10.2023:                                                                                                             | WIDRIG M. Ab 12.10.2023:                                                                                                             | 18.15 -19.00 Ah09.10.23:2Sle                                                                                                         | 18.15 -19.00 Ah09.10.23:2Sle                                                                                                         |
+| Dle Vorlesungen sind tellweise auf mehrereBlocke vertelt.Doch bilden sle eine Einheit, weshalb Sle samtiche Blocke belegen.          | Dle Vorlesungen sind tellweise auf mehrereBlocke vertelt.Doch bilden sle eine Einheit, weshalb Sle samtiche Blocke belegen.          | Dle Vorlesungen sind tellweise auf mehrereBlocke vertelt.Doch bilden sle eine Einheit, weshalb Sle samtiche Blocke belegen.          | Fur dieUbungen sind mehrereBlocke vonle 2 Stundenqeplant.Davon belegen Sie aber nur elnen Block. Die Gruppeneintellung erfolgt in den Vorlesungen. | Fur dieUbungen sind mehrereBlocke vonle 2 Stundenqeplant.Davon belegen Sie aber nur elnen Block. Die Gruppeneintellung erfolgt in den Vorlesungen. | PER = Perolles II                                                                                                                    | MIS=Misericorde BQC=Beauregard                                                                                                       | MIS=Misericorde BQC=Beauregard                                                                                                       | Stand am: 27.04.2023                                                                                                                 |
+
+<!-- image -->
+
+Für MALS-Studierende mit entsprechender Auflage (im Zulassungsentscheid) obligatorisch, keine ECTS Propädeutische Arbeit muss während oder nach dem Kurs geschrieben werden.
+
+MALS-Studierende ohne Auflage zum Besuch der techn. Einführung können diese ebenfalls absolvieren und erhalten für die propädeutische Arbeit (3ECTS)
+
+## Anwesenheitspflicht
+
+Gruppeneinteilung erfolgt zu Beginn des Semesters: Es ist nur eines der vier Zeitfenster zu besuchen.
+
+Weitere Informationen zu diesem Kurs finden Sie hier: Technische Einführung
+
+## Propädeutische Arbeit
+
+Zulassungsentscheid
+
+Auflage Besuch techn. Einführung und propädeutische Arbeit?
+
+ja
+
+- Besuch der VL «technische Einführung» obligatorisch
+- -jeweils im Herbstsemester
+- -Anwesenheitspflicht
+- -Zeitpunkt frei wählbar (z.B. im 1. oder 2. Studienjahr), jedoch bevor Masterarbeit geschrieben wird
+- -keine ECTS
+- Propädeutische Arbeit
+- -Zeitpunkt frei wählbar, jedoch vor Masterarbeit
+- -Einschreiben auf Moodle
+- -3 Wiederholungen möglich
+- -Beginn jeden ersten Montag im Monat
+- -Anmeldung bis 15. des Vormonats
+- -Keine ECTS
+
+nein Will ich freiwillig eine prop. Arbeit schreiben?
+
+ja nein
+
+- Besuch der VL «technische Einführung» obligatorisch
+- -Voraussetzungen: siehe nebenan
+- Propädeutische Arbeit
+- -Voraussetzungen: siehe nebenan
+- -3 ECTS
+
+<!-- image -->
+
+## Masterarbeit
+
+- Allenfalls vorgängig propädeutische Arbeit
+- 5 ECTS
+- 16 Tage Bearbeitungszeit (Start frei wählbar, Öffnungszeiten Dekanat und Bibliothek beachten)
+- Vorgängige Kontaktaufnahme mit Lehrstuhlinhaber (Hinweis MALSStudierender)
+- Themengebiet (z.B. OR AT, OR BT, Haftpflichtrecht) kann gewählt werden, nicht aber Thema
+- Wird benotet
+- Bilingue-Studierende müssen die Masterarbeit nicht in der Zweitsprache verfassen
+
+<!-- image -->
+
+## Prüfungen
+
+Einschreiben auf Myunifr.ch für alle Prüfungen während der vorgegebenen Fristen
+
+Will ich (zusätzlich) Prüfungen von Masterkursen ablegen?
+
+<!-- image -->

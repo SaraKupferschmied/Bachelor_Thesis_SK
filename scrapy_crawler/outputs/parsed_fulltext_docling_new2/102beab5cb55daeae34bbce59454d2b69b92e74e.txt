@@ -1,0 +1,141 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T21:16:29.392Z",
+  "title": "matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Arbeits-_und_Organisationspsychologie_30_ECTS__102beab5cb55daeae34bbce59454d2b69b92e74e",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "102beab5cb55daeae34bbce59454d2b69b92e74e",
+  "program_key": "faculty of humanities|master|30|psychology",
+  "source_url": "https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_WOP_de_250225_SA25.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Master_30_Psychology_Spezialisierungsprogramm_in_Arbeits-_und_Organisationspsychologie_30_ECTS__102beab5cb55daeae34bbce59454d2b69b92e74e.pdf",
+  "sha256": "31b9105b9d03422cae9c92a2779acd9e481313592f0e918247c01817c15a5c9b",
+  "fetched_at": "2026-05-21T16:05:19.307Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/psycho/de/assets/public/master/plans/MA_Psycho_PS_WOP_de_250225_SA25.pdf, ct=application/pdf)",
+  "level": "Master",
+  "ects_points": 30,
+  "programme_name_en": "Psychology",
+  "programme_name_de": "Psychologie",
+  "programme_name_fr": "Psychologie",
+  "programme_url": "https://studies.unifr.ch/en/master/pedpsy/psychology",
+  "curriculum_url": "http://studies.unifr.ch/go/N7sl2"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+## Inhaltsverzeichnis
+
+|   1. | Gesetzliche Grundlagen ........................................................................................................... 2               |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2. | Zulassungsvoraussetzungen .................................................................................................. 2                     |
+|   3. | Unterrichtssprachen .................................................................................................................. 2           |
+|   4. | Beginn und Dauer des Studiums ........................................................................................... 2                        |
+|   5. | Beschreibung des Programms ............................................................................................... 2                       |
+|   6. | Prüfungsmodalitäten ................................................................................................................. 3            |
+|   7. | ECTS-Anerkennung ................................................................................................................... 4             |
+|   8. | Inkrafttreten .................................................................................................................................. 5 |
+
+## Studienplan Master
+
+Master of Science in Psychologie (MSc) Spezialisierungsprogramm in Arbeits- und Organisationspsychologie (30 ECTS)
+
+## 2025
+
+## 1. Gesetzliche Grundlagen
+
+Der vorliegende Studienplan basiert auf dem Reglement vom 8. März 2018 zur Erlangung des Bachelors und des Masters an der Philosophischen Fakultät (BA/MA Studienreglement) und auf  den Richtlinien  des  7.  November  2019  über  die  Anerkennung  bereits  erbrachter Studienleistungen (Anerkennungsrichtlinien) der Philosophischen Fakultät.
+
+## 2.  Zulassungsvoraussetzungen
+
+Zum Vertiefungsprogramm (90 ECTS) des Studiengangs Master of Science in Psychologie zugelassen worden sein.
+
+## 3. Unterrichtssprachen
+
+Die  Unterrichtseinheiten  werden  auf  Englisch  angeboten.  Daher  wird  ein  gutes  Lese-  und Hörverständnis sowie  die Fähigkeit, sich in dieser Sprache  schriftlich  und  mündlich auszudrücken, im Hinblick auf die Prüfung der Unterrichtseinheit empfohlen. Die Prüfung einer Unterrichtseinheit erfolgt in ihrer Unterrichtssprache.
+
+## 4.  Beginn und Dauer des Studiums
+
+Die Studierenden können diesen Masterstudiengang entweder im Herbstoder im Frühlingssemester beginnen. Wir empfehlen jedoch, den Studiengang im Herbstsemester zu beginnen. Er dauert als Vollzeitstudium mindestens vier Semester. Die Studiendauer ist auf das  Dreifache  der  im  Studienplan  geforderten  Semesterzahl  beschränkt,  d.h.  maximal  12 Semester.  Wenn  Sie  diesen  Studiengang  im  Frühjahrssemester  beginnen,  kann  sich  das Studium um mindestens ein Semester verlängern.
+
+## 5.  Beschreibung des Programms
+
+## 5.1. Allgemeine Beschreibung
+
+Durch die Wahl dieses Spezialisierungsprogramms können die Studierenden ihre Kenntnisse im Bereich der Arbeits- und Organisationspsychologie vertiefen. Neben der breiten Abdeckung angewandter und forschungsbezogener Bereiche (z. B. Personalentwicklung, Arbeitsanalyse) bietet  diese  Option  die  Möglichkeit,  einen  Schwerpunkt  auf  die  Bereiche  der  sogenannten Human  Factors  und  der  Occupational  Health  Psychology  zu  legen.  Die  in  dieser  Option vermittelten Kompetenzen entsprechenden Anforderungen von Arbeitsplätzen in der Industrie und  in  der  öffentlichen  Verwaltung  (z.  B.  im  Zusammenhang  mit  der  Sicherheit  am Arbeitsplatz).
+
+Das Programm besteht aus zwei Modulen, Human Factors (15 ECTS) und Occupational health psychology (15 ECTS). Die Unterrichtssprache in diesem Programm ist Englisch.
+
+| Spezialisierungsprogramm in Arbeits- und Organisationspsychologie 30 ECTS   | Spezialisierungsprogramm in Arbeits- und Organisationspsychologie 30 ECTS   | Spezialisierungsprogramm in Arbeits- und Organisationspsychologie 30 ECTS   |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| L25.00406                                                                   | Human factors                                                               | 15 ECTS                                                                     |
+| L25.00407                                                                   | Occupational health psychology                                              | 15 ECTS                                                                     |
+
+## 5.2. Beschreibung der Module
+
+Die Unterrichtseinheiten sind in Form von Modulen organisiert. Sie können wöchentlich oder komprimiert (in Form von Blockkursen) durchgeführt werden. Die Wahl der Unterrichtseinheiten in den einzelnen Lehrmodulen ist frei (ausser bei den Pflichtunterrichtseinheiten). Das Angebot an Unterrichtseinheiten pro Modul wird jedes Jahr auf der Website des Departements veröffentlicht.
+
+## Human factors (L25.00406)
+
+Dieses Modul  vermittelt den Studierenden theoretische,  methodische  und praktische Fähigkeiten im Bereich der Arbeitspsychologie und der menschlichen Faktoren und deckt eine Reihe zentraler Themen ab, die mit diesem Bereich in Zusammenhang stehen. Dazu kann beispielsweise Unterricht in den folgenden Bereichen gehören: Mensch-Maschine-Interaktion, Automatisierung,  Usability  und  User  Experience,  Stress  am  Arbeitsplatz,  Gruppenarbeit, Arbeitsgestaltung und Arbeitszeiten. Die entwickelten Fähigkeiten können die Durchführung einer Arbeitsanalyse in einer Organisation oder die Durchführung eines Usability-Tests zur Prüfung eines technischen Geräts umfassen.
+
+Das Modul besteht aus frei wählbaren Unterrichtseinheiten zu 3 ECTS. Um dieses Modul zu validieren,  müssen  die  Studierenden  Unterrichtseinheiten  im  Umfang  von  mindestens  15 ECTS absolvieren. Die Unterrichtseinheiten werden in englischer Sprache angeboten.
+
+## Occupational health psychology (L25.00407)
+
+In diesem Modul erwerben die Studierenden das theoretische Wissen und die methodischen Fähigkeiten, um praktische Probleme in Organisationen mit Fokus auf die Gesundheit und das Wohlbefinden der Mitarbeiterinnen und Mitarbeiter zu lösen und Forschungsprojekte durchzuführen. Das Modul umfasst verschiedene Themen wie Vereinbarkeit von Beruf und Familie, Gerechtigkeit in der Organisation, Gesundheitsförderung am Arbeitsplatz, Konflikte und Wohlbefinden am Arbeitsplatz, Personal-/Organisationsentwicklung, soziale Interaktion und  Führung  sowie  Personalauswahl.  Zu  den  entwickelten  Kompetenzen  kann  auch  die Durchführung von Massnahmen zur betrieblichen Gesundheitsförderung gehören.
+
+Das Modul besteht aus 5 frei wählbaren Unterrichtseinheiten zu je 3 ECTS. Um dieses Modul zu validieren, müssen die Studierenden Unterrichtseinheiten im Umfang von mindestens 15 ECTS absolvieren. Die Unterrichtseinheiten werden in englischer Sprache angeboten.
+
+## 6. Prüfungsmodalitäten
+
+## 6.1. Allgemeine Prüfungsmodalitäten
+
+Die  Bewertung  der  Unterrichtseinheiten  der  verschiedenen  im  Studienplan  vorgesehenen Module erfolgt in erster Linie durch benotete Prüfungen, in der Regel in Form von schriftlichen oder mündlichen Prüfungen. Es kann sich jedoch auch um Prüfungen in Form von schriftlichen Arbeiten oder Präsentationen handeln. Zusätzlich zu den Prüfungen ist eine Anwesenheit von mindestens  80  %  der  Zeit  erforderlich,  um  einen  Blockkurs  zu  validieren.  Wenn  diese Bedingung nicht erfüllt wird (aus welchem Grund auch immer), wird die Einschreibung für diese Unterrichtseinheit gelöscht und kein Misserfolg festgestellt.
+
+Nicht benotete Prüfungen werden nur als 'bestanden' oder 'nicht bestanden' bewertet. Die Prüfungsmodalitäten bestehen in der Regel aus regelmässiger Anwesenheit, aktiver Teilnahme und einer (oder mehreren) mündlichen Präsentation(en). Diese Modalitäten werden in der Beschreibung der Unterrichtseinheit angegeben und bis zum Ende der Anmeldefrist für die Unterrichtseinheiten präzisiert.
+
+## Die folgenden Regeln gelten für alle Evaluationen (benotet und unbenotet):
+
+- Evaluationen können einmal wiederholt werden.
+- Die Leistungen müssen innerhalb von vier Prüfungssitzungen nach Einschreibung zur jeweiligen Unterrichtseinheit bestanden werden.
+- Wenn  eine  schriftliche  Arbeit  im  ersten  Validierungsversuch  nicht  bestanden  wird, muss sie überarbeitet und in einer folgenden Prüfungssession unter Einhaltung der vier Prüfungssessionen erneut eingereicht werden. Die für die Unterrichtseinheit verantwortliche Person legt die Frist für die Einreichung fest.
+- Wenn eine Präsentation im ersten Validierungsversuch nicht bestanden wird, legt die für  die  Unterrichtseinheit  verantwortliche  Person  in  Absprache  mit  den  betroffenen Personen einen neuen Termin für die Präsentation fest.
+
+## 6.2. Definitiver Misserfolg
+
+Wird  die  Evaluation  beim  zweiten  Versuch  nicht  bestanden,  wird  ein  definitiver  Misserfolg erklärt und die entsprechende Unterrichtseinheit gilt als definitiv nicht erworben.
+
+Bei definitivem Misserfolg in mehr als einer Wahlunterrichtseinheit kann der/die Studierende sein/ihr Studium  im  Spezialisierungsprogramm  nicht fortsetzen. Bei einem  definitiven Misserfolg im Spezialisierungsprogramm kann der/die Studierende einmalig das Spezialisierungsprogramm wechseln. Wenn er/sie bereits ein anderes Spezialisierungsprogramm in Verbindung mit dem Vertiefungsprogramm in Psychologie nicht bestanden  hat,  wird  er/sie  vom  Studiengang  zum  Master  of  Science  in  Psychologie ausgeschlossen.
+
+## 6.3. Modulnote und Gesamtnote
+
+Die Note eines validierten Moduls ist das Ergebnis des ungerundeten arithmetischen Mittels der Noten dieses Moduls. Die Note des Moduls wird auf zwei Nachkommastellen gerundet.
+
+Die Gesamtnote des Spezialisierungsprogramms ergibt sich aus dem arithmetischen Mittel der Noten der Module.
+
+## 7.  ECTS-Anerkennung
+
+Für  das  gesamte  Vertiefungsprogramm  können  maximal  12  ECTS  auf  Masterniveau (maximum 6 ECTS pro Modul) anerkannt werden. Anträge auf Anerkennung von Leistungen, die im Rahmen der Mobilität erbracht wurden, werden von der für die Master-Studienberatung zuständigen  Person  bearbeitet.  Das  Anerkennungsverfahren  ist  auf  der  Website  des Departements detailliert beschrieben.
+
+ECTS können unter folgenden bestimmten Voraussetzungen anerkannt werden.
+
+## 7.1. Anerkennung der bereits erbrachten Studienleistungen
+
+Anträge  auf  Anerkennung  von  bereits  erbrachten  Studienleistungen  müssen  vor  oder  zu Beginn des Studiums beim Dekanat der Philosophischen Fakultät eingereicht werden. Nur ECTS, die nicht zum Erwerb eines Diploms geführt haben, können anerkannt werden.
+
+## 7.2. Anerkennung von Studienleistungen, die an anderen Universitäten erbracht wurden (Mobilität)
+
+## Studienleistungen, die an einer anderen Schweizer Universität erworben wurden
+
+Es ist möglich, 12 ECTS, die an anderen Schweizer Universitäten erworben wurden, für das Spezialisierungsprogramm anerkennen zu lassen. Die Studierenden müssen sich mindestens vier Wochen vor Ablauf der Anmeldefrist der Gastuniversität mit der für die Studienberatung zuständigen Person in Verbindung setzen.
+
+## Studienleistungen, die im Rahmen eines Mobilitätsprogramms erworben wurden
+
+Nur die im 'Learning agreement' aufgeführten Unterrichtseinheiten können anerkannt werden. Die  Bewerberin  oder  der  Bewerber  für  ein  Mobilitätsprogramm  muss  sich  die  für  die Studienberatung  zuständige  Person  in  Verbindung  setzen,  um  das  'Learning  agreement' mindestens zwei Monate vor Ablauf der Frist für die Einreichung des Dossiers (die auf der Website der Dienststelle für internationale Beziehungen - DIB angegeben ist) zu planen.
+
+## 8. Inkrafttreten
+
+Der vorliegende Studienplan gilt ab dem Herbstsemester 2025. Studierenden, die vor diesem Datum begonnen haben, können durch schriftliche Mitteilung an das Sekretariat des Departements und vor dem 05.06.2026 ihren Studienplan ändern. Zudem müssen sie angeben, welches Spezialisierungsprogramm sie belegen möchten. Ab dem 1. September 2028 wechselt jede/r Studierende automatisch in den vorliegenden Studienplan. Die Übergangsmassnahmen werden vom Präsidenten / von der Präsidentin des Departements geregelt.

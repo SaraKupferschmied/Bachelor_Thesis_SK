@@ -1,0 +1,87 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T23:59:11.550Z",
+  "title": "unmatched_SCIMED_UNK_30_Introduction_aux_branches_compl_mentaires_30_Introduction_aux_branches_compl_mentaires_30_822686569272467fceb44c39b85b98adf4f0346c",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "822686569272467fceb44c39b85b98adf4f0346c",
+  "program_key": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_Intro_fr.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\unmatched_SCIMED_UNK_30_Introduction_aux_branches_compl_mentaires_30_Introduction_aux_branches_compl_mentaires_30_822686569272467fceb44c39b85b98adf4f0346c.pdf",
+  "sha256": "3d0bedfaf3236fa1e8eee2f852fd866d781f8971942fee43f7b4397e70351edf",
+  "fetched_at": "2026-05-21T16:05:41.133Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_BCp30_Intro_fr.pdf, ct=application/pdf)",
+  "level": null,
+  "ects_points": null,
+  "programme_name_en": null,
+  "programme_name_de": null,
+  "programme_name_fr": null,
+  "programme_url": null,
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+<!-- image -->
+
+<!-- image -->
+
+## 1 Généralités
+
+Ce document introduit les plans d ' études des branches complémentaires +30 offertes par la Faculté des  sciences  et  de  médecine .  Ces  branches  complémentaires  s'adressent aux  étudiant·e·s  qui souhaitent acquérir, dans le cadre de leurs études universitaires, les bases scientifiques renforcées d ' une 2 e  branche d ' études. Ces branches sont chacune composées de 2 parties, appelées branches complémentaires.  La  première  partie,  généralement  intégrée  comme Domaine  II, Branche secondaire ou Branche complémentaire dans un bachelor, permet l ' acquisition de 60 crédits ECTS (European Credit Transfer System) . Le contenu de cette première partie est décrit dans les Plans d ' études  pour  les  branches  propédeutiques  et  les  branches  complémentaires  de  bachelor (www.unifr.ch/scimed/fr/plans) .  La  seconde  partie,  consécutive,  permet  l ' acquisition  de  30  crédits ECTS supplémentaires et est décrite dans les présents documents. Cette 2 e  partie, abrégée BCo+30, peut être soit suivie séparément, soit intégrée dans un Master, selon la voie d ' études. À l ' exception des sciences du sport et de la motricité, elle ne peut être choisie qu ' une fois les 60 crédits ECTS de la 1 e partie acquis.
+
+Chacun de ces programmes constitue un paquet de validation au sens du Règlement du 30 mai 2022 pour l ' obtention des Bachelors of Science et des Masters of Science de la Faculté des sciences et de médecine (ci-après Règlement), auquel ils sont soumis.
+
+Le Règlement du 30 mai 2022 pour l'obtention des Bachelor of Science et des Master of Science prévoit une limitation  de la durée des études de Bachelor et de Master, ainsi que des branches complémentaires (voir articles 11, 13 et 14).
+
+## 1.0.1    Branche d ' enseignement au niveau secondaire II
+
+L ' exigence  minimum  pour  l ' enseignement  d ' une  branche  II  au  niveau  secondaire  II  (Collège, Gymnase, etc.) étant de 90 crédits ECTS, les programmes élargis (+30) sont donc obligatoires pour accéder au DEEM avec une branche II d ' enseignement .  Ils  peuvent toutefois  aussi être suivis en dehors d ' une perspective de formation à l ' enseignement au niveau des écoles de maturité, par exemple comme 2 e  domaine d ' études d ' un Master.
+
+## 1.1  Structure générale des branches complémentaires BCo+30
+
+## 1.1.1    Unités d ' enseignement (UE)
+
+Les programmes d ' études des branches complémentaires +30 se composent d ' unités d ' enseignement (UE) telles que les cours, les exercices, les travaux pratiques, les projets, etc., qui s ' étendent habituellement sur un semestre. À chacune des UE est associé un nombre de crédit ECTS .
+
+## 1.1.2    Horaires
+
+Afin de réduire au maximum les conflits d ' horaires, par exemple avec le programme de la branche principale, les plans d ' études présentent de nombreux cours à choix. Il est toutefois recommandé de planifier  ses  études  sur  toute  la  durée  prévue  (typiquement  1.5  à  2  ans  pour  la  branche complémentaire) afin d ' éviter des conflits horaires et/ou un prolongement des études.
+
+## 1.1.3    Inscription aux UE
+
+Les étudiant·e·s doivent s ' inscrire aux UE qu ' ils ou elles suivront, avant le début de chaque semestre, dans les délais et selon la procédure indiquée sur le portail d ' étudiant·e·s MyUniFR (https://my.unifr.ch).
+
+## 1.2  Évaluations des unités d ' enseignement et acquisition des crédits ECTS
+
+Chaque UE est évaluée, soit sous la forme d ' une épreuve, soit par la participation  active à des expériences, des exercices ou d ' autres travaux pratiques. Une épreuve conduit habituellement à une note, alors que les autres formes d ' évaluation sont sanctionnées à l ' aide des qualificatifs « réussi » ou « échec ». Les modalités d ' évaluations sont définies dans des annexes (une par domaine). Si l ' épreuve d ' une UE est parfois orale, parfois écrite, les étudiant·e·s doivent être informé-e-s au début du semestre correspondant de la façon dont se  déroulera  l ' épreuve (art.  15  du  Règlement).  De manière similaire, ils doivent être instruits au début de chaque semestre sous quelles conditions les travaux, les expériences ou les exercices seront évalués. L ' épreuve porte sur la matière de l ' UE telle qu ' elle  a  été  enseignée  la  dernière  fois.  En  cas  d ' exception,  celle-ci  sera  communiquée  par  le Département et/ou par l ' enseignant·e responsable.
+
+Pour  chaque  épreuve,  l ' étudiant·e  s ' inscrit  dans  les  délais  prescrits  selon  la  procédure  en  ligne accessible avec le compte personnel et le mot de passe fournis par l ' Université ( https://my.unifr.ch) . Pour les UE évaluées par note, celles-ci vont de 6 (meilleure note) à 1 (plus mauvaise note). Seule une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante (art. 21 du Règlement). Une UE sanctionnée par un « échec » peut être évaluée une seconde fois.
+
+Les UE sont regroupées en paquets de validation (art. 24 et 27 du Règlement). Chaque branche complémentaire choisie constitue un paquet de validation.
+
+Les conditions de validation des crédits ECTS sont décrites dans l'Art. 25 du règlement .
+
+Après validation, sur demande de l'étudiant · e et après acquittement de la taxe d'examen, un relevé de prestations indiquant les résultats des évaluations et le nombre de crédits acquis sera délivré par le Décanat (Art. 28 et 30 du Règlement).
+
+## 1.3  Langues d ' enseignement
+
+Les enseignements sont donnés généralement en français ou en allemand. Toutefois, l ' étudiant·e a toujours la possibilité de s ' exprimer dans l ' une ou l ' autre de ces langues. Les enseignements plus avancés peuvent être donnés en anglais.
+
+## 1.4  Ethique scientifique
+
+Les principes  d ' éthique  scientifique  font  partie  intégrante  de  la  formation  scientifique.  Les  règles internationalement admises doivent être respectées lors de l ' élaboration et la rédaction de tout travail scientifique (projet, séminaire, travail de recherche, rapport, etc.). En particulier, toute source externe d ' information (articles, communications orales, page web, etc.) doit être correctement citée.
+
+Dans ce cadre, la Faculté a mis en place la formation obligatoire ci-dessous : Vous trouvez la description détaillée à l'adresse : https://www.unifr.ch/scimed/fr/integrity
+
+## Orientation de base et recherche à la bibliothèque
+
+Le but est de connaître les objectifs et les méthodes spécifiques de la recherche documentaire.
+
+Cette formation est à suivre durant le premier semestre d'études. Vous pourrez consulter vos résultats seulement  après  avoir  réussi  cette  formation  et  soumis  le  formulaire  « Déclaration  d'intégrité scientifique » signé.
+
+## 1.5  Règlements et informations complémentaires
+
+De plus amples informations concernant les études en Faculté des sciences et de médecine sont accessibles  à  l ' adresse  http://www.unifr.ch/scimed/plans.  Ils  sont  également  disponibles  à  la réception du Décanat de la Faculté, chemin du Musée 8, CH-1700 Fribourg.

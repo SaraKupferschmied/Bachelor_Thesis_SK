@@ -1,0 +1,106 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-21T22:15:44.000Z",
+  "title": "matched_Faculty_of_Humanities_Bachelor_60_Art_History_Kunstgeschichte_im_Bereich_II_32ae2bda8d97c937d65284b0b8aee4b1c9675d7d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "32ae2bda8d97c937d65284b0b8aee4b1c9675d7d",
+  "program_key": "faculty of humanities|bachelor|60|art history",
+  "source_url": "https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA60_de_20140919_def.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Humanities_Bachelor_60_Art_History_Kunstgeschichte_im_Bereich_II_32ae2bda8d97c937d65284b0b8aee4b1c9675d7d.pdf",
+  "sha256": "dced64d0f8a1504ad5f84294543f21d54e627952f30ef0e53def23084b6b6c78",
+  "fetched_at": "2026-05-21T16:05:22.631Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/art/de/assets/public/Etudes/Plans%20BA/HA_BA60_de_20140919_def.pdf, ct=application/pdf)",
+  "level": "Bachelor",
+  "ects_points": 60,
+  "programme_name_en": "Art History",
+  "programme_name_de": "Kunstgeschichte",
+  "programme_name_fr": "Histoire de l'art",
+  "programme_url": "https://studies.unifr.ch/en/bachelor/artmus/arthistory",
+  "curriculum_url": "http://studies.unifr.ch/go/6TFjB"
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Histoire de l'art Kunstgeschichte Art History
+
+## Bachelor -60 ECTS -Kredite
+
+Das Studienprogramm Kunstgeschichte zu 60 Kreditpunkten wird durch den vorliegenden Studienplan bestimmt. Dieser Studienplan beruht auf dem Reglement vom 23. Juni 2005 zur Erlangung des universitären Diploms (Niveau europäischer Bachelor) und auf den Richtlinien vom 23. April 2009 über die Evaluation der Studienleistungen, die Vergabe der ECTS -Punkte und die Validierung der Module an der Philosophischen Fakultät der Universität Freiburg (Schweiz).
+
+## 1. Allgemeine Beschreibung des Programms
+
+Das Bachelorstudium in Kunstgeschichte bietet den Studentinnen und Studenten die Möglichkeit, Kenntnisse über die Geschichte der Kunst von den Anfängen bis heute zu erwerben: Kunstgeschichte der Moderne und Gegenwart (20. und 21. Jh.), Kunstgeschichte der Neuzeit, des Mittelalters im Westen und in der byzantinischen Welt und Kunstgeschichte und Archäologie der klassischen Antike.
+
+Vermittelt werden die Grundlagen, die für das Verstehen und Interpretieren von Kunstwerken notwendig sind und deren Einordnung in die historischen, materiellen und funktionalen Zusammenhänge erlauben. Ziel ist es, Kenntnisse über die grossen Bewegungen zu erhalten und Kunstwerke von der Antike bis in die Gegenwart einordnen zu können. Die hierfür erforderlichen formalen und inhaltlichen Analysemethoden sowie das Erlernen von wissenschaftlichen Arbeitstechniken der Kunstgeschichte sind zentraler Bestandteil der Lehre.
+
+Das Studium der Kunstgeschichte kann sowohl im Herbst -als auch im Frühlingssemester beginnen.
+
+## 2. Aufbau des Studiums 1
+
+Die vier Einführungsmodule sind nach Epochen geordnet und geben eine Einführung in die Kunstgeschichte des jeweiligen Zeitraumes.
+
+| Modul   | Beschreibung                                                              |   Kredite |
+|---------|---------------------------------------------------------------------------|-----------|
+| Modul 1 | Einführung in die Kunstgeschichte der Moderne und Gegenwart (20./21. Jh.) |        15 |
+| Modul 2 | Einführung in die Kunstgeschichte der Neuzeit                             |        15 |
+| Modul 3 | Einführung in die Kunstgeschichte des Mittelalters                        |        15 |
+| Modul 4 | Einführung in die Kunstgeschichte und Archäologie der klassischen Antike  |        15 |
+
+## 3. Spezifische Bestimmungen
+
+## 3.1 Empfehlungen zu Aufbau und Organisation des Studiums
+
+Es wird empfohlen, das Studium mit den Modulen des Grundpfeilers zu beginnen, vorzugsweise mit den Einführungsvorlesungen, die sich speziell an Studienanfängerinnen und Studienanfänger richten.
+
+Die vier Module des Grundpfeilers können gleichzeitig begonnen werden.
+
+Die propädeutischen Vorlesungen des Grundpfeilers werden in der Regel als 2jähriger Zyklus angeboten, jeweils eine Vorlesung pro Semester. In den propädeutischen Vorlesungen werden exemplarisch kunsthistorische Fragestellungen der jeweiligen Epoche erklärend dargelegt und verschiedene Methoden beispielhaft vorgeführt. Diese exemplarischen Erläuterungen werden von den Studentinnen und Studenten durch eine Lektüre (3 Bücher pro Epoche) begleitet, die synthetisch den Gegenstandsbereich und die Problemfelder der jeweiligen Epoche abdeckt. Es wird empfohlen, frühzeitig mit der Lektüre zu beginnen. Alle vier Vorlesungen werden einzeln mit einer schriftlichen und einer mündlichen Prüfung evaluiert. Es ist sinnvoll, diesen Zyklus ab dem 3. Semester zu besuchen.
+
+## 3.2 Veranstaltungstypen und Prüfungsmodalitäten
+
+Einführungsvorlesung (3 ECTS): Evaluierung durch eine schriftliche Prüfung. Die Prüfungsmodalitäten regelt die verantwortliche Dozentin oder der verantwortliche Dozent.
+
+Proseminar (6 ECTS): gefordert werden eine aktive Teilnahme und die Übernahme eines Referats. Das Proseminar wird durch eine wissenschaftliche Hausarbeit von ungefähr 30'000 Zeichen (inklusive Leerzeichen und Fussnoten, ohne Titelseite, Bibliografie, Abbildungsverzeichnis, Abbildungen und andere Anhänge) evaluiert. Anzahl Referate und weitere Anforderungen regelt die verantwortliche Dozentin oder der verantwortliche Dozent.
+
+Propädeutische Vorlesung (6 ECTS): Evaluierung durch eine schriftliche und eine mündliche Prüfung. Die Prüfungsmodalitäten regelt die verantwortliche Dozentin oder der verantwortliche Dozent. Die mündliche Prüfung bezieht sich auf die Lektüre der 3 Bücher aus der Leseliste. Die Literaturliste ist auf der Homepage des Studienbereichs abrufbar.
+
+## 3.3 Berechnung der Noten
+
+Die Unterrichtseinheiten, die eine Note erhalten (Vorlesungen und Proseminare), werden einzeln mit halben oder ganzen Noten zwischen 1 und 6 bewertet. Für einen erfolgreichen Abschluss muss mindestens die Note 4 erreicht werden. Eine nicht bestandene Unterrichtseinheit kann durch eine entsprechende Unterrichtseinheit im gleichen Modul kompensiert werden. Ausgenommen davon sind die Propädeutischen Vorlesungen (siehe ' Regeln über den definitiver Ausschluss vom Studium' Punkt 3.4).
+
+Die Modulnoten werden aus dem Durchschnitt aller im entsprechenden Modul erworbenen Noten berechnet und nicht gerundet.
+
+Die Endnote des Studienprogramms entspricht dem Durchschnitt aller Modulnoten.
+
+## 3.4 Regeln über den definitiven Ausschluss vom Studium
+
+Der Misserfolg im Sinne des 3. Art. der Richtlinien über die Evaluation der Studienleistungen vom 23. April 2009 (Stand am 26. September 2013) einer der vier obligatorischen propädeutischen Vorlesungen hat den definitiven Ausschluss von den Studienprogrammen Bachelor Kunstgeschichte zu 60 ECTS und zu 120 ECTS zur Folge.
+
+## 3.5 Unterrichtssprachen
+
+Dieses Studienprogramm ist zweisprachig, unterrichtet wird auf Französisch und auf Deutsch. Die Studentinnen und Studenten müssen obligatorisch Veranstaltungen in beiden Sprachen belegen. Die genaue Aufteilung hängt von den einzelnen Unterrichtseinheiten ab. Die Prüfungen, Hausarbeiten und Referate können die Studentinnen und Studenten jedoch immer in der Sprache ihrer Wahl (Französisch oder Deutsch) abgelegen.
+
+Wer ein zweisprachiges Diplom anstrebt, wird gebeten, sich beim Studienbeginn an die Studienberaterin oder den Studienberater zu wenden. Für ein zweisprachiges Diplom müssen aktiv, mündlich und schriftlich, in beiden Sprachen Veranstaltungen belegt werden. Mindestens 40% der ECTS -Punkte müssen in der zweiten Sprache evaluiert werden, siehe auch die Bestimmungen des Bachelor -Reglements der Fakultät.
+
+## 3.6 Anerkennung von Studienleistungen, Erasmus, Swiss -Mobility
+
+Zur Erlangung eines Diploms in Kunstgeschichte der Universität Freiburg i. Ue. muss die Studentin oder der Student mindestens 50% der ECTS Punkte des betreffenden Bereichs an der Universität Freiburg validieren. Obligatorisch sind die vier propädeutischen Vorlesungen des Grundpfeilers in Freiburg zu besuchen. Die an einer externen Universität besuchten Lehrveranstaltungen können nur in dem Masse angerechnet werden, wie sie sich thematisch und formal in den Studienplan integrieren lassen.
+
+Alle Unterrichtseinheiten von externen Universitäten, die der Bereich anerkennt, müssen mit einer Note evaluiert sein.
+
+Bachelor - 60 Kredite
+
+## Struktur des Studienprogramm s :
+
+| Modul                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |   Kredite |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Modul 1:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Einführung in die Kunstgeschichte der Moderne und Gegenwart (20./21. Jh.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        15 |
+| Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte der Moderne und Gegenwart (20. und 21. Jahrhundert). Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung, Evaluierung durch je eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS).                                                       | Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte der Moderne und Gegenwart (20. und 21. Jahrhundert). Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung, Evaluierung durch je eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS).                                                       |           |
+| Modul 2:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Einführung in die Kunstgeschichte der Neuzeit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |        15 |
+| Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte der Neuzeit. Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung, Evaluierung durch je eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS).                                                                                               | Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte der Neuzeit. Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung, Evaluierung durch je eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS).                                                                                               |           |
+| Modul 3:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Einführung in die Kunstgeschichte des Mittelalters                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |        15 |
+| Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte des Mittelalters. Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung in die Kunst des Mittelalters, Evaluierung durch eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung zur Kunstgeschichte des östlichen und westlichen Mittelalters, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS). | Ziel dieses Einführungsmoduls ist der Erwerb von Grundkenntnissen und das Erlernen von Analysemethoden der Kunstgeschichte des Mittelalters. Die Studentin / Der Student erlernt die Kompetenzen, indem sie / er folgende Veranstaltungen belegt: eine Einführungsvorlesung in die Kunst des Mittelalters, Evaluierung durch eine schriftliche Prüfung (3 ECTS) ein Proseminar mit schriftlicher Hausarbeit (6 ECTS) eine propädeutische Vorlesung zur Kunstgeschichte des östlichen und westlichen Mittelalters, Evaluierung durch eine schriftliche Prüfung über den Inhalt der Vorlesung und durch eine mündliche Prüfung über den Inhalt und die Thesen der 3 Bücher aus der Literaturliste (6 ECTS). |           |
+| Modul 4:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Einführung in die Kunstgeschichte und Archäologie der klassischen Antike                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |        15 |

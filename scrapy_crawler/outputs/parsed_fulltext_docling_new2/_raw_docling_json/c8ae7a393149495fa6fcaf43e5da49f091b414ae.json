@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Science_and_Medicine_Bachelor_150_Chemistry_Branches_compl_mentaires_en_chimie_c8ae7a393149495fa6fcaf43e5da49f091b414ae",
+  "markdown": "<!-- image -->\n\n<!-- image -->\n\n## 3.4  Chimie\n\nLa Chimie offre 4 branches complémentaires.\n\n- CHB-30 : Branche complémentaire de 30 ECTS Chimie pour biochimistes . Cette branche complémentaire est réservée aux étudiant-e-s du BSc en biochimie qui souhaitent renforcer le programme de chimie de leur branche principale. 1\n\n[Version 2022, paquet de validation : PV-SCH.0000042]\n\n- CH-30 : Branche complémentaire de 30 ECTS (pour non chimistes ou non biochimistes). Les étudiant-e-s qui ont suivi la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2022, paquet de validation : PV-SCH.0000043]\n\n- CH-60 : Branche  complémentaire  de  60  ECTS. Les  étudiant-e-s  qui  ont  suivi  la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2025, paquet de validation : PV-SCH.0000070]\n\n- CHD-60 : Cette  branche  complémentaire  est  proposée  aux  étudiant-e-s  qui  choisissent  la chimie  comme  seconde  branche  d'enseignement  dans  le  cadre  d'un  Diplôme d'enseignement pour les écoles de maturité (DEEM) . 1 Ceux ou celles qui ont suivi la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2022, paquet de validation : PV-SCH.0000045]\n\nPour chaque  branche  complémentaire,  un  certain  nombre  d'UE  sont  obligatoires  alors  que d'autres peuvent être choisies pour atteindre le nombre nécessaire de crédits ECTS. Les UE obligatoires et les choix sont présentés dans les tableaux du paragraphe 3.4.1. Pour la sélection des UE à choix, voir avec le conseiller ou la conseillère d'études.\n\n1 L'étudiant -e qui choisit Chimie en branche II d'enseignement du DEEM doit compléter sa formation par le programme Chimie +30 (CHD+30) décrit dans le plan d'études : Plan d'études des branches complémentaires offertes par la Faculté des sciences et de médecine +30 ECTS en mathématiques, informatique, physique, chimie, géographie, biologie et sciences du sport et de la motricité\n\n## 3.4.1 Unités d ' enseignement\n\n## Semestre d'automne\n\n| Code      | Unité d ' enseignement                                              |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|---------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00234 | Chimie organique (travaux pratiques pour BCo) 1                     |       140 |      5 | obl.     | obl.     | chx     | obl.     |\n| SCH.00236 | Chimie organique (TP complémentaires pour BCo) 1                    |        84 |      3 | chx      | -        | -       | chx      |\n| SCH.01014 | Chimie générale (cours avec exercices)                              |        84 |      6 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01031 | Chimie générale et inorganique (travaux pratiques) 2                |       112 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01033 | Problem solving en chimie générale                                  |        28 |      2 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.02120 | Introduction à la chimie des complexes (avec exercices)             |        28 |      3 | chx      | chx      | obl.    | obl.     |\n| SCH.02212 | Méthodes synthétiques (cours)                                       |        42 |      3 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02222 | Méthodes synthétiques (exercices)                                   |        14 |      2 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02235 | Synthèse organique pour étudiant-es en chimie (travaux pratiques) 1 |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02312 | Thermodynamique classique (cours avec exercices)                    |        28 |      3 | -        | chx*     | obl.*   | obl.*    |\n| SCH.02342 | Introduction à la mécanique quantique (cours avec exercices)        |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03125 | Méthodes de calcul en chimie (cours avec travaux prat.)             |        56 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03212 | Stéréochimie organique (cours avec exercices)                       |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03339 | Spectroscopie 2 (cours avec exercices)                              |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03220 | Introduction à la chimie des polymères                              |        14 |    1.5 | chx      | chx      | chx     | chx      |\n| SCH.03394 | Chimie physique (travaux pratiques)                                 |       224 |      8 | -        | -        | chx     | chx      |\n\n## Semestre de printemps\n\n| Code      | Unité d ' enseignement                                               |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|----------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00244 | Analyse instrumentale (travaux pratiques pour BCo)                   |       140 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.00246 | Analyse instrumentale (TP complémentaires pour BCo)                  |        84 |      3 | obl.     | -        | -       | chx      |\n| SCH.01054 | Chimie analytique (cours avec exercices)                             |        42 |      3 | -        | chx      | obl.*   | obl.*    |\n| SCH.01084 | Chimie analytique (travaux pratiques)                                |       112 |      4 | obl.     | chx      | obl.    | obl.     |\n| SCH.01067 | Chimie des éléments (cours avec exercices)                           |        42 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01072 | Chimie organique de base (cours avec exercices)                      |        42 |      3 | -        | obl.*    | obl.*   | obl*     |\n| SCH.02151 | Spectroscopie 1 (cours avec exercices)                               |        42 |      4 | -        | chx      | chx     | chx      |\n| SCH.02252 | Analyse instrumentale organique (cours avec exercices)               |        56 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.02274 | Analyse instrumentale (travaux pratiques)                            |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02329 | Cinétique et thermodynamique statistique (cours avec exercices)      |        42 |    4.5 | -        | chx*     | chx*    | chx*     |\n| SCH.02350 | Thermodynamique statistique (pour HES)                               |        21 |    2.5 | chx°     | -        | chx°    | chx°     |\n| SCH.03142 | Métaux d et f (cours avec exercices)                                 |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03219 | Caractéristiques photophysiques de la matière (cours avec exercices) |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03229 | Mécanismes réactionnels (cours avec exercices)                       |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03355 | Modélisation en chimie (avec exercices)                              |        28 |      3 | obl.     | chx      | chx     | chx      |\n\n§ Pour un choix optimal, consultez le conseiller d'études.\n\n1  Prérequis : pour des raisons de sécurité, SCH.01031 (ou SCH.01024), SCH.01033 et SCH.01072 doivent être\n\nsuivi avant de pouvoir suivre SCH.02235.\n\n2  SCH.01031 et SCH.01024 s'excluent mutuellement : si l'un des cours a déjà été validé, l'autre ne peut pas être choisi et il doit être remplacé par une UE à choix.\n\n* Peut avoir été déjà pris en branche propédeutique ou dans un autre programme. Dans ce cas, doit être remplacé par une autre UE à choix.\n- °          Le cours SCH.02350 peut être choisi seulement si le cours propédeutique SCH.02339 Cinétique (pour Biochimistes) a été déjà pris.\n- TP Travaux pratiques\n- BCo Branche complémentaire\n\n## 3.4.2 Contenu des unités d ' enseignement des branches complémentaires\n\n## Les cours\n\n- Le  cours  de Chimie  générale (SCH.01014)  établit  les  bases  de  la  chimie  et  complète  les connaissances acquises au gymnase pour les amener au niveau universitaire.\n- Le cours de Problem solving en Chimie générale (SCH.01033) complète les sujets traités dans le cours Chimie Générale (SCH.01014) en accentuant l'importance du processus de résolution de problèmes.\n- Le cours de Chimie analytique (SCH.01054) donne une introduction à l'étude des systèmes complexes  (équilibres  multiples)  et  aux  méthodes  analytiques  classiques  (gravimétrie, volumétrie, ...).\n- Le  cours  de Chimie des éléments (SCH.01067)  présente  une  introduction  sur  la  structure chimique des matériaux ainsi que leurs propriétés et réactivité.\n- Le cours de Chimie organique de base (SCH.01072) donne une introduction aux réactions organiques et aux mécanismes réactionnels.\n- Le cours Introduction à la chimie des complexes (SCH.02120) offre une formation approfondie en chimie inorganique.\n- Les Méthodes  synthétiques (cours) (SCH.02212)  avec  les exercices correspondants (SCH.02222)  et  le  cours Analyse  instrumentale  organique (SCH.02252)  apportent  les connaissances théoriques nécessaires aux travaux pratiques correspondants.\n- Les cours Spectroscopie  1 (SCH.02151), Thermodynamique  classique (SCH.02312), Cinétique et thermodynamique statistique (SCH.02329), Thermodynamique statistique (pour HES) (SCH.02350) et Introduction à la mécanique quantique (SCH.02342) forment le premier cycle de  la  chimie  physique,  alors  que Propriétés  photophysiques  de  la  matière (SCH.03219), Spectroscopie 2 (SCH.03339) et Modélisation en chimie (SCH.03355) en forment le second.\n- Les cours Méthodes de calcul en chimie (SCH.03125) et Modélisation en chimie (SCH.03355) apportent les bases nécessaires aux travaux pratiques informatisés.\n- Le cours Métaux d et f (SCH.03142) s'intéresse aux métaux de transition, à leurs applica tions et à leur rôle dans la biologie.\n- Le cours Stéréochimie organique (SCH.03212) est dédié au thème important de la chiralité.\n- Dans  les  cours Mécanismes  réactionnels (SCH.03229) , les  réactions  chimiques  des substances organiques seront classées par type de réaction et les méthodes d'identification de leurs mécanismes seront décrites.\n- Le  cours Introduction  à  la  chimie  des  polymères (SCH.03220) fournit  les  rudiments  de  la chimie des polymères.\n\n## Les travaux pratiques\n\n- Les travaux pratiques de Chimie organique (SCH.00234, SCH.00236 [versions raccourcies pour étudiant-e-s en branche complémentaire], SCH.02235) initient à la synthèse organique.\n- Les  travaux  pratiques  d 'Introduction  à  l'analyse  instrumentale (SCH.00244,  SCH.00246 [versions raccourcies pour étudiant-e-s en branche complémentaire], SCH.02274) initient aux méthodes spectroscopiques les plus souvent utilisées en chimie.\n- Les travaux pratiques de Chimie générale et inorganique (SCH.01031) illustrant les concepts principaux exposés dans le cours du même nom par des expériences concrètes et qui doivent être suivis par tous les participants au cours.\n- Les travaux pratiques de Chimie analytique (SCH.0 1084) permettent l'apprentissage des tech -niques d ' analyse classiques les plus importantes.\n- Les travaux pratiques Méthodes de calcul en chimie (SCH.03125) illustrent non seulement les méthodes théoriques de la chimie, mais également des utilisations spécifiques des ordinateurs en chimie.\n\n- Les  travaux  pratiques  de Chimie  physique (SCH.03394)  enseignent,  par  des  expériences avancées, des aspects physico-chimiques importants.\n\n## 3.4.3 Évaluation des unités d'enseignement\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie.",
+  "pages": [
+    "<!-- image -->\n\n<!-- image -->\n\n## 3.4  Chimie\n\nLa Chimie offre 4 branches complémentaires.\n\n- CHB-30 : Branche complémentaire de 30 ECTS Chimie pour biochimistes . Cette branche complémentaire est réservée aux étudiant-e-s du BSc en biochimie qui souhaitent renforcer le programme de chimie de leur branche principale. 1\n\n[Version 2022, paquet de validation : PV-SCH.0000042]\n\n- CH-30 : Branche complémentaire de 30 ECTS (pour non chimistes ou non biochimistes). Les étudiant-e-s qui ont suivi la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2022, paquet de validation : PV-SCH.0000043]\n\n- CH-60 : Branche  complémentaire  de  60  ECTS. Les  étudiant-e-s  qui  ont  suivi  la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2025, paquet de validation : PV-SCH.0000070]\n\n- CHD-60 : Cette  branche  complémentaire  est  proposée  aux  étudiant-e-s  qui  choisissent  la chimie  comme  seconde  branche  d'enseignement  dans  le  cadre  d'un  Diplôme d'enseignement pour les écoles de maturité (DEEM) . 1 Ceux ou celles qui ont suivi la Chimie propédeutique en remplacent les UE obligatoires par d'autres UE à choix.\n\n[Version 2022, paquet de validation : PV-SCH.0000045]\n\nPour chaque  branche  complémentaire,  un  certain  nombre  d'UE  sont  obligatoires  alors  que d'autres peuvent être choisies pour atteindre le nombre nécessaire de crédits ECTS. Les UE obligatoires et les choix sont présentés dans les tableaux du paragraphe 3.4.1. Pour la sélection des UE à choix, voir avec le conseiller ou la conseillère d'études.\n\n1 L'étudiant -e qui choisit Chimie en branche II d'enseignement du DEEM doit compléter sa formation par le programme Chimie +30 (CHD+30) décrit dans le plan d'études : Plan d'études des branches complémentaires offertes par la Faculté des sciences et de médecine +30 ECTS en mathématiques, informatique, physique, chimie, géographie, biologie et sciences du sport et de la motricité\n\n## 3.4.1 Unités d ' enseignement\n\n## Semestre d'automne\n\n| Code      | Unité d ' enseignement                                              |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|---------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00234 | Chimie organique (travaux pratiques pour BCo) 1                     |       140 |      5 | obl.     | obl.     | chx     | obl.     |\n| SCH.00236 | Chimie organique (TP complémentaires pour BCo) 1                    |        84 |      3 | chx      | -        | -       | chx      |\n| SCH.01014 | Chimie générale (cours avec exercices)                              |        84 |      6 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01031 | Chimie générale et inorganique (travaux pratiques) 2                |       112 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01033 | Problem solving en chimie générale                                  |        28 |      2 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.02120 | Introduction à la chimie des complexes (avec exercices)             |        28 |      3 | chx      | chx      | obl.    | obl.     |\n| SCH.02212 | Méthodes synthétiques (cours)                                       |        42 |      3 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02222 | Méthodes synthétiques (exercices)                                   |        14 |      2 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02235 | Synthèse organique pour étudiant-es en chimie (travaux pratiques) 1 |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02312 | Thermodynamique classique (cours avec exercices)                    |        28 |      3 | -        | chx*     | obl.*   | obl.*    |\n| SCH.02342 | Introduction à la mécanique quantique (cours avec exercices)        |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03125 | Méthodes de calcul en chimie (cours avec travaux prat.)             |        56 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03212 | Stéréochimie organique (cours avec exercices)                       |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03339 | Spectroscopie 2 (cours avec exercices)                              |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03220 | Introduction à la chimie des polymères                              |        14 |    1.5 | chx      | chx      | chx     | chx      |\n| SCH.03394 | Chimie physique (travaux pratiques)                                 |       224 |      8 | -        | -        | chx     | chx      |\n\n## Semestre de printemps\n\n| Code      | Unité d ' enseignement                                               |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|----------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00244 | Analyse instrumentale (travaux pratiques pour BCo)                   |       140 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.00246 | Analyse instrumentale (TP complémentaires pour BCo)                  |        84 |      3 | obl.     | -        | -       | chx      |\n| SCH.01054 | Chimie analytique (cours avec exercices)                             |        42 |      3 | -        | chx      | obl.*   | obl.*    |\n| SCH.01084 | Chimie analytique (travaux pratiques)                                |       112 |      4 | obl.     | chx      | obl.    | obl.     |\n| SCH.01067 | Chimie des éléments (cours avec exercices)                           |        42 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01072 | Chimie organique de base (cours avec exercices)                      |        42 |      3 | -        | obl.*    | obl.*   | obl*     |\n| SCH.02151 | Spectroscopie 1 (cours avec exercices)                               |        42 |      4 | -        | chx      | chx     | chx      |\n| SCH.02252 | Analyse instrumentale organique (cours avec exercices)               |        56 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.02274 | Analyse instrumentale (travaux pratiques)                            |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02329 | Cinétique et thermodynamique statistique (cours avec exercices)      |        42 |    4.5 | -        | chx*     | chx*    | chx*     |\n| SCH.02350 | Thermodynamique statistique (pour HES)                               |        21 |    2.5 | chx°     | -        | chx°    | chx°     |\n| SCH.03142 | Métaux d et f (cours avec exercices)                                 |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03219 | Caractéristiques photophysiques de la matière (cours avec exercices) |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03229 | Mécanismes réactionnels (cours avec exercices)                       |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03355 | Modélisation en chimie (avec exercices)                              |        28 |      3 | obl.     | chx      | chx     | chx      |\n\n§ Pour un choix optimal, consultez le conseiller d'études.\n\n1  Prérequis : pour des raisons de sécurité, SCH.01031 (ou SCH.01024), SCH.01033 et SCH.01072 doivent être\n\nsuivi avant de pouvoir suivre SCH.02235.\n\n2  SCH.01031 et SCH.01024 s'excluent mutuellement : si l'un des cours a déjà été validé, l'autre ne peut pas être choisi et il doit être remplacé par une UE à choix.\n\n* Peut avoir été déjà pris en branche propédeutique ou dans un autre programme. Dans ce cas, doit être remplacé par une autre UE à choix.\n- °          Le cours SCH.02350 peut être choisi seulement si le cours propédeutique SCH.02339 Cinétique (pour Biochimistes) a été déjà pris.\n- TP Travaux pratiques\n- BCo Branche complémentaire\n\n## 3.4.2 Contenu des unités d ' enseignement des branches complémentaires\n\n## Les cours\n\n- Le  cours  de Chimie  générale (SCH.01014)  établit  les  bases  de  la  chimie  et  complète  les connaissances acquises au gymnase pour les amener au niveau universitaire.\n- Le cours de Problem solving en Chimie générale (SCH.01033) complète les sujets traités dans le cours Chimie Générale (SCH.01014) en accentuant l'importance du processus de résolution de problèmes.\n- Le cours de Chimie analytique (SCH.01054) donne une introduction à l'étude des systèmes complexes  (équilibres  multiples)  et  aux  méthodes  analytiques  classiques  (gravimétrie, volumétrie, ...).\n- Le  cours  de Chimie des éléments (SCH.01067)  présente  une  introduction  sur  la  structure chimique des matériaux ainsi que leurs propriétés et réactivité.\n- Le cours de Chimie organique de base (SCH.01072) donne une introduction aux réactions organiques et aux mécanismes réactionnels.\n- Le cours Introduction à la chimie des complexes (SCH.02120) offre une formation approfondie en chimie inorganique.\n- Les Méthodes  synthétiques (cours) (SCH.02212)  avec  les exercices correspondants (SCH.02222)  et  le  cours Analyse  instrumentale  organique (SCH.02252)  apportent  les connaissances théoriques nécessaires aux travaux pratiques correspondants.\n- Les cours Spectroscopie  1 (SCH.02151), Thermodynamique  classique (SCH.02312), Cinétique et thermodynamique statistique (SCH.02329), Thermodynamique statistique (pour HES) (SCH.02350) et Introduction à la mécanique quantique (SCH.02342) forment le premier cycle de  la  chimie  physique,  alors  que Propriétés  photophysiques  de  la  matière (SCH.03219), Spectroscopie 2 (SCH.03339) et Modélisation en chimie (SCH.03355) en forment le second.\n- Les cours Méthodes de calcul en chimie (SCH.03125) et Modélisation en chimie (SCH.03355) apportent les bases nécessaires aux travaux pratiques informatisés.\n- Le cours Métaux d et f (SCH.03142) s'intéresse aux métaux de transition, à leurs applica tions et à leur rôle dans la biologie.\n- Le cours Stéréochimie organique (SCH.03212) est dédié au thème important de la chiralité.\n- Dans  les  cours Mécanismes  réactionnels (SCH.03229) , les  réactions  chimiques  des substances organiques seront classées par type de réaction et les méthodes d'identification de leurs mécanismes seront décrites.\n- Le  cours Introduction  à  la  chimie  des  polymères (SCH.03220) fournit  les  rudiments  de  la chimie des polymères.\n\n## Les travaux pratiques\n\n- Les travaux pratiques de Chimie organique (SCH.00234, SCH.00236 [versions raccourcies pour étudiant-e-s en branche complémentaire], SCH.02235) initient à la synthèse organique.\n- Les  travaux  pratiques  d 'Introduction  à  l'analyse  instrumentale (SCH.00244,  SCH.00246 [versions raccourcies pour étudiant-e-s en branche complémentaire], SCH.02274) initient aux méthodes spectroscopiques les plus souvent utilisées en chimie.\n- Les travaux pratiques de Chimie générale et inorganique (SCH.01031) illustrant les concepts principaux exposés dans le cours du même nom par des expériences concrètes et qui doivent être suivis par tous les participants au cours.\n- Les travaux pratiques de Chimie analytique (SCH.0 1084) permettent l'apprentissage des tech -niques d ' analyse classiques les plus importantes.\n- Les travaux pratiques Méthodes de calcul en chimie (SCH.03125) illustrent non seulement les méthodes théoriques de la chimie, mais également des utilisations spécifiques des ordinateurs en chimie.\n\n- Les  travaux  pratiques  de Chimie  physique (SCH.03394)  enseignent,  par  des  expériences avancées, des aspects physico-chimiques importants.\n\n## 3.4.3 Évaluation des unités d'enseignement\n\nLes conditions d'évaluation des UE sont indiquées dans les annexes, par domaine. Prière de consulter l'annexe de la chimie."
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "markdown": "| Code      | Unité d ' enseignement                                              |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|---------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00234 | Chimie organique (travaux pratiques pour BCo) 1                     |       140 |      5 | obl.     | obl.     | chx     | obl.     |\n| SCH.00236 | Chimie organique (TP complémentaires pour BCo) 1                    |        84 |      3 | chx      | -        | -       | chx      |\n| SCH.01014 | Chimie générale (cours avec exercices)                              |        84 |      6 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01031 | Chimie générale et inorganique (travaux pratiques) 2                |       112 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01033 | Problem solving en chimie générale                                  |        28 |      2 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.02120 | Introduction à la chimie des complexes (avec exercices)             |        28 |      3 | chx      | chx      | obl.    | obl.     |\n| SCH.02212 | Méthodes synthétiques (cours)                                       |        42 |      3 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02222 | Méthodes synthétiques (exercices)                                   |        14 |      2 | obl.     | obl.     | obl.    | obl.     |\n| SCH.02235 | Synthèse organique pour étudiant-es en chimie (travaux pratiques) 1 |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02312 | Thermodynamique classique (cours avec exercices)                    |        28 |      3 | -        | chx*     | obl.*   | obl.*    |\n| SCH.02342 | Introduction à la mécanique quantique (cours avec exercices)        |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03125 | Méthodes de calcul en chimie (cours avec travaux prat.)             |        56 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03212 | Stéréochimie organique (cours avec exercices)                       |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03339 | Spectroscopie 2 (cours avec exercices)                              |        28 |      3 | -        | chx      | chx     | chx      |\n| SCH.03220 | Introduction à la chimie des polymères                              |        14 |    1.5 | chx      | chx      | chx     | chx      |\n| SCH.03394 | Chimie physique (travaux pratiques)                                 |       224 |      8 | -        | -        | chx     | chx      |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SCH.00234",
+            "Unité d ' enseignement": "Chimie organique (travaux pratiques pour BCo) 1",
+            "h. tot.": "140",
+            "ECTS": "5",
+            "CHB-30": "obl.",
+            "CH-30§": "obl.",
+            "CH-60": "chx",
+            "CHD-60": "obl."
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SCH.00236",
+            "Unité d ' enseignement": "Chimie organique (TP complémentaires pour BCo) 1",
+            "h. tot.": "84",
+            "ECTS": "3",
+            "CHB-30": "chx",
+            "CH-30§": "-",
+            "CH-60": "-",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SCH.01014",
+            "Unité d ' enseignement": "Chimie générale (cours avec exercices)",
+            "h. tot.": "84",
+            "ECTS": "6",
+            "CHB-30": "-",
+            "CH-30§": "obl.*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SCH.01031",
+            "Unité d ' enseignement": "Chimie générale et inorganique (travaux pratiques) 2",
+            "h. tot.": "112",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "obl.*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SCH.01033",
+            "Unité d ' enseignement": "Problem solving en chimie générale",
+            "h. tot.": "28",
+            "ECTS": "2",
+            "CHB-30": "-",
+            "CH-30§": "obl.*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SCH.02120",
+            "Unité d ' enseignement": "Introduction à la chimie des complexes (avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "chx",
+            "CH-30§": "chx",
+            "CH-60": "obl.",
+            "CHD-60": "obl."
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SCH.02212",
+            "Unité d ' enseignement": "Méthodes synthétiques (cours)",
+            "h. tot.": "42",
+            "ECTS": "3",
+            "CHB-30": "obl.",
+            "CH-30§": "obl.",
+            "CH-60": "obl.",
+            "CHD-60": "obl."
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SCH.02222",
+            "Unité d ' enseignement": "Méthodes synthétiques (exercices)",
+            "h. tot.": "14",
+            "ECTS": "2",
+            "CHB-30": "obl.",
+            "CH-30§": "obl.",
+            "CH-60": "obl.",
+            "CHD-60": "obl."
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SCH.02235",
+            "Unité d ' enseignement": "Synthèse organique pour étudiant-es en chimie (travaux pratiques) 1",
+            "h. tot.": "224",
+            "ECTS": "8",
+            "CHB-30": "-",
+            "CH-30§": "-",
+            "CH-60": "chx",
+            "CHD-60": "-"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SCH.02312",
+            "Unité d ' enseignement": "Thermodynamique classique (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "chx*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SCH.02342",
+            "Unité d ' enseignement": "Introduction à la mécanique quantique (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SCH.03125",
+            "Unité d ' enseignement": "Méthodes de calcul en chimie (cours avec travaux prat.)",
+            "h. tot.": "56",
+            "ECTS": "3",
+            "CHB-30": "chx",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SCH.03212",
+            "Unité d ' enseignement": "Stéréochimie organique (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "obl.",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Code": "SCH.03339",
+            "Unité d ' enseignement": "Spectroscopie 2 (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Code": "SCH.03220",
+            "Unité d ' enseignement": "Introduction à la chimie des polymères",
+            "h. tot.": "14",
+            "ECTS": "1.5",
+            "CHB-30": "chx",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 15,
+          "cells": {
+            "Code": "SCH.03394",
+            "Unité d ' enseignement": "Chimie physique (travaux pratiques)",
+            "h. tot.": "224",
+            "ECTS": "8",
+            "CHB-30": "-",
+            "CH-30§": "-",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        }
+      ],
+      "source": "docling_native"
+    },
+    {
+      "table_index": 1,
+      "markdown": "| Code      | Unité d ' enseignement                                               |   h. tot. |   ECTS | CHB-30   | CH-30§   | CH-60   | CHD-60   |\n|-----------|----------------------------------------------------------------------|-----------|--------|----------|----------|---------|----------|\n| SCH.00244 | Analyse instrumentale (travaux pratiques pour BCo)                   |       140 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.00246 | Analyse instrumentale (TP complémentaires pour BCo)                  |        84 |      3 | obl.     | -        | -       | chx      |\n| SCH.01054 | Chimie analytique (cours avec exercices)                             |        42 |      3 | -        | chx      | obl.*   | obl.*    |\n| SCH.01084 | Chimie analytique (travaux pratiques)                                |       112 |      4 | obl.     | chx      | obl.    | obl.     |\n| SCH.01067 | Chimie des éléments (cours avec exercices)                           |        42 |      3 | -        | obl.*    | obl.*   | obl.*    |\n| SCH.01072 | Chimie organique de base (cours avec exercices)                      |        42 |      3 | -        | obl.*    | obl.*   | obl*     |\n| SCH.02151 | Spectroscopie 1 (cours avec exercices)                               |        42 |      4 | -        | chx      | chx     | chx      |\n| SCH.02252 | Analyse instrumentale organique (cours avec exercices)               |        56 |      5 | -        | chx*     | chx*    | obl.*    |\n| SCH.02274 | Analyse instrumentale (travaux pratiques)                            |       224 |      8 | -        | -        | chx     | -        |\n| SCH.02329 | Cinétique et thermodynamique statistique (cours avec exercices)      |        42 |    4.5 | -        | chx*     | chx*    | chx*     |\n| SCH.02350 | Thermodynamique statistique (pour HES)                               |        21 |    2.5 | chx°     | -        | chx°    | chx°     |\n| SCH.03142 | Métaux d et f (cours avec exercices)                                 |        28 |      3 | obl.     | chx      | chx     | chx      |\n| SCH.03219 | Caractéristiques photophysiques de la matière (cours avec exercices) |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03229 | Mécanismes réactionnels (cours avec exercices)                       |        28 |      3 | chx      | chx      | chx     | chx      |\n| SCH.03355 | Modélisation en chimie (avec exercices)                              |        28 |      3 | obl.     | chx      | chx     | chx      |",
+      "rows": [
+        {
+          "row_index": 0,
+          "cells": {
+            "Code": "SCH.00244",
+            "Unité d ' enseignement": "Analyse instrumentale (travaux pratiques pour BCo)",
+            "h. tot.": "140",
+            "ECTS": "5",
+            "CHB-30": "-",
+            "CH-30§": "chx*",
+            "CH-60": "chx*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 1,
+          "cells": {
+            "Code": "SCH.00246",
+            "Unité d ' enseignement": "Analyse instrumentale (TP complémentaires pour BCo)",
+            "h. tot.": "84",
+            "ECTS": "3",
+            "CHB-30": "obl.",
+            "CH-30§": "-",
+            "CH-60": "-",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 2,
+          "cells": {
+            "Code": "SCH.01054",
+            "Unité d ' enseignement": "Chimie analytique (cours avec exercices)",
+            "h. tot.": "42",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "chx",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 3,
+          "cells": {
+            "Code": "SCH.01084",
+            "Unité d ' enseignement": "Chimie analytique (travaux pratiques)",
+            "h. tot.": "112",
+            "ECTS": "4",
+            "CHB-30": "obl.",
+            "CH-30§": "chx",
+            "CH-60": "obl.",
+            "CHD-60": "obl."
+          }
+        },
+        {
+          "row_index": 4,
+          "cells": {
+            "Code": "SCH.01067",
+            "Unité d ' enseignement": "Chimie des éléments (cours avec exercices)",
+            "h. tot.": "42",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "obl.*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 5,
+          "cells": {
+            "Code": "SCH.01072",
+            "Unité d ' enseignement": "Chimie organique de base (cours avec exercices)",
+            "h. tot.": "42",
+            "ECTS": "3",
+            "CHB-30": "-",
+            "CH-30§": "obl.*",
+            "CH-60": "obl.*",
+            "CHD-60": "obl*"
+          }
+        },
+        {
+          "row_index": 6,
+          "cells": {
+            "Code": "SCH.02151",
+            "Unité d ' enseignement": "Spectroscopie 1 (cours avec exercices)",
+            "h. tot.": "42",
+            "ECTS": "4",
+            "CHB-30": "-",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 7,
+          "cells": {
+            "Code": "SCH.02252",
+            "Unité d ' enseignement": "Analyse instrumentale organique (cours avec exercices)",
+            "h. tot.": "56",
+            "ECTS": "5",
+            "CHB-30": "-",
+            "CH-30§": "chx*",
+            "CH-60": "chx*",
+            "CHD-60": "obl.*"
+          }
+        },
+        {
+          "row_index": 8,
+          "cells": {
+            "Code": "SCH.02274",
+            "Unité d ' enseignement": "Analyse instrumentale (travaux pratiques)",
+            "h. tot.": "224",
+            "ECTS": "8",
+            "CHB-30": "-",
+            "CH-30§": "-",
+            "CH-60": "chx",
+            "CHD-60": "-"
+          }
+        },
+        {
+          "row_index": 9,
+          "cells": {
+            "Code": "SCH.02329",
+            "Unité d ' enseignement": "Cinétique et thermodynamique statistique (cours avec exercices)",
+            "h. tot.": "42",
+            "ECTS": "4.5",
+            "CHB-30": "-",
+            "CH-30§": "chx*",
+            "CH-60": "chx*",
+            "CHD-60": "chx*"
+          }
+        },
+        {
+          "row_index": 10,
+          "cells": {
+            "Code": "SCH.02350",
+            "Unité d ' enseignement": "Thermodynamique statistique (pour HES)",
+            "h. tot.": "21",
+            "ECTS": "2.5",
+            "CHB-30": "chx°",
+            "CH-30§": "-",
+            "CH-60": "chx°",
+            "CHD-60": "chx°"
+          }
+        },
+        {
+          "row_index": 11,
+          "cells": {
+            "Code": "SCH.03142",
+            "Unité d ' enseignement": "Métaux d et f (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "obl.",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 12,
+          "cells": {
+            "Code": "SCH.03219",
+            "Unité d ' enseignement": "Caractéristiques photophysiques de la matière (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "chx",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 13,
+          "cells": {
+            "Code": "SCH.03229",
+            "Unité d ' enseignement": "Mécanismes réactionnels (cours avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "chx",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        },
+        {
+          "row_index": 14,
+          "cells": {
+            "Code": "SCH.03355",
+            "Unité d ' enseignement": "Modélisation en chimie (avec exercices)",
+            "h. tot.": "28",
+            "ECTS": "3",
+            "CHB-30": "obl.",
+            "CH-30§": "chx",
+            "CH-60": "chx",
+            "CHD-60": "chx"
+          }
+        }
+      ],
+      "source": "docling_native"
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "3.4 Chimie",
+      "line_index": 4,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.4.1 Unités d ' enseignement",
+      "line_index": 28,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Semestre d'automne",
+      "line_index": 30,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Semestre de printemps",
+      "line_index": 51,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.4.2 Contenu des unités d ' enseignement des branches complémentaires",
+      "line_index": 84,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Les cours",
+      "line_index": 86,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Les travaux pratiques",
+      "line_index": 102,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "3.4.3 Évaluation des unités d'enseignement",
+      "line_index": 112,
+      "source": "markdown_regex"
+    }
+  ]
+}

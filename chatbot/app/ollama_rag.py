@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import re
+import requests
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
@@ -28,6 +29,53 @@ from langchain_core.documents import Document
 
 from .config import settings
 from .performance import timed_step
+
+
+
+_DOC_KEY_RESOLVE_CACHE: dict[str, list[dict[str, Any]]] = {}
+
+
+def _resolve_program_documents_for_doc_key(doc_key: Any) -> list[dict[str, Any]]:
+    """Resolve a RAG doc_key/source label to programDocument rows via backend API."""
+    cleaned = str(doc_key or "").strip()
+    if not cleaned:
+        return []
+    if cleaned in _DOC_KEY_RESOLVE_CACHE:
+        return _DOC_KEY_RESOLVE_CACHE[cleaned]
+
+    # Try the raw key and a few normalized variants commonly used by the FAISS builders.
+    candidates: list[str] = []
+    for value in [cleaned, Path(cleaned).stem, cleaned.replace("_", " ").replace("-", " ")]:
+        value = " ".join(str(value).split())
+        if value and value not in candidates:
+            candidates.append(value)
+
+    resolved: list[dict[str, Any]] = []
+    for candidate in candidates:
+        try:
+            response = requests.get(
+                f"{settings.backend_api_base}/docs-api/resolve-by-label",
+                params={"doc_key": candidate},
+                timeout=5,
+            )
+            response.raise_for_status()
+            rows = response.json()
+            if isinstance(rows, list) and rows:
+                resolved = rows
+                break
+        except Exception:
+            continue
+
+    _DOC_KEY_RESOLVE_CACHE[cleaned] = resolved
+    return resolved
+
+
+def _first_document_url(documents: list[dict[str, Any]]) -> str | None:
+    for doc in documents:
+        url = doc.get("url")
+        if isinstance(url, str) and url.strip():
+            return url
+    return None
 
 
 _SPLITTER = RecursiveCharacterTextSplitter(
@@ -128,7 +176,7 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
         [
             (
                 "system",
-                "You are a careful assistant for university regulations and study plans. "
+                "You are a careful assistant for university regulations and study plans for the university of fribourg (Unifr). "
                 "Answer ONLY using the provided context. "
                 "If the answer is not in the context, say you cannot find it in the documents. "
                 f"Always answer in {target_language}. "
@@ -140,7 +188,7 @@ def _build_prompt(language: str | None) -> ChatPromptTemplate:
                 "Ignore chunks from other programmes or degree levels, even if their wording is similar. But please note that context in other languages is still relevant, only metadata are english, headers can be german, french or italian. "
                 "When course rows are present, extract the course code, course title, semester, language, assessment, ECTS, "
                 "and teacher if available. Do not invent missing course data. "
-                "Always cite sources as [filename p.X].",
+                "If you have access to source files always cite them but dont invent fictional or exemplary sources if there are none.",
             ),
             ("human", "Question: {question}\n\nContext:\n{context}\n\nAnswer with citations:"),
         ]
@@ -165,6 +213,113 @@ def _tokens(value: Any) -> set[str]:
     }
 
 
+
+def _program_key_parts(program_key: Any) -> Dict[str, Any]:
+    """Parse new parser key: faculty|level|ects|program name."""
+    raw = str(program_key or "").strip()
+    parts = [part.strip() for part in raw.split("|")]
+    if len(parts) < 4:
+        return {}
+    ects: int | None = None
+    try:
+        ects = int(float(parts[2]))
+    except Exception:
+        ects = None
+    degree = parts[1].strip().title() if parts[1].strip() else None
+    return {
+        "faculty": parts[0] or None,
+        "degree_level": degree,
+        "total_ects": ects,
+        "program_name": parts[3] or None,
+    }
+
+
+def _metadata_program_names(metadata: Dict[str, Any]) -> list[str]:
+    """Return all programme-name variants stored in metadata, including legacy names."""
+    names: list[str] = []
+    for key in ("programme_name_en", "programme_name_de", "programme_name_fr", "program_name"):
+        value = metadata.get(key)
+        if value and str(value).strip() and str(value) not in names:
+            names.append(str(value))
+
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    key_name = key_parts.get("program_name")
+    if key_name and str(key_name) not in names:
+        names.append(str(key_name))
+
+    return names
+
+
+def _metadata_program_name(metadata: Dict[str, Any]) -> str | None:
+    names = _metadata_program_names(metadata)
+    return names[0] if names else None
+
+
+def _metadata_degree(metadata: Dict[str, Any]) -> str | None:
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    return first_non_empty_string(metadata.get("level"), metadata.get("degree_level"), key_parts.get("degree_level"))
+
+
+def _metadata_ects(metadata: Dict[str, Any]) -> int | float | str | None:
+    key_parts = _program_key_parts(metadata.get("program_key"))
+    return metadata.get("ects_points") if metadata.get("ects_points") is not None else (
+        metadata.get("total_ects") if metadata.get("total_ects") is not None else key_parts.get("total_ects")
+    )
+
+
+def first_non_empty_string(*values: Any) -> str | None:
+    for value in values:
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+        if value is not None and not isinstance(value, str):
+            text = str(value).strip()
+            if text:
+                return text
+    return None
+
+
+def _canonical_program_key(faculty: Any, degree: Any, ects: Any, program_name: Any) -> str | None:
+    if not program_name:
+        return None
+    degree_norm = _normalize_text(degree)
+    program_norm = _normalize_text(program_name)
+    faculty_norm = _normalize_text(faculty)
+    try:
+        ects_norm = str(int(float(ects))) if ects is not None else ""
+    except Exception:
+        ects_norm = ""
+    if not degree_norm or not ects_norm or not program_norm:
+        return None
+    return f"{faculty_norm}|{degree_norm}|{ects_norm}|{program_norm}"
+
+
+def _program_query_text(question: str, degree: str | None = None, ects: int | None = None) -> str:
+    """Remove common question scaffolding so fuzzy matching sees the programme name."""
+    text = _normalize_text(question)
+    # Remove degree/ECTS and common question/action words in supported languages.
+    removable = set(_QUERY_STOPWORDS) | {
+        "bachelors", "masters", "bachelorstudiengang", "masterstudiengang",
+        "unterrichten", "unterricht", "belegen", "belegt", "lernen", "enthält", "enthaelt",
+        "taught", "teach", "teaches", "included", "contain", "contains", "available",
+        "etudier", "enseigne", "enseignes", "enseignes", "proposes", "propose",
+    }
+    tokens = [t for t in text.split() if t not in removable]
+    if degree:
+        tokens = [t for t in tokens if t != degree.lower()]
+    if ects is not None:
+        tokens = [t for t in tokens if t != str(ects) and t != "ects"]
+    return " ".join(tokens).strip()
+
+
+def _program_aliases_from_api(program: Dict[str, Any]) -> list[str]:
+    aliases: list[str] = []
+    for key in ("name", "name_en", "name_de", "name_fr"):
+        value = program.get(key)
+        if value and str(value) not in aliases:
+            aliases.append(str(value))
+    return aliases
+
+
 def _metadata_value_as_text(value: Any) -> str:
     if isinstance(value, (list, tuple, set)):
         return " ".join(str(v) for v in value)
@@ -176,14 +331,23 @@ def _iter_docstore_docs(db: FAISS) -> Iterable[Document]:
     return docstore_dict.values()
 
 
-def _program_identity(metadata: Dict[str, Any]) -> str | None:
+def _program_identity(metadata):
     program_key = metadata.get("program_key")
     if program_key:
         return f"key::{program_key}"
 
-    name = metadata.get("program_name")
-    degree = metadata.get("degree_level")
-    ects = metadata.get("total_ects")
+    name = first_non_empty_string(
+        metadata.get("programme_name_en"),
+        metadata.get("programme_name_de"),
+        metadata.get("programme_name_fr"),
+        metadata.get("program_name"),
+    )
+    degree = first_non_empty_string(
+        metadata.get("level"),
+        metadata.get("degree_level"),
+    )
+    ects = metadata.get("ects_points") or metadata.get("total_ects")
+
     if name:
         return f"name::{name}::{degree}::{ects}"
 
@@ -199,25 +363,39 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
         if not identity:
             continue
 
+        key_parts = _program_key_parts(md.get("program_key"))
+        derived_program_names = _metadata_program_names(md)
+        derived_program_name = derived_program_names[0] if derived_program_names else None
+        derived_degree = _metadata_degree(md)
+        derived_ects = _metadata_ects(md)
+        derived_faculty = md.get("faculty") or key_parts.get("faculty")
+
         entry = grouped.setdefault(
             identity,
             {
                 "identity": identity,
-                "program_name": md.get("program_name"),
+                "program_name": derived_program_name,
+                "program_aliases": derived_program_names,
                 "program_key": md.get("program_key"),
-                "degree_level": md.get("degree_level"),
-                "total_ects": md.get("total_ects"),
+                "degree_level": derived_degree,
+                "total_ects": derived_ects,
+                "faculty": derived_faculty,
                 "metadata_texts": [],
                 "content_samples": [],
             },
         )
 
         for field in (
+            "programme_name_en",
+            "programme_name_de",
+            "programme_name_fr",
             "program_name",
             "program_key",
             "title",
             "doc_label",
             "faculty",
+            "level",
+            "ects_points",
             "degree_level",
             "total_ects",
             "source_file",
@@ -228,6 +406,10 @@ def _build_program_catalog(db: FAISS) -> List[Dict[str, Any]]:
         ):
             if md.get(field) is not None:
                 entry["metadata_texts"].append(_metadata_value_as_text(md.get(field)))
+
+        for derived in (*derived_program_names, derived_degree, derived_ects, derived_faculty):
+            if derived is not None:
+                entry["metadata_texts"].append(_metadata_value_as_text(derived))
 
         if len(entry["content_samples"]) < 8:
             entry["content_samples"].append(doc.page_content[:1800])
@@ -275,35 +457,56 @@ def _score_program_match(
 ) -> float:
     q_norm = _normalize_text(question)
     q_tokens = _tokens(question)
-    alias_text = entry.get("alias_text", "")
+
     alias_tokens = entry.get("alias_tokens", set())
+    aliases = entry.get("program_aliases", [])
 
     score = 0.0
 
-    program_name_norm = _normalize_text(entry.get("program_name"))
-    program_key_norm = _normalize_text(entry.get("program_key"))
+    candidate_names = [
+        entry.get("program_name"),
+        entry.get("program_key"),
+        *aliases,
+    ]
 
-    if program_name_norm and program_name_norm in q_norm:
-        score += 12.0
+    for name in candidate_names:
+        name_norm = _normalize_text(name)
+        if not name_norm:
+            continue
 
-    if program_key_norm and program_key_norm in q_norm:
-        score += 12.0
+        if name_norm == q_norm:
+            score += 60.0
+        elif name_norm in q_norm:
+            score += 40.0
+        else:
+            name_tokens = set(name_norm.split()) - _QUERY_STOPWORDS
+            overlap = q_tokens & name_tokens
+            score += len(overlap) * 8.0
 
-    important_query_tokens = q_tokens - {"bachelor", "master", "ects"}
+            if name_tokens and len(overlap) / len(name_tokens) >= 0.7:
+                score += 20.0
+
+    important_query_tokens = q_tokens - _QUERY_STOPWORDS - {"bachelor", "master", "ects"}
     overlap = important_query_tokens & alias_tokens
-    score += float(len(overlap) * 3)
+    score += len(overlap) * 2.0
 
     for token in overlap:
         if len(token) >= 8:
             score += 2.0
 
-    if degree and entry.get("degree_level") == degree:
-        score += 3.0
-    elif degree and entry.get("degree_level") and entry.get("degree_level") != degree:
-        score -= 2.0
+    if degree and str(entry.get("degree_level") or "").lower() == degree.lower():
+        score += 12.0
+    elif degree and entry.get("degree_level"):
+        score -= 12.0
 
-    if ects is not None and entry.get("total_ects") == ects:
-        score += 2.0
+    if ects is not None:
+        try:
+            if int(float(entry.get("total_ects"))) == int(ects):
+                score += 12.0
+            else:
+                score -= 4.0
+        except Exception:
+            pass
 
     return score
 
@@ -326,44 +529,67 @@ def _detect_program(
 
     best_score, best_entry = scored[0]
 
-    if best_score < 8.0:
+    if best_score < 40.0:
         return None
 
-    return best_entry
-
+    result = dict(best_entry)
+    result["resolver"] = "faiss_metadata"
+    result["resolver_score"] = best_score
+    result["program_query"] = _program_query_text(question, degree=degree, ects=ects)
+    return result
 
 def _metadata_matches_program(metadata: Dict[str, Any], program: Dict[str, Any]) -> bool:
     if not program:
         return True
 
-    wanted_key = program.get("program_key")
-    wanted_name = program.get("program_name")
-    wanted_degree = program.get("degree_level")
-    wanted_ects = program.get("total_ects")
+    md_parts = _program_key_parts(metadata.get("program_key"))
+    wanted_parts = _program_key_parts(program.get("program_key"))
 
-    if wanted_key and metadata.get("program_key") == wanted_key:
+    wanted_key = _normalize_text(program.get("program_key"))
+    md_key = _normalize_text(metadata.get("program_key"))
+
+    if wanted_key and md_key and md_key == wanted_key:
         return True
 
-    if wanted_name and metadata.get("program_name") == wanted_name:
-        if wanted_degree and metadata.get("degree_level") not in (None, wanted_degree):
+    wanted_names = [_normalize_text(n) for n in program.get("program_aliases", []) if n]
+    wanted_primary = _normalize_text(program.get("program_name") or wanted_parts.get("program_name"))
+    if wanted_primary:
+        wanted_names.append(wanted_primary)
+    md_names = [_normalize_text(n) for n in _metadata_program_names(metadata)]
+
+    wanted_degree = str(program.get("degree_level") or wanted_parts.get("degree_level") or "").lower()
+    md_degree = str(_metadata_degree(metadata) or "").lower()
+
+    wanted_ects = program.get("total_ects") if program.get("total_ects") is not None else wanted_parts.get("total_ects")
+    md_ects = _metadata_ects(metadata)
+
+    if wanted_names and md_names and set(wanted_names) & set(md_names):
+        if wanted_degree and md_degree and wanted_degree != md_degree:
             return False
-        if wanted_ects and metadata.get("total_ects") not in (None, wanted_ects):
-            return False
+        try:
+            if wanted_ects is not None and md_ects is not None and int(float(wanted_ects)) != int(float(md_ects)):
+                return False
+        except Exception:
+            pass
         return True
 
     return False
 
-
 def _metadata_matches_degree(metadata: Dict[str, Any], degree: str | None) -> bool:
     if not degree:
         return True
-    return metadata.get("degree_level") in (None, degree)
+    md_degree = _metadata_degree(metadata)
+    return md_degree in (None, degree)
 
 
 def _metadata_matches_ects(metadata: Dict[str, Any], ects: int | None) -> bool:
     if ects is None:
         return True
-    return metadata.get("total_ects") in (None, ects)
+    md_ects = _metadata_ects(metadata)
+    try:
+        return md_ects is None or int(float(md_ects)) == int(float(ects))
+    except Exception:
+        return True
 
 
 def _doc_matches_year(doc: Document, year: str | None) -> bool:
@@ -399,14 +625,17 @@ def _enrich_query(
 
     if program:
         hints.append(f"program_name: {program.get('program_name')}")
+        aliases = program.get("program_aliases") or []
+        if aliases:
+            hints.append("program_aliases: " + " | ".join(str(a) for a in aliases))
         if program.get("program_key"):
             hints.append(f"program_key: {program.get('program_key')}")
 
     if degree:
-        hints.append(f"degree_level: {degree}")
+        hints.append(f"level: {degree}")
 
     if ects is not None:
-        hints.append(f"total_ects: {ects}")
+        hints.append(f"ects_points: {ects}")
 
     if year:
         hints.append(f"section: {year}. Jahr {year}. Studienjahr first year second year third year")
@@ -423,6 +652,9 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
     debug_info = {
         "detected_program_name": program.get("program_name") if program else None,
         "detected_program_key": program.get("program_key") if program else None,
+        "detected_program_resolver": program.get("resolver") if program else None,
+        "detected_program_score": program.get("resolver_score") if program else None,
+        "detected_program_query": program.get("program_query") if program else None,
         "detected_degree": degree,
         "detected_ects": ects,
         "detected_year": year,
@@ -475,11 +707,17 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
         if program and _metadata_matches_program(md, program):
             score += 100.0
 
-        if degree and md.get("degree_level") == degree:
+        md_degree = _metadata_degree(md)
+        md_ects = _metadata_ects(md)
+
+        if degree and md_degree == degree:
             score += 20.0
 
-        if ects is not None and md.get("total_ects") == ects:
-            score += 10.0
+        try:
+            if ects is not None and md_ects is not None and int(float(md_ects)) == int(float(ects)):
+                score += 10.0
+        except Exception:
+            pass
 
         if year and _doc_matches_year(doc, year):
             score += 40.0
@@ -506,7 +744,7 @@ def _retrieve_metadata_aware(db: FAISS, question: str, k: int) -> Tuple[List[Doc
 
     debug_info["returned_count"] = len(docs)
     debug_info["returned_programs"] = sorted({
-        str((d.metadata or {}).get("program_name"))
+        str(_metadata_program_name(d.metadata or {}) or _program_key_parts((d.metadata or {}).get("program_key")).get("program_name"))
         for d in docs
     })
 
@@ -565,12 +803,17 @@ def _retrieve_metadata_and_language_aware(
 
     requested_language = _normalize_language_code(language)
 
+    # Always search with the original question first.
     queries: list[tuple[str, str | None]] = [(question, requested_language)]
 
-    for code in _available_language_codes(db):
-        translated = _translate_query(question, code, llm)
-        if translated and translated.lower().strip() != question.lower().strip():
-            queries.append((translated, code))
+    # Translation is enabled by default via config.py.
+    # Do NOT skip translation for course-code/program questions.
+    if settings.enable_query_translation:
+        for code in _available_language_codes(db):
+            translated = _translate_query(question, code, llm)
+
+            if translated and translated.lower().strip() != question.lower().strip():
+                queries.append((translated, code))
 
     merged: list[Document] = []
     seen: set[str] = set()
@@ -605,6 +848,7 @@ def _retrieve_metadata_and_language_aware(
                 return merged, {
                     "retrieval_mode": "metadata_and_language_aware",
                     "requested_language": requested_language,
+                    "translation_enabled": settings.enable_query_translation,
                     "runs": debug_runs,
                     "returned_count": len(merged),
                 }
@@ -612,6 +856,7 @@ def _retrieve_metadata_and_language_aware(
     return merged, {
         "retrieval_mode": "metadata_and_language_aware",
         "requested_language": requested_language,
+        "translation_enabled": settings.enable_query_translation,
         "runs": debug_runs,
         "returned_count": len(merged),
     }
@@ -656,8 +901,13 @@ def _load_parsed_file(path: str, category: str) -> List[Document]:
                     # Preserve richer metadata if your parser generated it.
                     "language": meta.get("language"),
                     "language_name": meta.get("language_name"),
+                    "programme_name_en": meta.get("programme_name_en"),
+                    "programme_name_de": meta.get("programme_name_de"),
+                    "programme_name_fr": meta.get("programme_name_fr"),
                     "program_name": meta.get("program_name"),
                     "program_key": meta.get("program_key"),
+                    "level": meta.get("level"),
+                    "ects_points": meta.get("ects_points"),
                     "degree_level": meta.get("degree_level"),
                     "total_ects": meta.get("total_ects"),
                     "doc_label": meta.get("doc_label"),
@@ -715,6 +965,8 @@ def build_or_load_index_for(subfolder: str, index_dir: Path, force_rebuild: bool
         parsed_folder = settings.studyplans_parsed
     elif subfolder == "reglementations":
         parsed_folder = settings.reglementations_parsed
+    elif subfolder == "base_data":
+        parsed_folder = settings.base_data_parsed
     else:
         raise ValueError(f"Unknown subfolder: {subfolder}")
 
@@ -750,6 +1002,7 @@ def answer_question(
     k: int | None = None,
     language: str | None = None,
 ) -> Tuple[str, List[dict]]:
+#   language = detect_request_language(question, language)
     final_k = k or settings.k
 
     with timed_step("rag.retrieve", k=final_k):
@@ -765,8 +1018,6 @@ def answer_question(
             "de": "Ich habe in den Dokumenten keine passenden Quellen zur Frage gefunden.",
             "fr": "Je n'ai trouvé aucune source pertinente dans les documents pour répondre à la question.",
             "en": "I could not find matching sources in the documents for this question.",
-            "it": "Non ho trovato fonti pertinenti nei documenti per rispondere alla domanda.",
-            "es": "No encontré fuentes relevantes en los documentos para responder a la pregunta.",
         }
         code = _normalize_language_code(language) or "en"
         return fallback_by_language.get(code, fallback_by_language["en"]), []
@@ -782,10 +1033,13 @@ def answer_question(
         md = d.metadata or {}
         metadata_header = (
             "Metadata: "
+            f"programme_name_en={md.get('programme_name_en')}; "
+            f"programme_name_de={md.get('programme_name_de')}; "
+            f"programme_name_fr={md.get('programme_name_fr')}; "
             f"program_name={md.get('program_name')}; "
             f"program_key={md.get('program_key')}; "
-            f"degree_level={md.get('degree_level')}; "
-            f"total_ects={md.get('total_ects')}; "
+            f"level={md.get('level') or md.get('degree_level')}; "
+            f"ects_points={md.get('ects_points') if md.get('ects_points') is not None else md.get('total_ects')}; "
             f"section={md.get('section')}; "
             f"chunk_type={md.get('chunk_type')}; "
             f"language={md.get('language')}; "
@@ -815,6 +1069,22 @@ def answer_question(
         metadata = dict(d.metadata)
         metadata["retrieval_debug"] = retrieval_debug
 
+        doc_key = (
+            d.metadata.get("doc_key")
+            or d.metadata.get("program_key")
+            or d.metadata.get("source")
+            or d.metadata.get("source_file")
+        )
+        resolved_documents = _resolve_program_documents_for_doc_key(doc_key)
+        source_url = (
+            d.metadata.get("source_url")
+            or d.metadata.get("pdf_url")
+            or d.metadata.get("document_page_url")
+            or _first_document_url(resolved_documents)
+        )
+        if resolved_documents:
+            metadata["resolved_program_documents"] = resolved_documents
+
         sources.append(
             {
                 "source": d.metadata.get("source") or d.metadata.get("source_file") or "document",
@@ -823,9 +1093,13 @@ def answer_question(
                 "snippet": (d.page_content[:350] + "…") if len(d.page_content) > 350 else d.page_content,
                 "metadata": metadata,
                 "source_type": d.metadata.get("source_type", "pdf"),
+                "doc_key": doc_key,
+                "source_url": source_url,
+                "documents": resolved_documents,
             }
         )
 
+    #answer = ensure_answer_language(str(resp.content or ""), language)
     return resp.content, sources
 
 

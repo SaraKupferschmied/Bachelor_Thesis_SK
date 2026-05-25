@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "parser": "docling",
+  "title": "matched_Faculty_of_Humanities_Bachelor_120_Italian_Informazioni_per_studentesse_e_studenti_del_primo_anno_BA_120_BA_SI_50_-_SA_2025_0c548ff95fc7757c9f2d13cf450642d1638c5bb7",
+  "markdown": "<!-- image -->\n\nDipartimento di Italiano Università di Friburgo\n\n<!-- image -->\n\n## Dipartimento di Italiano\n\n- Due siti principali: Miséricorde e Beauregard 11\n- Aule, Uffici\n- BLL, BCU\n\n## Gli studi a livello Bachelor\n\n- Prima materia: 120 crediti\n- Seconda materia: 60 crediti\n- Materia complementare (altre Facoltà): 30 crediti\n- BA\\_SI: 50 crediti\n\nwww.unifr.ch/ital\n\n## Corsi e seminari\n\n- Un corso è …\n- 3 crediti: lezione + esame (orale o scritto)\n- Un (pro)seminario è …\n- 6 crediti: lavoro sui testi; partecipazione e presentazione in classe ed elaborato scritto\n- I proseminari sono seminari introduttivi propedeutici, da frequentare all'inizio del percorso di studi\n\n<!-- image -->\n\n## Durata degli studi\n\nBA: tre anni (6 semestri) MA: due anni (4 semestri) Dottorato: tre-cinque anni\n\nMobilità: possibilità di compiere un semestre o un anno di studi in un'altra Università all'estero\n\nMobilità svizzera: possibilità di frequentare corsi e seminari in altre Università vicine\n\n## PERSONALE DEL DIPARTIMENTO\n\n- 2 Professori di letteratura italiana (U. Motta, P. Borsa)\n- 1 Professore di filologia italiana (C. Genetelli)\n- 1 Maître-assistante (S. Clerc)\n- 1 Assistente-dottore di Filologia (S. Canzona)\n- 1 Assistente-dottore di Letteratura (C. Tarallo)\n- 1 Assistente diplomata (L. Quartiroli)\n- 1 collaboratrice amministrativa (F. Mauron)",
+  "pages": [
+    "<!-- image -->\n\nDipartimento di Italiano Università di Friburgo\n\n<!-- image -->\n\n## Dipartimento di Italiano\n\n- Due siti principali: Miséricorde e Beauregard 11\n- Aule, Uffici\n- BLL, BCU\n\n## Gli studi a livello Bachelor\n\n- Prima materia: 120 crediti\n- Seconda materia: 60 crediti\n- Materia complementare (altre Facoltà): 30 crediti\n- BA\\_SI: 50 crediti\n\nwww.unifr.ch/ital\n\n## Corsi e seminari\n\n- Un corso è …\n- 3 crediti: lezione + esame (orale o scritto)\n- Un (pro)seminario è …\n- 6 crediti: lavoro sui testi; partecipazione e presentazione in classe ed elaborato scritto\n- I proseminari sono seminari introduttivi propedeutici, da frequentare all'inizio del percorso di studi\n\n<!-- image -->\n\n## Durata degli studi\n\nBA: tre anni (6 semestri) MA: due anni (4 semestri) Dottorato: tre-cinque anni\n\nMobilità: possibilità di compiere un semestre o un anno di studi in un'altra Università all'estero\n\nMobilità svizzera: possibilità di frequentare corsi e seminari in altre Università vicine\n\n## PERSONALE DEL DIPARTIMENTO\n\n- 2 Professori di letteratura italiana (U. Motta, P. Borsa)\n- 1 Professore di filologia italiana (C. Genetelli)\n- 1 Maître-assistante (S. Clerc)\n- 1 Assistente-dottore di Filologia (S. Canzona)\n- 1 Assistente-dottore di Letteratura (C. Tarallo)\n- 1 Assistente diplomata (L. Quartiroli)\n- 1 collaboratrice amministrativa (F. Mauron)"
+  ],
+  "tables": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Dipartimento di Italiano",
+      "line_index": 6,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Gli studi a livello Bachelor",
+      "line_index": 12,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Corsi e seminari",
+      "line_index": 21,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "Durata degli studi",
+      "line_index": 31,
+      "source": "markdown_regex"
+    },
+    {
+      "level": 2,
+      "text": "PERSONALE DEL DIPARTIMENTO",
+      "line_index": 39,
+      "source": "markdown_regex"
+    }
+  ]
+}

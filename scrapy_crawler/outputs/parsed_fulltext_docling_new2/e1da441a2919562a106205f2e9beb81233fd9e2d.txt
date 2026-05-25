@@ -1,0 +1,377 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-22T02:27:09.305Z",
+  "title": "matched_Faculty_of_Theology_Doctorate_UNK_Theology_Reglement_e1da441a2919562a106205f2e9beb81233fd9e2d",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "e1da441a2919562a106205f2e9beb81233fd9e2d",
+  "program_key": "faculty of theology|doctorate||theology",
+  "source_url": "https://www.unifr.ch/theo/de/assets/public/Reglements/phd_philo.pdf",
+  "source_type": "pdf",
+  "local_path": "C:\\Users\\Sara\\Bachelor_Thesis_SK\\scrapy_crawler\\outputs\\faculty_docs_v3\\pdfs\\matched_Faculty_of_Theology_Doctorate_UNK_Theology_Reglement_e1da441a2919562a106205f2e9beb81233fd9e2d.pdf",
+  "sha256": "fd43e02b7cc09e6807adadc7be18fcfc9d59760b7d7af1b8ac0a5a834716f44f",
+  "fetched_at": "2026-05-21T16:05:39.425Z",
+  "notes": "downloaded pdf (final=https://www.unifr.ch/theo/de/assets/public/Reglements/phd_philo.pdf, ct=application/pdf)",
+  "level": "Doctorate",
+  "ects_points": null,
+  "programme_name_en": "Theology",
+  "programme_name_de": "Theologie",
+  "programme_name_fr": "Théologie",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/theo/canonicallicence",
+  "curriculum_url": null
+}
+---/METADATA_JSON---
+
+
+---PAGE 1---
+## Règlement
+
+du 9 décembre 2014
+
+relatif à la procédure de promotion pour l'obtention d'un Doctorat ès lettres (Dr ès lettres / PhD) en études religieuses et d'un Doctorat ès lettres (Dr ès lettres / PhD) en études théologiques à la Faculté de théologie de l'Université de Fribourg
+
+## Le Conseil de la Faculté de théologie de l'Université de Fribourg,
+
+Vu  la Loi du 19 novembre  1997  sur l'Université,
+
+Vu les art. 78 et 88 des Statuts du 31 mars 2000 de l'Université de Fribourg,
+
+Vu l'art. 46 des Statuts du 23 janvier 2001 de la Faculté de théologie,
+
+décide:
+
+## Art. 1. Grades
+
+La Faculté décerne (outre ceux de Docteur en théologie et de Docteur h.c.) les grades académiques de Docteur ès lettres en études  religieuses  (D r ès  lettres) (Doctor philosophiae in studiis religiosis [Dr. phil.] /  Philosophiae  Doctor  in  studiis  religiosis [PhD] / Doctor of Philosophy in the Study of Religion [PhD]) et de Docteur ès lettres en études théologiques (D r ès lettres) (Doctor philosophiae in studiis theologicis [Dr. phil.] / Philosophiae Doctor in studiis theologicis  [PhD]  /  Doctor  of  Philosophy in theological studies [PhD]).
+
+## Reglement
+
+vom 9. Dezember 2014
+
+über die Promotionsordnung für den Erwerb eines Doktorates der Philosophie (Dr. phil. / PhD) in Religionsstudien und eines Doktorates der Philosophie (Dr. phil. / PhD) in theologischen Studien an der Theologischen Fakultät der Universität Freiburg
+
+## Der Fakultätsrat der Theologischen Fakultät der Universität Freiburg,
+
+gestütz  auf  das  Gesetz  von  19. November 1997 über die Universität,
+
+gestützt  auf  Art. 78  und  88  der  Statuten vom 31. März 2000 der Universität,
+
+gestützt auf Art. 46 der Statuten vom 23. Januar 2001 der Theologischen Fakultät,
+
+beschliesst:
+
+## Art. 1. Grade
+
+Die  Fakultät  verleiht  (neben  dem  Doktor der  Theologie  und  dem  Doktor  h.c.)  den akademischen Grad eines Doktors der Philosophie in Religionsstudien (Dr. phil.) (Doctor  philosophiae  in  studiis  religiosis [Dr. phil.] / Philosophiae Doctor in studiis religiosis  [PhD] / Doctor of Philosophy in the Study of Religion [PhD]) und den Grad eines Doktors der Philosophie in theologischen  Studien  (Dr.  phil.) (Doctor philosophiae in studiis theologicis [Dr. phil.] / Philosophiae Doctor in studiis theologicis  [PhD]  /  Doctor  of  Philosophy in theological studies [PhD]).
+
+## Art. 2. Conditions préalables
+
+1 Peuvent  postuler  pour  les  études  en  vue de l'obtention d'un Doctorat ès lettres à la Faculté de  théologie  de  l'Université  de Fribourg les personnes en possession d'un diplôme de Master ou d'un titre jugé équivalent reconnu par l'Université de Fribourg avec la note minimale de 5 sur 6 (ou jugée équivalente).
+
+2 Peuvent  postuler  pour  les  études  en  vue de l'obtention d'un Doctorat ès lettres à la Faculté de  théologie  de  l'Université  de Fribourg les personnes présentant un projet de  recherche,  qui  correspond  aux  compétences de la Faculté de théologie. En règle générale ils sont admis  au  programme d'étude  pour  l'obtention  du Doctorat  ès lettres en études religieuses.
+
+3 En  règle  générale  pour  le Doctorat  ès lettres en études théologiques peuvent postuler  des  personnes  qui  ont  achevé  un programme  en  branche  principale  dans  le domaine de théologie au niveau de Master avec  90  CP  selon  l'art. 2 al. 1 ou  qui peuvent présenter des études jugées équivalentes  et  qui  demandent  explicitement l'admission à ce programme d'étude. Une candidature pour le doctorat de philosophie en études religieuses reste possible.
+
+4 Si  le  diplôme  donnant  accès  au  doctorat n'était pas obtenu à la Faculté de théologie et/ou que le thème de recherche interdisciplinaire le requiert ou le suggère, le doyen ou  la  doyenne,  éventuellement  le Curator studiorum de  lui  mandaté  en  entente  avec le  directeur  ou  la  directrice  de  thèse  et  le candidat  ou  la  candidate  peut  donner  le nom  d'une  personne  qualifiée, en règle générale dans une autre faculté de l'Université  de  Fribourg,  qui  soit  compétente pour co-diriger la thèse. Dans ce cas le directeur ou la directrice et le codirecteur  ou  la  co-directrice  sont  communément responsable des études du doctorat.
+
+## Art. 2. Voraussetzungen
+
+1 Für das Studium zum Erwerb eines Doktorates der Philosophie an der Theologischen Fakultät der Universität Freiburg  können  sich  Personen  bewerben, die ein von der Universität Freiburg anerkanntes Master-Diplom oder ein gleichwertiges Diplom mit der Gesamtnote von mindestens 5 auf 6 (oder einer gleichwertigen Note) erworben haben.
+
+2 Für  das Doktorat der Philosophie an  der Theologischen Fakultät können sich Personen  bewerben,  die  ein  Forschungsprojekt  vorlegen,  das  in  die  Kompetenzen der  Theologischen  Fakultät  fällt.  In  der Regel werden sie in das Studienprogramm zum Erwerb des Doktorats der Philosophie in Religionsstudien aufgenommen.
+
+3 Für das Doktorat der Philosophie in theologischen Studien können sich Personen bewerben, die in der Regel zumindest ein Hauptfachprogramm im Bereich der Theologie auf Masterebene im Umfang  von  90  CP  gemäss  Art. 2  Abs. 1 erfolgreich abgeschlossen haben oder gleichwertige Studienleistungen vorweisen und  ausdrücklich  um  die  Zulassung  zu diesem Studienprogramm beantragen. Eine Bewerbung  für  das  Doktorat  der  Philosophie in Religionsstudien bleibt möglich.
+
+4 Wenn  das zum Doktorat befähigende Diplom nicht an einer Theologischen Fakultät erworben wurde und/oder ein interdisziplinäres Forschungsthema es erfordert  oder  nahelegt,  kann  der  Dekan oder die Dekanin, ggf. der von ihm beauftragte Curator studiorum in Absprache  mit  dem  Leiter  oder  der  Leiterin der  Dissertation  und  mit  dem  Bewerber oder der Bewerberin eine qualifizierte Person für die Ko-Leitung benennen. In der Regel  gehört  diese  Person  einer  anderen Fakultät der Universität Freiburg an und ist dort  zur  Leitung  von  Doktoraten  befähigt. Leiter  oder  Leiterin  und  Ko-Leiter  oder Ko-Leiterin tragen in diesem Falle gemeinsam die Verantwortung für die Doktoratsstudien.
+
+5 Le postulant ou la postulante demande au moyen du formulaire prévu à cet effet par le décanat (annexe I) l'attestation écrite du membre  enseignant  de  la  Faculté,  qui  va diriger la thèse projetée. En cas d'un projet de recherche interdisciplinaire selon l'art. 2 al. 4  il  faut  aussi  la  confirmation écrite du co-directeur ou de la co-directrice. Le Curator studiorum sert éventuellement d'intermédiaire  pour  établir les  contacts nécessaires.
+
+6 Il n'y a pas de droit d'admission à l'étude de doctorat.
+
+## Art. 3. Admission
+
+1 Le  candidat  ou  la  candidate  adresse  une demande d'admission au Service d'admission et d'inscription. La demande est accompagnée:
+
+- a. de l'original  du  diplôme  requis  pour l'admission, ou d'une copie légalisée;
+- b. d'une copie du mémoire de Master;
+- c. d'un curriculum vitae;
+- d. d'un titre de travail du projet de recherche avec une esquisse du contenu d'environ une page;
+- e. de l'attestation mentionnée à l'art. 2 al. 5 par un membre enseignant de la faculté, habilité par celle-ci à assumer cette direction ou éventuellement cette codirection (cf. art. 6 al. 1, 2 et 4).
+
+2 La demande d'admission peut être présentée en tout temps.
+
+3 Après  l'examen  formel  de  la  demande d'admission, le Service d'admission et d'inscription la transmet avec un préavis au Décanat.
+
+4 Après  l'examen  matériel  de  la  demande d'admission,  le Curator  studiorum atteste la décision (cf. art. 6 al. 3 du Règlement du 3 avril 2006 concernant l'admission à l'Université de Fribourg) par le formulaire mis  à  disposition  par  le  décanat  (annexe II).  Cette attestation du Curator studiorum contient  aussi  la  spécification  du  Doctorat ès  lettres,  qui  est  déterminée  en  entente avec le directeur ou la directrice de la thèse selon l'art. 2 al. 2 ou l'art. 2 al. 3.
+
+5 Der  Bewerber  oder  die  Bewerberin  holt mit  dem  vom  Dekanat  vorgesehenen  Formular  (Anhang  I)  die  schriftliche  Zusicherung einer Lehrperson der Fakultät ein, die  die  Leitung  des  Dissertationsprojektes übernimmt.  Im  Falle  eines  interdisziplinären Forschungsprojekts gemäss Art. 2 Abs. 4 ist auch die schriftliche Zusicherung des  Ko-Leiters  oder  der  Ko-Leiterin  erforderlich. Der Curator studiorum vermittelt ggf. auf Anfrage die nötigen fachlichen Kontakte.
+
+6 Es  besteht  kein  Anspruch  auf  Zulassung zum Doktoratsstudium.
+
+## Art. 3. Zulassung
+
+1 Der Bewerber oder die Bewerberin reicht bei der Dienststelle für Zulassung und Einschreibung  ein  Zulassungsgesuch  ein. Dem Gesuch liegen bei:
+
+- a.  das Originaldokument oder eine beglaubigte  Kopie  des  für  die  Zulassung notwendigen Studienabschlusses;
+- b.  ein Exemplar der Masterarbeit;
+- c.  ein Curriculum vitae;
+- d.  der  Arbeitstitel  des  Forschungsprojekts mit  einer  inhaltlichen  Skizze  im  Umfang von einer Seite;
+- e.  die  in  Art. 2  Abs. 5  genannte  schriftliche  Zusicherung  der  Übernahme  der Leitung  und  ggf.  der  Ko-Leitung  des Dissertationsprojektes (vgl. Art. 6 Abs. 1, 2 und 4).
+
+2 Die  Einreichung  des  Gesuchs  unterliegt keinen Fristen.
+
+3 Nach der formalen Prüfung des Zulassungsgesuchs  leitet  die  Dienststelle  für Zulassung  und  Einschreibung  dieses  mit einer Stellungnahme an das Dekanat.
+
+4 Nach  der  materiellen  Prüfung  des  Zulassungsgesuchs bestätigt der Curator studiorum mit dem  vom  Dekanat  vorgesehenen Formular (Anhang II) schriftlich seine Entscheidung (vgl. Art. 6 Abs. 3 des Reglements  vom  3. April  2006  über  die Zulassung an die Universität Freiburg). Diese  Bestätigung  des Curator  studiorum enthält  auch  die  Spezifikation  des  philosophischen  Doktorats,  die  in  Absprache mit dem Leiter oder der Leiterin der Dissertation gemäss Art. 2 Abs. 2 oder Art. 2 Abs. 3 festgelegt ist.
+
+5 Si  la  condition  de  l'art. 2  al. 1  respectivement art. 3 al. 1 a. n'est pas remplie ou si la réalisation du projet de doctorat le nécessite, le Curator studiorum en  entente avec le directeur ou la directrice de la thèse peut  imposer  des  exigences  de  60  CP  au max., qui doivent être obtenus pendant les études du doctorat. Si les exigences dépassent  les  60 CP,  une  admission  n'est pas possible.
+
+6 Sur  la  base  de  la  décision  du Curator studiorum , le Service d'admission et d'inscription  adresse  au  candidat  ou  à  la candidate une décision d'admission.
+
+## Art. 4. Inscription
+
+1 Après paiement de la finance d'inscription, le candidat admis ou la candidate admise  est  inscrit ou  inscrite comme doctorant ou doctorante à l'Université de Fribourg.
+
+2 Le  doctorant  ou  la  doctorante  doit  être inscrit-e  pendant  toute  la  durée  de  son étude  jusqu'à  la  fin  du  semestre  où  il  ou elle défend sa thèse de doctorat.
+
+3 Il  ou  elle  ne  peut  être  inscrit-e  simultanément en études doctorales dans une autre Université,  sauf  si  une  convention  de  cotutelle spécifique a été établie.
+
+## Art. 5. Habilitation pour la direction de projets de doctorat
+
+1 Tout  membre  du  corps  professoral  de  la Faculté est habilité à diriger une thèse dont le sujet relève de son domaine de compétence.
+
+2 Selon le cas, la Faculté peut - par décision prise  par  le  Conseil  décanal  -  également autoriser un autre membre enseignant de la Faculté, possédant les qualifications requises, à diriger une thèse.
+
+5 Falls die in Art. 2 Abs. 1 bzw. Art. 3 Abs. 1 a. genannten  Bedingungen  nicht  vollständig  erfüllt  sind  oder  wenn  die  erfolgreiche Durchführung des Dissertationsprojekts es erfordert,  kann  der Curator studiorum in  Rücksprache  mit  dem  Leiter oder der Leiterin der Dissertation Auflagen von  maximal  60 CP  festlegen,  die  innerhalb der Doktoratsstudien erworben werden müssen. Übersteigen die Auflagen 60 CP, ist eine Zulassung nicht möglich.
+
+6 Auf der Grundlage der Entscheidung des Curator  studiorum stellt  die  Dienststelle für Zulassung und Einschreibung dem Bewerber oder der Bewerberin eine Zulassungsverfügung zu.
+
+## Art. 4. Einschreibung
+
+1 Nach Begleichung der Semestergebühren ist der zugelassene Bewerber oder die zugelassene Bewerberin an der Universität Freiburg  als  Doktorand  oder  Doktorandin eingeschrieben.
+
+2 Der Doktorand oder die Doktorandin hat die Pflicht, während seines oder ihres ganzen Studiums bis zum Ende des Semesters eingeschrieben zu sein, in der er oder sie die Doktorarbeit verteidigt.
+
+3 Er  oder  sie  kann  nicht  gleichzeitig  an einer anderen Universität als Doktorand-in eingeschrieben sein, ausser wenn eine Vereinbarung über ein Doppeldoktorat getroffen wurde.
+
+## Art. 5. Berechtigung zur Leitung von Dissertationsprojekten
+
+1 Jedes  Mitglied  der  Professorenschaft,  in dessen  Fachgebiet  das  Dissertationsthema gehört, kann die Leitung einer Dissertation übernehmen.
+
+2 Die Fakultät kann durch Entscheidung des Dekanatsrates  im  Einzelfall  auch  andere qualifizierte Mitglieder des Lehrkörpers der Fakultät beauftragen, eine Dissertation zu leiten.
+
+3 Le co-directeur ou la co-directrice du travail selon art. 2 al. 4 - s'il ou si elle n'est pas  membre  de  la  Faculté  de  théologie  est  en  règle  générale  un  membre  d'une autre  Faculté  compétent  pour  le  domaine dans  lequel  le  candidat  ou  la  candidate  a obtenu son diplôme de Master (ou le diplôme jugé équivalent). Dans sa faculté il ou  elle  doit  avoir  le  droit  de  diriger  une thèse.
+
+4 Les membres émérites ou démissionnaires du corps enseignant peuvent encore diriger une  thèse  pendant  cinq  ans  suivant  leur départ de la Faculté.
+
+5 Le directeur ou la directrice de thèse fait connaître au décanat de  la Faculté le nom du  doctorant  inscrit  ou  de  la  doctorante inscrite  et  le  titre  du  projet  de  thèse.  Le doyen ou la doyenne en informe la Faculté.
+
+6 Un  directeur  ou  une  directrice,  un  codirecteur ou une co-directrice de thèse qui constate que le candidat ou la candidate ne satisfait  plus  aux  conditions  d'un  travail scientifique  a  le  droit  de  mettre  fin  à  sa fonction de direction ou de co-direction. Il ou elle l'annonce au doyen ou à la doyenne sous forme écrite.
+
+7 En  cas  d'interruption,  l'étudiant-e  peut poser à nouveau sa candidature selon l'art. 3 pour autant qu'un autre directeur ou qu'une autre directrice de thèse soit prêt à accompagner le travail de doctorat.
+
+8 Le  changement  de  direction  de  la  thèse sera décidé par le Conseil décanal et annoncé au Conseil de Faculté.
+
+9 Si, après la déposition du mandat par une ou les deux personnes responsables, on ne trouve  plus  personne  qui  accepte  la  direction  de  la  thèse,  le  doctorant  ou  la  doctorante  perd  le  droit  de  continuer  son  projet et est exmatriculé-e.
+
+3 Der  Ko-Leiter  oder  die  Ko-Leiterin  der Arbeit  nach  Art. 2  Abs. 4,  sofern  er  oder sie nicht Mitglied der Theologischen Fakultät ist,  stammt in der Regel aus dem Fachgebiet, in dem der Bewerber oder die Bewerberin  ihr  Masterdiplom  (oder  das gleichwertige  Diplom)  erworben  hat.  Er oder sie muss an seiner oder ihrer Fakultät über das Recht verfügen, Dissertationen zu leiten.
+
+4 Mitglieder des Lehrkörpers, die durch Emeritierung oder Demission ausgeschieden  sind,  können  in  der  Regel  für weitere fünf Jahre nach ihrem Ausscheiden aus  der  Fakultät  die  Leitung  einer  Dissertation innehaben.
+
+5 Der  Leiter  oder  die  Leiterin  der  Dissertation  meldet  dem  Dekanat  nach  erfolgter Einschreibung den Namen des Doktoranden oder der Doktorandin und den Titel des  Dissertationsprojekts.  Der  Dekan  oder die Dekanin informiert die Fakultät.
+
+6 Stellt der Leiter oder die Leiterin, ggf. der Ko-Leiter  oder  die  Ko-Leiterin  der  Arbeit fest, dass  bei  einem  Doktoranden  oder einer  Doktorandin  die  Bedingungen  für eine  wissenschaftliche  Arbeit  nicht  mehr erfüllt sind, hat er oder sie das Recht, seine bzw.  ihre Funktion niederzulegen. Dies wird dem Dekan oder der Dekanin schriftlich mitgeteilt.
+
+7 Im Falle eines Abbruchs kann der Student oder  die  Studentin  erneut  ein  Zulassungsgesuch  gemäss  Art. 3  stellen,  insofern  ein anderer  Leiter  oder  eine  andere  Leiterin sich bereit erklärt, die Doktorarbeit zu begleiten.
+
+8 Der Wechsel der Dissertationsleitung wird  durch  den  Dekanatsrat  beschlossen und der Fakultät mitgeteilt.
+
+9 Findet  sich  nach  der  Niederlegung  des Mandats durch die verantwortliche Person bzw. Personen niemand, der in die Leitung des Projekts eintritt, verliert der Doktorand oder  die  Doktorandin  den  Anspruch  auf Weiterführung des Projekts und wird exmatrikuliert.
+
+## Art. 6. Durée des études de doctorat
+
+1 La  durée  des  études  de  doctorat  est  en règle générale de deux ans minimum et de cinq  ans  maximum.  Une  prolongation  ou un raccourcissement à deux semestres peut être accordé par le Curator studiorum pour un juste motif. La durée minimale de l'inscription est de deux semestres.
+
+2 D'entente avec le directeur ou la directrice de thèse, le doctorant ou la doctorante  aura  éventuellement  à  compléter  ses  études  en  fonction  de  sa  spécialisation; de même pour un cours de langue.
+
+3 La Faculté a le droit d'imposer dans une mesure  appropriée  la  participation  obligatoire à des programmes doctoraux.
+
+## Art. 7. Exigences pour la thèse
+
+1 La thèse doit constituer un travail personnel de recherche scientifique qui répond aux règles du travail scientifique du point de vue du contenu ainsi que du point de vue formel.
+
+2 Le  thème  sera  circonscrit  de  telle  sorte que  la  thèse  puisse  être  rédigée  dans  le temps  requis.  Elle  comprendra  en  règle générale  environ  200  à  300  pages  (à  env. 2'500 signes par page, espaces non inclus).
+
+## Art. 8. Dépôt de la thèse
+
+1 Le manuscrit définitif de la thèse, prêt à la publication, sera déposé en cinq exemplaires  reliés  ou  brochés  auprès  du décanat de la Faculté de théologie.
+
+2 Le mémoire contient la " Déclaration sur l'honneur "  que  le  travail  correspond  aux règles  de  l'intégrité  scientifique  selon  les règlements de l'Université de Fribourg.
+
+3 Les documents doivent être accompagnés d'un  Curriculum  vitae  et  d'une  preuve  du paiement des émoluments d'examen.
+
+4 Le décanat contrôle que les conditions de l'art. 4 sont satisfaites.
+
+## Art. 6. Dauer der Dissertationsstudien
+
+1 Die Doktoratsstudien dauern in der Regel mindestens zwei Jahre und höchstens fünf Jahre.  Wenn  ein  berechtigter  Grund  vorliegt,  kann  der Curator  studiorum eine Verlängerung  oder  eine  Verkürzung  gewähren.  Die  Mindestdauer  der  Einschreibung beträgt zwei Semester.
+
+2 Der Doktorand oder die Doktorandin ergänzt  nach  Absprache  mit  dem  Leiter oder der Leiterin der Dissertation die Studien  eventuell  im  Rahmen  der  Spezialisierung;  dazu  kann  auch  der  Erwerb  der nötigen Sprachkenntnisse gehören.
+
+3 Die Fakultät hat das Recht, die Teilnahme an Doktoratsprogrammen in einem geeigneten Umfang verpflichtend zu machen.
+
+## Art. 7. Anforderungen an die Dissertation
+
+1 Die Dissertation ist eine selbständige wissenschaftliche Forschungsarbeit, die inhaltlich  und  formell  die  Regeln  wissenschaftlichen Arbeitens respektiert.
+
+2 Das Thema ist so zu begrenzen, dass es in der  vorgesehenen  Zeit  bearbeitet  werden kann. Der Umfang  liegt in der Regel zwischen 200 und 300 Seiten (à ca. 2'500 Zeichen pro Seite, ohne Leerschläge).
+
+## Art. 8. Einreichung der Dissertation
+
+1 Die  publikationsreife  Dissertation  ist  in fünf gebundenen oder broschierten Exemplaren im Dekanat der Theologischen Fakultät einzureichen.
+
+2 Die  Arbeit  enthält  eine  "Ehrenwörtliche Erklärung",  dass  die  Arbeit  den  Regeln guter wissenschaftlicher Praxis gemäss den Bestimmungen der Universität Freiburg entspricht.
+
+3 Den  Dokumenten  sind  ein  Curriculum vitae  und  der  Zahlungsnachweis  der  Examensgebühren beigefügt.
+
+4 Das  Dekanat  überprüft  die  Erfüllung  des Art. 4.
+
+## Art. 9. Appréciation du travail
+
+1 Après  le dépôt du travail, le Conseil décanal  désigne  deux  personnes  comme censeurs, qui rédigent, chacun pour sa part, un  rapport  écrit  avec  une  proposition  de note.  En  règle  générale  le  directeur  ou  la directrice  de  thèse  est  le  premier  censeur, le co-directeur ou la co-directrice est, le cas échéant, le deuxième censeur.
+
+2 Si  le  sujet  de  la  thèse  le  justifie,  un  troisième rapport, éventuellement externe, peut être demandé sur proposition du directeur  ou  de  la  directrice  du  projet.  Le Conseil décanal prend une décision à propos de cette demande.
+
+3 Les  censeurs  sont  tenus  de  fournir  leurs rapports dans les meilleurs délais, mais au plus  tard  six  mois  après  le  dépôt  de  la thèse.
+
+4 En  cas  de  refus  de  la  thèse  par  l'un  des deux  censeurs,  le  doyen  ou  la  doyenne nommera  un  troisième  censeur.  Tous  les rapports  sont  soumis  en  même  temps  au Conseil des professeurs.
+
+5 Le Conseil des professeurs décide de l'acceptation ou du rejet de la thèse sur la base des rapports. La décision est prise à la majorité absolue.
+
+6 En cas de rejet de la thèse par le Conseil des professeurs, le candidat ou la candidate a la possibilité de présenter son texte retravaillé  une  seconde  fois,  en  respectant un  délai  d'au  moins  six  mois  après  la première présentation. Dans ce cas en règle générale,  le  Conseil  décanal  de  la  Faculté désigne deux nouveaux censeurs.
+
+7 La note de la thèse sera déterminée lors de la séance du Conseil des professeurs sur la  base  de  la  note  proposée  par  les  deux censeurs.
+
+## Art. 9. Begutachtung der Arbeit
+
+1 Nach  Einreichung  der  Arbeit  bestimmt der  Dekanatsrat  zwei  Personen  als  Zensoren oder Zensorinnen, die je ein schriftliches Gutachten mit je einem Notenvorschlag verfassen. In der Regel ist der Leiter oder die Leiterin der Dissertation der  erste  Zensor,  der  Ko-Leiter  oder  die Ko-Leiterin ggf. der zweite Zensor oder die zweite Zensorin.
+
+2 Wenn  das  Thema  es  nahelegt,  kann  auf Vorschlag des Leiters oder der Leiterin des Projekts ein drittes, ggf. externes  Gutachten eingeholt werden. Über den Antrag befindet der Dekanatsrat.
+
+3 Die Zensoren und Zensorinnen sind gehalten,  ihr  Gutachten  schnellstmöglich vorzulegen, längstens innerhalb einer Frist von  sechs  Monaten  nach  Einreichung  der Dissertation.
+
+4 Lehnt einer der zwei Zensoren oder Zensorinnen  die  Arbeit  ab,  bestimmt  der Dekan oder die Dekanin einen dritten Zensor oder eine dritte Zensorin. Alle Gutachten werden gemeinsam dem Professorenrat unterbreitet.
+
+5 Der  Professorenrat  entscheidet  aufgrund der Gutachten mit absoluter Mehrheit über die Annahme oder Ablehnung der Dissertation.
+
+6 Lehnt der Professorenrat die  Dissertation ab, kann auf Antrag des Doktoranden oder der Doktorandin nach einer Frist von mindestens sechs Monaten und nach einer Überarbeitung  die  Arbeit  ein  zweites  Mal vorgelegt werden. In diesem Fall bestimmt der  Dekanatsrat  in  der  Regel  zwei  neue Zensoren oder Zensorinnen.
+
+7 Die Note der Dissertation wird mit absoluter Mehrheit im Professorenrat aufgrund  der  Notenvorschläge  der  beiden Zensoren oder Zensorinnen festgelegt.
+
+## Art. 10. Soutenance publique
+
+1 Après l'acceptation de la thèse, la soutenance  a  lieu  devant  un  jury  de  cinq membres  composé  du  doyen  ou  de  la doyenne qui préside, des deux censeurs et de  deux  assesseurs  désignés  par  le  doyen ou la doyenne.
+
+2 La  soutenance  fait  suite,  dans  des  délais raisonnables, à l'acceptation de la thèse par le Conseil des professeurs. Elle est publique  et  dure  au  moins  une  heure  et demie.
+
+3 La  première  demi-heure  est  réservée  au doctorant ou à la doctorante pour présenter les thèses principales et la méthodologie de son travail.
+
+4 Les membres du jury interrogent le doctorant ou la doctorante après sa présentation; ils  se  réfèrent  à  la  présentation,  la  thèse dans son ensemble et peuvent en outre faire référence  à  des  compétences  du  candidat ou de la candidate dans son domaine scientifique.
+
+5 À la discrétion du doyen ou de la doyenne, les personnes présentes en possession d'un doctorat ont aussi le droit de  poser  des  questions;  cependant,  ils  ne contribuent pas à la définition de la note.
+
+6 Les membres du jury, à égalité des voix, décident  par  un  vote  de  la  note  de  la soutenance.
+
+7 Si  le  résultat  de  la  soutenance  est  jugé insuffisant, le doctorant ou la doctorante a le  droit  de  se  présenter  une  seconde  fois pour défendre sa thèse.
+
+8 En cas d'une présentation jugée insuffisante une deuxième fois, la thèse est rejetée définitivement.
+
+## Art. 11. Note globale
+
+1 La  note  finale  du  doctorat  se  compose pour  deux  tiers  de  la  note  de  la  thèse  et pour un tiers de la note de la soutenance.
+
+2 L'échelle  d'évaluation  est  la  suivante : summa cum laude (6) - insigni cum laude (5,5)  -  magna cum laude (5) - cum laude (4,5) - rite (4).
+
+## Art. 10. Öffentliche Verteidigung
+
+1 Ist  die  Dissertation  angenommen,  findet die  Verteidigung  vor  einer  fünfköpfigen Jury statt, die vom Dekan oder der Dekanin präsidiert  wird.  Neben  den  beiden  Zensorinnen oder Zensoren nehmen zwei weitere, vom Dekan oder von der Dekanin bestimmte Beisitzer oder Beisitzerinnen teil.
+
+2 Die  Verteidigung  findet  innerhalb  einer angemessenen Frist nach der Annahme der Dissertation durch den Professorenrat statt. Sie ist öffentlich und dauert mindestens 90 Minuten.
+
+3 Dem Doktoranden  oder  der  Doktorandin steht  zu  Beginn  eine  halbe  Stunde  zur Verfügung,  um  die  Hauptthese  und  die Methode der Dissertation vorzustellen.
+
+4 Die Jury-Mitglieder befragen den Doktoranden oder die Doktorandin im Anschluss an  die  Präsentation;  sie  beziehen  sich  auf den Vortrag, die gesamte Dissertation und können darüber hinaus Bezug nehmen auf die Kompetenzen des Kandidaten oder der Kandidatin im jeweiligen Fachgebiet.
+
+5 Anwesende,  die  über  einen  Doktortitel verfügen,  haben  nach  dem  Ermessen  des Dekans  ebenfalls  das  Recht,  Fragen  zu stellen,  sie  wirken  jedoch  nicht  an  der Festsetzung der Note mit.
+
+6 Die Jury-Mitglieder stimmen gleichberechtigt  über  die  Note  der  Verteidigung ab.
+
+7 Wird  die  Verteidigung  als  ungenügend eingestuft, hat der Doktorand  oder die Doktorandin  das  Recht,  ein  zweites  Mal zur Verteidigung der Dissertation anzutreten.
+
+8 Bei einer erneuten ungenügenden Leistung  gilt  die  Promotion  als  endgültig gescheitert.
+
+## Art. 11. Bewertung
+
+1 Die Gesamtnote des Doktorats ergibt sich zu zwei  Dritteln aus der Note  für die Dissertation  und  zu  einem  Drittel  aus  der Note für die Verteidigung.
+
+2 Es gilt folgende Notenskala: summa cum laude [6] -insigni cum  laude  [5,5]  magna cum laude [5] - cum laude [4,5] rite [4].
+
+3 Après  la réussite de la soutenance  et jusqu'à la publication de la thèse, le nouveau promu ou la nouvelle promue a le droit de porter le titre de Doctor designatus ou designata ( Dr des. ).
+
+## Art. 12. Publication
+
+1 Les modalités de la publication de la thèse sont fixées par le Règlement de la Faculté pour la publication des thèses de doctorat.
+
+2 La  thèse  doit  être  publiée  intégralement dans  les  deux  ans  qui  suivent  la  soutenance, ou partiellement sous la suggestion du  jury  et  avec  l'accord  formel  du  doyen ou de la doyenne.
+
+3 Si  le  délai  de  deux  ans  ne  peut  pas  être respecté,  on  déposera  auprès  du  décanat une demande de report du délai.
+
+4 Dans ce cas, le texte doit être soumis une nouvelle  fois;  éventuellement,  selon  l'avis des  censeurs,  il  devra  être  mis  à  jour  en fonction du nouvel état du savoir.
+
+## Art. 13. Diplôme et titre
+
+1 Le  diplôme  de  doctorat  est  remis  par  la Direction  académique  de  l'Université  dès lors que les exemplaires de la thèse imprimée  ont  été  déposés  conformément aux  Règlements  pour  la  publication  des thèses de doctorat.
+
+2 Le  nouveau  docteur  n'a  le  droit  de  faire état  du  titre  de Docteur  ès  lettres (D r ès lettres / PhD) qu'après réception du diplôme.
+
+3 Le diplôme porte le titre Doctor philosophiae in studiis religiosis bzw. Doctor  philosophiae  in  studiis  theologicis (cf. art. 1).
+
+3 In  der  Zeit  zwischen  erfolgreicher  Verteidigung und Publikation der Dissertation haben  die  Promovierten  das  Recht,  den Titel Doctor designatus oder designata ( Dr. des. ) zu führen.
+
+## Art. 12. Publikation
+
+1 Die  Veröffentlichung  der  Dissertation  ist durch  die  entsprechenden  Bestimmungen der Fakultät geregelt.
+
+2 Die  Dissertation  ist  innerhalb  von  zwei Jahren nach ihrer Verteidigung vollständig oder,  auf  Empfehlung  der  Jury  und  mit besonderer Erlaubnis des Dekans oder der Dekanin, teilweise zu veröffentlichen.
+
+3 Wird die Frist von zwei Jahren nicht eingehalten, ist beim Dekanat ein neuer Termin zu beantragen.
+
+4 In  diesem  Fall  muss  der  Text  vor  der Drucklegung  noch  einmal  eingereicht  und gegebenenfalls  gemäss  den  Auflagen  der Zensoren oder Zensorinnen auf den neuesten  Stand  der  Wissenschaft  gebracht werden.
+
+## Art. 13. Diplom und Titel
+
+1 Das Doktoratsdiplom wird von der Akademischen  Direktion  zugestellt,  nachdem die Pflichtexemplare der Dissertation, entsprechend  den  Bestimmungen  für  die Publikation  von  Doktorarbeiten,  vorgelegt worden sind.
+
+2 Erst nach Empfang des Doktoratsdiploms ist  der  Doktorand  oder  die  Doktorandin berechtigt, den Titel Doktor der Philosophie (Dr. phil. / PhD) zu führen.
+
+3 Das Diplom trägt den Titel Doctor philosophiae in studiis religiosis bzw. Doctor  philosophiae  in  studiis  theologicis (s. Art. 1).
+
+## Art. 14. Mise en vigueur
+
+Le présent règlement entre en vigueur après approbation par la Direction de l'instruction  publique,  de  la  culture  et  du sport.
+
+Adopté  par  le  Conseil  de  Faculté  dans  sa séance du 9 décembre 2014.
+
+Approuvé  par  le  Rectorat  de  l'Université de Fribourg le 13 janvier 2015.
+
+Ratifié par la  Direction  de  l'instruction publique, de la culture et du sport le 19 mars 2015.
+
+## Art. 14. Inkrafttreten
+
+Das  vorliegende  Reglement  tritt  mit  der Genehmigung durch die Direktion für Erziehung, Kultur und Sport in Kraft.
+
+Angenommen  durch  den  Fakultätsrat  in seiner Sitzung vom 9. Dezember 2014.
+
+Genehmigt durch das Rektorat der Universität Freiburg am 13. Januar 2015.
+
+Genehmigt durch die Direktion für Erziehung,  Kultur  und  Sport  am  19. März 2015.

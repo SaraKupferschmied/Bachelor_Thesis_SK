@@ -1,0 +1,171 @@
+---METADATA_JSON---
+{
+  "parsed_at": "2026-05-24T16:23:47.458Z",
+  "title": "c516af3060772df52dbda72d0acd151643fbbdab",
+  "pages": 1,
+  "parser": "docling",
+  "doc_key": "c516af3060772df52dbda72d0acd151643fbbdab",
+  "program_key": "faculty of science and medicine|doctorate||medicine",
+  "programme_name_en": "Medicine",
+  "programme_name_de": "Medizin",
+  "programme_name_fr": "Médecine",
+  "level": "Doctorate",
+  "ects_points": null,
+  "source_url": "https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_ME_fr.pdf",
+  "source_type": "pdf",
+  "programme_url": "https://studies.unifr.ch/en/doctorat/medspo/humanmedicine",
+  "programme_url_en": "https://studies.unifr.ch/en/doctorat/medspo/humanmedicine",
+  "programme_url_de": "https://studies.unifr.ch/de/doctorat/medspo/humanmedicine",
+  "programme_url_fr": "https://studies.unifr.ch/fr/doctorat/medspo/humanmedicine",
+  "curriculum_url": null,
+  "curriculum_de_url": null,
+  "curriculum_fr_url": null,
+  "curriculum_en_url": null,
+  "curriculum_unspecified_url": null,
+  "local_path": "pdfs\\c516af3060772df52dbda72d0acd151643fbbdab.pdf",
+  "sha256": "ebe2b0e80d2f25acdea670980c6de9b2f8652ad0f6e0b913538238bdb52a7920",
+  "fetched_at": "2026-05-21T16:05:15.137Z",
+  "notes": "downloaded pdf (final=https://cdn.unifr.ch/scimed/plans/current/Plan_Eval_ME_fr.pdf, ct=application/pdf)"
+}
+---/METADATA_JSON---
+
+---PAGE 1---
+<!-- image -->
+
+Annexe aux plans d'études de la Faculté des sciences et de médecine
+
+## Modalités d'évaluation des UE
+
+- des sciences médicales
+- de la morphologie
+- de la physiologie
+
+Accepté par la Faculté des sciences et de médecine le 30.05.2022 Version révisée du 14.04.2025
+
+## 1 Introduction
+
+Cette annexe décrit les conditions d'évaluation des Unités d'enseignement (UE) sous la respon -sabilité  de  la  Section  de  médecine,  pour  les  domaines sciences  médicales , morphologie et physiologie .  Elle complète les différents plans d'études où apparaissent des UE avec le code « SME.0nnnn », « SMO.0nnnn » et « SPY.0nnnn ».
+
+## 2 Évaluations des unités d ' enseignement
+
+L ' évaluation des  travaux  pratiques,  des  proséminaires,  des  séminaires,  des  stages  et  des Journal Club se fait suivant des critères énoncés en début de semestre. L ' évaluation des cours se fait par des épreuves orales ou écrites dont la durée est fixée dans la présente annexe. Les épreuves se déroulent, en général, durant trois sessions d ' examens (hiver, été, automne). Pour chaque épreuve, l'étudiant ·e s ' inscrit dans les délais prescrits selon la procédure on-line dans le portail d ' étudiant·e·s MyUniFR (https://my.unifr.ch) accessible avec le compte personnel et le mot de  passe  fournis  par  l ' Université.  L 'épreuve  porte  sur  la  matière  de  l'UE  telle  qu'elle  a  été enseignée la dernière fois. En cas d'exception, celle -ci sera communiquée par la section et/ou par  l'enseignant ·e  responsable.  L ' échelle  des  notes  s ' étend  de  6  (meilleure  note)  à  1  (plus mauvaise note). Une épreuve dont la note est inférieure à 4 peut être répétée une seule fois et au plus tôt lors de la session d ' examens suivante.
+
+## 3 Bases réglementaires
+
+Le présent document sert d'annexe aux plans d'études suivants 1 :
+
+- Plan d'études pour l'obtention du Bachelor of Science en sciences biomédicales.
+- Plan d'études pour l'obtention du Specialised Master of Science in Experimental Biomedical Research
+- Plan d'études pour l'obtention du Specialised Master of Science in Digital Neuroscience
+- Plan d ' études des branches propédeutiques et complémentaires offertes par la Faculté des sciences  et  de  médecine dans  le  cadre  du  Bachelor  of  Science  ou  d'autres  formations universitaires dans lesquelles ces branches sont reconnues.
+- Plan d'études pour l'obtention du Bachelor of Science en enseignement au degré secondaire I.
+- Plan d'études des branches Géosciences, Mathématiques, Informatique, Sciences naturelles et Sciences du sport et de la motricité, pour les étudiant·e·s de la Faculté des lettres et des sciences humaines ,  de  la  Faculté  des  sciences de  l'éducation  et  de  la formation et  de  la Faculté  de  théologie  souhaitant  obtenir  le  Bachelor  of  Arts  en  enseignement  au  degré secondaire I (BA\_SI).
+
+Il est soumis au Règlement pour l ' obtention des Bachelor of Science et des Master of Science de la  Faculté  des  sciences  et  de  médecine. Tous  ces  documents  sont  accessibles  à  partir  de http://www.unifr.ch/scimed/fr/plans.
+
+1 Des UE de la médecine, de la morphologie et de la physiologie peuvent ponctuellement être intégrées dans d'autres plans d'études ou suivies 'Hors plan d'études'.
+
+## 4 Modalités d'évaluation
+
+Les travaux pratiques et les exercices sont évalués à l ' aide de critères fixés et communiqués en début  de  semestre.  Les  exercices  peuvent  aussi  être  examinés  lors  de  l ' épreuve  du  cours correspondant.
+
+Avec l'accord écrit de l' étudiant·e, il peut être procédé à un changement des modalités d'examen. Ceci s'applique en particulier  lorsqu'un ·e  étudiant·e  est  seul·e  à  se  présenter  à  une  épreuve écrite. Le Département ou la Section responsable peut proposer à l'étudiant ·e (réponse écrite requise ) que l'épreuve écrite soit remplacée par une épreuve orale.
+
+| Code      | Unité d'enseignement                                                                                                          | ECTS   | Modalités d'évaluation                                                                                           |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------|--------|------------------------------------------------------------------------------------------------------------------|
+| SME.01202 | Bases morphologiques et fonctionnelles - Systèmes Ia                                                                          | 10     | épreuve écrite de 120-200 min (selon le nombre de questions)                                                     |
+| SME.02202 | Bases morphologiques et fonctionnelles - Systèmes Ib                                                                          | 6      | épreuve écrite de 120-180 min (selon le nombre de questions                                                      |
+| SME.02303 | Biostatistique (cours et exercices)                                                                                           | 2      | épreuve écrite de 60 min                                                                                         |
+| SME.03001 | Séminaire de neurobiologie                                                                                                    | 0.5    | passed or failed, based on active participation                                                                  |
+| SME.03203 | Système cardiovasculaire - Sang II; Respiration                                                                               | 9.2 5  | épreuve écrite de 120-180 min (selon le nombre des questions)                                                    |
+| SME.03205 | Rein et voies urinaires - Nutrition et digestion                                                                              | 8.2 5  | épreuve écrite de 120-180 min (selon le nombre des questions)                                                    |
+| SME.03302 | Tissue nerveux : Structure et fonction                                                                                        | 2      | épreuve écrite de 45 min                                                                                         |
+| SME.04001 | Neurobiologie (séminaire)                                                                                                     | 0.5    | passed or failed, based on active participation                                                                  |
+| SME.04002 | Fribourg day of cognition                                                                                                     | 0.5    | participation obligatoire                                                                                        |
+| SME.04200 | Pensée et méthodologie scientifiques                                                                                          | 1      | les modalités d'évaluation sont fixées en début de semestre. Pas de note attribuée                               |
+| SME.04204 | Système nerveux et organes des sens                                                                                           | 6.5    | épreuve écrite de 100-150 min (selon le nombre de questions)                                                     |
+| SME.04206 | Intégration cardiovasculaire, respiratoire et rénale ; Système endocrinien ; Systèmes génitaux I + II ; Système immunitaire I | 8      | épreuve écrite de 120-180 min (selon le nombre de questions)                                                     |
+| SME.04207 | Physiopathologie des systèmes (chapitres choisis)                                                                             | 3      | épreuve écrite de 60 min                                                                                         |
+| SME.04208 | Physiopathologie du système nerveux                                                                                           | 2      | épreuve écrite de 45 min                                                                                         |
+| SME.04300 | Actualités de la médecine régénérative                                                                                        | 1      | épreuve écrite de 60 min                                                                                         |
+| SME.05001 | Neurobiologie (séminaire)                                                                                                     | 0.5    | passed or failed, based on active participation                                                                  |
+| SME.05003 | Méthodes moléculaires en recherche biomédicale (travaux pratiques)                                                            | 2      | les modalités d'évaluation sont fixées en début de semestre. Pas de note attribuée.                              |
+| SME.05103 | Microbiologie générale et médicale                                                                                            | 3      | épreuve écrite de 60 min                                                                                         |
+| SME.05311 | Pharmacologie générale I                                                                                                      |        | épreuve écrite de 45 min                                                                                         |
+| SME.05307 | Stage dans un groupe de recherche (partie A)                                                                                  | 3,5    | évaluation par note (portant sur les unités SME.05307 et SME.06302) du rapport final et de la présentation orale |
+| SME.05304 | Pathologie générale                                                                                                           | 3      | épreuve écrite de 90 min                                                                                         |
+| SME.05305 | Immunologie I                                                                                                                 | 1.5    | épreuve écrite de 60 min ou orale de 15 min                                                                      |
+| SME.05306 | Ethique en recherche biomédicale                                                                                              | 3      | Présence obligatoire à au moins 2/3 des cours et contrôle continu. Une note est attribuée                        |
+| SME.06001 | Neurobiology seminar                                                                                                          | 0.5    | passed or failed, based on active participation                                                                  |
+| SME.06100 | Système nerveux : chapitres choisis I                                                                                         | 3      | épreuve écrite de 90 min                                                                                         |
+| SME.06104 | Microbiologie clinique spécialisée                                                                                            | 2.5    | épreuve écrite de 45 min                                                                                         |
+| SME.06200 | Système nerveux : chapitres choisis II                                                                                        | 3      | épreuve écrite de 90 min                                                                                         |
+
+| SME.06302   | Stages dans un groupe de recherche (partie B)                                                   | 4.5   | évaluation par note (portant sur les unités SME.05307 et SME.06302) du rapport final et de la présentation orale   |
+|-------------|-------------------------------------------------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------|
+| SME.06312   | Immunologie avancée                                                                             | 2     | épreuve écrite 60 min                                                                                              |
+| SME.06309   | Microbiologie (travaux pratiques)                                                               | 1     | participation obligatoire                                                                                          |
+| SME.06311   | Pharmacologie générale II                                                                       | 1,5   | épreuve écrite de 45 min                                                                                           |
+| SME.06320   | Biostatistique avancée et épidémiologie                                                         | 2     | épreuve écrite de 60 min                                                                                           |
+| SME.07001   | Neurobiology seminar                                                                            | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07002   | Fribourg day of cognition                                                                       | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07010   | Basic Knowledge upgrading                                                                       | 1     | passed or failed, formative test                                                                                   |
+| SME.07100   | Models for human diseases                                                                       | 3     | written exam 75 min. One mark                                                                                      |
+| SME.07102   | Research symposium                                                                              | 0.5   | passed or failed based on active participation                                                                     |
+| SME.07104   | Joint research group meetings of Dep EMC (Endocrinology, Metabolism and Cardiovascular System)  | 1     | passed or failed, based on active participation and an oral presentation                                           |
+| SME.07105   | Tissue Degeneration and Regeneration journal club                                               | 4     | passed or failed, based on active participation and an oral presentation                                           |
+| SME.07200   | Infection, inflammation and cancer                                                              | 3     | written exam 75 min. One mark                                                                                      |
+| SME.07201   | Cellular immunology: theory and practice                                                        | 3     | passed or failed based on continuous assessment                                                                    |
+| SME.07203   | Principles and methods in investigating and treating age-associated heart and vascular diseases | 3     | continuous assessment. One mark                                                                                    |
+| SME.07208   | Cancer/Inflammation research journal club                                                       | 4.5   | passed or failed, based on active participation and an oral presentation                                           |
+| SME.07209   | Concepts and approaches in metabolic phenotyping, anti-obesity targeting and hypoxia research   | 3     | oral exam 15 min. or written report. One mark                                                                      |
+| SME.07210   | Section of medicine research (seminar)                                                          | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07211   | Section of medicine research (seminar)                                                          | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07212   | Research Day in Medicine                                                                        | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07216   | Swiss Physiology Meeting                                                                        | 1     | passed or failed, based on active participation                                                                    |
+| SME.07214   | Cancer/inflammation research journal club                                                       | 4     | passed or failed, based on active participation and an oral presentation                                           |
+| SME.07215   | Hot topics in Cancer research, Metabolic health and Regenerative biomedicine                    | 3     | continuous assessment. One mark                                                                                    |
+| SME.07300   | Central nervous system regeneration and repair                                                  | 3     | written exam 75 min. One mark                                                                                      |
+| SME.07301   | Behavioural methods in neurosciences                                                            | 3     | passed or failed, based on active participation                                                                    |
+| SME.07306   | BENEFRI workshop 'Frontiers in                                                                  | 0.5   | passed or failed, based on active participation                                                                    |
+| SME.07307   | neuroscience' NEW Neuroscience journal club NEW                                                 | 4     | passed or failed, based on active participation and an oral presentation                                           |
+| SME.07400   | Microscopy in life sciences                                                                     | 3     | written exam 45 min. One mark                                                                                      |
+| SME.07501   | Scientific communication                                                                        | 3     | continuous assessment. One mark                                                                                    |
+| SME.07502   | Advanced scientific writing                                                                     | 3     | one mark based on written work, peer-review and editorial work                                                     |
+| SME.07602   | Project design in Neuroscience                                                                  | 4.5   | passed or failed                                                                                                   |
+
+| SME.07603    | Research group meetings in Cancer/Inflammation                      | 4.5   | passed or failed, based on active participation and an oral presentation                             |
+|--------------|---------------------------------------------------------------------|-------|------------------------------------------------------------------------------------------------------|
+| SME.07604    | Project design in Cancer/Inflammation                               | 4.5   | passed or failed                                                                                     |
+| SME.07607    | Research group meetings in Tissue Degeneration and Regeneration     | 4.5   | passed or failed, based on active participation and an oral presentation                             |
+| SME.07608    | Project design in Tissue Degeneration and Regeneration              | 4.5   | passed or failed                                                                                     |
+| SME.07609    | Research group meetings in Neuroscience NEW                         | 4,5   | passed or failed, based on active participation and an oral presentation                             |
+| SME.07700    | Data analysis and statistics with the R programming language        | 3     | written exam 90 min. One mark                                                                        |
+| SME.07701    | Introduction to modern instrumentation                              | 3     | Evaluation modalities are fixed at the beginning of the semester. Passed or failed.                  |
+| SME.07800    | Master thesis                                                       | 60    | one mark based on the practical work (50%), the written report (25%) and the oral presentation (25%) |
+| SMO.00007    | Anatomie fonctionnelle des systèmes du corps humain                 | 3     | épreuve écrite de 60 min.                                                                            |
+| SMO.00008    | Neuroanatomie humaine fonctionnelle                                 | 3     | évaluation par note (1/3 contrôle continu + 2/3 épreuve écrite de 60 min)                            |
+| SMO.00630    | Anatomie descriptive                                                | 3     | épreuve écrite de 60 min                                                                             |
+| SMO.03002    | 2 Démonstrations (Situs)                                            | 0.5   | participation obligatoire, pas de note attribuée                                                     |
+| SMO.03201 et | Histologie I (travaux pratiques)                                    | 1.5   | examen pratique de 90 - 120 minutes, une seule note est                                              |
+| SMO.04203    | Histologie IIa (travaux pratiques)                                  | 1.5   | attribuée                                                                                            |
+| SMO.03202    | Anatomie macroscopique: démonstrations                              | 0.5   | participation obligatoire, pas de note attribuée                                                     |
+| SMO.04002    | Neuroanatomie (travaux pratiques)                                   | 1.5   | épreuve orale de 10 min, pas de note attribuée                                                       |
+| SMO.04202    | Système nerveux central (démonstrations et travaux pratiques)       | 1     | épreuve orale de 10 min., pas de note attribuée                                                      |
+| SMO.06002    | Morphologie (travaux pratiques avancés)                             | 3     | les modalités d'évaluation sont fixées en début de semestre, pas de note attribuée                   |
+| SPY.00110 et | Physiologie et physiopathologie des grandes régulations : partie I  | 3     | épreuve écrite de 100 min, portant sur les unités SPY.00110 et SPY.00111, une seule note est         |
+| SPY.00111    | Physiologie et physiopathologie des grandes régulations : partie II | 3     | attribuée                                                                                            |
+| SPY.00623    | Bases neurophysiologiques                                           | 1     | épreuve orale de 20 min                                                                              |
+| SPY.01001    | Neurobiologie I (Deutsch)                                           | 3     | Schriftliche Prüfung 120 Min., nur auf Deutsch, bezogen auf die                                      |
+| et SPY.02001 | Neurobiologie II (Deutsch)                                          | 3     | Einheiten SPY.01001 und SPY.02001. Es wird 1 Note vergeben                                           |
+| SPY.01011    | Neurobiologie I (français)                                          | 3     | épreuve écrite de 120 min. seulement en français, portant sur                                        |
+| et SPY.02011 | Neurobiologie II (français)                                         | 3     | les unités SPY.01011 et SPY.02011, 1 seule note est attribuée                                        |
+| SPY.03204    | Physiologie systémique I (travaux pratiques)                        | 2.7   | épreuve écrite de 60 minutes, une note est attribuée                                                 |
+| SPY.04005    | Neurophysiologie                                                    | 5 1.5 | participation obligatoire, pas de note attribuée                                                     |
+
+| SPY.04205   | Physiologie systémique II (travaux pratiques)   |   2.7 5 | épreuve écrite de 60 minutes, une note est attribuée                               |
+|-------------|-------------------------------------------------|---------|------------------------------------------------------------------------------------|
+| SPY.05004   | Physiologie I (travaux pratiques avancés)       |     1.5 | les modalités d'évaluation sont fixées en début de semestre, pas de note attribuée |
+| SPY.05301   | Recherche cardiovasculaire                      |       4 | épreuve écrite de 90 min                                                           |
+| SPY.05303   | Nutrition et métabolisme                        |       4 | épreuve écrite de 90 min                                                           |
+| SPY.06004   | Physiologie II (travaux pratiques avancés)      |     1.5 | les modalités d'évaluation sont fixées en début de semestre, pas de note attribuée |
