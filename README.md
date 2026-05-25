@@ -149,6 +149,13 @@ Timeout for too long questions
     auto=http://localhost:8000/ask:auto ^
     tool=http://localhost:8000/ask:tool ^
     rag=http://localhost:8000/ask:rag
+
+    python evaluation\eval_runner_chatbot.py ^
+  --input evaluation\thesis_chatbot_evaluation_template.xlsx ^
+  --output test_results.xlsx ^
+  --timeout 2400 ^
+  --systems ^
+    auto=http://localhost:8000/ask:auto 
     
 
 # Run locally
