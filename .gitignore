@@ -40,3 +40,5 @@ chatbot/app/__pycache__
 
 # git
 .git/
+
+*.pdf
