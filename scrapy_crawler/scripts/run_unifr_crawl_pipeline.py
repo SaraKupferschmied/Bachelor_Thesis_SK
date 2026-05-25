@@ -104,11 +104,30 @@ def python_cmd(script_path: Path, *args: str | Path) -> list[str]:
 
 
 def build_steps() -> list[Step]:
+    """
+    Build the crawl + post-processing pipeline.
+
+    New document flow:
+      1) Crawl programme/source data.
+      2) Crawl faculty study-plan documents into spider_outputs/faculty_programs/*.json.
+      3) Normalize faculty docs into one row per document.
+      4) Match those docs to programmes_with_curricula_enriched.json.
+      5) Patch only the remaining known-special unmatched documents.
+
+    Important: the old merge flow using normalize_faculty_jsons.py,
+    merge_studyplans.py and unmatched_patch.py is intentionally no longer used.
+    """
     program_links = OUTPUT_DIR / "program_links_with_ects.json"
-    faculty_normalized = OUTPUT_DIR / "faculty_programs_normalized.json"
-    merged_docs = OUTPUT_DIR / "program_links_with_ects_and_docs.json"
-    merged_docs_enriched = OUTPUT_DIR / "program_links_with_ects_and_docs_enriched.json"
+    programmes_enriched = OUTPUT_DIR / "programmes_with_curricula_enriched.json"
     courses = OUTPUT_DIR / "courses.json"
+
+    faculty_documents_normalized = OUTPUT_DIR / "faculty_documents_normalized.json"
+    programmes_with_faculty_documents = OUTPUT_DIR / "programmes_with_faculty_documents.json"
+    document_program_match_audit = OUTPUT_DIR / "document_program_match_audit.json"
+    unmatched_faculty_documents = OUTPUT_DIR / "unmatched_faculty_documents.json"
+    programmes_with_faculty_documents_patched = OUTPUT_DIR / "programmes_with_faculty_documents_patched.json"
+    document_program_patch_audit = OUTPUT_DIR / "document_program_patch_audit.json"
+    unmatched_faculty_documents_remaining = OUTPUT_DIR / "unmatched_faculty_documents_remaining.json"
 
     return [
         Step(
@@ -127,14 +146,14 @@ def build_steps() -> list[Step]:
                 "crawl",
                 "curricula_links_level2_enriched",
                 "-O",
-                SCRAPY_PROJECT_ROOT / "programmes_with_curricula_enriched.json",
+                programmes_enriched,
             ),
             SCRAPY_PROJECT_ROOT,
-            output=SCRAPY_PROJECT_ROOT / "programmes_with_curricula_enriched.json",
+            output=programmes_enriched,
         ),
         Step(
             3,
-            "download links",
+            "download links legacy snapshot",
             "crawl",
             scrapy_cmd(
                 "crawl",
@@ -300,17 +319,17 @@ def build_steps() -> list[Step]:
         ),
         Step(
             15,
-            "merge: normalize faculty JSONs",
+            "documents: normalize faculty documents",
             "merge",
             python_cmd(
-                IMPORT_DIR / "normalize_faculty_jsons.py",
+                IMPORT_DIR / "normalize_faculty_documents.py",
                 "--input-dir",
                 FACULTY_PROGRAMS_DIR,
                 "--out",
-                faculty_normalized,
+                faculty_documents_normalized,
             ),
             REPO_ROOT,
-            output=faculty_normalized,
+            output=faculty_documents_normalized,
             required_inputs=(
                 FACULTY_PROGRAMS_DIR / "edu.json",
                 FACULTY_PROGRAMS_DIR / "scimed.json",
@@ -323,38 +342,47 @@ def build_steps() -> list[Step]:
         ),
         Step(
             16,
-            "merge: merge studyplans",
+            "documents: match faculty docs to programmes",
             "merge",
             python_cmd(
-                IMPORT_DIR / "merge_studyplans.py",
-                "--base",
-                program_links,
-                "--inputs",
-                faculty_normalized,
+                IMPORT_DIR / "match_faculty_docs_to_programs.py",
+                "--programmes",
+                programmes_enriched,
+                "--docs",
+                faculty_documents_normalized,
                 "--out",
-                merged_docs,
+                programmes_with_faculty_documents,
+                "--audit-out",
+                document_program_match_audit,
+                "--unmatched-docs-out",
+                unmatched_faculty_documents,
             ),
             REPO_ROOT,
-            output=merged_docs,
-            required_inputs=(program_links, faculty_normalized),
+            output=programmes_with_faculty_documents,
+            required_inputs=(programmes_enriched, faculty_documents_normalized),
         ),
         Step(
             17,
-            "merge: unmatched patch",
+            "documents: patch unmatched faculty docs",
             "merge",
             python_cmd(
-                IMPORT_DIR / "unmatched_patch.py",
-                "--in",
-                merged_docs,
+                IMPORT_DIR / "patch_unmatched_faculty_documents.py",
+                "--programmes",
+                programmes_with_faculty_documents,
+                "--unmatched-docs",
+                unmatched_faculty_documents,
                 "--out",
-                merged_docs_enriched,
+                programmes_with_faculty_documents_patched,
+                "--patch-audit-out",
+                document_program_patch_audit,
+                "--remaining-unmatched-out",
+                unmatched_faculty_documents_remaining,
             ),
             REPO_ROOT,
-            output=merged_docs_enriched,
-            required_inputs=(merged_docs,),
+            output=programmes_with_faculty_documents_patched,
+            required_inputs=(programmes_with_faculty_documents, unmatched_faculty_documents),
         ),
     ]
-
 
 def print_paths() -> None:
     print("Resolved paths:")
